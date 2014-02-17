@@ -2,3 +2,4 @@ name: UX Brighton
 markdown: redcarpet
 permalink: /:title/
 pygments: true
+url: http://alexandtheweb.github.io/uxbrighton
