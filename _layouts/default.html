@@ -10,8 +10,8 @@
 
 	<meta name="description" content="UX Brighton">
 	<link rel="stylesheet" href="{{ relative }}css/styles.css">
-	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-   <!--  <link rel="icon" type="image/png" href="img/favicon.ico">
+<!-- 	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+ -->   <!--  <link rel="icon" type="image/png" href="img/favicon.ico">
 	 --> <!--[if lt IE 9]>  
 	      <script src="js/html5shiv.js"></script>
 	  <![endif]--> 	  
@@ -29,25 +29,6 @@
 		});
 		$("#eventList").mixitup();
 	})
-
-var relative = null;
-if (location.protocol==='file:') {
-    relative = Array($('link[rel="canonical"]').attr('href').match(/\//g).length-2).join('../');
-    if (relative == '') relative = './';
-}
-function to_relative(link, index) {
-    if (!relative) return link;
-    var hash = link ? link.match(/#.*$/) : null;
-    if (hash) link = link.replace(/#.*$/, '');
-    return link?(link.replace(/^\//, relative)+(index?(link.substr(-1)=='/'?'index.html':''):'')+(hash?hash[0]:'')):null;
-}
-
-$(function(){
-    if (relative) {
-        $('a').attr('href', function(a,b){return to_relative(b, true);});
-        $('img').attr('src', function(a,b){return to_relative(b, false);});
-    }
-});
 
 	</script>
 </body>
