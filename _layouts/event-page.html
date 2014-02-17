@@ -1,0 +1,51 @@
+---
+layout: default
+---
+	{% include header.html %}	
+	<div class="container">
+		<div class="row">				
+		 		{% include nav-lg.html %}
+				<main class="content-main-detail" role="main">
+					<section class="event-detail">
+						<div class="event-detail_desc">
+							<h1 class="event-title">{{page.title}}</h1>
+							<p><strong>{{page.date | date: "%d %B, %Y"}} from {{ page.start}} to {{ page.end}}</strong></p>
+							{{ content }}
+							{% if page.speakers %}
+							<h2>Talks</h2>
+							{% for speaker in page.speakers %} 
+							<article class="talk-details">
+								<h3>{{speaker.talk.title}}</h3>
+								<p>{{speaker.name}} <a href="http://www.twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a></p>
+								<p>{{speaker.talk.desc}}</p>
+								{% if speaker.bio %}
+									<h4>About the speaker:</h4>
+									<p>{{speaker.bio}}</p>
+								{% endif %}
+							</article>	
+							{% endfor %}
+							{% endif %}
+							{% if page.categories contains 'upcoming' %}
+							<h2>Book tickets</h2>
+							Embed here
+							{% endif %}	
+						</div>
+						<aside class="event-detail_meta">
+						{% if page.categories contains 'upcoming' %}
+							<a class="btn btn-large" href="{{page.book}}">Book tickets</a>
+						{% endif %}	
+							<ul class="event-detail_list">
+								<li class="event-venue"><strong class="">Contact organiser:</strong><br> {{page.organiser}}</li>
+								<li class="event-venue"><strong class="">Lanyrd:</strong><br> {{page.lanyrd}}</li>
+								<li class="event-venue"><strong class="">Venue:</strong><br> {{page.venue}}
+								<iframe height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=The+Victory,+Duke+Street,+Brighton&amp;aq=0&amp;oq=the+victory+&amp;sll=50.859247,-0.09965&amp;sspn=0.01005,0.026093&amp;ie=UTF8&amp;hq=The+Victory,&amp;hnear=Duke+St,+Brighton,+United+Kingdom&amp;t=m&amp;ll=50.822611,-0.142179&amp;spn=0.004067,0.006437&amp;z=16&amp;output=embed"></iframe>
+								</li>
+								{% if page.categories contains 'upcoming' %}
+								<li class="event-venue"><strong class=""><a href="">Add to calendar</a></li>
+								{% endif %}
+							</ul>
+						</aside>						
+					</section>	
+				</main>
+		 </div>
+	</div>	

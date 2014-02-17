@@ -1,0 +1,5 @@
+name: UX Brighton
+markdown: redcarpet
+permalink: /:title/
+pygments: true
+url: http://0.0.0.0:4000
