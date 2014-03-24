@@ -2,19 +2,10 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/_site\/archive\/2008\/04\/15\/double-bill-designing-the-ux-curve.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2008\/04\/15\/double-bill-designing-the-ux-curve.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/less\/responsive-utilities.less" : {
+    "\/less\/variables.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_site\/less\/responsive-utilities.less",
-      "outputAbbreviatedPath" : "\/_site\/css\/responsive-utilities.css",
+      "inputAbbreviatedPath" : "\/less\/variables.less",
+      "outputAbbreviatedPath" : "\/css\/variables.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -37,19 +28,37 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/archive\/2011\/11\/04\/ux-brighton-2011.html" : {
+    "\/_site\/a-brief-guide-to-service-design\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2011\/11\/04\/ux-brighton-2011.html",
+      "inputAbbreviatedPath" : "\/_site\/a-brief-guide-to-service-design\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/less\/variables.less" : {
+    "\/_includes\/nav-sm.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/nav-sm.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/measuring-online-engagement\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/measuring-online-engagement\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/less\/responsive-utilities.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/less\/variables.less",
-      "outputAbbreviatedPath" : "\/css\/variables.css",
+      "inputAbbreviatedPath" : "\/_site\/less\/responsive-utilities.less",
+      "outputAbbreviatedPath" : "\/_site\/css\/responsive-utilities.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -63,30 +72,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_includes\/nav-sm.html" : {
+    "\/_site\/ux-brighton-goes-for-a-spin\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/nav-sm.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/archive\/2010\/01\/12\/a-brief-guide-to-service-design.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/01\/12\/a-brief-guide-to-service-design.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/archive\/2010\/05\/11\/design-games.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/05\/11\/design-games.html",
+      "inputAbbreviatedPath" : "\/_site\/ux-brighton-goes-for-a-spin\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -107,12 +98,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2008\/09\/15\/measuring-online-engagement.html" : {
+    "\/_site\/practical-insights-out-of-the-box-experience\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2008\/09\/15\/measuring-online-engagement.html",
+      "inputAbbreviatedPath" : "\/_site\/practical-insights-out-of-the-box-experience\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -133,12 +124,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2008\/08\/19\/local-and-remote-usability-testing.html" : {
+    "\/_site\/mental-models-service-design\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2008\/08\/19\/local-and-remote-usability-testing.html",
+      "inputAbbreviatedPath" : "\/_site\/mental-models-service-design\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -148,6 +139,24 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_includes\/_site\/header.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/practical-tips-and-templates\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/practical-tips-and-templates\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/uxcb13redux\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/uxcb13redux\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -162,22 +171,14 @@
       "outputAbbreviatedPath" : "\/_site\/js\/event-ck.js",
       "fileType" : 64
     },
-    "\/less\/mixins.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/less\/mixins.less",
-      "outputAbbreviatedPath" : "\/css\/mixins.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/_includes\/header.html" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/header.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -197,12 +198,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_includes\/header.html" : {
+    "\/archive.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/header.html",
+      "inputAbbreviatedPath" : "\/archive.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -234,6 +235,23 @@
       "outputAbbreviatedPath" : "\/_site\/js\/fx-ck.js",
       "fileType" : 64
     },
+    "\/less\/mixins.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/less\/mixins.less",
+      "outputAbbreviatedPath" : "\/css\/mixins.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/_site\/less\/grid.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_site\/less\/grid.less",
@@ -260,30 +278,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/archive\/2010\/07\/13\/supergoogleanalyticsexpialidocious.html" : {
+    "\/_site\/mobile-design-triple-bill\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/07\/13\/supergoogleanalyticsexpialidocious.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/archive\/2011\/01\/11\/mobile-design-triple-bill.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2011\/01\/11\/mobile-design-triple-bill.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/archive\/2013\/08\/13\/summer-special.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2013\/08\/13\/summer-special.html",
+      "inputAbbreviatedPath" : "\/_site\/mobile-design-triple-bill\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -304,12 +304,21 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2010\/11\/09\/listening.html" : {
+    "\/_site\/oktoberfest\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/11\/09\/listening.html",
+      "inputAbbreviatedPath" : "\/_site\/oktoberfest\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/ux-quiz\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/ux-quiz\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -330,12 +339,21 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2010\/02\/09\/finding-your-way-in-wayfinding.html" : {
+    "\/_site\/3authors-2books-1event\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/02\/09\/finding-your-way-in-wayfinding.html",
+      "inputAbbreviatedPath" : "\/_site\/3authors-2books-1event\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/ux-brighton-2011\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/ux-brighton-2011\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -361,6 +379,15 @@
       "outputAbbreviatedPath" : "\/js\/fx-ck.js",
       "fileType" : 64
     },
+    "\/_site\/hands-on-with-eyetracking-and-biometrics\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/hands-on-with-eyetracking-and-biometrics\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -370,12 +397,57 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/archive\/2014\/01\/14\/uxcb13redux.html" : {
+    "\/_site\/ux-brighton-2010\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2014\/01\/14\/uxcb13redux.html",
+      "inputAbbreviatedPath" : "\/_site\/ux-brighton-2010\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/archive.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/archive.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/information-visualisation-mini-event\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/information-visualisation-mini-event\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/supergoogleanalyticsexpialidocious\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/supergoogleanalyticsexpialidocious\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/curry-night\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/curry-night\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/local-and-remote-usability-testing\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/local-and-remote-usability-testing\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -389,6 +461,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/event-ck.js",
       "fileType" : 64
+    },
+    "\/_site\/objects-and-play\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/objects-and-play\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/less\/responsive-utilities.less" : {
       "ieCompatibility" : 1,
@@ -407,15 +488,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2010\/12\/14\/curry-night.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/12\/14\/curry-night.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/html5shiv.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -427,21 +499,21 @@
       "outputAbbreviatedPath" : "\/js\/html5shiv-ck.js",
       "fileType" : 64
     },
-    "\/_site\/archive\/2009\/05\/12\/a-journey-from-ethnography-to-design.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2009\/05\/12\/a-journey-from-ethnography-to-design.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_posts\/2010-09-13-ux-brighton-2010.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_posts\/2010-09-13-ux-brighton-2010.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/summer-special\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/summer-special\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -456,34 +528,25 @@
       "outputAbbreviatedPath" : "\/_site\/js\/jquery.mixitup.min-ck.js",
       "fileType" : 64
     },
-    "\/_site\/upcoming\/2014\/02\/12\/ux-quiz.html" : {
+    "\/_site\/js\/html5shiv.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/upcoming\/2014\/02\/12\/ux-quiz.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/archive\/2012\/07\/10\/mobile-user-testing.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2012\/07\/10\/mobile-user-testing.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/fx_methods.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/fx_methods.js",
+      "inputAbbreviatedPath" : "\/_site\/js\/html5shiv.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/fx_methods-ck.js",
+      "outputAbbreviatedPath" : "\/_site\/js\/html5shiv-ck.js",
       "fileType" : 64
+    },
+    "\/_site\/mobile-user-testing\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/mobile-user-testing\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/less\/variables.less" : {
       "ieCompatibility" : 1,
@@ -502,14 +565,25 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2009\/04\/14\/mental-models-service-design.html" : {
+    "\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/styles.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/fx_methods.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2009\/04\/14\/mental-models-service-design.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/fx_methods.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/fx_methods-ck.js",
+      "fileType" : 64
     },
     "\/_site\/js\/fx_methods.js" : {
       "ignoreWasSetByUser" : 0,
@@ -522,25 +596,14 @@
       "outputAbbreviatedPath" : "\/_site\/js\/fx_methods-ck.js",
       "fileType" : 64
     },
-    "\/_site\/js\/html5shiv.js" : {
+    "\/_site\/listening\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/html5shiv.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/js\/html5shiv-ck.js",
-      "fileType" : 64
-    },
-    "\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/styles.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/_site\/listening\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_layouts\/event-page.html" : {
       "ignoreWasSetByUser" : 0,
@@ -588,15 +651,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2010\/10\/12\/3authors-2books-1event.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/10\/12\/3authors-2books-1event.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_site\/less\/mixins.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_site\/less\/mixins.less",
@@ -614,12 +668,30 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2008\/07\/15\/objects-and-play.html" : {
+    "\/_site\/finding-your-way-in-wayfinding\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2008\/07\/15\/objects-and-play.html",
+      "inputAbbreviatedPath" : "\/_site\/finding-your-way-in-wayfinding\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/double-bill-designing-the-ux-curve\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/double-bill-designing-the-ux-curve\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_posts\/2013-10-08-oktoberfest.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2013-10-08-oktoberfest.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -639,15 +711,6 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/_site\/archive\/2008\/05\/13\/practical-insights-out-of-the-box-experience.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2008\/05\/13\/practical-insights-out-of-the-box-experience.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_site\/less\/overrides.less" : {
       "ieCompatibility" : 1,
@@ -682,24 +745,6 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/_site\/archive\/2013\/06\/11\/ux-brighton-goes-for-a-spin.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2013\/06\/11\/ux-brighton-goes-for-a-spin.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/archive\/2013\/10\/08\/oktoberfest.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2013\/10\/08\/oktoberfest.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_includes\/nav.html" : {
       "ignoreWasSetByUser" : 0,
@@ -755,21 +800,30 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2010\/03\/09\/practical-tips-and-templates.html" : {
+    "\/_layouts\/archive.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/03\/09\/practical-tips-and-templates.html",
+      "inputAbbreviatedPath" : "\/_layouts\/archive.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/archive\/2010\/04\/10\/hands-on-with-eyetracking-and-biometrics.html" : {
+    "\/_site\/a-journey-from-ethnography-to-design\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/04\/10\/hands-on-with-eyetracking-and-biometrics.html",
+      "inputAbbreviatedPath" : "\/_site\/a-journey-from-ethnography-to-design\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/design-games\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/design-games\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -807,15 +861,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2010\/08\/10\/information-visualisation-mini-event.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/08\/10\/information-visualisation-mini-event.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_site\/less\/utilities.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_site\/less\/utilities.less",
@@ -833,12 +878,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_site\/archive\/2010\/09\/13\/ux-brighton-2010.html" : {
+    "\/_includes\/nav-lg.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/archive\/2010\/09\/13\/ux-brighton-2010.html",
+      "inputAbbreviatedPath" : "\/_includes\/nav-lg.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -858,24 +903,6 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/_site\/2008\/09\/16\/measuring-online-engagement.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2008\/09\/16\/measuring-online-engagement.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_includes\/nav-lg.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/nav-lg.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     }
   },
   "manualImportLinks" : [
