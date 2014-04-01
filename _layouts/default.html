@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{ page.title }} - UX Brighton</title>
+	<title>{{ page.title }} UX Brighton</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
@@ -17,19 +17,10 @@
 	  <![endif]--> 	  
 </head>
 <body>
+	{% include header.html %}
+	<div class="container">
 	{{ content }}
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="{{ relative }}js/jquery.mixitup.min.js"></script>
-	<script>
-	$('document').ready(function(){
-		var $menu = $('#menuDropdown');
-		$menu.hide();
-		$('#menuTrigger').on('click',function(){
-			$menu.toggle();
-		});
-		$("#eventList").mixitup();
-	})
-
-	</script>
+	</div>
+	{% include footer.html %}
 </body>
 </html>

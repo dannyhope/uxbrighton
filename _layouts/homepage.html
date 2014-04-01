@@ -1,0 +1,53 @@
+---
+layout: default
+---
+	<main class="content-main-detail" role="main">
+	{% for category in site.categories %}
+		{% for pages in category %}
+			{% for page in pages %}
+				{% if page.upcoming %}
+					<section class="event-detail">
+						<div class="event-detail_desc">
+							<h1 class="event-title">{{page.title}}</h1>
+							<ul>
+								<li><a href="{{page.calendar}}">{{page.date | date: "%d %B, %Y"}} at {{page.start}}</a></li>
+								<li>
+									{% if page.venue == "Fabrica" %}
+									<a href="https://www.google.co.uk/maps/preview?ie=UTF-8&q=Fabrica&fb=1&gl=uk&hq=fabrica+brighton+map&cid=14449724007721988412&ei=TmssU5LZFsaK0AWOyICADQ&ved=0CJwBEPwSMBM">Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG</a>
+									{% else if page.venue == "Lighthouse" %}
+									<a href="https://www.google.co.uk/maps/place/Lighthouse+Arts/@50.825959,-0.1383446,17z/data=!3m1!4b1!4m2!3m1!1s0x48758575663032a1:0x1316760b33779607">Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ</a>
+									{% endif %}
+								</li>
+							</ul>
+							
+							{{ page.content }}
+
+						</div>
+						<aside class="event-detail_meta">
+
+						<!-- Organisers -->
+							{% if page.organisers %}
+							<h3>Organisers</h3>
+							<ul>
+							{% for organiser in page.organisers %} 
+								{% if organiser == "Alex" %}
+									<li>Alex <a href="http://www.twitter.com/alexandtheweb"></a> | <a href="http://www.alexandtheweb.com">Website</a></li>
+								{% else if organiser == "Danny" %}
+									<li>Danny <a href="http://www.twitter.com/yandle"></a> | <a href="http://dannyhope.co.uk/">Website</a></li>
+								{% else if organiser == "Patrick" %}
+									<li>Patrick - <a href="http://www.linkedin.com/in/patricksansomdesigner">Website</a></li>
+								{% endif %}
+							{% endfor %}		
+							</ul>			
+							{% endif %}			 
+						</aside>						
+					</section>	
+			{% endif %}
+		  {% endfor %}
+		{% endfor %}
+	{% endfor %}	
+	</main>	
+	{% include nav-lg.html %}	
+	
+
+
