@@ -1,12 +1,12 @@
 	<nav class="nav-side" role="navigation">
 	{% for category in site.categories %}
  		{% if category contains 'upcoming' %}
-			<h2 class="title-list-header">Upcoming events</h2>
-			<ul class="title-list">
+			<h2 class="event-title-list-header">Upcoming events</h2>
+			<ul class="event-title-list">
 			{% for posts in category %}
 				{% for post in posts %}
-				<li class="title-list-item">
-					<a href="{{ site.url }}{{post.url}}">{{ post.title }}</a>
+				<li class="event-title-list-item">
+					<a href="{{ site.url }}{{post.url}}">{{ post.event-title }}</a>
 				</li>
 			  {% endfor %}
 			{% endfor %}
@@ -16,11 +16,11 @@
 
 	{% for category in site.categories %}
  		{% if category contains 'archive' %}
-			<h2 class="title-list-header">Past events</h2>
-			<ul class="title-list">
+			<h2 class="event-title-list-header">Past events</h2>
+			<ul class="event-title-list">
 			{% for posts in category %}
 				{% for post in posts %}
-				<li class="title-list-item">
+				<li class="event-title-list-item">
 					<a href="{{ site.url }}{{post.url}}">{{ post.title }}</a>
 				</li>
 			  {% endfor %}
