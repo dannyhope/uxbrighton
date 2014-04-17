@@ -8,8 +8,12 @@ body {
     margin: 0 auto;
 }
 .nav-side {
+	min-width: 100px;
     width: 25%;
     float: left;
+}
+.nav-side a {
+	text-decoration: none;
 }
 .content-main-detail {
     width: 75%;
