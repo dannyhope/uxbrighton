@@ -2,6 +2,8 @@
 body {
     font-size: 18px;
     line-height: 1.5;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
 }
 .container {
     max-width: 75em;
