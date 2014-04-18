@@ -9,12 +9,12 @@ body {
     max-width: 75em;
     margin: 0 auto;
 }
-.nav-side {
+nav {
 	min-width: 100px;
     width: 25%;
     float: left;
 }
-.nav-side a {
+nav a {
 	text-decoration: none;
 }
 .content-main-detail {
