@@ -5,7 +5,7 @@ layout: default
 	{% for category in site.categories %}
 		{% for pages in category %}
 			{% for page in pages %}
-				{% if page.upcoming %}
+				{% if page.homepage %}
 					<section class="event-detail">
 						<div class="event-detail_desc">
 							<h1 class="event-title">{{page.title}}</h1>

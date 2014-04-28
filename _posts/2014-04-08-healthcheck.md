@@ -1,14 +1,14 @@
 ---
 layout: event-page
 categories: [archive]
-title: UX Brighton - The Healthcheck
+title: The Healthcheck
 start: 7pm
 venue: Lighthouse
 organisers: 
 - Alex
 lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
 calendar-url: #
-upcoming: yes
+upcoming: false
 ---
 
 The April edition of UX Brighton takes on the big challenges of designing for health and wellbeing. Say hello to our three fantastic speakers.

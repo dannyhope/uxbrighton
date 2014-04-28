@@ -8,6 +8,7 @@ organisers:
 - Patrick
 lanyrd-url: http://lanyrd.com/2014/uxbristrategy/
 calendar-url: #
-upcoming: yes
+upcoming: true
+homepage: true
 ---
 

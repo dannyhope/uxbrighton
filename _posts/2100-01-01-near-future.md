@@ -7,6 +7,6 @@ venue:
 organisers: 
 lanyrd-url: 
 calendar-url: #
-upcoming: 
+stub: true
 ---
 
