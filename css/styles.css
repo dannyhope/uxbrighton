@@ -62,6 +62,7 @@ nav.nav-side {
 	}
 
 	nav.nav-side {
+		display: block;
 		min-width: 100px;
 		width: 25%;
 		float: left;
