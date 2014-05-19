@@ -3,12 +3,12 @@ layout: event-page
 categories: [archive]
 title: UX Strategy
 start: 7pm
-venue: Lighthouse
+venue: Hotel du Vin
 organisers: 
 - Patrick
 lanyrd-url: http://lanyrd.com/2014/uxbristrategy/
 calendar-url: #
-upcoming: true
-homepage: true
+upcoming: false
+homepage: false
 ---
 

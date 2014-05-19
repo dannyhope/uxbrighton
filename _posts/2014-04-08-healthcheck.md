@@ -6,14 +6,12 @@ start: 7pm
 venue: Lighthouse
 organisers: 
 - Alex
-lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
+lanyrd-url: http://lanyrd.com/2014/uxbrihealth/
 calendar-url: #
 upcoming: false
 ---
 
 The April edition of UX Brighton takes on the big challenges of designing for health and wellbeing. Say hello to our three fantastic speakers.
-
-<div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.co.uk/tickets-external?eid=10899822663&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.co.uk/r/etckt">Sell Tickets</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.co.uk?ref=etckt">Eventbrite</a></div></div>
 
 ### Emotional UX
 
