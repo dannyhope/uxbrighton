@@ -4,7 +4,8 @@ title: UX Brighton goes for a spin
 categories: [archive]
 conference: false
 venue: Lighthouse
-organiser: Tom Prior
+organisers: 
+- Tom
 speakers: 
 - name: Phil Higgs
   twitter: 

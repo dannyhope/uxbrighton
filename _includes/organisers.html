@@ -1,0 +1,23 @@
+<!-- Organisers -->
+			{% if page.organisers %}
+			<h3>Organisers</h3>
+			<ul>
+			{% for organiser in page.organisers %} 
+				{% if organiser == "Alex" %}
+					<li><a href="http://www.twitter.com/alexandtheweb">Alex</a> | <a href="http://www.alexandtheweb.com">Website</a></li>
+				{% elsif organiser == "Danny" %}
+					<li><a href="http://www.twitter.com/yandle">Danny</a> | <a href="http://dannyhope.co.uk/">Website</a></li>
+				{% elsif organiser == "Patrick" %}
+					<li><a href="https://twitter.com/Patrick_Sansom">Patrick</a> | <a href="http://www.linkedin.com/in/patricksansomdesigner">Website</a></li>
+				{% elsif organiser == "Luke" %}
+					<li><a href="http://www.twitter.com/hayluke">Luke</a> | <a href="http://www.lukehay.co.uk/">Website</a></li>
+				{% endif %}	
+				{% elsif organiser == "Tim" %}
+					<li><a href="https://twitter.com/timminor">Tim</a> | <a href="http://www.t75.org/">Website</a></li>
+				{% endif %}				
+				{% elsif organiser == "Tom" %}
+					<li><a href="https://twitter.com/tomprior">Tom</a> | <a href="http://thomasprior.co.uk/">Website</a></li>
+				{% endif %}									
+			{% endfor %}		
+			</ul>			
+			{% endif %}	

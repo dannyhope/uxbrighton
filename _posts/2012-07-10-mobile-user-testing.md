@@ -4,6 +4,8 @@ title: Mobile User Testing Edition
 categories: [archive]
 conference: false
 venue: Fabrica
+organisers: 
+- Alex
 speakers: 
 - name: Raj Arjan 
   twitter: RajArjan
