@@ -1,9 +1,11 @@
 ---
 layout: event-page
-title: Gameplay research &amp; design
+title: Remote User Research – a 360° view
 categories: [archive]
 conference: false
 ---
+
+
 
 
 
