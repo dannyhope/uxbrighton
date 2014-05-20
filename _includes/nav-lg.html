@@ -1,10 +1,8 @@
 
 	<nav class="nav-side" role="navigation">
 
-	{% for category in site.categories %}
  			<ul class="event-title-list">
-			{% for posts in category %}
-				{% for post in posts %}
+				{% for post in site.posts %}
 				{% if post.stub == true %}	
 				{% else %}		
 					<li class="event-title-list-item">
@@ -12,8 +10,6 @@
 					</li>
 				{% endif %}
 			  {% endfor %}
-			{% endfor %}
 			</ul>
-	{% endfor %}
 
 	</nav>
