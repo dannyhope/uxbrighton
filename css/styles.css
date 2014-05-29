@@ -59,6 +59,9 @@ nav.nav-side {
 	display: none;
 }
 @media (min-width: 50rem) {
+	body {
+		padding: 0;
+	}
 	.container {
 		max-width: 75em;
 		margin: 0 auto;
