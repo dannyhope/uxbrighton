@@ -32,14 +32,6 @@ a {
 	margin-left: none !important;
 	padding-left: none !important;
 }
-.event-detail ul li {
-    list-style-type: none;
-	display: inline;
-}
-.event-detail ul a {
-	text-decoration: none;
-	padding: 1rem 0;
-}
 	.event-detail ul li {
 	    list-style-type: none;
 		display: inline;
