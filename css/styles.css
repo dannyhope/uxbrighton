@@ -21,11 +21,16 @@ h3 {
 	font-size: 1rem;
 	font-weight: 500;
 }
+h4 {
+	font-size: 1rem;
+	font-weight: 500;
+}
 p {
 	font-size: 1rem;
 }
 a {
 	font-size: 1rem;
+	color: rgb(16, 139, 193);
 }
 
 .event-detail ul {
