@@ -1,4 +1,4 @@
 Once the beta site is feature-complete, Jay needs to:
 
  * ensure uxbrighton.org.uk is the canonical domain, with no redirects
- * that historical urls like 2013.uxbrighton.org.uk and 2012.uxbrighton.org.uk, etc redirect to the relevant subdomain, e.g. uxbrighton.org.uk/2013 
+ * that historical urls like 2013.uxbrighton.org.uk and 2012.uxbrighton.org.uk, etc redirect to the relevant folder, e.g. uxbrighton.org.uk/2013
