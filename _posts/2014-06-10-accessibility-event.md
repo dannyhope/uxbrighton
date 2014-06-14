@@ -22,7 +22,7 @@ Online accessibility/inclusive design is about making sure that everyone has equ
 
 While there are plenty of ethical reasons to take an ‘accessibility first’ design approach Mark will focus on the business reasons, which will help you to encourage even the most sceptical stakeholders of its value. With over 12 million disabled people in the UK alone, with a spending power of £120 billion, this is a large and lucrative market that cannot be ignored.
 
-<div class="embed-container hd"><iframe src="http://www.slideshare.net/slideshow/embed_code/35707261" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="embed-container vga"><iframe src="http://www.slideshare.net/slideshow/embed_code/35707261" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 ## Accessibility originates with UX – [Henny Swan, BBC](http://twitter.com/iheni)
 
