@@ -24,9 +24,9 @@ While there are plenty of ethical reasons to take an ‘accessibility first’ d
 
 <div class="embed-container vga"><iframe src="http://www.slideshare.net/slideshow/embed_code/35707261" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
-## Accessibility originates with UX – [Henny Swan, BBC](http://twitter.com/iheni)
+<!-- ## Accessibility originates with UX – [Henny Swan, BBC](http://twitter.com/iheni)
 
-Henny will take a look at how BBC are turning accessibility - a bolt on developer and accessibility specialist silo - into fluid, integrated, inclusive design. With a goal of making products not just accessible but also fun and engaging for all users, she will spotlight how the needs of disabled users are not so different to that of all users in a world of multiple inputs, platforms and devices.
+Henny will take a look at how BBC are turning accessibility - a bolt on developer and accessibility specialist silo - into fluid, integrated, inclusive design. With a goal of making products not just accessible but also fun and engaging for all users, she will spotlight how the needs of disabled users are not so different to that of all users in a world of multiple inputs, platforms and devices. -->
 
 ## User testing with assistive technologies – [Joshua Marshall, Government Development Service](http://twitter.com/partiallyblind)
 
