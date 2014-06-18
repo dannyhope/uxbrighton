@@ -1,31 +1,13 @@
 ---
 layout: default
 ---
-	{% for category in site.categories %}
-			<h2 class="event-list-header">Past events</h2>
-			<!-- <nav class="event-list-header-group">
-				<ul class="filter-group">
-				    <li class="filter" data-filter="event-year-2014">2014</li>
-				    <li class="filter" data-filter="event-year-2013">2013</li>
-				    <li class="filter" data-filter="event-year-2012">2012</li>
-				    <li class="filter" data-filter="event-year-2011">2011</li>
-				    <li class="filter" data-filter="event-year-2010">2010</li>
-				    <li class="filter" data-filter="event-year-2009">2009</li>
-				    <li class="filter" data-filter="event-year-2008">2008</li>
-				</ul>
-			</nav> -->
-			<ul id="eventList" class="event-list">
-			{% for posts in category %}
-				{% for post in posts %}
-				{% if !post.upcoming %}
-				<li>
-					<article class="event-list-item_inner">
-						<h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
-						<p><strong>{{ post.date | date: "%d %B, %Y" }}</strong></p>
-					</article>
-				</li>
-				{% endif %}
-			  {% endfor %}
-			{% endfor %}
-			</ul>
-	{% endfor %}
+<h1 class="event-list-header">Event archive</h1>
+{% for post in site.posts %}
+{% if post.stub == true %}	
+{% else %}	
+<article class="event-list-item_inner">
+	<h2><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h2>
+	<p><strong>{{ post.date | date: "%d %B, %Y" }}</strong></p>
+</article>
+{% endif %}
+{% endfor %}
