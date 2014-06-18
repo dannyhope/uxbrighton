@@ -13,6 +13,7 @@ speakers:
 - name: Danny Hope
   twitter: 
   talk-title: 
+stub: true
 ---
 
 
