@@ -1,7 +1,7 @@
 ---
 layout: event-page
 categories: [archive]
-title: The Healthcheck
+title: Designing fo Health and Wellbeing
 start: 7pm
 venue: Lighthouse
 organisers: 
