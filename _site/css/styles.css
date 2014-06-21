@@ -87,6 +87,7 @@ nav.nav-side .event-title-list {
 	}
 
 	nav.nav-side .event-title-list {
+		display: block;
 		min-width: 100px;
 		width: 25%;
 		float: left;
