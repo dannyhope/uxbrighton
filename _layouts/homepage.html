@@ -4,15 +4,13 @@ layout: default
 	<p class="intro-blurb strapline">UX Brighton is a volunteer community group. We run monthly meet ups as well as an annual conference.</p>
 	<p class="feedback-link">This site is currently under development so we’d love it if youcould take a few minutes to <a href="https://github.com/dannyhope/uxbrighton/issues/new">send us feedback</a> (via Github)</p>
 	<main class="content-main-detail" role="main">
-	{% for category in site.categories %}
-		{% for pages in category %}
-			{% for page in pages %}
-				{% if page.homepage %}
+	{% for post in site.posts reversed %}
+				{% if post.homepage %}
 					<section class="event-detail">
 						<div class="event-detail_desc">
-							<h1 class="event-title">{{page.title}}</h1>
+							<h1 class="event-title">{{post.title}}</h1>
 							<ul>
-								<li><a href="{{page.calendar}}">{{page.date | date: "%d %B, %Y"}} at {{page.start}}</a></li>
+								<li><a href="{{post.calendar}}">{{post.date | date: "%d %B, %Y"}} at {{post.start}}</a></li>
 								<li>
 									{% if page.venue == "Fabrica" %}
 									<a href="https://www.google.co.uk/maps/preview?ie=UTF-8&q=Fabrica&fb=1&gl=uk&hq=fabrica+brighton+map&cid=14449724007721988412&ei=TmssU5LZFsaK0AWOyICADQ&ved=0CJwBEPwSMBM">Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG</a>
@@ -24,7 +22,7 @@ layout: default
 								</li>
 							</ul>
 							
-							{{ page.content }}
+							{{ post.content }}
 
 						</div>
 						<aside class="event-detail_meta">
@@ -32,8 +30,6 @@ layout: default
 						</aside>						
 					</section>	
 			{% endif %}
-		  {% endfor %}
-		{% endfor %}
 	{% endfor %}	
 	</main>	
 	{% include nav-lg.html %}	
