@@ -25,23 +25,26 @@ layout: default
 			{{ content }}
 
 		<!-- Spread the word and ticket rules - only show when event is upcoming -->
-		{% if page.upcoming %}
-			<h2>Spread the word</h2>
 
-		{% if page.lanyrd-url %}
-			<h3>Lanyrd</h3>
-			<p>There are more details about the event on our <a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd page</a>. 
-			Don't forget add yourself as tracking or attending :-)</p>
-		{% endif %}	
+		{% if page.conference == null %}
 
-			<h3>Deposit</h3>
+			{% if page.upcoming %}
+				<h2>Spread the word</h2>
 
-			<p>There is a £5 deposit for each ticket. If you would like your deposit returned, we will issue a refund as long as you attended the event and then email us a refund request within 3 days after the event.  The proceeds go t</p>owards paying for the beer and venue hire, and helping fund future evening events.
+				{% if page.lanyrd-url %}
+				<h3>Lanyrd</h3>
+				<p>There are more details about the event on our <a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd page</a>. Don't forget add yourself as tracking or attending :-)</p>
+				{% endif %}	
 
-			<h3>Canceling</h3>
+				<h3>Deposit</h3>
 
-			<p>Ticket cancellations before the event must be requested by noon Friday before the event.</p>
-		{% endif %}	
+				<p>There is a £5 deposit for each ticket. If you would like your deposit returned, we will issue a refund as long as you attended the event and then email us a refund request within 3 days after the event.  The proceeds go t</p>owards paying for the beer and venue hire, and helping fund future evening events.
+
+				<h3>Canceling</h3>
+
+				<p>Ticket cancellations before the event must be requested by noon Friday before the event.</p>
+			{% endif %}	
+		{% endif %}		
 
 		</div>
 		<aside class="event-detail_meta">
