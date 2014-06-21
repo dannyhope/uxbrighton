@@ -9,7 +9,7 @@ organisers:
 lanyrd-url: http://lanyrd.com/2014/uxbriaccessibility/
 calendar-url: #
 upcoming: false
-homepage: true
+homepage: false
 ---
 
 The UX Brighton event for June looks at an issue that we should all be considering when building websites and apps: accessibility.
