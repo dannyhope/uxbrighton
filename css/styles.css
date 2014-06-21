@@ -68,9 +68,11 @@ a {
   padding-left: 30px;
   margin-left: 2rem;
 }
-nav.nav-side {
+nav.nav-side .event-title-list {
 	display: none;
 }
+
+
 @media (min-width: 50rem) {
 	body {
 		padding: 0;
@@ -84,8 +86,7 @@ nav.nav-side {
 		float: right;
 	}
 
-	nav.nav-side {
-		display: block;
+	nav.nav-side .event-title-list {
 		min-width: 100px;
 		width: 25%;
 		float: left;
@@ -105,6 +106,9 @@ nav.nav-side {
 	}
 	nav.nav-side ul li:last-child a {
 		border-bottom: 1px solid #ddd;
+	}
+	nav.nav-side .link-archive {
+		display: none;
 	}
 
 	footer { clear: both }
