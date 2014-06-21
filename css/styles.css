@@ -44,15 +44,16 @@ header img {
 	border: 0;
 }
 
+.event-list-heading h1 {
+	font-family: "HelveticaNeue-Bold", sans-serif;
+}
+
 .event-detail ul {
     list-style-type: none;
-	margin-left: none !important;
-	padding-left: none !important;
+	margin-left: 0;
+	padding-left: 0;
 }
-	.event-detail ul li {
-	    list-style-type: none;
-		display: inline;
-	}
+
 	.event-detail ul a {
 		text-decoration: none;
 		padding: 1rem 0;
@@ -100,7 +101,6 @@ nav.nav-side .event-title-list {
 		font-size: 1rem;
 		display: block;
 		border-top: 1px solid #ddd;
-		border-right: 1px solid #ddd;
 		padding: 0.25rem 1rem;
 	}
 	nav.nav-side ul li a:hover {
