@@ -8,6 +8,8 @@ conference: false
 ###How (not) to run successful international user research projects
 ####Carsten Schmitt &amp; Poppy James, Bunnyfoot.
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/yQkiPvddtHQ?list=PLmeBKCinpyZ9HEn0tKyUXqRgRoai9mh9s" frameborder="0" allowfullscreen></iframe>
+
 User research across several countries – be it surveys or user tests – has its own challenges. Some of them are well known (but nevertheless often forgotten) others are unexpected.
 Poppy and Carsten – a Briton and a German – do not aim to give you the ultimate 101 of international user research. A lot has been written about that already. What they do want to do instead is to talk about their own experiences to show you which problems you could encounter before you even start your testing abroad and what could happen if you don’t have that foreign language expertise in-house.
 Prepare to be surprised, shocked, and, hopefully, amused. And the end of this talk you should be able to add a few bullet points to your checklist for the next international project (bullet points will be provided).
@@ -17,6 +19,8 @@ Carsten Schmitt & Poppy James are consultants at Bunnyfoot, a User Experience Co
 
 ###Designing for Persuasion, Emotion and Trust On The Web
 ####Rob Gillham, HFI
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/I7KW1YYQ1J4?list=PLmeBKCinpyZ9HEn0tKyUXqRgRoai9mh9s" frameborder="0" allowfullscreen></iframe>
 
 Since the early ’60s, Social and Experimental Psychology Research that has taught us a great deal about the nature of persuasion in human psychology.
 In recent years, there’s been a flurry of books and articles on the subject – after all, persuasion is part of the elusive magic recipe for success in business. What’s been lacking, however, is a selection of case studies that give a solid understanding of what works and what doesn’t in the context of human-computer interaction.
