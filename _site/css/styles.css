@@ -40,6 +40,10 @@ a {
 	color: rgb(16, 139, 193);
 }
 
+header img {
+	border: 0;
+}
+
 .event-detail ul {
     list-style-type: none;
 	margin-left: none !important;
@@ -74,9 +78,6 @@ nav.nav-side .event-title-list {
 
 
 @media (min-width: 50rem) {
-	body {
-		padding: 0;
-	}
 	.container {
 		max-width: 75em;
 		margin: 0 auto;
@@ -120,8 +121,10 @@ nav.nav-side .event-title-list {
 	}
 	header img {
     	padding: 1.5rem 1rem 1rem 0;
+    	border: 0;
 	}
 }
+
 /* embedded slides */
 .embed-container.hd {
     position: relative;

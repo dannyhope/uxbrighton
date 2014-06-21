@@ -25,7 +25,7 @@ A former British Women’s Track Cycling Champion, Denise spent six years on the
 
 Prior to her athletic career Denise was a Systems Engineer at BAE Systems, specialising in human-system interaction and cockpit development on military aircraft.This started a career-long obsession with human-centered design and creating systems and services which are best matched to real human behaviour.Denise’s company, Hampson Solutions Ltd, provides consultancy services and training on behaviour change psychology to UK health organisations, and for the last 18 months she has worked in digital behaviour change commissioning for NHS England.
 
-## Medication reminder apps: the Bad and the Ugly - [Katarzyna Stawarz](http://twitter.com/falkowata) - [http://usabilitypanda.com/](http://usabilitypanda.com/)
+## Medication reminder apps: the Bad and the Ugly - [Katarzyna Stawarz](http://twitter.com/falkowata) - [usabilitypanda.com](http://usabilitypanda.com/)
 
 Katarzyna's talk will explore how women remember their oral contraception pills and what technologies or memory aids they use. Katarzyna will compare these strategies with functionality of medication reminder apps available for iPhones and Android phones to highlight the fact that these apps aren't very good. She'll go on to cover recommendations for designing medication reminders that meet users' needs.
 
