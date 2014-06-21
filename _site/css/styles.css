@@ -103,7 +103,7 @@ nav.nav-side .event-title-list {
 		border-top: 1px solid #ddd;
 		padding: 0.25rem 1rem;
 	}
-	nav.nav-side ul li a:hover {
+	nav.nav-side ul li a:hover, nav.nav-side .current a {
 		background: rgba(0,0,0,0.05);
 	}
 	nav.nav-side ul li:last-child a {
