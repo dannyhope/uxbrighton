@@ -7,7 +7,14 @@ layout: default
 			<h1 class="event-title">{{page.title}}</h1>
 		{% if page.upcoming %}
 			<ul>
-				<li><a href="{{page.calendar}}">{{page.date | date: "%d %B, %Y"}} at {{page.start}}</a></li>
+				<li>
+					<a href="{{page.calendar}}">
+					{{page.date | date: "%d %B, %Y"}} 
+					{% if page.start %}
+					at {{page.start}}
+					{% endif %}
+					</a>
+				</li>
 				<li>
 					{% if page.venue == "Fabrica" %}
 					<a href="https://www.google.co.uk/maps/preview?ie=UTF-8&q=Fabrica&fb=1&gl=uk&hq=fabrica+brighton+map&cid=14449724007721988412&ei=TmssU5LZFsaK0AWOyICADQ&ved=0CJwBEPwSMBM">Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG</a>
