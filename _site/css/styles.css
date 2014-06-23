@@ -96,6 +96,10 @@ header img {
 	font-family: "HelveticaNeue-Bold", sans-serif;
 }
 
+.event-detail h1 {
+	font-family: "museo-slab",sans-serif;
+}
+
 .event-detail p:first-of-type {
 	font-size: 1.5rem;
 }
@@ -225,10 +229,10 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		text-decoration: none;
 		color: #222;
 		font-weight: normal;
-		font-size: 1rem;
+		font-size: 0.8rem;
 		display: block;
 		border-top: 1px solid #ddd;
-		padding: 0.25rem 1rem;
+		padding: 0.25rem;
 	}
 	nav.nav-side ul li a:hover, nav.nav-side .current a {
 		background: rgba(0,0,0,0.05);
@@ -260,20 +264,20 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		padding: 0 1em;
 	}
 }
-/* embedded slides */
-.embed-container.hd {
+/* embedded videos and slides */
+
+.embed-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
+    padding-bottom: 100%; 
     height: 0;
     overflow: hidden;
 }
+
+.embed-container.hd {
+    padding-bottom: 56.25%; /* 16/9 ratio */
+}
 .embed-container.vga {
-    position: relative;
     padding-bottom: 77%; /* 4/3 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
 }
 .embed-container iframe,
 .embed-container object,
@@ -283,4 +287,11 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media (min-width: 75rem) {
+	.embed-container.vga {
+		margin-right: 25%;
+		padding-bottom: 56.25%;
+	}
 }
