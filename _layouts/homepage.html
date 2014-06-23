@@ -7,7 +7,7 @@ layout: default
 		<header class="event-list-heading">
 			<h1>Upcoming events</h1>
 		</header>
-	{% for post in site.posts reversed %}
+		{% for post in site.posts reversed %}
 				{% if post.homepage %}
 					<section class="event-detail">
 						<div class="event-detail_desc">

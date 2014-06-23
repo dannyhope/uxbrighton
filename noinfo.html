@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h2>Past events without much info</h2>
+<p>We don't have much information about the following past events:</p>
+{% for post in site.posts %}
+{% if post.noinfo == true %}	
+<article class="event-list-item_inner">
+	<h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
+	<p><strong>{{ post.date | date: "%d %B, %Y" }}</strong></p>
+</article>
+{% endif %}
+{% endfor %}

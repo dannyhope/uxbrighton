@@ -3,7 +3,7 @@ layout: event-page
 title: Remote User Research – a 360° view
 categories: [archive]
 conference: false
-stub: true
+noinfo: true
 ---
 
 
