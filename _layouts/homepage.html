@@ -11,22 +11,37 @@ layout: default
 				{% if post.homepage %}
 					<section class="event-detail">
 						<div class="event-detail_desc">
-							<h1 class="event-title">{{post.title}}</h1>
+							<h1 class="event-title"><a href="{{post.url}}">{{post.title}}</a></h1>
 							<ul>
-								<li><a href="{{post.calendar}}">{{post.date | date: "%d %B, %Y"}} at {{post.start}}</a></li>
 								<li>
-									{% if page.venue == "Fabrica" %}
-									<a href="https://www.google.co.uk/maps/preview?ie=UTF-8&q=Fabrica&fb=1&gl=uk&hq=fabrica+brighton+map&cid=14449724007721988412&ei=TmssU5LZFsaK0AWOyICADQ&ved=0CJwBEPwSMBM">Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG</a>
-									{% elsif page.venue == "Lighthouse" %}
-									<a href="https://www.google.co.uk/maps/place/Lighthouse+Arts/@50.825959,-0.1383446,17z/data=!3m1!4b1!4m2!3m1!1s0x48758575663032a1:0x1316760b33779607">Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ</a>
-									{% else %}
-									The venue for this event will be announced soon.
+									{{post.date | date: "%d %B, %Y"}} 
+									{% if post.start %}
+									at {{post.start}}
 									{% endif %}
 								</li>
-							</ul>
-							
-							{{ post.content }}
-
+								<li>
+									{% include venues.html %}
+								</li>
+								<li>
+								{% if post.lanyrd-url %}
+								Track or say you're attending on 
+								<a href="{{ post.lanyrd-url }}" target="_blank">Lanyrd</a>
+								{% endif %}	
+								</li>
+							</ul>			
+							<a href="{{post.url}}" title="Add to Calendar" class="addthisevent">
+							    Add to Calendar
+							    <span class="_start">{{post.date | date: "%d %B, %Y"}}  {{post.start}}</span>
+							    <span class="_end">{{post.date | date: "%d %B, %Y"}} {{post.end}}</span>
+							    <span class="_zonecode">36</span>
+							    <span class="_summary">{{post.title}}</span>
+							    <span class="_description"></span>
+							    <span class="_location">{% if post.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG{% elsif post.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% else %}The venue for this event will be announced soon.{% endif %}
+								</span>
+							    <span class="_organizer"></span>
+							    <span class="_facebook_event"></span>
+							    <span class="_date_format">DD/MM/YYYY</span>
+							</a>
 						</div>
 						<aside class="event-detail_meta">
  						{% include organisers.html %}	
