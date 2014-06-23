@@ -101,14 +101,22 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 .organiser-blurb {
 	background: white;
 	margin: 0 2em 2em 0;
-	padding: 0 1em;
+	padding: 0 2em 2em;
+}
+
+.organiser-blurb header {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
 }
 
 .organiser-blurb img {
-	margin-bottom: 1em;
 	border: 0;
+	margin-top: 2em;
+	margin-right: 1em;
 	max-width: 150px;
-	display: block;
+	min-width: 150px;
+	max-height: 150px;
 }
 
 .organiser-blurb h2 a:after {
@@ -173,9 +181,9 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 	}
 
 	.organiser-blurb {
-		width: calc(50% - 4em);
+		width: calc(50% - 6em);
 		float: left;
-		min-height: 430px;
+		min-height: 450px;
 	}
 
 	footer { clear: both }
