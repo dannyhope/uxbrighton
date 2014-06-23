@@ -17,13 +17,13 @@ Digital teams need to be reorganised with the responsibility for a user's experi
 
 ## What is UX strategy? - [Tim Loo](http://www.twitter.com/timothyloo), Strategy Director at Foolproof
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/34665271" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<div class="embed-container vga"><iframe src="http://www.slideshare.net/slideshow/embed_code/34665271" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
 
 ##Progressing UX from the tactical to the strategic - [Jason Ryan](http://www.twitter.com/jasonryan), Digital Strategist and Founding Partner at Brilliant Noise
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/34659836" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<div class="embed-container vga"><iframe src="http://www.slideshare.net/slideshow/embed_code/34659836" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
 
 ##The strategy is delivery - [Leisa Reichelt](http://www.twitter.com/leisa), Head of User Research @ GDS, GOV.UK
 
-<script async class="speakerdeck-embed" data-id="fb6aed80bd97013111d576b6210235ec" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
+<div class="embed-container vga"><script async class="speakerdeck-embed" data-id="fb6aed80bd97013111d576b6210235ec" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script></div>
 

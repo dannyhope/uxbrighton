@@ -77,6 +77,10 @@ nav.nav-side .event-title-list {
 	display: none;
 }
 
+/*Social media*/
+
+
+
 
 @media (min-width: 50rem) {
 	.container {
@@ -124,6 +128,9 @@ nav.nav-side .event-title-list {
     	border: 0;
 	}
 }
+
+
+
 
 /* embedded slides */
 .embed-container.hd {
