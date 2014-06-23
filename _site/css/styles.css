@@ -87,9 +87,9 @@ a {
 	color: rgb(16, 139, 193);
 }
 
-header img {
+.site-header img {
 	margin: 2em 0 1em 0;
-	border: 0;
+	border: 0; 
 }
 
 .event-list-heading h1 {
@@ -182,11 +182,6 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 	display: table;
 }
 
-@media (min-width: 50rem) {
-	.container-about-main {
-		
-	}
-}
 
 @media (min-width: 50rem) {
 
@@ -211,6 +206,9 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		margin-top: 4em;
 	}
 
+	.site-header img {
+		width: 25%;
+	}
 
 	nav.nav-side h2 {
 		display: block;
@@ -290,6 +288,16 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 }
 
 @media (min-width: 75rem) {
+	.site-header img {
+		width: 20%;
+	}
+
+	nav.nav-side {
+		min-width: 100px;
+		width: 20%;
+		float: left;
+	}
+
 	.embed-container.vga {
 		margin-right: 25%;
 		padding-bottom: 56.25%;
