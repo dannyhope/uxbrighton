@@ -13,8 +13,8 @@ The web has spilled beyond the screen and into the physical world. The Internet 
 
 But what challenges does this brave new world present to UX designers? What heuristics, interaction metaphors and prototyping techniques can we rely on to create great user experiences for the web of things? Join us for an evening with three fantastic speakers who'll share their stories of designing the next generation of smart objects.
 
-###Claire Rowland - AlertMe.com
+##Claire Rowland - AlertMe.com
 
-###Denise Wilton - Berg
+##Denise Wilton - Berg
 
-###Daniel Soltis - Moving Brands
+##Daniel Soltis - Moving Brands
