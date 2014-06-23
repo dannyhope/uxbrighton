@@ -127,11 +127,14 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		display: block;
 	}
 
-	nav.nav-side .event-title-list {
-		display: block;
+	nav.nav-side {
 		min-width: 100px;
 		width: 25%;
 		float: left;
+	}
+
+	nav.nav-side .event-title-list {
+		display: block;
 	}
 	nav.nav-side ul li a {
 		text-decoration: none;

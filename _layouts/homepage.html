@@ -5,10 +5,10 @@ layout: default
 	<p class="feedback-link">This site is currently under development so we’d love it if you could take a few minutes to <a href="https://github.com/dannyhope/uxbrighton/issues/new">send us feedback</a> (via Github)</p>
 	<main class="content-main-detail" role="main">
 		<header class="event-list-heading">
-			<h1>Upcoming events</h1>
+			<h1>What's on</h1>
 		</header>
 		{% for post in site.posts reversed %}
-				{% if post.homepage %}
+				{% if post.homepage and post.upcoming %}
 					<section class="event-detail">
 						<div class="event-detail_desc">
 							<h1 class="event-title"><a href="{{post.url}}">{{post.title}}</a></h1>
