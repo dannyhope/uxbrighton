@@ -8,12 +8,10 @@ layout: default
 		{% if page.upcoming %}
 			<ul>
 				<li>
-					<a href="{{page.calendar}}">
 					{{page.date | date: "%d %B, %Y"}} 
 					{% if page.start %}
 					at {{page.start}}
 					{% endif %}
-					</a>
 				</li>
 				<li>
 					{% if page.venue == "Fabrica" %}

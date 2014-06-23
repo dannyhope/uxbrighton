@@ -73,7 +73,7 @@ header img {
   padding-left: 30px;
   margin-left: 2rem;
 }
-nav.nav-side .event-title-list {
+nav.nav-side .event-title-list, nav.nav-side h2 {
 	display: none;
 }
 
@@ -90,6 +90,10 @@ nav.nav-side .event-title-list {
 	.content-main-detail {
 		width: calc(75% - 40px);
 		float: right;
+	}
+
+	nav.nav-side h2 {
+		display: block;
 	}
 
 	nav.nav-side .event-title-list {
