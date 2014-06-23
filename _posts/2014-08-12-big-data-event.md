@@ -6,8 +6,7 @@ start: 7pm
 venue: 
 organisers: 
 - Alex
-lanyrd-url: 
-calendar-url: #
+lanyrd-url: http://lanyrd.com/2014/bigdataux/
 upcoming: true
 homepage: true
 ---
