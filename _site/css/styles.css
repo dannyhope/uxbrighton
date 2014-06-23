@@ -1,11 +1,58 @@
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border: 1rem solid rgba(0,0,0,0);}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
-* {
- -ms-word-break: break-word;
-     word-break: break-word;
--webkit-hyphens: auto;
-   -moz-hyphens: auto;
-        hyphens: auto;
+
+/*Icons*/
+
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('/font/LigatureSymbols-2.11.eot');
+    src: url('/font/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+         url('/font/LigatureSymbols-2.11.woff') format('woff'),
+         url('/font/LigatureSymbols-2.11.ttf') format('truetype'),
+         url('/font/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+    src: url('/font/LigatureSymbols-2.11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
+i.lsf-icon {
+	font-style: normal;
+}
+
+.lsf, .lsf-icon:before {
+  font-family: 'LigatureSymbols';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.lsf-icon:before {
+  content:attr(title);
+  margin-right:0.3em;
+  font-size:130%;
+}
+
+.lsf-icon.twitter:before {
+  content: '\E12f';
+}
+
+.lsf-icon.facebook:before {
+  content: '\E047';
+}
+
+.lsf-icon.youtube:before {
+  content: '\E141';
+}
+
+/*End icons*/
+
+
 body {
 	font-size: 18px;
 	padding: 0 1em;
@@ -87,15 +134,22 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 
 .social-media {
 	border-bottom: 1px solid rgb(222, 222, 222);
-	text-align: right;
 	margin: 0 -1em;
+	background: white;
+	text-align: right;
 }
 
 .social-media a {
 	text-decoration: none;
-	padding: 0 0.5em;
-	line-height: 3rem;
+	padding: 0 0 0 0.5em;
+	font-size: 2rem;
+	line-height: 5rem;
 	display: inline-block;
+	word-wrap: none;
+}
+
+.social-media a:hover {
+	color: rgb(201, 0, 58);
 }
 
 .organiser-blurb {
@@ -122,6 +176,12 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 .organiser-blurb h2 a:after {
 	content: "";
 	display: table;
+}
+
+@media (min-width: 50rem) {
+	.container-about-main {
+		
+	}
 }
 
 @media (min-width: 50rem) {
