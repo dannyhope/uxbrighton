@@ -14,40 +14,47 @@ layout: default
 					{% endif %}
 				</li>
 				<li>
-					{% if page.venue == "Fabrica" %}
-					<a href="https://www.google.co.uk/maps/preview?ie=UTF-8&q=Fabrica&fb=1&gl=uk&hq=fabrica+brighton+map&cid=14449724007721988412&ei=TmssU5LZFsaK0AWOyICADQ&ved=0CJwBEPwSMBM">Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG</a>
-					{% elsif page.venue == "Lighthouse" %}
-					<a href="https://www.google.co.uk/maps/place/Lighthouse+Arts/@50.825959,-0.1383446,17z/data=!3m1!4b1!4m2!3m1!1s0x48758575663032a1:0x1316760b33779607">Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ</a>
-					{% else %}
-					The venue for this event will be announced soon.
-					{% endif %}
+					{% include venues.html %}
 				</li>
-			</ul>
+				<li>
+				{% if page.lanyrd-url %}
+				Track or say you're attending on 
+				<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
+				{% endif %}	
+				</li>
+			</ul>			
+			<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+			    Add to Calendar
+			    <span class="_start">{{page.date | date: "%d %B, %Y"}}  {{page.start}}</span>
+			    <span class="_end">{{page.date | date: "%d %B, %Y"}} {{page.end}}</span>
+			    <span class="_zonecode">36</span>
+			    <span class="_summary">{{page.title}}</span>
+			    <span class="_description"></span>
+			    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% else %}The venue for this event will be announced soon.{% endif %}
+				</span>
+			    <span class="_organizer"></span>
+			    <span class="_facebook_event"></span>
+			    <span class="_date_format">DD/MM/YYYY</span>
+			</a>
 		{% else %}	
-			<p>This event took place on the {{page.date | date: "%d %B, %Y"}}</p>
+			<p>This event took place on the {{page.date | date: "%d %B, %Y"}} {% if page.venue%} at {{page.venue}} {% endif %}</p>
 		{% endif %}	
 			
-			{{ content }}
+		{{ content }}
 
 		<!-- Spread the word and ticket rules - only show when event is upcoming -->
 
 		{% if page.conference == null %}
 
 			{% if page.upcoming %}
-				<h2>Spread the word</h2>
 
-				{% if page.lanyrd-url %}
-				<h3>Lanyrd</h3>
-				<p>There are more details about the event on our <a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd page</a>. Don't forget add yourself as tracking or attending :-)</p>
-				{% endif %}	
-
-				<h3>Deposit</h3>
+				<h3>Ticket deposit</h3>
 
 				<p>There is a £5 deposit for each ticket. If you would like your deposit returned, we will issue a refund as long as you attended the event and then email us a refund request within 3 days after the event.  The proceeds go towards paying for the beer and venue hire, and helping fund future evening events.
 
-				<h3>Canceling</h3>
+				<h3>Cancelling your ticket</h3>
 
-				<p>Ticket cancellations before the event must be requested by noon Friday before the event.</p>
+				<p>Ticket cancellations before the event must be requested by noon Friday before the event. If you can no longer make it, let us know on <a href="http://www.twitter.com/uxbri">Twitter</a> or contact the event organiser/s.</p>
 			{% endif %}	
 		{% endif %}		
 
