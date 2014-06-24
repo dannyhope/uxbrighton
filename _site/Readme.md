@@ -1,3 +1,26 @@
 # UX Brighton beta site:
 
-To set up a local version of the UX Brighton website, you will need [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/), ensuring you have all the [dependencies](http://jekyllrb.com/docs/installation/) installed first. 
+## How to edit event pages
+
+UX Brighton uses [Prose.io](http://prose.io/#dannyhope/uxbrighton/tree/gh-pages/_posts), a simple content editor for the Jekyll blogging platform. 
+
+### To add speakers and talk descriptions
+
+- Head over to [http://prose.io/#dannyhope/uxbrighton/tree/gh-pages/_posts](http://prose.io/#dannyhope/uxbrighton/tree/gh-pages/_posts)
+- Select the page you want to edit
+- Make your changes
+- Select "Changes to submit" and commit your changes. 
+
+### To add event meta data such as title, date, venue, start time and Lanyrd page
+
+TODO
+
+**IMPORTANT**: Any changes you commit will be immediately visible on the site. Please preview your changes first.
+
+## How to run the site locally
+
+Running a local version of the UX Brighton website requires a few more steps:
+
+- You will need [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/), 
+- Ensure you have all the [dependencies](http://jekyllrb.com/docs/installation/) installed first. 
+
