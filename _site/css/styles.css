@@ -54,7 +54,7 @@ i.lsf-icon {
 
 
 body {
-	font-size: 18px;
+	font-size: 14px;
 	padding: 0 1em;
 	line-height: 1.5;
 	font-family: "Helvetica Neue", sans-serif;
@@ -87,9 +87,14 @@ a {
 	color: rgb(16, 139, 193);
 }
 
-.site-header img {
+.site-header .site-title {
 	margin: 2em 0 1em 0;
-	border: 0; 
+	display: inline-block;
+}
+
+.site-header .site-title img {
+	border: 0;
+	display: block;
 }
 
 .event-list-heading h1 {
@@ -102,29 +107,31 @@ a {
 
 .event-detail p:first-of-type {
 	font-size: 1.5rem;
+	font-family: "museo-slab",sans-serif;
+	color: rgb(201, 0, 58);
 }
 
-.event-detail ul {
+.event-detail .event-meta {
+	background: white;
+	padding: 2em;
+}
+
+.event-detail .event-meta ul {
     list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
+	margin: 0 0 2em;
+	padding: 0;
 }
 
-	.event-detail ul a {
-		text-decoration: none;
-		padding: 1rem 0;
-	}
-.event-detail [href^="http://google.com/calendar"],
-.event-detail [href^="http://www.google.com/calendar"],
-.event-detail [href^="https://google.com/calendar"],
-.event-detail [href^="https://www.google.com/calendar"] {
-  background: url(http://www.hillhouseschool.co.uk/wp-content/uploads/2012/06/Map-Pin-Red.png) no-repeat 0 50%;
-  background: yellow;
+.event-detail .event-meta ul a {
+	text-decoration: none;
+	padding: 1rem 0;
 }
-.event-detail [href^="http://google.co.uk/maps"],
-.event-detail [href^="http://www.google.co.uk/maps"],
-.event-detail [href^="https://google.co.uk/maps"],
-.event-detail [href^="https://www.google.co.uk/maps"] {
+
+
+.event-detail .event-meta [href^="http://google.co.uk/maps"],
+.event-detail .event-meta [href^="http://www.google.co.uk/maps"],
+.event-detail .event-meta [href^="https://google.co.uk/maps"],
+.event-detail .event-meta [href^="https://www.google.co.uk/maps"] {
   background: url(/images/map.png) no-repeat 0 50%;
   padding-left: 20px;
   margin-left: 0.5em;
@@ -139,7 +146,7 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 .social-media {
 	border-bottom: 1px solid rgb(222, 222, 222);
 	margin: 0 -1em;
-	background: white;
+	padding: 0 1em;
 	text-align: right;
 }
 
@@ -147,9 +154,10 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 	text-decoration: none;
 	padding: 0 0 0 0.5em;
 	font-size: 2rem;
-	line-height: 5rem;
+	line-height: 4rem;
 	display: inline-block;
 	word-wrap: none;
+	color: inherit;
 }
 
 .social-media a:hover {
@@ -158,23 +166,28 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 
 .organiser-blurb {
 	background: white;
-	margin: 0 2em 2em 0;
-	padding: 0 2em 2em;
+	margin: 0 0 1em 0;
+	padding: 0 1em 1em;
 }
 
 .organiser-blurb header {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: flex-end;
 	width: 100%;
 }
 
 .organiser-blurb img {
 	border: 0;
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-right: 1em;
 	max-width: 150px;
-	min-width: 150px;
+	width: 25%;
 	max-height: 150px;
+}
+
+.organiser-blurb h2 {
+	margin-bottom: 0;
 }
 
 .organiser-blurb h2 a:after {
@@ -183,7 +196,11 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 }
 
 
+
 @media (min-width: 50rem) {
+	body {
+		font-size: 18px;
+	}
 
 	.container {
 		max-width: 75em;
@@ -194,20 +211,28 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		float: right;
 	}
 
-	.content-main-about {
+	.site-header {
+		overflow: hidden;
+	}
+
+	.site-header .site-title {
+		width: 25%;
+		display: block;
+		float: left;
+	}
+
+	.site-header .site-title img {
+		width: 100%;
+	}
+
+	.intro-blurb {
 		width: calc(75% - 40px);
-		float: left;		
+		float: right;
+		margin: 2em 0 1em 0;
 	}
 
-	.content-aside-about {
-		min-width: 100px;
-		width: 25%;
-		float: right;		
-		margin-top: 4em;
-	}
-
-	.site-header img {
-		width: 25%;
+	.intro-blurb p {
+		margin: 0;
 	}
 
 	nav.nav-side h2 {
@@ -230,7 +255,7 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		font-size: 0.8rem;
 		display: block;
 		border-top: 1px solid #ddd;
-		padding: 0.25rem;
+		padding: 0.415em;
 	}
 	nav.nav-side ul li a:hover, nav.nav-side .current a {
 		background: rgba(0,0,0,0.05);
@@ -242,10 +267,27 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		display: none;
 	}
 
+	.event-detail .event-meta  {
+	   position: relative;
+	}
+
+	.event-detail .event-meta ul {
+	    width: calc(100% - 183px);
+	    margin: 0;
+	}
+
+	.event-detail .event-meta .addthisevent-drop {
+		position: absolute;
+		top: 2em;
+		right: 2em;
+	}
+
 	.organiser-blurb {
 		width: calc(50% - 6em);
 		float: left;
-		min-height: 450px;
+		min-height: 280px;
+		margin: 0 2em 2em 0;
+		padding: 0 2em 2em;
 	}
 
 	footer { clear: both }
@@ -255,6 +297,23 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		margin: 0;
 	}
 }
+
+
+
+@media (min-width: 65rem) {
+	.content-main-about {
+		width: calc(75% - 40px);
+		float: left;		
+	}
+
+	.content-aside-about {
+		min-width: 100px;
+		width: 25%;
+		float: right;		
+		margin-top: 4em;
+	}
+}	
+
 
 
 @media (min-width: 75rem) {
@@ -288,7 +347,7 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 }
 
 @media (min-width: 75rem) {
-	.site-header img {
+	.site-header .site-title {
 		width: 20%;
 	}
 
@@ -298,8 +357,4 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		float: left;
 	}
 
-	.embed-container.vga {
-		margin-right: 25%;
-		padding-bottom: 56.25%;
-	}
 }

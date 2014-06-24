@@ -6,6 +6,7 @@ layout: default
 		<div class="event-detail_desc">
 			<h1 class="event-title">{{page.title}}</h1>
 		{% if page.upcoming %}
+			<section class="event-meta">
 			<ul>
 				<li>
 					{{page.date | date: "%d %B, %Y"}} 
@@ -22,7 +23,7 @@ layout: default
 				<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
 				{% endif %}	
 				</li>
-			</ul>			
+			</ul>
 			<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 			    Add to Calendar
 			    <span class="_start">{{page.date | date: "%d %B, %Y"}}  {{page.start}}</span>
@@ -36,8 +37,9 @@ layout: default
 			    <span class="_facebook_event"></span>
 			    <span class="_date_format">DD/MM/YYYY</span>
 			</a>
+			</section>
 		{% else %}	
-			<p>This event took place on the {{page.date | date: "%d %B, %Y"}} {% if page.venue%} at {{page.venue}} {% endif %}</p>
+			This event took place on the {{page.date | date: "%d %B, %Y"}} {% if page.venue%} at {{page.venue}} {% endif %}
 		{% endif %}	
 			
 		{{ content }}
