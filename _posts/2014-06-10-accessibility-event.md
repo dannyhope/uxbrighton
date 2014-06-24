@@ -12,7 +12,7 @@ upcoming: false
 homepage: false
 ---
 
-The UX Brighton event for June looks at an issue that we should all be considering when building websites and apps: accessibility.
+The UX Brighton event for June looked at an issue that we should all be considering when building websites and apps: accessibility.
 
 <!-- <iframe src="http://www.eventbrite.com/tickets-external?eid=11495648795&amp;ref=lanyrd" frameborder="0" height="165" width="100%" vspace="0" hspace="0" marginheight="0" marginwidth="0" scrolling="auto" allowtransparency="true"></iframe>
  -->

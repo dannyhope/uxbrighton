@@ -11,7 +11,7 @@ calendar-url: #
 upcoming: false
 homepage: false
 ---
-Our May event will be covering the emerging issue of how UX practitioners (and the 'UX industry' as a whole) move beyond just carrying-out narrow-focused tactical work and get involved with the broader digital and business strategy decision-making, in order to create really meaningful change for our clients and customers.
+Our May event covered the emerging issue of how UX practitioners (and the 'UX industry' as a whole) move beyond just carrying out narrow-focused tactical work and get involved with the broader digital and business strategy decision-making, in order to create really meaningful change for our clients and customers.
 
 Digital teams need to be reorganised with the responsibility for a user's experience dispersed. UX practitioners require a change in mindset and a broadening of their skillset.
 

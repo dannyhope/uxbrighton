@@ -11,7 +11,7 @@ start: 6:30pm
 ---
 Whatever our relationship with the automobile, it has played an important role in our transport and distribution systems for centuries. As driver, passenger, or pedestrian, our interactions with the car present a host of challenges for engineers, researchers, and UX specialists.
 
-Join us for an evening of speakers from the automotive industry, as they share their experiences designing for this enduring interface between human and machine.
+The evening introduced speakers from the automotive industry, as they shared their experiences designing for this enduring interface between human and machine.
 
 ###Phil Higgs - Design Manager: Experience Design Group at Jaguar Land Rover
 Phil joined Jaguar Land Rover as a User Interface & Experience Designer in 2008, and has been overseeing in-car cross brand UI & UX design activity at Jaguar Land Rover since Spring 2011. He is currently working on future in-car cluster, touchscreen and user experience designs for the Jaguar, Land Rover and Range Rover brands.

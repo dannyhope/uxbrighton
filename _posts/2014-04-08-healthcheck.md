@@ -11,7 +11,7 @@ calendar-url: #
 upcoming: false
 ---
 
-The April edition of UX Brighton takes on the big challenges of designing for health and wellbeing. Say hello to our three fantastic speakers.
+The April edition of UX Brighton took on the big challenges of designing for health and wellbeing. Say hello to our three fantastic speakers.
 
 ## Emotional UX - [Denise Hampson](http://www.twitter.com/denisehampson) - [hampsonsolutions.co.uk](http://www.hampsonsolutions.co.uk)
 

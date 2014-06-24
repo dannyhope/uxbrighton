@@ -12,4 +12,4 @@ upcoming: true
 homepage: true
 ---
 
-October's UX Brighton brings you an evening of talks on ergonomics. Check back for speaker details and tickets.
+October's UX Brighton brings you an evening of talks on ergonomics. Speakers and tickets will be released closer to the event time. 

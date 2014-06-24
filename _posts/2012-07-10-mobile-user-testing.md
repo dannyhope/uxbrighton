@@ -9,7 +9,7 @@ organisers:
 start: 7pm
 
 ---
-The July edition of UX Brighton will focus on mobile user testing. Join us at Fabrica for two great talks and a hands-on demo of some of the testing kit.  
+The July 2012 edition of UX Brighton focused on mobile user testing. We had two great talks and a hands-on demo of some of the best testing kit out there.  
 
 
 ##[Raj Arjan](http://www.twitter.com/RajArjan), City University London

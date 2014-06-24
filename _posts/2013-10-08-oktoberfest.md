@@ -11,7 +11,7 @@ lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
 upcoming: 
 ---
 
-UX Brighton evenings are back with UX Oktoberfest - our last event before November's big conference. Join us on 8th October at Fabrica Gallery for three talks from three fantastic speakers, none of whom - sadly - have consented to wearing their lederhosen.
+UX Brighton evenings returned with UX Oktoberfest - our last event before November's big conference. Join us on 8th October at Fabrica Gallery for three talks from three fantastic speakers, none of whom - sadly - have consented to wearing their lederhosen.
 
 ## Cognitive biases & design - [Jerome Ribot](http://twitter.com/ribotminimus)
 
