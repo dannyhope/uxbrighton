@@ -1,5 +1,14 @@
 
 <nav class="nav-side" role="navigation">
+
+{% assign has_upcoming = false %}
+{% for post in site.posts %}
+   {% if post.upcoming == true %}    
+      {% assign has_upcoming = true %}
+   {% endif %}
+{% endfor %}
+
+{% if has_upcoming %}
 	<h2>Upcoming events:</h2>
 	<ul class="event-title-list">
 	{% for post in site.posts reversed %}
@@ -16,6 +25,7 @@
 		{% endif %}
 	  {% endfor %}
 	</ul>
+{% endif %}	
 
 	<h2>Past events:</h2>
 	<ul class="event-title-list">
