@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:http://uxbrighton2012.eventbrite.co.uk
+ 
+ 
+DTSTART:20121102T090000Z
+DTEND:20121102T180000Z
+SUMMARY:UX Brighton 2012
+DESCRIPTION:For details, click here: http://uxbrighton2012.eventbrite.co.uk
+LOCATION:The Corn Exchange - Brighton Dome - Church Street - BN1 1UG Brighton - United Kingdom
+END:VEVENT
+END:VCALENDAR
