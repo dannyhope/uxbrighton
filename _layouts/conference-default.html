@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>UX Brighton - </title>
+	<title>UX Brighton - {{ page.title }}</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	
+	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 	<meta name="description" content="UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology">
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>	
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="{{ relative }}css/styles.css">
 	<link rel="apple-touch-icon" href="/images/icon.png">
 	<link rel="icon" href="/images/favicon.png">	
-	<link rel="canonical" href="/index.html" />
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 	 <!--[if lt IE 9]>  
 	      <script src="js/html5shiv.js"></script>
 	  <![endif]--> 	
