@@ -282,15 +282,25 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 		right: 2em;
 	}
 
-	.organiser-blurb {
-		width: calc(50% - 6em);
-		float: left;
-		min-height: 280px;
-		margin: 0 2em 2em 0;
-		padding: 0 2em 2em;
+	.content-main-about {
+		display: flex;
+		flex-wrap: wrap;	
 	}
 
-	footer { clear: both }
+	.organiser-blurb {
+		width: 40%;
+		margin: 0 5% 2em 0;
+		padding: 0 2.5% 2em;
+	}
+
+	footer { 
+		clear: both;
+		font-size: 0.8rem;
+		padding-top: 4em;
+		padding-bottom: 2em;
+
+	}
+
 	.event-title-list {
 		list-style: none;
 		padding: 0;
@@ -300,26 +310,18 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 
 
 
-@media (min-width: 65rem) {
-	.content-main-about {
-		width: calc(75% - 40px);
-		float: left;		
-	}
-
-	.content-aside-about {
-		min-width: 100px;
-		width: 25%;
-		float: right;		
-		margin-top: 4em;
-	}
-}	
-
-
-
 @media (min-width: 75rem) {
 	body {
 		padding: 0 1em;
 	}
+
+	.organiser-blurb {
+		width: 33.3333%;
+		margin: 0 5% 2em 0;
+		padding: 0 2% 2em;
+	}
+
+
 }
 /* embedded videos and slides */
 
