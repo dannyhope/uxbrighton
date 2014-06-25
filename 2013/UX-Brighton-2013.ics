@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:http://uxbrighton2013.eventbrite.co.uk
+ 
+ 
+DTSTART:20131101T090000Z
+DTEND:20131101T180000Z
+SUMMARY:UX Brighton 2013 – The Psychological Foundations of Design
+DESCRIPTION:A day of psychology talks for people who work on websites. http://uxbrighton2013.eventbrite.co.uk
+LOCATION:The Corn Exchange - Brighton Dome - Church Street - BN1 1UG UK
+END:VEVENT
+END:VCALENDAR

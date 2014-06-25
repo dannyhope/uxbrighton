@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:http://2014.uxbrighton.org.uk
+ 
+ 
+DTSTART:20141114T090000Z
+DTEND:20141114T180000Z
+SUMMARY:UX Brighton 2014 – Practical Philosophy
+DESCRIPTION:A day of talks on how philosophy can inform the work we do. http://2014.uxbrighton.org.uk
+LOCATION:The Corn Exchange - Brighton Dome - Church Street - BN1 1UG UK
+END:VEVENT
+END:VCALENDAR
