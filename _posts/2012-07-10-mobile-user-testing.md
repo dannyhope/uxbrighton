@@ -11,6 +11,11 @@ start: 7pm
 ---
 The July 2012 edition of UX Brighton focused on mobile user testing. We had two great talks and a hands-on demo of some of the best testing kit out there.  
 
+Both talks are available to watch below:
+
+<div class="embed-container vga">
+<iframe width="560" height="315" src="//www.youtube.com/embed/wi3_05O8gZE?list=PLmeBKCinpyZ9KYdrFev6JR1rx2kn8zt1H" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ##[Raj Arjan](http://www.twitter.com/RajArjan), City University London
 
