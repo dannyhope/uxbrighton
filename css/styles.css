@@ -180,24 +180,17 @@ nav.nav-side .link-archive {
 	padding: 0 1em 1em;
 }
 
-.organiser-blurb header {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-end;
-	width: 100%;
-}
-
 .organiser-blurb img {
 	border: 0;
 	margin-top: 1em;
 	margin-right: 1em;
 	max-width: 150px;
-	width: 25%;
+	width: 40%;
 	max-height: 150px;
 }
 
 .organiser-blurb h2 {
-	margin-bottom: 0;
+	margin: 0;
 }
 
 .organiser-blurb h2 a:after {
@@ -295,12 +288,23 @@ nav.nav-side .link-archive {
 	.content-main-about {
 		display: flex;
 		flex-wrap: wrap;	
+		justify-content: space-between;
 	}
 
 	.organiser-blurb {
-		width: 40%;
-		margin: 0 5% 2em 0;
+		width: 42.5%;
 		padding: 0 2.5% 2em;
+	}
+
+	.organiser-blurb header {
+		display: flex;
+		align-items: flex-end;
+		width: 100%;
+	}	
+
+	.organiser-blurb img {
+		width: 100px;
+		min-width: 100px;
 	}
 
 	footer { 
@@ -326,8 +330,7 @@ nav.nav-side .link-archive {
 	}
 
 	.organiser-blurb {
-		width: 33.3333%;
-		margin: 0 5% 2em 0;
+		width: 26%;
 		padding: 0 2% 2em;
 	}
 
