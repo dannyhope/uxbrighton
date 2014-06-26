@@ -2,45 +2,57 @@
 layout: default
 title: Upcoming and past events
 ---
-<h1 class="event-list-header">All events</h1>
-<h2>Upcoming events</h2>
+<h1 class="event-list-header">Events</h1>
+
+<h2>Upcoming:</h2>
+<ul class="event-archive">
 {% for post in site.posts %}
 {% if post.upcoming == true %}	
-<article class="event-list-item_inner">
-	<h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
-	<p><strong>{{ post.date | date: "%d %B, %Y" }}</strong></p>
-</article>
-{% endif %}
-{% endfor %}
 
-<h2>Past events</h2>
-{% for post in site.posts %}
-{% if post.upcoming == false  %}	
-<article class="event-list-item_inner">
+<li><article>
 	<h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
-	<p><strong>{{ post.date | date: "%d %B, %Y" }}</strong></p>
-</article>
+	<p>{{ post.date | date: "%d %B, %Y" }}</p>
+</article></li>
 {% endif %}
 {% endfor %}
+</ul>
+
+<h2>Past:</h2>
+<ul class="event-archive">
+{% for post in site.posts %}
+{% if post.noinfo == null %}
+{% if post.stub == null %}	
+{% if post.upcoming == null or post.upcoming == false %}
+<li><article>
+	<h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
+	<p>{{ post.date | date: "%d %B, %Y" }}</p>
+</article></li>
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+</ul>
 
 <h2>Past events without much info</h2>
-<p>We don't have much information about the following past events:</p>
+<p>We don't have much information about the following past events. You can help us contribute content by getting in touch on Twitter or GitHub</p>
+<ul class="event-archive">
 {% for post in site.posts %}
 {% if post.noinfo == true %}	
-<article class="event-list-item_inner">
+<li><article>
 	<h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
-	<p><strong>{{ post.date | date: "%d %B, %Y" }}</strong></p>
-</article>
+	<p>{{ post.date | date: "%d %B, %Y" }}</p>
+</article></li>
 {% endif %}
 {% endfor %}
+</ul>
 
-<h2>Other past events</h2>
+<!-- <h2>Future events</h2>
 <p>The following events are mere ideas. If you'd like to speak at or help organise any of these, get in touch.</p>
 {% for post in site.posts %}
 {% if post.stub == true %}	
-<article class="event-list-item_inner">
+<li><article>
 	<h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
-</article>
+</article></li>
 {% endif %}
 {% endfor %}
-
+ -->
