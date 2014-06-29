@@ -49,7 +49,7 @@ layout: default
 
 
 			<!-- Spread the word and ticket rules - only show when event is upcoming -->
-			<section class="ticket-rules">
+			<article class="ticket-rules">
 				<h3>Ticket deposit</h3>
 
 				<p>There is a £5 deposit for each ticket. If you would like your deposit returned, we will issue a refund as long as you attended the event and then email us a refund request within 3 days after the event.  The proceeds go towards paying for the beer and venue hire, and helping fund future evening events.
@@ -58,18 +58,18 @@ layout: default
 
 				<p>Ticket cancellations before the event must be requested by noon Friday before the event. If you can no longer make it, let us know on <a href="http://www.twitter.com/uxbri">Twitter</a> or contact the event organiser/s.</p>
 			{% endif %}
-			</section>
+			</article>
+			<aside class="event-detail_meta">
+			{% include organisers.html %}			 
+			</aside>	
 
-			<section class="contribute-content">
+			<aside class="contribute-content">
 				<h3>Can you contribute content to this page - or any of our <a href="/archive">event</a> pages?</h3>
 				<p>If you know of slides, videos or photos from the event - or if you'd like to, let us know on GitHub.</p>
-			</section>
+			</aside>
 		{% endif %}		
 
-		</div>
-		<aside class="event-detail_meta">
-		{% include organisers.html %}			 
-		</aside>						
+		</div>					
 	</section>	
 </main>
 {% include nav.html %}
