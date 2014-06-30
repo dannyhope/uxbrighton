@@ -42,6 +42,11 @@ i.lsf-icon {
   content: '\E15e';
 }
 
+.event-detail .event-meta .addthisevent-drop:after {
+content: "▼";
+font-size: 59%;
+vertical-align: middle;
+}
 
 /*End icons*/
 
