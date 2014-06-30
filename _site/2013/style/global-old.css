@@ -1,0 +1,2201 @@
+/*! normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+	display: block;
+}
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+
+audio,
+canvas,
+video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ * Remove excess height in iOS5 devices
+ */
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+
+[hidden] {
+	display: none;
+}
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *	http://clagnut.com/blog/348/#c790
+ * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *	www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html {
+	font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	-ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+	font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+
+body {
+	margin: 0;
+}
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses outline displayed oddly in Chrome
+ */
+
+a:focus {
+	outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE6/7
+ * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+ */
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+h2 {
+	font-size: 1.65em;
+	margin: 0.83em 0;
+}
+
+h3 {
+	font-size: 1.45em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1.17em;
+	margin: 1.33em 0;
+}
+
+h5 {
+	font-size: 1em;
+	margin: 1.67em 0;
+}
+
+h6 {
+	font-size: 0.83em;
+	margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE7/8/9, S5, Chrome
+ */
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+*/
+
+b,
+strong {
+	font-weight: bold;
+}
+
+blockquote {
+	margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in S5, Chrome
+ */
+
+dfn {
+	font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE6/7/8/9
+ */
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+p,
+pre {
+	margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE6, S4/5, Chrome
+ * en.wikipedia.org/wiki/User:Davidgothberg/Test59
+ */
+
+pre,
+code,
+kbd,
+samp {
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers
+ */
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/*
+ * 1. Addresses CSS quotes not supported in IE6/7
+ * 2. Addresses quote property not supported in S4
+ */
+
+/* 1 */
+
+q {
+	quotes: none;
+}
+
+/* 2 */
+
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+small {
+	font-size: 75%;
+}
+
+/*
+ * Prevents sub and sup affecting line-height in all browsers
+ * gist.github.com/413930
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+dl,
+menu,
+ol,
+ul {
+	margin: 1em 0;
+}
+
+dd {
+	margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7
+ */
+
+menu,
+ol,
+ul {
+	padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE7
+ */
+
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none;
+}
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
+ * 2. Improves image quality when scaled in IE7
+ *	code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+
+img {
+	border: 0; /* 1 */
+	-ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE9
+ */
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE6/7/8/9, S5, O11
+ */
+
+figure {
+	margin: 0;
+}
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE6/7
+ */
+
+form {
+	margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding
+ */
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE6/7/8/9
+ * 2. Corrects text not wrapping in FF3
+ * 3. Corrects alignment displayed oddly in IE6/7
+ */
+
+legend {
+	border: 0; /* 1 */
+	padding: 0;
+	white-space: normal; /* 2 */
+	*margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers
+ * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+ * 3. Improves appearance and consistency in all browsers
+ */
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%; /* 1 */
+	margin: 0; /* 2 */
+	vertical-align: baseline; 3 */
+	*vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+ */
+
+button,
+input {
+	line-height: normal; /* 1 */
+}
+
+/*
+ * 1. Improves usability and consistency of cursor style between image-type 'input' and others
+ * 2. Corrects inability to style clickable 'input' types in iOS
+ * 3. Removes inner spacing in IE7 without affecting normal text inputs
+ *	Known issue: inner spacing remains in IE6
+ */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer; /* 1 */
+	-webkit-appearance: button; /* 2 */
+	*overflow: visible;  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+
+button[disabled],
+input[disabled] {
+	cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE8/9
+ * 2. Removes excess padding in IE8/9
+ * 3. Removes excess padding in IE7
+	  Known issue: excess padding remains in IE6
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+	*height: 13px; /* 3 */
+	*width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses appearance set to searchfield in S5, Chrome
+ * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+ */
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box; /* 2 */
+	box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in S5, Chrome on OS X
+ */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in FF3+
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9
+ * 2. Improves readability and alignment in all browsers
+ */
+
+textarea {
+	overflow: auto; /* 1 */
+	vertical-align: top; /* 2 */
+}
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells
+ */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* =============================================================================
+   UXBrighton
+   ========================================================================== */
+
+/*
+ * Adds special magic
+ */
+
+
+ul {display: none;}
+.open ul {display: block;}
+.hover {}
+
+body {
+	background-color: #fafafa;
+	color: #183849;
+	font-size: 100%;
+	line-height: 1.75rem;
+	font-family: "museo-slab", "Museo Slab", Rockwell, sans-serif;
+	font-weight: 300;
+	width: 100%;
+}
+
+
+div.photos {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+#speaker1, #speaker2, #speaker3, #speaker4, #speaker5, #speaker6, #speaker7, #speaker8, .tickets {
+/*	border: 1px solid white;*/
+}
+
+#speaker1 img, #speaker2 img, #speaker3 img, #speaker4 img, #speaker5 img, #speaker6 img, #speaker7 img, #speaker8 img, .tickets img {
+	max-width: 100%;
+	max-height: 100%;	
+}
+
+#speakertiles {
+	position: relative;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	font-size: 0.01rem;
+	line-height: 0.01rem;
+	display: block;
+	margin-top: 3.1rem;
+}
+
+#speakertiles .chunk1, #speakertiles .chunk2, #speakertiles .chunk3 {
+	display: inline-block;
+}
+
+#speakertiles .chunk1 {
+	width: 20%;
+	vertical-align: top;
+	margin-left: -1px;
+}
+
+#speakertiles .chunk2 {
+	width: 57%;
+	vertical-align: top;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+
+#speakertiles .chunk3 {
+	width: 23%;
+	vertical-align: top;
+	margin-right: -1px;
+}
+
+#speakertiles .wrongness {
+	display: none;
+}
+
+#speaker1 img, #speaker2 img, #speaker3 img, #speaker4 img, #speaker5 img, #speaker6 img, #speaker7 img, #speaker8 img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#speaker1, #speaker2, #speaker34, #speaker3, #speaker4, #speaker5, #speaker6, #speaker78, #speaker7, #speaker8 {
+	float: right;
+	width: auto;
+	position: static;
+	top: auto;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	display: block;
+}
+
+#speaker1 {
+	width: 70%;
+	display: block;
+	float: right;
+	border-bottom: 1px solid #fafafa;
+	border-right: 1px solid #fafafa;
+	border-top: none;
+	vertical-align: top;
+}
+
+#speaker2 {
+	width: 100%;
+	display: block;
+	float: right;
+	border-bottom: 1px solid #fafafa;
+	border-right: 1px solid #fafafa;
+	border-top: none;
+	vertical-align: top;
+}
+
+#speaker34 {
+	vertical-align: top;
+	width: 35%;
+	display: block;
+	float: right;
+	margin-left: -1px;
+}
+
+#speaker3 {
+	width: 100%;
+	margin-left: -1%;
+	float: right;
+	display: inline-block;
+	border-bottom: 1px solid #fafafa;
+	border-right: 1px solid #fafafa;
+	border-top: none;
+	vertical-align: top;
+}
+
+#speaker3 img {
+	vertical-align: top;
+}
+
+#speaker4 {
+	width: 100%;
+	float: right;
+	display: inline-block;
+	clear: both;
+	border-right: 1px solid #fafafa;
+	vertical-align: top;
+}
+
+#speaker4 img {
+	vertical-align: top;
+}
+
+#speaker5 {
+	vertical-align: top;
+	width: 65%;
+	display: block;
+	float: right;
+	border-top: none;
+	border-bottom: 1px solid #fafafa;
+	border-right: none;
+}
+
+#speaker5 img {
+	vertical-align: top;
+}
+
+#speaker6 {
+	vertical-align: top;
+	display: block;
+	float: right;
+	width: 100%;
+	border-right: none;
+	border-left: 1px solid white;
+}
+
+#speaker6 img {
+	vertical-align: top;
+}
+
+div.tickets {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	float: right;
+	clear: both;
+	vertical-align: top;
+	opacity: 0.925;
+}
+
+#speaker78 {
+	vertical-align: top;
+	width: 100%;
+	display: block;
+	float: right;
+	position: relative;
+	border-left: 0;
+}
+
+#speaker7 {
+	vertical-align: top;
+	width: 50%;
+	display: block;
+	float: right;
+	border-bottom: 1px solid #fafafa;
+}
+
+#speaker8 {
+	vertical-align: top;
+	width: 50%;
+	display: block;
+	float: right;
+	margin-right: -1px;
+	border-right: 1px solid #fafafa;
+}
+
+div.tickets {
+	box-sizing: border-box;
+	z-index: 99999999 !important; /*dh*/
+	
+}
+
+div.tickets a {
+	font-weight: 100;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	min-width: 320px;
+	height: 3rem;
+	margin-top: 0;
+	margin-right: 0;
+	background-color: rgba(153,0,0,0.9);
+	color: white;
+	text-decoration: none;
+	/*border-top: 1px solid #fafafa;*/
+	border-right: none;
+	background-image: -o-linear-gradient(90deg , rgb(97,0,0) 0%, rgb(202,1,3) 100%);
+	background-image: -moz-linear-gradient(90deg , rgb(97,0,0) 0%, rgb(202,1,3) 100%);
+	background-image: -webkit-linear-gradient(90deg , rgb(97,0,0) 0%, rgb(202,1,3) 100%);
+	background-image: -ms-linear-gradient(90deg , rgb(97,0,0) 0%, rgb(202,1,3) 100%);
+	background-image: linear-gradient(90deg , rgb(97,0,0) 0%, rgb(202,1,3) 100%);
+		z-index: 22222; /*dh*/
+	
+}
+
+div.tickets a:hover {
+	background-image: -o-linear-gradient(90deg , rgb(60,0,0) 0%, rgb(143,1,4) 100%);
+	background-image: -moz-linear-gradient(90deg , rgb(60,0,0) 0%, rgb(143,1,4) 100%);
+	background-image: -webkit-linear-gradient(90deg , rgb(60,0,0) 0%, rgb(143,1,4) 100%);
+	background-image: -ms-linear-gradient(90deg , rgb(60,0,0) 0%, rgb(143,1,4) 100%);
+	background-image: linear-gradient(90deg , rgb(60,0,0) 0%, rgb(143,1,4) 100%);
+	z-index: 22222; /*dh*/
+	
+}
+
+div.tickets a span.label {
+	position: relative;
+	display: block;
+	top: -1rem;
+	float: left;
+	margin-left: 10%;
+	padding: 2rem 0 0 0;
+	font-size: 1.25rem;
+	line-height: 1.125rem;
+	font-weight: 500;
+}
+
+div.tickets a span.price {
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0.125rem 0 0 0.5rem;
+	font-size: 2.75rem;
+	line-height: 2.75rem;
+	border-bottom: none;
+}
+
+div.tickets a span.price:after {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -3.25rem;
+	content: "\2192";
+	font-family: "Times New Roman" !important;
+	font-size: 2.75rem;
+}
+
+h2, h3, h4 {
+	font-weight: 500;
+}
+
+a {
+	color: #47a3d7;
+	font-weight: 500;
+}
+
+p {
+	max-width: 40rem;
+	margin-right: 2rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+header h1 {
+	margin-top: 2rem;
+}
+
+header #logo {
+	margin-top: 0;
+	padding-right: 10%;
+}
+
+header, div.description, div.testimonial {
+	padding-left: 10%;
+}
+
+a:visited {
+	color: #598ca9;
+}
+
+a:active, a:hover {
+	color: #a20d3e;
+}
+
+p.intro {
+	font-weight: 500;
+}
+
+p.speakerphoto {
+	/*width: 10rem;*/
+	width: 7rem;
+	font-size: 0.01rem;
+	line-height: 0.01rem;
+	display: block;
+}
+
+p.speakerphoto img, .sponsors img {
+	/*width: 10rem;*/
+	width: 7rem;
+	height: auto;
+}
+
+blockquote {
+	position: relative;
+	margin-left: 0;
+	border-left: 1px dashed #666;
+	padding-left: 2rem;
+	margin-right: 0;
+}
+
+blockquote p, blockquote cite {
+	font-size: 0.9rem;
+	line-height: 1.35rem;
+}
+
+blockquote:before {
+	content: "\201C";
+	display: block;
+	position: absolute;
+	left: -0.9rem;
+	top: 0;
+	font-size: 5rem;
+	line-height: 1rem;
+	padding-top: 1.5rem;
+	height: 0.5rem;
+	background-color: #fafafa;
+}
+
+blockquote cite {
+	display: block;
+	text-align: right;
+	margin-right: 10%;
+	font-weight: 500;
+}
+
+#map {
+	height: 300px;
+}
+
+.schedule li:target {
+	-webkit-animation: highlight 2s ease;  
+	-moz-animation: highlight 2s ease;
+}
+
+@-webkit-keyframes highlight {
+	0% { background-color: #bed8fa; }
+	100% { background-color: #fafafa; }
+}
+
+@-moz-keyframes highlight {
+	0% { background-color: #bed8fa; }
+	100% { background-color: #fafafa; }
+}
+
+h2 {
+/*	font-size: 3.25rem;
+	line-height: 3.5rem;
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;*/
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-weight: 100;
+}
+
+#logo {
+	margin-top: 3rem;
+	max-width: 23.125rem;
+	max-height: 3.5rem;
+	background: transparent url(images/logo.png) no-repeat top left;
+	background-size: 23.125rem 3.5rem;
+	margin-bottom: 1.75rem;
+}
+
+#logo img {
+	max-width: 100%;
+}
+
+#logo span {
+	display: none;
+}
+
+.svg #logo {
+	background: none;
+}
+
+.svg #logo span {
+	display: block;
+}
+
+#title {
+	display: block;
+	width: 100%;
+/*	font-size: 4.5rem;
+	line-height: 4rem;*/
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	font-weight: 100;
+	color: #C9003A;
+	margin: 2rem 0 3rem 0;
+}
+
+p.datevenue {
+/*	font-size: 1.15rem;
+	line-height: 1.5rem;*/
+	font-size: 1rem;
+	line-height: 1.15rem;
+	font-weight: 300;
+	color: #646464;
+	margin: 0;
+	margin-top: 0.5rem;
+}
+
+p.datevenue a {
+	display: block;
+	color: #646464;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+
+p.intro {
+/*	font-size: 1.5rem;
+	line-height: 2rem;*/
+	font-size: 1.15rem;
+	line-height: 1.5rem;
+}
+
+.schedule h2, .sponsors h2, .about h2, .location h2 {
+	text-align: left;
+	padding-left: 10%;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+	font-weight: 500;
+/*	padding-left: 25%;*/
+}
+
+.schedule p, .schedule h4 {
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.schedule ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+.schedule ol li {
+	position: relative;
+	padding-left: 0;
+	margin: 2rem 0;
+}
+
+.schedule ol li {
+	padding-top: 0rem; /*dh*/
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+
+.schedule ol li h3 {
+	padding-top: 0.75rem;
+	margin-bottom: 2rem;
+	margin-left: 10%;
+}
+
+.schedule ol li.admin h3, .schedule ol li.admin time {
+/*	font-size: 2rem;*/
+	font-size: 1.75rem;
+	line-height: 1.75rem;
+	font-weight: 300;
+	color: #707070;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+	display: inline-block;
+	width: auto;
+}
+
+.schedule ol li.speaker time {
+/*	font-size: 4rem;
+	line-height: 4rem;*/
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: 100;
+	color: #c80039;
+	margin-bottom: 0;
+}
+
+.schedule ol li.speaker h3 {
+/*	font-size: 4rem;
+	line-height: 4rem;*/
+	font-size: 2.75rem;
+	line-height: 3rem;
+	font-weight: 100;
+	color: #c80039;
+	margin-bottom: 0;
+	padding-top: 1rem;
+	margin-top: 1rem;
+}
+
+.schedule ol li .identifiers {
+/*	position: absolute;
+	top: 0;
+	left: 0;
+	right: 57.5%;
+	text-align: right;*/
+	text-align: left;
+	margin-left: 10%;
+}
+
+.schedule ol li .identifiers p.speakerphoto {
+	position: relative;
+	margin: 0;
+	top: 0;
+	vertical-align: top;
+/*	margin-left: 3rem;*/
+	border: 1px solid #dedede;
+}
+
+
+.sponsors h3 {
+	font-size: 2rem;
+	font-weight: 100;
+	margin-top: 0;
+	text-align: left;
+	padding-left: 10%;
+	padding-bottom: 1rem;
+/*	padding-left: 25%;*/
+}
+
+.sponsors ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sponsors ol li {
+	position: relative;
+	padding-left: 0;
+	margin: 2rem 0;
+}
+
+.sponsors ol ol li {
+	padding-left: 0;
+}
+
+.sponsors .sponsor-pack, .sponsors .platinum, .sponsors .gold, .sponsors .silver, .sponsors .bronze, .sponsors .supporters {
+	position: relative;
+	margin-bottom: 2rem;
+	padding-left: 10%;
+}
+
+.sponsors .sponsor-pack h3, .sponsors .gold h3, .sponsors .silver h3, .sponsors .bronze h3, .sponsors .supporters h3 {
+	position: relative;
+	top: 0;
+	left: 0;
+	padding-right: 0;
+	margin-top: 0;
+	padding-left: 0;
+	width: auto;
+	text-align: left;
+}
+
+.sponsors .sponsor-pack h3 {
+	margin-bottom: 0;
+}
+
+.sponsors ol ol h4 {
+	font-size: 1.17em;
+}
+
+
+.sponsors ol.platinum li div.sponsor-logo {
+/*	position: absolute;
+	top: 0;
+	left: 0;
+	right: auto;
+	text-align: right; */
+	text-align: left;
+}
+
+.sponsors ol.platinum li {
+	min-height: auto;
+	padding-left: 0;
+}
+
+.sponsors ol.platinum div.sponsor-logo img {
+	max-height: 10rem;
+	width: auto;
+}
+
+div.gold, div.silver, div.bronze, div.supporters {
+	padding-left: 10%;
+}
+
+div.sponsor-logo img {
+	vertical-align: middle;
+}
+
+.sponsors div.sponsor-logo + div.sponsor-logo {
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+.about p, .location p, .location .map {
+	margin-left: 10%;
+}
+
+.legal p {
+	margin: 6rem 0 3rem 10%;
+}
+
+.location #venue-shots {
+	position: relative;
+	padding-left: 10%;
+	margin-top: 1.5rem;
+}
+
+.location #venue-shots .venue-shot-1, .location #venue-shots .venue-shot-2 {
+	display: inline-block;
+	position: relative;
+	top: auto;
+	right: auto;
+	width: 8rem;
+	height: 8rem;
+}
+
+
+@media only screen and (min-width: 480px) {
+
+/* body:after {
+	content: "480px";
+	position: fixed;
+	bottom: 0;
+	right: 0;
+} */
+
+	#speakertiles {
+		margin-top: 4.1rem;
+	}
+
+	div.tickets a {
+		height: 4rem;
+			z-index: 22222; /*dh*/
+		
+	}
+
+	div.tickets a span.label {
+		position: relative;
+		display: block;
+		top: -1rem;
+		float: left;
+		margin-left: 10%;
+		padding: 2.5rem 0 0 0;
+		font-size: 1.65rem;
+		line-height: 1.125rem;
+		font-weight: 500;
+	}
+
+	div.tickets a span.price {
+		position: relative;
+		display: block;
+		float: left;
+		padding: 0.125rem 0 0 0.75rem;
+		font-size: 3.75rem;
+		line-height: 3.75rem;
+		border-bottom: none;
+	}
+
+	div.tickets a span.price:after {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -3.5rem;
+		content: "\2192";
+		font-family: "Times New Roman" !important;
+		font-size: 2.75rem;
+	}
+
+	header #logo {
+		margin-top: 0;
+		padding-right: 10%;
+	}
+
+	.sponsors .supporters div.sponsor-logo img {
+		max-height: 3rem;
+		width: auto;
+	}
+
+	.schedule ol li.speaker h3 {
+		padding-top: 1.45rem;
+		padding-left: 8rem;
+	}
+
+	.schedule ol li .identifiers p.speakerphoto {
+		position: relative;
+		display: inline-block;
+		float: left;
+		margin: 0;
+		margin-right: 1rem;
+		vertical-align: top;
+		margin-left: 0;
+		border: 1px solid #dedede;
+	}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+/* body:after {
+	content: "768px";
+	position: fixed;
+	bottom: 0;
+	right: 0;
+} */
+
+	div.photos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		overflow-x: visible;
+	}
+
+	#speakertiles {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		right: 67.5%;
+		width: auto;
+		font-size: 0.01rem;
+		line-height: 0.01rem;
+		display: block;
+		margin-top: 0.5rem;
+	}
+
+	#speakertiles .chunk1, #speakertiles .chunk2, #speakertiles .chunk3 {
+		display: block;
+		width: 100%;
+		float: left;
+	}
+
+	#speakertiles .chunk1 {
+		width: 100%;
+		vertical-align: bottom;
+	}
+
+	#speakertiles .chunk2 {
+		width: 100%;
+		vertical-align: top;
+	}
+
+	#speakertiles .chunk3 {
+		width: 100%;
+		vertical-align: top;
+	}
+
+	#speaker1 img, #speaker2 img, #speaker3 img, #speaker4 img, #speaker5 img, #speaker6 img, #speaker7 img, #speaker8 img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	#speakertiles .chunk1 .wrongness {
+		width: 40%;
+	}
+
+	#speaker1 {
+		float: right;
+		display: block;
+		border-spacing: 1px;
+		width: 25%;
+		vertical-align: bottom;
+		border-right: 1px solid #fafafa;
+		border-bottom: none;
+	}
+
+	#speaker2 {
+		float: right;
+		display: block;
+		border-spacing: 1px;
+		width: 35%;
+		vertical-align: bottom;
+		border: none;
+	}
+
+	#speaker34 {
+		vertical-align: top;
+		width: 45%;
+		height: auto;
+		display: block;
+		float: right;
+	}
+
+	#speaker3 {
+		width: 65%;
+		display: inline-block;
+		float: right;
+		border-bottom: 1px solid #fafafa;
+		border-right: 1px solid #fafafa;
+		border-top: 1px solid #fafafa;
+		vertical-align: top;
+	}
+
+	#speaker3 img {
+		vertical-align: top;
+	}
+
+	#speaker4 {
+		width: 40%;
+		display: inline-block;
+		float: right;
+		border-right: 1px solid #fafafa;
+		vertical-align: top;
+	}
+
+	#speaker4 img {
+		vertical-align: top;
+	}
+
+	#speaker5 {
+		vertical-align: top;
+		width: 55%;
+		display: block;
+		float: right;
+		border-top: 1px solid #fafafa;
+		border-bottom: 1px solid #fafafa;
+	}
+
+	#speaker5 img {
+		vertical-align: top;
+	}
+
+	#speaker6 {
+		display: block;
+		width: 32%;
+		float: right;
+		border-right: 1px solid white;
+	}
+
+	#speaker6 img {
+		vertical-align: top;
+	}
+
+	div.tickets {
+		position: relative;
+		width: 100%;
+		display: inline-block;
+		float: right;
+		clear: both;
+		vertical-align: top;
+	}
+
+	#speaker78 {
+		vertical-align: top;
+		width: 18%;
+		display: block;
+		float: right;
+		position: relative;
+	}
+
+	#speaker7 {
+		width: 100%;
+		display: block;
+		float: left;
+		border-bottom: 1px solid #fafafa;
+	}
+
+	#speaker8 {
+		width: 100%;
+		display: block;
+		float: left;
+	}
+
+	div.tickets {
+		box-sizing: border-box;
+	}
+
+	div.tickets a {
+		min-width: 0;
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: auto;
+		left: auto;
+		right: 0;
+		width: 11rem;
+		height: 11rem;
+		margin-left: 0;
+		margin-top: 0;
+		margin-right: 0;
+		background-color: rgba(153,0,0,0.9);
+		color: white;
+		text-decoration: none;
+		/*border-top: 1px solid #fafafa;*/
+		border-right: none;
+		z-index: 22222; /*dh*/
+	}
+
+	div.tickets a span.label {
+		margin: 0;
+		position: relative;
+		display: block;
+		float: left;
+		padding: 2.5rem 0 0 0.5rem;
+		font-size: 1.65rem;
+		line-height: 1.125rem;
+		font-weight: 500;
+	}
+
+	div.tickets a span.price {
+		margin: 0;
+		position: relative;
+		display: block;
+		float: left;
+		padding: 0.5rem 0 0 0.5rem;
+		font-size: 4rem;
+		line-height: 3.75rem;
+		border-bottom: none;
+	}
+
+	div.tickets a span.price:after {
+		display: block;
+		position: absolute;
+		top: 2.75rem;
+		right: -1rem;
+		content: "\2192";
+		font-family: "Times New Roman" !important;
+		font-size: 3.5rem;
+	}
+
+	header, div.description, div.testimonial {
+		padding-left: 35%;
+	}
+
+	blockquote {
+	}
+
+	blockquote:before {
+		font-size: 7rem;
+		padding-top: 2.4rem;
+		left: -1.25rem;
+	}
+
+	blockquote p, blockquote cite {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	header #logo {
+		margin-top: 4rem;
+		padding-right: 10%;
+	}
+
+	#logo {
+		margin-top: 3rem;
+		max-width: 23.125rem;
+		max-height: 3.5rem;
+		background: transparent url(images/logo.png) no-repeat top left;
+		background-size: 23.125rem 3.5rem;
+	}
+
+	#logo img {
+		max-width: 100%;
+	}
+
+	#logo span {
+		display: none;
+	}
+
+	.svg #logo {
+		background: none;
+	}
+
+	.svg #logo span {
+		display: block;
+	}
+
+	#title {
+		display: block;
+		width: 100%;
+		font-size: 4.5rem;
+		line-height: 4rem;
+		font-weight: 100;
+		color: #C9003A;
+		margin: 2rem 0 3rem 0;
+	}
+
+	p.datevenue {
+		font-size: 1.15rem;
+		font-weight: 300;
+		color: #646464;
+		margin: 0;
+		line-height: 1.5rem;
+		margin-top: 0.5rem;
+	}
+
+	p.datevenue a {
+		display: block;
+		color: #646464;
+		text-decoration: none;
+		font-weight: 300;
+	}
+
+
+	p.intro {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	.schedule h2, .sponsors h2, .about h2, .location h2 {
+		font-size: 3.25rem;
+		line-height: 3.25rem;
+		margin-top: 2.5rem;
+		margin-bottom: 1.5rem;
+		text-align: right;
+		padding: 1rem 67.5% 1rem 0;
+		font-weight: 100;
+	}
+
+	.schedule p, .schedule h4 {
+		text-align: left;
+		margin-left: 0;
+		margin-right: 5%;
+	}
+
+	.schedule ol {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.schedule ol li {
+		position: relative;
+		padding-left: 35%;
+		margin: 2rem 0;
+	}
+
+	.schedule ol li {
+		padding-top: 0;
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.schedule ol li h3 {
+		padding-top: 1rem;
+		margin-bottom: 3rem;
+	}
+
+	.schedule ol li.speaker h3 {
+		padding-left: 0;
+	}
+
+	.schedule ol li.admin h3, .schedule ol li.admin time {
+	/*	font-size: 2rem;
+		line-height: 2.25rem;*/
+		font-size: 1.8rem;
+		line-height: 2rem;
+		font-weight: 300;
+		color: #707070;
+		padding-top: 0;
+		margin-left: 0;
+	}
+
+	.schedule ol li.speaker h3 {
+	/*	font-size: 4rem;
+		line-height: 4rem;*/
+		font-size: 2.75rem;
+		line-height: 3rem;
+		font-weight: 100;
+		color: #c80039;
+		margin-bottom: 0;
+		padding-top: 0;
+		margin-left: 0;
+	}
+
+	.schedule ol li.speaker time {
+	/*	font-size: 4rem;
+		line-height: 4rem;*/
+		font-size: 2.5rem;
+		line-height: 3rem;
+		display: inline;
+		width: 5rem;
+		font-weight: 100;
+		color: #c80039;
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+
+	.schedule ol li .identifiers {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 67.5%;
+		text-align: right;
+		margin-left: 0;
+	}
+
+	.schedule ol li .identifiers p.speakerphoto {
+		position: relative;
+		display: inline-block;
+		float: none;
+		margin: 0;
+/*		top: 5.25rem;*/
+		vertical-align: top;
+		margin-left: 1rem;
+		border: 1px solid #dedede;
+	}
+
+	.sponsors ol {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.sponsors ol li {
+		position: relative;
+		padding-left: 35%;
+		margin: 2rem 0;
+	}
+
+	.sponsors ol ol li {
+		padding-left: 0;
+	}
+
+	.sponsors h3 {
+		text-align: right;
+		padding-left: 0;
+		padding-right: 67.5%;
+		font-weight: 100;
+		font-size: 2rem;
+		font-weight: 100;
+	}
+
+	.sponsors .sponsor-pack, .sponsors .gold, .sponsors .silver, .sponsors .bronze, .sponsors .supporters {
+		padding-left: 35%;
+		margin-bottom: 2rem;
+	}
+
+	.sponsors .platinum {
+		padding-left: 0;
+		margin: 0;
+	}
+
+	.sponsors .sponsor-pack h3, .sponsors .gold h3, .sponsors .silver h3, .sponsors .bronze h3, .sponsors .supporters h3 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-right: 0;
+		margin-top: 0;
+		width: 32.5%;
+		text-align: right;
+	} 
+
+/* START position adjustment for sponsor headings to line up nicely with logos */
+
+	.sponsors .gold h3 {
+		margin-top: 3.75rem;
+		margin-bottom: -3.75rem;
+	}
+
+	.sponsors .bronze h3 {
+		margin-top: 0.5rem;
+		margin-bottom: -0.5rem;
+	}
+
+	.sponsors .bronze {
+		margin-bottom: 4rem !important;
+	}
+
+/* END position adjustment for sponsor headings to line up nicely with logos */
+
+	.sponsors ol ol h4 {
+		font-size: 1.17em;
+	}
+
+	.sponsors ol.platinum li div.sponsor-logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 67.5%;
+		text-align: right;
+	}
+
+	.sponsors ol.platinum li {
+		min-height: 14rem;
+		padding-left: 35%;
+	}
+
+	.sponsors ol.platinum div.sponsor-logo img {
+		max-height: 13rem;
+		width: auto;
+	}
+
+	div.gold, div.silver, div.bronze, div.supporters {
+		padding-left: 35%;
+	}
+
+	.sponsors div.sponsor-logo {
+		display: table-cell;
+	}
+
+	.sponsors div.sponsor-logo + div.sponsor-logo {
+		margin-left: 0;
+		padding-left: 20px;
+	}
+
+	.sponsors .gold div.sponsor-logo img {
+		max-height: 12rem;
+		width: auto;
+	}
+
+	.sponsors .silver div.sponsor-logo img {
+		max-height: 10rem;
+		width: auto;
+	}
+
+	.sponsors .bronze div.sponsor-logo img {
+		max-height: 8rem;
+		width: auto;
+	}
+
+	.sponsors .supporters div.sponsor-logo img {
+		max-height: 4rem;
+		width: auto;
+	}
+
+	.about p, .location p, .location .map {
+		margin-left: 35%;
+	}
+
+	.legal p {
+		margin: 6rem 0 3rem 35%;
+	}
+
+	.location #venue-shots {
+		padding-left: 35%;
+	}
+
+	.location #venue-shots .venue-shot-1 {
+		position: absolute;
+		top: -7rem;
+		right: 78%;
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.location #venue-shots .venue-shot-2 {
+		position: absolute;
+		top: 0.25rem;
+		right: 67.5%;
+		width: 8rem;
+		height: 8rem;
+	}
+
+
+/* ------------- le stuck ------------- */
+
+	div.tickets.stuck {
+		box-sizing: border-box;
+	}
+
+	div.tickets.stuck a {
+		display: block;
+		/*position: fixed;*/
+		top: 0;
+		left: 0;
+		right: 0;
+		width: auto;
+		min-width: 320px;
+		height: 4rem;
+		margin-top: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+
+	div.tickets.stuck a div {
+		position: relative;
+		display: inline;
+		max-width: 50rem;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	div.tickets.stuck a span.label {
+		position: relative;
+		display: block;
+		top: -1rem;
+		float: left;
+		margin-left: 35%;
+		padding: 2.5rem 0 0 0;
+		font-size: 1.65rem;
+		line-height: 1.125rem;
+		font-weight: 500;
+	}
+
+	div.tickets.stuck a span.price {
+		position: relative;
+		display: block;
+		float: left;
+		padding: 0.125rem 0 0 0.75rem;
+		font-size: 3.75rem;
+		line-height: 3.75rem;
+		border-bottom: none;
+	}
+
+	div.tickets.stuck a span.price:after {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -3.5rem;
+		content: "\2192";
+		font-family: "Times New Roman" !important;
+		font-size: 2.75rem;
+	}
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+/*body:after {
+	content: "1000px";
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}*/
+
+	#speakertiles {
+		display: block;
+		top: 0;
+		left: 0;
+		right: 57.5%;
+		margin-top: 1rem;
+	}
+
+	div.tickets a {
+		top: auto;
+		bottom: -2.5rem;
+		left: -11rem;
+		right: auto;
+		width: 11rem;
+		height: 11rem;
+		margin-left: -1px;
+		border-top: none;
+		border-right: 1px solid #fafafa;
+		z-index: 22222; /*dh*/
+	}
+
+	header, div.description, div.testimonial {
+		padding-left: 45%;
+	}
+
+	div.testimonial {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.schedule h2, .sponsors h2, .about h2, .location h2 {
+		padding-left: 0;
+		padding-right: 57.5%;
+	}
+
+	.schedule ol li {
+		padding-left: 45%;
+	}
+
+	.schedule ol li.admin h3, .schedule ol li.admin time {
+		font-size: 2rem;
+		line-height: 2.25rem;
+	}
+
+	.schedule ol li.speaker h3, .schedule ol li.speaker time {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+
+	.schedule ol li .identifiers {
+		left: 0;
+		right: 57.5%;
+	}
+
+	.schedule ol li .identifiers p.speakerphoto {
+		margin-left: 3rem;
+	}
+
+	.sponsors h3 {
+		padding-left: 0;
+		padding-right: 57.5%;		
+	}
+
+	.sponsors .sponsor-pack {
+		margin-top: 3rem;
+	}
+
+	.sponsors ol li {
+		padding-left: 45%;
+	}
+
+	.sponsors .sponsor-pack, .sponsors .gold, .sponsors .silver, .sponsors .bronze, .sponsors .supporters {
+		padding-left: 45%;
+		margin-bottom: 2rem;
+	}
+
+	.sponsors .sponsor-pack h3, .sponsors .gold h3, .sponsors .silver h3, .sponsors .bronze h3, .sponsors .supporters h3 {
+		width: 42.5%;
+	} 
+
+	.sponsors ol.platinum li div.sponsor-logo {
+		left: 0;
+		right: 57.5%;
+		text-align: right;
+	}
+
+	.sponsors ol.platinum li {
+		padding-left: 45%;
+	}
+
+	div.gold, div.silver, div.bronze, div.supporters {
+		padding-left: 45%;
+	}
+
+	.about p, .location p, .location .map {
+		margin-left: 45%;
+	}
+
+	.legal p {
+		margin: 6rem 0 3rem 45%;
+	}
+
+	.location #venue-shots {
+		padding-left: 45%;
+	}
+
+	.location #venue-shots .venue-shot-1 {
+		top: -7rem;
+		right: 67%;
+		width: 12rem;
+		height: 12rem;
+	}
+
+	.location #venue-shots .venue-shot-2 {
+		top: 0.25rem;
+		right: 57.5%;
+	}
+
+/* ------------- le stuck ------------- */
+
+	div.tickets.stuck a span.label {
+		margin-left: 45%;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+/* body:after {
+	content: "1200px";
+	position: fixed;
+	bottom: 0;
+	right: 0;
+} */
+
+	#speakertiles {
+		display: block;
+		top: 0;
+		left: 0;
+		right: 57.5%;
+	}
+
+	#logo {
+		margin-top: 3rem;
+		max-width: 32rem;
+		max-height: 4.843rem;
+		margin-bottom: 1rem;
+		background: transparent url(images/logo.png) no-repeat top left;
+		background-size: 32rem 4.843rem;
+	}
+
+	#title {
+		display: block;
+		width: 100%;
+		font-size: 6rem;
+		line-height: 5.5rem;
+		font-weight: 100;
+		color: #C9003A;
+		margin: 2rem 0 3rem 0;
+	}
+
+	p.datevenue {
+		font-size: 1.75rem;
+		font-weight: 300;
+		color: #646464;
+		margin: 0;
+		line-height: 2rem;
+		margin-top: 0.5rem;
+	}
+	.location #venue-shots .venue-shot-1 {
+		top: -7rem;
+		right: 67%;
+		width: 15rem;
+		height: 15rem;
+	}
+	.location #venue-shots .venue-shot-2 {
+		top: 0.25rem;
+		right: 57.5%;
+		width: 10rem;
+		height: 10rem;
+	}
+}
+
+
+div.sponsor-logo img.sponsor-freeagent {
+	max-width: 40%;
+}
+
+div.sponsor-logo img.sponsor-brandwatch {
+	max-width: 80%;
+	margin-top: -2rem;
+	margin-left: 0.5rem;
+}
+
+div.sponsor-logo img.sponsor-balsamiq {
+	max-width: 45%;
+	margin-top: -0.5rem;
+}
+
+div.sponsor-logo img.sponsor-aegir {
+	max-width: 90%;
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+div.sponsor-logo img.sponsor-interactiondesign {
+	max-width: 50%;
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+div.sponsor-logo img.sponsor-axure {
+	max-width: 30%;
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+div.sponsor-logo img.sponsor-face-media-group {
+	max-width: 40%;
+	margin-right: 1rem;
+}
+
+.tickets.curtain {
+	position: fixed;
+	left: 0;
+	right: 0;
+	/*top: 0;*/
+	height: 4em;
+	z-index: 1111;
+}
+
+.tickets.curtain .book {
+	position: relative;
+	
+}
+
+
+a {
+/*	position: relative;*/ /* dh - removed to fix z-index problem where links were higher than ticket */
+	z-index: 22222; /*dh*/
+}
+
+#venue-shots img {
+	border: 1px solid #f9faf9;
+}
+
+.company {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+/* @group Collapsing speaker details */
+
+	.schedule h3 a {
+		color: #c80038;
+		text-decoration: none;
+		cursor: default;
+	}
+
+@media only screen and (max-width: 480px) {
+	.schedule p {
+		display: none;
+	}
+	.schedule :target p {
+		display: block;
+	}
+	p.intro, blockquote, .location #venue-shots, .blurb, .sponsor-pack {
+		display: none;
+	}
+	.schedule time {
+		font-size: 1.5rem !important;
+	}
+	.schedule h3 {
+		padding-top: 0 !important;
+		margin-top: 0 !important;
+		font-size: 1.5em !important;
+	}
+/*	.schedule h3:after {
+		content: "▼";
+		font-size: 0.6em;
+		margin-left: 1em;
+	}
+	.schedule :target h3:after {
+		content: "";
+	}*/
+	.schedule h4 {
+		font-size: 1rem;
+		margin-top: 0;
+		margin-bottom: -0.5em;
+	}
+	p.speakerphoto {
+		display: none !important; /*I know, I’m sorry*/
+	}
+}
+
+/* @end */
+
+abbr {
+	letter-spacing: 0.1em;
+	border-bottom: none !important;
+	font-size: 0.9em;
+	color: hsla(200, 51%, 18%, 0.7);
+	font-weight: bold;
+}
+
+
+/* hiding the breaks and lunch 
+
+.schedule ol li.admin {
+	display: none;
+}
+
+*/
+
+
+
+/* hiding the times
+
+.schedule ol li .identifiers time {
+	display: none;
+}
+
+*/

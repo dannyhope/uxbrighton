@@ -1,0 +1,60 @@
+.uxbrighton2013-logo {
+	white-space: nowrap;
+	padding-bottom: 0.10em;
+	width: 7.47em;
+	position: relative;
+	line-height: 0.76em;
+	font-family: "museo-slab","Museo Slab",Rockwell,sans-serif;
+}
+.uxbrighton2013-logo-ux {
+	color: #108BC1;
+	font-size: 0.9em;
+	font-weight: 800;
+	letter-spacing: -0.09em;
+	margin-left: -0.03em;
+	}
+.uxbrighton2013-logo-x {
+	display: inline-block;
+	-webkit-transform:	scale(1.25,1);
+	-moz-transform:		scale(1.25,1);
+	-ms-transform:		scale(1.25,1);
+	-o-transform:		scale(1.25,1);
+	transform: 			scale(1.25,1);
+	margin-left: 0.14ex;
+	margin-right: 0.14ex;
+	}
+.uxbrighton2013-logo-brighton {
+	color: #C9003A;
+	margin-left: -0.155em;
+	letter-spacing: -0.04em;
+	}
+.uxbrighton2013-logo-year {
+	color: #FFA039;
+	font-weight: 300;
+	font-size: 0.8em;
+	margin-left: -0.195em;
+	}
+.uxbrighton2013-logo.fifty-px {
+	font-size: 			50px;
+}
+.uxbrighton2013-logo.white * {
+	color: #fff !important;
+}
+.uxbrighton2013-logo.black * {
+	color: #000 !important;
+}
+/*@media screen and (min-width: 735px){
+	.uxbrighton2013-logo.banner-logo {
+	font-size: 100px;
+	}	
+}
+@media screen and (max-width: 735px){
+	.uxbrighton2013-logo.banner-logo {
+	font-size: 75px;
+	}	
+}
+@media screen and (max-width: 550px){
+	.uxbrighton2013-logo.banner-logo {
+	font-size: 50px;
+	}	
+}*/

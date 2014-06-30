@@ -3,9 +3,5 @@ markdown: redcarpet
 permalink: /:title/
 pygments: true
 future: true
-exclude: 	
- - "2010"
- - "2011"
- - "2012"
- - "2013"
+exclude: [CNAME]
 

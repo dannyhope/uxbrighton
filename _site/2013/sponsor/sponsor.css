@@ -1,0 +1,542 @@
+body {
+	padding: 1rem;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300 !important;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: #fafafa;
+}
+
+@media (min-width: 50rem) {
+	body {
+		font-size: 16px;
+		margin-bottom: 1.5rem !important;
+	}
+}
+
+@media (min-width: 100rem) {
+	body {
+		font-size: 18px;
+	}
+}
+h1, h2, h3 {
+	font-family: "museo-slab", Rockwell, "American Typewriter", sans-serif;
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+h2 {
+	color: #c70a3c;
+	text-align: center;
+}
+h3 {
+	color: #fd9f44;
+	margin-top: 0;
+}
+abbr {
+	border: none !important; /*why’s important required?*/
+}
+p {
+	text-align: left;
+}
+/* @group Tables */
+td, th {
+	vertical-align: top;
+	padding: 0.5rem;
+}
+thead th {
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+td:last-child,
+th:last-child {
+	padding-right: 0;
+}
+
+
+/* @end */
+section, footer {
+	padding: 1rem;
+	margin: 0 -1rem;
+	clear: both;
+}
+section {
+	border-top: 1px solid rgba(0,0,0,0.05) !important;
+	text-align: center;
+}
+
+@media print {
+	/*maybe these should get moved to the sections too*/
+	section {
+		page-break-after:always;
+	}
+	section:last-child {
+		page-break-after:avoid;
+	}
+	.sponsor-call-to-action {
+		text-align: center !important;
+		width: 100%;
+	}
+	.sponsor-call-to-action * {
+		text-align: center !important;
+	}
+	th, td {
+		padding: 0.5rem !important;
+		font-size: 11pt;
+	}
+	.demographics {
+		font-size: 9pt;
+	}
+	.demographics h3,
+	.demographics li,
+	.demographics .markets li,
+	.demographics .companies li {
+		text-align: left !important;
+	}
+	.demographics li {
+		white-space: nowrap;
+	}
+	.demographics div {
+		display: inline-block;
+		width: 14rem;
+		vertical-align: top;
+	}
+	.demographics .value {
+		width: 2rem !important;
+	}
+	footer {
+		display: none;
+	}
+}
+ul, ol, li {
+	text-align: left;
+}
+/* @group Text fixes */
+
+.widow {
+	white-space: nowrap;
+}
+.long {
+	display: none;
+}
+/* @end */
+
+/*↓ Modules all the way down*/
+/* @group sponsor-call-to-action */
+
+.sponsor-call-to-action {
+	background: #ffa039;
+	padding: 0.1rem 2rem;
+	line-height: 1.5;
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+.sponsor-call-to-action p {
+	text-align: center;	
+}
+.sponsor-call-to-action .avatar {
+	display: none;
+}
+.sponsor-call-to-action a {
+	color: black;
+	/*font-weight: bold;*/
+	text-decoration: underline !important;
+	text-decoration: none;
+}
+@media (max-width: 400px) {
+	/*call button on mobile*/
+	.sponsor-call-to-action a[href^="tel:"] {
+		display: block;
+		background: rgba(254,255,255,0.71);
+		color: rgba(0,0,0,0.8);
+		margin: 0.5rem;
+		font-weight: bold;
+		max-width: 10rem;
+		width: 10rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0.5rem inherit;
+		border-radius: 0.25rem;
+		text-decoration: none !important;
+		box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.2);
+	}
+}
+.print-control {
+	display: none;
+}
+@media (min-width: 30rem) {
+	/*hide all but the first call to action*/
+	.sponsor-call-to-action {
+		display: none;
+	}
+	.sponsor-call-to-action.primary {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.print-control {
+		display: inline;
+		cursor: pointer;
+		margin-left: 0.5rem;
+	}
+}
+
+}
+/* @end */
+/* @group fronticepiece */
+.frontispiece‎ {
+	background-color: black;
+	margin-top: -1rem;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+.uxbrighton2013-logo {
+	width: 15rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0rem;
+}
+.frontispiece‎ .location {
+	color: rgba(11,138,193,0.79);
+	font-size: 0.85rem;
+	text-align: center;
+}
+.frontispiece‎ .tagline {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	font-weight: 500;
+	line-height: 1.25;
+	color: #0b8ac1;
+}
+.be-a-sponsor {
+	color: #ffa039;
+	font-size: 2rem;
+	margin-top: -1rem;
+	margin-bottom: 2rem;
+}
+
+@media (min-height: 20rem) {
+	.uxbrighton2013-logo {
+		margin-top: 4rem;
+	}
+	.frontispiece‎ .tagline {
+		margin-top: 1.25rem;
+	}
+	.be-a-sponsor {
+		font-size: 2.5rem;
+		margin-top: 	3rem;
+		margin-bottom:	3rem;
+	}
+}
+/* @end */
+@media (min-height: 30rem) {
+	.uxbrighton2013-logo {
+		margin-top: 6rem;
+	}
+	.frontispiece‎ .tagline {
+		margin-top: 1.5rem;
+	}
+	.be-a-sponsor {
+		font-size: 3.5rem;
+		margin-top: 	4.5rem;
+		margin-bottom:	4.5rem;
+	}
+}
+@media (min-height: 30rem) {
+	.uxbrighton2013-logo {
+		margin-top: 6rem;
+	}
+	.frontispiece‎ .tagline {
+		margin-top: 1.5rem;
+	}
+	.be-a-sponsor {
+		font-size: 3.5rem;
+		margin-top: 	4.5rem;
+		margin-bottom:	4.5rem;
+	}
+}
+/* @end */
+/* @group sponsor-levels */
+.sponsor-levels {
+	border-top: 1px solid rgba(0,0,0,0.25);
+	text-align: center;
+}
+.sponsor-levels ul {
+	text-align: left;
+}
+.sponsor-levels-as-table {
+	display: none;
+}
+.sponsor-level-heading {
+	font-size: 1rem;
+	font-family: "museo-slab", Rockwell, "American Typewriter", sans-serif;
+	font-weight: 500;
+
+	padding: 0.5rem;
+	font-weight: 500;
+	}
+.sponsor-level-heading.gamma {
+	color: #ffa039;
+	background-color: rgba(0,0,0,0.05);
+}
+.sponsor-level-heading.beta {
+	color: #c90039;
+	background-color: rgba(0,0,0,0.05);
+	}
+.sponsor-level-heading.alpha {
+	color: #0b8ac1;
+	background-color: rgba(0,0,0,0.05);
+	}
+.sponsor-levels .extras {
+	margin-top: 2rem;
+	}
+.sponsor-levels p {
+	color: rgba(0,0,0,0.33);
+	font-weight: bold;
+	margin-top: -0.75rem;
+	text-align: center;
+	line-height: 1.3;
+	}
+.n, .price {
+	margin-left: 0.5rem;
+}
+/*list or table for sponsor levels*/
+@media (min-width: 30rem) {
+	.sponsor-levels-as-table {
+		display: inline-block;
+	}
+	.sponsor-levels-as-lists {
+		display: none;
+	}
+}
+
+/* @group Lists */
+.sponsor-levels {
+	text-align: center;
+}
+.sponsor-levels div {
+	max-width: 52.5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sponsor-levels ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 23rem;
+}
+.sponsor-levels li {
+	margin-bottom: 0.25rem;
+}
+.sponsor-levels li:before {
+	content: "✔";
+	display: inline-block;
+	width: 1rem;
+	text-align: right;
+	padding-right: 0.5rem;
+	color: rgba(0,0,0,0.82);
+}
+.sponsor-lelevs-as-lists .n {
+	margin-right: 1rem;
+}
+.sponsor-levels-as-lists h3 {
+	text-align: left;
+}
+.sponsor-levels-as-lists h3 .price {
+	float: right;
+}
+/* @end */
+
+/* @group Table */
+.sponsor-levels {
+	margin-left: auto;
+	margin-right: auto;
+}
+.sponsor-levels td {
+	text-align: center;
+	font-weight: bold;
+}
+.sponsor-levels th[scope=row] {
+	font-weight: inherit;
+	text-align: left;
+}
+.sponsor-levels th.sponsor-level-heading {
+	min-width: 5rem;
+}
+th.sponsor-level-heading {
+	text-align: center;
+}
+tr.divider th,
+tr.divider td {
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+.sponsor-levels th {
+	background: none !important; /*why important?*/
+}
+/* @end */
+
+/* @end */
+
+/* @group why-sponsor */
+.why-sponsor ol {
+	margin-top:		1.5rem;
+	padding-left:	3rem;
+	padding-right:	1.25rem;
+	}
+.why-sponsor ol,
+.why-sponsor p {
+	max-width: 55rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.why-sponsor li {
+	margin-bottom:	1rem;
+	margin-left:	1rem;
+	}
+
+/* @end */
+
+/*sponsor levels BESIDE reasons to sponsor*/
+/*@media (min-width: 50rem) { 
+	section.why-sponsor {
+		padding: 4rem;
+		margin-right: 0;
+	}
+	section.why-sponsor h2,
+	section.sponsor-levels h2 {
+		text-align: left;
+	}
+	.sponsor-call-to-action {
+		display: none !important;
+	}
+	section.sponsor-levels {
+		width: 40%;
+		padding: 4rem;
+		display: inline-block;
+		margin-left: 0;
+	}
+}*/
+
+/* @group demographics */
+
+.demographics h3 {
+	text-align: center;
+}
+.demographics .value {
+	display: inline-block;
+	width: 45%;
+	color: #0b8ac1;
+	text-align: right;
+	padding-right: 1rem;
+}
+.demographics ul {
+	padding-left: 0;
+}
+.demographics li {
+	list-style-type: none;
+}
+.demographics ul > ul {
+	color: rgba(0,0,0,0.5);
+	display: inline;
+}
+.demographics ul > ul li {
+	display: inline;
+}
+.demographics ul > ul li:after {
+	content: ", ";
+}
+.demographics ul > ul li:last-child:after {
+	content: "";
+}
+.demographics h3 {
+	margin-bottom: 0.25rem;
+}
+.demographics ul {
+	margin-top: 0;
+}
+.demographics .markets li,
+.demographics .companies li {
+	text-align: center;
+}
+
+@media (min-width: 71rem) {
+	.demographics h3,
+	.demographics li {
+		text-align: left;
+}
+	.demographics div {
+		display: inline-block;
+		width: 17rem;
+		vertical-align: top;
+	}
+	.demographics .value {
+		width: 2rem;
+	}
+	.demographics .markets li,
+	.demographics .companies li {
+		text-align: left;
+	}
+}
+/* @end */
+
+/* @group speakers */
+
+#previous-speakers {
+	background: beige;
+}
+#this-years-speakers {
+	background: paleturquoise;
+}
+
+/* @end */
+
+/* @group quotes */
+
+.quotes {
+	border-top: 1px solid rgba(0,0,0,0.25);
+	padding: 1rem;
+	margin: -1rem;
+}
+blockquote {
+	margin-left: 1.25rem;
+	margin-right: 1.25rem;
+	text-align: left;
+	max-width: 25rem;
+	display: inline-block;
+	vertical-align: top;
+}
+cite {
+	margin-bottom: 1rem;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 500;
+	color: #ffa039;
+}
+cite:before {
+	content: "—";
+	width: 1.25rem;
+}
+
+/* @group footer */
+footer {
+	padding: 0;
+}
+footer a {
+	font-weight: 700;
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 0.75rem;
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	margin-bottom: -2rem;
+	padding: 1rem;
+	color: rgba(0,0,0,0.25);
+	text-align: center;
+	font-weight: bold;
+}
+
+/* @end */

@@ -29,10 +29,10 @@
 
 	<h2>Past events:</h2>
 	<ul class="event-title-list">
-		{% for post in site.posts %}
-		{% if post.noinfo == null %}
-		{% if post.stub == null %}	
-		{% if post.upcoming == null or post.upcoming == false and post.published == true %}	
+			{% for post in site.posts %}
+			{% if post.noinfo == null %}
+			{% if post.stub == null %}	
+			{% if post.upcoming == null or post.upcoming == false %}
 			{% if page.url == post.url %}
 			<li class="event-title-list-item current">
 				<a href="{{post.url}}">{{ post.title }}</a>

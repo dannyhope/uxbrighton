@@ -1,0 +1,1396 @@
+/*! normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+	display: block;
+}
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+
+audio,
+canvas,
+video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ * Remove excess height in iOS5 devices
+ */
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+
+[hidden] {
+	display: none;
+}
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *	http://clagnut.com/blog/348/#c790
+ * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *	www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html {
+	font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	-ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+	font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+
+body {
+	margin: 0;
+}
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses outline displayed oddly in Chrome
+ */
+
+a:focus {
+	outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE6/7
+ * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+ */
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+h2 {
+	font-size: 1.65em;
+	margin: 0.83em 0;
+}
+
+h3 {
+	font-size: 1.45em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1.17em;
+	margin: 1.33em 0;
+}
+
+h5 {
+	font-size: 1em;
+	margin: 1.67em 0;
+}
+
+h6 {
+	font-size: 0.83em;
+	margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE7/8/9, S5, Chrome
+ */
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+*/
+
+b,
+strong {
+	font-weight: bold;
+}
+
+blockquote {
+	margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in S5, Chrome
+ */
+
+dfn {
+	font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE6/7/8/9
+ */
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+p,
+pre {
+	margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE6, S4/5, Chrome
+ * en.wikipedia.org/wiki/User:Davidgothberg/Test59
+ */
+
+pre,
+code,
+kbd,
+samp {
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers
+ */
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/*
+ * 1. Addresses CSS quotes not supported in IE6/7
+ * 2. Addresses quote property not supported in S4
+ */
+
+/* 1 */
+
+q {
+	quotes: none;
+}
+
+/* 2 */
+
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+small {
+	font-size: 75%;
+}
+
+/*
+ * Prevents sub and sup affecting line-height in all browsers
+ * gist.github.com/413930
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+dl,
+menu,
+ol,
+ul {
+	margin: 1em 0;
+}
+
+dd {
+	margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7
+ */
+
+menu,
+ol,
+ul {
+	padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE7
+ */
+
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none;
+}
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
+ * 2. Improves image quality when scaled in IE7
+ *	code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+
+img {
+	border: 0; /* 1 */
+	-ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE9
+ */
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE6/7/8/9, S5, O11
+ */
+
+figure {
+	margin: 0;
+}
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE6/7
+ */
+
+form {
+	margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding
+ */
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE6/7/8/9
+ * 2. Corrects text not wrapping in FF3
+ * 3. Corrects alignment displayed oddly in IE6/7
+ */
+
+legend {
+	border: 0; /* 1 */
+	padding: 0;
+	white-space: normal; /* 2 */
+	*margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers
+ * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+ * 3. Improves appearance and consistency in all browsers
+ */
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%; /* 1 */
+	margin: 0; /* 2 */
+	vertical-align: baseline; 3 */
+	*vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+ */
+
+button,
+input {
+	line-height: normal; /* 1 */
+}
+
+/*
+ * 1. Improves usability and consistency of cursor style between image-type 'input' and others
+ * 2. Corrects inability to style clickable 'input' types in iOS
+ * 3. Removes inner spacing in IE7 without affecting normal text inputs
+ *	Known issue: inner spacing remains in IE6
+ */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer; /* 1 */
+	-webkit-appearance: button; /* 2 */
+	*overflow: visible;  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+
+button[disabled],
+input[disabled] {
+	cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE8/9
+ * 2. Removes excess padding in IE8/9
+ * 3. Removes excess padding in IE7
+	  Known issue: excess padding remains in IE6
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+	*height: 13px; /* 3 */
+	*width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses appearance set to searchfield in S5, Chrome
+ * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+ */
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box; /* 2 */
+	box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in S5, Chrome on OS X
+ */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in FF3+
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9
+ * 2. Improves readability and alignment in all browsers
+ */
+
+textarea {
+	overflow: auto; /* 1 */
+	vertical-align: top; /* 2 */
+}
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells
+ */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* =============================================================================
+   UXBrighton
+   ========================================================================== */
+
+/*
+ * Adds special magic
+ */
+
+
+ul {display: none;}
+.open ul {display: block;}
+.hover {}
+
+body {
+	background-color: #fafafa;
+	color: #183849;
+	font-size: 100%;
+	line-height: 1.75rem;
+	font-family: "museo-slab", "Museo Slab", Rockwell, sans-serif;
+	font-weight: 300;
+	width: 100%;
+}
+
+h2, h3, h4 {
+	font-weight: 500;
+}
+
+a {
+	color: #47a3d7;
+	font-weight: 500;
+}
+
+p {
+	max-width: 40rem;
+	margin-right: 2rem;
+}
+
+a:visited {
+	color: #598ca9;
+}
+
+a:active, a:hover {
+	color: #a20d3e;
+}
+
+div {
+	position: relative;
+}
+
+div.photos {
+	position: absolute;
+}
+
+p.intro {
+	font-weight: 500;
+}
+
+p.speakerphoto {
+	background-color: #232323;
+	width: 10rem;
+	font-size: 0.01rem;
+	line-height: 0.01rem;
+	display: inline-block;
+}
+
+p.speakerphoto img, .sponsors img {
+	width: 10rem;
+	height: auto;
+}
+
+#map {
+	height: 300px;
+}
+
+div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	font-size: 0.01rem;
+	line-height: 0.01rem;
+	border: 1px solid red;
+}
+
+#speaker1, #speaker2, #speaker3, #speaker4, #speaker5, #speaker6, #speaker7, #speaker8, #tickets {
+	position: absolute;
+	padding: 1px;
+}
+
+#speaker1 img, #speaker2 img, #speaker3 img, #speaker4 img, #speaker5 img, #speaker6 img, #speaker7 img, #speaker8 img, #tickets img {
+	max-width: 100%;
+	max-height: 100%;	
+}
+
+#speaker1 {
+	top: 0;
+	right: 0;
+	left: 68.9%;
+}
+
+#speaker2 {
+	top: 0;
+	right: 31%;
+	left: 45%;
+}
+
+#speaker3 {
+	top: 16.9%;
+	right: 54.9%;
+	left: 30.5%;
+}
+
+#speaker4 {
+	top: 0;
+	right: 54.9%;
+	left: 28%;
+}
+
+#speaker5 {
+	top: 0;
+	right: 71.9%;
+	left: 10.9%;
+}
+
+#speaker6 {
+	top: 0;
+	right: 89%;
+	left: 0;
+}
+
+#speaker7 {
+	top: 10.9%;
+	right: 89%;
+	left: 0;
+}
+
+#speaker8 {
+	top: 16.9%;
+	right: 69.4%;
+	left: 20.7%;
+}
+
+/*#speaker1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 192px;
+	padding: 1px;
+}
+
+#speaker2 {
+	position: absolute;
+	top: 71px;
+	right: 127px;
+	left: 107px;
+	padding: 1px;
+}
+
+#speaker3 {
+	position: absolute;
+	top: 0;
+	right: 127px;
+	left: 121px;
+	padding: 1px;
+}
+
+#speaker4 {
+	position: absolute;
+	top: 0;
+	right: 198px;
+	left: 50px;
+	padding: 1px;
+}
+
+#speaker5 {
+	position: absolute;
+	top: 71px;
+	right: 212px;
+	left: 50px;
+	padding: 1px;
+}
+
+#speaker6 {
+	position: absolute;
+	top: 0;
+	right: 269px;
+	left: 0;
+	padding: 1px;
+}
+
+#speaker7 {
+	position: absolute;
+	top: 50px;
+	right: 269px;
+	left: 0;
+	padding: 1px;
+}
+
+#speaker8 {
+	position: absolute;
+	top: 127px;
+	right: 0;
+	left: 265px;
+	padding: 1px;
+}*/
+
+@media only screen and (min-width: 480px) {
+/* 20em =================================================== */
+
+
+}
+
+@media only screen and (min-width: 481px) {
+/* 20em =================================================== */
+
+/*	body {background-color: blue;}*/
+
+
+}
+
+@media only screen and (min-width: 40em) {
+/* 20em =================================================== */
+
+/*	body {background-color: yellow;}*/
+
+}
+
+@media only screen and (min-width: 50em) {
+/* 50em =================================================== */
+
+	header, div.description {
+		padding-left: 45%;
+	}
+
+	div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+		z-index: 1;
+		position: fixed;
+		top: 0.5rem;
+		right: 57.5%;
+		width: 19rem;
+		height: 19rem;
+		font-size: 0.01rem;
+		line-height: 0.01rem;
+	}
+
+	.photos img {
+		opacity: 0.9;
+	}
+
+	div.cta {
+		z-index: 1500;
+	}
+
+	div.cta a {
+		display: block;
+		position: absolute;
+		top: 92.2%;
+		right: 43.6%;
+		width: 11rem;
+		height: 11rem;
+		margin: 1px;
+		background-color: rgba(153,0,0,0.9);
+		color: white;
+		text-decoration: none;
+	}
+
+	div.cta a span.label {
+		position: absolute;
+		top: 1rem;
+		left: 0;
+		right: 0;
+		padding: 0.5rem;
+		font-size: 1.5rem;
+		line-height: 1.25rem;
+		font-weight: 500;
+	}
+
+	div.cta a span.offer {
+		position: absolute;
+		top: 3rem;
+		left: 0;
+		right: 0;
+		padding: 0.5rem;
+		font-size: 1.15rem;
+		line-height: 1.35rem;
+		font-weight: 300;
+	}
+
+	div.cta a span.offer:after {
+		content: ">";
+		position: absolute;
+		right: 0.5rem;
+		top: 1rem;
+		font-size: 2rem;
+	}
+
+	div.cta a span.price {
+		position: absolute;
+		bottom: 0.5rem;
+		left: 0;
+		right: 0;
+		padding: 0.5rem;
+		font-size: 3rem;
+		line-height: 1.25rem;
+		font-weight: 100;
+	}
+
+	div.cta a span.price del {
+		font-size: 1.2rem;
+		font-weight: 300;
+		margin-left: -0.5rem;
+	}
+
+	#speaker1 {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 62.4%;
+		padding: 1px;
+	}
+
+	#speaker2 {
+		position: absolute;
+		top: 7.8%;
+		right: 37.6%;
+		left: 32.4%;
+		padding: 1px;
+	}
+
+	#speaker3 {
+		position: absolute;
+		top: 37.6%;
+		right: 0;
+		left: 45.2%;
+		padding: 1px;
+	}
+
+	#speaker4 {
+		position: absolute;
+		top: 37.6%;
+		right: 54.8%;
+		left: 7.2%;
+		padding: 1px;
+	}
+
+	#speaker5 {
+		position: absolute;
+		top: 114%;
+		right: 0;
+		left: 73.2%;
+		padding: 1px;
+	}
+
+	#speaker6 {
+		position: absolute;
+		top: 92.2%;
+		right: 0;
+		left: 78%;
+		padding: 1px;
+	}
+
+	#speaker7 {
+		position: absolute;
+		top: 92.2%;
+		right: 22%;
+		left: 56.4%;
+		padding: 1px;
+	}
+
+	#speaker8 {
+		position: absolute;
+		top: 75.7%;
+		right: 54.8%;
+		left: 28.8%;
+		padding: 1px;
+	}
+
+	#speaker1:hover, #speaker2:hover, #speaker3:hover, #speaker4:hover, #speaker5:hover, #speaker6:hover, #speaker7:hover {
+		background-color: #232323;
+	}
+
+	h2 {
+		font-size: 3.25rem;
+		margin-top: 3.5rem;
+		margin-bottom: 3.5rem;
+		font-weight: 100;
+	}
+
+	#logo {
+		margin-top: 3rem;
+		max-width: 23.125rem;
+		max-height: 3.5rem;
+		background: transparent url(images/logo.png) no-repeat top left;
+		background-size: 23.125rem 3.5rem;
+	}
+
+	#logo img {
+		max-width: 100%;
+	}
+
+	#logo span {
+		display: none;
+	}
+
+	.svg #logo {
+		background: none;
+	}
+
+	.svg #logo span {
+		display: block;
+	}
+
+	#title {
+		display: block;
+		width: 100%;
+		font-size: 4.5rem;
+		line-height: 4rem;
+		font-weight: 100;
+		color: #C9003A;
+		margin: 2rem 0 3rem 0;
+	}
+
+	p.datevenue {
+		font-size: 1.15rem;
+		font-weight: 300;
+		color: #646464;
+		margin: 0;
+		line-height: 1.5rem;
+		margin-top: 0.5rem;
+	}
+
+	p.datevenue a {
+		display: block;
+		color: #646464;
+		text-decoration: none;
+		font-weight: 300;
+	}
+
+
+	p.intro {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	.schedule h2, .sponsors h2, .sponsors h3, .about h2, .location h2 {
+		text-align: right;
+		padding-right: 57.5%;
+	}
+
+	.sponsors h3 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+
+	.sponsors ol ol h4 {
+		font-size: 1.17em;
+	}
+
+	.schedule ol, .sponsors ol {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.schedule ol li, .sponsors ol li {
+		position: relative;
+		padding-left: 45%;
+		margin: 2rem 0;
+	}
+
+	.sponsors ol ol li {
+		padding-left: 0;
+	}
+
+	.schedule ol li h3 {
+		margin-bottom: 3rem;
+	}
+
+	.schedule ol li.admin h3, .schedule ol li.admin time {
+		font-size: 2rem;
+		font-weight: 300;
+		color: #707070;
+	}
+
+	.schedule ol li.speaker h3, .schedule ol li.speaker time {
+		font-size: 4rem;
+		line-height: 4rem;
+		font-weight: 100;
+		color: #c80039;
+		margin-bottom: 0;
+	}
+
+	.schedule ol li .identifiers {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 57.5%;
+		text-align: right;
+	}
+
+	.schedule ol li .identifiers p.speakerphoto {
+		position: relative;
+		margin: 0;
+		top: -0.75rem;
+		vertical-align: top;
+		margin-left: 3rem;
+		border: 1px solid #dedede;
+	}
+
+	.sponsors ol.platinum li div.sponsor-logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 57.5%;
+		text-align: right;
+	}
+
+	.sponsors ol.platinum li {
+		min-height: 14rem;
+	}
+
+	.sponsors ol.platinum div.sponsor-logo img {
+		max-height: 13rem;
+		width: auto;
+	}
+
+	div.gold, div.silver, div.bronze {
+		padding-left: 45%;
+	}
+
+	.sponsors div.sponsor-logo {
+		display: inline-block;
+	}
+
+	.sponsors div.sponsor-logo + div.sponsor-logo {
+		margin-left: 20px;
+	}
+
+	.sponsors .gold div.sponsor-logo img {
+		max-height: 8rem;
+		width: auto;
+	}
+
+	.sponsors .silver div.sponsor-logo img {
+		max-height: 6rem;
+		width: auto;
+	}
+
+	.sponsors .bronze div.sponsor-logo img {
+		max-height: 4rem;
+		width: auto;
+	}
+
+	.about p, .location p, .location .map {
+		padding-left: 45%;
+	}
+
+	.location .venue-shot-1 {
+		position: absolute;
+		top: -3rem;
+		right: 65%;
+	}
+
+	.location .venue-shot-1 img {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.location .venue-shot-2 {
+		position: absolute;
+		top: -0.5rem;
+		right: 57.5%;
+	}
+
+	.location .venue-shot-2 img {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+
+
+}
+
+@media only screen and (min-width: 55em) {
+/* 50em =================================================== */
+
+	div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+		width: 22rem;
+		height: 22rem;
+	}
+
+	div.cta a {
+		top: 92.2%;
+		right: 43.8%;
+		width: 11rem;
+		height: 11rem;
+	}
+
+	#speaker5 {
+		position: absolute;
+		top: 114.2%;
+		right: 0;
+		left: 73.2%;
+		padding: 1px;
+	}
+
+	#speaker7 {
+		position: absolute;
+		top: 92.2%;
+		right: 22%;
+		left: 56.2%;
+		padding: 1px;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+/* 50em =================================================== */
+
+	div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+		width: 25rem;
+		height: 25rem;
+	}
+
+	div.cta a {
+		top: 92.4%;
+		right: 43.6%;
+		width: 11rem;
+		height: 11rem;
+	}
+
+	#speaker2 {
+		position: absolute;
+		top: 7.6%;
+		right: 37.6%;
+		left: 32.4%;
+		padding: 1px;
+	}
+
+	#speaker6 {
+		position: absolute;
+		top: 92.4%;
+		right: 0;
+		left: 78%;
+		padding: 1px;
+	}
+
+	#speaker7 {
+		position: absolute;
+		top: 92.4%;
+		right: 21.8%;
+		left: 56.4%;
+		padding: 1px;
+	}
+
+	#speaker8 {
+		position: absolute;
+		top: 75.5%;
+		right: 54.8%;
+		left: 28.4%;
+		padding: 1px;
+	}
+
+}
+
+@media only screen and (min-width: 65em) {
+/* 50em =================================================== */
+
+	div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+		width: 28rem;
+		height: 28rem;
+	}
+
+	div.cta a {
+		top: 92.4%;
+		right: 43.8%;
+		width: 11rem;
+		height: 11rem;
+	}
+
+	#speaker7 {
+		position: absolute;
+		top: 92.2%;
+		right: 22%;
+		left: 56.2%;
+		padding: 1px;
+	}
+
+	#speaker8 {
+		position: absolute;
+		top: 75.5%;
+		right: 54.8%;
+		left: 28.4%;
+		padding: 1px;
+	}
+
+}
+
+@media only screen and (min-width: 70em) {
+/* 50em =================================================== */
+
+	div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+		width: 31rem;
+		height: 31rem;
+	}
+
+	div.cta a {
+		top: 92.2%;
+		right: 44%;
+		width: 11rem;
+		height: 11rem;
+	}
+
+	#speaker2 {
+		position: absolute;
+		top: 7.6%;
+		right: 37.6%;
+		left: 32.4%;
+		padding: 1px;
+	}
+
+	#speaker6 {
+		position: absolute;
+		top: 92.2%;
+		right: 0;
+		left: 78%;
+		padding: 1px;
+	}
+
+	#speaker7 {
+		position: absolute;
+		top: 92.2%;
+		right: 22%;
+		left: 56%;
+		padding: 1px;
+	}
+
+	#speaker8 {
+		position: absolute;
+		top: 75.8%;
+		right: 54.8%;
+		left: 28.8%;
+		padding: 1px;
+	}
+
+}
+
+@media only screen and (min-width: 75em) {
+/* 75em =================================================== */
+
+	div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+		width: 34rem;
+		height: 34rem;
+	}
+
+	#logo {
+		margin-top: 3rem;
+		max-width: 23.125rem;
+		max-height: 3.5rem;
+		background-size: 23.125rem 3.5rem;
+	}
+
+	#logo img {
+		max-width: 100%;
+	}
+
+	#logo span {
+		display: none;
+	}
+
+	.svg #logo {
+		background: none;
+	}
+
+	.svg #logo span {
+		display: block;
+	}
+
+	#title {
+		font-size: 6rem;
+		line-height: 5.5rem;
+		margin: 3rem 0 4rem 0;
+	}
+
+	p.datevenue {
+		font-size: 1.25rem;
+		margin: 0;
+	}
+
+	div.cta a {
+		top: 91.8%;
+		right: 53%;
+		width: 11rem;
+		height: 11rem;
+	}
+
+	#speaker1 {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 67%;
+		padding: 1px;
+	}
+
+	#speaker2 {
+		position: absolute;
+		top: 8.6%;
+		right: 33%;
+		left: 42.6%;
+		padding: 1px;
+	}
+
+	#speaker3 {
+		position: absolute;
+		top: 33%;
+		right: 0;
+		left: 47%;
+		padding: 1px;
+	}
+
+	#speaker4 {
+		position: absolute;
+		top: 33%;
+		right: 53%;
+		left: 6.4%;
+		padding: 1px;
+	}
+
+	#speaker5 {
+		position: absolute;
+		top: 86%;
+		right: 0;
+		left: 77.6%;
+		padding: 1px;
+	}
+
+	#speaker6 {
+		position: absolute;
+		top: 86%;
+		right: 22.4%;
+		left: 47%;
+		padding: 1px;
+	}
+
+	#speaker7 {
+		position: absolute;
+		top: 108.2%;
+		right: 0;
+		left: 77.6%;
+		padding: 1px;
+	}
+
+	#speaker8 {
+		position: absolute;
+		top: 73.6%;
+		right: 53%;
+		left: 28.8%;
+		padding: 1px;
+	}
+
+
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+/* 2x =================================================== */
+
+}
+
+/* stage 1, when only speakers are shown in the schedule - no times nor breaks/lunch/admin */
+
+.schedule ol li.admin {
+	display: none;
+}
+
+.schedule ol li .identifiers time {
+	display: none;
+}
+
+/*div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+	transition: height .1s linear, width .1s linear; 
+	-o-transition: height .1s linear, width .1s linear; 
+	-moz-transition: height .1s linear, width .1s linear; 
+	-webkit-transition: height .1s linear, width .1s linear;
+}*/
+
+div.cta, #parallax-bg1, #parallax-bg2, #parallax-bg3, #parallax-bg4, #parallax-bg5, #parallax-bg6, #parallax-bg7, #parallax-bg8 {
+	transition: all .1s ease; 
+	-o-transition: all .1s ease; 
+	-moz-transition: all .1s ease; 
+	-webkit-transition: all .1s ease;
+}
