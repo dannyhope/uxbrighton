@@ -38,17 +38,10 @@ i.lsf-icon {
   font-size:130%;
 }
 
-.lsf-icon.twitter:before {
-  content: '\E12f';
+.lsf-icon.calendar:before {
+  content: '\E15e';
 }
 
-.lsf-icon.facebook:before {
-  content: '\E047';
-}
-
-.lsf-icon.youtube:before {
-  content: '\E141';
-}
 
 /*End icons*/
 
@@ -304,14 +297,19 @@ nav.nav-side .link-archive {
 		position: absolute;
 		top: 2em;
 		right: 2em;
+		font-family: "Helvetica Neue", sans-serif;
 	}
 
 	.content-main-about {
 		display: -webkit-flex;
+		display: -ms-flex;
 		display: flex;
-		-webkit-flex-wrap: wrap;	
-		-webkit-justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;	
 		flex-wrap: wrap;	
+				
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
 		justify-content: space-between;
 	}
 
@@ -322,8 +320,10 @@ nav.nav-side .link-archive {
 
 	.organiser-blurb header {
 		display: -webkit-flex;
+		display: -ms-flex;
 		display: flex;
 		-webkit-align-items: flex-end;
+		-ms-align-items: flex-end;
 		align-items: flex-end;
 		width: 100%;
 	}	
