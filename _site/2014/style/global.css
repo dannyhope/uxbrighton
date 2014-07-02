@@ -903,3 +903,16 @@ section#calendar {
 	border: none;
 	margin-top: -1rem;
 }
+
+nav.notice a {
+	background: rgba(0,0,0,0.14);
+	display: block;
+	color: rgba(0,0,0,0.5);
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+	padding: 0.8rem;
+}
+nav.notice a:hover {
+	background: rgb(71,163,215);
+	color: white;
+}
