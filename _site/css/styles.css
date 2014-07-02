@@ -48,6 +48,8 @@ font-size: 59%;
 vertical-align: middle;
 }
 
+
+
 /*End icons*/
 
 
@@ -181,9 +183,9 @@ nav.nav-side .link-archive {
 
 .social-media a {
 	text-decoration: none;
-	padding: 0 0 0 0.5em;
+	padding: 0.5em 0 0.5em 0.5em;
 	font-size: 2rem;
-	line-height: 4rem;
+	line-height: 1;
 	display: inline-block;
 	word-wrap: none;
 	color: inherit;
@@ -192,6 +194,17 @@ nav.nav-side .link-archive {
 .social-media a:hover {
 	color: rgb(201, 0, 58);
 }
+
+.youtube svg {
+	width: 31px;
+	border: 0;
+	margin-bottom: -1px;
+}
+
+.youtube svg:hover .youtube_inner {
+	fill: rgb(201, 0, 58);
+}
+
 
 .organiser-blurb {
 	background: white;
