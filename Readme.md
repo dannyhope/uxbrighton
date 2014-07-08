@@ -26,5 +26,27 @@ Running a local version of the UX Brighton website requires a few more steps:
 
 ## Domain stuff
 
-https://panel.dreamhost.com
-https://www.123-reg.co.uk
+uxbrighton.org.uk is the cannonical domain
+
+uxbri.org
+uxbri.com
+etc
+
+point to
+
+uxbrighton.org.uk
+
+This is set at the 123-reg control panel
+
+Subdmain stuff is all dealt with in panel.dreamhost.com
+
+People can enter subdomains but they get forwarded to folders
+
+2010.uxb → .org.uk/2010
+2011.uxb → .org.uk/2011
+2012.uxb → .org.uk/2012
+2013.uxb → .org.uk/2013
+2014.uxb → .org.uk/2014
+2015.uxb → .org.uk/2015
+
+when a conference page is the homepage, should we just show it at the root or at the permalink?
