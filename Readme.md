@@ -26,6 +26,8 @@ Running a local version of the UX Brighton website requires a few more steps:
 
 ## Domain stuff
 
+### Domain names
+
 uxbrighton.org.uk is the cannonical domain
 
 uxbri.org
@@ -38,7 +40,9 @@ uxbrighton.org.uk
 
 This is set at the 123-reg control panel
 
-Subdmain stuff is all dealt with in panel.dreamhost.com
+### Subdomains
+
+Subdomain stuff is all dealt with in panel.dreamhost.com
 
 People can enter subdomains but they get forwarded to folders
 
