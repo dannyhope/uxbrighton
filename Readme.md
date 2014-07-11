@@ -17,12 +17,17 @@ TODO
 
 **IMPORTANT**: Any changes you commit will be immediately visible on the site. Please preview your changes first.
 
-## How to run the site locally
+## Run the site locally
 
 Running a local version of the UX Brighton website requires a few more steps:
 
 - You will need [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/), 
-- Ensure you have all the [dependencies](http://jekyllrb.com/docs/installation/) installed first. 
+- Ensure you have all the [dependencies](http://jekyllrb.com/docs/installation/) installed first.
+
+In the terminal type:
+cd /Users/dannyhope/Dropbox/UX\ Brighton\ \(private\)/Repos/uxbrightonn
+jekyll serve -w
+
 
 ## Domain stuff
 
