@@ -1,5 +1,14 @@
 <!-- foo -->
 <nav class="social-media">
+	<header class="site-header container" role="banner">	
+		<a href="{{ site.url }}/index.html" title="back to homepage" class="site-title"><img src="/css/UX-Brighton-logo.svg" alt="UX Brighton"></a>	
+		{% if page.ishomepage == true %}
+		<!-- <div class="intro-blurb">
+			<p class="strapline">UX Brighton is a volunteer community group. We run monthly meet ups as well as an annual conference. <a href="/about">Meet the team or get in touch</a></p>
+			<p class="feedback-link">This site is currently under development so we’d love it if you could take a few minutes to <a href="https://github.com/dannyhope/uxbrighton/issues/new">send us feedback</a> (via Github)</p>
+		</div> -->
+		{% endif %}
+	</header>
 	<div class="container">
 	<a href="https://twitter.com/uxbri" class="lsf">twitter</a>
 	<a href="https://www.facebook.com/groups/39816847256/" class="lsf">facebook</a>
@@ -14,13 +23,3 @@
 	</a>
 	</div>
 </nav>
-<header class="site-header container" role="banner">	
-	<a href="{{ site.url }}/index.html" title="back to homepage" class="site-title"><img src="/css/UX-Brighton-logo.svg" alt="UX Brighton"></a>	
-	{% if page.ishomepage == true %}
-	<!-- <div class="intro-blurb">
-		<p class="strapline">UX Brighton is a volunteer community group. We run monthly meet ups as well as an annual conference. <a href="/about">Meet the team or get in touch</a></p>
-		<p class="feedback-link">This site is currently under development so we’d love it if you could take a few minutes to <a href="https://github.com/dannyhope/uxbrighton/issues/new">send us feedback</a> (via Github)</p>
-	</div> -->
-	{% endif %}
-
-</header>
