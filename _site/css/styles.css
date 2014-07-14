@@ -88,7 +88,8 @@ a {
 }
 
 .site-header .site-title {
-	margin: 2em 0 1em 0;
+	margin: 0.5em 0;
+	padding: 0;
 	display: inline-block;
 }
 
@@ -183,7 +184,7 @@ nav.nav-side .link-archive {
 
 .social-media a {
 	text-decoration: none;
-	padding: 0.5em 0 0.5em 0.5em;
+	padding: 0.75em 0 0.75em 0.5em;
 	font-size: 2rem;
 	line-height: 1;
 	display: inline-block;
@@ -197,6 +198,7 @@ nav.nav-side .link-archive {
 
 .youtube svg {
 	width: 31px;
+	height: 23px;
 	border: 0;
 	margin-bottom: -1px;
 }
