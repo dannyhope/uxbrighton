@@ -2,8 +2,8 @@
 layout: event-page
 title: Careers Event
 start: null
-venue: null
-organisers: 
+venue: Fabrica
+Organisers: 
   - Luke
 lanyrd-url: null
 published: true
