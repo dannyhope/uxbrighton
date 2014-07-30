@@ -3,8 +3,9 @@ layout: event-page
 title: Careers Event
 start: null
 venue: Fabrica
-Organisers: 
+organisers: 
   - Luke
+  - Danny
 lanyrd-url: null
 published: true
 upcoming: true
