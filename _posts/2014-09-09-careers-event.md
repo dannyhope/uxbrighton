@@ -7,7 +7,7 @@ organisers:
   - Luke
 lanyrd-url: null
 published: true
-upcoming: false
+upcoming: true
 homepage: false
 ---
 
