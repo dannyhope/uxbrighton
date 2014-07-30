@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Designing fo Health and Wellbeing
+title: Designing for Health and Wellbeing
 start: 7pm
 venue: Lighthouse
 organisers: 
