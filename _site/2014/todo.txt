@@ -3,5 +3,5 @@ backgrounds for portraits
 make markup semantic
 - classes and IDs
 - rich snippets
-- atricle
+- aticle
 typographic widows
