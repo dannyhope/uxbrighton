@@ -1,7 +1,7 @@
 animation
 backgrounds for portraits
 make markup semantic
-- classes and IDs
-- rich snippets
-- aticle
+	- classes and IDs
+	- rich snippets
+	- article
 typographic widows
