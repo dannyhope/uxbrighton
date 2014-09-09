@@ -50,9 +50,9 @@ nav.notice a {
 	padding: 0.5rem;
 	color: white;
 	}
-nav.notice a:hover {
-	background-color: rgb(199,10,60);
-	}
-div.photos {
+	nav.notice a:hover {
+		background-color: rgb(199,10,60);
+		}
+/*div.photos {
 	top: 3rem !important;
-	}
+	}*/
