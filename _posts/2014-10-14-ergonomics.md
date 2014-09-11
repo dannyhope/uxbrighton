@@ -1,7 +1,7 @@
 ---
 layout: event-page
 category: [archive]
-title: Ergonomics
+title: UX, Human Factors and Ergonomics
 start: 7pm
 venue: 
 organisers: 
@@ -12,9 +12,7 @@ upcoming: true
 homepage: true
 ---
 
-This event will focus on the **overlap between UX, Human Factors and Ergonomics** (HF&E).
-
-Also known as comfort design, functional design, or user-friendly systems, HF&E is the practice of designing products, systems or processes to take proper account of the interaction between them and the people that use them. As you can imagine, there's plenty to learn from this multidisciplinary field. **Speakers for the evening are all Senior Lecturers from the University of Brighton's School of Computing, Engineering and Mathematics.**
+Also known as "comfort design", "functional design", or "user-friendly systems", HF&E is the practice of designing products, systems or processes to take proper account of the interaction between them and the people that use them. As you can imagine, there's plenty to learn from this multidisciplinary field. **Speakers for the evening are all Senior Lecturers from the University of Brighton's School of Computing, Engineering and Mathematics.**
 
 ## Dr Eddy Elton
 ### Human Factors in Product Design: The secret to good design
