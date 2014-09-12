@@ -1,33 +1,41 @@
-# UX Brighton beta site:
-
-## How to edit event pages
-
-UX Brighton uses [Prose.io](http://prose.io/#dannyhope/uxbrighton/tree/gh-pages/_posts), a simple content editor for the Jekyll blogging platform. 
-
-### To add speakers and talk descriptions
-
-- Head over to [http://prose.io/#dannyhope/uxbrighton/tree/gh-pages/_posts](http://prose.io/#dannyhope/uxbrighton/tree/gh-pages/_posts)
-- Select the page you want to edit
-- Make your changes
-- Select "Changes to submit" and commit your changes. 
-
-### To add event meta data such as title, date, venue, start time and Lanyrd page
-
-TODO
-
 **IMPORTANT**: Any changes you commit will be immediately visible on the site. Please preview your changes first.
+
+# Tasks
+## Edit a conference page
+
+Conference pages appear at 2 URLs so the content is technically stored in a template, all templates are in _layouts, that’s where you’ll find what you need
+
+## Add an event
+
+* Go to _posts
+* Duplicate an existing event and modify the front matter
+
+## Make a new volunteer
+## Make an event as past
+## Add event meta data such as title, date, venue, start time and Lanyrd page
+## Add the ticket widget
+
+## Make an event invisible
+
+make sure that (in the front matter) the value for "upcoming: " is empty
 
 ## Run the site locally
 
-Running a local version of the UX Brighton website requires a few more steps:
+You will need
 
-- You will need [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/), 
+- Xcode
+- Xcode Command Line Tools 
+- Ruby
+- Ruby gems (package manager)
+- (In the terminal, type) gem install jekyll
+	-  [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/), 
 - Ensure you have all the [dependencies](http://jekyllrb.com/docs/installation/) installed first.
 
 In the terminal type:
 cd /Users/dannyhope/Dropbox/UX\ Brighton\ \(private\)/Repos/uxbrightonn
 jekyll serve -w
 
+Browse to http://0.0.0.0:4000/
 
 ## Domain stuff
 
