@@ -42,6 +42,8 @@ a#speaker8 img {
 }
 
 /* @end */
+
+/*style the mini header (header-mini.html)*/
 nav.notice a {
 	display: block;
 	width: 100%;
@@ -54,6 +56,9 @@ nav.notice a {
 	nav.notice a:hover {
 		background-color: rgb(199,10,60);
 		}
-div.photos {
+div.photos { /*move the portrait cluster down to accommodate the mini header*/
 	top: 3rem !important;
+	}
+a#speaker4 img, a#speaker8 img {
+	border-top: 1px solid #ffffff;
 	}

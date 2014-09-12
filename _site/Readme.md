@@ -1,6 +1,12 @@
 **IMPORTANT**: Any changes you commit will be immediately visible on the site. Please preview your changes first.
 
 # Tasks
+
+## Make a new volunteer
+## Make an event as past
+## Add event meta data such as title, date, venue, start time and Lanyrd page
+## Add the ticket widget
+
 ## Edit a conference page
 
 Conference pages appear at 2 URLs so the content is technically stored in a template, all templates are in _layouts, that’s where you’ll find what you need
@@ -10,14 +16,12 @@ Conference pages appear at 2 URLs so the content is technically stored in a temp
 * Go to _posts
 * Duplicate an existing event and modify the front matter
 
-## Make a new volunteer
-## Make an event as past
-## Add event meta data such as title, date, venue, start time and Lanyrd page
-## Add the ticket widget
-
 ## Make an event invisible
 
-make sure that (in the front matter) the value for "upcoming: " is empty
+make sure that the front matter includes
+
+upcoming: 
+stub: yes
 
 ## Run the site locally
 

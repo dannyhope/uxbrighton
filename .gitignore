@@ -2,3 +2,4 @@ _site/
 codekit-config.json
 .ruby-gemset
 .ruby-version
+/_site/
