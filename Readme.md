@@ -6,6 +6,9 @@
 ## Make an event as past
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
+## Edit a template
+
+Templates are all in /_layout
 
 ## Edit a conference page
 
