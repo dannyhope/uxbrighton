@@ -3,8 +3,8 @@
 
 # Frequently Asked Questions
 
-If you have a question that’s not answered below, please [email Emmeline](mailto:emmeline@uxbrighton.org.uk), the Event Manager, or tweet [@uxbri](http://twitter.com/uxbri "").
-
+** If you have a question that’s not answered below, please [email Emmeline](mailto:emmeline@uxbrighton.org.uk), the Event Manager, or tweet [@uxbri](http://twitter.com/uxbri "").
+**
 ## What are my transport/parking options getting to the event?
 
 There is no parking available at the venue.
