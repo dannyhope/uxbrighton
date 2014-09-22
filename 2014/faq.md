@@ -3,11 +3,13 @@
 
 # Frequently Asked Questions
 
-If you have a question that’s not answered here, please [email Emmeline](mailto:emmeline@uxbrighton.org.uk), the Event Manager, or tweet [@uxbri](http://twitter.com/uxbri "").
+If you have a question that’s not answered below, please [email Emmeline](mailto:emmeline@uxbrighton.org.uk), the Event Manager, or tweet [@uxbri](http://twitter.com/uxbri "").
 
 ## What are my transport/parking options getting to the event?
 
-There is no parking available at the venue. Commercial Parking in Brighton is expensive and often hard to come by so we'd suggest using [Just Park](https://www.justpark.com/ "") or public transport - the train station is a short walk from the venue and there are several buses which stop nearby. Taxis are also plentiful and reasonably priced.
+There is no parking available at the venue.
+
+Parking in Brighton is expensive and often hard to come by so we'd suggest using public transport - the train station is a short walk from the venue and there are several buses which stop nearby. Taxis are also plentiful and reasonably priced.
 
 ## Is my registration/ticket transferrable?
 
