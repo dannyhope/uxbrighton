@@ -1,11 +1,8 @@
+
 .abstract {
 	display: none;
 }
 #party {
-	display: none;
-}
-div.alpha,
-div.beta {
 	display: none;
 }
 
@@ -13,6 +10,44 @@ div.beta {
  height: 1.8rem;
  margin: 0 20px 20px 0;
 }
+
+.sponsors .alpha img {
+	width: 95%; 
+}
+
+@media only screen and (min-width: 21em) {
+	.sponsors .alpha img {
+		width: 400px; text-align: top; margin-right: 40px;	
+	}
+}
+
+
+.sponsors .beta img {
+	width: 75%; 
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 21em) {
+	.sponsors .beta img {
+		width: 300px; text-align: top; margin-right: 40px; margin-bottom: 0px;	
+	}
+}
+
+
+.sponsors .gamma img {
+	width: 59.25%; 
+}
+
+@media only screen and (min-width: 21em) {
+	.sponsors .gamma img {
+		width: 240px; text-align: top; margin-top: 17px;
+	}
+}
+
+
+
+
+
 
 /* @group Top photos */
 
@@ -46,19 +81,50 @@ a#speaker8 img {
 /*style the mini header (header-mini.html)*/
 nav.notice a {
 	display: block;
-	width: 100%;
 	background-color: rgba(0,0,0,0.25);
 	background-color: rgb(11,138,193);
 	text-align: center;
-	padding: 0.5rem;
+	padding: 0.3rem;
 	color: white;
 	}
 	nav.notice a:hover {
 		background-color: rgb(199,10,60);
 		}
 div.photos { /*move the portrait cluster down to accommodate the mini header*/
-	top: 3rem !important;
+	top: 1.5rem;
 	}
+
+
+@media only screen and (min-width: 21em) {
+div.photos { /*move the portrait cluster down to accommodate the mini header*/
+	top: 3rem;
+	}
+}
+
 a#speaker4 img, a#speaker8 img {
 	border-top: 1px solid #ffffff;
 	}
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 100%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-container.hd {
+    padding-bottom: 56.25%; /* 16/9 ratio */
+}
+.embed-container.vga {
+    padding-bottom: 77%; /* 4/3 ratio */
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

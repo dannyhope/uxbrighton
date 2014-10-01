@@ -1101,7 +1101,7 @@ p.intro {
 	padding-left: 10%;
 }
 
-.sponsors .sponsor-pack h3, .sponsors .beta h3, .sponsors .silver h3, .sponsors .gamma h3, .sponsors .supporters h3 {
+.sponsors .sponsor-pack h3, .sponsors .alpha h3, .sponsors .beta h3, .sponsors .silver h3, .sponsors .gamma h3, .sponsors .supporters h3 {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -1687,17 +1687,13 @@ div.sponsor-logo img {
 		font-weight: 100;
 	}
 
-	.sponsors .sponsor-pack, .sponsors .beta, .sponsors .silver, .sponsors .gamma, .sponsors .supporters {
+	.sponsors .sponsor-pack, .sponsors .alpha, .sponsors .beta, .sponsors .silver, .sponsors .gamma, .sponsors .supporters {
 		padding-left: 35%;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 	}
 
-	.sponsors .alpha {
-		padding-left: 0;
-		margin: 0;
-	}
 
-	.sponsors .sponsor-pack h3, .sponsors .beta h3, .sponsors .silver h3, .sponsors .gamma h3, .sponsors .supporters h3 {
+	.sponsors .sponsor-pack h3, .sponsors .alpha h3, .sponsors .beta h3, .sponsors .silver h3, .sponsors .gamma h3, .sponsors .supporters h3 {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -1707,21 +1703,6 @@ div.sponsor-logo img {
 		text-align: right;
 	} 
 
-/* START position adjustment for sponsor headings to line up nicely with logos */
-
-	.sponsors .beta h3 {
-		margin-top: 3.75rem;
-		margin-bottom: -3.75rem;
-	}
-
-	.sponsors .gamma h3 {
-		margin-top: 0.5rem;
-		margin-bottom: -0.5rem;
-	}
-
-	.sponsors .gamma {
-		margin-bottom: 4rem !important;
-	}
 
 /* END position adjustment for sponsor headings to line up nicely with logos */
 
@@ -1742,11 +1723,6 @@ div.sponsor-logo img {
 		padding-left: 35%;
 	}
 
-	.sponsors ol.alpha div.sponsor-logo img {
-		max-height: 13rem;
-		width: auto;
-	}
-
 	div.beta, div.silver, div.gamma, div.supporters {
 		padding-left: 35%;
 	}
@@ -1758,11 +1734,6 @@ div.sponsor-logo img {
 	.sponsors div.sponsor-logo + div.sponsor-logo {
 		margin-left: 0;
 		padding-left: 20px;
-	}
-
-	.sponsors .beta div.sponsor-logo img {
-		max-height: 12rem;
-		width: auto;
 	}
 
 	.sponsors .silver div.sponsor-logo img {
@@ -1952,12 +1923,12 @@ div.sponsor-logo img {
 		padding-left: 45%;
 	}
 
-	.sponsors .sponsor-pack, .sponsors .beta, .sponsors .silver, .sponsors .gamma, .sponsors .supporters {
+	.sponsors .sponsor-pack, .sponsors .alpha, .sponsors .beta, .sponsors .silver, .sponsors .gamma, .sponsors .supporters {
 		padding-left: 45%;
-		margin-bottom: 2rem;
+		margin-bottom: 3.5rem;
 	}
 
-	.sponsors .sponsor-pack h3, .sponsors .beta h3, .sponsors .silver h3, .sponsors .gamma h3, .sponsors .supporters h3 {
+	.sponsors .sponsor-pack h3, .sponsors .alpha h3, .sponsors .beta h3, .sponsors .silver h3, .sponsors .gamma h3, .sponsors .supporters h3 {
 		width: 42.5%;
 	} 
 
@@ -2075,10 +2046,6 @@ div.sponsor-logo img.sponsor-brandwatch {
 	margin-left: 0.5rem;
 }
 
-div.sponsor-logo img.sponsor-balsamiq {
-	max-width: 45%;
-	margin-top: -0.5rem;
-}
 
 div.sponsor-logo img.sponsor-aegir {
 	max-width: 90%;
