@@ -36,8 +36,6 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 * How philosophical and practical frameworks can challenge our current notion of design and open a new way of thinking about the role of design in the digital era.  
 * How philosophical thinking can provide valuable insights for software design.  
 * How scientific methods can help understand the interaction between people and computers.  
-* How philosophical thinking can provide valuable insights for software design.  
-* How scientific methods can help understand the interaction between people and computers.  
-
+ 
 UX Brighton curator Danny Hope gives you 4 ways in which philosophy underpins good UX design, in this [short video.](http://uxbrighton.org.uk/2014/#video)  
 
