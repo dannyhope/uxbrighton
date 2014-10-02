@@ -15,7 +15,7 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 
 **Network**: Build relationships, broaden perspectives, make connections with others in the UX field. UX Brighton attracts delegates from a wide range of organisations as well as being geographically diverse. There are plenty of networking opportunities during the day, as well as later at the after party.
 
-**Invigorating passion**: Often a short work trip away from the office can re-energize you. Delegates are often charged up to try a new technique, idea, or approach that company can benefit from.
+**Invigorating passion**: Often a short work trip away from the office can re-energize you. Delegates are often charged up to try a new technique, idea, or approach that your employer can benefit from.
 
 **Meet potential new hires**: If you’re looking to employ a UXer, it’s a great way to find people that you can recruit into the team. You could even set up informal interviews in one of the quieter spots of the Foyer bar at the Corn Exchange.
 
