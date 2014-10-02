@@ -11,6 +11,7 @@
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
 ## Edit a template
+## Change the appearance of a template (CSS)
 
 Templates are all in /_layout
 
