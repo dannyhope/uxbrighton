@@ -25,9 +25,9 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 
 **Attend local UX events as well**: Going to local UX events as well as conferences demonstrates to your employer that you have the initiative to learn. UX Brighton runs regular evening events and there are many other local UX groups around the country.
 
-**If all else fails, DIY**: If you really can’t persuade your boss to send you, consider buying a ticket yourself. We price our tickets reasonably (no rise in 4 years) so that people don’t feel excluded. We also have student tickets for entry level delegates.  
+**If all else fails, DIY**: If you really can’t persuade your boss to send you, consider buying a ticket yourself. We price our tickets reasonably (no rise in 4 years) so that people don’t feel excluded. We also have student tickets for entry-level delegates.  
 ###And what about you? What is the benefit of you attending UX Brighton 2014?
-**The conference will focus on how 'Practical Philosophy' can influence the approach to your every day user experience work, including**:
+**The conference will focus on how 'Practical Philosophy' can influence the approach to your everyday user experience work, including**:
 
 * How we can help organisations become more resilient and sustainable; to help them not just to survive but thrive in increasingly complex situations.  
 * How you test products and collect opinions, views, and performance data about that person’s experience.  
