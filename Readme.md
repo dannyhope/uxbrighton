@@ -5,10 +5,30 @@
 
 # Things an editor may want to do
 
-## Make a new volunteer
 ## Mark an event as past
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
+
+## Add a person
+
+A volunteer, curator or whatever
+
+This is done in **_includes > organisers.html**
+
+Just duplicate one of the people that’s already in there and make changes to that.
+
+## Edit a conference page
+
+Main conference content is actually stored in templates (as opposed to markdown files).
+
+_layouts > conference-2010.html
+_layouts > conference-2011.html
+_layouts > conference-2012.html
+_layouts > conference-2013.html
+_layouts > conference-2014.html
+_layouts > conference-2014-holding.html (the holding page)
+
+**These layouts are referenced in ?**
 
 * get it from Eventbrite
 * find the event
@@ -34,7 +54,7 @@ Conference pages appear at 2 URLs so the content is technically stored in a temp
 
 ## Add an event
 
-* Go to _posts
+* Go to **_posts**
 * Duplicate an existing event and modify the front matter
 
 ## Make an event invisible
@@ -89,7 +109,7 @@ When a conference page is the homepage, should we just show it at the root or at
 
 **layout: default**
 **layout: event-page**
-**layout: conference-2012** …2013, …2014 is where all of the content is in the conference template, not the Markdown document
+
 **categories: [archive]** ?
 **conference: false** ?
 **conference: true** ?
