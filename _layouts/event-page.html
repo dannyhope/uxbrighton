@@ -18,10 +18,10 @@ layout: default
 					{% include venues.html %}
 				</li>
 				<li>
-				{% if page.lanyrd-url %}
-				Track or say you're attending on 
-				<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
-				{% endif %}	
+					{% if page.lanyrd-url %}
+					Track or say you're attending on 
+					<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
+					{% endif %}	
 				</li>
 			</ul>
 			<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
@@ -38,6 +38,12 @@ layout: default
 			    <span class="_date_format">DD/MM/YYYY</span>
 			</a>
 			</section>
+			<!-- 
+			{% if page.upcoming %}
+			<article class="ticket-rules">
+				<p>If you attend, you can email us (within a week after the event) to reclaim the cost of your ticket. Unclaimed deposits fund future&nbsp;events. If you can’t attend, you can reclaim the fee by <a href="https://twitter.com/uxbri">tweeting us</a> a week before the event.<p>
+			</article>
+			{% endif %} -->
 		{% else %}	
 			This event took place on the {{page.date | date: "%d %B, %Y"}} {% if page.venue%} at {{page.venue}} {% endif %}
 		{% endif %}	
@@ -45,18 +51,6 @@ layout: default
 		{{ content }}
 
 		{% if page.conference == null %}
-			{% if page.upcoming %}
-
-			<!-- Spread the word and ticket rules - only show when event is upcoming -->
-			<article class="ticket-rules">
-				<h3>Ticket deposit</h3>
-				<p>Proceeds from deposits pay for future events (beer, venue, travel etc). To get your deposit back you must:<p>
-					<ul>
-						<li>attended the event and email us a refund request within a week of the event, or</li>
-						<li>If you can’t attend, let us know by the Thursday before the event (via <a href="http://www.twitter.com/uxbri">Twitter</a> or <a href="mailto:feedback@uxbrighton.org.uk">email</a>)</li>
-					</ul>
-			{% endif %}
-			</article>
 			<aside class="event-detail_meta">
 			{% include organisers.html %}			 
 			</aside>	
