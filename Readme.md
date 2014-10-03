@@ -59,16 +59,20 @@ Conference pages appear at 2 URLs so the content is technically stored in a temp
 
 ## Make an event invisible
 
-make sure that the front matter includes
+Make sure that the front matter includes:
 
 upcoming: 
 stub: yes
+
+## Change the title of a page
+
+Do it in the front matter, for example, add **title: Hello World** to the front matter
 
 ## Run the site locally
 
 You will need
 
-- Xcode
+- Xcode 
 - Xcode Command Line Tools 
 - Ruby
 - Ruby gems (package manager)
@@ -103,9 +107,9 @@ Subdomains for conferences are forwarded to folders thus:
 
 When a conference page is the homepage, should we just show it at the root or at the permalink?
 
-# Front matter
+--
 
-**This stuff should be incorporated into the the task based part of the document (above)**
+# Front matter
 
 **layout: default**
 **layout: event-page**
@@ -118,7 +122,6 @@ When a conference page is the homepage, should we just show it at the root or at
 **noinfo: true** ?
 **stub: yes** ?
 
-**title** defines the title of the page (which appears in the window’s title bar)
 **upcoming: no** ?
 **published: true** ?
 **start: 7pm** ?
