@@ -11,13 +11,13 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 
 **So let&#8217;s think about how attending UX Brighton 2014 can benefit your employer as well as you…**
 
-**Gathering ideas**: keep abreast of the latest thinking and differing views from a mix of academic and commercial experts on a range of user experience related topic.
+**Gathering ideas**: Keep abreast of the latest thinking and differing views from a mix of academic and commercial experts on a range of user experience related topics.
 
 **Sharing knowledge**: Share what you learn at UX Brighton 2014 with colleagues after the event by writing a company blog post, internal report or putting together a presentation.
 
 **Network**: Build relationships, broaden perspectives, make connections with others in the UX field. UX Brighton attracts delegates from a wide range of organisations as well as being geographically diverse. There are plenty of networking opportunities during the day, as well as later at the after party.
 
-**Invigorating passion**: Often a short work trip away from the office can re-energize you. Delegates are often charged up to try a new technique, idea, or approach that company can benefit from.
+**Invigorating passion**: Often a short work trip away from the office can re-energize you. Delegates are often charged up to try a new technique, idea, or approach that your company can benefit from.
 
 **Meet potential new hires**: If you&#8217;re looking to employ a UXer, it&#8217;s a great way to find people that you can recruit into the team. You could even set up informal interviews in one of the quieter spots of the Foyer bar at the Corn Exchange.
 
@@ -27,9 +27,9 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 
 **Attend local UX events as well**: Going to local UX events as well as conferences demonstrates to your employer that you have the initiative to learn. UX Brighton runs regular evening events and there are many other local UX groups around the country.
 
-**If all else fails, DIY**: If you really can&#8217;t persuade your boss to send you, consider buying a ticket yourself. We price our tickets reasonably (no rise in 4 years) so that people don&#8217;t feel excluded. We also have student tickets for entry level delegates.  
+**If all else fails, DIY**: If you really can&#8217;t persuade your boss to send you, consider buying a ticket yourself. We price our tickets reasonably (no rise in 4 years) so that people don&#8217;t feel excluded. We also have student tickets for entry-level delegates.  
 ###And what about you? What is the benefit of you attending UX Brighton 2014?
-**The conference will focus on how 'Practical Philosophy' can influence the approach to your every day user experience work, including**:
+**The conference will focus on how 'Practical Philosophy' can influence the approach to your everyday user experience work, including**:
 
 * How we can help organisations become more resilient and sustainable; to help them not just to survive but thrive in increasingly complex situations.  
 * How you test products and collect opinions, views, and performance data about that person&#8217;s experience.  
@@ -38,8 +38,6 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 * How philosophical and practical frameworks can challenge our current notion of design and open a new way of thinking about the role of design in the digital era.  
 * How philosophical thinking can provide valuable insights for software design.  
 * How scientific methods can help understand the interaction between people and computers.  
-* How philosophical thinking can provide valuable insights for software design.  
-* How scientific methods can help understand the interaction between people and computers.  
-
+ 
 UX Brighton curator Danny Hope gives you 4 ways in which philosophy underpins good UX design, in this [short video.](http://uxbrighton.org.uk/2014/#video)  
 
