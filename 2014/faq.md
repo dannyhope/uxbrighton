@@ -1,4 +1,5 @@
 ---
+layout: minimal
 ---
 
 # Frequently Asked Questions

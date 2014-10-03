@@ -121,12 +121,6 @@ a {
 	font-family: "museo-slab",sans-serif;
 }
 
-.event-detail_desc>p:first-of-type {
-	font-size: 1.5rem;
-	font-family: "museo-slab",sans-serif;
-	color: rgb(201, 0, 58);
-}
-
 .event-detail .event-meta {
 	background: white;
 	padding: 2em;
@@ -423,4 +417,8 @@ nav.nav-side .link-archive {
 		float: left;
 	}
 
+}
+
+h2 {
+	color: rgb(201, 0, 58);
 }

@@ -1,5 +1,5 @@
 ---
-- layout: default
+layout: minimal
 ---
 
 #How to convince your boss to send you to UX Brighton 2014
