@@ -2,29 +2,29 @@
 
 # Summary of front matter values
 
-(Could be broken down by effect sought)
+(Could be broken down by desired effect)
 
-- **permalink: /404.html** designates it as a 404 page
-- **layout: default**
-- **layout: event-page**
-- **layout: conference-2012** …2013, …2014 is where all of the content is in the conference template, not the Markdown document
-- **categories: [archive]** ?
-- **conference: false** ?
-- **conference: true** ?
-- **homepage: false** ?
-- **homepage: true** ?
-- **noinfo: true** ?
-- **stub: yes** ?
+**permalink: /404.html** designates it as a 404 page
+**layout: default**
+**layout: event-page**
+**layout: conference-2012** …2013, …2014 is where all of the content is in the conference template, not the Markdown document
+**categories: [archive]** ?
+**conference: false** ?
+**conference: true** ?
+**homepage: false** ?
+**homepage: true** ?
+**noinfo: true** ?
+**stub: yes** ?
 
-- **title** defines the title of the page (which appears in the window’s title bar)
-- **upcoming: no** ?
-- **published: true** ?
-- **start: 7pm** ?
-- **start: null** ?
-- **start:** ?
-- **venue: null** ?
-- **venue:** ?
-- **venue: Fabrica** …Lighthouse etc are defined in**?**
+**title** defines the title of the page (which appears in the window’s title bar)
+**upcoming: no** ?
+**published: true** ?
+**start: 7pm** ?
+**start: null** ?
+**start:** ?
+**venue: null** ?
+**venue:** ?
+**venue: Fabrica** …Lighthouse etc are defined in**?**
 - **organisers:**
 	- **Alex**
 	- **Patrick** rendered into the bottom of the event page
