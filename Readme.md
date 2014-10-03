@@ -3,40 +3,6 @@
 
 **IMPORTANT**: Any changes you commit will be immediately visible on the site. Please preview your changes first.
 
-# Summary of front matter values
-
-(Could be broken down by desired effect)
-**layout: default**
-**layout: event-page**
-**layout: conference-2012** …2013, …2014 is where all of the content is in the conference template, not the Markdown document
-**categories: [archive]** ?
-**conference: false** ?
-**conference: true** ?
-**homepage: false** ?
-**homepage: true** ?
-**noinfo: true** ?
-**stub: yes** ?
-
-**title** defines the title of the page (which appears in the window’s title bar)
-**upcoming: no** ?
-**published: true** ?
-**start: 7pm** ?
-**start: null** ?
-**start:** ?
-**venue: null** ?
-**venue:** ?
-**venue: Fabrica** …Lighthouse etc are defined in**?**
-**organisers:**
-	- **Alex**
-	- **Patrick** rendered into the bottom of the event page
-
-**lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/** ?
-**lanyrd: http://lanyrd.com/2013/uxbrighton-june/**
-**calendar-url: #** ?
-
-## 404 page
-**permalink: /404.html** designates it as a 404 page
-
 # Things an editor may want to do
 
 ## Make a new volunteer
@@ -102,3 +68,38 @@ Subdomains for conferences are forwarded to folders thus:
 2015.uxbrighton.org.uk → uxbrighton.org.uk/2015
 
 When a conference page is the homepage, should we just show it at the root or at the permalink?
+
+# Front matter
+
+**This stuff should be incorporated into the the task based part of the document (above)**
+
+**layout: default**
+**layout: event-page**
+**layout: conference-2012** …2013, …2014 is where all of the content is in the conference template, not the Markdown document
+**categories: [archive]** ?
+**conference: false** ?
+**conference: true** ?
+**homepage: false** ?
+**homepage: true** ?
+**noinfo: true** ?
+**stub: yes** ?
+
+**title** defines the title of the page (which appears in the window’s title bar)
+**upcoming: no** ?
+**published: true** ?
+**start: 7pm** ?
+**start: null** ?
+**start:** ?
+**venue: null** ?
+**venue:** ?
+**venue: Fabrica** …Lighthouse etc are defined in**?**
+**organisers:**
+	- **Alex**
+	- **Patrick** rendered into the bottom of the event page
+
+**lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/** ?
+**lanyrd: http://lanyrd.com/2013/uxbrighton-june/**
+**calendar-url: #** ?
+
+## 404 page
+**permalink: /404.html** designates it as a 404 page
