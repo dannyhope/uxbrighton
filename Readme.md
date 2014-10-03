@@ -25,15 +25,13 @@
 **venue: null** ?
 **venue:** ?
 **venue: Fabrica** …Lighthouse etc are defined in**?**
-- **organisers:**
+**organisers:**
 	- **Alex**
 	- **Patrick** rendered into the bottom of the event page
 
-- **lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/** ?
-- **lanyrd: http://lanyrd.com/2013/uxbrighton-june/**
-- **calendar-url: #** ?
-
-
+**lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/** ?
+**lanyrd: http://lanyrd.com/2013/uxbrighton-june/**
+**calendar-url: #** ?
 
 # Things an editor may want to do
 
