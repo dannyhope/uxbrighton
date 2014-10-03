@@ -1,10 +1,11 @@
+---
+---
+
 **IMPORTANT**: Any changes you commit will be immediately visible on the site. Please preview your changes first.
 
 # Summary of front matter values
 
 (Could be broken down by desired effect)
-
-**permalink: /404.html** designates it as a 404 page
 **layout: default**
 **layout: event-page**
 **layout: conference-2012** …2013, …2014 is where all of the content is in the conference template, not the Markdown document
@@ -32,6 +33,9 @@
 **lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/** ?
 **lanyrd: http://lanyrd.com/2013/uxbrighton-june/**
 **calendar-url: #** ?
+
+## 404 page
+**permalink: /404.html** designates it as a 404 page
 
 # Things an editor may want to do
 
