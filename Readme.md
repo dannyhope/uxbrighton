@@ -6,10 +6,19 @@
 # Things an editor may want to do
 
 ## Make a new volunteer
-## Make an event as past
+## Mark an event as past
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
+
+* get it from Eventbrite
+* find the event
+* paste it in
+
+**needs more detail**
+
 ## Edit a template
+
+All of the templates are in _layouts
 
 ## Edit the mini header
 
