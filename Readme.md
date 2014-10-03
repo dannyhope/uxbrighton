@@ -10,6 +10,11 @@
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
 ## Edit a template
+
+## Edit the mini header
+
+This is done in **_includes > header-mini.html**
+
 ## Change the appearance of a template (CSS)
 
 Templates are all in /_layout
@@ -48,7 +53,7 @@ jekyll serve -w
 
 Browse to http://0.0.0.0:4000/
 
-## Domain stuff
+## URLs
 
 The following domains point to uxbrighton.org.uk, the canonical domain. This is set at the 123-reg control panel.
 
