@@ -556,30 +556,24 @@ div.photos {
 	font-size: 0.01rem;
 	line-height: 0.01rem;
 	display: block;
-	margin-top: 3.1rem;
 }
 
 #speakertiles .chunk1, #speakertiles .chunk2, #speakertiles .chunk3 {
-	display: inline-block;
+	float: left;
 }
 
 #speakertiles .chunk1 {
 	width: 20%;
 	vertical-align: top;
-	margin-left: -1px;
 }
 
 #speakertiles .chunk2 {
 	width: 57%;
 	vertical-align: top;
-	margin-left: -1px;
-	margin-right: -1px;
 }
 
 #speakertiles .chunk3 {
 	width: 23%;
-	vertical-align: top;
-	margin-right: -1px;
 }
 
 #speakertiles .wrongness {
@@ -607,9 +601,12 @@ div.photos {
 	display: block;
 	float: right;
 	border-bottom: 1px solid #fafafa;
-	border-right: 1px solid #fafafa;
 	border-top: none;
 	vertical-align: top;
+}
+
+#speaker1 img {
+	border-right: 1px solid #fafafa;
 }
 
 #speaker2 {
@@ -664,11 +661,11 @@ div.photos {
 	display: block;
 	float: right;
 	border-top: none;
-	border-bottom: 1px solid #fafafa;
 	border-right: none;
 }
 
 #speaker5 img {
+	border-bottom: 1px solid #fafafa;
 	vertical-align: top;
 }
 
@@ -678,10 +675,10 @@ div.photos {
 	float: right;
 	width: 100%;
 	border-right: none;
-	border-left: 1px solid white;
 }
 
 #speaker6 img {
+	border-left: 1px solid white;
 	vertical-align: top;
 }
 
@@ -704,6 +701,10 @@ div.tickets {
 	border-left: 0;
 }
 
+#speaker78 img {
+	border-right: 1px solid #fafafa;
+}
+
 #speaker7 {
 	vertical-align: top;
 	width: 50%;
@@ -717,8 +718,11 @@ div.tickets {
 	width: 50%;
 	display: block;
 	float: right;
-	margin-right: -1px;
-	border-right: 1px solid #fafafa;
+	border-bottom: 1px solid #fafafa;
+}
+
+#speaker8 img {
+	border-left: 1px solid white;
 }
 
 div.tickets {
@@ -1191,9 +1195,6 @@ div.sponsor-logo img {
 	right: 0;
 } */
 
-	#speakertiles {
-		margin-top: 4.1rem;
-	}
 
 	div.tickets a {
 		height: 4rem;
@@ -1273,7 +1274,7 @@ div.sponsor-logo img {
 
 	div.photos {
 		position: absolute;
-		top: 0;
+		top: 2em;
 		left: 0;
 		right: 0;
 		overflow-x: visible;
@@ -1392,10 +1393,15 @@ div.sponsor-logo img {
 		display: block;
 		width: 32%;
 		float: right;
-		border-right: 1px solid white;
+		}
+
+	#speaker6 a {
+		display: block;
 	}
+	
 
 	#speaker6 img {
+		border-right: 1px solid white;
 		vertical-align: top;
 	}
 
@@ -1427,6 +1433,10 @@ div.sponsor-logo img {
 		width: 100%;
 		display: block;
 		float: left;
+	}
+
+	#speaker8 img {
+		border-left: 1px solid white;
 	}
 
 	div.tickets {

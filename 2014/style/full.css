@@ -86,24 +86,11 @@ nav.notice a {
 	text-align: center;
 	padding: 0.3rem;
 	color: white;
+	font-size: 90%;
 	}
 	nav.notice a:hover {
 		background-color: rgb(199,10,60);
 		}
-div.photos { /*move the portrait cluster down to accommodate the mini header*/
-	top: 1.5rem;
-	}
-
-
-@media only screen and (min-width: 21em) {
-div.photos { /*move the portrait cluster down to accommodate the mini header*/
-	top: 3rem;
-	}
-}
-
-a#speaker4 img, a#speaker8 img {
-	border-top: 1px solid #ffffff;
-	}
 
 
 .embed-container {
