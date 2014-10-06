@@ -859,7 +859,6 @@ p.speakerphoto img, .sponsors img {
 blockquote {
 	position: relative;
 	margin-left: 0;
-	border-left: 1px dashed #666;
 	padding-left: 2rem;
 	margin-right: 0;
 }
@@ -1502,6 +1501,7 @@ div.sponsor-logo img {
 	}
 
 	blockquote {
+		max-width: 40rem;
 	}
 
 	blockquote:before {
