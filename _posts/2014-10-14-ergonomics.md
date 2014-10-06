@@ -17,12 +17,21 @@ Also known as "comfort design", "functional design", or "user-friendly systems",
 <iframe  src="//eventbrite.co.uk/tickets-external?eid=13077411891&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
 
 ## Dr Eddy Elton
+
 ### Human Factors in Product Design: The secret to good design
 
 Dr Elton will be talking about how Human Factors plays a key role in the development of successful products.  Within his talk, Eddy will include a brief introduction to Ergonomics, it's history, and it's relation / relevance to UX.
 
 ## Catherine Grundy
-Her interests have led to involvement beyond product development to computer games, web design and app design and digital product design.
+
+### Vis-able: How studies in visual perception and the cognitive aspects of ergonomics contribute to usability
+
+Catherine&#8217;s interests have led to involvement beyond product development to computer games, web design and app design and digital product design.
+
+Using a set of interaction principles as a basis, we consider how understanding our perception mechanisms can help to create beautiful and usable artefacts across two and three dimensions. From the aim to create clear and readable artefacts (achieving ‘Clarity’) to helping the user to be engaged ( in a state of ‘Flow’) when using an interface, interaction goals are similar for different media and brainstorming across disciplines can sometimes help.
 
 ## Dr Derek Covill
+
+### The problem with 3D printing &amp; human factors issues in bicycle design
+
 As well as teaching, his research and consultancy covers many aspects of biomechanics and sports technology.
