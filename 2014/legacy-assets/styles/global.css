@@ -774,7 +774,7 @@ div.tickets a span.label {
 	display: block;
 	top: -1rem;
 	float: left;
-	margin-left: 10%;
+	margin-left: 5%;
 	padding: 2rem 0 0 0;
 	font-size: 1.25rem;
 	line-height: 1.125rem;
@@ -827,7 +827,7 @@ header #logo {
 }
 
 header, div.description, div.testimonial {
-	padding-left: 10%;
+	padding-left: 5%;
 }
 
 a:visited {
@@ -985,16 +985,15 @@ p.intro {
 
 .schedule h2, .sponsors h2, .about h2, .location h2 {
 	text-align: left;
-	padding-left: 10%;
-	padding-top: 3rem;
-	padding-bottom: 1rem;
+	padding-left: 5%;
+	padding-top: 1rem;
 	font-weight: 500;
 /*	padding-left: 25%;*/
 }
 
 .schedule p, .schedule h4 {
 	text-align: left;
-	margin-left: 10%;
+	margin-left: 5%;
 	margin-right: 5%;
 }
 
@@ -1018,7 +1017,7 @@ p.intro {
 .schedule ol li h3 {
 	padding-top: 0.75rem;
 	margin-bottom: 2rem;
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 .schedule ol li.admin h3, .schedule ol li.admin time {
@@ -1063,7 +1062,7 @@ p.intro {
 	right: 57.5%;
 	text-align: right;*/
 	text-align: left;
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 .schedule ol li .identifiers p.speakerphoto {
@@ -1104,7 +1103,7 @@ p.intro {
 .sponsors .sponsor-pack, .sponsors .alpha, .sponsors .beta, .sponsors .silver, .sponsors .gamma, .sponsors .supporters {
 	position: relative;
 	margin-bottom: 2rem;
-	padding-left: 10%;
+	padding-left: 5%;
 }
 
 .sponsors .sponsor-pack h3, .sponsors .alpha h3, .sponsors .beta h3, .sponsors .silver h3, .sponsors .gamma h3, .sponsors .supporters h3 {
@@ -1160,7 +1159,7 @@ div.sponsor-logo img {
 }
 
 .about p, .location p, .location .map {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 /* @group Legal */
@@ -1174,7 +1173,7 @@ div.sponsor-logo img {
 
 .location #venue-shots {
 	position: relative;
-	padding-left: 10%;
+	padding-left: 5%;
 	margin-top: 1.5rem;
 }
 
@@ -1209,7 +1208,7 @@ div.sponsor-logo img {
 		display: block;
 		top: -1rem;
 		float: left;
-		margin-left: 10%;
+		margin-left: 5%;
 		padding: 2.5rem 0 0 0;
 		font-size: 1.65rem;
 		line-height: 1.125rem;
