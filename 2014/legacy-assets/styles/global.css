@@ -603,7 +603,6 @@ div.photos {
 	float: right;
 	border-top: none;
 	vertical-align: top;
-	border-top: 1px solid #fafafa;
 	border-bottom: 1px solid #fafafa;
 	border-right: 1px solid #fafafa;
 }
@@ -652,7 +651,6 @@ div.photos {
 	display: inline-block;
 	clear: both;
 	vertical-align: top;
-	border-top: 1px solid #fafafa;
 	border-right: 1px solid #fafafa;
 }
 
@@ -1335,7 +1333,7 @@ div.sponsor-logo img {
 		vertical-align: bottom;
 		border-right: 1px solid #fafafa;
 		border-bottom: none;
-		transform: translateY(40%);
+		transform: translateY(40.5%);
 	}
 
 	#speaker2 {
@@ -1344,7 +1342,7 @@ div.sponsor-logo img {
 		border-spacing: 1px;
 		width: 35%;
 		vertical-align: bottom;
-		border: none;
+		border-top: none;
 	}
 
 	#speaker34 {
@@ -1360,7 +1358,6 @@ div.sponsor-logo img {
 		display: inline-block;
 		float: right;
 		border-right: 1px solid #fafafa;
-		border-top: 1px solid #fafafa;
 		vertical-align: top;
 	}
 
@@ -1385,7 +1382,6 @@ div.sponsor-logo img {
 		width: 55%;
 		display: block;
 		float: right;
-		border-top: 1px solid #fafafa;
 		border-bottom: 1px solid #fafafa;
 	}
 
@@ -1394,6 +1390,7 @@ div.sponsor-logo img {
 	}
 
 	#speaker6 {
+		border-top: 1px solid #fafafa;
 		display: block;
 		width: 32%;
 		float: right;
@@ -1430,6 +1427,7 @@ div.sponsor-logo img {
 		width: 100%;
 		display: block;
 		float: left;
+		border-top: 1px solid #fafafa;
 		border-bottom: 1px solid #fafafa;
 	}
 
