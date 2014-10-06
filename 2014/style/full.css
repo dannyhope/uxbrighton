@@ -114,8 +114,16 @@ a#speaker4 img, a#speaker8 img {
 }
 
 .embed-container.hd {
-    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-bottom: 61.25%; /* 16/9 ratio */
 }
+
+@media only screen and (min-width: 21em) {
+	.embed-container.hd {
+	    padding-bottom: 50.25%; /* 16/9 ratio */
+	}
+}
+
+
 .embed-container.vga {
     padding-bottom: 77%; /* 4/3 ratio */
 }
