@@ -9,7 +9,7 @@
 {% endfor %}
 
 {% if has_upcoming %}
-	<h2>Upcoming events:</h2>
+	<h2>Upcoming events</h2>
 	<ul class="event-title-list">
 	{% for post in site.posts reversed %}
 		{% if post.upcoming == true %}	
@@ -27,7 +27,7 @@
 	</ul>
 {% endif %}	
 
-	<h2>Past events:</h2>
+	<h2>Past events</h2>
 	<ul class="event-title-list">
 			{% for post in site.posts %}
 			{% if post.noinfo == null %}

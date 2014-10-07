@@ -7,37 +7,34 @@ layout: default
 			<h1 class="event-title">{{page.title}}</h1>
 		{% if page.upcoming %}
 			<section class="event-meta">
-			<ul>
-				<li>
-					{{page.date | date: "%d %B, %Y"}} 
-					{% if page.start %}
+				{% include venues.html %}
+				<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+			    {{page.date | date: "%d %b"}}
+				{% if page.start %}
 					at {{page.start}}
-					{% endif %}
-				</li>
-				<li>
-					{% include venues.html %}
-				</li>
-				<li>
-					{% if page.lanyrd-url %}
-					Track or say you're attending on 
-					<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
-					{% endif %}	
-				</li>
-			</ul>
-			<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
-			    Add to Calendar
-			    <span class="_start">{{page.date | date: "%d %B, %Y"}}  {{page.start}}</span>
-			    <span class="_end">{{page.date | date: "%d %B, %Y"}} {{page.end}}</span>
-			    <span class="_zonecode">36</span>
-			    <span class="_summary">{{page.title}}</span>
-			    <span class="_description"></span>
-			    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% else %}The venue for this event will be announced soon.{% endif %}
-				</span>
-			    <span class="_organizer"></span>
-			    <span class="_facebook_event"></span>
-			    <span class="_date_format">DD/MM/YYYY</span>
-			</a>
+				{% endif %}
+				    <span class="_start">{{page.date | date: "%d %B, %Y"}}  {{page.start}}</span>
+				    <span class="_end">{{page.date | date: "%d %B, %Y"}} {{page.end}}</span>
+				    <span class="_zonecode">36</span>
+				    <span class="_summary">{{page.title}}</span>
+				    <span class="_description"></span>
+				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
+					</span>
+				    <span class="_organizer"></span>
+				    <span class="_facebook_event"></span>
+				    <span class="_date_format">DD/MM/YYYY</span>
+				</a>
+				<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket</a>
+<!-- 				<ul>
+					<li>
+						{% if page.lanyrd-url %}
+							Track or say you're attending on 
+							<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
+						{% endif %}	
+					</li>
+				</ul> -->		
 			</section>
+
 			<!-- 
 			{% if page.upcoming %}
 			<article class="ticket-rules">

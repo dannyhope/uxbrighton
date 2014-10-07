@@ -8,6 +8,11 @@
 ## Mark an event as past
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
+## Add a venue
+
+## Change the way the menu looks
+
+This is defined in: **_includes > nav.html**
 
 ## Add a person
 

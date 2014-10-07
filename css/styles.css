@@ -1,56 +1,87 @@
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border: 1rem solid rgba(0,0,0,0);}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+/* @group normalize.css */
 
-/*Icons*/
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+a{background:transparent}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:700}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border: 1rem solid rgba(0,0,0,0);}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner, input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+
+/* @end */
+
+/* @group Icons */
 
 @font-face {
-    font-family: 'LigatureSymbols';
-    src: url('/font/LigatureSymbols-2.11.eot');
-    src: url('/font/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
-         url('/font/LigatureSymbols-2.11.woff') format('woff'),
-         url('/font/LigatureSymbols-2.11.ttf') format('truetype'),
-         url('/font/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
-    src: url('/font/LigatureSymbols-2.11.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	  font-family: 'LigatureSymbols';
+	  src: url('/font/LigatureSymbols-2.11.eot');
+	  src: url('/font/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+	       url('/font/LigatureSymbols-2.11.woff') format('woff'),
+	       url('/font/LigatureSymbols-2.11.ttf') format('truetype'),
+	       url('/font/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+	  src: url('/font/LigatureSymbols-2.11.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;
 }
 
 i.lsf-icon {
 	font-style: normal;
 }
 
-.lsf, .lsf-icon:before {
-  font-family: 'LigatureSymbols';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+.lsf,
+.lsf-icon:before {
+	font-family: 'LigatureSymbols';
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
 
 .lsf-icon:before {
-  content:attr(title);
-  margin-right:0.3em;
-  font-size:130%;
+	content:attr(title);
+	margin-right:0.3em;
+	font-size:130%;
 }
 
-.lsf-icon.calendar:before {
-  content: '\E15e';
-}
-
-.event-detail .event-meta .addthisevent-drop:after {
-content: "▼";
-font-size: 59%;
-vertical-align: middle;
-}
-
-
-
-/*End icons*/
+/* @end */
 
 
 body {
@@ -85,6 +116,8 @@ p {
 }
 a {
 	color: rgb(16, 139, 193);
+	font-weight: 500;
+	text-decoration: none;
 }
 
 .site-header .site-title {
@@ -119,32 +152,6 @@ a {
 
 .event-detail h1 {
 	font-family: "museo-slab",sans-serif;
-}
-
-.event-detail .event-meta {
-	background: white;
-	padding: 2em;
-}
-
-.event-detail .event-meta ul {
-    list-style-type: none;
-	margin: 0 0 2em;
-	padding: 0;
-}
-
-.event-detail .event-meta ul a {
-	text-decoration: none;
-	padding: 1rem 0;
-}
-
-.event-detail .event-meta [href^="http://google.co.uk/maps"],
-.event-detail .event-meta [href^="http://www.google.co.uk/maps"],
-.event-detail .event-meta [href^="https://google.co.uk/maps"],
-.event-detail .event-meta [href^="https://www.google.co.uk/maps"] {
-  background: url(/images/map.png) no-repeat 0 50%;
-  padding-left: 20px;
-  margin-left: 0.5em;
-  background-size: 15px;
 }
 
 .event-detail .organisers-list {
@@ -298,21 +305,10 @@ nav.nav-side .link-archive {
 		display: none;
 	}
 
-	.event-detail .event-meta  {
-	   position: relative;
-	}
 
-	.event-detail .event-meta ul {
-	    width: calc(100% - 183px);
-	    margin: 0;
-	}
 
-	.event-detail .event-meta .addthisevent-drop {
-		position: absolute;
-		top: 2em;
-		right: 2em;
-		font-family: "Helvetica Neue", sans-serif;
-	}
+
+
 
 	.content-main-about {
 		display: -webkit-flex;
@@ -384,26 +380,26 @@ nav.nav-side .link-archive {
 /* embedded videos and slides */
 
 .embed-container {
-    position: relative;
-    padding-bottom: 100%; 
-    height: 0;
-    overflow: hidden;
+	  position: relative;
+	  padding-bottom: 100%; 
+	  height: 0;
+	  overflow: hidden;
 }
 
 .embed-container.hd {
-    padding-bottom: 56.25%; /* 16/9 ratio */
+	  padding-bottom: 56.25%; /* 16/9 ratio */
 }
 .embed-container.vga {
-    padding-bottom: 77%; /* 4/3 ratio */
+	  padding-bottom: 77%; /* 4/3 ratio */
 }
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
 }
 
 @media (min-width: 75rem) {
@@ -416,9 +412,44 @@ nav.nav-side .link-archive {
 		width: 20%;
 		float: left;
 	}
-
 }
 
-h2 {
+.content-main-detail h2 {
 	color: #c70a3c;
 }
+
+/* @group Event data */
+
+.event-meta {
+	background: white !important;
+	border: 1px solid hsl(0, 0%, 95%);
+	text-align: center;
+	padding-bottom: 2rem;
+}
+	.event-meta a {
+		vertical-align: middle !important;
+		margin-top: 2rem;
+		margin-right: 1rem;
+		display: inline-block;
+		font-size: 1rem;
+	}
+		.event-meta a:hover {
+			font-size: 1rem;
+		}
+	.event-meta a.where {			/*1*/
+		width: 17rem;
+	}
+		.event-meta .addthisevent-drop:after {
+			content: "▼";
+			font-size: 59%;
+			vertical-align: middle;
+		}
+	.event-meta a.ticket-button {	/*3*/
+		background: #0b8ac1;
+		padding: 0.6rem 2rem;
+		text-decoration: none;
+		color: white;
+		border-radius: 0.2rem;
+	}
+
+/* @end */

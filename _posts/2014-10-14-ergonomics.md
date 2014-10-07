@@ -3,18 +3,17 @@ layout: event-page
 category: [archive]
 title: UX, Human Factors & Ergonomics
 start: 7pm
-venue: 
+venue: Hotel Du Vin
 organisers: 
 - Tim
 lanyrd-url: 
 calendar-url: #
 upcoming: true
 homepage: true
+ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
 ---
 
 Also known as "comfort design", "functional design", or "user-friendly systems", HF&E is the practice of designing products, systems or processes to take proper account of the interaction between them and the people that use them. As you can imagine, there's plenty to learn from this multidisciplinary field. Speakers for the evening are all Senior Lecturers from the University of Brighton's School of Computing, Engineering and Mathematics.
-
-<iframe  src="//eventbrite.co.uk/tickets-external?eid=13077411891&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
 
 ## Dr Eddy Elton
 
