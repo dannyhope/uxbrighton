@@ -353,9 +353,14 @@ nav.nav-side .link-archive {
 
 	.contribute-content {
 		border-top: 1px solid rgba(0,0,0,0.1);
-		margin-top: 2rem;
+		margin-top: 4rem;
+	    color: grey;
 	}
-
+		aside.contribute-content a {
+		    color: grey;
+		    text-decoration: underline;
+		    font-weight: normal;
+		}
 	.event-title-list {
 		list-style: none;
 		padding: 0;
