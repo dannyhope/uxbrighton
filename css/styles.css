@@ -166,12 +166,16 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 
 nav.nav-side .link-archive {
 	background-color: rgb(201, 0, 58);
-	color: white;
+	color: rgb(255, 255, 255);
 	display: block;
-	padding: 0.5em 1em;
+	padding: 1em;
 	text-align: center;
 	text-decoration: none;
-	margin: 1em 0;
+	margin: 2em 2em 4em 2em;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.2rem;
 }
 
 /*Social media*/
