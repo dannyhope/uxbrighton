@@ -6,6 +6,14 @@
 # Things an editor may want to do
 
 ## What needs doing after every event/marking events as having past
+
+- mark the event as over - **Alex, how?**
+- add video
+- add slides
+- link to tweets
+- link to blog posts
+- link to photos
+
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
 ## Add a venue
