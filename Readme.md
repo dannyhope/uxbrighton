@@ -7,7 +7,7 @@
 
 ## What needs doing after every event/marking events as having past
 
-- mark the event as over - **Alex, how?**
+- mark the event as over - **Alex, how is this done?**
 - add video
 - add slides
 - link to tweets
