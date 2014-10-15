@@ -5,18 +5,23 @@
 
 # Things an editor may want to do
 
-## What needs doing after every event/marking events as having past
+## Before events
 
-- mark the event as over - **Alex, how is this done?**
+- Add title (as it will appear in the nav
+- date
+- venue
+- start time
+- link to Lanyrd page
+- Add the ticket widget
+
+## After events
+
+- mark the event as having past - **Alex, how is this done?**
 - add video
 - add slides
 - link to tweets
 - link to blog posts
 - link to photos
-
-## Add event meta data such as title, date, venue, start time and Lanyrd page
-## Add the ticket widget
-## Add a venue
 
 ## Change the way the menu looks
 
@@ -24,15 +29,13 @@ This is defined in: **_includes > nav.html**
 
 ## Add a person
 
-A volunteer, curator or whatever
+There’s a list of people here [_includes > organisers.html](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes/organisers.html "")
 
-This is done in **_includes > organisers.html**
-
-Just duplicate one of the people that’s already in there and make changes to that.
+Duplicate and modify one of the people that’s already in the list.
 
 ## Edit a conference page
 
-Main conference content is actually stored in templates (as opposed to markdown files).
+Main conference content is stored in the [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "") folder (not in the [_posts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts "") opposed to markdown files).
 
 _layouts > conference-2010.html
 _layouts > conference-2011.html
