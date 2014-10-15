@@ -5,7 +5,7 @@
 
 # Things an editor may want to do
 
-## Mark an event as past
+## What needs doing after every event/marking events as having past
 ## Add event meta data such as title, date, venue, start time and Lanyrd page
 ## Add the ticket widget
 ## Add a venue
