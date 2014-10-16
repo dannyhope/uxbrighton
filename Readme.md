@@ -1,6 +1,12 @@
 ---
 ---
 
+
+
+Noinfo is past events we don't have much info about. Stubs are future events - wiki-style page stubs.
+
+
+
 [&#9733;](http://0.0.0.0:4000/readme.html "")
 
 **NB: Any changes you commit will be immediately visible on the site. Please [preview your changes first](http://0.0.0.0:4000/ "").**
@@ -81,7 +87,7 @@ stub: yes
 
 ## Change the title of a page
 
-Do it in the front matter, for example, add **title: Hello World** to the front matter
+Do it in the front matter, for example, add **title: Awesome event** to the front matter
 
 ## Run the site locally
 
@@ -92,7 +98,7 @@ You will need
 - Ruby
 - Ruby gems (package manager)
 - [Jekyll dependencies](http://jekyllrb.com/docs/installation/)
-- (In the terminal, type) gem install jekyll
+- In the terminal, type: gem install jekyll
 	-  [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/)
 
 In the terminal type:
@@ -101,17 +107,19 @@ jekyll serve -w
 
 Browse to [http://0.0.0.0:4000/](http://http://0.0.0.0:4000/ "")
 
-## URLs
+# URLs
 
-The following domains point to uxbrighton.org.uk, the canonical domain. This is set at the 123-reg control panel.
+The following domains should all point to [uxbrighton.org.uk](http://uxbrighton.org.uk ""), the canonical domain. This is set at the 123-reg control panel.
 
-- [uxbri.org](http://uxbri.org "") goes to [uxbrighton.org.uk](http://uxbrighton.org.uk "")
-- [uxbri.com](http://uxbri.com "") goes to [uxbrighton.org.uk](http://uxbrighton.org.uk "")
-- [uxbri.co.uk](http://uxbri.co.uk "") goes to [uxbrighton.org.uk](http://uxbrighton.org.uk "")
+- [uxbri.org](http://uxbri.org "")
+- [uxbri.com](http://uxbri.com "")
+- [uxbri.co.uk](http://uxbri.co.uk "")
 
-Subdomains are set at [panel.dreamhost.com](http://panel.dreamhost.com "")
+##Subdomains
 
-Subdomains for conferences are forwarded to folders thus:
+[Manage subdomains on Dreamhost](http://panel.dreamhost.com "")
+
+Subdomains are used for conferences:
 
 - [2010.uxbrighton.org.uk](http://2010.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2010](http://uxbrighton.org.uk/2010 "")
 - [2011.uxbrighton.org.uk](http://2011.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2011](http://uxbrighton.org.uk/2011 "")
