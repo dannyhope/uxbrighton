@@ -5,7 +5,7 @@
 
 # Things an editor may want to do
 
-## Before events
+## Before an event
 
 - Add title (as it will appear in the nav
 - date
@@ -14,7 +14,7 @@
 - link to Lanyrd page
 - Add the ticket widget
 
-## After events
+## After an event
 
 - mark the event as having past - **Alex, how is this done?**
 - add video
@@ -29,20 +29,11 @@ This is defined in: **_includes > nav.html**
 
 ## Add a person
 
-There’s a list of people here [_includes > organisers.html](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes/organisers.html "")
-
-Duplicate and modify one of the people that’s already in the list.
+Duplicate/edit one of the [current list of people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "").
 
 ## Edit a conference page
 
-Main conference content is stored in the [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "") folder (not in the [_posts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts "") opposed to markdown files).
-
-_layouts > conference-2010.html
-_layouts > conference-2011.html
-_layouts > conference-2012.html
-_layouts > conference-2013.html
-_layouts > conference-2014.html
-_layouts > conference-2014-holding.html (the holding page)
+Main conference content is stored in the [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "") folder (not in the [_posts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts "") which is where the rest of the content lives).
 
 **These layouts are referenced in ?**
 
@@ -54,11 +45,11 @@ _layouts > conference-2014-holding.html (the holding page)
 
 ## Edit a template
 
-All of the templates are in _layouts
+All of the templates are in [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "")
 
-## Edit the mini header
+## Edit the strip that goes across the top of all pages
 
-This is done in **_includes > header-mini.html**
+This is done in [_includes](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes/header-mini.html "")
 
 ## Change the appearance of a template (CSS)
 
