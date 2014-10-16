@@ -1,11 +1,19 @@
 ---
 ---
 
-**IMPORTANT**: Any changes you commit will be immediately visible on the site. Please preview your changes first.
+[&#9733;](http://0.0.0.0:4000/readme.html "")
 
-# Things an editor may want to do
+**NB: Any changes you commit will be immediately visible on the site. Please [preview your changes first](http://0.0.0.0:4000/ "").**
 
-## Before an event
+---------------
+
+# Tasks
+
+## Edit this document
+
+[Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
+
+## Pre-event
 
 - Add title (as it will appear in the nav
 - date
@@ -14,7 +22,7 @@
 - link to Lanyrd page
 - Add the ticket widget
 
-## After an event
+## Post event
 
 - mark the event as having past - **Alex, how is this done?**
 - add video
@@ -25,9 +33,9 @@
 
 ## Change the way the menu looks
 
-This is defined in: **_includes > nav.html**
+This is defined in [the nav include](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes > nav.html "")
 
-## Add a person
+## Add a helper
 
 Duplicate/edit one of the [current list of people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "").
 
@@ -83,34 +91,34 @@ You will need
 - Xcode Command Line Tools 
 - Ruby
 - Ruby gems (package manager)
+- [Jekyll dependencies](http://jekyllrb.com/docs/installation/)
 - (In the terminal, type) gem install jekyll
-	-  [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/), 
-- Ensure you have all the [dependencies](http://jekyllrb.com/docs/installation/) installed first.
+	-  [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/)
 
 In the terminal type:
 cd /Users/dannyhope/Dropbox/UX\ Brighton\ \(private\)/Repos/uxbrightonn
 jekyll serve -w
 
-Browse to http://0.0.0.0:4000/
+Browse to [http://0.0.0.0:4000/](http://http://0.0.0.0:4000/ "")
 
 ## URLs
 
 The following domains point to uxbrighton.org.uk, the canonical domain. This is set at the 123-reg control panel.
 
-uxbri.org	→ uxbrighton.org.uk
-uxbri.com	→ uxbrighton.org.uk
-uxbri.co.uk	→ uxbrighton.org.uk
+- [uxbri.org](http://uxbri.org "") goes to [uxbrighton.org.uk](http://uxbrighton.org.uk "")
+- [uxbri.com](http://uxbri.com "") goes to [uxbrighton.org.uk](http://uxbrighton.org.uk "")
+- [uxbri.co.uk](http://uxbri.co.uk "") goes to [uxbrighton.org.uk](http://uxbrighton.org.uk "")
 
-Subdomains are set at panel.dreamhost.com
+Subdomains are set at [panel.dreamhost.com](http://panel.dreamhost.com "")
 
 Subdomains for conferences are forwarded to folders thus:
 
-2010.uxbrighton.org.uk → uxbrighton.org.uk/2010
-2011.uxbrighton.org.uk → uxbrighton.org.uk/2011
-2012.uxbrighton.org.uk → uxbrighton.org.uk/2012
-2013.uxbrighton.org.uk → uxbrighton.org.uk/2013
-2014.uxbrighton.org.uk → uxbrighton.org.uk/2014
-2015.uxbrighton.org.uk → uxbrighton.org.uk/2015
+- [2010.uxbrighton.org.uk](http://2010.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2010](http://uxbrighton.org.uk/2010 "")
+- [2011.uxbrighton.org.uk](http://2011.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2011](http://uxbrighton.org.uk/2011 "")
+- [2012.uxbrighton.org.uk](http://2012.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2012](http://uxbrighton.org.uk/2012 "")
+- [2013.uxbrighton.org.uk](http://2013.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2013](http://uxbrighton.org.uk/2013 "")
+- [2014.uxbrighton.org.uk](http://2014.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2014](http://uxbrighton.org.uk/2014 "")
+- [2015.uxbrighton.org.uk](http://2015.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2015](http://uxbrighton.org.uk/2015 "")
 
 When a conference page is the homepage, should we just show it at the root or at the permalink?
 
@@ -118,32 +126,33 @@ When a conference page is the homepage, should we just show it at the root or at
 
 # Front matter
 
-**layout: default**
-**layout: event-page**
-
-**categories: [archive]** ?
-**conference: false** ?
-**conference: true** ?
-**homepage: false** ?
-**homepage: true** ?
-**noinfo: true** ?
-**stub: yes** ?
-
-**upcoming: no** ?
-**published: true** ?
-**start: 7pm** ?
-**start: null** ?
-**start:** ?
-**venue: null** ?
-**venue:** ?
-**venue: Fabrica** …Lighthouse etc are defined in**?**
-**organisers:**
-	- **Alex**
-	- **Patrick** rendered into the bottom of the event page
-
-**lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/** ?
-**lanyrd: http://lanyrd.com/2013/uxbrighton-june/**
-**calendar-url: #** ?
+- layout: default
+- layout: event-page
+- -
+- categories: [archive] ?
+- conference: false ?
+- conference: true ?
+- homepage: false ?
+- homepage: true ?
+- noinfo: true ?
+- stub: yes ?
+- -
+- upcoming: no ?
+- published: true ?
+- start: 7pm ?
+- start: null ?
+- start: ?
+- venue: null ?
+- venue: ?
+- venue: Fabrica …Lighthouse etc are defined in?
+- organisers:
+	- Alex
+	- Patrick rendered into the bottom of the event page
+- -
+- lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/ ?
+- lanyrd: http://lanyrd.com/2013/uxbrighton-june/
+- calendar-url: # ?
 
 ## 404 page
-**permalink: /404.html** designates it as a 404 page
+
+Place permalink: /404.html in the front matter to designate a page as a 404
