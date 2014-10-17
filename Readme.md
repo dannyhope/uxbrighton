@@ -1,101 +1,74 @@
 ---
 ---
 
-**NB: Any changes you commit will be immediately visible on the site. Please [preview your changes first](http://0.0.0.0:4000/ "").**
+**Any changes you commit will be immediately visible on the site. Please [preview your changes first](http://0.0.0.0:4000/ "").**
 
 ---------------
 
-## Tasks
+## Add an event
 
-### Make a 404 page
+**Duplicate one of the an event in [_posts](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_posts "") and make sure the front matter has all this stuff in it:**
 
-Place permalink: /404.html in the front matter to designate a page as a 404
-
-### Edit this document
-
-[Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
-
-### Add an event
-
-In the front matter, add
-
-- title: Awesome event
-- venue: 
-- start time: 7pm
-- ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
-- upcoming: true **Alex, is this correct?**
-- lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/ **Alex, which is best?**
-- lanyrd: http://lanyrd.com/2013/uxbrighton-june/ **Alex, which is best?**
+| Attribute		| Example		| Note		|
+|----------		|----------		|------		|
+| title:			| UX, Human Factors & Ergonomics |  |
+| venue: | Hotel Du Vin | [pick one from the venue list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "") |
+| start: | 7pm |  |
+| ticket-link: | http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891 |  |
+| upcoming: | true |    **Alex, is this correct?** |
+| lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, is this correct?** |
+| lanyrd: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, this seems redundant, is it there for a reason?** |
 
 **Alex, how do we add the event date?**
 
-### Post event
+## After an event
 
-- mark it as past by adding upcoming: no to the front matter - **Alex, is this correct?**
+- mark it as past by adding **upcoming: no** to the front matter - **Alex, is this correct?**
 - add video
 - add slides
 - add images
 - add tweets, blog posts, photos
 
-### Past stubs
+## Stubs
 
-For past events we don't have much info about, put this in the front matter:
+- **Past** events we don't have much info about: put this in the front matter: noinfo: true
+- **Future** event ideas not ready to go live: put this in the front matter: stub: true
 
-    noinfo: true
+## Add a person or venue
 
-### Future stubs
+Duplicate and edit one of the [people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") or [venues](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "")
 
-For events not ready to go live, put this in the front matter:
-
-    stubs: true
-
-### Change the presentation of the menu
-
-This is defined in [the nav include](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes > nav.html "")
-
-### Add a person
-
-Duplicate/edit one of the [current list of people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "").
-
-### Edit a conference page
+## Edit a conference page
 
 Main conference content is stored in the [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "") folder (not in the [_posts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts "") which is where the rest of the content lives).
-
-**These layouts are referenced in ?**
-
-* get it from Eventbrite
-* find the event
-* paste it in
-
-**needs more detail**
-
-### Edit a template
-
-All of the templates are in [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "")
 
 ### Edit the strip that goes across the top of all pages
 
 This is done in [_includes](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes/header-mini.html "")
 
-### Change the appearance of a template (CSS)
-
-Templates are all in /_layout
-
 ### Edit a conference page
 
 Conference pages appear at 2 URLs so the content is technically stored in a template, all templates are in _layouts, that’s where you’ll find what you need
 
-### Add an event
+### Edit this document
 
-* Go to **_posts**
-* Duplicate an existing event and modify the front matter
+[Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
 
-### Make an event invisible
+-------
 
-Make sure that the front matter includes:
+## Templates etc.
 
-upcoming: 
-stub: yes
+### Menu
+
+This is defined in [the nav include](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes > nav.html "")
+
+### Template
+
+All of the templates are in [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "")
+
+### Make a 404 page
+
+Place permalink: /404.html in the front matter to designate a page as a 404
 
 ------
 
