@@ -1,8 +1,6 @@
 ---
 ---
 
-[&#9733;](http://0.0.0.0:4000/readme.html "")
-
 **NB: Any changes you commit will be immediately visible on the site. Please [preview your changes first](http://0.0.0.0:4000/ "").**
 
 ---------------
@@ -17,23 +15,27 @@ Place permalink: /404.html in the front matter to designate a page as a 404
 
 [Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
 
-### Pre-event
+### Add an event
 
-- Add title (as it will appear in the nav
-- date
-- venue
-- start time
-- link to Lanyrd page
-- Add the ticket widget
+In the front matter, add
+
+- title: Awesome event
+- venue: 
+- start time: 7pm
+- ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
+- upcoming: true **Alex, is this correct?**
+- lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/ **Alex, which is best?**
+- lanyrd: http://lanyrd.com/2013/uxbrighton-june/ **Alex, which is best?**
+
+**Alex, how do we add the event date?**
 
 ### Post event
 
-- mark the event as having past - **Alex, how is this done?**
+- mark it as past by adding upcoming: no to the front matter - **Alex, is this correct?**
 - add video
 - add slides
-- link to tweets
-- link to blog posts
-- link to photos
+- add images
+- add tweets, blog posts, photos
 
 ### Past stubs
 
@@ -95,10 +97,6 @@ Make sure that the front matter includes:
 upcoming: 
 stub: yes
 
-### Change the title of a page
-
-Do it in the front matter, for example, add **title: Awesome event** to the front matter
-
 ------
 
 ## Run the site locally
@@ -114,7 +112,7 @@ You will need
 	-  [Jekyll](http://jekyllrb.com/). If you've not worked with Jekyll before, follow the [quick start guide](http://jekyllrb.com/docs/quickstart/)
 
 In the terminal type:
-cd /Users/dannyhope/Dropbox/UX\ Brighton\ \(private\)/Repos/uxbrightonn
+cd /Users/dannyhope/Dropbox/UX\ Brighton\ \(private\)/Repos/uxbrighton
 jekyll serve -w
 
 Browse to [http://0.0.0.0:4000/](http://http://0.0.0.0:4000/ "")
@@ -146,7 +144,7 @@ When a conference page is the homepage, should we just show it at the root or at
 
 --------
 
-## Unsorted front matter
+## Undocumented front matter
 
 - layout: default
 - layout: event-page
@@ -157,7 +155,6 @@ When a conference page is the homepage, should we just show it at the root or at
 - homepage: false ?
 - homepage: true ?
 - -
-- upcoming: no ?
 - published: true ?
 - start: 7pm ?
 - start: null ?
@@ -169,6 +166,4 @@ When a conference page is the homepage, should we just show it at the root or at
 	- Alex
 	- Patrick rendered into the bottom of the event page
 - -
-- lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/ ?
-- lanyrd: http://lanyrd.com/2013/uxbrighton-june/
 - calendar-url: # ?
