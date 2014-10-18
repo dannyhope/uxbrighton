@@ -160,6 +160,8 @@ a {
 	padding: 0;
 }
 
+/* @group Nav */
+
 nav.nav-side .event-title-list, nav.nav-side h2 {
 	display: none;
 }
@@ -177,6 +179,13 @@ nav.nav-side .link-archive {
 	margin-right: auto;
 	border-radius: 0.2rem;
 }
+nav .post-date {
+	font-weight: 500;
+	color: rgba(11,138,193,0.5);
+	/*font-size: 0.9em;*/
+}
+
+/* @end */
 
 /*Social media*/
 
@@ -299,8 +308,11 @@ nav.nav-side .link-archive {
 		border-top: 1px solid #ddd;
 		padding: 0.415em;
 	}
-	nav.nav-side ul li a:hover, nav.nav-side .current a {
+	nav.nav-side ul li a:hover {
 		background: rgba(0,0,0,0.05);
+	}
+	nav.nav-side .current a {
+		background: white;
 	}
 	nav.nav-side ul li:last-child a {
 		border-bottom: 1px solid #ddd;
