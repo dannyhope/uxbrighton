@@ -36,27 +36,27 @@
 	<h2>Past events</h2>
 	<ul class="event-title-list">
 			{% for post in site.posts %}
-			{% if post.noinfo == null %}
+			
 				{% if post.stub == null %}	
 					{% if post.upcoming == null or post.upcoming == false %}
 						{% if page.url == post.url %}
 							<li class="event-title-list-item current">
 								<a href="{{ site.url }}{{post.url}}">
-									<div class="post-title">{{ post.title }}</div>
-									<div class="post-date">{{post.date | date: "%-d %b %Y"}}</div>
+									<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
+									<div class="post-date">{{post.date | date: "%-d %b"}}</div>
 								</a>
 							</li>
 						{% else %}
 							<li class="event-title-list-item">
 								<a href="{{ site.url }}{{post.url}}">
-									<div class="post-title">{{ post.title }}</div>
+									<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
 									<div class="post-date">{{post.date | date: "%-d %b"}}</div>
 								</a>
 							</li>	
 						{% endif %}
 					{% endif %}
 				{% endif %}
-			{% endif %}
+			
 	  {% endfor %}
 	</ul>
 	<a class="link-archive" href="/archive.html">View all events</a>	
