@@ -5,66 +5,74 @@
 
 ---------------
 
-## Add an event
+## Content
+
+### Add an upcoming event
 
 **Duplicate one of the an event in [_posts](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_posts "") and make sure the front matter has all this stuff in it:**
 
-| Attribute		| Example		| Note		|
+| Attribute		| Example value		| Note		|
 |----------		|----------		|------		|
 | title:			| UX, Human Factors & Ergonomics |  |
 | venue: | Hotel Du Vin | [pick one from the venue list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "") |
 | start: | 7pm |  |
 | ticket-link: | http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891 |  |
 | upcoming: | true |    **Alex, is this correct?** |
+| organnisers: | Alex | [pick from the organisers list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") |
+| calendar-url: | ????????? | **Alex, is this correct?** |
 | lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, is this correct?** |
 | lanyrd: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, this seems redundant, is it there for a reason?** |
 
-**Alex, how do we add the event date?**
+### After an event
 
-## After an event
+- mark it as past by adding this in the front matter- 
 
-- mark it as past by adding **upcoming: no** to the front matter - **Alex, is this correct?**
-- add video
+|Attribute|Value|
+|----|--|
+|upcoming:|no|
+
+- add videos
+
+      <>
+
 - add slides
 - add images
 - add tweets, blog posts, photos
 
-## Stubs
+### Stubs
 
 - **Past** events we don't have much info about: put this in the front matter: noinfo: true
 - **Future** event ideas not ready to go live: put this in the front matter: stub: true
 
-## Add a person or venue
+### Add a person or venue
 
 Duplicate and edit one of the [people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") or [venues](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "")
 
-## Edit a conference page
-
-Main conference content is stored in the [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "") folder (not in the [_posts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts "") which is where the rest of the content lives).
-
-### Edit the strip that goes across the top of all pages
-
-This is done in [_includes](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes/header-mini.html "")
-
 ### Edit a conference page
 
-Conference pages appear at 2 URLs so the content is technically stored in a template, all templates are in _layouts, that’s where you’ll find what you need
+Conference pages appear at 2 URLs so their content is technically stored in [templates in the _layouts folder](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts ""), not in the [_posts folder](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts "") which is where the rest of the content lives).
 
-### Edit this document
+#### Edit the strip across the top of all pages
+
+This is done in [_includes](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/header-mini.html "")
+
+#### Edit this document
 
 [Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
 
 -------
 
-## Templates etc.
+## Style etc
 
 ### Menu
 
-This is defined in [the nav include](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_includes > nav.html "")
+This is defined in the layout  [nav.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/nav.html "")
 
-### Template
+### Templates
 
-All of the templates are in [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "")
+All in [_layouts](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "")
+
+**Event pages** use 2 templates: The [event-page.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_layouts/event-page.html "") template is wrapped in the [default.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_layouts/default.html "") one.
 
 ### Make a 404 page
 
@@ -119,24 +127,12 @@ When a conference page is the homepage, should we just show it at the root or at
 
 ## Undocumented front matter
 
-- layout: default
-- layout: event-page
-- -
-- categories: [archive] ?
-- conference: false ?
-- conference: true ?
-- homepage: false ?
-- homepage: true ?
-- -
-- published: true ?
-- start: 7pm ?
-- start: null ?
-- start: ?
-- venue: null ?
-- venue: ?
-- venue: Fabrica …Lighthouse etc are defined in?
-- organisers:
-	- Alex
-	- Patrick rendered into the bottom of the event page
-- -
-- calendar-url: # ?
+- categories: [archive] **?**
+- conference: false **?**
+- conference: true **?**
+- homepage: false **?**
+- homepage: true **?**
+
+- published: true **Alex, does this actually do anything?**
+- start: null **Alex, is "null" the same as providing no value?**
+- venue: null **Alex, is "null" the same as providing no value?**
