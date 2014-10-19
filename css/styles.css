@@ -182,7 +182,31 @@ nav.nav-side .link-archive {
 nav .post-date {
 	font-weight: 500;
 	color: rgba(11,138,193,0.5);
-	/*font-size: 0.9em;*/
+	font-size: 0.8rem;
+}
+nav span.coming-soon {
+	background: rgb(253,159,68);
+	padding: 0.1rem 0.3rem;
+	border-radius: 0.2rem;
+	/*text-transform: uppercase;*/
+	/*font-size: 0.8em;*/
+	font-weight: 400;
+	color: white;
+	letter-spacing: 0.02rem;
+	/*margin-left: 0.1rem;*/
+	/*text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.4);*/
+}
+nav span.stub {
+	background: rgba(0, 0, 0, 0.12);
+	padding: 0.1rem 0.3rem;
+	border-radius: 0.2rem;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0.05rem;
+	margin-left: 0.1rem;
+	text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.4);
 }
 
 /* @end */
@@ -303,7 +327,7 @@ nav .post-date {
 		text-decoration: none;
 		color: #222;
 		font-weight: normal;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		display: block;
 		border-top: 1px solid #ddd;
 		padding: 0.415em;
