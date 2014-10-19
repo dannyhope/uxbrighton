@@ -182,10 +182,13 @@ nav.nav-side .link-archive {
 nav .post-date {
 	font-weight: 500;
 	color: rgba(11,138,193,0.5);
+	/*color: rgba(253, 159, 68, 0.6);*/
 	font-size: 0.8rem;
 }
 nav span.coming-soon {
 	background: rgb(253,159,68);
+	background: rgb(11,138,193);
+	background: rgb(0,138,255);
 	padding: 0.1rem 0.3rem;
 	border-radius: 0.2rem;
 	/*text-transform: uppercase;*/
@@ -207,6 +210,31 @@ nav span.stub {
 	letter-spacing: 0.05rem;
 	margin-left: 0.1rem;
 	text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.4);
+}
+nav .qs_input {
+	margin-top: 2rem;
+	border-radius: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	border-top: solid 1px rgba(0, 0, 0, 0.75);
+	padding: 0.2rem 0.6rem;
+	border-left: 1px solid rgba(0, 0, 0, 0.5);
+	border-right: 1px solid rgba(0, 0, 0, 0.5);
+	width: calc(100% - 2.5rem);
+	margin-left: 0.5rem;
+	font-size: 0.9rem;
+}
+
+nav .qs_input:focus {
+	outline: none;
+	box-shadow: 0 0 4px 1px rgb(0, 138, 255);
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav.nav-side h2 {
+	display: block;
+	font-size: 0.9rem;
+	margin: 1rem 0rem 0.5rem 0.5rem;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 /* @end */
@@ -297,8 +325,8 @@ nav span.stub {
 	}
 
 	.site-header .site-title img {
-		width: 100%;
-	}
+		width: calc(100% - 1.1rem);
+		margin: 0.5rem; }
 
 	.intro-blurb {
 		width: calc(75% - 40px);
@@ -318,6 +346,9 @@ nav span.stub {
 		min-width: 100px;
 		width: 25%;
 		float: left;
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		margin-left: 0;
+		padding-left: 0;
 	}
 
 	nav.nav-side .event-title-list {

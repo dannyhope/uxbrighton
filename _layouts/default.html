@@ -10,7 +10,22 @@
 
 	<meta name="description" content="UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology">
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>	
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+	<SCRIPT src="/js/jquery.quicksearch.js" type="text/javascript" charset="utf-8"></SCRIPT>
+	<SCRIPT type="text/javascript" charset="utf-8">
+	  $(document).ready(function () {				
+			$('ul li').quicksearch({
+				// stripeRowClass: ['odd', 'even'],
+				position: 'before',
+				attached: 'h2.upcoming-events',
+				labelText: '',
+				delay: 1				
+			});			
+		})			
+	</SCRIPT>
+
 	<link rel="stylesheet" href="{{ relative }}css/styles.css">
 	<link rel="apple-touch-icon" href="/images/icon.png">
 	<link rel="icon" href="/images/favicon.png">	
