@@ -187,10 +187,10 @@ nav .post-date {
 	font-size: 0.8rem;
 }
 nav span.coming-soon {
-	background: rgb(253,159,68); /*orange*/ 
 	background: rgb(11,138,193); /*blue*/
 	background: rgb(0,138,255); /*vivid blue*/
-	background: rgb(201,0,58);
+	background: rgb(201,0,58); /*red*/
+	background: rgb(253,159,68); /*orange*/ 
 	padding: 0.1rem 0.3rem;
 	border-radius: 0.2rem;
 	/*text-transform: uppercase;*/
@@ -249,7 +249,7 @@ nav.nav-side h2 {
 	border-bottom: 1px solid rgb(222, 222, 222);
 	margin: 0 -1em;
 	padding: 0 1em;
-	text-align: right;
+	/*text-align: right;*/
 }
 
 .social-media a {
@@ -314,7 +314,7 @@ nav.nav-side h2 {
 		margin: 0 auto;
 	}
 	.content-main-detail {
-		width: calc(75% - 40px);
+		width: calc(70% - 1rem);
 		float: right;
 	}
 
@@ -349,7 +349,7 @@ nav.nav-side h2 {
 
 	nav.nav-side {
 		min-width: 100px;
-		width: 25%;
+		width: 30%;
 		float: left;
 		border-right: 1px solid rgba(0, 0, 0, 0.1);
 		margin-left: 0;
@@ -485,11 +485,11 @@ nav.nav-side h2 {
 		width: 20%;
 	}
 
-	nav.nav-side {
+	/*nav.nav-side {
 		min-width: 100px;
 		width: 20%;
 		float: left;
-	}
+	}*/
 }
 
 .content-main-detail h2 {
