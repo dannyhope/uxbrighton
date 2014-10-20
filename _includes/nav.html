@@ -10,19 +10,19 @@
 
 {% if has_upcoming %}
 	<!-- <h2 class="upcoming-events" id="upcoming-events">Upcoming events</h2> -->
-	<ul class="event-title-list">
+	<ul class="event-title-list" id="attach-filter-to-this-element">
 	{% for post in site.posts reversed %}
 		{% if post.upcoming == true %}	
 			{% if page.url == post.url %}
 				<li class="event-title-list-item current">
-					<a href="{{ site.url }}{{post.url}}">
+					<a href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 						<div class="post-title">{{ post.title }}</div>
 						<div class="post-date coming-soon"><span class="coming-soon">Coming soon &ndash; {{post.date | date: "%-d %b"}}</span></div>
 					</a>
 				</li>
 			{% else %}
 				<li class="event-title-list-item">
-					<a href="{{ site.url }}{{post.url}}">
+					<a href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 						<div class="post-title">{{ post.title }}</div>
 						<div class="post-date coming-soon"><span class="coming-soon">Coming soon &ndash; {{post.date | date: "%-d %b"}}</span></div>
 					</a>
@@ -41,14 +41,14 @@
 					{% if post.upcoming == null or post.upcoming == false %}
 						{% if page.url == post.url %}
 							<li class="event-title-list-item current">
-								<a href="{{ site.url }}{{post.url}}">
+								<a href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 									<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
 									<div class="post-date">{{post.date | date: "%-d %b"}}</div>
 								</a>
 							</li>
 						{% else %}
 							<li class="event-title-list-item">
-								<a href="{{ site.url }}{{post.url}}">
+								<a href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 									<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
 									<div class="post-date">{{post.date | date: "%-d %b"}}</div>
 								</a>
