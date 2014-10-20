@@ -152,6 +152,7 @@ a {
 
 .event-detail h1 {
 	font-family: "museo-slab",sans-serif;
+	color: rgb(199,10,60);
 }
 
 .event-detail .organisers-list {
