@@ -11,14 +11,15 @@
 
 **Duplicate one of the an event in [_posts](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_posts "") and make sure the front matter has all this stuff in it:**
 
-| Attribute		| Example value		| Note		|
+| Attribute		| Example value		| Note	|
 |----------		|----------		|------		|
+| layout:			| event-page |  |
 | title:			| UX, Human Factors & Ergonomics |  |
 | venue: | Hotel Du Vin | [pick one from the venue list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "") |
 | start: | 7pm |  |
 | ticket-link: | http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891 |  |
 | upcoming: | true |    **Alex, is this correct?** |
-| organnisers: | Alex | [pick from the organisers list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") |
+| organisers: | - Alex | N.B. Each person should be on their own line [pick from the organisers list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") |
 | calendar-url: | ????????? | **Alex, is this correct?** |
 | lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, is this correct?** |
 | lanyrd: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, this seems redundant, is it there for a reason?** |
