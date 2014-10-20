@@ -4,6 +4,8 @@ title: Design Games
 categories: [archive]
 conference: false 
 start: 6pm
+organisers: 
+- Danny
 ---
 
 ## Rob Phillips
