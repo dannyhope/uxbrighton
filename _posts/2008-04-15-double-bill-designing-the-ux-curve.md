@@ -5,6 +5,7 @@ venue: Lighthouse
 categories: [archive]
 conference: false
 start: 7pm
+ticket-link: http://uxbri.eventwax.com/ux-brighton
 ---
 
 ## Designing the User Experience Curve
