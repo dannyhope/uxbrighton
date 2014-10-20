@@ -5,7 +5,7 @@
 
 ---------------
 
-## Content
+## How to add content
 
 ### Add an upcoming event
 
