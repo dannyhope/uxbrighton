@@ -86,7 +86,7 @@ i.lsf-icon {
 
 body {
 	font-size: 14px;
-	padding: 0 1em;
+	/*padding: 0 1em;*/
 	line-height: 1.5;
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 300;
@@ -187,9 +187,10 @@ nav .post-date {
 	font-size: 0.8rem;
 }
 nav span.coming-soon {
-	background: rgb(253,159,68);
-	background: rgb(11,138,193);
-	background: rgb(0,138,255);
+	background: rgb(253,159,68); /*orange*/ 
+	background: rgb(11,138,193); /*blue*/
+	background: rgb(0,138,255); /*vivid blue*/
+	background: rgb(201,0,58);
 	padding: 0.1rem 0.3rem;
 	border-radius: 0.2rem;
 	/*text-transform: uppercase;*/
@@ -197,6 +198,7 @@ nav span.coming-soon {
 	font-weight: 400;
 	color: white;
 	letter-spacing: 0.02rem;
+	margin-top: 1rem;
 	/*margin-left: 0.1rem;*/
 	/*text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.4);*/
 }
@@ -215,14 +217,14 @@ nav span.stub {
 nav .qs_input {
 	margin-top: 0.9rem;
 	margin-bottom: 0.8rem;
-	margin-left: 0.5rem;
+	margin-left: 1rem;
 	border-radius: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	border-top: solid 1px rgba(0, 0, 0, 0.75);
 	padding: 0.2rem 0.6rem;
 	border-left: 1px solid rgba(0, 0, 0, 0.5);
 	border-right: 1px solid rgba(0, 0, 0, 0.5);
-	width: calc(100% - 2.5rem);
+	width: calc(100% - 3.5rem);
 	font-size: 0.9rem;
 }
 
@@ -257,7 +259,7 @@ nav.nav-side h2 {
 	line-height: 1;
 	display: inline-block;
 	word-wrap: none;
-	color: inherit;
+	color: rgba(0, 0, 0, 0.4);
 }
 
 .social-media a:hover {
@@ -308,7 +310,7 @@ nav.nav-side h2 {
 	}
 
 	.container {
-		max-width: 75em;
+		/*max-width: 75em;*/
 		margin: 0 auto;
 	}
 	.content-main-detail {
@@ -327,8 +329,9 @@ nav.nav-side h2 {
 	}
 
 	.site-header .site-title img {
-		width: calc(100% - 1.1rem);
-		margin: 0.5rem; }
+		width: calc(100% - 2rem);
+		margin: 0 1rem;
+	}
 
 	.intro-blurb {
 		width: calc(75% - 40px);
@@ -363,16 +366,13 @@ nav.nav-side h2 {
 		font-size: 0.9rem;
 		display: block;
 		border-top: 1px solid #ddd;
-		padding: 0.415em;
+		padding: 0.25rem 1em;
 	}
 	nav.nav-side ul li a:hover {
 		background: rgba(0,0,0,0.05);
 	}
 	nav.nav-side .current a {
 		background: white;
-	}
-	nav.nav-side ul li:last-child a {
-		border-bottom: 1px solid #ddd;
 	}
 	nav.nav-side .link-archive {
 		display: none;
@@ -444,9 +444,9 @@ nav.nav-side h2 {
 
 
 @media (min-width: 75rem) {
-	body {
+	/*body {
 		padding: 0 1em;
-	}
+	}*/
 
 	.organiser-blurb {
 		width: 26%;

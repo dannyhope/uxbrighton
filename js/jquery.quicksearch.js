@@ -114,7 +114,7 @@ jQuery(function($) {
 
         function make_form_input() {
             var val = (!is_empty(options.inputText)) ? options.inputText : ""
-            return '<input type="text" autofocus placeholder="Filter events" type="search" value="' + val + '" rel="' + options.randomElement + '" class="' + options.inputClass + '" id="' + options.randomElement + '" /> ';
+            return '<input type="text" autofocus placeholder="Filter event list" type="search" value="' + val + '" rel="' + options.randomElement + '" class="' + options.inputClass + '" id="' + options.randomElement + '" /> ';
         }
 
         function make_form_loader() {
