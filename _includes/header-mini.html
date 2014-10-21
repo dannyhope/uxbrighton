@@ -1,3 +1,5 @@
-<nav class="notice">
-	<a href="/ergonomics/">Looking for October’s <strong>ergonomics</strong> event?</a>
-</nav>
+{% if page.url != "/ergonomics" %}
+	<nav class="notice">
+		<a href="/ergonomics/">Looking for last week&#8217;s <strong>ergonomics</strong> event?</a>
+	</nav>
+{% endif %}
