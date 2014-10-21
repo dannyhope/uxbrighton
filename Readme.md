@@ -26,19 +26,19 @@
 
 ### After an event
 
-- mark it as past by adding this in the front matter- 
+#### Mark it as past
 
-|Attribute|Value|
-|----|--|
-|upcoming:|no|
+Set **upcoming:no** in the front matter
 
-- add videos
+#### Add videos
 
-      <>
+#### Add slide decks
 
-- add slides
-- add images
-- add tweets, blog posts, photos
+#### Add tweets (as quotes)
+
+#### Link to blog posts
+
+#### Add/link to photos
 
 ### Stubs
 
@@ -55,7 +55,7 @@ Conference pages appear at 2 URLs so their content is technically stored in [tem
 
 #### Edit the strip across the top of all pages
 
-This is done in [_includes](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/header-mini.html "")
+This is done in [_includes/header-mini.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/header-mini.html "")
 
 #### Edit this document
 
