@@ -38,6 +38,16 @@ Set **upcoming:no** in the front matter
 
 #### Link to blog posts
 
+Put followup links at the top of the page.
+
+##### Code
+
+    [Look at this example website](http://example.com "example url")
+
+##### Rendition
+
+[Look at this example website](http://example.com "example url")
+
 #### Add/link to photos
 
 ### Stubs
