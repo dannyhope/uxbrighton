@@ -240,7 +240,9 @@ nav.nav-side h2 {
 	margin: 1rem 0rem 0.5rem 0.5rem;
 	color: rgba(0, 0, 0, 0.5);
 }
-
+span#loader {
+	display: none !important;
+}
 /* @end */
 
 /*Social media*/
