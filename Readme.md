@@ -30,9 +30,9 @@
 
 Set **upcoming:no** in the front matter
 
-#### Add videos
+#### Add videos or slide decks
 
-#### Add slide decks
+    <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="http://www.slideshare.net/slideshow/embed_code/35707261" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 #### Add tweets (as quotes)
 
