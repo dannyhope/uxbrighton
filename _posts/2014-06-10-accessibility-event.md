@@ -12,6 +12,8 @@ upcoming: false
 homepage: false
 ---
 
+[Read a review of the event](http://www.noporkpies.com/blog/accessibility/reflections-uxbrighton-accessible-web/) by Kristian Banniser of No Pork Pies
+
 The UX Brighton event for June looked at an issue that we should all be considering when building websites and apps: accessibility.
  
 Online accessibility/inclusive design is about making sure that everyone has equal access to information on websites regardless of their physical or developmental abilities or disabilities. With an ageing population and a wide range of new devices to consider accessibility is an issue that is set to become increasingly important.
@@ -31,5 +33,3 @@ Henny will take a look at how BBC are turning accessibility - a bolt on develope
 [Download Joshua's slides](/assets/Joshua-Marshall.pdf)
 
 Joshua will start of by talking about some of the assistive technologies used currently. His talk will cover how testing fits in with the Government Digital Service product cycle and will give practical tips on how to begin testing with assistive technologies, as well as some of the common problems that you may encounter. This talk will also help you in creating your own test strategy.
-
-[Read a review of the event](http://www.noporkpies.com/blog/accessibility/reflections-uxbrighton-accessible-web/) by Kristian Banniser of No Pork Pies
