@@ -14,7 +14,7 @@ homepage: false
 
 The UX Brighton event for June looked at an issue that we should all be considering when building websites and apps: accessibility.
  
-Online accessibility/inclusive design is about making sure that everyone has equal access to information on websites regardless of their physical or developmental abilities or disabilities. With an aging population and a wide range of new devices to consider accessibility is an issue that is set to become increasingly important.
+Online accessibility/inclusive design is about making sure that everyone has equal access to information on websites regardless of their physical or developmental abilities or disabilities. With an ageing population and a wide range of new devices to consider accessibility is an issue that is set to become increasingly important.
 
 ## The business case for accessibility – [Mark Walker, Abilitynet](http://twitter.com/scipmark)
 
