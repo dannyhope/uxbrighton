@@ -7,6 +7,8 @@
 
 ## How to add content
 
+### [Have a look at the über spreadsheet for information that needs moving into the site](https://docs.google.com/spreadsheet/ccc?key=0AuJrhF0oRyeRcnVFTy0tbnotMzZ1MTNCYk5XaTVuZlE&usp=drive_web#gid=0 "lsit of events on Google Docs")
+
 ### Add an upcoming event
 
 **Duplicate one of the an event in [_posts](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_posts "") and make sure the front matter has all this stuff in it:**
@@ -31,6 +33,8 @@
 Set **upcoming:no** in the front matter
 
 #### Add videos or slide decks
+
+Paste this code into the page and replace the URL in the middle
 
     <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="http://www.slideshare.net/slideshow/embed_code/35707261" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
