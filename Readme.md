@@ -1,5 +1,6 @@
 ---
 ---
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/dannyhope/uxbrighton?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **Any changes you commit will be immediately visible on the site. Please [preview your changes first](http://0.0.0.0:4000/ "").**
 
