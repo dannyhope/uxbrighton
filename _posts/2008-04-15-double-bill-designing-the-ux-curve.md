@@ -18,6 +18,8 @@ They’ll be remembering every customer experience they have ever had, from the 
 
 Andy Budd will look at the seven key factors that go into designing the perfect customer experience. Using examples from the world around us, Andy will discuss how we can turn utilitarian experiences into something wonderful.
 
+[andybudd](http://twitter.com/andybudd "Andy on Twitter")
+
 ## Planning Discussion
 
 ### Led by Danny Hope & Jenni Lloyd
@@ -33,3 +35,5 @@ Since UX Brighton is a really new group, there will be an opportunity to discuss
 - Do we need to bother with sponsorship?
 - How to do stuff in conjunction with/alongside other organisations like use8
 - Anything else you want.
+
+[jennilloyd](https://twitter.com/jennilloyd "Jenni on Twitter"), [yandle](https://twitter.com/yandle "Danny on Twitter")
