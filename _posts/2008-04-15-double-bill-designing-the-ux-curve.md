@@ -12,6 +12,8 @@ ticket-link: http://uxbri.eventwax.com/ux-brighton
 
 ### Andy Budd
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/491406" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 These days people expect more from a website than a handy set of tools and a pretty interface — they want an experience. As soon as somebody starts using your site they’ll be judging you on everything, from the way the site looks to the tone of your error messages. And they won’t just be comparing you to other sites.
 
 They’ll be remembering every customer experience they have ever had, from the rude man at the train station, to the lovely hotel clerk that checked them in on honeymoon. In order to compete, we need to up our game and look at experiences both on and off-line.
