@@ -215,25 +215,26 @@ nav span.stub {
 	text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.4);
 }
 nav .qs_input {
-	margin-top: 0.9rem;
-	margin-bottom: 0.8rem;
+	margin-top: 0.8rem;
+	margin-bottom: 0.7rem;
 	margin-left: 1rem;
 	border-radius: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.25);
-	border-top: solid 1px rgba(0, 0, 0, 0.75);
+	border-top: solid 1px rgba(0, 0, 0, 0.4);
 	padding: 0.2rem 0.6rem;
-	border-left: 1px solid rgba(0, 0, 0, 0.5);
-	border-right: 1px solid rgba(0, 0, 0, 0.5);
+	border-left: 1px solid rgba(0, 0, 0, 0.25);
+	border-right: 1px solid rgba(0, 0, 0, 0.25);
 	width: calc(100% - 3.5rem);
-	font-size: 0.9rem;
+	font-size: 0.8rem;
+	font-weight: 500;
+	letter-spacing: 0.03rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-
-nav .qs_input:focus {
-	outline: none;
-	box-shadow: 0 0 4px 1px rgb(0, 138, 255);
-	border: 1px solid rgba(0, 0, 0, 0);
-}
-
+	nav .qs_input:focus {
+		outline: none;
+		box-shadow: 0 0 4px 1px rgb(0, 138, 255);
+		border: 1px solid rgba(0, 0, 0, 0);
+	}
 nav.nav-side h2 {
 	display: block;
 	font-size: 0.9rem;
@@ -509,26 +510,38 @@ span#loader {
 	background: white !important;
 	border: 1px solid hsl(0, 0%, 95%);
 	text-align: center;
-	padding-bottom: 2rem;
+	padding-bottom: 1.5rem;
+	padding-top: 2rem;
 }
-	.event-meta a {
+	section.event-meta p.deposits {
+		color: rgb(128, 128, 128);
+		font-weight: 500;
+		font-size: 0.8rem;
+		letter-spacing: 0.02rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin: 0 1rem;
+	}
+	section.event-meta div a {
+		text-decoration: underline;
+	}
+	.event-meta a.where,
+	.event-meta a.addthisevent-drop,
+	.event-meta a.ticket-button {
+		margin-bottom: 1.5rem;
 		vertical-align: middle !important;
-		margin-top: 2rem;
 		margin-right: 1rem;
 		display: inline-block;
 		font-size: 1rem;
 	}
-		.event-meta a:hover {
-			font-size: 1rem;
-		}
 	.event-meta a.where {			/*1*/
 		width: 17rem;
 	}
-		.event-meta .addthisevent-drop:after {
-			content: "▼";
-			font-size: 59%;
-			vertical-align: middle;
-		}
+	.event-meta .addthisevent-drop:after {
+		content: "▼";
+		font-size: 59%;
+		vertical-align: middle;
+	}
 	.event-meta a.ticket-button {	/*3*/
 		background: #0b8ac1;
 		padding: 0.6rem 2rem;
