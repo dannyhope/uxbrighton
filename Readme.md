@@ -55,7 +55,6 @@ Put followup links at the top of the page.
 
 #### Add/link to photos
 
-[<img src="http://www.noporkpies.com/blog/wp-content/uploads/2014/09/UXCC2.png" style="width: 95%">](http://www.noporkpies.com/blog/wp-content/uploads/2014/09/UXCC2.png "")
 
 ### Stubs
 
