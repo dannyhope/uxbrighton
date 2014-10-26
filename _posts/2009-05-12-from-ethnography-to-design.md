@@ -5,6 +5,8 @@ categories: [archive]
 upcoming: no
 ---
 
+[Tom Hume live blogged the event](http://tomhume.typepad.com/tomhume/2009/05/ux-brighton-ethnography.html "")
+
 If you are interested in using ethnography to improve design, this
 event is definitely for you.
 
