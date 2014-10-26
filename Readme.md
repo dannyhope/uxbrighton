@@ -58,8 +58,8 @@ Put followup links at the top of the page.
 
 ### Stubs
 
-- **Past** events we don't have much info about: put this in the front matter: noinfo: true
-- **Future** event ideas not ready to go live: put this in the front matter: stub: true
+- **Past** events lacking content: put this in the front matter: **noinfo: true**
+- **Future** events not ready to go live: put this in the front matter: **stub: true**
 
 ### Add a person or venue
 
