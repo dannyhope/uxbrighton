@@ -4,6 +4,9 @@ title: Double Bill Designing the UX Curve & Planning Discussion
 venue: Lighthouse
 categories: [archive]
 conference: false
+organisers: 
+- Danny
+- Jenni
 start: 7pm
 ticket-link: http://uxbri.eventwax.com/ux-brighton
 ---
