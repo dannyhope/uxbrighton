@@ -120,8 +120,17 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	border-top: 1px solid rgb(222, 222, 222);
+}
+
+.site-header {
+	position: relative;
+	padding: 0 2em;
+}
+
 .site-header .site-title {
-	margin: 0.5em 0;
+	margin: 0.5em 0 0;
 	padding: 0;
 	display: inline-block;
 }
@@ -129,6 +138,11 @@ a {
 .site-header .site-title img {
 	border: 0;
 	display: block;
+	width: 160px;
+}
+
+.event-detail {
+	padding: 0 2em;
 }
 
 .event-archive {
@@ -249,15 +263,15 @@ span#loader {
 /*Social media*/
 
 .social-media {
-	border-bottom: 1px solid rgb(222, 222, 222);
-	margin: 0 -1em;
 	padding: 0 1em;
-	/*text-align: right;*/
+	position: absolute;
+	top: 0.4em;
+	right: 1em;
 }
 
 .social-media a {
 	text-decoration: none;
-	padding: 0.75em 0 0.75em 0.5em;
+	margin: 0 0 0 0.25em;
 	font-size: 2rem;
 	line-height: 1;
 	display: inline-block;
@@ -323,18 +337,25 @@ span#loader {
 
 	.site-header {
 		overflow: hidden;
+		padding: 0 1em;
 	}
 
 	.site-header .site-title {
-		width: 25%;
-		display: block;
-		float: left;
+		display: inline-block;
 	}
 
 	.site-header .site-title img {
-		width: calc(100% - 2rem);
-		margin: 0 1rem;
+		width: auto;
 	}
+
+	.social-media {
+		top: 1em;
+		position: static;
+		margin: 1.5em 0 0;
+		position: static;
+		display: inline-block;
+		vertical-align: top;
+	}	
 
 	.intro-blurb {
 		width: calc(75% - 40px);
