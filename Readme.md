@@ -8,7 +8,7 @@
 
 ## How to add content
 
-### [Have a look at the über spreadsheet for information that needs moving into the site](https://docs.google.com/spreadsheet/ccc?key=0AuJrhF0oRyeRcnVFTy0tbnotMzZ1MTNCYk5XaTVuZlE&usp=drive_web#gid=0 "lsit of events on Google Docs")
+### Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuJrhF0oRyeRcnVFTy0tbnotMzZ1MTNCYk5XaTVuZlE&usp=drive_web#gid=0 "list of events on Google Docs")
 
 ### Add an upcoming event
 
