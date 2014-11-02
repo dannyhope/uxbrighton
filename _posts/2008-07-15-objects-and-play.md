@@ -6,13 +6,12 @@ conference: false
 ticket-link: http://web.archive.org/web/20130425100129/http://upcoming.yahoo.com/event/863184/BRI/Hove/UX-Brighton-Objects-and-Play/The-Werks
 start: 6:45pm
 venue: The Werks
+ticket-link: http://web.archive.org/web/20130421092305/upcoming.yahoo.com/event/863184/BRI/Hove/UX-Brighton-Objects-and-Play/The-Werks
 ---
 
 ## Thomas Forsyth
 
 ### A serious talk about the importance of being playful
-
-#### How can it help you?
 
 Find out how being playful can help you develop creative products, companies and relationships whoever you are online, or offline. 
 
@@ -32,6 +31,8 @@ Toms work explores the gap between spontaneous/creative and rule-bound forms of 
 — [Tom Robbins](https://en.wikipedia.org/wiki/Tom_Robbins "Tom Robbins on Wikipedia")
 
 Thomas Forsyth is a designer and artist based in Brighton. He is currently graduating from Brighton University where he studied a BA(Hons) in Wood, Metal, Ceramics and Plastics. Always having taken a great interest in the way people perceive and interact with objects, his recent work explores and challenges rules within play.
+
+## Some of Thomas&#8217; work
 
 [![](https://farm4.staticflickr.com/3223/2671067304_04def6c400_o_d.jpg "")](https://www.flickr.com/photos/yandle/2671067304/in/set-72157606180891525 "")
 [![](https://farm4.staticflickr.com/3250/2670245687_0163fe02fe_o_d.jpg "")](https://www.flickr.com/photos/yandle/2670245687/in/set-72157606180891525 "")
