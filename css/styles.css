@@ -182,7 +182,7 @@ nav.nav-side .event-title-list, nav.nav-side h2 {
 }
 
 nav.nav-side .link-archive {
-	background-color: rgb(201, 0, 58);
+	padding: 0.6rem 2rem;
 	color: rgb(255, 255, 255);
 	display: block;
 	padding: 1em;
@@ -192,7 +192,16 @@ nav.nav-side .link-archive {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 0.2rem;
+	border-radius: 0.6rem;
+	background: #0b8ac1;
+	background: -moz-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+	background: -webkit-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+	background: -o-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+	background: -ms-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+	background: linear-gradient(0deg, #0877A7 30%, #0b8ac1 70%);
+	-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);	
 }
 nav .post-date {
 	font-weight: 500;
@@ -206,7 +215,7 @@ nav span.coming-soon {
 	background: rgb(201,0,58); /*red*/
 	background: rgb(253,159,68); /*orange*/ 
 	padding: 0.1rem 0.3rem;
-	border-radius: 0.2rem;
+	border-radius: 0.6rem;
 	/*text-transform: uppercase;*/
 	/*font-size: 0.8em;*/
 	font-weight: 400;
@@ -219,7 +228,7 @@ nav span.coming-soon {
 nav span.stub {
 	background: rgba(0, 0, 0, 0.12);
 	padding: 0.1rem 0.3rem;
-	border-radius: 0.2rem;
+	border-radius: 0.6rem;
 	text-transform: uppercase;
 	font-size: 0.8em;
 	font-weight: 400;
@@ -565,10 +574,18 @@ span#loader {
 	}
 	.event-meta a.ticket-button {	/*3*/
 		background: #0b8ac1;
+		background: -moz-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+		background: -webkit-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+		background: -o-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+		background: -ms-linear-gradient(90deg, #0877A7 30%, #0b8ac1 70%);
+		background: linear-gradient(0deg, #0877A7 30%, #0b8ac1 70%);
+		-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);	
 		padding: 0.6rem 2rem;
 		text-decoration: none;
 		color: white;
-		border-radius: 0.2rem;
+		border-radius: 0.6rem;
 	}
 
 /* @end */
