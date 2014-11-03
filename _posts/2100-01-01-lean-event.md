@@ -1,6 +1,5 @@
 ---
 layout: event-page
-categories: [archive]
 title: The Lean Event
 start: 
 venue: 

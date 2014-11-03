@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Designing for Persuasion, International Research, and Eye Tracking!
-categories: [archive]
 conference: false
 ---
 

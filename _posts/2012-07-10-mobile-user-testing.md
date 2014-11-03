@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Mobile User Testing
-categories: [archive]
 conference: false
 venue: Fabrica
 organisers: 

@@ -1,6 +1,5 @@
 ---
 layout: event-page
-categories: [archive]
 title: UX Oktoberfest
 start: 7pm
 venue: Fabrica

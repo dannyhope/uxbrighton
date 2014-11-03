@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Summer Special 2013
-categories: [archive]
 conference: false
 venue: Fabrica
 start: 6:30pm

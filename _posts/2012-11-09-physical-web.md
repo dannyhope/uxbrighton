@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: The Physical Web
-categories: [archive]
 conference: false
 venue: Fabrica
 organisers: 

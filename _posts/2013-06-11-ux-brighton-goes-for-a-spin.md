@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: UX Brighton goes for a spin
-categories: [archive]
 venue: Lighthouse
 organisers: 
 - Tom 

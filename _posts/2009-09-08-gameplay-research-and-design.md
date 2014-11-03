@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Gameplay research and design
-categories: [archive]
 conference: false
 noinfo: true
 ---

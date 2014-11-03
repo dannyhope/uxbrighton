@@ -1,6 +1,5 @@
 ---
 layout: event-page
-categories: [archive]
 title: UX Strategy
 start: 7pm
 venue: Hotel du Vin

@@ -81,7 +81,6 @@ This is done in [_includes/header-mini.html](https://github.com/dannyhope/uxbrig
 
 ## Undocumented front matter
 
-- categories: [archive] **?**
 - conference: false **?**
 - conference: true **?**
 - homepage: false **?**

@@ -1,6 +1,5 @@
 ---
 layout: event-page
-categories: [archive]
 title: Shopping
 start: 
 venue: 

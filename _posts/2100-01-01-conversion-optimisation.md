@@ -1,6 +1,5 @@
 ---
 layout: event-page
-categories: [archive]
 title: Conversion Optimisation
 start: 
 venue: 

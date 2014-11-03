@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: A Journey from Ethnography to Design
-categories: [archive]
 upcoming: no
 ---
 

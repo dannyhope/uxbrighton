@@ -1,6 +1,5 @@
 ---
 layout: event-page
-category: [archive]
 title: SuperGoogleAnalyticsExpialidocious
 start: 7pm
 venue: iCrossing

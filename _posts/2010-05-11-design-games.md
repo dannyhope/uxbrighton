@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Design Games
-categories: [archive]
 conference: false 
 start: 6pm
 organisers: 

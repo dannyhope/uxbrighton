@@ -1,6 +1,5 @@
 ---
 layout: event-page
-category: [archive]
 title: UX, Human Factors & Ergonomics
 start: 7pm
 venue: Hotel Du Vin

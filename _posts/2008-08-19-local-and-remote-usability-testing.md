@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Local &amp; Remote Usability Testing
-categories: [archive]
 conference: false
 venue: Regency Town House
 start:	7pm

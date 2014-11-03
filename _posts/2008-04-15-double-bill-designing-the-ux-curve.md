@@ -2,7 +2,6 @@
 layout: event-page
 title: Double Bill Designing the UX Curve & Planning Discussion
 venue: Lighthouse
-categories: [archive]
 conference: false
 organisers: 
 - Danny

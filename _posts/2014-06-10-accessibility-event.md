@@ -1,6 +1,5 @@
 ---
 layout: event-page
-category: [archive]
 title: The Accessible Web
 start: 7pm
 venue: Fabrica

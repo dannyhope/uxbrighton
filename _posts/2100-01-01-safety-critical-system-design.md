@@ -1,6 +1,5 @@
 ---
 layout: event-page
-categories: [archive]
 title: Safety critical system design
 start: 
 venue: 
