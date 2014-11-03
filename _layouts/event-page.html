@@ -48,18 +48,28 @@ layout: default
 			
 		{{ content }}
 
-		{% if page.conference == null %}
-			<aside class="event-detail_meta">
-			{% include organisers.html %}			 
-			</aside>	
+		<aside class="event-detail_meta">
+		{% include organisers.html %}			 
+		</aside>	
 
-			<aside class="contribute-content">
-				<p><strong>Help us make this site better</strong>: <a href="mailto:feedback@uxbrighton.org.uk">Email us about missing content</a> or <a href="https://github.com/dannyhope/uxbrighton/issues/new">Submit a bug via Github</a></p>
-				<!-- <p><a href="https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts">edit this page</a></p>/ -->
-			</aside>
-		{% endif %}		
+
+		<!-- Pagination links -->
+		<nav class="pagination">
+		  {% if page.previous.url %} 
+		    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
+		  {% endif %} 
+		  {% if page.next.url %} 
+		    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
+		  {% endif %} 
+		</nav>
+
+		<aside class="contribute-content">
+			<p><strong>Help us make this site better</strong>: <a href="mailto:feedback@uxbrighton.org.uk">Email us about missing content</a> or <a href="https://github.com/dannyhope/uxbrighton/issues/new">Submit a bug via Github</a></p>
+			<!-- <p><a href="https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts">edit this page</a></p>/ -->
+		</aside>
 
 		</div>					
+
 	</section>	
 </main>
 {% include nav.html %} 

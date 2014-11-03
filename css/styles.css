@@ -572,3 +572,20 @@ span#loader {
 	}
 
 /* @end */
+
+/* @group Pagination */
+
+.pagination {
+	padding: 2em 0 0.5em 0;
+}
+
+.pagination a {
+	display: inline-block;
+	width: 49%;
+}
+
+.pagination a:last-child {
+	text-align: right;
+}
+
+/* @end */
