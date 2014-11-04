@@ -43,7 +43,17 @@ layout: default
 			</article>
 			{% endif %} -->
 		{% else %}	
-			This event took place on the {{page.date | date: "%d %B, %Y"}} {% if page.venue%} at {{page.venue}} {% endif %}
+			This event took place on the 
+			{% capture pageyear %}{{page..date | date: "%Y"}}{% endcapture %}
+			{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
+			
+			{% if pageyear >= currentyear %}						
+				{{ page..date | date: "%-d %B" }}
+				{% else %}
+				{{ page..date | date: "%-d %B %Y" }}
+	 		{% endif %}			
+
+		{% if page.venue%} at {{page.venue}} {% endif %}
 		{% endif %}	
 			
 		{{ content }}

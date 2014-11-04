@@ -25,14 +25,27 @@
 	
 	<ul class="event-title-list">
 		{% for post in site.posts %}
+
+			
 			{% if post.stub == null %}	
 				{% if post.upcoming == null or post.upcoming == false %}
+
 					<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}">
 						<a href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 							<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
-							<div class="post-date">{{post.date | date: "%-d %b"}}</div>
+							<div class="post-date">
+							{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
+							{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
+							
+							{% if postyear >= currentyear %}						
+								{{ post.date | date: "%-d %B" }}
+ 							{% else %}
+								{{ post.date | date: "%-d %B %Y" }}
+					 		{% endif %}
+							</div>
 						</a>
 					</li>
+
 				{% endif %}
 			{% endif %}
 	  {% endfor %}
