@@ -6,7 +6,6 @@ venue:
 organisers: 
 - Jay
 lanyrd-url: 
-calendar-url: #
 upcoming: 
 stub: yes
 ---

@@ -6,7 +6,6 @@ venue: iCrossing
 organisers: 
 - Danny
 lanyrd-url: 
-calendar-url: #
 upcoming: false
 homepage: false
 ticket-link: 

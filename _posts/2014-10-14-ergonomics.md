@@ -6,7 +6,6 @@ venue: Hotel Du Vin
 organisers: 
 - Tim
 lanyrd-url: 
-calendar-url: #
 upcoming: false
 homepage: true
 ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891

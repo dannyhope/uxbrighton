@@ -4,7 +4,7 @@ title: UX Brighton goes for a spin
 venue: Lighthouse
 organisers: 
 - Tom 
-lanyrd: http://lanyrd.com/2013/uxbrighton-june/
+lanyrd-url: http://lanyrd.com/2013/uxbrighton-june/
 start: 6:30pm
 
 ---

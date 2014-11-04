@@ -6,7 +6,6 @@ venue: Fabrica
 organisers: 
 - Luke
 lanyrd-url: http://lanyrd.com/2014/uxbriaccessibility/
-calendar-url: #
 upcoming: false
 homepage: false
 ---

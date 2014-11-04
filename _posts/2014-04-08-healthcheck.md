@@ -6,7 +6,6 @@ venue: Lighthouse
 organisers: 
 - Alex
 lanyrd-url: http://lanyrd.com/2014/uxbrihealth/
-calendar-url: #
 upcoming: false
 ---
 

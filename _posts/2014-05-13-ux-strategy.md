@@ -6,7 +6,6 @@ venue: Hotel du Vin
 organisers: 
 - Patrick
 lanyrd-url: http://lanyrd.com/2014/uxbristrategy/
-calendar-url: #
 upcoming: false
 homepage: false
 ---

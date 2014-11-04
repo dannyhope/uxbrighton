@@ -6,7 +6,7 @@ venue: Fabrica
 start: 6:30pm
 organisers: 
 - Alex
-lanyrd:
+lanyrd-url: http://lanyrd.com/2013/ux-brighton-summer-special/
 ---
 UX Brighton is back! Join us on the 13th of August at the beautiful Fabrica Gallery for an evening with some truly inspiring speakers.
 

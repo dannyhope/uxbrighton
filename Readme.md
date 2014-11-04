@@ -24,8 +24,8 @@
 | upcoming: | true |    **Alex, is this correct?** |
 | organisers: | - Alex | N.B. Each person should be on their own line [pick from the organisers list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") |
 | calendar-url: | ????????? | **Alex, is this correct?** |
-| lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, is this correct?** |
-| lanyrd: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ | **Alex, this seems redundant, is it there for a reason?** |
+| lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ |  |
+
 
 ### After an event
 
