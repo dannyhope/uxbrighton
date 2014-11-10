@@ -209,7 +209,7 @@ Many thanks to those companies and individuals who have sponsored and
 supported UX Brighton 2014. Tesco [3], Badoo [4], Firefly [5], Balsamiq
 [6], Github [7], University of Brighton [8], the Interaction Design
 Foundation [9], Clearleft, Brighton Farm, NLD Accountancy, Matchbox
-Mobile, JS Bin and Danny Hope Ltd.
+Mobile, Officrech, JS Bin and Danny Hope Ltd.
 </p>
     </li>
   </ul>
@@ -288,6 +288,8 @@ Danny, Emmeline & the UX Brighton team
   "http://nldaccountancy.com" target="_blank">http://nldaccountancy.com</a>,
 <a href=
   "http://matchboxmobile.com/" target="_blank">http:matchboxmobile.com</a>,
+<a href=
+  "http://officreche.com/" target="_blank">http:officreche.com</a>, 
 <a href=
   "http://jsbin.com" target="_blank">http://http://jsbin.com</a>,
 <a href=
