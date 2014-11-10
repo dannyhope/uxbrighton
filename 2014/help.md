@@ -50,7 +50,7 @@ Carry on the conversation by heading over to [Latest Music Bar](http://thelatest
 
 Pizzas will be available to order in.
 
-Thanks to our lovely micro sponsors who are generosly providing the drink tokens.
+Thanks to our lovely micro sponsors who are generously providing the drink tokens.
 
 ## Sponsors & Supporters
 
