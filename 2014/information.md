@@ -3,7 +3,7 @@ Hi everyone,
 </p>
 
 <p>
-Only a week to go! Please take the time to read the information below so
+Not long now! Please take the time to read the information below so
 you know what to expect on the day - don't miss the bit about the after
 party (it's near the bottom):
 </p>
