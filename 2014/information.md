@@ -289,7 +289,7 @@ Danny, Emmeline & the UX Brighton team
 <a href=
   "http://matchboxmobile.com/" target="_blank">http:matchboxmobile.com</a>,
 <a href=
-  "http://http//jsbin.com" target="_blank">http://http://jsbin.com</a>,
+  "http://jsbin.com" target="_blank">http://http://jsbin.com</a>,
 <a href=
   "http://dannyhope.co.uk" target="_blank">http://dannyhope.co.uk</a>
 </p>
