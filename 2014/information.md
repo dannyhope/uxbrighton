@@ -1,299 +1,68 @@
-<p>
-Hi everyone,
-</p>
+Please take the time to read the information below so you know what to expect on the day - don't miss the bit about the after party (it's near the bottom).
 
-<p>
-Not long now! Please take the time to read the information below so
-you know what to expect on the day - don't miss the bit about the after
-party (it's near the bottom):
-</p>
+## Hotels
 
-<p>
-Accommodation:
-</p>
-
-<ul>
-    <li>
-      <p>
 There are plenty of hotels and B&Bs to stay in Brighton, some
-recommended ones include
-<a href="http://www.granvillehotel.co.uk/" target="_blank">The Granville
-Hotel</a>, <a href=
-      "http://www.myhotels.com/my-hotel-brighton/index.html?gclid=CPmL7vey6MECFcrKtAodAXAApw"
-      target="_blank">MyHotel</a> and
-<a href="http://www.jurysinns.com/hotels/brighton/"
-      target="_blank">Jurys Inn</a>. A good site to check availability
-is <a href=
-      "http://www.hotels.com/" target="_blank">hotels.com</a>.
-</p>
-    </li>
-  </ul>
+recommended ones include [The Granville Hotel](http://www.granvillehotel.co.uk/ ""), [MyHotel](http://www.myhotels.com/my-hotel-brighton/index.html?gclid=CPmL7vey6MECFcrKtAodAXAApw "") and [Jurys Inn](http://www.jurysinns.com/hotels/brighton/ ""). A good site to check availability
+is [hotels.com](http://www.hotels.com/ "")
 
-<p>
-Transport/Parking:
-</p>
+## Getting here
 
-<ul>
-    <li>
-      <p>
-Brighton is well served with public transport and parking is expensive,
-so if you can avoid driving please consider travelling by train or bus.
-There is no parking available at the venue; the nearest NCP is on Church
-Street, details are here
-<a href="http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/"
-      target=
-      "_blank">http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/</a>
-including a pre-booking option.
-</p>
-    </li>
-  </ul>
+Brighton is well served with public transport and parking is expensive, so getting a train or bus can be preferable to driving.
 
-<p>
-Registration:
-</p>
+- [**Walking** directions from Brighton station (Google Maps)](http://goo.gl/vb4RJi "")
+- **Parking** is available at the NCP on Church Street. You can book spaces on [ncp.co.uk](http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/ "")
 
-<ul>
-    <li>
-      <p>
-Doors will open at 9am for registration
-</p>
-    </li>
+**Come to [the entrance on Church Street](http://brightondome.org/your_visit/ "")**
 
-    <li>
-      <p>Use the Dome entrance <a href="http://brightondome.org/your_visit/" target=
-      "_blank">http://brightondome.org/your_visit/</a> on Church Street. It's approx 9
-      mins walk [1] from the train station.</p>
-    </li>
+## Registration
 
-    <li>
-      <p>Please be seated by 10am so you don't miss anything.</p>
-    </li>
+- Doors will open at 9am for registration (and issuing of drinks tokens for the afterparty)
+- Please be seated by 9:50am so you don't miss anything
+- We have added more flat seating this year as we are aware that the bleacher seats don't have a lot of leg room
 
-    <li>
-      <p>We have added more flat seating this year as we are aware that the bleacher
-      seats don't have a lot of leg room.</p>
-    </li>
+## Food & drink
 
-</ul>
+- Free coffee, tea and water will be available during the day in the Foyer café
+- Drinks can be brought through to the auditorium
+- There will be 3 breaks during the day
+- Lunch is not included, however there are several places to eat close to the venue eg [Al Duomo](http://alduomo.co.uk/), [All Bar One](http://www.allbarone.co.uk/all-bar-one-brighton/food/), [Bellota Bar Y Tapas](http://www.bellotabrighton.co.uk/), [The Chilli Pickle](http://thechillipickle.com/restaurant/), [Donatello](http://www.donatello.co.uk/), [Food for Friends](http://www.foodforfriends.com/) (v) [Gourmet Burger Kitchen](http://www.gbk.co.uk/location/brighton), [Pinnocchio](http://www.pinocchio.co.uk/), [Pizza Express](http://www.pizzaexpress.com/visit-a-restaurant/restaurant/brighton-jubilee-street/) and many, many more.
 
-<p>
-Refreshments:
-</p>
+## Cloakroom
 
-<ul>
-    <li>
-      <p>
-Complimentary coffee, tea and water will be available during the day in
-the Foyer cafe which we have exclusive use of.
-</p>
-    </li>
+There'll be a place to leave your coat etc (although we'd suggest you don't leave valuables as we're not insured for that type of thing)
 
-    <li>
-      <p>Drinks can be brought through to the auditorium.</p>
-    </li>
+## Wifi
 
-    <li>
-      <p>There will be 3 breaks during the day.</p>
-    </li>
+The "UX Brighton" hotspot requires no password
 
-    <li>
-      <p>Lunch is not included, however there are several places to eat close to the
-      venue eg <a href="http://alduomo.co.uk/" target="_blank">Al Duomo</a>, <a href=
-      "http://www.allbarone.co.uk/all-bar-one-brighton/food/" target="_blank">All Bar
-      One</a>, <a href="http://www.bellotabrighton.co.uk/" target="_blank">Bellota Bar Y
-      Tapas</a>, <a href="http://thechillipickle.com/restaurant/" target="_blank">The
-      Chilli Pickle</a>, <a href="http://www.donatello.co.uk/" target=
-      "_blank">Donatello</a>, <a href="http://www.foodforfriends.com/" target=
-      "_blank">Food for Friends</a> (vegetarian) <a href=
-      "http://www.gbk.co.uk/location/brighton" target="_blank">Gourmet Burger
-      Kitchen</a>, <a href="http://www.pinocchio.co.uk/" target="_blank">Pinnocchio</a>,
-      <a href=
-      "http://www.pizzaexpress.com/visit-a-restaurant/restaurant/brighton-jubilee-street/"
-      target="_blank">Pizza Express</a> and many, many more.</p>
-    </li>
+## Photos & video
 
-</ul>
+We have an official photographer and film crew at the event but you are welcome to take your own pictures and videos **with one exception: Due to the sensitive nature of his work, we are not allowed to photograph or film Martin Langham**. We'll remind you of this on the day.
 
-<p>
-Cloakroom:
-</p>
+## After☆party
 
-<ul>
-    <li>
-      <p>
-There'll be a place to leave your coat etc (although we'd suggest you
-don't leave your laptop or any valuables as we're not insured).
-</p>
-    </li>
+Carry on the conversation by heading over to [Latest Music Bar](http://thelatest.co.uk/musicbar/brighton-party-wedding-venue) from 6pm-late. ([map](http://goo.gl/hrIsjo ""))
 
-    <li>
-      <p>One of our volunteers will keep an eye on things throughout the day.</p>
-    </li>
+Pizzas will be available to order in.
 
-</ul>
+Thanks to our lovely micro sponsors who are generosly providing the drink tokens.
 
-<p>
-Wifi:
-</p>
+## Sponsors & Supporters
 
-<ul>
-    <li>
-      <p>
-There will be wifi at the venue so feel free to tweet, blog, make notes
-during the day.
-</p>
-    </li>
-
-    <li>
-      <p>Name: UX Brighton, no password required</p>
-    </li>
-
-</ul>
-
-<p>
-Photography/Filming:
-</p>
-
-<ul>
-    <li>
-      <p>
-We have an official photographer and film crew at the event but you are
-welcome to take your own pictures and videos.
-</p>
-    </li>
-
-    <li>
-      <p>*** WITH ONE EXCEPTION *** Due to the sensitive nature of his work, we are not
-      allowed to photograph or film Martin Langham. We'll remind you of this on the
-      day.</p>
-    </li>
-
-</ul>
-
-<p>
-After Party:
-</p>
-
-<ul>
-    <li>
-      <p>
-Yay!! Carry on the conversation by heading off to <a href=
-      "http://thelatest.co.uk/musicbar/brighton-party-wedding-venue" target=
-      "_blank">Latest Music Bar</a> from 6pm-2am.
-</p>
-    </li>
-
-    <li>
-      <p>Say thanks to our lovely micro sponsors [10] whose generosity means you get a
-      free drink (tokens will be handed out at registration).</p>
-    </li>
-
-    <li>
-      <p>It's a 7 minute walk [2] away from the Corn Exchange.</p>
-    </li>
-
-    <li>
-      <p>Pizzas will be available to order in.</p>
-    </li>
-
-</ul>
-
-<p>
-Sponsors & Supporters:
-</p>
-
-<ul>
-    <li>
-      <p>
 Many thanks to those companies and individuals who have sponsored and
-supported UX Brighton 2014. Tesco [3], Badoo [4], Firefly [5], Balsamiq
-[6], Github [7], University of Brighton [8], the Interaction Design
-Foundation [9], Clearleft, Brighton Farm, NLD Accountancy, Matchbox
-Mobile, Officreche, JS Bin and Danny Hope Ltd.
-</p>
-    </li>
-  </ul>
+supported UX Brighton 2014
 
-<p>
-Reminder about tickets:
-</p>
+[Tesco](http://tesco.com ""), [Badoo](http://badoo.com ""), [Firefly](http://fireflylearning.com ""), [Balsamiq](http://balsamiq.com ""), [Github](http://github.com ""), [University of Brighton](http://brighton.ac.uk ""), [the Interaction Design Foundation](http://www.interaction-design.org/ "").
 
-<ul>
-    <li>
-      <p>
-We are unable to issue refunds or transfers. Of course you're welcome to
-sell or give away your ticket - just tell the person to give the
-original name on the ticket, as that will be on the name badge and
-delegate list.
-</p>
-    </li>
-  </ul>
+**Afterparty microsponsors**: [Clearleft](http://clearleft.com),
+[Brighton Farm](http://brightonfarm.com),
+[NLD Accountancy](http://nldaccountancy.com),
+[Matchbox Mobile](http://matchboxmobile.com/),
+[Officreche](http://officreche.com/), 
+[JS Bin](http://jsbin.com),
+[Danny Hope](http://dannyhope.co.uk)
 
-<p>
-Thanks for reading, we look forward to seeing you on the 14th for a
-great day of practical philosophy for UX :)
-</p>
+## Reminder about tickets
 
-<p>
-Danny, Emmeline & the UX Brighton team
-</p>
-
-<p>
-[1] <a href="http://goo.gl/vb4RJi" target="_blank">goo.gl/vb4RJi</a>
-(directions from station to Dome)
-</p>
-
-<p>
-[2] <a href="http://goo.gl/hrIsjo" target="_blank">goo.gl/hrIsjo</a>
-(directions from Dome to Latest Music Bar)
-</p>
-
-<p>
-[3] <a href="http://tesco.com" target="_blank">http://tesco.com</a>
-</p>
-
-<p>
-[4] <a href="http://badoo.com" target="_blank">http://badoo.com</a>
-</p>
-
-<p>
-[5] <a href="http://fireflylearning.com" target=
-  "_blank">http://fireflylearning.com</a>
-</p>
-
-<p>
-[6]
-<a href="http://balsamiq.com" target="_blank">http://balsamiq.com</a>
-</p>
-
-<p>
-[7] <a href="http://github.com" target="_blank">http://github.com</a>
-</p>
-
-<p>
-[8]
-<a href="http://brighton.ac.uk" target="_blank">http://brighton.ac.uk</a>
-</p>
-
-<p>
-[9] <a href="http://www.interaction-design.org/" target=
-  "_blank">http://www.interaction-design.org/</a>
-</p>
-
-<p>
-[10]
-<a href="http://clearleft.com" target="_blank">http://clearleft.com</a>,
-<a href="http://brightonfarm.com" target="_blank">http://brightonfarm.com</a>,
-<a href=
-  "http://nldaccountancy.com" target="_blank">http://nldaccountancy.com</a>,
-<a href=
-  "http://matchboxmobile.com/" target="_blank">http:matchboxmobile.com</a>,
-<a href=
-  "http://officreche.com/" target="_blank">http:officreche.com</a>, 
-<a href=
-  "http://jsbin.com" target="_blank">http://http://jsbin.com</a>,
-<a href=
-  "http://dannyhope.co.uk" target="_blank">http://dannyhope.co.uk</a>
-</p>
-
-
+We are unable to issue refunds or transfers. You're welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list.
