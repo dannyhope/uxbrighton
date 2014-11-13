@@ -12,7 +12,7 @@ working with a bunch of interesting startups
 
 Founder UX Brighton
 
-**Thank you all for coming today**
+Thank’s for coming
 
 5th conference - stand if you were here last year
 - Stay standing if you were at UX Brighton 2012?
@@ -36,8 +36,6 @@ sensitive nature as youll hear
 
 --"Why philosophy?" pointless by definition – you’re here!
 
-we’ll put slides and video on the conference site and email you
-
 # Marianne Talbot
 
 Director Of Studies in Philosophy
@@ -56,19 +54,27 @@ So please *welcome to the stage* **Marianne Talbot**
 
 ## Andy
 
-Design now influences business decesions
+mix of classical ideas
 
-some ideas about how design relates to business 
+and modern design thinking
+
+help businesses thrive in increasingly complex situations
 
 Please *give him a big round of applause*; **Andy Dennis**
 
 ## Tesco
 
+work in projects where the outcome touches millions of people
+
+alpha sponsor Tesco
+
 Rob Graham
 
-## --Morning break--
+## Morning break-break-break-break-break
 
-Be back by noon
+we’ll put slides and video on the conference site and email you
+
+back by noon
 
 ## Sjors
 
@@ -76,9 +82,9 @@ Please *give him a warm welcome*; **Sjors Timmer**
 
 ## Ben
 
-Please *give him a warm welcome*; **Sjors Timmer**
+Please *welcome to the stage*; **Sjors Timmer**
 
-## --Lunch--
+## Lunch-Lunch-Lunch-Lunch-Lunch-Lunch
 
 **Where to eat lunch**
 Pompoko
@@ -94,43 +100,60 @@ Horror a developer!
 All the way from Oregon *give it up for*; **David Helman**
 
 ## Martin Langham
-Martin’s company is doing some of the most interesting work of any UX company I know and they’re based right under our noses in the so called innovation centre.
 
-## --Afternoon break--
-Be back by 16:20
-Be back by 16:30 if there’s an overrun
+Martin’s agency doing the most interesting work of any I know
+
+don’t take photos
+
+## Afternoon break-break-break-breakbreak-
+
+back by 16:20
 
 ## Anna Cox
 
-Throughout today 1 or 2 of our speakers have touched on the need to balance sceince. With these last 2 talks, we’ll try and expand on this matter.
+--speakers touched on the need to balance sceince. With these last 2 talks, we’ll try and expand on this matter.
+
+science isn’t necessarilty the answer to everything
+
+when we use scientific methods are we really using the scientific method
+
+I’m a scientist at heart
 
 First up is Anna Cox
 
 Anna is ___________ at ____________
 
-
-
 ## Andy Clarke
 
-## --Party--
+Not everything should be measured
 
-The after party will have food
+industry’s most well respected designers
 
-After party address is on the site
+*Please welcome* **Andy Clarke**
 
-## Summing up
+## Summing up-up-up-up-up-up-up-up-up-up-up
 
---going to uxcamp?
+I Know you all want to get to the party
 
-sponsors
+I’d like your help in saying a few thank yous:
+
+thanks Sponsors
 
 volunteers
 
 emmeline
 
+--audience
+
+## Party-party-party-party-party-party-party
+
+The after party will have food
+
+address on uxbrighton site
+
 audience
 
-I've been danny hope and this has been ux Brighton 2014
+I've been danny hope and this has been UX Brighton 2014
 
 # Unsorted
 
