@@ -16,9 +16,7 @@ Freelance interaction designer
 
 Founder UX Brighton
 
-curator of ux brighton 2014
-
-5th conference
+curator of ux brighton 2014 - **our 5th conference!**
 
 stand (and stay standing) if you were here last year
 
@@ -27,12 +25,6 @@ stand (and stay standing) if you were here last year
 - 2010?
 
 sit
-
-I’m freelance, how many others are?
-- agency?
-- in house?
-- of those startups?
-- student?
 
 @uxbri
 
@@ -182,6 +174,14 @@ scheduled breaks seats not the best
 **thinking about things makes us better at making things**
 
 **Before or after breaks mention the after party/food**
+
+I’m freelance, how many others are?
+- agency?
+- in house?
+- of those startups?
+- student?
+
+
 
 # Meta
 
