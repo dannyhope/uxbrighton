@@ -4,31 +4,29 @@ layout: minimal
 
 # Welcome
 
-## Danny Hope.
+Danny Hope
 
-freelance interaction designer
+Freelance interaction designer
 
-*founder* of UX Brighton.
+Founder UX Brighton
 
-## Thank you all for coming today.
-This believe it or not is our 5th conference which feels like a bit of a milestone :)
-So before we get started;
+**Thank you all for coming today**
+
+5th conference
+
 - Who was here last year?
 - Stay standing if you were at UX Brighton 2012?
 - 2011?
 - 2010?
 
-TWEETING
 If you’d like to say nice things about the conference mention @uxbri
 If you’d like to say nice things about me I’m @yandle
 
-PHOTOGRAPHY
-We’re filming the event and will email you when the videos are ready.
+we love seeing pictures – please take them
 
-We’d love for you to take pictures of everythign throughout the day.
+1 caveat - Martin
 
-There is however 1 speaker who, due to the sensitive nature of his work, can’t be photographed, but don’t worry we’ll ask remind you before he begins speaking not to take pics.
-
+"Why philosophy?" pointless by definition – you’re here!
 
 # Marianne Talbot
 Marianne is Director Of Studies in Philosophy at the University of Oxford’s Department for Continuing Education.
