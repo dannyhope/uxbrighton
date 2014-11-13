@@ -3,10 +3,14 @@ layout: minimal
 ---
 
 # Welcome
-Good morning, my name is Danny Hope.
-I’m a freelance interaction designer and the *founder* of UX Brighton.
 
-Thank you all for coming today.
+## Danny Hope.
+
+freelance interaction designer
+
+*founder* of UX Brighton.
+
+## Thank you all for coming today.
 This believe it or not is our 5th conference which feels like a bit of a milestone :)
 So before we get started;
 - Who was here last year?
