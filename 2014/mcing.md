@@ -4,20 +4,29 @@ layout: minimal
 
 # Welcome
 
+Good morning
+
+welcome to ux brighton 2014
+
+Thank’s for coming
+
 Danny Hope
 
 Freelance interaction designer
 
-working with a bunch of interesting startups
-
 Founder UX Brighton
 
-Thank’s for coming
+curator of ux brighton 2014
 
-5th conference - stand if you were here last year
-- Stay standing if you were at UX Brighton 2012?
+5th conference
+
+stand (and stay standing) if you were here last year
+
+- 2012?
 - 2011?
 - 2010?
+
+sit
 
 I’m freelance, how many others are?
 - agency?
@@ -25,16 +34,21 @@ I’m freelance, how many others are?
 - of those startups?
 - student?
 
-If you’d like to say nice things about the conference mention @uxbri
-If you’d like to say nice things about me I’m @yandle
+@uxbri
 
-we love seeing pictures – please take them
+@yandle
 
-1 caveat - Martin
+pictures - we’d love to see loads of pictures - snap away
 
-sensitive nature as youll hear
+theres 1 talk later on where pictures arent allowed but I’ll remind you at the time
 
---"Why philosophy?" pointless by definition – you’re here!
+why philosophy?
+
+thinking about things
+makes us better at
+making things
+
+One of the things that got me into philosophy was listening to podcasts
 
 # Marianne Talbot
 
