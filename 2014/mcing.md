@@ -8,16 +8,22 @@ Danny Hope
 
 Freelance interaction designer
 
+working with a bunch of interesting startups
+
 Founder UX Brighton
 
 **Thank you all for coming today**
 
-5th conference
-
-- Who was here last year?
+5th conference - stand if you were here last year
 - Stay standing if you were at UX Brighton 2012?
 - 2011?
 - 2010?
+
+I’m freelance, how many others are?
+- agency?
+- in house?
+- of those startups?
+- student?
 
 If you’d like to say nice things about the conference mention @uxbri
 If you’d like to say nice things about me I’m @yandle
@@ -26,26 +32,39 @@ we love seeing pictures – please take them
 
 1 caveat - Martin
 
-"Why philosophy?" pointless by definition – you’re here!
+sensitive nature as youll hear
+
+--"Why philosophy?" pointless by definition – you’re here!
+
+we’ll put slides and video on the conference site and email you
 
 # Marianne Talbot
-Marianne is Director Of Studies in Philosophy at the University of Oxford’s Department for Continuing Education.
 
-In 2008, I, along with roughly 1 million others started listening to Marianne’s Philosophy podcast. A podcast which has held every position in the iTunes U top 10 CONCURRENTLY.
+Director Of Studies in Philosophy
 
-As philosophy forms an important foundation for design, Marianne’s talk, I think, will form a foundation for today.
+University of Oxford - Department for Continuing Education.
+
+In 2008, I, along with roughly 1,000,000 other people started listening to Marianne’s Philosophy podcast.
+
+it monopolised the iTunesU top 10
+
+--As philosophy forms an important foundation for design, Marianne’s talk, I think, will form a foundation for today.
+
+excited
 
 So please *welcome to the stage* **Marianne Talbot**
 
 ## Andy
 
-*Design thinker*
+Design now influences business decesions
+
+some ideas about how design relates to business 
 
 Please *give him a big round of applause*; **Andy Dennis**
 
 ## Tesco
 
-The guy’s name?
+Rob Graham
 
 ## --Morning break--
 
@@ -53,7 +72,11 @@ Be back by noon
 
 ## Sjors
 
+Please *give him a warm welcome*; **Sjors Timmer**
+
 ## Ben
+
+Please *give him a warm welcome*; **Sjors Timmer**
 
 ## --Lunch--
 
@@ -62,9 +85,13 @@ Pompoko
 Carluccios
 Waggamamma
 
-Be back by 2:30
+back by 2:30
 
 ## David Helman
+
+Horror a developer!
+
+All the way from Oregon *give it up for*; **David Helman**
 
 ## Martin Langham
 Martin’s company is doing some of the most interesting work of any UX company I know and they’re based right under our noses in the so called innovation centre.
@@ -87,45 +114,34 @@ Anna is ___________ at ____________
 
 ## --Party--
 
-After party address
-
 The after party will have food
+
+After party address is on the site
 
 ## Summing up
 
-Thank volunteers
-Thank Emmeline
+--going to uxcamp?
+
+sponsors
+
+volunteers
+
+emmeline
+
+audience
 
 I've been danny hope and this has been ux Brighton 2014
 
-# Meta
-
-repeat the main point over and over to make sure people get it – **thinking about things makes us better at making things**
-
-When introducing speakers say their name loudly as a prompt to applaud
-
 # Unsorted
-We’ve tried arranged the schedule so that breaks are a bit more spaced out, we know these seats aren’t the most comfortable in the world
-going to uxcamp?
-Who’s a student? Where?
-How many of you are from startups?
 
-Slides and later on video from the event will be available on the conference page.
+scheduled breaks seats not the best
 
-
-One of the definitions of philosophy is THE LOVE OF THINKING so you are all the best people in UX because you THINK about what you’re doing!
+**thinking about things makes us better at making things**
 
 **Before or after breaks mention the after party/food**
 
-Get people to introduce themselves to their neighbour
+# Meta
 
-Most UX conferences are boring.
+eye contact with individuals!
 
-Thank sponsors
-Sponsors can put out t shirts
-Tell Dome staff not to prevent photography etc
-We encourage you to take photos and that it would be nice if they would CC license their stuff
-I’m Danny Hope freelance designer working for interesting startups
-We’ll be tweeting images of the slides all day so follow @uxbri
 Be nicer to speakers after their talks say more about how great they are
-Tell people the hashtag is #uxbrighton
