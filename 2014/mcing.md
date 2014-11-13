@@ -135,15 +135,21 @@ industry’s most well respected designers
 
 I Know you all want to get to the party
 
-I’d like your help in saying a few thank yous:
+I’d like your help in saying thank you to a few people:
 
-thanks Sponsors
+Sponsors
+
+- tesco
+- firefly
+- badoo
+- university of brighton
+- balsamiq
 
 volunteers
 
 emmeline
 
---audience
+audience
 
 ## Party-party-party-party-party-party-party
 
@@ -151,7 +157,7 @@ The after party will have food
 
 address on uxbrighton site
 
-audience
+--audience
 
 I've been danny hope and this has been UX Brighton 2014
 
