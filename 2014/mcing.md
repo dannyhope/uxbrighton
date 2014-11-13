@@ -24,9 +24,9 @@ stand (and stay standing) if you were here last year
 - 2011?
 - 2010?
 
-sit
+OK you can sit
 
-@uxbri
+**@uxbri**
 
 @yandle
 
@@ -34,29 +34,29 @@ pictures - we’d love to see loads of pictures - snap away
 
 theres 1 talk later on where pictures arent allowed but I’ll remind you at the time
 
-why philosophy?
+**why philosophy?**
 
-thinking about things
-makes us better at
-making things
+Learning about philosophy improves many aspects of your work as a designer
 
-One of the things that got me into philosophy was listening to podcasts
+- the design ideas themselves - metaphors and assumptions in the ideas
+- disecting those in teams
+- and testing them with users
+
+thinking about things makes us better at making things
 
 # Marianne Talbot
 
-Director Of Studies in Philosophy
+One of the things that got me into philosophy was listening to philosophy podcasts
 
-University of Oxford - Department for Continuing Education.
+Possibly the 1st for me was Marianne Talbot’s excellent "Romp through the History of Philosophy" way back in 2008.
 
-In 2008, I, along with roughly 1,000,000 other people started listening to Marianne’s Philosophy podcast.
+--roughly 1,000,000 downloads
 
-it monopolised the iTunesU top 10
+--went on to monopolise the entire iTunesU top 10
 
 --As philosophy forms an important foundation for design, Marianne’s talk, I think, will form a foundation for today.
 
-excited
-
-So please *welcome to the stage* **Marianne Talbot**
+So *I’m very excited to welcome* **Marianne Talbot**
 
 ## Andy
 
@@ -78,35 +78,42 @@ Rob Graham
 
 ## Morning break-break-break-break-break
 
-we’ll put slides and video on the conference site and email you
-
 back by noon
 
 ## Sjors
+------------------------------------------------------
+
+In chatting with out speakers and doing my own research for this years event,
+
+I kept coming across an old term that I’d never heard of but which seemed to be very useful for designers, especially in the kind of situations which Andy was describing.
+
+Hands up who’s familiar with the term hermenutics?
+
+Right?!
+
+So when Sjors informed me, a few days ago, that he was goign to change his talk to focus on Hermenutics, I was a very happy man!
 
 Please *give him a warm welcome*; **Sjors Timmer**
 
 ## Ben
-
-Please *welcome to the stage*; **Sjors Timmer**
+------------------------------------------------------
+Please *welcome to the stage*; **Ben Sauer**
 
 ## Lunch-Lunch-Lunch-Lunch-Lunch-Lunch
 
-**Where to eat lunch**
-Pompoko
-Carluccios
-Waggamamma
+link at the top of the website
 
 back by 2:30
 
 ## David Helman
+------------------------------------------------------
 
-Horror a developer!
+How many people 
 
 All the way from Oregon *give it up for*; **David Helman**
 
 ## Martin Langham
-
+------------------------------------------------------
 Martin’s agency doing the most interesting work of any I know
 
 don’t take photos
@@ -119,23 +126,21 @@ back by 16:20
 
 --speakers touched on the need to balance sceince. With these last 2 talks, we’ll try and expand on this matter.
 
-science isn’t necessarilty the answer to everything
+I’m a scientist at heart so I often find myself trying to explain to others what good science is.
 
-when we use scientific methods are we really using the scientific method
+So I’ve asked Anna Cox along to show me how it’s done.
 
-I’m a scientist at heart
+Anna is Deputy Director of the UCL Interaction Centre and a Reader in HCI
 
-First up is Anna Cox
-
-Anna is ___________ at ____________
+*Please give her a warm round of applause,* **Anna Cox**
 
 ## Andy Clarke
 
-Not everything should be measured
+I’m an artist at heart so…
 
-industry’s most well respected designers
+When I heard our next speaker discuss the creative genius of 60s ad agencies, and fight the corner for what we might call a less scientific approach to design. I thought he would be the perfect person to round off the day.
 
-*Please welcome* **Andy Clarke**
+*Please welcome, one of web design’s most well respected designers,* **Andy Clarke**
 
 ## Summing up-up-up-up-up-up-up-up-up-up-up
 
