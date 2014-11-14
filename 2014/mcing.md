@@ -83,7 +83,7 @@ back by noon
 ## Sjors
 ------------------------------------------------------
 
-In chatting with out speakers and doing my own research for this years event,
+In chatting with our speakers and doing my own research for this years event,
 
 I kept coming across an old term that I’d never heard of but which seemed to be very useful for designers, especially in the kind of situations which Andy was describing.
 
@@ -108,9 +108,11 @@ back by 2:30
 ## David Helman
 ------------------------------------------------------
 
-How many people 
+insights from those who studied philosophy or computer science
 
-All the way from Oregon *give it up for*; **David Helman**
+our ext speaker has done both
+
+All the way from Oregon *please give it up for*; **David Helman**
 
 ## Martin Langham
 ------------------------------------------------------
