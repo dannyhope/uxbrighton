@@ -81,22 +81,27 @@ Rob Graham
 back by noon
 
 ## Sjors
-------------------------------------------------------
 
-In chatting with our speakers and doing my own research for this years event,
+In conversations with our speakers and while doing my own research for this years event,
 
-I kept coming across an old term that I’d never heard of but which seemed to be very useful for designers, especially in the kind of situations which Andy was describing.
+I kept coming across a concept, I’d not heard of but is very useful for thinking about the conditions of uncertainty in which we sometimes operate.
 
-Hands up who’s familiar with the term hermenutics?
+So, hands up who’s familiar with the term hermenutics?
 
-Right?!
+Right? Me neither!
 
-So when Sjors informed me, a few days ago, that he was goign to change his talk to focus on Hermenutics, I was a very happy man!
+So when Sjors informed me, a few days ago, that he had experienced the same thing and was going to change his talk to focus on Hermenutics, I was a very happy man!
 
 Please *give him a warm welcome*; **Sjors Timmer**
 
 ## Ben
-------------------------------------------------------
+
+There was a dark time, before concepts like evidence and science were prevailant.
+
+The philosopher David Hume was key to changing this.
+
+Our next speaker is here to tell us about David Hume and to explain how we can use his ideas.
+
 Please *welcome to the stage*; **Ben Sauer**
 
 ## Lunch-Lunch-Lunch-Lunch-Lunch-Lunch
@@ -106,19 +111,42 @@ link at the top of the website
 back by 2:30
 
 ## David Helman
-------------------------------------------------------
 
-insights from those who studied philosophy or computer science
+Many of the ideas that have guided my work in recent years have come from philosophers
 
-our ext speaker has done both
+and many have come from the world of computer science.
 
-All the way from Oregon *please give it up for*; **David Helman**
+--Written about philosophy
+
+--Ph.D. in Philosophy from Harvard
+
+great pleasure that I welcome,
+
+all the way from Oregon USA
+
+philosophy writer and computer scientist
+
+**David Helman**
 
 ## Martin Langham
-------------------------------------------------------
-Martin’s agency doing the most interesting work of any I know
 
-don’t take photos
+please no photos
+
+hear his talk; see why
+
+while user testing is definitely fun, it’s not the most exciting activity
+
+its not like you are goign to break your arm
+
+or need to wear riot gear
+
+…*unless you work for our next speaker* **Martin Langham**
+
+--I’ve met folks from a fair few of agencies but Martin’s company "User Perspective" is doing the most insanely interesting work of any I know.
+
+--Having never had a test participant break their arm
+
+--and not having to own a full set of riot gear
 
 ## Afternoon break-break-break-breakbreak-
 
