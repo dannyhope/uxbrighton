@@ -140,7 +140,7 @@ its not like you are goign to break your arm
 
 or need to wear riot gear
 
-…*unless you work for our next speaker* **Martin Langham**
+*unless you work for our next speaker* **Martin Langham**
 
 --I’ve met folks from a fair few of agencies but Martin’s company "User Perspective" is doing the most insanely interesting work of any I know.
 
@@ -215,11 +215,3 @@ I’m freelance, how many others are?
 - in house?
 - of those startups?
 - student?
-
-
-
-# Meta
-
-eye contact with individuals!
-
-Be nicer to speakers after their talks say more about how great they are
