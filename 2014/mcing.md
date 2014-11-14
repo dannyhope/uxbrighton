@@ -134,7 +134,7 @@ please no photos
 
 hear his talk; see why
 
-while user testing is definitely fun, it’s not the most exciting activity
+while user testing is definitely useful, it’s not the most exciting activity
 
 its not like you are goign to break your arm
 
