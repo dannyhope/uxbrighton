@@ -9,7 +9,6 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
 
 ## Add an upcoming event
 
-**Duplicate one of the an event in [_posts](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_posts "") and make sure the front matter has all this stuff in it:**
 
 | Attribute		| Example value		| Note	|
 |----------		|----------		|------		|
