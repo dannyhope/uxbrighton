@@ -1,26 +1,41 @@
 ---
 ---
 
-[toc]
-
--
+## Where to get old content to update this site
 
 Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuJrhF0oRyeRcnVFTy0tbnotMzZ1MTNCYk5XaTVuZlE&usp=drive_web#gid=0 "list of events on Google Docs")
 
-## Add an upcoming event
+## Add events
 
+**[Create a new file in _posts](https://github.com/dannyhope/uxbrighton/new/gh-pages/_posts "Add a file to _posts using Github")**
 
-| Attribute		| Example value		| Note	|
-|----------		|----------		|------		|
-| layout:			| event-page |  |
-| title:			| UX, Human Factors & Ergonomics |  |
-| venue: | Hotel Du Vin | [pick one from the venue list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "") |
-| start: | 7pm |  |
-| ticket-link: | http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891 |  |
-| upcoming: | true |    **Alex, is this correct?** |
-| organisers: | - Alex | N.B. Each person should be on their own line [pick from the organisers list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") |
-| lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ |  |
-
+    ---
+    layout: event-page	
+    title: [e.g. UX, Human Factors & Ergonomics]
+    venue: [e.g. Hotel Du Vin or Fabrica or Lighthouse more are in venues.html]
+    start: [e.g. 7pm]
+    ticket-link: [e.g. http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891]
+    upcoming: true
+    organisers:
+    - Alex
+    - Tim
+    - Patrick
+    - Luke
+    - Danny
+    - Tom
+    - Harry
+    - Jay
+    - Jenni
+    lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
+    stub: true [hide the event]
+    noinfo: true [adds "Stub" in the menu]
+    ---
+    
+    # Event title
+    
+    ## Talk title
+    
+    ## Talk title
 
 ## After an event
 
@@ -53,12 +68,6 @@ Renders as [My example](http://example.com "my tooltip")
 
 ### Add/link to photos
 
-
-## Add a stub
-
-- **Past events lacking content**: put this in the front matter: **noinfo: true**
-- **Future events not ready to go live**: put this in the front matter: **stub: true**
-
 ## People & venues
 
 Duplicate and edit one of the [people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") or [venues](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "")
@@ -75,21 +84,8 @@ This is in [_includes/header-mini.html](https://github.com/dannyhope/uxbrighton/
 
 [Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
 
---------
-
-## Undocumented front matter
-
-- conference: false **?**
-- conference: true **?**
-- homepage: false **?**
-- homepage: true **?**
-
-- published: true **Alex, does this actually do anything?**
-- start: null **Alex, is "null" the same as providing no value or just not having a start value?**
-- venue: null **Alex, is "null" the same as providing no value?**
-
 ------
 
-## Styling, URLs & installation
+# Frontmatter, styling, URLs & installation
 
-Is in [technical.md](/technical.md "")
+Are in [technical.md](/technical.md "")
