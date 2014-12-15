@@ -25,26 +25,30 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
 
 ## After an event
 
-### Mark it as past
+### Mark the event as past
 
 Set **upcoming:no** in the front matter
 
-### Add video/slides
+### Video & slides
 
     <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="XXX" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-Copy/paste the above code into your page and replace XXX with the URL of the media you’re embedding, e.g. `http://www.slideshare.net/slideshow/embed_code/35707261`
+Copy/paste the above code into your page and replace XXX with the **embed URL (not the page URL)** of the media you’re embedding, e.g.
 
-### Add text from tweets
+http://www.slideshare.net/slideshow/**embed_code**/35707261
 
-Copy/paste this into the page
+https://www.youtube.com/**embed**/yxmgYdrl4lI
 
-    > put the text of the tweet here
-    —put the name/link here
+### Tweets & quotes
 
-### Add links to blog posts (at the top of the page)
+Don’t embed tweets. Instead format them thus;
 
-In Markdown, this: `[My example](http://example.com "my tooltip")`
+    > [content of the tweet]
+    —[text](URL "optional title")
+
+### Blog posts
+
+At the top of the page, add: `[My example](http://example.com "my tooltip")`
 
 Renders as [My example](http://example.com "my tooltip")
 
@@ -53,22 +57,22 @@ Renders as [My example](http://example.com "my tooltip")
 
 ## Add a stub
 
-- **Past** events lacking content: put this in the front matter: **noinfo: true**
-- **Future** events not ready to go live: put this in the front matter: **stub: true**
+- **Past events lacking content**: put this in the front matter: **noinfo: true**
+- **Future events not ready to go live**: put this in the front matter: **stub: true**
 
-## Add a person or venue
+## People & venues
 
 Duplicate and edit one of the [people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") or [venues](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "")
 
-## Edit a conference page
+## Conference pages
 
-Conference pages appear at 2 URLs so their content is technically stored in [templates in the _layouts folder](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts ""), not in the [_posts folder](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts "") which is where the rest of the content lives).
+Conference pages appear at 2 URLs so, for technical reasons, we’re forced to store their content in templates ([in the _layouts folder](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_layouts "")), not in the [_posts folder](https://github.com/dannyhope/uxbrighton/tree/gh-pages/_posts ""), which is where the rest of the content lives.
 
-## Edit the strip across the top of all pages
+## Strip across the top of all pages
 
-This is done in [_includes/header-mini.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/header-mini.html "")
+This is in [_includes/header-mini.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/header-mini.html "")
 
-## Edit this document
+## Edit this readme document
 
 [Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
 
