@@ -43,6 +43,8 @@ layout: default
 			</article>
 			{% endif %} -->
 		{% else %}	
+
+			<h1 class="event-title">{{page.title}}</h1>
 			This event took place on the 
 			{% capture pageyear %}{{page..date | date: "%Y"}}{% endcapture %}
 			{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
