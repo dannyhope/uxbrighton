@@ -601,7 +601,7 @@ span#loader {
 	width: 49%;
 }
 
-.pagination a:last-child {
+.pagination .next {
 	text-align: right;
 }
 

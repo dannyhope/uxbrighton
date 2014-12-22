@@ -2,54 +2,82 @@
 layout: default
 ishomepage: true
 ---
-	<main class="content-main-detail" role="main">
-		<header class="event-list-heading">
-			<h1>What's on</h1>
-		</header>
-		{% for post in site.posts reversed %}
-				{% if post.homepage and post.upcoming %}
-					<section class="event-detail">
-						<div class="event-detail_desc">
-							<h1 class="event-title"><a href="{{post.url}}">{{post.title}}</a></h1>
-							<ul>
-								<li>
-									{{post.date | date: "%d %B, %Y"}} 
-									{% if post.start %}
-									at {{post.start}}
-									{% endif %}
-								</li>
-								<li>
-									{% include venues.html %}
-								</li>
-								<li>
-								{% if post.lanyrd-url %}
-								Track or say you're attending on 
-								<a href="{{ post.lanyrd-url }}" target="_blank">Lanyrd</a>
-								{% endif %}	
-								</li>
-							</ul>			
-							<a href="{{post.url}}" title="Add to Calendar" class="addthisevent">
-							    Add to Calendar
-							    <span class="_start">{{post.date | date: "%d %B, %Y"}}  {{post.start}}</span>
-							    <span class="_end">{{post.date | date: "%d %B, %Y"}} {{post.end}}</span>
-							    <span class="_zonecode">36</span>
-							    <span class="_summary">{{post.title}}</span>
-							    <span class="_description"></span>
-							    <span class="_location">{% if post.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, East Sussex, BN1 1AG{% elsif post.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% else %}The venue for this event will be announced soon.{% endif %}
-								</span>
-							    <span class="_organizer"></span>
-							    <span class="_facebook_event"></span>
-							    <span class="_date_format">DD/MM/YYYY</span>
-							</a>
-						</div>
-						<aside class="event-detail_meta">
- 						{% include organisers.html %}	
-						</aside>						
-					</section>	
+<main class="content-main-detail" role="main">
+	<section class="event-detail">
+		<div class="event-detail_desc">
+		{% for page in site.posts reversed %}
+			{% if page.homepage and page.upcoming %}
+
+			<section class="event-meta">
+				<h1 class="event-title">{{page.title}}</h1>
+				{% include venues.html %}
+				<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+			    {{page.date | date: "%d %b"}}
+				{% if page.start %}
+					at {{page.start}}
+				{% endif %}
+				    <span class="_start">{{page.date | date: "%d %B, %Y"}}  {{page.start}}</span>
+				    <span class="_end">{{page.date | date: "%d %B, %Y"}} {{page.end}}</span>
+				    <span class="_zonecode">36</span>
+				    <span class="_summary">{{page.title}}</span>
+				    <span class="_description"></span>
+				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
+					</span>
+				    <span class="_organizer"></span>
+				    <span class="_facebook_event"></span>
+				    <span class="_date_format">DD/MM/YYYY</span>
+				</a>
+				<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket</a>
+				<p class="deposits">After&nbsp;attending, you can <a href="mailto:feedback@uxbrighton.org.uk">email</a> us (within a week after the event) to reclaim the cost of your&nbsp;ticket. Remaining&nbsp;deposits fund&nbsp;future&nbsp;events. Cancel&nbsp;by <a href="http://twitter.com/uxbri">tweeting</a> us a week before the&nbsp;event.</p>
+<!-- 				<ul>
+					<li>
+						{% if page.lanyrd-url %}
+							Track or say you're attending on 
+							<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
+						{% endif %}	
+					</li>
+				</ul> -->		
+			</section>
+
+			<!-- 
+			{% if page.upcoming %}
+			<article class="ticket-rules">
+				<p>If you attend, you can email us (within a week after the event) to reclaim the cost of your ticket. Unclaimed deposits fund future&nbsp;events. If you can’t attend, you can reclaim the fee by <a href="https://twitter.com/uxbri">tweeting us</a> a week before the event.<p>
+			</article>
+			{% endif %} -->
+
+			
+		{{ page.content }}
+
+		<aside class="event-detail_meta">
+		{% include organisers.html %}			 
+		</aside>
+
+
 			{% endif %}
-	{% endfor %}	
-	</main>	
-	{% include nav.html %}	
+		{% endfor %}	
+			<aside class="contribute-content">
+				<form action="//dannyhope.us2.list-manage.com/subscribe/post?u=2f2a6ffeaf94b4c740a841a3f&amp;id=6642029aea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+					<h2>Get event notifications by email</h2>
+					<label for="email" style="display: none;">Email Address </label>
+					<input type="email" value="" name="EMAIL" id="email" placeholder="Email">
+					<input type="text" name="b_2f2a6ffeaf94b4c740a841a3f_6642029aea" tabindex="-1" value="" style="position: absolute; left: -5000px;">
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+				</form>
+				<div class="elsewhere">
+					<h3>Follow us</h3>
+						<ul>
+							<li><a href="https://www.facebook.com/groups/39816847256/">facebook</a></li>
+							<li><a href="https://twitter.com/uxbri">twitter</a></li>
+							<li><a href="https://groups.google.com/group/uxbri">google</a></li>
+						</ul>
+				</div>
+				<p><strong>Help us make this site better</strong>: <a href="mailto:feedback@uxbrighton.org.uk">Email us about missing content</a>,<a href="https://github.com/dannyhope/uxbrighton/issues/new">submit a bug via Github</a> or <a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}">edit this page</a></p>
+			</aside>
+		</div>
+	</section>
+</main>	
+{% include nav.html %}	
 	
 
 
