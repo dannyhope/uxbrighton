@@ -36,6 +36,10 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
     ## Talk title
     
     ## Talk title
+    
+### Prevent the conference page from taking over the homepage
+
+In the root, change the layout of index.html from "conference-2014" to "homepage".
 
 ## After an event
 
