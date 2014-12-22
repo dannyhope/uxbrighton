@@ -3,13 +3,14 @@ layout: default
 ishomepage: true
 ---
 <main class="content-main-detail" role="main">
-	<section class="event-detail">
-		<div class="event-detail_desc">
 		{% for page in site.posts reversed %}
 			{% if page.homepage and page.upcoming %}
+	<section class="event-detail">
+		<div class="event-detail_desc">
+			<h1 class="event-title">{{page.title}}</h1>
+
 
 			<section class="event-meta">
-				<h1 class="event-title">{{page.title}}</h1>
 				{% include venues.html %}
 				<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 			    {{page.date | date: "%d %b"}}
@@ -49,13 +50,11 @@ ishomepage: true
 			
 		{{ page.content }}
 
-		<aside class="event-detail_meta">
-		{% include organisers.html %}			 
-		</aside>
+			<aside class="event-detail_meta">
+			{% include organisers.html %}			 
+			</aside>
 
 
-			{% endif %}
-		{% endfor %}	
 			<aside class="contribute-content">
 				<form action="//dannyhope.us2.list-manage.com/subscribe/post?u=2f2a6ffeaf94b4c740a841a3f&amp;id=6642029aea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 					<h2>Get event notifications by email</h2>
@@ -76,6 +75,10 @@ ishomepage: true
 			</aside>
 		</div>
 	</section>
+
+			{% endif %}
+
+	{% endfor %}	
 </main>	
 {% include nav.html %}	
 	
