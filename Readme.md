@@ -27,7 +27,7 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
     - Jay
     - Jenni
     lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
-    stub: true [hide the event]
+    stub: true [hide the event from the event list]
     noinfo: true [adds "Stub" in the menu]
     ---
     
