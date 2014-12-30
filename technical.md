@@ -1,3 +1,16 @@
+## Frontmatter
+
+| Attribute		| Example value		| Note	|
+|----------		|----------		|------		|
+| layout:			| event-page |
+| title:			| UX, Human Factors & Ergonomics |
+| venue: | Hotel Du Vin | [pick one from the venue list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "") |
+| start: | 7pm |
+| ticket-link: | http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891 |
+| upcoming: | true |    **Alex, is this correct?** |
+| organisers: | - Alex | N.B. Each person should be on their own line [pick from the organisers list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") |
+| lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ |
+
 ## Style etc
 
 ### Menu
