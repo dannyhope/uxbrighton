@@ -27,15 +27,24 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
     - Jay
     - Jenni
     lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
-    stub: true [hide the event from the event list]
-    noinfo: true [adds "Stub" in the menu]
     ---
-    
-    # Event title
-    
+
     ## Talk title
     
     ## Talk title
+    
+### Hide it from the public
+
+To prevent the event from appearing in the event list make sute the frontmatter has these values:
+
+    upcoming: true
+    stub: true
+
+### Mark it as a stub
+
+In order to make the word "stub" appear next the the event’s title in the events menu, make sure the frontmatter includes:
+
+    noinfo: true [adds "Stub" in the menu]
     
 ### Prevent the conference page from taking over the homepage
 
