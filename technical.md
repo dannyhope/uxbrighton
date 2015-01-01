@@ -13,6 +13,10 @@
 
 ## Style etc
 
+### CSS
+
+The main CSS file is in /css/style.css
+
 ### Menu
 
 This is defined in the layout  [nav.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/nav.html "")
