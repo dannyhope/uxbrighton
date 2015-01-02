@@ -5,7 +5,7 @@ start:
 venue: 
 organisers: 
 lanyrd-url: 
-upcoming: 
+upcoming: false
 stub: yes
 ---
 

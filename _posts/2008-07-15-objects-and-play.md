@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Objects &amp; Play
-conference: false
 ticket-link: http://web.archive.org/web/20130425100129/http://upcoming.yahoo.com/event/863184/BRI/Hove/UX-Brighton-Objects-and-Play/The-Werks
 start: 6:45pm
 venue: The Werks

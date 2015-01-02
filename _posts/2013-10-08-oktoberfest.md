@@ -7,7 +7,7 @@ organisers:
 - Alex
 - Patrick
 lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
-upcoming: 
+upcoming: false
 ---
 
 UX Brighton evenings returned with UX Oktoberfest - our last event before November's big conference. Join us on 8th October at Fabrica Gallery for three talks from three fantastic speakers, none of whom - sadly - have consented to wearing their lederhosen.

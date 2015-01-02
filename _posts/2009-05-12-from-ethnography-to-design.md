@@ -1,7 +1,7 @@
 ---
 layout: event-page
 title: A Journey from Ethnography to Design
-upcoming: no
+upcoming: false
 ---
 
 [Tom Hume live blogged the event](http://tomhume.typepad.com/tomhume/2009/05/ux-brighton-ethnography.html "")
