@@ -175,6 +175,10 @@ a {
 	padding: 0;
 }
 
+.event-detail_desc img {
+	width: 95%;
+}
+
 /* @group Nav */
 
 nav.nav-side .event-title-list, nav.nav-side h2 {
