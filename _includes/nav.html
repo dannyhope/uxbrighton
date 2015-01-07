@@ -18,7 +18,7 @@
 				<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}">
 					<a title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 						<div class="post-title">{{ post.title }}</div>
-						<div class="post-date coming-soon"><span class="coming-soon">Coming soon &ndash; {{post.date | date: "%-d %b"}}</span></div>
+						<div class="post-date coming-soon"><span class="coming-soon">Next event &ndash; {{post.date | date: "%-d %b"}}</span></div>
 					</a>
 				</li>
 			{% endif %}
