@@ -241,7 +241,7 @@ nav span.stub {
 	margin-left: 0.1rem;
 	text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.4);
 }
-nav .qs_input {
+nav .search {
 	margin-top: 0.8rem;
 	margin-bottom: 0.7rem;
 	margin-left: 1rem;
@@ -257,11 +257,12 @@ nav .qs_input {
 	letter-spacing: 0.03rem;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-	nav .qs_input:focus {
+	nav .search:focus {
 		outline: none;
 		box-shadow: 0 0 4px 1px rgb(0, 138, 255);
 		border: 1px solid rgba(0, 0, 0, 0);
 	}
+
 nav.nav-side h2 {
 	display: block;
 	font-size: 0.9rem;
