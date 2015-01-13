@@ -7,7 +7,7 @@ organisers:
 - Tim
 lanyrd-url: 
 upcoming: false
-homepage: true
+homepage: false
 ticket-link: 
 ---
 
