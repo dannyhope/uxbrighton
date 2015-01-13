@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: People Skills
+title: People Skills for UXers
 start: 7pm
 venue: 
 organisers: 
@@ -8,6 +8,7 @@ organisers:
 lanyrd-url: 
 upcoming: yes
 stub:
+tickets: https://www.eventbrite.co.uk/e/people-skills-for-uxers-tickets-15279945729
 ---
 
 > **People Skills**
