@@ -96,7 +96,7 @@ Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers 
 
 ## Testimonials [hide the title]
 
-[pic] “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
+![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "") “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
 —Ellen de Vries
 
 [pic] “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
