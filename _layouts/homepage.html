@@ -4,7 +4,7 @@ ishomepage: true
 ---
 <main class="content-main-detail" role="main">
 		{% for page in site.posts reversed %}
-			{% if page.homepage and page.upcoming %}
+			{% if page.homepage %}
 	<section class="event-detail">
 		<div class="event-detail_desc">
 			<h1 class="event-title">{{page.title}}</h1>
