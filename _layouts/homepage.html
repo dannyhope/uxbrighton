@@ -10,6 +10,7 @@ ishomepage: true
 			<h1 class="event-title">{{page.title}}</h1>
 
 
+		{% if page.ticket-link %}
 			<section class="event-meta">
 				{% include venues.html %}
 				<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
@@ -17,7 +18,6 @@ ishomepage: true
 				{% if page.start %}
 					at {{page.start}}
 				{% endif %}
-				
 				    <span class="_start">{{page.date | date: "%d %B, %Y"}}  {{page.start}}</span>
 				    <span class="_end">{{page.date | date: "%d %B, %Y"}} {{page.end}}</span>
 				    <span class="_zonecode">36</span>
@@ -47,7 +47,29 @@ ishomepage: true
 				<p>If you attend, you can email us (within a week after the event) to reclaim the cost of your ticket. Unclaimed deposits fund future&nbsp;events. If you can’t attend, you can reclaim the fee by <a href="https://twitter.com/uxbri">tweeting us</a> a week before the event.<p>
 			</article>
 			{% endif %} -->
+		
 
+		{% else %}
+			{% if page.upcoming == true %}
+				Details about this event will be posted soon.
+
+			{% else %}	
+
+				This event took place on the 
+				{% capture pageyear %}{{page..date | date: "%Y"}}{% endcapture %}
+				{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
+				
+				{% if pageyear >= currentyear %}						
+					{{ page..date | date: "%-d %B" }}
+					{% else %}
+					{{ page..date | date: "%-d %B %Y" }}
+		 		{% endif %}			
+
+				{% if page.venue%} at {{page.venue}} {% endif %}
+
+			{% endif %}			
+
+		{% endif %}	
 			
 		{{ page.content }}
 
