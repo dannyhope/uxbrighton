@@ -7,15 +7,8 @@ organisers:
 - Rob
 lanyrd-url: 
 upcoming: yes
-stub:
 tickets: https://www.eventbrite.co.uk/e/people-skills-for-uxers-tickets-15279945729
 ---
-
-> **People Skills**
-> 
-> The ability to communicate effectively with people in a friendly way, especially in business
-
-—[Macmillan Dictionary](http://www.macmillandictionary.com/dictionary/british/people-skills "definition of People Skills on the macmillandictionary.com")
 
 We've developed an amazing set of skills for empathising with our end-users, but rarely if ever do we turn these techniques in the other direction: on our clients. Just the opposite in fact: we're much more likely to talk of our clients as idiots who don't 'get it' than as understandably stressed human beings pushed outside of their comfort zone.
 
