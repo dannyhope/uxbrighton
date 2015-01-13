@@ -8,7 +8,7 @@ organisers:
 lanyrd-url: 
 upcoming: false
 homepage: true
-ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
+ticket-link: 
 ---
 
 [<img src="/assets/15537580292_fe574d7b1f_o.jpg">](https://www.flickr.com/photos/yandle/15537580292/ "")
