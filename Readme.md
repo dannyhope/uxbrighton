@@ -26,6 +26,7 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
     - Harry
     - Jay
     - Jenni
+    - Rob
     lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
     ---
 
