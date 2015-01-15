@@ -26,10 +26,16 @@ More details on the each talk will be added soon.
 
 Kevin is a digital strategist at London Agency, Centrigrade
 
+[@coach4creatives](http://twitter.com/coach4creatives "")
+
 ## Alison Coward - Talk title TBC
  
 Alison is the founder of Bracket Creative, specialists in workshop facilitation and collaborative working
 
+[@alisoncoward](http://twitter.com/alisoncoward "")
+
 ## Matt Matheson -  Talk title TBC
 
 Matt is an associate consultant at Nixon McKinnes, Improv comedy coach and sometime electronic music producer.
+
+[@aDJmattmatheson](http://twitter.com/DJmattmatheson "")
