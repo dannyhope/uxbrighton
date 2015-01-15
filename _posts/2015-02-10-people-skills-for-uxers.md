@@ -17,3 +17,19 @@ This lack of empathy seems strange given our trade, and the fact that they have 
 If we can learn to handle our stakeholders more empathetically then we can make better products for our users, and help our projects to run smoothly and successfully.
 
 And that's what this event is all about. 
+
+# Speakers
+
+More details on the each talk will be added soon.
+
+## Kevin O'Neill - The 7 habits of highly frustrating stakeholders
+
+Kevin is a digital strategist at London Agency, Centrigrade
+
+## Alison Coward - Talk title TBC
+ 
+Alison is the founder of Bracket Creative, specialists in workshop facilitation and collaborative working
+
+## Matt Matheson -  Talk title TBC
+
+Matt is an associate consultant at Nixon McKinnes, Improv comedy coach and sometime electronic music producer.
