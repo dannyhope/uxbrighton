@@ -18,9 +18,7 @@ If we can learn to handle our stakeholders more empathetically then we can make 
 
 And that's what this event is all about. 
 
-# Speakers
-
-More details on the each talk will be added soon.
+Speaker details are below. More details on the each talk will be added soon.
 
 ## Kevin O'Neill - The 7 habits of highly frustrating stakeholders
 
