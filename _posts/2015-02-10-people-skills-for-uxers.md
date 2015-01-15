@@ -22,7 +22,7 @@ Speaker details are below. More details on the each talk will be added soon.
 
 ## Kevin O'Neill - The 7 habits of highly frustrating stakeholders
 
-Kevin is a digital strategist at London Agency, Centrigrade
+Kevin is a digital strategist at London Agency, Centigrade
 
 [@coach4creatives](http://twitter.com/coach4creatives "")
 
