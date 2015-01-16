@@ -89,31 +89,24 @@ Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers 
 
     Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful.
 
-—![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "")Ellen de Vries, The Copyhouse
+<!--—![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "")Ellen de Vries, The Copyhouse-->
 
-    Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful.
+    Luke provided clear and structured training, taking the team from novices to competent Google Analytics users. In a short space of time.
 
-—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "")Ellen de Vries, The Copyhouse
+<!--—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Laura Bevans](/portraits/Laura-Bevans.jpg "")Laura Bevans, Wired Sussex-->
 
-    “Luke provided clear and structured training, taking the team from novices to competent Google Analytics users. In a short space of time.”
+    We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients.
 
-—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Laura Bevans](/portraits/Laura-Bevans.jpg "")Laura Bevans, Wired Sussex
-
-
-    “We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients.
-
-—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Stuart Bellis](/portraits/Stuart-Bellis.jpg "")Stuart Bellis, Code 7
+<!--—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Stuart Bellis](/portraits/Stuart-Bellis.jpg "")Stuart Bellis, Code 7-->
 
 ## Location
-
-[map image]
 
 Lighthouse
 28 Kensington Street
 Brighton
-BN1 4AJ
+[BN1 4AJ](https://www.google.com/maps/place/Lighthouse+Arts/@50.826238,-0.138209,13z/data=!4m2!3m1!1s0x0:0x1316760b33779607?hl=en "")
 
 10 minute walk from Brighton station
 
-[View map](https://www.google.com/maps/place/Lighthouse+Arts/@50.826238,-0.138209,13z/data=!4m2!3m1!1s0x0:0x1316760b33779607?hl=en "")
+
 
