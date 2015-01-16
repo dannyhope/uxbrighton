@@ -9,7 +9,7 @@ organisers:
 - Luke
 - Danny
 lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
-stub:
+stub: true
 ---
 
 - Tuesday 10th of March (1 day)
