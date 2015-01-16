@@ -37,7 +37,7 @@ Reserve your place today for just £149.
 
 ## Specific activities & outcomes
 
-[make a detailed list available]
+Some of the things you’ll learn
 
 - Discover device specific issues
 - To see what people do on the page (event tracking)
@@ -69,20 +69,11 @@ UX people who feel they should have more of a handle on the data side of things.
 - Researchers
 - Content strategists
 
-## Book your place
+## Booking
 
-**There are only 5 places remaining, secure yours now.**
-
-| Freelancer/small business | Medium size business (>50 employees) |
-|--- |--- |
-| Usual price £300<br>Special UX Brighton price £149 | Usual price £600<br>Special UX Brighton price £300 |
-| [BOOK YOUR PLACE NOW](# "tickets on Eventbrite") | [BOOK YOUR PLACE NOW](# "tickets on Eventbrite") |
+Tickets will be available soon, add yourself to the UX Brighton mailing list and we’ll notify you about them.
 
 ## About Luke
-
-[pic]
-
-![Google Analytics Qualified badge](https://cldup.com/2Wxn2W_L6D-1200x1200.png "Luke is Google Analytics Qualified")
 
 Luke has
 
@@ -96,14 +87,22 @@ Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers 
 
 ## Testimonials [hide the title]
 
-![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "") “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
-—Ellen de Vries
+    Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful.
 
-[pic] “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
-—Ellen de Vries
+—![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "")Ellen de Vries, The Copyhouse
 
-[pic] “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
-—Ellen de Vries
+    Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful.
+
+—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "")Ellen de Vries, The Copyhouse
+
+    “Luke provided clear and structured training, taking the team from novices to competent Google Analytics users. In a short space of time.”
+
+—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Laura Bevans](/portraits/Laura-Bevans.jpg "")Laura Bevans, Wired Sussex
+
+
+    “We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients.
+
+—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Stuart Bellis](/portraits/Stuart-Bellis.jpg "")Stuart Bellis, Code 7
 
 ## Location
 
