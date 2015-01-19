@@ -2,7 +2,7 @@
 layout: event-page
 title: People Skills for UXers
 start: 7pm
-venue: 
+venue: Fabrica
 organisers: 
 - Rob
 lanyrd-url: 
