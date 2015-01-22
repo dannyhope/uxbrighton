@@ -33,7 +33,7 @@ Knowledge of analytics will help to make you a better UXer because you’ll be a
 
 Reserve your place today for just £149.
 
-[big pic]
+If you have questions please feel free to [email Luke](mailto:lukehaysmail@gmail.com ""). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
 
 ## Specific activities & outcomes
 
