@@ -3,7 +3,7 @@ layout: event-page
 title: UX Analytics Workshop
 venue: Lighthouse
 start: 10am
-ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
+ticket-link: https://www.eventbrite.co.uk/e/ux-analytics-workshop-tickets-15452238060
 upcoming: false
 organisers:
 - Luke
@@ -83,17 +83,17 @@ Luke has
 
 ## Testimonials [hide the title]
 
-    Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful.
+<blockquote>"Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful"
+—Ellen de Vries, The Copyhouse</blockquote>
 
-<!--—![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "")Ellen de Vries, The Copyhouse-->
+<blockquote>"Luke provided clear and structured training, taking the team from novices to competent Google Analytics users in a short space of time"
+—Laura Bevans, Wired Sussex </blockquote>
 
-<blockquote>Luke provided clear and structured training, taking the team from novices to competent Google Analytics users. In a short space of time.</blockquote>
+<blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
+—Stuart Bellis</blockquote>
 
-<!--—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Laura Bevans](/portraits/Laura-Bevans.jpg "")Laura Bevans, Wired Sussex-->
-
-    We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients.
-
-<!--—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Stuart Bellis](/portraits/Stuart-Bellis.jpg "")Stuart Bellis, Code 7-->
+<blockquote>"I hated it"
+—Aral Balkan</blockquote>
 
 ## Location
 
