@@ -91,7 +91,7 @@ Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers 
 
 <!--—![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "")Ellen de Vries, The Copyhouse-->
 
-    Luke provided clear and structured training, taking the team from novices to competent Google Analytics users. In a short space of time.
+    <blockquote>Luke provided clear and structured training, taking the team from novices to competent Google Analytics users. In a short space of time.</blockquote>
 
 <!--—<img src="/portraits/Ellen-de-Vries.jpg" style="width: 64px; height: 64px;">![Portrait of Laura Bevans](/portraits/Laura-Bevans.jpg "")Laura Bevans, Wired Sussex-->
 
