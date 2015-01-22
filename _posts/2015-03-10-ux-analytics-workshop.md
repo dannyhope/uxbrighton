@@ -49,9 +49,8 @@ Some of the things you’ll learn
 - Setting-up funnels to track how well your design is working for specific user goals/tasks
 - Find ways to increase conversions 
 - Create persona based segments to see what your personas are up to.
-- Choosing what tool to use for measuring (we could just mention other tools within
-the context of the goals we’re covering)
-- Customising Google Analytics to show the data that’s most relevant to your site both for yourself and your client (setting up dashboards and custom reports) (create a dashboard through the day?)
+- Choosing what tool to use for measuring
+- Customising Google Analytics to show the data that’s most relevant to your site both for yourself and your client (dashboards and custom reports)
 
 ## Who is this for?
 
