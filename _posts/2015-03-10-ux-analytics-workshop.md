@@ -91,9 +91,6 @@ Luke has
 <blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
 —Stuart Bellis</blockquote>
 
-<blockquote>"I hated it"
-—Aral Balkan</blockquote>
-
 ## Location
 
 Lighthouse
