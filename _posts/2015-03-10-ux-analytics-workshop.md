@@ -31,9 +31,9 @@ Knowledge of analytics will help to make you a better UXer because you’ll be a
 - Decide where to focus qualitative research
 - Guide your company to better decisions
 
-Reserve your place today for just £149.
+We’d like to keep this event intimate (15 spaces to be precise), so **get your ticket quick**, before they’re all gone.
 
-If you have questions please feel free to [email Luke](mailto:lukehaysmail@gmail.com ""). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
+If you have questions please feel free to [email Luke](mailto:luke@lukehay.co.uk ""). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
 
 ## Specific activities & outcomes
 
