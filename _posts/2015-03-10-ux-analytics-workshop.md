@@ -77,7 +77,8 @@ Luke has
 - been using Google Analytics for 7+ years 
 - trained a wide-range of people on how to get the most from Google Analytics
 - analysed over 100 different websites
-- used analytics to inform major design changes. 
+- used analytics to inform major design changes
+
 [Luke’s blog](http://www.lukehay.co.uk/blog/ "")
 
 ## Testimonials
