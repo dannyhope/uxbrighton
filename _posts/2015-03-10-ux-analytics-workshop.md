@@ -80,7 +80,7 @@ Luke has
 - used analytics to inform major design changes. 
 [Luke’s blog](http://www.lukehay.co.uk/blog/ "")
 
-## Testimonials [hide the title]
+## Testimonials
 
 <blockquote>"Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful"
 —Ellen de Vries, The Copyhouse</blockquote>
@@ -89,7 +89,7 @@ Luke has
 —Laura Bevans, Wired Sussex </blockquote>
 
 <blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
-—Stuart Bellis</blockquote>
+—Stuart Bellis, Code 7</blockquote>
 
 ## Location
 
