@@ -36,6 +36,6 @@ Alison is the founder of Bracket Creative, specialists in workshop facilitation 
 
 ## Matt Matheson -  Talk title TBC
 
-Matt is an associate consultant at Nixon McKinnes, Improv comedy coach and sometime electronic music producer.
+Matt is an associate consultant at NixonMcInnes, Improv comedy coach and sometime electronic music producer.
 
 [@aDJmattmatheson](http://twitter.com/DJmattmatheson "")
