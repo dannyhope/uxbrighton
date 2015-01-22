@@ -6,7 +6,7 @@ venue:
 organisers: 
 - Jay
 lanyrd-url: 
-upcoming: false
+upcoming: true
 stub: yes
 ---
 
@@ -17,3 +17,4 @@ etc. Ideally, I'd try and get people from Mind Candy, Toca, My Maths and similar
 Collecting [links](https://pinboard.in/u:jaygooby/t:kids.ux+uxbri/ "Jays links on Pinboard") also I've started to chat to TocaBoca - 
 have been passed on to their PR team by megan@tocaboca.com
 
+[links](https://www.eventbrite.co.uk/e/ux-for-kids-tickets-15454086589) "Tickets on Eventbrite"
