@@ -14,7 +14,7 @@ stub:
 
 - Tuesday 10th of March (1 day)
 - £149 (reduced from £300 – save over £150)
-- Course lead by Luke Hay (luke@uxbrighton.org.uk?)
+- Course lead by Luke Hay
 
 ## About the workshop
 
@@ -69,11 +69,9 @@ UX people who feel they should have more of a handle on the data side of things.
 - Researchers
 - Content strategists
 
-## Booking
-
-Tickets will be available soon, add yourself to the UX Brighton mailing list and we’ll notify you about them.
-
 ## About Luke
+
+Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers to pensioners, dress-makers to body builders, but is also an expert in analytics. Google analytics can be a difficult beast to tame. There are over 500 different default reports, not to mention an almost limited amount of custom reporting options. It’s not a tool that’s easy to pick up without some guidance and that’s where this workshop will help.
 
 Luke has
 
@@ -81,8 +79,6 @@ Luke has
 - trained a wide-range of people on how to get the most from Google Analytics
 - analysed over 100 different websites
 - used analytics to inform major design changes. 
-
-Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers to pensioners, dress-makers to body builders, but is also an expert in analytics. Google analytics can be a difficult beast to tame. There are over 500 different default reports, not to mention an almost limited amount of custom reporting options. It’s not a tool that’s easy to pick up without some guidance and that’s where this workshop will help.
 [Luke’s blog](http://www.lukehay.co.uk/blog/ "")
 
 ## Testimonials [hide the title]
