@@ -37,24 +37,24 @@ If you have questions please feel free to [email Luke](mailto:luke@lukehay.co.uk
 
 ## Specific activities & outcomes
 
-Some of the things you’ll learn
+You'll learn how to:
 
 - Discover device specific issues
-- To see what people do on the page (event tracking)
-- Find out where the problems are in my site
-	- Grouping content (by template for example) to see which sections or page genres need work
+- See how people interact with elements on a page
+- Find out where the problems are in your site
+	- Grouping content, by template for example, to see which sections or page genres need work
 	- Interaction
-	- Architecture (inc. search)
-- Analysing user journeys in order to quickly see how people navigate through your website
-- Setting-up funnels to track how well your design is working for specific user goals/tasks
+	- Architecture, including search
+- Analyse user journeys in order to quickly see how people navigate through your website
+- Set up funnels to track how well your design is working for specific user goals/tasks
 - Find ways to increase conversions 
 - Create persona based segments to see what your personas are up to.
-- Choosing what tool to use for measuring
-- Customising Google Analytics to show the data that’s most relevant to your site both for yourself and your client (dashboards and custom reports)
+- Choose what tool to use for measuring
+- Customise Google Analytics to show the data that’s most relevant to your site both for yourself and your client using dashboards and custom reports
 
 ## Who is this for?
 
-UX people who feel they should have more of a handle on the data side of things. Anybody can practice UX but we’ve tailored the workshop  to:
+UX people who feel they should have more of a handle on the data side of things. Anybody can practice UX but we’ve tailored the workshop to:
 
 - Visual designers
 - Product owners
@@ -100,6 +100,3 @@ Brighton
 [BN1 4AJ](https://www.google.com/maps/place/Lighthouse+Arts/@50.826238,-0.138209,13z/data=!4m2!3m1!1s0x0:0x1316760b33779607?hl=en "")
 
 10 minute walk from Brighton station
-
-
-
