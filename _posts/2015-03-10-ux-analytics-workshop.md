@@ -12,7 +12,7 @@ lanyrd-url:
 stub:
 ---
 
-- Tuesday 10th of March (1 day)
+- Tuesday 14th of April (1 day)
 - £149 (reduced from £300 – save over £150)
 - Course lead by Luke Hay
 
