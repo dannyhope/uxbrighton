@@ -14,7 +14,7 @@ ishomepage: true
 			<section class="event-meta">
 				{% include venues.html %}
 				<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
-			    {{page.date | date: "%d %b"}}
+			    {{page.date | date: "%d %b"}}Get your ticket
 				{% if page.start %}
 					at {{page.start}}
 				{% endif %}
@@ -29,7 +29,7 @@ ishomepage: true
 				    <span class="_facebook_event"></span>
 				    <span class="_date_format">DD/MM/YYYY</span>
 				</a>
-				<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket<br>(£5 deposit)</a>
+				<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket<br>(£5)</a>
 <!-- 				<ul>
 					<li>
 						{% if page.lanyrd-url %}
