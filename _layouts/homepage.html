@@ -14,7 +14,7 @@ ishomepage: true
 			<section class="event-meta">
 				{% include venues.html %}
 				<a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
-			    {{page.date | date: "%d %b"}}Get your ticket
+			    {{page.date | date: "%d %b"}}
 				{% if page.start %}
 					at {{page.start}}
 				{% endif %}
