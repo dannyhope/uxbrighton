@@ -28,14 +28,14 @@ Kevin is a digital strategist at London Agency, Centigrade
 
 [@coach4creatives](http://twitter.com/coach4creatives "")
 
-## Alison Coward - Talk title TBC
+## Alison Coward - Top tips for running effective workshops
  
 Alison is the founder of Bracket Creative, specialists in workshop facilitation and collaborative working
 
 [@alisoncoward](http://twitter.com/alisoncoward "")
 
-## Matt Matheson -  Talk title TBC
+## Matt Matheson -  Improvisation – the secret ingredient to successful collaboration
 
-Matt is an associate consultant at NixonMcInnes, Improv comedy coach and sometime electronic music producer.
+Matt is a creativity and collaboration consultant at NixonMcInnes, Improv comedy coach and sometime electronic music producer.
 
-[@aDJmattmatheson](http://twitter.com/DJmattmatheson "")
+[@DJmattmatheson](http://twitter.com/DJmattmatheson "")
