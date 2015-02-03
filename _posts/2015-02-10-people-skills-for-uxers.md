@@ -5,7 +5,7 @@ start: 7pm
 venue: Fabrica
 organisers: 
 - Rob
-lanyrd-url: 
+lanyrd-url: http://lanyrd.com/2015/uxbripeople/
 upcoming: true
 ticket-link: https://www.eventbrite.co.uk/e/people-skills-for-uxers-tickets-15279945729
 homepage: true
