@@ -28,7 +28,7 @@ We'll kick of the evening with a talk by Kevin, a digital strategist at London A
 
 ## Alison Coward - Top tips for running effective workshops
  
-Alison is the founder of Bracket Creative, specialists in workshop facilitation and collaborative working. In this session Alison will talk us through the tips, tricks and maybe even some war stories from her long experience in workshop facilitation and collaborative working.
+Alison will go through tips for designing and facilitating effective workshops that are productive and focused, covering techniques for better brainstorming to generate better ideas and ways to keep participants engaged. We'll also look at the all important follow-up and how to keep moment going whilst keeping creativity high.
 
 [@alisoncoward](http://twitter.com/alisoncoward "")
 
