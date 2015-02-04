@@ -6,14 +6,14 @@ venue:
 organisers: 
 - Jay
 lanyrd-url: 
-upcoming: true
+upcoming: false
 ticket-link: https://www.eventbrite.co.uk/e/ux-for-kids-tickets-15454086589
 stub: yes
 ---
 
 **This event will attempt to give a broad overview of the challenges and rewards when designing for children.** 
 
-It's easy to lump **kids** under one banner, but developmentally and in cognitive terms they're very different as toddlers than they are as a five year olds and again as eight year olds.
+It's easy to lump "kids" under one banner, but developmentally and in cognitive terms they're very different as toddlers than they are as a five year olds and again as eight year olds.
 
 We're still firming up the talks, but here are some of the areas that we might to be looking at:
 
