@@ -6,7 +6,7 @@ venue:
 organisers: 
 - Jay
 lanyrd-url: 
-upcoming: false
+upcoming: 
 ticket-link: https://www.eventbrite.co.uk/e/ux-for-kids-tickets-15454086589
 stub: yes
 ---
