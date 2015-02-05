@@ -91,12 +91,3 @@ Luke has
 
 <blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
 —Stuart Bellis, Code 7</blockquote>
-
-## Location
-
-Lighthouse
-28 Kensington Street
-Brighton
-[BN1 4AJ](https://www.google.com/maps/place/Lighthouse+Arts/@50.826238,-0.138209,13z/data=!4m2!3m1!1s0x0:0x1316760b33779607?hl=en "")
-
-10 minute walk from Brighton station
