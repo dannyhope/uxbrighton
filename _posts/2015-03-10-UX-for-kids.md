@@ -29,4 +29,7 @@ We're still firming up the talks, but here are some of the areas that we might t
 
   * What can we learn from the design of children's books?
   
-Speakers TBC.
+
+### [Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) & [Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a), BBC Future Media, UX&D
+
+Other speakers TBC.
