@@ -33,4 +33,6 @@ We're still firming up the talks, but here are some of the areas that we might t
 ## Speakers ##
 ### [Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) & [Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a), BBC Future Media, UX&D
 
+### [Monica Ferraro](https://twitter.com/londrareale), How to involve children in the design process
+
 Other speakers TBC.
