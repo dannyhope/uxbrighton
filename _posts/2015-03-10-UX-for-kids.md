@@ -8,7 +8,7 @@ organisers:
 lanyrd-url: 
 upcoming:
 ticket-link: https://www.eventbrite.co.uk/e/ux-for-kids-tickets-15454086589
-stub: yes
+noinfo: true
 ---
 
 **This event will attempt to give a broad overview of the challenges and rewards when designing for children.** 
