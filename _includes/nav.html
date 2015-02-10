@@ -1,6 +1,6 @@
 
 <nav class="nav-side" role="navigation">
-
+ 
 
 	{% assign has_upcoming = false %}
 	{% for post in site.posts %}
@@ -10,15 +10,15 @@
 	{% endfor %}
 
 	<div class="event-title-wrapper" id="events">
-  	<input class="search" placeholder="Filter event list" />
+	<input class="search" placeholder="Search conferences, talks &amp; workshops" /> 	
 	<ul class="event-title-list list">
 	{% if has_upcoming %}
-		{% for post in site.posts reversed %}
+		{% for post in site.posts %}
 			{% if post.upcoming == true %}	
-				<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}">
+				<li class="event-title-list-item event-upcoming {% if page.url == post.url %}current{% endif %}">
 					<a title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 						<div class="post-title">{{ post.title }}</div>
-						<div class="post-date coming-soon"><span class="coming-soon">Next event &ndash; {{post.date | date: "%-d %b"}}</span></div>
+						<div class="post-date">{{post.date | date: "%-d %b"}}</div>
 					</a>
 				</li>
 			{% endif %}
@@ -29,13 +29,13 @@
 		{% for post in site.posts %}
 			{% if post.stub == null %}	
 				{% if post.upcoming == null or post.upcoming == false %}
-
-					<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}">
+					
+					{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
+					{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}		
+					<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}{% if postyear == currentyear %} current-year{% endif %}">
 						<a title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 							<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
 							<div class="post-date">
-							{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
-							{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
 							
 							{% if postyear >= currentyear %}						
 								{{ post.date | date: "%-d %B" }}
@@ -51,8 +51,5 @@
 	  {% endfor %}
 	</ul>
 	</div>
-	<p>Do you know about a UX Brighton event that’s not listed here? <a href="mailto:feedback@uxbrighton.org.uk">Let us know by email</a></p>
-
-	<a class="link-archive" href="/archive.html">View all events</a>	
-
+	{% include footer.html %}
 </nav>
