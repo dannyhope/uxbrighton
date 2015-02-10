@@ -4,7 +4,7 @@ title: UX Analytics Workshop
 venue: Lighthouse
 start: 10am
 ticket-link: https://www.eventbrite.co.uk/e/ux-analytics-workshop-tickets-15452238060
-upcoming: false
+upcoming: true
 organisers:
 - Luke
 - Danny
