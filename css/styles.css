@@ -302,6 +302,8 @@ nav span.stub {
 	border-right: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
+
+
 .search {
 	margin-top: 0.8rem;
 	margin-bottom: 0.7rem;
@@ -641,7 +643,7 @@ footer {
 	.event-meta a.addthisevent-drop {
 		background: none rgb(239, 140, 43);
   		color: rgb(255, 255, 255) !important;
-  		padding: 1.75em 2em;
+  		padding: 1em 2em;
   		font-weight: normal;
   		font-family: "Helvetica Neue", sans-serif;
   		border: 1px solid rgb(138, 138, 138);
@@ -690,7 +692,7 @@ footer {
 		vertical-align: middle;
 		position: absolute;
 		right: 1em;
-		top: 3.4em;
+		top: 2.4em;
 	}
 	.event-meta a.ticket-button {	/*3*/
 		background: #0b8ac1;
