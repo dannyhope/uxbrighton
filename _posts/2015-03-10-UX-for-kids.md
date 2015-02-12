@@ -34,5 +34,5 @@ Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has 
 
 ## How to involve children in the design process – Monica Ferraro
 
-[@londrareale](https://twitter.com/londrareale), 
+[@londrareale](https://twitter.com/londrareale)
 
