@@ -2,7 +2,7 @@
 layout: event-page
 title: UX for Kids
 start: 7pm
-venue: Hotel Du Vin
+venue: TBC
 organisers: 
 - Jay
 lanyrd-url: 
