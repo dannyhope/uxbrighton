@@ -16,7 +16,8 @@ It's easy to lump "kids" under one banner, but developmentally and in cognitive 
 
 We're still firming up the talks, but here are some of the areas that we might to be looking at:
 
-  * Do we need to design differently for different age-groups? What developmental changes need to be considered?
+  * Do we need to design differently for different age-groups?
+  * What developmental changes need to be considered?
   * What common mistakes do people make when designing for children?
   * What can we learn from traditional games and gameplay?
   * What psychological techniques can help us engage children?
