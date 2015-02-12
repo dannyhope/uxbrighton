@@ -33,7 +33,6 @@ We're still firming up the talks, but here are some of the areas that we might t
 
 Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
 
-## How to involve children in the design process – Monica Ferraro
-
-[@londrareale](https://twitter.com/londrareale)
+## How to involve children in the design process – [Monica Ferraro](https://twitter.com/playhows), User Experience Researcher, City University London
+This talk will examine the different techniques used while working with children as design partners in the design of technology. Dressing up, mixing ideas, Playmobil and Lego are great tools for generating new design ideas. Colouring pens, stickers and cardboard mockups of devices are great tools to create low-fidelidy prototypes.
 
