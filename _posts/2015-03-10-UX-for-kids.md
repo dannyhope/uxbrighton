@@ -27,15 +27,15 @@ We're still firming up the talks, but here are some of the areas that we might t
 
 ## Leanne Dougan & Liz Leakey
 
-[Liz Leakey – Creative Director, User Experience & Design at BBC Future Media](https://www.linkedin.com/pub/liz-leakey/3/982/17a)
+[Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a) – Creative Director, User Experience & Design at BBC Future Media
 
-[Leanne Dougan – Senior User Experience Designer, BBC, FM - CBeebies and CBBC at BBC](https://www.linkedin.com/pub/leanne-dougan/14/905/528)
+[Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) – Senior User Experience Designer, BBC, FM - CBeebies and CBBC at BBC
 
 Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
 
 ## How to involve children in the design process
 
-[Monica Ferraro](https://twitter.com/playhows), User Experience Researcher, City University London
+[Monica Ferraro](https://twitter.com/playhows) – User Experience Researcher, City University London
 
 This talk will examine the different techniques used while working with children as design partners in the design of technology. Dressing up, mixing ideas, Playmobil and Lego are great tools for generating new design ideas. Colouring pens, stickers and cardboard mockups of devices are great tools to create low-fidelity prototypes.
 
