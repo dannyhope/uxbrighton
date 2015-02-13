@@ -2,7 +2,7 @@
 layout: event-page
 title: UX for Kids
 start: 7pm
-venue: 
+venue: TBC
 organisers: 
 - Jay
 lanyrd-url: 
@@ -16,24 +16,26 @@ It's easy to lump "kids" under one banner, but developmentally and in cognitive 
 
 We're still firming up the talks, but here are some of the areas that we might to be looking at:
 
-  * Do we need to design differently for different age-groups? What developmental changes need to be considered?
-
+  * Do we need to design differently for different age-groups?
+  * What developmental changes need to be considered?
   * What common mistakes do people make when designing for children?
-
   * What can we learn from traditional games and gameplay?
-
   * What psychological techniques can help us engage children?
-
   * Are there specific rules we should stick to when writing copy, choosing colours and typefaces?
-
   * What can we learn from the design of children's books?
-  
 
-## Speakers ##
-### [Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) & [Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a), BBC Future Media, UX&D
+
+## Leanne Dougan & Liz Leakey
+
+[Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a) – Creative Director, User Experience & Design at BBC Future Media
+
+[Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) – Senior User Experience Designer, BBC, FM - CBeebies and CBBC at BBC
 
 Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
 
-### [Monica Ferraro](https://twitter.com/londrareale), How to involve children in the design process
+## How to involve children in the design process
 
-Other speakers TBC.
+[Monica Ferraro](https://twitter.com/playhows) – User Experience Researcher, City University London
+
+This talk will examine the different techniques used while working with children as design partners in the design of technology. Dressing up, mixing ideas, Playmobil and Lego are great tools for generating new design ideas. Colouring pens, stickers and cardboard mockups of devices are great tools to create low-fidelity prototypes.
+
