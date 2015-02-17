@@ -77,12 +77,14 @@ h2 {
 	margin-top: 2rem;
 	font-weight: 500;
 }
-	h2 a {
-	    color: inherit;
-	}
+h2 a {
+    color: inherit;
+}
+
 h3 {
-	font-size: 1rem;
-	font-weight: 500;
+	font-size: 1.1rem;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 700;
 }
 h4 {
 	font-size: 1rem;
@@ -91,12 +93,16 @@ h4 {
 p, ul {
 	font-size: 1rem;
 }
+
 a {
 	color: rgb(16, 139, 193);
 	font-weight: 500;
 	text-decoration: none;
 }
 
+a:hover {
+	border-bottom: 1px solid rgba(16, 139, 193,0.5);
+}
 
 
 .site-header {
@@ -203,6 +209,7 @@ nav.nav-side ul li a {
 }
 nav.nav-side ul li a:hover {
 	background: rgba(0,0,0,0.05);
+	border-bottom: 0;
 }
 nav.nav-side .current a {
 	background: white;
@@ -382,6 +389,7 @@ form.email-form h2 {
 
 .social-media a:hover {
 	color: rgb(16, 139, 193);
+	border-bottom: 0;
 }
 
 .youtube svg {
@@ -496,6 +504,10 @@ footer {
 		  display: block;
 		  width: auto;
 	}
+
+	.site-header .site-title:hover {
+		border-bottom: 0;
+	}	
 
 	.site-header .site-title img {
 		width: 200px;
