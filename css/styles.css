@@ -663,9 +663,10 @@ footer {
 .event-meta .venue img {
 	border: 0;
 	position: absolute;
-	right: 0;
+	left: 50%;
 	bottom: 0;
 	width: auto;
+	margin-left: -360px;
 }
 
 /*No venue message*/
