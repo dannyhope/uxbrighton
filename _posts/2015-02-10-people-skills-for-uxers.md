@@ -8,8 +8,6 @@ organisers:
 lanyrd-url: http://lanyrd.com/2015/uxbripeople/
 upcoming: false
 ticket-link: 
-homepage: true
-
 ---
 
 **We've developed an amazing set of skills for empathising with our end-users, but rarely if ever do we turn these techniques in the other direction: on our clients. Just the opposite in fact: we're much more likely to talk of our clients as idiots who don't 'get it' than as understandably stressed human beings pushed outside of their comfort zone.**
