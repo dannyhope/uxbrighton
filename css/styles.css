@@ -455,6 +455,13 @@ footer {
 }
 
 @media (min-width: 50rem) {
+	footer { 
+		position: fixed;
+		bottom: 0;
+		width: 30%;
+		z-index: 2;
+	}
+
 	body {
 		font-size: 18px;
 	}
@@ -470,6 +477,7 @@ footer {
 	.content-main-detail {
 		width: calc(70% - 1rem);
 		float: right;
+		max-width: 70em;
 		/*overflow: scroll;
 		height: 100%;
 		margin-top: -5em;
@@ -548,11 +556,6 @@ footer {
 		min-width: 100px;
 	}
 
-	footer { 
-		/*position: fixed;*/
-		/*bottom: 0;*/
-	}
-
 	.contribute-content {
 		width: 70%;
 		margin-left: auto;
@@ -571,24 +574,109 @@ footer {
 }
 
 
+/* @group Event data */
 
-@media (min-width: 75rem) {
-	/*body {
-		padding: 0 1em;
-	}*/
+/*Event box*/
 
-	.organiser-blurb {
-		width: 26%;
-		padding: 0 2% 2em;
+.event-meta {
+	background: white !important;
+	border: 1px solid rgba(109, 109, 109,0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+@media (min-width: 50rem) {
+	.event-meta {
+		float: right;
+		margin-left: 2em;
+		width: 18em;
 	}
+}
 
-<<<<<<< HEAD
-	footer { 
-		position: fixed;
-		bottom: 0;
-		width: 30%;
-		z-index: 2;
-	}
+/*Buttons - Shared styles */
+
+.event-meta a.addthisevent-drop,
+.event-meta a.ticket-button {
+	vertical-align: middle !important;
+	display: inline-block;
+	border: 0;
+	border-bottom: 1px solid white;
+	border-radius: 0;
+	font-size: 1rem;
+	position: relative;
+	z-index: 2;
+	padding: 1em 0;
+	min-height: 60px;
+	width: 50%;
+	margin-bottom: 5em;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box;
+}
+
+.event-meta a.ticket-button span, 
+.event-meta a.addthisevent-drop .event-time {
+	opacity: 0.8;
+	font-size: 0.8rem;
+	display: block;
+}
+
+/*Ticket button*/
+
+.event-meta a.ticket-button {	/*3*/
+	background: #0b8ac1;
+	text-decoration: none;
+	color: white;
+	border-right: 1px solid white;
+}
+
+/*Calendar button*/
+
+.event-meta a.addthisevent-drop {
+	background: none rgb(239, 140, 43);
+	color: rgb(255, 255, 255) !important;
+	font-weight: normal;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.event-meta .addthisevent-drop:after {
+	content: "▼";
+	font-size: 59%;
+	vertical-align: middle;
+	position: absolute;
+	right: 1em;
+	top: 2.4em;
+}
+
+/* Venue button*/
+
+.event-meta .venue {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.event-meta .venue img {
+	border: 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: auto;
+}
+
+/*No venue message*/
+
+a.where {
+	margin-top: -5em;
+	display: block;
+	padding: 1em 0;
+}
+
 
 /* embedded pages, videos and slides */
 
@@ -600,10 +688,6 @@ footer {
 .conference-iframe iframe {
 	width: 100%;
 	height: 100%;
-}
-=======
->>>>>>> parent of a7d052d... Embed conference pages as iframes, remove attendee tips
-
 }
 /* embedded videos and slides */
 
@@ -640,92 +724,15 @@ footer {
 	color: #c70a3c;
 }
 
-/* @group Event data */
+@media (min-width: 75rem) {
 
+	.organiser-blurb {
+		width: 26%;
+		padding: 0 2% 2em;
+	}
 
-.event-meta {
-	background: white !important;
-	border: 1px solid rgba(109, 109, 109,0.5);
-	text-align: center;
-	padding-bottom: 1.5rem;
-	padding-top: 2rem;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 40em;
-	position: relative;
 }
 
-	section.event-meta div a {
-		text-decoration: underline;
-	}
-
-	.event-meta a.addthisevent-drop {
-		background: none rgb(239, 140, 43);
-  		color: rgb(255, 255, 255) !important;
-  		padding: 1.75em 2em;
-  		font-weight: normal;
-  		font-family: "Helvetica Neue", sans-serif;
-  		border: 1px solid rgb(138, 138, 138);
-	}
-
-	.event-meta a.addthisevent-drop,
-	.event-meta a.ticket-button,
-	.event-meta a.where {
-		margin-bottom: 1.5rem;
-		vertical-align: middle !important;
-		margin-right: 1rem;
-		display: inline-block;
-		font-size: 1rem;
-		border-radius: 3px;
-		position: relative;
-		z-index: 2;
-	}
-
-
-	.event-meta a.where {			/*1*/
-		width: 100%;
-	}
-
-	@media (min-width: 75rem) {
-		.event-meta a.where {			/*1*/
-			width: 17rem;
-		}
-	}
-
-
-	/*.event-meta .venue {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%
-	}
-
-	.event-meta .venue iframe {
-		width: 100%;
-		margin-top: -150px;
-	}*/
-
-	.event-meta .addthisevent-drop:after {
-		content: "▼";
-		font-size: 59%;
-		vertical-align: middle;
-		position: absolute;
-		right: 1em;
-		top: 3.4em;
-	}
-	.event-meta a.ticket-button {	/*3*/
-		background: #0b8ac1;
-		padding: 1em 2em;
-		text-decoration: none;
-		color: white;
-		border: 1px solid black;
-	}
-
-	.event-meta a.ticket-button span, .event-meta a.addthisevent-drop .event-time {
-		opacity: 0.8;
-		font-size: 0.8rem;
-		display: block;
-	}
 
 /* @end */
 
