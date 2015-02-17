@@ -477,7 +477,6 @@ footer {
 	.content-main-detail {
 		width: calc(70% - 1rem);
 		float: right;
-		max-width: 70em;
 		/*overflow: scroll;
 		height: 100%;
 		margin-top: -5em;
