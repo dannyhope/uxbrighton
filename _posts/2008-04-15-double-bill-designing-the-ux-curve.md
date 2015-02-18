@@ -7,7 +7,7 @@ organisers:
 - Danny
 - Jenni
 start: 7pm
-ticket-link: http://uxbri.eventwax.com/ux-brighton
+ticket-link: 
 ---
 
 ## Designing the User Experience Curve

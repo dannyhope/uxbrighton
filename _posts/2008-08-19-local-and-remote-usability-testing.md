@@ -4,7 +4,7 @@ title: Local &amp; Remote Usability Testing
 conference: false
 venue: Regency Town House
 start:	7pm
-ticket-link: http://web.archive.org/web/20130423102050/upcoming.yahoo.com/event/1010045/BRI/Hove/UX-Brighton-Local-amp-Remote-Usability-Testing/13-Brunswick-Square
+ticket-link: 
 organisers:
 - Danny
 ---

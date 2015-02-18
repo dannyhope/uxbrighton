@@ -7,8 +7,8 @@ organisers:
 - Tim
 lanyrd-url: 
 upcoming: false
-homepage: true
-ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
+homepage: false
+ticket-link: 
 ---
 
 [<img src="/assets/15537580292_fe574d7b1f_o.jpg">](https://www.flickr.com/photos/yandle/15537580292/ "")
@@ -19,7 +19,7 @@ Also known as "comfort design", "functional design", or "user-friendly systems",
 
 ### Human Factors in Product Design: The secret to good design
 
-<div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/668XOntKK30" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/GJZi9ZWvdDM" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 Dr Elton will be talking about how Human Factors plays a key role in the development of successful products.  Within his talk, Eddy will include a brief introduction to Ergonomics, it's history, and it's relation / relevance to UX.
 

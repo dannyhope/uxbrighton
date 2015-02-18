@@ -9,6 +9,10 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
 
 **[Create a new file in _posts](https://github.com/dannyhope/uxbrighton/new/gh-pages/_posts "Add a file to _posts using Github")**
 
+Name the file with the event date and event title, e.g.
+
+2015-01-09-amazing-event.md
+
     ---
     layout: event-page	
     title: [e.g. UX, Human Factors & Ergonomics]
@@ -26,6 +30,7 @@ Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet
     - Harry
     - Jay
     - Jenni
+    - Rob
     lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
     ---
 

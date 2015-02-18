@@ -9,11 +9,7 @@
 	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 	<meta name="description" content="UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology">
-	<style>
-	.mix {
-  display: none;
-}
-</style>
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
@@ -41,7 +37,6 @@
 	{% include header.html %}
 	<div class="container">
 	{{ content }}
-	{% include footer.html %}
 	</div>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
 	  <script>

@@ -4,7 +4,7 @@ title: Practical insights in designing Out of the Box Experiences
 conference: false
 organisers:
 - Danny
-ticket-link: http://web.archive.org/web/20080511181635/http://upcoming.yahoo.com/event/590549
+ticket-link: 
 venue: The Werks
 start: 7pm
 ---

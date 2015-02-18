@@ -4,7 +4,7 @@
 |----------		|----------		|------		|
 | layout:			| event-page |
 | title:			| UX, Human Factors & Ergonomics |
-| venue: | Hotel Du Vin | [pick one from the venue list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "") |
+| venue: | Hotel Du Vin | [pick one from the venue list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "") or leave blank |
 | start: | 7pm | Or leave blank |
 | ticket-link: | http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891 |  Or leave blank. Page will say "Details about this event are coming soon"  |
 | upcoming: | true / false |    |

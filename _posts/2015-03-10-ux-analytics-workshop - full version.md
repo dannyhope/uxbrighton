@@ -8,12 +8,12 @@ upcoming:
 organisers:
 - Luke
 - Danny
-lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
 stub: true
+price: £149 + VAT
 ---
 
 - Tuesday 10th of March (1 day)
-- £149 (reduced from £300 – save over £150)
+- Early Bird price £149 (reduced from £300 – save over £150) until 13th March
 - Course lead by Luke Hay (luke@uxbrighton.org.uk?)
 
 ## About the workshop
@@ -96,7 +96,7 @@ Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers 
 
 ## Testimonials [hide the title]
 
-[pic] “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
+![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "") “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
 —Ellen de Vries
 
 [pic] “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
