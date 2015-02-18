@@ -9,6 +9,7 @@ organisers:
 - Luke
 - Danny
 stub: true
+price: £149 + VAT
 ---
 
 - Tuesday 10th of March (1 day)

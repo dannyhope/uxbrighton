@@ -12,7 +12,7 @@ ishomepage: true
 		<!-- Ticket box -->
 		{% if page.ticket-link %}
 			<section class="event-meta">
-				<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£5{% endif %}</span></a><!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+				<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£5 + VAT{% endif %}</span></a><!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 			    {{page.date | date: "%d %b"}}
 				{% if page.start %}
 					<span class="event-time">{{page.start}}</span>

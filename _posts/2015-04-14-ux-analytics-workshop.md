@@ -10,7 +10,7 @@ organisers:
 - Danny
 lanyrd-url: 
 stub:
-price: £149
+price: £149 + VAT
 ---
 
 - Tuesday 14th of April (1 day)
