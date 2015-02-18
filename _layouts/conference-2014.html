@@ -435,7 +435,6 @@
 </div>
 <i class="scripts">
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<script src="http://www.mapquestapi.com/sdk/leaflet/v1.0/mq-map.js?key=Fmjtd%7Cluur2h6ynl%2Crl%3Do5-9wan9a"></script>
 	<script>
 	// smooth scrolling
 	$(function(){function filterPath(string){return string.replace(/^\//,'').replace(/(index|default).[a-zA-Z]{3,4}$/,'').replace(/\/$/,'');}
@@ -497,6 +496,11 @@
 														  layers: MQ.mapLayer(),
 															center: [ 50.823871, -0.138574 ],
             									zoom: 16});
+															
+  // use the Mapquest Free & Open tile server (no API needed)
+  var layer = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', 
+													{attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>', 
+														subdomains: '1234'}).addTo(map);															
 	
 	var marker = new L.Marker(new L.LatLng(50.823871, -0.138574));
 	map.addLayer(marker);
