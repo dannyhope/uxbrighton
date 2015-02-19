@@ -153,6 +153,11 @@ a:hover {
 	font-family: "museo-slab",sans-serif;
 	color: rgb(199,10,60);
 	width: calc(100% - 100px);
+  clear: both;
+}
+
+.event-detail h2 {
+  clear: both;
 }
 
 .event-detail .organisers-list {
@@ -165,8 +170,20 @@ a:hover {
 	position: relative;
 }
 
+.event-detail_desc h3 {
+  clear: left;
+}
+
 .event-detail_desc img {
 	width: 95%;
+}
+
+.event-detail_desc img[alt="speaker-photo"] {
+  width: 25%;
+  padding: 0;
+  margin: 0 1em 1em 0;
+  border: 0;
+  float: left;
 }
 
 /* @group Nav */
@@ -735,6 +752,8 @@ a.where {
 .content-main-detail h2 {
 	color: #c70a3c;
 }
+
+
 
 @media (min-width: 75rem) {
 
