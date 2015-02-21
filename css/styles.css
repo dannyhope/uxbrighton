@@ -753,18 +753,6 @@ a.where {
 	color: #c70a3c;
 }
 
-
-
-@media (min-width: 75rem) {
-
-	.organiser-blurb {
-		width: 26%;
-		padding: 0 2% 2em;
-	}
-
-}
-
-
 /* @end */
 
 /* @group Pagination */
