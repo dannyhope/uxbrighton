@@ -11,10 +11,13 @@
 	<key>fonts</key>
 	<array>
 		<string>MuseoSlab-300</string>
+		<string>MuseoSlab-300</string>
+		<string>MuseoSlab-300</string>
+		<string>MuseoSlab-300</string>
 		<string>HelveticaNeue</string>
 	</array>
 	<key>length</key>
-	<integer>1949650</integer>
+	<integer>2313008</integer>
 	<key>version</key>
 	<integer>18</integer>
 </dict>
