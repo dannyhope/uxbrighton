@@ -10,11 +10,11 @@ organisers:
 - Danny
 lanyrd-url: 
 stub:
-price: £149 + VAT
+price: £149 + VAT until 13th March
 ---
 
 - Tuesday 14th of April (1 day)
-- £149 (reduced from £300 – save over £150)
+- Early Bird ticket £149 + VAT until 13th March, then £300 + VAT
 - Course lead by Luke Hay
 
 ## About the workshop
