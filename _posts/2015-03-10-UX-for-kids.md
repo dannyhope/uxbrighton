@@ -17,7 +17,7 @@ It's easy to lump "kids" under one banner, but developmentally and in cognitive 
 
 Thinking of coming? If you're a designer, UX-person, copy-writer, web or mobile app-developer, a product-owner or anyone who's interested in creating digital products for children, then you should definitely come!
 
-We'll look at involving children in the design process, how we can engage pre-school children, what techniques we should use when we need to address children of differing abilities and how we can build low-fidility prototypes to quickly address design issues.
+We'll look at involving children in the design process, how we can engage pre-school children, what techniques we should use when we need to address children of differing abilities and how we can build low-fidelity prototypes to quickly address design issues.
 
 ## Leanne Dougan & Liz Leakey
 
