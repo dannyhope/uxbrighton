@@ -40,6 +40,15 @@ This talk will examine the different techniques used while working with children
 ![speaker-photo](/assets/ux-for-kids/monica-ferraro.jpg)
 At Playhows, Monica is a user experience consultant specialising in children. Playhows help companies create better experiences for products and services through a children-centred design approach. Their work focuses on involving children directly in the design process, giving their needs and requirements extensive consideration at every stage of the process.
 
-## Speaker from [Amberlight](http://www.amber-light.co.uk/our-people.php), talking about UX for younger children (2 & 3 year olds)
-Details TBC.
+## Little users: UX considerations for pre-school children
+
+UX specialists Filip Healy, Mansha Manohar and George Green will discuss some of the challenges of conducting user research with children under 4 and some of the design opportunities and principles that are important for this audience. In particular touchscreens have really lowered the entry level language and motor control skills required to interact with computer programs. On the one hand this provides great opportunities in early education and for busy parents to keep their children engaged, but on the other it raises some very serious ethical questions about what is an acceptable age to start encouraging children to interact with devices.
+
+Filip Healy, Mansha Manohar, George Green - User Experience Consultants for Amberlight
+
+![speaker-photo](/assets/ux-for-kids/filip-healy.png)
+![speaker-photo](/assets/ux-for-kids/mansha-manohar.png)
+![speaker-photo](/assets/ux-for-kids/george-green.png)
+
+[Amberlight](http://www.amber-light.co.uk) have been involved in numerous projects researching how children and families use technology. They have worked for companies such as BBC, Disney, Sony Playstation, Children's Society, Orange and Microsoft across a range of technologies from websites to games consoles. They have worked closely with schools, parents and academics to train their consultants and tailor their methods for working with children of all ages.
 
