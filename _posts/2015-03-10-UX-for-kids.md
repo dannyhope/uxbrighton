@@ -19,6 +19,8 @@ Thinking of coming? If you're a designer, UX-person, copy-writer, web or mobile 
 
 We'll look at involving children in the design process, how we can engage pre-school children, what techniques we should use when we need to address children of differing abilities and how we can build low-fidelity prototypes to quickly address design issues.
 
+<a name="leanne-and-liz"></a>
+
 ## Leanne Dougan & Liz Leakey
 
 ![speaker-photo](/assets/ux-for-kids/leanne-dougan.jpg)
@@ -31,7 +33,9 @@ We'll look at involving children in the design process, how we can engage pre-sc
 
 Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
 
-## How to involve children in the design process
+<a name="monica-ferraro"></a>
+
+## How to involve children in the design process 
 
 This talk will examine the different techniques used while working with children as design partners in the design of technology. Dressing up, mixing ideas, Playmobil and Lego are great tools for generating new design ideas. Colouring pens, stickers and cardboard mockups of devices are great tools to create low-fidelity prototypes.
 
@@ -39,6 +43,8 @@ This talk will examine the different techniques used while working with children
 
 ![speaker-photo](/assets/ux-for-kids/monica-ferraro.jpg)
 At Playhows, Monica is a user experience consultant specialising in children. Playhows help companies create better experiences for products and services through a children-centred design approach. Their work focuses on involving children directly in the design process, giving their needs and requirements extensive consideration at every stage of the process.
+
+<a name="amberlight"></a>
 
 ## Little users: UX considerations for pre-school children
 
