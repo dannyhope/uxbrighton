@@ -18,7 +18,7 @@ $(function(){
     
     e.preventDefault();
     // copy email address
-    $('#entry_2207681', window.top.frames[0].document).val($('#email input[type=email]').val()); 
+    $('#emailaddress', window.top.frames[0].document).val($('#email input[type=email]').val()); 
     //console.info("Copied: %s to %s", $('#email input[type=email]').val(), $('#entry_0', window.top.frames[0].document));
     
     // submit the form
