@@ -186,6 +186,20 @@ a:hover {
   float: left;
 }
 
+footer .email-form input[type="submit"]:disabled {
+  color: rgb(65, 65, 65);
+	background-color: rgb(194,194,194);
+}
+
+footer .email-form input[type="submit"] {
+  background-color: rgb(127,188,215);
+  color: #fff;
+}
+
+footer .hidden.thanks {
+  display: none;
+}
+
 /* @group Nav */
 
 
@@ -372,7 +386,6 @@ span#loader {
 }
 
 .email-form input[type="submit"] {
-	background-color: rgb(194, 194, 194);
 	color: rgb(65, 65, 65);
 	border: 0;
 	border-radius: 4px;
