@@ -44,6 +44,56 @@ table{border-collapse:collapse;border-spacing:0}
 
 /* @group Icons */
 
+@font-face {
+	font-family: 'icomoon';
+	src:url('../font/icomoon.eot?-39rhxq');
+	src:url('../font/icomoon.eot?#iefix-39rhxq') format('embedded-opentype'),
+		url('../font/icomoon.woff?-39rhxq') format('woff'),
+		url('../font/icomoon.ttf?-39rhxq') format('truetype'),
+		url('../font/icomoon.svg?-39rhxq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+	content: "\e604";
+}
+
+.icon-linkedin2:before {
+	content: "\e605";
+}
+
+.icon-twitter:before {
+	content: "\e602";
+}
+
+.icon-twitter2:before {
+	content: "\e603";
+}
+
+.icon-facebook:before {
+	content: "\e601";
+}
+
+.icon-google-plus:before {
+	content: "\e600";
+}
+
+
 
 /*Helpers*/
 
@@ -398,18 +448,19 @@ span#loader {
 form.email-form h2 {
 	font-size: inherit;
 	margin-top: 1em;
+	font-size: 1rem;
 }
 
 /*Social media*/
 
 .social-media {
-	margin: 1em 0 0;
+	margin: 1.5em 0 0;
 }
 
 .social-media a {
 	text-decoration: none;
 	margin: 0 0 0 0.25em;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	line-height: 1;
 	display: inline-block;
 	word-wrap: none;
@@ -420,6 +471,14 @@ form.email-form h2 {
 .social-media a:hover {
 	color: rgb(16, 139, 193);
 	border-bottom: 0;
+}
+
+.social-media .about {
+	font-size: inherit;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-left: 1em;
+	vertical-align: top;
 }
 
 .youtube svg {
@@ -485,7 +544,7 @@ form.email-form h2 {
 footer {
 	text-align: center;
 	background-color: rgb(237, 237, 237);
-	padding: 0 2em 2em;
+	padding: 0 1em 0.5em;
 	box-sizing: border-box;
 	clear: both;
 	color: rgb(158, 158, 158);
