@@ -24,14 +24,28 @@ We'll kick of the evening with a talk by Kevin, a digital strategist at London A
 
 [@coach4creatives](http://twitter.com/coach4creatives "")
 
+![Kevin O'Neill speaking](https://farm8.staticflickr.com/7292/15930421673_fbe5d64c05_m.jpg)
+![Kevin speaking at Fabrica](https://farm9.staticflickr.com/8628/16549504962_c048fc315d_m.jpg)
+![Audience at Fabrica](https://farm8.staticflickr.com/7309/16548923641_8d73058db5_m.jpg)
+
 ## Alison Coward - Top tips for running effective workshops
  
 Alison will go through tips for designing and facilitating effective workshops that are productive and focused, covering techniques for better brainstorming to generate better ideas and ways to keep participants engaged. We'll also look at the all important follow-up and how to keep moment going whilst keeping creativity high.
 
 [@alisoncoward](http://twitter.com/alisoncoward "")
 
+![Alison Coward speaking](https://farm9.staticflickr.com/8604/15928055584_3f21b26444_m.jpg)
+![Alison from above](https://farm8.staticflickr.com/7288/16362936928_35839f7d9f_m.jpg)
+![Alison speaking at Fabrica](https://farm8.staticflickr.com/7290/15928067554_9562ed3973_m.jpg)
+
 ## Matt Matheson -  Improvisation – the secret ingredient to successful collaboration
 
 Matt is a creativity and collaboration consultant at NixonMcInnes, and he's going to talk about how improv can teach us the key people skills of listening and collaboration, and, surprisingly, help organisations to innovate collaboratively.
 
 [@DJmattmatheson](http://twitter.com/DJmattmatheson "")
+
+![Matt Matheson speaking](https://farm8.staticflickr.com/7386/16524647216_4572b174e6_m.jpg)
+![Matt speaking at Fabrica](https://farm9.staticflickr.com/8683/16524642996_6513c4a2e5_m.jpg)
+![Delegates](https://farm9.staticflickr.com/8651/16548965111_44844c9be6_m.jpg)
+
+
