@@ -48,4 +48,4 @@ Matt is a creativity and collaboration consultant at NixonMcInnes, and he's goin
 ![Matt speaking at Fabrica](https://farm9.staticflickr.com/8683/16524642996_6513c4a2e5_m.jpg)
 ![Delegates](https://farm9.staticflickr.com/8651/16548965111_44844c9be6_m.jpg)
 
-
+[View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
