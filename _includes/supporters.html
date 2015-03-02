@@ -1,0 +1,8 @@
+{% if page.supporters %}
+  <h2>Supported by</h2>
+  <aside class="sponsors">
+    {% for supporter in page.supporters %}
+      <a href="{{ supporter.link-url }}"><img src="{{ supporter.image-url }}" alt="{{ supporter.name }}" /></a>
+    {% endfor %}
+  </aside>
+{% endif %}
