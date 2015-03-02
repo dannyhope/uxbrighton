@@ -236,6 +236,13 @@ a:hover {
   float: left;
 }
 
+aside.sponsors {
+	width: 33.333%;
+	float: left;
+	padding: 0;
+	margin: 0;	
+}
+
 footer .email-form input[type="submit"]:disabled {
   color: rgb(65, 65, 65);
 	background-color: rgb(194,194,194);
