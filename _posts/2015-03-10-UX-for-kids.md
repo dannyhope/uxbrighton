@@ -23,19 +23,31 @@ Thinking of coming? If you're a designer, UX-person, copy-writer, web or mobile 
 
 We'll look at involving children in the design process, how we can engage pre-school children, what techniques we should use when we need to address children of differing abilities and how we can build low-fidelity prototypes to quickly address design issues.
 
-<a name="leanne-and-liz"></a>
+<a name="leanne-and-liz"></a> <a name="leanne"></a>
 
-## Leanne Dougan & Liz Leakey
+## Designing Playful Interfaces for Children
 
-![speaker-photo](/assets/ux-for-kids/leanne-dougan.jpg)
-![speaker-photo](/assets/ux-for-kids/liz-leakey.jpg)
+This talk aims to give you some insight into the processes and approaches the BBC takes to create and design playful experiences for a young audience.
 
 [Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) - Senior User Experience Designer, BBC, Future Media - CBeebies and CBBC at BBC
 
+![speaker-photo](/assets/ux-for-kids/leanne-dougan.jpg)
+Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
+
+<a name="liz"></a>
+
+## Design Sprint Methodology – A learning curve
+
+Looking at how the BBC have started to adopt the [lean design sprint](http://www.gv.com/sprint/) methodology as pioneered by Google ventures, to allow them to work fast and swarm around a design problem. 
+
+The challenge is working collaboratively in a multi-discpinarly environment, to make decisions fast and even put code live. For an organisation that moves quite slowly, it's a new way to work and a steep learning curve for all involved!
+
+Liz will talk about how the sprints gave us chance to explore how we could use the home pages for CBBC and CBeebies based around 4 emergent themes; Social, Content Discovery, Mobile First and Reflecting the Channels. 
+
 [Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a) - Creative Director, User Experience & Design at BBC Future Media
 
-
-Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
+![speaker-photo](/assets/ux-for-kids/liz-leakey.jpg)
+Liz Leakey is Creative Director for BBC Children's and has worked at the BBC since Jan 2012. Before that she ran her own web design business in the Lake District, after 7 years at the BBC in London, also in BBC Children's. During that time Liz designed sites for brands like Blue Peter and Live & Kicking (sat morning TV) as well as seeing the launch of the two digital channels (CBBC and CBeebies) in 2002. In 2012 she joined the iWonder team in MediaCityUK and worked on the new Guide format for iWonder, before joining BBC Children's in 2014. The world of designing for children has changed in 15 years, although the fundamentals have stayed the same, the processes we use and devices the audience access content on have changed the way we work beyond recognition.
 
 <a name="monica-ferraro"></a>
 
