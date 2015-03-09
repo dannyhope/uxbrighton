@@ -66,11 +66,12 @@ At Playhows, Monica is a user experience consultant specialising in children. Pl
 
 UX specialists Filip Healy, Mansha Manohar and George Green from Aberlight plus Gemma Newell from the BBC, will discuss some of the challenges of conducting user research with children under 4 and some of the design opportunities and principles that are important for this audience. In particular touchscreens have really lowered the entry level language and motor control skills required to interact with computer programs. On the one hand this provides great opportunities in early education and for busy parents to keep their children engaged, but on the other it raises some very serious ethical questions about what is an acceptable age to start encouraging children to interact with devices.
 
-[Filip Healy, Mansha Manohar, George Green](http://www.amber-light.co.uk) - User Experience Consultants for Amberlight
+[Filip Healy, Mansha Manohar, George Green](http://www.amber-light.co.uk) - User Experience Consultants for Amberlight & [Gemma Newell](https://www.linkedin.com/pub/gemma-newell/13/a78/369) from the BBC
 
 ![speaker-photo](/assets/ux-for-kids/filip-healy.png)
 ![speaker-photo](/assets/ux-for-kids/mansha-manohar.png)
 ![speaker-photo](/assets/ux-for-kids/george-green.png)
+![speaker-photo](/assets/ux-for-kids/gemma-newell.png)
 
 Amberlight have been involved in numerous projects researching how children and families use technology. They have worked for companies such as BBC, Disney, Sony Playstation, Children's Society, Orange and Microsoft across a range of technologies from websites to games consoles. They have worked closely with schools, parents and academics to train their consultants and tailor their methods for working with children of all ages.
 
