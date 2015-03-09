@@ -24,9 +24,12 @@ We'll kick of the evening with a talk by Kevin, a digital strategist at London A
 
 [@coach4creatives](http://twitter.com/coach4creatives "")
 
-![Kevin O'Neill speaking](https://farm8.staticflickr.com/7292/15930421673_fbe5d64c05_m.jpg)
-![Kevin speaking at Fabrica](https://farm9.staticflickr.com/8628/16549504962_c048fc315d_m.jpg)
-![Audience at Fabrica](https://farm8.staticflickr.com/7309/16548923641_8d73058db5_m.jpg)
+
+![Kevin O'Neill speaking](https://farm8.staticflickr.com/7292/15930421673_fbe5d64c05.jpg)
+![Kevin speaking at Fabrica](https://farm9.staticflickr.com/8628/16549504962_c048fc315d.jpg)
+![Audience at Fabrica](https://farm8.staticflickr.com/7309/16548923641_8d73058db5.jpg)
+
+[View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
 ## Alison Coward - Top tips for running effective workshops
  
@@ -34,9 +37,9 @@ Alison will go through tips for designing and facilitating effective workshops t
 
 [@alisoncoward](http://twitter.com/alisoncoward "")
 
-![Alison Coward speaking](https://farm9.staticflickr.com/8604/15928055584_3f21b26444_m.jpg)
-![Alison from above](https://farm8.staticflickr.com/7288/16362936928_35839f7d9f_m.jpg)
-![Alison speaking at Fabrica](https://farm8.staticflickr.com/7290/15928067554_9562ed3973_m.jpg)
+![Alison Coward speaking](https://farm9.staticflickr.com/8604/15928055584_3f21b26444.jpg) ![Alison from above](https://farm8.staticflickr.com/7288/16362936928_35839f7d9f.jpg)
+
+[View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
 ## Matt Matheson -  Improvisation – the secret ingredient to successful collaboration
 
@@ -44,8 +47,8 @@ Matt is a creativity and collaboration consultant at NixonMcInnes, and he's goin
 
 [@DJmattmatheson](http://twitter.com/DJmattmatheson "")
 
-![Matt Matheson speaking](https://farm8.staticflickr.com/7386/16524647216_4572b174e6_m.jpg)
-![Matt speaking at Fabrica](https://farm9.staticflickr.com/8683/16524642996_6513c4a2e5_m.jpg)
-![Delegates](https://farm9.staticflickr.com/8651/16548965111_44844c9be6_m.jpg)
+![Matt speaking at Fabrica](https://farm9.staticflickr.com/8683/16524642996_6513c4a2e5.jpg)
+![Delegates](https://farm9.staticflickr.com/8651/16548965111_44844c9be6.jpg)
+![Matt Matheson speaking](https://farm8.staticflickr.com/7386/16524647216_4572b174e6.jpg)
 
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
