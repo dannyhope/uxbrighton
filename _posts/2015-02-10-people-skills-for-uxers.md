@@ -20,6 +20,8 @@ ticket-link:
 
 ## Kevin O'Neill - The 7 habits of highly frustrating stakeholders
 
+<div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/OzY3JbFrwO4" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 We'll kick of the evening with a talk by Kevin, a digital strategist at London Agency Centigrade. Clients come in lots of different flavours, and understanding how to handle them differently will help us to bring about successful project outcomes for our users. In this session Kevin will talk us through his taxonomy of stakeholders, and teach us how we can avoid tearing our hair out when we encounter the worst.
 
 [@coach4creatives](http://twitter.com/coach4creatives "")
