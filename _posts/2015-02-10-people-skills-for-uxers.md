@@ -37,7 +37,7 @@ We'll kick of the evening with a talk by Kevin, a digital strategist at London A
  
  <div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/3RwvbJgLwFA" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
  
-Alison will go through tips for designing and facilitating effective workshops that are productive and focused, covering techniques for better brainstorming to generate better ideas and ways to keep participants engaged. We'll also look at the all important follow-up and how to keep moment going whilst keeping creativity high.
+Alison will go through tips for designing and facilitating effective workshops that are productive and focused, covering techniques for better brainstorming to generate better ideas and ways to keep participants engaged. We'll also look at the all important follow-up and how to keep momentum going whilst keeping creativity high.
 
 [@alisoncoward](http://twitter.com/alisoncoward "")
 
