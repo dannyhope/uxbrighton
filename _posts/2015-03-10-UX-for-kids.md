@@ -55,6 +55,8 @@ Liz Leakey is Creative Director for BBC Children's and has worked at the BBC sin
 
 This talk will examine the different techniques used while working with children as design partners in the design of technology. Dressing up, mixing ideas, Playmobil and Lego are great tools for generating new design ideas. Colouring pens, stickers and cardboard mockups of devices are great tools to create low-fidelity prototypes.
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/45726078" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 [Monica Ferraro](https://twitter.com/playhows) - User Experience Consultant, Webcredible and Playhows. UXPA Secretary.
 
 ![speaker-photo](/assets/ux-for-kids/monica-ferraro.jpg)
