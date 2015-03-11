@@ -8,7 +8,7 @@ organisers:
 lanyrd-url: 
 upcoming: false
 homepage: true
-ticket-link: https://www.eventbrite.co.uk/e/ux-for-kids-tickets-15454086589
+ticket-link: 
 supporters:  
   - name: Interaction Design Foundation
     link-url: https://www.interaction-design.org/join/index.html?referralMd5sum=ux_for_kids_mar_10th_2015
