@@ -29,6 +29,8 @@ We'll look at involving children in the design process, how we can engage pre-sc
 
 As lead designer across the popular [CBeebies Playtime](http://www.bbc.co.uk/cbeebies/grownups/cbeebies-playtime-app), [CBeebies Storytime](http://www.bbc.co.uk/cbeebies/grownups/cbeebies-storytime-app) and [CBBC Go](http://www.bbc.co.uk/cbbc/findoutmore/cbbc-app-faq) apps, Leanne is going to talk about some of the processes she used, share tips and techniques on idea generation and how to involve young audiences to help create playful interfaces.
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/45743666" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 [Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) - Senior User Experience Designer, BBC, Future Media - CBeebies and CBBC at BBC
 
 ![speaker-photo](/assets/ux-for-kids/leanne-dougan.jpg)
