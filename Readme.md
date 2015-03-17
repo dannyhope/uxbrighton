@@ -86,6 +86,13 @@ Renders as [My example](http://example.com "my tooltip")
 
 ### Add/link to photos
 
+Photos from flickr.com get some automatic styling so they'll float when on desktop and fill the screen on mobile. Ideally ask Emmeline to upload your photos to the [UX Brighton flickr account](https://www.flickr.com/photos/uxbrighton) and then also link to the relevant album, e.g.
+
+    ![Kevin O'Neill speaking](https://farm8.staticflickr.com/7292/15930421673_fbe5d64c05.jpg)
+    ![Kevin speaking at Fabrica](https://farm9.staticflickr.com/8628/16549504962_c048fc315d.jpg)
+    ![Audience at Fabrica](https://farm8.staticflickr.com/7309/16548923641_8d73058db5.jpg)
+    [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
+
 ## People & venues
 
 Duplicate and edit one of the [people](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") or [venues](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/venues.html "")
