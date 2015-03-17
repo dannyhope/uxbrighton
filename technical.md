@@ -10,6 +10,7 @@
 | upcoming: | true / false |    |
 | organisers: | - Alex | N.B. Each person should be on their own line [pick from the organisers list](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/organisers.html "") |
 | lanyrd-url: | http://lanyrd.com/2013/ux-brighton-oktoberfest/ |
+|supporters:|  - name: Interaction Design Foundation<br>link-url: http://example.com/<br>image-url: http://example.com/logo.jpg  | Optional - use if you need logos & links at the bottom of an event page for supporters or sponsors. See [the UX for Kids event](http://uxbrighton.org.uk/UX-for-kids/) ([here's the event .md file](https://github.com/dannyhope/uxbrighton/blob/gh-pages/_posts/2015-03-10-UX-for-kids.md)) for an example.
 
 ## Style etc
 
