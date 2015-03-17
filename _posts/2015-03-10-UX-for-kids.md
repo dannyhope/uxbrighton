@@ -2,7 +2,7 @@
 layout: event-page
 title: UX for Kids
 start: 7pm
-venue: Hotel Du Vin
+venue: Bar Du Vin
 organisers: 
 - Jay
 lanyrd-url: 
@@ -33,8 +33,14 @@ As lead designer across the popular [CBeebies Playtime](http://www.bbc.co.uk/cbe
 
 [Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) - Senior User Experience Designer, BBC, Future Media - CBeebies and CBBC at BBC
 
-![speaker-photo](/assets/ux-for-kids/leanne-dougan.jpg)
 Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
+
+<hr>
+
+![Leanne Dougan presenting](https://farm9.staticflickr.com/8726/16650723780_f76766ff71_o_d.jpg)
+![Lean & Liz](https://farm9.staticflickr.com/8599/16837048991_b87c96aebb_o_d.jpg)
+
+[View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
 <a name="liz"></a>
 
@@ -48,8 +54,14 @@ Liz will talk about how the sprints gave us chance to explore how we could use t
 
 [Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a) - Creative Director, User Experience & Design at BBC Future Media
 
-![speaker-photo](/assets/ux-for-kids/liz-leakey.jpg)
 Liz Leakey is Creative Director for BBC Children's and has worked at the BBC since Jan 2012. Before that she ran her own web design business in the Lake District, after 7 years at the BBC in London, also in BBC Children's. During that time Liz designed sites for brands like Blue Peter and Live & Kicking (sat morning TV) as well as seeing the launch of the two digital channels (CBBC and CBeebies) in 2002. In 2012 she joined the iWonder team in MediaCityUK and worked on the new Guide format for iWonder, before joining BBC Children's in 2014. The world of designing for children has changed in 15 years, although the fundamentals have stayed the same, the processes we use and devices the audience access content on have changed the way we work beyond recognition.
+
+<hr>
+
+![Liz presenting](https://farm8.staticflickr.com/7623/16838484775_788956be01_o_d.jpg)
+![Leanne & Liz's laptops](https://farm9.staticflickr.com/8583/16215770564_e9210d687e_o_d.jpg)
+
+[View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
 <a name="monica-ferraro"></a>
 
@@ -64,6 +76,12 @@ This talk will examine the different techniques used while working with children
 ![speaker-photo](/assets/ux-for-kids/monica-ferraro.jpg)
 At Playhows, Monica is a user experience consultant specialising in children. Playhows help companies create better experiences for products and services through a children-centred design approach. Their work focuses on involving children directly in the design process, giving their needs and requirements extensive consideration at every stage of the process.
 
+<hr>
+
+![Monica presenting](https://farm9.staticflickr.com/8694/16631167447_c3f610bb2e_o_d.jpg)
+![Speakers watching Monica](https://farm9.staticflickr.com/8573/16216582604_5ff54e8bdf_o_d.jpg)
+[View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
+
 <a name="amberlight"></a>
 
 ## Little users: UX considerations for pre-school children
@@ -74,10 +92,11 @@ UX specialists Filip Healy, Mansha Manohar and George Green from Aberlight plus 
 
 [Filip Healy, Mansha Manohar, George Green](http://www.amber-light.co.uk) - User Experience Consultants for Amberlight & [Gemma Newell](https://www.linkedin.com/pub/gemma-newell/13/a78/369) from the BBC
 
-![speaker-photo](/assets/ux-for-kids/filip-healy.png)
-![speaker-photo](/assets/ux-for-kids/mansha-manohar.png)
-![speaker-photo](/assets/ux-for-kids/george-green.png)
-![speaker-photo](/assets/ux-for-kids/gemma-newell.png)
-
 Amberlight have been involved in numerous projects researching how children and families use technology. They have worked for companies such as BBC, Disney, Sony Playstation, Children's Society, Orange and Microsoft across a range of technologies from websites to games consoles. They have worked closely with schools, parents and academics to train their consultants and tailor their methods for working with children of all ages.
+
+<hr>
+
+![George, Mansha, Filip & Gemma](https://farm8.staticflickr.com/7639/16837416531_28af9cf557_o_d.jpg)
+![George presenting](https://farm8.staticflickr.com/7591/16631169547_9e86c7887f_o_d.jpg)
+[View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
