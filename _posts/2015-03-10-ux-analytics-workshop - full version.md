@@ -43,8 +43,7 @@ Reserve your place today for just £149.
 - To see what people do on the page (event tracking)
 - Find out where the problems are in my site
 	- Grouping content (by template for example) to see which sections or page genres need work
-	- Interaction
-	- Architecture (inc. search)
+	- Information architecture (including search)
 - Analysing user journeys in order to quickly see how people navigate through your website
 - Setting-up funnels to track how well your design is working for specific user goals/tasks
 - Find ways to increase conversions 
