@@ -13,7 +13,6 @@ stub:
 price: £149 + VAT until 13th March
 ---
 
-- Tuesday 14th of April (1 day)
 - Early Bird ticket £149 + VAT until 13th March, then £300 + VAT
 - Course lead by Luke Hay
 
