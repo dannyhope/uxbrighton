@@ -37,8 +37,9 @@ Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has 
 
 <hr>
 
-![Leanne Dougan presenting](https://farm9.staticflickr.com/8726/16650723780_f76766ff71_o_d.jpg)
-![Lean & Liz](https://farm9.staticflickr.com/8599/16837048991_b87c96aebb_o_d.jpg)
+<img src="https://farm9.staticflickr.com/8726/16650723780_ae5c910b7d_z_d.jpg" srcset="https://farm9.staticflickr.com/8726/16650723780_6fd06e38cf_k_d.jpg 1024w" alt="Leanne Dougan presenting" />
+
+<img src="https://farm9.staticflickr.com/8599/16837048991_f095424ef7_z_d.jpg" srcset="https://farm9.staticflickr.com/8599/16837048991_454d4a1c46_k_d.jpg 1024w" alt="Lean & Liz"/>
 
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
@@ -58,8 +59,8 @@ Liz Leakey is Creative Director for BBC Children's and has worked at the BBC sin
 
 <hr>
 
-![Liz presenting](https://farm8.staticflickr.com/7623/16838484775_788956be01_o_d.jpg)
-![Leanne & Liz's laptops](https://farm9.staticflickr.com/8583/16215770564_e9210d687e_o_d.jpg)
+<img src="https://farm8.staticflickr.com/7623/16838484775_503737e4eb_z_d.jpg" srcset="https://farm8.staticflickr.com/7623/16838484775_788956be01_o_d.jpg 1024w" alt="Liz presenting" />
+<img src="https://farm9.staticflickr.com/8583/16215770564_b9ff1cd13a_z_d.jpg" srcset="https://farm9.staticflickr.com/8583/16215770564_f740aef328_k_d.jpg 1024w" alt="Leanne & Liz's laptops" />
 
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
@@ -78,8 +79,9 @@ At Playhows, Monica is a user experience consultant specialising in children. Pl
 
 <hr>
 
-![Monica presenting](https://farm9.staticflickr.com/8694/16631167447_c3f610bb2e_o_d.jpg)
-![Speakers watching Monica](https://farm9.staticflickr.com/8573/16216582604_5ff54e8bdf_o_d.jpg)
+<img src="https://farm9.staticflickr.com/8694/16631167447_32565819f4_z_d.jpg" srcset="https://farm9.staticflickr.com/8694/16631167447_3317fa6dda_k_d.jpg 1024w" alt="Monica presenting" />
+<img src="https://farm9.staticflickr.com/8573/16216582604_79937d2558_z_d.jpg" srcset="https://farm9.staticflickr.com/8573/16216582604_ea07d03f40_k_d.jpg 1024w" alt="Speakers watching Monica" />
+
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
 <a name="amberlight"></a>
