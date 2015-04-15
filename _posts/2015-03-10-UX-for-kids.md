@@ -29,6 +29,12 @@ We'll look at involving children in the design process, how we can engage pre-sc
 
 As lead designer across the popular [CBeebies Playtime](http://www.bbc.co.uk/cbeebies/grownups/cbeebies-playtime-app), [CBeebies Storytime](http://www.bbc.co.uk/cbeebies/grownups/cbeebies-storytime-app) and [CBBC Go](http://www.bbc.co.uk/cbbc/findoutmore/cbbc-app-faq) apps, Leanne is going to talk about some of the processes she used, share tips and techniques on idea generation and how to involve young audiences to help create playful interfaces.
 
+The video Leanne shows at the beginning of her presentation is <a href='https://www.youtube.com/watch?v=C14fo_GwfMY'>this one</a>.
+
+### Talk
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/ogC6FLYiwE4" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+### Slides
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/45743666" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 [Leanne Dougan](https://www.linkedin.com/pub/leanne-dougan/14/905/528) - Senior User Experience Designer, BBC, Future Media - CBeebies and CBBC at BBC
@@ -53,6 +59,14 @@ The challenge is working collaboratively in a multi-discpinarly environment, to 
 
 Liz will talk about how the sprints gave us chance to explore how we could use the home pages for CBBC and CBeebies based around 4 emergent themes; Social, Content Discovery, Mobile First and Reflecting the Channels. 
 
+### Talk
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/V1LLq4pWryk" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+### Slides
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/47023048" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/47023674" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 [Liz Leakey](https://www.linkedin.com/pub/liz-leakey/3/982/17a) - Creative Director, User Experience & Design at BBC Future Media
 
 Liz Leakey is Creative Director for BBC Children's and has worked at the BBC since Jan 2012. Before that she ran her own web design business in the Lake District, after 7 years at the BBC in London, also in BBC Children's. During that time Liz designed sites for brands like Blue Peter and Live & Kicking (sat morning TV) as well as seeing the launch of the two digital channels (CBBC and CBeebies) in 2002. In 2012 she joined the iWonder team in MediaCityUK and worked on the new Guide format for iWonder, before joining BBC Children's in 2014. The world of designing for children has changed in 15 years, although the fundamentals have stayed the same, the processes we use and devices the audience access content on have changed the way we work beyond recognition.
@@ -70,6 +84,10 @@ Liz Leakey is Creative Director for BBC Children's and has worked at the BBC sin
 
 This talk will examine the different techniques used while working with children as design partners in the design of technology. Dressing up, mixing ideas, Playmobil and Lego are great tools for generating new design ideas. Colouring pens, stickers and cardboard mockups of devices are great tools to create low-fidelity prototypes.
 
+### Talk
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/_LOJuwosLkI" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+### Slides
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/45726078" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 [Monica Ferraro](https://twitter.com/playhows) - User Experience Consultant, Webcredible and Playhows. UXPA Secretary.
@@ -90,6 +108,10 @@ At Playhows, Monica is a user experience consultant specialising in children. Pl
 
 UX specialists Filip Healy, Mansha Manohar and George Green from Aberlight plus Gemma Newell from the BBC, will discuss some of the challenges of conducting user research with children under 4 and some of the design opportunities and principles that are important for this audience. In particular touchscreens have really lowered the entry level language and motor control skills required to interact with computer programs. On the one hand this provides great opportunities in early education and for busy parents to keep their children engaged, but on the other it raises some very serious ethical questions about what is an acceptable age to start encouraging children to interact with devices.
 
+### Talk
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/V3RSRGkRpq8" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+### Slides
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/45726274" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 [Filip Healy, Mansha Manohar, George Green](http://www.amber-light.co.uk) - User Experience Consultants for Amberlight & [Gemma Newell](https://www.linkedin.com/pub/gemma-newell/13/a78/369) from the BBC
