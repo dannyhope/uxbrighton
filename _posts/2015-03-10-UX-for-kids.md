@@ -7,7 +7,6 @@ organisers:
 - Jay
 lanyrd-url: 
 upcoming: false
-homepage: true
 ticket-link: 
 supporters:  
   - name: Interaction Design Foundation

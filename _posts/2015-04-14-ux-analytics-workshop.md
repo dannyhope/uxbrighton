@@ -3,13 +3,12 @@ layout: event-page
 title: UX Analytics Workshop
 venue: Lighthouse
 start: 10am
-ticket-link: sold-out
-upcoming: true
+upcoming: false
+homepage: true
 organisers:
 - Luke
 - Danny
 lanyrd-url: 
-stub:
 price: £149 + VAT until 13th March
 ---
 
