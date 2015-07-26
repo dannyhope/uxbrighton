@@ -6,7 +6,6 @@ start: TBC
 ticket-link: 
 upcoming: true
 stub: true
-noinfo: true
 organisers:
 - Luke
 ---
