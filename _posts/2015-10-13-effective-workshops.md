@@ -9,11 +9,11 @@ organisers:
 - Luke
 ---
 
-## How to run Effective Workshops
-
 - Early Bird tickets on sale soon
 - Course led by Alison Coward
 - Workshop date: 13th October 2015
+
+## About the workshop
 
 Workshops are a great way of getting working with clients, your own design team, or even your users. Workshops provide a way to come up with great ideas for a project whether running them at the ‘kick-off’ stage of a project or trying to solve a particular design challenge.
 
