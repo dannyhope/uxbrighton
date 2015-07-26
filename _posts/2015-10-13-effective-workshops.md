@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: How to run effective workshops
+title: How to run Effective Eorkshops
 venue: TBC
 start: TBC
 ticket-link: 
@@ -10,7 +10,7 @@ organisers:
 - Luke
 ---
 
-## How to run effective workshops
+## How to run Effective Eorkshops
 
 - Early Bird tickets on sale soon
 - Course led by Alison Coward
@@ -21,7 +21,7 @@ Workshops are a great way of getting working with clients, your own design team,
 
 Learn tips and techniques from Alison Coward, founder of Bracket. Alison gave a talk on her top 10 tips for running great workshops for UX Brighton in February and we’ve invited her to to run a full-day session to share the same methods she uses to get great results with her clients such as Barclays, Etsy, Channel 4 and Trendwatching.
 
-Workshops are becoming the heart of design, innovation and strategy projects.  You need to bring people together - your clients, your colleagues, users - to gather information, generate ideas and identify the best solutions. 
+**Workshops are becoming the heart of design, innovation and strategy projects.  You need to bring people together - your clients, your colleagues, users - to gather information, generate ideas and identify the best solutions.**
 
 The people you invite have limited time (and patience) and it’s your job to make it a productive session for everyone, whilst at the same time getting the rich and useful content you need to move the project forward. 
 
