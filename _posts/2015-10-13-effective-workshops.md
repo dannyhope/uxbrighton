@@ -12,7 +12,8 @@ organisers:
 
 ## How to run effective workshops
 
-...
+- Early Bird tickets on sale soon
+- Course lead by Alison Coward
 
 ## About the workshop
 
