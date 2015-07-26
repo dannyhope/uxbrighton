@@ -46,7 +46,7 @@ By the end of the session you’ll be able to:
 - make sure everyone stays motivated and engaged, and you get valuable contributions from everyone in the room
 - run highly creative (and fun) sessions whilst still making sure things get done
 
-If you have questions please feel free to email [email luke@lukehay.co.uk](mailto:luke@lukehay.co.uk ""). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
+If you have questions please feel free to email [luke@lukehay.co.uk](mailto:luke@lukehay.co.uk ""). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
 
 ## Who is this for?
 
