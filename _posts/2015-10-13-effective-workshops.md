@@ -29,6 +29,7 @@ If you’ve ever been part of a great workshop, you might think the facilitator 
 This interactive and practical one-day training is perfect for complete beginners, or people who have been ‘muddling’ along and want to brush up their skills. You’ll build your confidence and come away with tips, tricks and techniques to run your next workshop with ease. We’re limiting the number of places to ensure that the course is intimate and you can get your questions answered.
 
 We’ll cover things like:
+
 - the best place to start if you’ve never facilitated a workshop before, and how to run a great workshop even if you’re nervous about presenting
 - where you should focus your energy and time for the best sessions
 - making sure you get contributions from all personality types - junior and senior staff, introverts and extroverts
@@ -37,6 +38,7 @@ We’ll cover things like:
 
 We’ll look at how to design workshops that get results and concrete outcomes, group dynamics to look out for, tips for better brainstorming, facilitation techniques, methods that support and encourage creativity and how to keep momentum going after the workshop.
 By the end of the session you’ll be able to:
+
 - design and plan great workshops for different needs
 - deal with the common challenges that come up during workshops
 - lead great and effective brainstorming and ideation sessions
