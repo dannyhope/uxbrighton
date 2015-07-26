@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: How to run Effective Eorkshops
+title: How to run Effective Workshops
 venue: TBC
 start: TBC
 ticket-link: 
@@ -10,7 +10,7 @@ organisers:
 - Luke
 ---
 
-## How to run Effective Eorkshops
+## How to run Effective Workshops
 
 - Early Bird tickets on sale soon
 - Course led by Alison Coward
