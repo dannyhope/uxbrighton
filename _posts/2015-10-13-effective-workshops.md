@@ -65,7 +65,7 @@ UX people who want to run brilliant workshops. The day is also suitable for peop
 
 ## About Alison
 
-[<img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg">](http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg "")Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
+[<img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" align="right">](http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg "")Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
 
 ## Testimonials
 
