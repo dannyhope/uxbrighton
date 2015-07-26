@@ -5,7 +5,7 @@ venue: TBC
 start: TBC
 ticket-link: 
 upcoming: true
-stub: true
+stub: false
 organisers:
 - Luke
 ---
