@@ -3,7 +3,8 @@ layout: event-page
 title: How to run Effective UX Workshops
 venue: TBC
 start: TBC
-ticket-link: 
+ticket-link:
+homepage: true
 upcoming: true
 organisers:
 - Luke
