@@ -19,6 +19,8 @@ Workshops are a great way of getting working with clients, your own design team,
 
 Learn tips and techniques from Alison Coward, founder of Bracket. Alison gave a talk on her [top 10 tips for running great workshops](http://uxbrighton.org.uk/people-skills-for-uxers/ "") for UX Brighton in February and we’ve invited her to to run a full-day session to share the same methods she uses to get great results with her clients such as Barclays, Etsy, Channel 4 and Trendwatching.
 
+<div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/3RwvbJgLwFA" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+ 
 **Workshops are becoming the heart of design, innovation and strategy projects.  You need to bring people together - your clients, your colleagues, users - to gather information, generate ideas and identify the best solutions. We generally have a finite time to glean information from clients, this workshop will help ensure you're able to make the most of it.**
 
 The people you invite have limited time (and patience) and it’s your job to make it a productive session for everyone, whilst at the same time getting the rich and useful content you need to move the project forward. 
@@ -79,6 +81,12 @@ The workshop will be suitable for freelancers as well as agency and in-house emp
 <img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" alt="Alison Coward" />Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
 
 <img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" alt="Alison Coward" width="150" />
+
+![Alison Coward speaking](https://farm9.staticflickr.com/8604/15928055584_3f21b26444.jpg) ![Alison from above](https://farm8.staticflickr.com/7288/16362936928_35839f7d9f.jpg)
+
+![Alison Coward speaking](http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg)
+
+[Alison Coward speaking](http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg)
 
 ## Testimonials
 
