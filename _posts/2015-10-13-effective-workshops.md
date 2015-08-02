@@ -70,7 +70,7 @@ UX people who want to run brilliant workshops. The day is also suitable for peop
 - Business owners
 - App designers
 - Researchers
-...and other related disciplines
+- ...and other related disciplines
 
 The workshop will be suitable for freelancers as well as agency and in-house employees.
 
