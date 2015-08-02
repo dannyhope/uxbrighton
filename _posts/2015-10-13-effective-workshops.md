@@ -88,6 +88,21 @@ The workshop will be suitable for freelancers as well as agency and in-house emp
 
 [Alison Coward speaking](http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg)
 
+<img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg"
+srcset="https://farm9.staticflickr.com/8726/16650723780_6fd06e38cf_k_d.jpg
+1024w" alt="Leanne Dougan presenting" />
+
+<img srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg
+150w" alt="Leanne Dougan presenting" />
+
+<srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg
+150w" alt="Leanne Dougan presenting" />
+
+<img srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg alt="Leanne Dougan presenting" />
+
+<srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg alt="Leanne Dougan presenting" />
+
+
 ## Testimonials
 
 <blockquote>“Alison’s facilitated brainstorms leave no stone uncovered and every thought discussed. She is able to understand the journey of the idea and is able to objectively paint a map. Every time I walk away with a comprehensive understanding of the day, confident in the ideas generated, and necessary actions”. Araceli Camargo, founder THECUBE</blockquote>
