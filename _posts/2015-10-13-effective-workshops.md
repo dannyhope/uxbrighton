@@ -19,7 +19,7 @@ Workshops are a great way of getting working with clients, your own design team,
 
 Learn tips and techniques from Alison Coward, founder of Bracket. Alison gave a talk on her [top 10 tips for running great workshops](http://uxbrighton.org.uk/people-skills-for-uxers/ "") for UX Brighton in February and we’ve invited her to to run a full-day session to share the same methods she uses to get great results with her clients such as Barclays, Etsy, Channel 4 and Trendwatching.
 
-**Workshops are becoming the heart of design, innovation and strategy projects.  You need to bring people together - your clients, your colleagues, users - to gather information, generate ideas and identify the best solutions. We generally have a finite time to glean information from clients, this workshop will help ensure you're able to make the most of it. **
+**Workshops are becoming the heart of design, innovation and strategy projects.  You need to bring people together - your clients, your colleagues, users - to gather information, generate ideas and identify the best solutions. We generally have a finite time to glean information from clients, this workshop will help ensure you're able to make the most of it.**
 
 The people you invite have limited time (and patience) and it’s your job to make it a productive session for everyone, whilst at the same time getting the rich and useful content you need to move the project forward. 
 
