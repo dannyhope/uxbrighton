@@ -23,11 +23,6 @@ Learn tips and techniques from Alison Coward, founder of Bracket. Alison gave a 
 
 The people you invite have limited time (and patience) and it’s your job to make it a productive session for everyone, whilst at the same time getting the rich and useful content you need to move the project forward. 
 
-<img src="https://farm9.staticflickr.com/8726/16650723780_ae5c910b7d_z_d.jpg"
-srcset="https://farm9.staticflickr.com/8726/16650723780_6fd06e38cf_k_d.jpg
-1024w" alt="Leanne Dougan presenting" />
-
-
 Workshops are a way to get group harmony when there are diverse opinions within an organisation. Facilitating the discussion around the product, allowing stakeholders to have their say and come to consensus is a crucial part of the design process.
 
 If you’ve ever been part of a great workshop, you might think the facilitator worked some kind of magic. But it’s not a mystical talent that some people have and some don’t - it’s a skill that can be learned and developed like any other.
@@ -82,8 +77,7 @@ The workshop will be suitable for freelancers as well as agency and in-house emp
 ## About Alison
 
 <img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg"
-srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg
-1024w" alt="Alison Coward" />Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
+srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" alt="Alison Coward" />Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
 
 ## Testimonials
 
