@@ -78,6 +78,8 @@ The workshop will be suitable for freelancers as well as agency and in-house emp
 
 <img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" alt="Alison Coward" />Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
 
+<img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" alt="Alison Coward" width="150" />
+
 ## Testimonials
 
 <blockquote>“Alison’s facilitated brainstorms leave no stone uncovered and every thought discussed. She is able to understand the journey of the idea and is able to objectively paint a map. Every time I walk away with a comprehensive understanding of the day, confident in the ideas generated, and necessary actions”. Araceli Camargo, founder THECUBE</blockquote>
