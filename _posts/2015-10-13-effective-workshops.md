@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: How to run Effective Workshops
+title: How to run Effective UX Workshops
 venue: TBC
 start: TBC
 ticket-link: 
@@ -15,27 +15,36 @@ organisers:
 
 ## About the workshop
 
-Workshops are a great way of getting working with clients, your own design team, or even your users. Workshops provide a way to come up with great ideas for a project whether running them at the ‘kick-off’ stage of a project or trying to solve a particular design challenge.
+Workshops are a great way of getting working with clients, your own design team, or even your users. Workshops provide a way to come up with great ideas for a project whether running them at the ‘kick-off’ stage of a project or trying to solve a particular design challenge. The ability to run effective workshops is fast becoming one of the hallmarks of a good UXer.
 
 Learn tips and techniques from Alison Coward, founder of Bracket. Alison gave a talk on her [top 10 tips for running great workshops](http://uxbrighton.org.uk/people-skills-for-uxers/ "") for UX Brighton in February and we’ve invited her to to run a full-day session to share the same methods she uses to get great results with her clients such as Barclays, Etsy, Channel 4 and Trendwatching.
 
-**Workshops are becoming the heart of design, innovation and strategy projects.  You need to bring people together - your clients, your colleagues, users - to gather information, generate ideas and identify the best solutions.**
+**Workshops are becoming the heart of design, innovation and strategy projects.  You need to bring people together - your clients, your colleagues, users - to gather information, generate ideas and identify the best solutions. We generally have a finite time to glean information from clients, this workshop will help ensure you're able to make the most of it. **
 
 The people you invite have limited time (and patience) and it’s your job to make it a productive session for everyone, whilst at the same time getting the rich and useful content you need to move the project forward. 
 
+Workshops are a way to get group harmony when there are diverse opinions within an organisation. Facilitating the discussion around the product, allowing stakeholders to have their say and come to consensus is a crucial part of the design process.
+
 If you’ve ever been part of a great workshop, you might think the facilitator worked some kind of magic. But it’s not a mystical talent that some people have and some don’t - it’s a skill that can be learned and developed like any other.
 
-This interactive and practical one-day training is perfect for complete beginners, or people who have been ‘muddling’ along and want to brush up their skills. You’ll build your confidence and come away with tips, tricks and techniques to run your next workshop with ease. We’re limiting the number of places to ensure that the course is intimate and you can get your questions answered.
+This interactive and practical one-day training is perfect for beginners, or more experienced want to brush up their facilitation skills. You’ll build your confidence and come away with tips, tricks and techniques to run your next workshop with ease.
+
+We’re limiting the number of places to ensure that the course is intimate and you can get your questions answered.
+
+## What's covered
 
 We’ll cover things like:
 
-- the best place to start if you’ve never facilitated a workshop before, and how to run a great workshop even if you’re nervous about presenting
+- the best place to start if you’ve never facilitated a workshop before 
+- how to run a great workshop even if you’re nervous about presenting
+- when you should use workshops in your design/UX process
 - where you should focus your energy and time for the best sessions
 - making sure you get contributions from all personality types - junior and senior staff, introverts and extroverts
 - developing your own facilitation style
 - the ‘hidden’ factors that can get in the way of your workshop facilitation efforts
 
 We’ll look at how to design workshops that get results and concrete outcomes, group dynamics to look out for, tips for better brainstorming, facilitation techniques, methods that support and encourage creativity and how to keep momentum going after the workshop.
+
 By the end of the session you’ll be able to:
 
 - design and plan great workshops for different needs
@@ -62,6 +71,8 @@ UX people who want to run brilliant workshops. The day is also suitable for peop
 - App designers
 - Researchers
 ...and other related disciplines
+
+The workshop will be suitable for freelancers as well as agency and in-house employees.
 
 ## About Alison
 
