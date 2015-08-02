@@ -4,7 +4,6 @@ title: UX Analytics Workshop
 venue: Lighthouse
 start: 10am
 upcoming: false
-homepage: false
 organisers:
 - Luke
 - Danny
