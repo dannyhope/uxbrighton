@@ -78,30 +78,15 @@ The workshop will be suitable for freelancers as well as agency and in-house emp
 
 ## About Alison
 
-<img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" alt="Alison Coward" />Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
-
-<img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg" alt="Alison Coward" width="150" />
-
-![Alison Coward speaking](https://farm9.staticflickr.com/8604/15928055584_3f21b26444.jpg) ![Alison from above](https://farm8.staticflickr.com/7288/16362936928_35839f7d9f.jpg)
-
-![Alison Coward speaking](http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg)
-
-[Alison Coward speaking](http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg)
+Alison Coward has been working in, leading and facilitating creative teams for 15 years. She founded Bracket, a consultancy to help creative teams with better collaboration, and has designed and facilitated workshops and events for a wide range of clients including: Barclaycard, Channel 4, Etsy, The British Library, D&AD and Trendwatching.com
 
 <img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg"
-srcset="https://farm9.staticflickr.com/8726/16650723780_6fd06e38cf_k_d.jpg
+srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg
 1024w" alt="Leanne Dougan presenting" />
 
-<img srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg
-150w" alt="Leanne Dougan presenting" />
-
-<srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg
-150w" alt="Leanne Dougan presenting" />
-
-<img srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg alt="Leanne Dougan presenting" />
-
-<srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg alt="Leanne Dougan presenting" />
-
+<img src="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg"
+srcset="http://www.lukehay.co.uk/wp-content/uploads/2015/07/alisoncoward.jpg
+104w" alt="Leanne Dougan presenting" />
 
 ## Testimonials
 
