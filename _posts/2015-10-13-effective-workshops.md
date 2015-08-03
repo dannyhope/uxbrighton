@@ -30,7 +30,7 @@ Workshops are a way to get group harmony when there are diverse opinions within 
 
 If you’ve ever been part of a great workshop, you might think the facilitator worked some kind of magic. But it’s not a mystical talent that some people have and some don’t - it’s a skill that can be learned and developed like any other.
 
-This interactive and practical one-day training is perfect for beginners, or more experienced want to brush up their facilitation skills. You’ll build your confidence and come away with tips, tricks and techniques to run your next workshop with ease.
+This interactive and practical one-day training is perfect for beginners, or more experienced UXers who want to brush up their facilitation skills. You’ll build your confidence and come away with tips, tricks and techniques to run your next workshop with ease.
 
 We’re limiting the number of places to ensure that the course is intimate and you can get your questions answered.
 
