@@ -10,7 +10,7 @@ organisers:
 - Luke
 ---
 
-- Early Bird tickets on sale soon
+- [Early Bird tickets on sale now](https://www.eventbrite.co.uk/e/ux-brighton-how-to-run-effective-workshops-tickets-15973117023 "")
 - Course led by Alison Coward
 - Workshop date: 13th October 2015
 
