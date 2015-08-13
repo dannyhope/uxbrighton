@@ -13,7 +13,9 @@ price: Early Birds from £250 + VAT
 
 - [Early Bird tickets on sale now](https://www.eventbrite.co.uk/e/ux-brighton-how-to-run-effective-workshops-tickets-15973117023 "")
 - Course led by Alison Coward
-- Workshop date: 13th October 2015
+- Workshop date: 13th October 2015 
+- Takes place at 68 Middle Street, Brighton
+- Learn how to facilitate great workshops! 
 
 ## About the workshop
 
