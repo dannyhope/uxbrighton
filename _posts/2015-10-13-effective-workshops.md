@@ -3,7 +3,7 @@ layout: event-page
 title: How to run Effective UX Workshops
 venue: TBC
 start: TBC
-ticket-link:
+ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-how-to-run-effective-workshops-tickets-15973117023
 homepage: true
 upcoming: true
 organisers:
