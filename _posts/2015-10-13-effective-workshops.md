@@ -1,13 +1,14 @@
 ---
 layout: event-page  
 title: How to run Effective UX Workshops
-venue: TBC
-start: TBC
-ticket-link: 
-homepage: true
+venue: 68 Middle Street
+start: 10am
+ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-how-to-run-effective-workshops-tickets-15973117023
 upcoming: true
+homepage: true
 organisers:
 - Luke
+price: Early Birds from £250 + VAT
 ---
 
 - [Early Bird tickets on sale now](https://www.eventbrite.co.uk/e/ux-brighton-how-to-run-effective-workshops-tickets-15973117023 "")
