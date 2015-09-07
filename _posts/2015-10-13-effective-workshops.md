@@ -8,7 +8,7 @@ upcoming: true
 homepage: true
 organisers:
 - Luke
-price: Early Birds from £250 + VAT
+price: From £350 + VAT
 ---
 
 - [Early Bird tickets on sale now](https://www.eventbrite.co.uk/e/ux-brighton-how-to-run-effective-workshops-tickets-15973117023 "")
