@@ -6,6 +6,7 @@ start: 7pm
 ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-lightning-edition-tickets-19098567329
 upcoming: true
 organiser: Andy Parker
+price: Donations welcome
 ---
 
 Inspired by the great work from [300 Seconds](300seconds.co.uk), we’re hosting a special lightning event and we would like you to join us and take part!
