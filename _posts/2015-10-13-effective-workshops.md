@@ -11,8 +11,6 @@ price: From £350 + VAT
 ---
 
 - Course led by Alison Coward
-- Workshop date: 13th October 2015 
-- Takes place at 68 Middle Street, Brighton
 - Learn how to facilitate great workshops! 
 
 ## About the workshop
