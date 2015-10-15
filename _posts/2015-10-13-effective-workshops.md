@@ -4,7 +4,7 @@ title: How to run Effective UX Workshops
 venue: 68 Middle Street
 start: 10am
 ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-how-to-run-effective-workshops-tickets-15973117023
-upcoming: true
+upcoming: false
 homepage: true
 organisers:
 - Luke
