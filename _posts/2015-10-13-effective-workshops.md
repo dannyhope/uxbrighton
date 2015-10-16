@@ -4,7 +4,6 @@ title: How to run Effective UX Workshops
 venue: 68 Middle Street
 start: 10am
 upcoming: false
-homepage: true
 organisers:
 - Luke
 price: From £350 + VAT
