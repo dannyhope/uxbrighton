@@ -27,6 +27,6 @@ Coming Soon..
 You would? that's great!
 Complete this submission form, it's just to provide a short outline of your talk and a bit about you. Or you can contact me directly (andy.parker@clearleft.com) if you would like to know more.
 
-Submit your talk [http://goo.gl/forms/jXOJdnbzOx](http://goo.gl/forms/jXOJdnbzO)
+Submit your talk [http://goo.gl/forms/jXOJdnbzOx](http://goo.gl/forms/jXOJdnbzOxO)
 
 Your talk must be no more than 5 minutes long (it is timed) and it is entirely up to you whether you want to use slides but, they have to be static. Subject matter can be anything you like but must not be a sales pitch for your company or product (unless it is a side-project).
