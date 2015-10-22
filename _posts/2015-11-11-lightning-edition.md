@@ -18,7 +18,15 @@ Whether you’ve spoken before in public or not, we’d like you to give it a go
 
 There are no subjects too big or too small, we are a wonderfully diverse community of people with varying levels of experience. If you’ve only just started your career, or you’re long in the tooth - this is a great time to give it a go, whether you want to share how to manage a backlog, run a user test or highlight the many, many flaws in video game UI - everything is welcome.
 
-##I’d like to speak
-Would you? That’s great! Send your presentation idea to [andy.parker@clearleft.com](mailto:andy.parker@clearleft.com) and we’ll talk about it together.
+##Speakers Lineup:
+
+Coming Soon..
+
+##I would Like to Speak
+
+You would? that's great!
+Complete this submission form, it's just to provide a short outline of your talk and a bit about you. Or you can contact me directly (andy.parker@clearleft.com) if you would like to know more.
+
+Submit your talk (http://goo.gl/forms/jXOJdnbzOx)
 
 Your talk must be no more than 5 minutes long (it is timed) and it is entirely up to you whether you want to use slides but, they have to be static. Subject matter can be anything you like but must not be a sales pitch for your company or product (unless it is a side-project).
