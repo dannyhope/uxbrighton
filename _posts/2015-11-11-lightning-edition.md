@@ -22,9 +22,9 @@ There are no subjects too big or too small, we are a wonderfully diverse communi
 
 Coming Soon..
 
-##I would Like to Speak
+##I Would Like to Speak
 
-You would? that's great!
+You would? That's great!
 Complete this submission form, it's just to provide a short outline of your talk and a bit about you. Or you can contact me directly (andy.parker@clearleft.com) if you would like to know more.
 
 Submit your talk [http://goo.gl/forms/jXOJdnbzOx](http://goo.gl/forms/jXOJdnbzOxO)
