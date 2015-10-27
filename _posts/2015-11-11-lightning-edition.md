@@ -19,11 +19,11 @@ Whether you’ve spoken before in public or not, we’d like you to give it a go
 There are no subjects too big or too small, we are a wonderfully diverse community of people with varying levels of experience. If you’ve only just started your career, or you’re long in the tooth - this is a great time to give it a go, whether you want to share how to manage a backlog, run a user test or highlight the many, many flaws in video game UI - everything is welcome.
 
 ##Speakers Lineup
-*Ben Scammels: The anatomy of an (international) payment page
-*James Christie: Energy efficient web design
-*Paul Swain: TBA
-*Jeremy Rosenberg: TBA
-*Nick Kuh: TBA
+*Ben Scammels: The anatomy of an (international) payment page..
+*James Christie: Energy efficient web design..
+*Paul Swain: TBA..
+*Jeremy Rosenberg: TBA..
+*Nick Kuh: TBA..
 
 There's still time to apply, see details below.
 
