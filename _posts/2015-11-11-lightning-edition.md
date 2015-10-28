@@ -24,6 +24,8 @@ There are no subjects too big or too small, we are a wonderfully diverse communi
 + Paul Swain: TBA 
 + Jeremy Rosenberg: TBA 
 + Nick Kuh: TBA 
++ Enor Anidi: TBA
++ Ellen De Vries: Facing your inner content critic
 
 There's still time to apply, see details below.
 
