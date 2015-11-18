@@ -79,13 +79,8 @@ layout: default
 		{% include supporters.html %}
 
 		{% if page.noinfo == true %}
-		<aside class="contribute-content">
-			This page is a stub, help us fill it up
-			<ul>
-				<li><a href="mailto:feedback@uxbrighton.org.uk">Send us missing content (text, web pages, photos, etc)</a></li>
-				<li><a href="https://github.com/dannyhope/uxbrighton/issues/new">Submit a bug on Github</a></li>
-				<li><a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}">Edit this page</a></li>
-			</ul>
+		<aside>
+			<a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}">Edit this page on Github</a>
 		</aside>
 		{% endif %}	
 		</div>					
