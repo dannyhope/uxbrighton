@@ -1,5 +1,6 @@
 ---
 layout: event-page
+upcoming: no
 title: Lightning Edition
 venue: 68 Middle Street
 start: 7pm
@@ -19,8 +20,9 @@ Whether you’ve spoken before in public or not, we’d like you to give it a go
 There are no subjects too big or too small, we are a wonderfully diverse community of people with varying levels of experience. If you’ve only just started your career, or you’re long in the tooth - this is a great time to give it a go, whether you want to share how to manage a backlog, run a user test or highlight the many, many flaws in video game UI - everything is welcome.
 
 ##Speakers Lineup
-+ Ben Scammels
++ Ben Scammels 
 + Enor Anidi
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/3c0X0SbDWiM" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 + Paul Swain
 + Ellen De Vries
 + Jeremy Rosenberg
