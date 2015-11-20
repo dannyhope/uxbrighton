@@ -24,8 +24,12 @@ There are no subjects too big or too small, we are a wonderfully diverse communi
 + Enor Anidi
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/3c0X0SbDWiM" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 + Paul Swain
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/jcwPAvC7rKw" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 + Ellen De Vries
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/OADqjKuJNyU" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 + Jeremy Rosenberg
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/f0Qq2MX48w0" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 + Danielle Huntrods
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/vHte5BUfVQs" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 UX Brighton events are not just for UX practitioners: designers, content writers, anyone working on digital projects are all welcome.
