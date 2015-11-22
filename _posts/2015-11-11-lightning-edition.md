@@ -21,6 +21,7 @@ There are no subjects too big or too small, we are a wonderfully diverse communi
 
 ##Speakers Lineup
 + Ben Scammels 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/cwhX8TMM8Eo" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 + Enor Anidi
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/3c0X0SbDWiM" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 + Paul Swain
