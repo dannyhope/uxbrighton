@@ -12,7 +12,13 @@ ishomepage: true
 		<!-- Ticket box -->
 		{% if page.ticket-link %}
 			<section class="event-meta">
-				<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£5 + VAT{% endif %}</span></a><!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+				{% if page.ticket-link == 'sold-out' %}
+					<a class="ticket-button">Sorry, sold out</a>
+				{% elsif page.ticket-link == 'unticketed' %}
+					<a class="ticket-button">Unticketed event</a><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+				{% else %}
+					<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£5 + VAT{% endif %}</span></a><!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+				{% endif %}
 			    {{page.date | date: "%d %b"}}
 				{% if page.start %}
 					<span class="event-time">{{page.start}}</span>
@@ -22,7 +28,7 @@ ishomepage: true
 				    <span class="_zonecode">36</span>
 				    <span class="_summary">{{page.title}}</span>
 				    <span class="_description"></span>
-				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD{% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL{% else %}{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
+				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD{% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL{% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
 					</span>
 				    <span class="_organizer"></span>
 				    <span class="_facebook_event"></span>
