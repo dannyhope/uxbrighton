@@ -14,4 +14,4 @@ organisers:
 
 ## UXmas Party!
 
-### The next UX Brighton event is our Xmas party. We’ll order takeaway curry and BYO booze, then around 9pm go off to a nearby pub. No tickets, just let us know if you're coming along :)
+### The next UX Brighton event is our Xmas party. We’ll order takeaway curry and BYO booze, then around 9pm go off to a nearby pub. No tickets, just let us know if you're coming along by tweeting @uxbri or one of the organisers on the day :)
