@@ -4,6 +4,7 @@ title: UXmas Party!
 venue: Hatch, 1 Preston Rd, Brighton BN1 4QU
 start: 7pm
 upcoming: true
+homepage: true
 organisers:
 - Patrick
 - Luke
