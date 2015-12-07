@@ -3,12 +3,13 @@ layout: event-page
 title: UX Analytics Workshop
 venue: Lighthouse
 start: 10am
-upcoming: false
+ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
+upcoming:
 organisers:
 - Luke
 - Danny
-lanyrd-url: 
-price: £149 + VAT until 13th March
+stub: true
+price: £149 + VAT
 ---
 
 - Early Bird ticket £149 + VAT until 13th March, then £300 + VAT
