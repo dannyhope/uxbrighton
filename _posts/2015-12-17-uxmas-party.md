@@ -2,7 +2,7 @@
 layout: event-page  
 title: UXmas Party!
 venue: Hatch
-start: 7pm
+start: 07:00pm
 homepage: true
 upcoming: true
 ticket-link: unticketed
