@@ -3,8 +3,6 @@ layout: event-page
 title: UXmas Party!
 venue: Hatch
 start: 07:00pm
-homepage: true
-upcoming: true
 ticket-link: unticketed
 organisers:
 - Patrick
