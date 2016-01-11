@@ -3,7 +3,6 @@ layout: event-page
 title: Lightning Edition Part 2
 venue: 68 Middle Street
 start: 7pm
-ticket-link: 
 upcoming: true
 homepage: true
 organisers:
