@@ -15,8 +15,8 @@ This evening event covers the subject of personalisation. Our speakers will be c
 
 # Speakers
 * Joe Doveton
-* * Steve Cathcart
-* * Harry Brignull
+* Steve Cathcart
+* Harry Brignull
 
 More details will be available soon but we recommend buying your ticket ASAP as this event is likely to sell out.
 
