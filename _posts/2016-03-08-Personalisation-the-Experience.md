@@ -9,6 +9,7 @@ upcoming: true
 homepage: true
 organisers:
 - Luke
+price: £7 + VAT & Eventbrite fee
 ---
 
 This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience. Our speakers are:
