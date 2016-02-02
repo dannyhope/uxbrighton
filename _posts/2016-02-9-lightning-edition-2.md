@@ -3,8 +3,8 @@ layout: event-page
 title: Lightning Edition 2
 venue: 68 Middle Street
 start: 7pm
-upcoming: true
-homepage: true
+upcoming: false
+homepage: false
 organisers:
 - Andy
 ---
