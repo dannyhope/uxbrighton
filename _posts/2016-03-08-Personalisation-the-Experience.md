@@ -1,13 +1,12 @@
 ---
 layout: event-page  
-title: Personalisation the experience
+title: "Personalisation: The experience"
 venue: 68 Middle Street
 start: 7pm
-ticket-link: 
 upcoming: true
 homepage: true
 organisers:
--Luke
+- Luke
 ---
 
 ##Personalisation: The Experience
