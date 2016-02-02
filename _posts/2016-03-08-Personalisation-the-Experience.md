@@ -10,8 +10,6 @@ organisers:
 - Luke
 ---
 
-## Personalising the Experience
-
 This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience. Our speakers are:
 
 # Speakers
@@ -19,5 +17,5 @@ This evening event covers the subject of personalisation. Our speakers will be c
 * Steve Cathcart
 * Harry Brignull
 
-More details will be available soon but we recommend buying your ticket ASAP as this event is likely to sell out.
+More details will be available soon but we recommend <a href='https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw'>buying your ticket<a/> ASAP as this event is likely to sell out.
 
