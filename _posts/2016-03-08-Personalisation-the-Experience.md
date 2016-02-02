@@ -9,11 +9,11 @@ organisers:
 - Luke
 ---
 
-##Personalisation: The Experience
+## Personalisation: The Experience
 
 This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience. Our speakers are:
 
-#Speakers
+# Speakers
 * Joe Doveton
 * Steve Cathcart
 * Harry Brignull
