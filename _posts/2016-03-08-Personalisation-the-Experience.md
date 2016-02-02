@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: "Personalisation: The experience"
+title: "Personalisation: The Experience"
 venue: 68 Middle Street
 start: 7pm
 upcoming: true
