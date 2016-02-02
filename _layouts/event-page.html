@@ -21,15 +21,15 @@ layout: default
 					{% elsif page.ticket-link == 'unticketed' %}
 							<a class="ticket-button">Unticketed event</a>
 					{% else %}
-						<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£5 + VAT{% endif %}</span></a>
+						<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£5 + VAT + Eventbrite fee{% endif %}</span></a>
 					{% endif %}
 					<!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 			    {{page.date | date: "%d %b"}}
 				{% if page.start %}
 					<span class="event-time">{{page.start}}</span>
 				{% endif %}
-				    <span class="_start">{{page.date | date: "%d %B, %Y"}}  {{page.start}}</span>
-				    <span class="_end">{{page.date | date: "%d %B, %Y"}} {{page.end}}</span>
+				    <span class="_start">{{page.date | date: "%Y-%m-%d"}} {{page.start}}</span>
+				    <span class="_end">{{page.date | date: "%Y-%m-%d"}} {{page.end}}</span>
 				    <span class="_zonecode">36</span>
 				    <span class="_summary">{{page.title}}</span>
 				    <span class="_description"></span>
