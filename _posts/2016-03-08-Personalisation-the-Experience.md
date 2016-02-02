@@ -2,7 +2,8 @@
 layout: event-page  
 title: "Personalising the Experience"
 venue: 68 Middle Street
-start: 07pm
+start: 7:00pm
+end: 10:00pm
 ticket-link: https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw
 upcoming: true
 homepage: true
