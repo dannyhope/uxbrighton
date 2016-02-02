@@ -1,5 +1,5 @@
 name: UX Brighton
-markdown: redcarpet
+markdown: kramdown
 permalink: /:title/
 pygments: true
 future: true
