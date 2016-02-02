@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: "Personalisation: The Experience"
+title: "Personalising the Experience"
 venue: 68 Middle Street
 start: 7pm
 upcoming: true
@@ -9,14 +9,14 @@ organisers:
 - Luke
 ---
 
-## Personalisation: The Experience
+## Personalising the Experience
 
 This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience. Our speakers are:
 
 # Speakers
 * Joe Doveton
-* Steve Cathcart
-* Harry Brignull
+* * Steve Cathcart
+* * Harry Brignull
 
 More details will be available soon but we recommend buying your ticket ASAP as this event is likely to sell out.
 
