@@ -12,7 +12,9 @@ organisers:
 price: £7 + VAT & Eventbrite fee
 ---
 
-This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience.
+This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience. They will be discussing different approaches and how new technology has enabled true one to one personalisation leading to truely personalised experiences. 
+
+More details will be available soon but we recommend <a href='https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw'>buying your ticket<a/> ASAP as this event is likely to sell out.
 
 # Speakers
 
@@ -39,6 +41,4 @@ Harry is an Independent User Experience Consultant. Recent clients include HMRC,
 Joe is highly a experienced digital business leader with expertise in traffic driving disciplines (display advertising, social, SEO, PPC, App Store Optimisation) and conversion (usability, MVT/AB testing) and an holistic approach to both.
 
 Talk details coming soon.
-
-More details will be available soon but we recommend <a href='https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw'>buying your ticket<a/> ASAP as this event is likely to sell out.
 
