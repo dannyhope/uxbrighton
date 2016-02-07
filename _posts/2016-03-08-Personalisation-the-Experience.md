@@ -14,7 +14,7 @@ price: £7 + VAT & Eventbrite fee
 
 This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience. They will be discussing different approaches and how new technology has enabled true one to one personalisation leading to truely personalised experiences. 
 
-More details will be available soon but we recommend <a href='https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw'>buying your ticket<a/> ASAP as this event is likely to sell out.
+More details will be available on the talks soon but we highly recommend <a href='https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw'>buying your ticket<a/> ASAP as this event is likely to sell out. Ticket price includes a beer or two, and possibly some pringles.
 
 # Speakers
 
