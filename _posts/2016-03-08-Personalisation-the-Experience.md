@@ -20,7 +20,7 @@ More details will be available on the talks soon but we highly recommend <a href
 
 <h3>Steve Cathcart</h3>
 
-Steve has recently joined The <a href="http://www.thestudentroom.co.uk/">The Student Room Group</a> to define and lead a new data and personalisation strategy and he will be talking about about his approach to tackling a personalisation strategy, how to get started, what to expect and more. 
+Steve has recently joined <a href="http://www.thestudentroom.co.uk/">The Student Room Group</a> to define and lead a new data and personalisation strategy and he will be talking about about his approach to tackling a personalisation strategy, how to get started, what to expect and more. 
 
 The Student Room Group have invested in some exciting new data and personalisation technologies, and it is up to Steve to ensure these are used effectively to give their students the best possible experience. Steve’s end goal is to build a single view of the customer to deliver true one to one personalisation across all touchpoints including web, email and mobile apps.
 
