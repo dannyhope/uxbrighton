@@ -28,7 +28,7 @@ He'll be drawing on his own real world examples, including his time with TUI UK&
 
 This presentation will focus on personalisation as a platform to drive a joined up customer experience across platforms such as website, CRM etc. to drive customer engagement and satisfaction.
 
-Steve is the Winner of multiple data marketing awards, including the Grand Prix at the Marketing Week Data Strategy awards He is currently Data Marketing Manager at <a href="http://www.thestudentroom.co.uk/">The Student Room Group</a>.
+Steve is the Winner of multiple data marketing awards, including the Grand Prix at the Marketing Week Data Strategy awards. He is currently Data Marketing Manager at <a href="http://www.thestudentroom.co.uk/">The Student Room Group</a>.
 
 <h3>Harry Brignull</h3>
 
