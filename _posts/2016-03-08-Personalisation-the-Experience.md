@@ -38,7 +38,6 @@ Harry is an Independent User Experience Consultant. Recent clients include HMRC,
 
 <h3>Joe Doveton</h3>
 
-Joe is highly a experienced digital business leader with expertise in traffic driving disciplines (display advertising, social, SEO, PPC, App Store Optimisation) and conversion (usability, MVT/AB testing) and an holistic approach to both.
+UX is planning the perfect murder. An abandoned basket is a crime scene. Ryanair checkouts were built by the Krays. Yes, the more you look at it, the more site optimisation is like detective work. In this session, DCI Joe “Dovers” Doveton takes you on a journey of deduction and discovery into the specific discipline of personalisation. From the initial forensic examination of analytics, to the creation of a suspect list to draw up segments, to the interpretation of user motivations and prediction of behaviour, this session is a step by step guide to building a personalisation protocol and the tools you can use to give your users the experience they want, when they want it. Guv. 
 
-Talk details coming soon.
-
+Joe Doveton is a highly experienced digital marketer with 18 years on the clock working for major  PLCs and start ups. He is a respected commentator on cultural approaches to conversion and contributor to media like <a href="http://www.thedrum.com/opinion/2015/05/01/general-election-2015-which-party-polling-best-website-performance">The Drum</a>, <a href="http://www.smartinsights.com/digital-marketing-strategy/job-globlmax-colours-fly-away/">Smart Insights</a> and <a href="https://econsultancy.com/blog/authors/joe-doveton-2/">eConsultancy</a>.
