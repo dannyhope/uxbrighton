@@ -33,7 +33,6 @@ Name the file with the event date and event title, e.g.
     - Rob
     lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
     upcoming: true
-    stub: true
     noinfo: true
     ---
 
@@ -48,11 +47,11 @@ Add this to the frontmatter:
     upcoming: true
     stub: false
 
-### Mark it not be a stub
+### Mark a page as being empty (these pages are sometimes known as stubs)
 
 Add this to the frontmatter
 
-    noinfo: false
+    noinfo: true
     
 ### Prevent the conference page from taking over the homepage
 
