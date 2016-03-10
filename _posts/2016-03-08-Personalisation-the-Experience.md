@@ -44,4 +44,4 @@ Steve is the Winner of multiple data marketing awards, including the Grand Prix 
 
 ## Organisers
 
-<a href="/about#luke">Luke</a>
+Curator – <a href="/about#luke">Luke Hay</a>
