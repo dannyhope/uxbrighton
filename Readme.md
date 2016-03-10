@@ -32,24 +32,27 @@ Name the file with the event date and event title, e.g.
     - Jenni
     - Rob
     lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
+    upcoming: true
+    stub: true
+    noinfo: true
     ---
 
     ## Talk title
     
     ## Talk title
     
-### Hide it from the public
+### Make it public
 
-To prevent the event from appearing in the event list make sute the frontmatter has these values:
+Add this to the frontmatter:
 
     upcoming: true
-    stub: true
+    stub: false
 
-### Mark it as a stub
+### Mark it not be a stub
 
-In order to make the word "stub" appear next the the event’s title in the events menu, make sure the frontmatter includes:
+Add this to the frontmatter
 
-    noinfo: true [adds "Stub" in the menu]
+    noinfo: false
     
 ### Prevent the conference page from taking over the homepage
 
