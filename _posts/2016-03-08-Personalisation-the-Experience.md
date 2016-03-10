@@ -7,8 +7,6 @@ end: 10:00pm
 ticket-link: https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw
 upcoming: false
 homepage: true
-organisers:
-- Luke
 price: £7 + VAT & Eventbrite fee
 ---
 
@@ -46,4 +44,4 @@ Steve is the Winner of multiple data marketing awards, including the Grand Prix 
 
 ## Organisers
 
-[Luke](/anout#luke "")
+- [Luke](http://uxbrighton.org/about#luke "")
