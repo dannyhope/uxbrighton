@@ -5,7 +5,7 @@
 
 Get old content from the [über spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuJrhF0oRyeRcnVFTy0tbnotMzZ1MTNCYk5XaTVuZlE&usp=drive_web#gid=0 "list of events on Google Docs")
 
-## Add events
+## Add an event page
 
 **[Create a new file in _posts](https://github.com/dannyhope/uxbrighton/new/gh-pages/_posts "Add a file to _posts using Github")**
 
@@ -15,30 +15,33 @@ Name the file with the event date and event title, e.g.
 
     ---
     layout: event-page	
-    title: [e.g. UX, Human Factors & Ergonomics]
-    venue: [e.g. Hotel Du Vin or Fabrica or Lighthouse more are in venues.html]
-    start: [e.g. 7pm]
-    ticket-link: [e.g. http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891]
+    title: e.g. UX, Human Factors & Ergonomics
+    venue: e.g. Hotel Du Vin or Fabrica or Lighthouse more are in venues.html
+    start: e.g. 7pm
+    ticket-link: e.g. http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
     upcoming: true / false
-    organisers:
-    - Alex
-    - Tim
-    - Patrick
-    - Luke
-    - Danny
-    - Tom
-    - Harry
-    - Jay
-    - Jenni
-    - Rob
-    lanyrd-url: [e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/]
+    lanyrd-url: e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/
     upcoming: true
+    stub: false
     noinfo: true
     ---
 
     ## Talk title
     
     ## Talk title
+    
+    ## Organisers [delete as applicable]
+    
+    - [Luke](http://uxbrighton.org.uk/about/#luke "")
+    - [Alex](http://uxbrighton.org.uk/about/#alex "")
+    - [Tim](http://uxbrighton.org.uk/about/#tim "")
+    - [Patrick](http://uxbrighton.org.uk/about/#patrick "")
+    - [Danny](http://uxbrighton.org.uk/about/#danny "")
+    - [Tom](http://uxbrighton.org.uk/about/#tom "")
+    - [Harry](http://uxbrighton.org.uk/about/#harry "")
+    - [Jay](http://uxbrighton.org.uk/about/#jay "")
+    - [Jenni](http://uxbrighton.org.uk/about/#jenni "")
+    - [Rob](http://uxbrighton.org.uk/about/#rob "")
     
 ### Make it public
 
