@@ -30,4 +30,4 @@ Boon's talk will discuss the relationship between typography and information arc
 
 ## Organisers
 
-- [Alex](http://uxbrighton.org.uk/about/#alex "")
+- <a href="http://uxbrighton.org.uk/about/#alex">Alex</a>

@@ -57,6 +57,6 @@ Matt is a creativity and collaboration consultant at NixonMcInnes, and he's goin
 
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
-## Organisers [delete as applicable]
+## Organisers
 
-- [Rob](http://uxbrighton.org.uk/about/#rob "")
+- <a href="http://uxbrighton.org.uk/about/#rob">Rob</a>

@@ -44,4 +44,4 @@ Steve is the Winner of multiple data marketing awards, including the Grand Prix 
 
 ## Organisers
 
-Curator – <a href="/about#luke">Luke Hay</a>
+- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>

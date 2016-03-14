@@ -52,5 +52,5 @@ User Experience Designer and CEO of Clearleft, Andy is the author of CSS Mastery
 
 ## Organisers
 
-- [Alex](http://uxbrighton.org.uk/about/#alex "")
-- [Patrick](http://uxbrighton.org.uk/about/#patrick "")
+- <a href="http://uxbrighton.org.uk/about/#alex">Alex</a>
+- <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>

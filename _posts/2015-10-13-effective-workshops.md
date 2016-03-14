@@ -87,6 +87,6 @@ Alison Coward has been working in, leading and facilitating creative teams for 1
 
 <blockquote>“I was very impressed by the way in which Alison managed the exchanges between group members, and I found her ability to distil (and reflect back) the most important ideas of the think-tank made for a remarkable and productive session. I would highly recommend Alison to anyone looking for a fantastic facilitator.” Nathalie Nahai, The Web Psychologist</blockquote>
 
-## Organisers [delete as applicable]
+## Organisers
 
-- [Luke](http://uxbrighton.org.uk/about/#luke "")
+- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>

@@ -16,4 +16,4 @@ conference: false
 
 ## Organisers
 
-- [Harry](http://uxbrighton.org.uk/about/#harry "")
+- <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>

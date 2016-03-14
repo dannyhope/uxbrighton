@@ -35,4 +35,4 @@ Webnographer: Is a new service for Asynchronous Remote User Testing. Webnographe
 
 ## Organisers
 
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

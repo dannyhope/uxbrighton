@@ -31,4 +31,4 @@ Daniel Soltis is a user experience designer and creative technologist at Moving 
 
 ## Organisers
 
-- [Alex](http://uxbrighton.org.uk/about/#alex "")
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

@@ -31,4 +31,4 @@ You don't have to have a polished presentation or anything just spend 5-10 minut
 
 ## Organisers
 
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

@@ -40,4 +40,4 @@ Joshua will start of by talking about some of the assistive technologies used cu
 
 ## Organisers
 
-- [Luke](http://uxbrighton.org.uk/about/#luke "")
+- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>

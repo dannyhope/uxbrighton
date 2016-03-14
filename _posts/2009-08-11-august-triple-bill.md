@@ -37,3 +37,8 @@ After the talks we'll be cracking open the beers (and wine and snacks) for an ey
 To make it more fun, we/ll be accepting submissions from attendees. Feel free to email Harry Brignull with your site screengrabs, art, or naked photos (1024×768 PNGs are ideal).
 
 Submissions will be drawn at random from the pile and used in the demo. (PS no naked photos).
+
+## Organisers
+
+- <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

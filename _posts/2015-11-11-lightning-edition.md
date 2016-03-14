@@ -40,6 +40,6 @@ There are no subjects too big or too small, we are a wonderfully diverse communi
 
 UX Brighton events are not just for UX practitioners: designers, content writers, anyone working on digital projects are all welcome.
 
-## Organisers [delete as applicable]
+## Organisers
 
-- [Andy Parker](https://twitter.com/theavangelist "")
+- <a href="https://twitter.com/theavangelist">Andy Parker</a>

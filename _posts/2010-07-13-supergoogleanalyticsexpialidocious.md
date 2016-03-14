@@ -27,4 +27,4 @@ For July’s event our speakers showed how applications like Google Analytics ca
 
 ## Organisers
 
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

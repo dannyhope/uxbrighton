@@ -10,3 +10,7 @@ noinfo: true
 ## Gameplay Field Research & Designing for Kids – [GiGi Demming](http://twitter.com/GiGi_D)
 
 ## User Research &amp; the Future of Gameplay Experience Design – [Gareth White, Vertical Slice](http://twitter.com/GarethRWhite)
+
+## Organisers
+
+- <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>

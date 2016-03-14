@@ -17,3 +17,8 @@ In this presentation, Amberlight will talk about their learnings, and will lay b
 Following the presentation there will be an open discussion, and informal show-and-tells. Please feel free to bring along visual stimuli for discussion!
 
 And after that, we’ll probably head to The Greenhouse Effect for a drink.
+
+## Organisers
+
+- <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

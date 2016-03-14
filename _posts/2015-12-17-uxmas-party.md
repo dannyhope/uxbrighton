@@ -12,8 +12,8 @@ This is an unticketed event, please just <a href="https://twitter.com/uxbri">twe
 
 A festive co-production with <a href="https://twitter.com/uxcurrybrighton">UX Curry Brighton</a>.
 
-## Organisers [delete as applicable]
+## Organisers
 
-- [Patrick](http://uxbrighton.org.uk/about/#patrick "")
-- [Luke](http://uxbrighton.org.uk/about/#luke "")
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
+- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

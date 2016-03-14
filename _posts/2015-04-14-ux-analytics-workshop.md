@@ -88,7 +88,7 @@ Luke has
 <blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
 —Stuart Bellis, Code 7</blockquote>
 
-## Organisers [delete as applicable]
+## Organisers
 
-- [Luke](http://uxbrighton.org.uk/about/#luke "")
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

@@ -27,4 +27,4 @@ ethnography, from client and agency points of view.
 
 ## Organisers
 
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

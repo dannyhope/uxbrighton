@@ -41,5 +41,5 @@ Since UX Brighton is a really new group, there will be an opportunity to discuss
 
 ## Organisers
 
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
-- [Jenni](http://uxbrighton.org.uk/about/#jenni "")
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="http://uxbrighton.org.uk/about/#jenni">Jenni</a>

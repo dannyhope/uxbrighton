@@ -18,4 +18,4 @@ Nick’s academic background is in cognitive psychology and perception and follo
 
 ## Organisers
 
-- [Tom](http://uxbrighton.org.uk/about/#tom "")
+- <a href="http://uxbrighton.org.uk/about/#tom">Tom</a>

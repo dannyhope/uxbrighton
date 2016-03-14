@@ -7,5 +7,5 @@ noinfo: true
 
 ## Organisers
 
-- [Harry](http://uxbrighton.org.uk/about/#harry "")
-- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>

@@ -26,4 +26,4 @@ Digital teams need to be reorganised with the responsibility for a user's experi
 
 ## Organisers
 
-- [Patrick](http://uxbrighton.org.uk/about/#patrick "")
+- <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
