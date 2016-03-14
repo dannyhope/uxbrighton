@@ -3,12 +3,11 @@ layout: event-page
 title: UX Strategy
 start: 7pm
 venue: Hotel du Vin
-organisers: 
-- Patrick
 lanyrd-url: http://lanyrd.com/2014/uxbristrategy/
 upcoming: false
 homepage: false
 ---
+
 Our May event covered the emerging issue of how UX practitioners (and the 'UX industry' as a whole) move beyond just carrying out narrow-focused tactical work and get involved with the broader digital and business strategy decision-making, in order to create really meaningful change for our clients and customers.
 
 Digital teams need to be reorganised with the responsibility for a user's experience dispersed. UX practitioners require a change in mindset and a broadening of their skillset.
@@ -25,3 +24,6 @@ Digital teams need to be reorganised with the responsibility for a user's experi
 
 <div class="embed-container vga"><script async class="speakerdeck-embed" data-id="fb6aed80bd97013111d576b6210235ec" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script></div>
 
+## Organisers
+
+- [Patrick](http://uxbrighton.org.uk/about/#patrick "")

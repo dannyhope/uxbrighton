@@ -5,7 +5,6 @@ title: Lightning Edition
 venue: 68 Middle Street
 start: 7pm
 ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-lightning-edition-tickets-19098567329
-organiser: Andy Parker
 price: Free, but donations welcome
 homepage: false
 ---
@@ -40,3 +39,7 @@ There are no subjects too big or too small, we are a wonderfully diverse communi
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/vHte5BUfVQs" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 UX Brighton events are not just for UX practitioners: designers, content writers, anyone working on digital projects are all welcome.
+
+## Organisers [delete as applicable]
+
+- [Andy Parker](https://twitter.com/theavangelist "")

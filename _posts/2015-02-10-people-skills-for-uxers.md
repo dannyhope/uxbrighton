@@ -3,8 +3,6 @@ layout: event-page
 title: People Skills for UXers
 start: 7pm
 venue: Fabrica
-organisers: 
-- Rob
 lanyrd-url: http://lanyrd.com/2015/uxbripeople/
 upcoming: false
 ticket-link: 
@@ -58,3 +56,7 @@ Matt is a creativity and collaboration consultant at NixonMcInnes, and he's goin
 ![Matt Matheson speaking](https://farm8.staticflickr.com/7386/16524647216_4572b174e6.jpg)
 
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
+
+## Organisers [delete as applicable]
+
+- [Rob](http://uxbrighton.org.uk/about/#rob "")

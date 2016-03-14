@@ -3,8 +3,6 @@ layout: event-page
 title: Designing for Health and Wellbeing
 start: 7pm
 venue: Lighthouse
-organisers: 
-- Alex
 lanyrd-url: http://lanyrd.com/2014/uxbrihealth/
 upcoming: false
 ---
@@ -37,4 +35,6 @@ Katarzyna is currently doing a PhD in Human-Computer Interaction at UCL Interact
 
 Alex is a usability and user experience consultant specialising in Healthcare and Pharma, currently managing the European Usability Centre for Lilly.
 
+## Organisers
 
+- [Alex](http://uxbrighton.org.uk/about/#alex "")

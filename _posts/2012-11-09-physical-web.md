@@ -3,11 +3,9 @@ layout: event-page
 title: The Physical Web
 conference: false
 venue: Fabrica
-organisers: 
-- Alex
 start: 7pm
-
 ---
+
 The web has spilled beyond the screen and into the physical world. The Internet of Things (IOT) brings net connectivity to household appliances, common everyday objects and novel devices.
 
 But what challenges does this brave new world present to UX designers? What heuristics, interaction metaphors and prototyping techniques can we rely on to create great user experiences for the web of things? Join us for an evening with three fantastic speakers who'll share their stories of designing the next generation of smart objects.
@@ -31,3 +29,6 @@ The internet of things offers a host of unfamiliar interactions -- objects as in
 
 Daniel Soltis is a user experience designer and creative technologist at Moving Brands. He’s interested in the physicality of interfaces and the rough edges where technology, design, and sociology meet. You can find him online at @ds1935 and danielsoltis.com.
 
+## Organisers
+
+- [Alex](http://uxbrighton.org.uk/about/#alex "")

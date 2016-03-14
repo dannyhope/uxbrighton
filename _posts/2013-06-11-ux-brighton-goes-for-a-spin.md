@@ -2,8 +2,6 @@
 layout: event-page
 title: UX Brighton goes for a spin
 venue: Lighthouse
-organisers: 
-- Tom 
 lanyrd-url: http://lanyrd.com/2013/uxbrighton-june/
 start: 6:30pm
 
@@ -18,6 +16,6 @@ Phil joined Jaguar Land Rover as a User Interface & Experience Designer in 2008,
 ## Dr Nick Reed - Principal Human Factors Researcher at TRL
 Nick’s academic background is in cognitive psychology and perception and following a DPhil post-doctoral work at University of Oxford, joined the Human Factors and Simulation group at the Transport Research Laboratory. Having been there for nearly 10 years, Nick has published many papers and reports in the area of driver behaviour and training and has featured on news items for the BBC, Sky, ITV, Channel 4 and CNN. He is now leading TRL’s growth in research related to the introduction of automated vehicles.
 
+## Organisers
 
-
-
+- [Tom](http://uxbrighton.org.uk/about/#tom "")

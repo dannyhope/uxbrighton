@@ -2,8 +2,6 @@
 layout: event-page
 title: Practical insights in designing Out of the Box Experiences
 conference: false
-organisers:
-- Danny
 ticket-link: 
 venue: The Werks
 start: 7pm
@@ -30,3 +28,7 @@ Topics will include:
 Following the talk there will be an opportunity to show and tell your work.
 
 You don't have to have a polished presentation or anything just spend 5-10 minutes telling the group about something you're working/have worked on.
+
+## Organisers
+
+- [Danny](http://uxbrighton.org.uk/about/#danny "")

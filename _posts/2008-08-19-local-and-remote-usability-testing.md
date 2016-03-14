@@ -5,8 +5,6 @@ conference: false
 venue: Regency Town House
 start:	7pm
 ticket-link: 
-organisers:
-- Danny
 ---
 
 [![](https://farm4.staticflickr.com/3135/2780007075_5e71341772_o.jpg "")](https://www.flickr.com/photos/10199641@N08/2780007075/ "")
@@ -34,3 +32,7 @@ This will be the first public demo of Webnographer, which will be launched in la
 His short talk will show how Webnographer can offer fast insight into Usability issues. He will show how Webnographer enables the collection of user behavioural data. He will also demonstrate how to gain quick insight into the user data, through Webnographer's visual representation. Finally James will give a brief overview of the academic research that Webnographer is based on, such as the link between the eye and the mouse movements.
 
 Webnographer: Is a new service for Asynchronous Remote User Testing. Webnographer enables faster and cheaper user testing outside of the labs. The services has been designed so that a team can get results back in hours using more than the normal number of participants. Webnographer has been developed by FeraLabs, a new start-up based in Berlin and Hastings, founded by Sabrina Mach and James Page.
+
+## Organisers
+
+- [Danny](http://uxbrighton.org.uk/about/#danny "")

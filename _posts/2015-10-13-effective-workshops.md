@@ -4,8 +4,6 @@ title: How to run Effective UX Workshops
 venue: 68 Middle Street
 start: 10am
 upcoming: false
-organisers:
-- Luke
 price: From £350 + VAT
 ---
 
@@ -88,3 +86,7 @@ Alison Coward has been working in, leading and facilitating creative teams for 1
 <blockquote>“Alison’s professionalism was impeccable. Her facilitation skills sharp and presentation style engaging.” Cath Carver, LIVE Director, Trendwatching</blockquote>
 
 <blockquote>“I was very impressed by the way in which Alison managed the exchanges between group members, and I found her ability to distil (and reflect back) the most important ideas of the think-tank made for a remarkable and productive session. I would highly recommend Alison to anyone looking for a fantastic facilitator.” Nathalie Nahai, The Web Psychologist</blockquote>
+
+## Organisers [delete as applicable]
+
+- [Luke](http://uxbrighton.org.uk/about/#luke "")

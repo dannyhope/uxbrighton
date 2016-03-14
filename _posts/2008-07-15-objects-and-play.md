@@ -49,3 +49,7 @@ Thomas Forsyth is a designer and artist based in Brighton. He is currently gradu
 Following the talk there will be an opportunity to show and tell something that you've been working on.
 
 You don't have to have a polished presentation or anything just spend 5-10 minutes telling the group about something you're working/have worked on.
+
+## Organisers
+
+- [Danny](http://uxbrighton.org.uk/about/#danny "")

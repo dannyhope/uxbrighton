@@ -5,9 +5,6 @@ venue: Lighthouse
 start: 10am
 ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
 upcoming:
-organisers:
-- Luke
-- Danny
 stub: true
 price: £149 + VAT
 ---
@@ -117,3 +114,7 @@ BN1 4AJ
 
 [View map](https://www.google.com/maps/place/Lighthouse+Arts/@50.826238,-0.138209,13z/data=!4m2!3m1!1s0x0:0x1316760b33779607?hl=en "")
 
+## Organisers [delete as applicable]
+
+- [Luke](http://uxbrighton.org.uk/about/#luke "")
+- [Danny](http://uxbrighton.org.uk/about/#danny "")

@@ -3,9 +3,6 @@ layout: event-page
 title: UX Oktoberfest
 start: 7pm
 venue: Fabrica
-organisers: 
-- Alex
-- Patrick
 lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
 upcoming: false
 ---
@@ -53,14 +50,7 @@ Why do so many digital companies favour technology over design? In his talk Andy
 
 User Experience Designer and CEO of Clearleft, Andy is the author of CSS Mastery, curates the dConstruct and UX London conferences and helped set-up The Brighton Digital Festival. Andy created Silverback, a low cost usability testing application for the Mac, and co-founded Fontdeck, a web typography start-up. Andy is a regular speaker at international conferences like The Web 2.0 Expo, An Event Apart and SXSW. In May 2010, Wired Magazine named Andy one of the top 100 most influential people in the UK digital sector, much to the pride of his mother and the surprise of everybody else.
 
+## Organisers
 
-<!-- ## Praise be to our mighty sponsors
-
-Sponsor name
-
-![Alt text](http://placekitten.com/200/124)
-
-## Sponsor UX Brighton
-
-- Sponsor us -->
-
+- [Alex](http://uxbrighton.org.uk/about/#alex "")
+- [Patrick](http://uxbrighton.org.uk/about/#patrick "")

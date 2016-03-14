@@ -3,11 +3,9 @@ layout: event-page
 title: Mobile User Testing
 conference: false
 venue: Fabrica
-organisers: 
-- Alex
 start: 7pm
-
 ---
+
 The July 2012 edition of UX Brighton focused on mobile user testing. We had two great talks and a hands-on demo of some of the best testing kit out there.  
 
 Both talks are available to watch below:
@@ -33,4 +31,6 @@ What are the objectives when we test handheld devices? What are the difficulties
 
 Walt has been designing interactions, documenting design and researching user experience for 11 years.  Now Director of User Research at CX Partners in Bristol, his experience of qualitative research and analysis techniques provides essential rigor to the execution of research, both in the lab and the field.
 
+## Organisers
 
+- [Alex](http://uxbrighton.org.uk/about/#alex "")

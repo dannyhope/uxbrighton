@@ -3,8 +3,6 @@ layout: event-page
 title: The Accessible Web
 start: 7pm
 venue: Fabrica
-organisers: 
-- Luke
 lanyrd-url: http://lanyrd.com/2014/uxbriaccessibility/
 upcoming: false
 homepage: false
@@ -39,3 +37,7 @@ Henny will take a look at how BBC are turning accessibility - a bolt on develope
 [Download Joshua's slides](/assets/Joshua-Marshall.pdf)
 
 Joshua will start of by talking about some of the assistive technologies used currently. His talk will cover how testing fits in with the Government Digital Service product cycle and will give practical tips on how to begin testing with assistive technologies, as well as some of the common problems that you may encounter. This talk will also help you in creating your own test strategy.
+
+## Organisers
+
+- [Luke](http://uxbrighton.org.uk/about/#luke "")

@@ -3,9 +3,6 @@ layout: event-page
 title: Double Bill Designing the UX Curve & Planning Discussion
 venue: Lighthouse
 conference: false
-organisers: 
-- Danny
-- Jenni
 start: 7pm
 ticket-link: 
 ---
@@ -41,3 +38,8 @@ Since UX Brighton is a really new group, there will be an opportunity to discuss
 - Anything else you want.
 
 [jennilloyd](https://twitter.com/jennilloyd "Jenni on Twitter"), [yandle](https://twitter.com/yandle "Danny on Twitter")
+
+## Organisers
+
+- [Danny](http://uxbrighton.org.uk/about/#danny "")
+- [Jenni](http://uxbrighton.org.uk/about/#jenni "")

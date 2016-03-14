@@ -4,8 +4,6 @@ title: Summer Special 2013
 conference: false
 venue: Fabrica
 start: 6:30pm
-organisers: 
-- Alex
 lanyrd-url: http://lanyrd.com/2013/ux-brighton-summer-special/
 ---
 UX Brighton is back! Join us on the 13th of August at the beautiful Fabrica Gallery for an evening with some truly inspiring speakers.
@@ -29,3 +27,7 @@ Oli's talk, "Launching probes and releasing trojan mice", will look at the simil
 Boon is an interaction designer, information architect, former developer and avid sketchnoter. He currently works at SapientNitro, where he "does UX" for large companies like banks and telecoms. He's an active member of the UX community, where he currently organises regular events on interaction design as an IxDA local leader, and has organised UXCampLondon twice.
 
 Boon's talk will discuss the relationship between typography and information architecture. Typography has always had an interesting relationship with IA – it’s impossible to imagine information, content, and media without it. Strangely, it seems like the two disciplines have been separated from birth sometimes, and this talk is an attempt to bridge the two back together. In this talk, Boon will address why typography and information architecture are both sides of the same coin, how typography can be used more meaningfully to improve IA, to the point that doing one or the other becomes the same thing.
+
+## Organisers
+
+- [Alex](http://uxbrighton.org.uk/about/#alex "")

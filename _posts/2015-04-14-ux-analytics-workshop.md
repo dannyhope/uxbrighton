@@ -5,9 +5,6 @@ venue: Lighthouse
 start: 10am
 ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
 upcoming:
-organisers:
-- Luke
-- Danny
 stub: true
 price: £149 + VAT
 ---
@@ -90,3 +87,8 @@ Luke has
 
 <blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
 —Stuart Bellis, Code 7</blockquote>
+
+## Organisers [delete as applicable]
+
+- [Luke](http://uxbrighton.org.uk/about/#luke "")
+- [Danny](http://uxbrighton.org.uk/about/#danny "")

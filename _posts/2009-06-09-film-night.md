@@ -5,7 +5,7 @@ conference: false
 noinfo: true
 ---
 
+## Organisers
 
-
-
-
+- [Harry](http://uxbrighton.org.uk/about/#harry "")
+- [Danny](http://uxbrighton.org.uk/about/#danny "")

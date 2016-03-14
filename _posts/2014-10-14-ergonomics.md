@@ -3,8 +3,6 @@ layout: event-page
 title: UX, Human Factors & Ergonomics
 start: 7pm
 venue: Hotel Du Vin
-organisers: 
-- Tim
 lanyrd-url: 
 upcoming: false
 homepage: false
@@ -40,3 +38,7 @@ Using a set of interaction principles as a basis, we consider how understanding 
 <div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="//www.youtube.com/embed/qt2ZDdDizQ8" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 As well as teaching, his research and consultancy covers many aspects of biomechanics and sports technology.
+
+## Organisers
+
+- [Tim](http://uxbrighton.org.uk/about/#tim "")

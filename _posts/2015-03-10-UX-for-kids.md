@@ -3,8 +3,6 @@ layout: event-page
 title: UX for Kids
 start: 7pm
 venue: Bar Du Vin
-organisers: 
-- Jay
 lanyrd-url: 
 upcoming: false
 ticket-link: 
@@ -123,3 +121,6 @@ Amberlight have been involved in numerous projects researching how children and 
 ![George presenting](https://farm8.staticflickr.com/7591/16631169547_9e86c7887f_o_d.jpg)
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
+## Organisers [delete as applicable]
+
+- [Jay](http://uxbrighton.org.uk/about/#jay "")
