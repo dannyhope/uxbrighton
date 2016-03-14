@@ -30,18 +30,18 @@ Name the file with the event date and event title, e.g.
     
     ## Talk title
     
-    ## Organisers [delete as applicable]
+    ## Organisers
     
-    - [Luke](http://uxbrighton.org.uk/about/#luke "")
-    - [Alex](http://uxbrighton.org.uk/about/#alex "")
-    - [Tim](http://uxbrighton.org.uk/about/#tim "")
-    - [Patrick](http://uxbrighton.org.uk/about/#patrick "")
-    - [Danny](http://uxbrighton.org.uk/about/#danny "")
-    - [Tom](http://uxbrighton.org.uk/about/#tom "")
-    - [Harry](http://uxbrighton.org.uk/about/#harry "")
-    - [Jay](http://uxbrighton.org.uk/about/#jay "")
-    - [Jenni](http://uxbrighton.org.uk/about/#jenni "")
-    - [Rob](http://uxbrighton.org.uk/about/#rob "")
+    - <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
+    - <a href="http://uxbrighton.org.uk/about/#alex">Alex</a>
+    - <a href="http://uxbrighton.org.uk/about/#tim">Tim</a>
+    - <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
+    - <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+    - <a href="http://uxbrighton.org.uk/about/#tom">Tom</a>
+    - <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>
+    - <a href="http://uxbrighton.org.uk/about/#jay">Jay</a>
+    - <a href="http://uxbrighton.org.uk/about/#jenni">Jenni</a>
+    - <a href="http://uxbrighton.org.uk/about/#rob">Rob</a>
     
 ### Make it public
 
