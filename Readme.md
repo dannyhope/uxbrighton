@@ -22,8 +22,7 @@ Name the file with the event date and event title, e.g.
     upcoming: true / false
     lanyrd-url: e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/
     upcoming: true
-    stub: false
-    noinfo: true
+    published: false
     ---
 
     ## Talk title
@@ -45,10 +44,9 @@ Name the file with the event date and event title, e.g.
     
 ### Make it public
 
-Add this to the frontmatter:
+Remove this from the frontmatter:
 
-    upcoming: true
-    stub: false
+    published: false
 
 ### Mark a page as being empty (these pages are sometimes known as stubs)
 
