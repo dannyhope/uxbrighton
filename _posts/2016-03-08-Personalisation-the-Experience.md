@@ -14,8 +14,6 @@ This evening event covers the subject of personalisation. Our speakers will be c
 
 Full details of the talks can be see below, and we highly recommend <a href='https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw'>buying your ticket<a/> ASAP as this event is likely to sell out. Ticket price includes a beer or two, and possibly some pringles.
 
-# Speakers
-
 ## Ramp Up – Harry Brignull
 
 Most products have a ladder of engagement - a series of actions or stages that a user will progress through in their journey from novice to expert. If your product has a reasonable amount of depth to it, it's very hard to know when to talk to your users about the more complex end of your feature set, to help them move up the ladder of engagement and get more value. Too soon and you’ll overwhelm them; too late and they’ve already gone somewhere else. Email marketing systems can do a lot of clever stuff involving automated segmentation and targeting, but the problem with email is that it's email - it doesn't happen inside your app where you've got the user's undivided attention. Surely there’s some way of taking these principles and applying them inside your app’s UI? This talk investigates this premise and looks at the design challenges involved in helping users “ramp up” and climb the ladder of engagement. 
