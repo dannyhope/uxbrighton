@@ -7,6 +7,7 @@ ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergo
 upcoming:
 stub: true
 price: £149 + VAT
+published: false
 ---
 
 - Tuesday 10th of March (1 day)
