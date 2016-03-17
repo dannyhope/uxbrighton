@@ -22,7 +22,7 @@ We'll look at involving children in the design process, how we can engage pre-sc
 
 <a name="leanne-and-liz"></a> <a name="leanne"></a>
 
-## Designing Playful Interfaces for Children
+## Designing Playful Interfaces for Children – Leanne Dougan
 
 As lead designer across the popular [CBeebies Playtime](http://www.bbc.co.uk/cbeebies/grownups/cbeebies-playtime-app), [CBeebies Storytime](http://www.bbc.co.uk/cbeebies/grownups/cbeebies-storytime-app) and [CBBC Go](http://www.bbc.co.uk/cbbc/findoutmore/cbbc-app-faq) apps, Leanne is going to talk about some of the processes she used, share tips and techniques on idea generation and how to involve young audiences to help create playful interfaces.
 
@@ -48,7 +48,7 @@ Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has 
 
 <a name="liz"></a>
 
-## Design Sprint Methodology – A learning curve
+## Design Sprint Methodology: A learning curve – Liz Leakey
 
 Looking at how the BBC have started to adopt the [lean design sprint](http://www.gv.com/sprint/) methodology as pioneered by Google ventures, to allow them to work fast and swarm around a design problem. 
 
@@ -77,7 +77,7 @@ Liz Leakey is Creative Director for BBC Children's and has worked at the BBC sin
 
 <a name="monica-ferraro"></a>
 
-## How to involve children in the design process 
+## How to involve children in the design process – Monica Ferraro 
 
 This talk will examine the different techniques used while working with children as design partners in the design of technology. Dressing up, mixing ideas, Playmobil and Lego are great tools for generating new design ideas. Colouring pens, stickers and cardboard mockups of devices are great tools to create low-fidelity prototypes.
 
@@ -101,7 +101,7 @@ At Playhows, Monica is a user experience consultant specialising in children. Pl
 
 <a name="amberlight"></a>
 
-## Little users: UX considerations for pre-school children
+## Little users: UX considerations for pre-school children – Filip Healy, Mansha Manohar & George Green 
 
 UX specialists Filip Healy, Mansha Manohar and George Green from Aberlight plus Gemma Newell from the BBC, will discuss some of the challenges of conducting user research with children under 4 and some of the design opportunities and principles that are important for this audience. In particular touchscreens have really lowered the entry level language and motor control skills required to interact with computer programs. On the one hand this provides great opportunities in early education and for busy parents to keep their children engaged, but on the other it raises some very serious ethical questions about what is an acceptable age to start encouraging children to interact with devices.
 

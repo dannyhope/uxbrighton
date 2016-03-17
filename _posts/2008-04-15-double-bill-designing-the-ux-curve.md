@@ -7,9 +7,7 @@ start: 7pm
 ticket-link: 
 ---
 
-## Designing the User Experience Curve
-
-### Andy Budd
+## Designing the User Experience Curve – Andy Budd
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/491406" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
@@ -21,9 +19,7 @@ Andy Budd will look at the seven key factors that go into designing the perfect 
 
 [andybudd](http://twitter.com/andybudd "Andy on Twitter")
 
-## Planning Discussion
-
-### Led by Danny Hope & Jenni Lloyd
+## Planning Discussion – led by Danny Hope & Jenni Lloyd
 
 At [BarcampBrighton 2](http://barcamp.org/w/page/400551/BarCampBrighton2 ""), Danny Hope gave an interesting talk about the methods he uses to design sites. He also talked about his interest in open-ness and showed pics of wireframes that he keeps on Flickr. During the discussion afterwards it became obvious that there’s a lot that the Brighton design community could learn from each other, in terms of what we do and the way that we do it.
 

@@ -10,11 +10,11 @@ The web has spilled beyond the screen and into the physical world. The Internet 
 
 But what challenges does this brave new world present to UX designers? What heuristics, interaction metaphors and prototyping techniques can we rely on to create great user experiences for the web of things? Join us for an evening with three fantastic speakers who'll share their stories of designing the next generation of smart objects.
 
-##Introduction to the UX challenges in designing for connected homes - Claire Rowland, AlertMe.com
+## Introduction to the UX challenges in designing for connected homes - Claire Rowland
 
 Claire is the service design manager at AlertMe.com, a connected home platform provider. She has worked in UX design and research for 14 years for companies such as Razorfish, Flow Interactive and Fjord.
 
-##Denise Wilton, Berg
+## Designing connected products for the home – Denise Wilton
 
 Denise will be talking about some of the UX challenges involved with designing a connected product for the home: Little Printer
 
@@ -23,7 +23,7 @@ Denise Wilton has been working as a designer and illustrator for over 15 years. 
 Her freelance career has included projects for a diverse range of clients including Channel 4, BBC, Nokia, Warp Films, Dorling Kindersley and Greenpeace. She is also the co-founder of one of the largest and longest running online communities in the UK, b3ta.com.
 
 
-## Designing the things in the internet of things - Daniel Soltis, Moving Brands
+## Designing the things in the internet of things – Daniel Soltis
 
 The internet of things offers a host of unfamiliar interactions -- objects as interfaces, objects connected to apps, actions that create consequences at a distance. How do people learn and understand digital systems when there is no screen, or controls are gestural, or input and output are at a distance? And while we’re at it, how might UX design make a difference in this emerging field?
 

@@ -14,11 +14,13 @@ The UX Brighton event for June looked at an issue that we should all be consider
  
 Online accessibility/inclusive design is about making sure that everyone has equal access to information on websites regardless of their physical or developmental abilities or disabilities. With an ageing population and a wide range of new devices to consider accessibility is an issue that is set to become increasingly important.
 
-## The business case for accessibility – [Mark Walker, Abilitynet](http://twitter.com/scipmark)
+## The business case for accessibility – Mark Walker
 
 While there are plenty of ethical reasons to take an ‘accessibility first’ design approach Mark will focus on the business reasons, which will help you to encourage even the most sceptical stakeholders of its value. With over 12 million disabled people in the UK alone, with a spending power of £120 billion, this is a large and lucrative market that cannot be ignored.
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.youtube.com/embed/K6lbXZx2_Cc?list=PLmeBKCinpyZ_SIIWm4JL_3T2ynr00kxuY" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+[scipmark](http://twitter.com/scipmark)
 
 -
 
@@ -28,7 +30,7 @@ While there are plenty of ethical reasons to take an ‘accessibility first’ d
 
 Henny will take a look at how BBC are turning accessibility - a bolt on developer and accessibility specialist silo - into fluid, integrated, inclusive design. With a goal of making products not just accessible but also fun and engaging for all users, she will spotlight how the needs of disabled users are not so different to that of all users in a world of multiple inputs, platforms and devices. -->
 
-## User testing with assistive technologies – [Joshua Marshall, Government Development Service](http://twitter.com/partiallyblind)
+## User testing with assistive technologies – Joshua Marshall
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.youtube.com/embed/9VXCcIB1oVQ?list=PLmeBKCinpyZ_SIIWm4JL_3T2ynr00kxuY" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
@@ -37,6 +39,8 @@ Henny will take a look at how BBC are turning accessibility - a bolt on develope
 [Download Joshua's slides](/assets/Joshua-Marshall.pdf)
 
 Joshua will start of by talking about some of the assistive technologies used currently. His talk will cover how testing fits in with the Government Digital Service product cycle and will give practical tips on how to begin testing with assistive technologies, as well as some of the common problems that you may encounter. This talk will also help you in creating your own test strategy.
+
+[Joshua Marshall, Government Development Service](http://twitter.com/partiallyblind)
 
 ## Organisers
 

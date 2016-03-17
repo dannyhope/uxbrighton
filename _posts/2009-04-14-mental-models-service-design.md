@@ -4,7 +4,7 @@ title: Mental Models, Service Design &amp; Problems with Convergence
 conference: false
 ---
 
-## Filip Healy & GiGi Demming from Amberlight
+## Mental Models, Service Design &amp; Problems with Convergence  – Filip Healy & GiGi Demming
 
 Filip and GiGi are both principals at Amberlight Partners. Amberlight is a London based User Experience Consultancy. Clients include Apple, Microsoft, Sony and O2.
 

@@ -16,7 +16,7 @@ ticket-link:
 
 **And that's what this event is all about.** 
 
-## Kevin O'Neill - The 7 habits of highly frustrating stakeholders
+## The 7 habits of highly frustrating stakeholders – Kevin O'Neill
 
 <div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/OzY3JbFrwO4" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
@@ -31,7 +31,7 @@ We'll kick of the evening with a talk by Kevin, a digital strategist at London A
 
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
-## Alison Coward - Top tips for running effective workshops
+## Top tips for running effective workshops – Alison Coward
  
  <div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/3RwvbJgLwFA" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
  
@@ -43,7 +43,7 @@ Alison will go through tips for designing and facilitating effective workshops t
 
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
-## Matt Matheson -  Improvisation – the secret ingredient to successful collaboration
+##  Improvisation – the secret ingredient to successful collaboration – Matt Matheson
 
 <div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/AjC05vuHa7U" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 

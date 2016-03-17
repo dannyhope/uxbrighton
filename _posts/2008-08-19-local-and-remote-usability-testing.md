@@ -11,9 +11,7 @@ ticket-link:
 
 This sessions focusses on 2 new products for 2 types of usability testing:
 
-## 1) Guerrilla Usability Testing with Silverback
-
-### Andy Budd
+## Guerrilla Usability Testing with Silverback – Andy Budd
 
 Usability tests are an excellent way of discovering problems with a product or service. However commissioning a dedicated usability lab can be costly and time consuming. Instead of a single academic evaluation, why not bring your usability testing in-house and run it alongside your design and development process?
 
@@ -23,9 +21,7 @@ In this session Andy will give you a quick demo of Silverback and show you how t
 
 Andy Budd is an author, blogger and user experience director at Clearleft. He most recently featured as Gwyneth Paltrow's body double in the hit Movie, Iron Man.
 
-## 2) Webnographer: a web app for remote testing
-
-### James Page
+## Webnographer: a web app for remote testing – James Page
 
 This will be the first public demo of Webnographer, which will be launched in late September.
 

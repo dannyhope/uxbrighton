@@ -7,9 +7,7 @@ venue: The Werks
 ticket-link: http://web.archive.org/web/20130421092305/upcoming.yahoo.com/event/863184/BRI/Hove/UX-Brighton-Objects-and-Play/The-Werks
 ---
 
-## Thomas Forsyth
-
-### A serious talk about the importance of being playful
+## A serious talk about the importance of being playful – Thomas Forsyth
 
 Find out how being playful can help you develop creative products, companies and relationships whoever you are online, or offline. 
 

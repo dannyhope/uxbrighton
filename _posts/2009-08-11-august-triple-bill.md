@@ -4,7 +4,7 @@ title: Designing for Persuasion, International Research, and Eye Tracking!
 conference: false
 ---
 
-##How (not) to run successful international user research projects - Carsten Schmitt &amp; Poppy James, Bunnyfoot.
+## How (not) to run successful international user research projects – Carsten Schmitt &amp; Poppy James
 
 <div class="embed-container vga"><iframe width="560" height="315" src="//www.youtube.com/embed/yQkiPvddtHQ?list=PLmeBKCinpyZ9HEn0tKyUXqRgRoai9mh9s" frameborder="0" allowfullscreen></iframe></div>
 
@@ -17,7 +17,7 @@ Some of the topics include “Foreign affairs – Managing multi-national client
 Carsten Schmitt & Poppy James are consultants at Bunnyfoot, a User Experience Consultancy that’s passionate about Eye Tracking. Bunnyfoot’s clients include the BBC, the COI, Virgin Holidays, and Yell.com to name only a few.
 
 
-##Designing for Persuasion, Emotion and Trust On The Web - Rob Gillham, HFI
+## Designing for Persuasion, Emotion and Trust On The Web – Rob Gillham
 
 <div class="embed-container vga"><iframe width="560" height="315" src="//www.youtube.com/embed/I7KW1YYQ1J4?list=PLmeBKCinpyZ9HEn0tKyUXqRgRoai9mh9s" frameborder="0" allowfullscreen></iframe></div>
 
