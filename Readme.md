@@ -83,9 +83,7 @@ Don’t embed tweets. Instead format them thus;
 
 ### Blog posts
 
-At the top of the page, add: `[My example](http://example.com "my tooltip")`
-
-Renders as [My example](http://example.com "my tooltip")
+At the top of the page, add: `[My example](http://example.com)`
 
 ### Add/link to photos
 
