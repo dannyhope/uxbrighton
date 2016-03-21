@@ -20,23 +20,23 @@ Whether you’ve spoken before in public or not, we’d like you to give it a go
 
 There are no subjects too big or too small, we are a wonderfully diverse community of people with varying levels of experience. If you’ve only just started your career, or you’re long in the tooth - this is a great time to give it a go, whether you want to share how to manage a backlog, run a user test or highlight the many, many flaws in video game UI - everything is welcome.
 
-##  Ben Scammels 
+##  The anatomy of an international payment page – Ben Scammels
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/cwhX8TMM8Eo" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-## Enor Anidi
+## The do's and don'ts for creating a portfolio – Enor Anidi
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/3c0X0SbDWiM" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-## Paul Swain
+## The Post-it pirates – Paul Swain
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/jcwPAvC7rKw" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-## Ellen De Vries
+## How to write enything ever – Ellen de Vries
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/OADqjKuJNyU" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-## Jeremy Rosenberg
-<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/f0Qq2MX48w0" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
-
-## Danielle Huntrods
+## Don’t let your job title get you down – Danielle Huntrods
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/vHte5BUfVQs" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+## Make better surveys – Jeremy Rosenberg
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.youtube.com/embed/f0Qq2MX48w0" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 ## Organisers
 
