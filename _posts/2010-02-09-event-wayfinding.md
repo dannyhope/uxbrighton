@@ -9,6 +9,8 @@ noinfo: true
 
 Peter is UK Coordinator at Traveline
 
+[@traveline](http://twitter.com/traveline "")
+
 ## Usability themes for map interfaces – Pete Gale
 
 Head of User Experience, Cogapp
