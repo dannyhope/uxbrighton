@@ -5,5 +5,24 @@ conference: false
 noinfo: true
 ---
 
+## Opening-up the UK’s public transport data – Peter Stoner
 
+Peter is UK Coordinator at Traveline
 
+## Usability themes for map interfaces – Pete Gale
+
+Head of User Experience, Cogapp
+
+[@petegale](http://twitter.com/petegale "")
+
+## How usability testing wins contracts – Ben Sauer
+
+Ben is an independent user experience consultant and web strategist
+
+[@bensauer](http://twitter.com/bensauer "")
+
+## iPhone Travel Apps UX Challenges – Malcolm Barclay
+
+Developer of London Tube Status, Deluxe and Bus for the iPhone
+
+[@MalcolmBarclay](http://twitter.com/MalcolmBarclay "")
