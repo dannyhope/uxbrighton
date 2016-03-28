@@ -6,8 +6,8 @@ start: e.g. 7pm
 ticket-link: e.g. http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
 upcoming: true / false
 lanyrd-url: e.g. http://lanyrd.com/2013/ux-brighton-oktoberfest/
-upcoming: true
-published: false
+upcoming: false
+published: true
 ---
 
 ## A UX persons survival guide to agile – Mat Walker
