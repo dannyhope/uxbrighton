@@ -5,6 +5,9 @@ conference: false
 noinfo: true
 ---
 
+## Format
+We’ve been listening to your feedback, and in the spirit of iterative design, this event will consist of a series of short “bite sized” talks.
+
 ## Opening-up the UK’s public transport data – Peter Stoner
 
 Peter is UK Coordinator at Traveline
