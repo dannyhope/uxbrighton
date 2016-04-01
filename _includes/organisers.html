@@ -24,6 +24,7 @@
 				{% elsif organiser == "Rob" %}
 					<li>Rob Pearson &ndash; <a href="https://twitter.com/robotperson">@robotperson</a></li>
 				{% else %}	
+					<li>{{ organiser.name }} {% if organiser.url %} &ndash; <a href="{{ organiser.url }}">{{ organiser.url }}</a> {% endif %}</li>
 				{% endif %}									
 			{% endfor %}		
 			</ul>			
