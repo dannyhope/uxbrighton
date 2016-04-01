@@ -10,9 +10,9 @@ homepage: true
 price: £7 + VAT & Eventbrite fee
 ---
 
-This evening event covers the subject of personalisation. Our speakers will be covering various aspects of personalising websites and apps for improved user experience. They will be discussing different approaches and how new technology has enabled true one to one personalisation leading to truely personalised experiences. 
+This evening event covered the subject of personalisation. Our speakers covered various aspects of personalising websites and apps for improved user experience. They discussed different approaches and how new technology has enabled true one to one personalisation leading to truely personalised experiences. 
 
-Full details of the talks can be see below, and we highly recommend <a href='https://www.eventbrite.co.uk/e/personalising-the-experience-tickets-21256301169?ref=estw'>buying your ticket<a/> ASAP as this event is likely to sell out. Ticket price includes a beer or two, and possibly some pringles.
+Full details of the talks can be see below.
 
 ## Ramp Up – Harry Brignull
 
@@ -20,7 +20,7 @@ Most products have a ladder of engagement - a series of actions or stages that a
 
 Harry is an Independent User Experience Consultant. Recent clients include HMRC, Lloyds Pharmacy, Crunch.co.uk and The Telegraph. Harry's personal websites include <a href="http://Brignull.com">Brignull.com</a> and <a href="http://90percentofeverything.com">90percentofeverything.com</a>  
 
-## Why Personalisation is like Dective Work – Joe Doveton
+## Why Personalisation is like Detective Work – Joe Doveton
 
 UX is planning the perfect murder. An abandoned basket is a crime scene. Ryanair checkouts were built by the Krays. Yes, the more you look at it, the more site optimisation is like detective work. In this session, DCI Joe “Dovers” Doveton takes you on a journey of deduction and discovery into the specific discipline of personalisation. From the initial forensic examination of analytics, to the creation of a suspect list to draw up segments, to the interpretation of user motivations and prediction of behaviour, this session is a step by step guide to building a personalisation protocol and the tools you can use to give your users the experience they want, when they want it. Guv. 
 
@@ -33,9 +33,9 @@ Steve has recently joined <a href="http://www.thestudentroom.co.uk/">The Student
 
 The Student Room Group have invested in some exciting new data and personalisation technologies, and it is up to Steve to ensure these are used effectively to give their students the best possible experience. Steve’s end goal is to build a single view of the customer to deliver true one to one personalisation across all touchpoints including web, email and mobile apps.
 
-He'll be drawing on his own real world examples, including his time with TUI UK&I, where he was responsible for growing eCRM revenue from £100m to well over half a billion. During his time working for the Thomson and First Choice holidays head office, Steve was responsible for cutting edge behavioural targeting programs that were rolled out across Europe, and looks to continue his success at TSR.
+He drew on his own real world examples, including his time with TUI UK&I, where he was responsible for growing eCRM revenue from £100m to well over half a billion. During his time working for the Thomson and First Choice holidays head office, Steve was responsible for cutting edge behavioural targeting programs that were rolled out across Europe, and looks to continue his success at TSR.
 
-This presentation will focus on personalisation as a platform to drive a joined up customer experience across platforms such as website, CRM etc. to drive customer engagement and satisfaction.
+This presentation focussed on personalisation as a platform to drive a joined up customer experience across platforms such as website, CRM etc. to drive customer engagement and satisfaction.
 
 Steve is the Winner of multiple data marketing awards, including the Grand Prix at the Marketing Week Data Strategy awards. He is currently Data Marketing Manager at <a href="http://www.thestudentroom.co.uk/">The Student Room Group</a>.
 
