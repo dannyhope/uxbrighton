@@ -764,6 +764,7 @@ span#loader {
 	display: -ms-flexbox;      
 	display: -webkit-flex;     
 	display: flex;   	
+	position: relative;
 }
 
 @media (min-width: 50rem) {
@@ -843,6 +844,13 @@ span#loader {
 	left: 0;
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
+}
+
+.event-meta .soon {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	overflow: hidden;
 }
 
