@@ -21,7 +21,7 @@ layout: default
 					{% elsif page.ticket-link == 'unticketed' %}
 							<a class="ticket-button">Unticketed event</a>
 					{% else %}
-						<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£5 + VAT + Eventbrite fee{% endif %}</span></a>
+						<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Get your ticket <span>{% if page.price %}{{page.price}}{% else %}£7 + VAT + Eventbrite fee{% endif %}</span></a>
 					{% endif %}
 					<!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 			    {{page.date | date: "%d %b"}}
