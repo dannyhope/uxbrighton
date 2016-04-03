@@ -2,9 +2,8 @@
 layout: event-page  
 title: UX Prototyping Workshop
 venue: 68 Middle Street
-start: e.g. 9.30am
+start: 9.30am
 ticket-link:https://www.eventbrite.co.uk/e/ux-prototyping-workshop-tickets-24342542199
-upcoming: false
 ---
 
 ## UX Prototyping Workshop - Cennydd Bowles
