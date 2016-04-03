@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: UX Prototyping Workshop
+title: "UX Prototyping Workshop"
 venue: 68 Middle Street
 start: 9.30am
 ticket-link:https://www.eventbrite.co.uk/e/ux-prototyping-workshop-tickets-24342542199
