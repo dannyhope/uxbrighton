@@ -4,6 +4,7 @@ title: Games & UX
 venue: Hotel du Vin
 start: 7pm
 ticket-link: https://www.eventbrite.co.uk/e/games-ux-tickets-24342295461
+homepage: true
 organisers:
   - name: Harvey Owen
     url: http://twitter.com/harvoldo
