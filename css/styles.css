@@ -310,7 +310,7 @@ footer {
 	position: relative;
 }
 
-.event-detail_desc h3 {
+.event-detail_desc h2:first-of-type, .event-detail_desc h3:first-of-type {
   clear: left;
 }
 

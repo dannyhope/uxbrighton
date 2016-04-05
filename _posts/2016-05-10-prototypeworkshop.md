@@ -7,7 +7,7 @@ price: Tickets from £250 + VAT
 ticket-link: https://www.eventbrite.co.uk/e/ux-prototyping-workshop-tickets-24342542199
 ---
 
-# Facilitated by Cennydd Bowles
+## Facilitated by Cennydd Bowles
 
 As users expect more from modern sites and apps, the design role expands and prototyping approaches have to adapt. 
 
