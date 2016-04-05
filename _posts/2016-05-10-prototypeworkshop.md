@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: "High-Fidelity Prototyping Workshop"
+title: High-Fidelity Prototyping Workshop
 venue: 68 Middle Street
 start: 9.30am
 price: Tickets from £250 + VAT
