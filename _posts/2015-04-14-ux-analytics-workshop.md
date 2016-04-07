@@ -4,8 +4,6 @@ title: UX Analytics Workshop
 venue: Lighthouse
 start: 10am
 ticket-link: http://www.eventbrite.co.uk/e/ux-brighton-ux-human-factors-and-ergonomics-tickets-13077411891
-upcoming:
-stub: true
 price: £149 + VAT
 ---
 
