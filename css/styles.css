@@ -415,7 +415,7 @@ nav.nav-side .link-archive {
 	display: none;
 }
 
-nav.nav-side .event-upcoming:nth-child(1)::after {
+nav.nav-side .event-upcoming::after {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -427,7 +427,7 @@ nav.nav-side .event-upcoming:nth-child(1)::after {
 	border-color: transparent transparent rgb(239, 140, 43) transparent;
 }
 
-nav.nav-side .event-upcoming:nth-child(1)::before {
+nav.nav-side .event-upcoming::before {
 	content: "soon";
 	z-index: 2;
 	color: white;
