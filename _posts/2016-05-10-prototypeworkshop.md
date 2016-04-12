@@ -14,7 +14,10 @@ upcoming: true
 As users expect more from modern sites and apps, the design role expands and prototyping approaches have to adapt. 
 
 The click-through prototype sufficed for a desktop web era, but lacks the detail and polish that contemporary design demands. Animation and touch require designers to prototype at high fidelity and thus a greater level of detail.
+
 Dozens of new tools are emerging to fill this niche, but you already have one that's both simple and surprisingly powerful: Keynote.
+
+## What's covered
 
 In this workshop, you’ll learn about the demands of contemporary prototyping including motion design theory and Disney's classic 12 principles of animation.
 
@@ -24,6 +27,18 @@ You’ll emerge with the ability to bring your designs to life, and start provid
 
 We’re limiting the number of places to ensure that the course is intimate and you can get your questions answered.
 
+## Who is this for?
+
+UX people who want to produce engaging high quality prototypes. The day is also suitable for designers of all levels. The type of people who this course would be useful for include:
+
+<ul>
+<li>UX designers</li>
+<li>Visual designers</li>
+<li>Interface designers</li>
+<li>Service designers</li>
+<li>App designers</li>
+<li>…and other related disciplines</li>
+</ul>
 ## Your Trainer
 
 The trainer for this workshop is Cennydd Bowles. Cennydd is a recognised authority on digital product design, former design lead at Twitter, and author of the popular book Undercover User Experience Design. 
