@@ -39,6 +39,7 @@ UX people who want to produce engaging high quality prototypes. The day is also 
 <li>App designers</li>
 <li>…and other related disciplines</li>
 </ul>
+
 ## Your Trainer
 
 The trainer for this workshop is Cennydd Bowles. Cennydd is a recognised authority on digital product design, former design lead at Twitter, and author of the popular book Undercover User Experience Design. 
