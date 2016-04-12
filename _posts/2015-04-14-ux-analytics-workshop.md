@@ -60,7 +60,6 @@ UX people who feel they should have more of a handle on the data side of things.
 - Managers
 - App designers
 - Researchers
-- Content strategists
 
 ## About Luke
 
