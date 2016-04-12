@@ -27,7 +27,7 @@ We’re limiting the number of places to ensure that the course is intimate and 
 
 The trainer for this workshop is Cennydd Bowles.Cennydd is a recognised authority on digital product design, former design lead at Twitter, and author of the popular book Undercover User Experience Design. 
 
-<img src="http://2015.uxlausanne.com/uxl15/wp-content/uploads/Cennydd-headshot-formal-web.jpg" height="50" width="50" />
+!-- <img src="http://2015.uxlausanne.com/uxl15/wp-content/uploads/Cennydd-headshot-formal-web.jpg" height="50" width="50" /> -->
 
 Previously a successful UX designer, Cennydd broadened into visual and motion design to offer the full stack of digital product design services. At Twitter, he helped to define cross-platform motion principles as part of the Twitter Human INterface Guidelines (THING) project. He now co-hosts the Motion and Meaning podcast.
 
