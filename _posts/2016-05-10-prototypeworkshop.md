@@ -32,11 +32,14 @@ We’re limiting the number of places to ensure that the course is intimate and 
 UX people who want to produce engaging high quality prototypes. The day is also suitable for designers of all levels. The type of people who this course would be useful for include:
 
 <ul>
-<li>UX designers</li>
 <li>Visual designers</li>
+<li>Product owners</li>
+<li>Entrepreneurs</li>
+<li>UX designers</li>
 <li>Interface designers</li>
-<li>Service designers</li>
 <li>App designers</li>
+<li>Experience Designer</li>
+<li>Interaction Designer</li>
 <li>…and other related disciplines</li>
 </ul>
 
