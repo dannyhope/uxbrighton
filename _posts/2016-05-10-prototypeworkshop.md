@@ -49,6 +49,8 @@ The trainer for this workshop is Cennydd Bowles. Cennydd is a recognised authori
 
 Previously a successful UX designer, Cennydd broadened into visual and motion design to offer the full stack of digital product design services. At Twitter, he helped to define cross-platform motion principles as part of the Twitter Human INterface Guidelines (THING) project. He now co-hosts the Motion and Meaning podcast.
 
+Hear Cennydd discuss prototyping tools, including Keynote, in <a href="http://motionandmeaning.io/episode06.html">this podcast from motionandmeaning.io</a>
+
 This one day workshop includes lunch and refreshments.
 
 ## Organisers
