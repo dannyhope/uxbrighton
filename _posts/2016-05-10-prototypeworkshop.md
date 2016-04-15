@@ -7,7 +7,10 @@ start: 9.30am
 price: Tickets from £250 + VAT
 ticket-link: https://www.eventbrite.co.uk/e/ux-prototyping-workshop-tickets-24342542199
 upcoming: true
+homepage: true
+art-direction: "@media (max-width: 64rem) {#cennydd {width: 100%;}} @media (min-width: 65rem) {#cennydd {width: 50%;}} #cennydd {margin: 0; padding: 0; border: 0}"
 ---
+<img id="cennydd" src="../portraits/cennydd-bowles.jpg">
 
 ## Facilitated by Cennydd Bowles
 

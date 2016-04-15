@@ -424,11 +424,15 @@ nav.nav-side .event-upcoming::after {
 	height: 0;
 	border-style: solid;
 	border-width: 0 0 45px 45px;
-	border-color: transparent transparent rgb(239, 140, 43) transparent;
+	border-color: transparent transparent rgb(11, 138, 193) transparent;
+}
+
+nav.nav-side .event-upcoming:nth-child(-n+1)::after {
+	border-color: transparent transparent  rgb(239, 140, 43) transparent;
 }
 
 nav.nav-side .event-upcoming::before {
-	content: "soon";
+	content: "next";
 	z-index: 2;
 	color: white;
 	position: absolute;
@@ -438,6 +442,10 @@ nav.nav-side .event-upcoming::before {
 	font-weight: bold;
 	-webkit-transform: rotate(-46deg);
 	transform: rotate(-46deg);
+}
+
+nav.nav-side .event-upcoming:nth-child(-n+1)::before {
+	content: "soon";
 }
 
 

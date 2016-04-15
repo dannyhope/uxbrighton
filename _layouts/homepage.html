@@ -4,6 +4,12 @@ ishomepage: true
 ---
 <main class="content-main-detail" role="main">
 		{% for page in site.posts reversed %}
+			{% if page.art-direction %} 
+				<style media="screen">
+					{{page.art-direction}}
+				</style>
+			{% endif %}  
+
 			{% if page.homepage %}
 	<section class="event-detail">
 		<div class="event-detail_desc">
