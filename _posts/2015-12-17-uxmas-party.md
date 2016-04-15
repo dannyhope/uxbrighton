@@ -3,7 +3,7 @@ layout: event-page
 title: UXmas Party!
 venue: Hatch
 start: 07:00pm
-ticket-link: unticketed
+upcoming: false
 ---
 
 The next UX Brighton event is our Xmas party. We’ll order takeaway curry and BYO booze, then around 9pm go off to a nearby pub.
