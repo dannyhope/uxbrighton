@@ -15,7 +15,7 @@ art-direction: "@media (max-width: 64rem) {#deb-and-steve{width: 100%;}} @media 
 
 This evening event will investigate how UX and user research is implemented in the development of video games. Speakers will be covering a wide range of games UX and user research topics, discussing how the best games really focus on the player experience. The state UX of the current games industry will be discussed, as well as how it will change moving forward with new technologies like VR.
 
-## Running user tests for Virtual Reality games - [Steve Bromley](https://twitter.com/Steve_Bromley)
+## Running user tests for Virtual Reality games – [Steve Bromley](https://twitter.com/Steve_Bromley)
 
 2016 is a big year for virtual reality, with the launch of new VR headsets from Sony PlayStation, Oculus Rift and Valve.
 For user researchers, virtual reality offers new challenges due to new technology, interaction methods and types of experiences.
@@ -28,7 +28,7 @@ Steve has run many user tests for PlayStation over the last 5 years, including f
  
 He has extensive experience of designing, running and reporting usability and user experience tests, with adults and children, both in lab tests and at participants homes. 
 
-## Differences between mainstream UX and games UX - Deborah Amar
+## Differences between mainstream UX and games UX – Deborah Amar
 
 Coming from Psychology and Human Computer Interaction, Games User Research is a growing field facing its own challenges, sometimes different from traditional User Research. In this talk we will explore the similarities and differences between Games User Research and Mainstream User Experience.  
 
