@@ -9,6 +9,7 @@ organisers:
   - name: Harvey Owen
     url: http://twitter.com/harvoldo
 upcoming: true
+homepage: true
 art-direction: "@media (max-width: 64rem) {#deb-and-steve{width: 100%;}} @media (min-width: 65rem) {#deb-and-steve {width: 50%;}} #deb-and-steve {margin: 0; padding: 0; border: 0}"
 ---
 <img id="deb-and-steve" src="../portraits/deb-and-steve.jpg">
