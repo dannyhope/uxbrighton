@@ -39,7 +39,13 @@ Before that she was responsible for the development of User Research methods for
 
 Over the last 3 years she has worked on over 30 games, running Usability and User Experience studies, from large franchises such as Assassin’s Creed to indie mobile games.
 
-## One more speaker to be announced very soon!
+## Applying UX Lessons to Game Design - [Henry Ryder](http://twitter.com/henryryder)
+
+Coming from a background of motion graphics and interactive design, Henry is a User Interface Designer currently working at Natural Motion's Brighton studio [BossAlien](http://bossalien.com). Creators of several highly successful games on iOS and Android.
+
+Before that he was an interactive designer working to promote video games and movies through the web & social media, for The Picture Production Company in London.
+
+In this talk, Henry will talk about applying the lessons learnt from user testing to the development of a game. 
 
 ## Cool extra stuff
 
