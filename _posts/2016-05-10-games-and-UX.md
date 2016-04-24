@@ -33,7 +33,7 @@ He has extensive experience of designing, running and reporting usability and us
 
 Coming from Psychology and Human Computer Interaction, Games User Research is a growing field facing its own challenges, sometimes different from traditional User Research. In this talk we will explore the similarities and differences between Games User Research and Mainstream User Experience.  
 
-Deborah is a User Researcher currently working at Player Research, a video game UX consultancy. 
+Deborah is a User Researcher currently working at [Player Research](http://http://www.playerresearch.com), a video game UX consultancy. 
 
 Before that she was responsible for the development of User Research methods for Ubisoft User Research Lab in Paris and also did several UX contracts for web companies. 
 
