@@ -10,13 +10,13 @@ organisers:
     url: http://twitter.com/harvoldo
 upcoming: true
 homepage: true
-art-direction: "@media (max-width: 64rem) {#deb-and-steve{width: 100%;}} @media (min-width: 65rem) {#deb-and-steve {width: 50%;}} #deb-and-steve {margin: 0; padding: 0; border: 0}"
+art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 33.333%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 20%;}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
-<img id="deb-and-steve" src="../portraits/deb-and-steve.jpg">
+<a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a>
 
 This evening event will investigate how UX and user research is implemented in the development of video games. Speakers will be covering a wide range of games UX and user research topics, discussing how the best games really focus on the player experience. The state UX of the current games industry will be discussed, as well as how it will change moving forward with new technologies like VR.
 
-## Running user tests for Virtual Reality games – [Steve Bromley](https://twitter.com/Steve_Bromley)
+## Running user tests for Virtual Reality games - [Steve Bromley](https://twitter.com/Steve_Bromley)
 
 2016 is a big year for virtual reality, with the launch of new VR headsets from Sony PlayStation, Oculus Rift and Valve.
 For user researchers, virtual reality offers new challenges due to new technology, interaction methods and types of experiences.
