@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: Games & UX
+title: Games, VR & UX
 venue: Hotel Du Vin
 date: 2016-05-10 19:00:00
 start: 7pm
