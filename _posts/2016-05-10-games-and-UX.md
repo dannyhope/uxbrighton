@@ -10,6 +10,7 @@ organisers:
     url: http://twitter.com/harvoldo
 upcoming: true
 homepage: true
+price: £5 + VAT + Eventbrite fee
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 33.333%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 20%;}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
 <a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a>
