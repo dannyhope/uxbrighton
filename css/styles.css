@@ -842,6 +842,10 @@ span#loader {
 	font-family: "Helvetica Neue", sans-serif;
 }
 
+.event-meta .addthisevent-drop .addthisevent_icon { 
+	background: none !important; 
+} 
+
 .event-meta .addthisevent-drop:after {
 	content: "▼";
 	font-size: 59%;
