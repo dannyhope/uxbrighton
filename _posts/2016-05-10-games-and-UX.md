@@ -3,7 +3,7 @@ layout: event-page
 title: Games & UX
 venue: Hotel Du Vin
 date: 2016-05-10 19:00:00
-start: 7pm
+start: 7:00pm
 ticket-link: https://www.eventbrite.co.uk/e/games-ux-tickets-24342295461
 organisers:
   - name: Harvey Owen
