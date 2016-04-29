@@ -26,9 +26,9 @@
 
 		  // grab their email address, put it into the google doc email
 		  // form element and subit the form in the iframe
-		  $('footer .email-form input[type=email]').keyup(function(){    
+		  $('.get-involved .email-form input[type=email]').keyup(function(){    
 		    
-		    var submitButton = $('footer .email-form input[type=submit]').attr('disabled', false);
+		    var submitButton = $('.get-involved .email-form input[type=submit]').attr('disabled', false);
 		    
 		    // minimal validation - just look for @  
 		    if ($(this).val().match(/.@./)) {
