@@ -1,0 +1,56 @@
+	<section class="get-involved">
+			<iframe src="/assets/email-form.html" hidden  width="0" height="0" tabindex="-1" title="empty"></iframe>
+			<form class="email-form">
+				<h2>Get notified about future events</h2>
+				<label for="email" class="sr-only">Email Address</label>
+				<input type="email" id="email" placeholder="Email address" tabindex="-1">
+				<input type="submit" name="submit" value="Subscribe" disabled class="button">
+				<p class='hidden thanks'>Thanks. We’ll be in touch soon</p>
+			</form>
+			
+			<div class="elsewhere">
+				<nav class="social-media">
+					<a href="https://www.facebook.com/groups/39816847256/"><i class="icon-facebook"></i><span class="sr-only">facebook</span></a>
+					<a href="https://twitter.com/uxbri"><i class="icon-twitter"></i><span class="sr-only">twitter</span></a>
+					<a href="https://plus.google.com/103231332974856165497/videos"><i class="icon-google-plus"></i><span class="sr-only">Google Plus</span></a>
+					<a href="https://www.linkedin.com/groups/UX-Brighton-89113"><i class="icon-linkedin"></i><span class="sr-only">Linked In</span></a>
+					<a href="/about" class="about">About us</a>
+				</nav>	
+			</div>		
+		<!-- The UX Brighton website was developed by
+		<a href="http://www.alexandtheweb.com">Alex</a> and <a href="http://www.dannyhope.co.uk">Danny</a> but anyone can contribute to it. Find us on <a href="https://github.com/dannyhope/uxbrighton">GitHub</a>.   -->
+	</section>
+	
+	<script>
+		$(function(){
+
+		  // grab their email address, put it into the google doc email
+		  // form element and subit the form in the iframe
+		  $('footer .email-form input[type=email]').keyup(function(){    
+		    
+		    var submitButton = $('footer .email-form input[type=submit]').attr('disabled', false);
+		    
+		    // minimal validation - just look for @  
+		    if ($(this).val().match(/.@./)) {
+		      submitButton.attr('disabled', false);
+		    } else {
+		      submitButton.attr('disabled', true);
+		    }
+		  });
+		  
+		  $('footer .email-form').submit(function(e){
+		    
+		    e.preventDefault();
+		    // copy email address
+		    $('#emailaddress', window.top.frames[0].document).val($('footer .email-form input[type=email]').val()); 
+		    
+		    // submit the form
+		    $('#email-form input[type=submit]', window.top.frames[0].document).click();
+
+		    // we'll just assume that it got posted
+		    $('footer .email-form input, footer .email-form h2').hide();
+		    $('footer .email-form .thanks').fadeIn();
+		  });
+		  
+		});
+	</script>

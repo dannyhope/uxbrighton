@@ -48,8 +48,9 @@ ishomepage: true
 							<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
 						{% endif %}	
 					</li>
-				</ul> -->		
-			</section>		
+				</ul> -->	
+				{% include participate.html %}	
+			</section>					
 
 		{% else %}
 			{% if page.upcoming == true %}
