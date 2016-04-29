@@ -3,6 +3,11 @@ layout: event-page
 title: UXmas Party!
 venue: Hatch
 start: 07:00pm
+date: 2015-12-17T19:00:00ZGMT
+organisers:
+  - name: Patrick
+  - name: Luke
+  - name: Danny
 upcoming: false
 ---
 
