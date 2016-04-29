@@ -7,8 +7,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
-
-	<meta name="description" content="UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology">
+	
+	{% if page.title %}		
+		{% capture title %}{{ page.title }}{% endcapture %}
+	{% else %}
+		{% capture title %}UX Brighton{% endcapture %}
+	{% endif %}
+	
+	{% if page.title %}
+	  {% assign organisers_names = page.organisers | map: "name" %}
+		{% capture description %}Come to our {{page.title }} event on {{page.date | date: "%d %b at %l%p"}}. It's being held at {{page.venue}}, Brighton and is organised by {{organisers_names | array_to_sentence_string}}. See http://uxbrighton.org.uk{{page.url}} for more information.{% endcapture %}
+	{% else %}
+		{% capture description %}UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology{% endcapture %}
+	{% endif %}
+	
+	<meta name="description" content="{{description}}">
+	
+	<!-— facebook open graph tags -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://uxbrighton.org.uk{{page.url}}" />
+	<meta property="og:title" content="{{title}}" />
+	<meta property="og:description" content="{{description}}" />
+	<!-- <meta property="og:image" content="" /> -->
+	 
+	<!-— twitter card tags additive with the og: tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:domain" value="http://uxbrighton.org.uk" />
+	<meta name="twitter:title" value="{{title}}" />
+	<meta name="twitter:description" value="{{description}}" />
+	<!-- <meta name="twitter:image" content="" /> -->
+	<meta name="twitter:url" value="http://uxbrighton.org.uk{{page.url}}" />
+	
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -33,17 +62,6 @@
 
 	</script>
 
-	<!-- Hotjar Tracking Code for uxbrighton.org.uk -->
-	<script>
-	    (function(f,b){
-	        var c;
-	        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
-	        f._hjSettings={hjid:29589, hjsv:3};
-	        c=b.createElement("script");c.async=1;
-	        c.src="//static.hotjar.com/c/hotjar-29589.js?sv=3";
-	        b.getElementsByTagName("head")[0].appendChild(c); 
-	    })(window,document);
-	</script> 	    
 </head>
 <body>
 	{% include header.html %}
