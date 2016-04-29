@@ -846,6 +846,12 @@ span#loader {
 	background: none !important; 
 } 
 
+.event-meta .addthisevent-drop span[class^=ate] {
+	/*background: green*/
+	height: 1.5em;
+	padding-top: 1.5em;	
+}
+
 .event-meta .addthisevent-drop:after {
 	content: "▼";
 	font-size: 59%;
