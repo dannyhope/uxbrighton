@@ -38,18 +38,18 @@
 		    }
 		  });
 		  
-		  $('footer .email-form').submit(function(e){
+		  $('.get-involved  .email-form').submit(function(e){
 		    
 		    e.preventDefault();
 		    // copy email address
-		    $('#emailaddress', window.top.frames[0].document).val($('footer .email-form input[type=email]').val()); 
+		    $('#emailaddress', window.top.frames[0].document).val($('.get-involved  .email-form input[type=email]').val()); 
 		    
 		    // submit the form
 		    $('#email-form input[type=submit]', window.top.frames[0].document).click();
 
 		    // we'll just assume that it got posted
-		    $('footer .email-form input, footer .email-form h2').hide();
-		    $('footer .email-form .thanks').fadeIn();
+		    $('.get-involved  .email-form input, .get-involved  .email-form h2').hide();
+		    $('.get-involved  .email-form .thanks').fadeIn();
 		  });
 		  
 		});
