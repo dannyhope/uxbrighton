@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: Games & UX
+title: Designing for VR
 venue: Hotel Du Vin
 date: 2016-05-10T19:00:00ZGMT
 start: 7:00pm
@@ -10,9 +10,12 @@ organisers:
     url: http://twitter.com/harvoldo
 upcoming: true
 homepage: true
+price: £5
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 33.333%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 20%;}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
-This evening event will investigate how UX and user research is implemented in the development of video games. Speakers will be covering a wide range of games UX and user research topics, discussing how the best games really focus on the player experience. The state UX of the current games industry will be discussed, as well as how it will change moving forward with new technologies like VR.
+This evening event will investigate how UX and user research is implemented in the development of video games. Speakers will be covering a wide range of games UX and user research topics, discussing how the best games really focus on the player experience. 
+
+The current state of UX in the games industry will be discussed, as well as how it will change moving forward with new technologies like VR.
 
 <a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a>
 
