@@ -85,6 +85,15 @@ table{border-collapse:collapse;border-spacing:0}
 	content: "\e603";
 }
 
+.icon-slack:before {
+	background-image: url(../images/slack.svg);
+	background-size: 1em;
+  display: inline-block;
+  width: 1em; 
+  height: 1em;
+  content:"";
+}
+
 .icon-facebook:before {
 	content: "\e601";
 }
@@ -117,7 +126,7 @@ body {
 	line-height: 1.5;
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 300;
-	background-color: rgb(249, 249, 249);
+	background-color: rgb(255,255,255);
 }
 h1 {
 	font-weight: 300;
@@ -154,6 +163,13 @@ a:hover {
 	border-bottom: 1px solid rgba(16, 139, 193,0.5);
 }
 
+.background {
+	background-color: rgb(244,244,244);
+}
+
+.midground {
+	background-color: rgb(244,244,244);
+}
 
 .site-header {
 	position: relative;
@@ -162,6 +178,7 @@ a:hover {
 	border-bottom: 1px solid rgb(222, 222, 222);
 	margin: 0 auto 2em;
 	text-align: center;
+	background-color: rgb(255,255,255);
 }
 
 .site-header .site-title {
@@ -176,6 +193,14 @@ a:hover {
 	width: 160px;
 }
 
+.get-involved {
+	position: absolute;
+	bottom: -9.25em;
+	left: 0;
+	width: 100%;
+	background-color: rgb(244,244,244);
+	/* border: 1px solid rgba(109, 109, 109,0.5); */
+}
 
 /* @group Structure */
 
@@ -186,12 +211,25 @@ a:hover {
 	.site-header, footer, nav.nav-side {
 		width: 40%;
 	}
+	.site-header {
+		background-color: rgb(244,244,244);
+	}
+	
+	.get-involved {
+		bottom: -8.5em;
+	}
 }	
 
 @media (min-width: 65rem) {
 	.site-header, footer, nav.nav-side {
 		width: 30%;
 		max-width: 480px;
+	}
+	.site-header {
+		background-color: rgb(244,244,244);
+	}
+	.get-involved {
+		bottom: -8.5em;
 	}
 }	
 
@@ -227,7 +265,7 @@ footer {
 		padding: 0 1em;
 		border-bottom: 0;
 		margin: 0;
-		border-right: 1px solid rgb(222, 222, 222);
+		/*border-right: 1px solid rgb(222, 222, 222);*/
 	}
 
 	.site-header .site-title {
@@ -292,8 +330,9 @@ footer {
 .event-detail h1 {
 	font-family: "museo-slab",sans-serif;
 	color: rgb(199,10,60);
-	width: calc(100% - 100px);
+	/*width: calc(100% - 100px);*/
   clear: both;
+	text-align: center;
 }
 
 .event-detail h2 {
@@ -348,8 +387,8 @@ aside.sponsors {
 }
 
 .email-form input[type="submit"]:disabled {
-  color: rgb(65, 65, 65);
-	background-color: rgb(194,194,194);
+  color: rgb(107, 107, 107);
+  background-color: rgb(207,207,207);
 }
 
 .email-form input[type="submit"] {
@@ -553,22 +592,36 @@ span#loader {
 }
 
 .email-form input {
-	padding: 0.3em 0.5em;
+	padding: 0.25em;
 }
 
 .email-form input[type="submit"] {
-	color: rgb(65, 65, 65);
+	color: rgb(0,0,0);
 	border: 0;
-	border-radius: 2px;
+	/* border-radius: 2px; */
+	margin: 0;
+	background-color: rgb(207,207,207);
+	/* padding: 0; */
 }
 
 .email-form input[type="email"] {
-	width: calc(100% - 135px);
-  	max-width: 180px;
+	/* width: calc(100% - 135px); */
+	/* max-width: 180px; */
+	/* padding: 0; */
+	/* margin: 0; */
+	border: 0;
+	background-color: rgb(230,230,230);
 }
 
-.email-form h2 {
+.email-form input[type="email"]:focus {
+  background-color: rgb(255,255,255);	
+}
+
+.get-involved .email-form h2 {
 	margin: 1em 0;
+	text-transform: uppercase;
+	color: rgb(187,187,187);
+	font-size: 0.7em;
 }
 
 /*Social media*/
@@ -579,12 +632,16 @@ span#loader {
 
 .social-media a {
 	text-decoration: none;
-	margin: 0 0 0 0.25em;
-	font-size: 1.2rem;
+	margin: 0;
 	line-height: 1;
 	display: inline-block;
 	word-wrap: none;
 	color: rgb(120, 186, 249);
+	padding: 0 0 0 0.25em;
+}
+
+a.about {
+  padding-top: 0.5em;
 }
 
 
@@ -669,7 +726,7 @@ span#loader {
 		padding: 0 1em;
 		border-bottom: 0;
 		margin: 0;
-		border-right: 1px solid rgb(222, 222, 222);
+		/*border-right: 1px solid rgb(222, 222, 222);*/
 	}
 
 	.site-header .site-title {
@@ -690,6 +747,10 @@ span#loader {
 		display: inline-block;
 		vertical-align: top;
 	}	
+	
+	.social-media a, a.about {
+		font-size: 1.2rem;
+	}
 
 	.intro-blurb {
 		width: calc(75% - 40px);
@@ -703,7 +764,12 @@ span#loader {
 
 	nav.nav-side {
 		float: left;
-		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		/*border-right: 1px solid rgba(0, 0, 0, 0.1);*/
+		/*height: 100vh; should work but is all sorts of weird*/
+	}
+	
+	.event-detail h1 {
+		text-align: left;
 	}
 
 	.content-main-about {
@@ -762,24 +828,18 @@ span#loader {
 
 .event-meta {
 	background: white !important;
-	border: 1px solid rgba(109, 109, 109,0.5);
+	/* border: 1px solid rgba(109, 109, 109,0.5); */
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	display: -webkit-box;
-	display: -moz-box;        
-	display: -ms-flexbox;      
-	display: -webkit-flex;     
-	display: flex;   	
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 	position: relative;
 	margin-bottom: 10em;
-}
-
-.get-involved {
-	position: absolute;
-	bottom: -10em;
-	left: 0;
 }
 
 @media (min-width: 50rem) {
