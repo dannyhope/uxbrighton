@@ -9,7 +9,7 @@ homepage: false
 ticket-link: 
 ---
 
-[<img src="/assets/15537580292_fe574d7b1f_o.jpg">](https://www.flickr.com/photos/yandle/15537580292/ "")
+[<img src="/assets/15537580292_fe574d7b1f_o.jpg">](https://www.flickr.com/photos/yandle/15537580292/)
 
 Also known as "comfort design", "functional design", or "user-friendly systems", HF&E is the practice of designing products, systems or processes to take proper account of the interaction between them and the people that use them. As you can imagine, there's plenty to learn from this multidisciplinary field. Speakers for the evening are all Senior Lecturers from the University of Brighton's School of Computing, Engineering and Mathematics.
 

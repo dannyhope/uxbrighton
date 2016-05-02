@@ -21,7 +21,7 @@ Andy Budd will look at the seven key factors that go into designing the perfect 
 
 ## Planning Discussion – led by Danny Hope & Jenni Lloyd
 
-At [BarcampBrighton 2](http://barcamp.org/w/page/400551/BarCampBrighton2 ""), Danny Hope gave an interesting talk about the methods he uses to design sites. He also talked about his interest in open-ness and showed pics of wireframes that he keeps on Flickr. During the discussion afterwards it became obvious that there’s a lot that the Brighton design community could learn from each other, in terms of what we do and the way that we do it.
+At [BarcampBrighton 2](http://barcamp.org/w/page/400551/BarCampBrighton2), Danny Hope gave an interesting talk about the methods he uses to design sites. He also talked about his interest in open-ness and showed pics of wireframes that he keeps on Flickr. During the discussion afterwards it became obvious that there’s a lot that the Brighton design community could learn from each other, in terms of what we do and the way that we do it.
 
 There are a multitude of digital media companies in Brighton, and many different networking groups. However, there are very few opportunities to talk in detail about design – both theory and practice. Let’s see how many people we can get together to form an informal group of user experience / interaction / web designers. The aim would be to meet on a semi-regular basis – maybe using the 20×20 Pecha Kucha presentation format, maybe just bringing in problems / concepts or whatever to discuss in an atmosphere of open collaboration.
 

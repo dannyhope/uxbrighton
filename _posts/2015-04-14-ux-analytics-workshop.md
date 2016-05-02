@@ -27,7 +27,7 @@ Knowledge of analytics will help to make you a better UXer because you’ll be a
 
 We’d like to keep this event intimate (15 spaces to be precise), so **get your ticket quick**, before they’re all gone.
 
-If you have questions please feel free to [email Luke](mailto:luke@lukehay.co.uk ""). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
+If you have questions please feel free to [email Luke](mailto:luke@lukehay.co.uk). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
 
 ## Specific activities & outcomes
 
@@ -72,7 +72,7 @@ Luke has
 - analysed over 100 different websites
 - used analytics to inform major design changes
 
-[Luke’s blog](http://www.lukehay.co.uk/blog/ "")
+[Luke’s blog](http://www.lukehay.co.uk/blog/)
 
 ## Testimonials
 

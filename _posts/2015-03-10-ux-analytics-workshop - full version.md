@@ -89,11 +89,11 @@ Luke has
 - used analytics to inform major design changes. 
 
 Luke Hay is a UX Consultant who has done plenty of user testing, from teenagers to pensioners, dress-makers to body builders, but is also an expert in analytics. Google analytics can be a difficult beast to tame. There are over 500 different default reports, not to mention an almost limited amount of custom reporting options. It’s not a tool that’s easy to pick up without some guidance and that’s where this workshop will help.
-[Luke’s blog](http://www.lukehay.co.uk/blog/ "")
+[Luke’s blog](http://www.lukehay.co.uk/blog/)
 
 ## Testimonials [hide the title]
 
-![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg "") “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
+![portrait of Ellen de Vries](/portraits/Ellen-de-Vries.jpg) “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
 —Ellen de Vries
 
 [pic] “sdcsdcs akdcbs ldc kj na sdckjasdnc sdcsdcs akdcbs ldc kj na sdckjasdnc”
@@ -113,7 +113,7 @@ BN1 4AJ
 
 10 minute walk from Brighton station
 
-[View map](https://www.google.com/maps/place/Lighthouse+Arts/@50.826238,-0.138209,13z/data=!4m2!3m1!1s0x0:0x1316760b33779607?hl=en "")
+[View map](https://www.google.com/maps/place/Lighthouse+Arts/@50.826238,-0.138209,13z/data=!4m2!3m1!1s0x0:0x1316760b33779607?hl=en)
 
 ## Organisers
 

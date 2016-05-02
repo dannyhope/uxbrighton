@@ -14,7 +14,7 @@ price: From £350 + VAT
 
 Workshops are a great way of getting working with clients, your own design team, or even your users. Workshops provide a way to come up with great ideas for a project whether running them at the ‘kick-off’ stage of a project or trying to solve a particular design challenge. The ability to run effective workshops is fast becoming one of the hallmarks of a good UXer.
 
-Learn tips and techniques from Alison Coward, founder of Bracket. Alison gave a talk on her [top 10 tips for running great workshops](http://uxbrighton.org.uk/people-skills-for-uxers/ "") for UX Brighton in February and we’ve invited her to to run a full-day session to share the same methods she uses to get great results with her clients such as Barclays, Etsy, Channel 4 and Trendwatching.
+Learn tips and techniques from Alison Coward, founder of Bracket. Alison gave a talk on her [top 10 tips for running great workshops](http://uxbrighton.org.uk/people-skills-for-uxers/) for UX Brighton in February and we’ve invited her to to run a full-day session to share the same methods she uses to get great results with her clients such as Barclays, Etsy, Channel 4 and Trendwatching.
 
 <div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/3RwvbJgLwFA" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
  
@@ -52,7 +52,7 @@ By the end of the session you’ll be able to:
 - make sure everyone stays motivated and engaged, and you get valuable contributions from everyone in the room
 - run highly creative (and fun) sessions whilst still making sure things get done
 
-If you have questions please feel free to email [luke@lukehay.co.uk](mailto:luke@lukehay.co.uk ""). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
+If you have questions please feel free to email [luke@lukehay.co.uk](mailto:luke@lukehay.co.uk). If there are specific things you’d like to see covered in the workshop, we’d love to hear about those too.
 
 ## Who is this for?
 

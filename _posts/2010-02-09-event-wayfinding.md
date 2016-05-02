@@ -12,22 +12,22 @@ We’ve been listening to your feedback, and in the spirit of iterative design, 
 
 Peter is UK Coordinator at Traveline
 
-[@traveline](http://twitter.com/traveline "")
+[@traveline](http://twitter.com/traveline)
 
 ## Usability themes for map interfaces – Pete Gale
 
 Head of User Experience, Cogapp
 
-[@petegale](http://twitter.com/petegale "")
+[@petegale](http://twitter.com/petegale)
 
 ## How usability testing wins contracts – Ben Sauer
 
 Ben is an independent user experience consultant and web strategist
 
-[@bensauer](http://twitter.com/bensauer "")
+[@bensauer](http://twitter.com/bensauer)
 
 ## iPhone Travel Apps UX Challenges – Malcolm Barclay
 
 Developer of London Tube Status, Deluxe and Bus for the iPhone
 
-[@MalcolmBarclay](http://twitter.com/MalcolmBarclay "")
+[@MalcolmBarclay](http://twitter.com/MalcolmBarclay)

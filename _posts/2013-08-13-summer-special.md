@@ -21,7 +21,7 @@ Oli Shaw is a strategic experience & brand consultant at Fluxx. Oli is experienc
 
 Oli's talk, "Launching probes and releasing trojan mice", will look at the similarity between launching a deep space probe and starting a new project, the methodology and techniques for uncovering all of the unknowns in a project. Including how to identify someone giving you a solution and how to translate it back into a requirement to work with. The talk will conclude by exploring the concept of ‘releasing trojan mice’ to provoke discussion, to create debate and most importantly as an experiment to learn from during a project. 
 
-[olishaw](http://twitter.com/olishaw "")
+[olishaw](http://twitter.com/olishaw)
 
 ## The relationship between typography and information architecture  – Boon Chew
 
@@ -29,7 +29,7 @@ Boon's talk will discuss the relationship between typography and information arc
 
 Boon is an interaction designer, information architect, former developer and avid sketchnoter. He currently works at SapientNitro, where he "does UX" for large companies like banks and telecoms. He's an active member of the UX community, where he currently organises regular events on interaction design as an IxDA local leader, and has organised UXCampLondon twice.
 
-[boonych](http://twitter.com/boonych "")
+[boonych](http://twitter.com/boonych)
 
 ## Organisers
 
