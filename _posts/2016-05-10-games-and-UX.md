@@ -19,7 +19,7 @@ The current state of UX in the games industry will be discussed, as well as how 
 
 <a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a>
 
-## Running user tests for Virtual Reality games - [Steve Bromley](https://twitter.com/Steve_Bromley)
+## Running user tests for Virtual Reality games - Steve Bromley
 
 2016 is a big year for virtual reality, with the launch of new VR headsets from Sony PlayStation, Oculus Rift and Valve.
 For user researchers, virtual reality offers new challenges due to new technology, interaction methods and types of experiences.
@@ -32,6 +32,8 @@ Steve has run many user tests for PlayStation over the last 5 years, including f
  
 He has extensive experience of designing, running and reporting usability and user experience tests, with adults and children, both in lab tests and at participants homes. 
 
+[@Steve_Bromley](https://twitter.com/Steve_Bromley)
+
 ## Differences between mainstream UX and games UX – Deborah Amar
 
 Coming from Psychology and Human Computer Interaction, Games User Research is a growing field facing its own challenges, sometimes different from traditional User Research. In this talk we will explore the similarities and differences between Games User Research and Mainstream User Experience.  
@@ -42,13 +44,15 @@ Before that she was responsible for the development of User Research methods for
 
 Over the last 3 years she has worked on over 30 games, running Usability and User Experience studies, from large franchises such as Assassin’s Creed to indie mobile games.
 
-## Applying UX Lessons to Game Design - [Henry Ryder](http://twitter.com/henryryder)
+## Applying UX Lessons to Game Design - Henry Ryder
 
 Coming from a background of motion graphics and interactive design, Henry is a User Interface Designer currently working at Natural Motion's Brighton studio [BossAlien](http://bossalien.com). Creators of several highly successful games on iOS and Android.
 
 Before that he was an interactive designer working to promote video games and movies through the web & social media, for The Picture Production Company in London.
 
 In this talk, Henry will talk about applying the lessons learnt from user testing to the development of a game. 
+
+[@henryryder](http://twitter.com/henryryder)
 
 ## Cool extra stuff
 
