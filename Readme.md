@@ -47,12 +47,6 @@ Name the file with the event date and event title, e.g.
 Remove this from the frontmatter:
 
     published: false
-
-### Mark a page as being empty (these pages are sometimes known as stubs)
-
-Add this to the frontmatter
-
-    noinfo: true
     
 ### Prevent the conference page from taking over the homepage
 
