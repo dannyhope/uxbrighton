@@ -66,6 +66,14 @@ Smart learners, collaborative innovators and self-directed humans are the work-f
 
 Our leadership team has strong established relationships with a range of specialist partners in hardware and software development including Oculus, HTC, Sony and Unity as well as partner studios specialising in film and 3D modelling.
 
+[Slacker Games](http://www.privateeyevr.com) will also be there, showing their game Private Eye.
+
+Private Eye is a cinematic, neo-noir psychological thriller, crafted exclusively for virtual reality, fully immersing players in the gripping, fragmented narrative of a mysterious detective.
+
+Following an accident that has left you paralysed from the waist down and in a dissociative state, you must investigate a series of murders whilst uncovering your own past and identity.
+
+Evolving the point-and-click genre for VR, we place visual exploration and environmental storytelling at the forefront. Private Eye aims to be offer a thought-provoking and complex experience to VR gaming.
+
 **Also…Games!**
 There will be a couple of multiplayer games that people can enjoy after the talks. The games themselves are TBC, but they will be fun and multiplayer, so start challenging people now!
 
