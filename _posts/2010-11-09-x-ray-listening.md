@@ -2,7 +2,6 @@
 layout: event-page
 title: Listening
 conference: false
-noinfo: true
 ---
 
 ## X-Ray Listening and Elephant Whispering – Judy Rees

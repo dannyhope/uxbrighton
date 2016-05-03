@@ -2,7 +2,6 @@
 layout: event-page
 title: Hands-on with eyetracking &amp; biometrics
 conference: false
-noinfo: true
 ---
 
 Last year’s talks from Bunnyfoot (the eye tracking & behavioural research specialists) and Vertical Slice (the video game user experience specialists) were so succesful that we’ve invited them back, and asked them to bring their hardware for some hands-on, interactive demos!

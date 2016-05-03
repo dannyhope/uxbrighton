@@ -2,7 +2,6 @@
 layout: event-page
 title: Measuring online engagement
 conference: false
-noinfo: true
 ---
 
 ## Measuring online engagement – Jason Ryan
