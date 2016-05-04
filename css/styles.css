@@ -449,44 +449,11 @@ nav.nav-side .current a {
 }
 nav.nav-side .event-upcoming a {
 	font-weight: bold;
+	font-size: 1.1rem;
 }
 nav.nav-side .link-archive {
 	display: none;
 }
-
-nav.nav-side .event-upcoming::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 0 45px 45px;
-	border-color: transparent transparent rgb(11, 138, 193) transparent;
-}
-
-nav.nav-side .event-upcoming:nth-child(-n+1)::after {
-	border-color: transparent transparent  rgb(239, 140, 43) transparent;
-}
-
-nav.nav-side .event-upcoming::before {
-	content: "next";
-	z-index: 2;
-	color: white;
-	position: absolute;
-	bottom: 7px;
-	right: 3px;
-	font-size: 11px;
-	font-weight: bold;
-	-webkit-transform: rotate(-46deg);
-	transform: rotate(-46deg);
-}
-
-nav.nav-side .event-upcoming:nth-child(-n+1)::before {
-	content: "soon";
-}
-
 
 nav.nav-side .link-archive {
 	padding: 0.6rem 2rem;
@@ -510,12 +477,26 @@ nav.nav-side .link-archive {
 	-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);	
 }
+
 nav .post-date {
 	font-weight: 500;
 	color: rgba(11,138,193,0.5);
-	/*color: rgba(253, 159, 68, 0.6);*/
 	font-size: 0.8rem;
 }
+
+	nav .event-upcoming {
+		height: 5rem;
+	}
+
+			nav .event-upcoming .post-date {
+				background-color: rgb(239, 140, 43);
+				display: inline;
+				padding: .2rem .4rem;
+				color: white;
+				font-weight: bold;
+				border-radius: 0.2rem;
+			}
+
 nav span.coming-soon {
 	background: rgb(11,138,193); /*blue*/
 	background: rgb(0,138,255); /*vivid blue*/
