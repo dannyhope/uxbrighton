@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: Designing for VR
+title: Designing for Games & VR
 venue: Hotel Du Vin
 date: 2016-05-10T19:00:00ZGMT
 start: 7:00pm
