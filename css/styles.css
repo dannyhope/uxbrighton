@@ -195,11 +195,12 @@ a:hover {
 
 .get-involved {
 	position: absolute;
-	bottom: -9.25em;
+	bottom: -11.5em;
 	left: 0;
 	width: 100%;
 	background-color: rgb(244,244,244);
-	/* border: 1px solid rgba(109, 109, 109,0.5); */
+	border: 1px solid rgba(109, 109, 109,0.2);
+	padding-bottom: 0.8rem;
 }
 
 /* @group Structure */
@@ -590,8 +591,8 @@ span#loader {
 	/* max-width: 180px; */
 	/* padding: 0; */
 	/* margin: 0; */
-	border: 0;
 	background-color: rgb(230,230,230);
+	border: none;
 }
 
 .email-form input[type="email"]:focus {
@@ -599,7 +600,7 @@ span#loader {
 }
 
 .get-involved .email-form h2 {
-	margin: 1em 0;
+	margin: 1.4em 0;
 	text-transform: uppercase;
 	color: rgb(187,187,187);
 	font-size: 0.7em;
@@ -633,7 +634,7 @@ a.about {
 
 .social-media .about {
 	font-size: inherit;
-	font-size: 1rem;
+	/* font-size: 1rem; */
 	line-height: 1.5;
 	margin-left: 1em;
 	vertical-align: top;
@@ -809,7 +810,7 @@ a.about {
 
 .event-meta {
 	background: white !important;
-	/* border: 1px solid rgba(109, 109, 109,0.5); */
+	/* border: 1px solid rgba(0,0,0,0.2); */
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -820,7 +821,7 @@ a.about {
 	display: -webkit-flex;
 	display: flex;
 	position: relative;
-	margin-bottom: 10em;
+	margin-bottom: 13em;
 }
 
 @media (min-width: 50rem) {
@@ -879,7 +880,7 @@ a.about {
 .event-meta a.addthisevent-drop {
 	background: none rgb(239, 140, 43);
 	color: rgb(255, 255, 255) !important;
-	font-weight: normal;
+	font-weight: bold;
 	font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -927,6 +928,7 @@ a.about {
 	bottom: 0;
 	width: auto;
 	margin-left: -360px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 /*No venue message*/
