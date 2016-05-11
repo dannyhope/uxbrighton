@@ -21,6 +21,8 @@ The current state of UX in the games industry will be discussed, as well as how 
 
 ## Running user tests for Virtual Reality games - Steve Bromley
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src=<iframe src="//www.slideshare.net/slideshow/embed_code/key/FDROoDVwYZLE4i" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/uxbri/steve-bromley-running-user-tests-for-vr-games" title="Steve Bromley - Running User Tests for VR Games" target="_blank">Steve Bromley - Running User Tests for VR Games</a> </strong> from <strong><a href="//www.slideshare.net/uxbri" target="_blank">uxbri</a></strong> </div> frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 2016 is a big year for virtual reality, with the launch of new VR headsets from Sony PlayStation, Oculus Rift and Valve.
 For user researchers, virtual reality offers new challenges due to new technology, interaction methods and types of experiences.
  
