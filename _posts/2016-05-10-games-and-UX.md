@@ -8,7 +8,7 @@ ticket-link: https://www.eventbrite.co.uk/e/games-ux-tickets-24342295461
 organisers:
   - name: Harvey Owen
     url: http://twitter.com/harvoldo
-upcoming: true
+upcoming: no
 homepage: true
 price: £5
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 33.333%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 20%;}} .speaker-photo {margin: 0; padding: 0; border: 0}"
