@@ -9,7 +9,7 @@ organisers:
   - name: Harvey Owen
     url: http://twitter.com/harvoldo
 upcoming: no
-homepage: true
+homepage: false
 price: £5
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 33.333%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 20%;}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
