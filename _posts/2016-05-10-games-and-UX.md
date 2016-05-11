@@ -21,7 +21,7 @@ The current state of UX in the games industry will be discussed, as well as how 
 
 ## Running user tests for Virtual Reality games - Steve Bromley
 
-<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src=<iframe src="//www.slideshare.net/slideshow/embed_code/key/FDROoDVwYZLE4i" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/uxbri/steve-bromley-running-user-tests-for-vr-games" title="Steve Bromley - Running User Tests for VR Games" target="_blank">Steve Bromley - Running User Tests for VR Games</a> </strong> from <strong><a href="//www.slideshare.net/uxbri" target="_blank">uxbri</a></strong> </div> frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/FDROoDVwYZLE4i" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 2016 is a big year for virtual reality, with the launch of new VR headsets from Sony PlayStation, Oculus Rift and Valve.
 For user researchers, virtual reality offers new challenges due to new technology, interaction methods and types of experiences.
@@ -38,6 +38,8 @@ He has extensive experience of designing, running and reporting usability and us
 
 ## Differences between mainstream UX and games UX – Deborah Amar
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/uB3dnlheLMDEJ6" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 Coming from Psychology and Human Computer Interaction, Games User Research is a growing field facing its own challenges, sometimes different from traditional User Research. In this talk we will explore the similarities and differences between Games User Research and Mainstream User Experience.  
 
 Deborah is a User Researcher currently working at [Player Research](http://http://www.playerresearch.com), a video game UX consultancy. 
@@ -47,6 +49,8 @@ Before that she was responsible for the development of User Research methods for
 Over the last 3 years she has worked on over 30 games, running Usability and User Experience studies, from large franchises such as Assassin’s Creed to indie mobile games.
 
 ## Applying UX Lessons to Game Design - Henry Ryder
+
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/lkJVLCTT8rJQGA" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 Coming from a background of motion graphics and interactive design, Henry is a User Interface Designer currently working at Natural Motion's Brighton studio [BossAlien](http://bossalien.com). Creators of several highly successful games on iOS and Android.
 
