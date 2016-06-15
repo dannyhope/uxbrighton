@@ -4,7 +4,6 @@ title: Designing for Games & VR
 venue: Hotel Du Vin
 date: 2016-05-10T19:00:00ZGMT
 start: 7:00pm
-ticket-link: https://www.eventbrite.co.uk/e/games-ux-tickets-24342295461
 organisers:
   - name: Harvey Owen
     url: http://twitter.com/harvoldo
