@@ -24,7 +24,7 @@ ishomepage: true
 				{% elsif page.ticket-link == 'unticketed' %}
 					<a class="ticket-button">Unticketed event</a><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 				{% else %}
-					<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Buy your ticket – {% if page.price %}{{page.price}}{% else %}£7{% endif %}<br><span>+VAT & Eventbrite fee{% endif %}</span></a><!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
+					<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">Buy your ticket – {% if page.price %}{{page.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}<br><span>{% endif %}</span></a><!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 			    {{page.date | date: "%d %b"}}
 				{% if page.start %}
 					<span class="event-time">{{page.start}}</span>
