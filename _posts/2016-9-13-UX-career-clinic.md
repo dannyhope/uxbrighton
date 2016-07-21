@@ -12,8 +12,9 @@ homepage: true
 
 ---
 
-Following the success of our last UX Career Clinic, we're back again as part of the [Brighton Digital Festival](http://brightondigitalfestival.co.uk/)
-This event is aimed at giving careers advice to those looking to get into the industry, or move within it. This event will give job seekers unique insight from the best UX industry professionals in Brighton who will be able to give feedback on portfolios and give careers advice to help those lacking UX experience to get a foot on the careers ladder. Advisors will come from a range of different UX companies to ensure that the breadth of this exciting industry is represented.
+Following the success of our last UX Career Clinic, we're back again as part of the [Brighton Digital Festival](http://brightondigitalfestival.co.uk/).
+
+<strong>This event is aimed at giving careers advice to those looking to get into the industry, or move within it<strong>. Job seekers will receive unique insight from the best UX industry professionals in Brighton, who will be able to give feedback on portfolios and give careers advice to help those lacking UX experience, to get a foot on the careers ladder. Advisors come from a range of different UX companies, to ensure that the breadth of this exciting industry is represented.
 
 Approximately 20 company representatives and UX freelancers will be on-hand to give one-to-one advice to those looking to get into the industry or move within it.
 
