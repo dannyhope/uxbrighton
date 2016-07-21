@@ -8,6 +8,7 @@ upcoming: true
 upcoming: true
 published: true
 price: £3 + VAT
+homepage: true
 
 ---
 
