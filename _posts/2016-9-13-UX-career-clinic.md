@@ -7,6 +7,7 @@ ticket-link: https://www.eventbrite.co.uk/e/ux-career-clinic-supercharge-your-ux
 upcoming: true 
 upcoming: true
 published: true
+price: £3 + VAT
 
 ---
 
