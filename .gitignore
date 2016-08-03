@@ -4,3 +4,4 @@ codekit-config.json
 .ruby-version*
 .jekyll-metadata
 /_site/
+.tags
