@@ -25,7 +25,7 @@ Our <strong>confirmed mentors</strong> include:
 [![Foolproof](../assets/2016-careers-clinic/foolproof.svg)](http://www.foolproof.co.uk/)
 [![Madgex](../assets/2016-careers-clinic/madgex.svg)](http://www.madgex.com/)
 [![MRM Meteorite](../assets/2016-careers-clinic/mrm.svg)](http://www.mrm-meteorite.com/)
-[![RSA Digital](../assets/2016-careers-clinic/rsa_digital.wide.svg)](https://rsa.digital/))
+[![RSA Digital](../assets/2016-careers-clinic/rsa_digital.wide.svg)](https://rsa.digital/)
 
 [Clearleft](http://clearleft.com), [Ribot](http://ribot.co.uk), [Crunch](https://www.crunch.co.uk/), [The Unit](http://www.theunit.co.uk/), [Danny Hope](http://dannyhope.co.uk/), [Andy Parker](http://byandyparker.com/), [Sjors Timmer](http://notura.com/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Galloway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/), [Liquid Light](https://www.liquidlight.co.uk/), [Chris How](https://www.linkedin.com/in/chrishow), [Fiona MacNeill](https://www.linkedin.com/in/fionamacneill), [Player Research](http://www.playerresearch.com/) with more to come.
 
