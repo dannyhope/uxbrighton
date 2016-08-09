@@ -24,13 +24,14 @@ Our <strong>confirmed mentors</strong> include:
 [![University of Brighton](../assets/2016-careers-clinic/uob.wide.svg)](https://www.brighton.ac.uk)
 [![Clearleft](../assets/2016-careers-clinic/clearleft.wide.svg)](http://clearleft.com)
 [![Foolproof](../assets/2016-careers-clinic/foolproof.svg)](http://www.foolproof.co.uk/)
+[![Liquid Light](../assets/2016-careers-clinic/liquid_light.wide.svg)](https://www.liquidlight.co.uk/)
 [![Madgex](../assets/2016-careers-clinic/madgex.wide.svg)](http://www.madgex.com/)
 [![MRM Meteorite](../assets/2016-careers-clinic/mrm.svg)](http://www.mrm-meteorite.com/)
 [![RSA Digital](../assets/2016-careers-clinic/rsa_digital.wide.svg)](https://rsa.digital/)
 [![Ribot](../assets/2016-careers-clinic/ribot.svg)](http://ribot.co.uk)
 [![The Unit](../assets/2016-careers-clinic/the_unit.svg)](http://www.theunit.co.uk/)
 
-[Crunch](https://www.crunch.co.uk/), [Danny Hope](http://dannyhope.co.uk/), [Andy Parker](http://byandyparker.com/), [Sjors Timmer](http://notura.com/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Galloway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/), [Liquid Light](https://www.liquidlight.co.uk/), [Chris How](https://www.linkedin.com/in/chrishow), [Player Research](http://www.playerresearch.com/) with more to come.
+[Crunch](https://www.crunch.co.uk/), [Danny Hope](http://dannyhope.co.uk/), [Andy Parker](http://byandyparker.com/), [Sjors Timmer](http://notura.com/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Galloway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/), [Chris How](https://www.linkedin.com/in/chrishow), [Player Research](http://www.playerresearch.com/) with more to come.
 
 The timeslots are in place to help us minimise the time you'll need to wait to talk to mentors. We won't be restricting your access in any way, we just want to help you get the most of the event. Once you've seen a mentor or two, you're free to hang out and network with other attendees.
 
