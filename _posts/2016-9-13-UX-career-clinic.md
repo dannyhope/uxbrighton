@@ -9,7 +9,7 @@ upcoming: true
 published: true
 price: £3 + VAT
 homepage: true
-art-direction: ".event-detail_desc img{vertical-align: middle} @media (max-width: 64rem) {.event-detail_desc img{width: 20%;} .event-detail_desc img[src*=wide]{width: 40%}} @media (min-width: 65rem) {.event-detail_desc img{width: 10%;} .event-detail_desc img[src*=wide]{width: 20%}}"
+art-direction: ".event-detail_desc img{vertical-align: middle} @media (max-width: 64rem) {.event-detail_desc img{width: 20%;} .event-detail_desc img[src*=wide]{width: 40%}} @media (min-width: 65rem) {.event-detail_desc img{width: 10%;} .event-detail_desc img[src*=wide]{width: 20%}} blockquote {line-height: 1.75; margin: 0; font-style: italic; font-size: 1rem}"
 ---
 
 Following the success of our [last UX Career Clinic](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/), [we're back again](http://brightondigitalfestival.co.uk/event/ux-career-clinic-supercharge-ux-career/) as part of the [Brighton Digital Festival](http://brightondigitalfestival.co.uk/).
@@ -33,7 +33,9 @@ Our <strong>confirmed mentors</strong> include:
 
 [Crunch](https://www.crunch.co.uk/), [Danny Hope](http://dannyhope.co.uk/), [Andy Parker](http://byandyparker.com/), [Sjors Timmer](http://notura.com/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Galloway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/), [Chris How](https://www.linkedin.com/in/chrishow), [Player Research](http://www.playerresearch.com/) with more to come.
 
-Here's what one attendee from our previous career clinic had to say; _"It really helped me get a good overview of the types of companies out there and the sorts of work they do, as well as what they look for in an applicant. The careers clinic also helped me widen my idea of the types of job I should search for. Initially I’d only been on the lookout for UX researcher roles, since that was my main academic background, but after talking to people at the clinic I realised that I could also search for junior roles that incorporated design and research."_
+Here's what one attendee from our previous career clinic had to say:
+
+<blockquote>&ldquo;It really helped me get a good overview of the types of companies out there and the sorts of work they do, as well as what they look for in an applicant. The careers clinic also helped me widen my idea of the types of job I should search for. Initially I’d only been on the lookout for UX researcher roles, since that was my main academic background, but after talking to people at the clinic I realised that I could also search for junior roles that incorporated design and research.&rdquo;</blockquote>
 
 <strong>If you are coming, be sure to read our [tips for attendees](/careers-clinic-2016-attendees-guide)</strong>.
 
