@@ -35,7 +35,7 @@ Our <strong>confirmed mentors</strong> include:
 
 Here's what one attendee from the last career's clinic had to say; _"It really helped me get a good overview of the types of companies out there and the sorts of work they do, as well as what they look for in an applicant. The careers clinic also helped me widen my idea of the types of job I should search for. Initially I’d only been on the lookout for UX researcher roles, since that was my main academic background, but after talking to people at the clinic I realised that I could also search for junior roles that incorporated design and research._
 
-If you are coming, be sure to read our [tips for attendees](/careers-clinic-2016-attendees-guide).
+*If you are coming, be sure to read our [tips for attendees](/careers-clinic-2016-attendees-guide)*.
 
 The timeslots are in place to help us minimise the time you'll need to wait to talk to mentors. We won't be restricting your access in any way, we just want to help you get the most of the event. Once you've seen a mentor or two, you're free to hang out and network with other attendees.
 
