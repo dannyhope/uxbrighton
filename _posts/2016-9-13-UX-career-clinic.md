@@ -21,8 +21,11 @@ Approximately 20 company representatives and UX freelancers will be on-hand <str
 Our <strong>confirmed mentors</strong> include:
 
 [![Amido](../assets/2016-careers-clinic/amido.png)](http://www.amido.com/)
+[![Andy Parker](../assets/2016-careers-clinic/andy.parker.jpg)](http://byandyparker.com/)
 [![University of Brighton](../assets/2016-careers-clinic/uob.wide.svg)](https://www.brighton.ac.uk)
 [![Clearleft](../assets/2016-careers-clinic/clearleft.wide.svg)](http://clearleft.com)
+[![Crunch](../assets/2016-careers-clinic/crunch.wide.svg)](https://www.crunch.co.uk/)
+[![EDF](../assets/2016-careers-clinic/edf.jpg)](http://edfenergy.com)
 [![Foolproof](../assets/2016-careers-clinic/foolproof.svg)](http://www.foolproof.co.uk/)
 [![Liquid Light](../assets/2016-careers-clinic/liquid_light.wide.svg)](https://www.liquidlight.co.uk/)
 [![Madgex](../assets/2016-careers-clinic/madgex.wide.svg)](http://www.madgex.com/)
@@ -31,7 +34,7 @@ Our <strong>confirmed mentors</strong> include:
 [![Ribot](../assets/2016-careers-clinic/ribot.svg)](http://ribot.co.uk)
 [![The Unit](../assets/2016-careers-clinic/the_unit.svg)](http://www.theunit.co.uk/)
 
-[Crunch](https://www.crunch.co.uk/), [Danny Hope](http://dannyhope.co.uk/), [Andy Parker](http://byandyparker.com/), [Sjors Timmer](http://notura.com/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Galloway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/), [Chris How](https://www.linkedin.com/in/chrishow), [Player Research](http://www.playerresearch.com/) with more to come.
+[Danny Hope](http://dannyhope.co.uk/), [Sjors Timmer](http://notura.com/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Galloway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/), [Chris How](https://www.linkedin.com/in/chrishow), [Player Research](http://www.playerresearch.com/) with more to come.
 
 Here's what one attendee from our previous career clinic had to say:
 
