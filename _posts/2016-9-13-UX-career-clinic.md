@@ -7,7 +7,7 @@ ticket-link: https://www.eventbrite.co.uk/e/ux-career-clinic-supercharge-your-ux
 upcoming: true 
 upcoming: true
 published: true
-price: £3 + VAT
+price: FREE
 homepage: true
 art-direction: ".event-detail_desc img{vertical-align: middle} @media (max-width: 64rem) {.event-detail_desc img{width: 20%;} .event-detail_desc img[src*=wide]{width: 40%}} @media (min-width: 65rem) {.event-detail_desc img{width: 10%;} .event-detail_desc img[src*=wide]{width: 20%}} blockquote {line-height: 1.75; margin: 0; font-style: italic; font-size: 1rem}"
 ---
@@ -44,10 +44,8 @@ Here's what one attendee from our previous career clinic had to say:
 
 <strong>If you are coming, be sure to read our [tips for attendees](/careers-clinic-2016-attendees-guide)</strong>.
 
-The timeslots are in place to help us minimise the time you'll need to wait to talk to mentors. We won't be restricting your access in any way, we just want to help you get the most of the event. Once you've seen a mentor or two, you're free to hang out and network with other attendees.
-
 [Here's](http://www.theunit.co.uk/our-thinking/2015/portfolio-clinic-at-ux-brighton) what mentors from [The Unit](http://www.theunit.co.uk) had to say about our last Career Clinic.
 
 And [here's](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/) a write up from digital agency [No Pork Pies](http://www.noporkpies.com/).
 
-# NB Your ticket deposit will be fully refunded so long as you attend. 
+
