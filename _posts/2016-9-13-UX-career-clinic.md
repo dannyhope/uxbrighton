@@ -32,10 +32,10 @@ Our <strong>confirmed mentors</strong> are:
 [![Liquid Light](../assets/2016-careers-clinic/liquid_light.wide.svg)](https://www.liquidlight.co.uk/)
 [![Madgex](../assets/2016-careers-clinic/madgex.wide.svg)](http://www.madgex.com/)
 [![MRM Meteorite](../assets/2016-careers-clinic/mrm.svg)](http://www.mrm-meteorite.com/)
+[![Sjors Timmer](../assets/2016-careers-clinic/notura.wide.png)](http://notura.com/)
 [![Player Research](../assets/2016-careers-clinic/player_research.wide.png)](http://www.playerresearch.com/)
 [![RSA Digital](../assets/2016-careers-clinic/rsa_digital.wide.svg)](https://rsa.digital/)
 [![Ribot](../assets/2016-careers-clinic/ribot.svg)](http://ribot.co.uk)
-[![Sjors Timmer](../assets/2016-careers-clinic/notura.wide.png)](http://notura.com/)
 [![The Unit](../assets/2016-careers-clinic/the_unit.svg)](http://www.theunit.co.uk/)
 [![Webcredible](../assets/2016-careers-clinic/webcredible.png)](http://www.webcredible.com/)
 
