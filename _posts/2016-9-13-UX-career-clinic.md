@@ -20,6 +20,7 @@ Approximately 20 company representatives and UX freelancers will be on-hand <str
 
 Our <strong>confirmed mentors</strong> include:
 
+[![Amex](../assets/2016-careers-clinic/amex.svg)](https://www.americanexpress.com/uk/)
 [![Amido](../assets/2016-careers-clinic/amido.png)](http://www.amido.com/)
 [![Andy Parker](../assets/2016-careers-clinic/andy.parker.jpg)](http://byandyparker.com/)
 [![University of Brighton](../assets/2016-careers-clinic/uob.wide.svg)](https://www.brighton.ac.uk)
@@ -37,7 +38,7 @@ Our <strong>confirmed mentors</strong> include:
 [![The Unit](../assets/2016-careers-clinic/the_unit.svg)](http://www.theunit.co.uk/)
 [![Webcredible](../assets/2016-careers-clinic/webcredible.png)](http://www.webcredible.com/)
 
-[Danny Hope](http://dannyhope.co.uk/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Gallaway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/) with more to come.
+[Danny Hope](http://dannyhope.co.uk/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Gallaway](http://cherylgallaway.com/), [Fresh Egg](http://www.freshegg.co.uk/) with more to come.
 
 Here's what one attendee from our previous career clinic had to say:
 
