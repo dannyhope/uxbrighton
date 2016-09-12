@@ -18,7 +18,7 @@ Following the success of our [last UX Career Clinic](http://www.nppdigital.com/b
 
 Approximately 20 company representatives and UX freelancers will be on-hand <strong>to give one-to-one advice</strong> to those looking to get into the industry or move within it.
 
-Our <strong>confirmed mentors</strong> include:
+Our <strong>confirmed mentors</strong> are:
 
 [![Amex](../assets/2016-careers-clinic/amex.svg)](https://www.americanexpress.com/uk/)
 [![Amido](../assets/2016-careers-clinic/amido.png)](http://www.amido.com/)
@@ -28,6 +28,7 @@ Our <strong>confirmed mentors</strong> include:
 [![Crunch](../assets/2016-careers-clinic/crunch.wide.svg)](https://www.crunch.co.uk/)
 [![EDF](../assets/2016-careers-clinic/edf.jpg)](http://edfenergy.com)
 [![Foolproof](../assets/2016-careers-clinic/foolproof.svg)](http://www.foolproof.co.uk/)
+[![Fresh Egg](../assets/2016-careers-clinic/fresh_egg.jpg)](http://www.freshegg.co.uk/)
 [![Liquid Light](../assets/2016-careers-clinic/liquid_light.wide.svg)](https://www.liquidlight.co.uk/)
 [![Madgex](../assets/2016-careers-clinic/madgex.wide.svg)](http://www.madgex.com/)
 [![MRM Meteorite](../assets/2016-careers-clinic/mrm.svg)](http://www.mrm-meteorite.com/)
@@ -38,7 +39,7 @@ Our <strong>confirmed mentors</strong> include:
 [![The Unit](../assets/2016-careers-clinic/the_unit.svg)](http://www.theunit.co.uk/)
 [![Webcredible](../assets/2016-careers-clinic/webcredible.png)](http://www.webcredible.com/)
 
-[Danny Hope](http://dannyhope.co.uk/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Gallaway](http://cherylgallaway.com/), [Fresh Egg](http://www.freshegg.co.uk/) with more to come.
+[Cheryl Gallaway](http://cherylgallaway.com/), [Danny Hope](http://dannyhope.co.uk/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner) and [Ben Scammels](http://www.benscammelsdesign.com/).
 
 Here's what one attendee from our previous career clinic had to say:
 
