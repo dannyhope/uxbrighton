@@ -33,10 +33,11 @@ Our <strong>confirmed mentors</strong> include:
 [![Player Research](../assets/2016-careers-clinic/player_research.wide.png)](http://www.playerresearch.com/)
 [![RSA Digital](../assets/2016-careers-clinic/rsa_digital.wide.svg)](https://rsa.digital/)
 [![Ribot](../assets/2016-careers-clinic/ribot.svg)](http://ribot.co.uk)
+[![Sjors Timmer](../assets/2016-careers-clinic/notura.wide.png)](http://notura.com/)
 [![The Unit](../assets/2016-careers-clinic/the_unit.svg)](http://www.theunit.co.uk/)
 [![Webcredible](../assets/2016-careers-clinic/webcredible.png)](http://www.webcredible.com/)
 
-[Danny Hope](http://dannyhope.co.uk/), [Sjors Timmer](http://notura.com/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Gallaway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/) with more to come.
+[Danny Hope](http://dannyhope.co.uk/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner), [Ben Scammels](http://www.benscammelsdesign.com/), [Cheryl Gallaway](http://cherylgallaway.com/), [Amex](https://www.americanexpress.com/uk/), [Fresh Egg](http://www.freshegg.co.uk/) with more to come.
 
 Here's what one attendee from our previous career clinic had to say:
 
