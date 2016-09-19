@@ -1,0 +1,13 @@
+---
+layout: event-page  
+title: UX Brighton 2016: UX is dead, long live UX!
+venue: Corn Exchange
+start: 10am
+ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-2016-ux-is-dead-long-live-ux-tickets-15866892302
+upcoming: true 
+
+published: false
+price: from £130+VAT
+homepage: true
+art-direction: ".event-detail_desc img{vertical-align: middle} @media (max-width: 64rem) {.event-detail_desc img{width: 20%;} .event-detail_desc img[src*=wide]{width: 40%}} @media (min-width: 65rem) {.event-detail_desc img{width: 10%;} .event-detail_desc img[src*=wide]{width: 20%}} blockquote {line-height: 1.75; margin: 0; font-style: italic; font-size: 1rem}"
+---
