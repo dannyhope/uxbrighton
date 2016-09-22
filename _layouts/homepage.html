@@ -24,7 +24,7 @@ ishomepage: true
 				{% elsif page.ticket-link == 'unticketed' %}
 					<a class="ticket-button">Unticketed event</a><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 				{% else %}
-					<a href="{{page.ticket-link}}?ref=ebtn" class="ticket-button" title="{{page.title}} tickets on Eventbrite">
+					<a href="{{page.ticket-link}}" class="ticket-button" title="{{page.title}} tickets on Eventbrite">
 					{% capture price %}{{ page.price | downcase}}{% endcapture %}{% if price == 'free' %}
 						Get
 					{% else %}
