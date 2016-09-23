@@ -14,14 +14,28 @@
 		{% capture title %}UX Brighton{% endcapture %}
 	{% endif %}
 	
+	{% assign frontpage = site.posts.first %}
+	
+  {% capture nextevent %}Our next event is {{site.posts.first.title }} event on {{site.posts.first.date | date: "%d %b"}} at {{site.posts.first.start}}. See http://uxbrighton.org.uk{{page.url}} for more information.{% endcapture %}	
+	
 	{% if page.title %}
-	  {% assign organisers_names = page.organisers | map: "name" %}
-		{% capture description %}Come to our {{page.title }} event on {{page.date | date: "%d %b at %l%p"}}. It's being held at {{page.venue}}, Brighton and is organised by {{organisers_names | array_to_sentence_string}}. See http://uxbrighton.org.uk{{page.url}} for more information.{% endcapture %}
+	  	{% assign organisers_names = page.organisers | map: "name" %}
+		{% if organisers_names == empty %}
+			{% assign organisers_names = "the UX Brighton team" | split: "|" %}
+		{% endif %}
+	
+		{% if page.upcoming == null or page.upcoming == false %}
+			{% capture previous_event %}This was our {{page.title }} event, held on {{page.date | date: "%d %b %Y"}}. {% endcapture %}
+		{% endif %}	
+		
+		{% capture description %}{{previous_event}} Come to our next event: {{site.posts.first.title }} on {{site.posts.first.date | date: "%d %b"}} at {{site.posts.first.start}}. It's being held at {{site.posts.first.venue}}, Brighton and is organised by {{organisers_names | array_to_sentence_string }}. See http://uxbrighton.org.uk{{page.url}} for more information.{% endcapture %}
+		
 	{% else %}
-		{% capture description %}UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology{% endcapture %}
+		{% capture description %}UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology. {{nextevent}}{% endcapture %}
 	{% endif %}
 	
 	<meta name="description" content="{{description}}">
+	<meta name="first" content="{{site.posts.first.title}}">
 	
 	<!-— facebook open graph tags -->
 	<meta property="og:type" content="website" />
