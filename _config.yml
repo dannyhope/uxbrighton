@@ -4,4 +4,6 @@ highlighter: rouge
 permalink: /:title/
 future: true
 exclude: [CNAME]
+gems:
+  - jekyll-redirect-from
 
