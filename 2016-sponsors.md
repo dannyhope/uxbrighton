@@ -28,7 +28,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 
 <h2>Get in touch</h2>
 <p>Email <strong><a href="mailto:emmeline@uxbrighton.org.uk">emmeline@uxbrighton.org.uk</a></strong>
-<br>Twitter <strong><a href="https://twitter.com/uxbri">@uxbri</a></strong> (DMs are open)</p>
+<br>Twitter <strong><a href="https://twitter.com/direct_messages/create/uxbri">@uxbri</a></strong> (DMs are open)</p>
 
 <h2>What makes UX Brighton special?</h2>
 <p>This is our sixth UX Brighton conference and we've been running not just the conference, but also regular
@@ -40,7 +40,7 @@ meetups throughout the last seven years. We have strong following locally, natio
 <p>We’ve been graced by world-class speakers including Rory Sutherland, Susan Weinschenk, Karl Fast and Robin Dunbar. </p>
 
 <h2>Previous Sponsors</h2>
-<p>Many firms have recognised the value and quality of our events. We’re proud to have been supported previously by organisations including:</p>
+<p>Many firms have recognised the value and quality of our events. We’re proud to have been supported by organisations including:</p>
 <p><img src="/assets/conference-2016/previous-sponsors.png" style="width: 80%"></p>
 
 <h2>Who will be there?</h2>
@@ -55,8 +55,8 @@ meet people from the following roles:</p>
 <br>‣ Founder/CEO/Director
 <br>‣ Product/Project Manager</p>
 
-<h2>Speakers</h2>
-<p>Speakers this year will be announced over the coming weeks.</p>
+<!-- <h2>Speakers</h2>
+<p>Speakers this year will be announced over the coming weeks.</p> -->
 
 <h2>Companies</h2>
 <p>Previous companies in strong attendance include:
@@ -82,10 +82,10 @@ Archives.</p>
 
 <h2 id="packages">Sponsorship Opportunities</h2>
 <p>We are offering the following traditional packages plus "pick and mix" opportunities for you: </p>
-<div style="margin-left: 2em"><p>🏆&emsp;Event stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets. <br><strong>£1K, 3 available</strong></p>
+<div style="margin-left: 2em"><p>🏆🏆🏆&emsp;Event stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets. <br><strong>£1K, 3 available</strong></p>
 <p>🏆🏆&emsp;Event stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets.
 <br><strong>£2K, 2 available</strong></p>
-<p>🏆🏆🏆&emsp;Event stand, <strong>largest logo & link</strong> on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets. <br><strong>£4K, 1 available</strong></p></div>
+<p>🏆&emsp;Event stand, <strong>largest logo & link</strong> on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets. <br><strong>£4K, 1 available</strong></p></div>
 
 <p>Other ways to support, as additions to our traditional packages or as standalone options:</p>
 <div style="margin-left: 2em"><p>🎫 🙋🏿&emsp;<strong>branded lanyards</strong> – your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography. 
@@ -96,9 +96,9 @@ Archives.</p>
 <p>💧 💦&emsp;<strong>bottled water</strong> – Keep our delegates hydrated and refreshed throughout the day with chilled bottled still and sparkling water. 
 <br>From <strong>£200</strong></p>
 <p>🍺 🍷&emsp;<strong>after party</strong> – Buy our delegates a drink or two at the networking after party and get 2 conference tickets. 
-<br>From <strong>£1K</strong></p></div>
+<br>From <strong>£1K</strong></p>
 
-<p>😋 👌&emsp;<strong>fun sponsors</strong> – Help us provide something extra to surprise, excite, and get people talking. How about a lego build? A sweet stall? A photo booth or Polaroid photo wall? </p>
+<br><p>😋 👌&emsp;<strong>fun sponsors</strong> – Help us provide something extra to surprise, excite, and get people talking. How about a lego build? A sweet stall? A photo booth or Polaroid photo wall? </p></div>
 
 <p>Have your own ideas? <a href="mailto:emmeline@uxbrighton.org.uk">Get in touch</a> and we’ll help make it work.</p>
 </div>
