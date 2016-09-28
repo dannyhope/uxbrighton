@@ -28,7 +28,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 
 <h2>Get in touch</h2>
 <p>Email <strong><a href="mailto:emmeline@uxbrighton.org.uk">emmeline@uxbrighton.org.uk</a></strong>
-<br>Twitter <strong><a href="https://twitter.com/uxbri">@uxbri</a></strong></p>
+<br>Twitter <strong><a href="https://twitter.com/uxbri">@uxbri</a></strong> (DMs are open)</p>
 
 <h2>What makes UX Brighton special?</h2>
 <p>This is our sixth UX Brighton conference and we've been running not just the conference, but also regular
@@ -82,20 +82,20 @@ Archives.</p>
 
 <h2>Sponsorship Opportunities</h2>
 <p>We are offering the following traditional packages and "pick and mix" opportunities for you: </p>
-THREE: Stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets. £1K, 3 available.
-TWO: Stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets. £2K, 2 available.
-ONE: Stand, largest logo & link on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets. £4K, 1 available.
+<p>x 3: Stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets. <strong>£1K, 3 available</strong>.</p>
+<p>x 2: Stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets. <strong>£2K, 2 available</strong>.</p>
+<p>x 1: Stand, largest logo & link on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, <strong>8 tickets. £4K, 1 available</strong>.</p>
 
-Other ways to support, as additions to our traditional packages or to standalone:
-Branded lanyards - your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography. From £750.
-Refreshments - buy our delegates their morning and afternoon coffee (or tea!): All day £1500, Morning only £750, Afternoon only £750.
-Fruit & pastries: A great add on to our refreshments opportunity - we can put you in touch with quality local suppliers.
-Bottled water: Keep our delegates hydrated and refreshed throughout the day with chilled bottled still and sparkling water. From £200.
-After Party: Buy our delegates a drink or two at the networking after party and get 2 conference tickets. From £1K.
+<p>Other ways to support, as additions to our traditional packages or to standalone:</p>
+<p>• Branded lanyards – your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography. From £750.</p>
+<p>• Refreshments – buy our delegates their morning and afternoon coffee (or tea!): All day £1500, Morning only £750, Afternoon only £750.</p>
+<p>• Fruit & pastries – A great add on to our refreshments opportunity - we can put you in touch with quality local suppliers.</p>
+<p>• Bottled water – Keep our delegates hydrated and refreshed throughout the day with chilled bottled still and sparkling water. From £200.</p>
+<p>• After Party – Buy our delegates a drink or two at the networking after party and get 2 conference tickets. From £1K.</p>
 
-Fun sponsors: Help us provide something extra to surprise, excite, and get people talking. How about a lego build? A sweet stall? A photo booth or Polaroid photo wall? 
+<p>Fun sponsors: Help us provide something extra to surprise, excite, and get people talking. How about a lego build? A sweet stall? A photo booth or Polaroid photo wall? </p>
 
-Have your own ideas? Get in touch and we’ll help make it work.
+<p>Have your own ideas? <a href="mailto:emmeline@uxbrighton.org.uk">Get in touch</a> and we’ll help make it work.</p>
 </div>
 
 <div id="quotes">
