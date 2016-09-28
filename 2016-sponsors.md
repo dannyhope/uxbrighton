@@ -22,9 +22,12 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 
 <p>During this one day conference, we aim to eschew traditional thinking and examine better ways to model and think about the world. We'll see how we can learn from many disciplines and professions, not just design or UX, and demonstrate how the best design needs a foundation of empirical evidence and critical thinking.</p>
 
-<h2>Thought Provoking speakers</h2>
+<h2>Thought-provoking speakers</h2>
 
 <p>Our speakers are individually selected from industry and academia; we make a particular effort to bring new, relevant speakers to our audiences and we have been responsible for bringing a number of now well-known speakers on to the conference circuit.</p>
+
+<h2>A boutique team</h2>
+<p>UX Brighton is carefully curated by Danny Hope, a <a href="https://www.linkedin.com/in/dannyhope">UX consultant</a> with over a decade of experience. In all matters logistical, practical and eventful <a href="https://www.linkedin.com/in/emmeline-caines-gooby-9579195">Emmeline Caines-Gooby</a> ensures the conference runs like a smoothly oiled machine. Emm's been working with Danny since 2011. Emmeline and Danny are backed up by a team of volunteers who all work to ensure the conference is a great day for all our attendees, speakers and sponsors.</p>
 
 <h2>Get in touch</h2>
 <p>Email <strong><a href="mailto:emmeline@uxbrighton.org.uk">emmeline@uxbrighton.org.uk</a></strong>
@@ -82,23 +85,24 @@ Archives.</p>
 
 <h2 id="packages">Sponsorship Opportunities</h2>
 <p>We are offering the following traditional packages plus "pick and mix" opportunities for you: </p>
-<div style="margin-left: 2em"><p>🏆🏆🏆&emsp;Event stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets. <br><strong>£1K, 3 available</strong></p>
-<p>🏆🏆&emsp;Event stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets.
+<div style="margin-left: 2em"><p>✨🏆✨&emsp;Event stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets <br><strong>£1K, 3 available</strong></p>
+<p>🌟🏆🌟&emsp;Event stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets
 <br><strong>£2K, 2 available</strong></p>
-<p>🏆&emsp;Event stand, <strong>largest logo & link</strong> on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets. <br><strong>£4K, 1 available</strong></p></div>
+<p>👑 🏆 👑&emsp;Event stand with your choice of location in the Foyer bar, <strong>largest logo & link</strong> on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets <br><strong>£4K, 1 available</strong></p></div>
 
-<p>Other ways to support, as additions to our traditional packages or as standalone options:</p>
-<div style="margin-left: 2em"><p>🎫 🙋🏿&emsp;<strong>branded lanyards</strong> – your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography. 
-<br><strong>From £750</strong></p>
-<p>☕️ 🍵&emsp;<strong>refreshments</strong> – buy our delegates their morning and afternoon coffee (or tea!).
+<p>Other ways to support, either as additions to our traditional packages or as standalone options:</p>
+<div style="margin-left: 2em"><p>🎫 🙋🏿&emsp;<strong>branded lanyards</strong> – your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography 
+<br>From <strong>£750</strong></p>
+<p>☕️ 🍵&emsp;<strong>refreshments</strong> – buy our delegates their morning and afternoon coffee (or tea!)
 <br>All day <strong>£1500</strong>, Morning only <strong>£750</strong>, Afternoon only <strong>£750</strong></p>
-<p>🍏 🍰&emsp;<strong>fruit & pastries</strong> – A great add on to our refreshments opportunity - we can put you in touch with quality local suppliers.</p>
-<p>💧 💦&emsp;<strong>bottled water</strong> – Keep our delegates hydrated and refreshed throughout the day with chilled bottled still and sparkling water. 
+<p>🍏 🍰&emsp;<strong>fruit & pastries</strong> – A great add on to our refreshments opportunity - we can put you in touch with quality local suppliers
 <br>From <strong>£200</strong></p>
-<p>🍺 🍷&emsp;<strong>after party</strong> – Buy our delegates a drink or two at the networking after party and get 2 conference tickets. 
+<p>💧 💦&emsp;<strong>bottled water</strong> – Keep our delegates hydrated and refreshed throughout the day with chilled bottled still and sparkling water
+<br>From <strong>£200</strong></p>
+<p>🍺 🍷&emsp;<strong>after party</strong> – Buy our delegates a drink or two at the networking after party and get 2 conference tickets 
 <br>From <strong>£1K</strong></p>
 
-<br><p>😋 👌&emsp;<strong>fun sponsors</strong> – Help us provide something extra to surprise, excite, and get people talking. How about a lego build? A sweet stall? A photo booth or Polaroid photo wall? </p></div>
+<br><p>😋 👌&emsp;<strong>fun sponsors</strong> – Help us provide something extra to surprise, excite, and get people talking. How about a Lego build? A sweet stall? A photo booth or Polaroid photo wall? </p></div>
 
 <p>Have your own ideas? <a href="mailto:emmeline@uxbrighton.org.uk">Get in touch</a> and we’ll help make it work.</p>
 </div>
