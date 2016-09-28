@@ -97,7 +97,7 @@ Archives.</p>
 <br>All day <strong>£1500</strong>, Morning only <strong>£750</strong>, Afternoon only <strong>£750</strong></p>
 <p>🍏 🍰&emsp;<strong>fruit & pastries</strong> – A great add on to our refreshments opportunity - we can put you in touch with quality local suppliers
 <br>From <strong>£200</strong></p>
-<p>💧 💦&emsp;<strong>bottled water</strong> – Keep our delegates hydrated and refreshed throughout the day with chilled bottled still and sparkling water
+<p>💧 💦&emsp;<strong>bottled water</strong> – Keep our delegates hydrated and refreshed throughout the day with chilled, still and sparkling bottled water
 <br>From <strong>£200</strong></p>
 <p>🍺 🍷&emsp;<strong>after party</strong> – Buy our delegates a drink or two at the networking after party and get 2 conference tickets 
 <br>From <strong>£1K</strong></p>
