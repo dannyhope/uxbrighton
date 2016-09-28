@@ -18,7 +18,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 
 <p>Unlike most other conferences, we gather together a mix of academic and industry experts and curate our talks along a strong theme…</p>
 
-<p>…This year’s theme is <strong>UX is dead! Long live UX!</strong>.</p>
+<p>…This year’s theme is <strong>UX is dead, long live UX!</strong>.</p>
 
 <p>During this one day conference, we aim to eschew traditional thinking and examine better ways to model and think about the world. We'll see how we can learn from many disciplines and professions, not just design or UX, and demonstrate how the best design needs a foundation of empirical evidence and critical thinking.</p>
 
@@ -28,7 +28,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 
 <h2>Get in touch</h2>
 <p>Email <strong><a href="mailto:emmeline@uxbrighton.org.uk">emmeline@uxbrighton.org.uk</a></strong>
-<br>Twitter <strong><a href="https://twitter.com/emm">@emm</a></strong></p>
+<br>Twitter <strong><a href="https://twitter.com/uxbri">@uxbri</a></strong></p>
 
 <h2>What makes UX Brighton special?</h2>
 <p>This is our sixth UX Brighton conference and we've been running not just the conference, but also regular
@@ -44,7 +44,7 @@ meetups throughout the last seven years. We have strong following locally, natio
 <p><img src="/assets/conference-2016/previous-sponsors.png" style="width: 80%"></p>
 
 <h2>Who will be there?</h2>
-<p>UX Brighton 2016 will bring together 400 UX and design
+<p>UX Brighton 2016 will bring together over 300 UX and design
 specialists for a single-track conference.</p>
 
 <h2>Delegates</h2>
@@ -62,7 +62,7 @@ meet people from the following roles:</p>
 <p>Previous companies in strong attendance include:
 Ebay, Nokia, Skype, GitHub, Volvo, Ogilvy, Expedia,
 Pearson, Twitter, uSwitch, Barclays, MacMillan,
-Hotels.com, MS Society, Royal Mail, Globalmaxer, Paddy
+Hotels.com, MS Society, Tesco, Royal Mail, Globalmaxer, Paddy
 Power, Net-a-Porter, Virgin Money, The Book People,
 American Express, Pensions Regulator and The National
 Archives.</p> 
@@ -81,8 +81,21 @@ Archives.</p>
 <p>Showcase your brand to the people who count – the people who care enough to attend thought-provoking conferences, those who believe in continuous learning and personal challenges. Show the influencers that you support this community.</p>
 
 <h2>Sponsorship Opportunities</h2>
-<p>We are offering the following "pick and mix" opportunities for you: </p>
+<p>We are offering the following traditional packages and "pick and mix" opportunities for you: </p>
+THREE: Stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets. £1K, 3 available.
+TWO: Stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets. £2K, 2 available.
+ONE: Stand, largest logo & link on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets. £4K, 1 available.
 
+Other ways to support, as additions to our traditional packages or to standalone:
+Branded lanyards - your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography. From £750.
+Refreshments - buy our delegates their morning and afternoon coffee (or tea!): All day £1500, Morning only £750, Afternoon only £750.
+Fruit & pastries: A great add on to our refreshments opportunity - we can put you in touch with quality local suppliers.
+Bottled water: Keep our delegates hydrated and refreshed throughout the day with chilled bottled still and sparkling water. From £200.
+After Party: Buy our delegates a drink or two at the networking after party and get 2 conference tickets. From £1K.
+
+Fun sponsors: Help us provide something extra to surprise, excite, and get people talking. How about a lego build? A sweet stall? A photo booth or Polaroid photo wall? 
+
+Have your own ideas? Get in touch and we’ll help make it work.
 </div>
 
 <div id="quotes">
