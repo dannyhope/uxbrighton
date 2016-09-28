@@ -3,7 +3,6 @@ layout: event-page
 title: UX Career Clinic. Supercharge your UX career
 venue: Fabrica
 start: 6pm
-ticket-link: https://www.eventbrite.co.uk/e/ux-career-clinic-supercharge-your-ux-career-tickets-26635008026
 upcoming: false 
 
 published: true
