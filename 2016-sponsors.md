@@ -34,10 +34,10 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 <p>This is our sixth UX Brighton conference and we've been running not just the conference, but also regular
 meetups throughout the last seven years. We have strong following locally, nationally and internationally.</p>
 
-In previous years, themes have included Designing for Behaviour, Past & Future Interactions, The Psychological Foundations of Design and Practical Philosophy.
+<p>In previous years, themes have included Designing for Behaviour, Past & Future Interactions, The Psychological Foundations of Design and Practical Philosophy.</p>
 
 <h2>World-class Speakers</h2>
-We’ve been graced by world-class speakers including Rory Sutherland, Susan Weinschenk, Karl Fast and Robin Dunbar. 
+<p>We’ve been graced by world-class speakers including Rory Sutherland, Susan Weinschenk, Karl Fast and Robin Dunbar. </p>
 
 <h2>Previous Sponsors</h2>
 <p>Many firms have recognised the value and quality of our events. We’re proud to have been supported previously by organisations including:</p>
@@ -56,7 +56,7 @@ meet people from the following roles:</p>
 <br>‣ Product/Project Manager</p>
 
 <h2>Speakers</h2>
-Speakers this year will be announced over the coming weeks.
+<p>Speakers this year will be announced over the coming weeks.</p>
 
 <h2>Companies</h2>
 <p>Previous companies in strong attendance include:
