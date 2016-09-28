@@ -101,7 +101,7 @@ Archives.</p>
 <br>From <strong>£200</strong></p>
 <p>🍺 🍷&emsp;<strong>after party</strong> – Buy our delegates a drink or two at the networking after party and get 2 conference tickets 
 <br>From <strong>£1K</strong></p>
-<p>💻   😍&emsp;<strong>job advert</strong> – Looking to hire a UX specialist, researcher, IA, ethonographer, psychologist, or any one of a number of specialist skills? Those people will be coming to our conference! Put your job ad. on our website and get it tweeted about in the run up to the conference
+<p>💻   😍&emsp;<strong>job advert</strong> – Looking to hire a UX specialist, researcher, IA, ethnographer, psychologist, product owner, or any one of a number of specialist skills? Those people will be coming to our conference! Put your job ad. on our website and get it tweeted about in the run up to the conference
 <br>From <strong>£500</strong></p>
 
 
