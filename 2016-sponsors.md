@@ -38,7 +38,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 <p>🌟🏆🌟&emsp;Event stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets
 <br><strong>£2K, 2 available</strong></p>
 <p>👑 🏆 👑&emsp;Event stand with your choice of location in the Foyer bar, <strong>largest logo & link</strong> on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets <br><strong>£4K, 1 available</strong></p>
-<p>🔥 🏆 🔥&emsp; Sole sponsor for UX Brighton 2016 including all the options below; you'll be the only company whose name delegates will see on the day. We'll put you on the name badges, lanyards and website. We'll let people know that you're buying them coffee, tea, water, fruit, pastries and paying for a beer or two after the event. Get in quick because we can only offer this for a limited time!<br><strong>£12K, 1 available</strong></p></div>
+<p>🔥 🏆 🔥&emsp; <strong>Sole sponsor for UX Brighton 2016</strong> including all the options below; you'll be the only company whose name delegates will see on the day. We'll put you on the name badges, lanyards and website. We'll let people know that you're buying them coffee, tea, water, fruit, pastries and paying for a beer or two after the event. Get in quick because we can only offer this for a limited time!<br><strong>£12K, 1 available</strong></p></div>
 
 <p>Other ways to support, either as additions to our traditional packages or as standalone options:</p>
 <div style="margin-left: 2em"><p>🎫 🙋🏿&emsp;<strong>branded lanyards</strong> – your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography 
