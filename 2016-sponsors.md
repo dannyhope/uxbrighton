@@ -35,7 +35,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 <h2 id="packages">Sponsorship Opportunities</h2>
 <p>We are offering the following traditional packages plus "pick and mix" opportunities for you: </p>
 <div style="margin-left: 2em"><p>✨🏆✨&emsp;Event stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets <br><strong>£1K, 3 available</strong></p>
-<p>🌟🏆🌟&emsp;Event stand, larger logo & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets
+<p>🌟🏆🌟&emsp;Event stand, <strong>larger logo</strong> & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets
 <br><strong>£2K, 2 available</strong></p>
 <p>👑 🏆 👑&emsp;Event stand with your choice of location in the Foyer bar, <strong>largest logo & link</strong> on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets <br><strong>£4K, 1 available</strong></p>
 <p>🔥 🏆 🔥&emsp; <strong>Sole sponsor for UX Brighton 2016</strong> including all the options below; you'll be the only company whose name delegates will see on the day. We'll put you on the name badges, lanyards and website. We'll let people know that you're buying them coffee, tea, water, fruit, pastries and paying for a beer or two after the event. Get in quick because we can only offer this for a limited time!<br><strong>£12K, 1 available</strong></p></div>
