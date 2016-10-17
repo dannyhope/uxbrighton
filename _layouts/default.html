@@ -70,8 +70,24 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-7759112-2', 'uxbrighton.org.uk');
+		
+	  ga('create', 'UA-7759112-2', 'uxbrighton.org.uk');	
+		ga('require', 'linker');
+		ga(function(tracker) {
+			// we need to get the _ga cross-domain value and replace it with
+			// Eventbrite's _eboga requirement
+			// https://www.eventbrite.com/support/articles/en_US/Troubleshooting/how-to-enable-cross-domain-and-ecommerce-tracking-with-google-universal-analytics#j_id0:HelpCenterSiteTemplate:j_id2:j_id131:articleStepsComponent:j_id132:1:j_id152
+			var xdomain = tracker.get('linkerParam');
+			$('a').attr("href", function(i,a){
+				if (a.match(/eventbrite\.co\.uk/i)) {
+					var splitURL = a.split('#');
+    			var hash = splitURL[1];
+					a += "?&" + xdomain.replace(/_ga/, '_eboga');
+    			return hash == null ? a : a + '#' + hash;					
+				}
+  		});
+			
+		});
 	  ga('send', 'pageview');
 
 	</script>
