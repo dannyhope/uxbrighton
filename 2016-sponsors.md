@@ -36,7 +36,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 <p>We are offering the following traditional packages plus "pick and mix" opportunities for you: </p>
 <div style="margin-left: 2em"><p>✨🏆✨&emsp;Event stand, logo & link on our website and mailouts, Twitter mention (4.4K followers), 2 tickets <br><strong>£1K, 3 available</strong></p>
 <p>🌟🏆🌟&emsp;Event stand, <strong>larger logo</strong> & link on our website and mailouts, Twitter mentions, logo on banners, 4 tickets
-<br><strong>£2K, 2 available</strong></p>
+<br><strong>£2K, <strike>2 available</strike> 1 available</strong></p>
 <p>👑 🏆 👑&emsp;Event stand with your choice of location in the Foyer bar, <strong>largest logo & link</strong> on our website and mailouts, multiple Twitter mentions, logo on banners and name badges, 8 tickets <br><strong>£4K, 1 available</strong></p>
 </div>
 
