@@ -41,18 +41,18 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 </div>
 
 <p>Other ways to support, either as additions to our traditional packages or as standalone options:</p>
-<div style="margin-left: 2em"><p>🎫 🙋🏿&emsp;<strong>branded lanyards</strong> – your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography 
-<br>From <strong>£750</strong></p>
-<p>☕️ 🍵&emsp;<strong>refreshments</strong> – buy our delegates their morning and afternoon coffee (or tea!)
-<br>All day <strong>£1500</strong>, Morning only <strong>£750</strong>, Afternoon only <strong>£750</strong></p>
-<p>🍏 🍰&emsp;<strong>fruit & pastries</strong> – A great-add on to our refreshments opportunity - we can put you in touch with quality local suppliers
-<br>From <strong>£200</strong></p>
+<div style="margin-left: 2em"><p>🎫 🙋🏿&emsp;<strike><strong>branded lanyards</strong> – your logo around the neck of every delegate, speaker and organiser, guaranteed to be seen in all event photography 
+<br>From <strong>£750</strong></strike></p>
+<p>☕️ 🍵&emsp;<strike><strong>refreshments</strong> – buy our delegates their morning and afternoon coffee (or tea!)
+<br>All day <strong>£1500</strong>, Morning only <strong>£750</strong>, Afternoon only <strong>£750</strong></strike></p>
+<p>🍏 🍰&emsp;<strike><strong>fruit & pastries</strong> – A great-add on to our refreshments opportunity - we can put you in touch with quality local suppliers
+<br>From <strong>£200</strong></strike></p>
 <p>💧 💦&emsp;<strong>bottled water</strong> – Keep our delegates hydrated and refreshed throughout the day with chilled, still and sparkling bottled water
 <br>From <strong>£200</strong></p>
 <p>🍺 🍷&emsp;<strike><strong>after party</strong> – Buy our delegates a drink or two at the networking after party and get 2 conference tickets 
 <br>From <strong>£1K</strong></strike></p>
 <p>💻   😍&emsp;<strong>job advert</strong> – Looking to hire a UX specialist, researcher, IA, ethnographer, psychologist, product owner, or any one of a number of specialist skills? Those people will be coming to our conference! Put your job ad. on our website and also get it tweeted about in the run up to the conference
-<br>From <strong>£500</strong></p>
+<br>From <strong>£500</strong> <em>2 taken - get your positions in front of our delegates too!</em></p>
 
 <br><p>😋 👌&emsp;<strong>fun sponsors</strong> – Help us provide something extra to surprise, excite, and get people talking. How about a Lego build? A sweet stall? A photo booth or Polaroid photo wall? </p></div>
 
