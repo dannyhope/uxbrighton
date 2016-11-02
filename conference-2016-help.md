@@ -23,7 +23,11 @@ There's not long to go! Please take the time to read the information below so yo
   * Brighton is well served with public transport and parking is expensive, so if you can avoid driving, please consider travelling by train or bus. 
   * **NB There is no parking available at the venue**; the nearest NCP is on Church Street, [details are here](http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/) including a **pre-booking option**. There's also one on [Trafalgar Street](http://www.brighton-hove.gov.uk/content/parking-and-travel/parking/trafalgar-street-car-park).
 
-  * Southern Rail have [planned strikes this week](http://www.southernrailway.com/southern/news/). **There will be reduced services running** - we recommend you check Southern Rail's website for [up to date information](http://www.southernrailway.com/southern/news/).
+  * Southern Rail have [planned strikes this week](http://www.southernrailway.com/southern/news/). **There will be reduced services running**. 
+  
+  * Here's the National Rail **[live Arrivals board for Brighton](http://ojp.nationalrail.co.uk/service/ldbboard/arr/BTN)**. Find your train on here to see what's up. And here's [Southern's news page](http://www.southernrailway.com/southern/news/).
+  
+  * Check your return train on the **[live Departures board](http://ojp.nationalrail.co.uk/service/ldbboard/dpt/BTN)** 
 
 ## Registration
 
