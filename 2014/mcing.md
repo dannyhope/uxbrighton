@@ -215,3 +215,5 @@ I’m freelance, how many others are?
 - in house?
 - of those startups?
 - student?
+
+## Remember to say We’re seeking curators
