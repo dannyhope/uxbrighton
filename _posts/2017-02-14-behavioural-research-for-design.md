@@ -21,7 +21,7 @@ A framework is proposed that draws on dramatic theory to tackles issues like per
 
 **dramaturgy** *noun* The theory and practice of dramatic composition.
 
-*Mark is a Brighton based freelance Experience Consultant working across strategy, design and research. Recent worked includes; a supermarket, a Premier League club and an HR startup.*
+Mark is a Brighton based freelance Experience Consultant working across strategy, design and research. Recent worked includes; a supermarket, a Premier League club and an HR startup.
 
 [@markmcelhaw](https://twitter.com/markmcelhaw)
 
