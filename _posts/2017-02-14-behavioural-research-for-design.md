@@ -23,17 +23,20 @@ A framework is proposed that draws on dramatic theory to tackles issues like per
 
 *Mark is a Brighton based freelance Experience Consultant working across strategy, design and research. Recent worked includes; a supermarket, a Premier League club and an HR startup.*
 
+[@markmcelhaw](https://twitter.com/markmcelhaw)
+
 
 ## Too Dry; Didn’t Apply: Redesigning Behavioural Research for Practical Use, [Jerome Ribot](https://www.linkedin.com/in/jerome-ribot-6520976)
 In principle, Behavioural Research is an immensely powerful tool for creating better products, providing deep insights that help us design around the many factors that influence our choices, habits and loyalties.
 
 In practice, it’s a nightmare, riddled with complexity that prevents it being found, read and applied.
 
-This isn’t good enough. Might there be a better way to facilitate its use in practical, non-academic contexts? Jerome will discuss a possible solution that could further the reach of behavioural research and increase its use in creating better products. 
+This isn’t good enough. Might there be a better way to facilitate its use in practical, non-academic contexts? Jerome will discuss a possible solution that could further the reach of behavioural research and help create much better products as a result. 
 
 *Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate behavioural research to a wider business and design audience.  Prior to this, he spent ten years as Co-Founder and Chief Design Officer at [ribot](http://ribot.co.uk/), an multi-award-winning agency which works with Google, Channel Four, Tesco and Intel on ground-breaking digital products.*
 
 [@coglode](https://twitter.com/coglode)
+
 [http://coglode.com/](http://coglode.com/)
 
 ## Organised by Danny Hope
