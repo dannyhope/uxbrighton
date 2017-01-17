@@ -6,7 +6,7 @@ start: 7pm
 ticket-link: 
 upcoming: true 
 
-published: false
+published: true
 ---
 An evening featuring two Brighton-based speakers discussing how behavioural research can be used for design. Enjoy the talks, beers and networking in great co-working space The Skiff.
 
