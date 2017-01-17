@@ -41,14 +41,4 @@ Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate b
 
 ## Organised by Danny Hope
 
-## Tickets
 
-Our low priced tickets (£5+VAT & Eventbrite fees) help to cover venue & organisational costs of this and future events and discourage people from dropping out on the day. We'll also provide a beer or two … But we are happy to issue a refund if you'd prefer to get your money back (e.g. you're a student or unwaged), but only to those who attended. Please send an email request within 3 days of the event date.
-
-## Cancellations
-
-We can refund your ticket if you notify us of cancellation before noon Thursday 9th February 2017.
-
-After that date and time, tickets are not refundable.
-
-**UX Brighton evening events are run as not-for-profit. Any revenue received covers venue & organisational costs and towards putting on future evening events.**
