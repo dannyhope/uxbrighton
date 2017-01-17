@@ -25,8 +25,15 @@ A framework is proposed that draws on dramatic theory to tackles issues like per
 
 
 ## Too Dry; Didn’t Apply: Redesigning Behavioural Research for Practical Use, [Jerome Ribot](https://www.linkedin.com/in/jerome-ribot-6520976)
-Jerome will discuss problems researchers experience around with access, translation and implementation of behavioural research, and offer a potential solution that would assist in its use in a design/business context.
+In principle, Behavioural Research is an immensely powerful tool for creating better products, providing deep insights that help us design around the many factors that influence our choices, habits and loyalties.
 
-*Jerome is the brains behind [Cognitive Lode](http://coglode.com/): A new resource by [ribot[(http://ribot.co.uk/) to help you make better products. They distill the latest behavioural economics & consumer psychology research down into helpful little brain gems. Previously he was at ribot, where he oversaw all creative output for the studio and had ultimate responsible for the quality of the ideas that they created for clients.*
+In practice, it’s a nightmare, riddled with complexity that prevents it being found, read and applied.
+
+This isn’t good enough. Might there be a better way to facilitate its use in practical, non-academic contexts? Jerome will discuss a possible solution that could further the reach of behavioural research and increase its use in creating better products. 
+
+*Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate behavioural research to a wider business and design audience.  Prior to this, he spent ten years as Co-Founder and Chief Design Officer at [ribot](http://ribot.co.uk/), an multi-award-winning agency which works with Google, Channel Four, Tesco and Intel on ground-breaking digital products.*
+
+[@coglode](https://twitter.com/coglode)
+[http://coglode.com/](http://coglode.com/)
 
 ## Organised by Danny Hope
