@@ -3,6 +3,7 @@ layout: event-page
 title: Behavioural Research for Design
 venue: The Skiff
 start: 7pm
+price: £5+vat+fees
 ticket-link: https://www.eventbrite.co.uk/e/behavioural-research-for-design-tickets-31219396054#tickets
 upcoming: true 
 
