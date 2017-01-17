@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: Behavioural Research for Design
+title: New Approaches to Research for Design
 venue: The Skiff
 date: 2017-02-14T19:00:00ZGMT
 start: 7:00pm
