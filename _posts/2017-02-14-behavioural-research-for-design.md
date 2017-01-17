@@ -8,7 +8,7 @@ price: £5+vat+fees
 ticket-link: https://www.eventbrite.co.uk/e/behavioural-research-for-design-tickets-31219396054#tickets
 published: true
 upcoming: true 
-
+homepage: true
 ---
 An evening featuring two Brighton-based speakers discussing how behavioural research can be used for design. Enjoy the talks, beers and networking in great co-working space The Skiff.
 
