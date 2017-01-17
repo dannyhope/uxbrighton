@@ -33,7 +33,7 @@ In practice, it’s a nightmare, riddled with complexity that prevents it being 
 
 This isn’t good enough. Might there be a better way to facilitate its use in practical, non-academic contexts? Jerome will discuss a possible solution that could further the reach of behavioural research and help create much better products as a result. 
 
-*Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate behavioural research to a wider business and design audience.  Prior to this, he spent ten years as Co-Founder and Chief Design Officer at [ribot](http://ribot.co.uk/), an multi-award-winning agency which works with Google, Channel Four, Tesco and Intel on ground-breaking digital products.*
+Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate behavioural research to a wider business and design audience.  Prior to this, he spent ten years as Co-Founder and Chief Design Officer at [ribot](http://ribot.co.uk/), an multi-award-winning agency which works with Google, Channel Four, Tesco and Intel on ground-breaking digital products.
 
 [@coglode](https://twitter.com/coglode)
 
