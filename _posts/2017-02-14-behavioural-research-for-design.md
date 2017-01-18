@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: Design Research: 2 new approaches
+title: Design Research - 2 new approaches
 venue: The Skiff
 date: 2017-02-14T19:00:00ZGMT
 start: 7:00pm
