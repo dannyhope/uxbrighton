@@ -1,10 +1,10 @@
 ---
 layout: event-page  
-title: New Approaches to Research for Design
+title: Design Research: 2 new approaches
 venue: The Skiff
 date: 2017-02-14T19:00:00ZGMT
 start: 7:00pm
-price: £5+vat+fees
+price: £5+fees
 ticket-link: https://www.eventbrite.co.uk/e/behavioural-research-for-design-tickets-31219396054#tickets
 published: true
 upcoming: true 
