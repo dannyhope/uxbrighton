@@ -12,7 +12,7 @@ homepage: true
 ---
 An evening featuring two Brighton-based speakers discussing how behavioural research can be used for design. Enjoy the talks, beers and networking in great co-working space [The Skiff](http://www.theskiff.org/).
 
-## To Bot or Not to Bot: Using dramatic theory to connect Research with Development, [Mark McElhaw](https://www.linkedin.com/in/mark-mcelhaw-805a92)
+## To Bot or Not to Bot: Using dramaturgy to connect Research with Development, [Mark McElhaw](https://www.linkedin.com/in/mark-mcelhaw-805a92)
 * Ever been told you have 1 day to consolidate all existing research at the start of a new project?
 * Ever questioned the way research was pulled together to form the basis for a design decision?
 * Ever tried to marry qualitative research with big data?
