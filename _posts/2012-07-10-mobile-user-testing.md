@@ -31,4 +31,4 @@ Walt has been designing interactions, documenting design and researching user ex
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="http://uxbrighton.org.uk/about/#alex">Alex</a>
