@@ -7,12 +7,16 @@ start: 7:00pm
 price: £5+fees
 ticket-link: https://www.eventbrite.co.uk/e/behavioural-research-for-design-tickets-31219396054#tickets
 published: true
-upcoming: true 
+upcoming: no 
 homepage: true
 ---
 An evening featuring two Brighton-based speakers discussing how behavioural research can be used for design. Enjoy the talks, beers and networking in great co-working space [The Skiff](http://www.theskiff.org/).
 
 ## To Bot or Not to Bot: Using dramaturgy to connect Research with Development, [Mark McElhaw](https://www.linkedin.com/in/mark-mcelhaw-805a92)
+
+**Slides**
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/IXTNtn70k30jJl" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 * Ever been told you have 1 day to consolidate all existing research at the start of a new project?
 * Ever questioned the way research was pulled together to form the basis for a design decision?
 * Ever tried to marry qualitative research with big data?
@@ -27,6 +31,12 @@ Mark is a Brighton based freelance Experience Consultant working across strategy
 
 
 ## Too Dry; Didn’t Apply: Redesigning Behavioural Research for Practical Use, [Jerome Ribot](https://www.linkedin.com/in/jerome-ribot-6520976)
+
+**Slides**
+
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//speakerdeck.com/assets/embed.js"data-id="c0a7f431eb3a44f08ca7de0a0e22ede0" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+
 In principle, Behavioural Research is an immensely powerful tool for creating better products, providing deep insights that help us design around the many factors that influence our choices, habits and loyalties.
 
 In practice, it’s a nightmare, riddled with complexity that prevents it being found, read and applied.
