@@ -34,9 +34,6 @@ Mark is a Brighton based freelance Experience Consultant working across strategy
 
 **Slides**
 
-<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//speakerdeck.com/assets/embed.js"data-id="c0a7f431eb3a44f08ca7de0a0e22ede0" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
-
-
 In principle, Behavioural Research is an immensely powerful tool for creating better products, providing deep insights that help us design around the many factors that influence our choices, habits and loyalties.
 
 In practice, it’s a nightmare, riddled with complexity that prevents it being found, read and applied.
