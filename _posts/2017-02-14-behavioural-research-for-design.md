@@ -33,7 +33,7 @@ Mark is a Brighton based freelance Experience Consultant working across strategy
 ## Too Dry; Didn’t Apply: Redesigning Behavioural Research for Practical Use, [Jerome Ribot](https://www.linkedin.com/in/jerome-ribot-6520976)
 
 **Slides**
-<div class="responsive-height-limiter"><div class="embed-container vga"><script async class="speakerdeck-embed" data-id="c0a7f431eb3a44f08ca7de0a0e22ede0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script></div></div>
+<div class="responsive-height-limiter"><div class="embed-container"><script async class="speakerdeck-embed" data-id="c0a7f431eb3a44f08ca7de0a0e22ede0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script></div></div>
 
 In principle, Behavioural Research is an immensely powerful tool for creating better products, providing deep insights that help us design around the many factors that influence our choices, habits and loyalties.
 
