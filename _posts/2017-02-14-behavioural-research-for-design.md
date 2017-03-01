@@ -15,7 +15,8 @@ An evening featuring two Brighton-based speakers discussing how behavioural rese
 ## To Bot or Not to Bot: Using dramaturgy to connect Research with Development, [Mark McElhaw](https://www.linkedin.com/in/mark-mcelhaw-805a92)
 
 **Slides**
-<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/IXTNtn70k30jJl" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/IXTNtn70k30jJl" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div></div>
 
 * Ever been told you have 1 day to consolidate all existing research at the start of a new project?
 * Ever questioned the way research was pulled together to form the basis for a design decision?
