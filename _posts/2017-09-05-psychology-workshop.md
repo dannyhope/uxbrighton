@@ -66,7 +66,9 @@ UX people who want to understand how to use psychology to influence their design
 
 ## About Joe
 
-Joe Leech has spent the last 13 years working in UX with organisations like eBay, MoMA, Marriott and Disney. A former UX Director at cxpartners he has a degree in Neuroscience an MSc in Human Computer Interaction and wrote the book Psychology for Designers
+Joe Leech has spent the last 13 years working in UX with organisations like eBay, MoMA, Marriott and Disney. A former UX Director at cxpartners he has a degree in Neuroscience an MSc in Human Computer Interaction and wrote the book Psychology for Designers.
+
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://youtu.be/3-0NQ_bb4C8?list=PLxIVE2ZZ0maCWjZhoIAiL0lkif9_a2k7F" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 ## What people have said about Joe’s workshops
 
