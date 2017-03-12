@@ -13,8 +13,8 @@ __How to use psychology to improve your website, app or product__
 
 Date: May 9th  
 Venue: 68 Middle Street  
-Tickets: £249-£349 
-[buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+Tickets: £249-£349   
+[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 We’ve partnered with UX Consultant and author Joe Leech to bring you a workshop on using psychology for better UX. In this one-day event we'll look at how people build mental models of the world around them and how we can use that knowledge to create great user experiences.
 
@@ -32,7 +32,7 @@ After the workshop you’ll be able to:
 
 After this workshop and you’ll be able to put psychology into practice as soon as you get back to the office.
 
-[buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## What you’ll learn
 
@@ -46,7 +46,7 @@ Through a series of practical exercises you’ll learn:
 4. Mapping and designing the details using a psychological approach
 5. Loads of little psychology tidbits that will improve a design and make you a better designer
 
-[buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## Who should attend this workshop
 
@@ -62,7 +62,7 @@ UX people who want to understand how to use psychology to influence their design
 * App designers
 * Researchers
 
-[buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## About Joe
 
@@ -93,7 +93,7 @@ Patrick Sansom
 *“Really insightful workshop. It was useful to have practical examples rather than just an overview”*
 Tracy Godding
 
-[buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## Organisers
 
