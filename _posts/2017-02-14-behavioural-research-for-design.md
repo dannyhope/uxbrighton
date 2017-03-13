@@ -7,8 +7,7 @@ start: 7:00pm
 price: £5+fees
 ticket-link: https://www.eventbrite.co.uk/e/behavioural-research-for-design-tickets-31219396054#tickets
 published: true
-upcoming: no 
-homepage: true
+upcoming: no
 ---
 An evening featuring two Brighton-based speakers discussing how behavioural research can be used for design. Enjoy the talks, beers and networking in great co-working space [The Skiff](http://www.theskiff.org/).
 
@@ -42,7 +41,7 @@ In principle, Behavioural Research is an immensely powerful tool for creating be
 
 In practice, it’s a nightmare, riddled with complexity that prevents it being found, read and applied.
 
-This isn’t good enough. Might there be a better way to facilitate its use in practical, non-academic contexts? Jerome will discuss a possible solution that could further the reach of behavioural research and help create much better products as a result. 
+This isn’t good enough. Might there be a better way to facilitate its use in practical, non-academic contexts? Jerome will discuss a possible solution that could further the reach of behavioural research and help create much better products as a result.
 
 Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate behavioural research to a wider business and design audience.  Prior to this, he spent ten years as Co-Founder and Chief Design Officer at [ribot](http://ribot.co.uk/), an multi-award-winning agency which works with Google, Channel Four, Tesco and Intel on ground-breaking digital products.
 
@@ -51,5 +50,3 @@ Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate b
 [http://coglode.com/](http://coglode.com/)
 
 ## Organised by Danny Hope
-
-

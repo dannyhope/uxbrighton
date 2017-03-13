@@ -6,6 +6,8 @@ start: 9:30am
 price: £250–450 + VAT
 ticket-link: https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323
 upcoming: true
+published: true
+homepage: true
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 95%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 30%; float: right}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
 
