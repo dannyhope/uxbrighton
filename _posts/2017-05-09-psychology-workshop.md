@@ -8,7 +8,7 @@ ticket-link: https://www.eventbrite.co.uk/e/psychology-for-design-workshop-ticke
 upcoming: true
 published: true
 homepage: true
-art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 95%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 30%; float: right}} .speaker-photo {margin: 0; padding: 0; border: 0}"
+art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 95%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 30%; float: left; padding-right: 1em}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
 
 __How to use psychology to improve your website, app or product__
