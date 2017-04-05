@@ -1,0 +1,101 @@
+body {
+  /* layout */
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244,244,244);
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  /* style */
+  font-size: 14px;
+	line-height: 1.75;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+}
+
+main {
+  width: 90%; /* apart from desktop/retina */
+  /*max-width: 55em;*/
+  padding: 0 2em;
+  background-color: rgb(255,255,255);
+  margin: auto;
+  position: relative;
+}
+
+h1,h2,h3 {
+  clear: both;
+}
+
+p {
+  align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body.homepage {
+}
+
+body.homepage main {
+}
+
+body.eventpage
+
+body.uxbripage {
+}
+
+section.search {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0.5rem;
+  right: 27px;
+}
+
+section.search .box{
+  display: block;
+  border: solid gray 1px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+section.search .box input {
+  display: inline;
+  width: 90%;
+}
+
+section.search.active {
+  display: none;
+  margin: 0.5rem;
+  width: 88%;
+}
+
+section.search.inactive .box {
+  border: none;
+}
+
+section.search .results {
+  background: gray;
+  color: black;
+}
+
+section.search .results .fulltext {
+  display: none;
+}
+
+section.search .results li {
+  padding: 0.5rem;
+  border-top-color: #999;
+  border-top-color: #999;
+  border: 1px;
+}
+/* super specific styles extracted from the art-direction extras */
+
+img.speaker-photo {
+  float: left;
+  width: 30%;
+  padding: 0;
+  margin: 0;
+}

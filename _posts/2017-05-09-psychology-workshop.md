@@ -13,11 +13,6 @@ art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{wid
 
 __How to use psychology to improve your website, app or product__
 
-Date: May 9th  
-Venue: 68 Middle Street  
-Tickets: £350–450 + VAT
-[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
-
 <img id="joe-leech" src="../assets/2017-psychology-workshop/joe-leech.jpg" alt="Photo of Joe Leech" class="speaker-photo">
 We’ve partnered with UX Consultant and author [Joe Leech](https://mrjoe.uk/) to bring you a workshop on using psychology for better UX.
 

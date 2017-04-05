@@ -1,0 +1,42 @@
+---
+layout: flexbox
+ishomepage: true
+---
+<main>
+{% assign frontpage = site.posts.first %}
+{% for page in site.posts reversed %}
+  {% if page == frontpage && frontpage.art-direction %}
+    <!-- <style media="screen">
+      {{page.art-direction}}
+    </style> -->
+  {% endif %}
+  {% if page.homepage %}
+    <h1 class="event-title">{{page.title}}</h1>
+
+    {{ page.content }}
+  {% endif %}
+{% endfor %}
+  <section class="search active" id="events">
+    <div class="box">
+      <input type="text" class="search" name="search" placeholder="search past events for video, slides and other details">
+      <i class="ion-close"></i>
+    </div>
+    <div class="results">
+      <ul class="list">
+        {% for search_result in site.posts %}
+        <li>
+          <a title="{{ search_result.title }}" href="{{ site.url }}{{search_result.url}}" {% if search_result.conference == true %}target="conference"{% endif %}>
+            <div class="event-title">{{ search_result.title }}</div>
+						<div class="event-date">{{search_result.date | date: "%-d %b"}}</div>
+					</a>
+          <div class="fulltext">{{search_result.date | date: "%-d %b %Y"}} {{ search_result.content | strip_html }}</div>
+        </li>
+
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section class="search inactive">
+    <i class="ion-ios-search-strong"></i>
+  </section>
+</main>
