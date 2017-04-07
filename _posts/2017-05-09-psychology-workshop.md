@@ -38,7 +38,7 @@ After the workshop you’ll be able to:
 
 After this workshop and you’ll be able to put psychology into practice as soon as you get back to the office.
 
-[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## What you’ll learn
 
@@ -52,7 +52,7 @@ Through a series of practical exercises you’ll learn:
 4. Mapping and designing the details using a psychological approach
 5. Loads of little psychology tidbits that will improve a design and make you a better designer
 
-[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## Who should attend this workshop
 
@@ -68,7 +68,7 @@ UX people who want to understand how to use psychology to influence their design
 * App designers
 * Researchers
 
-[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## About Joe
 
@@ -101,7 +101,7 @@ Patrick Sansom
 *“Really insightful workshop. It was useful to have practical examples rather than just an overview”*
 Tracy Godding
 
-[Buy your ticket today](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
+[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## Organisers
 
