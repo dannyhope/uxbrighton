@@ -3,7 +3,7 @@ layout: event-page
 title: Psychology for Design
 venue: 68 Middle Street
 start: 9:30am
-price: £350–£450 + VAT
+price: £350–450
 ticket-link: https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323
 upcoming: true
 published: true
