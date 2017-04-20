@@ -79,31 +79,31 @@ Joe Leech has spent the last 13 years working in UX with organisations like eBay
 
 ## What people have said about Joe’s workshops
 
-*“It was an excellent workshop that was well paced, engaging and allowed us to put our learnings into practice. It was one of the best workshops I’ve attended.”*
+> It was an excellent workshop that was well paced, engaging and allowed us to put our learnings into practice. It was one of the best workshops I’ve attended.
 
-*“Everything was really good! I learnt a lot new things from your experience / research. True eye opener!”*
+> Everything was really good! I learnt a lot new things from your experience / research. True eye opener!
 
-*“Comprehensive, engaging, and tons of fun. The workshop gave me a lot to think about in terms of my workflow and design process.”*
+> Comprehensive, engaging, and tons of fun. The workshop gave me a lot to think about in terms of my workflow and design process.
 
 ## What people have said about UX Brighton workshops
 
-*“Great workshop - it exceeded all my expectations!”*
+> Great workshop - it exceeded all my expectations!
 <br>
 —Caroline Owen
 
-*“The trainer was lovely, inspiring and very professional. The way she both shared us her insights and got us working together served the purpose perfectly.”*
+> The trainer was lovely, inspiring and very professional. The way she both shared us her insights and got us working together served the purpose perfectly.
 <br>
 —Heikki
 
-*“Helped me understand and share experiences with other UXers.”*
+> Helped me understand and share experiences with other UXers.
 <br>
 —Paul Swain
 
-*“Sound, focussed and practical advice about preparing for, facilitating and then following-up on workshops. Alison was a fun, enthusiastic and knowledgeable tutor. Recommended :-)”*
+> Sound, focussed and practical advice about preparing for, facilitating and then following-up on workshops. Alison was a fun, enthusiastic and knowledgeable tutor. Recommended :-)
 <br>
 —Patrick Sansom
 
-*“Really insightful workshop. It was useful to have practical examples rather than just an overview”*
+> Really insightful workshop. It was useful to have practical examples rather than just an overview
 <br>
 —Tracy Godding
 
