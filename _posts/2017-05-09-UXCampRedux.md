@@ -29,7 +29,7 @@ The speakers for this session are:
 <li>John Flitcroft - Talk title TBC</li>
 </ul>
 
-<a href="https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775">tickets are available now</a>.
+<a href="https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775">Tickets are available now</a>.
 
 ## Sponsors
 
