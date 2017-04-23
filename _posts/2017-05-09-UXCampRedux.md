@@ -31,6 +31,10 @@ The speakers for this session are:
 
 <a href="https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775">tickets are available now</a>.
 
+## Sponsors
+
+This is event is sponsored by <a href="https://www.optimalworkshop.com/">Optimal Workshop</a> - who are also kindly providing prizes for the evening. 
+
 ## Organisers
 
 - <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
