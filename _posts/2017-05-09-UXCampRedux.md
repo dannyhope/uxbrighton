@@ -16,11 +16,12 @@ Back in March 2017, our friends UX Camp Brighton held their largest, most succes
 ## Speakers
 
 The speakers for this session are:
-
-Rebecca Hugo - Purposeful Page Architecture
-Peter Winchester - The London Underground. Your 100 year old guide to website navigation
-Kathy Neuss - The researchers' responsibilities
-John Flitcroft - Talk title TBC
+<ul>
+<li>Rebecca Hugo - Purposeful Page Architecture</li>
+<li>Peter Winchester - The London Underground. Your 100 year old guide to website navigation</li>
+<li>Kathy Neuss - The researchers' responsibilities</li>
+<li>John Flitcroft - Talk title TBC</li>
+</ul>
 
 <a href="https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775">tickets are available now</a>.
 
