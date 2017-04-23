@@ -15,7 +15,7 @@ Back in March 2017, our friends UX Camp Brighton held their largest, most succes
 
 ## Speakers
 
-Talks and speakers are to be confirmed soon, but tickets are available now. 
+Talks and speakers are to be confirmed soon, but <a href="https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775">tickets are available now</a>.
 
 ## Organisers
 
