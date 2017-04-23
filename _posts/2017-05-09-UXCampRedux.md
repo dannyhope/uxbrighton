@@ -5,7 +5,7 @@ venue: The Skiff
 start: 7pm
 ticket-link: https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775
 upcoming: true
-upcoming: true
+homepage: true
 published: true 
 ---
 
