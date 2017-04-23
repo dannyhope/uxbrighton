@@ -31,3 +31,4 @@ The speakers for this session are:
 - <a href="http://uxbrighton.org.uk/about/#tim">Tim</a>
 - <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
 - <a href="http://uxbrighton.org.uk/about/#tom">Tom</a>
+- Chris
