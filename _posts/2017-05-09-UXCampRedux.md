@@ -1,4 +1,4 @@
---
+---
 layout: event-page	
 title: UX Camp Redux
 venue: The Skiff
