@@ -18,7 +18,7 @@ UX Camp Brigton is an ‘unconference’ for anyone involved or interested in us
 
 Attendees either ran or participated in 20 minute sessions, such as talks, demos or discussions. No headliners, no product pitches, just a friendly (if intense) event focused on sharing, socialising and learning new stuff.
 
-This event brings together four diverse and informative sessions from the day to give a flavour of what made the day a huge success.
+This redux brings together four diverse and informative sessions from the day to give a flavour of what made the day a huge success.
 
 ## Speakers
 
