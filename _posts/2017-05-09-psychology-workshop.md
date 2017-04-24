@@ -4,7 +4,7 @@ title: Psychology for Design
 venue: 68 Middle Street
 start: 9:30am
 price: £350–450
-ticket-link: https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323
+ticket-link: sold-out
 upcoming: false
 published: true
 homepage: false
@@ -12,8 +12,6 @@ art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{wid
 ---
 
 __How to use psychology to improve your website, app or product__
-
-[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 <img id="joe-leech" src="../assets/2017-psychology-workshop/joe-leech.jpg" alt="Photo of Joe Leech" class="speaker-photo">
 
@@ -39,8 +37,6 @@ After the workshop you’ll be able to:
 
 After this workshop and you’ll be able to put psychology into practice as soon as you get back to the office.
 
-[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
-
 ## What you’ll learn
 
 We'll go right back to the fundamental psychology theories underpinning planning, decision making and perception. We'll build from there on how users decide what to do in certain situations. We’ll also cover why many websites fail because they don't match the model and thus the expectation the user has for how they will work.
@@ -52,8 +48,6 @@ Through a series of practical exercises you’ll learn:
 3. How to match your design to the map/model and make it a success
 4. Mapping and designing the details using a psychological approach
 5. Loads of little psychology tidbits that will improve a design and make you a better designer
-
-[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## Who should attend this workshop
 
@@ -69,7 +63,6 @@ UX people who want to understand how to use psychology to influence their design
 * App designers
 * Researchers
 
-[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## About Joe
 
@@ -102,7 +95,6 @@ Joe Leech has spent the last 13 years working in UX with organisations like eBay
 > Really insightful workshop. It was useful to have practical examples rather than just an overview
 —Tracy Godding
 
-[Buy your ticket today - price includes lunch and refreshments](https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323)
 
 ## Organisers
 
