@@ -5,11 +5,11 @@ ishomepage: true
 <main class="content-main-detail" role="main">
 		{% assign frontpage = site.posts.first %}
 		{% for page in site.posts reversed %}
-			{% if page == frontpage && frontpage.art-direction %} 
+			{% if page == frontpage && frontpage.art-direction %}
 				<style media="screen">
 					{{page.art-direction}}
 				</style>
-			{% endif %}  
+			{% endif %}
 
 			{% if page.homepage %}
 	<section class="event-detail">
@@ -40,7 +40,7 @@ ishomepage: true
 				    <span class="_zonecode">36</span>
 				    <span class="_summary">{{page.title}}</span>
 				    <span class="_description"></span>
-				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD{% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL{% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
+				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD{% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL{% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU{% elsif page.venue == "The Skiff" %}30 Cheapside, Brighton BN1 4GD{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
 					</span>
 				    <span class="_organizer"></span>
 				    <span class="_facebook_event"></span>
@@ -50,41 +50,41 @@ ishomepage: true
 <!-- 				<ul>
 					<li>
 						{% if page.lanyrd-url %}
-							Track or say you're attending on 
+							Track or say you're attending on
 							<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
-						{% endif %}	
+						{% endif %}
 					</li>
-				</ul> -->	
-				{% include participate.html %}	
-			</section>					
+				</ul> -->
+				{% include participate.html %}
+			</section>
 
 		{% else %}
 			{% if page.upcoming == true %}
 				Details about this event will be posted soon.
 
-			{% else %}	
+			{% else %}
 
 				{% capture pageyear %}{{page..date | date: "%Y"}}{% endcapture %}
 				{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
-				
-				{% if pageyear >= currentyear %}						
+
+				{% if pageyear >= currentyear %}
 					{{ page..date | date: "%-d %B" }}
 					{% else %}
 					{{ page..date | date: "%-d %B %Y" }}
-		 		{% endif %}			
+		 		{% endif %}
 
 				{% if page.venue%} at {{page.venue}} {% endif %}
 
-			{% endif %}			
+			{% endif %}
 
-		{% endif %}	
-			
+		{% endif %}
+
 		{{ page.content }}
 
 			<aside class="event-detail_meta">
-			{% include organisers.html %}			 
+			{% include organisers.html %}
 			</aside>
-			
+
 			{% include supporters.html %}
 
 		</div>
@@ -92,9 +92,6 @@ ishomepage: true
 
 			{% endif %}
 
-	{% endfor %}	
-</main>	
-{% include nav.html %}	
-	
-
-
+	{% endfor %}
+</main>
+{% include nav.html %}

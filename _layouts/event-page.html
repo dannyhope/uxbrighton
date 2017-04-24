@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-{% if page.art-direction %} 
+{% if page.art-direction %}
 	<style media="screen">
 		{{page.art-direction}}
 	</style>
-{% endif %}  
+{% endif %}
 <main class="content-main-detail" role="main">
 	<section class="event-detail">
 		<div class="event-detail_desc">
@@ -13,14 +13,14 @@ layout: default
 
 		<!-- Pagination links -->
 		<nav class="pagination">
-		  {% if page.previous.url %} 
-		    <a class="prev" href="{{page.previous.url}}"><span class="sr-only">{{page.previous.title}}</span><i class="ion-chevron-left"></i></a>{% endif %}{% if page.next.url and page.next.stub == null %}<!----><a class="next" href="{{page.next.url}}"><span class="sr-only">{{page.next.title}}</span><i class="ion-chevron-right"></i></a> 
-		  {% endif %}  
-		</nav>			
+		  {% if page.previous.url %}
+		    <a class="prev" href="{{page.previous.url}}"><span class="sr-only">{{page.previous.title}}</span><i class="ion-chevron-left"></i></a>{% endif %}{% if page.next.url and page.next.stub == null %}<!----><a class="next" href="{{page.next.url}}"><span class="sr-only">{{page.next.title}}</span><i class="ion-chevron-right"></i></a>
+		  {% endif %}
+		</nav>
 
 		<!-- Ticket box -->
 		{% if page.ticket-link %}
-			<section class="event-meta">				
+			<section class="event-meta">
 					{% if page.ticket-link == 'sold-out' %}
 						<a class="ticket-button">Sorry, sold out</a>
 					{% elsif page.ticket-link == 'unticketed' %}
@@ -32,7 +32,7 @@ layout: default
 						{% else %}
 						  Buy
 						{% endif %}
-						your ticket – {% if page.price %}{{page.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}<span>{% endif %}</span></a>					
+						your ticket – {% if page.price %}{{page.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}<span>{% endif %}</span></a>
 					<!-- --><a href="{{page.url}}" title="Add to Calendar" class="addthisevent">
 			    {{page.date | date: "%d %b"}}
 				{% if page.start %}
@@ -43,7 +43,7 @@ layout: default
 				    <span class="_zonecode">36</span>
 				    <span class="_summary">{{page.title}}</span>
 				    <span class="_description"></span>
-				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD{% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL{% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
+				    <span class="_location">{% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG{% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ{% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD{% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL{% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU{% elsif page.venue == "The Skiff" %}30 Cheapside, Brighton BN1 4GD{% else %}Venue: <abbr title="to be announced">TBA</abbr>{% endif %}
 					</span>
 				    <span class="_organizer"></span>
 				    <span class="_facebook_event"></span>
@@ -53,53 +53,55 @@ layout: default
 <!-- 				<ul>
 					<li>
 						{% if page.lanyrd-url %}
-							Track or say you're attending on 
+							Track or say you're attending on
 							<a href="{{ page.lanyrd-url }}" target="_blank">Lanyrd</a>
-						{% endif %}	
+						{% endif %}
 					</li>
-				</ul> -->	
-				{% include participate.html %}		
-			</section>		
+				</ul> -->
+				{% include participate.html %}
+			</section>
 
 		{% else %}
 			{% if page.upcoming == true %}
 				Details about this event will be posted soon.
 
-			{% else %}	
-
+			{% else %}
 				{% capture pageyear %}{{page..date | date: "%Y"}}{% endcapture %}
 				{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
-				
-				{% if pageyear >= currentyear %}						
-					{{ page..date | date: "%-d %B" }}
+				<span class="when-and-where">
+				{% if pageyear >= currentyear %}
+					<span id="this-year">
+						{{ page..date | date: "%-d %B" }}
+					</span>
 					{% else %}
-					{{ page..date | date: "%-d %B %Y" }}
-		 		{% endif %}			
+					<span id="previous-year">
+						{{ page..date | date: "%-d %B %Y" }}
+					</span>
+		 		{% endif %}
 
 				{% if page.venue%} at {{page.venue}} {% endif %}
+				</span>
+			{% endif %}
 
-			{% endif %}			
-
-		{% endif %}			
+		{% endif %}
 
 		{{ content }}
 
 		<aside class="event-detail_meta">
-		{% include organisers.html %}			 
-		</aside>	
-		
+		{% include organisers.html %}
+		</aside>
+
 		{% include supporters.html %}
 
-		
+
 		<aside>
 			<p>
 				<a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}" title="Edit this page on Github">✎</a>
 			</p>
 		</aside>
-		
-		</div>					
 
-	</section>	
+		</div>
+
+	</section>
 </main>
-{% include nav.html %} 
-
+{% include nav.html %}
