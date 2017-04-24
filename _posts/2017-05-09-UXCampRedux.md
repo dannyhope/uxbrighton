@@ -1,17 +1,18 @@
 ---
-layout: event-page	
+layout: event-page
 title: UX Camp Redux
 venue: The Skiff
 start: 7pm
 ticket-link: https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775
+price: £5 + VAT & fees
 upcoming: true
 homepage: true
-published: true 
+published: true
 ---
 
 ## UX Camp Redux
 
-Back in March 2017, our friends UX Camp Brighton held their most popular barcamp yet. In keeping with tradition, here at UX Brighton we’re extremely happy to host the follow-up Redux event featuring some of the most popular sessions from the day. 
+Back in March 2017, our friends [UX Camp Brighton](https://www.uxcampbrighton.org/) held their most popular barcamp yet. In keeping with tradition, here at UX Brighton we’re extremely happy to host the follow-up Redux event featuring some of the most popular sessions from the day.
 
 UX Camp Brigton is an ‘unconference’ for anyone involved or interested in user experience design, user research, interaction design, information architecture, usability, accessibility and other associated fields.
 
@@ -33,7 +34,7 @@ The speakers for this session are:
 
 ## Sponsors
 
-This is event is sponsored by <a href="https://www.optimalworkshop.com/">Optimal Workshop</a> - who are also kindly providing prizes for the evening. 
+This is event is sponsored by <a href="https://www.optimalworkshop.com/">Optimal Workshop</a> - who are also kindly providing prizes for the evening.
 
 ## Organisers
 
