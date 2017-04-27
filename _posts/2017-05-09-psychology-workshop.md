@@ -15,6 +15,8 @@ __How to use psychology to improve your website, app or product__
 
 <img id="joe-leech" src="../assets/2017-psychology-workshop/joe-leech.jpg" alt="Photo of Joe Leech" class="speaker-photo">
 
+This event has sold out but you can still <a href="https://www.eventbrite.co.uk/e/psychology-for-design-workshop-tickets-32720308323?_eboga=1.179854308.1975399731.1485352373#tickets">add yourself to the waiting list</a>.
+
 We’ve partnered with UX Consultant and author [Joe Leech](https://mrjoe.uk/) to bring you a workshop on using psychology for better UX.
 
 In this one-day event we'll look at how people build mental models of the world around them and how we can use that knowledge to create great user experiences.
