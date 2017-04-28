@@ -26,7 +26,7 @@ The speakers for this session are:
 <ul>
 <li>Rebecca Hugo - Purposeful Page Architecture</li>
 <li>Peter Winchester - The London Underground. Your 100 year old guide to website navigation</li>
-<li>Kathy Neuss - The Researchers' Responsibilities</li>
+<li>Kathy Neuss - The Researchers' Responsibilities?</li>
 <li>John Flitcroft - How to give your workshop intent</li>
 </ul>
 
