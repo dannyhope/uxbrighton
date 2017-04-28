@@ -22,11 +22,19 @@ This redux brings together four diverse and informative sessions from the day to
 
 ## Purposeful Page Architecture, Rebecca Hugo
 
+Talk details to follow.
+
 ## The London Underground. Your 100 year old guide to website navigation, Peter Winchester
+
+Talk details to follow.
 
 ## The Researchers' Responsibilities? Kathy Neuss
 
+Talk details to follow.
+
 ## How to give your Workshop Intent, John Flitcroft
+
+Talk details to follow.
 
 ## Tickets
 
