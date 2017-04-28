@@ -20,15 +20,15 @@ Attendees either ran or participated in 20 minute sessions, such as talks, demos
 
 This redux brings together four diverse and informative sessions from the day to give a flavour of what made the day a huge success.
 
-## Speakers
+## Purposeful Page Architecture, Rebecca Hugo
 
-The speakers for this session are:
-<ul>
-<li>Rebecca Hugo - Purposeful Page Architecture</li>
-<li>Peter Winchester - The London Underground. Your 100 year old guide to website navigation</li>
-<li>Kathy Neuss - The Researchers' Responsibilities?</li>
-<li>John Flitcroft - How to give your workshop intent</li>
-</ul>
+## The London Underground. Your 100 year old guide to website navigation, Peter Winchester
+
+## The Researchers' Responsibilities? Kathy Neuss
+
+## How to give your Workshop Intent, John Flitcroft
+
+## Tickets
 
 <a href="https://www.eventbrite.co.uk/e/ux-camp-brighton-2017-redux-tickets-33938435775">Tickets are available now</a>.
 
@@ -43,3 +43,4 @@ This is event is sponsored by <a href="https://www.optimalworkshop.com/">Optimal
 - <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
 - <a href="http://uxbrighton.org.uk/about/#tom">Tom</a>
 - Chris
+- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
