@@ -24,7 +24,7 @@ Talk details to follow.
 
 ## Purposeful Page Architecture, Rebecca Hugo
 
-Talk details to follow.
+In a saturated market, it's becoming more important to ensure that pages have meaning and communicate something real. I introduce a framework to ensure that webpages and the architecture within them are purposeful and not superfluous.
 
 ## How to give your Workshop Intent, John Flitcroft
 
