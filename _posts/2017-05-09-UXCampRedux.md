@@ -18,21 +18,22 @@ Attendees either ran or participated in 20 minute sessions, such as talks, demos
 
 This redux brings together four diverse and informative sessions from the day to give a flavour of what made the day a huge success.
 
-## Purposeful Page Architecture, Rebecca Hugo
-
-Talk details to follow.
-
 ## The London Underground. Your 100 year old guide to website navigation, Peter Winchester
 
 Talk details to follow.
 
-## The Researchers' Responsibilities? Kathy Neuss
+## Purposeful Page Architecture, Rebecca Hugo
 
 Talk details to follow.
 
 ## How to give your Workshop Intent, John Flitcroft
 
 Talk details to follow.
+
+## The Researchers' Responsibilities? Kathy Neuss
+
+As researchers, do we have a responsibility to the peripheral side effects and ramifications of the recommendations that we are making? I explore how when we introspect problems and pain points, we influence the direction of opportunities.
+
 
 ## Tickets
 
