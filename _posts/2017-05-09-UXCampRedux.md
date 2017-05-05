@@ -20,7 +20,7 @@ This redux brings together four diverse and informative sessions from the day to
 
 ## The London Underground. Your 100 year old guide to website navigation, Peter Winchester
 
-Talk details to follow.
+The London Underground have been perfecting signage and wayfinding for the best part of 100 years. What could we learn from them to help users find their way through our new MoreThan website?
 
 ## Purposeful Page Architecture, Rebecca Hugo
 
@@ -28,7 +28,7 @@ In a saturated market, it's becoming more important to ensure that pages have me
 
 ## How to give your Workshop Intent, John Flitcroft
 
-Talk details to follow.
+The "Workshop" has become a throwaway tool, used to placate stakeholders as often as it is to create valuable insight and action. Here are ten tips to make sure your workshops stand out and have, above all, intent.
 
 ## The Researchers' Responsibilities? Kathy Neuss
 
