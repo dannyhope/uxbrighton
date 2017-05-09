@@ -19,8 +19,6 @@ We’re delighted to welcome Jillian Wells back to Brighton after her popular ta
 
 A job to be done (JTBD) is a revolutionary concept that guides you a better understanding of your users’ motivations and helps you innovate. A JTBD is not a product, service, or a specific solution; it's the higher purpose for which your customers buy products, services, and solutions.
 
-<UX Brighton workshop image here, and one later on too>
-
 Many UXers are switching to JTBD at the moment and this workshop will demystify the technique and give you an understanding of how you can put JTBD to practical use on your UX projects. 
 
 Places are limited to just 15 attendees in order to enable a highly interactive focussed workshop where during the day you will:
