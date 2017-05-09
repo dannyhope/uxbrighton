@@ -22,18 +22,25 @@ This redux brings together four diverse and informative sessions from the day to
 
 The London Underground have been perfecting signage and wayfinding for the best part of 100 years. What could we learn from them to help users find their way through our new MoreThan website?
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/1Lq7JhTGuxgTKg" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 ## Purposeful Page Architecture, Rebecca Hugo
 
 In a saturated market, it's becoming more important to ensure that pages have meaning and communicate something real. I introduce a framework to ensure that webpages and the architecture within them are purposeful and not superfluous.
+
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/taDgUHtyGjfxyI" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 ## How to give your Workshop Intent, John Flitcroft
 
 The "Workshop" has become a throwaway tool, used to placate stakeholders as often as it is to create valuable insight and action. Here are ten tips to make sure your workshops stand out and have, above all, intent.
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/3NYyabTD8bl3V8" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 ## The Researchers' Responsibilities? Kathy Neuss
 
 As researchers, do we have a responsibility to the peripheral side effects and ramifications of the recommendations that we are making? I explore how when we introspect problems and pain points, we influence the direction of opportunities.
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/sA5cTkMhIK6iXy" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 ## Tickets
 
