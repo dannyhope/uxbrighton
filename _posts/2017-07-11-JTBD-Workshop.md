@@ -46,8 +46,6 @@ Through a series of practical exercises you’ll learn:
 5. What to do when JTBD goes awry
 6. A whole host of tips for using JTBD in your projects
 
-<img id="JillianUXBri" src="../assets/2017-jtbdWorkshop/JillianUXBri.jpg" alt="Photo of Jillian at UX Brighton">
-
 ## Who should attend this workshop
 
 The JTBD framework enables practitioners across different disciplines to works together better, the workshop is suitable for anyone who is involved in the research process. No previous experience with JTBD is needed and this workshop is particularly suitable for:
