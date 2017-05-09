@@ -54,15 +54,17 @@ In the root, change the layout of index.html from "conference-2014" to "homepage
 
 Set **upcoming:no** in the front matter
 
-### Video & slides
+### Add video & slides
 
     <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="XXX" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-Copy/paste the above code into your page and replace XXX with the **embed URL (not the page URL)** of the media you’re embedding, e.g.
+Copy/paste the above code into your page and replace XXX with the **embed URL (not the page URL)** of the media you’re embedding.
 
-http://www.slideshare.net/slideshow/**embed_code**/35707261
+#### Example of embed URLs
 
-https://www.youtube.com/**embed**/yxmgYdrl4lI
+http://www.slideshare.net/slideshow/embed_code/35707261
+
+https://www.youtube.com/embed/yxmgYdrl4lI
 
 ### Tweets & quotes
 
@@ -96,12 +98,8 @@ Conference pages appear at 2 URLs so, for technical reasons, we’re forced to s
 
 This is in [_includes/header-mini.html](https://github.com/dannyhope/uxbrighton/edit/gh-pages/_includes/header-mini.html "")
 
-## Edit this readme document
+------
 
 [Edit this document in Github](https://github.com/dannyhope/uxbrighton/edit/gh-pages/Readme.md "") 
 
-------
-
-# Frontmatter, styling, URLs & installation
-
-Are in [technical.md](/technical.md "")
+[Frontmatter, styling, URLs & installation](/technical.md "")
