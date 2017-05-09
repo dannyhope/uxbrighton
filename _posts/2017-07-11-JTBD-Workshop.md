@@ -46,7 +46,7 @@ Through a series of practical exercises you’ll learn:
 5. What to do when JTBD goes awry
 6. A whole host of tips for using JTBD in your projects
 
-<img id="JillianUXBri" src="../assets/2017-jtbdWorkshop/JillianUXBri.jpg" alt="Photo of Jillian at UX Brighton" class="speaker-photo">
+<img id="JillianUXBri" src="../assets/2017-jtbdWorkshop/JillianUXBri.jpg" alt="Photo of Jillian at UX Brighton">
 
 ## Who should attend this workshop
 
