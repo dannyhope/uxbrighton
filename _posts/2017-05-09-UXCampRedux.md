@@ -30,6 +30,8 @@ In a saturated market, it's becoming more important to ensure that pages have me
 
 The "Workshop" has become a throwaway tool, used to placate stakeholders as often as it is to create valuable insight and action. Here are ten tips to make sure your workshops stand out and have, above all, intent.
 
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/3NYyabTD8bl3V8" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
 ## The Researchers' Responsibilities? Kathy Neuss
 
 As researchers, do we have a responsibility to the peripheral side effects and ramifications of the recommendations that we are making? I explore how when we introspect problems and pain points, we influence the direction of opportunities.
