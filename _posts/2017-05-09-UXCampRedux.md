@@ -28,7 +28,7 @@ The London Underground have been perfecting signage and wayfinding for the best 
 
 In a saturated market, it's becoming more important to ensure that pages have meaning and communicate something real. I introduce a framework to ensure that webpages and the architecture within them are purposeful and not superfluous.
 
-<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/taDgUHtyGjfxyI" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/zBar9aSDSVgMxD" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 ## How to give your Workshop Intent, John Flitcroft
 
