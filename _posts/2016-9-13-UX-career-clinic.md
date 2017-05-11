@@ -11,6 +11,8 @@ price: FREE
 art-direction: ".event-detail_desc img{vertical-align: middle} @media (max-width: 64rem) {.event-detail_desc img{width: 20%;} .event-detail_desc img[src*=wide]{width: 40%}} @media (min-width: 65rem) {.event-detail_desc img{width: 10%;} .event-detail_desc img[src*=wide]{width: 20%}} blockquote {line-height: 1.75; margin: 0; font-style: italic; font-size: 1rem}"
 ---
 
+[Writeup from a mentor’s point of view (blog post by Rachel McConnell of RSA)](https://rsa.digital/2016/11/21/rsa-digital-goes-to-ux-brighton-career-clinic/ )
+
 Following the success of our [last UX Career Clinic](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/), [we're back again](http://brightondigitalfestival.co.uk/event/ux-career-clinic-supercharge-ux-career/) as part of the [Brighton Digital Festival](http://brightondigitalfestival.co.uk/).
 
 <strong>The UX Career Clinic will give advice to those looking to get into the UX industry, or move within it</strong>. Job seekers will receive unique insights from the best UX industry professionals in Brighton, who will be able to give feedback on portfolios and give career advice to help you get a foot on the UX ladder.
