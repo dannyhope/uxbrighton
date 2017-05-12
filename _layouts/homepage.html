@@ -3,6 +3,9 @@ layout: default
 ishomepage: true
 ---
 <main class="content-main-detail" role="main">
+
+		{% include header.html %}
+
 		{% assign frontpage = site.posts.first %}
 		{% for page in site.posts reversed %}
 			{% if page == frontpage and frontpage.art-direction %}
