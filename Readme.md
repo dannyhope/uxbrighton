@@ -52,19 +52,19 @@ In the root, change the layout of index.html from "conference-2014" to "homepage
 
 ### Mark the event as past
 
-Set **upcoming:no** in the front matter
+In the frontmatter, remove the lines starting
+
+ - upcoming
+ - tickets
 
 ### Add video & slides
 
     <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="XXX" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-Copy/paste the above code into your page and replace XXX with the **embed URL (not the page URL)** of the media you’re embedding.
+Copy/paste the above code into your page, replacing XXX with the embed URL (not the page URL) of the thing you’re embedding. For example:
 
-#### Example of embed URLs
-
-http://www.slideshare.net/slideshow/embed_code/35707261
-
-https://www.youtube.com/embed/yxmgYdrl4lI
+ - http://www.slideshare.net/slideshow/embed_code/35707261
+ - https://www.youtube.com/embed/yxmgYdrl4lI
 
 ### Tweets & quotes
 
