@@ -6,3 +6,6 @@ codekit-config.json
 /_site/
 .tags
 to-do.md
+node_modules
+yarn.lock
+package.json
