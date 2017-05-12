@@ -441,6 +441,11 @@ nav.nav-side ul li a {
 	border-top: 1px solid #ddd;
 	padding: 0.65em 1em;
 }
+
+nav .fulltext {
+	display: none;
+}
+
 nav.nav-side ul li a:hover {
 	background: rgba(0,0,0,0.05);
 	border-bottom: 0;
