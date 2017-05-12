@@ -5,7 +5,7 @@ ishomepage: true
 <main class="content-main-detail" role="main">
 		{% assign frontpage = site.posts.first %}
 		{% for page in site.posts reversed %}
-			{% if page == frontpage && frontpage.art-direction %}
+			{% if page == frontpage and frontpage.art-direction %}
 				<style media="screen">
 					{{page.art-direction}}
 				</style>
@@ -64,13 +64,13 @@ ishomepage: true
 
 			{% else %}
 
-				{% capture pageyear %}{{page..date | date: "%Y"}}{% endcapture %}
+				{% capture pageyear %}{{page.date | date: "%Y"}}{% endcapture %}
 				{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
 
 				{% if pageyear >= currentyear %}
-					{{ page..date | date: "%-d %B" }}
+					{{ page.date | date: "%-d %B" }}
 					{% else %}
-					{{ page..date | date: "%-d %B %Y" }}
+					{{ page.date | date: "%-d %B %Y" }}
 		 		{% endif %}
 
 				{% if page.venue%} at {{page.venue}} {% endif %}

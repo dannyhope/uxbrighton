@@ -66,16 +66,16 @@ layout: default
 				Details about this event will be posted soon.
 
 			{% else %}
-				{% capture pageyear %}{{page..date | date: "%Y"}}{% endcapture %}
+				{% capture pageyear %}{{page.date | date: "%Y"}}{% endcapture %}
 				{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
 				<span class="when-and-where">
 				{% if pageyear >= currentyear %}
 					<span id="this-year">
-						{{ page..date | date: "%-d %B" }}
+						{{ page.date | date: "%-d %B" }}
 					</span>
 					{% else %}
 					<span id="previous-year">
-						{{ page..date | date: "%-d %B %Y" }}
+						{{ page.date | date: "%-d %B %Y" }}
 					</span>
 		 		{% endif %}
 
