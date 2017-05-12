@@ -58,7 +58,9 @@ ishomepage: true
 						{% endif %}
 					</li>
 				</ul> -->
-				{% include participate.html %}
+				{% if page.upcoming == false %}
+					{% include participate.html %}
+				{% endif %}
 			</section>
 
 		{% else %}
