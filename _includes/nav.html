@@ -45,7 +45,7 @@
 					 		{% endif %}
 							</div>
 						</a>
-            <div class="fulltext">{{post.date | date: "%-d %b %Y"}} {{ post.content | strip_html }}</div>
+            <div class="fulltext">{{post.date | date: "%-d %b %Y"}} {{ post.title }} {{ post.content | strip_html }}</div>
 					</li>
 
 				{% endif %}
