@@ -210,7 +210,6 @@ a:hover {
 		font-size: 18px;
 	}
 	.site-header, footer, nav.nav-side {
-		width: 40%;
 	}
 	.site-header {
 		background-color: rgb(244,244,244);
@@ -223,8 +222,7 @@ a:hover {
 
 @media (min-width: 65rem) {
 	.site-header, footer, nav.nav-side {
-		width: 30%;
-		max-width: 480px;
+		width: calc(21% - 1em);
 	}
 	.site-header {
 		background-color: rgb(244,244,244);
@@ -290,9 +288,12 @@ footer {
 		/*max-width: 75em;*/
 		margin: 0 auto;
 		position: relative;
+		display: flex;
+    justify-content: space-between;
+		flex-direction: row-reverse;
 	}
 	.content-main-detail {
-		width: calc(70% - 1em);
+		width: calc(80% - 1em);
 		float: right;
 		/*overflow: scroll;
 		height: 100%;
@@ -414,8 +415,6 @@ nav.nav-side {
 	min-width: 100px;
 	margin-left: 0;
 	padding-left: 0;
-	/*overflow: scroll;
-	height: 100%;*/
 }
 
 nav.nav-side .event-title-list {
@@ -792,7 +791,7 @@ a.about {
 	}
 
 	.contribute-content {
-		width: 70%;
+		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 	}
