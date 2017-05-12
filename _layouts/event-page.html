@@ -59,7 +59,6 @@ layout: default
 						{% endif %}
 					</li>
 				</ul> -->
-				{% include participate.html %}
 			</section>
 
 		{% else %}
@@ -83,6 +82,12 @@ layout: default
 				{% if page.venue%} at {{page.venue}} {% endif %}
 				</span>
 			{% endif %}
+
+			{% unless page.ticket-link %}
+			<section class="event-meta">
+				{% include participate.html %}
+			</section>
+			{% endunless %}
 
 		{% endif %}
 

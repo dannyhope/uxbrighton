@@ -222,6 +222,11 @@ a:hover {
 		bottom: -8.5em;
 	}
 
+	.event-page .get-involved {
+		position: inherit;
+		bottom: inherit;
+	}
+
 	.site-header {
 		overflow: hidden;
 		padding: 2em 0 2em 2em;
@@ -334,6 +339,11 @@ a:hover {
 
 	.get-involved {
 		bottom: -11.5em;
+	}
+
+	.event-page .get-involved {
+		position: inherit;
+		bottom: inherit;
 	}
 
 	.site-header {

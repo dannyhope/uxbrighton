@@ -58,7 +58,6 @@ ishomepage: true
 						{% endif %}
 					</li>
 				</ul> -->
-				{% include participate.html %}
 			</section>
 
 		{% else %}
@@ -81,6 +80,9 @@ ishomepage: true
 			{% endif %}
 
 		{% endif %}
+		{% unless page.ticket-link %}
+			{% include participate.html %}
+		{% endunless %}
 
 		{{ page.content }}
 
