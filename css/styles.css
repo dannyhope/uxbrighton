@@ -574,18 +574,74 @@ nav .post-date {
 	font-size: 0.8rem;
 }
 
-	nav .event-upcoming {
-		height: 5rem;
-	}
+nav .event-upcoming {
+	height: 5rem;
+}
 
-			nav .event-upcoming .post-date {
-				background-color: rgb(239, 140, 43);
-				display: inline;
-				padding: .2rem .4rem;
-				color: white;
-				font-weight: bold;
-				border-radius: 0.2rem;
-			}
+.upcoming-events .when, nav .event-upcoming .post-date {
+	background-color: rgb(239, 140, 43);
+	display: inline;
+	padding: .2rem .4rem;
+	color: white;
+	font-weight: bold;
+	border-radius: 0.2rem;
+}
+
+.upcoming-events {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.upcoming-events .event-card {
+	flex: 1;
+	background: url(../assets/2017-jtbdWorkshop/jillian-wells-adjusted-1362.jpg) no-repeat;
+	background-size: cover;
+	padding: 1rem;
+	margin: 0 1rem 1rem 0;
+}
+
+.upcoming-events .event-card.last {
+	margin: 0 0 1rem 0;
+}
+
+.event-card .when {
+	display: inline-block;
+	margin-top: 2rem;
+}
+
+.event-card .when.happened {
+	background: none;
+	padding: 0;
+	color: white;
+	font-weight: normal;
+}
+
+.event-card .what {
+	color: white;
+	font-weight: bold;
+	/*font-size: 1.5rem;
+	line-height: 1.7rem;*/
+	text-shadow: 1px 1px 2px #000;
+}
+
+.event-card a, .upcoming-events a:hover {
+	color: white;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.event-card .ticket-link {
+	color: white;
+	padding: 0.2rem;
+	background-color: green;
+	text-align: center;
+	/*display: inline-block;
+	bottom: 1rem;*/
+	/*display: block;*/
+	text-align: center;
+	bottom: 0;
+}
 
 nav span.coming-soon {
 	background: rgb(11,138,193); /*blue*/
