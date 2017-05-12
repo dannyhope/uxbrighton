@@ -7,7 +7,6 @@ date: 2015-12-17T19:00:00ZGMT
 organisers:
   - name: Patrick
   - name: Luke
-  - name: Danny
 upcoming: false
 ---
 
@@ -21,4 +20,3 @@ A festive co-production with <a href="https://twitter.com/uxcurrybrighton">UX Cu
 
 - <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
 - <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
