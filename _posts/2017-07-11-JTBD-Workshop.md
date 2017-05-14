@@ -85,6 +85,15 @@ After her excellent talk at  last year’s UX Brighton Conference we’re happy
 > Really insightful workshop. It was useful to have practical examples rather than just an overview
 —Tracy Godding
 
+> Seriously impressed by the standard of delivery and quality of teaching during this session. I have to be fairly well-versed in psychological theories due to working with psychologists on a day-to-day basis in my job, but the insight into how to apply theories to UX was absolutely invaluable. Also as someone who teaches sessions on a regular basis, I have to say that the teaching was inspirational!
+-Fiona MacNeill
+
+> A fast paced really insightful day. Definitely worth attending! I would recommend to anyone interested in user experience and psychology. 
+-Sophie Harper
+
+> I really enjoyed Joe's workshop on Psychology for Design. We learnt theories, processes and research methods. And it wasn't long until we were applying them in practice; to collaborate, create and evaluate designs for a better user experience.
+-Nirmal Dhiman
+
 
 ## Organisers
 
