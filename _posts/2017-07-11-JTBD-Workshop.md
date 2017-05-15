@@ -22,6 +22,8 @@ A job to be done (JTBD) is a revolutionary concept that guides you a better unde
 
 Many UXers are switching to JTBD at the moment and this workshop will demystify the technique and give you an understanding of how you can put JTBD to practical use on your UX projects. 
 
+## Activities
+
 Places are limited to just 15 attendees in order to enable a highly interactive focussed workshop where during the day you will:
 
 1. Plan for a JTBD Research Project
