@@ -3,7 +3,7 @@ layout: event-page
 title: Jobs To Be Done Workshop
 venue: Brighton, TBC
 start: 9:30am
-price: £300–400
+price: £350–450
 ticket-link: https://www.eventbrite.co.uk/e/jobs-to-be-done-workshop-tickets-34417737379
 upcoming: true
 homepage: true
