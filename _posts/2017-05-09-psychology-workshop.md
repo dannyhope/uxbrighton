@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: Psychology for Design
+title: Psychology for Design workshop
 venue: 68 Middle Street
 start: 9:30am
 price: £350–450
