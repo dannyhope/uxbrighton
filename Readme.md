@@ -59,12 +59,14 @@ In the frontmatter, remove the lines starting
 
 ### Add video & slides
 
-    <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="XXX" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+    <div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="XXX" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 Copy/paste the above code into your page, replacing XXX with the embed URL (not the page URL) of the thing you’re embedding. For example:
 
  - http://www.slideshare.net/slideshow/embed_code/35707261
  - https://www.youtube.com/embed/yxmgYdrl4lI
+ 
+If the aspewct ratio is 4:3, then replace "hd" with "vga".
 
 ### Tweets & quotes
 
