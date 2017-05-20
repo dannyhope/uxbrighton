@@ -4,11 +4,15 @@ title: Jobs To Be Done Workshop
 venue: Brighton, TBC
 start: 9:30am
 price: £350–450
-ticket-link: https://www.eventbrite.co.uk/e/jobs-to-be-done-workshop-tickets-34417737379
 upcoming: true
 homepage: true
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 90%; max-width: 100px;}} @media (min-width: 60rem) {.event-detail_desc .speaker-photo {width: 30%; float: left; padding-right: 1em}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
+
+Date: July 11th
+Time: 9:30am-5pm
+Venue: Brighton, exact venue TBC
+This workshop has sold out but you can <a href="https://www.eventbrite.co.uk/e/jobs-to-be-done-workshop-tickets-34417737379?&_eboga=2.34310499.390342416.1495286678-749280309.1494332916">add yourself to the waiting list</a>.
 
 __How to use the Jobs To Be Done framework to improve your research process__
 
