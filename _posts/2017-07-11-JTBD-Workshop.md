@@ -9,12 +9,12 @@ homepage: true
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 90%; max-width: 100px;}} @media (min-width: 60rem) {.event-detail_desc .speaker-photo {width: 30%; float: left; padding-right: 1em}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
 
+__How to use the Jobs To Be Done framework to improve your research process__
+
 Date: July 11th<br />
 Time: 9:30am-5pm<br />
 Venue: Brighton, exact venue TBC<br />
 This workshop has sold out but you can <a href="https://www.eventbrite.co.uk/e/jobs-to-be-done-workshop-tickets-34417737379?&_eboga=2.34310499.390342416.1495286678-749280309.1494332916">add yourself to the waiting list</a>.
-
-__How to use the Jobs To Be Done framework to improve your research process__
 
 We’re delighted to welcome Jillian Wells back to Brighton after her popular talk at last year’s UX Brighton conference. Jillian will be running a hands-on practical workshop on how to use the Jobs To Be Done framework. Using JTBD at Intercom has given her unparalleled insight into the best ways to use the framework to get results.
 
