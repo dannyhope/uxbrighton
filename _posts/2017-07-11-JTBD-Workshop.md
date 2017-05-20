@@ -100,6 +100,8 @@ After her excellent talk at  last year’s UX Brighton Conference we’re happy
 > I really enjoyed Joe's workshop on Psychology for Design. We learnt theories, processes and research methods. And it wasn't long until we were applying them in practice; to collaborate, create and evaluate designs for a better user experience.
 -Nirmal Dhiman
 
+> Joe was an excellent trainer and used numerous clever techniques to improve engagement and make key points easier to remember. I found the content very interesting.
+-Duncan Heath
 
 ## Organisers
 
