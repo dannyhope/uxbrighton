@@ -1,7 +1,7 @@
 ---
 layout: event-page  
 title: Jobs To Be Done Workshop
-venue: Brighton, TBC
+venue: 68 Middle Street, Brighton
 start: 9:30am
 price: £350–450
 upcoming: true
