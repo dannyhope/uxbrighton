@@ -6,16 +6,13 @@ start: 9:30am
 price: £350–450
 upcoming: true
 homepage: true
-ticket-link: sold-out
+ticket-link: https://www.eventbrite.co.uk/e/jobs-to-be-done-workshop-2nd-day-tickets-34836923175
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 90%; max-width: 100px;}} @media (min-width: 60rem) {.event-detail_desc .speaker-photo {width: 30%; float: left; padding-right: 1em}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
 
 __How to use the Jobs To Be Done framework to improve your research process__
 
-Date: July 11th<br />
-Time: 9:30am-5pm<br />
-Venue: Brighton, exact venue TBC<br />
-This workshop has sold out but you can <a href="https://www.eventbrite.co.uk/e/jobs-to-be-done-workshop-tickets-34417737379?&_eboga=2.34310499.390342416.1495286678-749280309.1494332916">add yourself to the waiting list</a>.
+** Due to overwhelming demand after selling out, we are delighted to announce that we're running this workshop for a second day**
 
 We’re delighted to welcome Jillian Wells back to Brighton after her popular talk at last year’s UX Brighton conference. Jillian will be running a hands-on practical workshop on how to use the Jobs To Be Done framework. Using JTBD at Intercom has given her unparalleled insight into the best ways to use the framework to get results.
 
@@ -70,6 +67,8 @@ Jillian is a Senior Product Researcher at Intercom with over 5 years of experien
 Jillian is a human-centred design enthusiast that believes a human-centred approach is the only one to take when creating a new product or service. Having worked in both the US and Europe, she has had the opportunity to apply this thinking in industrial design, UX design, and technology based projects, as well as teaching this mindset to industrial design students at California College of the Arts.
 
 After her excellent talk at  last year’s UX Brighton Conference we’re happy to welcome Jillian back to sunny Brighton for our latest workshop. 
+
+<a href="https://www.eventbrite.co.uk/e/jobs-to-be-done-workshop-2nd-day-tickets-34836923175">Buy your ticket today</a>
 
 ## Jillian’s talk from UX Brighton 2016
 
