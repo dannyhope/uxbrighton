@@ -72,7 +72,7 @@ After her excellent talk at  last year’s UX Brighton Conference we’re happy
 
 ## Jillian’s talk from UX Brighton 2016
 
-<div class="responsive-height-limiter"><div class="embed-container"><iframe src="https://www.youtube.com/embed/85VeGQeKq7k" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<div class="responsive-height-limiter"><div class="embed-container hd"><iframe src="https://www.youtube.com/embed/85VeGQeKq7k" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 ## What people have said about UX Brighton workshops
 
