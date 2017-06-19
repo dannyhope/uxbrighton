@@ -11,16 +11,20 @@ We've been running an annual conference for six years, attracting a savvy and di
  
 Our events are informal yet professional and we're pleased to welcome new faces alongside seasoned regulars.
  
-> As someone fairly new to the world of UX, I found this event really useful. The speakers were engaging and inspiring, and from a range of disciplines (which kept things interesting!) 
+> As someone fairly new to the world of UX, I found this event really useful. The speakers were engaging and inspiring, and from a range of disciplines (which kept things interesting!)
+> 
 > – Lou Carroll
  
 > A day of inspiring speakers and a chance to make new friends. 
+> 
 > – Rachel McConnell
  
 > A great experience in its own right. 
+> 
 > – Guy Collins
  
 > A great conference with a broad variety of speakers. If you want your mind blown, go to UX Brighton! 
+> 
 > – Simon Johnson
     
 ![Delegates at UX Brighton 2016](/2017/photos/30373076604_cab6c46097_z.jpg)
