@@ -1,6 +1,6 @@
 ---
 layout: event-page	
-title: Building Rapport & Machiavellian Manipulation
+title: Rapport & Manipulation
 venue: The Skiff
 start: 7pm
 ticket-link: https://www.eventbrite.co.uk/e/building-rapport-machiavellian-manipulation-tickets-35591176166
