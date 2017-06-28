@@ -2,7 +2,6 @@
 permalink: /2017/sponsors
 layout: minimal
 ---
-
 # Sponsors
 ## How our audience data can help you decide if UX Brighton is for you
  
