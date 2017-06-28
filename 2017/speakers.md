@@ -1,3 +1,7 @@
+---
+permalink: /2017/speakers
+layout: minimal
+---
 # Speakers
 ## How our audience data can help you prepare your talk
  
