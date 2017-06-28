@@ -37,22 +37,22 @@ Our events are informal yet professional and we're pleased to welcome new faces 
  
 Whilst there is a high percentage of designers (46%), our audience attracts people with a wide variety of job titles, including developers, CEO/Manager/Founder, product and project managers, and UX/HCI post-grad students.
 
-(Insert job graph)
+![Job titles graphic](/2017/graphics/job-titles@3x.svg)
 
 ## Where do they come from?
  
 People come from all over world to attend our conferences.
 
-(Insert graphic)
+![Attendee origins graphic](/2017/graphics/attendee-origins.svg)
 
 ## And what kind of companies to they come from?
-(Insert logos)
+
 
 ## What is the gender split?
 Our audience is 32% female, 68% male – more than double the 15% industry norm for women.
 Source: [PWC, 2017](https://www.linkedin.com/pulse/women-technology-time-close-gender-gap-sheridan-ash)
 
-(Insert gender chart)
+![Gender split graphic](/2017/graphics/gender-split@3x.svg)
 
 ## [Buy your ticket now](https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979)
 
