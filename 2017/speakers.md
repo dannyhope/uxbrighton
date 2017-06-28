@@ -11,24 +11,49 @@ Typically 300+ delegates
 
 It's generally a sophisticated audience with a high proportion of experienced practitioners looking for practical takeaways, alongside deeper, more cerebral inputs.
  
-     “Great speakers! I'm already researching into some of their practices to implement into our team.” - Greg Lewis
+> Great speakers! I'm already researching into some of their practices to implement into our team. 
+>
+> – Greg Lewis
  
-     “Always thought-provoking, UX Brighton delivered another line up of excellent talks, with lots of takeaways for my team. Nice work!” - Al Power
+> Always thought-provoking, UX Brighton delivered another line up of excellent talks, with lots of takeaways for my team. Nice work!
+>
+> – Al Power
  
-     “UX Brighton gave a us space and time to think and reflect on what we do, how we do it and why we do it - it ticked all 3 boxes in a big way!” - Sean Ellis
+> UX Brighton gave a us space and time to think and reflect on what we do, how we do it and why we do it - it ticked all 3 boxes in a big way! 
+>
+> – Sean Ellis
  
-     “I learned something new from every speaker.” - Andrew Griffin
+> I learned something new from every speaker.
+
+> – Andrew Griffin
 
 ### What kind of jobs do they do?
 
 Whilst there is a high percentage of designers (46%), our audience attracts people with a wide variety of job titles, including developers, CEO/Manager/Founder, product and project managers.
 
-
-(insert bar chart)
+![Job titles graphic](/2017/graphics/job-titles@3x.svg)
 
 ### What kind of companies/organisations do they come from?
 
-(Insert logos)
+![American Express logo](/2017/3rd-party-logos/American Express.svg) 
+![BBC logo](/2017/3rd-party-logos/BBC.svg)
+![Balsamiq logo](/2017/3rd-party-logos/Balsamiq.svg)
+![Brandwatch logo](/2017/3rd-party-logos/Brandwatch.svg)
+![Clearleft logo](/2017/3rd-party-logos/Clearleft.svg)
+![Crunch logo](/2017/3rd-party-logos/Crunch.svg)
+![cxpartners logo](/2017/3rd-party-logos/cxpartners.svg)
+![EBay logo](/2017/3rd-party-logos/EBay.svg)
+![EasyJet logo](/2017/3rd-party-logos/EasyJet.svg)
+![Freeagent logo](/2017/3rd-party-logos/Freeagent.svg)
+![GitHub logo](/2017/3rd-party-logos/GitHub.svg)
+![LastFM logo](/2017/3rd-party-logos/Last.fm.svg)
+![Macmmillan logo](/2017/3rd-party-logos/Macmillan.svg)
+![Ogilvy logo](/2017/3rd-party-logos/Ogilvy.svg)
+![Royal Mail logo](/2017/3rd-party-logos/Royal Mail.svg)
+![Tesco logo](/2017/3rd-party-logos/Tesco.svg)
+![The Guardian logo](/2017/3rd-party-logos/The Guardian.svg)
+![Twitter logo](/2017/3rd-party-logos/Twitter .svg)
+![University of Oxford logo](/2017/3rd-party-logos/University of Oxford.svg)
 
 ### What is the gender split?
 
@@ -36,7 +61,7 @@ Our audience is 32% female, 68% male – more than double the 15% industry norm 
 
 Source: [PWC, 2017](https://www.linkedin.com/pulse/women-technology-time-close-gender-gap-sheridan-ash). 
 
-(Insert graph)
+![Gender split graphic](/2017/graphics/gender-split@3x.svg)
 
 **Discuss your talk with Danny 07595‒226‒792 <danny.hope@gmail.com> or anything else with Emmeline <emmeline@uxbrighton.org.uk>**
 
