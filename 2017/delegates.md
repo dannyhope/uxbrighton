@@ -47,6 +47,26 @@ People come from all over world to attend our conferences.
 
 ## And what kind of companies to they come from?
 
+![American Express logo](/2017/3rd-party-logos/American Express.svg) 
+![BBC logo](/2017/3rd-party-logos/BBC.svg)
+![Balsamiq logo](/2017/3rd-party-logos/Balsamiq.svg)
+![Brandwatch logo](/2017/3rd-party-logos/Brandwatch.svg)
+![Clearleft logo](/2017/3rd-party-logos/Clearleft.svg)
+![Crunch logo](/2017/3rd-party-logos/Crunch.svg)
+![cxpartners logo](/2017/3rd-party-logos/cxpartners.svg)
+![Ebay logo](/2017/3rd-party-logos/Ebay.svg)
+![EasyJet logo](/2017/3rd-party-logos/EasyJet.svg)
+![Freeagent logo](/2017/3rd-party-logos/Freeagent.svg)
+![GitHub logo](/2017/3rd-party-logos/GitHub.svg)
+![LastFM logo](/2017/3rd-party-logos/LastFM.svg)
+![Macmmillan logo](/2017/3rd-party-logos/Macmillan.svg)
+![Ogilvy logo](/2017/3rd-party-logos/Ogilvy.svg)
+![Royal Mail logo](/2017/3rd-party-logos/Royal Mail.svg)
+![Tesco logo](/2017/3rd-party-logos/Tesco.svg)
+![The Guardian logo](/2017/3rd-party-logos/The Guardian.svg)
+![Twitter logo](/2017/3rd-party-logos/Twitter.svg)
+![University of Oxford logo](/2017/3rd-party-logos/University of Oxford.svg)
+
 
 ## What is the gender split?
 Our audience is 32% female, 68% male – more than double the 15% industry norm for women.
