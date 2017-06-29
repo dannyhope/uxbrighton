@@ -8,9 +8,11 @@ layout: minimal
 To give you a brief, yet detailed overview of our audience, we’ve crunched the data from our previous conferences.
  
 > It was a great opportunity for us to reach our target audience of small businesses and freelancers. We had good traffic to our stand and had some great conversations with attendees and the event itself was really interesting with great speakers. 
+
 – Freeagent, Gold sponsor of UX Brighton 2012
  
 > We're excited for the opportunity to sponsor again!"
+
 – Balsamiq, Silver sponsor of UX Brighton 2012-2016
 
 ## How many attend?
