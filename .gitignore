@@ -3,6 +3,7 @@ codekit-config.json
 .ruby-gemset*
 .ruby-version*
 .jekyll-metadata
+.DS_Store
 /_site/
 .tags
 to-do.md
