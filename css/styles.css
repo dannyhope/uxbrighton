@@ -595,8 +595,9 @@ nav .event-upcoming {
 
 .upcoming-events .event-card {
 	flex: 1;
-	background: url(../assets/2017-jtbdWorkshop/jillian-wells-adjusted-1362.jpg) no-repeat;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #666;
+	background-size: cover !important;
 	padding: 1rem;
 	margin: 0 1rem 1rem 0;
 }

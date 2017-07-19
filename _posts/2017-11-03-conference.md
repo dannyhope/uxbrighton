@@ -1,0 +1,16 @@
+---
+layout: event-page  
+title: "Designing for Complexity"
+venue: The Corn Exchange
+start: 9:30am
+price: £60-162
+upcoming: true
+homepage: true
+ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets
+---
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Designing for Complexity - the theme of our 7th annual conference, UX Brighton 2017. Early Bird tickets on sale now <a href="https://t.co/bd0l1QTCTH">https://t.co/bd0l1QTCTH</a> <a href="https://t.co/yUyhCru05h">pic.twitter.com/yUyhCru05h</a></p>&mdash; UX Brighton (@uxbri) <a href="https://twitter.com/uxbri/status/885104814472015872">July 12, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I just bought my first ever early bird ticket ( <a href="https://twitter.com/uxbri">@uxbri</a> ) for any event ever because they&#39;re talking about Complexity...</p>&mdash; Barry 🎮👻 (@render_ghost) <a href="https://twitter.com/render_ghost/status/887695816865046529">July 19, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
