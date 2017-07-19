@@ -597,7 +597,7 @@ nav .event-upcoming {
 	flex: 1;
 	background-repeat: no-repeat;
 	background-color: #666;
-	background-size: cover !important;
+	background-size: cover;
 	padding: 1rem;
 	margin: 0 1rem 1rem 0;
 }
