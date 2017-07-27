@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="44px" viewBox="0 0 280 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ticket-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.18338335" y="0.15375948" width="279.179691" height="42.6385603"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-SE" transform="translate(-20.000000, -305.000000)">
+            <g id="ticket-button" transform="translate(20.000000, 305.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.000000)">
+                    <g id="Group" transform="translate(0.000000, 0.284741)">
+                        <g id="Rectangle">
+                            <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#4A90E2" stroke-width="0.998853993" x="0.682810347" y="0.653186477" width="278.180837" height="41.6397063"></rect>
+                        </g>
+                        <text id="Earlybird-tickets-£1" font-family="MuseoSlab-700, Museo Slab" font-size="14" font-weight="500" fill="#FFFFFF">
+                            <tspan x="64.2152289" y="26.3891823">Earlybird tickets £160</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
