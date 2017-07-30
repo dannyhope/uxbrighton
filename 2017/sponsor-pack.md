@@ -92,7 +92,7 @@ Logo & link on the conference website (listed as microsponsors)
 
 One mention via our social media channels
 
-* An easy way to show support for UX Brighton 2017. Buy your micro sponsorship via our Eventbrite page, or contact [Emm](mailto:emmeline@uxbrighton.org.uk) to arrange an invoice.
+* An easy way to show support for UX Brighton 2017. Buy your micro sponsorship via our [Eventbrite page](https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979), or contact [Emm](mailto:emmeline@uxbrighton.org.uk) to arrange an invoice.
 
 *Social media channels include: Twitter (over 4K followers), UX Brighton Slack, Facebook, Linked In, and the UX Brighton mailing list.*
 
