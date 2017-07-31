@@ -4,7 +4,9 @@
 
 /* @end */
 
-
+* {
+	/*border: 1px solid #333  !important;*/
+}
 
 body {
 	padding: 0 0 31px;
@@ -33,10 +35,10 @@ body {
 
 /* @group Subtitle */
 	.subtitle {
-		margin-left: auto;
+		margin-top: 22px;
 		margin-right: auto;
+		margin-left: auto;
 		width: 70vw;
-		margin-top: 44px;
 		display: block;
 }
 	@media (min-width: 40rem) {
@@ -80,12 +82,20 @@ hr {
 
 section.event-description {
 	padding: 2rem;
+	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
+	margin-top: 2rem;
 }
 section.event-description p {
 	/* to do - apply rules like these more generally  */
 	margin-bottom: 14px;
-	color: #212121;
+	color: #444444;
 	font-size: 16px;
+	display: block;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+/*	text-align: center;*/
 }
 
 /* @end */
