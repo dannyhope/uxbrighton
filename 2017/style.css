@@ -109,6 +109,12 @@ h2 {
 /* @group Sponsors */
 	.sponsor p {
 		text-align: center;
+		padding: 2rem;
+	}
+	.sponsor p a {
+		color: #4a8fe2;
+		font-weight: bold;
+		text-decoration: none;
 	}
 
 /* @end */
