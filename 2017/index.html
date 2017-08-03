@@ -1,15 +1,21 @@
+---
+permalink: /2017/
+---
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width" name="viewport">
 	<title>UX Brighton 2017</title>
-	<link href="style.css" rel="stylesheet">
+	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+	<link href="{{ relative }}2017/style.css" rel="stylesheet">
+
 </head>
 <body>
 	<section class="intro">
-		<h1><img class="ux-brighton-2017-logo" src="graphics/logo.svg" alt="UX Brighton 2017"><br>
-		<span><img class="subtitle" src="graphics/subtitle.svg" alt=""></span></h1><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="graphics/ticket-button.svg"></a>
+		<h1><img class="ux-brighton-2017-logo" src="{{ relative }}2017/graphics/logo.svg" alt="UX Brighton 2017"><br>
+		<span><img class="subtitle" src="{{ relative }}2017/graphics/subtitle.svg" alt=""></span></h1><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="{{ relative }}2017/graphics/ticket-button.svg"></a>
 		<p class="date-and-place">Friday 3 November, Brighton Dome</p>
 		<section class="event-description">
 			<p>More&nbsp;data… more&nbsp;products… more&nbsp;competition… emerging&nbsp;skills… emerging&nbsp;tech… the&nbsp;next&nbsp;billion… all&nbsp;adding&nbsp;up to complexity and&nbsp;chaos!</p>
@@ -58,9 +64,9 @@
 	</section> -->
 	<!-- <hr> -->
 	<!-- <p><a href="/archive">UX Brighton event archive</a></p> -->
-			<span><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="graphics/ticket-button.svg"></a>
+			<span><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="{{ relative }}2017/graphics/ticket-button.svg"></a>
 	<section class="sponsor">
-		<p><a href="http://uxbrighton.org.uk/2017/sponsor-pack">Sonsor pack</a></p>
+		<p><a href="http://uxbrighton.org.uk/2017/sponsor-pack">Sponsor pack</a></p>
 	</section>
 
 </body>
