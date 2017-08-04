@@ -13,7 +13,7 @@ body {
 	margin-top: 0;
 	margin-right: 0;
 	margin-left: 0;
-	font: 14px/1.5 "Helvetica Neue", Arial, sans-serif;
+	font: 17px/1.75 "museo-slab", "Museo Slab", Rockwell, sans-serif;
 	text-align: left;
 }
 
@@ -99,11 +99,73 @@ section.event-description p {
 
 /* @end */
 
-/* @group Speakers */
+/* @group Speaker images */
 h2 {
-	font-size: 1.2rem;
+	font-size: 2rem;
 	color: #ff0505;
+	text-align: center;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
 }
+section.speakers {
+	padding: 0 1rem;
+}
+
+.speaker-image-group {
+	/*border: 1px solid #333;*/
+	text-align: center;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.speaker-image-group img {
+	width: 140px;
+}
+
+@media (min-width: 40rem) {
+	.speaker-image-group {
+		width: 600px;
+	}
+}
+@media (min-width: 60rem) {
+	.speaker-image-group {
+		width: 800px;
+	}
+		.speaker-image-group img {
+			width: 180px;
+		}
+}
+@media (min-width: 70rem) {
+	.speaker-image-group {
+		width: 1000px;
+	}
+		.speaker-image-group img {
+			width: 220px;
+		}
+}
+
+/* @end */
+
+/* @group Speaker descriptions */
+section.speaker-description {
+	/*border: 1px solid #333;*/
+	padding: 0.125rem 1rem 1rem;
+	max-width: 33rem;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1rem;
+}
+section.speaker-description:target {
+	background: hsl(193, 100%, 96%);
+}
+section.speaker-description h3 {
+	color: #ff0505;
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
 /* @end */
 
 /* @group Sponsors */
