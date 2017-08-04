@@ -28,7 +28,7 @@ or DM <strong><a href="https://twitter.com/direct_messages/create/uxbri" style="
 <p><img src="/2017/graphics/job-titles@3x.svg" alt="Job titles graphic"></p>
 <h2 id="where-do-they-come-from-">Where do they come from?</h2>
 <p><img src="/2017/graphics/attendee-origins.svg" alt="Attendee origins graphic"></p>
-<h2 id="and-what-kind-of-companies-do-they-come-from-">And what kind of companies to they come from?</h2>
+<h2 id="and-what-kind-of-companies-do-they-come-from-">And what kind of companies do they come from?</h2>
 <p><img src="/2017/3rd-party-logos/American Express.svg" alt="American Express logo">
 <img src="/2017/3rd-party-logos/BBC.svg" alt="BBC logo">
 <img src="/2017/3rd-party-logos/Balsamiq.svg" alt="Balsamiq logo">
