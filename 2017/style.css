@@ -157,7 +157,7 @@ section.speaker-description {
 	margin-top: 1rem;
 }
 section.speaker-description:target {
-	background: hsl(193, 100%, 96%);
+	background: hsl(195, 38%, 92%);
 }
 section.speaker-description h3 {
 	color: #df0000;
