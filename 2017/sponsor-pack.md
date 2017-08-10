@@ -51,7 +51,7 @@ We've got lots of ideas, and welcome your suggestions too. Think:
 
 * **AFTER PARTY** - Everyone loves the chance to network and discuss the day once the conference wraps, what better way than to sponsor the after party?!
 
-# We'll organise the ordering of branded goods, working with you closely for the best output.
+**We'll organise the ordering of branded goods, working with you closely for the best output.**
 
 <p>If you have any questions, email <strong><a href="mailto:emmeline@uxbrighton.org.uk" style="color:#b83246">emmeline@uxbrighton.org.uk</a></strong>
 or DM <strong><a href="https://twitter.com/direct_messages/create/uxbri" style="color:#b83246">@uxbri</a></strong> (DMs are open).</p>
@@ -81,7 +81,7 @@ We have four levels of sponsorship.
   3. After Party - help host our popular after party and we'll make sure everyone knows who to say cheers to!
   4. Videos - your logo at the start or end of each speaker talk. These will go on to our YouTube channel, and are publicly available.
 
-# Got something different in mind? Get in touch.
+**Got something different in mind? Get in touch.**
 
 ### 4 Star ★ ★ ★ ★
 
@@ -101,7 +101,7 @@ We have four levels of sponsorship.
 2.  Photobooth - co-branded, give our delegates something fun to do during the breaks, and a lasting reminder of the day.
 3.  Coffee - keep our delegates caffeinated during the day, we'll add a roller banner to say you're providing too.
 
-# Got something different in mind? Get in touch.
+**Got something different in mind? Get in touch.**
 
 ### 3 Star ★ ★ ★
 
@@ -116,7 +116,7 @@ We have four levels of sponsorship.
 1.  Pastries & fruit - pastries on arrival, fruit throughout the day because snacks are always welcome.
 2.  Volunteer t-shirts - your logo will be seen by every delegate passing through registration, and throughout the day as our lovely team of volunteers wear a brightly coloured t-shirt to identify themselves.
 
-# Got something different in mind? Get in touch.
+**Got something different in mind? Get in touch.**
 
 ### Micro
 
