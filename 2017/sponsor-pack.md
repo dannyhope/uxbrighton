@@ -26,9 +26,9 @@ Our speakers are individually selected from industry and academia; we make a par
 
 ## A boutique team
 
-UX Brighton is carefully curated by Danny Hope, a [UX consultant](https://www.linkedin.com/in/dannyhope) with over a decade of experience. In all matters logistical, practical and eventful [Emmeline Caines-Gooby](https://www.linkedin.com/in/emmeline-caines-gooby-9579195) ensures the conference runs like a smoothly oiled machine. Emm's been working with Danny since 2011. Emmeline and Danny are backed up by a team of volunteers who all work to ensure the conference is a great day for all our attendees, speakers and sponsors.
+UX Brighton is carefully curated by Danny Hope, a [UX consultant](https://www.linkedin.com/in/dannyhope) with over a decade of experience. In all matters logistical, practical and eventful [Emmeline Caines-Gooby](https://www.linkedin.com/in/emmeline-caines-gooby-9579195) ensures the conference runs like a smoothly oiled machine. Emm's been working with Danny since 2011. Danny and Emm are backed up by a team of volunteers who all work to ensure the conference is a great day for all our attendees, speakers and sponsors.
 
-Find out a bit more about our [attendee demographics](/2017/attendee-demographics).
+Find out more about our [attendee demographics](/2017/attendee-demographics).
 
 If you're interested in sponsoring, please either email **[emmeline@uxbrighton.org.uk](mailto:emmeline@uxbrighton.org.uk)**
 or DM **[@uxbri](https://twitter.com/direct_messages/create/uxbri)** (DMs are open).
@@ -51,6 +51,8 @@ We've got lots of ideas, and welcome your suggestions too. Think:
 
 * **AFTER PARTY** - Everyone loves the chance to network and discuss the day once the conference wraps, what better way than to sponsor the after party?!
 
+# We'll organise the ordering of branded goods, working with you closely for the best output.
+
 <p>If you have any questions, email <strong><a href="mailto:emmeline@uxbrighton.org.uk" style="color:#b83246">emmeline@uxbrighton.org.uk</a></strong>
 or DM <strong><a href="https://twitter.com/direct_messages/create/uxbri" style="color:#b83246">@uxbri</a></strong> (DMs are open).</p>
 
@@ -66,7 +68,7 @@ We have four levels of sponsorship.
 
 * Large logo and link on the conference website
 
-* Large logo displayed on screen during breaks
+* Large logo displayed on screen during breaks (see an example in our photo at the top)
 
 * Logo on banner at the venue
 
@@ -78,6 +80,8 @@ We have four levels of sponsorship.
   2. Delegate & speaker lanyards - your logo around every attendees neck. Not just seen on the day, but also in all the conference photography and filming.
   3. After Party - help host our popular after party and we'll make sure everyone knows who to say cheers to!
   4. Videos - your logo at the start or end of each speaker talk. These will go on to our YouTube channel, and are publicly available.
+
+# Got something different in mind? Get in touch.
 
 ### 4 Star ★ ★ ★ ★
 
@@ -97,6 +101,8 @@ We have four levels of sponsorship.
 2.  Photobooth - co-branded, give our delegates something fun to do during the breaks, and a lasting reminder of the day.
 3.  Coffee - keep our delegates caffeinated during the day, we'll add a roller banner to say you're providing too.
 
+# Got something different in mind? Get in touch.
+
 ### 3 Star ★ ★ ★
 
 **£1000 + VAT** includes:
@@ -109,6 +115,8 @@ We have four levels of sponsorship.
 
 1.  Pastries & fruit - pastries on arrival, fruit throughout the day because snacks are always welcome.
 2.  Volunteer t-shirts - your logo will be seen by every delegate passing through registration, and throughout the day as our lovely team of volunteers wear a brightly coloured t-shirt to identify themselves.
+
+# Got something different in mind? Get in touch.
 
 ### Micro
 
