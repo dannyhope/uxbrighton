@@ -14,6 +14,8 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif; line-height: 1.
 
 ## [UX Brighton 2017](http://uxbrighton.org.uk/)
 
+## UX Brighton, 3rd November. A one-day conference for UX people
+
 **Do you want to attend UX Brighton 2017 but need to persuade your boss or employer? We know it’s not always easy to convince your boss, or even bring the subject up.** 
 
 Problem. Budgets are often tight, resources can be scarce, and employers can be sceptical of conferences they’ve never heard of or attended. The cost of attending a conference can be considerable. That total might include travel costs, hotel, and time-away-from-work costs as well as the conference ticket itself. 
