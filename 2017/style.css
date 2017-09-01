@@ -183,11 +183,15 @@ section.speaker-description p {
 	}
 
 /* @end */
+
+/* @group Partners */
+
 section.partners {
-	border: 1px solid #333;
 	text-align: center;
 }
 
-section.partners img {
-	width: 150px;
-}
+	section.partners img {
+		width: 120px;
+	}
+
+/* @end */
