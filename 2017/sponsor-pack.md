@@ -39,6 +39,8 @@ UX Brighton has grown, and we're moving to the Concert Hall in the Brighton Dome
 
 Our delegates want to hear from companies that support us. They are looking for new jobs, resources and tools. The UX community will share their knowledge so that those who support us will continue to receive the benefit long after. As you might expect, we’re a creative bunch, so encourage our sponsors to think beyond the exhibition stand.
 
+**Find out more about our [attendee demographics](/2017/attendee-demographics).
+
 We've got lots of ideas, and welcome your suggestions too. Think:
 
 * **FUN** - Entertainment during the breaks in a day full of cerebral, mind expanding talks can be a great way to engage our delegates. Maybe sponsor a co-branded Photobooth.
@@ -58,6 +60,8 @@ or DM <strong><a href="https://twitter.com/direct_messages/create/uxbri" style="
 
 ## Sponsorship opportunities
 
+**Find out more about our [attendee demographics](/2017/attendee-demographics).
+
 We have four levels of sponsorship.
 
 ### 5 Star ★ ★ ★ ★ ★
@@ -72,7 +76,7 @@ We have four levels of sponsorship.
 
 * Logo on banner at the venue
 
-* Multiple mentions via our social media channels
+* Multiple mentions via our social media channels (Twitter: 4800+ followers, mailing list: 1500+, Slack: 340+, Linked In and Facebook)
 
 *Choose one of:*
 
@@ -93,7 +97,7 @@ We have four levels of sponsorship.
 
 * Medium logo displayed on screen during breaks
 
-* Some mentions via our social media channels
+* Some mentions via our social media channels (Twitter: 4800+ followers, mailing list: 1500+, Slack: 340+, Linked In and Facebook)
 
 *Choose one of:*
 
@@ -109,7 +113,7 @@ We have four levels of sponsorship.
 
 * Logo and link on the conference website
 * Logo displayed on screen during breaks
-* Mentions via our social media channels
+* Mentions via our social media channels (Twitter: 4800+ followers, mailing list: 1500+, Slack: 340+, Linked In and Facebook)
 
 *Choose one of:*
 
@@ -125,4 +129,6 @@ This is a really easy way to show support for UX Brighton 2017. Buy your micro s
 **£150 + VAT** includes:
 
 * Logo & link on the conference website (listed as microsponsors)
-* One mention via our social media: Twitter (over 4K followers), UX Brighton Slack, Facebook, Linked In, and the UX Brighton mailing list.*
+* One mention via our social media (Twitter: 4800+ followers, mailing list: 1500+, Slack: 340+, Linked In and Facebook)
+
+**Find out more about our [attendee demographics](/2017/attendee-demographics).
