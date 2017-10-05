@@ -16,7 +16,10 @@ body {
 	font: 17px/1.75 "museo-slab", "Museo Slab", Rockwell, sans-serif;
 	text-align: left;
 }
-
+h4 {
+    font-weight: bold;
+    color: rgba(0,0,0,0.75);
+}
 /* @group Frontispiece */
 
 .intro h1 {
