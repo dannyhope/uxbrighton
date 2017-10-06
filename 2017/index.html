@@ -20,8 +20,6 @@ permalink: /2017/
 	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 	<link href="{{ relative }}2017/style.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
-
 </head>
 <body>
 	<section class="intro">
