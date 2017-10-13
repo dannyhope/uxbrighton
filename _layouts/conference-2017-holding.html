@@ -1,1 +1,168 @@
-../2017/index.html
+---
+permalink: /2017/
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7759112-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-7759112-2');
+	</script>
+
+	<meta charset="utf-8">
+	<meta content="width=device-width" name="viewport">
+	<title>UX Brighton 2017</title>
+	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+	<link href="{{ relative }}2017/style.css" rel="stylesheet">
+</head>
+<body> 
+	<section class="intro">
+		<h1><img class="ux-brighton-2017-logo" src="{{ relative }}2017/graphics/logo.svg" alt="UX Brighton 2017"><br>
+		<span><img class="subtitle" src="{{ relative }}2017/graphics/subtitle.svg" alt=""></span></h1><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="{{ relative }}2017/graphics/ticket-button.svg"></a>
+		<p href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets" style="color: #8c8c8c; text-align: center; margin-bottom: 44px;">Buy 4, get one free</p>
+		<p class="date-and-place">Friday 3 November, <a href="https://goo.gl/maps/WgDCupdLKj72">Brighton Dome</a></p>
+		<section class="event-description">
+			<p>More&nbsp;data… more&nbsp;products… more&nbsp;competition… emerging&nbsp;skills… emerging&nbsp;tech… the&nbsp;next&nbsp;billion… all&nbsp;adding&nbsp;up to complexity and&nbsp;chaos!</p>
+			<p>UX Brighton 2017 is a conference about&nbsp;complexity.</p>
+			<p>Eight thought-provoking speakers have been carefully chosen to talk about how confronting complexity can improve the way we create digital products, such as responsive websites and mobile&nbsp;apps.</p>
+			<p>Take a day off to learn the latest in UX and meet people who do what you&nbsp;do.</p>
+		</section>
+	</section>
+<section class="speakers" id="speakers">
+	<h2>Speakers</h2>
+	<section class="speaker-image-group">
+		<a href="#james" title="James Box"><img src="{{ relative }}2017/photos/James-Box-2-350x350.jpg"></a>
+		<a href="#liz" title="Liz Keogh"><img src="{{ relative }}2017/photos/Liz-Keogh-2-cropped-175x175.jpg"></a>
+		<a href="#gerry" title="Gerry McGovern"><img src="{{ relative }}2017/photos/Gerry-McGovern-4-cropped-925x925.jpg"></a>
+		<a href="#shek" title="ShekMan Tang"><img src="{{ relative }}2017/photos/ShekMan-Tang.jpg"></a>
+		<a href="#aleks" title="Aleksandra Melnikova"><img src="{{ relative }}2017/photos/Aleksandra-Melnikova-1-cropped-189x189.jpg"></a>
+		<a href="#karen" title="Karen Cham"><img src="{{ relative }}2017/photos/Karen-Cham-1-337x337.jpg"></a>
+		<a href="#simon" title="Simon Wardley"><img src="{{ relative }}2017/photos/Simon-Wardley-1500x1500.jpg"></a>
+		<a href="#" title="coming soon"><img src="{{ relative }}2017/graphics/placeholder@2x.png"></a>
+	</section>
+	
+	<section class="james speaker-description" id="james">
+		<h3 class="speaker">You wake up in a room… – James&nbsp;Box</h3>
+		<p>New projects feel great.  Everything is possible. You’re working with a new team, full of ambition. This is the one you’ve been waiting for. A chance to use all those new methods, embrace new mindsets and design the killer user experience you know you have in you.
+		</p>
+		<p>Then something changes. One or two of your stakeholders have developed ‘interesting’ expectations. The development team is struggling to prise resources away from delivery. Your attempts to get everybody aligned, means your research budget has now got worryingly close to zero. Then the project manager hits you with the MVP stick.</p>
+		<p>Somewhere, somehow, things got complex. And now you’re feeling overwhelmed and full of fear.</p>
+		<p>This is a talk about what to do when you encounter that feeling. James will talk about ways to recognise the symptoms of complexity and how to respond in a way that makes sense for you and your team.</p>
+		<h4>About James</h4>
+		<p>James is Director of UX at Clearleft, he is an experienced digital design professional with a heavy skew towards UX and Lean practices. He’s most at home leading highly collaborative, multi-disciplined teams within an iterative design process, whether that is for an early stage startup or an established for-profit business. His previous clients include the BBC, Channel 4, Pearson, the BFI, Amnesty International and NBC Universal. James co-authored the book Undercover User Experience Design and has spoken at design events around the world including South by Southwest, UX Australia, Tech4Africa, UXLondon and the Web Apps Summit.</p>
+		<p><a href="https://twitter.com/boxman">@boxman</a></p>
+	</section>
+	
+	<section class="liz speaker-description" id="liz">
+		<h3 class="speaker">Hypothetically Coherent – Liz&nbsp;Keogh</h3>
+		<p>We know from the Lean UX community that hypotheses can help us to create experiments, finding out what users want with real data - but if the hypothesis fails, is there sometimes more to learn?</p>
+		<p>In this talk Liz introduces Cynefin, a framework for making sense of different situations and how to approach them depending on their predictability. We look at the role of complexity in human interaction in generating unexpected but important side-effects, and the difference between hypothesis / experiment and coherence / probe as ways of enabling discovery across multiple human dimensions.</p>
+		<p>Louis Pasteur said that in the field of observation, chance favours the prepared mind. Come and find out how to prepare yours!</p>
+		<h4>About Liz</h4>
+		<p>Liz is an independent Lean and Agile consultant based in London. She is a well-known blogger and international speaker, a core member of the BDD community and a contributor to a number of open-source projects including JBehave. She works with subjects as diverse as haiku poetry, complexity thinking, effective personal feedback and OO development, and has a strong technical background with almost 15 years’ experience in delivering and coaching others to deliver large-scale enterprise applications, which she now combines with a focus on psychology, NLP and adult learning. She has pioneered the application of learning models in measuring Agile maturity and coaching progress, and is currently interested in modelling risk and change with complexity thinking and the Cynefin framework. Liz was awarded the Gordon Pask award in 2010 for deepening existing ideas in the Agile space and “coming up with some pretty crazy ones of her own”. She is also a science fiction writer and published poet.</p>
+		<p><a href="https://twitter.com/lunivore/">@lunivore</a></p>
+	</section>
+	
+	<section class="gerry speaker-description" id="gerry">
+		<h3 class="speaker">Measuring customer effort with top tasks – Gerry&nbsp;McGovern</h3>
+		<p>A customer centric universe involves reducing time and effort for people as they seek to complete their top tasks. Top Tasks Management gives you a model to prove that you are optimising the experience of your customers. It’s all about focusing on the activity of the customer, rather than what has traditionally happened — focusing on the activity of the organisation.
+		</p>
+		<h4>About Gerry</h4>
+		<p>Gerry has published six books about the need for customer-centricity in the online world. His latest book, Transform, explains why digital transformation is far more about culture change than technology change. Gerry has spoken and consulted on online customer experience in 35 countries. His company, Customer Carewords, specialises in helping large organisations (such as Microsoft, Cisco, European Commission, and VMware) deliver a better customer experience online through focusing on making the top customer tasks easier to find and simpler to do.</p>
+		<p><a href="http://customercarewords.com/">customercarewords.com</a></p>
+		<p><a href="https://twitter.com/gerrymcgovern/">@gerrymcgovern</a></p>
+	</section>
+	
+	<section class="shek speaker-description" id="shek">
+		<h3 class="speaker">Applying systems thinking in product design – ShekMan Tang</h3>
+		
+		<p>To design a great product, you need to understand its foundations before focusing on the details. That’s where systems thinking comes in. It’s a top-down approach where you consider the big picture first and the specific interactions later.	</p>
+		<p>It helps you establish a design system early, which sets the course of the product direction, gets the team on the same page, and focuses your design effort on the most important product areas.</p>
+		<p>In this talk ShekMan Tang will introduce the foundations of systems thinking, and how we could apply it in the practice of product design.</p>
+		
+		<h4>About Shek</h4>
+		
+		<p>Shek is a product designer with a passion for shipping impactful products. At Intercom, he’s currently responsible for crafting designs for helping sales teams be more efficient. Prior to Intercom he worked for a design consulting firm, completed projects with global clients including Citibank, Telefonica and Vodafone. Shek enjoys traveling to observe and take inspirations from the real world.</p>
+		<p><a href="https://twitter.com/Shekman/">@Shekman</a></p>
+	</section>
+	
+	<section class="aleks speaker-description" id="aleks">
+	<h3 class="speaker">Breaking the (design) confines — Aleksandra&nbsp;Melnikova</h3>
+	<p>In the race for profitability, digital agencies rush to establish processes to ensure stable and successful delivery. Those processes can often feel very mechanic, almost like an assembly line. But they often forget something. Good design is not done in established phases. It comes from multiple drivers, from courage and from change, above all. It comes from unexpected associations, from art and philosophy, from metaphors and connections. My talk is based around exploring the connections between design and multiple (seemingly unrelated) disciplines, with a focus on methods and techniques that enable people to create richer design artefacts and experiences (extending beyond digital).</p>
+	<h4>About Aleks</h4>
+	<p>Aleks is an Experience Design Director bringing the power of connected disciplines into design, research and team management. Being trained in Arts and Product Service Systems design is a combination that enables her to make any project, no matter the size, her playground by creating new methods, tools and approaches, frequently challenging the existing structures and status quo. Over the last 10 years, she has worked both client and agency side and has led and successfully delivered (digital) experiences for companies like VISA, Lloyds, TSB, SKY, Aviva, VSO, GSK and British Airways. Aleks currently leads the Experience design team at Radley Yeldar, her role being to connect the company from within, driving experience excellence and strategy.When not at work, she collaborates with a few UK universities, blogs about the connections between literature, art and design and spends time suspended in the air trying to become a pro at aerial arts.</p>
+	<p><a href="https://twitter.com/alex_andr_a">@alex_andr_a</a></p>
+	</section>
+		
+		<section class="karen speaker-description" id="karen">
+		<h3 class="speaker">Models from Complexity Science – Karen&nbsp;Cham</h3>
+		<p>In popular dialogues, describing a system as “complex” is often the point of resignation, inferring that the system cannot be sufficiently described, predicted nor managed. Scientific dialogues however, have explored the collective behaviours of complexity to formally define a complex system. This presentation will introduce generic principles from complex systems science, and unpack how and why they can be applied to user experience design.</p>
+		<h4>About Karen</h4>
+		<p>Director of <strong>Rhizometric Design</strong> and <strong>Professor of Digital Transformation Design at the University of Brighton</strong></p>
+		<p>Karen has 23 years experience in human centred digital transformation design and design methods for complexity. Her first website project was in 1994 and first machine learning project 1996. Working with companies like <strong>Playstation</strong>, <strong>Diesel</strong>, <strong>Which?</strong>, <strong>Top Shop</strong>, <strong>Absolut Vodka</strong> and <strong>The Ministry of Sound</strong>, she has researched and designed Brain-computer interfaces, <abbr title="augmented reality">AR</abbr>, <abbr title="virtual reality">VR</abbr>, haptics, computer vision, machine learning, automatic signal recognition and AI.</p>
+		<p>Professor Cham’s research focus is end user engagement and narrowing the gap between people &amp; machines to create emotional responses and nudge behaviour change, and has published in <strong>IEEE</strong>, <strong>Intellect</strong>, <strong>Routledge</strong>, <strong>Palgrave</strong> and the <strong>British Computer Society</strong>. She is also a pre-publication Manuscript Reviewer for <strong>Berg</strong>, <strong>Palgrave</strong>, <strong>AVA</strong>, <strong>Routledge</strong>, <strong>Taylor Francis</strong> and <strong>Bloomsbury</strong>. Karen also speaks at conferences worldwide and is a Women in Games Ambassador.</p>
+		<p><a href="http://rhizometricdesign.com/">rhizometricdesign.com</a></p>
+		<p><a href="http://arts.brighton.ac.uk/staff/karen-cham">brighton.ac.uk</a></p>
+	</section>
+	<section class="unconfirmed speaker-description" id="unconfirmed" style="display: none;">
+		<h3 class="speaker">TBC</h3>
+		<p></p>
+		<h4></h4>
+		<p><a href="https://twitter.com/">TBC</a></p>
+	</section>
+	<section class="simon speaker-description" id="simon">
+		<h3 class="speaker">Situational Awareness: A superpower for UX designers – Simon&nbsp;Wardley</h3>
+		<p>In a world where companies are competing to out-innovate one another, UX designers are being called upon to help determine their organisations’ future direction. Increasingly, we’re being asked to identify which user needs will be most important to focus on and to determine how the services we should best support those needs.</p>
+		<p>Simon will present Wardley Maps: A method for gaining situational awareness – an understanding of where you are now that informs and empowers you to take control of your company's future.</p>
+		<p>Add this graphical, user-centred business tool to your arsenal of skills and start guiding your company toward success.</p>
+		<h4>About Simon</h4>
+		<p>Simon is a Researcher for Leading Edge Forum and the lead practitioner for <strong><a href="https://leadingedgeforum.com/advisory-service/wardley-maps/">Wardley Maps</a></strong> advisory service, helping clients anticipate market and ecosystem developments. He has spent the last 15 years defining future IT strategies for companies in the <abbr title="fast-moving consumer goods">FMCG</abbr>, Retail and IT industries. From Canon’s early leadership in the cloud computing space in 2005 to <strong>Ubuntu</strong>’s recent dominance as the #1 Cloud operating system.</p>
+		<p>As a geneticist with a love of mathematics and a fascination in economics, Simon has always dealt with <strong>complex systems</strong>, whether it’s in behavioural patterns, environmental risks of chemical pollution, developing novel computer systems or managing companies. He is a passionate advocate and researcher, having published reports in the fields of <strong>open source</strong>, <strong>commoditisation</strong>, <strong>innovation</strong>, <strong>organisational structure</strong> and <strong>cybernetics</strong>.</p>
+		<p>Simon is a regular presenter at conferences worldwide, and has been voted one of the UK's <a href="http://www.computerweekly.com/news/2240172149/UKtech50-2012-The-most-influential-people-in-UK-IT">50 most influential people in IT</a>.</p>
+		<p><a href="https://twitter.com/swardley">@swardley</a></p>
+		<p><a href="https://medium.com/@swardley">medium.com</a></p>
+		<p><a href="https://leadingedgeforum.com/researcher/simon-wardley/">leadingedgeforum.com</a></p>
+	</section>
+</section>
+	<section class="sponsors" id="sponsors">
+		<h2>Sponsors</h2>
+		<a href="https://balsamiq.com/" style="text-decoration: none;">
+			<img src="{{ relative }}2017/3rd-party-logos/Balsamiq.svg" alt="balsamiq.com" style="width: 250px;" />
+		</a>
+	</section>
+	<section class="partners" id="partners">
+		<h2>Partners</h2>
+		<a href="https://uxclub.com/" style="text-decoration: none;">
+			<img src="{{ relative }}2017/3rd-party-logos/uxclub-logo-orange.svg" alt="Balsamiq" style="width: 150px;" />
+		</a>
+		<a href="http://ladiesthatux.com/" style="text-decoration: none;">
+			<img src="{{ relative }}2017/3rd-party-logos/ladies-that-ux-logo.png" alt="UXClub.com" style="width: 90px;" />
+		</a>
+		<a href="http://weareshesays.com/" style="text-decoration: none;">
+			<img src="{{ relative }}2017/3rd-party-logos/she-says-logo.png" alt="She Says" style="width: 170px;" />
+		</a>
+		<a href="http://uxpa-uk.org/" style="text-decoration: none;">
+			<img src="{{ relative }}2017/3rd-party-logos/UXPA-UK-logo.png" alt="UXPA UK" style="width: 160px;" />
+		</a>
+		<a href="http://uxbristol.org.uk" style="text-decoration: none;">
+			<img src="{{ relative }}2017/3rd-party-logos/UX-Bristol-logo.png" alt="UX Bristol" style="width: 170px;" />
+		</a>
+		<a href="http://uxcambridge.net/" style="text-decoration: none;">
+			<img src="{{ relative }}2017/3rd-party-logos/UX-Cambridge-logo.png" alt="UX Cambridge" style="width: 120px;" />
+		</a>
+	</section>
+
+	<h2>Tickets</h2>
+	<span><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="{{ relative }}2017/graphics/ticket-button.svg"></a>
+	<section class="sponsor">
+		<p><a href="http://uxbrighton.org.uk/2017/sponsor-pack">Sponsor pack</a></p>
+	</section>
+
+</body>
+</html>
