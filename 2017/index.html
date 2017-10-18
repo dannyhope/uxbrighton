@@ -20,6 +20,11 @@ permalink: /2017/
 	<title>UX Brighton 2017</title>
 	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+	<link rel="apple-touch-icon" href="/images/icon.png">
+	<link rel="icon" href="/images/favicon.png">
+	<meta name="msapplication-TileImage"	content="/images/icon.png">
+
 	<link href="{{ relative }}2017/style.css" rel="stylesheet">
 </head>
 <body>
