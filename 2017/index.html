@@ -28,7 +28,17 @@ permalink: /2017/
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto+Slab" rel="stylesheet">
 	<link href="{{ relative }}2017/style.css" rel="stylesheet">
 	<style media="screen">
+		body {
+			padding-bottom: 0;
+		}
+		h2 {
+			margin-top: 2.5rem;
+		}
 		h2, .speaker, .speaker-description h4, .intro {font-family: 'Roboto Slab', serif; }
+
+		.date-and-place a {
+			color: #8c8c8c;
+		}
 		.speaker span {
 			color: #130f30;
 		}
@@ -39,6 +49,11 @@ permalink: /2017/
 		section.intro {
 			background: url({{ relative }}2017/graphics/conway.svg)
 		}
+
+		.event-description a {
+			color: rgba(0, 0, 0, 0.59);
+		}
+
 		.event-description p:first-child {
 			font-weight: bold;
 		}
@@ -76,6 +91,42 @@ permalink: /2017/
 
 		.speaker-description .meet-speakers {
 		}
+
+		section.venue {
+		}
+
+		section.venue h2 {
+		}
+
+		section.venue img {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			vertical-align: bottom;
+		}
+
+		section.tickets {
+			background: url(/2017/graphics/conway.svg);
+		}
+
+		#sponsors .main img {
+			max-width: 200px;
+			max-height: 100px;
+		}
+
+		#sponsors .micro img {
+			width: 150px;
+		}
+
+		#partners img {
+			max-width: 90px;
+			max-height: 60px;
+		}
+
+		.sponsor p a {
+			text-decoration: underline;
+			color: #130f30;
+		}
 	</style>
 </head>
 <body>
@@ -83,12 +134,12 @@ permalink: /2017/
 		<h1><img class="ux-brighton-2017-logo" src="{{ relative }}2017/graphics/logo.svg" alt="UX Brighton 2017"><br>
 		<span><img class="subtitle" src="{{ relative }}2017/graphics/subtitle.svg" alt=""></span></h1><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="{{ relative }}2017/graphics/ticket-button.svg"></a>
 		<p href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets" style="color: #8c8c8c; text-align: center; margin-bottom: 44px;">Buy 4, get one free</p>
-		<p class="date-and-place">Friday 3 November, <a href="https://goo.gl/maps/WgDCupdLKj72">Brighton Dome</a></p>
+		<p class="date-and-place">Friday 3 November, <a href="#venue">Brighton Dome</a><br>Registration from 9am, first speaker 10am</p>
 		<section class="event-description">
 			<p>More&nbsp;data… more&nbsp;products… more&nbsp;competition… emerging&nbsp;skills… emerging&nbsp;tech… the&nbsp;next&nbsp;billion… all&nbsp;adding&nbsp;up to complexity and&nbsp;chaos!</p>
 			<p>UX Brighton 2017 is a conference about&nbsp;complexity.</p>
-			<p>Eight thought-provoking speakers have been carefully chosen to talk about how confronting complexity can improve the way we create digital products, such as responsive websites and mobile&nbsp;apps.</p>
-			<p>Take a day off to learn the latest in UX and meet people who do what you&nbsp;do.</p>
+			<p>Eight <a href="#speakers">thought-provoking speakers</a> have been carefully chosen to talk about how confronting complexity can improve the way we create digital products, such as responsive websites and mobile&nbsp;apps.</p>
+			<p>Take a day off to learn the latest in UX and meet people who do what you&nbsp;do. <a href="./convince-your-boss">Convince your boss</a> that you need to come…</p>
 		</section>
 	</section>
 <section class="speakers" id="speakers">
@@ -245,61 +296,73 @@ permalink: /2017/
 	</section>
 </section>
 	<section class="sponsors" id="sponsors">
-		<h2>Sponsors</h2>
-		<a href="https://balsamiq.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/Balsamiq-logo-red.svg" alt="balsamiq" style="width: 220px;" />
-		</a>
-		<a href="https://workforus.theguardian.com/locations/london" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/The-Guardian-logo.svg" alt="The Guardian" style="width: 250px;" />
-		</a>
-		<a href="https://jsbin.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/JS-Bin-logo.svg" alt="JS Bin " style="width: 80px;" />
-		</a>
-		<a href="https://rakutenmarketing.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/Rakuten-Marketing-logo.svg" alt="Rakuten Marketing " style="width: 210px;" />
-		</a>
-		<a href="https://www.madgex.com/careers/vacancies/3ACE858718" style="text-decoration: none;">
-			<img src="3rd-party-logos/Madgex-logo.svg" alt="Madgex" style="width: 180px;" />
-		</a>
-		<a href="http://ozkan.accountants/" style="text-decoration: none;">
-			<img src="3rd-party-logos/Ozkan-logo.png" alt="Ozkan" style="width: 140px;" />
-		</a>
+		<h2 style="color: #130f30">Sponsors</h2>
+		<section class="main">
+			<a href="https://balsamiq.com/" style="text-decoration: none;">
+				<img src="{{ relative }}2017/3rd-party-logos/Balsamiq-logo-red.svg" alt="Balsamiq"/>
+			</a>
+			<br><a href="https://jsbin.com/" style="text-decoration: none;">
+				<img src="{{ relative }}2017/3rd-party-logos/JS-Bin-logo.svg" alt="JS Bin"/>
+			</a>
+			<br><a href="https://rakutenmarketing.com/" style="text-decoration: none;">
+				<img src="{{ relative }}2017/3rd-party-logos/Rakuten-Marketing-logo.svg" alt="Rakuten Marketing"/>
+			</a>
+		</section>
+		<section class="micro">
+			<a href="https://workforus.theguardian.com/locations/london" style="text-decoration: none;">
+				<img src="{{ relative }}2017/3rd-party-logos/The-Guardian-logo.svg" alt="The Guardian"/>
+			</a>
+			<a href="https://www.madgex.com/careers/vacancies/3ACE858718" style="text-decoration: none;">
+				<img src="3rd-party-logos/Madgex-logo.svg" alt="Madgex"/>
+			</a>
+			<a href="http://ozkan.accountants/" style="text-decoration: none;">
+				<img src="3rd-party-logos/Ozkan-logo.png" alt="Ozkan"/>
+			</a>
+		</section>
 	</section>
 	<section class="partners" id="partners">
-		<h2>Partners</h2>
+		<h2 style="color: #130f30">Partners</h2>
 		<a href="https://uxclub.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/uxclub-logo-orange.svg" alt="Balsamiq" style="width: 150px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/uxclub-logo-orange.svg" alt="UX Club"/>
 		</a>
 		<a href="http://ladiesthatux.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/ladies-that-ux-logo.png" alt="UXClub.com" style="width: 90px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/ladies-that-ux-logo.png" alt="Ladies that UX"/>
 		</a>
 		<a href="http://weareshesays.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/she-says-logo.png" alt="She Says" style="width: 170px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/she-says-logo.png" alt="She Says"/>
 		</a>
 		<a href="http://uxpa-uk.org/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/UXPA-UK-logo.png" alt="UXPA UK" style="width: 160px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/UXPA-UK-logo.png" alt="UXPA UK"/>
 		</a>
 		<a href="http://uxbristol.org.uk" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/UX-Bristol-logo.png" alt="UX Bristol" style="width: 170px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/UX-Bristol-logo.png" alt="UX Bristol"/>
 		</a>
 		<a href="http://uxcambridge.net/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/UX-Cambridge-Logo.png" alt="UX Cambridge" style="width: 160px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/UX-Cambridge-Logo.png" alt="UX Cambridge"/>
 		</a>
 		<a href="http://brightoncro.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/Brighton-CRO-logo2.svg" alt="Brighton CRO" style="width: 180px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/Brighton-CRO-logo2.svg" alt="Brighton CRO" />
 		</a>
 		<a href="http://loop11.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/loop11-logo.svg" alt="Loop11" style="width: 140px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/loop11-logo.svg" alt="Loop11" />
 		</a>
 		<a href="http://brightonruby.com/" style="text-decoration: none;">
-			<img src="{{ relative }}2017/3rd-party-logos/brighton-ruby.svg" alt="Brighton Ruby" style="width: 130px;" />
+			<img src="{{ relative }}2017/3rd-party-logos/brighton-ruby.svg" alt="Brighton Ruby" />
 		</a>
 	</section>
 
-	<h2>Tickets</h2>
-	<span><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="{{ relative }}2017/graphics/ticket-button.svg"></a>
-	<section class="sponsor">
-		<p><a href="http://uxbrighton.org.uk/2017/sponsor-pack">Sponsor pack</a></p>
+	<section class="tickets">
+		<h2>Tickets</h2>
+		<span><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img src="{{ relative }}2017/graphics/ticket-button.svg"></a>
+		<section class="sponsor">
+			<p><a href="http://uxbrighton.org.uk/2017/sponsor-pack">Become a sponsor</a></p>
+		</section>
+	</section>
+
+	<section class="venue" id="venue">
+		<h2>Brighton Dome<br>Concert Hall</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10081.609201094489!2d-0.1379563!3d50.8237118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x204845bd08377bb3!2sBrighton+Dome!5e0!3m2!1sen!2sus!4v1508448506230" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<img src="/2017/photos/Brighton_Dome.jpg" alt="Brighton Dome, outside"><img src="/2017/photos/dome-ceiling.jpg" alt="Brighton Dome concert hall, inside">
 	</section>
 
 </body>
