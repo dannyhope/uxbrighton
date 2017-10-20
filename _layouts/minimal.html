@@ -10,24 +10,24 @@
 
 	<meta name="description" content="UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology">
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>	
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" href="{{ relative }}/css/styles.css">
 	<link rel="apple-touch-icon" href="/images/icon.png">
-	<link rel="icon" href="/images/favicon.png">	
+	<link rel="icon" href="/images/favicon.png">
 	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-	 <!--[if lt IE 9]>  
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	 <!--[if lt IE 9]>
 	      <script src="js/html5shiv.js"></script>
-	  <![endif]--> 	
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  <![endif]-->
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7759112-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-  ga('create', 'UA-7759112-2', 'uxbrighton.org.uk');
-  ga('send', 'pageview');
-
-</script>
+		gtag('config', 'UA-7759112-2');
+	</script>
 
 <!-- Hotjar Tracking Code for uxbrighton.org.uk -->
 <script>
@@ -37,15 +37,15 @@
         f._hjSettings={hjid:29589, hjsv:3};
         c=b.createElement("script");c.async=1;
         c.src="//static.hotjar.com/c/hotjar-29589.js?sv=3";
-        b.getElementsByTagName("head")[0].appendChild(c); 
+        b.getElementsByTagName("head")[0].appendChild(c);
     })(window,document);
-</script>    
+</script>
 
-{% if page.art-direction %} 
+{% if page.art-direction %}
 	<style media="screen">
 		{{page.art-direction}}
 	</style>
-{% endif %}  
+{% endif %}
 
 </head>
 <body style="padding: 2rem;">
