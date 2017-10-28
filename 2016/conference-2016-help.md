@@ -2,7 +2,6 @@
 permalink: /conference-2016-help
 layout: event-page
 redirect_from: 
-  - /help
   - /conference-2016help
   - /conference-2016/help
 art-direction: ".event-detail_desc {line-height: 2em} .event-detail_desc h2 {color: #000; margin-bottom: 0} .event-detail_desc p {margin-top: 0.5rem}"
