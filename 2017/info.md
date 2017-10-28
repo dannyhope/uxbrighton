@@ -7,7 +7,7 @@ redirect_from:
   - /help
   - /2017/faq
   - /2017/help
-art-direction: "body {font-family: 'Open Sans', sans-serif; color: #130f30} h1, h2,h3 {font-family: 'museo-slab',sans-serif; line-height: 1.2} h2{font-size: 1.5rem; color: #1075b0} h3{font-size: 1.3rem; color: #b83246 !important}
+art-direction: "body {font-family: 'Open Sans', sans-serif; color: #130f30} h1, h2,h3 {font-family: 'museo-slab',sans-serif; line-height: 1.2} h2{font-size: 1.5rem; color: #1075b0} h3{font-size: 1.3rem; color: #b83246 !important}"
 ---
 
 # Attendee information
