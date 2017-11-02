@@ -1,0 +1,238 @@
+/* @group Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* @end */
+
+* {
+	/*border: 1px solid #333  !important;*/
+}
+
+body {
+	padding: 0 0 31px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	font: 17px/1.75 "museo-slab", "Museo Slab", Rockwell, sans-serif;
+	text-align: left;
+}
+strong {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2rem;
+	color: #e20000;
+	text-align: center;
+	margin-bottom: 1rem;
+	margin-top: 5rem;
+}
+
+h4 {
+    font-weight: bold;
+    color: rgba(0,0,0,0.75);
+}
+/* @group Frontispiece */
+
+.intro h1 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.intro .ux-brighton-2017-logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 44px;
+	display: block;
+}
+
+/* @end */
+
+/* @group Subtitle */
+	.subtitle {
+		margin-top: 22px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 70vw;
+		display: block;
+}
+	@media (min-width: 40rem) {
+		.subtitle {
+			width: 34rem;
+	  }
+	}
+/* @end */
+
+/* @group Ticket button */
+
+.ticket-button {
+	height: 44px;
+	width: 280px;
+	display: block;
+	margin-top: 44px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ticket-button img {
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* @end */
+
+.date-and-place {
+	color: #8c8c8c;
+	margin-top: 44px;
+	text-align: center;
+	margin-bottom: 44px;
+}
+hr {
+	margin-top: 44px;
+	margin-left: 20px;
+	font-size: 1px;
+}
+
+/* @group event-description */
+
+section.event-description {
+	padding: 2rem;
+	background: #e3f2ff;
+	margin-top: 2rem;
+}
+section.event-description p {
+	/* to do - apply rules like these more generally  */
+	margin-bottom: 14px;
+	color: rgba(0, 0, 0, 0.59);
+	font-size: 16px;
+	display: block;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* @end */
+
+/* @group Speaker images */
+section.speakers {
+	padding: 0 1rem;
+}
+
+.speaker-image-group {
+	/*border: 1px solid #333;*/
+	text-align: center;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.speaker-image-group img {
+	width: 140px;
+}
+
+@media (min-width: 40rem) {
+	.speaker-image-group {
+		width: 600px;
+	}
+}
+@media (min-width: 60rem) {
+	.speaker-image-group {
+		width: 800px;
+	}
+		.speaker-image-group img {
+			width: 180px;
+		}
+}
+@media (min-width: 70rem) {
+	.speaker-image-group {
+		width: 1000px;
+	}
+		.speaker-image-group img {
+			width: 220px;
+		}
+}
+
+/* @end */
+
+/* @group Speaker descriptions */
+section.speaker-description {
+	/*border: 1px solid #333;*/
+	padding: 0.125rem 1rem 1rem;
+	max-width: 33rem;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1rem;
+}
+section.speaker-description:target {
+	background: hsl(195, 38%, 92%);
+}
+section.speaker-description h3 {
+	color: #df0000;
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+section.speaker-description p {
+	margin-bottom: 14px;
+}
+
+/* @end */
+
+/* @group Sponsors */
+	.sponsor p {
+		text-align: center;
+		padding: 2rem;
+	}
+	.sponsor p a {
+		color: #4a8fe2;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+/* @end */
+
+/* @group Sponsors */
+
+section.sponsors {
+	text-align: center;
+}
+	section.sponsors a {
+	text-decoration: none;
+}
+
+section.sponsors img {
+		vertical-align: middle;
+		margin: 0 0.25rem;
+		padding: 0.75rem;
+		border-radius: 0.5rem;
+	}
+		section.sponsors img:hover {
+			filter: contrast(150%);
+			background: rgba(0,0,0,0.025);
+		}
+
+/* @end */
+
+/* @group Partners */
+
+section.partners {
+	text-align: center;
+}
+	section.partners a {
+	text-decoration: none;
+}
+
+section.partners img {
+		vertical-align: middle;
+		margin: 0 0.25rem;
+		padding: 0.75rem;
+		border-radius: 0.5rem;
+	}
+	
+		section.partners img:hover {
+			filter: contrast(150%);
+			background: rgba(0,0,0,0.025);
+		}
+
+/* @end */
