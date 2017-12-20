@@ -1,1 +1,114 @@
-<meta http-equiv="refresh" content="0; url=https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674">
+---
+redirect_from: "/"
+permalink: /2018/
+---
+<!DOCTYPE html>
+<html class="holding">
+<head>
+	<title>Advancing Research – UX Brighton 2018</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Stylesheets -->
+	<link rel="stylesheet" media="all"		href="../2013/style/logo.css">
+	<link rel="stylesheet" media="all"		href="../2013/style/global.css">
+	<link rel="stylesheet" media="all"		href="../2013/style/common.css">
+	<link rel="stylesheet" media="all"		href="../2013/style/holding-page.css">
+
+<!-- Icons -->
+	<link rel="apple-touch-icon"			href="../2013/images/icon.png">
+	<link rel="icon" 						href="../2013/images/favicon.png">
+	<!--[if IE]><link rel="shortcut icon"	href="images/favicon.ico"><![endif]-->
+	<!-- or, set /favicon.ico for IE10 win -->
+	<!-- <meta name="msapplication-TileColor"	content="#000">-->
+	<meta name="msapplication-TileImage"	content="../2013/images/icon.png">
+
+	<script src="../2013/modernizr.js"></script>
+	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<header>
+		<h1>
+			<div class="uxbrighton2013-logo fifty-px banner-logo">
+				<span class="uxbrighton2013-logo-ux">U<span class="uxbrighton2013-logo-x">X</span></span>
+				<span class="uxbrighton2013-logo-brighton">Brighton</span>
+				<span class="uxbrighton2013-logo-year">2018</span>
+			</div>
+			<div id="title">Advancing Research</div>
+		</h1>
+	</header>
+
+	<section id="calendar">
+		<div>
+			<span>2nd of November, 2018</span>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/nv90bmxIoEQ?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<div>
+				<h2>Add to calendar</h2>
+				<ul id="calMenu">
+					<li><a href="./2018.ics">iCal or Outlook</a></li>
+					<li><a href="https://www.google.com/calendar/render?action=TEMPLATE&text=UX+Brighton+2018&dates=20181102T090000Z/20181102T180000Z&details=Details:+http://uxbrighton2013.eventbrite.co.uk&location=The+Concert+Hall+-+Brighton+Dome+-+Church+Street+-+BN1+1UG+Brighton+-+United+Kingdom&pli=1&sf=true&output=xml" target="_blank">Google Calendar</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="twitter">
+		<div>
+			<p>Follow <a href="http://twitter.com/uxbri/" title="@uxbri">@uxbri</a> on Twitter
+		</div>
+	</section>
+
+	<section class="previous-conferences">
+		<div>
+			<p>Last year we looked at <a href="/2017">Designing for Complexity</a></p>
+		</div>
+	</section>
+
+<script>
+var heading = document.querySelector('h2'),
+    container = heading.parentNode,
+    items = [].slice.call(container.getElementsByTagName('a'));
+
+function removeHover() {
+  var i = items.length;
+  while (i--) {
+    items[i].className = '';
+  }
+}
+
+heading.onmousedown = function (e) {
+  e.preventDefault();
+  var className = container.className;
+  container.className = className === 'open' ? '' : 'open';
+};
+
+container.onmouseup = function (e) {
+  if (e.target.nodeName === 'A') {
+    window.location = e.target.href;
+  }
+  return false;
+};
+
+document.documentElement.onmouseup = function (e) {
+  if (e.target !== heading) {
+    removeHover();
+    container.className = '';
+  }
+};
+
+container.onmousemove = function (e) {
+  removeHover();
+  if (e.target.nodeName == 'A') {
+    e.target.className = 'hover';
+  }
+};
+</script>
+
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-7759112-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

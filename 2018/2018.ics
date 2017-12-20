@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674
+
+
+DTSTART:20181102T090000Z
+DTEND:20181102T180000Z
+SUMMARY:UX Brighton 2018 – Advancing Research
+DESCRIPTION:Join us for our 8th annual conference, where we'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams
+LOCATION:The Concert Hall - Brighton Dome - Church Street - BN1 1UG UK
+END:VEVENT
+END:VCALENDAR
