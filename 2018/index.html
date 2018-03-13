@@ -49,8 +49,7 @@ permalink: /2018/
 
 		.video-container {
 	    position: relative;
-	    padding-bottom: 56.25%;
-	    padding-top: 25px;
+	    padding: 25px 0 56.25% 0;
 	    height: 0;
 	    overflow: hidden;
 		}
@@ -60,34 +59,24 @@ permalink: /2018/
 	    top:0;
 	    width: 100%;
 	    height: 100%;
+			max-height: 22.5rem;
 		}
 
 		@media only screen and (min-width: 42em) {
 
-			section#email span {
-				font-size: 1.75rem;
-				font-weight: 500;
-				margin-top: 1.75rem;
-				margin-right: 1rem;
+			#calendar div span div {
+				float: right
 			}
 
-			section#email span + div {
-				display: inline-block;
-			}
-
-			section#email > div p:before {
-				content: " ";
-				position: absolute;
-				top: 0.5rem;
-				left: -4.1rem;
-				width: 2.063rem;
-				height: 2.125rem;
-				background: transparent url(../images/ticket.png) no-repeat top left;
-				background-size: 2.063rem 2.125rem;
-			}
-
-			section#email > div p:before {
-				background: transparent url(../images/ticket.svg) no-repeat top left;
+			.svg section#email > div:before {
+			  content: " ";
+			  position: absolute;
+			  top: 2rem;
+			  left: 1rem;
+			  width: 2.063rem;
+			  height: 2.125rem;
+			  background: transparent url(../2013/images/ticket.svg) no-repeat top left;
+			  background-size: 2.063rem 2.125rem;
 			}
 
 		}
@@ -128,21 +117,18 @@ permalink: /2018/
 
 	<section id="email">
 		<div>
-			<p>Super Early Bird tickets just £110 + VAT</p>
-			<h2><a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets">Get your tickets</a></h2>
-
-
+			<h2><a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets">Tickets just £110 + VAT</a></h2>
 		</div>
 	</section>
 
 	<section id="calendar">
 		<div>
 			<span>2nd of November, 2018</span>
-			<div style="float: right">
+			<div>
 				<h2>Add to calendar</h2>
 				<ul id="calMenu">
 					<li><a href="./2018.ics">iCal or Outlook</a></li>
-					<li><a href="https://www.google.com/calendar/render?action=TEMPLATE&text=UX+Brighton+2018&dates=20181102T090000Z/20181102T180000Z&details=Details:+http://uxbrighton2013.eventbrite.co.uk&location=The+Concert+Hall+-+Brighton+Dome+-+Church+Street+-+BN1+1UG+Brighton+-+United+Kingdom&pli=1&sf=true&output=xml" target="_blank">Google Calendar</a></li>
+					<li><a href="https://www.google.com/calendar/render?action=TEMPLATE&text=UX+Brighton+2018&dates=20181102T090000Z/20181102T180000Z&details=Tickets:+www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674+Details:+uxbrighton.org.uk/2018/&location=The+Concert+Hall+-+Brighton+Dome+-+Church+Street+-+BN1+1UG+Brighton+-+United+Kingdom&pli=1&sf=true&output=xml" target="_blank">Google Calendar</a></li>
 				</ul>
 			</div>
 		</div>
@@ -161,48 +147,29 @@ permalink: /2018/
 		</div>
 	</section>
 
-<script>
-var heading = document.querySelector('h2'),
-    container = heading.parentNode,
-    items = [].slice.call(container.getElementsByTagName('a'));
+	<script>
 
-function removeHover() {
-  var i = items.length;
-  while (i--) {
-    items[i].className = '';
-  }
-}
+		// toggles the calendar dropdown
+		var el = document.querySelectorAll('#calendar div')[0],
+		    className = "open";
 
-heading.onmousedown = function (e) {
-  e.preventDefault();
-  var className = container.className;
-  container.className = className === 'open' ? '' : 'open';
-};
+		el.addEventListener("click", function(){
+			if (el.classList) {
+				el.classList.toggle(className);
+			} else {
+				var classes = el.className ? el.className.split(' ') : [];
+				var existingIndex = classes.indexOf(className);
 
-container.onmouseup = function (e) {
-  if (e.target.nodeName === 'A') {
-    window.location = e.target.href;
-  }
-  return false;
-};
+				if (existingIndex >= 0) classes.splice(existingIndex, 1);
+				else classes.push(className);
 
-document.documentElement.onmouseup = function (e) {
-  if (e.target !== heading) {
-    removeHover();
-    container.className = '';
-  }
-};
-
-container.onmousemove = function (e) {
-  removeHover();
-  if (e.target.nodeName == 'A') {
-    e.target.className = 'hover';
-  }
-};
-</script>
+				el.className = classes.join(' ');
+			}
+		})
+	</script>
 
 <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-7759112-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script> -->
+<!-- <script src="../2013/js/app.js"></script> -->
 </body>
 </html>
