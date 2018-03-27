@@ -77,12 +77,15 @@ Luke has
 ## Testimonials
 
 <blockquote>"Luke’s training gave me a very solid and clear grounding in how to work with Google Analytics – his process is very methodical and helpful"
+<br>
 —Ellen de Vries, The Copyhouse</blockquote>
 
 <blockquote>"Luke provided clear and structured training, taking the team from novices to competent Google Analytics users in a short space of time"
+<br>
 —Laura Bevans, Wired Sussex </blockquote>
 
 <blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
+<br>
 —Stuart Bellis, Code 7</blockquote>
 
 ## Organisers
