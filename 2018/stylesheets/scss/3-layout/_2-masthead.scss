@@ -1,0 +1,135 @@
+
+  $masthead-height: 48px;
+
+
+  body {
+    @include over-m {
+      padding-top: $masthead-height;
+    }
+  }
+
+
+
+  .masthead {
+    height: $masthead-height;
+    transition: all 0s linear 0.4s;
+    position: fixed;
+    left: 0;right: 0;
+    background: #fff;
+    z-index: 100;
+    top: auto;
+    bottom: 0;
+    font-weight: 700;
+    @include over-m {
+      top: 0;
+      bottom: auto;
+    }
+
+    @include under-m {
+      .container {
+        padding: 0;
+      }
+    }  
+  }
+  .masthead__logo {
+    float: left;
+    width: $masthead-height;
+    @include over-m {
+      width: 80px;
+      transition: all 0.4s ease-out;
+    }
+  }
+
+  // .logo-shrink {
+  //   overflow: hidden;
+  // }
+  .logo-shrink .masthead__logo {
+    width: $masthead-height;
+  }
+
+  .masthead__links { 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    @include over-m {
+      position: absolute;
+      left: 120px;
+      right: 0;
+      margin-left: 20px;
+    }
+    @include under-m {
+      overflow: hidden;
+      width: calc(100vw - 48px);
+    }
+  }
+
+  .masthead .nav-item {
+    @include under-m {
+      display: block;
+      width: 25%;
+      float: left;
+    }    
+  }
+  .masthead__link {
+      padding: 16px;
+      line-height: 16px;
+      text-decoration: none;
+  }
+  .masthead__links a {
+    @include under-m {
+      padding: 17px 0 15px;
+      font-size: 11px;
+      letter-spacing: 0;
+      text-align: center;
+      width: 100%;
+      border-right: 1px solid #eee;
+    }
+  }
+  .masthead__link,
+  .masthead__link:hover {
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+    }
+  .masthead__link:before {
+      content: '';
+      background: $color-link-hover;
+      height: 0.3em;
+      width:0;
+      bottom: 0;
+      left: 0;
+      // left:50%;
+      // right: 50%;
+      // right: auto;
+      position: absolute;
+      z-index: -1;
+      //transition: all 0.4s;
+    }
+    .active .masthead__link:before {
+      //transition: all 0.4s 0.2s;
+    }
+    .masthead__link:hover:before,
+    .active .masthead__link:before,
+    .active .masthead__link:before {
+      width: 100%;
+      //left: 0;
+      right: 0;
+    } 
+    // a:hover:before {
+    //   background: $color-black;
+    // }   
+
+  .nav-item--tickets {
+    @include over-m {
+      float: right;
+      margin: 8px;
+    }
+    @include under-m {
+      border-right: 0 none;
+      a {
+        font-weight: 900;
+        padding-top: 13px;
+        letter-spacing: 0.25px;     
+      }
+    }
+  }
+

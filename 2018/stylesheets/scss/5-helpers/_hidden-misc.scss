@@ -1,0 +1,11 @@
+.hidden {
+  display: none;
+}
+.very-hidden {
+  display: none !important;
+  visibility: hidden;
+}
+// todo wtf?
+.invisible {
+  visibility: hidden;
+}

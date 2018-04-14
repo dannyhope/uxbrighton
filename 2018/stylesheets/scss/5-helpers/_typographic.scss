@@ -1,0 +1,73 @@
+.fs-xs            { @include font-size($size-xs); }
+.fs-s             { @include font-size($size-s); }
+.fs-l             { @include font-size($size-l); }
+.fs-xl            { @include font-size($size-xl); }
+.fs-xxl           { @include font-size($size-xxl); }
+.fs-xxxl          { @include font-size($size-xxxl); }
+
+.weight-100       { font-weight: 100; }
+.weight-200       { font-weight: 200; }
+.weight-300       { font-weight: 300; }
+.weight-400       { font-weight: 400; }
+.weight-500       { font-weight: 500; }
+.weight-600       { font-weight: 600; }
+.weight-700       { font-weight: 700; }
+.weight-800       { font-weight: 800; }
+.weight-900       { font-weight: 900; }
+.weight-1000      { font-weight: 1000; }
+
+.fs-third         { font-size: 0.3333em; line-height: 0.3333em; letter-spacing: 0.01em; }
+
+.standfirst       { font-size: $size-leader; 
+                    margin-bottom: 1em; }
+
+.font-sans        { font-family: $font-sans;}
+.font-serif       { font-family: $font-serif;}
+  
+.bold             { font-weight: 600; }
+.heavy            { font-weight: 700; }
+.regular          { font-weight: 400; }
+.italic           { font-style: italic }
+  
+.underline        { text-decoration: underline }
+  
+.small-caps       { font-variant: small-caps; }
+  
+.lowercase        { text-transform: lowercase; }
+.uppercase        { text-transform: uppercase; }
+.capitalize       { text-transform: capitalize; }
+.tt-none          { text-transform: none; }
+  
+.track-loose      { letter-spacing: .06em; }  
+.track-looser     { letter-spacing: .12em; }  
+.track-tight      { letter-spacing: -.05em; }  
+.track-tighter    { letter-spacing: -.1em; }
+
+.leading-solid    { line-height: $leading-tightest; }
+.leading-heading  { line-height: $leading-tighter; }
+.leading-copy     { line-height: $leading; }
+
+.nowrap           { white-space:nowrap }
+.break-word       { word-wrap:break-word }
+
+.hide-text        { text-indent: 100%; white-space: nowrap; overflow: hidden; }
+
+.truncate         { max-width:100%;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    white-space:nowrap; }
+
+// typographic measure, written as width for simplicities sake
+.width-xs         { max-width: em($width-xs); } // ~66 characters
+.width-s          { max-width: em($width-s); } // ~66 characters
+.width-m          { max-width: em($width-m); } // ~66 characters
+.width-l          { max-width: em($width-l); } // ~80 characters
+.width-xl         { max-width: em($width-xl); } // ~45 characters
+  
+.indent           { text-indent: 2em; margin-top: 0; margin-bottom: 0; }
+
+.text-highlight   { display: inline;
+                    padding: 0 .2em;
+                    -webkit-box-decoration-break: clone;
+                    box-decoration-break: clone; }
+

@@ -1,0 +1,58 @@
+
+.relative { position:relative }
+.absolute { position:absolute }
+.fixed    { position:fixed }
+.static   { position:static }
+
+
+.centre-xy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@include over-m   { 
+  .absolute-m { position:absolute }
+  .fixed-m    { position:fixed }
+} 
+@include over-l   { 
+  .absolute-l { position:absolute }
+  .fixed-l    { position:fixed }
+} 
+@include over-xl   { 
+  .absolute-xl { position:absolute }
+  .fixed-xl    { position:fixed }
+} 
+
+
+
+
+.top-0    { top:0 }
+.right-0  { right:0 }
+.bottom-0 { bottom:0 }
+.left-0   { left:0 }
+@include over-m   { 
+  .top-0-m    { top:0 }
+  .right-0-m  { right:0 }
+  .bottom-0-m { bottom:0 }
+  .left-0-m   { left:0 }
+} 
+@include over-l   { 
+  .top-0-l    { top:0 }
+  .right-0-l  { right:0 }
+  .bottom-0-l { bottom:0 }
+  .left-0-l   { left:0 }
+} 
+@include over-xl   { 
+  .top-0-xl    { top:0 }
+  .right-0-xl  { right:0 }
+  .bottom-0-xl { bottom:0 }
+  .left-0-xl   { left:0 }
+}
+
+
+.z1 { z-index: 1 }
+.z2 { z-index: 2 }
+.z3 { z-index: 3 }
+.z4 { z-index: 4 }

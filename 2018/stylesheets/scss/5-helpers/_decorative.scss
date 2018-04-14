@@ -1,0 +1,97 @@
+  
+
+  .rounded        { border-radius: $border-radius }
+  .circle         { border-radius: 50% }
+  .rounded-top    { border-radius: $border-radius $border-radius 0 0 }
+  .rounded-right  { border-radius: 0 $border-radius $border-radius 0 }
+  .rounded-bottom { border-radius: 0 0 $border-radius $border-radius }
+  .rounded-left   { border-radius: $border-radius 0 0 $border-radius }
+  .not-rounded    { border-radius: 0 }
+
+  .drop           { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22); }
+
+
+/* Colours ======================================================*/
+
+   
+  .color-blue         { color: $color-blue; }
+  .color-red          { color: $color-red; }
+  .color-green        { color: $color-green; }
+  .color-orange       { color: $color-orange; }
+
+  .color-white        { color: white;          }
+  .color-black        { color: $color-black;   }
+  .color-grey-5       { color: $color-grey-5;  }
+  .color-grey-10      { color: $color-grey-10; }
+  .color-grey-20      { color: $color-grey-20; }
+  .color-grey-30      { color: $color-grey-30; }
+  .color-grey-40      { color: $color-grey-40; }
+  .color-grey-50      { color: $color-grey-50; }
+  .color-grey-60      { color: $color-grey-60; }
+  .color-grey-70      { color: $color-grey-70; }
+  .color-grey-80      { color: $color-grey-80; }
+  .color-grey-90      { color: $color-grey-90; }
+
+  .color-text         { color: $color-text; }
+  .color-heading      { color: $color-heading; }
+  .color-info         { color: $color-info; }
+  .color-info-darker  { color: $color-info-darker; }
+
+  .color-link         { color: $color-link; }
+  .color-link-hover   { color: $color-link-hover; }
+
+  .bg-white           { background: white;          }
+  .bg-black           { background: $color-black;   }
+  .bg-grey-5          { background: $color-grey-5;  }
+  .bg-grey-10         { background: $color-grey-10; }
+  .bg-grey-20         { background: $color-grey-20; }
+  .bg-grey-30         { background: $color-grey-30; }
+  .bg-grey-40         { background: $color-grey-40; }
+  .bg-grey-50         { background: $color-grey-50; }
+  .bg-grey-60         { background: $color-grey-60; }
+  .bg-grey-70         { background: $color-grey-70; }
+  .bg-grey-80         { background: $color-grey-80; }
+  .bg-grey-90         { background: $color-grey-90; }
+
+  .bg-black-5        { background: $color-black-5 ;}  
+  .bg-black-10       { background: $color-black-10;} 
+  .bg-black-20       { background: $color-black-20;} 
+  .bg-black-30       { background: $color-black-30;} 
+  .bg-black-40       { background: $color-black-40;} 
+  .bg-black-50       { background: $color-black-50;} 
+  .bg-black-60       { background: $color-black-60;} 
+  .bg-black-70       { background: $color-black-70;} 
+  .bg-black-80       { background: $color-black-80;} 
+  .bg-black-90       { background: $color-black-90;} 
+
+  .bg-blue            { background: $color-blue; }
+  .bg-red             { background: $color-red; }
+  .bg-green           { background: $color-green; }
+  .bg-orange          { background: $color-orange; }
+    
+  // backgrounds
+  .bg-stripe          { background-color: $color-striped-background; }
+
+/*  Borders  ==============================*/
+
+  .border             { border: 1px solid $color-ui-border; }
+  .border-top         { border-top: 1px solid $color-ui-border; }
+  .border-right       { border-right: 1px solid $color-ui-border;  }
+  .border-bottom      { border-bottom: 1px solid $color-ui-border; }
+  .border-left        { border-left: 1px solid $color-ui-border; }
+
+  .border--dotted     { border-style: dotted; }
+  .border--dashed     { border-style: dashed; }
+  .border--solid      { border-style: solid; }
+  .border--none       { border-style: none; }
+
+  .border-thick       { border-width: 3px; }
+  .border-thicker     { border-width: 5px; }
+
+  .border-darker      { border-color: $color-ui-border-darker }
+  .border-inherit     { border-color: inherit; }
+
+  .border-red         { border-color: $color-red; }
+  .border-orange      { border-color: $color-orange; }
+  .border-green       { border-color: $color-green; }
+  .border-blue        { border-color: $color-blue; }

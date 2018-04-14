@@ -1,0 +1,80 @@
+  // Base font sizes
+
+    body, input, textarea {
+      font-size: $size-body;
+      font-family: $font-body;
+      line-height: $leading;
+      font-weight: 300;
+    }
+  .font-museo {
+    font-family: $font-museo;
+  }
+  // Headings
+    h1, h2, h3, h4, h5, h6 .masthead__link {
+      font-family: $font-heading;
+      font-weight: 900;
+      margin-bottom: 1em;
+    }
+    h1, .fs-h1 {
+      font-size: $size-h1;
+      letter-spacing: $track-tighter;
+      line-height: $leading-tighter;
+    }
+    h2, .fs-h2 {
+      font-size: $size-h2;
+      letter-spacing: $track-tight;
+      line-height: $leading-tight;
+    }
+    h3, .fs-h3 {
+      font-size: $size-h3;
+      line-height: $leading-tight;
+    }
+    h4, .fs-h4 {
+      font-size: $size-h4;
+      line-height: $leading-tight;
+    }
+    h5, .fs-h5 {
+      font-size: $size-h5;
+      line-height: $leading-tight;
+    }
+    h6, .fs-h6 {
+      font-size: $size-h6;
+      line-height: $leading-tight;
+    }
+
+
+  // other elements
+    ol, 
+    ul {
+      padding-left: 1.5em;
+    }
+    blockquote, p, ul, ol, dd,
+    figure {
+      margin-bottom: $paragraph-spacing;
+    }
+    blockquote {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      color: $blockquote-color;
+      padding: $blockquote-padding;
+      border-width: $blockquote-border-width;
+      border-color: $blockquote-border-color;
+      border-style: $blockquote-border-style;
+    }
+    .quotee {
+      text-align: right;
+      margin-bottom: 0;
+    }
+    dt {
+      font-weight: 700;
+    }
+    hr {
+      border: 0;
+      border-bottom: 1px solid $color-ui-border;
+      margin-top: $paragraph-spacing;
+      margin-bottom: $paragraph-spacing;
+    }
+
+
+

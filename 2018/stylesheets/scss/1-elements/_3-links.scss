@@ -1,0 +1,33 @@
+
+// Nav links
+  nav a {
+    display: block;
+    color: $color-text;
+    &:hover {
+      color: $color-link-hover;
+      text-decoration: underline;
+    }
+  }
+  nav ul, nav ol {
+    list-style: none outside;
+    margin: 0;padding: 0;
+  }
+
+
+
+// e.g. Tiles etc
+  .block-link,
+  .block-link:hover {
+    display: block;
+    text-decoration: none;
+    color: $color-text;
+    img,p,li,div,h1,h2,h3,h4,h5 {
+      text-decoration: none;
+    }
+  }
+  .block-link:hover {
+    .block-link__highlight {
+      color: $color-link-hover;
+      text-decoration: underline;
+    }
+  }

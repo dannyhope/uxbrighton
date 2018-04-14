@@ -1,0 +1,98 @@
+// Generic font stacks
+
+  $font-unicode:          "Arial Unicode MS", "DejaVu Sans", 
+                          "Lucida Sans Unicode", "Segoe UI Symbol",  
+                          "FreeSans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, 
+                          "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", 
+                          "Meslo LG L", "Meslo LG L DZ", "Meslo M L", 
+                          "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", 
+                          "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", 
+                          Code2000, "Everson Mono", Quivira, 
+                          sans-serif;
+
+  $font-sans:             -apple-system, BlinkMacSystemFont,
+                          'avenir next', avenir,
+                          helvetica, 'helvetica neue',
+                          ubuntu, roboto, noto, 'segoe ui',
+                          $font-unicode;
+  
+  $font-code:             Consolas, monaco, "Courier", "Courier New", monospace;
+
+  $font-serif:            "Georgia", Times, serif, $font-unicode;
+
+  $font-ampersand:        Baskerville,'Goudy Old Style','Caslon', Palatino, 'Book Antiqua',serif;
+
+// Fonts used on the site
+
+
+  $font-heading-weight:   700;
+
+
+
+
+  // $font-sans:             'museo-sans', "Arial", $font-sans;
+  // $font-serif:            "museo", $font-serif;
+  // $font-italic:           "museo", $font-serif;
+
+
+  $font-heading:          'museo-sans', $font-sans;
+  $font-body:             'museo-sans',$font-sans;
+  $font-quotes:           "museo", $font-sans;
+  $font-callout:          $font-sans;
+  $font-museo:            "museo", $font-sans;
+
+
+// Font sizes
+
+
+  $size-body:             16px;
+  $size-leader:           $size-body * 1.5;
+  $font-size-calc-base:   $size-body;
+
+
+// Heading font sizes
+
+  $size-h1:               36px;
+  $size-h2:               30px;
+  $size-h3:               24px;
+  $size-h4:               $size-body;
+  $size-h5:               $size-body;
+  $size-h6:               $size-body;
+
+
+// display font sizes
+
+  $size-xs:               10px;  
+  $size-s:                13px;
+
+  $size-l:                48px;
+  $size-xl:               60px;
+  $size-xxl:              72px;
+  $size-xxxl:             96px;
+
+  $track-looser:          0.03em;  
+  $track-loose:           0.025em;
+
+  $track-tight:           -0.025em;
+  $track-tighter:         -0.035em;   
+  $track-tightest:        -0.045em;   
+
+
+// // leading
+
+  $leading:               1.5;
+  $leading-tight:         1.333;
+  $leading-tighter:       1.2;
+  $leading-tightest:      1;
+
+
+
+  $paragraph-spacing:     $leading * 1em;
+
+
+  $blockquote-color: $color-grey-50;
+  $blockquote-padding: 0 3em;
+  $blockquote-border-width: 0 0 0 2px;
+  $blockquote-border-color: lighten($color-grey-50,25%);
+  $blockquote-border-style: solid;
+
