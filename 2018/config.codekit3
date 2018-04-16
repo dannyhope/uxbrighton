@@ -374,6 +374,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/photos\/speakers-35.jpg": {
+		"ft": 16384,
+		"iS": 392844,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/speakers-35.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/photos\/sponsors-35.jpg": {
+		"ft": 16384,
+		"iS": 129184,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/sponsors-35.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/photos\/venue-35.jpg": {
+		"ft": 16384,
+		"iS": 110877,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/venue-35.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/simple-square.svg": {
 		"ft": 2097152,
 		"miP": 0,

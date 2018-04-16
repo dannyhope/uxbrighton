@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Event">
+<html itemscope itemtype="http://schema.org/Event" class="no-js">
 <head>
   <title>Advancing Research – UX Brighton Conference 2018</title>
   <meta charset="utf-8">
@@ -50,6 +50,15 @@
     <meta itemprop="duration" content="0000-00-00T08:00">
     <link itemprop="url" href="http://uxbrighton.org.uk/2018/" rel="author"/>
     <meta itemprop="description" content="UX Brighton, 2nd of November, 2018. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information.">
+
+
+    <script>
+      var root = document.documentElement;
+      root.className = 'js';
+      if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+        root.className += ' js-touch';
+      }
+    </script>
 </head>
 <body id="top" class="relative">
 
@@ -76,8 +85,8 @@
             <li class="nav-item inline-block">
               <a href="#venue" class="masthead__link nav-link">Venue</a>
             </li>
-            <li class="nav-item inline-block">
-              <a href="#sponsors" class="masthead__link nav-link">Sponsors</a>
+            <li class="nav-item inline-block ">
+              <a href="#sponsors" class="masthead__link masthead__link--last">Sponsors</a>
             </li>
             <li class="nav-item inline-block nav-item--tickets">
              <a
@@ -101,12 +110,12 @@
       <div class="overlay__inner overflow-hidden">
 
         <div class="container color-white">
-          <h1 itemprop="name" class="fs-xxxl leading-solid mb5 ">
-            <span class="fs-h2 mb1 block color-orange font-museo" style="font-weight: 500;">UX Brighton 2018</span>
+          <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+            <span class="fs-l mb1 block color-orange font-museo track-normal" style="font-weight: 500;">UX Brighton 2018</span>
             Advancing <br>Research
           </h1>
-          <h2 class="mt0" style="font-weight: 500;">
-            Inspire your team with sharply focused insights <br>
+          <h2 class="mt0 fs-l regular track-normal mb6">
+            <div class="weight-900 mb1">Inspire your team with sharply focused insights</div>
             <span class="event-date" itemprop="startDate" content="2018-11-02T09:30">Friday 2 November</span>, Brighton Dome
           </h2>
           <div>
@@ -125,36 +134,29 @@
       <div class="container">
         <h2 class="mt5 mb3">What to expect at UX Brighton</h2>
         <div class="row">
-          <div class="u1of2-over-s left">
+          <div class="u1of2-over-s left gutter-right">
             <p class="standfirst">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsa rerum cumque dicta laboriosam, quidem inventore doloremque assumenda sint id nostrum voluptates temporibus eum sed nobis.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi unde vel in alias, atque quos voluptates nihil perspiciatis.
             </p>
-            <p>UX Brighton 2018 is a conference about doloremque assumenda sint id nostrum voluptates temporibus eum sed nobis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptatem nesciunt nam ipsum beatae, alias, eligendi voluptatum saepe at dolorem ratione, facilis pariatur qui fugit rem consequuntur tenetur non molestiae!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptas, dolorem quisquam neque sequi quae sapiente. Eligendi quidem dolorum sunt doloremque iure cupiditate.</p>
             <p>Take a day off to learn the latest in UX and meet people who do what you do.</p>
           </div><!-- u1o2-over-s -->
-          <div class="u1of2-over-s right">
+          <div class="u1of2-over-s right gutter-left">
             <iframe src="https://www.youtube.com/embed/nv90bmxIoEQ?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+            <blockquote class="mt3">
+              <div class="quote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eum magni facere, dolore aspernatur, placeat distinctio. Dolore ab fuga mollitia ad autem. </p>
+              </div>
+              <div class="quotee">Jenny Unlikely, CXO BreachCloud.</div>
+            </blockquote>
           </div>
         </div>
-        <div class="row mt5">
-          <blockquote class="u1of2-over-s left">
-            <div class="quote">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eum magni facere, dolore aspernatur, placeat distinctio. Dolore ab fuga mollitia ad autem. Aperiam, similique. Voluptas asperiores ipsa explicabo sunt eos.</p>
-              <p>Au tem architecto quo, aut natus ipsa ex saepe iusto possimus minima animi veniam, nesciunt expedita quia.</p>
-            </div>
-            <div class="quotee">Jenny Unlikely, CXO BreachCloud.</div>
-          </blockquote>
-          <blockquote class="u1of2-over-s left">
-            <div class="quote">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eum magni facere, dolore aspernatur, placeat distinctio. Dolore ab fuga mollitia ad autem. Aperiam, similique. Voluptas asperiores ipsa explicabo sunt eos.</p>
-              <p>Au tem architecto quo, aut natus ipsa ex saepe iusto possimus minima animi veniam, nesciunt expedita quia.</p>
-            </div>
-            <div class="quotee">Mike Fictional, Freelance UX Consultant.</div>
-          </blockquote>
-        </div>
-        <h3>Our Sponsors</h3>
-        <div class="row mb5 pb5">
-          <div class="u1of7 color-grey-50">
+
+        <!-- <h3 class="mt5 fs-h4">With support from our sponsors:</h3> -->
+        <div class="row mb5 pv3 color-grey-20">
+          <div class="u1of3 u1of7-over-m">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 239 59">
               <g fill="currentColor" data-original-fill="#C00">
                 <path d="M.417 45.57C.545 43.457.673 40.322.673 37.57L.673.133 6.24.133 6.24 19.588 6.368 19.588C8.352 16.132 11.936 13.892 16.927 13.892 24.607 13.892 30.046 20.291 29.982 29.699 29.982 40.769 23.006 46.273 16.095 46.273 11.615 46.273 8.032 44.546 5.728 40.45L5.537 40.45 5.281 45.57.417 45.57zM6.241 33.154C6.241 33.859 6.369 34.562 6.497 35.203 7.585 39.106 10.849 41.795 14.944 41.795 20.832 41.795 24.352 36.994 24.352 29.891 24.352 23.684 21.152 18.372 15.137 18.372 11.297 18.372 7.713 20.996 6.561 25.284 6.433 25.924 6.241 26.692 6.241 27.588L6.241 33.154zM53.125 45.57L52.677 41.666 52.485 41.666C50.757 44.098 47.429 46.273 43.013 46.273 36.742 46.273 33.542 41.857 33.542 37.378 33.542 29.89 40.198 25.795 52.165 25.858L52.165 25.218C52.165 22.658 51.461 18.051 45.125 18.051 42.246 18.051 39.238 18.947 37.062 20.355L35.782 16.644C38.342 14.98 42.054 13.892 45.957 13.892 55.429 13.892 57.732 20.355 57.732 26.563L57.732 38.146C57.732 40.834 57.86 43.457 58.244 45.57L53.125 45.57zM52.293 29.764C46.149 29.635 39.174 30.723 39.174 36.739 39.174 40.387 41.606 42.114 44.486 42.114 48.518 42.114 51.077 39.555 51.973 36.931 52.165 36.355 52.293 35.715 52.293 35.139L52.293 29.764z"/>
@@ -171,7 +173,7 @@
 
 
     <section id="speakers">
-      <div class="overlay__outer" style="background-image: url('images/photos/30373076604_a0f3f02c15_o.jpg');background-position-y: bottom;">
+      <div class="overlay__outer" style="background-image: url('images/photos/speakers-35.jpg');">
         <div class="overlay__inner" style="background: rgba(0,0,0,0.65)">
           <div class="container color-white" style="">
             <h2 class="fs-xxxl mb0">Speakers</h2>
@@ -181,44 +183,44 @@
       <div class="overlay__after container">
 
         <div class="row">
-          <figure class="u1of4 left -inline-block ph1 ma1 pa1 bg-white drop">
+          <figure class="u1of4 left talk__image-link">
             <a href="#name-of-speaker-1" class="hoverable-caption">
               <img class="hoverable-caption__image bg-grey-20" width="250" height="250" src="http://uxbrighton.org.uk/2017/photos/Gerry-McGovern-4-cropped-925x925.jpg" />
               <span class="hoverable-caption__overlay"></span>
               <figcaption class="hoverable-caption__text">
                 <span class="hoverable-caption__text-1 block">
-                  Title of talk
+                  Name of speaker
                 </span>
                 <span class="hoverable-caption__text-2">
-                  Name of speaker
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </span>
               </figcaption>
             </a><!-- hoverable-caption -->
           </figure>
-          <figure class="u1of4 left -inline-block ph1 ma1 pa1 bg-white drop">
+          <figure class="u1of4 left talk__image-link">
             <a href="#name-of-speaker-2" class="hoverable-caption">
               <img class="hoverable-caption__image bg-grey-20" width="250" height="250" src="http://uxbrighton.org.uk/2017/photos/Karen-Cham-1-337x337.jpg" />
               <span class="hoverable-caption__overlay"></span>
               <figcaption class="hoverable-caption__text">
                 <span class="hoverable-caption__text-1 block">
-                  Title of talk
+                  Name of speaker
                 </span>
                 <span class="hoverable-caption__text-2">
-                  Name of speaker
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </span>
               </figcaption>
             </a><!-- hoverable-caption -->
           </figure>
-          <figure class="u1of4 left -inline-block ph1 ma1 pa1 bg-white drop">
+          <figure class="u1of4 left talk__image-link">
             <a href="#name-of-speaker-3" class="hoverable-caption">
               <img class="hoverable-caption__image bg-grey-20" width="250" height="250" src="http://uxbrighton.org.uk/2017/photos/James-Box-2-350x350.jpg" />
               <span class="hoverable-caption__overlay"></span>
               <figcaption class="hoverable-caption__text">
                 <span class="hoverable-caption__text-1 block">
-                  Title of talk
+                  Name of speaker
                 </span>
                 <span class="hoverable-caption__text-2">
-                  Name of speaker
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </span>
               </figcaption>
             </a><!-- hoverable-caption -->
@@ -250,13 +252,13 @@
           <div class="talk-title" itemprop="name">Typhoon with Radiation City</div>
           <div class="event-time">9:30 PM</div>
         </div> -->
-        <div class="talk pt2 row" id="name-of-speaker-1">
-          <div class="u1of3 left gutter-right">
-            <div class="circle overflow-hidden">
-              <img class="hoverable-caption__image bg-grey-20" width="250" height="250" src="http://uxbrighton.org.uk/2017/photos/Gerry-McGovern-4-cropped-925x925.jpg" />
+        <div class="talk row pv3" id="name-of-speaker-1">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" width="360" height="360" src="http://uxbrighton.org.uk/2017/photos/Gerry-McGovern-4-cropped-925x925.jpg" />
             </div>
           </div><!-- u1of3 -->
-          <div class="u2of3 left gutter-right">
+          <div class="u2of3-over-s left gutter-right">
 
             <h3 class="talk__heading fs-h2">
               <span class="talk__title block">What The Conversational xR Ops Space Means For Design Thinking</span>
@@ -284,29 +286,33 @@
 
 
     <section id="venue">
-      <div class="overlay__outer" style="background-image: url('images/photos/108605-Brighton-Dome.jpg');">
+      <div class="overlay__outer" style="background-image: url('images/photos/venue-35.jpg');">
         <div class="overlay__inner">
           <div class="container color-white" style="">
             <h2 class="fs-xxxl mb0 leading-solid">Venue</h2>
           </div><!-- container -->
         </div><!-- overlay__inner -->
       </div><!-- overlay__outer -->
-      <div class="overlay__after container bg-white pb5">
-        <h3 class="fs-h2 mt5">Brighton Dome Concert Hall</h3>
+      <div class="overlay__after container bg-white pt5 pb5">
+        <h3 class="fs-h2">Brighton Dome Concert Hall</h3>
         <div class="row">
-          <div class="u4of7-over-s left pr5">
+          <div class="u1of3-over-s -u1of4-over-l right-over-s gutter-left">
+            <div class="circle circle-background overflow-hidden" style="background-image: url(http://uxbrighton.org.uk/2017/photos/Brighton_Dome.jpg); max-width:360px; ">
+            </div>
+          </div>
+          <div class="u2of3-over-s -u3of4-over-l left-over-s gutter-right">
 
             <p>This year we're in the <a href="https://brightondome.org/your_visit/venues/concert_hall/">concert hall</a>, the riding stable for the <a href="https://en.wikipedia.org/wiki/Brighton_Dome#History_of_the_buildings">Prince Regent and his 44 horses</a>.</p>
             <p>Registration from 9am with the first speaker on at 10am.</p>
             <p>Any questions? <a href="mailto:emmeline@uxbrighton.org.uk">Email</a> or <a href="https://twitter.com/intent/tweet?text=@uxbri%20">tweet us @uxbri</a>.</p>
             <p><a href="http://slack.uxbrighton.org.uk">Join the UX Brighton Slack</a> and get chatting with other UX professionals before the event. We've got a pretty active set of channels, including a rather nice <a href="https://uxbri.slack.com/messages/jobs">#jobs</a>.</p>
-            <pre>
+            <p class="bg-yellow">
             - About the dome
             - Facilities on the day
             - Travel
             - Hotels
             etc
-            </pre>
+            </p>
             <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <span itemprop="streetAddress">
                 Brighton Dome, <br>Church St,
@@ -316,14 +322,11 @@
               <span itemprop="addressCountry">UK</span>
             </div>
           </div>
-          <div class="u3of7-over-s left">
-            <img src="http://uxbrighton.org.uk/2017/photos/Brighton_Dome.jpg" alt="Brighton Dome, outside">
-          </div>
         </div>
       </div><!-- overlay__after container -->
       <!-- <img src="/images/photos/brighton-dome.jpg" width="3504" height="2336"  class="fill"/> -->
-      <div style="line-height: 0;overflow: hidden;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10081.609201094489!2d-0.1379563!3d50.8237118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x204845bd08377bb3!2sBrighton+Dome!5e0!3m2!1sen!2sus!4v1508448506230" width="100%" height="600px" frameborder="0" style="border:0; line-height: 0;" allowfullscreen=""></iframe>
+      <div class="relative" style="line-height: 0;overflow: hidden;padding-top:56.25%;">
+        <iframe class="intrinsic-fill" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10081.609201094489!2d-0.1379563!3d50.8237118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x204845bd08377bb3!2sBrighton+Dome!5e0!3m2!1sen!2sus!4v1508448506230" width="100%" height="600px" frameborder="0" style="border:0; line-height: 0;" allowfullscreen=""></iframe>
       </div>
 
     </section><!-- venue -->
@@ -334,7 +337,7 @@
 
 
     <section id="sponsors">
-      <div class="overlay__outer" style="background-image: url('/images/photos/24540339428_53fa808fe8_o.jpg');background-position-y: -390px;">
+      <div class="overlay__outer" style="background-image: url('/images/photos/sponsors-35.jpg');">
         <div class="overlay__inner">
           <div class="container color-white" style="">
             <h2 class="fs-xxxl mb0">Sponsors</h2>
@@ -343,12 +346,12 @@
       </div>
       <div class="overlay__after container bg-white">
         <h3 class="fs-h2 mt5">This is where the info about sponsors goes</h3>
-        <pre>
+        <p class="bg-yellow">
         — logos
         - Opportunities available
         - links to participant info / demographics
         etc
-        </pre>
+        </p>
         <hr>
       </div>
     </section><!-- sponsors -->
@@ -367,7 +370,7 @@
         <h3 class="fs-h2 mt5">Upcoming events</h3>
         <div class="row pb5">
 
-          <div class="u1of2-over-s left pr2">
+          <div class="u1of2-over-s left gutter-right mb3">
             <a href="#" class="block-link tile pa2 bg-grey-5 rounded drop" style="min-height:300px;">
               <h3 class="block-link__highlight">
                 This is a heading
@@ -378,7 +381,7 @@
             </a><!-- block-link -->
           </div><!-- u1of2-over-s -->
 
-          <div class="u1of2-over-s left pl2">
+          <div class="u1of2-over-s left gutter-left mb3">
             <a href="#" class="block-link tile pa2 bg-grey-5 rounded drop" style="min-height:300px;">
               <h3 class="block-link__highlight">
                 This is a heading
@@ -404,15 +407,15 @@
 
 
 
-  <footer class="bg-grey-10 pv5">
+  <footer class="bg-grey-90 color-grey-10 pv5">
     <div class="container pb5 mb5">
 
       <div class="row">
-        <div class="u1of2-over-s left">
+        <div class="u1of2-over-s left gutter-right">
           <h2>Sign up for updates</h2>
             <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
 
-            <label>
+            <label class="bold pb1">
               Which topics are of interest to you?
             </label>
             <div class="">
@@ -427,14 +430,14 @@
               <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
               <label for="evening-events-mailinglist" class="">Evening events</label>
             </div>
-            <div class="input-group">
-              <label for="fieldEmail">Email</label>
+            <div class="input-group mt2">
+              <label class="screen-reader-text" for="fieldEmail">Email</label>
 
               <!-- <input placeholder="Email Address" class="mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box">
               <input type="submit" class="input-reset w-100 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray"> -->
 
               <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field">
-              <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button">
+              <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green">
             </div><!-- input-group -->
 
             <!-- <label for="name">Name</label><br/>
@@ -448,15 +451,16 @@
 
           </form>
         </div><!-- u1of2-over-s -->
-        <div class="u1of2-over-s left">
+        <div class="u1of2-over-s left gutter-left">
+          <h2>&nbsp;</h2>
           <nav>
             <ul>
-              <li><a href="">About UX Brighton</a></li>
-              <li><a href="">Archive: Videos, slides etc from previous events</a></li>
+              <li><a href="#">About UX Brighton</a></li>
+              <li><a href="#">Archive: Videos, slides etc from previous events</a></li>
             </ul>
           </nav>
 
-          <nav class="social-icons">
+          <nav class="social-icons mv2">
             ‘Find us on’ social icon links in here
             <!-- <a class="social-icons__link" href="#">
               <svg class="social-icons__icon"></svg>

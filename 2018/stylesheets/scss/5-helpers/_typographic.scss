@@ -1,9 +1,39 @@
-.fs-xs            { @include font-size($size-xs); }
-.fs-s             { @include font-size($size-s); }
-.fs-l             { @include font-size($size-l); }
-.fs-xl            { @include font-size($size-xl); }
-.fs-xxl           { @include font-size($size-xxl); }
-.fs-xxxl          { @include font-size($size-xxxl); }
+.fs-xs            { 
+  @include font-size($size-xs); 
+  // @include under-m {
+  //   @include font-size($size-xs * 0.5);
+  // }
+}
+.fs-s             { 
+  @include font-size($size-s); 
+  // @include under-m {
+  //   @include font-size($size-s * 0.5);
+  // }
+}
+.fs-l             { 
+  @include font-size($size-l); 
+  @include under-m {
+    @include font-size($size-l * 0.7);
+  }
+}
+.fs-xl            { 
+  @include font-size($size-xl); 
+  @include under-m {
+    @include font-size($size-xl * 0.6);
+  }
+}
+.fs-xxl           { 
+  @include font-size($size-xxl); 
+  @include under-m {
+    @include font-size($size-xxl * 0.6);
+  }
+}
+.fs-xxxl          { 
+  @include font-size($size-xxxl);
+  @include under-m {
+    @include font-size($size-xxxl * 0.6 );
+  }
+}
 
 .weight-100       { font-weight: 100; }
 .weight-200       { font-weight: 200; }
@@ -39,7 +69,8 @@
 .tt-none          { text-transform: none; }
   
 .track-loose      { letter-spacing: .06em; }  
-.track-looser     { letter-spacing: .12em; }  
+.track-looser     { letter-spacing: .12em; }
+.track-normal     { letter-spacing: 0; }
 .track-tight      { letter-spacing: -.05em; }  
 .track-tighter    { letter-spacing: -.1em; }
 

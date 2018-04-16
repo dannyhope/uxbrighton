@@ -53,18 +53,34 @@
       margin-bottom: $paragraph-spacing;
     }
     blockquote {
+      font-family: 'museo';
+      font-style: italic;
       margin-left: 0;
       margin-right: 0;
       margin-top: 0;
       color: $blockquote-color;
-      padding: $blockquote-padding;
-      border-width: $blockquote-border-width;
-      border-color: $blockquote-border-color;
-      border-style: $blockquote-border-style;
+      letter-spacing: 0.2px;
+      padding: 0;
+      // padding: 0 2em;
+      // border-left: 3px solid $color-grey-10;
+      // padding: $blockquote-padding;
+      // border-width: $blockquote-border-width;
+      // border-color: $blockquote-border-color;
+      // border-style: $blockquote-border-style;
     }
+    // .quote:before {
+    //     content: '“';
+    //     font-size: 3em;
+    //     font-style: normal;
+    //     line-height: 20px;
+    //   }
     .quotee {
-      text-align: right;
+      //text-align: right;
       margin-bottom: 0;
+      font-style: normal;
+      &:before {
+        content: '– ';
+      }
     }
     dt {
       font-weight: 700;

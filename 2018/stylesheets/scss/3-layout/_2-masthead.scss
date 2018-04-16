@@ -20,6 +20,7 @@
     top: auto;
     bottom: 0;
     font-weight: 700;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
     @include over-m {
       top: 0;
       bottom: auto;
@@ -43,7 +44,7 @@
   // .logo-shrink {
   //   overflow: hidden;
   // }
-  .logo-shrink .masthead__logo {
+  body.scroll-started .masthead__logo {
     width: $masthead-height;
   }
 
@@ -52,7 +53,7 @@
     letter-spacing: 0.5px;
     @include over-m {
       position: absolute;
-      left: 120px;
+      left: 80px;
       right: 0;
       margin-left: 20px;
     }
@@ -117,15 +118,19 @@
     // a:hover:before {
     //   background: $color-black;
     // }   
-
+  .masthead__link--last {
+    border-right: 0 none !important;
+  }
   .nav-item--tickets {
     @include over-m {
       float: right;
       margin: 8px;
     }
     @include under-m {
-      border-right: 0 none;
+      border: 0 none;
       a {
+        border: 0 none;
+        border-radius: 0;
         font-weight: 900;
         padding-top: 13px;
         letter-spacing: 0.25px;     

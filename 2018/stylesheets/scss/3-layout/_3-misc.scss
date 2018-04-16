@@ -1,16 +1,25 @@
-    .overlay__outer  {
+  .overlay__outer  {
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .overlay__inner {
     padding-top: 150px;
     padding-bottom: 150px;
+    @include under-m {
+      padding-top: 90px;
+      padding-bottom: 70px;
+    }
     background: rgba(0,0,0,0.5);
   }
   .overlay__after {
     margin-top:-100px;
+    @include under-m {
+      margin-top: -50px;
+    }
   }
   #hero .overlay__inner {
+    padding: 60px 0 40px;
     @include over-s {
       padding: 60px 0;
     }
@@ -19,5 +28,74 @@
     }
     @include over-l {
       padding: 120px 0;
+    }
+  }
+  #hero h1 {
+    @include under-s {
+      margin-bottom: 2px * $ssi;
+    }
+  }
+  @media screen and (max-height: 460px) {
+    .js #hero .button--large {
+      opacity: 0;
+      position: relative;
+      transition: top 0.3s ease-in-out,opacity 0.5s ease-in-out;
+      top: 50px;
+    }
+
+    .no-js #hero .button--large,
+    .js  body.scroll-started #hero .button--large {
+      opacity: 1;
+      top: -10px;
+    }    
+  }
+
+
+  .talk__image-link {
+    padding: 5px;
+    margin: 0;
+    a {
+      //border: 3px solid #fff;
+      box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+      border-radius: $border-radius;
+    }
+    .hoverable-caption{
+      font-size: $size-leader;    
+      line-height: 1;
+      letter-spacing: -0.03em;
+    }
+    .hoverable-caption__text-1 {
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+    .hoverable-caption__text-2 {
+      
+    }
+  }
+
+  .talk__photo-wrapper {
+    @include under-s {
+      max-width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-bottom: 3px * $ssi;
+    }
+  }
+
+
+
+  .circle-background {
+    padding-top:100%;height:0;
+    background-repeat: none;
+    background-size: cover;
+  }
+
+
+
+
+  footer {
+    background: $color-black;
+    a {
+      color: #fff;
     }
   }

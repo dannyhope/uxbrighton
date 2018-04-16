@@ -33,11 +33,11 @@
     width: 90%;
     text-align: center;
     opacity: 0;
-    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
   .hoverable-caption:hover .hoverable-caption__text {
     transform: translate(-50%, -50%);
-    transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
     opacity: 1;
     letter-spacing: 0.5px;
   } 

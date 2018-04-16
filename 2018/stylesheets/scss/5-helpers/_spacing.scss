@@ -1,11 +1,14 @@
 
+  .container {
+    padding-right:  $space-m;
+    padding-left:  $space-m;
+  }
   .pl, // padding left
   .ph, // padding horizontal
   .pa, // padding all
   .gutters,
   .gutter-left,
   .container {
-    padding-left:  $space-m;
     @include over-s {
       padding-left:  $space-m;
     }
@@ -25,7 +28,6 @@
   .gutters,
   .gutter-right,
   .container {
-    padding-right:  $space-m;
     @include over-s {
       padding-right:  $space-m;
     }

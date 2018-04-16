@@ -13,6 +13,14 @@
     margin: 0;padding: 0;
   }
 
+  a {
+    text-decoration: none;
+    color: $color-blue;
+    &:hover {
+      color: $color-green;
+      text-decoration: underline;
+    }
+  }
 
 
 // e.g. Tiles etc

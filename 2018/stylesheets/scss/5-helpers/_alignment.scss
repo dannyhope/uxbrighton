@@ -9,47 +9,51 @@
     margin-left: auto;
     margin-right: auto; 
   }
-  @include over-s {
-    .left, 
-    .left-over-s   { 
-      float: left; 
-    }
-    .right, 
-    .right-over-s { 
-      float: right; 
-    }
-    .center-over-s { 
+  .left { float: left; }
+  .right { float: right; }
+
+  @include under-s {
+    .center-under-s { 
       float:none; 
       margin-left: auto;
       margin-right: auto; 
     }
+  }
+  @include over-s {
+    .left-over-s  {  float: left; } 
+    .right-over-s { float: right; }
+    // .center-over-s { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
   }
   @include over-m {
     .left-over-m  { float: left; }
     .right-over-m { float: right; }
-    .center-over-m { 
-      float:none; 
-      margin-left: auto;
-      margin-right: auto; 
-    }
+    // .center-over-m { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
   }
   @include over-l {
     .left-over-l  { float: left; }
     .right-over-l { float: right; }
-    .center-over-l { 
-      float:none; 
-      margin-left: auto;
-      margin-right: auto; 
-    }
+    // .center-over-l { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
   }
   @include over-xl {
     .left-over-xl  { float: left; }
     .right-over-xl { float: right; }
-    .center-over-xl { 
-      float:none; 
-      margin-left: auto;
-      margin-right: auto; 
-    }
+    // .center-over-xl { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
   }
 
 
