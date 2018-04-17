@@ -19,7 +19,7 @@ art-direction: "body {font-family: 'Open Sans', sans-serif; color: #130f30} h1, 
 or DM <strong><a href="https://twitter.com/direct_messages/create/uxbri" style="color:#b83246">@uxbri</a></strong> (DMs are open). Don't forget to <a href="/2018/sponsor-pack">take a look at our sponsor pack</a>.</p>
 
 <h2 id="how-many-attend-">How many attend?</h2>
-<p>Typically 300+ delegates. We’re aiming for higher numbers this year as we are in a larger venue.</p>
+<p>Typically 400+ delegates. We’re aiming for higher numbers this year as we are in a larger venue.</p>
 <h2 id="what-kind-of-jobs-do-they-do-and-what-level-are-they-">What kind of jobs do they do and what level are they?</h2>
 <p>A high percentage of people working in design and related industries.</p>
 <p>You’ll meet decision makers, influencers and those with purchasing power - perfect if you want to promote your product.</p>
