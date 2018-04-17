@@ -41,7 +41,14 @@ $(function() {
 
 
 
+  $("form.newletter-signup").submit(function(e){
 
-  // next on-ready thing
+    var form = e.target;
+    e.preventDefault();
+
+    $.post(form.action, $(form).serialize());
+    $("form.newletter-signup").remove();
+    $("#js-signup-confirmation").show();
+  });
 
 });

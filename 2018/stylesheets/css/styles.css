@@ -429,6 +429,13 @@ h6, .fs-h6 {
   font-size: 16px;
   line-height: 1.333; }
 
+strong {
+  font-weight: 900; }
+
+blockquote, q, i, em {
+  font-family: 'museo';
+  font-style: italic; }
+
 ol,
 ul {
   padding-left: 1.5em; }
@@ -438,8 +445,6 @@ figure {
   margin-bottom: 1.5em; }
 
 blockquote {
-  font-family: 'museo';
-  font-style: italic;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -735,6 +740,10 @@ a.button.disabled, fieldset:disabled a.button {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 147, 0, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(0, 147, 0, 0.5); }
 
+.table--transparent th, .table--transparent td {
+  vertical-align: top;
+  padding: 4px 48px 4px 0; }
+
 img, svg {
   max-width: 100%;
   height: auto; }
@@ -980,8 +989,47 @@ body.scroll-started .masthead__logo {
 
 footer {
   background: #010F15; }
+  footer [type="email"] {
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   footer a {
     color: #fff; }
+    footer a:hover {
+      color: #FFA039; }
+
+footer .input-group__field,
+footer .input-group__addon,
+footer .input-group__button {
+  height: 44px; }
+
+.social-icons__link {
+  height: 30px;
+  float: left;
+  margin-right: 30px; }
+  .social-icons__link:last-child {
+    margin-right: 0; }
+  .social-icons__link img {
+    height: 100%;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+  .social-icons__link:hover img {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%); }
+
+@media only screen and (max-width: 700px) {
+  .u1of2-over-m.gutter-left {
+    padding-left: 0; }
+  .u1of2-over-m.gutter-right {
+    padding-right: 0; } }
+
+@media only screen and (max-width: 450px) {
+  .u1of2-over-s.gutter-left {
+    padding-left: 0; }
+  .u1of2-over-s.gutter-right {
+    padding-right: 0; } }
 
 .hidden {
   display: none; }

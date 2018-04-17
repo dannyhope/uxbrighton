@@ -275,6 +275,56 @@
 		"oAP": "\/fonts\/museo\/slab\/museo-slab-900.woff",
 		"oF": 0
 		},
+	"\/images\/icons\/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/slack.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/slack.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/youtube.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/youtube.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/photos\/108605-Brighton-Dome.jpg": {
 		"ft": 16384,
 		"iS": 340166,
@@ -396,6 +446,162 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop.html",
+		"oF": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/4mrRnEPnWo81qWPG8_xcGP85HCscbg1O2YUrIewxQYY.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/4mrRnEPnWo81qWPG8_xcGP85HCscbg1O2YUrIewxQYY-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/68middlestreet.png": {
+		"ft": 32768,
+		"iS": 43753,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/68middlestreet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/85VeGQeKq7k.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/85VeGQeKq7k.html",
+		"oF": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/atemay.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/atemay-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/base.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/base-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/ioj2ggz.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/ioj2ggz-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/ionicons.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/ionicons.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/jillian-wells-adjusted-1362.jpg": {
+		"ft": 16384,
+		"iS": 613873,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/jillian-wells-adjusted-1362.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/jquery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/list.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/list.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/remote.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/remote-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/UX-Brighton-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/UX-Brighton-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/www-embed-player.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/www-embed-player-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/www-player-webp-vflhsyZJi.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/www-player-webp-vflhsyZJi-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/images\/photos\/venue-35.jpg": {
 		"ft": 16384,
 		"iS": 110877,
@@ -416,6 +622,39 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/speakers\/Emma-Boulton-310.jpg": {
+		"ft": 16384,
+		"iS": 34137,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/speakers\/Emma-Boulton-310.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/speakers\/Kate-Towsey-310.jpg": {
+		"ft": 16384,
+		"iS": 32648,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/speakers\/Kate-Towsey-310.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/speakers\/Katy-Arnold-310.jpg": {
+		"ft": 16384,
+		"iS": 30021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/speakers\/Katy-Arnold-310.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/sponsor-logos\/balsamiq-logo--cleaned.svg": {
 		"ft": 2097152,

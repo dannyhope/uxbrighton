@@ -95,7 +95,75 @@
 
   footer {
     background: $color-black;
+    [type="email"] {
+      box-shadow: none;
+    }
     a {
       color: #fff;
+      &:hover {
+        color: $color-orange;
+      }
     }
   }
+
+
+
+  footer {
+    .input-group__field, 
+    .input-group__addon, 
+    .input-group__button {
+      height: 44px;
+    }    
+  }
+
+  .social-icons__link {
+    height: 30px;
+    float: left;
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+    img {
+      height: 100%;
+      width: auto;
+      filter: grayscale(100%);
+      transition: all 0.3s;
+    }
+    &:hover {
+      img {
+        filter: grayscale(0%);
+      }
+    }
+  }
+
+@include under-m {
+  .u1of2-over-m.gutter-left  { padding-left:  0; }
+  .u1of2-over-m.gutter-right { padding-right: 0; }
+}
+@include under-s {
+  .u1of2-over-s.gutter-left  { padding-left:  0; }
+  .u1of2-over-s.gutter-right { padding-right: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

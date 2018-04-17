@@ -42,6 +42,13 @@
       line-height: $leading-tight;
     }
 
+    strong {
+      font-weight: 900;
+    }
+    blockquote, q, i, em {
+      font-family: 'museo';
+      font-style: italic;      
+    }
 
   // other elements
     ol, 
@@ -53,8 +60,6 @@
       margin-bottom: $paragraph-spacing;
     }
     blockquote {
-      font-family: 'museo';
-      font-style: italic;
       margin-left: 0;
       margin-right: 0;
       margin-top: 0;

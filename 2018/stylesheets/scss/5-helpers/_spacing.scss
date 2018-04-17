@@ -16,10 +16,10 @@
       padding-left:  $space-l;
     }
     @include over-l {
-      padding-left:  $space-xl;
+      padding-left:  $space-l;
     }
     @include over-xl {
-      padding-left:  $space-xl;
+      padding-left:  $space-l;
     }
   }
   .ph, // padding horizontal
@@ -35,10 +35,10 @@
       padding-right:  $space-l;
     }
     @include over-l {
-      padding-right:  $space-xl;
+      padding-right:  $space-l;
     }
     @include over-xl {
-      padding-right:  $space-xl;
+      padding-right:  $space-l;
     }
   }
   .pv, // padding vertical
@@ -53,10 +53,10 @@
       padding-top:  $space-l;
     }
     @include over-l {
-      padding-top:  $space-xl;
+      padding-top:  $space-l;
     }
     @include over-xl {
-      padding-top:  $space-xl;
+      padding-top:  $space-l;
     }
   }
   .pv, // padding vertical
@@ -71,10 +71,10 @@
       padding-bottom:  $space-l;
     }
     @include over-l {
-      padding-bottom:  $space-xl;
+      padding-bottom:  $space-l;
     }
     @include over-xl {
-      padding-bottom:  $space-xl;
+      padding-bottom:  $space-l;
     }
   }
 
@@ -88,12 +88,12 @@
       margin-right: -#{$space-l};
     }
     @include over-l {
-      margin-left:  -#{$space-xl};
-      margin-right: -#{$space-xl};
+      margin-left:  -#{$space-l};
+      margin-right: -#{$space-l};
     }
     @include over-xl {
-      margin-left:  -#{$space-xl};
-      margin-right: -#{$space-xl};
+      margin-left:  -#{$space-l};
+      margin-right: -#{$space-l};
     }
   }
 
