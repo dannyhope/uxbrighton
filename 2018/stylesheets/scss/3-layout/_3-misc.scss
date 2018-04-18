@@ -145,8 +145,16 @@
   .u1of2-over-s.gutter-right { padding-right: 0; }
 }
 
-
-
+@include over-m {
+  .cols-2-over-m {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 3em;
+       -moz-column-gap: 3em;
+            column-gap: 3em;
+  }
+}
 
 
 

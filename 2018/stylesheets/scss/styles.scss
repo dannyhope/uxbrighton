@@ -37,11 +37,12 @@
 
 //    H E L P E R S
 
-// hiding stuff
 
-  @import "5-helpers/hidden-misc";
-  @import "5-helpers/hidden-at-breakpoints";
-  @import "5-helpers/hidden-but-accessible";
+  //  Decorative
+
+  @import "5-helpers/typographic";
+  @import "5-helpers/colours";
+  @import "5-helpers/decorative";
 
   //  Layout
 
@@ -52,11 +53,12 @@
   @import "5-helpers/positioning";
   @import "5-helpers/wrap-fit-and-clear";
 
-  //  Decorative
+  
+// hiding stuff
 
-  @import "5-helpers/typographic";
-  @import "5-helpers/colours";
-  @import "5-helpers/decorative";
+  @import "5-helpers/hidden-misc";
+  @import "5-helpers/hidden-at-breakpoints";
+  @import "5-helpers/hidden-but-accessible";
 
   // Print
 

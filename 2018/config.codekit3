@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/attendees.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/attendees.html",
+		"oF": 0
+		},
 	"\/fonts\/museo\/museo\/font-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -386,6 +393,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/photos\/30373085214_409842cc54_o@2x-30.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/photos\/attendees.jpg": {
+		"ft": 16384,
+		"iS": 432347,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/attendees.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

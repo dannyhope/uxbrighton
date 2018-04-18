@@ -52,14 +52,18 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
     @include over-m {
-      position: absolute;
-      left: 80px;
+      position: relative;
+      left: 24px;
       right: 0;
-      margin-left: 20px;
+      //margin-left: 20px;
     }
     @include under-m {
       overflow: hidden;
-      width: calc(100vw - 48px);
+      width: calc(100vw - $masthead-height);
+      position: absolute;
+      bottom: 0;
+      left: $masthead-height;
+      right: 0;
     }
   }
 
@@ -132,7 +136,20 @@
         border: 0 none;
         border-radius: 0;
         font-weight: 900;
+        padding-top: 19px;
+        padding-bottom: 18px;
+        letter-spacing: 0.25px;     
+      }
+    }
+
+    @include under-s {
+      border: 0 none;
+      a {
+        border: 0 none;
+        border-radius: 0;
+        font-weight: 900;
         padding-top: 13px;
+        padding-bottom: 13px;
         letter-spacing: 0.25px;     
       }
     }
