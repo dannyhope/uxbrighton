@@ -9,3 +9,6 @@ $table-padding-bottom: 0.5px * $ssi;
     padding: $table-padding-top $table-padding-right $table-padding-bottom $table-padding-left;
   }
 }
+th {
+  text-align: left;
+}

@@ -35,20 +35,20 @@
       margin-bottom: 2px * $ssi;
     }
   }
-  @media screen and (max-height: 460px) {
-    .js #hero .button--large {
-      opacity: 0;
-      position: relative;
-      transition: top 0.3s ease-in-out,opacity 0.5s ease-in-out;
-      top: 50px;
-    }
+  // @media screen and (max-height: 460px) {
+  //   .js #hero .button--large {
+  //     opacity: 0;
+  //     position: relative;
+  //     transition: top 0.3s ease-in-out,opacity 0.5s ease-in-out;
+  //     top: 50px;
+  //   }
 
-    .no-js #hero .button--large,
-    .js  body.scroll-started #hero .button--large {
-      opacity: 1;
-      top: -10px;
-    }    
-  }
+  //   .no-js #hero .button--large,
+  //   .js  body.scroll-started #hero .button--large {
+  //     opacity: 1;
+  //     top: -10px;
+  //   }    
+  // }
 
 
   .talk__image-link {
