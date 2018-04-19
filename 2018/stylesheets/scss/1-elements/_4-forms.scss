@@ -176,6 +176,7 @@ a.button.disabled, fieldset:disabled a.button {
       border-color: $button-bg--red--hover;
     }
     &:focus, &.focus {
+      background-color: $button-bg--red;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--red--focus, 0.5);
     }
     &.disabled, &:disabled {
@@ -190,6 +191,7 @@ a.button.disabled, fieldset:disabled a.button {
 
     &:not(:disabled):not(.disabled):active:focus, 
     &:not(:disabled):not(.disabled).active:focus  {
+      background-color: $button-bg--red--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--red--active, 0.5);
     }
   } // .button--primary
@@ -205,6 +207,7 @@ a.button.disabled, fieldset:disabled a.button {
       border-color: $button-bg--orange--hover;
     }
     &:focus, &.focus {
+      background-color: $button-bg--orange--hover;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--orange--focus, 0.5);
     }
     &.disabled, &:disabled {
@@ -219,6 +222,7 @@ a.button.disabled, fieldset:disabled a.button {
 
     &:not(:disabled):not(.disabled):active:focus, 
     &:not(:disabled):not(.disabled).active:focus  {
+      background-color: $button-bg--orange--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--orange--active, 0.5);
     }
   } // .button--primary
@@ -235,6 +239,7 @@ a.button.disabled, fieldset:disabled a.button {
       border-color: $button-bg--blue--hover;
     }
     &:focus, &.focus {
+      background-color: $button-bg--blue--hover;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--blue--focus, 0.5);
     }
     &.disabled, &:disabled {
@@ -249,6 +254,7 @@ a.button.disabled, fieldset:disabled a.button {
 
     &:not(:disabled):not(.disabled):active:focus, 
     &:not(:disabled):not(.disabled).active:focus  {
+      background-color: $button-bg--blue--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--blue--active, 0.5);
     }
   } // .button--primary
@@ -260,11 +266,12 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: $button-bg--green;
     border-color: $button-bg--green;
     &:hover {
-      background-color: $button-bg--green--hover !important;
+      background-color: $button-bg--green--hover;
       border-color: $button-bg--green--hover;
       box-shadow: 0 2px 0 darken($button-bg--green--hover, 20%);
     }
     &:focus, &.focus {
+      background-color: $button-bg--green--hover;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--green--focus, 0.5);
     }
     &.disabled, &:disabled {
@@ -279,6 +286,7 @@ a.button.disabled, fieldset:disabled a.button {
 
     &:not(:disabled):not(.disabled):active:focus, 
     &:not(:disabled):not(.disabled).active:focus  {
+      background-color: $button-bg--green--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--green--active, 0.5);
     }
   } // .button--primary

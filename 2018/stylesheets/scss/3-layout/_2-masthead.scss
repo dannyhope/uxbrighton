@@ -59,7 +59,7 @@
     }
     @include under-m {
       overflow: hidden;
-      width: calc(100vw - $masthead-height);
+      width: calc(100vw - #{$masthead-height});
       position: absolute;
       bottom: 0;
       left: $masthead-height;
@@ -81,12 +81,14 @@
   }
   .masthead__links a {
     @include under-m {
-      padding: 17px 0 15px;
       font-size: 11px;
       letter-spacing: 0;
       text-align: center;
       width: 100%;
       border-right: 1px solid #eee;
+      //&.masthead__link {
+        padding: 17px 0 15px;
+      //}
     }
   }
   .masthead__link,
@@ -133,12 +135,23 @@
     @include under-m {
       border: 0 none;
       a {
+        display: inline-block;
         border: 0 none;
         border-radius: 0;
         font-weight: 900;
-        padding-top: 19px;
-        padding-bottom: 18px;
-        letter-spacing: 0.25px;     
+        padding: 19px 5px 18px;
+        letter-spacing: 0.25px; 
+        height: $masthead-height;
+      }
+    }
+    @include under(400px) {
+      a {
+        padding: 13px 10px;
+      }
+    }
+    @include under(330px) {
+      a {
+        padding: 13px 0;
       }
     }
 
@@ -148,8 +161,6 @@
         border: 0 none;
         border-radius: 0;
         font-weight: 900;
-        padding-top: 13px;
-        padding-bottom: 13px;
         letter-spacing: 0.25px;     
       }
     }

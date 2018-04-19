@@ -33,7 +33,7 @@
   // If width is more than ...
 
     @mixin over($point) {
-      @media only screen and (min-width: $point)  {
+      @media only screen and (min-width: $point + 1)  {
         @content; 
       }
     }

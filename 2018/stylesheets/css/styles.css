@@ -670,6 +670,7 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: #fc0049;
     border-color: #fc0049; }
   .button--red:focus, .button--red.focus {
+    background-color: #C9003A;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(252, 0, 73, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(252, 0, 73, 0.5); }
   .button--red.disabled, .button--red:disabled {
@@ -679,6 +680,7 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: #fc0049;
     border-color: #fc0049; }
   .button--red:not(:disabled):not(.disabled):active:focus, .button--red:not(:disabled):not(.disabled).active:focus {
+    background-color: #fc0049;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(252, 0, 73, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(252, 0, 73, 0.5); }
 
@@ -690,6 +692,7 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: #ffb86c;
     border-color: #ffb86c; }
   .button--orange:focus, .button--orange.focus {
+    background-color: #ffb86c;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 184, 108, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(255, 184, 108, 0.5); }
   .button--orange.disabled, .button--orange:disabled {
@@ -699,6 +702,7 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: #ffb86c;
     border-color: #ffb86c; }
   .button--orange:not(:disabled):not(.disabled):active:focus, .button--orange:not(:disabled):not(.disabled).active:focus {
+    background-color: #ffb86c;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 184, 108, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(255, 184, 108, 0.5); }
 
@@ -710,6 +714,7 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: #0cb0f8;
     border-color: #0cb0f8; }
   .button--blue:focus, .button--blue.focus {
+    background-color: #0cb0f8;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(12, 176, 248, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(12, 176, 248, 0.5); }
   .button--blue.disabled, .button--blue:disabled {
@@ -719,6 +724,7 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: #0cb0f8;
     border-color: #0cb0f8; }
   .button--blue:not(:disabled):not(.disabled):active:focus, .button--blue:not(:disabled):not(.disabled).active:focus {
+    background-color: #0cb0f8;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(12, 176, 248, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(12, 176, 248, 0.5); }
 
@@ -727,11 +733,12 @@ a.button.disabled, fieldset:disabled a.button {
   background-color: #1bab1b;
   border-color: #1bab1b; }
   .button--green:hover {
-    background-color: #009300 !important;
+    background-color: #009300;
     border-color: #009300;
     -webkit-box-shadow: 0 2px 0 #002d00;
             box-shadow: 0 2px 0 #002d00; }
   .button--green:focus, .button--green.focus {
+    background-color: #009300;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 198, 0, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(0, 198, 0, 0.5); }
   .button--green.disabled, .button--green:disabled {
@@ -741,6 +748,7 @@ a.button.disabled, fieldset:disabled a.button {
     background-color: #009300;
     border-color: #009300; }
   .button--green:not(:disabled):not(.disabled):active:focus, .button--green:not(:disabled):not(.disabled).active:focus {
+    background-color: #009300;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 147, 0, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(0, 147, 0, 0.5); }
 
@@ -850,7 +858,7 @@ body.scroll-started .masthead__logo {
   @media only screen and (max-width: 700px) {
     .masthead__links {
       overflow: hidden;
-      width: calc(100vw - $masthead-height);
+      width: calc(100vw - 48px);
       position: absolute;
       bottom: 0;
       left: 48px;
@@ -869,12 +877,12 @@ body.scroll-started .masthead__logo {
 
 @media only screen and (max-width: 700px) {
   .masthead__links a {
-    padding: 17px 0 15px;
     font-size: 11px;
     letter-spacing: 0;
     text-align: center;
     width: 100%;
-    border-right: 1px solid #eee; } }
+    border-right: 1px solid #eee;
+    padding: 17px 0 15px; } }
 
 .masthead__link,
 .masthead__link:hover {
@@ -910,12 +918,21 @@ body.scroll-started .masthead__logo {
   .nav-item--tickets {
     border: 0 none; }
     .nav-item--tickets a {
+      display: inline-block;
       border: 0 none;
       border-radius: 0;
       font-weight: 900;
-      padding-top: 19px;
-      padding-bottom: 18px;
-      letter-spacing: 0.25px; } }
+      padding: 19px 5px 18px;
+      letter-spacing: 0.25px;
+      height: 48px; } }
+
+@media only screen and (max-width: 400px) {
+  .nav-item--tickets a {
+    padding: 13px 10px; } }
+
+@media only screen and (max-width: 330px) {
+  .nav-item--tickets a {
+    padding: 13px 0; } }
 
 @media only screen and (max-width: 450px) {
   .nav-item--tickets {
@@ -924,8 +941,6 @@ body.scroll-started .masthead__logo {
       border: 0 none;
       border-radius: 0;
       font-weight: 900;
-      padding-top: 13px;
-      padding-bottom: 13px;
       letter-spacing: 0.25px; } }
 
 .overlay__outer {

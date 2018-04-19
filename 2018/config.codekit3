@@ -282,6 +282,17 @@
 		"oAP": "\/fonts\/museo\/slab\/museo-slab-900.woff",
 		"oF": 0
 		},
+	"\/images\/cards\/ux-brighton-2018-card.jpg": {
+		"ft": 16384,
+		"iS": 169886,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cards\/ux-brighton-2018-card.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/icons\/instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -619,6 +630,28 @@
 		"oAP": "\/images\/photos\/UX Brighton - Jobs To Be Done Workshop_files\/www-player-webp-vflhsyZJi-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/images\/photos\/uxbrightonlights.jpeg": {
+		"ft": 16384,
+		"iS": 112837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/uxbrightonlights.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/photos\/uxbrightonlights.jpg": {
+		"ft": 16384,
+		"iS": 112837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photos\/uxbrightonlights.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/venue-35.jpg": {
 		"ft": 16384,
