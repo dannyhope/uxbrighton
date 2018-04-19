@@ -481,9 +481,13 @@ nav ul, nav ol {
 
 a {
   text-decoration: none;
-  color: #108BC1; }
+  color: #108BC1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s; }
   a:hover {
-    color: #1bab1b;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #C9003A;
     text-decoration: underline; }
 
 .block-link,
@@ -659,7 +663,7 @@ a.button.disabled, fieldset:disabled a.button {
   letter-spacing: 0.03em; }
 
 .button--red {
-  color: #fff;
+  color: #fff !important;
   background-color: #C9003A;
   border-color: #C9003A; }
   .button--red:hover {
@@ -679,7 +683,7 @@ a.button.disabled, fieldset:disabled a.button {
             box-shadow: 0 0 0 0.2rem rgba(252, 0, 73, 0.5); }
 
 .button--orange {
-  color: #fff;
+  color: #fff !important;
   background-color: #FFA039;
   border-color: #FFA039; }
   .button--orange:hover {
@@ -699,7 +703,7 @@ a.button.disabled, fieldset:disabled a.button {
             box-shadow: 0 0 0 0.2rem rgba(255, 184, 108, 0.5); }
 
 .button--blue {
-  color: #fff;
+  color: #fff !important;
   background-color: #108BC1;
   border-color: #108BC1; }
   .button--blue:hover {
@@ -1052,6 +1056,22 @@ footer .input-group__button {
     column-count: 2;
     -webkit-column-gap: 3em;
     column-gap: 3em; } }
+
+th, td {
+  padding-left: 20px !important; }
+
+.tds-have-bullets td {
+  position: relative; }
+  .tds-have-bullets td:before {
+    position: absolute;
+    content: '• ';
+    left: 0em; }
+  .tds-have-bullets td.this-one-doesnt-though:before {
+    content: ''; }
+
+@media only screen and (min-width: 701px) {
+  table.hidden-under-m {
+    margin-left: -24px; } }
 
 .fs-xs {
   font-size: 10px;

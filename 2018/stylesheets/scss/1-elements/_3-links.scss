@@ -16,8 +16,10 @@
   a {
     text-decoration: none;
     color: $color-blue;
+    transition: all 0.6s;
     &:hover {
-      color: $color-green;
+      transition: all 0.2s;
+      color: $color-red;
       text-decoration: underline;
     }
   }

@@ -156,6 +156,26 @@
   }
 }
 
+th, td {
+  padding-left: 20px !important;
+}
+.tds-have-bullets td {
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '• ';
+    left: 0em;
+  }
+  &.this-one-doesnt-though:before {
+    content: '';
+  }
+}
+@include over-m { 
+  table.hidden-under-m {
+    margin-left: -3px * $ssi;
+  }
+}
+
 
 
 

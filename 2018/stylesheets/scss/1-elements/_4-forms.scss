@@ -168,7 +168,7 @@ a.button.disabled, fieldset:disabled a.button {
 
 // colours
   .button--red {
-    color: $button-color--red;
+    color: $button-color--red !important;
     background-color: $button-bg--red;
     border-color: $button-bg--red;
     &:hover {
@@ -197,7 +197,7 @@ a.button.disabled, fieldset:disabled a.button {
 
 
   .button--orange {
-    color: $button-color--orange;
+    color: $button-color--orange !important;;
     background-color: $button-bg--orange;
     border-color: $button-bg--orange;
     &:hover {
@@ -227,7 +227,7 @@ a.button.disabled, fieldset:disabled a.button {
 
 
   .button--blue {
-    color: $button-color--blue;
+    color: $button-color--blue !important;;
     background-color: $button-bg--blue;
     border-color: $button-bg--blue;
     &:hover {
