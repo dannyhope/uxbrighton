@@ -17,7 +17,7 @@ $(function() {
     var navOffset       = 0; 
   }
   var navScrollOffset   = navOffset + 1;
-  var navScrollSpeed    = 900;
+  var navScrollSpeed    = 300;
 
   // bootstrap scrollspy, automatically highlights the menu
   $('body').scrollspy({ target: '.masthead__links',offset: navScrollOffset });

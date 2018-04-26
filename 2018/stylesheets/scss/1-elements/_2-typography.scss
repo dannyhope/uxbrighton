@@ -62,10 +62,35 @@
     blockquote {
       margin-left: 0;
       margin-right: 0;
-      margin-top: 0;
+      margin-top: -3px * $ssi;
       color: $blockquote-color;
       letter-spacing: 0.2px;
-      padding: 0;
+      position: relative;
+      max-width: 40em;
+      margin-left: auto;
+      margin-right: auto;
+      @include over-s {
+        padding: 0 0 0 3em;
+        margin-top: 1.2em;
+        margin-bottom: 2.4em !important;
+      }
+
+     &:before {
+        content: "“";
+        font-size: 100px;
+        color: $color-info-lighter;
+        font-family: "Times New Roman",Times,serif;
+        font-weight: 900;
+        line-height: 1;
+        display: block;
+        height: .6em;
+        left: -8px;
+        position: relative;
+        @include over-s {
+          top: -20px;
+          position: absolute;
+        }
+      }
       // padding: 0 2em;
       // border-left: 3px solid $color-grey-10;
       // padding: $blockquote-padding;
@@ -81,6 +106,7 @@
     //   }
     .quotee {
       //text-align: right;
+      margin-top: -1em;
       margin-bottom: 0;
       font-style: normal;
       &:before {

@@ -65,7 +65,7 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dt, dd,
-blockquote {
+blockquote, figure {
   margin: 0; }
 
 ol ol,
@@ -390,7 +390,7 @@ body {
   color: #343f44; }
 
 body, input, textarea {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "museo-sans", -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", "Arial Unicode MS", "DejaVu Sans", "Lucida Sans Unicode", "Segoe UI Symbol", "FreeSans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif;
   line-height: 1.5;
   font-weight: 300; }
@@ -418,15 +418,15 @@ h3, .fs-h3 {
   line-height: 1.333; }
 
 h4, .fs-h4 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.333; }
 
 h5, .fs-h5 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.333; }
 
 h6, .fs-h6 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.333; }
 
 strong {
@@ -447,12 +447,36 @@ figure {
 blockquote {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: -24px;
   color: #80878a;
   letter-spacing: 0.2px;
-  padding: 0; }
+  position: relative;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (min-width: 451px) {
+    blockquote {
+      padding: 0 0 0 3em;
+      margin-top: 1.2em;
+      margin-bottom: 2.4em !important; } }
+  blockquote:before {
+    content: "“";
+    font-size: 100px;
+    color: #999fa1;
+    font-family: "Times New Roman",Times,serif;
+    font-weight: 900;
+    line-height: 1;
+    display: block;
+    height: .6em;
+    left: -8px;
+    position: relative; }
+    @media only screen and (min-width: 451px) {
+      blockquote:before {
+        top: -20px;
+        position: absolute; } }
 
 .quotee {
+  margin-top: -1em;
   margin-bottom: 0;
   font-style: normal; }
   .quotee:before {
@@ -482,11 +506,11 @@ nav ul, nav ol {
 a {
   text-decoration: none;
   color: #108BC1;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s; }
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s; }
   a:hover {
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
+    -webkit-transition: all 0s;
+    transition: all 0s;
     color: #C9003A;
     text-decoration: underline; }
 
@@ -981,18 +1005,35 @@ body.scroll-started .masthead__logo {
 
 .talk__image-link {
   padding: 5px;
-  margin: 0; }
-  .talk__image-link a {
+  margin: 0;
+  display: block;
+  position: relative; }
+  .talk__image-link img {
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     border-radius: 2px; }
-  .talk__image-link .hoverable-caption {
+  .talk__image-link .talk__image-link__caption {
     font-size: 24px;
     line-height: 1;
-    letter-spacing: -0.03em; }
-  .talk__image-link .hoverable-caption__text-1 {
+    letter-spacing: -0.03em;
+    position: absolute;
+    bottom: 16px;
+    left: 5px;
+    line-height: 1; }
+    @media only screen and (max-width: 950px) {
+      .talk__image-link .talk__image-link__caption {
+        font-size: 15.984px; } }
+    @media only screen and (max-width: 700px) {
+      .talk__image-link .talk__image-link__caption {
+        display: none; } }
+  .talk__image-link .talk__image-link__caption--1 {
     font-weight: 900;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px; }
+  .talk__image-link:hover .talk__image-link__caption--1 {
+    background: #C9003A; }
 
 @media only screen and (max-width: 450px) {
   .talk__photo-wrapper {
@@ -1001,11 +1042,20 @@ body.scroll-started .masthead__logo {
     margin-right: 15%;
     margin-bottom: 24px; } }
 
+@media only screen and (max-width: 450px) {
+  .talk__heading {
+    text-align: center;
+    margin: -16px 0 16px; } }
+
 .circle-background {
   padding-top: 100%;
   height: 0;
   background-repeat: none;
   background-size: cover; }
+
+.testimonial .container {
+  border-top: 1px solid #eee;
+  padding-top: 30px; }
 
 footer {
   background: #010F15; }
@@ -1073,6 +1123,32 @@ th, td {
 @media only screen and (min-width: 701px) {
   table.hidden-under-m {
     margin-left: -24px; } }
+
+.social-icons__link--slack {
+  width: 30px; }
+
+.social-icons__link--linkedin {
+  width: 30px; }
+
+.social-icons__link--youtube {
+  width: 42px; }
+
+.social-icons__link--twitter {
+  width: 36px; }
+
+.social-icons__link--instagram {
+  width: 30px; }
+
+.social-icons__link {
+  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s; }
+  .social-icons__link:hover {
+    -webkit-transition: all 0s;
+    transition: all 0s;
+    opacity: 1;
+    color: #fff; }
 
 .fs-xs {
   font-size: 10px;
@@ -1234,19 +1310,19 @@ th, td {
   white-space: nowrap; }
 
 .width-xs {
-  max-width: 18.75em; }
+  max-width: 16.6666666667em; }
 
 .width-s {
-  max-width: 28.125em; }
+  max-width: 25em; }
 
 .width-m {
-  max-width: 43.75em; }
+  max-width: 38.8888888889em; }
 
 .width-l {
-  max-width: 59.375em; }
+  max-width: 52.7777777778em; }
 
 .width-xl {
-  max-width: 80em; }
+  max-width: 71.1111111111em; }
 
 .indent {
   text-indent: 2em;
