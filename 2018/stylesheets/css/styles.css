@@ -506,8 +506,8 @@ nav ul, nav ol {
 a {
   text-decoration: none;
   color: #108BC1;
-  -webkit-transition: all 0.9s;
-  transition: all 0.9s; }
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
   a:hover {
     -webkit-transition: all 0s;
     transition: all 0s;
@@ -787,6 +787,9 @@ img, svg {
   max-width: 100%;
   height: auto; }
 
+.icons-currentColor svg {
+  fill: currentColor; }
+
 .hoverable-caption {
   display: block;
   overflow: hidden;
@@ -997,7 +1000,10 @@ body.scroll-started .masthead__logo {
       padding: 90px 0; } }
   @media only screen and (min-width: 951px) {
     #hero .overlay__inner {
-      padding: 120px 0; } }
+      padding: 110px 0; } }
+  @media screen and (min-width: 950px) and (max-height: 780px) {
+    #hero .overlay__inner {
+      padding: 90px 0 60px; } }
 
 @media only screen and (max-width: 450px) {
   #hero h1 {
@@ -1150,6 +1156,11 @@ th, td {
     opacity: 1;
     color: #fff; }
 
+.fs-xs, .fs-s, .fs-l, .fs-xl, .fs-xxl, .fs-xxxl,
+h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
+  -webkit-transition: font-size 0.7s;
+  transition: font-size 0.7s; }
+
 .fs-xs {
   font-size: 10px;
   font-size: 0.625rem; }
@@ -1161,6 +1172,10 @@ th, td {
 .fs-l {
   font-size: 30px;
   font-size: 1.875rem; }
+  @media screen and (max-height: 780px) {
+    .fs-l {
+      font-size: 24px;
+      font-size: 1.5rem; } }
   @media only screen and (max-width: 700px) {
     .fs-l {
       font-size: 21px;
@@ -1169,6 +1184,10 @@ th, td {
 .fs-xl {
   font-size: 48px;
   font-size: 3rem; }
+  @media screen and (max-height: 780px) {
+    .fs-xl {
+      font-size: 38.4px;
+      font-size: 2.4rem; } }
   @media only screen and (max-width: 700px) {
     .fs-xl {
       font-size: 28.8px;
@@ -1177,6 +1196,10 @@ th, td {
 .fs-xxl {
   font-size: 72px;
   font-size: 4.5rem; }
+  @media screen and (max-height: 780px) {
+    .fs-xxl {
+      font-size: 57.6px;
+      font-size: 3.6rem; } }
   @media only screen and (max-width: 700px) {
     .fs-xxl {
       font-size: 43.2px;
@@ -1185,6 +1208,10 @@ th, td {
 .fs-xxxl {
   font-size: 96px;
   font-size: 6rem; }
+  @media screen and (max-height: 780px) {
+    .fs-xxxl {
+      font-size: 76.8px;
+      font-size: 4.8rem; } }
   @media only screen and (max-width: 700px) {
     .fs-xxxl {
       font-size: 57.6px;
@@ -2534,6 +2561,14 @@ th, td {
 .mr6, .ma6, .mh6 {
   margin-right: 48px; }
 
+@media only screen and (min-width: 701px) {
+  .pb6-over-l {
+    padding-bottom: 24px; } }
+
+@media only screen and (min-width: 951px) {
+  .pb6-over-l {
+    padding-bottom: 48px; } }
+
 .relative {
   position: relative; }
 
@@ -2680,6 +2715,37 @@ th, td {
 
 .invisible {
   visibility: hidden; }
+
+@-webkit-keyframes slideDownEmailOptions {
+  0% {
+    max-height: 0; }
+  100% {
+    max-height: 150px; } }
+
+@keyframes slideDownEmailOptions {
+  0% {
+    max-height: 0; }
+  100% {
+    max-height: 150px; } }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.show {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-animation: fade 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards, slideDownEmailOptions 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards;
+          animation: fade 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards, slideDownEmailOptions 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards; }
 
 @media only screen and (min-width: 451px) {
   .block-over-s {

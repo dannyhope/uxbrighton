@@ -392,126 +392,81 @@
         <div class="u1of2-over-m left-over-m gutter-right mb5">
           <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Sign up for updates</h2>
           <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
-            <label class="bold pb0 block regular screen-reader-text">
-              Which topics are of interest to you?
-            </label>
-            <div class="">
-              <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked>
-              <label for="conference-mailinglist" class="">Conference news and workshops</label>
-            </div>
-            <div class="">
-              <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked>
-              <label for="newsletter-mailinglist" class="">The Newsletter: notable links for the discerning UX practitioner</label>
-            </div>
-            <div class="">
-              <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
-              <label for="evening-events-mailinglist" class="">Evening events</label>
-            </div>
             <label class="screen-reader-text" for="fieldEmail">Email</label>
-            <div class="input-group mt2">
-
-              <!-- <input placeholder="Email Address" class="mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box">
-              <input type="submit" class="input-reset w-100 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray"> -->
-
-              <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left">
+            <div class="input-group mt1 mb1">
+              <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
               <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
             </div><!-- input-group -->
-
-            <!-- <label for="name">Name</label><br/>
-            <input type="text" name="name" id="name"/>
-            <label for="Surname">Surname</label><br/>
-            <input type="text" name="Surname" id="Surname"/> -->
+            <div id="newsletter-options" class="hidden">
+              <label class="bold pb0 block regular screen-reader-text">
+                Which topics are of interest to you?
+              </label>
+              <div class="">
+                <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked>
+                <label for="conference-mailinglist" class="">Conference news and workshops</label>
+              </div>
+              <div class="">
+                <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked>
+                <label for="newsletter-mailinglist" class="">The Newsletter: notable links for the discerning UX practitioner</label>
+              </div>
+              <div class="">
+                <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
+                <label for="evening-events-mailinglist" class="">Evening events</label>
+              </div>              
+            </div>
             <div style="display:none;">
-            <label for="hp">HP</label><br/>
-            <input type="text" name="hp" id="hp"/>
+              <label for="hp">HP</label><br/>
+              <input type="text" name="hp" id="hp"/>
             </div>
 
           </form>
           <div id="js-signup-confirmation" class="button--green" style="padding: 1rem; display: none;">
             <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
           </div>
-        </div><!-- u1of2-over-s -->
-        <div class="u1of2-over-m left-over-m gutter-left">
-          <nav>
-            <ul class="bold">
-              <li class="pb1"><a href="https://uxbrighton.org.uk/about/">About UX Brighton</a></li>
-              <li><a href="https://uxbrighton.org.uk/JTBD-Workshop/">Archive: Videos, slides etc from previous events</a></li>
-            </ul>
-          </nav>
-
-          <nav class="social-icons pt3 pb4 clearfix">
+          <nav class="social-icons icons-currentColor pt3 clearfix">
             <div class="pb1 color-grey-40 screen-reader-text">Follow us:</div>
             <a class="social-icons__link social-icons__link--slack" href="https://slofile.com/slack/uxbri">
-              <svg id="slack" viewBox="0 0 409 409">
-                <g>
-                  <path fill="currentColor" data-original-fill="#ECB32D" d="M265.318683,25.2312422 C258.948327,6.08404036 238.496132,-4.32935012 219.385065,1.71713467 C200.273997,8.09953529 189.880259,28.5904004 195.915333,47.7376023 L290.129543,337.968872 C296.499898,355.772411 315.946248,365.849886 334.386751,360.475233 C353.833101,354.764664 365.567967,334.273798 359.197611,315.462512 C359.197611,314.790681 265.318683,25.2312422 265.318683,25.2312422 Z"/>
-                  <path fill="currentColor" data-original-fill="#63C1A0" d="M119.177196,72.3103789 C112.80684,53.163177 92.3546455,42.7497866 73.2435781,48.7962714 C54.1325106,55.178672 43.7387722,75.6695371 49.7738461,94.816739 L143.988056,385.048009 C150.358411,402.851548 169.804761,412.929022 188.245264,407.554369 C207.691614,401.8438 219.42648,381.352935 213.056124,362.541649 C213.056124,361.869817 119.177196,72.3103789 119.177196,72.3103789 Z"/>
-                  <path fill="currentColor" data-original-fill="#E01A59" d="M383.792154,265.175966 C402.921601,258.818394 413.325336,238.407242 407.284458,219.334527 C400.907975,200.261811 380.436111,189.888931 361.306664,195.911894 L71.0089172,290.271644 C53.2218876,296.629216 43.1537577,316.036541 48.523427,334.440038 C54.2287006,353.847363 74.7005649,365.558679 93.4944074,359.201107 C94.1656161,359.201107 383.792154,265.175966 383.792154,265.175966 Z"/>
-                  <path fill="currentColor" data-original-fill="#331433" d="M132.395753,347.208633 C151.238863,341.151919 175.802202,333.076301 202.047962,324.664199 C195.991248,305.821089 187.91563,281.25775 179.503527,255.01199 L109.851319,277.556425 L132.395753,347.208633 Z"/>
-                  <path fill="currentColor" data-original-fill="#D62027" d="M277.556425,299.148681 C303.802185,290.736579 328.365524,282.66096 347.208633,276.604247 C341.151919,257.761137 333.076301,233.197798 324.664199,206.952038 L255.01199,229.496473 L277.556425,299.148681 Z"/>
-                  <path fill="currentColor" data-original-fill="#89D3DF" d="M336.689621,119.177196 C355.836823,112.80684 366.250213,92.3546455 360.203729,73.2435781 C353.821328,54.1325106 333.330463,43.7387722 314.183261,49.7738461 L23.9519909,143.988056 C6.14845231,150.358411 -3.92902235,169.804761 1.4456308,188.245264 C7.15619977,207.691614 27.6470649,219.42648 46.4583509,213.056124 C47.1301826,213.056124 336.689621,119.177196 336.689621,119.177196 Z"/>
-                  <path fill="currentColor" data-original-fill="#258B74" d="M84.3358014,202.047962 C103.178911,195.991248 127.74225,187.91563 153.98801,179.503527 C145.575907,153.257768 137.500289,128.694428 131.443575,109.851319 L61.7913669,132.395753 L84.3358014,202.047962 Z"/>
-                  <path fill="currentColor" data-original-fill="#819C3C" d="M229.496473,153.98801 C255.742232,145.575907 280.305572,137.500289 299.148681,131.443575 C290.736579,105.197815 282.66096,80.6344764 276.604247,61.7913669 L206.952038,84.3358014 L229.496473,153.98801 Z"/>
-                </g>
+              <svg viewBox="0 0 409 409">
+                <use xlink:href="./images/icons/social-sprite.svg#slack"></use>
               </svg>
             </a>
             <a class="social-icons__link social-icons__link--linkedin" href="https://www.linkedin.com/company/ux-brighton">
-              <svg id="linkedin" viewBox="0 0 409 409">
-
-                <path fill="currentColor" data-original-fill="#0077B7" d="M372.002631,0 L36.9973691,0 C16.5645,0 0,16.5645 0,36.9973691 L0,372.00156 C0,392.4355 16.5645,409 36.9973691,409 L372.00156,409 C392.4355,409 409,392.4355 409,372.00156 L409,36.9973691 C409,16.5645 392.4355,0 372.002631,0 Z M126.561945,353.157581 C126.561945,359.104141 121.741741,363.924346 115.795181,363.924346 L69.9636257,363.924346 C64.0170654,363.924346 59.1968613,359.104141 59.1968613,353.157581 L59.1968613,161.033579 C59.1968613,155.087018 64.0170654,150.266814 69.9636257,150.266814 L115.795181,150.266814 C121.741741,150.266814 126.561945,155.087018 126.561945,161.033579 L126.561945,353.157581 Z M92.8794031,132.156251 C68.8329869,132.156251 49.3391047,112.662369 49.3391047,88.6159529 C49.3391047,64.5695366 68.8329869,45.0756545 92.8794031,45.0756545 C116.925819,45.0756545 136.419702,64.5695366 136.419702,88.6159529 C136.419702,112.662369 116.92689,132.156251 92.8794031,132.156251 Z M366.076414,354.024832 C366.076414,359.491728 361.643796,363.924346 356.176901,363.924346 L306.996257,363.924346 C301.529361,363.924346 297.096743,359.491728 297.096743,354.024832 L297.096743,263.907785 C297.096743,250.464319 301.04006,204.997866 261.9645,204.997866 C231.654602,204.997866 225.506754,236.11827 224.272259,250.084228 L224.272259,354.024832 C224.272259,359.491728 219.840712,363.924346 214.372746,363.924346 L166.806688,363.924346 C161.339793,363.924346 156.907175,359.491728 156.907175,354.024832 L156.907175,160.166327 C156.907175,154.699432 161.339793,150.266814 166.806688,150.266814 L214.372746,150.266814 C219.839641,150.266814 224.272259,154.699432 224.272259,160.166327 L224.272259,176.927832 C235.511194,160.061401 252.213812,147.042995 287.776469,147.042995 C366.52717,147.042995 366.076414,220.615885 366.076414,261.040503 L366.076414,354.024832 Z"/>
+              <svg viewBox="0 0 409 409">
+                <use xlink:href="./images/icons/social-sprite.svg#linkedin"></use>
               </svg>
             </a>
             <a class="social-icons__link social-icons__link--youtube" href="https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw">
-              <svg id="youtube" viewBox="0 0 579 409">
-
-                <path fill="currentColor" data-original-fill="#F61C0D" d="M458.74912,0 L120.25088,0 C53.8380915,0 0,53.7441266 0,120.041004 L0,288.958996 C0,355.255873 53.8380915,409 120.25088,409 L458.74912,409 C525.161909,409 579,355.255873 579,288.958996 L579,120.041004 C579,53.7441266 525.161909,0 458.74912,0 Z M377.424288,212.718466 L219.097646,288.09891 C214.878868,290.10745 210.005733,287.036966 210.005733,282.371686 L210.005733,126.899128 C210.005733,122.167398 215.006976,119.100676 219.234546,121.239608 L377.561188,201.331722 C382.268535,203.712632 382.186898,210.451649 377.424288,212.718466 Z"/>
+              <svg viewBox="0 0 579 409">
+                <use xlink:href="./images/icons/social-sprite.svg#youtube"></use>
               </svg>
             </a>
             <a class="social-icons__link social-icons__link--twitter" href="https://twitter.com/uxbri">
-              <svg id="twitter" viewBox="0 0 493 409">
-
-                <path fill="currentColor" data-original-fill="#76A9EA" d="M484.375263,47.5793835 C473.439273,52.4237557 462.086868,56.245547 450.438052,59.0123896 C463.27371,46.8277326 472.924454,31.5873208 478.369049,14.5762736 C479.923104,9.71991336 474.642916,5.5204984 470.253159,8.12070709 C454.047781,17.7231375 436.591958,24.9267586 418.369308,29.5337673 C417.31207,29.8011009 416.221231,29.9365659 415.126792,29.9365659 C411.807474,29.9365659 408.580559,28.7053929 406.042468,26.4708198 C386.654576,9.40103115 361.718887,0 335.830363,0 C324.627963,0 313.317559,1.74426171 302.212363,5.18483291 C267.804736,15.8458084 241.256188,44.1987525 232.926691,79.1798911 C229.80178,92.3008151 228.955749,105.433727 230.410201,118.212992 C230.577007,119.681528 229.882182,120.706507 229.453767,121.187228 C228.70134,122.029988 227.634502,122.513106 226.526863,122.513106 C226.403258,122.513106 226.276054,122.507112 226.150049,122.495124 C150.832962,115.50489 82.9153385,79.2566147 34.9076255,20.4288411 C32.4595381,17.4282314 27.7649706,17.7962647 25.813701,21.1397326 C16.4125656,37.2516758 11.4443883,55.6797109 11.4443883,74.4314234 C11.4443883,103.169184 23.0020007,130.251394 43.077517,149.994519 C34.6352158,147.994912 26.4641242,144.84565 18.8738534,140.634247 C15.2017224,138.596278 10.6835611,141.215668 10.6319593,145.411486 C10.1063405,188.103341 35.1272333,226.091083 72.6093707,243.196836 C71.8545438,243.214818 71.0997169,243.223209 70.3436899,243.223209 C64.4022779,243.223209 58.3864632,242.65018 52.465452,241.519707 C48.3301044,240.730893 44.8559805,244.649788 46.1400263,248.654996 C58.3060604,286.598383 91.0096273,314.56651 130.145424,320.916582 C97.6650647,342.697675 59.8409151,354.187025 20.4735105,354.187025 L8.20067255,354.179833 C4.41933763,354.179833 1.22122351,356.642179 0.257589129,360.300932 C-0.691644741,363.904541 1.05681765,367.705953 4.2813327,369.579685 C48.6421155,395.369584 99.241921,409 150.632555,409 C195.61616,409 237.694461,400.082087 275.699817,382.495614 C310.54066,366.372881 341.328959,343.325849 367.209082,313.99468 C391.317943,286.67151 410.170615,255.129744 423.241482,220.246907 C435.701526,186.995644 442.287361,151.515803 442.287361,117.64236 L442.287361,116.028768 C442.286161,110.589789 444.748649,105.472089 449.044802,101.988361 C465.347384,88.7655383 479.543891,73.2002503 491.238308,55.7252655 C494.326018,51.1110639 489.456244,45.3280271 484.375263,47.5793835 Z"/>
-              </svg>  
+              <svg viewBox="0 0 493 409">
+                <use xlink:href="./images/icons/social-sprite.svg#twitter"></use>
+              </svg>
             </a>
             <a class="social-icons__link social-icons__link--instagram" href="https://www.instagram.com/uxbrighton/">
-              <svg id="instagram" viewBox="0 0 409 409">
-                <defs>
-                  <linearGradient id="instagram-a" x1="50%" x2="50%" y1="99.709%" y2=".777%">
-                    <stop offset="0%" stop-color="#E09B3D"/>
-                    <stop offset="30%" stop-color="#C74C4D"/>
-                    <stop offset="60%" stop-color="#C21975"/>
-                    <stop offset="100%" stop-color="#7024C4"/>
-                  </linearGradient>
-                  <linearGradient id="instagram-b" x1="50%" x2="50%" y1="146.099%" y2="-45.16%">
-                    <stop offset="0%" stop-color="#E09B3D"/>
-                    <stop offset="30%" stop-color="#C74C4D"/>
-                    <stop offset="60%" stop-color="#C21975"/>
-                    <stop offset="100%" stop-color="#7024C4"/>
-                  </linearGradient>
-                  <linearGradient id="instagram-c" x1="50%" x2="50%" y1="658.141%" y2="-140.029%">
-                    <stop offset="0%" stop-color="#E09B3D"/>
-                    <stop offset="30%" stop-color="#C74C4D"/>
-                    <stop offset="60%" stop-color="#C21975"/>
-                    <stop offset="100%" stop-color="#7024C4"/>
-                  </linearGradient>
-                </defs>
-                <g fill="none">
-                  <path fill="currentColor" data-original-fill="url(#instagram-a)" d="M287.156695,0 L121.843305,0 C54.6586236,0 0,54.6586236 0,121.843305 L0,287.156695 C0,354.341376 54.6586236,409 121.843305,409 L287.156695,409 C354.341376,409 409,354.341376 409,287.156695 L409,121.843305 C408.999258,54.6586236 354.340634,0 287.156695,0 Z M367.854615,287.156695 C367.854615,331.724552 331.724552,367.854615 287.156695,367.854615 L121.843305,367.854615 C77.2754476,367.854615 41.1453849,331.724552 41.1453849,287.156695 L41.1453849,121.843305 C41.1453849,77.2747054 77.2754476,41.1453849 121.843305,41.1453849 L287.156695,41.1453849 C331.724552,41.1453849 367.854615,77.2747054 367.854615,121.843305 L367.854615,287.156695 Z"/>
-                  <path fill="currentColor" data-original-fill="url(#instagram-b)" d="M204.5,99 C146.327207,99 99,146.327373 99,204.49963 C99,262.671887 146.327207,310 204.5,310 C262.672793,310 310,262.672627 310,204.49963 C310,146.326632 262.672793,99 204.5,99 Z M204.5,268.964881 C168.897072,268.964881 140.035715,240.103423 140.035715,204.50037 C140.035715,168.897317 168.897812,140.035859 204.5,140.035859 C240.102928,140.035859 268.964285,168.897317 268.964285,204.50037 C268.964285,240.102683 240.102188,268.964881 204.5,268.964881 Z"/>
-                  <circle cx="310.5" cy="99.5" r="25.5" fill="currentColor" data-original-fill="url(#instagram-c)"/>
-                </g>
+              <svg viewBox="0 0 409 409">
+                <use xlink:href="./images/icons/social-sprite.svg#instagram"></use>
               </svg>
             </a>
           </nav>
 
-          <div class="attribution">
-            A <a class="bold" href="http://dannyhope.co.uk/">Danny Hope</a> Production
-          </div>
+        </div><!-- u1of2-over-s -->
+        <div class="u1of2-over-m left-over-m gutter-left">
+          <nav>
+            <ul class="">
+              <li class="pb1 bold"><a href="https://uxbrighton.org.uk/about/">About UX Brighton</a></li>
+              <li class="pb6-over-l bold"><a href="https://uxbrighton.org.uk/JTBD-Workshop/">Archive: Videos, slides etc from previous events</a></li>
+              <li class="pt1">A <a class="bold inline-block" href="http://dannyhope.co.uk/">Danny Hope</a> Production</li>
+            </ul>
+          </nav>
         </div><!-- u1of2-over-s -->
       </div><!-- row -->
 
     </div><!-- container -->
   </footer>
+
 
   <section id="styleguide"></section>
 
