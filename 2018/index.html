@@ -64,26 +64,28 @@
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-7759112-2', 'auto');
       ga('require', 'linker');
-  		ga(function(tracker) {
-  			// we need to get the _ga cross-domain value and replace it with
-  			// Eventbrite's _eboga requirement
-  			// https://www.eventbrite.com/support/articles/en_US/Troubleshooting/how-to-enable-cross-domain-and-ecommerce-tracking-with-google-universal-analytics#j_id0:HelpCenterSiteTemplate:j_id2:j_id131:articleStepsComponent:j_id132:1:j_id152
-  			var xdomain = tracker.get('linkerParam');
-  			$('a').attr("href", function(i,a){
-  				if (a.match(/eventbrite\.co\.uk/i)) {
-  					var splitURL = a.split('#');
-      			var hash = splitURL[1];
-  					a += "?&" + xdomain.replace(/_ga/, '_eboga');
-      			return hash == null ? a : a + '#' + hash;
-  				}
-    		});
+      ga(function(tracker) {
+        // we need to get the _ga cross-domain value and replace it with
+        // Eventbrite's _eboga requirement
+        // https://www.eventbrite.com/support/articles/en_US/Troubleshooting/how-to-enable-cross-domain-and-ecommerce-tracking-with-google-universal-analytics#j_id0:HelpCenterSiteTemplate:j_id2:j_id131:articleStepsComponent:j_id132:1:j_id152
+        var xdomain = tracker.get('linkerParam');
+        var links = document.getElementsByTagName('a');
+        Array.prototype.forEach.call(links, function(a){
+          var href = a.href;
+          if (href.match(/eventbrite\.co\.uk/i)) {
+            var splitURL = href.split('#');
+            var hash = splitURL[1];
+            href += "?&" + xdomain.replace(/_ga/, '_eboga');
+            a.href = hash == null ? href : href + '#' + hash;
+          }
+        });
 
-  		});
-  	  ga('send', 'pageview');
+      });
+      ga('send', 'pageview');
     </script>
 </head>
 <body id="top" class="relative">
@@ -546,15 +548,15 @@
                 Which topics are of interest to you?
               </label>
               <div class="">
-                <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked>
+                <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox">
                 <label for="conference-mailinglist" class="">Conference news and workshops</label>
               </div>
               <div class="">
-                <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked>
+                <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox">
                 <label for="newsletter-mailinglist" class="">The Newsletter: notable links for the discerning UX practitioner</label>
               </div>
               <div class="">
-                <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
+                <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox">
                 <label for="evening-events-mailinglist" class="">Evening events</label>
               </div>
             </div>
