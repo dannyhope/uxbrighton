@@ -1,3 +1,8 @@
+.fs-xs, .fs-s, .fs-l, .fs-xl, .fs-xxl, .fs-xxxl, 
+h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5,h6, .fs-h6 {
+  transition: font-size 0.7s;
+} 
+
 .fs-xs            { 
   @include font-size($size-xs); 
   // @include under-m {
@@ -12,24 +17,39 @@
 }
 .fs-l             { 
   @include font-size($size-l); 
+  @media screen and (max-height: $height-l) {
+    @include font-size($size-l * 0.8);
+  }
   @include under-m {
     @include font-size($size-l * 0.7);
   }
+  // @include under-m {
+  //   @include font-size($size-l * 0.7);
+  // }
 }
 .fs-xl            { 
   @include font-size($size-xl); 
+  @media screen and (max-height: $height-l) {
+    @include font-size($size-xl * 0.8);
+  }
   @include under-m {
     @include font-size($size-xl * 0.6);
   }
 }
 .fs-xxl           { 
   @include font-size($size-xxl); 
+  @media screen and (max-height: $height-l) {
+    @include font-size($size-xxl * 0.8);
+  }
   @include under-m {
     @include font-size($size-xxl * 0.6);
   }
 }
 .fs-xxxl          { 
   @include font-size($size-xxxl);
+  @media screen and (max-height: $height-l) {
+    @include font-size($size-xxxl * 0.8);
+  }
   @include under-m {
     @include font-size($size-xxxl * 0.6 );
   }

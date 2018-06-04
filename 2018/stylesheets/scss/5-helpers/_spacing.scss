@@ -231,3 +231,13 @@ $spacing-increments: 0 1 2 3 4 5 6;
     @extend .mr#{$spacing-increment}; 
   }
 }
+@include over-m {
+  .pb6-over-l {
+    padding-bottom: $ssi * 3px;
+  }
+}
+@include over-l {
+  .pb6-over-l {
+    padding-bottom: $ssi * 6px;
+  }
+}
