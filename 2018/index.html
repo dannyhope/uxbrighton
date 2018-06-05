@@ -79,8 +79,8 @@
           if (href.match(/eventbrite\.co\.uk/i)) {
             var splitURL = href.split('#');
             var hash = splitURL[1];
-            href += "?&" + xdomain.replace(/_ga/, '_eboga');
-            a.href = hash == null ? href : href + '#' + hash;
+            splitURL[0] += "?&" + xdomain.replace(/_ga/, '_eboga');
+            a.href = hash == null ? splitURL[0] : splitURL[0] + '#' + hash;
           }
         });
 
