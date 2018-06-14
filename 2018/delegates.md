@@ -27,7 +27,7 @@ Our events are informal yet professional and we're pleased to welcome new faces 
 > 
 > – Simon Johnson
     
-![Delegates at UX Brighton 2016](/2017/photos/30373076604_cab6c46097_z.jpg)
+![Delegates at UX Brighton 2017](/2018/attendees.jpg)
 
 ## How many attend?
  
