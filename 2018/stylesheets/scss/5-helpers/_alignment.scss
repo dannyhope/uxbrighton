@@ -11,17 +11,22 @@
   }
   .left { float: left; }
   .right { float: right; }
+  .none { float: none; }
 
   @include under-s {
     .center-under-s { 
       float:none; 
       margin-left: auto;
       margin-right: auto; 
+    }   
+    .none-under-s { 
+      float:none; 
     }
   }
   @include over-s {
-    .left-over-s  {  float: left; } 
+    .left-over-s  { float: left;  } 
     .right-over-s { float: right; }
+    .none-over-s  { float: none;  }
     // .center-over-s { 
     //   float:none; 
     //   margin-left: auto;
@@ -31,6 +36,7 @@
   @include over-m {
     .left-over-m  { float: left; }
     .right-over-m { float: right; }
+    .none-over-m  { float: none;  }
     // .center-over-m { 
     //   float:none; 
     //   margin-left: auto;
@@ -40,6 +46,7 @@
   @include over-l {
     .left-over-l  { float: left; }
     .right-over-l { float: right; }
+    .none-over-l  { float: none;  }
     // .center-over-l { 
     //   float:none; 
     //   margin-left: auto;

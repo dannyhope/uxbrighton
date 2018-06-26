@@ -7,30 +7,30 @@ $i: 0;
   $breakpoint-value: nth($breakpoint-values, $i);
   @media only screen and (min-width: $breakpoint-value + 1) {
     .block-over-#{$breakpoint} {
-      display:block;
+      display:block !important;
     }
     .inline-block-over-#{$breakpoint} {
-      display: inline-block;
+      display: inline-block !important;
     }
     .hidden-over-#{$breakpoint} {
-      display:none;
+      display:none !important;
     }
     .visually-hidden-over-#{$breakpoint} {
-      display: none; // TODO replace with correct 
+      display: none !important; // TODO replace with correct 
     }
   }
   @media only screen and (max-width: $breakpoint-value) {
     .block-under-#{$breakpoint} {
-      display:block;
+      display:block !important;
     }
     .inline-block-under-#{$breakpoint} {
-      display: inline-block;
+      display: inline-block !important;
     }
     .hidden-under-#{$breakpoint} {
-      display:none;
+      display:none !important;
     }
     .visually-hidden-under-#{$breakpoint} {
-      display: none; // TODO replace with correct 
+      display: none !important; // TODO replace with correct 
     }
   }
 }

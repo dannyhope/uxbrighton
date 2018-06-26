@@ -241,3 +241,18 @@ $spacing-increments: 0 1 2 3 4 5 6;
     padding-bottom: $ssi * 6px;
   }
 }
+@include over-m {
+  .pl2-over-m {
+    padding-left: $ssi * 2px;
+  }
+  .pr2-over-m {
+    padding-right: $ssi * 2px;
+  }
+}
+
+
+
+
+
+
+

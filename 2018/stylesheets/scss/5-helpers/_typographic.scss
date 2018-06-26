@@ -15,6 +15,12 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5,h6, .fs-h6 {
   //   @include font-size($size-s * 0.5);
   // }
 }
+.fs-m             { 
+  @include font-size($size-body); 
+  // @include under-m {
+  //   @include font-size($size-s * 0.5);
+  // }
+}
 .fs-l             { 
   @include font-size($size-l); 
   @media screen and (max-height: $height-l) {

@@ -1,5 +1,6 @@
 _site/
 codekit-config.json
+config.codekit3
 .ruby-gemset*
 .ruby-version*
 .jekyll-metadata
