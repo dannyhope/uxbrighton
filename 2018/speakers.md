@@ -1,5 +1,5 @@
 ---
-permalink: /2017/speakers
+permalink: /2018/speakers
 layout: minimal
 ---
 # Speakers
@@ -9,7 +9,7 @@ To help you gear your talk to our audience, we’ve crunched the data from our p
 
 ### How many attend?
 
-Typically 300+ delegates
+Typically 400+ delegates
 
 ### What do our audience expect from the talks?
 
@@ -76,7 +76,7 @@ Source: [PWC, 2017](https://www.linkedin.com/pulse/women-technology-time-close-g
 - There will be Wifi at the venue, however we would suggest that you don't rely on accessing the internet for your presentation.
 - You can embed audio within your slides if necessary.
 - Preferred format for your slides is 16:9 (widescreen).
-- There will be a lectern to present from but you will have a wireless lapel mic so you are free to roam the stage if you want to.
+- There will be a lectern to present from but you will have a wireless mic so you are free to roam the stage if you want to.
 - We don't require your decks beforehand, however we do like to make them available to delegates after the event.
 #### Travel & hotel
 - We recommend that you travel to Brighton by public transport as parking is notoriously hard to come by, and there is no parking at the venue. 
