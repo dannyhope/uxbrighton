@@ -1,136 +1,12 @@
-<!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Event" class="no-js">
-<head>
-  <title>Advancing Research – UX Brighton Conference 2018</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Taken from current website -->
-    <meta name="description" content="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information." >
-    <meta name="first" content="UX Brighton, Friday 2 November. Advancing Research">
-
-    <!-- facebook open graph tags -->
-      <meta property="og:type" content="website" >
-      <meta property="og:url" content="http://uxbrighton.org.uk/2018/" >
-      <meta property="og:title" content="UX Brighton, Friday 2 November. Advancing Research" >
-      <meta property="og:description" content="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information." >
-      <meta property="og:image" content="https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg" >
-
-    <!-- twitter card tags additive with the og: tags -->
-        <meta name="twitter:card" content="summary_large_image" >
-        <meta name="twitter:image" content="https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg" >
-        <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
-        <meta name="twitter:title" value="UX Brighton, Friday 2 November. Advancing Research" >
-        <meta name="twitter:description" value="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information." >
-        <meta name="twitter:url" value="http://uxbrighton.org.uk/2018/" >
-
-    <!-- Icons -->
-      <link rel="apple-touch-icon" href="https://uxbrighton.org.uk/2013/images/icon.png">
-      <link rel="icon" href="https://uxbrighton.org.uk/2013/images/favicon.png">
-      <!--[if IE]><link rel="shortcut icon" href="https://uxbrighton.org.uk/images/favicon.ico"><![endif]-->
-      <!-- or, set /favicon.ico for IE10 win -->
-      <!-- <meta name="msapplication-TileColor" content="#000">-->
-      <meta name="msapplication-TileImage" content="http://uxbrighton.org.uk/2013/images/icon.png">
-
-
-    <!-- needed?
-      <script src="https://uxbrighton.org.uk/2013/modernizr.js"></script> -->
-
-  <!-- Added by Paul D -->
-    <link rel="stylesheet" href="fonts/museo/museo/font.css">
-    <link rel="stylesheet" href="fonts/museo/sans/font.css">
-    <link rel="stylesheet" href="fonts/museo/sans-rounded/font.css">
-    <!-- <link rel="stylesheet" href="fonts/museo/slab/font.css"> -->
-    <link rel="stylesheet" href="stylesheets/css/styles.css">
-
-
-    <!-- schema.org snippets. needed? useful? -->
-    <meta itemprop="startDate" content="2018-11-02T09:30">
-    <meta itemprop="endDate" content="2018-11-02T17:30">
-    <meta itemprop="duration" content="0000-00-00T08:00">
-    <link itemprop="url" href="http://uxbrighton.org.uk/2018/" rel="author"/>
-    <meta itemprop="description" content="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information.">
-
-
-    <script>
-      var root = document.documentElement;
-      root.className = 'js';
-      if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
-        root.className += ' js-touch';
-      }
-    </script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-7759112-2', 'auto');
-      ga('require', 'linker');
-      ga(function(tracker) {
-        // we need to get the _ga cross-domain value and replace it with
-        // Eventbrite's _eboga requirement
-        // https://www.eventbrite.com/support/articles/en_US/Troubleshooting/how-to-enable-cross-domain-and-ecommerce-tracking-with-google-universal-analytics#j_id0:HelpCenterSiteTemplate:j_id2:j_id131:articleStepsComponent:j_id132:1:j_id152
-        var xdomain = tracker.get('linkerParam');
-        var links = document.getElementsByTagName('a');
-        Array.prototype.forEach.call(links, function(a){
-          var href = a.href;
-          if (href.match(/eventbrite\.co\.uk/i)) {
-            var splitURL = href.split('#');
-            var hash = splitURL[1];
-            splitURL[0] += "?&" + xdomain.replace(/_ga/, '_eboga');
-            a.href = hash == null ? splitURL[0] : splitURL[0] + '#' + hash;
-          }
-        });
-
-      });
-      ga('send', 'pageview');
-    </script>
-</head>
-<body id="top" class="relative">
-
-
-  <header class="page-hd masthead">
-    <nav class="container ">
-      <a class="masthead__logo bg-white color-red" href="#top" style="line-height: 0;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-          <g fill-rule="evenodd" fill="currentColor">
-
-            <path fill-rule="evenodd" d="M0,0 L100,0 L100,100 L0,100 L0,0 Z M51,22.9010235 L54.2498872,22.9005352 L63.1891097,34.5774106 L53.8239945,47.0493096 L50,47.0493096 L50,53.9487179 L67.9129012,53.9487179 L67.9129012,47.0487462 L64.6142116,47.0487462 L68.1795074,42.0594231 C68.8720065,41.0502895 69.2436738,40.2547024 69.3498643,40.2547024 C69.4566198,40.2547024 69.9350431,41.1032536 70.6800721,42.0594231 L74.5119747,47.0487462 L71.1059648,47.0487462 L71.1059648,53.9487179 L89.8955039,53.9487179 L89.8955039,47.0487462 L85.884546,47.0487462 L76.731812,35.2146691 L86.0438318,22.9010987 L90,22.9010987 L90,16 L72.0628106,16 L72.0628106,22.9005352 L75.2553094,22.9005352 L71.7425439,27.6774388 C70.9975145,28.6860089 70.5727518,29.4827229 70.5727518,29.428632 C70.4665614,29.428632 69.9875733,28.631918 69.2431091,27.6774388 L65.6252824,22.9005352 L68.923972,22.9005352 L68.923972,16 L32.2893987,16 L32.2893987,22.904183 L35.8548911,22.904183 L35.8548911,39.4726439 C35.8548911,41.2230716 35.5878172,42.6042465 35.0085937,43.7204613 C34.028196,45.526136 32.424626,46.3751357 30.373679,46.3751357 C28.1897585,46.3751357 26.4520881,45.3654687 25.6057907,43.6652142 C25.114465,42.6566747 24.8034422,41.1700796 24.8034422,39.4720801 L24.8034422,22.904183 L28.3683712,22.904183 L28.3683712,16 L10,16 L10,22.904183 L14.2472633,22.904183 L14.2472633,39.4720801 C14.2483901,43.4532462 15.2028693,46.9591753 17.4329924,49.507302 C20.1921922,52.6935879 24.9161316,54.6052466 30.3302936,54.6052466 C35.319053,54.6052466 40.3619034,52.9591117 43.2805587,49.3488897 C45.2441713,46.9067471 46.412197,43.2401507 46.412197,39.4715164 L46.412197,22.904183 L51,22.904183 L51,22.9010235 Z M11.1467001,79.2569296 L17.8805623,79.2569296 C18.6666081,79.2569296 19.332582,79.2165597 20.0182212,78.9921337 C21.4897172,78.4818659 22.6388153,77.053996 22.6388153,75.1560368 C22.6388153,73.5249781 21.8121151,72.1171975 20.2802995,71.6679628 L20.2802995,71.6275929 C21.3889324,71.0564832 22.0741934,69.9339705 22.0741934,68.5267638 C22.0741934,66.9760623 21.2476824,65.792899 20.119006,65.2830138 C19.4131342,64.9564194 18.6469428,64.8546337 17.618673,64.8546337 L11.1467001,64.8546337 L11.1467001,66.4258072 L12.9207396,66.4258072 L12.9207396,77.6662409 L11.1467001,77.6662409 L11.1467001,79.2569296 Z M14.9373812,70.9135623 L14.9373812,66.5272102 L17.6188621,66.5272102 C18.2239491,66.5272102 18.687408,66.6087153 19.0907363,66.8132434 C19.6956342,67.1599271 20.0184103,67.8739577 20.0184103,68.7100546 C20.0184103,70.0158582 19.2119428,70.913371 17.9215947,70.913371 L14.9373812,70.9135623 Z M14.9373812,77.5843531 L14.9373812,72.5865215 L18.1227861,72.5865215 C19.6148929,72.5865215 20.5824649,73.565348 20.5824649,75.0538684 C20.5824649,76.1354373 20.0584973,77.0337153 19.2317972,77.380399 C18.8485124,77.5437919 18.3644428,77.5837791 17.9616817,77.5837791 L14.9373812,77.5837791 L14.9373812,77.5843531 Z M23.4596536,79.2569296 L28.4597523,79.2569296 L28.4597523,77.727274 L26.9476021,77.727274 L26.9476021,74.9926439 C26.9476021,72.9739577 27.875087,70.7501694 30.052833,70.7501694 C30.3752309,70.7501694 30.6168875,70.8112026 30.6168875,70.8112026 L30.6168875,68.8531669 C30.6168875,68.8531669 30.3750418,68.8120317 30.1127744,68.8120317 C28.5403045,68.8120317 27.3507413,69.9955776 26.8867152,71.5047612 L26.8466282,71.5047612 C26.8466282,71.5047612 26.8867152,71.1988301 26.8867152,70.790922 L26.8867152,70.1381159 C26.8867152,69.3016362 26.4635325,68.9344807 25.5765127,68.9344807 L23.2781275,68.9344807 L23.2781275,70.4645189 L24.548432,70.4645189 C24.8305539,70.4645189 24.9918474,70.6072485 24.9918474,70.913371 L24.9918474,77.7268914 L23.4594645,77.7268914 L23.4594645,79.257121 L23.4596536,79.2569296 Z M33.0561446,66.8748506 L35.1123059,66.8748506 L35.1123059,64.8550164 L33.0561446,64.8550164 L33.0561446,66.8748506 Z M31.50334,79.2569296 L36.6649214,79.2569296 L36.6649214,77.727274 L35.0517972,77.727274 L35.0517972,68.934672 L31.4025552,68.934672 L31.4025552,70.4649016 L33.0960425,70.4649016 L33.0960425,77.7276567 L31.5031509,77.7276567 L31.5031509,79.2569296 L31.50334,79.2569296 Z M47.6304215,79.2569296 L52.7908684,79.2569296 L52.7908684,77.727274 L51.1786899,77.727274 L51.1786899,74.4219169 C51.1786899,72.2189832 52.5894878,70.5054628 54.585708,70.5054628 C56.2183083,70.5054628 56.5208517,71.6478735 56.5208517,73.096598 L56.5208517,79.2575036 L60.0694979,79.2575036 L60.0694979,77.727848 L58.4771736,77.727848 L58.4771736,72.6473633 C58.4771736,70.0158582 57.3679736,68.6895827 54.9691816,68.6895827 C52.932875,68.6895827 51.6026288,70.0564194 51.1588354,71.0559092 L51.1189375,71.0559092 C51.1189375,71.0559092 51.1788788,70.6885623 51.1788788,70.1989577 L51.1788788,64.8544424 L47.529826,64.8544424 L47.529826,66.3842893 L49.2433566,66.3842893 L49.2433566,77.7270827 L47.6308,77.7270827 L47.6304215,79.2569296 Z M61.0514406,75.4828225 C61.0514406,78.9307179 63.6519913,79.3386261 64.9427177,79.3386261 C65.3660892,79.3386261 65.6482111,79.2980648 65.6482111,79.2980648 L65.6482111,77.6463429 C65.6482111,77.6463429 65.4664958,77.6662409 65.1841851,77.6662409 C64.4179937,77.6662409 63.00625,77.4006796 63.00625,75.2987664 L63.00625,70.4647102 L65.4456962,70.4647102 L65.4456962,68.9344807 L63.00625,68.9344807 L63.00625,66.0992128 L61.0907715,66.0992128 L61.0907715,68.9348633 L59.3363972,68.9348633 L59.3363972,70.4650929 L61.0504955,70.4650929 L61.0504955,75.4828225 L61.0514406,75.4828225 Z M76.8600955,79.2569296 L82.0222441,79.2569296 L82.0222441,77.727274 L80.4087417,77.727274 L80.4087417,74.4630521 C80.4087417,72.4026567 81.7594094,70.5052715 83.8167052,70.5052715 C85.4491163,70.5052715 85.7321837,71.6476822 85.7321837,73.0964067 L85.7321837,79.2573123 L89.3004955,79.2573123 L89.3004955,77.7276567 L87.6875601,77.7276567 L87.6875601,72.647172 C87.6875601,70.0156669 86.6388688,68.6893914 84.3003965,68.6893914 C81.7193222,68.6893914 80.5295698,70.6474271 80.3283785,71.1984475 L80.2881024,71.1984475 C80.2881024,71.1984475 80.3484219,70.9332689 80.3484219,70.6068659 L80.3484219,70.0767 C80.3484219,69.3217256 79.9447156,68.934098 79.058074,68.934098 L76.7596889,68.934098 L76.7596889,70.4643276 L78.0097608,70.4643276 C78.2922608,70.4643276 78.4541215,70.6070572 78.4541215,70.9129883 L78.4541215,77.7267 L76.8608517,77.7267 L76.8608517,79.2563557 L76.8600955,79.2563557 L76.8600955,79.2569296 Z M65.5045031,74.0752332 C65.5045031,77.2171975 67.9634253,79.5016363 71.0083368,79.5016363 C74.0534372,79.5016363 76.5133049,77.2166235 76.5133049,74.0752332 C76.5133049,70.9543148 74.053626,68.689774 71.0083368,68.689774 C67.9634253,68.689774 65.5045031,70.9543148 65.5045031,74.0752332 Z M67.5003448,74.0752332 C67.5003448,71.9337153 69.0731927,70.4032944 71.0083368,70.4032944 C72.9234372,70.4032944 74.5165177,71.933524 74.5165177,74.0752332 C74.5165177,76.2376057 72.923626,77.7879245 71.0083368,77.7879245 C69.0737601,77.7877332 67.5003448,76.2376057 67.5003448,74.0752332 Z M38.3215361,81.1744041 L37.6759839,82.6849271 C38.6840211,83.194621 39.9342821,83.5416873 41.1641215,83.5416873 C43.7450067,83.5416873 46.305092,82.2358837 46.305092,78.8293148 L46.305092,70.8730011 C46.305092,70.6076312 46.4864292,70.4649016 46.7492639,70.4649016 L47.8781292,70.4649016 L47.8781292,68.934672 L45.7007614,68.934672 C44.8538286,68.934672 44.5314307,69.3222995 44.5314307,69.9751057 C44.5314307,70.2406669 44.5715177,70.3835878 44.5715177,70.3835878 L44.5314307,70.3835878 C43.9671871,69.2000419 42.5560107,68.6899653 41.2250084,68.6899653 C38.382423,68.6899653 36.7490662,70.8930903 36.7490662,73.8511898 C36.7490662,76.8293786 38.4830187,79.1344807 41.3055606,79.1344807 C42.7976673,79.1344807 43.7654284,78.4820572 44.3703263,77.4620955 L44.4104133,77.4620955 C44.4104133,77.4620955 44.3500937,77.7881159 44.3500937,78.1147102 L44.3500937,78.9307179 C44.3500937,81.0529118 42.8984522,81.8685368 41.1240345,81.8685368 C39.5912734,81.8681541 38.3215361,81.1744041 38.3215361,81.1744041 Z M41.6882781,77.4213429 C39.8531626,77.4213429 38.7445298,75.9519551 38.7445298,73.8106286 C38.7445298,71.7092893 39.7529451,70.4032944 41.5065629,70.4032944 C43.0996436,70.4032944 44.3899916,71.1785495 44.3899916,73.8714705 C44.3898025,76.5636261 43.0996436,77.4213429 41.6882781,77.4213429 Z"/>
-          </g>
-        </svg>
-      </a>
-      <div class="masthead__links">
-        <ul class="nav">
-          <li class="nav-item inline-block">
-            <a href="#speakers" class="masthead__link nav-link">Speakers</a>
-          </li>
-          <li class="nav-item inline-block hidden-under-l">
-            <a href="#venue" class="masthead__link nav-link">Venue</a>
-          </li>
-          <li class="nav-item inline-block ">
-            <a href="#sponsors" class="masthead__link nav-link">Sponsors</a>
-          </li>
-          <li class="nav-item inline-block ">
-            <a href="#workshop" class="masthead__link masthead__link--last">Workshop</a>
-          </li>
-          <li class="nav-item inline-block nav-item--tickets">
-           <a
-            href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets"
-            class="button button--green">
-            Buy Tickets
-          </a>
-          </li>
-        </ul>
-      </div><!-- masthead__links -->
-    </nav>
-  </header>
+---
+layout: conference-2018
+title: Advancing Research – UX Brighton Conference 2018
+---
 
   <!-- Add this code to event page: -->
   <main>
 
-    <section id="hero" class="overlay__outer pa0" style="background: url('images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000;">
+    <section id="hero" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000;">
 
       <div class="overlay__inner overflow-hidden">
 
@@ -186,7 +62,7 @@
 
 
     <section id="speakers">
-      <div class="overlay__outer" style="background-image: url('./images/photos/speakers-35.jpg');">
+      <div class="overlay__outer" style="background-image: url('/2018/images/photos/speakers-35.jpg');">
         <div class="overlay__inner" style="background: rgba(0,0,0,0.65)">
           <div class="container color-white" style="">
             <h2 class="fs-xxxl mb0 leading-solid">Speakers</h2>
@@ -198,7 +74,7 @@
         <div class="row">
           <figure class="u1of4 left mb0">
             <a href="#Katy-Arnold" class="talk__image-link">
-              <img class="bg-grey-20" src="./images/speakers/Katy-Arnold-310.jpg" width="310" height="310">
+              <img class="bg-grey-20" src="/2018/images/speakers/Katy-Arnold-310.jpg" width="310" height="310">
               <figcaption class="talk__image-link__caption">
                 <span class="talk__image-link__caption--1 block">
                   Katy Arnold
@@ -211,7 +87,7 @@
           </figure>
           <figure class="u1of4 left  mb0">
             <a href="#Kate-Towsey" class="talk__image-link">
-              <img class="bg-grey-20" src="./images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
+              <img class="bg-grey-20" src="/2018/images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
               <figcaption class="talk__image-link__caption">
                 <span class="talk__image-link__caption--1 block">
                   Kate Towsey
@@ -224,7 +100,7 @@
           </figure>
           <figure class="u1of4 left  mb0">
             <a href="#Georgia-Rakusen" class="talk__image-link">
-              <img class="bg-grey-20" src="./images/speakers/Georgia-Rakusen-310.jpg" width="310" height="310">
+              <img class="bg-grey-20" src="/2018/images/speakers/Georgia-Rakusen-310.jpg" width="310" height="310">
               <figcaption class="talk__image-link__caption">
                 <span class="talk__image-link__caption--1 block">
                   Georgia Rakusen
@@ -237,7 +113,7 @@
           </figure>
           <figure class="u1of4 left  mb0">
             <a href="#James-Woudhuysen" class="talk__image-link">
-              <img class="bg-grey-20" src="./images/speakers/James-Woudhuysen-310.jpg" width="310" height="310">
+              <img class="bg-grey-20" src="/2018/images/speakers/James-Woudhuysen-310.jpg" width="310" height="310">
               <figcaption class="talk__image-link__caption">
                 <span class="talk__image-link__caption--1 block">
                   James Woudhuysen
@@ -250,7 +126,7 @@
           </figure>
           <figure class="u1of4 left mb0">
             <a href="#Emma-Boulton" class="talk__image-link">
-              <img class="bg-grey-20" src="./images/speakers/Emma-Boulton-310.jpg" width="310" height="310">
+              <img class="bg-grey-20" src="/2018/images/speakers/Emma-Boulton-310.jpg" width="310" height="310">
               <figcaption class=" talk__image-link__caption">
                 <span class="talk__image-link__caption--1 block">
                   Emma Boulton
@@ -276,7 +152,7 @@
         <div class="talk row pv3" id="Katy-Arnold">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
-              <img class="talk__photo" src="./images/speakers/Katy-Arnold-310.jpg" width="310" height="310">
+              <img class="talk__photo" src="/2018/images/speakers/Katy-Arnold-310.jpg" width="310" height="310">
             </div>
           </div><!-- u1of3 -->
           <div class="u2of3-over-s left gutter-right">
@@ -310,7 +186,7 @@
         <div class="talk row pv3" id="Kate-Towsey">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
-              <img class="talk__photo" src="./images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
+              <img class="talk__photo" src="/2018/images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
             </div>
           </div><!-- u1of3 -->
           <div class="u2of3-over-s left gutter-right">
@@ -345,7 +221,7 @@
         <div class="talk row pv3" id="Georgia-Rakusen">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
-              <img class="talk__photo" src="./images/speakers/Georgia-Rakusen-310.jpg" width="310" height="310">
+              <img class="talk__photo" src="/2018/images/speakers/Georgia-Rakusen-310.jpg" width="310" height="310">
             </div>
           </div><!-- u1of3 -->
           <div class="u2of3-over-s left gutter-right">
@@ -381,7 +257,7 @@
         <div class="talk row pv3" id="James-Woudhuysen">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
-              <img class="talk__photo" src="./images/speakers/James-Woudhuysen-310.jpg" width="310" height="310">
+              <img class="talk__photo" src="/2018/images/speakers/James-Woudhuysen-310.jpg" width="310" height="310">
             </div>
           </div><!-- u1of3 -->
           <div class="u2of3-over-s left gutter-right">
@@ -413,7 +289,7 @@
         <div class="talk row pv3" id="Emma-Boulton">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
-              <img class="talk__photo" src="./images/speakers/Emma-Boulton-310.jpg" width="310" height="310">
+              <img class="talk__photo" src="/2018/images/speakers/Emma-Boulton-310.jpg" width="310" height="310">
             </div>
           </div><!-- u1of3 -->
           <div class="u2of3-over-s left gutter-right">
@@ -456,7 +332,7 @@
 
 
     <section id="venue">
-      <div class="overlay__outer" style="background-image: url('./images/photos/venue-35.jpg');">
+      <div class="overlay__outer" style="background-image: url('/2018/images/photos/venue-35.jpg');">
         <div class="overlay__inner">
           <div class="container color-white" style="">
             <h2 class="fs-xxxl mb0 leading-solid">Venue</h2>
@@ -467,7 +343,7 @@
         <h3 class="fs-h2">Brighton Dome Concert Hall</h3>
         <div class="row">
           <div class="u1of2-over-m right-over-m gutter-left mb2">
-            <img src="./images/photos/brighton-dome.jpg" width="1400" height="788" alt="Brighton Dome">
+            <img src="/2018/images/photos/brighton-dome.jpg" width="1400" height="788" alt="Brighton Dome">
           </div>
           <div class="u1of2-over-m left-over-m gutter-right">Brighton Dome is part of the historical and beautiful Pavilion estate and it is a Grade 1 listed building. This year we're in the <a href="https://brightondome.org/your_visit/venues/concert_hall/">concert hall</a>, the riding stable for the <a href="https://en.wikipedia.org/wiki/Brighton_Dome#History_of_the_buildings">Prince Regent and his 44 horses</a>.</p>
             <p>Registration from 9am with the first speaker on at 10am.</p>
@@ -521,7 +397,7 @@
     </style>
 
     <section id="sponsors">
-      <div class="overlay__outer" style="background-image: url('./images/photos/sponsors-35.jpg');">
+      <div class="overlay__outer" style="background-image: url('/2018/images/photos/sponsors-35.jpg');">
         <div class="overlay__inner">
           <div class="container color-white" style="">
             <h2 class="fs-xxxl mb0">Sponsors</h2>
@@ -547,13 +423,13 @@
               </div>
               <div class="sponsor__links icons-currentColor mt1">
                 <a href="https://balsamiq.com/" class="sponsor__link color-grey-30" title="balsamiq.com">
-                  <svg class="icon-web--small"><use xlink:href="./images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
                 </a>
                 <a href="https://twitter.com/balsamiq" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="./images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
                 </a>
                 <a href="https://www.facebook.com/balsamiq" class="sponsor__link color-grey-30" title="Facebook">
-                  <svg class="icon-facebook--small"><use xlink:href="./images/icons/social-sprite.svg#facebook"></use></svg>
+                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
                 </a>
               </div>
 
@@ -569,13 +445,13 @@
               </div>
               <div class="sponsor__links icons-currentColor mt1">
                 <a href="https://www.spacebetween.co.uk/" class="sponsor__link color-grey-30" title="spacebetween.co.uk">
-                  <svg class="icon-web--small"><use xlink:href="./images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
                 </a>
                 <a href="https://twitter.com/space__between" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="./images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
                 </a>
                 <a href="https://www.facebook.com/teamSpaceBetween/" class="sponsor__link color-grey-30" title="Facebook">
-                  <svg class="icon-facebook--small"><use xlink:href="./images/icons/social-sprite.svg#facebook"></use></svg>
+                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
                 </a>
               </div>
 
@@ -596,13 +472,13 @@
               </div>
               <div class="sponsor__links icons-currentColor mt1">
                 <a href="https://www.madgex.com/" class="sponsor__link color-grey-30" title="madgex.com">
-                  <svg class="icon-web--small"><use xlink:href="./images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
                 </a>
                 <a href="https://twitter.com/madgex" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="./images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
                 </a>
                 <a href="https://www.facebook.com/MadgexLtd" class="sponsor__link color-grey-30" title="Facebook">
-                  <svg class="icon-facebook--small"><use xlink:href="./images/icons/social-sprite.svg#facebook"></use></svg>
+                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
                 </a>
               </div>
 
@@ -651,7 +527,7 @@
         <div class="row pb5 flex-over-m">
 
           <div class="u1of2-over-m left-over-m pr2-over-m mb3 flex-over-m">
-            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link fill tile pv4 ph3   rounded drop relative" style="background: url('./images/speakers/Gerry4b.jpg') center center no-repeat #000; background-size: cover;">
+            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link fill tile pv4 ph3   rounded drop relative" style="background: url('/2018/images/speakers/Gerry4b.jpg') center center no-repeat #000; background-size: cover;">
               <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
               <h1 class="leading-solid mb2 color-white fs-xl relative">
                 <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">1-day Workshop</span>
@@ -662,7 +538,7 @@
                 <div class="color-white ">Thursday 1 Nov, 9–5</div>
               </div>
               <div>
-                <div href="https://uxbrighton.org.uk/2018/" class="button button--green bold standfirst mb0">Learn More</div>
+                <div href="/2018/" class="button button--green bold standfirst mb0">Learn More</div>
               </div>
             </a>
           </div>
@@ -685,113 +561,3 @@
 
     </section>
   </aside>
-
-
-
-
-  <footer class="bg-grey-90 color-grey-10 pv5">
-    <div class="container pt1 pb3">
-      <div class="row">
-        <div class="u1of2-over-m left-over-m gutter-right mb5">
-          <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Sign up for updates</h2>
-          <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
-            <label class="screen-reader-text" for="fieldEmail">Email</label>
-            <div class="input-group mt1 mb1">
-              <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
-              <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
-            </div><!-- input-group -->
-            <div id="newsletter-options" class="hidden">
-              <label class="bold pb0 block regular screen-reader-text">
-                Which topics are of interest to you?
-              </label>
-              <div class="">
-                <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked>
-                <label for="conference-mailinglist" class="">Conference news and workshops</label>
-              </div>
-              <div class="">
-                <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked>
-                <label for="newsletter-mailinglist" class="">The Newsletter: interesting links picked by the UX Brighton team</label>
-              </div>
-              <div class="">
-                <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
-                <label for="evening-events-mailinglist" class="">Evening events</label>
-              </div>
-            </div>
-            <div style="display:none;">
-              <label for="hp">HP</label><br/>
-              <input type="text" name="hp" id="hp"/>
-            </div>
-
-          </form>
-          <div id="js-signup-confirmation" class="button--green" style="padding: 1rem; display: none;">
-            <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
-          </div>
-          <nav class="social-icons icons-currentColor pt3 clearfix">
-            <div class="pb1 color-grey-40 screen-reader-text">Follow us:</div>
-            <a class="social-icons__link social-icons__link--slack" href="https://slofile.com/slack/uxbri">
-              <svg viewBox="0 0 409 409">
-                <use xlink:href="./images/icons/social-sprite.svg#slack"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--linkedin" href="https://www.linkedin.com/company/ux-brighton">
-              <svg viewBox="0 0 409 409">
-                <use xlink:href="./images/icons/social-sprite.svg#linkedin"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--youtube" href="https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw">
-              <svg viewBox="0 0 579 409">
-                <use xlink:href="./images/icons/social-sprite.svg#youtube"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--twitter" href="https://twitter.com/uxbri">
-              <svg viewBox="0 0 493 409">
-                <use xlink:href="./images/icons/social-sprite.svg#twitter"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--facebook" href="https://www.facebook.com/uxbrighton/" style="width:30px;">
-              <svg viewBox="0 0 409 409">
-                <use xlink:href="./images/icons/social-sprite.svg#icon-facebook2"></use>
-              </svg>
-            </a>
-
-
-          </nav>
-
-        </div><!-- u1of2-over-s -->
-        <div class="u1of2-over-m left-over-m gutter-left">
-          <nav>
-            <ul class="">
-              <li class="pb1 bold"><a href="./about">About UX Brighton</a></li>
-              <li class="pb6-over-l bold"><a href="https://uxbrighton.org.uk/JTBD-Workshop/">Archive: Videos, slides etc from previous events</a></li>
-              <li class="pt1">A <a class="bold inline-block" href="http://dannyhope.co.uk/">Danny Hope</a> Production</li>
-            </ul>
-          </nav>
-        </div><!-- u1of2-over-s -->
-      </div><!-- row -->
-
-    </div><!-- container -->
-  </footer>
-
-
-  <section id="styleguide"></section>
-
-  <!-- uncompressed -->
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
- <!-- compressed -->
-  <!-- <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script> -->
-
-  <!-- slim & compressed  https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/ -->
-  <!--<script
-     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous"></script> -->
-
-  <script src="./javascripts/scripts-min.js"></script>
-</body>
-</html>
