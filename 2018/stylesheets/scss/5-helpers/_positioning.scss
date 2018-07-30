@@ -4,7 +4,10 @@
 .fixed    { position:fixed }
 .static   { position:static }
 
-
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
 .centre-xy {
   position: absolute;
   top: 50%;
@@ -25,7 +28,12 @@
   .fixed-xl    { position:fixed }
 } 
 
-
+.full-screen-overlay {
+  position: fixed;
+  z-index: 9999; 
+  top: 0;left: 0;right: 0;bottom: 0;
+  width: 100%;height: 100%;
+}
 .intrinsic-fill {
   position: absolute;
   top: 0;left: 0;right: 0;bottom: 0;

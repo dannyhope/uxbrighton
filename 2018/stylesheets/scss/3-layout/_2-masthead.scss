@@ -21,21 +21,16 @@
     z-index: 100;
     font-weight: 700;
     box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-    @include under-m {
-    // top: auto;
-    // bottom: 0;
-    }
-
-    @include under-m {
+    @media (max-width: 830px) {
       .container {
-        padding: 0;
+        padding: 0 !important;
       }
-    }  
+    } 
   }
   .masthead__logo {
     float: left;
     width: $masthead-height;
-    @include over-m {
+    @media (min-width: 830px) {
       width: 80px;
       transition: all 0.4s ease-out;
     }
@@ -53,9 +48,11 @@
     letter-spacing: 0.5px;
     @include over-m {
       position: relative;
-      left: 24px;
       right: 0;
       //margin-left: 20px;
+    }
+    @media (min-width: 830px) {
+      left: 24px;
     }
     @include under-m {
       overflow: hidden;
@@ -70,7 +67,17 @@
   .masthead .nav-item {
     @include under-m {
       display: block;
+      width: 20%;
+      float: right;
+    }    
+    @include under-s {
+      display: block;
       width: 25%;
+      float: right;
+    }    
+  }
+  .page-conference-2018 .masthead .nav-item {
+    @include under-m {
       float: left;
     }    
   }

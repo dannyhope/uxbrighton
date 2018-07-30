@@ -6,23 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Taken from current website -->
-    <meta name="description" content="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information." >
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
     <meta name="first" content="UX Brighton, Friday 2 November. Advancing Research">
 
     <!-- facebook open graph tags -->
-      <meta property="og:type" content="website" >
-      <meta property="og:url" content="http://uxbrighton.org.uk/2018/" >
-      <meta property="og:title" content="UX Brighton, Friday 2 November. Advancing Research" >
-      <meta property="og:description" content="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information." >
-      <meta property="og:image" content="https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg" >
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}">
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
+      <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+
 
     <!-- twitter card tags additive with the og: tags -->
-        <meta name="twitter:card" content="summary_large_image" >
-        <meta name="twitter:image" content="https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg" >
-        <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
-        <meta name="twitter:title" value="UX Brighton, Friday 2 November. Advancing Research" >
-        <meta name="twitter:description" value="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information." >
-        <meta name="twitter:url" value="http://uxbrighton.org.uk/2018/" >
+      <meta name="twitter:card" content="summary_large_image" >
+      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+      <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
+      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
+      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
+      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}" >
 
     <!-- Icons -->
       <link rel="apple-touch-icon" href="https://uxbrighton.org.uk/2013/images/icon.png">
@@ -88,7 +89,7 @@
       ga('send', 'pageview');
     </script>
 </head>
-<body id="top" class="relative">
+<body id="top" class="relative {% if page.slug %}page-{{ page.slug }}{% endif %}">
 
   <header class="page-hd masthead">
     <nav class="container ">
@@ -109,6 +110,9 @@
             </li>
             <li class="nav-item inline-block ">
               <a href="#sponsors" class="masthead__link nav-link">Sponsors</a>
+            </li>
+            <li class="nav-item inline-block hidden-under-s">
+              <a href="#venue" class="masthead__link nav-link">Venue</a>
             </li>
             <li class="nav-item inline-block ">
               <a href="#workshop" class="masthead__link masthead__link--last">Workshop</a>
@@ -154,7 +158,7 @@
               </div>
               <div class="">
                 <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked>
-                <label for="newsletter-mailinglist" class="">The Newsletter: interesting links picked by the UX Brighton team</label>
+                <label for="newsletter-mailinglist" class="">Link Digest: interesting links picked by the UX Brighton team</label>
               </div>
               <div class="">
                 <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
@@ -205,9 +209,19 @@
         <div class="u1of2-over-m left-over-m gutter-left">
           <nav>
             <ul class="">
-              <li class="pb1 bold"><a href="/2018/about">About UX Brighton</a></li>
-              <li class="pb6-over-l bold"><a href="https://uxbrighton.org.uk/JTBD-Workshop/">Archive: Videos, slides etc from previous events</a></li>
-              <li class="pt1">A <a class="bold inline-block" href="http://dannyhope.co.uk/">Danny Hope</a> Production</li>
+              <li class="pb1 bold">
+                <a href="/2018/about">
+                  About UX Brighton
+                </a>
+              </li>
+              <li class="pb6-over-l bold">
+                <a href="#" onclick="$('body').attr('nav-active', 'true');return false;">
+                  Archive: Videos, slides etc from previous events
+                </a>
+              </li>
+              <li class="pt1">
+                A <a class="bold inline-block" href="http://dannyhope.co.uk/">Danny Hope</a> Production
+              </li>
             </ul>
           </nav>
         </div><!-- u1of2-over-s -->
@@ -215,6 +229,9 @@
 
     </div><!-- container -->
   </footer>
+
+  {% include nav-2018.html %}
+
 
 
   <section id="styleguide"></section>
@@ -237,5 +254,14 @@
     crossorigin="anonymous"></script> -->
 
   <script src="/2018/javascripts/scripts-min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+    <script>
+    var options = {
+      valueNames: [ 'post-excerpt']
+    };
+
+    var userList = new List('js-archive-nav', options);
+  </script>
 </body>
 </html>

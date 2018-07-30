@@ -858,14 +858,14 @@ body {
   font-weight: 700;
   -webkit-box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); }
-  @media only screen and (max-width: 730px) {
+  @media (max-width: 830px) {
     .masthead .container {
-      padding: 0; } }
+      padding: 0 !important; } }
 
 .masthead__logo {
   float: left;
   width: 48px; }
-  @media only screen and (min-width: 731px) {
+  @media (min-width: 830px) {
     .masthead__logo {
       width: 80px;
       -webkit-transition: all 0.4s ease-out;
@@ -880,8 +880,10 @@ body.scroll-started .masthead__logo {
   @media only screen and (min-width: 731px) {
     .masthead__links {
       position: relative;
-      left: 24px;
       right: 0; } }
+  @media (min-width: 830px) {
+    .masthead__links {
+      left: 24px; } }
   @media only screen and (max-width: 730px) {
     .masthead__links {
       overflow: hidden;
@@ -894,7 +896,17 @@ body.scroll-started .masthead__logo {
 @media only screen and (max-width: 730px) {
   .masthead .nav-item {
     display: block;
+    width: 20%;
+    float: right; } }
+
+@media only screen and (max-width: 450px) {
+  .masthead .nav-item {
+    display: block;
     width: 25%;
+    float: right; } }
+
+@media only screen and (max-width: 730px) {
+  .page-conference-2018 .masthead .nav-item {
     float: left; } }
 
 .masthead__link {
@@ -2631,6 +2643,10 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
 .static {
   position: static; }
 
+.centre {
+  margin-left: auto;
+  margin-right: auto; }
+
 .centre-xy {
   position: absolute;
   top: 50%;
@@ -2655,6 +2671,16 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
     position: absolute; }
   .fixed-xl {
     position: fixed; } }
+
+.full-screen-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; }
 
 .intrinsic-fill {
   position: absolute;
