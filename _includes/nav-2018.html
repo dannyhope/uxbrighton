@@ -43,12 +43,13 @@
     border-bottom: 1px solid #ddd;
 	}
 	.archive-nav__search-wrapper {
-		padding-top: 10px;
+		padding: 10px 0 0;
 		margin: 0 auto;
 		position: relative;
 	}
 	@media (max-width: 830px){
 		.archive-nav__search-wrapper {
+			padding: 10px 16px 0;
 			margin-right: 50px;
 		}
 	}
@@ -96,9 +97,12 @@
 				</g>
 			</svg>
 		</button>
-		<div class="ph2 archive-nav__search-wrapper width-m">
-			<img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 17px;left: 27px;">
-			<input class="search archive-nav__search" />
+		<div class=" archive-nav__search-wrapper width-m">
+			<div class="relative">
+				<img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 7px;left: 12px;">
+				<input class="search archive-nav__search" />				
+			</div>
+
 		</div>
 	</div>
 
