@@ -114,8 +114,8 @@
             <li class="nav-item inline-block hidden-under-s">
               <a href="#venue" class="masthead__link nav-link">Venue</a>
             </li>
-            <li class="nav-item inline-block ">
-              <a href="#workshop" class="masthead__link masthead__link--last">Workshop</a>
+            <li class="nav-item inline-block relative">
+              <a href="#workshop" class="masthead__link masthead__link--last">Workshop <span class="stamped">sold out</span></a>
             </li>
           {% endif %}
           <li class="nav-item inline-block nav-item--tickets">
@@ -214,7 +214,7 @@
                 </a>
               </li>
               <li class="pb6-over-l bold">
-                <a href="#" onclick="$('body').attr('nav-active', 'true');return false;">
+                <a href="#" onclick="$('body').attr('nav-active', 'true');$( '.archive-nav__search' ).focus();return false;">
                   Archive: Videos, slides etc from previous events
                 </a>
               </li>

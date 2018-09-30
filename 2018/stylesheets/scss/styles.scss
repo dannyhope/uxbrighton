@@ -74,6 +74,21 @@
   margin: 0;
 }
 
+span.stamped {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #e01650;
+  display: inline-block;
+  border: 2px solid;
+  padding: 2px 3px 1px;
+  -webkit-transform: rotate(5deg);
+  transform: rotate(-5deg);
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  line-height: 1;
+}
+
 
 
 
