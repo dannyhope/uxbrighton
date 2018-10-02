@@ -6,9 +6,9 @@
       line-height: $leading;
       font-weight: 300;
     }
-  .font-museo {
-    font-family: $font-museo;
-  }
+  // .font-museo {
+  //   font-family: $font-museo;
+  // }
   // Headings
     h1, h2, h3, h4, h5, h6 .masthead__link {
       font-family: $font-heading;
@@ -46,8 +46,8 @@
       font-weight: 900;
     }
     blockquote, q, i, em {
-      font-family: 'museo';
-      font-style: italic;      
+      // font-family: 'museo';
+      // font-style: italic;      
     }
 
   // other elements
@@ -106,7 +106,7 @@
     //   }
     .quotee {
       //text-align: right;
-      margin-top: -1em;
+      // margin-top: -1em;
       margin-bottom: 0;
       font-style: normal;
       &:before {

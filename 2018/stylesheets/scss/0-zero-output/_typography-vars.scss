@@ -37,9 +37,9 @@
 
   $font-heading:          'museo-sans', $font-sans;
   $font-body:             'museo-sans',$font-sans;
-  $font-quotes:           "museo", $font-sans;
-  $font-callout:          $font-sans;
-  $font-museo:            "museo", $font-sans;
+  $font-quotes:           $font-body;
+  $font-callout:          $font-body;
+ // $font-museo:            "museo", $font-sans;
 
 
 // Font sizes

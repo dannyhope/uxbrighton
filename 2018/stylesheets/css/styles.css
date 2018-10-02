@@ -390,9 +390,6 @@ body, input, textarea {
   line-height: 1.5;
   font-weight: 300; }
 
-.font-museo {
-  font-family: "museo", -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", "Arial Unicode MS", "DejaVu Sans", "Lucida Sans Unicode", "Segoe UI Symbol", "FreeSans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif; }
-
 h1, h2, h3, h4, h5, h6 .masthead__link {
   font-family: "museo-sans", -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", "Arial Unicode MS", "DejaVu Sans", "Lucida Sans Unicode", "Segoe UI Symbol", "FreeSans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif;
   font-weight: 900;
@@ -426,10 +423,6 @@ h6, .fs-h6 {
 
 strong {
   font-weight: 900; }
-
-blockquote, q, i, em {
-  font-family: 'museo';
-  font-style: italic; }
 
 ol,
 ul {
@@ -471,7 +464,6 @@ blockquote {
         position: absolute; } }
 
 .quotee {
-  margin-top: -1em;
   margin-bottom: 0;
   font-style: normal; }
   .quotee:before {
