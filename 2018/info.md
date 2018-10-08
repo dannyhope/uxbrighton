@@ -1,0 +1,282 @@
+---
+title: Attendee information
+layout: conference-2018
+permalink: /2018/info
+description: "Hopefully everything you need to know about coming to UX Brighton 2018"
+slug: "info"
+fullurl: "https://uxbrighton.org.uk/2018/info"
+---
+
+<main>
+
+
+  <section id="speakers">
+    <div class="overlay__outer" style="background-image: url('/2018/images/photos/attendees.jpg');background-position: center top">
+      <div class="overlay__inner" style="background: rgba(0,0,0,0.65);">
+        <div class="container">
+          <h1 class="fs-xxxl mb3 color-white">
+            <span class="fs-l mb1 block color-orange font-museo track-normal pt5" style="font-weight: 500;">UX Brighton 2018</span>
+            Attendee information
+          </h1>
+          <h2 class="mt0 fs-l regular track-normal mb6 color-white">
+            Friday 2 November, Brighton Dome
+          </h2>
+        </div><!-- container -->
+      </div><!-- overlay__inner -->
+    </div><!-- overlay__outer -->
+    <div class="overlay__after container bg-white">
+
+
+      <h2 class="h1 mt5" id="intro">
+        We want you to get the most out of your visit to UX Brighton.
+      </h2>
+      <p class="standfirst">Use this section to book discounted hotels, find out more about the day and where to eat and visit.</p>
+
+      <p class="standfirst">If you have any questions, email <a href="mailto:emmeline@uxbrighton.org.uk" class=" bold">emmeline@uxbrighton.org.uk</a>
+      or DM <a href="https://twitter.com/direct_messages/create/uxbri"  class=" bold">@uxbri</a> (DMs are open).</p>
+
+      <hr>
+
+      <h2 id="accessibility">Accessibility</h2>
+
+      <p>The venue is fully accessible. We would like to ensure that all delegates are able to have access therefore should you have any special requests please try to contact us in advance so we can accommodate your needs.</p>
+
+      <h2 id="pre-conf-meetup--1st-nov">Pre conf meetup – 1st Nov</h2>
+
+      <p>In town the night before? Come along from 7pm to <a href="https://www.fountainheadbrighton.pub/">The Fountainhead</a> and meet fellow delegates. It’s a relaxed pub with food served until 9pm. They do a good coffee too! Look out for <a href="https://uxbrighton.org.uk/about/#jay">Jay</a> in the bright green UX Brighton t-shirt.</p>
+
+      <h2 id="pre-event-networking--coffee--2nd-nov">Pre event networking &amp; coffee – 2nd Nov</h2>
+
+      <p>If you’re coming down early to the conference, <a href="https://goo.gl/maps/ffyRaa99HGv">Small Batch</a> is practically next to The Dome and open from 7am and is a great place to grab a coffee and meet fellow attendees.</p>
+
+      <h2 id="best-wifi-cafes">Best Wifi Cafes</h2>
+
+      <p>If you’re spending some extra time in Brighton, it might be useful to drop by a café with wifi, so local business Officreche has a complete guide for you: <a href="https://el2.convertkit-mail2.com/c/wvuq4wzqebghkpvkz/2ou2ho/aHR0cHM6Ly93d3cub2ZmaWNyZWNoZS5jb20vYmxvZy9hLWd1aWRlLXRvLWJyaWdodG9ucy1iZXN0LXdpZmktY2FmZXMv">https://www.officreche.com/blog/a-guide-to-brightons-best-wifi-cafes</a></p>
+
+      <h2 id="harassment">Harassment</h2>
+
+      <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a bright green UX Brighton t-shirt – or by calling or texting the number printed on your name badge. This will be answered by someone on site.</p>
+
+      <p><strong>We reserve the right to refuse admission.</strong></p>
+
+      <h2 id="accommodation">Accommodation</h2>
+
+      <p>Our friends at Visit Brighton have put together <a href="https://book.passkey.com/event/49767965/owner/9736716/home">a comprehensive list of accommodation at specially negotiated rates for UX Brighton delegates</a>. This website will be open for bookings <em>until 25th October 2018</em>, but we advise early booking in order to guarantee your preferred hotel.</p>
+
+      <p>Discounted hotel rates for UX Brighton delegates: <a href="https://book.passkey.com/event/49767965/owner/9736716/home">https://book.passkey.com/event/49767965/owner/9736716/home</a></p>
+
+      <h2 id="travel">Travel</h2>
+
+      <ul>
+        <li>
+          <p>Parking is expensive, so if you can avoid driving, please consider travelling by train or bus.</p>
+        </li>
+        <li>
+          <p>Travelling from overseas? Gatwick is the nearest airport. Trains take approx 30 mins to Brighton.</p>
+        </li>
+        <li>
+          <p>We recommend using <a href="https://traintimes.org.uk/">traintimes.org.uk</a> for up to date train timetables.</p>
+        </li>
+        <li>
+          <p>You can find taxis at the front of Brighton station, or it’s a <a href="https://goo.gl/maps/YigaTebcGPU2">9 minute walk</a>.</p>
+        </li>
+        <li>
+          <p>There is no parking available at the venue. The nearest NCP is on Church Street, <a href="http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/">details are here</a> including a pre-booking option. The next nearest is on <a href="http://www.brighton-hove.gov.uk/content/parking-and-travel/parking/trafalgar-street-car-park">Trafalgar Street</a>.</p>
+        </li>
+        <li>
+          <p>Disabled drivers can <a href="https://brightondome.org/files/86bed4d68bdd6ba30dd8768f7c79e8e5.pdf">download the Dome’s “How to get here and Blue Badge parking information</a> (PDF).</p>
+        </li>
+      </ul>
+
+      <h2 id="registration">Registration</h2>
+
+      <ul>
+        <li>
+          <p>Doors will open at 9am for registration. Name badges will be arranged alphabetically by first name.</p>
+        </li>
+        <li>
+          <p>Complimentary pastries and refreshments will be available.</p>
+        </li>
+        <li>
+          <p>Use the <a href="http://brightondome.org/your_visit/venues/corn_exchange/">Dome entrance</a> on Church Street. It’s approx <a href="https://goo.gl/maps/zkU5qz2Zyok">9 mins walk</a> from the train station</p>
+        </li>
+        <li>
+          <p>Please note that The Dome may conduct bag searches.</p>
+        </li>
+        <li>
+          <p>Please be seated by 9.50am so you don’t miss anything.</p>
+        </li>
+        <li>
+          <p>We’re in the beautiful <a href="https://brightondome.org/your_visit/venues/concert_hall/">Concert Hall</a> again, which is comfortable and very spacious.</p>
+        </li>
+      </ul>
+
+      <h2 id="refreshments">Refreshments</h2>
+
+      <ul>
+        <li>
+          <p>Complimentary breakfast pastries (from 9am) and fruit throughout the day.</p>
+        </li>
+        <li>
+          <p>Coffee, tea and water will be available all day in the Foyer bar.</p>
+        </li>
+        <li>
+          <p>Drinks can be brought through to the auditorium if they have a lid. Consider the environment and bring your own re-usuable lidded cup if possible.</p>
+        </li>
+        <li>
+          <p>There will be 3 breaks during the day.</p>
+        </li>
+        <li>
+          <p>Lunch is not included, however there are loads of places to eat close to the venue; <a href="https://www.alduomo.co.uk/">Al Duomo</a>, <a href="http://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton">All Bar One</a>, <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186273-d3815712-Reviews-Bellota-Brighton_East_Sussex_England.html">Bellota Bar Y Tapas</a>, <a href="http://thechillipickle.com/">The Chilli Pickle</a>, <a href="http://www.donatello.co.uk/">Donatello</a>, <a href="http://www.foodforfriends.com/">Food for Friends (vegetarian)</a>, <a href="http://www.gbk.co.uk/location/brighton">Gourmet Burger Kitchen</a>, <a href="http://www.pinocchio.co.uk/">Pinnocchio</a>, Pizza Express (<a href="https://www.pizzaexpress.com/brighton-jubilee-street">Jubliee Street</a> &amp; <a href="https://www.pizzaexpress.com/brighton-the-lanes">Prince Albert Street</a>) and <a href="https://www.tripadvisor.co.uk/Restaurants-g186273-Brighton_East_Sussex_England.html">many, many more</a>.</p>
+        </li>
+        <li>
+          <p>Travelling to UX Brighton alone? We are arranging a ‘Lunch with Strangers’. There is a table booked at Pizza Express, Jubilee St (just ask for the UX Brighton booking) - don’t be lonely, go there and meet new friends. Introverts welcome!</p>
+        </li>
+      </ul>
+
+      <h2 id="cloakroom">Cloakroom</h2>
+
+      <ul>
+        <li>
+          <p>We have coat-racks for you to hang your coats on, but there isn’t a dedicated cloakroom.</p>
+        </li>
+        <li>
+          <p>Ours is the only event happening at the venue on the day, and is not open to the public, however items are left at your own risk.</p>
+        </li>
+        <li>
+          <p>Please report any lost property to the registration desk. UX Brighton &amp; Brighton Dome takes no responsibility for delegate’s lost property so we ask you to be vigilant at all times.</p>
+        </li>
+      </ul>
+
+      <h2 id="wifi">Wifi</h2>
+
+      <p>There will be wifi at the venue so feel free to tweet, insta, blog, and make notes during the day.</p>
+
+      <h2 id="charging-stations">Charging stations</h2>
+
+      <p>There will be several 4-ways available in the Founders Room, to the left of the main Foyer bar, and also on the Mezzanine level which is upstairs, to the right of the Foyer bar. Plug sockets are limited in the Concert Hall so we’d recommend bringing a power pack. If you’re travelling from outside the UK, remember your adaptor.</p>
+
+      <h1 id="photography--filming">Photography &amp; Filming</h1>
+
+      <ul>
+        <li>
+          <p>We are filming again this year and will release the talks soon after the event.</p>
+        </li>
+        <li>
+          <p>We have an official photographer for the day, however you are welcome, in fact encouraged, to take your own too. We’d love to see them - see our Social Media tag for places to share them.</p>
+        </li>
+      </ul>
+
+      <h2 id="social-media">Social Media</h2>
+
+      <ul>
+        <li>
+          <p>Please tag with #uxbri</p>
+        </li>
+        <li>
+          <p>Twitter: <a href="https://twitter.com/uxbri">@uxbri</a>  <a href="https://twitter.com/uxbri">https://twitter.com/uxbri</a></p>
+        </li>
+        <li>
+          <p>Facebook: <a href="https://www.facebook.com/uxbrighton/">https://www.facebook.com/uxbrighton/</a></p>
+        </li>
+        <li>
+          <p>We live Tweet the event - great for looking back on if you missed any of the references made during the day.</p>
+        </li>
+        <li>
+          <p>Feel free to follow the Twitter account @uxbri for the latest info on the event.</p>
+        </li>
+      </ul>
+
+      <h2 id="slack">Slack</h2>
+
+      <p>Did you know we have a Slack group with over 500 members? You can join here: <a href="http://slack.uxbrighton.org.uk/">http://slack.uxbrighton.org.uk/</a>. Chat, ask questions, post or look for jobs, find events - we’re a friendly bunch!</p>
+
+      <h2 id="after-party">After Party</h2>
+
+      <ul>
+        <li>
+          <p>Join us for after conference drinks in the Foyer Bar (at the venue) until 9pm.</p>
+        </li>
+        <li>
+          <p>Keep your name badge with you if you want to leave and come back again.</p>
+        </li>
+        <li>
+          <p>Collect your drinks voucher at registration.</p>
+        </li>
+        <li>
+          <p>Your voucher is valid for a selection of alcoholic and non-alcoholic drinks.</p>
+        </li>
+      </ul>
+
+      <h2 id="tickets">Reminder about tickets</h2>
+
+      <ul>
+        <li>
+          <p>We are unable to issue refunds or transfers.</p>
+        </li>
+        <li>
+          <p>Of course you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list</p>
+        </li>
+        <li>
+          <p>Ticket sales end 4pm Thursday 1st November</p>
+        </li>
+        <li>
+          <p>We can’t take payment on the day. Sorry.</p>
+        </li>
+      </ul>
+
+      <p>Thanks for reading, we look forward to seeing you on the 2nd!</p>
+
+      <p>Danny &amp; Emm, <a href="https://twitter.com/uxbri">UX Brighton</a> (DMs are open)</p>
+
+
+
+  </section>
+
+</main>
+
+
+
+
+<aside>
+  <section id="promotions" style="min-height: 0;">
+    <div class="container"><hr>
+      <h3 class="fs-h2 mt5">Other UX Brighton events</h3>
+      <div class="row pb5 flex-over-m">
+
+        <div class="u1of2-over-m left-over-m pr2-over-m mb3 flex-over-m">
+          <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link fill tile pv4 ph3   rounded drop relative" style="background: url('/2018/images/speakers/Gerry4b.jpg') center center no-repeat #000; background-size: cover;">
+            <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+            <h1 class="leading-solid mb2 color-white fs-xl relative">
+              <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">1-day Workshop</span>
+              Top Tasks Workshop with Gerry McGovern
+            </h1>
+            <div class="mt0 regular track-normal mb3 relative">
+              <div class="color-white mb1">Measuring the Customer Experience with Top Tasks</div>
+              <div class="color-white ">Thursday 1 Nov, the day before UX Brighton — Sold Out</div>
+            </div>
+            <div>
+              <div href="/2018/" class="button button--green bold standfirst mb0">Learn More</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="u1of2-over-m left-over-m pl2-over-m mb3 flex-over-m">
+          <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link tile pv4 ph3 bg-grey-5 color-grey-60 fill">
+            <h3>
+              How do you know what really matters to your customers?
+            </h3>
+            <div class="block-link__summary">
+              <p>Truly understand what’s working, <em>what isn’t</em>, and learn how to make things better.</p>
+              <p>Gerry McGovern will be running a hands-on practical workshop on how to use the Top Tasks Identification method.</p>
+              <p>The Top Tasks Workshop is the day before UX Brighton 2018.</p>
+              <p class="block-link__highlight"><strong>Learn more about the Top Tasks Workshop (sold out)</strong></p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+</aside>
