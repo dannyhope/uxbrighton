@@ -30,7 +30,7 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
       <h2 class="h1 mt5" id="intro">
         We want you to get the most out of your visit to UX Brighton.
       </h2>
-      <p class="standfirst">Use this section to book discounted hotels, find out more about the day and where to eat and visit.</p>
+      <p class="standfirst">Use this section to <a href='#accommodation'>book discounted hotels</a>, find out more about the day and where to <a href='#refreshments'>eat</a> and visit.</p>
 
       <p class="standfirst">If you have any questions, email <a href="mailto:emmeline@uxbrighton.org.uk" class=" bold">emmeline@uxbrighton.org.uk</a>
       or DM <a href="https://twitter.com/direct_messages/create/uxbri"  class=" bold">@uxbri</a> (DMs are open).</p>
@@ -55,7 +55,7 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
 
       <h2 id="harassment">Harassment</h2>
 
-      <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a bright green UX Brighton t-shirt – or by calling or texting the number printed on your name badge. This will be answered by someone on site.</p>
+      <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a bright green UX Brighton t-shirt – or by calling or texting the number printed on your name badge. This will be answered by an on-site member of staff.</p>
 
       <p><strong>We reserve the right to refuse admission.</strong></p>
 
