@@ -122,25 +122,27 @@
             <li class="nav-item inline-block">
               <a href="#before" class="masthead__link nav-link">Before</a>
             </li>
-            <li class="nav-item inline-block ">
-              <a href="#travel-and-accomodation" class="masthead__link nav-link">Travel & accomodation</a>
+            <li class="nav-item inline-block">
+              <a href="#travel-and-accomodation" class="masthead__link nav-link">Travel</a>
             </li>
-            <li class="nav-item inline-block hidden-under-s">
-              <a href="#on-the-day" class="masthead__link nav-link">On the day</a>
+            <li class="nav-item inline-block relative">
+              <a href="#on-the-day" class="masthead__link masthead__link--last">On the day</a>
             </li>
           {% endif %}
-          <li class="nav-item inline-block nav-item--tickets">
-            {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
-              <a
-               href="https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets"
-               class="button button--green">Sold Out
-            {% else %}
-              <a
-               href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets"
-               class="button button--green">Buy Tickets
-            {% endif %}
-          </a>
-          </li>
+          {% if page.name != "info.html" %}
+            <li class="nav-item inline-block nav-item--tickets">
+              {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
+                <a
+                 href="https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets"
+                 class="button button--green">Sold Out
+              {% else %}
+                <a
+                 href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets"
+                 class="button button--green">Buy Tickets
+              {% endif %}
+            </a>
+            </li>
+          {% endif %}
         </ul>
       </div><!-- masthead__links -->
 

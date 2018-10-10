@@ -8,7 +8,7 @@ function(){if("undefined"!=typeof window&&window.addEventListener){var t=Object.
 
 $(document).ready(function(){
 var ToC =
-"<nav role='navigation' class='table-of-contents' style='float: right; right: 100%; width: 40%; margin-left: 1rem; margin-bottom: 1rem; font-size: 1rem; background-color: #f2f3f3; padding: 1rem'>" +
+"<nav role='navigation' class='table-of-contents'>" +
   "<strong>On this page</strong>" +
   "<ul>";
 
@@ -22,7 +22,7 @@ link = "#" + el.attr("id");
 
 newLine =
   "<li>" +
-    "<a href='" + link + "'>" +
+    "<a href='" + link + "'>• " +
       title +
     "</a>" +
   "</li>";
