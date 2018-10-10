@@ -118,6 +118,17 @@
               <a href="#workshop" class="masthead__link masthead__link--last">Workshop <span class="stamped">sold out</span></a>
             </li>
           {% endif %}
+          {% if page.name == "info.html" %}
+            <li class="nav-item inline-block">
+              <a href="#before" class="masthead__link nav-link">Before</a>
+            </li>
+            <li class="nav-item inline-block ">
+              <a href="#travel-and-accomodation" class="masthead__link nav-link">Travel & accomodation</a>
+            </li>
+            <li class="nav-item inline-block hidden-under-s">
+              <a href="#on-the-day" class="masthead__link nav-link">On the day</a>
+            </li>
+          {% endif %}
           <li class="nav-item inline-block nav-item--tickets">
             {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
               <a
