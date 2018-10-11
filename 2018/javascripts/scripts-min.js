@@ -5,3 +5,35 @@ function scrollTo(t,e,o){function i(t){document.documentElement.scrollTop=t,docu
  * @version   1.2.6
  */
 function(){if("undefined"!=typeof window&&window.addEventListener){var t=Object.create(null),e,o=function(){clearTimeout(e),e=setTimeout(s,100)},i=function(){},n=function(){if(window.addEventListener("resize",o,!1),window.addEventListener("orientationchange",o,!1),window.MutationObserver){var t=new MutationObserver(o);t.observe(document.documentElement,{childList:!0,subtree:!0,attributes:!0}),i=function(){try{t.disconnect(),window.removeEventListener("resize",o,!1),window.removeEventListener("orientationchange",o,!1)}catch(t){}}}else document.documentElement.addEventListener("DOMSubtreeModified",o,!1),i=function(){document.documentElement.removeEventListener("DOMSubtreeModified",o,!1),window.removeEventListener("resize",o,!1),window.removeEventListener("orientationchange",o,!1)}},r=function(t){function e(t){if(void 0!==t.protocol)var e=t;else e=document.createElement("a"),e.href=t;return e.protocol.replace(/:/g,"")+e.host}if(window.XMLHttpRequest){var o=new XMLHttpRequest,i=e(location);t=e(t),o=void 0===o.withCredentials&&""!==t&&t!==i?XDomainRequest||void 0:XMLHttpRequest}return o},s=function(){function e(){0===--h&&(i(),n())}function o(e){return function(){!0!==t[e.base]&&(e.useEl.setAttributeNS("http://www.w3.org/1999/xlink","xlink:href","#"+e.hash),e.useEl.hasAttribute("href")&&e.useEl.setAttribute("href","#"+e.hash))}}function s(t){return function(){var o=document.body,i=document.createElement("x");t.onload=null,i.innerHTML=t.responseText,(i=i.getElementsByTagName("svg")[0])&&(i.setAttribute("aria-hidden","true"),i.style.position="absolute",i.style.width=0,i.style.height=0,i.style.overflow="hidden",o.insertBefore(i,o.firstChild)),e()}}function a(t){return function(){t.onerror=null,t.ontimeout=null,e()}}var l,c,h=0;i();var d=document.getElementsByTagName("use");for(c=0;c<d.length;c+=1){try{var u=d[c].getBoundingClientRect()}catch(t){u=!1}var f=(l=d[c].getAttribute("href")||d[c].getAttributeNS("http://www.w3.org/1999/xlink","href")||d[c].getAttribute("xlink:href"))&&l.split?l.split("#"):["",""],m=f[0];f=f[1];var p=u&&0===u.left&&0===u.right&&0===u.top&&0===u.bottom;u&&0===u.width&&0===u.height&&!p?(m.length||!f||document.getElementById(f)||(m=""),d[c].hasAttribute("href")&&d[c].setAttributeNS("http://www.w3.org/1999/xlink","xlink:href",l),m.length&&(l=t[m],!0!==l&&setTimeout(o({useEl:d[c],base:m,hash:f}),0),void 0===l&&void 0!==(f=r(m))&&(l=new f,t[m]=l,l.onload=s(l),l.onerror=a(l),l.ontimeout=a(l),l.open("GET",m),l.send(),h+=1))):p?m.length&&t[m]&&setTimeout(o({useEl:d[c],base:m,hash:f}),0):void 0===t[m]?t[m]=!0:t[m].onload&&(t[m].abort(),delete t[m].onload,t[m]=!0)}d="",h+=1,e()},a=function(){window.removeEventListener("load",a,!1),e=setTimeout(s,0)};"complete"!==document.readyState?window.addEventListener("load",a,!1):a()}}();
+
+$(document).ready(function(){
+var ToC =
+"<nav role='navigation' class='table-of-contents'>" +
+  "<strong>On this page</strong>" +
+  "<ul>";
+
+var newLine, el, title, link;
+
+$("#info h3[id]").each(function() {
+
+el = $(this);
+title = el.text();
+link = "#" + el.attr("id");
+
+newLine =
+  "<li>" +
+    "<a href='" + link + "'>• " +
+      title +
+    "</a>" +
+  "</li>";
+
+ToC += newLine;
+
+});
+
+ToC +=
+ "</ul>" +
+"</nav>";
+
+$("[data-toc]").after(ToC);
+});
