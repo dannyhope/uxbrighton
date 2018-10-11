@@ -23,7 +23,7 @@ $(function() {
   $('body').scrollspy({ target: '.masthead__links',offset: navScrollOffset });
 
   // smoothly scroll to in-page links, uses request animation frame for smoothness
-  $(document).on('click', 'a[href^="#"]:not([href="#"])', function() {
+  $(document).on('click tap', 'a[href^="#"]:not([href="#"])', function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') || location.hostname == this.hostname) {
     var target = $(this.hash);
     console.log('target',target);

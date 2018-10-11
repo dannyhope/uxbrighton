@@ -50,7 +50,7 @@ $(".container").fitVids(),699<$(window).width())var i=$(".masthead").height()-1;
 // bootstrap scrollspy, automatically highlights the menu
 $("body").scrollspy({target:".masthead__links",offset:t}),
 // smoothly scroll to in-page links, uses request animation frame for smoothness
-$(document).on("click",'a[href^="#"]:not([href="#"])',function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")||location.hostname==this.hostname){var t=$(this.hash);console.log("target",t);var e=(t=t.length?t:$("[name="+this.hash.slice(1)+"]")).offset().top-i;console.log("_goto",e),t.length&&scrollTo(e,null,o)}}),
+$(document).on("click tap",'a[href^="#"]:not([href="#"])',function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")||location.hostname==this.hostname){var t=$(this.hash);console.log("target",t);var e=(t=t.length?t:$("[name="+this.hash.slice(1)+"]")).offset().top-i;console.log("_goto",e),t.length&&scrollTo(e,null,o)}}),
 // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
 $("form.newletter-signup").submit(function(t){var e=t.target;t.preventDefault(),$.post(e.action,$(e).serialize()),$("form.newletter-signup").remove(),$("#js-signup-confirmation").show()})}),
 /*!
