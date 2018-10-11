@@ -9,19 +9,40 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
 
 <style>
   .table-of-contents {
-    float: right;
-    right: 100%;
-    width: 40%;
-    margin-left: 1rem;
     margin-bottom: 1rem;
     font-size: 1rem;
     background-color: #f2f3f3;
     padding: 1rem;
+
+  }
+  .table-of-contents a {
+    padding: 5px 0;
+  }
+  .overlay__after h3 {
+    margin: 1.25em 0 0.25em;
+  }
+  .overlay__after h3:target {
+    /*border-bottom: 2px solid #C9003A;*/
+    padding-top: 20px;
+  }
+  @media (min-width: 731px) {
+    .table-of-contents {
+      margin-left: 1rem;
+      float: right;
+      width: 30%;
+      position: sticky;
+      right: 0;
+      top: 70px;
+      max-height: calc(100vh - 80px);
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
   }
   @media (max-width: 450px) {
-    .table-of-contents {
+    /*.table-of-contents {
       font-size: 0.6rem;
-    }
+    }*/
     .masthead .nav-item {
       float: left;
     }
@@ -34,11 +55,11 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
     <div class="overlay__outer" style="background-image: url('/2018/images/photos/attendees.jpg');background-position: center top">
       <div class="overlay__inner" style="background: rgba(0,0,0,0.65);">
         <div class="container">
-          <h1 class="fs-xxxl mb3 color-white">
+          <h1 class="fs-xxxl mb1 color-white">
             <span class="fs-l mb1 block color-orange font-museo track-normal pt5" style="font-weight: 500;">UX Brighton 2018</span>
             Attendee information
           </h1>
-          <h2 class="mt0 fs-l regular track-normal mb6 color-white">
+          <h2 class="mv0 fs-l regular track-normal color-white">
             Friday 2 November, Brighton Dome
           </h2>
         </div><!-- container -->
@@ -46,213 +67,219 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
     </div><!-- overlay__outer -->
     <div class="overlay__after container bg-white">
 
+      <div class="-u2of3-over-m">
+        
 
-      <h2 class="h1 mt5" id="intro">
-        We want you to get the most out of your visit to UX Brighton.
-      </h2>
-      <p class="standfirst">Use this section to <a href='#accommodation'>book discounted hotels</a>, find out <a href="#on-the-day">more about the day</a> and where to <a href='#refreshments'>eat</a> and visit.</p>
+        <h2 class="h1 mt5" id="intro">
+          We want you to get the most out of your visit to UX Brighton.
+        </h2>
+        <p class="standfirst">Use this section to <a href='#accommodation'>book discounted hotels</a>, find out <a href="#on-the-day">more about the day</a> and where to <a href='#refreshments'>eat</a> and visit.</p>
 
-      <p class="standfirst">If you have any questions, email <a href="mailto:emmeline@uxbrighton.org.uk" class=" bold">emmeline@uxbrighton.org.uk</a>
-      or DM <a href="https://twitter.com/direct_messages/create/uxbri"  class=" bold">@uxbri</a> (DMs are open).</p>
+        <p class="standfirst pb2">If you have any questions, email <a href="mailto:emmeline@uxbrighton.org.uk" class=" bold">emmeline@uxbrighton.org.uk</a>
+        or DM <a href="https://twitter.com/direct_messages/create/uxbri"  class=" bold">@uxbri</a> (DMs are open).</p>
+      </div>
 
       <hr data-toc>
+      
+      <div class="u2of3-over-m">
+        <a name="before"></a>
+        <h3 id="accessibility">Accessibility</h3>
 
-      <a name="before"></a>
-      <h3 id="accessibility">Accessibility</h3>
+        <p>The venue is fully accessible. We would like to ensure that all delegates are able to have access therefore should you have any special requests please try to contact us in advance so we can accommodate your needs.</p>
 
-      <p>The venue is fully accessible. We would like to ensure that all delegates are able to have access therefore should you have any special requests please try to contact us in advance so we can accommodate your needs.</p>
+        <h3 id="pre-conf-meetup--1st-nov">Pre-conf meetup – 1<sup>st</sup> Nov</h3>
 
-      <h3 id="pre-conf-meetup--1st-nov">Pre-conf meetup – 1<sup>st</sup> Nov</h3>
+        <p>In town the night before? Come along from 7pm to <a href="https://www.fountainheadbrighton.pub/">The Fountainhead</a> and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for <a href="https://uxbrighton.org.uk/about/#jay">Jay</a> in the bright green UX Brighton t-shirt.</p>
 
-      <p>In town the night before? Come along from 7pm to <a href="https://www.fountainheadbrighton.pub/">The Fountainhead</a> and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for <a href="https://uxbrighton.org.uk/about/#jay">Jay</a> in the bright green UX Brighton t-shirt.</p>
+        <h3 id="pre-event-networking--coffee--2nd-nov">Pre-event networking &amp; coffee – 2<sup>nd</sup> Nov</h3>
 
-      <h3 id="pre-event-networking--coffee--2nd-nov">Pre-event networking &amp; coffee – 2<sup>nd</sup> Nov</h3>
+        <p>If you’re coming down early to the conference, <a href="https://goo.gl/maps/ffyRaa99HGv">Small Batch</a> is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.</p>
 
-      <p>If you’re coming down early to the conference, <a href="https://goo.gl/maps/ffyRaa99HGv">Small Batch</a> is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.</p>
+        <h3 id="best-wifi-cafes">Best Wifi Cafes</h3>
 
-      <h3 id="best-wifi-cafes">Best Wifi Cafes</h3>
+        <p>If you’re spending some extra time in Brighton, it might be useful to drop by a <a href="https://restaurantsbrighton.co.uk/cafes-coffee-shops-with-wi-fi-brighton-hove">café with wifi</a>. Restaurants Brighton has a comprehensive guide for you: <a href="https://restaurantsbrighton.co.uk/cafes-coffee-shops-with-wi-fi-brighton-hove/">https://restaurantsbrighton.co.uk/cafes-coffee-shops-with-wi-fi-brighton-hove</a></p>
 
-      <p>If you’re spending some extra time in Brighton, it might be useful to drop by a <a href="https://restaurantsbrighton.co.uk/cafes-coffee-shops-with-wi-fi-brighton-hove">café with wifi</a>. Restaurants Brighton has a comprehensive guide for you: <a href="https://restaurantsbrighton.co.uk/cafes-coffee-shops-with-wi-fi-brighton-hove/">https://restaurantsbrighton.co.uk/cafes-coffee-shops-with-wi-fi-brighton-hove</a></p>
+        <h3 id="harassment">Harassment</h3>
 
-      <h3 id="harassment">Harassment</h3>
+        <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a bright green UX Brighton t-shirt – or by calling or texting <strong>07538 128 016</strong>. This number is also printed on your name badge. Your call will be answered by an on-site member of our staff.</p>
 
-      <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a bright green UX Brighton t-shirt – or by calling or texting <strong>07538 128 016</strong>. This number is also printed on your name badge. Your call will be answered by an on-site member of our staff.</p>
+        <p><strong>We reserve the right to refuse admission.</strong></p>
 
-      <p><strong>We reserve the right to refuse admission.</strong></p>
+        <a name="travel-and-accomodation"></a>
+        <h3 id="accommodation">Accommodation</h3>
 
-      <a name="travel-and-accomodation"></a>
-      <h3 id="accommodation">Accommodation</h3>
+        <p>Our friends at Visit Brighton have put together <a href="https://book.passkey.com/event/49767965/owner/9736716/home">a comprehensive list of accommodation at specially negotiated rates for UX Brighton delegates</a>. This website is open for bookings <em>until 25th October 2018</em>; we advise early booking in order to guarantee your preferred hotel.</p>
 
-      <p>Our friends at Visit Brighton have put together <a href="https://book.passkey.com/event/49767965/owner/9736716/home">a comprehensive list of accommodation at specially negotiated rates for UX Brighton delegates</a>. This website is open for bookings <em>until 25th October 2018</em>; we advise early booking in order to guarantee your preferred hotel.</p>
+        <p>Discounted hotel rates for UX Brighton delegates: <a href="https://book.passkey.com/event/49767965/owner/9736716/home">https://book.passkey.com/event/49767965/owner/9736716/home</a></p>
 
-      <p>Discounted hotel rates for UX Brighton delegates: <a href="https://book.passkey.com/event/49767965/owner/9736716/home">https://book.passkey.com/event/49767965/owner/9736716/home</a></p>
+        <h3 id="travel">Travel</h3>
 
-      <h3 id="travel">Travel</h3>
+        <ul>
+          <li>
+            <p>Parking is expensive, so if you can avoid driving, please consider travelling by train or bus.</p>
+          </li>
+          <li>
+            <p>Travelling from overseas? Gatwick is the nearest airport. Trains take approx 30 mins to Brighton.</p>
+          </li>
+          <li>
+            <p>We recommend using <a href="https://traintimes.org.uk/">traintimes.org.uk</a> for up to date train timetables.</p>
+          </li>
+          <li>
+            <p>You can find taxis at the front of Brighton station, or it’s a <a href="https://goo.gl/maps/YigaTebcGPU2">9 minute walk</a>.</p>
+          </li>
+          <li>
+            <p>There is no parking available at the venue. The nearest NCP is on Church Street, <a href="http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/">details are here</a> including a pre-booking option. The next nearest is on <a href="http://www.brighton-hove.gov.uk/content/parking-and-travel/parking/trafalgar-street-car-park">Trafalgar Street</a>.</p>
+          </li>
+          <li>
+            <p>Disabled drivers can <a href="https://brightondome.org/files/86bed4d68bdd6ba30dd8768f7c79e8e5.pdf">download the Dome’s “How to get here and Blue Badge parking information</a> (PDF).</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>Parking is expensive, so if you can avoid driving, please consider travelling by train or bus.</p>
-        </li>
-        <li>
-          <p>Travelling from overseas? Gatwick is the nearest airport. Trains take approx 30 mins to Brighton.</p>
-        </li>
-        <li>
-          <p>We recommend using <a href="https://traintimes.org.uk/">traintimes.org.uk</a> for up to date train timetables.</p>
-        </li>
-        <li>
-          <p>You can find taxis at the front of Brighton station, or it’s a <a href="https://goo.gl/maps/YigaTebcGPU2">9 minute walk</a>.</p>
-        </li>
-        <li>
-          <p>There is no parking available at the venue. The nearest NCP is on Church Street, <a href="http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/">details are here</a> including a pre-booking option. The next nearest is on <a href="http://www.brighton-hove.gov.uk/content/parking-and-travel/parking/trafalgar-street-car-park">Trafalgar Street</a>.</p>
-        </li>
-        <li>
-          <p>Disabled drivers can <a href="https://brightondome.org/files/86bed4d68bdd6ba30dd8768f7c79e8e5.pdf">download the Dome’s “How to get here and Blue Badge parking information</a> (PDF).</p>
-        </li>
-      </ul>
+        <a name="on-the-day"></a>
+        <h3 id="registration">Registration</h3>
 
-      <a name="on-the-day"></a>
-      <h3 id="registration">Registration</h3>
+        <ul>
+          <li>
+            <p>Doors will open at 9am for registration. Name badges will be arranged alphabetically by first name.</p>
+          </li>
+          <li>
+            <p>Complimentary pastries and refreshments will be available.</p>
+          </li>
+          <li>
+            <p>Use the <a href="http://brightondome.org/your_visit/venues/corn_exchange/">Dome entrance</a> on Church Street. It’s approx <a href="https://goo.gl/maps/zkU5qz2Zyok">9 mins walk</a> from the train station</p>
+          </li>
+          <li>
+            <p>Please note that The Dome may conduct bag searches.</p>
+          </li>
+          <li>
+            <p>Please be seated by 9.50am so you don’t miss anything.</p>
+          </li>
+          <li>
+            <p>We’re in the beautiful <a href="https://brightondome.org/your_visit/venues/concert_hall/">Concert Hall</a> again, which is comfortable and very spacious.</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>Doors will open at 9am for registration. Name badges will be arranged alphabetically by first name.</p>
-        </li>
-        <li>
-          <p>Complimentary pastries and refreshments will be available.</p>
-        </li>
-        <li>
-          <p>Use the <a href="http://brightondome.org/your_visit/venues/corn_exchange/">Dome entrance</a> on Church Street. It’s approx <a href="https://goo.gl/maps/zkU5qz2Zyok">9 mins walk</a> from the train station</p>
-        </li>
-        <li>
-          <p>Please note that The Dome may conduct bag searches.</p>
-        </li>
-        <li>
-          <p>Please be seated by 9.50am so you don’t miss anything.</p>
-        </li>
-        <li>
-          <p>We’re in the beautiful <a href="https://brightondome.org/your_visit/venues/concert_hall/">Concert Hall</a> again, which is comfortable and very spacious.</p>
-        </li>
-      </ul>
+        <h3 id="refreshments">Refreshments</h3>
 
-      <h3 id="refreshments">Refreshments</h3>
+        <ul>
+          <li>
+            <p>Complimentary breakfast pastries (from 9am) and fruit throughout the day.</p>
+          </li>
+          <li>
+            <p>Coffee, tea and water will be available all day in the Foyer bar.</p>
+          </li>
+          <li>
+            <p>Drinks can be brought through to the auditorium if they have a lid. Consider the environment and bring your own re-usuable lidded cup, and/or water bottle if possible.</p>
+          </li>
+          <li>
+            <p>There will be 3 breaks during the day.</p>
+          </li>
+          <li>
+            <p>Lunch is not included, however there are loads of places to eat close to the venue; <a href="https://www.alduomo.co.uk/">Al Duomo</a>, <a href="http://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton">All Bar One</a>, <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186273-d3815712-Reviews-Bellota-Brighton_East_Sussex_England.html">Bellota Bar Y Tapas</a>, <a href="http://thechillipickle.com/">The Chilli Pickle</a>, <a href="http://www.donatello.co.uk/">Donatello</a>, <a href="http://www.foodforfriends.com/">Food for Friends (vegetarian)</a>, <a href="http://www.gbk.co.uk/location/brighton">Gourmet Burger Kitchen</a>, <a href="http://www.pinocchio.co.uk/">Pinnocchio</a>, Pizza Express (<a href="https://www.pizzaexpress.com/brighton-jubilee-street">Jubliee Street</a> &amp; <a href="https://www.pizzaexpress.com/brighton-the-lanes">Prince Albert Street</a>) and <a href="https://www.tripadvisor.co.uk/Restaurants-g186273-Brighton_East_Sussex_England.html">many, many more</a>.</p>
+          </li>
+          <li>
+            <p>Travelling to UX Brighton alone? We are arranging a ‘Lunch with Strangers’. There is a table booked at Pizza Express, Jubilee St (just ask for the UX Brighton booking) - don’t be lonely, go there and meet new friends. Introverts welcome!</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>Complimentary breakfast pastries (from 9am) and fruit throughout the day.</p>
-        </li>
-        <li>
-          <p>Coffee, tea and water will be available all day in the Foyer bar.</p>
-        </li>
-        <li>
-          <p>Drinks can be brought through to the auditorium if they have a lid. Consider the environment and bring your own re-usuable lidded cup, and/or water bottle if possible.</p>
-        </li>
-        <li>
-          <p>There will be 3 breaks during the day.</p>
-        </li>
-        <li>
-          <p>Lunch is not included, however there are loads of places to eat close to the venue; <a href="https://www.alduomo.co.uk/">Al Duomo</a>, <a href="http://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton">All Bar One</a>, <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186273-d3815712-Reviews-Bellota-Brighton_East_Sussex_England.html">Bellota Bar Y Tapas</a>, <a href="http://thechillipickle.com/">The Chilli Pickle</a>, <a href="http://www.donatello.co.uk/">Donatello</a>, <a href="http://www.foodforfriends.com/">Food for Friends (vegetarian)</a>, <a href="http://www.gbk.co.uk/location/brighton">Gourmet Burger Kitchen</a>, <a href="http://www.pinocchio.co.uk/">Pinnocchio</a>, Pizza Express (<a href="https://www.pizzaexpress.com/brighton-jubilee-street">Jubliee Street</a> &amp; <a href="https://www.pizzaexpress.com/brighton-the-lanes">Prince Albert Street</a>) and <a href="https://www.tripadvisor.co.uk/Restaurants-g186273-Brighton_East_Sussex_England.html">many, many more</a>.</p>
-        </li>
-        <li>
-          <p>Travelling to UX Brighton alone? We are arranging a ‘Lunch with Strangers’. There is a table booked at Pizza Express, Jubilee St (just ask for the UX Brighton booking) - don’t be lonely, go there and meet new friends. Introverts welcome!</p>
-        </li>
-      </ul>
+        <h3 id="cloakroom">Cloakroom</h3>
 
-      <h3 id="cloakroom">Cloakroom</h3>
+        <ul>
+          <li>
+            <p>We have coat-racks for you to hang your coats on, but there isn’t a dedicated cloakroom.</p>
+          </li>
+          <li>
+            <p>Ours is the only event happening at the venue on the day, and is not open to the public, however items are left at your own risk.</p>
+          </li>
+          <li>
+            <p>Please report any lost property to the registration desk. UX Brighton &amp; Brighton Dome takes no responsibility for delegate’s lost property so we ask you to be vigilant at all times.</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>We have coat-racks for you to hang your coats on, but there isn’t a dedicated cloakroom.</p>
-        </li>
-        <li>
-          <p>Ours is the only event happening at the venue on the day, and is not open to the public, however items are left at your own risk.</p>
-        </li>
-        <li>
-          <p>Please report any lost property to the registration desk. UX Brighton &amp; Brighton Dome takes no responsibility for delegate’s lost property so we ask you to be vigilant at all times.</p>
-        </li>
-      </ul>
+        <h3 id="wifi">Wifi</h3>
 
-      <h3 id="wifi">Wifi</h3>
+        <p>There will be wifi at the venue so feel free to tweet, insta, blog, and make notes during the day.</p>
 
-      <p>There will be wifi at the venue so feel free to tweet, insta, blog, and make notes during the day.</p>
+        <h3 id="charging-stations">Charging stations</h3>
 
-      <h3 id="charging-stations">Charging stations</h3>
+        <p>There will be several 4-ways available in the Founders Room, to the left of the main Foyer bar, and also on the Mezzanine level which is upstairs, to the right of the Foyer bar. Plug sockets are limited in the Concert Hall so we’d recommend bringing a power pack. If you’re travelling from outside the UK, remember your adaptor.</p>
 
-      <p>There will be several 4-ways available in the Founders Room, to the left of the main Foyer bar, and also on the Mezzanine level which is upstairs, to the right of the Foyer bar. Plug sockets are limited in the Concert Hall so we’d recommend bringing a power pack. If you’re travelling from outside the UK, remember your adaptor.</p>
+        <h3 id="photography--filming">Photography &amp; Filming</h3>
 
-      <h3 id="photography--filming">Photography &amp; Filming</h3>
+        <ul>
+          <li>
+            <p>We are filming again this year and will release the talks soon after the event.</p>
+          </li>
+          <li>
+            <p>We have an official photographer for the day, however you are welcome, in fact encouraged, to take your own too. We’d love to see them - see our Social Media tag for places to share them.</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>We are filming again this year and will release the talks soon after the event.</p>
-        </li>
-        <li>
-          <p>We have an official photographer for the day, however you are welcome, in fact encouraged, to take your own too. We’d love to see them - see our Social Media tag for places to share them.</p>
-        </li>
-      </ul>
+        <h3 id="social-media">Social Media</h3>
 
-      <h3 id="social-media">Social Media</h3>
+        <ul>
+          <li>
+            <p>Please tag with <a href="https://twitter.com/search?q=%23uxbri">#uxbri</a></p>
+          </li>
+          <li>
+            <p>Twitter: <a href="https://twitter.com/uxbri">@uxbri</a>  <a href="https://twitter.com/uxbri">https://twitter.com/uxbri</a></p>
+          </li>
+          <li>
+            <p>Facebook: <a href="https://www.facebook.com/uxbrighton/">https://www.facebook.com/uxbrighton/</a></p>
+          </li>
+          <li>
+            <p>We live Tweet the event - great for looking back on if you missed any of the references made during the day.</p>
+          </li>
+          <li>
+            <p>Feel free to follow the Twitter account <a href="https://twitter.com/uxbri">@uxbri</a> for the latest info on the event.</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>Please tag with <a href="https://twitter.com/search?q=%23uxbri">#uxbri</a></p>
-        </li>
-        <li>
-          <p>Twitter: <a href="https://twitter.com/uxbri">@uxbri</a>  <a href="https://twitter.com/uxbri">https://twitter.com/uxbri</a></p>
-        </li>
-        <li>
-          <p>Facebook: <a href="https://www.facebook.com/uxbrighton/">https://www.facebook.com/uxbrighton/</a></p>
-        </li>
-        <li>
-          <p>We live Tweet the event - great for looking back on if you missed any of the references made during the day.</p>
-        </li>
-        <li>
-          <p>Feel free to follow the Twitter account <a href="https://twitter.com/uxbri">@uxbri</a> for the latest info on the event.</p>
-        </li>
-      </ul>
+        <h3 id="slack">Slack</h3>
 
-      <h3 id="slack">Slack</h3>
+        <p>Did you know we have a Slack group with over 500 members? You can join here: <a href="http://slack.uxbrighton.org.uk/">http://slack.uxbrighton.org.uk/</a>. Chat, ask questions, post or <a href="https://uxbri.slack.com/messages/C1626ASJY/">look for jobs</a>, find events - we’re a friendly bunch!</p>
 
-      <p>Did you know we have a Slack group with over 500 members? You can join here: <a href="http://slack.uxbrighton.org.uk/">http://slack.uxbrighton.org.uk/</a>. Chat, ask questions, post or <a href="https://uxbri.slack.com/messages/C1626ASJY/">look for jobs</a>, find events - we’re a friendly bunch!</p>
+        <h3 id="after-party">After Party</h3>
 
-      <h3 id="after-party">After Party</h3>
+        <ul>
+          <li>
+            <p>Join us for after conference drinks in the Foyer Bar (at the venue) until 9pm.</p>
+          </li>
+          <li>
+            <p>Keep your name badge with you if you want to leave and come back again.</p>
+          </li>
+          <li>
+            <p>Collect your drinks voucher at registration.</p>
+          </li>
+          <li>
+            <p>Your voucher is valid for a selection of alcoholic and non-alcoholic drinks.</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>Join us for after conference drinks in the Foyer Bar (at the venue) until 9pm.</p>
-        </li>
-        <li>
-          <p>Keep your name badge with you if you want to leave and come back again.</p>
-        </li>
-        <li>
-          <p>Collect your drinks voucher at registration.</p>
-        </li>
-        <li>
-          <p>Your voucher is valid for a selection of alcoholic and non-alcoholic drinks.</p>
-        </li>
-      </ul>
+        <h3 id="tickets">Reminder about tickets</h3>
 
-      <h3 id="tickets">Reminder about tickets</h3>
+        <ul>
+          <li>
+            <p>We are unable to issue refunds or transfers.</p>
+          </li>
+          <li>
+            <p>Of course you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list</p>
+          </li>
+          <li>
+            <p>Ticket sales end 4pm Thursday 1st November</p>
+          </li>
+          <li>
+            <p>We can’t take payment on the day. Sorry.</p>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>We are unable to issue refunds or transfers.</p>
-        </li>
-        <li>
-          <p>Of course you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list</p>
-        </li>
-        <li>
-          <p>Ticket sales end 4pm Thursday 1st November</p>
-        </li>
-        <li>
-          <p>We can’t take payment on the day. Sorry.</p>
-        </li>
-      </ul>
+        <p>Thanks for reading, we look forward to seeing you on the 2nd!</p>
 
-      <p>Thanks for reading, we look forward to seeing you on the 2nd!</p>
+        <p>Danny &amp; Emm, <a href="https://twitter.com/uxbri">UX Brighton</a> (DMs are open)</p>
 
-      <p>Danny &amp; Emm, <a href="https://twitter.com/uxbri">UX Brighton</a> (DMs are open)</p>
+      </div><!-- gu2of3-over-m -->
 
-
+    </div><!-- overlay__after -->
 
   </section>
 
