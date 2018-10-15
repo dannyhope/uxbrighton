@@ -25,11 +25,11 @@ $(function() {
   // smoothly scroll to in-page links, uses request animation frame for smoothness
   $(document).on('click tap', 'a[href^="#"]:not([href="#"])', function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') || location.hostname == this.hostname) {
-    var target = $(this.hash);
-    console.log('target',target);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    var _goto = target.offset().top - navOffset;
-    console.log('_goto',_goto);
+      var target = $(this.hash);
+      //console.log('target',target);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      var _goto = target.offset().top - navOffset;
+      //console.log('_goto',_goto);
       if (target.length) {
         scrollTo(_goto, null, navScrollSpeed);
       }
@@ -39,6 +39,33 @@ $(function() {
 
   // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
 
+
+  /* Table of contents */
+  var ToC =
+  "<nav role='navigation' class='table-of-contents'>" +
+    "<strong>On this page</strong>" +
+    "<ul class='nav'>";
+   var newLine, el, title, link;
+   $("#info h3[id]").each(function() {
+   el = $(this);
+  title = el.text();
+  link = "#" + el.attr("id");
+   newLine =
+    "<li class='nav-item'>" +
+      "<a href='" + link + "'>" +
+        title +
+      "</a>" +
+    "</li>";
+   ToC += newLine;
+   });
+   ToC +=
+   "</ul>" +
+  "</nav>";
+   $("[data-toc]").after(ToC);
+   setTimeout(function(){ 
+    console.log($('.table-of-contents'));
+    $('body').scrollspy({ target: '.table-of-contents',offset: navScrollOffset });
+   }, 3000);
 
 
   $("form.newletter-signup").submit(function(e){
@@ -51,7 +78,7 @@ $(function() {
     $("#js-signup-confirmation").show();
   });
 
-});
+}); // dom ready stuff
 
 
 /*!
@@ -67,27 +94,4 @@ d.withCredentials&&""!==k&&k!==m?XDomainRequest||void 0:XMLHttpRequest}return d}
 g[0];g=g[1];var r=h&&0===h.left&&0===h.right&&0===h.top&&0===h.bottom;h&&0===h.width&&0===h.height&&!r?(c.length||!g||document.getElementById(g)||(c=""),f[b].hasAttribute("href")&&f[b].setAttributeNS("http://www.w3.org/1999/xlink","xlink:href",a),c.length&&(a=e[c],!0!==a&&setTimeout(l({useEl:f[b],base:c,hash:g}),0),void 0===a&&(g=u(c),void 0!==g&&(a=new g,e[c]=a,a.onload=p(a),a.onerror=n(a),a.ontimeout=n(a),a.open("GET",c),a.send(),q+=1)))):r?c.length&&e[c]&&setTimeout(l({useEl:f[b],base:c,
 hash:g}),0):void 0===e[c]?e[c]=!0:e[c].onload&&(e[c].abort(),delete e[c].onload,e[c]=!0)}f="";q+=1;d()};var p=function(){window.removeEventListener("load",p,!1);l=setTimeout(n,0)};"complete"!==document.readyState?window.addEventListener("load",p,!1):p()}})();
 
-/* Table of contents */
-$(document).ready(function(){
-  var ToC =
-  "<nav role='navigation' class='table-of-contents'>" +
-    "<strong>On this page</strong>" +
-    "<ul>";
-   var newLine, el, title, link;
-   $("#info h3[id]").each(function() {
-   el = $(this);
-  title = el.text();
-  link = "#" + el.attr("id");
-   newLine =
-    "<li>" +
-      "<a href='" + link + "'>" +
-        title +
-      "</a>" +
-    "</li>";
-   ToC += newLine;
-   });
-   ToC +=
-   "</ul>" +
-  "</nav>";
-   $("[data-toc]").after(ToC);
-});
+

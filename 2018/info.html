@@ -22,12 +22,12 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
     margin: 1.25em 0 0.25em;
   }
   .overlay__after h3:target {
-    /*border-bottom: 2px solid #C9003A;*/
     padding-top: 20px;
   }
   @media (min-width: 731px) {
     .table-of-contents {
-      margin-left: 1rem;
+      margin-left: 1rem;  
+      margin-top: 30px;
       float: right;
       width: 30%;
       position: -webkit-sticky;
@@ -41,14 +41,8 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
 
   }
   @media (max-width: 450px) {
-    .table-of-contents a {
-     display: inline-block;
-    }
     .masthead .nav-item {
       float: left;
-    }
-    .table-of-contents a {
-      display: inline-block;
     }
   }
 </style>
@@ -71,7 +65,7 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
     </div><!-- overlay__outer -->
     <div class="overlay__after container bg-white">
 
-      <div class="-u2of3-over-m">
+      <div id="before">
 
 
         <h2 class="h1 mt5" id="intro">
@@ -86,7 +80,6 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
       <hr data-toc>
 
       <div class="u2of3-over-m">
-        <a name="before"></a>
         <h3 id="accessibility">Accessibility</h3>
 
         <p>The venue is fully accessible. We would like to ensure that all delegates are able to have access therefore should you have any special requests please try to contact us in advance so we can accommodate your needs.</p>
@@ -109,7 +102,7 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
 
         <p><strong>We reserve the right to refuse admission.</strong></p>
 
-        <a name="travel-and-accomodation"></a>
+        <a id="travel-and-accomodation"></a>
         <h3 id="accommodation">Accommodation</h3>
 
         <p>Our friends at Visit Brighton have put together <a href="https://book.passkey.com/event/49767965/owner/9736716/home">a comprehensive list of accommodation at specially negotiated rates for UX Brighton delegates</a>. This website is open for bookings <em>until 25th October 2018</em>; we advise early booking in order to guarantee your preferred hotel.</p>
@@ -139,7 +132,7 @@ fullurl: "https://uxbrighton.org.uk/2018/info"
           </li>
         </ul>
 
-        <a name="on-the-day"></a>
+        <a id="on-the-day"></a>
         <h3 id="registration">Registration</h3>
 
         <ul>
