@@ -57,7 +57,12 @@ t=t.length?t:$("[name="+this.hash.slice(1)+"]")).offset().top-i;
 t.length&&scrollTo(e,null,o)}});
 // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
 /* Table of contents */
-var e="<nav role='navigation' class='table-of-contents'><strong>On this page</strong><ul class='nav'>",n,r,s,a;$("#info h3[id]").each(function(){r=$(this),s=r.text(),a="#"+r.attr("id"),e+=n="<li class='nav-item'><a href='"+a+"'>"+s+"</a></li>"}),e+="</ul></nav>",$("[data-toc]").after(e),setTimeout(function(){console.log($(".table-of-contents")),$("body").scrollspy({target:".table-of-contents",offset:t})},3e3),$("form.newletter-signup").submit(function(t){var e=t.target;t.preventDefault(),$.post(e.action,$(e).serialize()),$("form.newletter-signup").remove(),$("#js-signup-confirmation").show()})}),// dom ready stuff
+var e="<nav role='navigation' class='table-of-contents'><strong>On this page</strong><ul class='nav'>",n,r,s,a;$("#info h3[id]").each(function(){r=$(this),s=r.text(),a="#"+r.attr("id"),e+=n="<li class='nav-item'><a href='"+a+"'>"+s+"</a></li>"}),e+="</ul></nav>",$("[data-toc]").after(e),
+// setTimeout(function(){ 
+//  console.log($('.table-of-contents'));
+//  $('body').scrollspy({ target: '.table-of-contents',offset: navScrollOffset });
+// }, 3000);
+$("form.newletter-signup").submit(function(t){var e=t.target;t.preventDefault(),$.post(e.action,$(e).serialize()),$("form.newletter-signup").remove(),$("#js-signup-confirmation").show()})}),// dom ready stuff
 /*!
  * @copyright Copyright (c) 2017 IcoMoon.io
  * @license   Licensed under MIT license

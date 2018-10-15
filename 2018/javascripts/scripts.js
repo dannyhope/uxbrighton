@@ -62,10 +62,10 @@ $(function() {
    "</ul>" +
   "</nav>";
    $("[data-toc]").after(ToC);
-   setTimeout(function(){ 
-    console.log($('.table-of-contents'));
-    $('body').scrollspy({ target: '.table-of-contents',offset: navScrollOffset });
-   }, 3000);
+   // setTimeout(function(){ 
+   //  console.log($('.table-of-contents'));
+   //  $('body').scrollspy({ target: '.table-of-contents',offset: navScrollOffset });
+   // }, 3000);
 
 
   $("form.newletter-signup").submit(function(e){
