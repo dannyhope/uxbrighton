@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="214" height="211" viewBox="0 0 214 211">
+  <defs>
+    <polygon id="ten-logo-colour-a" points=".06 .495 213.076 .495 213.076 210.94 .06 210.94"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ten-logo-colour-b" fill="#fff">
+      <use xlink:href="#ten-logo-colour-a"/>
+    </mask>
+    <polyline fill="#200F25" points="31.852 28.05 91.824 .495 198.965 26.337 213.077 137.745 106.538 211 0 154.749" mask="url(#ten-logo-colour-b)"/>
+    <polyline fill="#331634" points="31.852 28.05 106.538 211 0 154.749" mask="url(#ten-logo-colour-b)"/>
+    <polyline fill="#442546" points="31.852 28.05 213.077 137.745 198.965 26.337" mask="url(#ten-logo-colour-b)"/>
+    <polyline fill="#FFFFFE" points="87.047 94.751 87.047 101.348 75.898 101.348 75.898 132.014 68.061 132.014 68.061 101.348 56.861 101.348 56.861 94.751 87.047 94.751"/>
+    <polyline fill="#FFFFFE" points="119.153 101.348 99.434 101.348 99.434 109.261 117.535 109.261 117.535 115.733 99.434 115.733 99.434 125.314 120.063 125.314 120.063 132.014 91.824 132.014 91.824 94.751 119.153 94.751 119.153 101.348"/>
+    <polyline fill="#FFFFFE" points="126.004 94.751 134.168 94.751 148.959 120.732 148.959 94.751 156.215 94.751 156.215 132.014 148.429 132.014 133.26 105.574 133.26 132.014 126.004 132.014 126.004 94.751"/>
+  </g>
+</svg>
