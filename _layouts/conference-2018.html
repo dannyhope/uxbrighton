@@ -115,7 +115,7 @@
               <a href="#venue" class="masthead__link nav-link">Venue</a>
             </li>
             <li class="nav-item inline-block relative">
-              <a href="#workshop" class="masthead__link masthead__link--last">Workshop <span class="stamped">sold out</span></a>
+              <a href="#workshop" class="masthead__link -masthead__link--last">Workshop <span class="stamped">sold out</span></a>
             </li>
           {% endif %}
           {% if page.name == "info.html" %}
@@ -130,18 +130,25 @@
             </li>
           {% endif %}
           {% if page.name != "info.html" %}
-            <li class="nav-item inline-block nav-item--tickets">
-              {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
+            {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
+              <li class="nav-item inline-block nav-item--tickets">
                 <a
                  href="https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets"
                  class="button button--green">Sold Out
+                </a>
+              </li>
               {% else %}
+              <li class="nav-item inline-block nav-item--tickets">
                 <a
                  href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets"
-                 class="button button--green">Buy Tickets
+                 class="button button--green">Buy Tickets                <!-- <li class="nav-item inline-block relative right">
+                  <a class="masthead__link" href="http://slack.uxbrighton.org.uk/">
+                    <img src="/2018/images/icons/slack.svg" alt="" width="20" style="position: relative;top: -2px;margin-right: 2px;">
+                    Join<span class="hidden-under-l"> Our Slack</span> -->
+                  </a>
+                </li>
               {% endif %}
-            </a>
-            </li>
+
           {% endif %}
         </ul>
       </div><!-- masthead__links -->
