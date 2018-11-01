@@ -54,7 +54,7 @@ $(document).on("click tap",'a[href^="#"]:not([href="#"])',function(){if(location
 //console.log('target',target);
 t=t.length?t:$("[name="+this.hash.slice(1)+"]")).offset().top-i;
 //console.log('_goto',_goto);
-t.length&&scrollTo(e,null,o)}});
+t.length&&scrollTo(e,null,o)}}),$(document).on("click tap",".js-show-talk-details",function(t){t.preventDefault(),$(this).toggleClass("is-active").closest(".talk").toggleClass("if-conference-day-talk-toggled")});
 // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
 /* Table of contents */
 var e="<nav role='navigation' class='table-of-contents'><strong>On this page</strong><ul class='nav'>",n,r,s,a;$("#info h3[id]").each(function(){r=$(this),s=r.text(),a="#"+r.attr("id"),e+=n="<li class='nav-item'><a href='"+a+"'>"+s+"</a></li>"}),e+="</ul></nav>",$("[data-toc]").after(e),

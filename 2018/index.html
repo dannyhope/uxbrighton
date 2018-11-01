@@ -37,11 +37,108 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         display: block;
       }
     }
+    .if-is-pre-conference,
+    .if-is-conference-day,
+    .if-is-post-conference { display: none }
+    .is-pre-conference .if-is-pre-conference,
+    .is-conference-day .if-is-conference-day,
+    .is-post-conference .if-is-post-conference { display: block }
+
+    .is-conference-day .talk__time {
+      color: #c9003a;
+    }
+    .talk * {
+      transition: 0.1s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
+      width: 160px;
+    }
+    @media (max-width:500px) {
+      .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 0;
+      }
+    }
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper + .u2of3-over-s {
+      /*width: auto;*/
+      margin: 0;
+     }
+    .js .is-conference-day .talk__abstract h4 {
+      margin: 0 0 0;
+      font-weight: 400;
+      font-size: 30px;
+    }
+    .js .is-conference-day .talk__heading {
+      margin: 1em 0 0;
+    }
+    .js .is-conference-day .talk__heading--not-a-talk {
+      margin: 1.5em 0 0;
+    }
+    @media (max-width:500px) {
+      .js .is-conference-day .talk__heading {
+        margin: 0;
+      }
+    }
+
+    .js .is-conference-day p, 
+    .js .is-conference-day .talk__speaker-bio {
+      opacity: 1;
+      max-height: 1000px;
+    }
+    .talk__speaker-links {
+      overflow: hidden;
+    }
+    .js-show-talk-details,
+    .js-show-talk-details .js-hide,
+    .js-show-talk-details .js-show {
+      display: none;
+    }
+    .js .is-conference-day .if-conference-day-talk-toggled .js-show-talk-details {
+      display: block;
+      clear: both;
+    }
+    .js .js-show-talk-details.is-active {
+      padding-top: 12px !important;
+      display: block !important;
+      clear: both !important;
+    }
+    @media (max-width:500px) {
+      .js .js-show-talk-details {
+        text-align: center;
+      }
+    }
+    .js .is-conference-day .js-show-talk-details.is-active .js-hide,
+    .js .is-conference-day .if-conference-day-talk-toggled .js-show {
+      display: inline;
+    }
+
+    .js .is-conference-day .if-conference-day-talk-toggled p, 
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__speaker-bio {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      margin-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
   </style>
 
 
   <!-- Add this code to event page: -->
-  <main>
+  <main class="is-conference-day">
 
     <section id="hero" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000;">
 
@@ -57,8 +154,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
             <span class="event-date" itemprop="startDate" content="2018-11-02T09:30">Friday 2 November</span>, Brighton Dome
           </h2>
           <div>
-            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets" class="button button--large button--green weight-900 fs-l">Tickets — £170 + vat</a>
-            <p class="mb0 mt1 weight-400 fs-l">Group Discount - buy 4 get 1 free</p>
+            <!-- <a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets" class="button button--large button--green weight-900 fs-l">Tickets — £170 + vat</a> 
+            <p class="mb0 mt1 weight-400 fs-l">Group Discount - buy 4 get 1 free</p>-->
+
+            <p class="mb0 mt1 weight-400 fs-l">
+              Online ticket sales have closed <br>
+              Tickets will be available on the door at £250 — cash only
+            </p>
           </div>
         </div>
 
@@ -71,17 +173,17 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
     <section id="overview">
       <div class="container">
-        <h2 class="mt5 mb3">What to expect at UX Brighton</h2>
+        <h2 class="mt5 mb3 if-is-pre-conference">What to expect at UX Brighton</h2>
 
-        <div class="row">
+        <div class="row border-bottom pb5 if-is-pre-conference">
           <div class="u1of2-over-m right-over-m gutter-left pb3">
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nv90bmxIoEQ?rel=0" gesture="media" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
           </div>
           <div class="u1of2-over-m left-over-m  gutter-right">
-            <p class="standfirst">Research belongs at the heart of UX. It guides our work and shapes our decisions. <!-- That’s why <em>Advancing Research</em> is the theme of UX Brighton 2018. --></p>
+            <p class="standfirst">Research belongs at the heart of UX. It guides our work and shapes our decisions. That’s why <em>Advancing Research</em> is the theme of UX Brighton 2018. </p>
             <p>It’s time to take a look at the place of research within the UX landscape - time to further our knowledge of tools and methods, and time to extend our research skills to embrace new technologies.</p>
-            <h3 class="mb1 mt3">Book now — ticket sales end 1st November</h3>
+            <!-- <h3 class="mb1 mt3">Book now — ticket sales end 1st November</h3> -->
             <p>Join us for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
             <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>
           </div><!-- u1o2-over-s -->
@@ -114,7 +216,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
             .attendee-info-icon { height: 21px; }
           }
         </style>
-        <div class="row mt4 border-top border-bottom pb5">
+        <div class="row pb5">
             <h2 class="mt5 mb3"><a href="/2018/info" class="color-heading">Information for Attendees</a></h2>
             <p>We have created a handy guide that has <a href="/2018/info">everything you need to know</a> to get the most out of your visit to UX Brighton, including:</p>
             <ul class="columnar-list">
@@ -139,7 +241,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
             </a>
         </div>
 
-        <div class="row pb3">
+        <div class="row border-top pb3 if-is-pre-conference">
           <div class="u1of2-over-m left-over-m  gutter-right">
              <h2 class="mt5 mb3">Curation</h2>
             <p>Every year Danny hand selects each speaker (we don't have a call for papers), bringing new faces and fresh approaches to the theme of the conference. There are never any paid for speaking spots, so you won't get any sales pitch talks. We think this gives UX Brighton a unique appeal.</p>
@@ -182,7 +284,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       </div><!-- container -->
     </section><!-- overview -->
 
-    <section class="testimonial">
+    <section class="testimonial if-is-pre-conference">
       <div class="container">
         <blockquote class="standfirst">
           <div class="quote">
@@ -204,7 +306,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       </div><!-- overlay__outer -->
       <div class="overlay__after container mb2">
 
-        <div class="row">
+        <div class="row if-is-pre-conference">
           <figure class="u1of4 left  mb0">
             <a href="#Kate-Towsey" class="talk__image-link">
               <img class="bg-grey-20" src="/2018/images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
@@ -313,10 +415,31 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
         </div><!-- row -->
       </div>
+
       <div class="bg-white container">
 
+        <div class="talk if-conference-day if-conference-day-talk-toggled row pv4" id="Registration">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/registration.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading talk__heading--not-a-talk fs-h2 mb2">
+              <span class="talk__speaker"><span class="talk__time">9:00</span> <span class="nowrap">Registration</span></span>
+            </h3>
+            <p>Doors will open at 9am for registration. Name badges will be arranged alphabetically by first name.</p>
+            <p>Complimentary pastries and refreshments will be available.</p>
+            <p>Use the <a href="http://brightondome.org/your_visit/venues/corn_exchange/">Dome entrance</a> on Church Street. It’s approx <a href="https://goo.gl/maps/zkU5qz2Zyok">9 mins walk</a> from the train station</p>
+            <p>Please note that The Dome may conduct bag searches.</p>
+            <p>Please be seated by 9.50am so you don’t miss anything.</p>
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> details</a>
+          </div><!-- u2of3 -->
+        </div>
 
-        <div class="talk row pv4" id="Kate-Towsey">
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Kate-Towsey">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
@@ -342,11 +465,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               </nav>
               <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+            
           </div><!-- u2of3 -->
         </div>
 
 
-        <div class="talk row pv4" id="Daniel-Pidcock">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Daniel-Pidcock">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/Daniel-Pidcock-1.jpg" width="310" height="310">
@@ -373,11 +498,12 @@ fullurl: "https://uxbrighton.org.uk/2018/"
                 <a class="talk__speaker-links--twitter  mr2 left" href="http://glean.ly/">glean.ly</a>
              </nav>
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
           </div><!-- u2of3 -->
         </div>
 
 
-        <div class="talk row pv4" id="Katy-Arnold">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Katy-Arnold">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/Katy-Arnold-310.jpg" width="310" height="310">
@@ -403,11 +529,12 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               </nav>
               <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
           </div><!-- u2of3 -->
         </div>
 
 
-        <div class="talk row pv4" id="Georgia-Rakusen">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Georgia-Rakusen">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/Georgia-Rakusen-310.jpg" width="310" height="310">
@@ -436,12 +563,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               </nav>
               <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
           </div><!-- u2of3 -->
         </div>
 
 
 
-        <div class="talk row pv4" id="Katie-Taylor">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Katie-Taylor">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/Katie-Taylor-310.jpg" width="310" height="310">
@@ -466,12 +594,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               </nav>
               <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
           </div><!-- u2of3 -->
         </div>
 
 
 
-        <div class="talk row pv4" id="Will-Myddelton">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Will-Myddelton">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/Will-Myddelton-310.jpg" width="310" height="310">
@@ -496,12 +625,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               </nav>
               <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
           </div><!-- u2of3 -->
         </div>
 
 
 
-        <div class="talk row pv4" id="Emma-Boulton">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Emma-Boulton">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/Emma-Boulton-310.jpg" width="310" height="310">
@@ -527,12 +657,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               </nav>
               <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
           </div><!-- u2of3 -->
         </div>
 
 
 
-        <div class="talk row pv4" id="James-Woudhuysen">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="James-Woudhuysen">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/James-Woudhuysen-310.jpg" width="310" height="310">
@@ -559,17 +690,18 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               </nav>
               <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
             </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
           </div><!-- u2of3 -->
         </div>
 
-        <div class="talk row pv4" id="After-Party">
+        <div class="talk if-conference-day-talk-toggled row pv4" id="After-Party">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/party1.jpg" width="310" height="310">
             </div>
           </div><!-- u1of3 -->
           <div class="u2of3-over-s left gutter-right">
-            <h3 class="talk__heading fs-h2 mb2">
+            <h3 class="talk__heading talk__heading--not-a-talk fs-h2 mb2">
               <!-- <span class="talk__title block"></span> -->
               <span class="talk__speaker"><span class="talk__time">4:40</span> Party</span>
             </h3>
@@ -577,6 +709,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
               <p>Join us for after conference drinks in the Foyer Bar (at the venue) until 9pm. You will receive a drinks voucher at registration. Your voucher is valid for a selection of alcoholic and non-alcoholic drinks.</p>
               <p>Please keep your name badge with you if you want to leave and come back again.</p>              
             </div><!-- talk__abstract -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> details</a>
           </div><!-- u2of3 -->
         </div>
 

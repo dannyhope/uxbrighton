@@ -36,6 +36,14 @@ $(function() {
     }
   });
 
+  $(document).on('click tap', '.js-show-talk-details', function(e) {
+    e.preventDefault();
+    $(this).toggleClass('is-active').closest('.talk').toggleClass("if-conference-day-talk-toggled");
+  });
+
+  
+
+
 
   // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
 
