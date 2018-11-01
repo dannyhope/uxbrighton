@@ -51,7 +51,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       transition: 0.1s  cubic-bezier(0.075, 0.82, 0.165, 1);
     }
     .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
-      width: 160px;
+      width: 200px;
     }
     @media (max-width:500px) {
       .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
@@ -61,6 +61,8 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         margin-bottom: 0;
       }
     }
+
+
     .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper + .u2of3-over-s {
       /*width: auto;*/
       margin: 0;
@@ -122,17 +124,17 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       margin-bottom: 0;
     }
 
-
-
-
-
-
-
-
-
-
-
-
+    @media (max-width:640px) {
+      .talk,
+      .talk * {
+        float: none;
+        text-align: center;
+        width: auto;
+      }
+      .talk .talk__photo-wrapper {
+        margin: 0 auto;
+      }
+    }
 
   </style>
 
