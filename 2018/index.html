@@ -135,36 +135,75 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         margin: 0 auto;
       }
     }
+    @media (min-width:500px) {
+      .flex-reverse-under-l {
+        flex-direction: row-reverse;
+      }
+    }
+    @media (min-width:950px) and (max-width:1300px) {
+      .is-post-conference .fs-xxxl {
+        font-size: 4rem;
+      }
+      .is-post-conference .fs-l {
+        font-size: 24px;
+      }
+    }
 
   </style>
 
 
   <!-- Add this code to event page: -->
-  <main class="is-conference-day">
+  <main class="-is-conference-day is-post-conference">
 
-    <section id="hero" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000;">
+    <section id="hero" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000; background-size: cover;">
 
-      <div class="overlay__inner overflow-hidden">
+      <div class="row flex-over-l flex-reverse-under-l">
 
-        <div class="container color-white">
-          <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
-            <span class="fs-l mb1 block track-normal weight-400" >UX Brighton 2018</span>
-            Advancing <br>Research
-          </h1>
-          <h2 class="mt0 fs-l regular track-normal mb6">
-            <div class=" mb1">Inspire your team with sharply focused insights</div>
-            <span class="event-date" itemprop="startDate" content="2018-11-02T09:30">Friday 2 November</span>, Brighton Dome
-          </h2>
-          <div>
-            <!-- <a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets" class="button button--large button--green weight-900 fs-l">Tickets — £170 + vat</a> 
-            <p class="mb0 mt1 weight-400 fs-l">Group Discount - buy 4 get 1 free</p>-->
+        <div class="u1of2-over-l right-over-l bg-white flex-over-l" style="background: rgba(255,255,255,0.9);">
+          <div class="overlay__inner overflow-hidden flex-over-l fill" style="background: transparent;">
 
-            <p class="mb0 mt1 weight-400 fs-l">
-              Online ticket sales have closed <br>
-              Tickets will be available on the door at £250 — cash only
-            </p>
+            <div class="container">
+              <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+                <span class="fs-l mb1 block track-normal weight-400 color-green" >UX Brighton 2019</span>
+                Ultra early-bird discount
+              </h1>
+              <div style="max-width: 31em;">
+                <p class="mt0 fs-l regular track-normal mb3">There will never be a better time to book for UX Brighton 2019.</p>
+                <p class="mt0 fs-l regular track-normal mb3">A limited number of tickets for are now available at 35% off.</p>            
+              </div>
+              <div>
+                <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green weight-900 fs-l">Tickets — £170 + vat</a>    
+              </div>   
+
+
+            </div>
+
           </div>
         </div>
+
+
+        <div class="u1of2-over-l left-over-l flex-over-l">
+          <div class="overlay__inner overflow-hidden flex-over-l fill">
+
+            <div class="container color-white">
+              <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+                <span class="fs-l mb1 block track-normal weight-400" >UX Brighton 2018</span>
+                It’s a wrap!
+              </h1>
+              <div style="max-width: 31em;">
+                <p class="mt0 fs-l regular track-normal mb3">
+                  Thanks to everyone who attended, sponsored and spoke at UX Brighton 2018. <a href="#newletter-signup" class="color-white underline">Sign up</a> to be notified when the videos and slides go online.
+                </p>
+                <p class="mt0 fs-l regular track-normal mb6">You may also wish to <a href="http://slack.uxbrighton.org.uk/" class="color-white underline">join our Slack</a> community, which includes a rather nice #jobs channel.
+                </p> 
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>   
+
 
       </div>
 
@@ -175,9 +214,9 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
     <section id="overview">
       <div class="container">
-        <h2 class="mt5 mb3 if-is-pre-conference">What to expect at UX Brighton</h2>
+        <h2 class="mt5 mb3 if-is-pre-conference if-is-post-conference">What to expect at UX Brighton</h2>
 
-        <div class="row border-bottom pb5 if-is-pre-conference">
+        <div class="row border-bottom pb5 if-is-pre-conference if-is-post-conference">
           <div class="u1of2-over-m right-over-m gutter-left pb3">
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nv90bmxIoEQ?rel=0" gesture="media" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
@@ -243,7 +282,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
             </a>
         </div>
 
-        <div class="row border-top pb3 if-is-pre-conference">
+        <div class="row border-top pb3 if-is-pre-conference if-is-post-conference">
           <div class="u1of2-over-m left-over-m  gutter-right">
              <h2 class="mt5 mb3">Curation</h2>
             <p>Every year Danny hand selects each speaker (we don't have a call for papers), bringing new faces and fresh approaches to the theme of the conference. There are never any paid for speaking spots, so you won't get any sales pitch talks. We think this gives UX Brighton a unique appeal.</p>
@@ -308,7 +347,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       </div><!-- overlay__outer -->
       <div class="overlay__after container mb2">
 
-        <div class="row if-is-pre-conference">
+        <div class="row if-is-pre-conference  if-is-post-conference">
           <figure class="u1of4 left  mb0">
             <a href="#Kate-Towsey" class="talk__image-link">
               <img class="bg-grey-20" src="/2018/images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
@@ -420,7 +459,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
       <div class="bg-white container">
 
-        <div class="talk if-conference-day if-conference-day-talk-toggled row pv4" id="Registration">
+        <div class="talk if-is-conference-day if-conference-day-talk-toggled row pv4" id="Registration">
           <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
             <div class="circle overflow-hidden inline-block">
               <img class="talk__photo" src="/2018/images/speakers/registration.jpg" width="310" height="310">
