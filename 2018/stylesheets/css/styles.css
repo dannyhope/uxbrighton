@@ -878,7 +878,8 @@ body.scroll-started .masthead__logo {
     text-align: center;
     width: 100%;
     border-right: 1px solid #eee;
-    padding: 17px 0 15px; } }
+    padding: 17px 0 15px;
+    height: 49px; } }
 
 .masthead__link,
 .masthead__link:hover {
