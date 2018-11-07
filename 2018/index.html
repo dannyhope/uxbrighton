@@ -43,7 +43,9 @@ fullurl: "https://uxbrighton.org.uk/2018/"
     .is-pre-conference .if-is-pre-conference,
     .is-conference-day .if-is-conference-day,
     .is-post-conference .if-is-post-conference { display: block }
-
+    .talk__time {
+      display: none;
+    }
     .is-conference-day .talk__time {
       color: #c9003a;
     }
@@ -67,19 +69,19 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       /*width: auto;*/
       margin: 0;
      }
-    .js .is-conference-day .talk__abstract h4 {
-      margin: 0 0 0;
+    /*.js .is-conference-day*/ .talk__abstract h4 {
+      margin: 0 0 0.5em;
       font-weight: 400;
       font-size: 30px;
     }
-    .js .is-conference-day .talk__heading {
+    /*.js .is-conference-day*/ .talk__heading {
       margin: 1em 0 0;
     }
     .js .is-conference-day .talk__heading--not-a-talk {
       margin: 1.5em 0 0;
     }
     @media (max-width:500px) {
-      .js .is-conference-day .talk__heading {
+      /*.js .is-conference-day*/ .talk__heading {
         margin: 0;
       }
     }
