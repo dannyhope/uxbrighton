@@ -106,7 +106,7 @@
         <ul class="nav">
           {% if page.name == "index.html" %}
             <li class="nav-item inline-block">
-              <a href="#speakers" class="masthead__link nav-link">Talks</a>
+              <a href="#speakers" class="masthead__link nav-link">Video<span class="hidden-under-s"> & Slides</span></a>
             </li>
             <!-- <li class="nav-item inline-block">
               <a href="#venue" class="masthead__link nav-link">Venue</a>
@@ -114,7 +114,7 @@
             <li class="nav-item inline-block ">
               <a href="#sponsors" class="masthead__link nav-link">Sponsors</a>
             </li>
-            <li class="nav-item inline-block hidden-under-s relative">
+            <li class="nav-item inline-block relative">
               <a href="#workshop" class="masthead__link -masthead__link--last">Workshop <span class="stamped">sold out</span></a>
             </li>
           {% endif %}
@@ -145,8 +145,9 @@
                 <li class="nav-item inline-block relative right">
                   <a class="masthead__link" href="http://slack.uxbrighton.org.uk/">
                     <img src="/2018/images/icons/slack.svg" alt="" width="20" style="position: relative;top: -2px;margin-right: 2px;">
-                    Join<span class="hidden-under-l"> Our Slack</span>
+                    Join<span class="hidden-under-m"> Our Slack</span>
                   </a>
+                  <!-- <form class="form-inline" action="/slack/uxbri/invite" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="6JXW1YqRUhZb+HybvgKJPie02jmGQKe0myyt5Elfjg2fmfHMDrPAguvAyLaunNKAlPQJntckEzUSRL+w4mTHUg=="><div class="form-group"><input type="email" name="email" id="email" value="" placeholder="you@youremail.com" class="form-control"><input type="submit" name="commit" value="Get Invite" class="btn btn-primary btn-invite"><span class="sign-in">or <a target="new" href="https://uxbri.slack.com">sign in</a></span></div></form> -->
                 </li>
               {% endif %}
 
