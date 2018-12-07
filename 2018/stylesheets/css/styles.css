@@ -392,8 +392,7 @@ body, input, textarea {
 
 h1, h2, h3, h4, h5, h6 .masthead__link {
   font-family: "museo-sans", -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", "Arial Unicode MS", "DejaVu Sans", "Lucida Sans Unicode", "Segoe UI Symbol", "FreeSans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif;
-  font-weight: 900;
-  margin-bottom: 1em; }
+  font-weight: 900; }
 
 h1, .fs-h1 {
   font-size: 36px;
@@ -613,7 +612,7 @@ textarea,
   -ms-user-select: none;
   user-select: none;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: inherit;
   font-weight: 400;
   line-height: 1;
   border: 1px solid transparent;
@@ -1475,6 +1474,9 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
 
 .bg-grey-90 {
   background: #1a272c; }
+
+.bg-trans {
+  background: transparent; }
 
 .bg-black-5 {
   background: #010f15; }

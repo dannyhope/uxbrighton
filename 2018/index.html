@@ -158,7 +158,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
   <main class="-is-conference-day is-post-conference">
 
     <section id="hero" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000; background-size: cover;">
-      
+      <!-- 
       <div class="row flex-over-l flex-reverse-under-l">
 
         <div class="u1of2-over-l right-over-l bg-white flex-over-l" style="background: rgba(255,255,255,0.9);">
@@ -206,28 +206,116 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         </div>   
 
       </div>
-      <!-- 
+      -->
+        <style>
+
+          @media (min-width: 860px) {
+            .upcoming__container {
+              width: 330px;
+              float: right;
+              padding: 18px 18px;
+              margin-bottom: 24px !important;
+            }
+            .upcoming__container__heading {
+              margin-bottom: 12px;
+            }
+            .upcoming__teaser {
+              padding-top: 12px;
+              padding-bottom: 12px;
+            }
+          }
+          @media (max-width: 859px) {
+            #hero .overlay__inner {
+              padding: 20px 0 0;
+            }
+            .upcoming__container {
+              padding: 6px 12px;
+              margin-bottom: 24px !important;
+            }
+            .upcoming__teaser,
+            .upcoming__container__heading {
+              padding-top: 6px;
+              padding-bottom: 6px;
+            }
+            .upcoming__teaser__text,
+            .upcoming__teaser__heading,
+            .upcoming__teaser__button {
+              font-size: 16px !important;
+            }
+          }
+          .upcoming__teaser__heading {
+            margin-bottom: 0;
+          }
+          .upcoming__teaser__button {
+            margin-top: 6px; 
+            margin-bottom: 6px;
+          }
+        </style>
+      
         <div class="overlay__inner overflow-hidden">
 
           <div class="container color-white">
+
+
+            <div class="upcoming__container color-black bg-white rounded ">
+
+              <h2 class="upcoming__container__heading fs-s track-loose uppercase  regular">Upcoming Events:</h2>
+              
+              <!-- <div class="upcoming__teaser border-top pt2">
+                <h3 class="upcoming__teaser__heading mb0">
+                  UX Brighton Xmas Party
+                </h3>
+                <div class="upcoming__teaser__text">
+                  14th Dec 2018, 5pm
+                </div>
+                <a href="" class="upcoming__teaser__button button mt1 mb2 button--green">
+                  Join Us
+                </a>
+              </div> -->
+              
+              <div class="upcoming__teaser border-top">
+                <h3 class="upcoming__teaser__heading ">
+                  February double bill
+                </h3>
+                <div class="upcoming__teaser__text">
+                  Tue 12 February 2019, 19:00
+                </div>
+                <a href="/February-double-bill/" class="upcoming__teaser__button button button--green ">
+                  Tickets and info
+                </a>
+              </div>
+              
+              <div class="upcoming__teaser border-top">
+                <h3 class="upcoming__teaser__heading ">
+                  UX Brighton 2019
+                </h3>
+                <div class="upcoming__teaser__text">
+                  Ultra early-bird discount: <br>
+                  A limited number of tickets are now available at 35% off.
+                </div>
+                <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="upcoming__teaser__button button button--green">
+                  Buy Now — 35% off
+                </a>
+              </div>
+            </div>
+
+
             <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
               <span class="fs-l mb1 block track-normal weight-400" >UX Brighton 2018</span>
               It’s a wrap!
             </h1>
-            <div style="-max-width: 31em;">
+            <div style="max-width: 40em;">
               <p class="mt0 fs-l regular track-normal mb3">
-                Thanks to everyone who attended, sponsored and spoke at UX Brighton 2018. 
+                Thanks to everyone who attended, sponsored and spoke at UX Brighton 2018. <a href="#newletter-signup" class="color-white underline">Sign up to be notified</a> about future UX Brighton talks and events.
               </p>
               <p class="mt0 fs-l regular track-normal mb6">
-                <a href="#newletter-signup" class="color-white underline">Sign up</a> to be notified about future UX Brighton talks and events. <br>
-
-                You may also wish to <a href="http://slack.uxbrighton.org.uk/" class="color-white underline">join our Slack</a> community, which includes a rather nice #jobs channel.
+                 You may also wish to <a href="http://slack.uxbrighton.org.uk/" class="color-white underline">join our Slack</a> community, which includes a rather nice #jobs channel.
               </p> 
             </div>
           </div>
 
         </div>
-      -->
+     
     </section>
 
 
@@ -1104,7 +1192,8 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
 
   <aside id="workshop">
-    <section id="promotions" style="min-height: 0;">
+    {% include upcoming.html %}
+<!--     <section id="promotions" style="min-height: 0;">
       <div class="container"><hr>
         <h3 class="fs-h2 mt5">Other UX Brighton events</h3>
         <div class="row pb5 flex-over-m">
@@ -1143,5 +1232,5 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         </div>
       </div>
 
-    </section>
+    </section> -->
   </aside>

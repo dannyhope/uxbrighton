@@ -3,7 +3,7 @@ layout: event-page
 title: Top Tasks Workshop
 venue: 68 Middle Street
 start: 9:30am
-upcoming: true
+upcoming: false
 homepage: false
 price: from £300 + VAT
 ticket-link: https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets
