@@ -3,9 +3,7 @@ layout: event-page
 title: UX for Kids
 start: 7pm
 venue: Bar Du Vin
-lanyrd-url: 
 upcoming: false
-ticket-link: 
 supporters:  
   - name: Interaction Design Foundation
     link-url: https://www.interaction-design.org/join/index.html?referralMd5sum=ux_for_kids_mar_10th_2015
