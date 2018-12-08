@@ -10,7 +10,7 @@ The July 2012 edition of UX Brighton focused on mobile user testing. We had two 
 
 Both talks are available to watch below:
 
-<div class="embed-container vga">
+<div class="embed-container hd">
 <iframe width="560" height="315" src="//www.youtube.com/embed/wi3_05O8gZE?list=PLmeBKCinpyZ9KYdrFev6JR1rx2kn8zt1H" frameborder="0" allowfullscreen></iframe>
 </div>
 

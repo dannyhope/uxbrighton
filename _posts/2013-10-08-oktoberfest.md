@@ -11,7 +11,7 @@ UX Brighton evenings returned with UX Oktoberfest - our last event before Novemb
 
 ## Cognitive biases & design - Jerome Ribot
 
-<div class="embed-container vga">
+<div class="embed-container hd">
 <iframe width="560" height="315" src="//www.youtube.com/embed/SFPKRSAjsV4?list=PLmeBKCinpyZ-sEPG7a-pD0bHfU1Kfalu8" frameborder="0" allowfullscreen></iframe>	
 </div>
 
@@ -26,7 +26,7 @@ Jerome is the Chief Design Officer at Ribot, where he drives their creative, des
 
 ## Come together – Better connections between physical products, digital services and the teams that deliver them – Jason Mesut
 
-<div class="embed-container vga">
+<div class="embed-container hd">
 <iframe width="560" height="315" src="//www.youtube.com/embed/1JxC36cWWfw?list=PLmeBKCinpyZ-sEPG7a-pD0bHfU1Kfalu8" frameborder="0" allowfullscreen></iframe>	
 </div>
 
@@ -41,7 +41,7 @@ Jason is Head of User Experience at Plan Strategic, a Product Strategy consultan
 
 ## Using Design for Competitive Advantage - Andy Budd
 
-<div class="embed-container vga"><iframe width="560" height="315" src="//www.youtube.com/embed/otqFLcKGraQ?list=PLmeBKCinpyZ-sEPG7a-pD0bHfU1Kfalu8" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container hd"><iframe width="560" height="315" src="//www.youtube.com/embed/otqFLcKGraQ?list=PLmeBKCinpyZ-sEPG7a-pD0bHfU1Kfalu8" frameborder="0" allowfullscreen></iframe></div>
 
 
 Why do so many digital companies favour technology over design? In his talk Andy will explain How startups (and any other business) can use design for more than making something pretty. Instead Andy believes that design is one of the few areas of competitive advantage left.

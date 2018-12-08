@@ -98,29 +98,55 @@
 
 
     <style>
+      .responsive-height-limiter + h2,
       p + h2 { margin-top: 1.33em; }
       p + h3 { margin-top: 1em; }
       h3 + p { margin-top: 0.33em; }
-      h2 + h3 + p { margin-top: 0.66em; }
+      h2 + .responsive-height-limiter,
+      h3 + .responsive-height-limiter,
+      h2 + .embed-container  { margin-top: 1em; }
+
+      h2 + h3 + p,
+      h2 + p,
+      h2 + ul { margin-top: 0.66em; }
+
+
+      .responsive-height-limiter + h2 {
+        
+      }
+
+
       @media (min-width: 680px) {
-        .talk__thumb {
+        .talk__thumb,
+        .speaker-photo,
+        [alt="speaker-photo"] {
           margin: 0 0 30px 20px;
+          max-width: 250px;
+          float: right;
+          border-radius: 50%;
         }
       }
       @media (max-width: 679px) {
-        .talk__thumb {
+        .talk__thumb,
+        .speaker-photo {
           margin: 0 auto 20px;
           display: block;
           float: none;
+          max-width: 250px;
+          float: right;
+          border-radius: 50%;
         }
       }
-      .event-overview p:first-of-type {
+      .event-overview > p:first-of-type {
         font-size: 21px;
         line-height: 30px;
         /*margin-top: 0.33em;*/
         margin-bottom: 1em;
         padding-bottom: 1em;
         border-bottom: 1px solid #e6e7e8;
+      }
+      .event-overview p:first-of-type strong {
+        font-weight: normal;
       }
       .event-overview p:first-of-type + h2 {
         margin-top: 0;

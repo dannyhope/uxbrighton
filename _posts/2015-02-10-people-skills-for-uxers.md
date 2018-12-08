@@ -8,13 +8,23 @@ upcoming: false
 ticket-link: 
 ---
 
+<style>
+  .event-overview img {
+    width: 50%;
+    float: left;
+  }
+</style>
+
+
 **We've developed an amazing set of skills for empathising with our end-users, but rarely if ever do we turn these techniques in the other direction: on our clients. Just the opposite in fact: we're much more likely to talk of our clients as idiots who don't 'get it' than as understandably stressed human beings pushed outside of their comfort zone.**
 
-**This lack of empathy seems strange given our trade, and the fact that they have by far the most influence over whether our not our projects will be successful.**
+This lack of empathy seems strange given our trade, and the fact that they have by far the most influence over whether our not our projects will be successful.
 
-**If we can learn to handle our stakeholders more empathetically then we can make better products for our users, and help our projects to run smoothly and successfully.**
+If we can learn to handle our stakeholders more empathetically then we can make better products for our users, and help our projects to run smoothly and successfully.
 
-**And that's what this event is all about.** 
+And that's what this event is all about.
+
+<hr>
 
 ## The 7 habits of highly frustrating stakeholders – Kevin O'Neill
 
@@ -24,11 +34,11 @@ We'll kick of the evening with a talk by Kevin, a digital strategist at London A
 
 [@coach4creatives](http://twitter.com/coach4creatives)
 
-
+<br style="clear:both;"  class="mv1">
 ![Kevin O'Neill speaking](https://farm8.staticflickr.com/7292/15930421673_fbe5d64c05.jpg)
 ![Kevin speaking at Fabrica](https://farm9.staticflickr.com/8628/16549504962_c048fc315d.jpg)
 ![Audience at Fabrica](https://farm8.staticflickr.com/7309/16548923641_8d73058db5.jpg)
-
+<br style="clear:both;"  class="mv1">
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
 ## Top tips for running effective workshops – Alison Coward
@@ -39,7 +49,10 @@ Alison will go through tips for designing and facilitating effective workshops t
 
 [@alisoncoward](http://twitter.com/alisoncoward)
 
-![Alison Coward speaking](https://farm9.staticflickr.com/8604/15928055584_3f21b26444.jpg) ![Alison from above](https://farm8.staticflickr.com/7288/16362936928_35839f7d9f.jpg)
+<br style="clear:both;"  class="mv1">
+![Alison Coward speaking](https://farm9.staticflickr.com/8604/15928055584_3f21b26444.jpg) 
+![Alison from above](https://farm8.staticflickr.com/7288/16362936928_35839f7d9f.jpg)  
+<br style="clear:both;"  class="mv1">
 
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
@@ -50,11 +63,11 @@ Alison will go through tips for designing and facilitating effective workshops t
 Matt is a creativity and collaboration consultant at NixonMcInnes, and he's going to talk about how improv can teach us the key people skills of listening and collaboration, and, surprisingly, help organisations to innovate collaboratively.
 
 [@DJmattmatheson](http://twitter.com/DJmattmatheson)
-
+<br style="clear:both;"  class="mv1">
 ![Matt speaking at Fabrica](https://farm9.staticflickr.com/8683/16524642996_6513c4a2e5.jpg)
 ![Delegates](https://farm9.staticflickr.com/8651/16548965111_44844c9be6.jpg)
 ![Matt Matheson speaking](https://farm8.staticflickr.com/7386/16524647216_4572b174e6.jpg)
-
+<br style="clear:both;"  class="mv1">
 [View all photos from this event](https://www.flickr.com/photos/yandle/sets/72157650437231957/with/16524647216/"People Skills album")
 
 ## Organisers

@@ -12,13 +12,30 @@ supporters:
     image-url: https://www.interaction-design.org/images/logo/logos_for_public_use/logo_05_a.jpg
 ---
 
-**This event will attempt to give a broad overview of the challenges and rewards when designing for children.** 
+This event will attempt to give a broad overview of the challenges and rewards when designing for children.
 
 It's easy to lump "kids" under one banner, but developmentally and in cognitive terms they're very different as toddlers than they are as a five year olds and again as eight year olds.
 
 Thinking of coming? If you're a designer, UX-person, copy-writer, web or mobile app-developer, a product-owner or anyone who's interested in creating digital products for children, then you should definitely come!
 
 We'll look at involving children in the design process, how we can engage pre-school children, what techniques we should use when we need to address children of differing abilities and how we can build low-fidelity prototypes to quickly address design issues.
+
+<hr>
+
+<style>
+  .cols {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;  
+  }
+  .cols img {
+    display: block;
+    margin-bottom: 18px;
+  }
+  hr {
+    margin: 1.5em 0; 
+  }
+</style>
 
 <a name="leanne-and-liz"></a> <a name="leanne"></a>
 
@@ -40,9 +57,8 @@ Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has 
 
 <hr>
 
-<img src="https://farm9.staticflickr.com/8726/16650723780_ae5c910b7d_z_d.jpg" srcset="https://farm9.staticflickr.com/8726/16650723780_6fd06e38cf_k_d.jpg 1024w" alt="Leanne Dougan presenting" />
+<div class="cols"><img src="https://farm9.staticflickr.com/8726/16650723780_ae5c910b7d_z_d.jpg" srcset="https://farm9.staticflickr.com/8726/16650723780_6fd06e38cf_k_d.jpg 1024w" alt="Leanne Dougan presenting" /><img src="https://farm9.staticflickr.com/8599/16837048991_f095424ef7_z_d.jpg" srcset="https://farm9.staticflickr.com/8599/16837048991_454d4a1c46_k_d.jpg 1024w" alt="Lean & Liz"/></div>
 
-<img src="https://farm9.staticflickr.com/8599/16837048991_f095424ef7_z_d.jpg" srcset="https://farm9.staticflickr.com/8599/16837048991_454d4a1c46_k_d.jpg 1024w" alt="Lean & Liz"/>
 
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
@@ -68,10 +84,9 @@ Liz will talk about how the sprints gave us chance to explore how we could use t
 
 Liz Leakey is Creative Director for BBC Children's and has worked at the BBC since Jan 2012. Before that she ran her own web design business in the Lake District, after 7 years at the BBC in London, also in BBC Children's. During that time Liz designed sites for brands like Blue Peter and Live & Kicking (sat morning TV) as well as seeing the launch of the two digital channels (CBBC and CBeebies) in 2002. In 2012 she joined the iWonder team in MediaCityUK and worked on the new Guide format for iWonder, before joining BBC Children's in 2014. The world of designing for children has changed in 15 years, although the fundamentals have stayed the same, the processes we use and devices the audience access content on have changed the way we work beyond recognition.
 
-<hr>
 
-<img src="https://farm8.staticflickr.com/7623/16838484775_503737e4eb_z_d.jpg" srcset="https://farm8.staticflickr.com/7623/16838484775_788956be01_o_d.jpg 1024w" alt="Liz presenting" />
-<img src="https://farm9.staticflickr.com/8583/16215770564_b9ff1cd13a_z_d.jpg" srcset="https://farm9.staticflickr.com/8583/16215770564_f740aef328_k_d.jpg 1024w" alt="Leanne & Liz's laptops" />
+<div class="cols"><img src="https://farm9.staticflickr.com/8583/16215770564_b9ff1cd13a_z_d.jpg" srcset="https://farm9.staticflickr.com/8583/16215770564_f740aef328_k_d.jpg 1024w" alt="Leanne & Liz's laptops" /><img src="https://farm8.staticflickr.com/7623/16838484775_503737e4eb_z_d.jpg" srcset="https://farm8.staticflickr.com/7623/16838484775_788956be01_o_d.jpg 1024w" alt="Liz presenting" /></div>
+
 
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
@@ -89,14 +104,13 @@ This talk will examine the different techniques used while working with children
 
 [Monica Ferraro](https://twitter.com/playhows) - User Experience Consultant, Webcredible and Playhows. UXPA Secretary.
 
-![speaker-photo](/assets/ux-for-kids/monica-ferraro.jpg)
 At Playhows, Monica is a user experience consultant specialising in children. Playhows help companies create better experiences for products and services through a children-centred design approach. Their work focuses on involving children directly in the design process, giving their needs and requirements extensive consideration at every stage of the process.
 
-<hr>
-
+<div class="cols">
+<img src="/assets/ux-for-kids/monica-ferraro.jpg" alt="Monica Ferraro">
 <img src="https://farm9.staticflickr.com/8694/16631167447_32565819f4_z_d.jpg" srcset="https://farm9.staticflickr.com/8694/16631167447_3317fa6dda_k_d.jpg 1024w" alt="Monica presenting" />
 <img src="https://farm9.staticflickr.com/8573/16216582604_79937d2558_z_d.jpg" srcset="https://farm9.staticflickr.com/8573/16216582604_ea07d03f40_k_d.jpg 1024w" alt="Speakers watching Monica" />
-
+</div>
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
 
 <a name="amberlight"></a>
@@ -115,11 +129,10 @@ UX specialists Filip Healy, Mansha Manohar and George Green from Aberlight plus 
 
 Amberlight have been involved in numerous projects researching how children and families use technology. They have worked for companies such as BBC, Disney, Sony Playstation, Children's Society, Orange and Microsoft across a range of technologies from websites to games consoles. They have worked closely with schools, parents and academics to train their consultants and tailor their methods for working with children of all ages.
 
-<hr>
+<div class="cols"><img src="https://farm8.staticflickr.com/7591/16631169547_9e86c7887f_o_d.jpg" alt="George presenting"><img src="https://farm8.staticflickr.com/7639/16837416531_28af9cf557_o_d.jpg" alt="George, Mansha, Filip &amp; Gemma"></div>
 
-![George, Mansha, Filip & Gemma](https://farm8.staticflickr.com/7639/16837416531_28af9cf557_o_d.jpg)
-![George presenting](https://farm8.staticflickr.com/7591/16631169547_9e86c7887f_o_d.jpg)
 [View all photos from this event](https://www.flickr.com/photos/uxbrighton/sets/72157651397567815/)
+
 
 ## Organisers
 

@@ -802,7 +802,7 @@ img, svg {
 
 .embed-container {
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: 80%;
   height: 0;
   overflow: hidden;
   margin-bottom: 24px; }

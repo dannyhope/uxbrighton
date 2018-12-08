@@ -11,6 +11,25 @@ price: FREE
 art-direction: ".event-detail_desc img{vertical-align: middle} @media (max-width: 64rem) {.event-detail_desc img{width: 20%;} .event-detail_desc img[src*=wide]{width: 40%}} @media (min-width: 65rem) {.event-detail_desc img{width: 10%;} .event-detail_desc img[src*=wide]{width: 20%}} blockquote {line-height: 1.75; margin: 0; font-style: italic; font-size: 1rem}"
 ---
 
+
+<style>
+  .cols {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;  
+  }
+  .cols a {
+    display: block;
+    margin-bottom: 18px;
+    padding: 10px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  hr {
+    margin: 1.5em 0; 
+  }
+</style>
+
+
 [Writeup from a mentor’s point of view (blog post by Rachel McConnell of RSA)](https://rsa.digital/2016/11/21/rsa-digital-goes-to-ux-brighton-career-clinic/ )
 
 Following the success of our [last UX Career Clinic](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/), [we're back again](http://brightondigitalfestival.co.uk/event/ux-career-clinic-supercharge-ux-career/) as part of the [Brighton Digital Festival](http://brightondigitalfestival.co.uk/).
@@ -19,28 +38,30 @@ Following the success of our [last UX Career Clinic](http://www.nppdigital.com/b
 
 Approximately 20 company representatives and UX freelancers will be on-hand <strong>to give one-to-one advice</strong> to those looking to get into the industry or move within it.
 
+<hr>
+
 Our <strong>confirmed mentors</strong> are:
 
-[![Amex](../assets/2016-careers-clinic/amex.svg)](https://www.americanexpress.com/uk/)
-[![Amido](../assets/2016-careers-clinic/amido.png)](http://www.amido.com/)
-[![Andy Parker](../assets/2016-careers-clinic/andy.parker.jpg)](http://byandyparker.com/)
-[![University of Brighton](../assets/2016-careers-clinic/uob.wide.svg)](https://www.brighton.ac.uk)
-[![Clearleft](../assets/2016-careers-clinic/clearleft.wide.svg)](http://clearleft.com)
-[![Crunch](../assets/2016-careers-clinic/crunch.wide.svg)](https://www.crunch.co.uk/)
-[![EDF](../assets/2016-careers-clinic/edf.jpg)](http://edfenergy.com)
-[![Foolproof](../assets/2016-careers-clinic/foolproof.svg)](http://www.foolproof.co.uk/)
-[![Fresh Egg](../assets/2016-careers-clinic/fresh_egg.jpg)](http://www.freshegg.co.uk/)
-[![Liquid Light](../assets/2016-careers-clinic/liquid_light.wide.svg)](https://www.liquidlight.co.uk/)
-[![Madgex](../assets/2016-careers-clinic/madgex.wide.svg)](http://www.madgex.com/)
-[![MRM Meteorite](../assets/2016-careers-clinic/mrm.svg)](http://www.mrm-meteorite.com/)
-[![Sjors Timmer](../assets/2016-careers-clinic/notura.wide.png)](http://notura.com/)
-[![Player Research](../assets/2016-careers-clinic/player_research.wide.png)](http://www.playerresearch.com/)
-[![RSA Digital](../assets/2016-careers-clinic/rsa_digital.wide.svg)](https://rsa.digital/)
-[![Ribot](../assets/2016-careers-clinic/ribot.svg)](http://ribot.co.uk)
-[![The Unit](../assets/2016-careers-clinic/the_unit.svg)](http://www.theunit.co.uk/)
-[![Webcredible](../assets/2016-careers-clinic/webcredible.png)](http://www.webcredible.com/)
+<p class="cols mv3"><a href="https://www.americanexpress.com/uk/"><img src="../assets/2016-careers-clinic/amex.svg" alt="Amex"></a>
+<a href="http://www.amido.com/"><img src="../assets/2016-careers-clinic/amido.png" alt="Amido"></a>
+<a href="http://byandyparker.com/"><img src="../assets/2016-careers-clinic/andy.parker.jpg" alt="Andy Parker"></a>
+<a href="https://www.brighton.ac.uk"><img src="../assets/2016-careers-clinic/uob.wide.svg" alt="University of Brighton"></a>
+<a href="http://clearleft.com"><img src="../assets/2016-careers-clinic/clearleft.wide.svg" alt="Clearleft"></a>
+<a href="https://www.crunch.co.uk/"><img src="../assets/2016-careers-clinic/crunch.wide.svg" alt="Crunch"></a>
+<a href="http://edfenergy.com"><img src="../assets/2016-careers-clinic/edf.jpg" alt="EDF"></a>
+<a href="http://www.foolproof.co.uk/"><img src="../assets/2016-careers-clinic/foolproof.svg" alt="Foolproof"></a>
+<a href="http://www.freshegg.co.uk/"><img src="../assets/2016-careers-clinic/fresh_egg.jpg" alt="Fresh Egg"></a>
+<a href="https://www.liquidlight.co.uk/"><img src="../assets/2016-careers-clinic/liquid_light.wide.svg" alt="Liquid Light"></a>
+<a href="http://www.madgex.com/"><img src="../assets/2016-careers-clinic/madgex.wide.svg" alt="Madgex"></a>
+<a href="http://www.mrm-meteorite.com/"><img src="../assets/2016-careers-clinic/mrm.svg" alt="MRM Meteorite"></a>
+<a href="http://notura.com/"><img src="../assets/2016-careers-clinic/notura.wide.png" alt="Sjors Timmer"></a>
+<a href="http://www.playerresearch.com/"><img src="../assets/2016-careers-clinic/player_research.wide.png" alt="Player Research"></a>
+<a href="https://rsa.digital/"><img src="../assets/2016-careers-clinic/rsa_digital.wide.svg" alt="RSA Digital"></a>
+<a href="http://ribot.co.uk"><img src="../assets/2016-careers-clinic/ribot.svg" alt="Ribot"></a>
+<a href="http://www.theunit.co.uk/"><img src="../assets/2016-careers-clinic/the_unit.svg" alt="The Unit"></a>
+<a href="http://www.webcredible.com/"><img src="../assets/2016-careers-clinic/webcredible.png" alt="Webcredible"></a></p>
 
-[Cheryl Gallaway](http://cherylgallaway.com/), [Danny Hope](http://dannyhope.co.uk/), [Patrick Sansom](https://www.linkedin.com/in/patricksansomdesigner) and [Ben Scammels](http://www.benscammelsdesign.com/).
+<hr>
 
 Here's what one attendee from our previous career clinic had to say:
 

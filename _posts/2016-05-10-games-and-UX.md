@@ -15,8 +15,12 @@ art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{wid
 This evening event will investigate how UX and user research is implemented in the development of video games. Speakers will be covering a wide range of games UX and user research topics, discussing how the best games really focus on the player experience. 
 
 The current state of UX in the games industry will be discussed, as well as how it will change moving forward with new technologies like VR.
+<div class="row">
+  <div class="u1of3-over-s u1of3-under-s left"><a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a></div>
+  <div class="u1of3-over-s u1of3-under-s left"><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a></div>
+  <div class="u1of3-over-s u1of3-under-s left"><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a></div>
+</div>
 
-<a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a>
 
 ## Running user tests for Virtual Reality games - Steve Bromley
 
