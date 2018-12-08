@@ -105,7 +105,9 @@
 
 	@media (min-width: 730px){
 		.archive-nav .post-title {
-			font-size: 21px;
+			font-size: 30px;
+			line-height: 1.25;
+			letter-spacing: -0.8px;
 		}
 	}
 
@@ -155,13 +157,13 @@
 				
 			<ul class="list">
 				<li>
-					<h2 class="archive-nav__heading pv2 ph3">Upcoming Events</h2>
+					<h2 class="archive-nav__heading pv1 ph4">Upcoming Events</h2>
 				</li>		
 
 
 				<li class="event-title-list-item">
-					<a class="block-link pv2 ph3 archive-nav__link" href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">
-						<div class="post-title bold block-link__highlight">2019 Conference ★ </div>
+					<a class="block-link pv3 ph4 archive-nav__link" href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">
+						<div class="post-title weight-900 block-link__highlight">2019 Conference ★ </div>
 						<div class="post-date ">1 November 2019</div>
 						<div class="post-excerpt">Our 9th one day annual conference. More details will be announced here: http://uxbrighton.org.uk Want to sponsor us? Get in touch with our Conference Producer Emmeline at emmeline@uxbrighton.org.uk</div>
 					</a>
@@ -175,8 +177,8 @@
 					{% for post in site.posts %}
 						{% if post.upcoming == true %}
 							<li class="event-title-list-item event-upcoming {% if page.url == post.url %}current{% endif %}">
-								<a class="block-link pa2 archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
-									<div class="post-title fs-l bold block-link__highlight">{{ post.title }}</div>
+								<a class="block-link pv3 ph4  archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
+									<div class="post-title fs-l weight-900 block-link__highlight">{{ post.title }}</div>
 									<div class="post-date ">{{post.date | date: "%-d %B %Y"}}{% if page.start %}<span class="event-time inline-block">, {{page.start}}</span>{% endif %}</div>
 									<div class="post-excerpt">{{ post.content | strip_html }}</div>
 								</a>
@@ -187,12 +189,12 @@
 				
 				
 				<li>
-					<h2 class="archive-nav__heading pv2 ph3">Archive: Previous Events</h2>
+					<h2 class="archive-nav__heading pv1 ph4 ">Archive: Previous Events</h2>
 				</li>
 
 				<li class="event-title-list-item">
-					<a class="block-link pv2 ph3 archive-nav__link" href="/2018/">
-						<div class="post-title bold block-link__highlight">2018 Conference ★ Advancing Research</div>
+					<a class="block-link pv3 ph4  archive-nav__link" href="/2018/">
+						<div class="post-title weight-900 block-link__highlight">2018 Conference ★ Advancing Research</div>
 						<div class="post-date ">2 November</div>
 						<div class="post-excerpt">UX Brighton 2018: Advancing Research Inspire your team with sharply focused insights. Research belongs at the heart of UX. It guides our work and shapes our decisions. That’s why Advancing Research is the theme of UX Brighton 2018.
 						Katy Arnold
@@ -244,8 +246,8 @@
 							{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
 							{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
 							<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}{% if postyear == currentyear %} current-year{% endif %}">
-								<a class="block-link pv2 ph3  archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
-									<div class="post-title bold block-link__highlight">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
+								<a class="block-link pv3 ph4   archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
+									<div class="post-title weight-900 block-link__highlight">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
 									<div class="post-date">
 
 									{% if postyear >= currentyear %}

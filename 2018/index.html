@@ -150,6 +150,9 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         font-size: 24px;
       }
     }
+    #newletter-signup:target {
+      padding-bottom: calc(100vh - 340px);
+    }
   </style>
 
 
@@ -1192,13 +1195,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
 
   <aside id="workshop">
-    {% include upcoming.html %}
-<!--     <section id="promotions" style="min-height: 0;">
+    
+    <section id="promotions" style="min-height: 0;">
       <div class="container"><hr>
-        <h3 class="fs-h2 mt5">Other UX Brighton events</h3>
+        <h3 class="fs-h2 mt5 mb2">Workshop</h3>
         <div class="row pb5 flex-over-m">
 
-          <div class="u1of2-over-m left-over-m pr2-over-m mb3 flex-over-m">
+          <div class="u1of2-over-m left-over-m mb3 flex-over-m">
             <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link fill tile pv4 ph3   rounded drop relative" style="background: url('/2018/images/speakers/Gerry4b.jpg') center center no-repeat #000; background-size: cover;">
               <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
               <h1 class="leading-solid mb2 color-white fs-xl relative">
@@ -1215,7 +1218,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
             </a>
           </div>
 
-          <div class="u1of2-over-m left-over-m pl2-over-m mb3 flex-over-m">
+          <div class="u1of2-over-m left-over-m mb3 flex-over-m">
             <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link tile pv4 ph3 bg-grey-5 color-grey-60 fill">
               <h3>
                 How do you know what really matters to your customers?
@@ -1232,5 +1235,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         </div>
       </div>
 
-    </section> -->
+    </section>
+
+    {% include upcoming.html %}
   </aside>

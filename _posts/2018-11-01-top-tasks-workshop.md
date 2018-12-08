@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: Top Tasks Workshop
+title: Top Tasks Workshop with Gerry McGovern
 venue: 68 Middle Street
 start: 9:30am
 upcoming: false
