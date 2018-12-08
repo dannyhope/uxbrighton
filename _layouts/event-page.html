@@ -114,12 +114,23 @@
           float: none;
         }
       }
+      .event-overview p:first-of-type {
+        font-size: 21px;
+        line-height: 30px;
+        /*margin-top: 0.33em;*/
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid #e6e7e8;
+      }
+      .event-overview p:first-of-type + h2 {
+        margin-top: 0;
+      }
     </style>
 
 
 
 </head>
-<div id="top" class="relative {% if page.slug %}page-{{ page.slug }}{% endif %}">
+<div id="top" class="relative layout--event {% if page.slug %}page-{{ page.slug }}{% endif %}">
 
   <header class="page-hd masthead">
     <nav class="container ">
@@ -283,7 +294,7 @@
 							{% include organisers.html %}
 						</aside>        		
         	</div>
-        	<div class="u2of3-over-m left-over-m gutter-right">
+        	<div class="u2of3-over-m left-over-m gutter-right event-overview">
         		{{ content }}
         	</div>
 				</div><!-- row -->
