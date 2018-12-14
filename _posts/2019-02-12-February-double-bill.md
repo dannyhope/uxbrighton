@@ -9,6 +9,7 @@ homepage: false
 upcoming: true
 published: true
 description: "Rachel McConnell – How to take your content from zero to hero & Fiona MacNeill – A UX perspective on ‘bring your own data’ in healthcare"
+fullurl: https://uxbrighton.org.uk/February-double-bill/
 image: "https://uxbrighton.org.uk/images/cards/Feb-2019.jpg"
 ---
 
