@@ -32,3 +32,9 @@ Rachel is the author of 'Why you need a content team and how to build one'.  She
 
 ### Bio:
 Fiona MacNeill is an eLearning professional who has occupied themselves with research into UX and IoT over the past few years; culminating in the recent completion of an MSc in user experience design. Their prior background, working as a visual artist and curator stoked interests in visual representation, wayfinding and audience experience which organically lead them to user experience. MacNeill is a habitual problem solver, oft troublemaker and resolute defender of accessibility, but most of all wants to make human/computer interaction just a little bit better for everybody.
+
+### Deposits/tickets
+
+We run our evening events as not-for-profit. The ticket price helps to cover some of our costs and to discourage non-attendance, however we will refund the cost of your ticket (so long as you attend). Please send an [email](mailto:emmeline@uxbrighton.org.uk) request within 3 days of the event date.
+
+Unclaimed deposits help us fund future events.
