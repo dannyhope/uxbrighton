@@ -34,6 +34,6 @@ Fiona MacNeill is an eLearning professional who has occupied themselves with res
 
 ### Deposits/tickets
 
-<p>We run our evening events as not-for-profit. The ticket price helps to cover some of our costs and to discourage non-attendance, however we will refund the cost of your ticket (so long as you attend). Please send an [email](mailto:emmeline@uxbrighton.org.uk)request within 3 days of the event date.</p>
+We run our evening events as not-for-profit. The ticket price helps to cover some of our costs and to discourage non-attendance, however we will refund the cost of your ticket (so long as you attend). Please send an [email](mailto:emmeline@uxbrighton.org.uk) request within 3 days of the event date.
 
-<p>Unclaimed deposits help us fund future events.</p>
+Unclaimed deposits help us fund future events.
