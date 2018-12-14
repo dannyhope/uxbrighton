@@ -1,3 +1,90 @@
+  <style>
+
+
+    #slack-signup {
+      position: fixed;
+      top: -100vh;
+      width: 320px;
+      right: 0;
+    }
+
+
+    [data-overlay-active="newsletter"] #newletter-signup {
+      position: fixed;
+      z-index: 300;
+      background: #fff;
+      padding: 20px;
+    }
+    [data-overlay-active="newsletter"] #newletter-signup form {
+      max-width: calc(100vw - 40px);
+    }
+
+    [data-overlay-active="slack"] #slack-signup,
+    [data-overlay-active="newsletter"] #newletter-signup {
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.6);
+    }
+    /*contents*/
+      [data-overlay-active="newsletter"] #newletter-signup h2, 
+      [data-overlay-active="newsletter"] #newletter-signup label {
+        color: #000;
+      }
+      [data-overlay-active="newsletter"] #newsletter-options {
+        display: block;
+      }
+      [data-overlay-active="newsletter"] #newletter-signup nav {
+        display: none;
+      }
+      [data-overlay-active="newsletter"] #newletter-signup:before {
+        position: absolute;
+        content: '';
+        top: -7px;
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid white;
+        right: 30px !important;
+      }
+      [data-overlay-active="newsletter"] #fieldEmail {
+        border-style: solid;
+        box-shadow: 1px 2px 1px rgba(0,0,0,0.1) inset;
+        min-width: 190px;
+      }
+
+
+    @media (max-width:800px) {
+      [data-overlay-active="slack"] #slack-signup,
+      [data-overlay-active="newsletter"] #newletter-signup {
+        top: 49px; 
+        left: 0;
+        right: 0;
+        width: 100%;
+      }
+      [data-overlay-active="slack"] #slack-signup:before,
+      [data-overlay-active="newsletter"] #newletter-signup:before {
+        display: none;
+      }
+    }
+
+
+    @media (min-width:800px) {
+      [data-overlay-active="slack"] #slack-signup,
+      [data-overlay-active="newsletter"] #newletter-signup {
+        border-radius: 3px;
+      }
+      [data-overlay-active="slack"] #slack-signup {
+        top: 56px;
+      }
+      [data-overlay-active="newsletter"] #newletter-signup {
+        top: 56px;
+        margin: 0 0 0 450px;
+        width: 560px;
+      }
+    }
+
+  </style>
+
+
   <header class="page-hd masthead">
     <nav class="container ">
       <a class="masthead__logo bg-white color-red relative z4" href="/2018/#top" style="line-height: 0;">
@@ -11,76 +98,6 @@
 
       <div class="masthead__links">
           <ul class="nav right-over-m">
-
-
-
-
-
-
-<style>
-
-  [data-overlay-active="newsletter"] #newletter-signup {
-    position: fixed;
-    top: 56px;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
-    border-radius: 3px;
-    margin: 0 0 0 450px;
-    width: 560px;
-  }
-  [data-overlay-active="newsletter"] #newletter-signup h2, 
-  [data-overlay-active="newsletter"] #newletter-signup label {
-    color: #000;
-  }
-  [data-overlay-active="newsletter"] #newsletter-options {
-    display: block;
-  }
-  [data-overlay-active="newsletter"] #newletter-signup nav {
-    display: none;
-  }
-  [data-overlay-active="newsletter"] #newletter-signup:before {
-    position: absolute;
-    content: '';
-    top: -7px;
-    width: 0;
-    height: 0;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-bottom: 7px solid white;
-    right: 30px !important;
-  }
-  [data-overlay-active="newsletter"] #fieldEmail {
-    border-style: solid;
-    box-shadow: 1px 2px 1px rgba(0,0,0,0.1) inset;
-    width: 300px;
-  }
-
-
-
-
-
-
-
-
-
-
-  #slack-signup {
-    position: absolute;
-    top: -100vh;
-    border-radius: 3px;
-    width: 320px;
-    right: 0;
-    opacity: 0;
-    transition: opacity 0s;
-  }
-  [data-overlay-active="slack"] #slack-signup {
-    top: 50px;
-    opacity: 1;
-    transition: opacity 0.5s;
-  }
-</style>
-
             <li class="nav-item inline-block relative">
               <a style="padding: 10px 16px 16px;" class="masthead__link" href="#" data-overlay-trigger="menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 16 15" style="position: relative;top: 4px;margin-right: 3px;">
@@ -103,7 +120,7 @@
                 <img src="/2018/images/icons/slack.svg" alt="" width="20" style="position: relative;top: -2px;margin-right: 2px;">
                 Join<span class="hidden-under-m"> Our Slack</span>
               </a>
-              <form id="slack-signup" class="form-inline bg-white z4 drop--darker triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post">
+              <form id="slack-signup" class="form-inline bg-white z4 triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post">
                 <div class="pa3">
                   <input name="utf8" type="hidden" value="✓">
                   <input type="hidden" name="authenticity_token" value="6JXW1YqRUhZb+HybvgKJPie02jmGQKe0myyt5Elfjg2fmfHMDrPAguvAyLaunNKAlPQJntckEzUSRL+w4mTHUg==">

@@ -23,6 +23,22 @@
       float:none; 
     }
   }
+  @include under-m {
+    .center-under-m { 
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }   
+    .none-under-m { 
+      float:none; 
+    }
+  }
+
+
+
   @include over-s {
     .left-over-s  { float: left;  } 
     .right-over-s { float: right; }

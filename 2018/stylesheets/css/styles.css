@@ -882,13 +882,24 @@ body.scroll-started .masthead__logo {
 @media only screen and (max-width: 730px) {
   .masthead .nav-item {
     display: block;
-    width: 20%;
-    float: right; } }
+    width: 33.33%;
+    float: right; }
+    .masthead .nav-item a {
+      padding: 8px 0 12px !important; }
+    .masthead .nav-item img, .masthead .nav-item svg {
+      height: 18px !important;
+      width: auto !important;
+      display: block;
+      margin: 0 auto 4px !important;
+      top: 0 !important;
+      position: static !important; }
+      [data-overlay-trigger="slack"] .masthead .nav-item img, [data-overlay-trigger="slack"] .masthead .nav-item svg {
+        margin-bottom: 10px !important; } }
 
 @media only screen and (max-width: 450px) {
   .masthead .nav-item {
     display: block;
-    width: 25%;
+    width: 33.33%;
     float: right; } }
 
 @media only screen and (max-width: 730px) {
@@ -2056,6 +2067,18 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
   .none-under-s {
     float: none; } }
 
+@media only screen and (max-width: 730px) {
+  .center-under-m {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); }
+  .none-under-m {
+    float: none; } }
+
 @media only screen and (min-width: 451px) {
   .left-over-s {
     float: left; }
@@ -2687,8 +2710,17 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
 .z4 {
   z-index: 4; }
 
-.z-max {
-  z-index: 99999; }
+.z5 {
+  z-index: 5; }
+
+.z6 {
+  z-index: 6; }
+
+.z7 {
+  z-index: 7; }
+
+.z8 {
+  z-index: 8; }
 
 @media only screen and (max-width: 450px) {
   /* you shall not pass */

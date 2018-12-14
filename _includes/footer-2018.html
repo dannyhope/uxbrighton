@@ -4,90 +4,96 @@
     <div class="container pt1 pb3">
       <div class="row">
         <div class="u1of2-over-m left-over-m gutter-right mb5"  id="newletter-signup">
-          <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Sign up for updates</h2>
-          <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
-            <label class="screen-reader-text" for="fieldEmail">Email</label>
-            <div class="input-group mt1 mb1">
-              <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
-              <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
-            </div><!-- input-group -->
-            <div id="newsletter-options" class="hidden">
-              <label class="bold pb0 block regular screen-reader-text">
-                Which topics are of interest to you?
-              </label>
-              <div class="">
-                <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked>
-                <label for="conference-mailinglist" class="">Conference news and workshops</label>
+          <div class="inline-block center-under-m">
+            <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Sign up for updates</h2>
+            <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
+              <label class="screen-reader-text" for="fieldEmail">Email</label>
+              <div class="input-group mt1 mb1">
+                <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
+                <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
+              </div><!-- input-group -->
+              <div id="newsletter-options" class="hidden">
+                <label class="bold pb0 block regular screen-reader-text">
+                  Which topics are of interest to you?
+                </label>
+                <div class="">
+                  <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked>
+                  <label for="conference-mailinglist" class="">Conference news and workshops</label>
+                </div>
+                <div class="">
+                  <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked>
+                  <label for="newsletter-mailinglist" class="">Link Digest: interesting links picked by the UX Brighton team</label>
+                </div>
+                <div class="">
+                  <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
+                  <label for="evening-events-mailinglist" class="">Evening events</label>
+                </div>
               </div>
-              <div class="">
-                <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked>
-                <label for="newsletter-mailinglist" class="">Link Digest: interesting links picked by the UX Brighton team</label>
+              <div style="display:none;">
+                <label for="hp">HP</label><br/>
+                <input type="text" name="hp" id="hp"/>
               </div>
-              <div class="">
-                <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked>
-                <label for="evening-events-mailinglist" class="">Evening events</label>
-              </div>
-            </div>
-            <div style="display:none;">
-              <label for="hp">HP</label><br/>
-              <input type="text" name="hp" id="hp"/>
-            </div>
 
-          </form>
-          <div id="js-signup-confirmation" class="button--green" style="padding: 1rem; display: none;">
-            <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
+            </form>
+            <div id="js-signup-confirmation" class="button--green" style="padding: 1rem; display: none;">
+              <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
+            </div>            
           </div>
-          <nav class="social-icons icons-currentColor pt3 clearfix">
-            <div class="pb1 color-grey-40 screen-reader-text">Follow us:</div>
-            <a class="social-icons__link social-icons__link--slack" href="https://slofile.com/slack/uxbri">
-              <svg viewBox="0 0 409 409">
-                <use xlink:href="/2018/images/icons/social-sprite.svg#slack"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--linkedin" href="https://www.linkedin.com/company/ux-brighton">
-              <svg viewBox="0 0 409 409">
-                <use xlink:href="/2018/images/icons/social-sprite.svg#linkedin"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--youtube" href="https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw">
-              <svg viewBox="0 0 579 409">
-                <use xlink:href="/2018/images/icons/social-sprite.svg#youtube"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--twitter" href="https://twitter.com/uxbri">
-              <svg viewBox="0 0 493 409">
-                <use xlink:href="/2018/images/icons/social-sprite.svg#twitter"></use>
-              </svg>
-            </a>
-            <a class="social-icons__link social-icons__link--facebook" href="https://www.facebook.com/uxbrighton/" style="width:30px;">
-              <svg viewBox="0 0 409 409">
-                <use xlink:href="/2018/images/icons/social-sprite.svg#icon-facebook2"></use>
-              </svg>
-            </a>
-
-
-          </nav>
-
         </div><!-- u1of2-over-s -->
         <div class="u1of2-over-m left-over-m gutter-left">
-          <nav>
-            <ul class="">
-              <li class="pb1 bold">
-                
-              </li>
-              <li class="pb6-over-l bold">
-                <a href="#" onclick="$('body').attr('nav-active', 'true');$( '.archive-nav__search' ).focus();return false;">
-                  Archive: Videos, slides etc from previous events
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div class="inline-block right-over-m center-under-m">
+            <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Follow us</h2>
+            <nav class="social-icons icons-currentColor pt1 clearfix">
+              <a class="social-icons__link social-icons__link--slack" href="https://slofile.com/slack/uxbri">
+                <svg viewBox="0 0 409 409">
+                  <use xlink:href="/2018/images/icons/social-sprite.svg#slack"></use>
+                </svg>
+              </a>
+              <a class="social-icons__link social-icons__link--linkedin" href="https://www.linkedin.com/company/ux-brighton">
+                <svg viewBox="0 0 409 409">
+                  <use xlink:href="/2018/images/icons/social-sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+              <a class="social-icons__link social-icons__link--youtube" href="https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw">
+                <svg viewBox="0 0 579 409">
+                  <use xlink:href="/2018/images/icons/social-sprite.svg#youtube"></use>
+                </svg>
+              </a>
+              <a class="social-icons__link social-icons__link--twitter" href="https://twitter.com/uxbri">
+                <svg viewBox="0 0 493 409">
+                  <use xlink:href="/2018/images/icons/social-sprite.svg#twitter"></use>
+                </svg>
+              </a>
+              <a class="social-icons__link social-icons__link--facebook" href="https://www.facebook.com/uxbrighton/" style="width:30px;">
+                <svg viewBox="0 0 409 409">
+                  <use xlink:href="/2018/images/icons/social-sprite.svg#icon-facebook2"></use>
+                </svg>
+              </a>
+            </nav>            
+          </div>
+
         </div><!-- u1of2-over-s -->
       </div><!-- row -->
 
-      <div class="row text-center">
-       <a href="/2018/about">About UX Brighton</a> &nbsp;|&nbsp; <a class="bold inline-block" href="http://dannyhope.co.uk/">A Danny Hope Production</a> 
+      <div class="row text-center pt5 mt2">
+       <a class="bold inline-block" href="/2018/about">About UX Brighton</a> &nbsp;|&nbsp; <a class="bold inline-block" href="http://dannyhope.co.uk/">A Danny Hope Production</a> 
       </div>
 
     </div><!-- container -->
   </footer>
+
+    <!-- uncompressed -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+ <!-- compressed -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+  <!-- slim & compressed  https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/ -->
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script> -->
+  <script src="/2018/javascripts/scripts-min.js?v=christmas"></script>
+  <script>
+    // pop the queue for dollar created in the header
+    try { $.each(q,function(i,f){$(f)});} catch(e) {} 
+  </script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/1.0.5/jquery.mobile-events.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+  <script>var options = {valueNames: [ 'post-excerpt']};var userList = new List('js-archive-nav', options);</script>

@@ -67,12 +67,26 @@
   .masthead .nav-item {
     @include under-m {
       display: block;
-      width: 20%;
+      width: 33.33%;
       float: right;
+      a{
+        padding: 8px 0 12px !important;
+      }
+      img,svg {
+        height: 18px !important;
+        width: auto !important;
+        display: block;
+        margin: 0 auto 4px !important;
+        top: 0 !important;
+        position: static !important;
+        [data-overlay-trigger="slack"] & {
+          margin-bottom: 10px !important;
+        }
+      }
     }    
     @include under-s {
       display: block;
-      width: 25%;
+      width: 33.33%;
       float: right;
     }    
   }

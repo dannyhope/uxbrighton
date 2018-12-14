@@ -16,13 +16,16 @@ $(function() {
       var _currentVal = $('body').attr('data-overlay-active');
       var _val        = $(this).attr('data-overlay-trigger');
 
-      console.log('_val',_val);
-      console.log('_currentVal',_currentVal);
+      // console.log('_val',_val);
+      // console.log('_currentVal',_currentVal);
 
       if (_val == _currentVal) {
         $("body").attr('data-overlay-active','false');
       } else {
         $("body").attr('data-overlay-active',_val);
+        if (_val == 'menu'){ $( '.archive-nav__search' ).focus(); }
+        if (_val == 'slack'){ $( '#email' ).focus(); }
+        if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); } 
       }
 
     });
