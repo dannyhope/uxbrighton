@@ -8,6 +8,7 @@ ticket-link: https://www.eventbrite.co.uk/e/february-double-bill-tickets-5305172
 homepage: false
 upcoming: true
 published: true
+description: "February double bill: Rachel McConnell – How to take your content from zero to hero & Fiona MacNeill – A UX perspective on ‘bring your own data’ in healthcare"
 image: "https://uxbrighton.org.uk/images/cards/Feb-2019.jpg"
 ---
 
