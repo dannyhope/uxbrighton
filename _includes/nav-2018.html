@@ -2,10 +2,10 @@
 	.archive-nav {
 		display: none;
 	}
-	body[nav-active=true] {
+	body[data-overlay-active="menu"] {
 		overflow: hidden;
 	}
-	body[nav-active=true] .archive-nav {
+	body[data-overlay-active="menu"] .archive-nav {
 		display: block;
 	}
 
@@ -16,7 +16,7 @@
 		max-height: calc(100vh - 50px);
 	}
 	@media (min-width: 730px){
-  	body[nav-active=true] .full-screen-overlay__inner {
+  	body[data-overlay-active="menu"] .full-screen-overlay__inner {
 			margin: 50px auto;
 			max-height: calc(100vh - 100px);
 			max-width: 730px; 
@@ -120,11 +120,11 @@
 </script>
 
 
-<nav role="navigation" id="js-archive-nav" class="archive-nav full-screen-overlay" onclick="$('body').attr('nav-active', 'false');return false;">
+<nav role="navigation" id="js-archive-nav" class="archive-nav full-screen-overlay" data-overlay-trigger="false">
 
 	<div class="full-screen-overlay__inner" onclick="noClose(event)">
 		<div class="archive-nav__head">
-			<button onclick="$('body').attr('nav-active', 'false');return false;" class="archive-nav__close right">
+			<button onclick="$('body').attr('data-overlay-active', 'false');return false;" class="archive-nav__close right">
 				<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" style="width:30px;margin:10px;">
 					<g id="Artboard" fill="#fff">
 					  <polygon id="Shape" points="2.32258065 36 18.0829493 20.2396313 33.843318 36 36 33.843318 20.2396313 18.0829493 36 2.32258065 33.843318 0 18.0829493 15.7603687 2.32258065 0 0 2.32258065 15.7603687 18.0829493 0 33.843318"></polygon>

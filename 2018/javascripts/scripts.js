@@ -6,6 +6,29 @@
 
 $(function() {
 
+    console.log('dom');
+
+
+    $(document).on('click tap', '[data-overlay-trigger]', function(e) {
+
+      e.preventDefault();
+
+      var _currentVal = $('body').attr('data-overlay-active');
+      var _val        = $(this).attr('data-overlay-trigger');
+
+      console.log('_val',_val);
+      console.log('_currentVal',_currentVal);
+
+      if (_val == _currentVal) {
+        $("body").attr('data-overlay-active','false');
+      } else {
+        $("body").attr('data-overlay-active',_val);
+      }
+
+    });
+
+
+
   // make the youtube videos responsive
   $(".container").fitVids();
 
@@ -20,7 +43,7 @@ $(function() {
   var navScrollSpeed    = 300;
 
   // bootstrap scrollspy, automatically highlights the menu
-  $('body').scrollspy({ target: '.masthead__links',offset: navScrollOffset });
+  $('body').scrollspy({ target: '.nav--in-page',offset: navScrollOffset });
 
   // smoothly scroll to in-page links, uses request animation frame for smoothness
   $(document).on('click tap', 'a[href^="#"]:not([href="#"])', function() {

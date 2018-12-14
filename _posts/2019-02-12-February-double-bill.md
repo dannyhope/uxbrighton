@@ -8,6 +8,7 @@ ticket-link: https://www.eventbrite.co.uk/e/february-double-bill-tickets-5305172
 homepage: false
 upcoming: true
 published: true
+image: "https://uxbrighton.org.uk/images/cards/Feb-2019.jpg"
 ---
 
 

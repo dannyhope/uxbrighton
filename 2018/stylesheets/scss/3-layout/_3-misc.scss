@@ -254,9 +254,23 @@ th, td {
   flex: 1 0 auto;
 }
 
-
-
-
+$triangle: 7px;
+[class*="triangle-top"]:before {
+  position: absolute;
+  content: '';
+  top: -$triangle;
+  left: 12px;
+  width: 0; 
+  height: 0; 
+  border-left: $triangle solid transparent;
+  border-right: $triangle solid transparent;
+  border-bottom: $triangle solid white;
+}
+.triangle-top-right:before {
+  right: 30px !important;
+  left: auto !important;
+}
+ 
 
 
 

@@ -3,7 +3,7 @@ layout: conference-2018
 title: Advancing Research – UX Brighton Conference 2018
 
 description: "Unlike most other conferences, we gather together a mix of academic and industry experts and curate our talks around a single theme. This year’s theme is Advancing Research. We’ll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams"
-image: "https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"
+image: "https://uxbrighton.org.uk/images/cards/2019-ultra-early.jpg"
 slug: "conference-2018"
 fullurl: "https://uxbrighton.org.uk/2018/"
 ---
@@ -210,97 +210,13 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
       </div>
       -->
-        <style>
 
-          @media (min-width: 860px) {
-            .upcoming__container {
-              width: 330px;
-              float: right;
-              padding: 18px 18px;
-              margin-bottom: 24px !important;
-            }
-            .upcoming__container__heading {
-              margin-bottom: 12px;
-            }
-            .upcoming__teaser {
-              padding-top: 12px;
-              padding-bottom: 12px;
-            }
-          }
-          @media (max-width: 859px) {
-            #hero .overlay__inner {
-              padding: 20px 0 0;
-            }
-            .upcoming__container {
-              padding: 6px 12px;
-              margin-bottom: 24px !important;
-            }
-            .upcoming__teaser,
-            .upcoming__container__heading {
-              padding-top: 6px;
-              padding-bottom: 6px;
-            }
-            .upcoming__teaser__text,
-            .upcoming__teaser__heading,
-            .upcoming__teaser__button {
-              font-size: 16px !important;
-            }
-          }
-          .upcoming__teaser__heading {
-            margin-bottom: 0;
-          }
-          .upcoming__teaser__button {
-            margin-top: 6px; 
-            margin-bottom: 6px;
-          }
-        </style>
-      
         <div class="overlay__inner overflow-hidden">
 
           <div class="container color-white">
 
 
-            <div class="upcoming__container color-black bg-white rounded ">
-
-              <h2 class="upcoming__container__heading fs-s track-loose uppercase  regular">Upcoming Events:</h2>
-              
-              <!-- <div class="upcoming__teaser border-top pt2">
-                <h3 class="upcoming__teaser__heading mb0">
-                  UX Brighton Xmas Party
-                </h3>
-                <div class="upcoming__teaser__text">
-                  14th Dec 2018, 5pm
-                </div>
-                <a href="" class="upcoming__teaser__button button mt1 mb2 button--green">
-                  Join Us
-                </a>
-              </div> -->
-              
-              <div class="upcoming__teaser border-top">
-                <h3 class="upcoming__teaser__heading ">
-                  February double bill
-                </h3>
-                <div class="upcoming__teaser__text">
-                  Tue 12 February 2019, 19:00
-                </div>
-                <a href="/February-double-bill/" class="upcoming__teaser__button button button--green ">
-                  Tickets and info
-                </a>
-              </div>
-              
-              <div class="upcoming__teaser border-top">
-                <h3 class="upcoming__teaser__heading ">
-                  UX Brighton 2019
-                </h3>
-                <div class="upcoming__teaser__text">
-                  Ultra early-bird discount: <br>
-                  A limited number of tickets are now available at 35% off.
-                </div>
-                <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="upcoming__teaser__button button button--green">
-                  Buy Now — 35% off
-                </a>
-              </div>
-            </div>
+            {% include upcoming-mini.html %}
 
 
             <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
@@ -320,6 +236,59 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         </div>
      
     </section>
+
+
+
+    <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; padding-top: 3px;">
+      <div class="container pl1">
+        <ul class="nav ">
+
+            <li class="inline-block   nav-item color-black">In this page:</li>
+          {% if page.name == "index.html" %}
+            <li class="nav-item inline-block">
+              <a href="#speakers" class="masthead__link nav-link color-black">Video<span class="hidden-under-s"> & Slides</span></a>
+            </li>
+            <!-- <li class="nav-item inline-block">
+              <a href="#venue" class="masthead__link nav-link">Venue</a>
+            </li> -->
+            <li class="nav-item inline-block ">
+              <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
+            </li>
+            <li class="nav-item inline-block relative">
+              <a href="#workshop" class="masthead__link -masthead__link--last color-black">Workshop <span class="stamped">sold out</span></a>
+            </li>
+          {% endif %}
+          {% if page.name == "info.html" %}
+            <li class="nav-item inline-block">
+              <a href="#before" class="masthead__link nav-link">Before</a>
+            </li>
+            <li class="nav-item inline-block">
+              <a href="#travel-and-accomodation" class="masthead__link nav-link">Travel</a>
+            </li>
+            <li class="nav-item inline-block relative">
+              <a href="#on-the-day" class="masthead__link masthead__link--last">On the day</a>
+            </li>
+          {% endif %}
+          {% if page.name != "info.html" %}
+            {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
+ <!--              <li class="nav-item inline-block nav-item--tickets">
+                <a
+                 href="https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets"
+                 class="button button--green">Sold Out
+                </a>
+              </li> -->
+              {% else %}
+              <!-- <li class="nav-item inline-block nav-item--tickets">
+                <a
+                 href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets"
+                 class="button button--green">Buy Tickets 
+                </li>-->
+              {% endif %}
+
+          {% endif %}
+        </ul>
+      </div>      
+    </div>
 
 
 
@@ -1185,24 +1154,14 @@ fullurl: "https://uxbrighton.org.uk/2018/"
     </section><!-- testimonial -->
 
 
-  </main>
 
-
-
-
-
-
-
-
-  <aside id="workshop">
-    
-    <section id="promotions" style="min-height: 0;">
-      <div class="container"><hr>
+    <section id="workshop" style="min-height: 0;">
+      <div class="container pb5"><hr>
         <h3 class="fs-h2 mt5 mb2">Workshop</h3>
-        <div class="row pb5 flex-over-m">
+        <div class="row flex-over-m drop">
 
-          <div class="u1of2-over-m left-over-m mb3 flex-over-m">
-            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link fill tile pv4 ph3   rounded drop relative" style="background: url('/2018/images/speakers/Gerry4b.jpg') center center no-repeat #000; background-size: cover;">
+          <div class="u1of2-over-m left-over-m flex-over-m">
+            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link fill tile pv4 ph3   rounded  relative" style="background: url('/2018/images/speakers/Gerry4b.jpg') center center no-repeat #000; background-size: cover;">
               <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
               <h1 class="leading-solid mb2 color-white fs-xl relative">
                 <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">1-day Workshop</span>
@@ -1218,8 +1177,8 @@ fullurl: "https://uxbrighton.org.uk/2018/"
             </a>
           </div>
 
-          <div class="u1of2-over-m left-over-m mb3 flex-over-m">
-            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link tile pv4 ph3 bg-grey-5 color-grey-60 fill">
+          <div class="u1of2-over-m left-over-m flex-over-m">
+            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link tile pv4 ph3 bg-grey-5 fill">
               <h3>
                 How do you know what really matters to your customers?
               </h3>
@@ -1236,6 +1195,18 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       </div>
 
     </section>
+  </main>
+
+
+
+
+
+
+
+
+  <aside id="promotions">
+    
+
 
     {% include upcoming.html %}
   </aside>
