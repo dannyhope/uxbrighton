@@ -48,7 +48,7 @@
       [data-overlay-active="newsletter"] #fieldEmail {
         border-style: solid;
         box-shadow: 1px 2px 1px rgba(0,0,0,0.1) inset;
-        min-width: 190px;
+        width: 100%;
       }
 
 
@@ -66,7 +66,17 @@
       }
     }
 
-
+    @media (min-width:1320px) {
+      [data-overlay-active="newsletter"] #newletter-signup {
+        margin: 0 0 0 610px;
+      }
+    }
+    @media (max-width:1319px) {
+      [data-overlay-active="newsletter"] #newletter-signup {
+        margin: 0;
+        right: 240px;
+      }
+    }
     @media (min-width:800px) {
       [data-overlay-active="slack"] #slack-signup,
       [data-overlay-active="newsletter"] #newletter-signup {
@@ -78,8 +88,7 @@
       }
       [data-overlay-active="newsletter"] #newletter-signup {
         top: 56px;
-        margin: 0 0 0 450px;
-        width: 560px;
+        width: 410px;
       }
     }
 
@@ -121,18 +130,15 @@
                 <img src="/2018/images/icons/slack.svg" alt="" width="20" style="position: relative;top: -2px;margin-right: 2px;">
                 Join<span class="hidden-under-m"> Our Slack</span>
               </a>
+
               <form id="slack-signup" class="form-inline bg-white z4 triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post">
                 <div class="pa3">
                   <input name="utf8" type="hidden" value="✓">
                   <input type="hidden" name="authenticity_token" value="6JXW1YqRUhZb+HybvgKJPie02jmGQKe0myyt5Elfjg2fmfHMDrPAguvAyLaunNKAlPQJntckEzUSRL+w4mTHUg==">
-                  <div class="row relative">
-                    <div class="u3of4 pr1">
-                      <input type="email" name="email" id="email" value="" placeholder="Email Address" class="fill">
-                    </div>
-                    <div class="u1of4 absolute top-0 right-0">
-                      <input type="submit" name="commit" value="Join" class="button button--green fill" style="padding-top: 7px;box-shadow: 0 1px 0 #077507;">
-                    </div>
-                  </div>                  
+                  <div class="input-group mt1 mb1">
+                    <input type="email" name="email" id="email" value="" placeholder="Email Address" class="input-group__field border--none rounded-left">
+                    <input type="submit" name="commit" value="Join" class="button input-group__button button--green rounded-right">
+                  </div>
                 </div>
               </form>
             </li>

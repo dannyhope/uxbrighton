@@ -111,6 +111,11 @@
 		}
 	}
 
+
+	.event-previous {
+	  opacity: 0.6;
+	}
+
 </style>
 
 <script>
@@ -192,7 +197,7 @@
 					<h2 class="archive-nav__heading pv1 ph4 ">Archive: Previous Events</h2>
 				</li>
 
-				<li class="event-title-list-item">
+				<li class="event-title-list-item event-previous ">
 					<a class="block-link pv3 ph4  archive-nav__link" href="/2018/">
 						<div class="post-title weight-900 block-link__highlight">2018 Conference ★ Advancing Research</div>
 						<div class="post-date ">2 November</div>
@@ -245,7 +250,7 @@
 
 							{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
 							{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
-							<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}{% if postyear == currentyear %} current-year{% endif %}">
+							<li class="event-title-list-item event-previous {% if page.url == post.url %}current{% endif %}{% if postyear == currentyear %} current-year{% endif %}">
 								<a class="block-link pv3 ph4   archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
 									<div class="post-title weight-900 block-link__highlight">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
 									<div class="post-date">

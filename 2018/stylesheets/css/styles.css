@@ -1082,9 +1082,9 @@ footer {
     footer a:hover {
       color: #FFA039; }
 
-footer .input-group__field,
-footer .input-group__addon,
-footer .input-group__button {
+.input-group__field,
+.input-group__addon,
+.input-group__button {
   height: 44px; }
 
 .social-icons__link {
