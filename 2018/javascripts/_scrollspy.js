@@ -110,6 +110,7 @@
     var in_page_nav_pos_top = in_page_nav.getBoundingClientRect().top;
     if (in_page_nav_pos_top == 0){
       $('body').addClass('nav--in-page-is-stuck');
+      $("body").attr('data-overlay-active','false');
     } else {
       $('body').removeClass('nav--in-page-is-stuck');
     }

@@ -154,13 +154,11 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       padding-bottom: calc(100vh - 340px);
     }
 
-    .hidden-if--nav--in-page-is-stuck {
+    .show-if--nav--in-page-is-stuck,
+    .nav--in-page-is-stuck .hidden-if--nav--in-page-is-stuck {
       display: none;
     }
     .nav--in-page-is-stuck .show-if--nav--in-page-is-stuck {
-      display: none;
-    }
-    .nav--in-page-is-stuck .hidden-if--nav--in-page-is-stuck {
       display: inline-block;
     }
     .nav--in-page a {
@@ -173,6 +171,32 @@ fullurl: "https://uxbrighton.org.uk/2018/"
     .nav--in-page .active a .stamped {
       color: transparent;
     }
+    @media (max-width: 450px) {
+      .nav--in-page .nav {
+        padding: 0;
+        display: flex;
+        display: flex;
+        flex:1;
+      }
+      .nav--in-page .nav .nav-item {
+        display: flex;
+        flex:1;
+      }
+      .container {
+        padding: 0;
+      }
+      .nav--in-page .nav .hidden-if--nav--in-page-is-stuck,
+      .nav--in-page .nav a {
+        padding: 18px 8px !important;
+        font-size: 11px;
+        letter-spacing: 0;
+        text-align: center;
+        width: 100%;
+        border-right: 1px solid #eee;
+      }
+    }
+
+    nav--in-page
   </style>
 
 
@@ -263,10 +287,14 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       <div class="container pl1">
         <ul class="nav ">
 
-            <li class="inline-block hidden-if--nav--in-page-is-stuck  nav-item color-black">
-              <a href="#intro" class="masthead__link nav-link color-black">Introduction</a></li>
-
-            <li class="inline-block show-if--nav--in-page-is-stuck  nav-item color-black">In this page:</li>
+            <li class="inline-block nav-item color-black">
+              <div class="hidden-if--nav--in-page-is-stuck">
+                In this page:
+              </div>
+              <a href="#intro" class="show-if--nav--in-page-is-stuck masthead__link nav-link color-black">
+                Intro<span class="hidden-under-m">duction</span>
+              </a>
+            </li>
           {% if page.name == "index.html" %}
             <li class="nav-item inline-block">
               <a href="#speakers" class="masthead__link nav-link color-black">Talks</a>

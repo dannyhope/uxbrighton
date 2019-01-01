@@ -4,6 +4,7 @@
       margin: 5px 5px 0 0;
     }
   </style>
+  <div class="overlay-active-underlay full-screen-overlay hidden" onclick="$('body').attr('data-overlay-active','false');"></div>
   <footer class="bg-grey-90 color-grey-10 pv5">
     <div class="container pt1 pb3">
       <div class="row">
@@ -20,15 +21,15 @@
                 <label class="bold pb0 block regular screen-reader-text">
                   Which topics are of interest to you?
                 </label>
-                <div class="">
+                <div style="padding-top: 4px;">
                   <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked class="left">
                   <label class="table" for="conference-mailinglist" class="">Conference news and workshops</label>
                 </div>
-                <div class="">
+                <div style="padding-top: 4px;">
                   <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked class="left">
                   <label class="table" for="newsletter-mailinglist" class="">Link Digest: interesting links picked by the UX Brighton team</label>
                 </div>
-                <div class="">
+                <div style="padding-top: 4px;">
                   <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked class="left">
                   <label class="table" for="evening-events-mailinglist" class="">Evening events</label>
                 </div>
@@ -82,9 +83,22 @@
       <div class="row text-center pt3">
        <a class="bold inline-block" href="/2018/about">About UX Brighton</a> &nbsp;&middot;&nbsp; <a class="bold inline-block" href="http://dannyhope.co.uk/">A Danny Hope Production</a> 
       </div>
+  
+      <form id="slack-signup" class="hidden form-inline bg-white z4 triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post">
+        <div class="pa3">
+          <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Your Email Address</h2>
+          <input name="utf8" type="hidden" value="✓">
+          <input type="hidden" name="authenticity_token" value="6JXW1YqRUhZb+HybvgKJPie02jmGQKe0myyt5Elfjg2fmfHMDrPAguvAyLaunNKAlPQJntckEzUSRL+w4mTHUg==">
+          <div class="input-group mt1 mb1">
+            <input type="email" name="email" id="email" value="" placeholder="Email Address" class="input-group__field border--none rounded-left">
+            <input type="submit" name="commit" value="Join" class="button input-group__button button--green rounded-right">
+          </div>
+        </div>
+      </form>
 
     </div><!-- container -->
   </footer>
+
 
     <!-- uncompressed -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
