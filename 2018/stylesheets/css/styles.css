@@ -2582,6 +2582,8 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
     padding-bottom: 48px; } }
 
 @media only screen and (min-width: 731px) {
+  .pt1-over-m {
+    padding-top: 8px; }
   .pl2-over-m {
     padding-left: 16px; }
   .pr2-over-m {

@@ -76,16 +76,16 @@
 	}
 	.archive-nav__close {
 		box-sizing: border-box;
-		width: 50px;
-		height: 50px;
-		text-align: center;
-		font-size: 36px;
-		line-height: 35px;
-		border: 0 none;
-		color: white;
-		padding: 0;
-		background: #C9003A;
-		cursor:pointer;
+    width: 50px;
+    height: 49px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 35px;
+    border: 0 none;
+    color: #343f44;
+    padding: 0;
+    background: #f5f5f5;
+    cursor: pointer;
 	}
 	.archive-nav__close:hover svg {
 		transform: scale(1.1);
@@ -105,16 +105,19 @@
 
 	@media (min-width: 730px){
 		.archive-nav .post-title {
-			font-size: 30px;
+			font-size: 21px;
 			line-height: 1.25;
-			letter-spacing: -0.8px;
+			letter-spacing: 0;
 		}
 	}
-
-
-	.event-previous {
-	  opacity: 0.6;
+	.archive-nav__link {
+		padding: 8px 32px;
 	}
+
+
+/*	.event-previous {
+	  opacity: 0.6;
+	}*/
 
 </style>
 
@@ -131,7 +134,7 @@
 		<div class="archive-nav__head">
 			<button onclick="$('body').attr('data-overlay-active', 'false');return false;" class="archive-nav__close right">
 				<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" style="width:30px;margin:10px;">
-					<g id="Artboard" fill="#fff">
+					<g id="Artboard" fill="currentColor">
 					  <polygon id="Shape" points="2.32258065 36 18.0829493 20.2396313 33.843318 36 36 33.843318 20.2396313 18.0829493 36 2.32258065 33.843318 0 18.0829493 15.7603687 2.32258065 0 0 2.32258065 15.7603687 18.0829493 0 33.843318"></polygon>
 					</g>
 				</svg>
@@ -160,9 +163,9 @@
 				
 				
 				
-			<ul class="list">
+			<ul class="list pt2">
 				<li>
-					<h2 class="archive-nav__heading pv1 ph4">Upcoming Events</h2>
+					<h2 class="fs-s  track-loose uppercase regular pv1 ph4">Upcoming Events</h2>
 				</li>		
 
 
@@ -194,7 +197,8 @@
 				
 				
 				<li>
-					<h2 class="archive-nav__heading pv1 ph4 ">Archive: Previous Events</h2>
+					<hr>
+					<h2 class="fs-s  track-loose uppercase regular pv1 ph4 ">Archive: Previous Events</h2>
 				</li>
 
 				<li class="event-title-list-item event-previous ">

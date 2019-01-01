@@ -242,6 +242,9 @@ $spacing-increments: 0 1 2 3 4 5 6;
   }
 }
 @include over-m {
+  .pt1-over-m {
+    padding-top: $ssi * 1px;
+  }
   .pl2-over-m {
     padding-left: $ssi * 2px;
   }
