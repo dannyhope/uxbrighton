@@ -153,6 +153,26 @@ fullurl: "https://uxbrighton.org.uk/2018/"
     #newletter-signup:target {
       padding-bottom: calc(100vh - 340px);
     }
+
+    .hidden-if--nav--in-page-is-stuck {
+      display: none;
+    }
+    .nav--in-page-is-stuck .show-if--nav--in-page-is-stuck {
+      display: none;
+    }
+    .nav--in-page-is-stuck .hidden-if--nav--in-page-is-stuck {
+      display: inline-block;
+    }
+    .nav--in-page a {
+      padding: 18px;
+    }
+    .nav--in-page .active a {
+      background: #C9003A;
+      color: #fff;
+    }
+    .nav--in-page .active a .stamped {
+      color: transparent;
+    }
   </style>
 
 
@@ -160,7 +180,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
   <!-- Add this code to event page: -->
   <main class="-is-conference-day is-post-conference">
 
-    <section id="hero" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000; background-size: cover;">
+    <section id="intro" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000; background-size: cover;">
       <!-- 
       <div class="row flex-over-l flex-reverse-under-l">
 
@@ -239,11 +259,14 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
 
 
-    <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; padding-top: 3px; z-index: 200;">
+    <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
       <div class="container pl1">
         <ul class="nav ">
 
-            <li class="inline-block   nav-item color-black">In this page:</li>
+            <li class="inline-block hidden-if--nav--in-page-is-stuck  nav-item color-black">
+              <a href="#intro" class="masthead__link nav-link color-black">Introduction</a></li>
+
+            <li class="inline-block show-if--nav--in-page-is-stuck  nav-item color-black">In this page:</li>
           {% if page.name == "index.html" %}
             <li class="nav-item inline-block">
               <a href="#speakers" class="masthead__link nav-link color-black">Talks</a>

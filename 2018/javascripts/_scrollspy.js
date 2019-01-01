@@ -105,6 +105,16 @@
     } else {
       $('body').removeClass('scroll-started');
     }
+
+    var in_page_nav = $('.nav--in-page')[0];
+    var in_page_nav_pos_top = in_page_nav.getBoundingClientRect().top;
+    if (in_page_nav_pos_top == 0){
+      $('body').addClass('nav--in-page-is-stuck');
+    } else {
+      $('body').removeClass('nav--in-page-is-stuck');
+    }
+    
+
   }
 
   ScrollSpy.prototype.activate = function (target) {
