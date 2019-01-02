@@ -800,36 +800,6 @@ img, svg {
   opacity: 1;
   letter-spacing: 0.5px; }
 
-.embed-container {
-  position: relative;
-  padding-bottom: 80%;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 24px; }
-
-.embed-container.hd {
-  padding-bottom: 56.25%;
-  /* 16/9 ratio */ }
-
-.embed-container.vga {
-  padding-bottom: 77%;
-  /* 4/3 ratio */ }
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.responsive-height-limiter {
-  width: 100%;
-  max-width: 100vh;
-  margin-right: auto;
-  margin-left: auto; }
-
 body {
   padding-top: 48px; }
 
@@ -883,7 +853,7 @@ body.scroll-started .masthead__logo {
   .masthead .nav-item {
     display: block;
     width: 33.33%;
-    float: right; }
+    float: left; }
     .masthead .nav-item a {
       padding: 8px 0 12px !important; }
     .masthead .nav-item img, .masthead .nav-item svg {
@@ -900,10 +870,6 @@ body.scroll-started .masthead__logo {
   .masthead .nav-item {
     display: block;
     width: 33.33%;
-    float: right; } }
-
-@media only screen and (max-width: 730px) {
-  .page-conference-2018 .masthead .nav-item {
     float: left; } }
 
 .masthead__link {

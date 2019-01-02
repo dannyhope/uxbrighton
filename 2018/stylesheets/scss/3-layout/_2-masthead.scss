@@ -68,7 +68,7 @@
     @include under-m {
       display: block;
       width: 33.33%;
-      float: right;
+      float: left;
       a{
         padding: 8px 0 12px !important;
       }
@@ -87,14 +87,14 @@
     @include under-s {
       display: block;
       width: 33.33%;
-      float: right;
-    }    
-  }
-  .page-conference-2018 .masthead .nav-item {
-    @include under-m {
       float: left;
     }    
   }
+  // .page-conference-2018 .masthead .nav-item {
+  //   @include under-m {
+  //     float: left;
+  //   }    
+  // }
   .masthead__link {
       padding: 16px;
       line-height: 16px;

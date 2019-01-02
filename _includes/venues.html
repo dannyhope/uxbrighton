@@ -1,7 +1,17 @@
 <!-- Venues -->
-
+<style>
+	.venue {
+	  padding-top: 56.25%;
+	  height: 0;
+	  display: block;
+	  position: relative;
+	  margin-top: 16px;
+	  margin-bottom: 32px;
+	  border-radius: 4px;
+	}
+</style>
 {% if page.venue == "The Skiff" %}
-	<a class="venue" href="https://www.google.com/maps/place/30+Cheapside,+Brighton+BN1+4GD,+UK/@50.8293337,-0.1390193,19z/data=!3m1!4b1!4m5!3m4!1s0x4875859e03800c0b:0x9e1dc66912fdd215!8m2!3d50.8293337!4d-0.1384721" title="Map of The Skiff in Google Maps" class="where"><img src="/images/maps/theskiff.png" alt="Map of The Skiff, Cheapside"></a>
+	<a class="venue" href="https://www.google.com/maps/place/30+Cheapside,+Brighton+BN1+4GD,+UK/@50.8293337,-0.1390193,19z/data=!3m1!4b1!4m5!3m4!1s0x4875859e03800c0b:0x9e1dc66912fdd215!8m2!3d50.8293337!4d-0.1384721" title="Map of The Skiff in Google Maps" style="background: url(/images/maps/theskiff.png) center center;background-size: cover;"><!-- <img src="/images/maps/theskiff.png" alt="Map of The Skiff, Cheapside"> --></a>
 
 {% elsif page.venue == "Fabrica" %}
 	<a class="venue" href="https://www.google.co.uk/maps/preview?ie=UTF-8&q=Fabrica&fb=1&gl=uk&hq=fabrica+brighton+map&cid=14449724007721988412&ei=TmssU5LZFsaK0AWOyICADQ&ved=0CJwBEPwSMBM" title="Fabrica in Google Maps" class="where"><img src="/images/maps/fabrica.png" alt="Map of Fabrica Gallery"></a>

@@ -182,7 +182,7 @@ fullurl: "https://uxbrighton.org.uk/2018/"
         display: flex;
         flex:1;
       }
-      .container {
+      .nav--in-page .container {
         padding: 0;
       }
       .nav--in-page .nav .hidden-if--nav--in-page-is-stuck,
@@ -196,7 +196,14 @@ fullurl: "https://uxbrighton.org.uk/2018/"
       }
     }
 
-    nav--in-page
+
+    @media only screen and (max-width: 730px) {
+      .overlay__inner {
+        padding-top: 16px;
+        padding-bottom: 0px;
+      }      
+    }
+
   </style>
 
 

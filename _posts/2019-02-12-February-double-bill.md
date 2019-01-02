@@ -17,7 +17,7 @@ image: "https://uxbrighton.org.uk/images/cards/Feb-2019.jpg"
 
 <h2 class="talk__speaker">Rachel McConnell</h2>
 <h3 class="talk__title regular fs-h2">How to take your content from zero to hero</h3>
-<div class="text-center"><img src="/2018/images/photos/feb-1.jpg" alt="" style="" class="talk__thumb circle right-over-m center-under-m" width="250"></div>
+<div class="text-center"><img src="/2018/images/photos/feb-1.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="250"></div>
 <p>Content is the foundation of web design - from site strategy to interaction design.  Yet many companies still underestimate the value of content and there are huge skill gaps in this area. I'm going to talk about what content design is, how it overlaps with design roles, why it's important, and how you can start to think more about your content, including tips for creating better conversations with users.</p>
 
 ### Bio:
@@ -28,7 +28,7 @@ Rachel is the author of 'Why you need a content team and how to build one'.  She
 
 <h2 class="talk__speaker">Fiona MacNeill</h2>
 <h3 class="talk__title regular fs-h2">A UX perspective on ‘bring your own data’ in healthcare</h3>
-<div class="text-center"><img src="/2018/images/photos/feb-2.jpg" alt="" style="" class="talk__thumb circle right-over-m center-under-m" width="250"></div>
+<div class="text-center"><img src="/2018/images/photos/feb-2.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="250"></div>
  
 <p>We will consider the journey of a patient having elective surgery: from time spent on the waiting list, then the operation, followed by recovery at home. The patient, let’s call them Val, has their own personal health data and information gathered from their smartwatch and smartphone which they are willing to share for a limited time. There are some in the national context who believe this personal health data is valuable and would like to make it available to healthcare professionals, but where might provisioning access to patient data and information add value to service delivery? This talk portrays a generative approach to answering this question with a few UX research titbits along the way. The talk is based on an MSc dissertation at the University of Brighton; supported by fieldwork in a healthcare setting.</p>
 

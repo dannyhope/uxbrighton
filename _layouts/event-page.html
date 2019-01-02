@@ -135,8 +135,8 @@
           display: block;
           float: none;
           max-width: 250px;
-          float: right;
           border-radius: 50%;
+          left: 0;
         }
       }
       .event-overview > p:first-of-type {
@@ -194,7 +194,7 @@
 
     <section id="overview" class="overlay__after  bg-white">
       <div class="container">
-        <div class="row pt5 pb3">
+        <div class="row pt pb">
         	<div class="u1of3-over-m right-over-m gutter-left">
 
 						<aside class="event-detail_meta">
@@ -260,8 +260,8 @@
 
 
                         <!-- <a href="{{page.url}}" title="Add to Calendar" class="addthisevent"> -->
-                        <div class="mt3">
-                          <span class="bold">When: </span>
+                        <div class="mt2">
+                          <!-- <span class="bold">When: </span> -->
                           {{page.date | date: "%d %b %Y"}}{% if page.start %}<span class="event-time inline-block">, 
                             {{page.start}}</span>{% endif %}
                           <!-- <span class="_start">{{page.date | date: "%Y-%m-%d"}} {{page.start}}</span>
@@ -270,7 +270,7 @@
                           <span class="_summary">{{page.title}}</span>
                           <span class="_description"></span> -->
                           <span class="_location block mv1">
-                            <span class="bold">Where: </span>
+                            <!-- <span class="bold">Where: </span> -->
                             {% if page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG
                             {% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ
                             {% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD
