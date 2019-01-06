@@ -800,6 +800,9 @@ img, svg {
   opacity: 1;
   letter-spacing: 0.5px; }
 
+.embed-container {
+  margin-bottom: 24px; }
+
 body {
   padding-top: 48px; }
 
