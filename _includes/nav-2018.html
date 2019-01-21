@@ -181,16 +181,20 @@
 
 				
 				{% if has_upcoming %}
-
 					{% for post in site.posts %}
-						{% if post.upcoming == true %}
-							<li class="event-title-list-item event-upcoming {% if page.url == post.url %}current{% endif %}">
-								<a class="block-link pv3 ph4  archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
-									<div class="post-title fs-l weight-900 block-link__highlight">{{ post.title }}</div>
-									<div class="post-date ">{{post.date | date: "%-d %B %Y"}}{% if page.start %}<span class="event-time inline-block">, {{page.start}}</span>{% endif %}</div>
-									<div class="post-excerpt">{{ post.content | strip_html }}</div>
-								</a>
-							</li>
+
+						{% if post.upcoming == true && post.hide_in_nav != true %}
+							{% if post.hide_in_nav == true %}
+							{% else %}
+								<li class="event-title-list-item event-upcoming {% if page.url == post.url %}current{% endif %}">
+									<a class="block-link pv3 ph4  archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
+										<div class="post-title fs-l weight-900 block-link__highlight">{{ post.title }}</div>
+										<div class="post-date ">{{post.date | date: "%-d %B %Y"}}{% if page.start %}<span class="event-time inline-block">, {{page.start}}</span>{% endif %}</div>
+										<div class="post-excerpt">{{ post.content | strip_html }}</div>
+									</a>
+								</li>							
+							{% endif %}
+
 						{% endif %}
 					{% endfor %}
 				{% endif %}
