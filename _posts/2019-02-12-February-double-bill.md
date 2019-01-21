@@ -41,7 +41,7 @@ Fiona MacNeill is an eLearning professional who has occupied themselves with res
 ### About Nabeeha
 Nabeeha wholeheartedly jumped on the bandwagon for putting users at the heart of government services. She heads up the Ministry of Justice Digital & Technology research team. Nabeeha has observed and analysed as concepts have emerged and taken flight in the UX arena. She has had the good fortune to work on some of these concepts with talented UX professionals in the private and public sector and looks forward to sharing and starting conversations.
 
-### Deposits/tickets
+## Deposits/tickets
 
 We run our evening events as not-for-profit. The ticket price helps to cover some of our costs and to discourage non-attendance, however we will refund the cost of your ticket (so long as you attend). Please send an [email](mailto:emmeline@uxbrighton.org.uk) request within 3 days of the event date.
 
