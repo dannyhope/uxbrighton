@@ -34,6 +34,13 @@ Rachel is the author of 'Why you need a content team and how to build one'.  She
 ### About Fiona
 Fiona MacNeill is an eLearning professional who has occupied themselves with research into UX and IoT over the past few years; culminating in the recent completion of an MSc in user experience design. Their prior background, working as a visual artist and curator stoked interests in visual representation, wayfinding and audience experience which organically led them to user experience. MacNeill is a habitual problem solver, oft troublemaker and resolute defender of accessibility, but most of all wants to make human/computer interaction just a little bit better for everybody.
 
+<h2 class="talk__speaker">The Selfish Giant - the converted – Nabeeha Ahmed</h2>
+
+<p>Working with and as a user researcher often means different things to different people, especially as organisations take up the call to put users at the hearts of their services. As the drive for reformation and transformation continues, the user researcher's role inevitably must change. I will tell a story about getting caught by surprise by changes in my own backyard, share my 'sense-making' journey and pose some ideas for discussion on the role of the user researcher.</p>
+
+### About Nabeeha
+Nabeeha wholeheartedly jumped on the bandwagon for putting users at the heart of government services. She heads up the Ministry of Justice Digital & Technology research team. Nabeeha has observed and analysed as concepts have emerged and taken flight in the UX arena. She has had the good fortune to work on some of these concepts with talented UX professionals in the private and public sector and looks forward to sharing and starting conversations.
+
 ### Deposits/tickets
 
 We run our evening events as not-for-profit. The ticket price helps to cover some of our costs and to discourage non-attendance, however we will refund the cost of your ticket (so long as you attend). Please send an [email](mailto:emmeline@uxbrighton.org.uk) request within 3 days of the event date.
