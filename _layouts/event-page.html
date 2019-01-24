@@ -162,6 +162,16 @@
       .event-overview p:first-of-type + h2 {
         margin-top: 0;
       }*/
+
+      .overlay__after {
+        margin-top: 0;
+      }
+      @media only screen and (min-width: 451px) {
+        #hero .overlay__inner {
+            padding: 80px 0 50px;
+        }        
+      }
+
     </style>
 </head>
 
@@ -181,13 +191,14 @@
 
         <div class="container color-white">
           <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
-          <h2 class="mt0 fs-l regular track-normal mb6">
+          <h2 class="mt0 fs-l regular track-normal mb1">
           	{% if page.upcoming == null or page.upcoming == false %}
 							{% capture previous_event %}{% endcapture %}This event was held on {{page.date | date: "%d %b %Y"}}. 
 						{% else %}
 							{{page.date | date: "%d %b"}}{% if page.start %}, <span class="event-time">{{page.start}}</span>{% endif %}
 						{% endif %}
           </h2>
+          {{page.sponsor}}
           <!-- <div>
             <a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets" class="button button--large button--green bold  fs-l">Tickets — £170 + vat</a>
             <p class="mb0 mt1  fs-l">Group Discount - buy 4 get 1 free</p>
@@ -208,7 +219,7 @@
 
 						<aside class="event-detail_meta">
 
-
+             <!--  {{page.sponsor2}} -->
 
               {% if page.upcoming == null or page.upcoming == false %}
 
