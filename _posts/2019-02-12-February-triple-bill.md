@@ -23,7 +23,7 @@ sponsor2: '<div><a class="block standfirst mb3" style="max-width:400px; line-hei
 Content is the foundation of web design - from site strategy to interaction design.  Yet many companies still underestimate the value of content and there are huge skill gaps in this area. I'm going to talk about what content design is, how it overlaps with design roles, why it's important, and how you can start to think more about your content, including tips for creating better conversations with users.
 
 ### About Rachel
-<div class="text-center"><img src="/2018/images/photos/feb-1.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="250"></div>
+<div class="text-center"><img src="/2018/images/photos/feb-1.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="200"></div>
 
 Rachel is the author of 'Why you need a content team and how to build one'.  She is currently senior content designer at Deliveroo but has previously produced content for brand such as M&S, John Lewis, Tesco, Nationwide and Flora.  Rachel is on a mission to educate design teams on the the importance of content and help businesses increase their content maturity.
 
@@ -35,7 +35,7 @@ We will consider the journey of a patient having elective surgery: from time spe
 
 ### About Fiona
 
-<div class="text-center"><img src="/2018/images/photos/feb-2.jpg" alt="" class="talk__thumb circle right-over-m" width="250"></div>
+<div class="text-center"><img src="/2018/images/photos/feb-2.jpg" alt="" class="talk__thumb circle right-over-m" width="200"></div>
 
 Fiona MacNeill is an eLearning professional who has occupied themselves with research into UX and IoT over the past few years; culminating in the recent completion of an MSc in user experience design. Their prior background, working as a visual artist and curator stoked interests in visual representation, wayfinding and audience experience which organically led them to user experience. MacNeill is a habitual problem solver, oft troublemaker and resolute defender of accessibility, but most of all wants to make human/computer interaction just a little bit better for everybody.
 
@@ -47,7 +47,7 @@ Working with and as a user researcher often means different things to different 
 
 ### About Nabeeha
 
-<div class="text-center"><img src="/2018/images/photos/feb-3.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="250"></div>
+<div class="text-center"><img src="/2018/images/photos/feb-3.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="200"></div>
 
 Nabeeha wholeheartedly jumped on the bandwagon for putting users at the heart of government services. She heads up the Ministry of Justice Digital & Technology research team. Nabeeha has observed and analysed as concepts have emerged and taken flight in the UX arena. She has had the good fortune to work on some of these concepts with talented UX professionals in the private and public sector and looks forward to sharing and starting conversations.
 
