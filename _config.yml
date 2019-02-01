@@ -6,7 +6,4 @@ future: true
 exclude: [CNAME]
 plugins:
   - jekyll-redirect-from
-collections:
-  - components
-collections_dir: my_collections
 
