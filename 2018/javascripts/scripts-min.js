@@ -44,7 +44,9 @@ var requestAnimFrame=window.requestAnimationFrame||window.webkitRequestAnimation
 $(function(){
 // setup scroll based on height of fixed nav
 // TODO after resize / mq
-if(console.log("dom2"),$(document).on("click tap","[data-overlay-trigger]",function(t){t.preventDefault();var e=$("body").attr("data-overlay-active"),i=$(this).attr("data-overlay-trigger");
+if(
+// console.log('dom2');
+$(document).on("click tap","[data-overlay-trigger]",function(t){t.preventDefault();var e=$("body").attr("data-overlay-active"),i=$(this).attr("data-overlay-trigger");
 // console.log('_val',_val);
 // console.log('_currentVal',_currentVal);
 i==e?$("body").attr("data-overlay-active","false"):($("body").attr("data-overlay-active",i),"menu"==i&&$(".archive-nav__search").focus(),"slack"==i&&$("#email").focus(),"newsletter"==i&&$("#fieldEmail").focus())}),

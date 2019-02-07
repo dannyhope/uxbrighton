@@ -6,7 +6,7 @@
 
 $(function() {
 
-    console.log('dom2');
+    // console.log('dom2');
 
 
     $(document).on('click tap', '[data-overlay-trigger]', function(e) {
