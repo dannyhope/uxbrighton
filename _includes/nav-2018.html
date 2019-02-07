@@ -133,6 +133,7 @@
 	<div class="full-screen-overlay__inner" onclick="noClose(event)">
 		<div class="archive-nav__head">
 			<button onclick="$('body').attr('data-overlay-active', 'false');return false;" class="archive-nav__close right">
+        <span class="screen-reader-text">Close</span>
 				<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" style="width:30px;margin:10px;">
 					<g id="Artboard" fill="currentColor">
 					  <polygon id="Shape" points="2.32258065 36 18.0829493 20.2396313 33.843318 36 36 33.843318 20.2396313 18.0829493 36 2.32258065 33.843318 0 18.0829493 15.7603687 2.32258065 0 0 2.32258065 15.7603687 18.0829493 0 33.843318"></polygon>
@@ -142,7 +143,8 @@
 			<div class=" archive-nav__search-wrapper width-m" style="margin:0 70px 0 20px;">
 				<div class="relative">
 					<img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 7px;left: 12px;">
-					<input class="search archive-nav__search" />				
+					<label for="search_events" class="screen-reader-text">Search events</label>
+					<input id="search_events" class="search archive-nav__search" />				
 				</div>
 
 			</div>
