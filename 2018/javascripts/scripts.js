@@ -6,7 +6,7 @@
 
 $(function() {
 
-    console.log('dom');
+    console.log('dom2');
 
 
     $(document).on('click tap', '[data-overlay-trigger]', function(e) {
@@ -46,7 +46,7 @@ $(function() {
   var navScrollSpeed    = 300;
 
   // bootstrap scrollspy, automatically highlights the menu
-  $('body').scrollspy({ target: '.nav--in-page',offset: navScrollOffset });
+  $('#top').scrollspy({ target: '.nav--in-page',offset: navScrollOffset });
 
   // smoothly scroll to in-page links, uses request animation frame for smoothness
   $(document).on('click tap', 'a[href^="#"]:not([href="#"])', function() {
