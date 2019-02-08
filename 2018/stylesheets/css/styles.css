@@ -552,8 +552,9 @@ textarea, .textarea {
   vertical-align: middle;
   background-color: #FFF;
   border-radius: 4px 4px 4px 4px;
-  box-shadow: 0 1px 1px rgba(26, 39, 44, 0.85) inset;
-  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; }
+  box-shadow: 1px 1px 1px rgba(26, 39, 44, 0.1) inset;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  width: 100%; }
   [type=text]:focus, [type=date]:focus, [type=email]:focus, [type=password]:focus,
   [type=search]:focus, [type=time]:focus, [type=url]:focus, [type=file]:focus, [type=week]:focus,
   textarea:focus, .textarea:focus {
@@ -594,6 +595,9 @@ textarea,
 .input-group__button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
+
+.input-group__button:hover {
+  box-shadow: none !important; }
 
 @media screen and (prefers-reduced-motion: reduce) {
   .button {
@@ -910,7 +914,8 @@ body.scroll-started .masthead__logo {
 .active .masthead__link:before,
 .active .masthead__link:before {
   width: 100%;
-  right: 0; }
+  right: 0;
+  z-index: 0; }
 
 .masthead__link--last {
   border-right: 0 none !important; }
@@ -2589,7 +2594,10 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
   .absolute-m {
     position: absolute; }
   .fixed-m {
-    position: fixed; } }
+    position: fixed; }
+  .sticky-over-m {
+    position: -webkit-sticky;
+    position: sticky; } }
 
 @media only screen and (min-width: 951px) {
   .absolute-l {

@@ -19,6 +19,7 @@
 @include over-m   { 
   .absolute-m { position:absolute }
   .fixed-m    { position:fixed }
+  .sticky-over-m { position: sticky; }
 } 
 @include over-l   { 
   .absolute-l { position:absolute }

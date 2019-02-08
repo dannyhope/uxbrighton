@@ -523,10 +523,29 @@
         padding: 10px;
         margin: 0 0 16px;
       }
+      .style-guide-section-heading {
+        margin: 18px 0 18px;
+        border-top: 1px solid #e6e7e8;
+        padding-top: 24px;
+      }
+      .style-guide-section-heading:first-of-type {
+        margin-top: 0;
+        margin: 0 0 24px 0;
+        border-top: 0;
+        padding-top: 0;
+      }
+      .note {
+        padding: 32px;
+        background: #FFFFA6;
+      }
+      .note:before {
+        content: "NOTE: ";
+        font-weight: 900;
+      }
     </style>
 </head>
 
-<body>
+<body class="show-pattern-titles">
     
   <div id="top" class="relative layout--event {% if page.slug %}page-{{ page.slug }}{% endif %}">
 
@@ -535,12 +554,10 @@
   	<main class="content-main-detail {% if page.upcoming == null or page.upcoming == false %}is-not-upcoming{% else %}is-upcoming{% endif %}" role="main">
 
 
-
       <section id="hero" class="overlay__outer pa0 bg-grey-90">
         <div class="overlay__inner overflow-hidden bg-trans">
           <div class="container color-white">
             <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
-            <h2 class="mt0 fs-l regular track-normal mb1"></h2>
           </div>
         </div>
       </section>
@@ -548,14 +565,14 @@
 
 
 
-      <section id="overview" class="overlay__after  bg-white">
+      <section id="overview" class="bg-white">
         <div class="container">
           <div class="row pb">
-          	<div class="u1of3-over-m right-over-m gutter-left sticky top-0 pt6">
+          	<div class="u1of3-over-m right-over-m gutter-left sticky-over-m top-0 pt6">
               <h2>Options</h2>
               <div class="mv1  border-bottom">
                 <label class="block border-top pv1">
-                  <input type="checkbox" onchange="$('body').toggleClass('show-pattern-titles');console.log('1');"> 
+                  <input checked type="checkbox" onchange="$('body').toggleClass('show-pattern-titles');console.log('1');"> 
                   Show/hide titles
                 </label>
                 <label class="block border-top pv1">

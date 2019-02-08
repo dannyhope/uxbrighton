@@ -36,8 +36,9 @@ input:focus:-moz-placeholder{
 
     background-color: #FFF;
     border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 1px 1px $form-inner-shadow-color inset;
+    box-shadow: 1px 1px 1px $form-inner-shadow-color inset;
     transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    width: 100%;
     &:focus {
       border-color: rgba(82, 168, 236, 0.8);
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
@@ -83,6 +84,9 @@ input:focus:-moz-placeholder{
   .input-group__button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; 
+  }
+  .input-group__button:hover {
+    box-shadow: none !important;
   }
 
 

@@ -6,7 +6,7 @@ fullurl: https://uxbrighton.org.uk/style
 ---
 <!--  -->
 
-
+<h2 class="style-guide-section-heading">Colours</h2>
 <div class="row">
   <div class="pa1 left mr2 mb2 rounded drop">
     <div class="mb10 rounded relative">
@@ -66,7 +66,7 @@ fullurl: https://uxbrighton.org.uk/style
   </div><!-- bg-green -->
 </div>
 
-
+<h2 class="style-guide-section-heading">Text styles</h2>
 <div data-pattern="Headings">
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
@@ -74,6 +74,15 @@ fullurl: https://uxbrighton.org.uk/style
   <h4>Heading 4</h4>
   <h5>Heading 5</h5>
   <h6>Heading 6</h6>
+</div>
+
+<!-- ..................... -->
+
+<div data-pattern="Text size modifiers">
+  <h1 class="fs-xxl">.fs-xxl on h1</h1>
+  <p class="fs-xxl">.fs-xxl on p</p>
+  <p class="fs-xl">.fs-xl on p</p>
+  <p class="fs-s">.fs-s on p</p>
 </div>
 
 <!-- ..................... -->
@@ -86,14 +95,6 @@ fullurl: https://uxbrighton.org.uk/style
 
 <div data-pattern="Paragraphs, standard body text">
   <p>Hi, I'm a paragraph. The following latin is <a href="https://en.wikipedia.org/wiki/Greeking#In_typography">all greek to me</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sequi, doloremque autem quisquam eligendi, impedit sit nisi saepe consectetur illum laborum maiores provident delectus expedita. Voluptate, culpa itaque non labore!</p>
-</div>
-
-<!-- ..................... -->
-
-<div data-pattern="Text size modifiers">
-  <div class="fs-xxl">fs-xxl</div>
-  <div class="fs-xl">fs-xl</div>
-  <div class="fs-s">fs-s</div>
 </div>
 
 <!-- ..................... -->
@@ -134,6 +135,58 @@ fullurl: https://uxbrighton.org.uk/style
 
 <!-- ..................... -->
 
+<h2 class="style-guide-section-heading">Link Styles</h2>
+
+<div data-pattern="Text Links">
+  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a> elit. Cupiditate, nobis earum blanditiis quo deserunt dolorem, ipsa modi veritatis ratione odio ducimus laborum. Non dolorum error impedit nisi quos saepe labore.</p>
+</div>
+
+<div data-pattern="Nav Links">
+  <nav class="row weight-700">
+    <div class="masthead__links">
+      <ul class="nav">
+        <li class="nav-item inline-block relative">
+          <a style="padding: 10px 16px 16px;" class="masthead__link" href="#" data-overlay-trigger="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 16 15" style="position: relative;top: 4px;margin-right: 3px;" class="hidden-over-m">
+              <path fill="currentColor" d="M5,9 L16,9 L16,6 L5,6 L5,9 Z M5,4 L16,4 L16,1 L5,1 L5,4 Z M5,14 L16,14 L16,11 L5,11 L5,14 Z M0,9 L3,9 L3,6.28989943 L3,6 L0,6 L0,9 Z M0,4 L3,4 L3,1.28989943 L3,1 L0,1 L0,4 Z M0,14 L3,14 L3,11 L0,11 L0,14 Z"></path>
+            </svg>
+            <span class="hidden-under-m">All </span>Events
+          </a>
+        </li> 
+        <li class="nav-item inline-block relative ">
+          <a style="padding: 10px 16px 16px;" class="masthead__link" href="#" data-overlay-trigger="newsletter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 16 15" style="position: relative;top: 2px;margin-right: 3px;" class="hidden-over-m">
+              <path fill="currentColor" d="M0,9.79326923 L5.33855953,9.79326923 L5.33855953,15 L9.54042136,10.0889423 L16,13.4855769 L16,0 L0,9.79326923 Z M6.40470358,12.3677885 L6.40470358,9.53365385 L15.5453209,0.634615385 L6.40470358,12.3677885 Z"></path>
+            </svg> 
+            <span class="hidden-under-m">Email </span>Newsletter
+          </a>
+        </li>
+
+        <li class="nav-item inline-block relative">
+          <a style="padding: 10px 16px 12px;" class="masthead__link" href="https://slofile.com/slack/uxbri" --data-overlay-trigger="slack">
+            <img src="/2018/images/icons/slack.svg" alt="" width="20" style="position: relative;top: -2px;margin-right: 2px;">
+            Join<span class="hidden-under-m"> Our Slack</span>
+          </a>
+        </li>
+      </ul>      
+    </div>
+
+  </nav>
+  <div class="note">
+    These styles are a bit confused and need to be simplified to the elemt, rather than inheriting form the container.
+  </div>
+</div>
+
+
+
+
+<!-- ..................... -->
+
+<h2 class="style-guide-section-heading">Sub Components</h2>
+  <div class="note">
+    <br>• Hover styles vary between link and other buttons. 
+    <br>• The text wrap on inputs needs to be fixed.
+  </div>
 <div data-pattern="Buttons">
 
   <!-- small -->
@@ -326,9 +379,74 @@ fullurl: https://uxbrighton.org.uk/style
 
 <!-- ..................... -->
 
+<div data-pattern="Input Group">
+  <div class="input-group mt1 mb1">
+    <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
+    <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
+  </div>
+</div>
 
 
+<!-- ..................... -->
+
+<div data-pattern="Checkbox">
+  <div>
+    <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked="" class="left">
+    <label class="table" for="conference-mailinglist">Conference news and workshops</label>    
+  </div>
+</div>
 
 
+<!-- ..................... -->
+
+<div data-pattern="Search box">
+
+  <div class="pa2 bg-grey-5">
+    <div class="relative">
+      <img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 7px;left: 12px;" alt="search icon">
+      <label for="search_events" class="screen-reader-text">Search events</label>
+      <input id="search_events" class="search archive-nav__search">       
+    </div>  
+  </div>
+
+</div>
 
 
+<!-- ..................... -->
+
+<div data-pattern="Nav Labels">
+  <h2 class="fs-s track-loose uppercase regular">Upcoming Events</h2>
+</div>
+
+
+<!-- ..................... -->
+
+<div data-pattern="Upcoming Teaser">
+  <div class="upcoming__teaser border-top pv2">
+    <h3 class="upcoming__teaser__heading ">
+      February Triple Bill
+    </h3>
+    <div class="upcoming__teaser__text">
+      Tue 12 February 2019, 19:00
+    </div>
+    <a href="/February-triple-bill/" class="upcoming__teaser__button button button--green ">
+      Tickets and info
+    </a>
+  </div>
+</div>
+
+
+<div data-pattern="Event List Item">
+  <nav class="archive-nav" style="display:block !important;">
+    <ul>
+      <li class="event-title-list-item">
+        <a class="block-link pv3 ph4 archive-nav__link" href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">
+          <div class="post-title weight-900 block-link__highlight">2019 Conference ★ </div>
+          <div class="post-date ">1 November 2019</div>
+          <div class="post-excerpt">Our 9th one day annual conference. More details will be announced here: http://uxbrighton.org.uk Want to sponsor us? Get in touch with our Conference Producer Emmeline at emmeline@uxbrighton.org.uk</div>
+        </a>
+      </li>  
+    </ul>    
+  </nav>
+
+</div>
