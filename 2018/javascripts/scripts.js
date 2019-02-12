@@ -6,30 +6,36 @@
 
 $(function() {
 
-    // console.log('dom2');
+  // console.log('dom2');
 
+  $(document).on('click tap', '[data-overlay-trigger]', function(e) {
 
-    $(document).on('click tap', '[data-overlay-trigger]', function(e) {
+    e.preventDefault();
 
-      e.preventDefault();
+    var _currentVal = $('body').attr('data-overlay-active');
+    var _val        = $(this).attr('data-overlay-trigger');
 
-      var _currentVal = $('body').attr('data-overlay-active');
-      var _val        = $(this).attr('data-overlay-trigger');
+    // console.log('_val',_val);
+    // console.log('_currentVal',_currentVal);
 
-      // console.log('_val',_val);
-      // console.log('_currentVal',_currentVal);
+    if (_val == _currentVal) {
+      $("body").attr('data-overlay-active','false');
+    } else {
+      $("body").attr('data-overlay-active',_val);
+      if (_val == 'menu'){ $( '.archive-nav__search' ).focus(); }
+      if (_val == 'slack'){ $( '#email' ).focus(); }
+      if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); } 
+    }
 
-      if (_val == _currentVal) {
-        $("body").attr('data-overlay-active','false');
-      } else {
-        $("body").attr('data-overlay-active',_val);
-        if (_val == 'menu'){ $( '.archive-nav__search' ).focus(); }
-        if (_val == 'slack'){ $( '#email' ).focus(); }
-        if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); } 
-      }
+  });
 
-    });
-
+  $("form.newletter-signup").submit(function(e){
+    var form = e.target;
+    e.preventDefault();
+    $.post(form.action, $(form).serialize());
+    $(this).parent().find(".js-signup-confirmation").show();
+    $(this).remove();
+  });
 
 
   // make the youtube videos responsive
@@ -44,6 +50,7 @@ $(function() {
   }
   var navScrollOffset   = navOffset + 1;
   var navScrollSpeed    = 300;
+
 
   // bootstrap scrollspy, automatically highlights the menu
   $('#top').scrollspy({ target: '.nav--in-page',offset: navScrollOffset });
@@ -67,7 +74,9 @@ $(function() {
     $(this).toggleClass('is-active').closest('.talk').toggleClass("if-conference-day-talk-toggled");
   });
 
-  
+
+
+
 
 
 
@@ -102,15 +111,7 @@ $(function() {
    // }, 3000);
 
 
-  $("form.newletter-signup").submit(function(e){
 
-    var form = e.target;
-    e.preventDefault();
-
-    $.post(form.action, $(form).serialize());
-    $("form.newletter-signup").remove();
-    $("#js-signup-confirmation").show();
-  });
 
 }); // dom ready stuff
 
