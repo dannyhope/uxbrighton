@@ -36,6 +36,37 @@ upcoming-button-text: ""
       width: 130px;
     }
   }
+  .video-box {
+    max-width: 380px;
+    padding-bottom: 32px;
+  }
+  .video-box:nth-child(1) {
+    padding-right: 16px !important;
+  }
+  .video-box:nth-child(2) {
+    padding-left: 16px !important;
+  }
+
+  /* under l */
+  @media (max-width: 950px ){
+  }
+
+  /* under m */
+  @media (max-width: 730px ){
+    .video-box:nth-child(1) { padding-right: 8px !important; }
+    .video-box:nth-child(2) { padding-left: 8px !important; }
+    .video-box { padding-bottom: 16px; }
+  }
+
+  /* under s */
+  @media (max-width: 450px ){
+    .video-box:nth-child(1) { padding-right: 0px !important; }
+    .video-box:nth-child(2) { padding-left: 0px !important; }
+    .video-box { padding-bottom: 16px; }
+    .pt3-under-s {
+      padding-top: 24px;
+    }
+  }
 </style>
 
 
@@ -120,27 +151,27 @@ upcoming-button-text: ""
       <div class="bg-grey-5">
         <div class="container">
           <div class="row pt5 pb2">
-            <div class="u2of3-over-m left-over-m  gutter-right pr0-under-m">
+            <div class="u2of3-over-l left-over-l  pr0-under-l">
               <h2 class="mb2">Highlights from previous years</h2>
               <div class="row">
-                <div class="u1of2-over-m left-over-m  gutter-right pr0-under-l gutter-bottom">
+                <div class="video-box u1of2-over-s left-over-s ">
                   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rz7sy81Yg5E?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="u1of2-over-m left-over-m gutter-right pr0-under-l gutter-bottom">
+                <div class="video-box u1of2-over-s left-over-s">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/8A3SEmvx7uY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div><!-- row -->
               <div class="row">
-                <div class="u1of2-over-m left-over-m  gutter-right pr0-under-l gutter-bottom">
+                <div class="video-box u1of2-over-s left-over-s">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/DjRR1MpBr1g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="u1of2-over-m left-over-m gutter-right pr0-under-l gutter-bottom">
+                <div class="video-box u1of2-over-s left-over-s">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/h9s3DrImGXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div><!-- row -->
             </div><!-- u1of2-over-m -->
 
-            <div class="u1of3-over-m right-over-m gutter-left pb3">
+            <div class="u1of3-over-l right-over-l gutter-left pb3 pt3-under-s">
               <blockquote>
                 <div class="quote">
                   <p>UX Brighton is one of the premier UX events in Europe. In just one day, you’ll get access to some of the most cutting-edge presentations you can imagine. Well organized, fabulous location, packed with valuable content — go if you can: it’s worth the investment.</p>
