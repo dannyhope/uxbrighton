@@ -47,7 +47,7 @@
                 var newsletterOptions = $(this).attr('data-news-options');
                 if (newsletterOptions == "no-no-no") {
                   event.preventDefault();
-                  alert("Please select at least one option, otherwise we’ll have nothing to update you about.")
+                  $(this).closest('.js-email-signup').find('.js-email-no-choice').slideDown()
                 }
                 ga("send", "event", "newsletter", "signup", newsletterOptions);
               }
@@ -77,6 +77,7 @@
                 <h3 class="bold pb0 block regular screen-reader-text">
                   Which topics are of interest to you?
                 </h3>
+                <div class="js-email-no-choice hidden color-black mv1"><strong>👇 Please select at least one option</strong></div>
                 <div style="padding-top: 4px;">
                   <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked class="left">
                   <label class="table" for="conference-mailinglist" class="">Conference news and workshops</label>

@@ -2811,13 +2811,13 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
   0% {
     max-height: 0; }
   100% {
-    max-height: 150px; } }
+    max-height: 180px; } }
 
 @keyframes slideDownEmailOptions {
   0% {
     max-height: 0; }
   100% {
-    max-height: 150px; } }
+    max-height: 180px; } }
 
 @-webkit-keyframes fade {
   0% {

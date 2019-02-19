@@ -9,7 +9,7 @@
 .invisible {
   visibility: hidden;
 } 
-@keyframes slideDownEmailOptions{ 0% {max-height:0;} 100% {max-height:150px;} }
+@keyframes slideDownEmailOptions{ 0% {max-height:0;} 100% {max-height:180px;} }
 @keyframes fade{ 0% {opacity:0;} 100% {opacity:1;} }
 .show {
   opacity: 0;
