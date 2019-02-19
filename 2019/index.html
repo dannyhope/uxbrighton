@@ -118,23 +118,23 @@ upcoming-button-text: ""
           <div class="u2of3-over-l left-over-l  gutter-right pt3">
             <h2 class="mb2">Join us for our 9th annual one-day conference</h2>
             <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
-            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Super early bird ticket — 35% off</a>
+            <a onclick='ga("send", "event", "events", "search", "previousevents");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Super early bird ticket — 35% off</a>
           </div><!-- u1of2-over-m -->
 
           <div class="u1of3-over-l right-over-l gutter-left pl0-under-l pt3" id="">
 
             <h2 class="mb2">Stay updated</h2>
             <p>Join our newsletter for announcements and information about our evening talks.</p>
-            <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
+            <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup js-email-signup">
               <label class="screen-reader-text" for="fieldEmail-2">Email</label>
               <div class="input-group mt1 mb1" style="max-width: 366px;">
                 <input id="fieldEmail-2" name="email" type="email" required="" placeholder="Your email" class="fill input-group__field rounded-left" onfocus="document.getElementById('newsletter-options-2').className = 'show'">
-                <input type="submit" value="Sign up" name="subscribe" id="subscribe-2" class="button input-group__button rounded-right">
+                <input onclick="newsletterAnalytics.call(this,event);" data-news-options="conference-newsletter-evening" type="submit" value="Sign up" name="subscribe" id="subscribe-2" class="button input-group__button rounded-right">
               </div><!-- input-group -->
               <div id="newsletter-options-2" class="hidden">
-                <div class="bold pb0 block regular screen-reader-text">
+                <h3 class="bold pb0 block regular screen-reader-text">
                   Which topics are of interest to you?
-                </div>
+                </h3>
                 <div style="padding-top: 4px;">
                   <input id="conference-mailinglist-2" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked="" class="left">
                   <label class="table" for="conference-mailinglist-2">Conference news and workshops</label>

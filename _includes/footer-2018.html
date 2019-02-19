@@ -11,16 +11,72 @@
         <div class="u1of2-over-m left-over-m gutter-right mb5"  id="newletter-signup">
           <div class="inline-block center-under-m">
             <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Sign up for updates</h2>
-            <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
+            <script>
+              
+              // function to write the current options into a data attribute which is in turn passed to analytics
+              function newsOption(returnValue,returnOption) {
+
+                var newsletterType = returnValue.split("-")[0];
+                var currentOptions = $('[data-news-options]').first().attr('data-news-options');
+                var replacementSubString;
+                var revisedOptions;
+
+                if (returnOption == "include") {
+                  replacementSubString = newsletterType;
+                  $('[type="checkbox"][id^='+newsletterType+']').prop('checked', true);
+                } else {
+                  replacementSubString = "no";
+                  $('[type="checkbox"][id^='+newsletterType+']').prop('checked', false);
+                }
+
+                if (newsletterType == "conference") { 
+                  revisedOptions = replacementSubString + "-" + currentOptions.split("-")[1] + "-" + currentOptions.split("-")[2];
+                } else if (newsletterType == "newsletter")  {
+                  revisedOptions = currentOptions.split("-")[0] + "-" + replacementSubString + "-" + currentOptions.split("-")[2];
+                } else {
+                  revisedOptions = currentOptions.split("-")[0] + "-" + currentOptions.split("-")[1] + "-" + replacementSubString;
+                }
+
+
+
+                $('[data-news-options]').attr('data-news-options', revisedOptions);
+              }
+
+              // send the current options to google analytics
+              function newsletterAnalytics (event) {
+                var newsletterOptions = $(this).attr('data-news-options');
+                if (newsletterOptions == "no-no-no") {
+                  event.preventDefault();
+                  alert("Please select at least one option, otherwise we’ll have nothing to update you about.")
+                }
+                ga("send", "event", "newsletter", "signup", newsletterOptions);
+              }
+
+              $(function() {
+
+                // click handler for newsOption function
+                $('.js-email-signup input[type="checkbox"]').change(function() {
+                  var returnVal = $(this).attr('id');
+                  if(this.checked) {
+                    newsOption(returnVal,"include");
+                  } else {
+                    newsOption(returnVal,"exclude");
+                  }
+                });
+
+              }); // dom ready
+
+            </script>
+            <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup js-email-signup">
               <label class="screen-reader-text" for="fieldEmail">Email</label>
               <div class="input-group mt1 mb1">
                 <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
-                <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
+                <input onclick="newsletterAnalytics.call(this,event);" data-news-options="conference-newsletter-evening" type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right js-mailinglist-submit">
               </div><!-- input-group -->
               <div id="newsletter-options" class="hidden">
-                <label class="bold pb0 block regular screen-reader-text">
+                <h3 class="bold pb0 block regular screen-reader-text">
                   Which topics are of interest to you?
-                </label>
+                </h3>
                 <div style="padding-top: 4px;">
                   <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked class="left">
                   <label class="table" for="conference-mailinglist" class="">Conference news and workshops</label>
@@ -49,7 +105,7 @@
           <div class="inline-block right-over-m center-under-m">
             <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Follow us</h2>
             <nav class="social-icons icons-currentColor pt1 clearfix">
-              <a class="social-icons__link social-icons__link--slack" href="https://slofile.com/slack/uxbri">
+              <a class="social-icons__link social-icons__link--slack" href="https://slofile.com/slack/uxbri" onclick='ga("send", "event", "slack", "signup", "slackgroup");'>
                 <span class="screen-reader-text">slack</span>
                 <svg viewBox="0 0 409 409">
                   <use xlink:href="/2018/images/icons/social-sprite.svg#slack"></use>
@@ -90,7 +146,7 @@
       </div>
   
 
-      <form id="slack-signup" class="hidden form-inline bg-white z4 triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post">
+      <form id="slack-signup" class="hidden form-inline bg-white z4 triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post" target="slackFrame">
         <div class="pa3">
           <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Your Email Address</h2>
           <input name="utf8" type="hidden" value="✓">
