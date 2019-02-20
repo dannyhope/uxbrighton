@@ -21,6 +21,7 @@ sponsor2: '<div><a class="block standfirst mb3" style="max-width:400px; line-hei
 ## How to take your content from zero to hero – Rachel McConnell
 
 Content is the foundation of web design - from site strategy to interaction design.  Yet many companies still underestimate the value of content and there are huge skill gaps in this area. I'm going to talk about what content design is, how it overlaps with design roles, why it's important, and how you can start to think more about your content, including tips for creating better conversations with users.
+<p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/taking-content-from-zero-to-hero-rachel-mcconnell">How to take your content from zero to hero</a></p>
 
 ### About Rachel
 <div class="text-center"><img alt="Rachel McConnell" src="/2018/images/photos/feb-1.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="200"></div>
