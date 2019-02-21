@@ -21,7 +21,8 @@ sponsor2: '<div><a class="block standfirst mb3" style="max-width:400px; line-hei
 ## How to take your content from zero to hero – Rachel McConnell
 
 Content is the foundation of web design - from site strategy to interaction design.  Yet many companies still underestimate the value of content and there are huge skill gaps in this area. I'm going to talk about what content design is, how it overlaps with design roles, why it's important, and how you can start to think more about your content, including tips for creating better conversations with users.
-<p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/taking-content-from-zero-to-hero-rachel-mcconnell">How to take your content from zero to hero</a></p>
+
+<p><a href="https://www.slideshare.net/uxbri/taking-content-from-zero-to-hero-rachel-mcconnell"><strong>Slides</strong> for How to take your content from zero to hero</a></p>
 
 ### About Rachel
 <div class="text-center"><img alt="Rachel McConnell" src="/2018/images/photos/feb-1.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="200"></div>
@@ -33,7 +34,8 @@ Rachel is the author of 'Why you need a content team and how to build one'.  She
 ## A UX perspective on ‘bring your own data’ in healthcare – Fiona MacNeill
 
 We will consider the journey of a patient having elective surgery: from time spent on the waiting list, then the operation, followed by recovery at home. The patient, let’s call them Val, has their own personal health data and information gathered from their smartwatch and smartphone which they are willing to share for a limited time. There are some in the national context who believe this personal health data is valuable and would like to make it available to healthcare professionals, but where might provisioning access to patient data and information add value to service delivery? This talk portrays a generative approach to answering this question with a few UX research titbits along the way. The talk is based on an MSc dissertation at the University of Brighton; supported by fieldwork in a healthcare setting.
-<p><strong>Slides for</strong> <a href="https://www.slideshare.net/secret/NeYLnmZbjtYGDY">A UX perspective on 'bring your own data' in healthcare</a></p>
+
+<p><a href="https://www.slideshare.net/secret/NeYLnmZbjtYGDY"><strong>Slides</strong> for A UX perspective on 'bring your own data' in healthcare</a></p>
 
 
 ### About Fiona
@@ -47,7 +49,8 @@ Fiona MacNeill is an eLearning professional who has occupied themselves with res
 ## The Selfish Giant – the converted – Nabeeha Ahmed
 
 Working with and as a user researcher often means different things to different people, especially as organisations take up the call to put users at the hearts of their services. As the drive for reformation and transformation continues, the user researcher's role inevitably must change. I will tell a story about getting caught by surprise by changes in my own backyard, share my 'sense-making' journey and pose some ideas for discussion on the role of the user researcher.
-<p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/the-selfish-giant-the-converted-nabeeha-ahmed">The Selfish Giant - the converted</a></p>
+
+<p><a href="https://www.slideshare.net/uxbri/the-selfish-giant-the-converted-nabeeha-ahmed"><strong>Slides</strong> for The Selfish Giant - the converted</a></p>
 
 
 ### About Nabeeha
