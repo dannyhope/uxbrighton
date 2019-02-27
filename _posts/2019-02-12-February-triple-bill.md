@@ -6,7 +6,7 @@ venue: The Skiff
 start: 7pm
 ticket-link: https://www.eventbrite.co.uk/e/february-double-bill-tickets-53051728147#tickets
 homepage: false
-upcoming: true
+upcoming: false
 published: true
 description: "Rachel McConnell – How to take your content from zero to hero; Fiona MacNeill – A UX perspective on ‘bring your own data’ in healthcare; Nabeeha Ahmed — The Selfish Giant - the converted"
 fullurl: https://uxbrighton.org.uk/February-triple-bill/
