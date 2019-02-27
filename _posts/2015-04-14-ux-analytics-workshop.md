@@ -87,8 +87,3 @@ Luke has
 <blockquote>"We found the Google Analytics training session really useful and wouldn’t hesitate in recommending Luke’s services to our clients"
 <br>
 —Stuart Bellis, Code 7</blockquote>
-
-## Organisers
-
-- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
