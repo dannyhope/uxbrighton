@@ -1,0 +1,116 @@
+  .job {
+    position: relative;
+    margin-bottom: 24px;
+  }
+
+  .job-logo {
+    width: 120px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+  .job:target .job-logo,
+  .job-target .job-logo {
+    width: 180px;
+    height: 135px;
+    @include over-l {
+      margin-right: 48px;
+    }
+    @include under-l {
+      float: none;
+      margin-bottom: 24px;
+    }
+    // float: right;
+  }
+  .job:target .job-text,
+  .job-target .job-text {
+    @include over-l {
+      padding-left: 48px;
+      border-left: 1px solid $color-ui-border;
+    }
+  }
+
+  .job-open {
+    position: absolute;
+    overflow: hidden;
+    top: 0;left: 0;right: 0;bottom: 0;
+    z-index: 1;
+  }
+  .job:target .job-open,
+  .job-target .job-open {
+    display: none;
+  }
+  .job-close {
+    display: none;
+    opacity: 0;
+    font-size: 48px;
+  }
+  .job:target .job-close,
+  .job-target .job-close {
+    animation: fadeIn 0.2s forwards;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: #C9003A;
+    color: #fff;
+    text-align: center;
+    line-height: 0.95;
+    font-weight: 900;
+  }
+
+  .job-info {
+    position: relative;
+    background: #fff;
+  }
+  @keyframes openJobInfo {
+    0% {
+      z-index: 999;
+      position: fixed;
+    }
+    100% {
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 999;
+    }
+  }
+  .job:target .job-info,
+  .job-target .job-info {
+    animation: openJobInfo 0.2s forwards;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .job:target .job-text-extended,
+  .job-target .job-text-extended { 
+    display: block;
+    opacity: 0;
+    animation: fadeIn 1s forwards 0.1s;
+  }
+  .job:target .job-info__inner,
+  .job-target .job-info__inner {
+    max-width:800px; margin: 0 auto;
+  }
+  .morph-content {
+    pointer-events: none;
+  }
+  .job:target .job-info,
+  .job-target .job-info {
+    pointer-events: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  body.job-open {
+    overflow: hidden !important;
+  }

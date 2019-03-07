@@ -23,19 +23,7 @@
       float:none; 
     }
   }
-  @include under-m {
-    .center-under-m { 
-      float: none;
-      margin-left: auto;
-      margin-right: auto;
-      position: relative;
-      left: 50%;
-      transform: translate(-50%, 0);
-    }   
-    .none-under-m { 
-      float:none; 
-    }
-  }
+
 
 
 
@@ -80,6 +68,21 @@
   }
 
 
+  @include under-m {
+    .center-under-m { 
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }   
+    .none-under-m { 
+      float:none; 
+    }
+  }
+
+
 // clears
 
   .cf, 
@@ -99,24 +102,45 @@
   .text-center    { text-align: center; }
 
   @include over-s {
-    .text-left-s      { text-align: left; }
-    .text-right-s     { text-align: right; }
-    .text-center-s    { text-align: center; }
+    .text-left-over-s      { text-align: left; }
+    .text-right-over-s     { text-align: right; }
+    .text-center-over-s    { text-align: center; }
   }
   @include over-m {
-    .text-left-m      { text-align: left; }
-    .text-right-m     { text-align: right; }
-    .text-center-m    { text-align: center; }
+    .text-left-over-m      { text-align: left; }
+    .text-right-over-m     { text-align: right; }
+    .text-center-over-m    { text-align: center; }
   }
   @include over-l {
-    .text-left-l      { text-align: left; }
-    .text-right-l     { text-align: right; }
-    .text-center-l    { text-align: center; }
+    .text-left-over-l      { text-align: left; }
+    .text-right-over-l     { text-align: right; }
+    .text-center-over-l    { text-align: center; }
   }
   @include over-xl {
-    .text-left-xl      { text-align: left; }
-    .text-right-xl     { text-align: right; }
-    .text-center-xl    { text-align: center; }
+    .text-left-over-xl      { text-align: left; }
+    .text-right-over-xl     { text-align: right; }
+    .text-center-over-xl    { text-align: center; }
+  }
+  
+  @include under-s {
+    .text-left-under-s      { text-align: left; }
+    .text-right-under-s     { text-align: right; }
+    .text-center-under-s    { text-align: center; }
+  }
+  @include under-m {
+    .text-left-under-m      { text-align: left; }
+    .text-right-under-m     { text-align: right; }
+    .text-center-under-m    { text-align: center; }
+  }
+  @include under-l {
+    .text-left-under-l      { text-align: left; }
+    .text-right-under-l     { text-align: right; }
+    .text-center-under-l    { text-align: center; }
+  }
+  @include under-xl {
+    .text-left-under-xl      { text-align: left; }
+    .text-right-under-xl     { text-align: right; }
+    .text-center-under-xl    { text-align: center; }
   }
 
 

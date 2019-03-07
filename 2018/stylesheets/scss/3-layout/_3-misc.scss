@@ -7,16 +7,20 @@
     padding-top: 150px;
     padding-bottom: 150px;
     @include under-m {
-      padding-top: 90px;
-      padding-bottom: 70px;
+      padding-top: $space-l;
+      padding-bottom: $space-l;
+    }
+    @include under-s {
+      padding-top: $space-m;
+      padding-bottom: $space-m;
     }
     background: rgba(0,0,0,0.5);
   }
   .overlay__after {
     margin-top:-100px;
     @include under-m {
-      margin-top: -50px;
-    }
+      margin-top: 0
+    } 
   }
   #hero {
     // max-height: 90vh;
@@ -58,7 +62,6 @@
 
 
   .talk__image-link {
-    padding: 5px;
     margin: 0;
     display: block;
     position: relative;
@@ -72,7 +75,6 @@
       letter-spacing: -0.03em;
       position: absolute;
       bottom: 2px * $ssi;
-      left: 5px; // from padding on .talk__image-link
       line-height: 1;
       max-width: calc(100% - 10px);
 
@@ -123,13 +125,6 @@
     background-repeat: none;
     background-size: cover;
   }
-
-  .testimonial .container {
-    border-top: 1px solid #eee;
-    padding-top: 30px;
-  }
-
-
 
 
   footer {

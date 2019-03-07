@@ -1,0 +1,261 @@
+    .talk {
+      border-top: 1px solid #eee;
+    }
+    .talk:first-of-type {
+      border-top: 0 solid #eee;
+    }
+    .talk__heading {
+      margin-top: 0.25em;
+    }
+    .talk h4 {
+      font-size: 24px;
+      margin: 1em 0 0.5em;
+    }
+    .talk__time {
+      color: #80878a;
+      display: inline-block;
+    }
+    @media (max-width: 450px) {
+      .talk__heading {
+        margin-bottom: -0.6em;
+      }
+      .talk h4 {
+        text-align: center;
+      }
+      .talk__time {
+        display: block;
+      }
+    }
+    .if-is-pre-conference,
+    .if-is-conference-day,
+    .if-is-post-conference { display: none }
+    .is-pre-conference .if-is-pre-conference,
+    .is-conference-day .if-is-conference-day,
+    .is-post-conference .if-is-post-conference { display: block }
+    .talk__time {
+      display: none;
+    }
+    .is-conference-day .talk__time {
+      color: #c9003a;
+    }
+    .talk * {
+      transition: 0.1s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
+      width: 200px;
+    }
+    @media (max-width:500px) {
+      .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 0;
+      }
+    }
+
+
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper + .u2of3-over-s {
+      /*width: auto;*/
+      margin: 0;
+     }
+    /*.js .is-conference-day*/ .talk__abstract h4 {
+      margin: 0 0 0.5em;
+      font-weight: 400;
+      font-size: 30px;
+    }
+    /*.js .is-conference-day*/ .talk__heading {
+      margin: 0;
+    }
+    .js .is-conference-day .talk__heading--not-a-talk {
+      margin: 1.5em 0 0;
+    }
+    @media (max-width:500px) {
+      /*.js .is-conference-day*/ .talk__heading {
+        margin: 0;
+      }
+    }
+
+    .js .is-conference-day p, 
+    .js .is-conference-day .talk__speaker-bio {
+      opacity: 1;
+      max-height: 1000px;
+    }
+    .talk__speaker-links {
+      overflow: hidden;
+    }
+    .js-show-talk-details,
+    .js-show-talk-details .js-hide,
+    .js-show-talk-details .js-show {
+      display: none;
+    }
+    .js .is-conference-day .if-conference-day-talk-toggled .js-show-talk-details {
+      display: block;
+      clear: both;
+    }
+    .js .js-show-talk-details.is-active {
+      padding-top: 12px !important;
+      display: block !important;
+      clear: both !important;
+    }
+    @media (max-width:500px) {
+      .js .js-show-talk-details {
+        text-align: center;
+      }
+    }
+    .js .is-conference-day .js-show-talk-details.is-active .js-hide,
+    .js .is-conference-day .if-conference-day-talk-toggled .js-show {
+      display: inline;
+    }
+
+    .js .is-conference-day .if-conference-day-talk-toggled p, 
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__speaker-bio {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      margin-bottom: 0;
+    }
+
+    @media (max-width:640px) {
+      .talk,
+      .talk * {
+        float: none;
+        text-align: center;
+        width: auto;
+      }
+      .talk p {
+        text-align: left !important;
+        hyphens: auto;
+      }
+      .talk .talk__photo-wrapper {
+        margin: 0 auto;
+        float: none !important;
+      }
+    }
+    @media (min-width:500px) {
+      .flex-reverse-under-l {
+        flex-direction: row-reverse;
+      }
+    }
+    @media (min-width:950px) and (max-width:1300px) {
+      .is-post-conference .fs-xxxl {
+        font-size: 4rem;
+      }
+      .is-post-conference .fs-l {
+        font-size: 24px;
+      }
+    }
+    #newletter-signup:target {
+      padding-bottom: calc(100vh - 340px);
+    }
+
+    .show-if--nav--in-page-is-stuck,
+    .nav--in-page-is-stuck .hidden-if--nav--in-page-is-stuck {
+      display: none;
+    }
+    .nav--in-page-is-stuck .show-if--nav--in-page-is-stuck {
+      display: inline-block;
+    }
+    .nav--in-page a {
+      padding: 18px;
+    }
+    .nav--in-page .active a {
+      background: #C9003A;
+      color: #fff;
+    }
+    .nav--in-page .active a .stamped {
+      color: transparent;
+    }
+    @media (max-width: 450px) {
+      .nav--in-page .nav {
+        padding: 0;
+        display: flex;
+        display: flex;
+        flex:1;
+      }
+      .nav--in-page .nav .nav-item {
+        display: flex;
+        flex:1;
+      }
+      .nav--in-page .container {
+        padding: 0;
+      }
+      .nav--in-page .nav .hidden-if--nav--in-page-is-stuck,
+      .nav--in-page .nav a {
+        padding: 18px 8px !important;
+        font-size: 11px;
+        letter-spacing: 0;
+        text-align: center;
+        width: 100%;
+        border-right: 1px solid #eee;
+      }
+    }
+
+
+
+
+
+
+
+    .columnar-list {
+      columns: 3;
+    }
+    @media (max-width:680px) {
+      .columnar-list { columns: 2; }
+    }
+    @media (max-width:400px) {
+      .columnar-list { columns: 1; }
+    }
+    .attendee-info-icons {
+      display: flex;
+      justify-content: space-between;
+    }
+    .attendee-info-icon {
+      display: flex;
+      flex: 1;
+      opacity: 0.34;
+      height: 50px;
+      width: auto;
+    }
+    @media (max-width:680px) {
+      .attendee-info-icon { height: 30px; }
+    }
+    @media (max-width:400px) {
+      .attendee-info-icon { height: 21px; }
+    }
+
+
+
+      .sponsor__links {
+        margin-left: -8px;
+      }
+      .sponsor__link {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+      }
+      .sponsor__link:hover {
+        color: #000;
+      }
+     .sponsor__links svg {
+        width: 24px;
+        height: 24px;
+      }
+      .sponsor__logo {
+        align-items: center;
+        justify-content: center;
+      }
+      .sponsor__logo--3-star {
+        min-height: 130px !important;
+      }
+      .sponsor__logo--3-star img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+
+
+
+
+      

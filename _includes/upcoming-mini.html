@@ -1,11 +1,11 @@
         <style>
-
           @media (min-width: 860px) {
             .upcoming__container {
               width: 330px;
               float: right;
               padding: 18px 18px;
               margin-bottom: 24px !important;
+              margin-left: 32px;
             }
             .upcoming__container__heading {
               margin-bottom: 12px;
@@ -13,6 +13,9 @@
             .upcoming__teaser {
               padding-top: 12px;
               padding-bottom: 12px;
+            }
+            .upcoming__teaser:last-child {
+              padding-bottom: 0;
             }
           }
           @media (max-width: 859px) {
@@ -22,6 +25,7 @@
             .upcoming__container {
               padding: 6px 12px;
               margin-bottom: 24px !important;
+              margin-left: 0;
             }
             .upcoming__teaser,
             .upcoming__container__heading {
@@ -61,7 +65,7 @@
           </div> -->
           
           <div class="upcoming__teaser border-top">
-            <h3 class="upcoming__teaser__heading ">
+            <h3 class="upcoming__teaser__heading mv0">
               UX Brighton 2019
             </h3>
             <div class="upcoming__teaser__text">

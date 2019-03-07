@@ -23,22 +23,31 @@
       font-size: $size-h2;
       letter-spacing: $track-tight;
       line-height: $leading-tight;
+      margin-bottom: 0.5em;
     }
     h3, .fs-h3 {
       font-size: $size-h3;
       line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
     }
     h4, .fs-h4 {
       font-size: $size-h4;
       line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
     }
     h5, .fs-h5 {
       font-size: $size-h5;
       line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
     }
     h6, .fs-h6 {
       font-size: $size-h6;
       line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
     }
 
     strong {
@@ -54,6 +63,7 @@
     ul {
       padding-left: 1.5em;
     }
+
     blockquote, p, ul, ol, dd,
     figure {
       margin-bottom: $paragraph-spacing;
@@ -61,7 +71,6 @@
     blockquote {
       margin-left: 0;
       margin-right: 0;
-      margin-top: -3px * $ssi;
       color: $blockquote-color;
       letter-spacing: 0.2px;
       position: relative;
@@ -70,8 +79,6 @@
       margin-right: auto;
       @include over-s {
         padding: 0 0 0 3em;
-        margin-top: 1.2em;
-        margin-bottom: 2.4em !important;
       }
 
      &:before {
@@ -97,6 +104,9 @@
       // border-color: $blockquote-border-color;
       // border-style: $blockquote-border-style;
     }
+    blockquote.standfirst {
+      margin-bottom: 0;
+    }
     // .quote:before {
     //     content: '“';
     //     font-size: 3em;
@@ -118,8 +128,8 @@
     hr {
       border: 0;
       border-bottom: 1px solid $color-ui-border;
-      margin-top: $paragraph-spacing;
-      margin-bottom: $paragraph-spacing;
+      margin-top: 0;
+      margin-bottom: 0;
     }
 
 

@@ -51,9 +51,11 @@ $(function() {
   var navScrollOffset   = navOffset + 1;
   var navScrollSpeed    = 300;
 
+  if ($('.nav--in-page').length > 0) {
+    // bootstrap scrollspy, automatically highlights the menu
+    $('#top').scrollspy({ target: '.nav--in-page',offset: navScrollOffset });    
+  }
 
-  // bootstrap scrollspy, automatically highlights the menu
-  $('#top').scrollspy({ target: '.nav--in-page',offset: navScrollOffset });
 
   // smoothly scroll to in-page links, uses request animation frame for smoothness
   $(document).on('click tap', 'a[href^="#"]:not([href="#"])', function() {
@@ -77,7 +79,29 @@ $(function() {
 
 
 
+  $(document).on('click tap', '.job-open,.job-close', function(e){
+    e.preventDefault();
+    if ( $(this).closest('.job').hasClass('job-target') ) {
+      $(this).closest('.job').removeClass('job-target');
+      $('body').removeClass('job-open');
+      $(this).closest('.job').find('.job-info').attr('style','')
+    } else {
+      _target   = $(this).closest('.job').find('.job-info');
+      _width    = _target.width();
+      _height   = _target.height();
+      _top      = _target[0].getBoundingClientRect().top;
+      _left     = _target[0].getBoundingClientRect().left;
 
+      _target.css({
+        "height": _height, 
+        "width":  _width,
+        "top":    _top,
+        "left":   _left,
+        "position": "fixed"
+      }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
+    }
+
+  });
 
 
   // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };

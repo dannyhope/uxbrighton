@@ -16,54 +16,49 @@
 
 
 // Gridulator
-
-  $i: 0;
-
-
   .u1of2 { width: (100% / 2);}
-
   .u1of3 { width: (100% / 3);}
   .u2of3 { width: (100% / 3) * 2;}
-
   .u1of4 { width: (100% / 4);}
   .u3of4 { width: (100% / 4) * 3;}
-
   .u1of5 { width: (100% / 5);}
   .u2of5 { width: (100% / 5) * 2;} 
   .u3of5 { width: (100% / 5) * 3;}
   .u4of5 { width: (100% / 5) * 4;}
-
-
   .u1of6 { width: (100% / 6);}
   .u5of6 { width: (100% / 6) * 5;}
-
   .u1of7 { width: (100% / 7);}
   .u1of8 { width: (100% / 8);}
   .u1of9 { width: (100% / 9);}
 
-
+  $i: 0;
   @for $i from 1 through length($breakpoints) {
     $breakpoint: nth($breakpoints, $i);
     $breakpoint-value: nth($breakpoint-values, $i);
-    @media only screen and (min-width: $breakpoint-value + 1) {
+    @media (min-width: $breakpoint-value + 1) {
       @for $unit_total from 1 through $grid-columns {
-        @for $unit from 1 through $unit_total - 1 {
-          .u#{$unit}of#{$unit_total}-over-#{$breakpoint} {
-            width: ($unit / $unit_total) * 100%;
+        @for $unit from 1 through $unit_total - 1 { 
+          @if ($unit > 0) {
+            .u#{$unit}of#{$unit_total}-over-#{$breakpoint} {
+              width: ($unit / $unit_total) * 100%;
+            }            
           }
         }
       }
     }
   }
 
-
-
-  // [class*="u1of"],[class*="u2of"],[class*="u3of"],[class*="4of"],
-  // [class*="u5of"],[class*="u6of"],[class*="u7of"],[class*="u8of"],
-  // [class*="u9of"],[class*="u10of"],[class*="u11of"],[class*="u12of"] {
-  //   box-sizing:border-box;
-  //   margin:0;
-  // }
+  [class*="u1of"],[class*="u2of"],[class*="u3of"],[class*="u4of"],
+  [class*="u5of"],[class*="u6of"],[class*="u7of"],[class*="u8of"] {
+    box-sizing:border-box;
+  }
+  
+  @include under-s {
+    .u1of2-under-s { width: (100% / 2); }
+    .u1of3-under-s { width: (100% / 3); }
+    .u1of4-under-s { width: (100% / 4); }
+    .u1of5-under-s { width: (100% / 5); }
+  }
 
 
 // @include over-s {

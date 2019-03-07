@@ -163,24 +163,25 @@
     </div><!-- container -->
   </footer>
 
-
+<!-- <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script> -->
     <!-- uncompressed -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
  <!-- compressed -->
   <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
   <!-- slim & compressed  https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/ -->
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script> -->
-  <script src="/2018/javascripts/scripts-min.js?v=feb"></script>
-  <script>
-    // pop the queue for dollar created in the header
-    try { $.each(q,function(i,f){$(f)});} catch(e) {} 
-  </script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script> 
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
   <script>
+    // pop the queue for dollar created in the header
+    try { $.each(q,function(i,f){$(f)});} catch(e) {} 
+    
     $(function() {
       var options = { valueNames: [ 'post-excerpt'] };
       var userList = new List('js-archive-nav', options);
     });
   </script>
+  <script src="/2018/javascripts/scripts-min.js?v=feb"></script>

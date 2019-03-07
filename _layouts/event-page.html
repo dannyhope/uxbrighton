@@ -99,7 +99,7 @@
 
 
 
-    <style>
+<!--     <style>
       .responsive-height-limiter + h2,
       p + h2 { margin-top: 1.33em; }
       p + h3 { margin-top: 1em; }
@@ -111,11 +111,6 @@
       h2 + h3 + p,
       h2 + p,
       h2 + ul { margin-top: 0.66em; }
-
-
-      .responsive-height-limiter + h2 {
-        
-      }
 
 
       @media (min-width: 680px) {
@@ -149,30 +144,9 @@
       hr {
         margin: 2em 0;
       }
-/*      .event-overview > p:first-of-type {
-        font-size: 21px;
-        line-height: 30px;
-        margin-bottom: 1em;
-        padding-bottom: 1em;
-        border-bottom: 1px solid #e6e7e8;
-      }
-      .event-overview p:first-of-type strong {
-        font-weight: normal;
-      }
-      .event-overview p:first-of-type + h2 {
-        margin-top: 0;
-      }*/
 
-      .overlay__after {
-        margin-top: 0;
-      }
-      @media only screen and (min-width: 451px) {
-        #hero .overlay__inner {
-            padding: 80px 0 50px;
-        }        
-      }
 
-    </style>
+    </style> -->
 </head>
 
 
@@ -215,7 +189,7 @@
     <section id="overview" class="bg-white">
       <div class="container">
         <div class="row pt pb">
-        	<div class="u1of3-over-m right-over-m gutter-left">
+        	<div class="u1of3-over-l right-over-l gutter-left ph0-under-l">
 
 						<aside class="event-detail_meta">
 
@@ -224,12 +198,12 @@
               {% if page.upcoming == null or page.upcoming == false %}
 
                 <div class="pa3 rounded drop mb3">
-                  <h2 class="mb1">Get notified</h2>
+                  <h2 class="mt0 mb1">Get notified</h2>
                   <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
-                  <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup">
+                  <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup" style="max-width: 500px;">
                     <label class="screen-reader-text" for="fieldEmail">Email</label>
                     <div class="input-group mt1 mb1">
-                      <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
+                      <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left fill" onfocus="document.getElementById('newsletter-options').className = 'show'">
                       <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
                     </div><!-- input-group -->
                     <div id="newsletter-options" class="hidden">
@@ -340,7 +314,7 @@
 							{% include organisers.html %}
 						</aside>        		
         	</div>
-        	<div class="u2of3-over-m left-over-m gutter-right event-overview">
+        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview">
         		{{ content }}
         	</div>
 				</div><!-- row -->

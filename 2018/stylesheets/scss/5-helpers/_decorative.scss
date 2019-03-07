@@ -9,6 +9,7 @@
   .not-rounded    { border-radius: 0 }
 
   .drop           { box-shadow: 0 1px 8px 0 rgba(0,0,0,0.1); }
+  a.drop:hover    { box-shadow: 0 1px 20px 0 rgba(0,0,0,0.2); }
   .drop--darker   { box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.6); }
   
 

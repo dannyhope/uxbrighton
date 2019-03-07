@@ -1,0 +1,31 @@
+---
+layout: basic  
+title: Jobs
+subtitle: "UX & Design jobs in London, Brighton and the South East"
+published: true
+description: "The best place to find UX, design and research jobs in Brighton, Sussex, London and the South East of England"
+fullurl: https://uxbrighton.org.uk/jobs
+---
+<!-- image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg"
+header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
+
+{% for job in site.data.jobs %}
+  <div id="{{ job.job-id }}" class="job">
+    <a href="#{{ job.job-id }}" class="job-open drop rounded" onclick='ga("send", "event", "jobs", "view", "{{ job.job-id }}");'></a>
+    <a href="#{{ job.job-id }}-info" class="job-close">&times;</a>
+    <div id="{{ job.job-id }}-info" class="job-info pa3">
+      <div class="job-info__inner">
+        <div class="job-logo left-over-s mr3" style="background-image: url({{ job.logo-link }});"></div>
+        <div class="job-text table">
+          <h3 class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
+          <p class="mv0"><strong>{{ job.employer }}</strong></p>
+          <p class="mv0">{{ job.money }}  ·  {{ job.work-pattern }}  ·  {{ job.location }}</p>
+          <div class="job-text-extended hidden row">
+            {{ job.extended-description | markdownify }}
+            <a class="button button--green mt2 pa2" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
+          </div><!-- job-text-extended -->
+        </div><!-- job-text -->        
+      </div>
+    </div><!-- job-info -->
+  </div>
+{% endfor %}

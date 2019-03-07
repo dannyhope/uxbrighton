@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton is a community group disseminating knowledge about all aspects of user experience, founded in 2008 by Danny Hope." }}{% endif %}" >
+
+  <!-- facebook open graph tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
+    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+
+  <!-- twitter card tags additive with the og: tags -->
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+    <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
+    <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
+    <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
+    <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}" >
+
+  <!-- Icons -->
+    <link rel="apple-touch-icon" href="https://uxbrighton.org.uk/2013/images/icon.png">
+    <link rel="icon" href="https://uxbrighton.org.uk/2013/images/favicon.png">
+    <!--[if IE]><link rel="shortcut icon" href="https://uxbrighton.org.uk/images/favicon.ico"><![endif]-->
+    <!-- or, set /favicon.ico for IE10 win -->
+    <!-- <meta name="msapplication-TileColor" content="#000">-->
+    <meta name="msapplication-TileImage" content="http://uxbrighton.org.uk/2013/images/icon.png">
+
+  <!-- Styles -->
+    <link rel="stylesheet" href="/2018/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css">
+    {% if page.art-direction %}
+      <style media="screen">
+        {{page.art-direction}}
+      </style>
+    {% endif %}
+
+  <!-- Scripts -->
+    <script>
+      var root = document.documentElement;
+      root.className = 'js';
+      if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+        root.className += ' js-touch';
+      }
+      // Make a queue for $
+      window.q=[]; window.$=function(f){q.push(f);}; 
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-7759112-2', 'auto');
+      ga('require', 'linker');
+      ga(function(tracker) {
+        // we need to get the _ga cross-domain value and replace it with
+        // Eventbrite's _eboga requirement
+        // https://www.eventbrite.com/support/articles/en_US/Troubleshooting/how-to-enable-cross-domain-and-ecommerce-tracking-with-google-universal-analytics#j_id0:HelpCenterSiteTemplate:j_id2:j_id131:articleStepsComponent:j_id132:1:j_id152
+        var xdomain = tracker.get('linkerParam');
+        var links = document.getElementsByTagName('a');
+        Array.prototype.forEach.call(links, function(a){
+          var href = a.href;
+          if (href.match(/eventbrite\.co\.uk/i)) {
+            var splitURL = href.split('#');
+            var hash = splitURL[1];
+            splitURL[0] += "?&" + xdomain.replace(/_ga/, '_eboga');
+            a.href = hash == null ? splitURL[0] : splitURL[0] + '#' + hash;
+          }
+        });
+
+      });
+      ga('send', 'pageview');
+    </script>
+
+</head>
+
+
+
+<div id="top" class="relative layout--event {% if page.slug %}page-{{ page.slug }}{% endif %}">
+
+  {% include header-2018.html %}
+
+	<main class="content-main-detail {% if page.upcoming == null or page.upcoming == false %}is-not-upcoming{% else %}is-upcoming{% endif %}" role="main">
+
+
+
+    <section id="hero" class="overlay__outer pa0 bg-grey-90">
+      <div class="overlay__inner overflow-hidden bg-trans">
+        <div class="container color-white">
+          <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
+        	{% if page.subtitle != null%}
+            <h2 class="mt0 fs-l regular track-normal mb1">
+						  {{ page.subtitle }}
+            </h2>
+					{% endif %}
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="job-list" class="bg-white">
+      <div class="container">
+        <div class="row ">
+        {{ content }}
+				</div><!-- row -->
+      </div><!-- container -->
+    </section><!-- overview -->
+
+    <!-- <h2>upcoming</h2> -->
+    {% include upcoming.html %}
+
+    <aside>
+      <p>
+        <a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}" title="Edit this page on Github">✎</a>
+      </p>
+    </aside>
+
+	</main>
+
+  {% include footer-2018.html %}
+
+  {% include nav-2018.html %}
+
+
+</body>
+</html>
