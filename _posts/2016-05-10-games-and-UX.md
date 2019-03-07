@@ -16,9 +16,9 @@ This evening event will investigate how UX and user research is implemented in t
 
 The current state of UX in the games industry will be discussed, as well as how it will change moving forward with new technologies like VR.
 <div class="row">
-  <div class="u1of3-over-s u1of3-under-s left"><a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a></div>
-  <div class="u1of3-over-s u1of3-under-s left"><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a></div>
-  <div class="u1of3-over-s u1of3-under-s left"><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a></div>
+  <div class="u1of3-over-s center-under-s left-over-s"><a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a></div>
+  <div class="u1of3-over-s  center-under-s left-over-s"><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a></div>
+  <div class="u1of3-over-s  center-under-s left-over-s"><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a></div>
 </div>
 
 
