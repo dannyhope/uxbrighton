@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="276" height="74" viewBox="0 0 276 74">
+  <g fill="none" fill-rule="evenodd" transform="translate(4 1)">
+    <text font-family="BrownStd-Bold, BrownStd" font-size="50" font-weight="bold">
+      <tspan x="80" y="51" fill="#000">exam</tspan> <tspan x="212.3" y="51" fill="#5EA9E8">.</tspan> <tspan x="231.05" y="51" fill="#000">pl</tspan>
+    </text>
+    <text fill="#000" font-family="BrownStd-Bold, BrownStd" font-size="50" font-weight="bold">
+      <tspan x="19" y="48">x</tspan>
+    </text>
+    <path stroke="#000" stroke-width="8" d="M33,69 C45.1502645,69 56.1502645,58 66,36 C56.1502645,14 45.1502645,3 33,3 C14.7746033,3 0,17.7746033 0,36 C0,54.2253967 14.7746033,69 33,69 Z"/>
+  </g>
+</svg>

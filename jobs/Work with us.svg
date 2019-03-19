@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="776" height="97" viewBox="0 0 776 97">
+  <defs>
+    <linearGradient id="work-with-us-a" x1="0%" x2="94.553%" y1="50.759%" y2="49.802%">
+      <stop offset="0%" stop-color="#3023AE"/>
+      <stop offset="47.525%" stop-color="#53A0FD"/>
+      <stop offset="100%" stop-color="#B4EC51"/>
+      <stop offset="100%" stop-color="#B4EC51"/>
+    </linearGradient>
+  </defs>
+  <text fill="url(#work-with-us-a)" fill-rule="evenodd" font-family="BrownStd-Bold, BrownStd" font-size="128" font-weight="bold" letter-spacing="-2.95" transform="translate(-101 -137)">
+    <tspan x="100" y="232">Work with us</tspan>
+  </text>
+</svg>

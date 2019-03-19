@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="382" height="113" viewBox="0 0 382 113">
+  <defs>
+    <linearGradient id="group-a" x1="7.052%" x2="90.797%" y1="54.375%" y2="46.505%">
+      <stop offset="0%" stop-color="#3023AE"/>
+      <stop offset="47.525%" stop-color="#53A0FD"/>
+      <stop offset="100%" stop-color="#B4EC51"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="382" height="113" fill="url(#group-a)" rx="56.5"/>
+    <text fill="#FFF" font-family="BrownStd-Bold, BrownStd" font-size="48" font-weight="bold">
+      <tspan x="68.456" y="71">Apply now</tspan>
+    </text>
+  </g>
+</svg>

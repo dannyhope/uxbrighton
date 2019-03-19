@@ -1638,7 +1638,8 @@ th, td {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 999; } }
+    z-index: 999;
+    position: fixed; } }
 
 @keyframes openJobInfo {
   0% {
@@ -1649,7 +1650,8 @@ th, td {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 999; } }
+    z-index: 999;
+    position: fixed; } }
 
 .job:target .job-info,
 .job-target .job-info {
