@@ -79,13 +79,51 @@ $(function() {
 
 
 
-  $(document).on('click tap', '.job-open,.job-close', function(e){
-    e.preventDefault();
+  // $(document).on('click tap', '.job-open,.job-close', function(e){
+  //   //e.preventDefault();
+
+  //   if ( $(this).closest('.job').hasClass('job-target') ) {
+
+  //     $(this).closest('.job').removeClass('job-target');
+  //     $('body').removeClass('job-open');
+  //     $(this).closest('.job').find('.job-info').attr('style','');
+
+  //   } else {
+
+  //     _target   = $(this).closest('.job').find('.job-info');
+  //     _width    = _target.width();
+  //     _height   = _target.height();
+  //     _top      = _target[0].getBoundingClientRect().top;
+  //     _left     = _target[0].getBoundingClientRect().left;
+
+  //     _target.css({
+  //       "height": _height, 
+  //       "width":  _width,
+  //       "top":    _top,
+  //       "left":   _left,
+  //       "position": "fixed"
+  //     }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
+
+  //   } // else
+  // });
+
+
+
+
+
+
+
+  $(document).on('click tap', '.job-open', function(e){
+    //e.preventDefault();
+    
     if ( $(this).closest('.job').hasClass('job-target') ) {
+
       $(this).closest('.job').removeClass('job-target');
       $('body').removeClass('job-open');
-      $(this).closest('.job').find('.job-info').attr('style','')
+      $(this).closest('.job').find('.job-info').attr('style','');
+
     } else {
+
       _target   = $(this).closest('.job').find('.job-info');
       _width    = _target.width();
       _height   = _target.height();
@@ -99,9 +137,46 @@ $(function() {
         "left":   _left,
         "position": "fixed"
       }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
-    }
+
+    } // else
+  });
+
+
+
+
+
+
+  $(document).on('click tap', '.job-close', function(e){
+    //e.preventDefault();
+ 
+    $(this).closest('.job').removeClass('job-target');
+    $('body').removeClass('job-open');
+    $(this).closest('.job').find('.job-info').attr('style','');
 
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
