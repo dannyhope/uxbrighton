@@ -1,5 +1,5 @@
 Contact,Cost,Invoice link,Paid date,Publication date,Days it should be ive,Expiration date (calculated),Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,apply-link,extended-description
-glenn.jones@madgex.com,£0.00,n/a,n/a,"Thu, 7 Mar ’19",14,21 March,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Central Brighton,Permanent,"£55,000-65,000",https://uxbrighton.org.uk/jobs/test/,"## Heading
+glenn.jones@madgex.com,£0.00,n/a,n/a,"Thu, 7 Mar ’19",14,21 March,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Central Brighton,Permanent,"Medium",https://uxbrighton.org.uk/jobs/test/,"## Heading
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -13,7 +13,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, volu
 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga."
-someone@moj.gov.uk,£0.00,n/a,n/a,"Fri, 8 Mar ’19",14,22 March,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,"£35,000-45,000",https://uxbrighton.org.uk/jobs/test/,"## Heading
+someone@moj.gov.uk,£0.00,n/a,n/a,"Fri, 8 Mar ’19",14,22 March,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,"Higher",https://uxbrighton.org.uk/jobs/test/,"## Heading
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?

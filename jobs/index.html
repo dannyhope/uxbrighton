@@ -44,7 +44,7 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
             <div class="job-text table">
               <h3 itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
               <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
-              <p class="mv0"><span itemprop="baseSalary">{{ job.money }}</span>  ·  <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·  <span itemprop="addressLocality">{{ job.location }}</span></p>
+              <p class="mv0"><span itemprop="baseSalary">£&thinsp;{{ job.money }}</span>  ·  <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·  <span itemprop="addressLocality">{{ job.location }}</span></p>
               <div class="job-text-extended hidden row"  itemprop="description">
                 {{ job.extended-description | markdownify }}
                 <a class="button button--green mt2 pa2" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
