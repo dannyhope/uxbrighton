@@ -1,5 +1,5 @@
 Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be ive,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,apply-link,extended-description,publish
-glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Central Brighton,Permanent,"£55,000-65,000",https://uxbrighton.org.uk/jobs/test/,"## Wow
+glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,"£55,000-65,000",https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -25,7 +25,7 @@ someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri,
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE
-Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Central Brighton,Fixed term/3-6 months,£0.01-100000000000000000000,careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
+Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£0.01-100000000000000000000,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
 
 We’re looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
 
@@ -130,3 +130,4 @@ If you’d like to apply, or have any questions about the role, please get in to
 We look forward to hearing from you!
 
 ",TRUE
+,,,,,,,,,,,,cozujik,UX Designer,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Elucidat,Brighton,,,,,FALSE
