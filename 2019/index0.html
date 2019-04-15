@@ -1,0 +1,1271 @@
+---
+layout: conference-2018
+title: Advancing Research – UX Brighton Conference 2018
+
+description: "Unlike most other conferences, we gather together a mix of academic and industry experts and curate our talks around a single theme. This year’s theme is Advancing Research. We’ll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams"
+image: "https://uxbrighton.org.uk/images/cards/2019-ultra-early.jpg"
+slug: "conference-2018"
+fullurl: "https://uxbrighton.org.uk/2018/"
+---
+
+  <style>
+    .talk {
+      border-top: 1px solid #eee;
+    }
+    .talk:first-of-type {
+      border-top: 0 solid #eee;
+    }
+    .talk__heading {
+      margin-top: 0.25em;
+    }
+    .talk h4 {
+      font-size: 24px;
+      margin: 1em 0 0.5em;
+    }
+    .talk__time {
+      color: #80878a;
+      display: inline-block;
+    }
+    @media (max-width: 450px) {
+      .talk__heading {
+        margin-bottom: -0.6em;
+      }
+      .talk h4 {
+        text-align: center;
+      }
+      .talk__time {
+        display: block;
+      }
+    }
+    .if-is-pre-conference,
+    .if-is-conference-day,
+    .if-is-post-conference { display: none }
+    .is-pre-conference .if-is-pre-conference,
+    .is-conference-day .if-is-conference-day,
+    .is-post-conference .if-is-post-conference { display: block }
+    .talk__time {
+      /*display: none;*/
+    }
+    .is-conference-day .talk__time {
+      color: #c9003a;
+    }
+    .talk * {
+      transition: 0.1s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
+      width: 200px;
+    }
+    @media (max-width:500px) {
+      .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 0;
+      }
+    }
+
+
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper + .u2of3-over-s {
+      /*width: auto;*/
+      margin: 0;
+     }
+    /*.js .is-conference-day*/ .talk__abstract h4 {
+      margin: 0 0 0.5em;
+      font-weight: 400;
+      font-size: 30px;
+    }
+    /*.js .is-conference-day*/ .talk__heading {
+      margin: 0;
+    }
+    .js .is-conference-day .talk__heading--not-a-talk {
+      margin: 1.5em 0 0;
+    }
+    @media (max-width:500px) {
+      /*.js .is-conference-day*/ .talk__heading {
+        margin: 0;
+      }
+    }
+
+    .js .is-conference-day p, 
+    .js .is-conference-day .talk__speaker-bio {
+      opacity: 1;
+      max-height: 1000px;
+    }
+    .talk__speaker-links {
+      overflow: hidden;
+    }
+    .js-show-talk-details,
+    .js-show-talk-details .js-hide,
+    .js-show-talk-details .js-show {
+      display: none;
+    }
+    .js .is-conference-day .if-conference-day-talk-toggled .js-show-talk-details {
+      display: block;
+      clear: both;
+    }
+    .js .js-show-talk-details.is-active {
+      padding-top: 12px !important;
+      display: block !important;
+      clear: both !important;
+    }
+    @media (max-width:500px) {
+      .js .js-show-talk-details {
+        text-align: center;
+      }
+    }
+    .js .is-conference-day .js-show-talk-details.is-active .js-hide,
+    .js .is-conference-day .if-conference-day-talk-toggled .js-show {
+      display: inline;
+    }
+
+    .js .is-conference-day .if-conference-day-talk-toggled p, 
+    .js .is-conference-day .if-conference-day-talk-toggled .talk__speaker-bio {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      margin-bottom: 0;
+    }
+
+    @media (max-width:640px) {
+      .talk,
+      .talk * {
+        float: none;
+        text-align: center;
+        width: auto;
+      }
+      .talk .talk__photo-wrapper {
+        margin: 0 auto;
+      }
+    }
+    @media (min-width:500px) {
+      .flex-reverse-under-l {
+        flex-direction: row-reverse;
+      }
+    }
+    @media (min-width:950px) and (max-width:1300px) {
+      .is-post-conference .fs-xxxl {
+        font-size: 4rem;
+      }
+      .is-post-conference .fs-l {
+        font-size: 24px;
+      }
+    }
+    #newletter-signup:target {
+      padding-bottom: calc(100vh - 340px);
+    }
+
+    .show-if--nav--in-page-is-stuck,
+    .nav--in-page-is-stuck .hidden-if--nav--in-page-is-stuck {
+      display: none;
+    }
+    .nav--in-page-is-stuck .show-if--nav--in-page-is-stuck {
+      display: inline-block;
+    }
+    .nav--in-page a {
+      padding: 18px;
+    }
+    .nav--in-page .active a {
+      background: #C9003A;
+      color: #fff;
+    }
+    .nav--in-page .active a .stamped {
+      color: transparent;
+    }
+    @media (max-width: 450px) {
+      .nav--in-page .nav {
+        padding: 0;
+        display: flex;
+        display: flex;
+        flex:1;
+      }
+      .nav--in-page .nav .nav-item {
+        display: flex;
+        flex:1;
+      }
+      .nav--in-page .container {
+        padding: 0;
+      }
+      .nav--in-page .nav .hidden-if--nav--in-page-is-stuck,
+      .nav--in-page .nav a {
+        padding: 18px 8px !important;
+        font-size: 11px;
+        letter-spacing: 0;
+        text-align: center;
+        width: 100%;
+        border-right: 1px solid #eee;
+      }
+    }
+
+
+    @media only screen and (max-width: 730px) {
+      .overlay__inner {
+        padding-top: 16px;
+        padding-bottom: 0px;
+      }      
+    }
+
+  </style>
+
+
+
+  <!-- Add this code to event page: -->
+  <main class="-is-conference-day is-pre-conference">
+
+    <section id="intro" class="overlay__outer pa0" style="background: url('/2018/images/photos/30373085214_409842cc54_o@1x-50.jpg') center center no-repeat #000; background-size: cover;">
+      
+      <!-- <div class="row flex-over-l flex-reverse-under-l"> 
+
+        <div class="u1of2-over-l right-over-l bg-white flex-over-l" style="background: rgba(255,255,255,0.9);">
+          <div class="overlay__inner overflow-hidden flex-over-l fill" style="background: transparent;">
+
+            <div class="container">
+              <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+                <span class="fs-l mb1 block track-normal weight-400 color-green" >UX Brighton 2019</span>
+                Ultra early-bird discount
+              </h1>
+              <div style="max-width: 31em;">
+                <p class="mt0 fs-l regular track-normal mb3">There will never be a better time to book for UX Brighton 2019.</p>
+                <p class="mt0 fs-l regular track-normal mb3">A limited number of tickets are now available at 35% off.</p>            
+              </div>
+              <div>
+                <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green weight-900 fs-l">Buy now for 2019 — 35% off</a>    
+              </div>   
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="u1of2-over-l left-over-l flex-over-l">
+          <div class="overlay__inner overflow-hidden flex-over-l fill">
+
+            <div class="container color-white">
+              <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+                <span class="fs-l mb1 block track-normal weight-400" >UX Brighton 2018</span>
+                It’s a wrap!
+              </h1>
+              <div style="max-width: 31em;">
+                <p class="mt0 fs-l regular track-normal mb3">
+                  Thanks to everyone who attended, sponsored and spoke at UX Brighton 2018. <a href="#newletter-signup" class="color-white underline">Sign up</a> to be notified about future UX Brighton talks and events.
+                </p>
+                <p class="mt0 fs-l regular track-normal mb6">You may also wish to <a href="http://slack.uxbrighton.org.uk/" class="color-white underline">join our Slack</a> community, which includes a rather nice #jobs channel.
+                </p> 
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>   
+
+      </div> -->
+     
+
+        
+      <div class="overlay__inner overflow-hidden">
+
+        <div class="container color-white">
+
+          {% include upcoming-mini.html %}
+
+          <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+            <span class="fs-l mb1 block color-orange font-museo track-normal" style="font-weight: 500;">UX Brighton 2018</span>
+            Advancing <br>Research
+          </h1>
+          <h2 class="mt0 fs-l regular track-normal mb6">
+            <div class="weight-900 mb1">Inspire your team with sharply focused insights</div>
+            <span class="event-date" itemprop="startDate" content="2018-11-02T09:30">Friday 2 November</span>, Brighton Dome
+          </h2>
+          <div>
+            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets" class="button button--large button--green bold  fs-l">Early Bird Tickets — £145 + vat</a>
+            <p class="mb0 mt1  fs-l">£25 off the full price of £170 until 30th June</p>
+          </div>
+
+        </div>
+
+
+      </div>
+     
+    </section>
+
+
+
+    <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200; display:none;">
+      <div class="container pl1">
+        <ul class="nav ">
+
+            <li class="inline-block nav-item color-black">
+              <div class="hidden-if--nav--in-page-is-stuck">
+                In this page:
+              </div>
+              <a href="#intro" class="show-if--nav--in-page-is-stuck masthead__link nav-link color-black">
+                Intro<span class="hidden-under-m">duction</span>
+              </a>
+            </li>
+          {% if page.name == "index.html" %}
+            <li class="nav-item inline-block">
+              <a href="#speakers" class="masthead__link nav-link color-black">Talks</a>
+            </li>
+            <!-- <li class="nav-item inline-block">
+              <a href="#venue" class="masthead__link nav-link">Venue</a>
+            </li> -->
+            <li class="nav-item inline-block ">
+              <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
+            </li>
+            <li class="nav-item inline-block relative">
+              <a href="#workshop" class="masthead__link -masthead__link--last color-black">Workshop <span class="stamped">sold out</span></a>
+            </li>
+          {% endif %}
+          {% if page.name == "info.html" %}
+            <li class="nav-item inline-block">
+              <a href="#before" class="masthead__link nav-link">Before</a>
+            </li>
+            <li class="nav-item inline-block">
+              <a href="#travel-and-accomodation" class="masthead__link nav-link">Travel</a>
+            </li>
+            <li class="nav-item inline-block relative">
+              <a href="#on-the-day" class="masthead__link masthead__link--last">On the day</a>
+            </li>
+          {% endif %}
+          {% if page.name != "info.html" %}
+            {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
+ <!--              <li class="nav-item inline-block nav-item--tickets">
+                <a
+                 href="https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets"
+                 class="button button--green">Sold Out
+                </a>
+              </li> -->
+              {% else %}
+              <!-- <li class="nav-item inline-block nav-item--tickets">
+                <a
+                 href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets"
+                 class="button button--green">Buy Tickets 
+                </li>-->
+              {% endif %}
+
+          {% endif %}
+        </ul>
+      </div>      
+    </div>
+
+
+
+
+    <section id="overview">
+      <div class="container">
+        
+
+        <div class="row border-bottom pb3 if-is-pre-conference if-is-post-conference pt6">
+          <div class="u1of2-over-m right-over-m gutter-left pb3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nv90bmxIoEQ?rel=0" gesture="media" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="u1of2-over-m left-over-m  gutter-right">
+            <h2 class=" mb3 if-is-pre-conference if-is-post-conference">What to expect at UX Brighton</h2>
+            <p class="standfirst">Research belongs at the heart of UX. It guides our work and shapes our decisions. That’s why <em>Advancing Research</em> was the theme of UX Brighton 2018. </p>
+            <p>It’s time to take a look at the place of research within the UX landscape - time to further our knowledge of tools and methods, and time to extend our research skills to embrace new technologies.</p>
+            <h3 class="mb1 mt3">Book now — ticket sales end 1st November</h3>
+             <p>Join us for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
+            <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>
+          </div>
+        </div>
+        <style>
+          .columnar-list {
+            columns: 3;
+          }
+          @media (max-width:680px) {
+            .columnar-list { columns: 2; }
+          }
+          @media (max-width:400px) {
+            .columnar-list { columns: 1; }
+          }
+          .attendee-info-icons {
+            display: flex;
+            justify-content: space-between;
+          }
+          .attendee-info-icon {
+            display: flex;
+            flex: 1;
+            opacity: 0.34;
+            height: 50px;
+            width: auto;
+          }
+          @media (max-width:680px) {
+            .attendee-info-icon { height: 30px; }
+          }
+          @media (max-width:400px) {
+            .attendee-info-icon { height: 21px; }
+          }
+        </style>
+        <div class="row pb5">
+           <h2 class="mt5 mb3"><a href="/2018/info" class="color-heading">Information for Attendees</a></h2>
+            <p>We have created a handy guide that has <a href="/2018/info">everything you need to know</a> to get the most out of your visit to UX Brighton, including:</p>
+            <ul class="columnar-list">
+              <li>Travel</li>
+              <li>Accommodation</li>
+              <li>Pre-conference meet-ups</li>
+              <li>Accessibility</li>
+              <li>Wifi and charging</li>
+              <li>Cloakrooms</li>
+              <li>Registration</li>
+              <li>Refreshments</li>
+              <li>After Party</li>
+            </ul>
+            <a class="row attendee-info-icons pt5 pb2" href="/2018/info">
+              <img alt="Travel" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Travel.svg"/>
+              <img alt="Acommodation" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Hotel.svg"/>
+              <img alt="Accessibility" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Accessibility.svg"/>
+              <img alt="Refreshments" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Coffee.svg"/>
+              <img alt="Charge" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Charge.svg"/>
+              <img alt="Wifi" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Wifi.svg"/>
+              <img alt="After Party" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Drinks.svg"/>
+            </a>
+        </div>
+
+        <div class="row border-top pb3 if-is-pre-conference if-is-post-conference">
+          <div class="u1of2-over-m left-over-m  gutter-right">
+             <h2 class="mt5 mb3">Curation</h2>
+            <p>Every year Danny hand selects each speaker (we don't have a call for papers), bringing new faces and fresh approaches to the theme of the conference. There are never any paid for speaking spots, so you won't get any sales pitch talks. We think this gives UX Brighton a unique appeal.</p>
+            <blockquote class="standfirst">
+              <div class="quote">
+                <p>UX Brighton is one of the premier UX events in Europe. In just one day, you’ll get access to some of the most cutting-edge presentations you can imagine. Well organized, fabulous location, packed with valuable content — go if you can: it’s worth the investment.</p>
+              </div>
+              <div class="quotee">Jim Kalbach, Past Speaker</div>
+            </blockquote>
+          </div>
+          <div class="u1of2-over-m left-over-m  gutter-left">
+            <h2 class="mt5 mb3">Delegates</h2>
+            <p>Over 500 delegates from design, product, development and related industries attend UX Brighton. Our audience is 32% female, 68% male – more than double the 15% industry norm for women. </p>
+            <p>Join your fellow UXers and delegates in the popular <a href="http://slack.uxbrighton.org.uk">UX Brighton Slack</a> before the event. We've got a pretty active set of channels, including a rather nice <a href="https://uxbri.slack.com/messages/jobs">#jobs</a>.</p>
+            <p>UX Brighton typically attracts attendees from companies such as: </p>
+            <div class="row mb5">
+              <img class="mr2" src="/2018/3rd-party-logos/American Express.svg" alt="American Express logo">
+              <img class="mr2" src="/2018/3rd-party-logos/BBC.svg" alt="BBC logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Balsamiq.svg" alt="Balsamiq logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Brandwatch.svg" alt="Brandwatch logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Clearleft.svg" alt="Clearleft logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Crunch.svg" alt="Crunch logo">
+              <img class="mr2" src="/2018/3rd-party-logos/cxpartners.svg" alt="cxpartners logo">
+              <img class="mr2" src="/2018/3rd-party-logos/EBay.svg" alt="EBay logo">
+              <img class="mr2" src="/2018/3rd-party-logos/EasyJet.svg" alt="EasyJet logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Freeagent.svg" alt="Freeagent logo">
+              <img class="mr2" src="/2018/3rd-party-logos/GitHub.svg" alt="GitHub logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Last.fm.svg" alt="LastFM logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Macmillan.svg" alt="Macmillan logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Ogilvy.svg" alt="Ogilvy logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Royal Mail.svg" alt="Royal Mail logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Tesco.svg" alt="Tesco logo">
+              <img class="mr2" src="/2018/3rd-party-logos/The Guardian.svg" alt="The Guardian logo">
+              <img class="mr2" src="/2018/3rd-party-logos/Twitter .svg" alt="Twitter logo">
+              <img class="mr2" src="/2018/3rd-party-logos/University of Oxford.svg" alt="University of Oxford logo">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="testimonial if-is-pre-conference">
+      <div class="container">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>I just want to say what a truly good and valuable thing UX Brighton is. I always come away inspired. Thanks again.</p>
+          </div>
+          <div class="quotee">Al Fransham</div>
+        </blockquote>
+      </div>
+    </section>
+
+
+    <section id="speakers">
+      <div class="overlay__outer" style="background-image: url('/2018/images/photos/speakers-35.jpg');">
+        <div class="overlay__inner" style="background: rgba(0,0,0,0.2)">
+          <div class="container color-white" style="">
+            <h2 class="fs-xxxl mb0 leading-solid">Talks</h2>
+          </div>
+        </div>
+      </div>
+      <div class="overlay__after container mb2">
+
+        <div class="row if-is-pre-conference  if-is-post-conference">
+          <figure class="u1of4 left  mb0">
+            <a href="#Kate-Towsey" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
+              <figcaption class="talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  Kate Towsey
+                </span>
+
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="u1of4 left mb0">
+            <a href="#Daniel-Pidcock" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/Daniel-Pidcock-1.jpg" width="310" height="310">
+              <figcaption class=" talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  Daniel Pidcock
+                </span>
+                <!-- <span class="talk__image-link__caption--2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </span> -->
+              </figcaption>
+            </a><!-- hoverable-caption -->
+          </figure>
+          <figure class="u1of4 left mb0">
+            <a href="#Katy-Arnold" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/Katy-Arnold-310.jpg" width="310" height="310">
+              <figcaption class="talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  Katy Arnold
+                </span>
+                <!-- <span class="talk__image-link__caption--2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </span> -->
+              </figcaption>
+            </a><!-- hoverable-caption -->
+          </figure>
+          <figure class="u1of4 left  mb0">
+            <a href="#Georgia-Rakusen" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/Georgia-Rakusen-310.jpg" width="310" height="310">
+              <figcaption class="talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  Georgia Rakusen
+                </span>
+                <!-- <span class="talk__image-link__caption--2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </span> -->
+              </figcaption>
+            </a><!-- hoverable-caption -->
+          </figure>
+          <figure class="u1of4 left mb0">
+            <a href="#Katie-Taylor" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/Katie-Taylor-310.jpg" width="310" height="310">
+              <figcaption class=" talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  Katie Taylor
+                </span>
+                <!-- <span class="talk__image-link__caption--2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </span> -->
+              </figcaption>
+            </a><!-- hoverable-caption -->
+          </figure>
+          <figure class="u1of4 left mb0">
+            <a href="#Will-Myddelton" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/Will-Myddelton-310.jpg" width="310" height="310">
+              <figcaption class=" talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  Will Myddelton
+                </span>
+                <!-- <span class="talk__image-link__caption--2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </span> -->
+              </figcaption>
+            </a><!-- hoverable-caption -->
+          </figure>
+          <figure class="u1of4 left mb0">
+            <a href="#Emma-Boulton" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/Emma-Boulton-310.jpg" width="310" height="310">
+              <figcaption class=" talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  Emma Boulton
+                </span>
+                <!-- <span class="talk__image-link__caption--2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </span> -->
+              </figcaption>
+            </a><!-- hoverable-caption -->
+          </figure>
+          <figure class="u1of4 left  mb0">
+            <a href="#James-Woudhuysen" class="talk__image-link">
+              <img class="bg-grey-20" src="/2018/images/speakers/James-Woudhuysen-310.jpg" width="310" height="310">
+              <figcaption class="talk__image-link__caption">
+                <span class="talk__image-link__caption--1 block">
+                  James Woudhuysen
+                </span>
+                <!-- <span class="talk__image-link__caption--2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </span> -->
+              </figcaption>
+            </a><!-- hoverable-caption -->
+          </figure>
+
+
+        </div><!-- row -->
+      </div>
+
+      <div class="bg-white container">
+
+        <div class="talk if-is-conference-day if-conference-day-talk-toggled row pv4" id="Registration">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/registration.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading talk__heading--not-a-talk fs-h2 mb2">
+              <span class="talk__speaker"><span class="talk__time">9:00</span> <span class="nowrap">Registration</span></span>
+            </h3>
+            <p>Doors will open at 9am for registration. Name badges will be arranged alphabetically by first name.</p>
+            <p>Complimentary pastries and refreshments will be available.</p>
+            <p>Use the <a href="http://brightondome.org/your_visit/venues/corn_exchange/">Dome entrance</a> on Church Street. It’s approx <a href="https://goo.gl/maps/zkU5qz2Zyok">9 mins walk</a> from the train station</p>
+            <p>Please note that The Dome may conduct bag searches.</p>
+            <p>Please be seated by 9.50am so you don’t miss anything.</p>
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Kate-Towsey">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/Kate-Towsey-310.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <span class="talk__speaker"><span class="talk__time">10:00</span> <span class="nowrap">Kate Towsey</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>ResearchOps</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/rz7sy81Yg5E" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/what-is-researchops-kate-towsey">What is ResearchOps?</a></p>
+
+              <p>In March 2018, the ResearchOps Community was formed with the intention of validating and shaping the practice of ResearchOps. Since then, the Community Slack has grown to 1000+ members and many more are part of the conversation in person or on Twitter.</p>
+              <p>Core to the Community has been a global research initiative called #WhatisResearchOps. A team of 60 researchers have worked together to run 32 workshops around the world to ask researchers about their challenges and triumphs, and their expectations of ResearchOps. To make sure we reached people who couldn’t get to a workshop, we also ran a survey. In total, more than 800 people have taken part in the initiative.</p>
+              <p>In this talk, Kate shared the background to the Community, what they’ve learned from #WhatisResearchOps, and the first iteration of the framework. Kate spoke on behalf of TeamReOps: all the organisers and thinkers from around the world who’ve donated countless hours to the effort and are making ResearchOps what it is today.</p>
+            </div><!-- talk__abstract -->
+            
+            <div class="talk__speaker-bio">
+              <h4>About Kate</h4>
+              <p>Kate believes that in order for research to be truly valuable, it must be done thoroughly, professionally, and securely. She creates labs, panels and archives that are carefully designed to meet demanding specifications, sometimes assembled with minimal resources, but never compromising quality.</p>
+              <p>Working freelance, Kate refuses to fit neatly within job titles. Instead, she takes an entrepreneurial approach to her work with government, agencies, universities, broadcasters and others. The BBC and Co-Op are the current beneficiaries of Kate’s exacting approach.</p>
+              <nav class="talk__speaker-links">
+                <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/katetowsey">@katetowsey</a>
+                <a href="http://www.katetowsey.co.uk/">www.katetowsey.co.uk</a>
+              </nav>
+              <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+            
+          </div><!-- u2of3 -->
+        </div>
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Daniel-Pidcock">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/Daniel-Pidcock-1.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <span class="talk__speaker"><span class="talk__time">10:45</span> <span class="nowrap">Daniel Pidcock</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>The Power of Atomic UX Research</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/h9s3DrImGXA" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/atomic-research-dan-pidcock">Atomic Research</a></p>
+
+              <p>You may have heard of Atomic Design — Now comes Atomic Research, a new way to organise UX knowledge in an infinitely powerful manner.</p>
+              <p>Whilst with a FTSE 100 tech company, Daniel Pidcock was tasked with solving how to store and distribute the organisations UX learnings in a way that everyone in the business could use and benefit from them.</p>
+              <p>On the way to working this out, he discovered the power of Atomic Research. Not just for storing UX knowledge but as an incredibly useful way to think about research itself.</p>
+            </div>
+		  
+            
+            <div class="talk__speaker-bio">
+              <h4>About Daniel</h4>
+              <p>Daniel Pidcock is a Bristol based User Experience Designer from a digital UI design background.</p>
+              <p>In his career he has worked with several major brands such as Just Eat and Clarks. He’s also worked with many innovative start-ups and even founded and sold a few of his own.</p>
+              <p>He is a passionate advocate for Atomic Research and is working on a tool called Glean.ly to help companies make their UX knowledge usable.</p>
+              <nav class="talk__speaker-links">
+                <!-- <a class="talk__speaker-links--twitter  mr2 left" href="https://twitter.com/___">@___</a> -->
+                <a class="talk__speaker-links--twitter  mr2 left" href="https://twitter.com/danpiddy">@danpiddy</a>
+                <a class="talk__speaker-links--twitter  mr2 left" href="http://glean.ly/">glean.ly</a>
+             </nav>
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Katy-Arnold">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/Katy-Arnold-310.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <!-- <span class="talk__title block"></span> -->
+              <span class="talk__speaker"><span class="talk__time">11:40</span> <span class="nowrap">Katy Arnold</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>Building a user research practice in the Home Office</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/mjBBHw8SiVc" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/building-a-user-research-practice-in-the-home-office-katy-arnold">Building a user research practice in the home office</a></p>
+
+
+              <p>The Home Office is responsible for delivering some of the most challenging and complex services in government. So it seems fitting that we have a team of 100 researchers and user centred designers helping us modernise how we work.</p>
+              <p>But it wasn’t always this way.</p>
+              <p>This talk showed how it is possible to advance user research in large organisations even when they’re not used to this way of working. Katy shared the steps they took to create space for people to do their best work, and how they built a vibrant user research practice in one of the great departments of state.</p>
+            </div><!-- talk__abstract -->
+
+            
+            <div class="talk__speaker-bio">
+              <h4>About Katy</h4>
+              <p>As head of user research at the Home Office, Katy is at the forefront of work to shape essential digital services used by millions of people. She is committed to raising standards of user research in the department, and is building and leading a community of skilled practitioners within the UK Government.</p>
+              <p>Katy enjoys advocating for the value of user centred design and is passionate about building public services that work for everyone. She is a regular speaker at conferences and events around Europe.</p>
+              <nav class="talk__speaker-links">
+                <a class="talk__speaker-links--twitter" href="https://twitter.com/katyarnie">@katyarnie</a>
+              </nav>
+              <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Georgia-Rakusen">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/Georgia-Rakusen-310.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <!-- <span class="talk__title block"></span> -->
+              <span class="talk__speaker"><span class="talk__time">12:05</span> <span class="nowrap">Georgia Rakusen</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>Internal UX</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/8GOvjTjFnFo" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/internal-ux-georgia-rakusen">Internal UX</a></p>
+
+              <p>When we talk about user research, we’re usually referring to finding out the needs and pains of the end user or customer. But research can also be used by an organisation to look inwards, to improve the day-to-day for employees and help the company achieve its KPIs.</p>
+              <p>Georgia presented a range of “internal” research case studies, focusing on different business problems, to demonstrate the alternative ways researchers can create positive change for their colleagues.</p>
+              <p>This talk empowers you to explore using User Research methods to solve the needs of your own organisation.</p>
+            </div><!-- talk__abstract -->
+           
+            <div class="talk__speaker-bio">
+              <h4>About Georgia</h4> 
+              <p>Georgia Rakusen is an experienced UX researcher with a background in tech and start-up companies. She currently holds a lead research position at the blockchain organisation ConsenSys.</p>
+              <p>Georgia’s particular specialism involves research into the UX of the digital experiences that take place between colleagues. Her research into ‘internal UX’ helps  improve the flow of communication and collaboration between a company’s designers, technologists, marketers and others.</p>
+              <p>Internal UX is often overlooked within an industry that focuses its research on customer interactions. Georgia reminded us all that the observations and improvements we can make around internal experiences can be equally important to business success.</p>
+              <nav class="talk__speaker-links">
+               
+                <a class="talk__speaker-links--twitter  mr2 left" href="https://twitter.com/G_Rak">@G_Rak</a>
+                <a class="talk__speaker-links--twitter  mr2 left" href="https://georgiarakusen.wordpress.com/">georgiarakusen.wordpress.com</a>
+              </nav>
+              <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Katie-Taylor">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/Katie-Taylor-310.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <!-- <span class="talk__title block"></span> -->
+              <span class="talk__speaker"><span class="talk__time">2:00</span> <span class="nowrap">Katie Taylor</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>A true story of Usability Benchmarking</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/X5vVzfuFvvg" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/true-stories-of-usability-benchmarking-katie-taylor">True stories of usability benchmarking</a></p>
+
+              <p>It sounds simple, and it is: usability benchmarking is measuring how many people are successful at a number of tasks in the product or service you’re designing. What happens when there are more things users can do than you have time to benchmark? How do you choose a subset of tasks to measure? Which tasks are most important? And what do you do with your benchmarking results?</p>
+              <p>Katie talked about her experience of usability benchmarking, using Gerry McGovern’s top tasks method, and adapting it to suit different situations. She warned us about the things to avoid, how to learn from her mistakes, and the benefits of using benchmarking results to inform product design.</p>
+            </div><!-- talk__abstract -->
+
+            
+            <div class="talk__speaker-bio">
+              <h4>About Katie</h4>
+              <p>Katie Taylor is Head of Experience Design at the Wellcome Trust, where she leads a team that works on a diverse range of products from research grants to aids for primary school science teachers. Before joining Wellcome, she worked at the UK's Government Digital Service (GDS) as lead user researcher on GOV.UK.</p>
+              <p>Katie has a background in user-centred design and user research. She has previously worked on Ubuntu an open source operating system and designed printers for Hewlett-Packard in Shanghai, China</p>
+              <nav class="talk__speaker-links">
+                <a class="talk__speaker-links--twitter  mr2 left" href="https://twitter.com/katieminatie">@katieminatie</a>
+              </nav>
+              <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Will-Myddelton">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/Will-Myddelton-310.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <!-- <span class="talk__title block"></span> -->
+              <span class="talk__speaker"><span class="talk__time">2:25</span> <span class="nowrap">Will Myddelton</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>Research Heresies</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/WZL5cJYiLn0" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/research-heresies-will-myddelton">Research Heresies</a></p>
+
+              <p>As user research has matured we've accumulated slogans and dogma about what it means to be a good researcher. At times these get in the way of helping our teams improve their services. Will shared some awkward truths - learned from bitter experience - that will help you escape the dogma and become a better user researcher.</p>
+            </div>
+		  
+
+
+            <div class="talk__speaker-bio">
+              <h4>About Will</h4>
+              <p>Will Myddelton is a lead user researcher at the Home Office, where he helps a team of researchers improve the UK's immigration services. Before that he worked at the UK's Government Digital Service (GDS) on GOV.UK Notify and GOV.UK Pay.</p>
+              <p>Will has a background as a user-centred designer and is about to join a small charity called Local Welcome as a product manager. He previously worked at the design agencies cxpartners and Blue Latitude.</p>
+              <nav class="talk__speaker-links">
+                <a class="talk__speaker-links--twitter  mr2 left" href="https://twitter.com/myddelton">@myddelton</a>
+                <a class="talk__speaker-links--twitter  mr2 left" href="https://www.myddelton.co.uk/">www.myddelton.co.uk</a>
+              </nav>
+              <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="Emma-Boulton">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/Emma-Boulton-310.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <!-- <span class="talk__title block"></span> -->
+              <span class="talk__speaker"><span class="talk__time">3:20</span> <span class="nowrap">Emma Boulton</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>Real World Discovery Research</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/1hKuAkkBZmw" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/real-world-discovery-research-emma-boulton">Real world discovery research</a></p>
+
+              <p>Have you ever had to do discovery research with no budget and no user researchers? Or is your discovery process limited to stakeholder interviews and competitor research? The market research industry are constantly berated for relying on focus groups but the same criticism could be levelled at the UX industry’s go-to methodology - lab based usability testing. One to one interviews in a lab are a great research methodology to choose when you have a clearly defined solution and are iterating on it. What about when you’re shaping the problem space and defining which user needs to focus on?</p> 
+              <p>In this talk, Emma Boulton shared examples of real world discovery research to inspire you to get out from behind your computer and open up your senses to the real world.</p>
+            </div><!-- talk__abstract -->
+
+            
+            <div class="talk__speaker-bio">
+              <h4>About Emma</h4> 
+              <p>Emma is a passionate advocate for the role of research within design. Her 18 years of experience have made her a trusted and entertaining voice on all aspects of UX research. Emma’s solid background of work at the BBC, at Monotype, and in other agency and client-side roles, gives her valuable, insightful perspectives that she loves to share.</p>
+              <p>Emma firmly believes in the need for high quality research, integrated within every aspect of the processes we create as teams of designers and other professionals.</p>
+              <nav class="talk__speaker-links">
+                <a class="talk__speaker-links--twitter  mr2 left" href="https://twitter.com/emmaboulton">@emmaboulton</a>
+                <a href="http://emmaboulton.co.uk/">emmaboulton.co.uk</a>
+              </nav>
+              <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+
+
+        <div class="talk if-conference-day-talk-toggled row pv4" id="James-Woudhuysen">
+          <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+            <div class="circle overflow-hidden inline-block">
+              <img class="talk__photo" src="/2018/images/speakers/James-Woudhuysen-310.jpg" width="310" height="310">
+            </div>
+          </div><!-- u1of3 -->
+          <div class="u2of3-over-s left gutter-right">
+            <h3 class="talk__heading fs-h2 mb2">
+              <!-- <span class="talk__title block"></span> -->
+              <span class="talk__speaker"><span class="talk__time">3:45</span> <span class="nowrap">James Woudhuysen</span></span>
+            </h3>
+            <div class="talk__abstract">
+              <h4>Some ABCs of Forecasting</h4>
+
+              <div class="responsive-height-limiter">
+                <div class="embed-container hd">
+                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/8A3SEmvx7uY" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+              </div>
+              <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/some-abcs-of-forecasting-james-woudhuysen">Some ABCs of forecasting</a></p>
+
+              <p>For all its past errors, forecasting is something UX professionals will be expected to make part of their repertoire – particularly when project lead-times are long, and the prospective new system is meant to last, adapt to change and all that.</p>
+              <p>In this talk, James outlined some Dos and Don’ts to remember when imagining how people are likely to evolve in the years to 2030.</p>
+              <p>Among his recommendations: Think Asia. Interrogate fad categories. Distinguish real risks from perceived risks. Rate forecasting algebra higher than forecasting arithmetic. Most importantly, make a synthesis of tendencies and counter-tendencies.</p>
+            </div><!-- talk__abstract -->
+
+            
+            <div class="talk__speaker-bio">
+              <h4>About James</h4> 
+              <p>Professor James Woudhuysen is a forecaster, a futurist and a big strategic thinker. With a background in technology, manufacturing and academia, he’s built a formidable reputation for looking ahead to identify the trends, risks and innovations with the potential to shape the way we live and work.</p>
+              <p>While James is widely known for the vision and frankness within his own forecasting, he’s a great believer in enabling us all to develop useful, practical and sensible forecasting skills. He freely shares his advice on what researchers can do to get to grips with the future that awaits their customers, their industry and ways of working.</p>
+              <nav class="talk__speaker-links">
+                <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/jameswoudhuysen">@jameswoudhuysen</a>
+                <a href="http://www.woudhuysen.com/">www.woudhuysen.com</a>
+              </nav>
+              <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+            </div><!-- talk__speaker-bio -->
+            <a href="#" class="if-is-conference-day js-show-talk-details"><span class="js-show">Show</span><span class="js-hide">Hide</span> talk and speaker details</a>
+          </div><!-- u2of3 -->
+        </div>
+
+      </div><!-- container -->
+    </section><!-- speakers -->
+
+
+    <section class="testimonial">
+      <div class="container">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>UX Brighton consistently sends me away with a renewed sense of purpose and a drive to continue to simply make the world a better place through useful, purposeful user experiences.</p>
+          </div>
+          <div class="quotee">Phil Parker</div>
+        </blockquote>
+      </div><!-- container -->
+    </section><!-- testimonial -->
+
+
+    <section id="venue">
+      <div class="overlay__outer" style="background-image: url('/2018/images/photos/venue-35.jpg');">
+        <div class="overlay__inner" style="background: transparent;">
+          <div class="container color-white" style="">
+            <h2 class="fs-xxxl mb0 leading-solid">Venue</h2>
+          </div><!-- container -->
+        </div><!-- overlay__inner -->
+      </div><!-- overlay__outer -->
+      <div class="overlay__after container bg-white pt5 pb5">
+        <h3 class="fs-h2">Brighton Dome Concert Hall</h3>
+        <div class="row">
+          <div class="u1of2-over-m right-over-m gutter-left mb2">
+            <img src="/2018/images/photos/brighton-dome.jpg" width="1400" height="788" alt="Brighton Dome">
+          </div>
+          <div class="u1of2-over-m left-over-m gutter-right">
+            <p>Brighton Dome is part of the historical and beautiful Pavilion estate and it is a Grade 1 listed building. This year we're in the <a href="https://brightondome.org/your_visit/venues/concert_hall/">concert hall</a>, the riding stable for the <a href="https://en.wikipedia.org/wiki/Brighton_Dome#History_of_the_buildings">Prince Regent and his 44 horses</a>.</p>
+            <p>Accessibility</p>
+            <ul>
+              <li>Accessible toilets with radar key entry - 4 in total, 2 in the stall and 2 in the circle</li>
+              <li>The Dome welcome all assistance dogs – dog bowl and blankets available</li>
+              <li>Sennheiser radio frequency hearing assistance</li>
+              <li>Lift to Circle and Mezzanine areas</li>
+              <li><a href="https://brightondome.org/files/858a189dc48e71376270cda60fbabbef.pdf">Download the Dome's Concert Hall Access Statement (PDF)</a></li>
+            </ul>
+            <p>Registration from 9am with the first speaker on at 10am.</p>
+            <p>Any questions? <a href="mailto:emmeline@uxbrighton.org.uk">Email</a> or <a href="https://twitter.com/intent/tweet?text=@uxbri%20">tweet us @uxbri</a>.</p>
+            <p><a href="http://slack.uxbrighton.org.uk">Join the UX Brighton Slack</a> and get chatting with other UX professionals before the event. We've got a pretty active set of channels, including a rather nice <a href="https://uxbri.slack.com/messages/jobs">#jobs</a>.</p>
+            <div class="hidden" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <span itemprop="streetAddress">
+                Brighton Dome, <br>Church St,
+              </span>
+              <span itemprop="addressLocality">Brighton</span>
+              <span itemprop="postalCode">BN1 1UE</span>
+              <span itemprop="addressCountry">UK</span>
+            </div>
+          </div>
+        </div>
+      </div><!-- overlay__after container -->
+
+    </section><!-- venue -->
+
+
+
+    <section class="testimonial">
+      <div class="container">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>Engaging, thoughtful and will definitely affect the way I work in the future.</p>
+          </div>
+          <div class="quotee">Alexander Cook</div>
+        </blockquote>
+      </div><!-- container -->
+    </section><!-- testimonial -->
+
+
+    <style>
+      .sponsor__links {
+        margin-left: -8px;
+      }
+      .sponsor__link {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+      }
+      .sponsor__link:hover {
+        color: #000;
+      }
+     .sponsor__links svg {
+        width: 24px;
+        height: 24px;
+      }
+      .sponsor__logo {
+        align-items: center;
+        justify-content: center;
+      }
+      .sponsor__logo--3-star {
+        min-height: 130px !important;
+      }
+      .sponsor__logo--3-star img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+
+    <section id="sponsors">
+      <div class="overlay__outer" style="background-image: url('/2018/images/photos/sponsors-35.jpg');">
+        <div class="overlay__inner" style="background: transparent;">
+          <div class="container color-white" style="">
+            <h2 class="fs-xxxl mb0">Sponsors</h2>
+          </div>
+        </div>
+      </div>
+      <div class="overlay__after container bg-white">
+
+
+
+        <h3 class="fs-h2 mt5">Sponsor UX Brighton</h3>
+        <p class="standfirst pb2">UX Brighton attracts an engaged crowd of designers, decision makers and influencers. If you’re interested in supporting UX Brighton have a look at the <a href="sponsorship" class="bold">sponsorship information page</a> for more details.</p>
+
+
+
+        <hr>
+        <h3 class=" pt2 fs-h2 mb2"><span class="track-looser color-orange">★★★★</span> Sponsors</h3>
+        <div class="row pb5 eh-row">
+          <div class=" u1of2-over-m  pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-3-star">
+              <div class="sponsor__logo color-grey-40 pt2">
+                <a href="https://mojdigital.blog.gov.uk/" class="block text-center" title="mojdigital.blog.gov.uk"><img src="images/sponsor-logos/moj.svg" alt="Ministry of Justice Digital" class="inline-block"></a>
+              </div>
+              <div class="sponsor__info">
+                <p class="mb0 pt3">We design, build and support user-centred digital and technology services for the justice system: services that make a real difference to our staff, members of the public and their families who use them.</p>
+              </div>
+              <div class="sponsor__links icons-currentColor mt1">
+                <a href="https://mojdigital.blog.gov.uk/" class="sponsor__link color-grey-30" title="mojdigital.blog.gov.uk">
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                </a>
+                <a href="https://twitter.com/Justice_Digital" class="sponsor__link color-grey-30" title="Twitter">
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                </a>
+              </div>
+
+            </div><!-- sponsor -->
+          </div><!-- u1of5-over-s -->
+        </div><!-- row -->
+
+
+
+        <hr>
+        <h3 class=" pt2 fs-h2 mb2"><span class="track-looser color-orange">★★★</span> Sponsors</h3>
+
+        <div class="row pb5 eh-row">
+          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-3-star">
+              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+                <a href="https://balsamiq.com/" class="" title="balsamiq.com"><img src="images/sponsor-logos/balsamiq-logo-noborder-screen.svg" alt="" width="239" height="59"></a>
+              </div>
+              <div class="sponsor__info">
+                <p class="mb0">Balsamiq is a rapid wireframing tool that helps you Work Faster & Smarter. It reproduces the experience of sketching on a whiteboard, but using a computer.</p>
+              </div>
+              <div class="sponsor__links icons-currentColor mt1">
+                <a href="https://balsamiq.com/" class="sponsor__link color-grey-30" title="balsamiq.com">
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                </a>
+                <a href="https://twitter.com/balsamiq" class="sponsor__link color-grey-30" title="Twitter">
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                </a>
+                <a href="https://www.facebook.com/balsamiq" class="sponsor__link color-grey-30" title="Facebook">
+                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                </a>
+              </div>
+
+            </div><!-- sponsor -->
+          </div><!-- u1of5-over-s -->
+          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-3-star">
+              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+                <a href="https://www.spacebetween.co.uk/" class="" title="spacebetween.co.uk"><img src="images/sponsor-logos/spaceBetweenLogo-02.svg" alt="" width="873" height="272"></a>
+              </div>
+              <div class="sponsor__info">
+
+                <p class="mb0">Space Between offer Biometric UX as a service, allowing you to understand what your customers are thinking and feeling with eye tracking, facial recognition, GSR and heart rate monitoring, among other sensors.</p>
+              </div>
+              <div class="sponsor__links icons-currentColor mt1">
+                <a href="https://www.spacebetween.co.uk/" class="sponsor__link color-grey-30" title="spacebetween.co.uk">
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                </a>
+                <a href="https://twitter.com/space__between" class="sponsor__link color-grey-30" title="Twitter">
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                </a>
+                <a href="https://www.facebook.com/teamSpaceBetween/" class="sponsor__link color-grey-30" title="Facebook">
+                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                </a>
+              </div>
+
+            </div><!-- sponsor -->
+          </div><!-- u1of5-over-s -->
+          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-3-star">
+              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+                <a href="https://www.madgex.com/" class="" title="madgex.com">
+                  <img src="images/sponsor-logos/madgex.svg" alt="" width="406" height="99" style="padding-top: 4%;"></a>
+              </div>
+              <div class="sponsor__info">
+
+                <p class="mb0">Madgex software allows users to operate outstanding career and development hubs that perfectly represent their brand and enables clients to engage and develop their professional audiences.</p>
+              </div>
+              <div class="sponsor__links icons-currentColor mt1">
+                <a href="https://www.madgex.com/" class="sponsor__link color-grey-30" title="madgex.com">
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                </a>
+                <a href="https://twitter.com/madgex" class="sponsor__link color-grey-30" title="Twitter">
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                </a>
+                <a href="https://www.facebook.com/MadgexLtd" class="sponsor__link color-grey-30" title="Facebook">
+                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                </a>
+              </div>
+
+            </div><!-- sponsor -->
+          </div><!-- u1of5-over-s -->
+        </div><!-- row -->
+
+
+
+
+
+
+        <hr>
+        <div class="row pt2 pb2">
+          <div class=" u1of2-over-m left-over-m pb2">
+            <h3 class="pt2 mb0">Supporter</h3>
+            <div class="pb2">
+              <a href="https://weareten.co.uk">weareten.co.uk</a></div>
+            <img src="/2018/images/sponsor-logos/ten-logo-colour.png" width="80">
+          </div><!-- u1of5-over-s -->
+          <div class=" u1of2-over-m left-over-m pb2">
+            <h3 class="pt2 mb0">Media Partner</h3>
+            <div class="pb2">
+              <a href="https://www.facemediagroup.co.uk">www.facemediagroup.co.uk</a>
+            </div>
+            <img src="/2018/images/sponsor-logos/FMG_LOGO1.png" width="320" >
+          </div><!-- u1of5-over-s -->
+        </div><!-- row -->
+
+
+
+      </div>
+    </section><!-- sponsors -->
+
+
+    <section class="testimonial">
+      <div class="container">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>A great opportunity to recharge your UX batteries and stimulate thought.</p>
+          </div>
+          <div class="quotee">Rachel Smith</div>
+        </blockquote>
+      </div><!-- container -->
+    </section><!-- testimonial -->
+
+
+
+    <section id="workshop" style="min-height: 0;">
+      <div class="container pb5"><hr>
+        <h3 class="fs-h2 mt5 mb2">Workshop</h3>
+        <div class="row flex-over-m drop">
+
+          <div class="u1of2-over-m left-over-m flex-over-m">
+            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link fill tile pv4 ph3   rounded  relative" style="background: url('/2018/images/speakers/Gerry4b.jpg') center center no-repeat #000; background-size: cover;">
+              <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+              <h1 class="leading-solid mb2 color-white fs-xl relative">
+                <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">1-day Workshop</span>
+                Top Tasks Workshop with Gerry McGovern
+              </h1>
+              <div class="mt0 regular track-normal mb3 relative">
+                <div class="color-white mb1">Measuring the Customer Experience with Top Tasks</div>
+                <div class="color-white ">Thursday 1 Nov, the day before UX Brighton — Sold Out</div>
+              </div>
+              <div>
+                <div href="/2018/" class="button button--green bold standfirst mb0">Learn More</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="u1of2-over-m left-over-m flex-over-m">
+            <a href="top-tasks-workshop-with-gerry-mcgovern" class="block-link tile pv4 ph3 bg-grey-5 fill">
+              <h3>
+                How do you know what really matters to your customers?
+              </h3>
+              <div class="block-link__summary">
+                <p>Truly understand what’s working, <em>what isn’t</em>, and learn how to make things better.</p>
+                <p>Gerry McGovern will be running a hands-on practical workshop on how to use the Top Tasks Identification method.</p>
+                <p>The Top Tasks Workshop is the day before UX Brighton 2018.</p>
+                <p class="block-link__highlight"><strong>Learn more about the Top Tasks Workshop (sold out)</strong></p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+  <aside id="promotions">
+    
+
+
+    {% include upcoming.html %}
+  </aside>
