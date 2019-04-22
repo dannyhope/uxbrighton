@@ -18,32 +18,22 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
   }
 
 
-  // if (window.location.href.indexOf('-info') < 1) {
-  // alert('-info');
-
-  // }
-  // if (window.location.href.indexOf('#') > 0) {
-  // alert('#');
-
-  // }
-
-
-  // if ( 
-  //   (window.location.href.indexOf('#') > 0) 
-  //   && 
-  //   (window.location.href.indexOf('-info') < 1) 
-  // ) {
-
-
-  // window.addEventListener("popstate", function(){
-  //   var _url  = location.href.split('#')[0];
-  //   var _hash = location.href.split('#')[1];
-  //   document.querySelector('.job:target .job-close').click();
-  //   // history.pushState(null, document.title, _url);
-  // });
 
 
 
+// if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
+
+//     var _thing = document.location.protocol +"//"+ document.location.hostname + document.location.pathname
+//     history.pushState(_thing, null, document.url); 
+//   window.addEventListener("popstate", function(){
+//     $('.job-close').click();
+//   });  
+
+// } else {
+  window.addEventListener("popstate", function(){
+    $('.job-close').click();
+    history.pushState(null, null, document.url);      
+  });  
   // }
 
 
@@ -150,13 +140,13 @@ h2 + h3 {
 
   <div class="u3of4-over-m right-over-m gutters">
     <h2>Jobs</h2>
+    {% assign i = 0 %}
     {% for job in site.data.jobs %}
       {% if job.publish == 'TRUE' %}
-
         <div id="{{ job.job-id }}" class="job" itemscope itemtype="http://schema.org/JobPosting">
           <a href="#{{ job.job-id }}" class="job-open drop rounded" onclick='ga("send", "event", "jobs", "view", "{{ job.job-id }}");'></a>
           <!-- <span itemprop="datePosted">2011-10-31</span> -->
-          <a href="#{{ job.job-id }}-info" class="job-close">&times;</a>
+          <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}">&times;</a>
           <div id="{{ job.job-id }}-info" class="job-info pa3">
             <div class="job-info__inner">
               <div class="job-logo left-over-s mr3" style="background-image: url({{ job.logo-link }});"></div>
@@ -202,6 +192,7 @@ h2 + h3 {
             </div>
           </div><!-- job-info -->
         </div>
+        {% assign i = i | plus:1 %}
       {% endif %}
     {% endfor %}
   </div>
