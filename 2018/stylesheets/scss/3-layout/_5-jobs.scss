@@ -10,7 +10,7 @@
     background-position: center center;
     background-size: contain;
   }
-  .job:target .job-logo,
+  .no-js .job:target .job-logo,
   .job-target .job-logo {
     width: 180px;
     height: 135px;
@@ -23,7 +23,7 @@
     }
     // float: right;
   }
-  .job:target .job-text,
+  .no-js .job:target .job-text,
   .job-target .job-text {
     @include over-l {
       padding-left: 48px;
@@ -37,7 +37,7 @@
     top: 0;left: 0;right: 0;bottom: 0;
     z-index: 1;
   }
-  .job:target .job-open,
+  .no-js .job:target .job-open,
   .job-target .job-open {
     display: none;
   }
@@ -46,7 +46,7 @@
     opacity: 0;
     font-size: 48px;
   }
-  .job:target .job-close,
+  .no-js .job:target .job-close,
   .job-target .job-close {
     animation: fadeIn 0.2s forwards;
     display: block;
@@ -81,7 +81,7 @@
       position: fixed;
     }
   }
-  .job:target .job-info,
+  .no-js .job:target .job-info,
   .job-target .job-info {
     animation: openJobInfo 0.2s forwards;
   }
@@ -93,20 +93,20 @@
       opacity: 1;
     }
   }
-  .job:target .job-text-extended,
+  .no-js .job:target .job-text-extended,
   .job-target .job-text-extended { 
     display: block;
     opacity: 0;
     animation: fadeIn 1s forwards 0.1s;
   }
-  .job:target .job-info__inner,
+  .no-js .job:target .job-info__inner,
   .job-target .job-info__inner {
     max-width:800px; margin: 0 auto;
   }
   .morph-content {
     pointer-events: none;
   }
-  .job:target .job-info,
+  .no-js .job:target .job-info,
   .job-target .job-info {
     pointer-events: auto;
     overflow-x: hidden;

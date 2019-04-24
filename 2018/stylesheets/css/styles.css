@@ -1570,22 +1570,22 @@ th, td {
   background-position: center center;
   background-size: contain; }
 
-.job:target .job-logo,
+.no-js .job:target .job-logo,
 .job-target .job-logo {
   width: 180px;
   height: 135px; }
   @media only screen and (min-width: 951px) {
-    .job:target .job-logo,
+    .no-js .job:target .job-logo,
     .job-target .job-logo {
       margin-right: 48px; } }
   @media only screen and (max-width: 950px) {
-    .job:target .job-logo,
+    .no-js .job:target .job-logo,
     .job-target .job-logo {
       float: none;
       margin-bottom: 24px; } }
 
 @media only screen and (min-width: 951px) {
-  .job:target .job-text,
+  .no-js .job:target .job-text,
   .job-target .job-text {
     padding-left: 48px;
     border-left: 1px solid #e6e7e8; } }
@@ -1599,7 +1599,7 @@ th, td {
   bottom: 0;
   z-index: 1; }
 
-.job:target .job-open,
+.no-js .job:target .job-open,
 .job-target .job-open {
   display: none; }
 
@@ -1608,7 +1608,7 @@ th, td {
   opacity: 0;
   font-size: 48px; }
 
-.job:target .job-close,
+.no-js .job:target .job-close,
 .job-target .job-close {
   -webkit-animation: fadeIn 0.2s forwards;
           animation: fadeIn 0.2s forwards;
@@ -1653,7 +1653,7 @@ th, td {
     z-index: 999;
     position: fixed; } }
 
-.job:target .job-info,
+.no-js .job:target .job-info,
 .job-target .job-info {
   -webkit-animation: openJobInfo 0.2s forwards;
           animation: openJobInfo 0.2s forwards; }
@@ -1670,14 +1670,14 @@ th, td {
   100% {
     opacity: 1; } }
 
-.job:target .job-text-extended,
+.no-js .job:target .job-text-extended,
 .job-target .job-text-extended {
   display: block;
   opacity: 0;
   -webkit-animation: fadeIn 1s forwards 0.1s;
           animation: fadeIn 1s forwards 0.1s; }
 
-.job:target .job-info__inner,
+.no-js .job:target .job-info__inner,
 .job-target .job-info__inner {
   max-width: 800px;
   margin: 0 auto; }
@@ -1685,7 +1685,7 @@ th, td {
 .morph-content {
   pointer-events: none; }
 
-.job:target .job-info,
+.no-js .job:target .job-info,
 .job-target .job-info {
   pointer-events: auto;
   overflow-x: hidden;

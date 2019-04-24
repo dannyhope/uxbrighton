@@ -109,13 +109,29 @@ $(function() {
 
 
 
+  if (hashFragment) {
+
+    _target   = $(hashFragment).find('.job-info');
+    _width    = _target.width();
+    _height   = _target.height();
+    _top      = _target[0].getBoundingClientRect().top;
+    _left     = _target[0].getBoundingClientRect().left;
+
+    _target.css({
+      "height": _height, 
+      "width":  _width,
+      "top":    _top,
+      "left":   _left,
+      "position": "fixed"
+    }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
+  }
 
 
+  $('.job-open').on('click', function(e){
+    e.preventDefault();
 
+    window.the_pos = $(document).scrollTop();
 
-  $(document).on('click tap', '.job-open', function(e){
-    //e.preventDefault();
-    
     if ( $(this).closest('.job').hasClass('job-target') ) {
 
       $(this).closest('.job').removeClass('job-target');
@@ -123,6 +139,9 @@ $(function() {
       $(this).closest('.job').find('.job-info').attr('style','');
 
     } else {
+      
+      _job = "#" + $(this).closest('.job').attr('id');
+      history.pushState(null, null, _job);  
 
       _target   = $(this).closest('.job').find('.job-info');
       _width    = _target.width();
@@ -144,14 +163,18 @@ $(function() {
 
 
 
+  $('.job-close').on('click', function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    history.replaceState(null, null, '#'); 
 
-
-  $(document).on('click tap', '.job-close', function(e){
-    //e.preventDefault();
- 
     $(this).closest('.job').removeClass('job-target');
     $('body').removeClass('job-open');
     $(this).closest('.job').find('.job-info').attr('style','');
+
+    setTimeout(function() {
+      window.scrollTo(the_pos, 0);
+    }, 1); 
 
   });
 

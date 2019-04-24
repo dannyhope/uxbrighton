@@ -9,35 +9,35 @@ fullurl: https://uxbrighton.org.uk/jobs
 <!-- image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg"
 header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
 <script>
+
+
   if (window.location.href.indexOf('cols') > 0) {
     root.className += ' cols-only';
   }
+
 
   if (window.location.href.indexOf('fancy') > 0) {
     root.className += ' is-fancy';
   }
 
 
-
-
-
-// if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
-
-//     var _thing = document.location.protocol +"//"+ document.location.hostname + document.location.pathname
-//     history.pushState(_thing, null, document.url); 
-//   window.addEventListener("popstate", function(){
-//     $('.job-close').click();
-//   });  
-
-// } else {
-  window.addEventListener("popstate", function(){
-    $('.job-close').click();
-    history.pushState(null, null, document.url);      
-  });  
-  // }
+  if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
+    window.the_pos = 0;
+    window.hashFragment = window.location.hash;
+    setTimeout(function() {
+      window.scrollTo(0, 0);
+    }, 1);
+  } else { 
+    window.hashFragment = false;
+    window.addEventListener("popstate", function(){
+      $('.job-close').click();
+      history.pushState(null, null, document.url);      
+    }); 
+  }
 
 
 </script>
+
 <style>
 .grayscale-until-hover {
   filter: grayscale(100%);
