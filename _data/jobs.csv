@@ -1,5 +1,5 @@
-﻿Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be ive,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,apply-link,extended-description,publish,money-min,money-max,money-av,role-min,role-max,role-av,money-indication
-glenn.jones@madgex.com,¬£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ‚Äô19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,"¬£55,000-65,000",https://uxbrighton.org.uk/jobs/test/,"## Wow
+Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be ive,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,money-indication,show-salary,apply-link,extended-description,publish
+glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,"£55,000-65,000",mid,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -11,8 +11,8 @@ glenn.jones@madgex.com,¬£0.00,no contract in place,not invoiced,nothing to pay
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,55,70,,30,120,,low
-someone@moj.gov.uk,¬£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ‚Äô19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,"¬£35,000-45,000",https://uxbrighton.org.uk/jobs/test/,"## Wow
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE
+someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ’19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,"£35,000-45,000",low,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -24,10 +24,10 @@ someone@moj.gov.uk,¬£0.00,no contract in place,not invoiced,nothing to pay,"Fr
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",TRUE,33,40,,30,120,,low-mid
-Ed Baker ed_trombone on UX Brighton Slack,¬£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ‚Äô19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,¬£0.01-100000000000000000000,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it‚Äôs their experience that will determine the success of our clients.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE
+Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£0.01-100000000000000000000,high,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
 
-We‚Äôre looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
+We’re looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
 
 ## Responsibilities
 
@@ -41,8 +41,8 @@ We‚Äôre looking for an experienced UX Analyst with a keen eye to join our fa
 
  - Inspire and produce innovative and creative solutions for Brilliant Noise and our clients.
  - Explore creative ideas and concepts, challenging default or traditional outputs.
- - Develop system specifications ‚Äì wireframes, user flows, user stories.
- - Embody our ‚ÄòDo and Make‚Äô value, producing prototypes and dummy models for potential UX deliverables.
+ - Develop system specifications – wireframes, user flows, user stories.
+ - Embody our ‘Do and Make’ value, producing prototypes and dummy models for potential UX deliverables.
 
 ### Data literacy:
 
@@ -65,9 +65,9 @@ Support business development through public speaking, marketing content and PR m
 ## Who you are
 
  - You have a methodical and analytical approach to tasks and challenges, and are able to use this approach to identify the most efficient route to success.
- - You‚Äôre calm under pressure, and are able to objectively work through challenging projects in order to meet deadlines.
- - You‚Äôre self motivated, but also an equally brilliant team player, able to adapt your approach to different working styles in order to get the best out of everyone.
- - Highly collaborative ‚Äì at ease working alongside teams in workshops to produce high quality deliverables.
+ - You’re calm under pressure, and are able to objectively work through challenging projects in order to meet deadlines.
+ - You’re self motivated, but also an equally brilliant team player, able to adapt your approach to different working styles in order to get the best out of everyone.
+ - Highly collaborative – at ease working alongside teams in workshops to produce high quality deliverables.
 
 ## Qualifications or accreditations
 
@@ -81,38 +81,38 @@ Support business development through public speaking, marketing content and PR m
 ### Essential
 
  - You have solid experience in a user or customer experience role.
- - You‚Äôve created journey maps for complex organisations.
- - You‚Äôve worked in a collaborative way with clients, where continuous feedback and priority adjustments are common.
+ - You’ve created journey maps for complex organisations.
+ - You’ve worked in a collaborative way with clients, where continuous feedback and priority adjustments are common.
 
 ### Desirable
 
-- You‚Äôve worked in a UX role within an agency environment.
+- You’ve worked in a UX role within an agency environment.
 
 ## Your skills
 
 ### Essential
 
  - Outstanding attention to detail, with great organisational ability
- - You‚Äôre and excellent communicator, both in person and written. You cut the jargon, taking even the most complex processes and concepts and explaining them in a simple, understandable way
+ - You’re and excellent communicator, both in person and written. You cut the jargon, taking even the most complex processes and concepts and explaining them in a simple, understandable way
 
 ### Desirable
 
- - You‚Äôre able to present to groups and facilitate workshops and research sessions
+ - You’re able to present to groups and facilitate workshops and research sessions
 
 ## Your knowledge
 
- - Working knowledge of digital and web technologies ‚Äì databases, CMS, front-end code.
+ - Working knowledge of digital and web technologies – databases, CMS, front-end code.
  - A strong understanding of data and can both use analysis to gain insights and work effectively with your colleagues.
  - Digital expertise and knowledge of data, tools and platforms.
  - You continue to learn about your profession, actively seeking fresh knowledge and developments in your field.
  
 ## Working at Brilliant Noise
 
-As a member of the Brilliant Noise team, not only will you be working alongside talented, awesome people, you‚Äôll be part of a growing, ambitious culture where you can really make a difference.
+As a member of the Brilliant Noise team, not only will you be working alongside talented, awesome people, you’ll be part of a growing, ambitious culture where you can really make a difference.
 
-In addition, you‚Äôll also benefit from:
+In addition, you’ll also benefit from:
 
- - 25 days holiday a year plus bank holidays ‚Äì with an extra day added for each year of service
+ - 25 days holiday a year plus bank holidays – with an extra day added for each year of service
  - Generous training budgets and great career progression opportunities
  - Competitive salaries and bonuses
  - Flexible working
@@ -120,236 +120,14 @@ In addition, you‚Äôll also benefit from:
  - Childcare vouchers
  - Enhanced parental leave policies after 1 year of service
  - Reduced gym membership
- - Plenty of social opportunities ‚Äì from Summer walks in the downs to bowling and cinema trips
+ - Plenty of social opportunities – from Summer walks in the downs to bowling and cinema trips
  - Learning lunches with external experts and knowledge-sharing from colleagues
- - Beer o‚Äô clock at 4pm every Friday
+ - Beer o’ clock at 4pm every Friday
  - Fantastic coffee and the best-stocked tea cupboard in Brighton
  
-If you‚Äôd like to apply, or have any questions about the role, please get in touch with us at <a href=""mailto:hello@brilliantnoise.com"">careers@brilliantnoise.com</a>.
+If you’d like to apply, or have any questions about the role, please get in touch with us at <a href=""mailto:hello@brilliantnoise.com"">careers@brilliantnoise.com</a>.
 
 We look forward to hearing from you!
 
-",TRUE,90,110,,30,120,,mid
-Ed Baker ed_trombone on UX Brighton Slack,¬£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ‚Äô19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,¬£0.01-100000000000000000000,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it‚Äôs their experience that will determine the success of our clients.
-
-We‚Äôre looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
-
-## Responsibilities
-
-### Strategy:
-
- - Capture and understand business and user needs, translating these into maps and stories.
- - Provide high quality strategic user experience consultancy.
- - Contribute to Brilliant Noise internal methods and ways of working.
-
-### Creativity:
-
- - Inspire and produce innovative and creative solutions for Brilliant Noise and our clients.
- - Explore creative ideas and concepts, challenging default or traditional outputs.
- - Develop system specifications ‚Äì wireframes, user flows, user stories.
- - Embody our ‚ÄòDo and Make‚Äô value, producing prototypes and dummy models for potential UX deliverables.
-
-### Data literacy:
-
- - Define success measures, KPIs and sources of metrics for all UX projects.
- - Develop evaluation frameworks that are effective and useful for different client needs.
- - Provide valuable insight from multiple data sources to inspire new opportunities and ideas from both colleagues and clients
-
-### Technical:
-
- - Brief, review and work with internal and client technical teams.
- - Produce high quality UX deliverables.
-
-### Commercial:
-
-Help to develop new strategic and consultancy products and services.
-Identify and scope commercial opportunities in line with client needs.
-Support pitches and proposals for new business and business growth.
-Support business development through public speaking, marketing content and PR material.
-
-## Who you are
-
- - You have a methodical and analytical approach to tasks and challenges, and are able to use this approach to identify the most efficient route to success.
- - You‚Äôre calm under pressure, and are able to objectively work through challenging projects in order to meet deadlines.
- - You‚Äôre self motivated, but also an equally brilliant team player, able to adapt your approach to different working styles in order to get the best out of everyone.
- - Highly collaborative ‚Äì at ease working alongside teams in workshops to produce high quality deliverables.
-
-## Qualifications or accreditations
-
-### Desirable
-
- - BCS Foundation in User Experience, or;
- - Certified Professional for Usability and User Experience
-
-## Your experience
-
-### Essential
-
- - You have solid experience in a user or customer experience role.
- - You‚Äôve created journey maps for complex organisations.
- - You‚Äôve worked in a collaborative way with clients, where continuous feedback and priority adjustments are common.
-
-### Desirable
-
-- You‚Äôve worked in a UX role within an agency environment.
-
-## Your skills
-
-### Essential
-
- - Outstanding attention to detail, with great organisational ability
- - You‚Äôre and excellent communicator, both in person and written. You cut the jargon, taking even the most complex processes and concepts and explaining them in a simple, understandable way
-
-### Desirable
-
- - You‚Äôre able to present to groups and facilitate workshops and research sessions
-
-## Your knowledge
-
- - Working knowledge of digital and web technologies ‚Äì databases, CMS, front-end code.
- - A strong understanding of data and can both use analysis to gain insights and work effectively with your colleagues.
- - Digital expertise and knowledge of data, tools and platforms.
- - You continue to learn about your profession, actively seeking fresh knowledge and developments in your field.
- 
-## Working at Brilliant Noise
-
-As a member of the Brilliant Noise team, not only will you be working alongside talented, awesome people, you‚Äôll be part of a growing, ambitious culture where you can really make a difference.
-
-In addition, you‚Äôll also benefit from:
-
- - 25 days holiday a year plus bank holidays ‚Äì with an extra day added for each year of service
- - Generous training budgets and great career progression opportunities
- - Competitive salaries and bonuses
- - Flexible working
- - Cycle to work scheme
- - Childcare vouchers
- - Enhanced parental leave policies after 1 year of service
- - Reduced gym membership
- - Plenty of social opportunities ‚Äì from Summer walks in the downs to bowling and cinema trips
- - Learning lunches with external experts and knowledge-sharing from colleagues
- - Beer o‚Äô clock at 4pm every Friday
- - Fantastic coffee and the best-stocked tea cupboard in Brighton
- 
-If you‚Äôd like to apply, or have any questions about the role, please get in touch with us at <a href=""mailto:hello@brilliantnoise.com"">careers@brilliantnoise.com</a>.
-
-We look forward to hearing from you!
-
-",TRUE,90,110,,30,120,,high-mid
-Ed Baker ed_trombone on UX Brighton Slack,¬£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ‚Äô19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,¬£0.01-100000000000000000000,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it‚Äôs their experience that will determine the success of our clients.
-
-We‚Äôre looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
-
-## Responsibilities
-
-### Strategy:
-
- - Capture and understand business and user needs, translating these into maps and stories.
- - Provide high quality strategic user experience consultancy.
- - Contribute to Brilliant Noise internal methods and ways of working.
-
-### Creativity:
-
- - Inspire and produce innovative and creative solutions for Brilliant Noise and our clients.
- - Explore creative ideas and concepts, challenging default or traditional outputs.
- - Develop system specifications ‚Äì wireframes, user flows, user stories.
- - Embody our ‚ÄòDo and Make‚Äô value, producing prototypes and dummy models for potential UX deliverables.
-
-### Data literacy:
-
- - Define success measures, KPIs and sources of metrics for all UX projects.
- - Develop evaluation frameworks that are effective and useful for different client needs.
- - Provide valuable insight from multiple data sources to inspire new opportunities and ideas from both colleagues and clients
-
-### Technical:
-
- - Brief, review and work with internal and client technical teams.
- - Produce high quality UX deliverables.
-
-### Commercial:
-
-Help to develop new strategic and consultancy products and services.
-Identify and scope commercial opportunities in line with client needs.
-Support pitches and proposals for new business and business growth.
-Support business development through public speaking, marketing content and PR material.
-
-## Who you are
-
- - You have a methodical and analytical approach to tasks and challenges, and are able to use this approach to identify the most efficient route to success.
- - You‚Äôre calm under pressure, and are able to objectively work through challenging projects in order to meet deadlines.
- - You‚Äôre self motivated, but also an equally brilliant team player, able to adapt your approach to different working styles in order to get the best out of everyone.
- - Highly collaborative ‚Äì at ease working alongside teams in workshops to produce high quality deliverables.
-
-## Qualifications or accreditations
-
-### Desirable
-
- - BCS Foundation in User Experience, or;
- - Certified Professional for Usability and User Experience
-
-## Your experience
-
-### Essential
-
- - You have solid experience in a user or customer experience role.
- - You‚Äôve created journey maps for complex organisations.
- - You‚Äôve worked in a collaborative way with clients, where continuous feedback and priority adjustments are common.
-
-### Desirable
-
-- You‚Äôve worked in a UX role within an agency environment.
-
-## Your skills
-
-### Essential
-
- - Outstanding attention to detail, with great organisational ability
- - You‚Äôre and excellent communicator, both in person and written. You cut the jargon, taking even the most complex processes and concepts and explaining them in a simple, understandable way
-
-### Desirable
-
- - You‚Äôre able to present to groups and facilitate workshops and research sessions
-
-## Your knowledge
-
- - Working knowledge of digital and web technologies ‚Äì databases, CMS, front-end code.
- - A strong understanding of data and can both use analysis to gain insights and work effectively with your colleagues.
- - Digital expertise and knowledge of data, tools and platforms.
- - You continue to learn about your profession, actively seeking fresh knowledge and developments in your field.
- 
-## Working at Brilliant Noise
-
-As a member of the Brilliant Noise team, not only will you be working alongside talented, awesome people, you‚Äôll be part of a growing, ambitious culture where you can really make a difference.
-
-In addition, you‚Äôll also benefit from:
-
- - 25 days holiday a year plus bank holidays ‚Äì with an extra day added for each year of service
- - Generous training budgets and great career progression opportunities
- - Competitive salaries and bonuses
- - Flexible working
- - Cycle to work scheme
- - Childcare vouchers
- - Enhanced parental leave policies after 1 year of service
- - Reduced gym membership
- - Plenty of social opportunities ‚Äì from Summer walks in the downs to bowling and cinema trips
- - Learning lunches with external experts and knowledge-sharing from colleagues
- - Beer o‚Äô clock at 4pm every Friday
- - Fantastic coffee and the best-stocked tea cupboard in Brighton
- 
-If you‚Äôd like to apply, or have any questions about the role, please get in touch with us at <a href=""mailto:hello@brilliantnoise.com"">careers@brilliantnoise.com</a>.
-
-We look forward to hearing from you!
-
-",TRUE,90,110,,30,120,,high
-glenn.jones@madgex.com,¬£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ‚Äô19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,"¬£55,000-65,000",https://uxbrighton.org.uk/jobs/test/,"## Wow
-
- - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
- - Doloribus consectetur et quasi?
- - Accusantium tenetur debitis ea praesentium eos
-
- 1. Aperiam suscipit eum
- 2. pariatur aliquam recusandae incidunt
- 3. repellendus laudantium in, magnam voluptate!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",TRUE,55,70,,30,120,,low
+",TRUE
+,,,,,,,,,,,,cozujik,UX Designer,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Elucidat,Brighton,,,high-mid,TRUE,,,FALSE
