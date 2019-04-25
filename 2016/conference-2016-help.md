@@ -74,7 +74,7 @@ There's not long to go! Please take the time to read the information below so yo
   
 ## Slack
 
-  * Did you know we have a Slack group? [Join here](https://slofile.com/slack/uxbri) and make some new UX friends before and after the event. Introduce yourself in the *[#introduce channel](https://uxbri.slack.com/archives/introduce)*
+  * Did you know we have a Slack group? [Join here](http://slack.uxbrighton.org.uk) and make some new UX friends before and after the event. Introduce yourself in the *[#introduce channel](https://uxbri.slack.com/archives/introduce)*
 
 ## After Party
 
