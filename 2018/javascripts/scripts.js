@@ -8,6 +8,16 @@ $(function() {
 
   // console.log('dom2');
 
+  function getCookie(name) {
+    var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+    return v ? v[2] : null;
+  }
+
+
+  if (getCookie('showJobs')) {
+    root.className += ' showJobs';
+  }
+
   $(document).on('click tap', '[data-overlay-trigger]', function(e) {
 
     e.preventDefault();

@@ -1,4 +1,10 @@
 
+<style>
+  .showJobs #jobs-link {
+    display: inline-block !important;
+  }
+</style>
+
 
   <header class="page-hd masthead">
     <nav class="container ">
@@ -8,6 +14,11 @@
       </a>
       <div class="masthead__links">
           <ul class="nav right-over-m">
+            <li id="jobs-link" class="nav-item inline-block relative" style="display:none;">
+              <a class="masthead__link" href="/jobs">
+                Jobs
+              </a>
+            </li>
             <li class="nav-item inline-block relative">
               <a onclick='ga("send", "event", "events", "search", "previousevents");' style="padding: 10px 16px 16px;" class="masthead__link" href="#" data-overlay-trigger="menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 16 15" style="position: relative;top: 4px;margin-right: 3px;" class="hidden-over-m">
