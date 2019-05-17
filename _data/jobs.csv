@@ -1,5 +1,12 @@
-Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be ive,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,money-indication,show-salary,apply-link,extended-description,publish
-glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,"£55,000-65,000",mid,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
+Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be live,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,money is guess,money min,money max,money median,rank,money-indication,show-salary,apply-link,extended-description,publish,instructions for publishing
+Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,used for displaying the logo on the jobs pages,,as specifific as possible,this appears in the job description,[formula],if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
+0.2-<0.4    = med-low
+0.4-<0.6    = med
+0.6-<0.8    = med-high
+0.8-1        = high
+
+0unfortunately this must be calculated every time there’s a change in the rank column",tick if we KNOW the salary and have PERMISSION to show it,,,,_data folder on Github
+glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,£55000-65000,FALSE,"£55,000","£65,000","£60,000",1.00,high,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -11,8 +18,28 @@ glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE
-someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ’19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,"£35,000-45,000",low,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,"File > Download as > Comma-seperated values
+
+Rename that downloaded file as jobs.csv
+
+Go to the _data folder in Github https://github.com/dannyhope/uxbrighton/tree/gh-pages/_data
+
+UPload (drag) the CSV into that folder
+
+After a few minutes, load https://uxbrighton.org.uk/jobs
+
+
+
+
+
+
+
+
+
+
+
+"
+someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ’19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,£35000-45000,FALSE,"£35,000","£45,000","£40,000",0.08,low,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -24,8 +51,8 @@ someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri,
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE
-Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£0.01-100000000000000000000,high,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",TRUE,
+Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£50000,TRUE,"£50,000",,"£50,000",0.33,med-low,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
 
 We’re looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
 
@@ -129,5 +156,719 @@ If you’d like to apply, or have any questions about the role, please get in to
 
 We look forward to hearing from you!
 
-",TRUE
-,,,,,,,,,,,,cozujik,UX Designer,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Elucidat,Brighton,,,high-mid,TRUE,,,FALSE
+",TRUE,
+ian.budden@elucidat.com,,,,,,,,https://www.elucidat.com/careers/,,,,cozujik,UX Designer,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Elucidat,Brighton,Permanent,£47000,TRUE,"£47,000",,"£47,000",0.25,low,FALSE,https://elucidat.workable.com/jobs/978209/candidates/new,"## Product/UX Designers
+Brighton, England, United Kingdom
+
+-
+**DESCRIPTION**
+
+**Are you a super-talented and hard working UX designer? Are you looking for an exciting, fast growing company where you can see your ideas come to life? Are you driven by great outcomes for your users?**
+
+Do you want to join one of Brighton’s most dynamic growth-stage companies, with a fantastic team and great working environment?
+
+![Photo of working environment](https://workablehr.s3.amazonaws.com/uploads/photos/69301/e95650472b5bda3ea61bd7cd287e598d.jpg)
+
+**Our culture**
+
+We put people first and because we know that life is about more than just work, we’ll give you space and support to thrive professionally and personally. Our success is fuelled by the positive attitudes and exceptional talent of our team – who live by our learn, care, share values every day. [Learn more about values and benefits here.](https://www.elucidat.com/careers/)
+
+**What we do**
+
+Elucidat is an award winning elearning authoring platform, globally recognised as a leader in our field. We work with some of the most successful organizations in the world, including Oxfam, Tesco, The Open University, Comcast and British Medical Journal, helping them to produce digital learning with real-life impact.
+
+**So how can you help?**
+
+We’re looking for 2 Product/UX designers (One Senior, one less so) with brilliant portfolios of intuitive and sticky digital experiences.
+
+You’ll get to tackle fascinating challenges with a real sense of ownership on the direction we take our interfaces in the future.
+
+We work in small product design ‘pods’ - you’ll be in a team with a Product Manager, Developers and QA specialists - so you’ll be able to see immediate benefit from the work that you do and be part of a super-talented team able to bring your designs to life.
+
+You’ll be responsible for shaping our UX, throughout the product development process:
+
+* Assisting with researching clients’ needs and expectations, helping to identify opportunities and improvements that great UX can bring
+
+* Shaping user flows and content
+
+* Creating prototypes (of varying levels of fidelity) to help us learn from our users asap
+
+* Iterating and improving designs to get to the best possible design solutions.
+
+* User testing to validate the effect that your work should have, and drive iterations and improvements in response to feedback
+
+* Ensuring that our work meets our product vision and branding
+
+* Working with the rest of the team to deliver beautiful, on-brand, sticky interfaces that our customers love
+
+* Following our in-house product management process to ensure that everyone’s voice is heard at the key stages and to ensure projects align with our long term product strategy
+
+If this sounds like your jam, then this could be your next exciting career step.
+
+-
+
+**REQUIREMENTS**
+
+* Have an exceptional track record of working as a UX designer, with a great portfolio. Extra points if you have experience :
+        * In a Learning Design environment or agency
+        
+        * Or for a fast paced, exciting startup of growth stage SAAS company
+
+* Have a real vision for great UX - and the right processes to deliver it. You should be super-passionate about how to deliver great interfaces
+
+* Love learning about our users - and getting your hands on testing and research data, so you can develop a deep understanding of how to meet their needs
+
+* You will be able to initiate good user testing to drive insights and direction and show the positive effect that you are having
+
+* Have experience creating sticky interfaces that users love returning to
+
+* Build strong relationships with our fantastic teams across the business and ensure excellent communication about progress and plans.Have the passion to see Product improvements drive happier users and have a positive effect on business metrics
+
+* Be a self starter - self motivated and driven - you’ll push us forward and not be afraid to stand up for doing things the right way
+
+* Bring best practice to the company - every Elucidat employee has learning time as part of their monthly schedule - you’ll be constantly researching and improving how we work and making sure we work in the best way possible
+
+* Evidence of working within an agreed product management process
+
+-
+
+**BENEFITS**
+
+* Our company values are **'Learn, Care, Share'** which we apply to all aspects of our work, from our flexible working opportunities, to our friendly, supportive culture.
+
+* **Flexible working** and a **healthy work/life balance** - opportunities to help you juggle other commitments, e.g. childcare
+
+* **Central Brighton** office, great location, handy for transport links
+
+* **Competitive salary**, 25 days **holiday** (increasing to 30)
+
+* **Opportunities to grow** - from our excellent **onboarding process** through **career plans** to help you progress
+
+* Dedicated **learning time** - learning is one of our core values so we ensure this is nurtured within the company too, by offering you 1 day of dedicated learning time every month.
+
+* **Happier weekdays** - A meeting-light culture and opportunities to get to know team members better through things like weekly ‘donuts’, monthly socials, and events. **Free refreshments** as well!
+
+* **Happier weeknights** - We organise socials every month and bringing together everyone in the business including all remote workers at least once every 6 months to do team building exercises and to share ideas over dinner.
+
+* **Giving back** - There are opportunities for staff to give back to non-profit activities or charities that support the wider community. We also provide discounts to our software to charities such as Oxfam and Unicef.
+
+* **Everyone has a voice** - We are building a culture where everyone is respected and has a voice in the day to day running of the company - a workplace where everyone is valued for the contributions they make. Our quarterly objectives (OKRs) are set by the entire team and we use the latest technologies to collect regular feedback anonymously through polling and pulse checks. We continually celebrate individual and collective achievements.
+
+-",TRUE,
+harry@brignull.com,,,,,,,,https://twitter.com/harrybr/status/1126551196762824704?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet,,,,SPUXD-1,UX Designer,https://workablehr.s3.amazonaws.com/uploads/account/logo/252693/large_smart-logo-token.jpg,Smart Pension,London,Permanent,£45000-60000,TRUE,"£45,000","£60,000","£52,500",0.58,med-high,FALSE,https://smart-pension-1.workable.com/jobs/989165/candidates/new,"# UX Designer
+London, England, United Kingdom · Design · SPUXD-1
+
+-
+
+**ABOUT SMART PENSION LTD**
+
+Smart Pension was founded by experienced finance & technology professionals and has been designed specifically to support UK businesses faced with the challenges of auto enrolment. Our team spent over a year developing & testing the platform whilst also establishing the partnerships necessary to meet regulatory requirements and deliver a seamless end-to-end experience. With thousands of satisfied employers, advisers and employees now using the platform, we know we offer the best workplace pension solution currently available in the UK.
+
+-
+
+**DESCRIPTION**
+
+As a User Experience (UX) Designer, you’ll work collaboratively with your UX team-mates, business stakeholders and subject matter experts to create simple, usable and useful digital products for the Smart Pension Platform. We’re looking for someone passionate about UX who is looking for the next step up in their career. 
+
+**Main Responsibilities:**
+
+* You will work in a team of UX Designers, UI Designers, Content Designers and User Researchers to collaboratively design web applications for pensions and pension-related products.
+
+* You will facilitate UX workshops (e.g. journey mapping) with stakeholders, subject matter experts and team member.
+
+* You will sketch, wireframe and create clickable prototypes to communicate your design ideas.
+
+* Your work will involve initial design concepts all the way through to shipping features, user feedback from various sources and ensuring that it meets user needs and business requirements.
+
+**About the team:**
+
+* The team is split into a number of squads, and each squad works on a different product or user need.
+
+* Squads are “cross functional”, which means people from other teams will work with you: e.g. a Product Owner, Scrum Master, Business Analyst and Developers.
+
+
+Smart Pension was founded by experienced finance & technology professionals and has been designed specifically to support UK businesses faced with the challenges of auto enrolment. Our mission is to transform pensions, savings and financial well-being, across all generations, around the world.
+
+
+Our updated Recruitment Data Policy is here [https://www.autoenrolment.co.uk/pdfs/careers/recruitment-data-notice.pdf](https://www.autoenrolment.co.uk/pdfs/careers/recruitment-data-notice.pdf) Please click on the link if you have any questions about how we store your data or to know your rights.
+
+-
+
+**REQUIREMENTS**
+
+* Prior experience as a UX Designer working through standard UX processes in a team.
+
+* Hands on experience working with user research.
+
+* Carrying out expert UX reviews and providing guidance for both short-term enhancements and long term strategy.
+
+* Whiteboarding, wireframing and prototyping.
+
+* Experience applying User-Centred Design or Design Thinking practices in your work.
+
+* A relevant degree and / or equivalent industry experience.
+
+There is some flexibility in these requirements - we understand if you're exceptional in one area, but you're not so strong in others. You also don’t need to have experience in the finance or pension industry to work with us, but it is important that you’ve worked on some projects that have reasonably complex workflows and business rules.
+
+**Your Portfolio:**
+
+You will need to present a portfolio containing a selection of materials showing your process and decision-making skills, as well as the final deliverables.
+
+-
+
+**BENEFITS**
+
+* 25 days holiday per year plus Bank Holidays.
+
+* Auto enrolment Pension scheme. The company matches your contributions up to 5%.
+
+* £500 personal training budget per year to spend on courses or conferences.
+
+* Health Insurance (via Benenden).
+
+* Access to Smart Rewards.
+
+* Cycle to work scheme.
+
+-
+
+
+
+",TRUE,
+recruitment@digicatapult.org.uk,,,,,,,,https://www.digicatapult.org.uk/careers/,,,,iejlnc ,Senior Experience Designer,https://www.digicatapult.org.uk/static/logo.svg,Digital Catapult,London,Permanent,£45000-70000,TRUE,"£45,000","£70,000","£57,500",0.92,high,FALSE,https://www.digicatapult.org.uk/careers/a2s0o00000ijkbeua3/,"# Senior Experience Designer
+
+We are looking for a talented service experience designer to join Digital Catapult! 
+ As an experience designer at Digital Catapult you are curious about what makes people and organisations tick, passionate about how new technologies can impact their experiences and how that in turn creates opportunities for businesses large and small.
+ Experience designers at Digital Catapult deliver design projects and help others understand the value of design. We embrace a hands-on and collaborative approach across the entire lifecycle of projects including; planning, scoping, conducting and delivery of quantitative and qualitative research and design activities. 
+ It is a great opportunity to work together with specialists, government, academics and industry at the cutting edge of emerging technologies – machine learning, 5G, IoT, blockchain, augmented and virtual reality – and help speed up their adoption in the UK’s creative and manufacturing sectors.
+ 
+ Please submit your cover letter and portfolio alongside your CV with your application (single PDF).
+ 
+ 
+### What You’ll Do
+
+- You will be gathering insights, defining and designing for a range of products, programmes and facilities
+
+- from mobile and desktop web applications and dashboards, IoT devices and 5G systems, mixed reality interfaces, printed and digital collateral through to masterclasses for startups, internal workshops and the experiences of our facilities
+
+- You will work closely with the experience design lead and with business developers, innovation managers, project delivery managers and developers at Digital Catapult to plan projects, research, design and test prototypes, proofs of concept, pilots or minimum lovable products and programmes
+
+- You will plan and facilitate workshops and conduct research activities with clients and teams to identify customer needs, audiences, requirements and define value propositions
+
+- You will assist, guide and mentor other designers and non-designers in the organisation, and the people we work with on how to best use human centred design processes, methods and tools.
+
+### What We’re Looking For
+
+- You can speak to everyone in their language. You’re a great visual thinker, storyteller, communicator and team player
+
+- You’re persuasive in an good way. You are a confident and skilled service experience designer and that makes others want to go with you on the journey
+
+- You can switch your perspective easily and you enjoy working on multiple projects with different teams at the same time
+
+- You love sinking your teeth into complex digital challenges and comfortable translating these into simple-to-grasp concepts
+
+- You are an experienced hands-on designer who is as happy to pick up a sharpie as you are using Adobe CS, sketch or invision. You’re able to rapidly prototype concepts and take them through to high fidelity designs that our developers work with
+
+- You have proven experience working as a service designer (or similar) at a senior level in industry or at a consultancy
+
+- You have a varied portfolio of work that you’re proud of and that demonstrates your visual skills, process, research rigour and outcomes
+
+## How we take care of our people
+In addition to a competitive salary, generous pension and life insurance, we offer a range of options so you can tailor a personal benefits package. Whether it’s protecting you and your family with medical cover, getting fit with gym discounts or getting cash back on online shopping, select what works for you. Scroll for more information.
+
+## Financially savvy
+It's important to plan for your future. That's why we provide a range of benefits that help you to do just that and to manage your money in a responsible way, these include life assurance cover and a personal pension-plan where we double-match your contribution. In addition, you can save money on your shopping by getting cash-back via the Advantage shopping scheme and spread the cost of travel by making use of our Season Ticket Loan.
+
+## Health and wellbeing
+The health and wellbeing of our people is important. Why not take advantage of our flexible medical, dental and eye care options on offer?
+
+In addition, there is the opportunity to help keep on top of your fitness with the cycle to work scheme and discounts for your local health club.
+
+## Work life balance
+We  encourage our team to keep a healthy work life balance, our holiday purchase scheme enables you to take more holiday in addition to the 25 days we offer as standard.",TRUE,
+"Suzanne Ditchburn, Head of People. Or Aegir Hallmundur ",,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1554810269023100,,,,woenklsd,Senior UX Researcher,https://s3.amazonaws.com/resumator/customer_20110804041716_4YDKUMRP3UTDHGLG/logos/20130403165255_logo.png,Firefly,London/UK,Permanent,£40000-60000,TRUE,"£40,000","£60,000","£50,000",0.33,med-low,FALSE,https://fireflysolutions.applytojob.com/apply/zjZDsDsXcb/Senior-UX-Researcher,"# Senior UX Researcher
+
+-
+
+**Our Purpose**
+
+Most technology in education is not built for the modern learning experience. It’s complex, unpredictable and no two classes are ever the same. Teachers waste time on non-teaching activities and they find it difficult to collaborate with other teachers. At Firefly, we’re freeing teachers to have a greater impact on the learning experience. Firefly allows teachers to innovate and cater to each student’s needs, preparing all students for success in the future.
+
+**How you can help**
+
+We already have a rich legacy, we’ve won loads of awards and have earned a reputation as the easiest to use school learning tool. But we have even greater ambitions to help every student reach their full potential. We’re at a pivotal point in what we do, with big plans for our product and exciting opportunities ahead of us. We want to work with an expert in user research so that we all understand the challenges in modern education better. With your guidance, we’ll be able to make the best decisions for our product based on what matters most to schools.
+
+*We want to work with someone who:*
+
+- Is friendly and approachable, who will build great relationships with teams all around the business.
+Is willing to help others learn about user centred design and the research practices we can all do to support this.
+
+- Can bring together all the research activities we already do, and can help to mature our practice.
+Introduces us to research methodologies that enable us to gather insights, analyse accurately, and communicate findings back to stakeholders.
+
+- Will get stuck in and collaborate to explore tricky problems at any stage in the process.
+
+- Will proactively investigate usage data and help the team identify patterns.
+
+- Is comfortable facilitating creative sessions that draw out insights.
+
+- Is passionate about learning, and open to new ideas and experimentation.
+
+- Is empathetic towards the needs of all the different stakeholders on a project. This means being flexible and striking a balance between meticulous insights gathering, and enabling the team to take action.
+
+- Cares deeply about supporting teachers, students, parents and school leaders in the  modern learning environment.
+
+*In return, you will benefit from:*
+
+- Being able to establish the practice of User Researcher within the organisation
+
+- Being part of a growing and thriving Product/Design organisation
+
+- Being able to have a real impact on the usability of our products and thus aid teaching and learning.
+
+*You have proven experience in the following:*
+
+- This is a senior role so we are looking for someone with at least 4 years experience of hands on user research for products that have shipped.
+
+- You have experience with a range of quantitative and qualitative methodologies such as ethnographic studies, usability testing, remote testing and survey design.
+
+- You have lead product teams through a variety of different generative and evaluative projects.
+
+- You have previously worked in an agile environment with a product, service or UX Design team.
+
+- This role would be perfect for someone looking for their first senior role, especially if you’ve been working as part of a larger research team and ready to take a step up to lead the process yourself.
+
+*Your first couple of months:*
+
+- Lots of introductions with people and teams across the business where you can learn about our purpose, our product strategy, our process and our plans for the future.
+
+- Learning about all the different ways we currently gather knowledge about our users.
+
+- Visiting schools, getting to know what the modern learning experience is like.
+
+- Absorbing the research that has been done so far to familiarise yourself with our users and areas of focus.
+
+- Coaching the team in all the different research methods that they can call on to conduct research and solve problems themselves.
+
+*Over time:*
+
+- Carry out a variety of quantitative and qualitative studies with people from schools, both remote and in-person.
+
+- Engage with third party research agencies to source participants.
+
+- Helping us find a consistent way of storing our knowledge, making sure it is accessible to everyone, and where everyone can contribute.
+
+- Working with the Design Lead and PMs to develop a research roadmap.
+
+- Developing a toolkit of research methods, report templates and a shared vocabulary for our research practices.
+
+**Our team**
+
+You’ll be joining the Design team as the first UX Researcher. We’re a small team, but are respected across the whole company for our expertise and commitment to providing the best experience for our users. We work closely with the Product team, so we continually have the opportunity to guide and shape the direction of the product. We’re really passionate about design, and love to do meaningful work and get things done.
+
+We aim to learn at every opportunity. We receive an annual training budget and use this to attend conferences, workshops, take online courses and have shelves full of books in our workspaces. We like to hang out together too–we go for dinner together regularly and do all sorts of activities with the wider Firefly team.
+
+You can read a bit more about some of our recent design activities in our team blog https://medium.com/firefly-design and see a video of what it’s like to work at Firefly.
+
+*Location, travel and flexibility:*
+
+- We ideally want someone who is either based primarily in London (our office is in Hammersmith) or is happy to spend some of the time there.
+
+- We are open minded about the possibility of someone who wishes to work remotely in the UK some or even most of the time. Tell us on your application and we can talk about it with you if you are short-listed.
+
+- Some travel will be required to meet customers and attend research sessions but much of the work we do can be done remotely in the UK.
+
+- We understand the need for flexibility due to the nature of this job so we are happy to discuss flexible working arrangements.
+
+- This is a full time position but we are open minded and happy to talk to applicants who are interested in part-time or job sharing.
+
+-
+
+###Key Benefits
+
+- Competitive salary
+- Flexible yearly training budget
+- 4% pension contributions
+- 25 days holiday, plus 8 public holidays
+- 3 days Christmas shut down
+- Enhanced maternity, paternity and shared parental leave
+- Travel loans
+- Cycle scheme, onsite bike storage and showers
+- Discounted Gym Membership
+- Summer and Christmas parties
+- Free fruit
+- Participation in our employee options scheme
+- We have a Tier 2 Visa Sponsorship License available
+- Employee Assistance Programme",TRUE,
+Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/team/jobs,,,,poenld,Senior UX Designer,http://www.codefinery.com/wp-content/uploads/2019/01/Clearleft-logo.png,Clearleft,Brighton,Permanent,£45000-60000,FALSE,"£45,000","£60,000","£52,500",0.58,med,TRUE,mailto://andy.thornton@clearleft.com,"# Senior UX Designer
+We’re looking for a designer with demonstrable skills in leading and architecting intuitive and inspiring digital experiences to join our friendly and supportive team in the heart of Brighton.
+
+You’ll get to tackle big, interesting challenges for diverse clients — we’ve worked with Virgin Atlantic, Penguin, Spotify, UNICEF, and Channel 4 to name a few.
+
+### Responsibilities
+
+Your role is essential in helping inform, shape and deliver digital products and services, through:
+
+- **Vision:** You help direct the vision and strategic direction of clients and/or the organisation’s products or services.
+- **Architecture:** You can work with a broad range of people and processes to extract and document a coherent systemic overview of an experience, either as it exists or as it is to be designed.
+- **Insight:** You can confidently diagnose key client opportunities by synthesising evidence efficiently and effectively, including those provided by secondary research.
+- **Exploration:** You can repeatedly iterate and improve on a range of potential design solutions.
+- **Validation:** You understand common user behaviours, and can provide evidence-based design guidance by assessing and validating specific design concepts and solutions with end-users, peers and client stakeholders.
+- **Craft:** You understand the design fundamentals of layout, and can prototype testable user interfaces under support and guidance from colleagues.
+
+You will also be responsible for supporting and nurturing the UX practice at Clearleft under the stewardship of the UX Director, through:
+
+- **Direction:** You formally lead, manage or direct colleagues or team members in executing their work to an exemplary standard.
+- **Mentoring:** You support the ongoing growth of colleagues, through informal, ad-hoc advice sessions and regular catchups.
+- **Coaching:** You can formally coach and train colleagues to learn new skills, techniques and ways of working.
+
+### Benefits
+
+- Competitive salary £45,000–£60,000 depending on experience
+- Flexible, family-friendly working hours
+- 30 days annual leave as standard
+- £1,000 training budget each year
+- A friendly, creative studio environment two minutes walk from the seafront
+- Free breakfasts, great coffee and top notch tea
+
+### What we value
+
+We’re a group of smart, passionate people with the support, trust and freedom to do the job we love. We’re free from the typical constraints of big agencies and have fostered a culture that encourages you to do the best and most fulfilling work of your career. There are a number of key attitudes shared by everyone at Clearleft:
+
+**You get under the skin of problems**
+
+You insist on a deeper understanding of the problem before rushing into solutions, even if that sometimes means starting out with ‘just enough research’. You focus on the needs of the people using your products and services, but are able to understand the complexity involved in balancing them with the client’s organisational goals or technical constraints.
+
+**You think strategically**
+
+You are a big–picture thinker but understand the benefits of making complex ideas simple through diagrams, concept maps, sketches or other visual thinking techniques. You enjoy working through ideas with clients and colleagues and workshops are often your medium of choice. Your primary outputs are invariably physical rather than digital - such as walls full of post-it notes.
+
+**You are articulate**
+
+You understand that success can often rest on the quality of communication. You prefer discussion over emails and documents. You pride yourself on expressing your ideas clearly and with a strong sense of purpose that encourages trust from your colleagues and clients, whether that’s a conversation around a whiteboard, an innovative design concept or a strategy presentation in a slide deck.
+
+**You collaborate**
+
+You do your best work collaborating within cross–functional teams and know that shared understanding is the critical factor in achieving a successful outcome. You instinctively share your findings and ideas with colleagues, peers and the community, and love to see them adapt and evolve as a result of constructive criticism.
+
+**You value outputs, but know that outcomes are what matter**
+
+You know the best way to tackle complex problems is by remaining adaptable. You understand and respect the differences between the various research, design or development methodologies (such as JTBD or Agile), while not following any practice unknowingly. You have an array of techniques to draw upon, but focus on the outcomes of your work, rather than fetishise the way it looks or how it’s delivered.
+
+### Does this sound like you?
+
+If so, please drop me a short email to <andy.thornton@clearleft.com>, or connect with me on [LinkedIn](https://www.linkedin.com/in/thorntonandy/), telling me why you’re right for this role and point to a CV, resume or portfolio of your work. We’re more interested in understanding what problems you have helped solve (and how), rather than seeing a collection of shiny deliverables. I look forward to hearing from you.
+
+**Some things worth noting**
+
+- Applicants should be eligible to work in the UK
+- We are keeping this vacancy open until it is filled, which means there is no closing date for applications
+- We endeavour to get in touch with candidates within two weeks of you contacting us, which typically begins with a casual chat prior to a more formal interview process
+- We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",TRUE,
+Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,RBS / Coutts,London,Permanent,£40000-60000,TRUE,"£40,000","£60,000","£50,000",0.33,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"# UX Researcher
+
+Join us in London as a UX Researcher
+
+- This is an opportunity for a UX Researcher to join us in our Private CX function
+- It's an opportunity to define and run the user research approach for Coutts
+- You can hone your existing technical skills and advance your career in this critical role
+
+### What you'll do
+
+You'll be defining and driving UX focussed user research methodology across DDX (Digital Design & Experience). You'll work directly with numerous stakeholders to provide insight and help them understand the implications. You'll also work directly with the UX team to test their design output, advising where it falls behind expected measures and show how to improve.
+
+You'll also:
+
+- Work with live solutions to test and input on zones of failure
+- Advise on proposed vendor solutions and where they may not align to usability standards
+- Drive our WCAG (Web Content Accessibility Guidelines) accessibility approach and ensure it’s adhered to across DDX and our partnered deliveries
+- Clearly present findings in a way that is actionable to other teams working within the same domain speciality, as well as outside
+- Create the digitally focussed personas that would be useful to designers and digital strategists
+
+### The skills you'll need
+
+You'll need a background in UX focussed insight and research with a good understanding of banking processes. You should be a digital focussed researcher, with proven history of digital ethnography, UX lab research, and digital competition analysis.
+
+You'll also need:
+
+- Analytical and reporting experience
+- A mathematical background
+- The ability to be a team player with strong people skills and a passion for data
+
+### How we'll reward you
+
+In return, we offer a competitive salary and you'll also join our retirement savings plan. You can also choose from a selection of protection, healthcare or lifestyle extras from RBSelect, our fully flexible reward programme.
+
+Visit our [reward and benefits page](https://jobs.coutts.com/pages/benefits) for more information on the benefit packages we offer.
+
+### Inclusion
+
+At Coutts, we want everyone to feel welcome, regardless of your background or needs. If you need adjustments making to your working environment, we’ll do everything we can to support you. As part of this commitment, we offer flexible working options for some of our roles - [find out more](https://jobs.coutts.com/pages/flexible-working).
+
+As a Financial Services organisation we comply with and support the requirements set by our Regulator, the Financial Conduct Authority (FCA), which are designed to protect our customers. This role falls under Conduct Rules of the Individual Accountability Regime (IAR) and is subject to pre-employment screening. This means if your application is successful, you’ll need to satisfy some important background checks before you can start working with us. These will include a full credit check, a criminal record check, residency and right to work checks.",TRUE,
+Richard Palmer richard@26s.uk,,,,,,,,https://www.google.com/search?q=dunelm+ux+job&oq=dunelm+ux+job&aqs=chrome..69i57.3376j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwjB_a-qqZjiAhWk2eAKHRnwArYQp4wCMAB6BAgJEAs#fpstate=tldetail&htidocid=RzkH2asKrwmAuksWAAAAAA%3D%3D&htivrt=jobs,,,,lkefji,Senior UX Designer,https://www.dunelmcareers.com/images/logo.png,Dunelm,London,Permanent,£40000-70000,TRUE,"£40,000","£70,000","£55,000",0.83,med-high,FALSE,https://www.dunelmcareers.com/registration.aspx,"# Senior UX Designer
+
+## Job Description
+
+Role Summary
+
+We are transforming our Dunelm digital platforms, and have an exciting opportunity for an energetic and talented Senior User Experience Designer.
+
+Based in our London Digital Hub, you will be embedded in one of our rapidly expanding agile tribes and play a pivotal role to discover, guide and deliver their roadmap and you will be the voice of UX in the tribe, explaining your design rationale to developers, editorial staff, product owners and stakeholders.
+
+We’ll expect you to approach design inclusively and use insights and evidence to back-up your ideas, and you’ll need to bring a wealth of knowledge with you as a previous UX and UI roles. 
+
+You'll need to collaborate with other members of our growing UX team to get to the heart of what our users need, creating sketches, concepts, user journeys, wireframes and navigational prototypes while being able to inspire and encourage colleagues to create coherent user experiences across the whole customer journey.
+
+**What You'll Do:**
+
+- Be comfortable with every stage of the UX process, from running discovery workshops, wireframing and prototyping, through to delivering amazing high fidelity designs.
+- Have a solid understanding of the Agile process and how UX fits into this process.
+- Be able to sell your ideas to senior stakeholders and working with developers and product owners to realise their ideas.
+- Work closely with our insight teams to ensure your ideas are built on data.
+- Have experience working with UX Researchers to plan and execute qualitative and quantitative research projects and the use of data and insight to evolve understanding of customer behaviour and product decisions.
+- Core understanding of design systems and their implementation across tribes and platforms.
+- Never be happy with the outcomes, ensure you are always looking to push the boundaries and ensure the best outcome for the customer.
+
+## Qualifications
+ 
+Experience:
+
+At least 5 years experience working in a retail UX environment with a comprehensive and up to date portfolio.
+
+Essential Tool Set:
+
+- Sketch
+- Abstract
+- Zeplin/Invision
+
+Desirable Skills:
+
+- Interactive Prototyping
+Familiar with modern front-end web technologies: (HTML, CSS
+
+Analytics:
+
+A Solid understanding of Google Analytics, AB Testing Tools and User Research Best Practices.
+
+Working Practices:
+
+Knowledge and experience of agile frameworks and practices: Scrum/Kanban and User stories. ",TRUE,
+Laura Woodward 	rnash@saba.com,,,,,,,,https://www.wiredsussex.com/jobs/vacancy/junior-ui-designer-in-brighton/26955,,,,pwoefm,Junior UI Designer,"data:image/webp;base64,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",Saba Lumesse Ltd,Brighton/Hove,Permanent,£25000-40000,TRUE,"£25,000","£40,000","£32,500",0.00,low,FALSE,https://apply5.lumessetalentlink.com/apply-app/pages/application-form?jobId=P09FK026203F3VBQB7V6G79PF-5418,"# JUNIOR UI DESIGNER
+
+Lumesse is the only global company making talent management solutions work locally. We help customers around the world to implement successful local talent management initiatives that identify, nurture and develop the right people, in the right place, at the right time. 1,700 customers work with us in over 70 countries because they recognise that commitment, innovation and value only come from people. Our integrated talent management solutions are comprehensive, intuitive, secure and fully internationalised into over 50 languages.
+
+**Job Description:**
+
+We’re looking for a Junior UI/UX Designer who is inquisitive and passionate about their craft. You’ll be working alongside other Senior UI/UX/LX Designers to deliver some amazing digital products.
+
+Based in Hove, you’ll be working end-to-end on a variety of active projects, providing support and flexibility to the rest of the team. Our Senior Designers and UI Lead will be active in mentoring you, positively encouraging and helping you hone your craft.
+
+**Skills Range:**
+
+We’d love to see the following:
+
+- Some solid experience (preferably agency)
+- An engaging portfolio that reflects your passion around designing digital solutions, while articulating your understanding of user experience and interaction design
+- Confidently able to design and prototype using Adobe XD (Experience Design)
+- Well versed across the Adobe Creative Suite of apps
+- Good grasp of user-centric design processes
+- Passionate about emergent technologies and design trends
+- Strong team working and communication skills. Ability to confidently articulate ideas to both peers and clients
+
+**Bonus skills:**
+
+- Understanding of front-end web design, HTML and CSS
+
+**Additional Information:**
+
+- Competitive day rates
+- Based in-house, but flexible around remote working",TRUE,
+jobs@hangar13games.com,,,,,,,,https://www.indeed.co.uk/Ux-jobs-in-Worthing,,,,LI-H13,UX Designer,https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R19A20_19-03-28-08-35-26-19.A_prod/servlet/dynamic/images/imge_1051.png?lastUploaded=1521050194000&org=GAMES2K,2K Hangar 13,Brighton,Permanent,£30000-50000,TRUE,"£30,000","£50,000","£40,000",0.08,low,FALSE,https://chp.tbe.taleo.net/chp04/ats/careers/v2/applyRequisition?org=GAMES2K&cws=68&rid=3394&source=Indeed.com,"### UX DESIGNER
+
+**What We Need:**
+
+
+Do you believe, like we do, that good UX includes all aspects of the game including audio, visuals, signs and feedback, animation as well as UI elements?   Do you have the drive to help other designers make their systems more discoverable?  Hangar 13 is in search of a highly skilled UX Designer who is dedicated and passionate to help create narratively-driven games with great UX surfacing deep and interesting systemic gameplay.
+
+
+
+**What You Will Do:**
+
+- Work with designers and artist to conceptualize, prototype and implement intuitive interfaces based on game systems that improve overall game experience and product presentation
+- Collaborate with designers to identity critical information needed by users and work with artists to integrate it into accessible, usable and innovative interfaces
+- Responsible for rapid prototyping of conceptual wireframes, high and low level user flow diagrams, and other mock ups – including low fidelity playable interactive experiences
+- Participate with development team, publishing and user research departments in all facets of product usability testing by analyzing results and sharing conclusions to improve accessibility and overall user experience
+- Act as an advocate and educator on the team for user experience initiatives, including: usability, accessibility, interface design and new industry trends
+
+**Who We Think Will Be A Great Fit:**
+ 
+
+- 2+ years of experience in UX design or interface design in console game development, mobile/social, web or other software applications
+- A solid understanding of user-centric design principles including: accessibility, usability, affordance, ergonomics and esthetics
+- Excellent written and verbal communication skills with the ability to clearly and concisely communicate important aspects of interface design
+- Ability to act as the bridge between art, design and engineering during interface development and implementation
+- A passion for playing and developing high quality games
+- Excellent interpersonal and written and verbal communication skills
+- Strong understanding of development processes, workflows, and tools
+- Ability to work in highly collaborative, interdisciplinary, iterative environment, while delivering under deadlines and time constraints
+- Previous experience working as a user experience designer on a AAA console title preferred
+- Experience with HTML5 is preferred
+
+**Who We Are:**
+
+ 
+Hangar 13 is the internal 2K development studio behind the award-winning Mafia III. The studio is comprised of industry veterans drawn from a diverse range of studios, who have collectively shipped hundreds of titles across a wide variety of genres. Though we hail from all over the world, and our backgrounds are wildly different, one thing binds us all together – the belief that “Every Player’s Story is Unique.”
+ 
+Hangar 13 is based in four locations: Novato (California), Brighton (UK), and Brno & Prague (Czech Republic). We are currently hard at work on our next AAA titles.
+ 
+This role is based at our Brighton location, who partner with the other Hangar 13 sites to develop all of our games as one global team. Hangar 13’s Brighton location provides the opportunity to work on big-budget, AAA console and PC games in the coolest city in the UK!",TRUE,
+Becky Dominick becky.dominick@digital.hmrc.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj1zZWFyY2hieWNvbnRleHRpZCZ1c2Vyc2VhcmNoY29udGV4dD03Nzk1MjI3NiZwYWdlY2xhc3M9Sm9icyZrZXk9ZmFpciZyZXFzaWc9MTU1Nzk0MTMxMC01N2Y3MjM5NWMyZTRiYmVmY2RhZmZkZTNjOWNiMTQ1NmUxODUxZDY1,,,,1628418,Senior User Researcher,https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183922.gif,HMRC,Worthing,Permanent,£50010-56510,FALSE,"£50,010","£56,510","£53,260",0.75,med-high,TRUE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfbm93PTEmYnJhbmRfaWQ9MCZhcHBseV91cmw9L2Nzci9sb2dpbi5jZ2kmamNvZGU9MTYyODQxOCZvd25lcj01MDcwMDAwJnBhZ2VjbGFzcz1BcHBseSZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,"# Senior User Researcher
+
+### About the job
+**Job description**
+
+HMRC is one of the largest organisations in the UK and we run the biggest digital operation in Government. Our digital business runs the IT behind tax and benefits services for 45 million individual and 4.9 million business customers. 
+
+We’re making HMRC’s services and information simpler, clearer and faster for citizens and businesses. 
+
+To do that, we need a senior user researcher to make sure that user needs are intrinsic to the design and implementation of our services. 
+
+You will join a lively and supportive user research community, based at our Digital Delivery Centre in Worthing, with access to research labs and facilities. 
+
+Our team is passionate and committed to conducting robust research with real-world impact, and bring varied expertise from the private, voluntary and public sectors. 
+
+This is an exciting time to join an organisation that probably doesn’t work how you’d imagine a government organisation would. Our blog tells you a bit more about what we do and how we do it. 
+[https://hmrcdigital.blog.gov.uk/category/user-research/](https://hmrcdigital.blog.gov.uk/category/user-research/)
+
+Job description 
+
+As a senior user researcher you will plan and manage user research activities on larger teams and more complex services. You will build user centred practices in new teams, and align user research activities with wider plans to inform service proposition. You will supervise and develop other user researchers to assure and improve research practice. 
+
+Key responsibilities include 
+
+- Planning, designing and preparing a range of user research activities to support the design, development and continuous improvement of complex government services. 
+- Leading colleagues to analyse research data and synthesise clear and actionable findings, including working closely with analytics colleagues to create a rich picture of user behaviour. 
+- Working closely with product managers, designers and developers to turn user research findings into stories and actions that lead to valuable product and service features based on a deep understanding of user needs. 
+- Aligning user research activities with wider plans to inform service proposition. 
+- Mentoring and guiding more junior user researchers to assure and improve research practice. 
+•- Contributing to the wider user research community ¬ including presenting at meetups, writing blog posts and leading on aspects of practice. 
+ 
+You will also be expected to contribute to cross-government assessment, ensuring services meet the government service standard. 
+
+Essential criteria 
+
+You should be able to demonstrate: 
+- Experience of advocating for user research and engaging skeptical colleagues and stakeholders. 
+- Experience of helping teams to adopt user centred service design and delivery practices and embed them into their agile workflow. 
+- The ability to understand the complex problems a team is trying to solve, and align user research activities to inform decision making and action. 
+- Experience in using a range of quantitative and qualitative methodologies including ethnographic techniques, usability testing, remote testing, and survey design, and in guiding teams to use a range of new and existing methods. 
+- Proven experience in meeting ambitious deadlines and delivering high-quality work on schedule, including quickly turning around research plans and outputs in different formats. 
+- The ability to include all kinds of users in appropriate research activities to help teams understand the diversity of users of government services. 
+- A good understanding of the social and technological context for government services, and experience of aligning user research activities to help teams understand changing user behaviour. 
+
+Desirable criteria 
+
+Ideally you will also have experience in conducting research: 
+
+- With people with low digital skills 
+- With people with accessibility needs 
+- With diverse and hard-to-reach audiences 
+And have: 
+- A degree in psychology, cognitive science, human factors, computer science, product/interaction design, human computer interaction or related disciplines, or equivalent professional experience. 
+- A relevant postgraduate qualification (e.g. Human Factors, HCDE, Cognitive Psychology or related disciplines) 
+- Understanding of the Government Service Standard and GDS Service Manual 
+- The flexibility to work in a fast-changing environment and ambiguous situations 
+- Knowledge or experience of working in an agile delivery environment 
+
+**Person specification**
+
+Essential criteria 
+
+You should be able to demonstrate:
+ 
+- Experience of advocating for user research and engaging skeptical colleagues and stakeholders. 
+- Experience of helping teams to adopt user centred service design and delivery practices and embed them into their agile workflow. 
+- The ability to understand the complex problems a team is trying to solve, and align user research activities to inform decision making and action. 
+- Experience in using a range of quantitative and qualitative methodologies including ethnographic techniques, usability testing, remote testing, and survey design, and in guiding teams to use a range of new and existing methods. 
+- Proven experience in meeting ambitious deadlines and delivering high-quality work on schedule, including quickly turning around research plans and outputs in different formats. 
+- The ability to include all kinds of users in appropriate research activities to help teams understand the diversity of users of government services. 
+- A good understanding of the social and technological context for government services, and experience of aligning user research activities to help teams understand changing user behaviour. 
+
+### Benefits
+**Pensions**
+
+[Civil Service pension schemes may be available for successful candidates.
+Benefits
+Benefits of the role include: 
+
+• Flexible work hours, season ticket loans, great holiday package. 
+• Professional development and training programmes and opportunities for continued development. 
+• A rare opportunity to impact millions of people’s lives through your work. 
+• Being part of a supportive community - we are a diverse, cross-disciplinary team with varied backgrounds across the private, voluntary and public sectors. 
+
+[Civil Service pension schemes](https://www.civilservicepensionscheme.org.uk/) may be available for successful candidates.
+
+**Benefits**
+
+Benefits of the role include: 
+
+- Flexible work hours, season ticket loans, great holiday package. 
+- Professional development and training programmes and opportunities for continued development. 
+- A rare opportunity to impact millions of people’s lives through your work. 
+- Being part of a supportive community - we are a diverse, cross-disciplinary team with varied backgrounds across the private, voluntary and public sectors. 
+
+Civil Service pension schemes may be available for successful candidates.
+
+**Allowances**
+
+If you are applying for a role in an office within a regional centre location or a transitional or specialist site, then the following may apply: Daily Travel Assistance will be available for this role, provided the successful applicant is a current HMRC employee and meets the eligibility requirements outlined in the department’s Daily Travel Assistance guidance.
+
+###Things you need to know
+**Security**
+
+Successful candidates must pass [basic security checks](https://www.gov.uk/government/publications/government-baseline-personnel-security-standard).
+
+**Nationality statement**
+
+Candidates will be subject to [UK immigration](https://www.gov.uk/browse/visas-immigration/work-visas) requirements as well as [Civil Service nationality rules](https://www.gov.uk/government/publications/nationality-rules).
+
+If you're applying for a role requiring security clearance please be aware that foreign or dual nationality is not an automatic bar. However certain posts may have restrictions which could affect those who do not have sole British nationality or who have personal connections with certain countries outside the UK.
+
+**Selection process details**
+
+This vacancy is using [Success Profiles](https://www.gov.uk/government/publications/success-profiles), and will assess your Strengths and Experience.
+This vacancy is using success profiles, and will assess your behaviours, strengths, experience and technical skills. 
+
+As part of the application process you will be asked to complete 
+- A CV detailing relevant employment history. 
+- A personal statement (1000 words max), explaining how your skills and experience relate to the essential criteria for the role. 
+
+More information about the technical skills can be found at: 
+Click [here](https://www.gov.uk/government/publications/lead-user-researcher-skills-they-need) to visit Gov.uk 
+
+Sift 
+
+You will be assessed on your experience and technical skills as outlined in your CV and personal statement. Please ensure your personal statement relates to the person specification as outlined in the essential criteria. 
+
+Interview 
+
+Applicants who are successful at sift will be invited to interview where you will be asked to bring a portfolio to showcase the work you have done. 
+Your portfolio should illustrate your strengths and could include summaries of projects, accomplishments, skills and samples of work that provide evidence of what you have done. 
+
+We also will ask you to complete a short user research exercise with a scenario description printed to be completed with a pen and notepad provided. 30 minutes will be given and candidates have up to 20 minutes to report back on their approach as the first question asked in the interview 
+
+We will also ask questions that let you demonstrate your experience and technical skills relevant to the role. 
+
+Feedback will only be provided if you attend an interview or assessment.",TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
