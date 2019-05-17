@@ -1,6 +1,8 @@
 ---
 ---
 
+[Jobs](https://uxbrighton.org.uk/jobs "View the jobs page") 
+
 ## Add an event page
 
 **[Create a new file in _posts](https://github.com/dannyhope/uxbrighton/new/gh-pages/_posts "Add a file to _posts using Github")**
