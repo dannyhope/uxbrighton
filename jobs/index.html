@@ -146,6 +146,18 @@ h2 + h3 {
     {% assign i = 0 %}
     {% for job in site.data.jobs %}
       {% if job.publish == 'TRUE' %}
+        {% assign rank = job.rank | plus: 0 %}
+        {% if rank <= 0.2 %}
+          {% assign range = 'low' %}
+        {% elsif rank <= 0.4 %}
+          {% assign range = 'low-mid' %}
+        {% elsif rank <= 0.6 %}
+          {% assign range = 'mid' %}
+        {% elsif rank <= 0.8 %}
+          {% assign range = 'high-mid' %}
+        {% elsif rank <= 1 %}
+          {% assign range = 'high' %}
+        {% endif %}
         <div id="{{ job.job-id }}" class="job" itemscope itemtype="http://schema.org/JobPosting">
           <a href="#{{ job.job-id }}" class="job-open drop rounded" onclick='ga("send", "event", "jobs", "view", "{{ job.job-id }}");'></a>
           <!-- <span itemprop="datePosted">2011-10-31</span> -->
@@ -157,7 +169,7 @@ h2 + h3 {
                 <h3 itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
                 <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
                 <p class="mv0">
-                  £&thinsp;<svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ job.money-indication }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                  £&thinsp;<svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
                     <title id="svg-{{ job.job-id }}" lang="en">Highlighted area indicates the salary range for this job compared to similar jobs. Left is lower, right is higher.</title>
                     <desc>Histogram, providing an abstract indication of salary range.</desc>
                     <g fill="none" fill-rule="evenodd">
