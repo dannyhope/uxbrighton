@@ -14,7 +14,7 @@
         document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
       }
       function deleteCookie(name) { setCookie(name, '', -1); }
-      setCookie("showJobs", true, 1);
+      deleteCookie("showJobs");
     </script>
     <style>
       body {
