@@ -1,12 +1,15 @@
-Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be live,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,money is guess,money min,money max,money median,rank,money-indication,show-salary,apply-link,extended-description,publish,instructions for publishing
-Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,used for displaying the logo on the jobs pages,,as specifific as possible,this appears in the job description,[formula],if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
+,Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be live,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,logo-link,employer,location,work-pattern,money,money is guess,money min,money max,money median,rank,money-indication,show-salary,apply-link,extended-description,publish,instructions for publishing
+,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,used for displaying the logo on the jobs pages,,as specifific as possible,this appears in the job description,[formula],if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
 0.2-<0.4    = med-low
 0.4-<0.6    = med
 0.6-<0.8    = med-high
 0.8-1        = high
 
-0unfortunately this must be calculated every time there’s a change in the rank column",tick if we KNOW the salary and have PERMISSION to show it,,,,_data folder on Github
-glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,£55000-65000,FALSE,"£55,000","£65,000","£60,000",1.00,high,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
+0unfortunately this must be calculated every time there’s a change in the rank column",tick if we KNOW the salary and have PERMISSION to show it,,,,"1. Choose File > Download as > Comma-seperated values
+2. Rename it ""jobs.csv""
+3. Upload (by dragging) it to https://github.com/dannyhope/uxbrighton/tree/gh-pages/_data
+4. After a minute, load https://uxbrighton.org.uk/jobs"
+1,glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,£55000-65000,FALSE,"£55,000","£65,000","£60,000",1.0,high,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -18,28 +21,8 @@ glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,"File > Download as > Comma-seperated values
-
-Rename that downloaded file as jobs.csv
-
-Go to the _data folder in Github https://github.com/dannyhope/uxbrighton/tree/gh-pages/_data
-
-UPload (drag) the CSV into that folder
-
-After a few minutes, load https://uxbrighton.org.uk/jobs
-
-
-
-
-
-
-
-
-
-
-
-"
-someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ’19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,£35000-45000,FALSE,"£35,000","£45,000","£40,000",0.08,low,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,
+2,someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ’19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,Ministry of Justice,"London, Victoria",Permanent,£35000-45000,FALSE,"£35,000","£45,000","£40,000",0.1,low,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -51,8 +34,8 @@ someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri,
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",TRUE,
-Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£50000,TRUE,"£50,000",,"£50,000",0.33,med-low,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,
+3,Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£50000,TRUE,"£50,000",,"£50,000",0.3,med-low,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
 
 We’re looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
 
@@ -156,12 +139,8 @@ If you’d like to apply, or have any questions about the role, please get in to
 
 We look forward to hearing from you!
 
-",TRUE,
-ian.budden@elucidat.com,,,,,,,,https://www.elucidat.com/careers/,,,,cozujik,UX Designer,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Elucidat,Brighton,Permanent,£47000,TRUE,"£47,000",,"£47,000",0.25,low,FALSE,https://elucidat.workable.com/jobs/978209/candidates/new,"## Product/UX Designers
-Brighton, England, United Kingdom
-
--
-**DESCRIPTION**
+",TRUE,_data folder on Github
+4,ian.budden@elucidat.com,,,,,,,,https://www.elucidat.com/careers/,,,,cozujik,UX Designer,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Elucidat,Brighton,Permanent,£47000,TRUE,"£47,000",,"£47,000",0.3,low,FALSE,https://elucidat.workable.com/jobs/978209/candidates/new,"**DESCRIPTION**
 
 **Are you a super-talented and hard working UX designer? Are you looking for an exciting, fast growing company where you can see your ideas come to life? Are you driven by great outcomes for your users?**
 
@@ -210,9 +189,10 @@ If this sounds like your jam, then this could be your next exciting career step.
 **REQUIREMENTS**
 
 * Have an exceptional track record of working as a UX designer, with a great portfolio. Extra points if you have experience :
-        * In a Learning Design environment or agency
-        
-        * Or for a fast paced, exciting startup of growth stage SAAS company
+
+	* In a Learning Design environment or agency
+	
+	* Or for a fast paced, exciting startup of growth stage SAAS company
 
 * Have a real vision for great UX - and the right processes to deliver it. You should be super-passionate about how to deliver great interfaces
 
@@ -254,13 +234,8 @@ If this sounds like your jam, then this could be your next exciting career step.
 
 * **Everyone has a voice** - We are building a culture where everyone is respected and has a voice in the day to day running of the company - a workplace where everyone is valued for the contributions they make. Our quarterly objectives (OKRs) are set by the entire team and we use the latest technologies to collect regular feedback anonymously through polling and pulse checks. We continually celebrate individual and collective achievements.
 
--",TRUE,
-harry@brignull.com,,,,,,,,https://twitter.com/harrybr/status/1126551196762824704?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet,,,,SPUXD-1,UX Designer,https://workablehr.s3.amazonaws.com/uploads/account/logo/252693/large_smart-logo-token.jpg,Smart Pension,London,Permanent,£45000-60000,TRUE,"£45,000","£60,000","£52,500",0.58,med-high,FALSE,https://smart-pension-1.workable.com/jobs/989165/candidates/new,"# UX Designer
-London, England, United Kingdom · Design · SPUXD-1
-
--
-
-**ABOUT SMART PENSION LTD**
+-",TRUE,https://uxbrighton.org.uk/jobs
+5,harry@brignull.com,,,,,,,,https://twitter.com/harrybr/status/1126551196762824704?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet,,,,SPUXD-1,UX Designer,https://workablehr.s3.amazonaws.com/uploads/account/logo/252693/large_smart-logo-token.jpg,Smart Pension,London,Permanent,£45000-60000,TRUE,"£45,000","£60,000","£52,500",0.6,med-high,FALSE,https://smart-pension-1.workable.com/jobs/989165/candidates/new,"**ABOUT SMART PENSION LTD**
 
 Smart Pension was founded by experienced finance & technology professionals and has been designed specifically to support UK businesses faced with the challenges of auto enrolment. Our team spent over a year developing & testing the platform whilst also establishing the partnerships necessary to meet regulatory requirements and deliver a seamless end-to-end experience. With thousands of satisfied employers, advisers and employees now using the platform, we know we offer the best workplace pension solution currently available in the UK.
 
@@ -335,9 +310,7 @@ You will need to present a portfolio containing a selection of materials showing
 
 
 ",TRUE,
-recruitment@digicatapult.org.uk,,,,,,,,https://www.digicatapult.org.uk/careers/,,,,iejlnc ,Senior Experience Designer,https://www.digicatapult.org.uk/static/logo.svg,Digital Catapult,London,Permanent,£45000-70000,TRUE,"£45,000","£70,000","£57,500",0.92,high,FALSE,https://www.digicatapult.org.uk/careers/a2s0o00000ijkbeua3/,"# Senior Experience Designer
-
-We are looking for a talented service experience designer to join Digital Catapult! 
+6,recruitment@digicatapult.org.uk,,,,,,,,https://www.digicatapult.org.uk/careers/,,,,iejlnc ,Senior Experience Designer,https://www.pesmedia.com/wp-content/uploads/2018/10/Digital-Catapult-Logo-RGB-A4-png-e1540295953939-300x200.png,Digital Catapult,London,Permanent,£45000-70000,TRUE,"£45,000","£70,000","£57,500",0.9,high,FALSE,https://www.digicatapult.org.uk/careers/a2s0o00000ijkbeua3/,"We are looking for a talented service experience designer to join Digital Catapult! 
  As an experience designer at Digital Catapult you are curious about what makes people and organisations tick, passionate about how new technologies can impact their experiences and how that in turn creates opportunities for businesses large and small.
  Experience designers at Digital Catapult deliver design projects and help others understand the value of design. We embrace a hands-on and collaborative approach across the entire lifecycle of projects including; planning, scoping, conducting and delivery of quantitative and qualitative research and design activities. 
  It is a great opportunity to work together with specialists, government, academics and industry at the cutting edge of emerging technologies – machine learning, 5G, IoT, blockchain, augmented and virtual reality – and help speed up their adoption in the UK’s creative and manufacturing sectors.
@@ -347,9 +320,7 @@ We are looking for a talented service experience designer to join Digital Catapu
  
 ### What You’ll Do
 
-- You will be gathering insights, defining and designing for a range of products, programmes and facilities
-
-- from mobile and desktop web applications and dashboards, IoT devices and 5G systems, mixed reality interfaces, printed and digital collateral through to masterclasses for startups, internal workshops and the experiences of our facilities
+- You will be gathering insights, defining and designing for a range of products, programmes and facilities; from mobile and desktop web applications and dashboards, IoT devices and 5G systems, mixed reality interfaces, printed and digital collateral through to masterclasses for startups, internal workshops and the experiences of our facilities
 
 - You will work closely with the experience design lead and with business developers, innovation managers, project delivery managers and developers at Digital Catapult to plan projects, research, design and test prototypes, proofs of concept, pilots or minimum lovable products and programmes
 
@@ -386,11 +357,7 @@ In addition, there is the opportunity to help keep on top of your fitness with t
 
 ## Work life balance
 We  encourage our team to keep a healthy work life balance, our holiday purchase scheme enables you to take more holiday in addition to the 25 days we offer as standard.",TRUE,
-"Suzanne Ditchburn, Head of People. Or Aegir Hallmundur ",,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1554810269023100,,,,woenklsd,Senior UX Researcher,https://s3.amazonaws.com/resumator/customer_20110804041716_4YDKUMRP3UTDHGLG/logos/20130403165255_logo.png,Firefly,London/UK,Permanent,£40000-60000,TRUE,"£40,000","£60,000","£50,000",0.33,med-low,FALSE,https://fireflysolutions.applytojob.com/apply/zjZDsDsXcb/Senior-UX-Researcher,"# Senior UX Researcher
-
--
-
-**Our Purpose**
+7,"Suzanne Ditchburn, Head of People. Or Aegir Hallmundur ",,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1554810269023100,,,,woenklsd,Senior UX Researcher,https://s3.amazonaws.com/resumator/customer_20110804041716_4YDKUMRP3UTDHGLG/logos/20130403165255_logo.png,Firefly,London/UK,Permanent,£40000-60000,TRUE,"£40,000","£60,000","£50,000",0.3,med-low,FALSE,https://fireflysolutions.applytojob.com/apply/zjZDsDsXcb/Senior-UX-Researcher,"**Our Purpose**
 
 Most technology in education is not built for the modern learning experience. It’s complex, unpredictable and no two classes are ever the same. Teachers waste time on non-teaching activities and they find it difficult to collaborate with other teachers. At Firefly, we’re freeing teachers to have a greater impact on the learning experience. Firefly allows teachers to innovate and cater to each student’s needs, preparing all students for success in the future.
 
@@ -484,7 +451,7 @@ You can read a bit more about some of our recent design activities in our team b
 
 -
 
-###Key Benefits
+### Key Benefits
 
 - Competitive salary
 - Flexible yearly training budget
@@ -500,8 +467,7 @@ You can read a bit more about some of our recent design activities in our team b
 - Participation in our employee options scheme
 - We have a Tier 2 Visa Sponsorship License available
 - Employee Assistance Programme",TRUE,
-Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/team/jobs,,,,poenld,Senior UX Designer,http://www.codefinery.com/wp-content/uploads/2019/01/Clearleft-logo.png,Clearleft,Brighton,Permanent,£45000-60000,FALSE,"£45,000","£60,000","£52,500",0.58,med,TRUE,mailto://andy.thornton@clearleft.com,"# Senior UX Designer
-We’re looking for a designer with demonstrable skills in leading and architecting intuitive and inspiring digital experiences to join our friendly and supportive team in the heart of Brighton.
+8,Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/team/jobs,,,,poenld,Senior UX Designer,http://www.codefinery.com/wp-content/uploads/2019/01/Clearleft-logo.png,Clearleft,Brighton,Permanent,£45000-60000,FALSE,"£45,000","£60,000","£52,500",0.6,med,TRUE,mailto://andy.thornton@clearleft.com,"We’re looking for a designer with demonstrable skills in leading and architecting intuitive and inspiring digital experiences to join our friendly and supportive team in the heart of Brighton.
 
 You’ll get to tackle big, interesting challenges for diverse clients — we’ve worked with Virgin Atlantic, Penguin, Spotify, UNICEF, and Channel 4 to name a few.
 
@@ -565,9 +531,7 @@ If so, please drop me a short email to <andy.thornton@clearleft.com>, or connect
 - We are keeping this vacancy open until it is filled, which means there is no closing date for applications
 - We endeavour to get in touch with candidates within two weeks of you contacting us, which typically begins with a casual chat prior to a more formal interview process
 - We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",TRUE,
-Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,RBS / Coutts,London,Permanent,£40000-60000,TRUE,"£40,000","£60,000","£50,000",0.33,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"# UX Researcher
-
-Join us in London as a UX Researcher
+9,Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,RBS/Coutts,London,Permanent,£40000-60000,TRUE,"£40,000","£60,000","£50,000",0.3,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"Join us in London as a UX Researcher
 
 - This is an opportunity for a UX Researcher to join us in our Private CX function
 - It's an opportunity to define and run the user research approach for Coutts
@@ -606,9 +570,7 @@ Visit our [reward and benefits page](https://jobs.coutts.com/pages/benefits) for
 At Coutts, we want everyone to feel welcome, regardless of your background or needs. If you need adjustments making to your working environment, we’ll do everything we can to support you. As part of this commitment, we offer flexible working options for some of our roles - [find out more](https://jobs.coutts.com/pages/flexible-working).
 
 As a Financial Services organisation we comply with and support the requirements set by our Regulator, the Financial Conduct Authority (FCA), which are designed to protect our customers. This role falls under Conduct Rules of the Individual Accountability Regime (IAR) and is subject to pre-employment screening. This means if your application is successful, you’ll need to satisfy some important background checks before you can start working with us. These will include a full credit check, a criminal record check, residency and right to work checks.",TRUE,
-Richard Palmer richard@26s.uk,,,,,,,,https://www.google.com/search?q=dunelm+ux+job&oq=dunelm+ux+job&aqs=chrome..69i57.3376j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwjB_a-qqZjiAhWk2eAKHRnwArYQp4wCMAB6BAgJEAs#fpstate=tldetail&htidocid=RzkH2asKrwmAuksWAAAAAA%3D%3D&htivrt=jobs,,,,lkefji,Senior UX Designer,https://www.dunelmcareers.com/images/logo.png,Dunelm,London,Permanent,£40000-70000,TRUE,"£40,000","£70,000","£55,000",0.83,med-high,FALSE,https://www.dunelmcareers.com/registration.aspx,"# Senior UX Designer
-
-## Job Description
+10,Richard Palmer richard@26s.uk,,,,,,,,https://www.google.com/search?q=dunelm+ux+job&oq=dunelm+ux+job&aqs=chrome..69i57.3376j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwjB_a-qqZjiAhWk2eAKHRnwArYQp4wCMAB6BAgJEAs#fpstate=tldetail&htidocid=RzkH2asKrwmAuksWAAAAAA%3D%3D&htivrt=jobs,,,,lkefji,Senior UX Designer,https://www.dunelmcareers.com/images/logo.png,Dunelm,London,Permanent,£40000-70000,TRUE,"£40,000","£70,000","£55,000",0.8,med-high,FALSE,https://www.dunelmcareers.com/registration.aspx,"## Job Description
 
 Role Summary
 
@@ -654,9 +616,7 @@ A Solid understanding of Google Analytics, AB Testing Tools and User Research Be
 Working Practices:
 
 Knowledge and experience of agile frameworks and practices: Scrum/Kanban and User stories. ",TRUE,
-Laura Woodward 	rnash@saba.com,,,,,,,,https://www.wiredsussex.com/jobs/vacancy/junior-ui-designer-in-brighton/26955,,,,pwoefm,Junior UI Designer,"data:image/webp;base64,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",Saba Lumesse Ltd,Brighton/Hove,Permanent,£25000-40000,TRUE,"£25,000","£40,000","£32,500",0.00,low,FALSE,https://apply5.lumessetalentlink.com/apply-app/pages/application-form?jobId=P09FK026203F3VBQB7V6G79PF-5418,"# JUNIOR UI DESIGNER
-
-Lumesse is the only global company making talent management solutions work locally. We help customers around the world to implement successful local talent management initiatives that identify, nurture and develop the right people, in the right place, at the right time. 1,700 customers work with us in over 70 countries because they recognise that commitment, innovation and value only come from people. Our integrated talent management solutions are comprehensive, intuitive, secure and fully internationalised into over 50 languages.
+11,Laura Woodward 	rnash@saba.com,,,,,,,,https://www.wiredsussex.com/jobs/vacancy/junior-ui-designer-in-brighton/26955,,,,pwoefm,Junior UI Designer,"data:image/webp;base64,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",Saba Lumesse Ltd,Brighton/Hove,Permanent,£25000-40000,TRUE,"£25,000","£40,000","£32,500",0.0,low,FALSE,https://apply5.lumessetalentlink.com/apply-app/pages/application-form?jobId=P09FK026203F3VBQB7V6G79PF-5418,"Lumesse is the only global company making talent management solutions work locally. We help customers around the world to implement successful local talent management initiatives that identify, nurture and develop the right people, in the right place, at the right time. 1,700 customers work with us in over 70 countries because they recognise that commitment, innovation and value only come from people. Our integrated talent management solutions are comprehensive, intuitive, secure and fully internationalised into over 50 languages.
 
 **Job Description:**
 
@@ -684,9 +644,7 @@ We’d love to see the following:
 
 - Competitive day rates
 - Based in-house, but flexible around remote working",TRUE,
-jobs@hangar13games.com,,,,,,,,https://www.indeed.co.uk/Ux-jobs-in-Worthing,,,,LI-H13,UX Designer,https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R19A20_19-03-28-08-35-26-19.A_prod/servlet/dynamic/images/imge_1051.png?lastUploaded=1521050194000&org=GAMES2K,2K Hangar 13,Brighton,Permanent,£30000-50000,TRUE,"£30,000","£50,000","£40,000",0.08,low,FALSE,https://chp.tbe.taleo.net/chp04/ats/careers/v2/applyRequisition?org=GAMES2K&cws=68&rid=3394&source=Indeed.com,"### UX DESIGNER
-
-**What We Need:**
+12,jobs@hangar13games.com,,,,,,,,https://www.indeed.co.uk/Ux-jobs-in-Worthing,,,,LI-H13,UX Designer,https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R19A20_19-03-28-08-35-26-19.A_prod/servlet/dynamic/images/imge_1051.png?lastUploaded=1521050194000&org=GAMES2K,2K Hangar 13,Brighton,Permanent,£30000-50000,TRUE,"£30,000","£50,000","£40,000",0.1,low,FALSE,https://chp.tbe.taleo.net/chp04/ats/careers/v2/applyRequisition?org=GAMES2K&cws=68&rid=3394&source=Indeed.com,"**What We Need:**
 
 
 Do you believe, like we do, that good UX includes all aspects of the game including audio, visuals, signs and feedback, animation as well as UI elements?   Do you have the drive to help other designers make their systems more discoverable?  Hangar 13 is in search of a highly skilled UX Designer who is dedicated and passionate to help create narratively-driven games with great UX surfacing deep and interesting systemic gameplay.
@@ -723,9 +681,7 @@ Hangar 13 is the internal 2K development studio behind the award-winning Mafia I
 Hangar 13 is based in four locations: Novato (California), Brighton (UK), and Brno & Prague (Czech Republic). We are currently hard at work on our next AAA titles.
  
 This role is based at our Brighton location, who partner with the other Hangar 13 sites to develop all of our games as one global team. Hangar 13’s Brighton location provides the opportunity to work on big-budget, AAA console and PC games in the coolest city in the UK!",TRUE,
-Becky Dominick becky.dominick@digital.hmrc.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj1zZWFyY2hieWNvbnRleHRpZCZ1c2Vyc2VhcmNoY29udGV4dD03Nzk1MjI3NiZwYWdlY2xhc3M9Sm9icyZrZXk9ZmFpciZyZXFzaWc9MTU1Nzk0MTMxMC01N2Y3MjM5NWMyZTRiYmVmY2RhZmZkZTNjOWNiMTQ1NmUxODUxZDY1,,,,1628418,Senior User Researcher,https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183922.gif,HMRC,Worthing,Permanent,£50010-56510,FALSE,"£50,010","£56,510","£53,260",0.75,med-high,TRUE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfbm93PTEmYnJhbmRfaWQ9MCZhcHBseV91cmw9L2Nzci9sb2dpbi5jZ2kmamNvZGU9MTYyODQxOCZvd25lcj01MDcwMDAwJnBhZ2VjbGFzcz1BcHBseSZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,"# Senior User Researcher
-
-### About the job
+13,Becky Dominick becky.dominick@digital.hmrc.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj1zZWFyY2hieWNvbnRleHRpZCZ1c2Vyc2VhcmNoY29udGV4dD03Nzk1MjI3NiZwYWdlY2xhc3M9Sm9icyZrZXk9ZmFpciZyZXFzaWc9MTU1Nzk0MTMxMC01N2Y3MjM5NWMyZTRiYmVmY2RhZmZkZTNjOWNiMTQ1NmUxODUxZDY1,,,,1628418,Senior User Researcher,https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183922.gif,HMRC,Worthing,Permanent,£50010-56510,FALSE,"£50,010","£56,510","£53,260",0.8,med-high,TRUE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfbm93PTEmYnJhbmRfaWQ9MCZhcHBseV91cmw9L2Nzci9sb2dpbi5jZ2kmamNvZGU9MTYyODQxOCZvd25lcj01MDcwMDAwJnBhZ2VjbGFzcz1BcHBseSZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,"### About the job
 **Job description**
 
 HMRC is one of the largest organisations in the UK and we run the biggest digital operation in Government. Our digital business runs the IT behind tax and benefits services for 45 million individual and 4.9 million business customers. 
@@ -824,7 +780,7 @@ Civil Service pension schemes may be available for successful candidates.
 
 If you are applying for a role in an office within a regional centre location or a transitional or specialist site, then the following may apply: Daily Travel Assistance will be available for this role, provided the successful applicant is a current HMRC employee and meets the eligibility requirements outlined in the department’s Daily Travel Assistance guidance.
 
-###Things you need to know
+### Things you need to know
 **Security**
 
 Successful candidates must pass [basic security checks](https://www.gov.uk/government/publications/government-baseline-personnel-security-standard).
@@ -861,14 +817,14 @@ We also will ask you to complete a short user research exercise with a scenario 
 We will also ask questions that let you demonstrate your experience and technical skills relevant to the role. 
 
 Feedback will only be provided if you attend an interview or assessment.",TRUE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
-,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+14,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+15,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+16,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+17,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+18,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+19,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+20,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,
