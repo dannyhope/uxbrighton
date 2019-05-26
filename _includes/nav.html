@@ -1,54 +1,284 @@
+<style>
+	.archive-nav {
+		display: none;
+	}
+	body[data-overlay-active="menu"] {
+		overflow: hidden;
+	}
+	body[data-overlay-active="menu"] .archive-nav {
+		display: block;
+	}
 
-<nav class="nav-side background" role="navigation" id="events">
+	.archive-nav__body {
+		overflow-x: hidden; 
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		max-height: calc(100vh - 50px);
+	}
+	@media (min-width: 730px){
+  	body[data-overlay-active="menu"] .full-screen-overlay__inner {
+			margin: 50px auto;
+			max-height: calc(100vh - 100px);
+			max-width: 730px; 
+			border-radius: 5px;
+		} 
+		.archive-nav__body {
+			max-height: calc(100vh - 150px);
+		}
+	} 
+
+	@media (max-width: 730px){
+		.archive-nav__link,
+		.archive-nav__heading {
+			border-bottom: 1px solid #ddd;
+		}
+	}
+	.archive-nav__heading {
+		color: #777;
+		font-size: 1rem !important;
+		text-transform: uppercase !important;
+		letter-spacing: 0.2rem !important;
+		font-weight: 400 !important;
+		margin-bottom: 0 !important;
+	}
+	@media (min-width: 730px){
+		.archive-nav__heading {
+			margin-top: 24px;
+		}
+	}
+	.post-excerpt { 
+	display:none; }
+
+	.archive-nav__head {
+		height: 50px;
+    background: #f5f5f5;
+    z-index: 1;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+	}
+	.archive-nav__search-wrapper {
+		padding: 10px 0 0;
+		margin: 0 auto;
+		position: relative;
+	}
+	@media (max-width: 830px){
+		.archive-nav__search-wrapper {
+			padding: 10px 16px 0;
+			margin-right: 50px;
+		}
+	}
+	.archive-nav__search {
+    border-radius: 16px;
+    width: 100%;
+    box-shadow: inset 1px 2px 2px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    padding: 1px 10px 1px 36px;
+	}
+	.archive-nav__close {
+		box-sizing: border-box;
+    width: 50px;
+    height: 49px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 35px;
+    border: 0 none;
+    color: #343f44;
+    padding: 0;
+    background: #f5f5f5;
+    cursor: pointer;
+	}
+	.archive-nav__close:hover svg {
+		transform: scale(1.1);
+		transition: 0.2s;
+	}
 
 
-	{% assign has_upcoming = false %}
-	{% for post in site.posts %}
-		{% if post.upcoming == true %}
-			{% assign has_upcoming = true %}
-		{% endif %}
-	{% endfor %}
 
-	<input class="search" placeholder="Search conferences, talks &amp; workshops" />
-	<ul class="event-title-list list">
-	{% if has_upcoming %}
-		{% for post in site.posts %}
-			{% if post.upcoming == true %}
-				<li class="event-title-list-item event-upcoming {% if page.url == post.url %}current{% endif %}">
-					<a title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
-						<div class="post-title">{{ post.title }}</div>
-						<div class="post-date">{{post.date | date: "%-d %b"}}</div>
+
+	.archive-nav__search:focus {
+	  outline: none;
+	  box-shadow: 
+	  	0px 0px 12px #4D90FE, 
+	  	0px 0px 3px #4D90FE
+	  ;
+	}
+
+	@media (min-width: 730px){
+		.archive-nav .post-title {
+			font-size: 21px;
+			line-height: 1.25;
+			letter-spacing: 0;
+		}
+	}
+	.archive-nav__link {
+		padding: 8px 32px;
+	}
+</style>
+
+<script>
+	function noClose(e) { 
+		e.stopImmediatePropagation();
+	}
+</script>
+
+
+<nav role="navigation" id="js-archive-nav" class="archive-nav full-screen-overlay" data-overlay-trigger="false">
+
+	<div class="full-screen-overlay__inner" onclick="noClose(event)">
+		<div class="archive-nav__head">
+			<button onclick="$('body').attr('data-overlay-active', 'false');return false;" class="archive-nav__close right">
+        <span class="screen-reader-text">Close</span>
+				<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" style="width:30px;margin:10px;">
+					<g id="Artboard" fill="currentColor">
+					  <polygon id="Shape" points="2.32258065 36 18.0829493 20.2396313 33.843318 36 36 33.843318 20.2396313 18.0829493 36 2.32258065 33.843318 0 18.0829493 15.7603687 2.32258065 0 0 2.32258065 15.7603687 18.0829493 0 33.843318"></polygon>
+					</g>
+				</svg>
+			</button>
+			<div class=" archive-nav__search-wrapper width-m" style="margin:0 70px 0 20px;">
+				<div class="relative">
+					<img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 7px;left: 12px;" alt="search icon">
+					<label for="search_events" class="screen-reader-text">Search events</label>
+					<input id="search_events" class="search archive-nav__search" />				
+				</div>
+
+			</div>
+		</div>
+
+		<div class="archive-nav__body">
+			<div class="width-m centre">
+				{% assign has_upcoming = false %}
+				{% for post in site.posts %}
+					{% if post.upcoming == true %}
+						{% assign has_upcoming = true %}
+					{% endif %}
+				{% endfor %}
+
+				
+
+
+				
+				
+				
+			<ul class="list pt2">
+				<li>
+					<h2 class="fs-s  track-loose uppercase regular pv1 ph4">Upcoming Events</h2>
+				</li>		
+
+
+				<li class="event-title-list-item">
+					<a class="block-link pv3 ph4 archive-nav__link" href="/2019">
+						<div class="post-title weight-900 block-link__highlight">2019 Conference ★ Focus on Design</div>
+						<div class="post-date ">1 November 2019</div>
+						<div class="post-excerpt">Our 9th one day annual conference. More details will be announced here: http://uxbrighton.org.uk Want to sponsor us? Get in touch with our Conference Producer Emmeline at emmeline@uxbrighton.org.uk</div>
 					</a>
-          <div class="fulltext">{{post.date | date: "%-d %b %Y"}} {{ post.content | strip_html }}</div>
 				</li>
-			{% endif %}
-		  {% endfor %}
-	{% endif %}
 
 
-		{% for post in site.posts %}
-			{% if post.stub == null %}
-				{% if post.upcoming == null or post.upcoming == false %}
 
-					{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
-					{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
-					<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}{% if postyear == currentyear %} current-year{% endif %}">
-						<a title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
-							<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
-							<div class="post-date">
+				
+				{% if has_upcoming %}
+					{% for post in site.posts %}
 
-							{% if postyear >= currentyear %}
-								{{ post.date | date: "%-d %B" }}
- 							{% else %}
-								{{ post.date | date: "%-d %B %Y" }}
-					 		{% endif %}
-							</div>
-						</a>
-            <div class="fulltext">{{post.date | date: "%-d %b %Y"}} {{ post.title }} {{ post.content | strip_html }}</div>
-					</li>
+						{% if post.upcoming == true && post.hide_in_nav != true %}
+							{% if post.hide_in_nav == true %}
+							{% else %}
+								<li class="event-title-list-item event-upcoming {% if page.url == post.url %}current{% endif %}">
+									<a class="block-link pv3 ph4  archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
+										<div class="post-title fs-l weight-900 block-link__highlight">{{ post.title }}</div>
+										<div class="post-date ">{{post.date | date: "%-d %B %Y"}}{% if page.start %}<span class="event-time inline-block">, {{page.start}}</span>{% endif %}</div>
+										<div class="post-excerpt">{{ post.content | strip_html }}</div>
+									</a>
+								</li>							
+							{% endif %}
 
+						{% endif %}
+					{% endfor %}
 				{% endif %}
-			{% endif %}
-	  {% endfor %}
-	</ul>
+				
+				
+				<li>
+					<hr>
+					<h2 class="fs-s  track-loose uppercase regular pv1 ph4 ">Archive: Previous Events</h2>
+				</li>
+
+				<li class="event-title-list-item event-previous ">
+					<a class="block-link pv3 ph4  archive-nav__link" href="/2018/">
+						<div class="post-title weight-900 block-link__highlight">2018 Conference ★ Advancing Research</div>
+						<div class="post-date ">2 November</div>
+						<div class="post-excerpt">UX Brighton 2018: Advancing Research Inspire your team with sharply focused insights. Research belongs at the heart of UX. It guides our work and shapes our decisions. That’s why Advancing Research is the theme of UX Brighton 2018.
+						Katy Arnold
+						As head of user research at the Home Office, Katy Arnold has a major role in shaping important digital services used by millions of people. She is committed to raising standards of user research, and is building a community of skilled practitioners within the UK Government.
+
+						Katy fervently champions the building of digital inclusion into our society’s online landscape. She shares her knowledge and experience at events around Europe.
+
+						@katyarnie
+
+						Kate Towsey
+						Kate believes that in order for research to be truly valuable, it must be done thoroughly, professionally, and securely. She creates labs, panels and archives that are carefully designed to meet demanding specifications, sometimes assembled with minimal resources, but never compromising quality.
+
+						Working freelance, Kate refuses to fit neatly within job titles. Instead, she takes an entrepreneurial approach to her work with government, agencies, universities, broadcasters and others. The BBC and Co-Op are the current beneficiaries of Kate’s exacting approach.
+
+						@katetowsey
+						www.katetowsey.co.uk
+
+						Georgia Rakusen
+						Georgia Rakusen is an experienced UX researcher with a background in tech and start-up companies. She currently holds a senior research post with funky digital print mavericks MOO.
+
+						Georgia’s particular specialism involves research into the UX of the digital experiences that take place between colleagues. Her research into ‘internal UX’ helps MOO improve the flow of communication and collaboration between the company’s designers, technologists, marketers and others.
+
+						Internal UX is often overlooked within an industry that focuses its research on customer interactions. Georgia reminds us all that the observations and improvements we can make around internal experiences can be equally important to business success.
+
+						@G_Rak
+
+						James Woudhuysen
+						Professor James Woudhuysen is a forecaster, a futurist and a big strategic thinker. With a background in technology, manufacturing and academia, he’s built a formidable reputation for looking ahead to identify the trends, risks and innovations with the potential to shape the way we live and work.
+
+						While James is widely known for the vision and frankness within his own forecasting, he’s a great believer in enabling us all to develop useful, practical and sensible forecasting skills. He freely shares his advice on what researchers can do to get to grips with the future that awaits their customers, their industry and ways of working.
+
+						@jameswoudhuysen
+						www.woudhuysen.com
+
+						Emma Boulton
+						Emma is a passionate advocate for the role of research within design. Her 18 years of experience have made her a trusted and entertaining voice on all aspects of UX research. Emma’s solid background of work at the BBC, at Monotype, and in other agency and client-side roles, gives her valuable, insightful perspectives that she loves to share.
+
+						Emma firmly believes in the need for high quality research, integrated within every aspect of the processes we create as teams of designers and other professionals.
+
+						@emmaboulton
+						www.collectivelyemmaboulton.com</div>
+					</a>
+				</li>
+
+				{% for post in site.posts %}
+					{% if post.stub == null %}
+						{% if post.upcoming == null or post.upcoming == false %}
+
+							{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
+							{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
+							<li class="event-title-list-item event-previous {% if page.url == post.url %}current{% endif %}{% if postyear == currentyear %} current-year{% endif %}">
+								<a class="block-link pv3 ph4   archive-nav__link" title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
+									<div class="post-title weight-900 block-link__highlight">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
+									<div class="post-date">
+
+									{% if postyear >= currentyear %}
+										{{ post.date | date: "%-d %B" }}
+										{% else %}
+										{{ post.date | date: "%-d %B %Y" }}
+							 		{% endif %}
+									</div>
+									<div class="post-excerpt">{{ post.content | strip_html }}</div>
+								</a>
+			          
+							</li>
+
+						{% endif %}
+					{% endif %}
+			  {% endfor %}	
+				</ul>	
+			</div><!-- width-m -->		
+		</div>		
+	</div>
+
+	
+
+
 </nav>

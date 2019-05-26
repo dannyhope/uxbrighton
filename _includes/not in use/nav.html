@@ -1,0 +1,54 @@
+
+<nav class="nav-side background" role="navigation" id="events">
+
+
+	{% assign has_upcoming = false %}
+	{% for post in site.posts %}
+		{% if post.upcoming == true %}
+			{% assign has_upcoming = true %}
+		{% endif %}
+	{% endfor %}
+
+	<input class="search" placeholder="Search conferences, talks &amp; workshops" />
+	<ul class="event-title-list list">
+	{% if has_upcoming %}
+		{% for post in site.posts %}
+			{% if post.upcoming == true %}
+				<li class="event-title-list-item event-upcoming {% if page.url == post.url %}current{% endif %}">
+					<a title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
+						<div class="post-title">{{ post.title }}</div>
+						<div class="post-date">{{post.date | date: "%-d %b"}}</div>
+					</a>
+          <div class="fulltext">{{post.date | date: "%-d %b %Y"}} {{ post.content | strip_html }}</div>
+				</li>
+			{% endif %}
+		  {% endfor %}
+	{% endif %}
+
+
+		{% for post in site.posts %}
+			{% if post.stub == null %}
+				{% if post.upcoming == null or post.upcoming == false %}
+
+					{% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
+					{% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
+					<li class="event-title-list-item {% if page.url == post.url %}current{% endif %}{% if postyear == currentyear %} current-year{% endif %}">
+						<a title="{{ post.title }}" href="{{ site.url }}{{post.url}}" {% if post.conference == true %}target="conference"{% endif %}>
+							<div class="post-title">{{ post.title }} {% if post.noinfo == true %}<span class="stub">stub</span>{% endif %}</div>
+							<div class="post-date">
+
+							{% if postyear >= currentyear %}
+								{{ post.date | date: "%-d %B" }}
+ 							{% else %}
+								{{ post.date | date: "%-d %B %Y" }}
+					 		{% endif %}
+							</div>
+						</a>
+            <div class="fulltext">{{post.date | date: "%-d %b %Y"}} {{ post.title }} {{ post.content | strip_html }}</div>
+					</li>
+
+				{% endif %}
+			{% endif %}
+	  {% endfor %}
+	</ul>
+</nav>
