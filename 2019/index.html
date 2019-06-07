@@ -27,8 +27,12 @@ upcoming-button-text: ""
   .masthead {
     background:#1a272c;
   }
-  .masthead__link {
+  .masthead__links .masthead__link {
     color: #fff;
+    border-color: #000 !important;
+  }
+  .masthead__link__unfocused {
+    color: #000;
     border-color: #000 !important;
   }
   #promotions hr {
@@ -108,7 +112,7 @@ upcoming-button-text: ""
             <div class="-u2of3-over-m pt3 bba1" style="margin-bottom: 20px;">
               <h1 itemprop="name" class="fs-xxxl leading-solid">
                 <span class="fs-l block track-normal weight-400 mb1" >UX Brighton 2019</span>
-                Focus on Design
+                A Focus on Design
               </h1>
               <p class="mt0 fs-l regular track-normal mb0">Friday 1 November, Brighton Dome</p>
             </div><!-- u2of3-over-m -->
@@ -124,23 +128,73 @@ upcoming-button-text: ""
           </div><!-- container -->
         </div><!-- row -->
       </div>
-
     </section>
 
+    <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
+      <div class="container ">
+        <ul class="nav ">
 
+          <li class="inline-block nav-item color-black">
+            <div class="hidden-under-m hidden-if--nav--in-page-is-stuck">
+              In this page:
+            </div>
+            <a href="#overview" class="-show-if--nav--in-page-is-stuck masthead__link nav-link color-black">
+              Intro<span class="hidden-under-m">duction</span>
+            </a>
+          </li>
+
+          <li class="nav-item inline-block ">
+            <a href="#highlights" class="masthead__link nav-link color-black">Past highlights</a>
+          </li>
+
+          <!-- <li class="nav-item inline-block ">
+            <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
+          </li> -->
+
+          <li class="nav-item inline-block ">
+            <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
+          </li>
+
+          <li class="nav-item inline-block nav-item--tickets">
+            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--green">Buy Tickets</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
 
     <section id="overview">
+
       <div class="container">
 
 
         <div class="row">
-          <div class="u2of3-over-l left-over-l  gutter-right">
+          <!-- <div class="u2of3-over-l left-over-l  gutter-right">
             <h2 class="mb2">Join us for our 9th annual one-day conference</h2>
             <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
             <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Super early bird ticket — 35% off</a>
-          </div><!-- u1of2-over-m -->
+          </div> --><!-- u1of2-over-m -->
+
+          <div class="u2of3-over-m left-over-m  gutter-right">
+            <h2 class="mb2">Join us for our 9th annual one-day conference</h2>
+            <p class="standfirst">Why Design? Why now? Because it's being neglected.</p>
+            <p>While the industry concentrates on research as the foundation for user experience, design chugs along in the background, not getting the attention it deserves. On many projects design just happens, but it should fit hand in glove with research: design should answer the challenges that research identifies.</p>
+
+            <p>At this year's conference, we want to focus on the craft of design: on expanding our understanding and the skills we need to build fluid and rewarding experiences. We want to stimulate discussion and enrich design knowledge, elevating the importance of design in the UX process. We want to help widen the understanding of design, so that everyone who builds UX outcomes can speak the same language.</p>
+
+            <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. So <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">join us</a>: our goal is that everyone who attends will leave with a heightened awareness of design.</p>
+
+
+
+            <!-- <h3 class=" ">Book now — ticket sales end 1st November</h3> -->
+            <!-- <p>Join us for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
+            <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>-->
+          </div>
 
           <div class="u1of3-over-l right-over-l gutter-left pl0-under-l" id="">
+
+            <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
+            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy super early bird tickets — 35% off</a>
 
             <h2 class="mb2">Stay updated</h2>
             <p>Join our newsletter for announcements and information about our evening talks.</p>
@@ -196,7 +250,7 @@ upcoming-button-text: ""
         <div class="container">
           <div class="row">
             <div class="u2of3-over-l left-over-l  pr0-under-l">
-              <h2 class="mt0 mb2">Highlights from previous years</h2>
+              <h2 id="highlights" class="mt0 mb2">Highlights from previous years</h2>
               <div class="clearfix">
                 <div class="video-box u1of2-over-s left-over-s ">
                   <a href="https://youtu.be/rz7sy81Yg5E" title="Opens in YouTube">
