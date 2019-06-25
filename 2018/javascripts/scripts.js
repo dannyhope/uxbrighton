@@ -1,6 +1,7 @@
 // @codekit-prepend "_scrollspy.js";
 // @codekit-prepend "_fitvids.js";
 // @codekit-prepend "_b_smoothScroll.js";
+// @codekit-prepend "_stickybits.js";
 
 
 
@@ -12,6 +13,8 @@ $(function() {
     var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
     return v ? v[2] : null;
   }
+
+  // stickybits('.sticky', {useStickyClasses: true});
 
 
   if (getCookie('showJobs')) {

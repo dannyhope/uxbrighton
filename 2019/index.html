@@ -98,6 +98,33 @@ upcoming-button-text: ""
       align-content: right;
     }
   }
+  @media (min-width: 730px ){
+    .nav-item--tickets {
+
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    #top .nav-item--tickets a {
+      padding: 20px 0 0 !important;
+      height: auto;
+    } 
+    #top .nav-item--tickets a:hover {
+      box-shadow: initial;
+    }
+  }
+  .nav-item--tickets {
+    display: none;
+  }
+  .nav--in-page-is-stuck .nav-item--tickets {
+    display: inline-block;
+  }
+  a.button.button--large.button--green.bold.standfirst {
+    width: 100%;
+    max-width: 355px;
+  }
+
+
+
 
 </style>
 
@@ -132,7 +159,7 @@ upcoming-button-text: ""
 
     <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
       <div class="container ">
-        <ul class="nav ">
+        <ul class="nav ph0">
 
           <li class="inline-block nav-item color-black">
             <!-- <div class="hidden-if--nav--in-page-is-stuck">
@@ -144,19 +171,19 @@ upcoming-button-text: ""
           </li>
 
           <li class="nav-item inline-block ">
-            <a href="#highlights" class="masthead__link nav-link color-black">Past highlights</a>
-          </li>
-
-          <li class="nav-item inline-block hidden-under-m">
-            <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
+            <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
           </li>
 
           <li class="nav-item inline-block ">
+            <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
+          </li>
+
+          <li class="nav-item inline-block hidden-under-l">
             <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
           </li>
 
           <li class="nav-item inline-block nav-item--tickets">
-            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--green" style="padding:8px;">Buy Tickets</a>
+            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--green bold" style="padding:8px; vertical-align: baseline;"><span class="hidden-under-m">Buy </span>Tickets</a>
           </li>
 
         </ul>
@@ -168,14 +195,9 @@ upcoming-button-text: ""
       <div class="container">
 
 
-        <div class="row">
-          <!-- <div class="u2of3-over-l left-over-l  gutter-right">
-            <h2 class="mb2">Join us for our 9th annual one-day conference</h2>
-            <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
-            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Super early bird ticket — 35% off</a>
-          </div> --><!-- u1of2-over-m -->
+        <div class="row gutters__container">
 
-          <div class="u2of3-over-m left-over-m  gutter-right">
+          <div class="u2of3-over-l left-over-l  gutters">
             <h2 class="mb2">Join us for our 9th annual one-day conference</h2>
             <p class="standfirst">Why Design? Why now? Because it's being neglected.</p>
             <p>While the industry concentrates on research as the foundation for user experience, design chugs along in the background, not getting the attention it deserves. On many projects design just happens, but it should fit hand in glove with research: design should answer the challenges that research identifies.</p>
@@ -191,11 +213,13 @@ upcoming-button-text: ""
             <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>-->
           </div>
 
-          <div class="u1of3-over-l right-over-l gutter-left pl0-under-l" id="">
-            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy super early bird tickets — 35% off</a>
-            <p class="color-info">A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
 
-            <h2 class="mb2">Stay updated</h2>
+          <div class="u1of3-over-l right-over-l gutters gutter-top-under-m">
+            <h2 class="mb2">Super early bird tickets</h2>
+            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a>
+            <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
+
+            <h2 class="mb2 mt4">Stay updated</h2>
             <p>Join our newsletter for announcements and information about our evening talks.</p>
             <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup js-email-signup">
               <label class="screen-reader-text" for="fieldEmail-2">Email</label>
@@ -232,19 +256,38 @@ upcoming-button-text: ""
           </div><!-- u1of2-over-m -->
         </div><!-- row -->
 
-        <hr>
+    </section>
 
-        <div class="row">
-          <a href="#sponsors" class="right block ml6 pt3" style="opacity:0.4;">
-            <img src="/2019/images/sponsor-logos/madgex.svg" alt="" width="824" height="201" style="max-width:300px;">
-          </a>
-          <div class="table">
-            <h3 class="mt0">News: First sponsor announced</h3>
-            <p>Madgex have wasted no time in booking their sponsor slot for this years conference following the popularity of last years biggest ever UX Brighton conference. <a href="#sponsors">More about sponsorship.</a></p>
+
+    <section class="testimonial container">
+      <div class="row border-top padding-top-row mt0">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>Hands-down the most helpful and practical UX conference I attended.</p>
           </div>
+          <div class="quotee">Agnieszka Rzesniowiecka</div>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row border-top padding-top-row mt0 gutter-top-under-m">
+        <h3 class="mt0">News: First sponsor announced</h3>
+        <div class="row mt0 gutters__container">
+          <a href="#sponsors" class="right-over-l block gutters" style="opacity:0.4;">
+            <img src="/2019/images/sponsor-logos/madgex.svg" alt="" width="824" height="201" style="max-width:300px; width:100%;">
+          </a>
+          <div class="table gutters">
+            <p>Madgex have wasted no time in booking their sponsor slot for this years conference following the popularity of last years biggest ever UX Brighton conference. <a href="#sponsors">More about sponsorship.</a></p>
+          </div>          
         </div>
 
+        
       </div>
+    </section>
+
+
+
       <div class="bg-grey-5">
         <div class="container">
           <div class="row">
@@ -287,7 +330,8 @@ upcoming-button-text: ""
           </div><!-- row -->
         </div>
       </div>
-    </section>
+
+
 
 
     <style>

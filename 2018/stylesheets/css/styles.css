@@ -951,19 +951,12 @@ body.scroll-started .masthead__logo {
 
 @media only screen and (max-width: 730px) {
   .nav-item--tickets {
-    border: 0 none; }
-    .nav-item--tickets a {
-      display: inline-block;
-      border: 0 none;
-      border-radius: 0;
-      font-weight: 900;
-      padding: 19px 5px 18px;
-      letter-spacing: 0.25px;
-      height: 48px; } }
+    border: 0 none; } }
 
 @media only screen and (max-width: 400px) {
   .nav-item--tickets a {
-    padding: 13px 10px; } }
+    padding: 13px 10px;
+    letter-spacing: 0.25px; } }
 
 @media only screen and (max-width: 330px) {
   .nav-item--tickets a {
