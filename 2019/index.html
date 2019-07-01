@@ -11,6 +11,9 @@ image: "https://uxbrighton.org.uk/images/cards/2019-ultra-early.jpg"
 slug: "conference-2019"
 fullurl: "https://uxbrighton.org.uk/2019/"
 
+body-classes: "is-pre-conference"
+display-speakers: false
+
 
 masthead-color: dark
 hero-image: ""
@@ -122,10 +125,6 @@ upcoming-button-text: ""
     width: 100%;
     max-width: 355px;
   }
-
-
-
-
 </style>
 
 
@@ -269,67 +268,92 @@ upcoming-button-text: ""
         </blockquote>
       </div>
     </section>
+<style>
+  .hover-grayscale img {
+    filter: grayscale(1);
+    opacity:0.4;
+    transition: all 0.5s;
+  }
+  .hover-grayscale:hover img {
+    filter: grayscale(0);
+    opacity: 1;
+    transition: all 0s;
+  }
 
+</style>
     <section class="container">
-      <div class="row border-top padding-top-row mt0 gutter-top-under-m">
-        <h3 class="mt0">News: First sponsor announced</h3>
-        <div class="row mt0 gutters__container">
-          <a href="#sponsors" class="right-over-l block gutters" style="opacity:0.4;">
+      <div class="row border-top padding-top-row mt0 gutter-top-under-m gutters__container flex-over-m ">
+        <div class="u1of2-over-m left-over-m gutters flex-over-m flex-column gutter-bottom-under-m">
+          <h3 class="mt0">Conference Accomodation</h3>
+          <a href="https://book.passkey.com/go/bdux2019" class="flex-grow hover-grayscale content-center">
+            <img src="https://www.visitbrighton.com/dbimgs/logo(3).png" alt="" width="824" style="max-width:300px; width:100%;">
+          </a>
+          <p class="mt2">With attendees travelling from all over the world to attend UX Brighton we are delighted to offer <a href="https://book.passkey.com/go/bdux2019">specially negotiated accommodation rates for attendees.</a></p>        
+        </div><!-- u1of2-over-m left-over-m -->
+        <div class="u1of2-over-m left-over-m gutters flex-over-m flex-column ">
+          <h3 class="mt0">News: First sponsor announced</h3>
+          <a href="#sponsors" class=" hover-grayscale flex-grow content-center">
             <img src="/2019/images/sponsor-logos/madgex.svg" alt="" width="824" height="201" style="max-width:300px; width:100%;">
           </a>
-          <div class="table gutters">
-            <p>Madgex have wasted no time in booking their sponsor slot for this years conference following the popularity of last years biggest ever UX Brighton conference. <a href="#sponsors">More about sponsorship.</a></p>
-          </div>          
-        </div>
-
-        
+          <p class="mt2">Madgex have wasted no time in booking their sponsor slot for this years conference following the popularity of last years biggest ever UX Brighton conference. <a href="#sponsors">More about sponsorship.</a></p>
+        </div><!-- u1of2-over-m left-over-m -->
       </div>
     </section>
 
 
 
-      <div class="bg-grey-5">
-        <div class="container">
-          <div class="row">
-            <div class="u2of3-over-l left-over-l  pr0-under-l">
-              <h2 id="highlights" class="mt0 mb2">Highlights from previous years</h2>
-              <div class="clearfix">
-                <div class="video-box u1of2-over-s left-over-s ">
-                  <a href="https://youtu.be/rz7sy81Yg5E" title="Opens in YouTube">
-                    <img src="/assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png" alt="ResearchOps - Kate Towsey">
-                  </a>
-                </div>
-                <div class="video-box u1of2-over-s left-over-s">
-                 <a href="https://youtu.be/8A3SEmvx7uY" title="Opens in YouTube">
-                    <img src="/assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png" alt="UX and Forecasting - James Woudhuysen">
-                  </a>
-                </div>
-              </div><!-- row -->
-              <div class="clearfix">
-                <div class="video-box u1of2-over-s left-over-s">
-                  <a href="https://youtu.be/DjRR1MpBr1g" title="Opens in YouTube">
-                    <img src="/assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png" alt="Top Tasks - Gerry McGovern">
-                  </a>
-                </div>
-                <div class="video-box u1of2-over-s left-over-s">
-                  <a href="https://youtu.be/h9s3DrImGXA" title="Opens in YouTube">
-                    <img src="/assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png" alt="Atomic UX - Daniel Pidcock">
-                  </a>
-                </div>
-              </div><!-- row -->
-            </div><!-- u1of2-over-m -->
+    <section class="bg-grey-5">
+      <div class="container">
+        <h2 id="highlights" class="mb2 gutter-top">Highlights from previous years</h2>
+        <div class="row mt0">
+          <div class="u2of3-over-l left-over-l  pr0-under-l">
+            
+            <div class="clearfix">
+              <div class="video-box u1of2-over-s left-over-s ">
+                <a href="https://youtu.be/rz7sy81Yg5E" title="Opens in YouTube">
+                  <img src="/assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png" alt="ResearchOps - Kate Towsey">
+                </a>
+              </div>
+              <div class="video-box u1of2-over-s left-over-s">
+               <a href="https://youtu.be/8A3SEmvx7uY" title="Opens in YouTube">
+                  <img src="/assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png" alt="UX and Forecasting - James Woudhuysen">
+                </a>
+              </div>
+            </div><!-- row -->
+            <div class="clearfix">
+              <div class="video-box u1of2-over-s left-over-s">
+                <a href="https://youtu.be/DjRR1MpBr1g" title="Opens in YouTube">
+                  <img src="/assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png" alt="Top Tasks - Gerry McGovern">
+                </a>
+              </div>
+              <div class="video-box u1of2-over-s left-over-s">
+                <a href="https://youtu.be/h9s3DrImGXA" title="Opens in YouTube">
+                  <img src="/assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png" alt="Atomic UX - Daniel Pidcock">
+                </a>
+              </div>
+            </div><!-- row -->
+          </div><!-- u1of2-over-m -->
 
-            <div class="u1of3-over-l right-over-l gutter-left pb3 pt3-under-s pt1">
-              <blockquote>
-                <div class="quote">
-                  <p>UX Brighton is one of the premier UX events in Europe. In just one day, you’ll get access to some of the most cutting-edge presentations you can imagine. Well organized, fabulous location, packed with valuable content — go if you can: it’s worth the investment.</p>
-                </div>
-                <div class="quotee">Jim Kalbach, Past Speaker</div>
-              </blockquote>
-            </div><!-- u1of2-over-m -->
-          </div><!-- row -->
-        </div>
+          <div class="u1of3-over-l right-over-l gutter-left pb3 pt3-under-s pt1">
+            <blockquote>
+              <div class="quote">
+                <p>UX Brighton is one of the premier UX events in Europe. In just one day, you’ll get access to some of the most cutting-edge presentations you can imagine. Well organized, fabulous location, packed with valuable content — go if you can: it’s worth the investment.</p>
+              </div>
+              <div class="quotee">Jim Kalbach, Past Speaker</div>
+            </blockquote>
+          </div><!-- u1of2-over-m -->
+        </div><!-- row -->
       </div>
+    </section>
+
+
+
+
+    {% if page.display-speakers == true %}
+      {% include_relative conf-page-partials/speakers.html %}
+    {% endif %}
+
+
 
 
 
@@ -382,7 +406,7 @@ upcoming-button-text: ""
 
 
 
-<!--
+        <!--
         <hr>
         <h3 class=" pt2 fs-h2 mb2">Premium Sponsors</h3>
         <div class="row pb5 eh-row">
@@ -406,14 +430,15 @@ upcoming-button-text: ""
             </div>
           </div>
         </div>
- -->
+        -->
 
 
         <hr>
         <h3 class=" pt2 fs-h2 mb2">Standard Sponsors</h3>
 
         <div class="row pb5 eh-row">
-<!--           <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
+          <!--           
+          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
             <div class="drop pa2 sponsor sponsor-3-star">
               <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
                 <a href="https://balsamiq.com/" class="" title="balsamiq.com"><img src="images/sponsor-logos/balsamiq-logo-noborder-screen.svg" alt="" width="239" height="59"></a>
@@ -485,12 +510,29 @@ upcoming-button-text: ""
 
             </div><!-- sponsor -->
           </div><!-- u1of5-over-s -->
+
+
+          <style>
+            .centred-faint {
+              color: #cccfd0;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              width: 100%;
+              text-align: center;
+              right: 0;
+            }
+          </style>
+
           <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
-            <a href="/2019/sponsorship" class="block drop pa2 sponsor sponsor-3-star" title="Sponsorship opportunities">
+            <a href="/2019/sponsorship" class="block drop pa2 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
+              <div class="centred-faint">Sponsorship Opportunity</div>
             </a>
           </div>
-          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
+          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item relative">
             <a href="/2019/sponsorship" class="block drop pa2 sponsor sponsor-3-star" title="Sponsorship opportunities">
+              <div class="centred-faint">Sponsorship Opportunity</div>
             </a>
           </div>
         </div><!-- row -->

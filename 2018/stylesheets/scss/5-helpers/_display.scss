@@ -77,7 +77,8 @@
   min-width: 0; /* 1 */
   min-height: 0; /* 1 */
 }
-.flex-none { flex: none }
+.flex-grow  { flex: 1 0 auto; }
+.flex-none  { flex: none }
 
 .order-0 { order: 0 }
 .order-1 { order: 1 }
