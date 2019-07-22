@@ -29,7 +29,7 @@ Content is the foundation of web design - from site strategy to interaction desi
 <p><a href="https://www.slideshare.net/uxbri/taking-content-from-zero-to-hero-rachel-mcconnell"><strong>Slides</strong> for How to take your content from zero to hero</a></p>
 
 ### About Rachel
-<div class="text-center"><img alt="Rachel McConnell" src="/2018/images/photos/feb-1.jpg" alt="" style="" class="talk__thumb circle right-over-m" width="200"></div>
+<div class="text-center"><img alt="Rachel McConnell" src="/2018/images/photos/feb-1.jpg" style="" class="talk__thumb circle right-over-m" width="200"></div>
 
 Rachel is the author of 'Why you need a content team and how to build one'.  She is currently senior content designer at Deliveroo but has previously produced content for brand such as M&S, John Lewis, Tesco, Nationwide and Flora.  Rachel is on a mission to educate design teams on the the importance of content and help businesses increase their content maturity.
 

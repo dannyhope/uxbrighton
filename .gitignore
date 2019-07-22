@@ -11,3 +11,4 @@ to-do.md
 node_modules
 yarn.lock
 package.json
+.vscode
