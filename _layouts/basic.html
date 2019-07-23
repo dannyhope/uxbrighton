@@ -9,26 +9,26 @@
 
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}">
+    <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}"{{'2018/' | absolute_url}}"{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
-    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}"{{'2018/images/cards/ux-brighton-2018-card.jpg' | absolute_url}}"{% endif %}" >
 
   <!-- twitter card tags additive with the og: tags -->
     <meta name="twitter:card" content="summary_large_image" >
-    <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
-    <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
+    <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}"{{'2018/images/cards/ux-brighton-2018-card.jpg' | absolute_url}}"{% endif %}" >
+    <meta name="twitter:domain" value="{{'2018/' | absolute_url}}" >
     <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
     <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
-    <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}" >
+    <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}"{{'2018/' | absolute_url}}"{% endif %}" >
 
   <!-- Icons -->
-    <link rel="apple-touch-icon" href="https://uxbrighton.org.uk/2013/images/icon.png">
-    <link rel="icon" href="https://uxbrighton.org.uk/2013/images/favicon.png">
-    <!--[if IE]><link rel="shortcut icon" href="https://uxbrighton.org.uk/images/favicon.ico"><![endif]-->
+    <link rel="apple-touch-icon" href="{{'2013/images/icon.png' | absolute_url}}">
+    <link rel="icon" href="{{'2013/images/favicon.png' | absolute_url}}">
+    <!--[if IE]><link rel="shortcut icon" href="{{'images/favicon.ico' | absolute_url}}"><![endif]-->
     <!-- or, set /favicon.ico for IE10 win -->
     <!-- <meta name="msapplication-TileColor" content="#000">-->
-    <meta name="msapplication-TileImage" content="http://uxbrighton.org.uk/2013/images/icon.png">
+    <meta name="msapplication-TileImage" content="{{'2013/images/icon.png' | absolute_url}}">
 
   <!-- Styles -->
     <link rel="stylesheet" href="/2018/fonts/museo/sans/font.css">
