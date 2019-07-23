@@ -4,11 +4,11 @@ import requests
 from xml.etree.ElementTree import fromstring
 from xmljson import badgerfish as bf
 
-# Specify your id from first registering on https://achecker.ca/checker/index.php and copy/pasting the ID
-# into a Python script file that has: ID = 'YOUR_ID_HERE'
-from settings import ID
 
-API_LINK = f'https://achecker.ca/checkacc.php?id={ID}'
+with open('./web-service-id.txt', 'r') as file_handle:
+    WEB_SERVICE_ID = file_handle.read()
+
+API_LINK = f'https://achecker.ca/checkacc.php?id={WEB_SERVICE_ID}'
 OUTPUT_DIR = os.path.join(os.getcwd(), 'output')
 NUM_URLS_TO_CHECK = None
 

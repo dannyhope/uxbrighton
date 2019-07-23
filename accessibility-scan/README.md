@@ -2,7 +2,8 @@
 
 ## Public API Key Setup
 
-- Make instructions here for https://achecker.ca/checker/
+- Go to [this](https://achecker.ca/checker/) site and register an account
+- Once registered, go to the profile page and copy and paste the `Web Service ID` field into a file in this directory named `web-service-id.txt`
 
 ## Setup
 
