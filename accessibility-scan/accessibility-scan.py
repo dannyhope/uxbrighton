@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import requests
 from xml.etree.ElementTree import fromstring
@@ -10,7 +11,10 @@ with open('./web-service-id.txt', 'r') as file_handle:
 
 API_LINK = f'https://achecker.ca/checkacc.php?id={WEB_SERVICE_ID}'
 OUTPUT_DIR = os.path.join(os.getcwd(), 'output')
-NUM_URLS_TO_CHECK = None
+try:
+    NUM_URLS_TO_CHECK = int(sys.argv[1])
+except (ValueError, IndexError):
+    NUM_URLS_TO_CHECK = None
 
 if os.path.isfile(OUTPUT_DIR):
     raise Exception("Specified output directory is a file")
@@ -53,8 +57,8 @@ for i in range(NUM_URLS_TO_CHECK if NUM_URLS_TO_CHECK else len(url_data)):
     if summary['status']['$'] == 'PASS':
         print('Passed! moving on ...')
         continue
-    print('Failed with ' + str(summary['NumOfErrors']['$']) + ' errors, ' + str(summary['NumOfLikelyProblems']['$'])
-          + ' likely problems and ' + str(summary['NumOfPotentialProblems']['$']) + ' potential problems')
+    print('Failed with ' + str(summary['NumOfErrors']['$']) + ' errors, ' + str(summary['NumOfLikelyProblems']['$']) +
+          ' likely problems and ' + str(summary['NumOfPotentialProblems']['$']) + ' potential problems')
 
     response = requests.get(API_LINK + '&uri=' + url)
     file_name = ''.join([char for char in url if char.isalnum()]) + '.html'
