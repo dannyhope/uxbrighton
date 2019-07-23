@@ -21,7 +21,7 @@ Places are limited to just 20 attendees in order to enable a highly interactive 
 
 ## What you'll learn
 
-<img src="/2017/photos/Gerry-McGovern-4-cropped-925x925.jpg" class="speaker-photo">
+<img alt="Photograph of Gerry McGovern" src="/2017/photos/Gerry-McGovern-4-cropped-925x925.jpg" class="speaker-photo">
 
 If you're designing or managing a website or app, how do you know what really matters to your customers? How do you know what really doesn't matter? Once you've identified what really matters, how do you ensure that these top tasks are easy to find? How do you ensure that they are easy to do? As you change your website or app, how do you know the customer experience is getting better? How do you develop customer experience metrics that can convince management you're doing a good job?
 
