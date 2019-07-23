@@ -3,7 +3,7 @@
 ## Accessibility checker web service id setup
 
 - Go to [this](https://achecker.ca/checker/) site and register an account
-- Once registered, go to the profile page and copy and paste the `Web Service ID` field into a file in this directory named `web-service-id.txt`
+- Once registered, go to the [profile page](https://achecker.ca/profile/index.php) and copy and paste the `Web Service ID` field into a file in this directory named `web-service-id.txt`
 
 ## Setting the local environment up
 
