@@ -48,9 +48,11 @@ for url in url_data:
         urls.append(url[key]['$'])
 
 
-for i in range(NUM_URLS_TO_CHECK):
+iter_limit = NUM_URLS_TO_CHECK if NUM_URLS_TO_CHECK is not None else len(urls)
+
+for i in range(iter_limit):
     url = urls[i]
-    print(f'\n({i}/{NUM_URLS_TO_CHECK}): Checking {url}')
+    print(f'\n({i}/{iter_limit}): Checking {url}')
     response = requests.get(API_LINK + '&output=rest&uri=' + url)
     cleaned_content = re.sub(rb'&[a-z]+;', lambda match: b'&amp;' + match.group(0)[1:], response.content)
     xml_response = bf.data(fromstring(cleaned_content))
