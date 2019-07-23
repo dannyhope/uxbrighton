@@ -5,12 +5,13 @@ import requests
 from xml.etree.ElementTree import fromstring
 from xmljson import badgerfish as bf
 
+OUTPUT_DIR = os.path.join(os.getcwd(), 'output')
+GUIDELINES = 'WCAG2-A'
 
 with open('./web-service-id.txt', 'r') as file_handle:
     WEB_SERVICE_ID = file_handle.read()
 
-API_LINK = f'https://achecker.ca/checkacc.php?id={WEB_SERVICE_ID}'
-OUTPUT_DIR = os.path.join(os.getcwd(), 'output')
+API_LINK = f'https://achecker.ca/checkacc.php?guide={GUIDELINES}&id={WEB_SERVICE_ID}'
 try:
     NUM_URLS_TO_CHECK = int(sys.argv[1])
 except (ValueError, IndexError):
