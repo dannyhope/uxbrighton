@@ -2,7 +2,7 @@ import os
 import sys
 import re
 import requests
-from xml.etree.ElementTree import fromstring
+from xml.etree.ElementTree import fromstring, ParseError
 from xmljson import badgerfish as bf
 
 OUTPUT_DIR = os.path.join(os.getcwd(), 'output')
@@ -49,23 +49,32 @@ for url in url_data:
 
 
 iter_limit = NUM_URLS_TO_CHECK if NUM_URLS_TO_CHECK is not None else len(urls)
+iterate = True
 
 for i in range(iter_limit):
-    url = urls[i]
-    print(f'\n({i}/{iter_limit}): Checking {url}')
-    response = requests.get(API_LINK + '&output=rest&uri=' + url)
-    cleaned_content = re.sub(rb'&[a-z]+;', lambda match: b'&amp;' + match.group(0)[1:], response.content)
-    xml_response = bf.data(fromstring(cleaned_content))
-    summary = xml_response['resultset']['summary']
-    if summary['status']['$'] == 'PASS':
-        print('Passed! moving on ...')
-        continue
-    print('Failed with ' + str(summary['NumOfErrors']['$']) + ' errors, ' + str(summary['NumOfLikelyProblems']['$']) +
-          ' likely problems and ' + str(summary['NumOfPotentialProblems']['$']) + ' potential problems')
+    iterate = True
+    while iterate:
+        iterate = False
+        url = urls[i]
+        print(f'\n({i + 1}/{iter_limit}): Checking {url}')
+        response = requests.get(API_LINK + '&output=rest&uri=' + url)
+        cleaned_content = re.sub(rb'&[a-z]+;', lambda match: b'&amp;' + match.group(0)[1:], response.content)
+        try:
+            xml_response = bf.data(fromstring(cleaned_content))
+        except ParseError:
+            iterate = True
+            print("Got a ParseError. Going to check again ...")
+            continue
+        summary = xml_response['resultset']['summary']
+        if summary['status']['$'] == 'PASS':
+            print('Passed! moving on ...')
+            continue
+        print('Failed with ' + str(summary['NumOfErrors']['$']) + ' errors, ' + str(summary['NumOfLikelyProblems']['$'])
+              + ' likely problems and ' + str(summary['NumOfPotentialProblems']['$']) + ' potential problems')
 
-    response = requests.get(API_LINK + '&uri=' + url)
-    file_name = ''.join([char for char in url if char.isalnum()]) + '.html'
-    file_loc = os.path.join(OUTPUT_DIR, file_name)
-    print('Saving output to file under: ' + file_name)
-    with open(file_loc, 'wb') as f:
-        f.write(response.content)
+        response = requests.get(API_LINK + '&uri=' + url)
+        file_name = ''.join([char for char in url if char.isalnum()]) + '.html'
+        file_loc = os.path.join(OUTPUT_DIR, file_name)
+        print('Saving output to file under: ' + file_name)
+        with open(file_loc, 'wb') as f:
+            f.write(response.content)
