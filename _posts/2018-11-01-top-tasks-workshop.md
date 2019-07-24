@@ -15,7 +15,7 @@ __Measuring the Customer Experience with Top Tasks - a masterclass with Gerry Mc
 
 We’re delighted to welcome Gerry McGovern back to Brighton after his very popular talk at last year’s UX Brighton conference. Gerry will be running a hands-on practical workshop on how to use the Top Tasks Identification method.
 
-*Gerry McGovern’s Top Tasks methods have been used by organizations such as Cisco, Microsoft, IBM, Google, the European Union, Canadian Government, and hundreds of others.*
+Gerry McGovern’s Top Tasks methods have been used by organizations such as Cisco, Microsoft, IBM, Google, the European Union, Canadian Government, and hundreds of others.
 
 Places are limited to just 20 attendees in order to enable a highly interactive focussed workshop.
 
