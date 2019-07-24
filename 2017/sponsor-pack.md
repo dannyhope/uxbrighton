@@ -77,7 +77,7 @@ We have four levels of sponsorship.
 
 * Multiple mentions via our social media channels (Twitter: 4800+ followers, mailing list: 1500+, Slack: 340+, Linked In and Facebook)
 
-*Choose one of:*
+Choose one of:
 
   1. Aluminium water bottles - keep our delegates hydrated without the plastic wastage. Co-branded, have your logo on show long after the event.
   2. Delegate & speaker lanyards - your logo around every attendees neck. Not just seen on the day, but also in all the conference photography and filming.
@@ -98,7 +98,7 @@ We have four levels of sponsorship.
 
 * Some mentions via our social media channels (Twitter: 4800+ followers, mailing list: 1500+, Slack: 340+, Linked In and Facebook)
 
-*Choose one of:*
+Choose one of:
 
 1. Post Its & Sharpies - co-branded, these will have a life long after the conference wraps.
 2.  Photobooth - co-branded, give our delegates something fun to do during the breaks, and a lasting reminder of the day.
@@ -114,7 +114,7 @@ We have four levels of sponsorship.
 * Logo displayed on screen during breaks
 * Mentions via our social media channels (Twitter: 4800+ followers, mailing list: 1500+, Slack: 340+, Linked In and Facebook)
 
-*Choose one of:*
+Choose one of:
 
 1.  Pastries & fruit - pastries on arrival, fruit throughout the day because snacks are always welcome.
 2.  Volunteer t-shirts - your logo will be seen by every delegate passing through registration, and throughout the day as our lovely team of volunteers wear a brightly coloured t-shirt to identify themselves.

@@ -7,9 +7,9 @@ start:	7pm
 ticket-link: 
 ---
 
-[![](https://farm4.staticflickr.com/3135/2780007075_5e71341772_o.jpg)](https://www.flickr.com/photos/10199641@N08/2780007075/)
+[![Photograph of Danny Hope](https://farm4.staticflickr.com/3135/2780007075_5e71341772_o.jpg)](https://www.flickr.com/photos/10199641@N08/2780007075/)
 
-This sessions focusses on 2 new products for 2 types of usability testing:
+This sessions focuses on 2 new products for 2 types of usability testing:
 
 ## Guerrilla Usability Testing with Silverback – Andy Budd
 

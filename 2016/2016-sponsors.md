@@ -70,7 +70,7 @@ meetups throughout the last seven years. We have strong following locally, natio
 
 <h2>Previous Sponsors</h2>
 <p>Many firms have recognised the value and quality of our events. We’re proud to have been supported by organisations including:</p>
-<p><img src="/assets/conference-2016/previous-sponsors.png"></p>
+<p><img alt="Previous sponsors" src="/assets/conference-2016/previous-sponsors.png"></p>
 
 <h2>Who will be there?</h2>
 <p>UX Brighton 2016 will bring together over 300 UX and design

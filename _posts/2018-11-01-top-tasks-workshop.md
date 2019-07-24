@@ -15,13 +15,13 @@ __Measuring the Customer Experience with Top Tasks - a masterclass with Gerry Mc
 
 We’re delighted to welcome Gerry McGovern back to Brighton after his very popular talk at last year’s UX Brighton conference. Gerry will be running a hands-on practical workshop on how to use the Top Tasks Identification method.
 
-*Gerry McGovern’s Top Tasks methods have been used by organizations such as Cisco, Microsoft, IBM, Google, the European Union, Canadian Government, and hundreds of others.*
+Gerry McGovern’s Top Tasks methods have been used by organizations such as Cisco, Microsoft, IBM, Google, the European Union, Canadian Government, and hundreds of others.
 
 Places are limited to just 20 attendees in order to enable a highly interactive focussed workshop.
 
 ## What you'll learn
 
-<img src="/2017/photos/Gerry-McGovern-4-cropped-925x925.jpg" class="speaker-photo">
+<img alt="Photograph of Gerry McGovern" src="/2017/photos/Gerry-McGovern-4-cropped-925x925.jpg" class="speaker-photo">
 
 If you're designing or managing a website or app, how do you know what really matters to your customers? How do you know what really doesn't matter? Once you've identified what really matters, how do you ensure that these top tasks are easy to find? How do you ensure that they are easy to do? As you change your website or app, how do you know the customer experience is getting better? How do you develop customer experience metrics that can convince management you're doing a good job?
 

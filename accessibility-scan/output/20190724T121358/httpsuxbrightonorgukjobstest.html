@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE style PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<style type="text/css">
+ul {font-family: Arial; margin-bottom: 0px; margin-top: 0px; margin-right: 0px;}
+li.msg_err, li.msg_info { font-family: Arial; margin-bottom: 20px;list-style: none;}
+span.msg{font-family: Arial; line-height: 150%;}
+code.input { margin-bottom: 2ex; background-color: #F8F8F8; line-height: 130%;}
+span.err_type{ padding: .1em .5em; font-size: smaller;}
+</style>
+<input value="c52266fb16abc887ba936bba892b3dc918bb2137" type="hidden" name="sessionid" />
+<p>
+<strong>Result: </strong>
+<span style="background-color: yellow; border: solid green; padding-right: 1em; padding-left: 1em">CONDITIONAL PASS</span>&nbsp;&nbsp;
+<span style="color:red"><span style="font-weight: bold;">1 Likely Problems&nbsp;&nbsp;10 Potential Problems&nbsp;&nbsp;</span></span>
+<strong><br />
+<strong>Guides: </strong>
+<a title="WCAG 2.0 (Level A)(link opens in a new window)" target="_new" href="https://achecker.ca/guideline/view_guideline.php?id=7">WCAG 2.0 (Level A)(link opens in a new window)</a>&nbsp;&nbsp;
+</p>
+<h3>Accessibility Review</h3>
+<h4>Likely Problems</h4>
+<div id="likely_problems" style="margin-top:1em">
+	<ul>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/warning.png" alt="Warning: Confirmation Required" title="Warning: Confirmation Required" width="15" height="15" /></span>
+         <em>Line 5, Column 5</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=53"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=53'); return false;" 
+               target="_new"><code>title</code> contains placeholder text.</a>
+         </span>
+         <pre><code class="input">&lt;title&gt;title&lt;/title&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Is this <code>title</code> appropriate for the content?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[5_5_53]" id="pass5_5_53"  />
+      <label for="pass5_5_53"><code>title</code> is appropriate for the content.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[5_5_53]" id="fail5_5_53"  />
+      <label for="fail5_5_53"><code>title</code> is not appropriate for the content.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[5_5_53]" id="nodecision5_5_53" checked="checked" />
+      <label for="nodecision5_5_53">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+</ul>
+</div><h4>Potential Problems</h4>
+<div id="potential_problems" style="margin-top:1em">
+	<ul>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 5, Column 5</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=54"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=54'); return false;" 
+               target="_new"><code>title</code> might not describe the document.</a>
+         </span>
+         <pre><code class="input">&lt;title&gt;title&lt;/title&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Does this <code>title</code> describe the document?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[5_5_54]" id="pass5_5_54"  />
+      <label for="pass5_5_54"><code>title</code> describes the document.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[5_5_54]" id="fail5_5_54"  />
+      <label for="fail5_5_54"><code>title</code> does not describe the document.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[5_5_54]" id="nodecision5_5_54" checked="checked" />
+      <label for="nodecision5_5_54">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 6, Column 5</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=86"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=86'); return false;" 
+               target="_new"><code>script</code> may use color alone.</a>
+         </span>
+         <pre><code class="input">&lt;script&gt;
+      function getCookie(name) {
+        var v = document.cookie.match('(^|;) ?' + name + ' ...</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Does this <code>script</code> use color alone?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[6_5_86]" id="pass6_5_86"  />
+      <label for="pass6_5_86"><code>script</code> does not use color alone.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[6_5_86]" id="fail6_5_86"  />
+      <label for="fail6_5_86"><code>script</code> uses color alone.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[6_5_86]" id="nodecision6_5_86" checked="checked" />
+      <label for="nodecision6_5_86">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 6, Column 5</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=87"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=87'); return false;" 
+               target="_new"><code>script</code> may cause screen flicker.</a>
+         </span>
+         <pre><code class="input">&lt;script&gt;
+      function getCookie(name) {
+        var v = document.cookie.match('(^|;) ?' + name + ' ...</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Does this <code>script</code> cause screen flicker?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[6_5_87]" id="pass6_5_87"  />
+      <label for="pass6_5_87"><code>script</code> does not cause screen flicker.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[6_5_87]" id="fail6_5_87"  />
+      <label for="fail6_5_87"><code>script</code> causes screen flicker.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[6_5_87]" id="nodecision6_5_87" checked="checked" />
+      <label for="nodecision6_5_87">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 6, Column 5</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=89"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=89'); return false;" 
+               target="_new"><code>script</code> user interface may not be accessible.</a>
+         </span>
+         <pre><code class="input">&lt;script&gt;
+      function getCookie(name) {
+        var v = document.cookie.match('(^|;) ?' + name + ' ...</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Is any user interface for this <code>script</code> accessible?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[6_5_89]" id="pass6_5_89"  />
+      <label for="pass6_5_89"><code>script</code> user interface is accessible.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[6_5_89]" id="fail6_5_89"  />
+      <label for="fail6_5_89"><code>script</code> user interface is not accessible.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[6_5_89]" id="nodecision6_5_89" checked="checked" />
+      <label for="nodecision6_5_89">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 34, Column 3</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=262"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=262'); return false;" 
+               target="_new">Groups of links with a related purpose are not marked.</a>
+         </span>
+         <pre><code class="input">&lt;body&gt;
+    &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;
+  &lt;/body&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Are all groups of links with a related purpose marked?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[34_3_262]" id="pass34_3_262"  />
+      <label for="pass34_3_262">All groups of links with a related purpose are marked.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[34_3_262]" id="fail34_3_262"  />
+      <label for="fail34_3_262">All groups of links with a related purpose are not marked.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[34_3_262]" id="nodecision34_3_262" checked="checked" />
+      <label for="nodecision34_3_262">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 34, Column 3</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=271"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=271'); return false;" 
+               target="_new"><code>dir</code> attribute may be required to identify changes in text direction.</a>
+         </span>
+         <pre><code class="input">&lt;body&gt;
+    &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;
+  &lt;/body&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Are all changes in text direction marked using the <code>dir</code> attribute?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[34_3_271]" id="pass34_3_271"  />
+      <label for="pass34_3_271">All changes in text direction are marked using the <code>dir</code> attribute.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[34_3_271]" id="fail34_3_271"  />
+      <label for="fail34_3_271">All changes in text direction are not marked using the <code>dir</code> attribute.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[34_3_271]" id="nodecision34_3_271" checked="checked" />
+      <label for="nodecision34_3_271">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 34, Column 3</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=270"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=270'); return false;" 
+               target="_new">Unicode right-to-left marks or left-to-right marks may be required.</a>
+         </span>
+         <pre><code class="input">&lt;body&gt;
+    &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;
+  &lt;/body&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Are Unicode right-to-left marks or left-to-right marks used whenever the HTML bidirectional algorithm produces undesirable results?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[34_3_270]" id="pass34_3_270"  />
+      <label for="pass34_3_270">Unicode right-to-left marks or left-to-right marks are used whenever the HTML bidirectional algorithm produces undesirable results.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[34_3_270]" id="fail34_3_270"  />
+      <label for="fail34_3_270">Unicode right-to-left marks or left-to-right marks are not used whenever the HTML bidirectional algorithm produces undesirable results.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[34_3_270]" id="nodecision34_3_270" checked="checked" />
+      <label for="nodecision34_3_270">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 34, Column 3</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=28"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=28'); return false;" 
+               target="_new">Document may be missing a "skip to content" link.</a>
+         </span>
+         <pre><code class="input">&lt;body&gt;
+    &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;
+  &lt;/body&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Does this document require and contain a "skip to content" link?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[34_3_28]" id="pass34_3_28"  />
+      <label for="pass34_3_28">Document contians a "skip to content" link or does not require it.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[34_3_28]" id="fail34_3_28"  />
+      <label for="fail34_3_28">Document does not contain a "skip to content" link and requires it.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[34_3_28]" id="nodecision34_3_28" checked="checked" />
+      <label for="nodecision34_3_28">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 35, Column 5</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=19"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=19'); return false;" 
+               target="_new">Link text may not be meaningful.</a>
+         </span>
+         <pre><code class="input">&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Is this link text meaningful when read alone (out of context)?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[35_5_19]" id="pass35_5_19"  />
+      <label for="pass35_5_19">Link text is meaningful when read alone (out of context).</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[35_5_19]" id="fail35_5_19"  />
+      <label for="fail35_5_19">Link text is not meaningful when read alone (out of context).</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[35_5_19]" id="nodecision35_5_19" checked="checked" />
+      <label for="nodecision35_5_19">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+      <li class="msg_info">
+         <span class="err_type"><img src="https://achecker.ca/images/info.png" alt="Manual Check Required" title="Manual Check Required" width="15" height="15" /></span>
+         <em>Line 35, Column 5</em>:
+         <span class="msg">
+            <a href="https://achecker.ca/checker/suggestion.php?id=197"
+               onclick="AChecker.popup('https://achecker.ca/checker/suggestion.php?id=197'); return false;" 
+               target="_new">Anchor text may not identify the link destination.</a>
+         </span>
+         <pre><code class="input">&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;</code></pre>
+         
+         <p class="helpwanted">
+         </p>
+         
+         <table>
+  <tr>
+    <td>
+      Does the anchor contain text that identify the link destination?
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <input value="P" type="radio" name="d[35_5_197]" id="pass35_5_197"  />
+      <label for="pass35_5_197">Anchor has text that identifies the link destination.</label>
+   </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="F" type="radio" name="d[35_5_197]" id="fail35_5_197"  />
+      <label for="fail35_5_197">Anchor does not have text that identifies the link destination.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	  <input value="N" type="radio" name="d[35_5_197]" id="nodecision35_5_197" checked="checked" />
+      <label for="nodecision35_5_197">No Decision</label>
+    </td>
+  </tr>
+</table>
+
+         
+       </li>
+</ul>
+</div>
+<p align="center">
+<input value="Make Decisions" type="submit" name="make_decision" />
+</p>

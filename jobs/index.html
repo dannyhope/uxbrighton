@@ -130,8 +130,12 @@ h2 + h3 {
 <div class="clearfix gutters__container">
 
   <div class="u1of4-over-m right-over-m gutters gutter-bottom-under-m">
-    <h2>Hiring?</h2>
-    <a class="button button--green button--large fill" style="max-width: 300px;" href="mailto:jobs@uxbri.org?subject=Post a job on UX Brighton Jobs&amp;body=Job Title:%0D%0AEmployer:%0D%0ALocation:%0D%0APermanent or Contract:%0D%0AMoney:%0D%0ADescription of job:%0D%0A">Post a job</a>
+    <h2>Post a job advert</h2>
+    <p>
+      This is currently a manual process. The first step is to get in touch with us via
+      <a href="mailto:jobs@uxbri.org?subject=Post a job on UX Brighton Jobs&amp;body=Hi there, Thanks for your interest in UX Brighton Jobs. The main things we need are your name and phone number, that way we can get in touch with you to chat about your job needs.%0D%0A%0D%0AYour name:%0D%0AYour phone number:%0D%0A%0D%0AIf the job is already advertised somewhere, can you give us a link to it, please?%0D%0A%0D%0ADescription link:%0D%0A%0D%0AWe’ll get back to you ASAP.%0D%0A">jobs@uxbrighton.org.uk</a>
+      and can arrange getting your job advert live.
+    </p>
     <div class="unless-is-fancy">
       <h3 class="mt6 mb2 upcoming__container__heading fs-s track-loose uppercase regular border-bottom pb1">Supporting Employers</h3>
       <a href="/jobs/company/" class="grayscale-until-hover">
@@ -169,7 +173,7 @@ h2 + h3 {
                 <h3 itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
                 <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
                 <p class="mv0">
-                  £&thinsp;<svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                  {% if job.show-salary != 'TRUE' %}<svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
                     <title id="svg-{{ job.job-id }}" lang="en">Highlighted area indicates the salary range for this job compared to similar jobs. Left is lower, right is higher.</title>
                     <desc>Histogram, providing an abstract indication of salary range.</desc>
                     <g fill="none" fill-rule="evenodd">
@@ -197,8 +201,8 @@ h2 + h3 {
                       <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
                       <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
                     </g>
-                  </svg>
-                  {% if job.show-salary == 'TRUE' %}  ·  <span itemprop="baseSalary">{{ job.money }}</span>{% endif %}  ·  <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·  <span itemprop="addressLocality">{{ job.location }}</span></p>
+                  </svg>{% endif %}
+                  {% if job.show-salary == 'TRUE' %} <span itemprop="baseSalary">{{ job.money }}</span>  ·  {% endif %}<span itemprop="employmentType">{{ job.work-pattern }}</span>   ·  <span itemprop="addressLocality">{{ job.location }}</span></p>
                 <div class="job-text-extended hidden row"  itemprop="description">
                   {{ job.extended-description | markdownify }}
                   <a class="button button--green mt2 pa2" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
