@@ -5,7 +5,16 @@ import requests
 INPUT_DIR = os.path.join(os.getcwd(), 'output')
 ERR_OUTPUT_FILE = 'ignored-error-id-info.md'
 ERR_OUTPUT_FILE_FULL = os.path.join(os.getcwd(), ERR_OUTPUT_FILE)
-ERR_FORMAT = """
+
+timestamp_folders = [
+    obj for obj in os.listdir(INPUT_DIR)
+    if os.path.isdir(os.path.join(INPUT_DIR, obj))
+]
+
+html_files_loc = sorted(timestamp_folders)[-1]
+html_files_loc_full = os.path.join(INPUT_DIR, html_files_loc)
+
+ERR_FORMAT = f"""
 
 ## ID %d
 
@@ -13,12 +22,11 @@ ERR_FORMAT = """
 - **error**: %s
 - **description**: %s
 - **rationale**: %s
-- **[Example audit containing error ID %d](output/%s)**"""
-
+- **[Example audit containing error ID %d](output/{html_files_loc}/%s)**"""
 
 files_to_check = [
-    file for file in os.listdir(INPUT_DIR)
-    if os.path.isfile(os.path.join(INPUT_DIR, file)) and file.endswith('.html')
+    file for file in os.listdir(html_files_loc_full)
+    if os.path.isfile(os.path.join(html_files_loc_full, file)) and file.endswith('.html')
 ]
 
 id_regex = re.compile(r'href="https://achecker\.ca/checker/suggestion\.php\?id=(?P<id>\d+)"')
@@ -29,7 +37,7 @@ for i in range(len(files_to_check)):
     file = files_to_check[i]
     curr_file_ids = set()
     print(f'({i + 1}/{len(files_to_check)}): Scanning {file}')
-    with open(os.path.join(INPUT_DIR, file), 'r') as file_handle:
+    with open(os.path.join(html_files_loc_full, file), 'r') as file_handle:
         matches = id_regex.findall(file_handle.read())
         for match in matches:
             curr_id = int(match)
