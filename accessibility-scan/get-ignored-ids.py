@@ -13,7 +13,7 @@ ERR_FORMAT = """
 - **error**: %s
 - **description**: %s
 - **rationale**: %s
-- **[Example](%s)**"""
+- **[Example audit containing error ID %d](output/%s)**"""
 
 
 files_to_check = [
@@ -72,7 +72,7 @@ for curr_id in sorted_ids:
     rat = get_msg(rat_regex)
     example = unique_ids[curr_id]
 
-    output += ERR_FORMAT % (curr_id, req, err, desc, rat, example)
+    output += ERR_FORMAT % (curr_id, req, err, desc, rat, curr_id, example)
 
 with open(ERR_OUTPUT_FILE_FULL, 'w') as file_handle:
     file_handle.write(output + '\n')
