@@ -3,15 +3,17 @@ import re
 import requests
 
 INPUT_DIR = os.path.join(os.getcwd(), 'output')
-ERR_OUTPUT_FILE = 'ignored-error-id-info.txt'
+ERR_OUTPUT_FILE = 'ignored-error-id-info.md'
 ERR_OUTPUT_FILE_FULL = os.path.join(os.getcwd(), ERR_OUTPUT_FILE)
-ERR_FORMAT = """ID %d:
-requirement: %s
-error: %s
-description: %s
-rationale: %s
+ERR_FORMAT = """
 
-"""
+## ID %d
+
+- **requirement**: %s
+- **error**: %s
+- **description**: %s
+- **rationale**: %s
+- **[Example](%s)**"""
 
 
 files_to_check = [
@@ -21,7 +23,7 @@ files_to_check = [
 
 id_regex = re.compile(r'href="https://achecker\.ca/checker/suggestion\.php\?id=(?P<id>\d+)"')
 
-unique_ids = set()
+unique_ids = {}
 
 for i in range(len(files_to_check)):
     file = files_to_check[i]
@@ -30,11 +32,13 @@ for i in range(len(files_to_check)):
     with open(os.path.join(INPUT_DIR, file), 'r') as file_handle:
         matches = id_regex.findall(file_handle.read())
         for match in matches:
-            curr_file_ids.add(int(match))
+            curr_id = int(match)
+            curr_file_ids.add(curr_id)
+            if curr_id not in unique_ids:
+                unique_ids[curr_id] = file
     print('Found the following ids: ' + ', '.join(str(curr_id) for curr_id in sorted(curr_file_ids)))
-    unique_ids = unique_ids.union(curr_file_ids)
 
-sorted_ids = sorted(unique_ids)
+sorted_ids = sorted(unique_ids.keys())
 
 print('\nIDs found the directory: ' + ', '.join(str(curr_id) for curr_id in sorted_ids))
 
@@ -45,7 +49,7 @@ rat_regex = re.compile(r'<h2>Rationale<\/h2>\s*<span class="msg">(?P<msg>.*)<\/s
 
 code_regex = re.compile(r'</?code>')
 
-output = ''
+output = '# Ignored accessibility checker error ids'
 
 
 def get_msg(regex):
@@ -66,10 +70,11 @@ for curr_id in sorted_ids:
     err = get_msg(err_regex)
     desc = get_msg(desc_regex)
     rat = get_msg(rat_regex)
+    example = unique_ids[curr_id]
 
-    output += ERR_FORMAT % (curr_id, req, err, desc, rat)
+    output += ERR_FORMAT % (curr_id, req, err, desc, rat, example)
 
 with open(ERR_OUTPUT_FILE_FULL, 'w') as file_handle:
-    file_handle.write(output)
+    file_handle.write(output + '\n')
 
 print(f'Wrote error information to {ERR_OUTPUT_FILE}')
