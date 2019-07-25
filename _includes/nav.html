@@ -165,19 +165,11 @@
 				</li>		
 
 
-				<li class="event-title-list-item">
-					<a class="block-link pv3 ph4 archive-nav__link" href="/2019">
-						<div class="post-title weight-900 block-link__highlight">2019 Conference ★ Focus on Design</div>
-						<div class="post-date ">1 November 2019</div>
-						<div class="post-excerpt">Our 9th one day annual conference. More details will be announced here: http://uxbrighton.org.uk Want to sponsor us? Get in touch with our Conference Producer Emmeline at emmeline@uxbrighton.org.uk</div>
-					</a>
-				</li>
-
 
 
 				
 				{% if has_upcoming %}
-					{% for post in site.posts %}
+					{% for post in site.posts reversed %}
 
 						{% if post.upcoming == true && post.hide_in_nav != true %}
 							{% if post.hide_in_nav == true %}
@@ -194,14 +186,24 @@
 						{% endif %}
 					{% endfor %}
 				{% endif %}
+
 				
+				
+				<li class="event-title-list-item">
+					<a class="block-link pv3 ph4 archive-nav__link" href="/2019">
+						<div class="post-title weight-900 block-link__highlight">2019 Conference ★ Focus on Design</div>
+						<div class="post-date ">1 November 2019</div>
+						<div class="post-excerpt">Our 9th one day annual conference. More details will be announced here: http://uxbrighton.org.uk Want to sponsor us? Get in touch with our Conference Producer Emmeline at emmeline@uxbrighton.org.uk</div>
+					</a>
+				</li>
+
 				
 				<li>
 					<hr style="margin: 1.5em 0 2em;">
 					<h2 class="fs-s  track-loose uppercase regular pv1 ph4 ">Archive: Previous Events</h2>
 				</li>
 
-				<li class="event-title-list-item event-previous ">
+				<!-- <li class="event-title-list-item event-previous ">
 					<a class="block-link pv3 ph4  archive-nav__link" href="/2018/">
 						<div class="post-title weight-900 block-link__highlight">2018 Conference ★ Advancing Research</div>
 						<div class="post-date ">2 November</div>
@@ -246,7 +248,7 @@
 						@emmaboulton
 						www.collectivelyemmaboulton.com</div>
 					</a>
-				</li>
+				</li> -->
 
 				{% for post in site.posts %}
 					{% if post.stub == null %}
