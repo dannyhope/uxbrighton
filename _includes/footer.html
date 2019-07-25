@@ -183,3 +183,23 @@
     });
   </script>
   <script src="/2018/javascripts/scripts-min.js?v=feb"></script>
+
+  <script>
+    $(function() {
+      if (/[?&]open=newsletter/.test(location.search)) {
+        displayNewsletter();
+      }
+      function displayNewsletter(){
+        var _val = "newsletter",
+            _currentVal = $('body').attr('data-overlay-active');
+        if (_val == _currentVal) {
+          $("body").attr('data-overlay-active','false');
+        } else {
+          $("body").attr('data-overlay-active',_val);
+          if (_val == 'menu'){ $( '.archive-nav__search' ).focus(); }
+          if (_val == 'slack'){ $( '#email' ).focus(); }
+          if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); } 
+        }              
+      };
+    });
+  </script>
