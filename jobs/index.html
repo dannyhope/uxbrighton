@@ -178,14 +178,14 @@ h2 + h3 {
           {% assign range = 'high' %}
         {% endif %}
         <div id="{{ job.job-id }}" class="job" itemscope itemtype="http://schema.org/JobPosting">
-          <a href="#{{ job.job-id }}" class="job-open drop rounded" onclick='ga("send", "event", "jobs", "view", "{{ job.job-id }}");'></a>
+          <a href="#{{ job.job-id }}" class="job-open drop rounded" onclick='(ga("send", "event", "jobs", "view", "{{ job.job-id }}"), jobTitleOpen("{{ job.job-id }}"))'></a>
           <!-- <span itemprop="datePosted">2011-10-31</span> -->
-          <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}">&times;</a>
+          <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobTitleClose("{{ job.job-id }}")'>&times;</a>
           <div id="{{ job.job-id }}-info" class="job-info pa3">
             <div class="job-info__inner">
               <div class="job-logo left-over-s mr3" style="background-image: url({{ job.logo-link }});"></div>
               <div class="job-text table">
-                <h3 itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
+                <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
                 <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
                 <p class="mv0">
                   {% if job.show-salary != 'TRUE' %}<svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
@@ -244,5 +244,24 @@ h2 + h3 {
 
   for (var i = 0; i < salarySpan.length; i++) {
     salarySpan[i].innerHTML = salarySpan[i].innerHTML.replace(/[1-9]\d{3,}/g, insertCommas);
+  }
+
+  function jobTitleOpen(jobId) {
+    var jobTitle = document.getElementById('js-job-title-' + jobId);
+    if (jobTitle) {
+      jobTitle.classList.remove('color-blue');
+      jobTitle.classList.add('fs-h1');
+    }
+  }
+
+  function jobTitleClose(jobId) {
+    var jobTitle = document.getElementById('js-job-title-' + jobId);
+    jobTitle.classList.add('color-blue');
+    jobTitle.classList.remove('fs-h1');
+  }
+
+  if (window.hashFragment) {
+    var jobId = window.location.hash.substring(1);
+    jobTitleOpen(jobId);
   }
 </script>
