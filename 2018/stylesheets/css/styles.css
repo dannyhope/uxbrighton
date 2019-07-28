@@ -1578,6 +1578,13 @@ th, td {
       float: none;
       margin-bottom: 24px; } }
 
+
+
+@media only screen and (max-width: 730px) {
+  .column-reverse {
+    display: flex;
+    flex-direction: column-reverse; } }
+
 @media only screen and (min-width: 951px) {
   .no-js .job:target .job-text,
   .job-target .job-text {
