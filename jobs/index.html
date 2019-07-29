@@ -127,40 +127,8 @@ h2 + h3 {
   margin: 1em 0 0.5em;
 }
 </style>
-<div class="clearfix gutters__container column-reverse">
-
-  <div class="u1of4-over-m right-over-m gutters gutter-bottom-under-m">
-    <h2>Post a job advert</h2>
-    <p>
-      Emmeline and Danny are currently manually adding jobs to the site. If you’d like us to add a job for your company, the first thing to do is to do is email us via
-      <a href="mailto:jobs@uxbri.org?subject=Post a job on UX Brighton Jobs&amp;body=Hi there, Thanks for your interest in UX Brighton Jobs. The main things we need are your name and phone number, that way we can get in touch with you to chat about your job needs.%0D%0A%0D%0AYour name:%0D%0AYour phone number:%0D%0A%0D%0AIf the job is already advertised somewhere, can you give us a link to it, please?%0D%0A%0D%0ADescription link:%0D%0A%0D%0AWe’ll get back to you ASAP.%0D%0A" title="mailto link includes instructions about what to include">jobs@uxbrighton.org.uk</a>, then we’ll arrange getting your job advert live.
-    </p>
-    <div class="unless-is-fancy">
-      <h3 class="mt6 mb2 upcoming__container__heading fs-s track-loose uppercase regular border-bottom pb1">Supporting Employers</h3>
-      <a href="/jobs/company/" class="grayscale-until-hover">
-        <img src="/jobs/logo%402x.png" width="190">
-      </a>      
-    </div>
-
-    <div class="inline-block">
-      <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Get job notifications</h2>
-      <form action="https://sendy.uxbrighton.org.uk/subscribe" method="POST" accept-charset="utf-8" class="newletter-signup" _lpchecked="1">
-        <label class="screen-reader-text" for="job-email-field">Email</label>
-        <div class="input-group mt1 mb1">
-          <input type="hidden" name="list" value="ibnrqcWYOJDQJDrV892b892RSg">
-          <input type="hidden" name="gdpr" value="true">
-
-          <input id="job-email-field" type="email" name="email" required placeholder="Your email" class="input-group__field border--none rounded-left" style="border-style: solid; box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1) inset; width: 100%;">
-          <input type="submit" name="subscribe" value="Sign up" class="button input-group__button button--green rounded-right">
-        </div>
-      </form>
-      <div class="js-signup-confirmation" style="display: none;">
-        <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
-      </div>
-    </div>
-  </div>
-
-  <div class="u3of4-over-m right-over-m gutters">
+<div class="clearfix gutters__container">
+  <div class="u3of4-over-m left-over-m gutters">
     <h2>Current vacancies</h2>
     {% assign i = 0 %}
     {% for job in site.data.jobs %}
@@ -229,6 +197,37 @@ h2 + h3 {
         {% assign i = i | plus:1 %}
       {% endif %}
     {% endfor %}
+  </div>
+
+  <div class="u1of4-over-m left-over-m gutters gutter-bottom-under-m">
+    <h2>Post a job advert</h2>
+    <p>
+      Emmeline and Danny are currently manually adding jobs to the site. If you’d like us to add a job for your company, the first thing to do is to do is email us via
+      <a href="mailto:jobs@uxbri.org?subject=Post a job on UX Brighton Jobs&amp;body=Hi there, Thanks for your interest in UX Brighton Jobs. The main things we need are your name and phone number, that way we can get in touch with you to chat about your job needs.%0D%0A%0D%0AYour name:%0D%0AYour phone number:%0D%0A%0D%0AIf the job is already advertised somewhere, can you give us a link to it, please?%0D%0A%0D%0ADescription link:%0D%0A%0D%0AWe’ll get back to you ASAP.%0D%0A" title="mailto link includes instructions about what to include">jobs@uxbrighton.org.uk</a>, then we’ll arrange getting your job advert live.
+    </p>
+    <div class="unless-is-fancy">
+      <h3 class="mt6 mb2 upcoming__container__heading fs-s track-loose uppercase regular border-bottom pb1">Supporting Employers</h3>
+      <a href="/jobs/company/" class="grayscale-until-hover">
+        <img src="/jobs/logo%402x.png" width="190">
+      </a>      
+    </div>
+
+    <div class="inline-block">
+      <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Get job notifications</h2>
+      <form action="https://sendy.uxbrighton.org.uk/subscribe" method="POST" accept-charset="utf-8" class="newletter-signup" _lpchecked="1">
+        <label class="screen-reader-text" for="job-email-field">Email</label>
+        <div class="input-group mt1 mb1">
+          <input type="hidden" name="list" value="ibnrqcWYOJDQJDrV892b892RSg">
+          <input type="hidden" name="gdpr" value="true">
+
+          <input id="job-email-field" type="email" name="email" required placeholder="Your email" class="input-group__field border--none rounded-left" style="border-style: solid; box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1) inset; width: 100%;">
+          <input type="submit" name="subscribe" value="Sign up" class="button input-group__button button--green rounded-right">
+        </div>
+      </form>
+      <div class="js-signup-confirmation" style="display: none;">
+        <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
+      </div>
+    </div>
   </div>
 </div>
 
