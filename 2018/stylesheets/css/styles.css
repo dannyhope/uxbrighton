@@ -1634,8 +1634,8 @@ th, td {
   font-size: 36px;
   letter-spacing: -0.035em;
   line-height: 1.2;
-  -webkit-transition: font-size 0.2s;
-  transition: font-size 0.2s;
+  -webkit-transition: font-size 0.2s !important;
+  transition: font-size 0.2s !important;
 }
 
 .job-title {
