@@ -289,7 +289,7 @@ h2 + h3 {
     var jobTitle = document.getElementById('js-job-title-' + jobId);
     if (jobTitle) {
       jobTitle.classList.remove('color-blue');
-      jobTitle.classList.add('fs-h1');
+      jobTitle.classList.add('job-title-page-style');
       var hoverText = document.getElementById('js-hover-text-' + jobId);
       if (!isTouch && hoverText) {
         hoverText.style.display = null;
@@ -300,7 +300,7 @@ h2 + h3 {
   function jobTitleClose(jobId) {
     var jobTitle = document.getElementById('js-job-title-' + jobId);
     jobTitle.classList.add('color-blue');
-    jobTitle.classList.remove('fs-h1');
+    jobTitle.classList.remove('job-title-page-style');
     var hoverText = document.getElementById('js-hover-text-' + jobId);
     if (!isTouch && hoverText) {
       hoverText.style.display = 'none';

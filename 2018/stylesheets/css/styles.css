@@ -1630,6 +1630,19 @@ th, td {
 
 
 
+.job-title-page-style {
+  font-size: 36px;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.job-title {
+  -webkit-transition: font-size 0s;
+  transition: font-size 0s;
+}
+
 @media only screen and (min-width: 951px) {
   .no-js .job:target .job-text,
   .job-target .job-text {
