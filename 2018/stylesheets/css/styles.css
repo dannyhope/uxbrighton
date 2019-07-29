@@ -497,7 +497,8 @@ nav a {
 nav ul, nav ol {
   list-style: none outside;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  float: right; }
 
 a {
   text-decoration: none;
@@ -865,26 +866,26 @@ body.scroll-started .masthead__logo {
 .masthead__links {
   text-transform: uppercase;
   letter-spacing: 0.5px; }
-  @media only screen and (min-width: 731px) {
-    .masthead__links {
-      position: relative;
-      right: 0; } }
-  @media (min-width: 830px) {
-    .masthead__links {
-      left: 24px; } }
-  @media only screen and (max-width: 730px) {
-    .masthead__links {
-      overflow: hidden;
-      width: calc(100vw - 48px);
-      position: absolute;
-      bottom: 0;
-      left: 48px;
-      right: 0; } }
+@media only screen and (min-width: 731px) {
+  .masthead__links {
+    position: relative;
+    right: 0; } }
+@media (min-width: 830px) {
+  .masthead__links {
+    left: 24px; } }
+/* @media only screen and (max-width: 730px) {
+  .masthead__links {
+    overflow: hidden;
+    width: calc(100vw - 48px);
+    position: absolute;
+    bottom: 0;
+    left: 48px;
+    right: 0; } }
 
 @media only screen and (max-width: 730px) {
   .masthead .nav-item {
     display: block;
-    width: 33.33%;
+    width: 8rem;
     float: left; }
     .masthead .nav-item a {
       padding: 8px 0 12px !important; }
@@ -898,26 +899,67 @@ body.scroll-started .masthead__logo {
       [data-overlay-trigger="slack"] .masthead .nav-item img, [data-overlay-trigger="slack"] .masthead .nav-item svg {
         margin-bottom: 10px !important; } }
 
+@media only screen and (max-width: 560px) {
+  .masthead .nav-item {
+    width: 6rem; } }
+
 @media only screen and (max-width: 450px) {
   .masthead .nav-item {
-    display: block;
-    width: 33.33%;
-    float: left; } }
+    width: 4.8rem; } }
 
+@media only screen and (max-width: 355px) {
+  .masthead .nav-item {
+    width: 4.25rem; } }
+
+    
+    @media only screen and (max-width: 730px) {
+      .masthead__links a {
+    font-size: 11px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 100%;
+    border-left: 1px solid #eee;
+    padding: 17px 0 15px;
+    height: 49px; } } */
+    
 .masthead__link {
   padding: 16px;
   line-height: 16px;
   text-decoration: none; }
 
+
 @media only screen and (max-width: 730px) {
+  nav ul {
+    padding: 0 14px; }
+
+  .masthead__links a {
+    padding: 0 7px !important; } }
+
+@media only screen and (max-width: 730px){
+  .masthead__links a {
+    font-size: 16px;
+    padding: 17px 7px 15px !important; } }
+
+@media only screen and (max-width: 612px) {
+  .masthead__links a {
+    font-size: 13px; } }
+
+@media only screen and (max-width: 533px) {
+  .nav-hidden-under-m {
+    display: none; } }
+
+@media only screen and (max-width: 473px) {
+  .nav-hidden-under-s {
+    display: none; } }
+
+@media only screen and (max-width: 347px) {
+  nav ul {
+    padding: 0 8px; }
+
   .masthead__links a {
     font-size: 11px;
-    letter-spacing: 0;
-    text-align: center;
-    width: 100%;
-    border-right: 1px solid #eee;
-    padding: 17px 0 15px;
-    height: 49px; } }
+    padding: 17px 4px 15px !important; } }
+
 
 .masthead__link,
 .masthead__link:hover {
@@ -1478,7 +1520,7 @@ th, td {
     letter-spacing: 0;
     text-align: center;
     width: 100%;
-    border-right: 1px solid #eee; } }
+    border-left: 1px solid #eee; } }
 
 .columnar-list {
   -webkit-columns: 3;
@@ -2563,8 +2605,8 @@ a.drop:hover {
 @media only screen and (min-width: 731px) {
   .left-over-m {
     float: left; }
-  .right-over-m {
-    float: right; }
+  /* .right-over-m {
+    float: right; } */
   .none-over-m {
     float: none; } }
 
