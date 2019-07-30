@@ -54,25 +54,5 @@ Browse to [http://0.0.0.0:4000/](http://http://0.0.0.0:4000/ "")
 
 -------
 
-## URLs
-
-The following domains should all point to [uxbrighton.org.uk](http://uxbrighton.org.uk ""), the canonical domain. This is set at the 123-reg control panel.
-
-- [uxbri.org](http://uxbri.org "")
-- [uxbri.com](http://uxbri.com "")
-- [uxbri.co.uk](http://uxbri.co.uk "")
-
-###Subdomains
-
-[Manage subdomains on Dreamhost](http://panel.dreamhost.com "")
-
-Subdomains are used for conferences:
-
-- [2010.uxbrighton.org.uk](http://2010.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2010](http://uxbrighton.org.uk/2010 "")
-- [2011.uxbrighton.org.uk](http://2011.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2011](http://uxbrighton.org.uk/2011 "")
-- [2012.uxbrighton.org.uk](http://2012.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2012](http://uxbrighton.org.uk/2012 "")
-- [2013.uxbrighton.org.uk](http://2013.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2013](http://uxbrighton.org.uk/2013 "")
-- [2014.uxbrighton.org.uk](http://2014.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2014](http://uxbrighton.org.uk/2014 "")
-- [2015.uxbrighton.org.uk](http://2015.uxbrighton.org.uk "") goes to [uxbrighton.org.uk/2015](http://uxbrighton.org.uk/2015 "")
-
-When a conference page is the homepage, should we just show it at the root or at the permalink?
+## Other documents
+[Domain policies for UX Brighton](https://docs.google.com/document/d/1WYetelsk-EcrE3R5BDW7dkCgERkmAcYa88RYGyrh_PQ/edit?ts=5c8119e2# )
