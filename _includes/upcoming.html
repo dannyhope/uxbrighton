@@ -11,11 +11,11 @@
     <hr>
     <div class="row">
 
-
       <h3 class="fs-h2 mt0">Other UX Brighton events</h3>
 
-      
-        <div class="gutters__container flex-over-m">
+      <div class="gutters__container flex-over-m">
+
+        {% if page.slug != "conference-2019" %}
           <div class="u1of2-over-m left-over-m gutters flex-over-m gutter-bottom-under-m">
             <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2018/images/photos/sponsors-35.jpg') center center no-repeat #000; background-size: cover;">
               <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
@@ -32,70 +32,70 @@
               </div>
             </a>
           </div>
+        {% endif %}
 
-          {% assign has_upcoming = false %}
-          {% for post in site.posts %}
+        {% assign has_upcoming = false %}
+        {% for post in site.posts %}
+          {% if post.upcoming == true && if post.published == true %}
+            {% assign has_upcoming = true %}
+          {% endif %}
+        {% endfor %}
+
+        {% if has_upcoming %}
+          {% for post in site.posts reversed limit:2 %}
+
             {% if post.upcoming == true && if post.published == true %}
-              {% assign has_upcoming = true %}
-            {% endif %}
-          {% endfor %}
-
-          {% if has_upcoming %}
-            {% for post in site.posts limit:1 %}
-
-              {% if post.upcoming == true && if post.published == true %}
-
-                  <div class="u1of2-over-m left-over-m gutters flex-over-m">
-                    <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
-                      <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                      <div style="flex: 1 0 auto;">
-                        <h1 class="leading-solid mb2 color-white fs-xl relative">
-                          <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
-                          {{ post.title }}
-                        </h1>
-                        <div class="mt0 regular track-normal mb3 relative">
-                          <div class="color-white">
-                            {{ post.description }}
-                          </div>
+                {% if post.slug == page.slug %}
+                {% else %}
+                <div class="u1of2-over-m left-over-m gutters flex-over-m">
+                  <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                    <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                    <div style="flex: 1 0 auto;">
+                      <h1 class="leading-solid mb2 color-white fs-xl relative">
+                        <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
+                        {{ post.title }}
+                      </h1>
+                      <div class="mt0 regular track-normal mb3 relative">
+                        <div class="color-white">
+                          {{ post.description }}
                         </div>
                       </div>
-                      <div>
-                        <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
-                      </div>
-                    </a>
-                  </div>
-
+                    </div>
+                    <div>
+                      <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
+                    </div>
+                  </a>
+                </div>
               {% endif %}
-            {% endfor %}
-          {% else %}
-            {% for post in site.posts limit:1 %}
-              {% if post.upcoming == false && if post.published == true %}
-                  <div class="u1of2-over-m left-over-m gutters flex-over-m">
-                    <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
-                      <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                      <div style="flex: 1 0 auto;">
-                        <h1 class="leading-solid mb2 color-white fs-xl relative">
-                          <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Previous Event</span>
-                          {{ post.title }}
-                        </h1>
-                        <div class="mt0 regular track-normal mb3 relative">
-                          <div class="color-white">
-                            {{ post.description }}
-                          </div>
-                        </div>                        
-                      </div>
-                      <div>
-                        <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">View the slides</div>
-                      </div>
-                    </a>
-                  </div>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% for post in site.posts limit:1 %}
+            {% if post.upcoming == false && if post.published == true %}
+                <div class="u1of2-over-m left-over-m gutters flex-over-m">
+                  <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                    <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                    <div style="flex: 1 0 auto;">
+                      <h1 class="leading-solid mb2 color-white fs-xl relative">
+                        <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Previous Event</span>
+                        {{ post.title }}
+                      </h1>
+                      <div class="mt0 regular track-normal mb3 relative">
+                        <div class="color-white">
+                          {{ post.description }}
+                        </div>
+                      </div>                        
+                    </div>
+                    <div>
+                      <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">View the slides</div>
+                    </div>
+                  </a>
+                </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
 
-        </div><!-- gutters__container -->
-
-
+      </div><!-- gutters__container -->
 
     </div><!-- .row -->
   </div><!-- container -->
