@@ -203,38 +203,7 @@
                 <div class="pa3 rounded drop mb3">
                   <h2 class="mt0 mb1">Get notified</h2>
                   <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
-                  <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup" style="max-width: 500px;">
-                    <label class="screen-reader-text" for="fieldEmail">Email</label>
-                    <div class="input-group mt1 mb1">
-                      <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left fill" onfocus="document.getElementById('newsletter-options').className = 'show'">
-                      <input type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right">
-                    </div><!-- input-group -->
-                    <div id="newsletter-options" class="hidden">
-                      <label class="bold pb0 block regular screen-reader-text">
-                        Which topics are of interest to you?
-                      </label>
-                      <div class="">
-                        <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked="">
-                        <label for="conference-mailinglist" class="">Conference and workshops news</label>
-                      </div>
-                      <div class="">
-                        <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked="">
-                        <label for="newsletter-mailinglist" class="">Link Digest: links picked by the UX Brighton team</label>
-                      </div>
-                      <div class="">
-                        <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked="">
-                        <label for="evening-events-mailinglist" class="">Evening events</label>
-                      </div>
-                    </div>
-                    <div style="display:none;">
-                      <label for="hp">HP</label><br>
-                      <input type="text" name="hp" id="hp">
-                    </div>
-
-                  </form>
-                  <div id="js-signup-confirmation" class="button--green" style="padding: 1rem; display: none;">
-                    <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
-                  </div>                  
+                  {% include mail-list-signup-form.html %}
                 </div>
 
 
