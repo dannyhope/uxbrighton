@@ -1,8 +1,15 @@
 {% capture id %}{% if include.id %}-{{include.id}}{% endif %}{% endcapture %}
 <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup" id="js-email-signup{{ id }}">
   <label class="screen-reader-text" for="fieldEmail{{ id }}">Email</label>
-  <div class="input-group mt1 mb1">
-    <input id="fieldEmail{{ id }}" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options{{ id }}').className = 'show'">
+  <div class="input-group mt1 mb1" style="max-width: 366px;">
+    <input
+      id="fieldEmail{{ id }}"
+      name="email"
+      type="email"
+      required
+      placeholder="Your email"
+      class="fill input-group__field rounded-left{% if include.email_border != true %} border--none{% endif %}"
+      onfocus="document.getElementById('newsletter-options{{ id }}').className = 'show'">
     <input
       onclick="newsletterAnalytics.call(this,event);"
       data-news-options="{% if include.job_notifications == true %}no-no-no-job{% else %}conference-newsletter-evening-no{% endif %}"
@@ -19,19 +26,19 @@
     <div class="js-email-no-choice hidden color-black mv1"><strong>👇 Please select at least one option</strong></div>
     <div style="padding-top: 4px;">
       <input id="conference-mailinglist{{ id }}" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
-      <label class="table" for="conference-mailinglist{{ id }}" class="">Conference and workshop news</label>
+      <label class="table" for="conference-mailinglist{{ id }}">Conference and workshop news</label>
     </div>
     <div style="padding-top: 4px;">
       <input id="newsletter-mailinglist{{ id }}" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
-      <label class="table" for="newsletter-mailinglist{{ id }}" class="">Link Digest: links picked by the UX Brighton team</label>
+      <label class="table" for="newsletter-mailinglist{{ id }}">Link Digest: links picked by the UX Brighton team</label>
     </div>
     <div style="padding-top: 4px;">
       <input id="evening-events-mailinglist{{ id }}" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
-      <label class="table" for="evening-events-mailinglist{{ id }}" class="">Evening events</label>
+      <label class="table" for="evening-events-mailinglist{{ id }}">Evening events</label>
     </div>
       <div style="padding-top: 4px;">
         <input id="job-updates-mailinglist{{ id }}" name="list[]" value="ibnrqcWYOJDQJDrV892b892RSg" type="checkbox" {% if include.job_notifications == true %}checked{% endif %} class="left">
-        <label class="table" for="evening-events-mailinglist{{ id }}" class="">Job updates</label>
+        <label class="table" for="evening-events-mailinglist{{ id }}">Job updates</label>
       </div>
   </div>
   <div style="display:none;">
