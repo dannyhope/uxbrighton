@@ -37,7 +37,10 @@ $(function() {
       $("body").attr('data-overlay-active',_val);
       if (_val == 'menu'){ $( '.archive-nav__search' ).focus(); }
       if (_val == 'slack'){ $( '#email' ).focus(); }
-      if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); } 
+      if (_val == 'newsletter'){
+        $( '#fieldEmail' ).focus();
+        $( '#js-newsletter-thanks' ).css('color', '#343f44');
+      }
     }
 
   });

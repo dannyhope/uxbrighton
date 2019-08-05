@@ -3,7 +3,14 @@
   <label class="screen-reader-text" for="fieldEmail{{ id }}">Email</label>
   <div class="input-group mt1 mb1">
     <input id="fieldEmail{{ id }}" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options{{ id }}').className = 'show'">
-    <input onclick="newsletterAnalytics.call(this,event);" data-news-options="{% if include.job_notifications == true %}no-no-no-job{% else %}conference-newsletter-evening-no{% endif %}" type="submit" value="Sign up" name="subscribe" id="subscribe{{ id }}" class="button input-group__button button--green rounded-right js-mailinglist-submit">
+    <input
+      onclick="newsletterAnalytics.call(this,event);"
+      data-news-options="{% if include.job_notifications == true %}no-no-no-job{% else %}conference-newsletter-evening-no{% endif %}"
+      type="submit"
+      value="Sign up"
+      name="subscribe"
+      id="subscribe{{ id }}"
+      class="button input-group__button rounded-right js-mailinglist-submit{% if include.green_signup != false %} button--green{% endif %}">
   </div><!-- input-group -->
   <div id="newsletter-options{{ id }}" class="hidden">
     <h3 class="bold pb0 block regular screen-reader-text">
@@ -32,7 +39,7 @@
     <input type="text" name="hp" id="hp{{ id }}"/>
   </div>
 </form>
-<div class="js-signup-confirmation" style="display: none;">
+<div id="js-newsletter-thanks{{ id }}" class="js-signup-confirmation" style="display: none;">
   <strong>Thanks!</strong> Please look out for the confirmation email that we&apos;ve just sent you.
 </div>
 <script>
