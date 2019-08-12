@@ -205,87 +205,45 @@ upcoming-button-text: ""
 
             <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. So <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">join us</a>: our goal is that everyone who attends will leave with a heightened awareness of design.</p>
 
-
-
             <!-- <h3 class=" ">Book now — ticket sales end 1st November</h3> -->
             <!-- <p>Join us for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
-            <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>-->
-          </div>
-
-
-          <div class="u1of3-over-l right-over-l gutters gutter-top-under-m">
-            <h2 class="mb2">Super early bird tickets</h2>
-            <!-- <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a> -->
-            <!-- <a href="https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=E4OTGAAHYM3C3WRBY6&redirect_uri={{ "/2019" | absolute_url }}">Authenticate eventbrite</a> -->
-            <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
-            <button id="js-eb-btn" class="button button--large button--green bold standfirst">Open Modal</button>
-
-            <div id="js-eb-modal" class="modal">
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <div id="js-eb-checkout"></div>
+              <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>-->
+              <h2 class="mb2">Super early bird tickets</h2>
+              <!-- <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a> -->
+              <!-- <a href="https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=E4OTGAAHYM3C3WRBY6&redirect_uri={{ "/2019" | absolute_url }}">Authenticate eventbrite</a> -->
+              <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
+              <button id="js-eb-btn" class="button button--large button--green bold standfirst">Buy now - 35% off</button>
+              <div id="eb-outer-container">
+                <div id="js-eb-checkout" style="display: none;"></div>
               </div>
             </div>
-            <div id="example-widget-trigger"></div>
-
             <style>
-              .modal {
-                display: none;
-                position: fixed;
-                z-index: 2000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgb(0,0,0);
-                background-color: rgba(0,0,0,0.4);
-              }
-            
-              .modal-content {
-                background-color: #fefefe;
-                margin: 15% auto;
-                padding: 20px;
-                border: 1px solid #888;
-                width: 80%;
-              }
-            
-              .close {
-                color: #aaa;
-                float: right;
-                font-size: 28px;
-                font-weight: bold;
-              }
-
-              .close:hover,
-              .close:focus {
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
+              #eb-outer-container div {
+                transition-delay: 0s !important;
+                transition: height 0s !important;
               }
             </style>
-
+            
+            
+            <div class="u1of3-over-l right-over-l gutters gutter-top-under-m">
+            <h2 class="mb2 mt4">Stay updated</h2>
+            <p>Join our newsletter for announcements and information about our evening talks.</p>
+            {% include mail-list-signup-form.html id=4 green_signup=false email_border=true %}
+            
             <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
             <script type="text/javascript">
-              var modal = document.getElementById("js-eb-modal");
-              var btn = document.getElementById("js-eb-btn");
-              var span = document.getElementsByClassName("close")[0];
-
-              btn.onclick = function() {
-                modal.style.display = "block";
-              }
-
-              span.onclick = function() {
-                modal.style.display = "none";
-              }
-
-              window.onclick = function(event) {
-                if (event.target == modal) {
-                  modal.style.display = "none";
-                }
-              }
-
+              var btn = document.getElementById('js-eb-btn');
+              
+              btn.addEventListener('click', function(event) {
+                btn.style.display = 'none';
+                var checkoutEl = document.getElementById('js-eb-checkout');
+                checkoutEl.style.display = null;
+                console.log("here", checkoutEl.offsetTop)
+                // $(checkoutEl).animate({scrollTop: checkoutEl.offsetTop}, 200);
+                // $("html, body").animate({ scrollTop: checkoutEl.offsetTop+'px' });
+              });
+              
               var ebCallback = function() {
                 console.log("Order complete!");
               };
@@ -294,13 +252,10 @@ upcoming-button-text: ""
                 widgetType: "checkout",
                 eventId: "51654305418",
                 iframeContainerId: "js-eb-checkout",
-                iframeContainerHeight: 400,
+                iframeContainerHeight: 663,
                 onOrderComplete: ebCallback
               });
             </script>
-            <h2 class="mb2 mt4">Stay updated</h2>
-            <p>Join our newsletter for announcements and information about our evening talks.</p>
-            {% include mail-list-signup-form.html id=4 green_signup=false email_border=true %}
           </div><!-- u1of2-over-m -->
         </div><!-- row -->
 
