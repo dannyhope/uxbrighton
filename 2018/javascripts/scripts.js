@@ -39,7 +39,6 @@ $(function() {
       if (_val == 'slack'){ $( '#email' ).focus(); }
       if (_val == 'newsletter'){
         $( '#fieldEmail' ).focus();
-        $( '#js-newsletter-thanks' ).css('color', '#343f44');
       }
     }
 

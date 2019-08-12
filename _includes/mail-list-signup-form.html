@@ -46,7 +46,7 @@
     <input type="text" name="hp" id="hp{{ id }}"/>
   </div>
 </form>
-<div id="js-newsletter-thanks{{ id }}" class="js-signup-confirmation" style="display: none;">
+<div id="js-newsletter-thanks{{ id }}" class="{% if include.change-on-overlay %}text-black-on-overlay {% endif %}js-signup-confirmation" style="display: none;">
   <strong>Thanks!</strong> Please look out for the confirmation email that we&apos;ve just sent you.
 </div>
 <script>
