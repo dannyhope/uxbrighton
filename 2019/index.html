@@ -215,9 +215,89 @@ upcoming-button-text: ""
 
           <div class="u1of3-over-l right-over-l gutters gutter-top-under-m">
             <h2 class="mb2">Super early bird tickets</h2>
-            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a>
+            <!-- <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a> -->
+            <!-- <a href="https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=E4OTGAAHYM3C3WRBY6&redirect_uri={{ "/2019" | absolute_url }}">Authenticate eventbrite</a> -->
             <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
+            <button id="js-eb-btn" class="button button--large button--green bold standfirst">Open Modal</button>
 
+            <div id="js-eb-modal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="js-eb-checkout"></div>
+              </div>
+            </div>
+            <div id="example-widget-trigger"></div>
+
+            <style>
+              .modal {
+                display: none;
+                position: fixed;
+                z-index: 2000;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.4);
+              }
+            
+              .modal-content {
+                background-color: #fefefe;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+              }
+            
+              .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+              }
+
+              .close:hover,
+              .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+              }
+            </style>
+
+            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+            <script type="text/javascript">
+              var modal = document.getElementById("js-eb-modal");
+              var btn = document.getElementById("js-eb-btn");
+              var span = document.getElementsByClassName("close")[0];
+
+              btn.onclick = function() {
+                modal.style.display = "block";
+              }
+
+              span.onclick = function() {
+                modal.style.display = "none";
+              }
+
+              window.onclick = function(event) {
+                if (event.target == modal) {
+                  modal.style.display = "none";
+                }
+              }
+
+              var ebCallback = function() {
+                console.log("Order complete!");
+              };
+
+              window.EBWidgets.createWidget({
+                widgetType: "checkout",
+                eventId: "51654305418",
+                iframeContainerId: "js-eb-checkout",
+                iframeContainerHeight: 400,
+                onOrderComplete: ebCallback
+              });
+            </script>
             <h2 class="mb2 mt4">Stay updated</h2>
             <p>Join our newsletter for announcements and information about our evening talks.</p>
             {% include mail-list-signup-form.html id=4 green_signup=false email_border=true %}
