@@ -1,7 +1,11 @@
 
 <style>
-  .showJobs #jobs-link {
+  .showJobs .jobs-element {
     display: inline-block !important;
+  }
+
+  .jobs-element {
+    display: none;
   }
 </style>
 
@@ -14,7 +18,7 @@
       </a>
       <div class="masthead__links">
         <ul class="nav right-over-m">
-          <li id="jobs-link" class="nav-item inline-block relative" style="display:none;">
+          <li class="nav-item inline-block relative jobs-element">
             <a class="masthead__link" href="/jobs">
               Jobs
             </a>
