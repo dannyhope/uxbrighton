@@ -6,7 +6,7 @@
 - **error**: img element may require a long description.
 - **description**: img element must contain a longdesc attribute.
 - **rationale**: Complex images require a long description if the image is not described within the document. If the image does require a long description, then create the description file and link to it using the longdesc attribute.
-- **[Example audit containing error ID 8](output/20190724T121358/httpsuxbrightonorguk2011.html)**
+- **[Example audit containing error ID 8][httpsuxbrightonorguk2011]**
 
 ## ID 11
 
@@ -14,7 +14,7 @@
 - **error**: Image may contain text that is not in Alt text.
 - **description**: This error is generated for all img elements that have a width and height greater than 50.
 - **rationale**: Not found
-- **[Example audit containing error ID 11](output/20190724T121358/httpsuxbrightonorguk2011.html)**
+- **[Example audit containing error ID 11][httpsuxbrightonorguk2011]**
 
 ## ID 14
 
@@ -22,7 +22,7 @@
 - **error**: Image may be using color alone.
 - **description**: This error is generated for all img elements that have a width and height greater than 100.
 - **rationale**: You should not describe an image, or part of an image, using color alone. For example, when referring to a photograph, you should not say "my son is wearing a red coat". Instead say "my son is third from the left wearing a red coat".
-- **[Example audit containing error ID 14](output/20190724T121358/httpsuxbrightonorguk2011.html)**
+- **[Example audit containing error ID 14][httpsuxbrightonorguk2011]**
 
 ## ID 16
 
@@ -30,7 +30,7 @@
 - **error**: Alt text is not empty and image may be decorative.
 - **description**: Decorative images must have empty string ("") Alt text.
 - **rationale**: Not found
-- **[Example audit containing error ID 16](output/20190724T121358/httpsuxbrightonorguk2011.html)**
+- **[Example audit containing error ID 16][httpsuxbrightonorguk2011]**
 
 ## ID 19
 
@@ -38,7 +38,7 @@
 - **error**: Link text may not be meaningful.
 - **description**: All a (anchor) elements that contains any text will generate this error.
 - **rationale**: Not found
-- **[Example audit containing error ID 19](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 19][httpsuxbrightonorguk2010]**
 
 ## ID 28
 
@@ -46,15 +46,7 @@
 - **error**: Document may be missing a "skip to content" link.
 - **description**: Provide a mechanism to bypass blocks of material that are repeated on multiple Web units.
 - **rationale**: Not found
-- **[Example audit containing error ID 28](output/20190724T121358/httpsuxbrightonorguk2010.html)**
-
-## ID 53
-
-- **requirement**: title is not placeholder text.
-- **error**: title contains placeholder text.
-- **description**: title element content can not be any one of (case insensitive) "the title", "title", "this is the title".
-- **rationale**: Not found
-- **[Example audit containing error ID 53](output/20190724T121358/httpsuxbrightonorgukjobstest.html)**
+- **[Example audit containing error ID 28][httpsuxbrightonorguk2010]**
 
 ## ID 54
 
@@ -62,7 +54,7 @@
 - **error**: title might not describe the document.
 - **description**: This error is generated for each title element.
 - **rationale**: All contents, including individual frames in a frameset, should have a title element that defines, in a simple phrase, the purpose of the content.
-- **[Example audit containing error ID 54](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 54][httpsuxbrightonorguk2010]**
 
 ## ID 55
 
@@ -70,7 +62,7 @@
 - **error**: input possibly using color alone.
 - **description**: All input elements, except those with a type of "hidden", will generate this error.
 - **rationale**: Not found
-- **[Example audit containing error ID 55](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 55][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 82
 
@@ -78,7 +70,7 @@
 - **error**: p element may be misused (could be a header).
 - **description**: All p element content must not be marked with either b, i, u, strong, font, em.
 - **rationale**: Not found
-- **[Example audit containing error ID 82](output/20190724T121358/httpsuxbrightonorguk2013.html)**
+- **[Example audit containing error ID 82][httpsuxbrightonorguk2013]**
 
 ## ID 86
 
@@ -86,7 +78,7 @@
 - **error**: script may use color alone.
 - **description**: This error will be generated for all script elements.
 - **rationale**: Not found
-- **[Example audit containing error ID 86](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 86][httpsuxbrightonorguk2010]**
 
 ## ID 87
 
@@ -94,7 +86,7 @@
 - **error**: script may cause screen flicker.
 - **description**: This error will be generated for all script elements.
 - **rationale**: Not found
-- **[Example audit containing error ID 87](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 87][httpsuxbrightonorguk2010]**
 
 ## ID 89
 
@@ -102,7 +94,7 @@
 - **error**: script user interface may not be accessible.
 - **description**: This error will be generated for all script elements.
 - **rationale**: Not found
-- **[Example audit containing error ID 89](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 89][httpsuxbrightonorguk2010]**
 
 ## ID 110
 
@@ -110,7 +102,7 @@
 - **error**: Words or phrases that are not in the document's primary language may not be identified.
 - **description**: If the body element contains more than 10 characters (English) then this error will be generated.
 - **rationale**: If you use a number of different languages on a page, make sure that any changes in language are clearly identified by use of the lang attribute.
-- **[Example audit containing error ID 110](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 110][httpsuxbrightonorguk2010]**
 
 ## ID 123
 
@@ -118,7 +110,7 @@
 - **error**: input element label, type of "checkbox" is not positioned close to control.
 - **description**: input element with a type attribute value of "checkbox" must have an associated label element positioned close to it.
 - **rationale**: Not found
-- **[Example audit containing error ID 123](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 123][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 178
 
@@ -126,7 +118,7 @@
 - **error**: Alt text does not convey the same information as the image.
 - **description**: Alt text must be appropriate and meaningful for image.
 - **rationale**: Not found
-- **[Example audit containing error ID 178](output/20190724T121358/httpsuxbrightonorguk2011.html)**
+- **[Example audit containing error ID 178][httpsuxbrightonorguk2011]**
 
 ## ID 185
 
@@ -134,7 +126,7 @@
 - **error**: id attribute is not unique.
 - **description**: Each id attribute value must be unique.
 - **rationale**: Not found
-- **[Example audit containing error ID 185](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 185][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 189
 
@@ -142,7 +134,7 @@
 - **error**: label may not describe its associated control.
 - **description**: Each label must describe its associated input element.
 - **rationale**: Not found
-- **[Example audit containing error ID 189](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 189][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 197
 
@@ -150,7 +142,7 @@
 - **error**: Anchor text may not identify the link destination.
 - **description**: Anchor text must identify the link destination.
 - **rationale**: Not found
-- **[Example audit containing error ID 197](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 197][httpsuxbrightonorguk2010]**
 
 ## ID 211
 
@@ -158,7 +150,7 @@
 - **error**: input element label, type of "text", is not positioned close to control.
 - **description**: input element with a type attribute value of "text" must have an associated label element positioned close to it.
 - **rationale**: Not found
-- **[Example audit containing error ID 211](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 211][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 218
 
@@ -166,7 +158,7 @@
 - **error**: input element, type of "text", label may not describe the purpose or function of the control.
 - **description**: Not found
 - **rationale**: Not found
-- **[Example audit containing error ID 218](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 218][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 219
 
@@ -174,7 +166,7 @@
 - **error**: input element, type of "checkbox", label may not describe the purpose or function of the control.
 - **description**: Not found
 - **rationale**: Not found
-- **[Example audit containing error ID 219](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 219][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 239
 
@@ -182,7 +174,7 @@
 - **error**: img has title attribute and image may be decorative.
 - **description**: Decorative images must have no title or empty string title.
 - **rationale**: Not found
-- **[Example audit containing error ID 239](output/20190724T121358/httpsuxbrightonorguk2014.html)**
+- **[Example audit containing error ID 239][httpsuxbrightonorguk2014]**
 
 ## ID 241
 
@@ -190,7 +182,7 @@
 - **error**: Tabular information may be missing table markup.
 - **description**: The objective of this technique is to present tabular information in a way that preserves relationships within the information even when users cannot see the table or the presentation format is changed.
 - **rationale**: Not found
-- **[Example audit containing error ID 241](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 241][httpsuxbrightonorguk2010]**
 
 ## ID 246
 
@@ -198,7 +190,7 @@
 - **error**: All required form fields may not be indicated as required.
 - **description**: Ensure that the label for any interactive component within Web content makes the component's purpose clear.
 - **rationale**: Not found
-- **[Example audit containing error ID 246](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 246][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 248
 
@@ -206,7 +198,7 @@
 - **error**: Visual lists may not be properly marked.
 - **description**: Create lists of related items using list elements appropriate for their purposes.
 - **rationale**: Not found
-- **[Example audit containing error ID 248](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 248][httpsuxbrightonorguk2010]**
 
 ## ID 250
 
@@ -214,7 +206,7 @@
 - **error**: Text may refer to items by shape, size, or relative position alone.
 - **description**: Items within a Web unit are referenced in the content not only by shape, size or location, but also in ways that do not depend on visual perception.
 - **rationale**: Not found
-- **[Example audit containing error ID 250](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 250][httpsuxbrightonorguk2010]**
 
 ## ID 251
 
@@ -222,7 +214,7 @@
 - **error**: Image may contain text with poor contrast.
 - **description**: Make sure that users can read text that is presented over a background.
 - **rationale**: Not found
-- **[Example audit containing error ID 251](output/20190724T121358/httpsuxbrightonorguk2011.html)**
+- **[Example audit containing error ID 251][httpsuxbrightonorguk2011]**
 
 ## ID 262
 
@@ -230,7 +222,7 @@
 - **error**: Groups of links with a related purpose are not marked.
 - **description**: When links are grouped into logical sets (for example, in a navigation bar or main menu that appears on every page in a site) they should be marked up as a unit.
 - **rationale**: Not found
-- **[Example audit containing error ID 262](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 262][httpsuxbrightonorguk2010]**
 
 ## ID 267
 
@@ -238,7 +230,7 @@
 - **error**: Form submission error messages may not identify empty required fields.
 - **description**: Helps the user to visualize how content has been structured and how to navigate back to previous Web units, and may identify the current location within a series of Web units.
 - **rationale**: Not found
-- **[Example audit containing error ID 267](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 267][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
 
 ## ID 270
 
@@ -246,7 +238,7 @@
 - **error**: Unicode right-to-left marks or left-to-right marks may be required.
 - **description**: Use Unicode right-to-left marks and left-to-right marks to override the HTML bidirectional algorithm when it produces undesirable results. This may be necessary, for instance, when placing neutral characters such as spaces or punctuation between different directional text runs.
 - **rationale**: Not found
-- **[Example audit containing error ID 270](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 270][httpsuxbrightonorguk2010]**
 
 ## ID 271
 
@@ -254,7 +246,7 @@
 - **error**: dir attribute may be required to identify changes in text direction.
 - **description**: Identify changes in the text direction of text that includes nested directional runs by providing the dir attribute on inline elements. A nested directional run is a run of text that includes mixed directional text, for example, a paragraph in English containing a quoted Hebrew sentence which in turn includes a quotation in French.
 - **rationale**: Not found
-- **[Example audit containing error ID 271](output/20190724T121358/httpsuxbrightonorguk2010.html)**
+- **[Example audit containing error ID 271][httpsuxbrightonorguk2010]**
 
 ## ID 274
 
@@ -262,4 +254,11 @@
 - **error**: Change of context may occur without user activation.
 - **description**: Provide a method for activating things that is predictable by the user.
 - **rationale**: Not found
-- **[Example audit containing error ID 274](output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html)**
+- **[Example audit containing error ID 274][httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]**
+
+[httpsuxbrightonorgukjobstest]: ./output/20190724T121358/httpsuxbrightonorgukjobstest.html
+[httpsuxbrightonorguk2013]: ./output/20190724T121358/httpsuxbrightonorguk2013.html
+[httpsuxbrightonorguk2014]: ./output/20190724T121358/httpsuxbrightonorguk2014.html
+[httpsuxbrightonorguk2010]: ./output/20190724T121358/httpsuxbrightonorguk2010.html
+[httpsuxbrightonorguk2011]: ./output/20190724T121358/httpsuxbrightonorguk2011.html
+[httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern]: ./output/20190724T121358/httpsuxbrightonorguk2018toptasksworkshopwithgerrymcgovern.html

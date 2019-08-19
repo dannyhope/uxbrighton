@@ -1050,7 +1050,8 @@ body.scroll-started .masthead__logo {
 /*contents*/
 [data-overlay-active="slack"] #slack-signup h2,
 [data-overlay-active="newsletter"] #newletter-signup h2,
-[data-overlay-active="newsletter"] #newletter-signup label {
+[data-overlay-active="newsletter"] #newletter-signup label,
+[data-overlay-active="newsletter"] .text-black-on-overlay {
   color: #000; }
 
 [data-overlay-active="newsletter"] #newsletter-options {

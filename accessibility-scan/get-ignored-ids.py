@@ -22,7 +22,7 @@ ERR_FORMAT = f"""
 - **error**: %s
 - **description**: %s
 - **rationale**: %s
-- **[Example audit containing error ID %d](output/{html_files_loc}/%s)**"""
+- **[Example audit containing error ID %d][%s]**"""
 
 files_to_check = [
     file for file in os.listdir(html_files_loc_full)
@@ -69,6 +69,8 @@ def get_msg(regex):
         return 'Not found'
 
 
+example_files = set()
+
 for curr_id in sorted_ids:
     print(f'Getting information on ID: {curr_id}')
     response = requests.get(f'https://achecker.ca/checker/suggestion.php?id={curr_id}')
@@ -78,9 +80,17 @@ for curr_id in sorted_ids:
     err = get_msg(err_regex)
     desc = get_msg(desc_regex)
     rat = get_msg(rat_regex)
-    example = unique_ids[curr_id]
+    example = unique_ids[curr_id].replace('.html', '')
+    example_files.add(example)
 
     output += ERR_FORMAT % (curr_id, req, err, desc, rat, curr_id, example)
+
+if len(example_files) > 0:
+    output += '\n'
+
+for file in example_files:
+    output += f'\n[{file}]: ./output/{html_files_loc}/{file}.html'
+
 
 with open(ERR_OUTPUT_FILE_FULL, 'w') as file_handle:
     file_handle.write(output + '\n')
