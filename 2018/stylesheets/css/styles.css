@@ -3125,6 +3125,17 @@ a.drop:hover {
   position: -webkit-sticky;
   position: sticky; }
 
+.sticky-body-column {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; }
+
+@media only screen and (min-width: 951px) {
+  .event-sticky-body-column {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px; } }
+
 .centre {
   margin-left: auto;
   margin-right: auto; }

@@ -151,12 +151,15 @@ h2 + h3 {
           {% assign hoverTextRange = 'high' %}
         {% endif %}
         <div id="{{ job.job-id }}" class="job" itemscope itemtype="http://schema.org/JobPosting">
-          <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='(ga("send", "event", "jobs", "view", "{{ job.job-id }}"), jobTitleOpen("{{ job.job-id }}"))'></a>
+          <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='(ga("send", "event", "jobs", "view", "{{ job.job-id }}"), jobOpen("{{ job.job-id }}"))'></a>
           <!-- <span itemprop="datePosted">2011-10-31</span> -->
-          <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobTitleClose("{{ job.job-id }}")'>&times;</a>
+          <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobClose("{{ job.job-id }}")'>&times;</a>
           <div id="{{ job.job-id }}-info" class="job-info pa3">
             <div class="job-info__inner">
-              <div class="job-logo left-over-s mr3" style="background-image: url({{ job.logo-link }});"></div>
+              <div class="sticky left-over-s" style="top: 0;">
+                <div class="job-logo mr3" style="background-image: url({{ job.logo-link }});"></div>
+                <a id="js-job-apply-{{ job.job-id }}" style="display: none;" class="button button--green mt2 pa2" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
+              </div>
               <div class="job-text table">
                 <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
                 <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
@@ -202,7 +205,6 @@ h2 + h3 {
                 </p>
                 <div class="job-text-extended hidden row"  itemprop="description">
                   {{ job.extended-description | markdownify }}
-                  <a class="button button--green mt2 pa2" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
                 </div><!-- job-text-extended -->
               </div><!-- job-text -->        
             </div>
@@ -213,7 +215,7 @@ h2 + h3 {
     {% endfor %}
   </div>
 
-  <div class="u1of4-over-m left-over-m gutters gutter-bottom-under-m">
+  <div class="sticky-body-column u1of4-over-m left-over-m gutters gutter-bottom-under-m">
     <h2>Post a job ad</h2>
     <p>
       Emmeline and Danny are currently manually adding jobs to the site. If you’d like us to add a job for your company, the first thing to do is to do is email us via
@@ -273,7 +275,13 @@ h2 + h3 {
     }
   }
 
-  function jobTitleOpen(jobId) {
+  function jobOpen(jobId) {
+    var jobApplyBtn = document.getElementById('js-job-apply-' + jobId);
+    console.log(jobApplyBtn);
+    if (jobApplyBtn) {
+      jobApplyBtn.style.display = null;
+      console.log(jobApplyBtn.style);
+    }
     var jobTitle = document.getElementById('js-job-title-' + jobId);
     if (jobTitle) {
       jobTitle.classList.remove('color-blue');
@@ -285,7 +293,11 @@ h2 + h3 {
     }
   }
 
-  function jobTitleClose(jobId) {
+  function jobClose(jobId) {
+    var jobApplyBtn = document.getElementById('js-job-apply-' + jobId);
+    if (jobApplyBtn) {
+      jobApplyBtn.style.display = 'none';
+    }
     var jobTitle = document.getElementById('js-job-title-' + jobId);
     jobTitle.classList.add('color-blue');
     jobTitle.classList.remove('job-title-page-style');
@@ -297,6 +309,6 @@ h2 + h3 {
 
   if (window.hashFragment) {
     var jobId = window.location.hash.substring(1);
-    jobTitleOpen(jobId);
+    jobOpen(jobId);
   }
 </script>
