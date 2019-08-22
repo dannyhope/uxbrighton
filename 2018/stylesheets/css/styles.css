@@ -3130,6 +3130,14 @@ a.drop:hover {
   position: sticky;
   top: 48px; }
 
+@media only screen and (max-width: 27.2678rem) {
+  .hide-footer-middot {
+    display: none; } }
+
+@media only screen and (min-width: 27.2678rem) {
+  .break-footer-links {
+    display: none; } }
+
 @media only screen and (min-width: 951px) {
   .event-sticky-body-column {
     position: -webkit-sticky;
