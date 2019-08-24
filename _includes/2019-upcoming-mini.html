@@ -1,85 +1,63 @@
 <style>
-        @media (min-width: 860px) {
-          .upcoming__container {
-            width: 330px;
-            float: right;
-            margin-bottom: 24px !important;
-            margin-left: 32px;
-          }
-          .upcoming__container__heading {
-            margin-bottom: 12px;
-            padding-top: 16px;
-            padding-left: 16px;
-            padding-right: 16px;
-          }
-          .upcoming__teaser {
-            padding: 0 16px;
-            padding-bottom: 12px;
-          }
-        }
-        @media (max-width: 859px) {
-          #hero .overlay__inner {
-            padding: 20px 0 0;
-          }
-          .upcoming__container {
-            padding: 8px 12px;
-            margin-bottom: 24px !important;
-            margin-left: 0;
-          }
-          .upcoming__teaser,
-          .upcoming__container__heading {
-            padding-top: 8px;
-            padding-bottom: 8px;
-            color: #010F15 !important;
-          }
-          .upcoming__teaser__text,
-          .upcoming__teaser__heading {
-            font-size: 16px !important;
-          }
-        }
-        .upcoming__teaser__heading {
-          margin-bottom: 0;
-        }
-        .upcoming__teaser:hover {
-          background-color: #f2f3f3;
-        }
-      </style>
-    
-      <div class="upcoming__container color-black bg-white rounded ">
+  @media (min-width: 860px) {
+    .upcoming__container {
+      width: 330px;
+      float: right;
+      margin-bottom: 24px !important;
+      margin-left: 32px;
+    }
+    .upcoming__container__heading {
+      margin-bottom: 12px;
+      padding-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .upcoming__teaser {
+      padding: 0 16px;
+      padding-bottom: 12px;
+    }
+  }
+  @media (max-width: 859px) {
+    #hero .overlay__inner {
+      padding: 20px 0 0;
+    }
+    .upcoming__container {
+      padding: 8px 12px;
+      margin-bottom: 24px !important;
+      margin-left: 0;
+    }
+    .upcoming__teaser,
+    .upcoming__container__heading {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: #010F15 !important;
+    }
+    .upcoming__teaser__text,
+    .upcoming__teaser__heading {
+      font-size: 16px !important;
+    }
+  }
+  .upcoming__teaser__heading {
+    margin-bottom: 0;
+  }
+  .upcoming__teaser:hover {
+    background-color: #f2f3f3;
+  }
+  .upcoming__teaser__link {
+    padding-top: 8px;
+  }
+</style>
 
-        <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
-      
-        
-        <!-- <div class="upcoming__teaser border-top">
-          <h3 class="upcoming__teaser__heading ">
-            February Triple Bill
-          </h3>
-          <div class="upcoming__teaser__text">
-            Tue 12 February 2019, 19:00
-          </div>
-          <a href="/February-triple-bill/" class="upcoming__teaser__button button button--green ">
-            Tickets and info
-          </a>
-        </div> -->
-        
-        <div class="upcoming__teaser">
-          <a href="/September-2019" class="block-link border-top">
-            <h3 class="upcoming__teaser__heading mv0">
-              September Double Bill
-            </h3>
-            <div class="upcoming__teaser__text">
-              Grammatical & Readable Code with Daniel van Berzon + another talk TBA
-            </div>
-          </a>
-        </div>
-        <div class="upcoming__teaser">
-          <a href="/September-2019" class="block-link border-top">
-            <h3 class="upcoming__teaser__heading mv0">
-              September Double Bill
-            </h3>
-            <div class="upcoming__teaser__text">
-              Grammatical & Readable Code with Daniel van Berzon + another talk TBA
-            </div>
-          </a>
-        </div>
+<div class="upcoming__container color-black bg-white rounded ">
+  <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
+  <div class="upcoming__teaser">
+    <a href="/September-2019" class="block-link border-top upcoming__teaser__link">
+      <h3 class="upcoming__teaser__heading mv0">
+        September Double Bill
+      </h3>
+      <div class="upcoming__teaser__text">
+        Grammatical & Readable Code with Daniel van Berzon + another talk TBA
       </div>
+    </a>
+  </div>
+</div>
