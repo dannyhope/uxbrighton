@@ -51,9 +51,6 @@
       right: 0;
       //margin-left: 20px;
     }
-    @media (min-width: 830px) {
-      left: 24px;
-    }
     @include under-m {
       overflow: hidden;
       width: calc(100vw - #{$masthead-height});

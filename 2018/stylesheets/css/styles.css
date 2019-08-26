@@ -878,9 +878,6 @@ body.scroll-started .masthead__logo {
   .masthead__links {
     position: relative;
     right: 0; } }
-@media (min-width: 830px) {
-  .masthead__links {
-    left: 24px; } }
 /* @media only screen and (max-width: 730px) {
   .masthead__links {
     overflow: hidden;
