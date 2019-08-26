@@ -867,8 +867,8 @@ body {
       min-width: 80px;
       width: 10vh;
       max-width: 120px;
-      -webkit-transition: all 0.4s ease-out;
-      transition: all 0.4s ease-out; } }
+      transition: none !important;
+      -webkit-transition: none !important; } }
 
 body.scroll-started .masthead__logo {
   width: 48px;
