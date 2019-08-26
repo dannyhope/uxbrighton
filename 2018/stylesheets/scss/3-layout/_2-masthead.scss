@@ -31,7 +31,9 @@
     float: left;
     width: $masthead-height;
     @media (min-width: 830px) {
+      min-width: 80px;
       width: 10vh;
+      max-width: 120px;
       transition: all 0.4s ease-out;
     }
   }
