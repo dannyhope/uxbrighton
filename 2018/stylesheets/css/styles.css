@@ -864,7 +864,7 @@ body {
   width: 48px; }
   @media (min-width: 830px) {
     .masthead__logo {
-      width: 80px;
+      width: 10vh;
       -webkit-transition: all 0.4s ease-out;
       transition: all 0.4s ease-out; } }
 
