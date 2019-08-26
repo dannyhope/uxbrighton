@@ -871,7 +871,8 @@ body {
       transition: all 0.4s ease-out; } }
 
 body.scroll-started .masthead__logo {
-  width: 48px; }
+  width: 48px;
+  min-width: unset; }
 
 .masthead__links {
   text-transform: uppercase;
@@ -943,19 +944,19 @@ body.scroll-started .masthead__logo {
     font-size: 16px;
     padding: 17px 7px 15px !important; } }
 
-@media only screen and (max-width: 612px) {
+@media only screen and (max-width: 622px) {
   .masthead__links a {
     font-size: 13px; } }
 
-@media only screen and (max-width: 533px) {
+@media only screen and (max-width: 542px) {
   .nav-hidden-under-m {
     display: none; } }
 
-@media only screen and (max-width: 473px) {
+@media only screen and (max-width: 483px) {
   .nav-hidden-under-s {
     display: none; } }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 374px) {
   nav ul {
     padding: 0 8px; }
 

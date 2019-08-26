@@ -42,6 +42,7 @@
   //   overflow: hidden;
   // }
   body.scroll-started .masthead__logo {
+    min-width: unset;
     width: $masthead-height;
   }
 
