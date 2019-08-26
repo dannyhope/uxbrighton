@@ -125,6 +125,32 @@ upcoming-button-text: ""
     width: 100%;
     max-width: 355px;
   }
+  .upcoming-events-outer {
+    position: absolute;
+    top: 10rem;
+    left: calc(50% + 14.4rem);
+    width: 22.2rem;
+  }
+  .main-text-padding {
+    padding-top: 25%;
+  }
+  @media only screen and (max-width: 1260px) {
+    .upcoming-events-outer {
+      left: unset;
+      right: 3.5rem;
+    }
+    .main-text-padding {
+      padding-top: 20rem;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    .upcoming-events-outer {
+      display: none;
+    }
+    .main-text-padding {
+      padding-top: 25%;
+    }
+  }
 </style>
 
 
@@ -132,13 +158,11 @@ upcoming-button-text: ""
   <main class="">
 
     <section id="intro" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
-      <div class="container">
-        <div class="right fill" style="padding-top: 10rem;">
-          {% include 2019-upcoming-mini.html %}
-        </div>
+      <div class="upcoming-events-outer">
+        {% include 2019-upcoming-mini.html %}
       </div>
-      <div style="padding-top: 10%;">
-        <div class="color-white" style="background: rgba(1,15,21,0.5);">
+      <div class="color-white main-text-padding">
+        <div style="background: rgba(1,15,21,0.5);">
           <div class="container bba">
             <div class="-u2of3-over-m pt3 bba1" style="margin-bottom: 20px;">
               <h1 itemprop="name" class="fs-xxxl leading-solid">
