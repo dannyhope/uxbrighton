@@ -114,14 +114,6 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
   display: block;
 }
 
-.top-separator {
-  margin-top: 16px;
-}
-
-.bottom-separator {
-  margin-bottom: 8px;
-}
-
   /*.h-ul--6,
   .h-ul--7,
   .h-ul--8 {
@@ -167,8 +159,8 @@ h2 + h3 {
                 <div class="job-logo mr3" style="background-image: url({{ job.logo-link }});"></div>
                 <div id="js-job-show-expanded-{{ job.job-id }}" style="display: none; max-width: 180px;">
                   <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
-                  <p class="mv0 top-separator" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
-                  <p class="mv0 bottom-separator">
+                  <p class="mv0 mt2" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
+                  <p class="mb1">
                     <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·  
                     <span itemprop="addressLocality">{{ job.location }}</span>
                     {% if job.show-salary == 'TRUE' %}
