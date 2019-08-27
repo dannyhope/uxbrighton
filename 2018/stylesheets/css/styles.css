@@ -3125,8 +3125,14 @@ a.drop:hover {
   position: -webkit-sticky;
   position: sticky; }
 
-@media only screen and (min-width: 780px) and (min-height: 680px) {
+@media only screen and (min-width: 780px) and (min-height: 525px) {
   .sticky-body-column {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px; } }
+
+@media only screen and (min-width: 951px) {
+  .event-sticky-body-column {
     position: -webkit-sticky;
     position: sticky;
     top: 48px; } }
@@ -3138,12 +3144,6 @@ a.drop:hover {
 @media only screen and (min-width: 27.2678rem) {
   .break-footer-links {
     display: none; } }
-
-@media only screen and (min-width: 951px) {
-  .event-sticky-body-column {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 48px; } }
 
 .centre {
   margin-left: auto;
