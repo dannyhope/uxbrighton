@@ -12,3 +12,4 @@ node_modules
 yarn.lock
 package.json
 .vscode
+.sass-cache

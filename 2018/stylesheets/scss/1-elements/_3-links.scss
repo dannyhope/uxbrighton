@@ -10,7 +10,9 @@
   }
   nav ul, nav ol {
     list-style: none outside;
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
+    float: right;
   }
 
   a {
