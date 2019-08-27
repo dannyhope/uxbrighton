@@ -100,7 +100,7 @@
         && (offsets[i + 1] === undefined || scrollTop < offsets[i + 1])
         && this.activate(targets[i])
     }
-    if ($(document).scrollTop() > 20) {
+    if ($(document).scrollTop() > 190) {
       $('body').addClass('scroll-started');
     } else {
       $('body').removeClass('scroll-started');

@@ -4,100 +4,14 @@
       margin: 5px 5px 0 0;
     }
   </style>
-  <div class="overlay-active-underlay full-screen-overlay hidden" onclick="$('body').attr('data-overlay-active','false');"></div>
+  <div class="overlay-active-underlay full-screen-overlay hidden" onclick="$('body').attr('data-overlay-active','false'); $( '#js-newsletter-thanks' ).css('color', '');"></div>
   <footer class="bg-grey-90 color-grey-10 pv5">
     <div class="container pt1 pb3">
       <div class="row">
         <div class="u1of2-over-m left-over-m gutter-right mb5"  id="newletter-signup">
           <div class="inline-block center-under-m">
             <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Sign up for updates</h2>
-            <script>
-
-              // function to write the current options into a data attribute which is in turn passed to analytics
-              function newsOption(returnValue,returnOption) {
-
-                var newsletterType = returnValue.split("-")[0];
-                var currentOptions = $('[data-news-options]').first().attr('data-news-options');
-                var replacementSubString;
-                var revisedOptions;
-
-                if (returnOption == "include") {
-                  replacementSubString = newsletterType;
-                  $('[type="checkbox"][id^='+newsletterType+']').prop('checked', true);
-                } else {
-                  replacementSubString = "no";
-                  $('[type="checkbox"][id^='+newsletterType+']').prop('checked', false);
-                }
-
-                if (newsletterType == "conference") {
-                  revisedOptions = replacementSubString + "-" + currentOptions.split("-")[1] + "-" + currentOptions.split("-")[2];
-                } else if (newsletterType == "newsletter")  {
-                  revisedOptions = currentOptions.split("-")[0] + "-" + replacementSubString + "-" + currentOptions.split("-")[2];
-                } else {
-                  revisedOptions = currentOptions.split("-")[0] + "-" + currentOptions.split("-")[1] + "-" + replacementSubString;
-                }
-
-                $('[data-news-options]').attr('data-news-options', revisedOptions);
-              }
-
-              // send the current options to google analytics
-              function newsletterAnalytics (event) {
-                var newsletterOptions = $(this).attr('data-news-options');
-                if (newsletterOptions == "no-no-no") {
-                  event.preventDefault();
-                  $(this).closest('.js-email-signup').find('.js-email-no-choice').slideDown()
-                }
-                ga("send", "event", "newsletter", "signup", newsletterOptions);
-              }
-
-              $(function() {
-
-                // click handler for newsOption function
-                $('.js-email-signup input[type="checkbox"]').change(function() {
-                  var returnVal = $(this).attr('id');
-                  if(this.checked) {
-                    newsOption(returnVal,"include");
-                  } else {
-                    newsOption(returnVal,"exclude");
-                  }
-                });
-
-              }); // dom ready
-
-            </script>
-            <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup js-email-signup">
-              <label class="screen-reader-text" for="fieldEmail">Email</label>
-              <div class="input-group mt1 mb1">
-                <input id="fieldEmail" name="email" type="email" required="" placeholder="Your email" class="input-group__field border--none rounded-left" onfocus="document.getElementById('newsletter-options').className = 'show'">
-                <input onclick="newsletterAnalytics.call(this,event);" data-news-options="conference-newsletter-evening" type="submit" value="Sign up" name="subscribe" id="subscribe" class="button input-group__button button--green rounded-right js-mailinglist-submit">
-              </div><!-- input-group -->
-              <div id="newsletter-options" class="hidden">
-                <h3 class="bold pb0 block regular screen-reader-text">
-                  Which topics are of interest to you?
-                </h3>
-                <div class="js-email-no-choice hidden color-black mv1"><strong>👇 Please select at least one option</strong></div>
-                <div style="padding-top: 4px;">
-                  <input id="conference-mailinglist" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" checked class="left">
-                  <label class="table" for="conference-mailinglist" class="">Conference and workshop news</label>
-                </div>
-                <div style="padding-top: 4px;">
-                  <input id="newsletter-mailinglist" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" checked class="left">
-                  <label class="table" for="newsletter-mailinglist" class="">Link Digest: links picked by the UX Brighton team</label>
-                </div>
-                <div style="padding-top: 4px;">
-                  <input id="evening-events-mailinglist" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" checked class="left">
-                  <label class="table" for="evening-events-mailinglist" class="">Evening events</label>
-                </div>
-              </div>
-              <div style="display:none;">
-                <label for="hp">HP</label><br/>
-                <input type="text" name="hp" id="hp"/>
-              </div>
-
-            </form>
-            <div class="js-signup-confirmation button--green" style="padding: 1rem; display: none;">
-              <strong>Thanks!</strong> Please look out for the sign up email that we've just sent you.
-            </div>
+            {% include mail-list-signup-form.html change-on-overlay=true %}
           </div>
         </div><!-- u1of2-over-s -->
         <div class="u1of2-over-m left-over-m gutter-left pb3">
@@ -141,7 +55,10 @@
       </div><!-- row -->
 
       <div class="row text-center pt3">
-       <a class="bold inline-block" href="/2018/about">About UX Brighton</a> &nbsp;&middot;&nbsp; <a class="bold inline-block" href="http://dannyhope.co.uk/">A Danny Hope Production</a>
+       <a class="bold inline-block" href="/2018/about">About UX Brighton</a>
+       <span class="hide-footer-middot">&nbsp;&middot;&nbsp;</span>
+       <br class="break-footer-links" />
+       <a class="bold inline-block" href="http://dannyhope.co.uk/">A Danny Hope Production</a>
       </div>
 
 

@@ -31,8 +31,10 @@
     float: left;
     width: $masthead-height;
     @media (min-width: 830px) {
-      width: 80px;
-      transition: all 0.4s ease-out;
+      min-width: 80px;
+      width: 10vh;
+      max-width: 120px;
+      transition: none !important;
     }
   }
 
@@ -40,6 +42,7 @@
   //   overflow: hidden;
   // }
   body.scroll-started .masthead__logo {
+    min-width: unset;
     width: $masthead-height;
   }
 
@@ -50,9 +53,6 @@
       position: relative;
       right: 0;
       //margin-left: 20px;
-    }
-    @media (min-width: 830px) {
-      left: 24px;
     }
     @include under-m {
       overflow: hidden;
