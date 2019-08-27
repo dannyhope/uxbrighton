@@ -1614,7 +1614,8 @@ th, td {
 .no-js .job:target .job-logo,
 .job-target .job-logo {
   width: 180px;
-  height: 135px; }
+  height: 135px;
+  margin-bottom: 16px; }
   @media only screen and (min-width: 951px) {
     .no-js .job:target .job-logo,
     .job-target .job-logo {
