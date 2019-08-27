@@ -502,6 +502,9 @@ nav a {
     color: #C9003A;
     text-decoration: underline; }
 
+nav svg {
+  fill: black;}
+
 nav ul, nav ol {
   list-style: none outside;
   margin: 0;
