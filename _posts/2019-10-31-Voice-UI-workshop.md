@@ -6,7 +6,7 @@ start: 9:30am
 upcoming: true
 homepage: false
 price: from £300 + VAT
-ticket-link: https://www.eventbrite.co.uk/preview?eid=70743031311#tickets
+ticket-link: https://www.eventbrite.co.uk/e/talking-design-make-your-first-voice-interface-a-workshop-with-ben-sauer-tickets-70743031311
 ---
 
 #Talking Design: Make Your First Voice Interface - a workshop with Ben Sauer
