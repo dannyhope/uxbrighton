@@ -38,6 +38,9 @@ upcoming-button-text: ""
     color: #000;
     border-color: #000 !important;
   }
+  .masthead__link svg {
+    fill: white;
+  }
   #promotions hr {
     visibility: hidden;
   }
@@ -125,6 +128,32 @@ upcoming-button-text: ""
     width: 100%;
     max-width: 355px;
   }
+  .upcoming-events-outer {
+    position: absolute;
+    top: 10rem;
+    left: calc(50% + 14.4rem);
+    width: 22.2rem;
+  }
+  .main-text-padding {
+    padding-top: 25%;
+  }
+  @media only screen and (max-width: 1260px) {
+    .upcoming-events-outer {
+      left: unset;
+      right: 3.5rem;
+    }
+    .main-text-padding {
+      padding-top: 20rem;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    .upcoming-events-outer {
+      display: none;
+    }
+    .main-text-padding {
+      padding-top: 25%;
+    }
+  }
 </style>
 
 
@@ -132,9 +161,12 @@ upcoming-button-text: ""
   <main class="">
 
     <section id="intro" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
-      <div style="padding-top: 30%;">
-        <div class="color-white " style="background: rgba(1,15,21,0.5)";>
-          <div class="container  bba">
+      <div class="upcoming-events-outer">
+        {% include 2019-upcoming-mini.html %}
+      </div>
+      <div class="color-white main-text-padding">
+        <div style="background: rgba(1,15,21,0.5);">
+          <div class="container bba">
             <div class="-u2of3-over-m pt3 bba1" style="margin-bottom: 20px;">
               <h1 itemprop="name" class="fs-xxxl leading-solid">
                 <span class="fs-l block track-normal weight-400 mb1" >UX Brighton 2019</span>
@@ -271,9 +303,9 @@ upcoming-button-text: ""
 
 
 
-    <section class="bg-grey-5">
+    <section id="highlights" class="bg-grey-5">
       <div class="container">
-        <h2 id="highlights" class="mb2 gutter-top">Highlights from previous years</h2>
+        <h2 class="mb2 gutter-top">Highlights from previous years</h2>
         <div class="row mt0">
           <div class="u2of3-over-l left-over-l  pr0-under-l">
             

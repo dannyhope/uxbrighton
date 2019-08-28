@@ -6,4 +6,6 @@ future: true
 exclude: [CNAME]
 plugins:
   - jekyll-redirect-from
-
+sass:
+  style: compressed
+  sass_dir: ./2018/stylesheets/scss

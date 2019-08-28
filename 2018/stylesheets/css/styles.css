@@ -502,6 +502,9 @@ nav a {
     color: #C9003A;
     text-decoration: underline; }
 
+nav svg {
+  fill: black;}
+
 nav ul, nav ol {
   list-style: none outside;
   margin: 0;
@@ -864,12 +867,15 @@ body {
   width: 48px; }
   @media (min-width: 830px) {
     .masthead__logo {
-      width: 80px;
-      -webkit-transition: all 0.4s ease-out;
-      transition: all 0.4s ease-out; } }
+      min-width: 80px;
+      width: 10vh;
+      max-width: 120px;
+      transition: none !important;
+      -webkit-transition: none !important; } }
 
 body.scroll-started .masthead__logo {
-  width: 48px; }
+  width: 48px;
+  min-width: unset; }
 
 .masthead__links {
   text-transform: uppercase;
@@ -878,9 +884,6 @@ body.scroll-started .masthead__logo {
   .masthead__links {
     position: relative;
     right: 0; } }
-@media (min-width: 830px) {
-  .masthead__links {
-    left: 24px; } }
 /* @media only screen and (max-width: 730px) {
   .masthead__links {
     overflow: hidden;
@@ -944,19 +947,19 @@ body.scroll-started .masthead__logo {
     font-size: 16px;
     padding: 17px 7px 15px !important; } }
 
-@media only screen and (max-width: 612px) {
+@media only screen and (max-width: 622px) {
   .masthead__links a {
     font-size: 13px; } }
 
-@media only screen and (max-width: 533px) {
+@media only screen and (max-width: 542px) {
   .nav-hidden-under-m {
     display: none; } }
 
-@media only screen and (max-width: 473px) {
+@media only screen and (max-width: 483px) {
   .nav-hidden-under-s {
     display: none; } }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 374px) {
   nav ul {
     padding: 0 8px; }
 
@@ -1614,7 +1617,8 @@ th, td {
 .no-js .job:target .job-logo,
 .job-target .job-logo {
   width: 180px;
-  height: 135px; }
+  height: 135px;
+  margin-bottom: 16px; }
   @media only screen and (min-width: 951px) {
     .no-js .job:target .job-logo,
     .job-target .job-logo {
@@ -3124,6 +3128,26 @@ a.drop:hover {
 .sticky {
   position: -webkit-sticky;
   position: sticky; }
+
+@media only screen and (min-width: 780px) and (min-height: 525px) {
+  .sticky-body-column {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px; } }
+
+@media only screen and (min-width: 951px) {
+  .event-sticky-body-column {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px; } }
+
+@media only screen and (max-width: 27.2678rem) {
+  .hide-footer-middot {
+    display: none; } }
+
+@media only screen and (min-width: 27.2678rem) {
+  .break-footer-links {
+    display: none; } }
 
 .centre {
   margin-left: auto;

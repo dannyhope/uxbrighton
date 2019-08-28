@@ -143,6 +143,8 @@ $(function() {
 
 
   $('.job-open').on('click', function(e){
+    if (this.tagName !== 'A') return;
+
     e.preventDefault();
 
     window.the_pos = $(document).scrollTop();
@@ -179,9 +181,10 @@ $(function() {
 
 
   $('.job-close').on('click', function(e){
+    if (this.tagName !== 'A') return;
+    history.pushState(null, null, '#');
     e.preventDefault();
     e.stopPropagation();
-    history.replaceState(null, null, '#'); 
 
     $(this).closest('.job').removeClass('job-target');
     $('body').removeClass('job-open');
