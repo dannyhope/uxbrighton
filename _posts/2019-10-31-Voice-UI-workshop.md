@@ -1,17 +1,23 @@
 ---
 layout: event-page  
-title: Talking Design: Make Your First Voice Interface - a workshop with Ben Sauer
+title: "Talking Design: Make Your First Voice Interface - a workshop with Ben Sauer"
 venue: 68 Middle Street
-start: 9:30am
+start: "9:30am"
 upcoming: true
-homepage: false
-price: from £300 + VAT
+published: true
+price: "from £300 + VAT"
 ticket-link: https://www.eventbrite.co.uk/e/talking-design-make-your-first-voice-interface-a-workshop-with-ben-sauer-tickets-70743031311
+description: "Voice UI is growing fast. Although we’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations."
+fullurl: https://uxbrighton.org.uk/voice-ui-workshop/
+image: "https://uxbrighton.org.uk/images/cards/vui-2019-tw.jpg"
+upcoming-bg-image: "/images/events/voice-ui-workshop.jpeg"
+
 ---
 
-#Talking Design: Make Your First Voice Interface - a workshop with Ben Sauer
+## Designing for voice
 
-Voice UI is growing fast. Although we’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations. 
+<p class="standfirst mt2">Voice UI is growing fast. Although we’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations. </p>
+
 
 Modern voice interfaces are an opportunity to create better products in new contexts. Smart adoption of VUIs in the right environment makes interaction simple, pleasurable, accessible and lowers cognitive load. 
 
@@ -23,10 +29,10 @@ Side note: Prototyping in voice is both faster, and more fun than prototyping fo
 
 Join us to expand your design skills with a new interaction tool that’s as old as humanity: **voice.**
 
-###Who should attend
+## Who should attend
 This workshop is for anyone curious about working in voice, including designers, decision-makers, and engineers who are interested in ubiquitous computing, calm technology, bots, NO-UI, and thinking outside of the screen.
 
-###What you’ll learn
+## What you’ll learn
 - How to design a voice interface
 
 - How designing ‘conversation’ differs from screen interactions
@@ -35,7 +41,7 @@ This workshop is for anyone curious about working in voice, including designers,
 
 - Understanding of how to prototype voice with Wizard of Oz methods
 
-###About Ben
+## About Ben
 Ben Sauer is Director of Conversation Design at [Babylon Health](https://www.babylonhealth.com/), formerly of [Clearleft](https://clearleft.com/). He's worked with organisations like the BBC, Pearson, Tesco, and TCS to raise their design game.
 
 He’s been speaking about and training people on the topic of voice UI for several years; particularly in how to rapidly design conversational experiences. Teams at Amazon and the BBC use his methods, and through O'Reilly, he's trained folks at NASA. He’s also spent many hours at home removing the ridiculous things that his kids have added to Alexa’s shopping list.
@@ -44,7 +50,7 @@ He’s been speaking about and training people on the topic of voice UI for seve
 
 Photo credit: PC Poland
 
-###What people have said about UX Brighton workshops
+## What people have said about UX Brighton workshops
 *“Great workshop - it exceeded all my expectations!”*
 
 -Caroline Owen
