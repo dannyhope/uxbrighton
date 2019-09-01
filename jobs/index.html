@@ -403,4 +403,12 @@ h2 + h3 {
     var jobId = window.location.hash.substring(1);
     jobOpen(jobId);
   }
+
+  window.addEventListener('hashchange', function() {
+    var body = document.getElementsByTagName('body')[0];
+
+    if (body.classList.contains('job-open') && window.location.hash.length <= 1) {
+      $('.job-close').trigger('click');
+    }
+  });
 </script>
