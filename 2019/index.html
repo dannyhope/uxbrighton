@@ -201,9 +201,16 @@ upcoming-button-text: ""
             </a>
           </li>
 
-          <li class="nav-item inline-block ">
-            <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
-          </li>
+          {% if page.display-speakers == true %}
+            <li class="nav-item inline-block ">
+              <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
+            </li>   
+          {% else %}
+            <li class="nav-item inline-block ">
+              <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
+            </li>            
+          {% endif %}
+
 
           <li class="nav-item inline-block ">
             <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
@@ -246,9 +253,19 @@ upcoming-button-text: ""
 
 
           <div class="u1of3-over-l right-over-l gutters gutter-top-under-m">
-            <h2 class="mb2">Super early bird tickets</h2>
-            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a>
-            <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
+
+            {% if page.display-speakers == true %}
+
+              <h2 class="mb2">Tickets</h2>
+              <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £170 + vat</a>
+
+            {% else %}
+
+              <h2 class="mb2">Super early bird tickets</h2>
+              <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a>
+              <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
+
+            {% endif %}
 
             <h2 class="mb2 mt4">Stay updated</h2>
             <p>Join our newsletter for announcements and information about our evening talks.</p>

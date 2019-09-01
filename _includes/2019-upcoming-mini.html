@@ -30,7 +30,54 @@
       September Double Bill
     </h3>
     <div class="upcoming__teaser__text">
-      Grammatical & Readable Code with Daniel van Berzon + another talk TBA
+      What makes a brand voice brilliant? with Lauren Pope and
+      Grammatical & Readable Code with Daniel van Berzon
     </div>
   </a>
 </div>
+
+<!-- <div class="upcoming__container color-black bg-white rounded ">
+  <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
+
+    {% if page.slug != "conference-2019" %}
+
+      <a href="/2019" class="block-link upcoming__teaser border-top upcoming__teaser__link">
+        <h3 class="upcoming__teaser__heading mv0">
+          Conference 2019
+        </h3>
+        <div class="upcoming__teaser__text">
+          A Focus on Design
+        </div>
+      </a>
+
+    {% endif %}
+
+    {% assign has_upcoming = false %}
+    {% for post in site.posts %}
+      {% if post.upcoming == true && if post.published == true %}
+        {% assign has_upcoming = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if has_upcoming %}
+      {% for post in site.posts reversed limit:2 %}
+
+        {% if post.upcoming == true && if post.published == true %}
+            {% if post.slug == page.slug %}
+            {% else %}
+
+              <a href="{{ site.url }}{{post.url}}" class="block-link upcoming__teaser border-top upcoming__teaser__link">
+                <h3 class="upcoming__teaser__heading mv0">
+                  {{ post.title }}
+                </h3>
+                <div class="upcoming__teaser__text">
+                  {{ post.description }}
+                </div>
+              </a>
+
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+</div> -->
