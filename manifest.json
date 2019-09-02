@@ -3,18 +3,18 @@
     "short_name": "UX Brighton",
     "icons": [
         {
-            "src": "UX-Brighton-logo-glyph-Aug2019redesign@192.png",
+            "src": "UX-Brighton-logo@192w.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "UX-Brighton-logo-glyph-Aug2019redesign@512.png",
+            "src": "UX-Brighton-logo@512w.png",
             "type": "image/png",
             "sizes": "512x512"
         }
     ],
     "start_url": "/",
-    "background_color": "#C9003A",
+    "background_color": "#000000",
     "display": "standalone",
     "theme_color": "#000000"
 }
