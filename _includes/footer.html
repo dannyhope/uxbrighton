@@ -78,6 +78,14 @@
     </div><!-- container -->
   </footer>
 
+  <script>
+    if (navigator.serviceWorker !== undefined) {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(function() { console.log('Service Worker Registered'); });
+    }
+  </script>
+
 <!-- <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
