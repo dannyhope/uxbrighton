@@ -60,7 +60,7 @@
 
 
 
-      {% if 1 == 2 %}{% endif %}
+      
         <div class="clearfix gutters__container--xs pb1">
 
           <figure class="u1of4 left gutters--xs mb0">
@@ -73,6 +73,28 @@
               </figcaption>
             </a>
           </figure>
+
+          {% if page.speakers-tba == true %}
+
+          <figure class="u1of4 left gutters--xs mb0">
+            <div style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); border-radius: 2px; height:0; padding-bottom:100%;" class="relative" title="To Be Announced">
+              <div class="centred-faint">TBA</div>
+            </div>
+          </figure>
+
+          <figure class="u1of4 left gutters--xs mb0">
+            <div style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); border-radius: 2px; height:0; padding-bottom:100%;" class="relative" title="To Be Announced">
+              <div class="centred-faint">TBA</div>
+            </div>
+          </figure>
+
+          <figure class="u1of4 left gutters--xs mb0">
+            <div style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); border-radius: 2px; height:0; padding-bottom:100%;" class="relative" title="To Be Announced">
+              <div class="centred-faint">TBA</div>
+            </div>
+          </figure>
+          
+          {% endif %}
 
         </div>
 
@@ -231,7 +253,7 @@
 
 
 
-    <div class="talk if-conference-day-talk-toggled row padding-top-row" id="Ruby Steel">
+    <div class="talk if-conference-day-talk-toggled row padding-top-row" id="Ruby-Steel">
       <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
         <div class="circle overflow-hidden inline-block">
           <img alt="Ruby Steel" class="talk__photo" src="/2019/images/speakers/ruby-310.jpg" width="310" height="310">
