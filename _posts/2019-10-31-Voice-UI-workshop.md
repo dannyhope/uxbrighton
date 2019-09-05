@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: "Talking Design: Make Your First Voice Interface - a workshop with Ben Sauer"
+title: "Make Your First Voice Interface - a workshop with Ben Sauer"
 venue: 68 Middle Street
 start: "9:30am"
 upcoming: true
