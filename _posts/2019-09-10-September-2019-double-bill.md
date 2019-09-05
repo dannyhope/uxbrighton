@@ -6,7 +6,7 @@ venue: "The Skiff"
 start: "7pm"
 ticket-link: "https://www.eventbrite.co.uk/e/ux-brighton-september-2019-double-bill-tickets-66206211561#tickets"
 homepage: false
-upcoming: true
+upcoming: false
 published: true
 description: "Grammatical & Readable Code – Daniel van Berzon & What makes a brand voice brilliant? – Lauren Pope"
 slug: "september-2019-double-bill"
