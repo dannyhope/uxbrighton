@@ -1,18 +1,18 @@
 ---
 layout: event-page	
-title: September Double Bill
-price: £10
-venue: The Skiff
-start: 7pm
-ticket-link: https://www.eventbrite.co.uk/e/ux-brighton-september-2019-double-bill-tickets-66206211561#tickets
+title: "September Double Bill"
+price: "£10"
+venue: "The Skiff"
+start: "7pm"
+ticket-link: "https://www.eventbrite.co.uk/e/ux-brighton-september-2019-double-bill-tickets-66206211561#tickets"
 homepage: false
 upcoming: true
 published: true
-
 description: "Grammatical & Readable Code – Daniel van Berzon & What makes a brand voice brilliant? – Lauren Pope"
-fullurl: https://uxbrighton.org.uk/september-2019-double-bill
-image: "https://uxbrighton.org.uk/images/cards/sept-2019-tw.jpg"
-upcoming-bg-image: "/images/events/sept-double-bill-bg.jpg"
+slug: "september-2019-double-bill"
+fullurl: "https://uxbri.org/september-2019-double-bill"
+image: "https://uxbri.org/images/cards/sept-2019-tw.jpg"
+upcoming-bg-image: "https://uxbri.org/images/events/sept-double-bill-bg.jpg"
 
 
 ---
