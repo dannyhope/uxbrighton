@@ -9,8 +9,8 @@ homepage: false
 upcoming: false
 published: true
 description: "Grammatical & Readable Code – Daniel van Berzon & What makes a brand voice brilliant? – Lauren Pope"
-slug: "september-2019-double-bill"
-fullurl: "https://uxbri.org/september-2019-double-bill"
+slug: "september-2019"
+fullurl: "https://uxbri.org/september-2019"
 image: "https://uxbri.org/images/cards/sept-2019-tw.jpg"
 upcoming-bg-image: "https://uxbri.org/images/events/sept-double-bill-bg.jpg"
 
