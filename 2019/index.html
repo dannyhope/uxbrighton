@@ -7,13 +7,13 @@ redirect_from:
 
 description: "Design has many meanings. This conference will cover a broad range of them. From visual design to organisational design maturity, from data visualisation to design thinking."
 
-image: "https://uxbrighton.org.uk/images/cards/2019-got-your-ticket-twitter-card.jpg"
+image: "https://uxbrighton.org.uk/images/cards/2019-ultra-early.jpg"
 slug: "conference-2019"
 fullurl: "https://uxbrighton.org.uk/2019/"
 
 body-classes: "is-pre-conference"
-display-speakers: true
-speakers-tba: false
+display-speakers: false
+
 
 masthead-color: dark
 hero-image: ""
@@ -162,7 +162,7 @@ upcoming-button-text: ""
 
     <section id="intro" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
       <div class="upcoming-events-outer">
-        <!-- % include 2019-upcoming-mini.html % -->
+        {% include 2019-upcoming-mini.html %}
       </div>
       <div class="color-white main-text-padding">
         <div style="background: rgba(1,15,21,0.5);">
@@ -196,8 +196,8 @@ upcoming-button-text: ""
             <!-- <div class="hidden-if--nav--in-page-is-stuck">
               In this page:
             </div> -->
-            <a href="#" class="-show-if--nav--in-page-is-stuck masthead__link nav-link color-black">
-              Top</span>
+            <a href="#overview" class="-show-if--nav--in-page-is-stuck masthead__link nav-link color-black">
+              Intro<span class="hidden-under-m">duction</span>
             </a>
           </li>
 
