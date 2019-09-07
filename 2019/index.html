@@ -12,7 +12,8 @@ slug: "conference-2019"
 fullurl: "https://uxbrighton.org.uk/2019/"
 
 body-classes: "is-pre-conference"
-display-speakers: false
+display-speakers: true
+early-bird-tickets: true
 
 
 masthead-color: dark
@@ -113,7 +114,7 @@ upcoming-button-text: ""
     #top .nav-item--tickets a {
       padding: 20px 0 0 !important;
       height: auto;
-    } 
+    }
     #top .nav-item--tickets a:hover {
       box-shadow: initial;
     }
@@ -162,7 +163,7 @@ upcoming-button-text: ""
 
     <section id="intro" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
       <div class="upcoming-events-outer">
-        {% include 2019-upcoming-mini.html %}
+        <!-- {% include 2019-upcoming-mini.html %} -->
       </div>
       <div class="color-white main-text-padding">
         <div style="background: rgba(1,15,21,0.5);">
@@ -204,11 +205,11 @@ upcoming-button-text: ""
           {% if page.display-speakers == true %}
             <li class="nav-item inline-block ">
               <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
-            </li>   
+            </li>
           {% else %}
             <li class="nav-item inline-block ">
               <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
-            </li>            
+            </li>
           {% endif %}
 
 
@@ -256,8 +257,13 @@ upcoming-button-text: ""
 
             {% if page.display-speakers == true %}
 
-              <h2 class="mb2">Tickets</h2>
-              <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £170 + vat</a>
+              {% if page.early-bird-tickets == true %}
+                <h2 class="mb2">Early bird tickets</h2>
+                <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £145 + vat</a>
+              {% else %}
+                <h2 class="mb2">Tickets</h2>
+                <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £170 + vat</a>
+              {% endif %}
 
             {% else %}
 
@@ -306,7 +312,7 @@ upcoming-button-text: ""
           <a href="https://book.passkey.com/go/bdux2019" class="flex-grow hover-grayscale content-center">
             <img src="https://www.visitbrighton.com/dbimgs/logo(3).png" alt="Visit brighton logo" width="824" style="max-width:300px; width:100%;">
           </a>
-          <p class="mt2">With attendees travelling from all over the world to attend UX Brighton we are delighted to offer <a href="https://book.passkey.com/go/bdux2019">specially negotiated accommodation rates for attendees.</a></p>        
+          <p class="mt2">With attendees travelling from all over the world to attend UX Brighton we are delighted to offer <a href="https://book.passkey.com/go/bdux2019">specially negotiated accommodation rates for attendees.</a></p>
         </div><!-- u1of2-over-m left-over-m -->
         <div class="u1of2-over-m left-over-m gutters flex-over-m flex-column ">
           <h3 class="mt0">News: First sponsor announced</h3>
@@ -325,7 +331,7 @@ upcoming-button-text: ""
         <h2 class="mb2 gutter-top">Highlights from previous years</h2>
         <div class="row mt0">
           <div class="u2of3-over-l left-over-l  pr0-under-l">
-            
+
             <div class="clearfix">
               <div class="video-box u1of2-over-s left-over-s ">
                 <a href="https://youtu.be/rz7sy81Yg5E" title="Opens in YouTube">
@@ -481,7 +487,7 @@ upcoming-button-text: ""
 
             </div><!-- sponsor -->
           </div><!-- u1of5-over-s -->
-                  
+
           <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
             <div class="drop pa2 sponsor sponsor-3-star">
               <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">

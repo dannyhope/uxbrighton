@@ -78,13 +78,13 @@
     </div><!-- container -->
   </footer>
 
-  <script>
+  <!-- <script>
     if (navigator.serviceWorker !== undefined) {
       navigator.serviceWorker
         .register('/sw.js')
         .then(function() { console.log('Service Worker Registered'); });
     }
-  </script>
+  </script> -->
 
 <!-- <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -123,8 +123,8 @@
           $("body").attr('data-overlay-active',_val);
           if (_val == 'menu'){ $( '.archive-nav__search' ).focus(); }
           if (_val == 'slack'){ $( '#email' ).focus(); }
-          if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); } 
-        }              
+          if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); }
+        }
       };
     });
   </script>
