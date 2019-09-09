@@ -1,201 +1,422 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-  <loc>https://uxbrighton.org.uk/show-&amp;-tell-4/</loc>
+  <loc>https://uxbri.org/2019/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/show-&amp;-tell-3/</loc>
+  <loc>https://uxbri.org/jobs/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/February-triple-bill/</loc>
+  <loc>https://uxbri.org/September-2019/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/top-tasks-workshop/</loc>
+  <loc>https://uxbri.org/2019/sponsorship/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2017/</loc>
+  <loc>https://uxbri.org/Voice-UI-workshop/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/JTBD-Workshop/</loc>
+  <loc>https://uxbri.org/2018/about/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/building-rapport/</loc>
+  <loc>https://uxbri.org/2018/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/psychology-workshop/</loc>
+  <loc>https://uxbri.org/show-&amp;-tell-4/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/UXCampRedux/</loc>
+  <loc>https://uxbri.org/show-&amp;-tell-3/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/behavioural-research-for-design/</loc>
+  <loc>https://uxbri.org/February-triple-bill/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/conference-2016/</loc>
+  <loc>https://uxbri.org/top-tasks-workshop/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/UX-career-clinic/</loc>
+  <loc>https://uxbri.org/2017/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/uxcb16redux/</loc>
+  <loc>https://uxbri.org/JTBD-Workshop/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/games-and-UX/</loc>
+  <loc>https://uxbri.org/building-rapport/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/Personalisation-the-Experience/</loc>
+  <loc>https://uxbri.org/psychology-workshop/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/uxmas-party/</loc>
+  <loc>https://uxbri.org/UXCampRedux/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/lightning-edition/</loc>
+  <loc>https://uxbri.org/behavioural-research-for-design/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/effective-workshops/</loc>
+  <loc>https://uxbri.org/conference-2016/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/ux-analytics-workshop/</loc>
+  <loc>https://uxbri.org/UX-career-clinic/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/UX-for-kids/</loc>
+  <loc>https://uxbri.org/uxcb16redux/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/people-skills-for-uxers/</loc>
+  <loc>https://uxbri.org/games-and-UX/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/uxcb14-redux/</loc>
+  <loc>https://uxbri.org/Personalisation-the-Experience/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2014/</loc>
+  <loc>https://uxbri.org/uxmas-party/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/ergonomics/</loc>
+  <loc>https://uxbri.org/lightning-edition/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/career-clinic-2014/</loc>
+  <loc>https://uxbri.org/effective-workshops/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/accessibility-event/</loc>
+  <loc>https://uxbri.org/ux-analytics-workshop/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/ux-strategy/</loc>
+  <loc>https://uxbri.org/UX-for-kids/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/healthcheck/</loc>
+  <loc>https://uxbri.org/people-skills-for-uxers/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/ux-quiz/</loc>
+  <loc>https://uxbri.org/uxcb14-redux/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/uxcb13redux/</loc>
+  <loc>https://uxbri.org/2014/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2013/</loc>
+  <loc>https://uxbri.org/ergonomics/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/oktoberfest/</loc>
+  <loc>https://uxbri.org/career-clinic-2014/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/summer-special/</loc>
+  <loc>https://uxbri.org/accessibility-event/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/ux-brighton-goes-for-a-spin/</loc>
+  <loc>https://uxbri.org/ux-strategy/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/physical-web/</loc>
+  <loc>https://uxbri.org/healthcheck/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2012/</loc>
+  <loc>https://uxbri.org/ux-quiz/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/mobile-user-testing/</loc>
+  <loc>https://uxbri.org/uxcb13redux/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2011/</loc>
+  <loc>https://uxbri.org/2013/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/mobile-triple-bill/</loc>
+  <loc>https://uxbri.org/oktoberfest/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/curry-night/</loc>
+  <loc>https://uxbri.org/summer-special/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/x-ray-listening/</loc>
+  <loc>https://uxbri.org/ux-brighton-goes-for-a-spin/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2010/</loc>
+  <loc>https://uxbri.org/physical-web/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/undercover-ux-design-book-launch/</loc>
+  <loc>https://uxbri.org/2012/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/information-visualisation-mini-event/</loc>
+  <loc>https://uxbri.org/mobile-user-testing/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/supergoogleanalyticsexpialidocious/</loc>
+  <loc>https://uxbri.org/2011/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/design-games/</loc>
+  <loc>https://uxbri.org/mobile-triple-bill/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/hands-on-with-eyetracking-biometrics-tues-13th-april/</loc>
+  <loc>https://uxbri.org/curry-night/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/practical-tips-and-templates/</loc>
+  <loc>https://uxbri.org/x-ray-listening/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/event-wayfinding/</loc>
+  <loc>https://uxbri.org/2010/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/january-special-on-service-design/</loc>
+  <loc>https://uxbri.org/undercover-ux-design-book-launch/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/event-remote-user-research-a-360-degree-view/</loc>
+  <loc>https://uxbri.org/information-visualisation-mini-event/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/gameplay-research-and-design/</loc>
+  <loc>https://uxbri.org/supergoogleanalyticsexpialidocious/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/august-triple-bill/</loc>
+  <loc>https://uxbri.org/design-games/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/film-night/</loc>
+  <loc>https://uxbri.org/hands-on-with-eyetracking-biometrics-tues-13th-april/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/from-ethnography-to-design/</loc>
+  <loc>https://uxbri.org/practical-tips-and-templates/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/mental-models-service-design/</loc>
+  <loc>https://uxbri.org/event-wayfinding/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/measuring-online-engagement/</loc>
+  <loc>https://uxbri.org/january-special-on-service-design/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/local-and-remote-usability-testing/</loc>
+  <loc>https://uxbri.org/event-remote-user-research-a-360-degree-view/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/objects-and-play/</loc>
+  <loc>https://uxbri.org/gameplay-research-and-design/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/practical-insights-out-of-the-box-experience/</loc>
+  <loc>https://uxbri.org/august-triple-bill/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/double-bill-designing-the-ux-curve/</loc>
+  <loc>https://uxbri.org/film-night/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2016/sponsors</loc>
+  <loc>https://uxbri.org/from-ethnography-to-design/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2017/sponsor-pack</loc>
+  <loc>https://uxbri.org/mental-models-service-design/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/about/</loc>
+  <loc>https://uxbri.org/measuring-online-engagement/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2018/top-tasks-workshop-with-gerry-mcgovern/</loc>
+  <loc>https://uxbri.org/local-and-remote-usability-testing/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://uxbrighton.org.uk/2019/</loc>
+  <loc>https://uxbri.org/objects-and-play/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://uxbri.org/practical-insights-out-of-the-box-experience/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/double-bill-designing-the-ux-curve/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/jobs/company/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2019/attendees/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2018/sponsorship/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/conference-2016-help</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/careers-clinic-2016-attendees-guide</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2014/help/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/assets/Joshua-Marshall.pdf</loc>
+  <lastmod>2019-09-02T14:06:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/assets/Katarzyna-Stawarz.pdf</loc>
+  <lastmod>2019-09-02T14:06:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2013/sponsor/</loc>
+  <lastmod>2019-09-02T14:06:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2012/UX%20Brighton%202012%20Sponsor%20Pack.pdf</loc>
+  <lastmod>2019-09-02T14:06:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2011/sponsor-pack-2011.pdf</loc>
+  <lastmod>2019-09-02T14:06:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2010/index.html</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2018/top-tasks-workshop-with-gerry-mcgovern/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://uxbri.org/2018/attendees/</loc>
+  <lastmod>2019-09-02T14:06:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
 </urlset>
