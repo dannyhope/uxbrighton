@@ -54,65 +54,112 @@
       right: 0;
       //margin-left: 20px;
     }
-    @include under-m {
-      overflow: hidden;
-      width: calc(100vw - #{$masthead-height});
-      position: absolute;
-      bottom: 0;
-      left: $masthead-height;
-      right: 0;
-    }
+    // @include under-m {
+    //   overflow: hidden;
+    //   width: calc(100vw - #{$masthead-height});
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: $masthead-height;
+    //   right: 0;
+    // }
   }
 
-  .masthead .nav-item {
-    @include under-m {
-      display: block;
-      width: 33.33%;
-      float: left;
-      a{
-        padding: 8px 0 12px !important;
-      }
-      img,svg {
-        height: 18px !important;
-        width: auto !important;
-        display: block;
-        margin: 0 auto 4px !important;
-        top: 0 !important;
-        position: static !important;
-        [data-overlay-trigger="slack"] & {
-          margin-bottom: 10px !important;
-        }
-      }
-    }    
-    @include under-s {
-      display: block;
-      width: 33.33%;
-      float: left;
-    }    
-  }
-  // .page-conference-2018 .masthead .nav-item {
+  // .masthead .nav-item {
   //   @include under-m {
+  //     display: block;
+  //     width: 8rem;
+  //     float: left;
+  //     a{
+  //       padding: 8px 0 12px !important;
+  //     }
+  //     img,svg {
+  //       height: 18px !important;
+  //       width: auto !important;
+  //       display: block;
+  //       margin: 0 auto 4px !important;
+  //       top: 0 !important;
+  //       position: static !important;
+  //       [data-overlay-trigger="slack"] & {
+  //         margin-bottom: 10px !important;
+  //       }
+  //     }
+  //   }    
+  //   @include under-s {
+  //     display: block;
+  //     width: 33.33%;
   //     float: left;
   //   }    
   // }
+  // // .page-conference-2018 .masthead .nav-item {
+  // //   @include under-m {
+  // //     float: left;
+  // //   }    
+  // // }
+  // .masthead__link {
+  //     padding: 16px;
+  //     line-height: 16px;
+  //     text-decoration: none;
+  // }
+  // .masthead__links a {
+  //   @include under-m {
+  //     font-size: 11px;
+  //     letter-spacing: 0;
+  //     text-align: center;
+  //     width: 100%;
+  //     border-right: 1px solid #eee;
+  //     //&.masthead__link {
+  //       padding: 17px 0 15px;
+  //     //}
+  //     height: 49px;
+  //   }
+  // }
   .masthead__link {
-      padding: 16px;
-      line-height: 16px;
-      text-decoration: none;
+    padding: 16px;
+    line-height: 16px;
+    text-decoration: none
   }
-  .masthead__links a {
-    @include under-m {
-      font-size: 11px;
-      letter-spacing: 0;
-      text-align: center;
-      width: 100%;
-      border-right: 1px solid #eee;
-      //&.masthead__link {
-        padding: 17px 0 15px;
-      //}
-      height: 49px;
+
+
+  @include over-m {
+    nav ul {
+      padding: 0 14px;
+    }
+
+    .masthead__links a {
+      font-size: 16px;
+      padding: 17px 7px 15px !important;
     }
   }
+
+  @media only screen and (max-width: 622px) {
+    .masthead__links a {
+      font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 542px) {
+    .nav-hidden-under-m {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 483px) {
+    .nav-hidden-under-s {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 374px) {
+    nav ul {
+      padding: 0 8px;
+    }
+
+    .masthead__links a {
+      font-size: 11px;
+      padding: 17px 4px 15px !important;
+    }
+  }
+
   .masthead__link,
   .masthead__link:hover {
       text-decoration: none;
@@ -230,7 +277,8 @@
     /*contents*/
       [data-overlay-active="slack"] #slack-signup h2,
       [data-overlay-active="newsletter"] #newletter-signup h2, 
-      [data-overlay-active="newsletter"] #newletter-signup label {
+      [data-overlay-active="newsletter"] #newletter-signup label,
+      [data-overlay-active="newsletter"] .text-black-on-overlay {
         color: #000;
       }
       [data-overlay-active="newsletter"] #newsletter-options {
