@@ -42,10 +42,11 @@ def find_urls(data):
     if type(data) == list or not data:
         return data
     else:
-        for key in data:
-            output = find_urls(data[key])
-            if output:
-                return output
+        if hasattr(data, 'values') and callable(data.values):
+            for value in data.values():
+                output = find_urls(value)
+                if output:
+                    return output
 
 
 url_data = find_urls(data)
@@ -54,7 +55,8 @@ urls = []
 
 for url in url_data:
     for key in url:
-        urls.append(url[key]['$'])
+        if key.endswith('loc'):
+            urls.append(url[key]['$'])
 
 
 iter_limit = num_urls_to_check if num_urls_to_check is not None else len(urls)
