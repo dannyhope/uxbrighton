@@ -64,7 +64,7 @@
         root.className += ' js-touch';
       }
       // Make a queue for $
-      window.q=[]; window.$=function(f){q.push(f);}; 
+      window.q=[]; window.$=function(f){q.push(f);};
     </script>
 
     <script>
@@ -174,7 +174,7 @@
           <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
           <h2 class="mt0 fs-l regular track-normal mb1">
           	{% if page.upcoming == null or page.upcoming == false %}
-							{% capture previous_event %}{% endcapture %}This event was held on {{page.date | date: "%d %b %Y"}}. 
+							{% capture previous_event %}{% endcapture %}This event was held on {{page.date | date: "%d %b %Y"}}.
 						{% else %}
 							{{page.date | date: "%d %b"}}{% if page.start %}, <span class="event-time">{{page.start}}</span>{% endif %}
 						{% endif %}
@@ -226,13 +226,13 @@
                           {% capture price %}{{ page.price | downcase}}{% endcapture %}
                           <span class="bold block mb1">{% if price == 'free' %}Get{% else %}Buy{% endif %} your ticket</span> {% if page.price %}{{page.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}
                           {% endif %}<span></span>
-                        </a>                         
+                        </a>
 
 
                         <!-- <a href="{{page.url}}" title="Add to Calendar" class="addthisevent"> -->
                         <div class="mt2">
                           <!-- <span class="bold">When: </span> -->
-                          {{page.date | date: "%d %b %Y"}}{% if page.start %}<span class="event-time inline-block">, 
+                          {{page.date | date: "%d %b %Y"}}{% if page.start %}<span class="event-time inline-block">,
                             {{page.start}}</span>{% endif %}
                           <!-- <span class="_start">{{page.date | date: "%Y-%m-%d"}} {{page.start}}</span>
                           <span class="_end">{{page.date | date: "%Y-%m-%d"}} {{page.end}}</span>
@@ -252,7 +252,7 @@
                           </span>
                           <!-- <span class="_organizer"></span>
                           <span class="_facebook_event"></span>
-                          <span class="_date_format">DD/MM/YYYY</span> --> 
+                          <span class="_date_format">DD/MM/YYYY</span> -->
                         </div>
 
                         </a>
@@ -277,9 +277,11 @@
                   {% endif %}
 
                   {% unless page.ticket-link %}
-                    <section class="event-meta">
-                      {% include participate.html %}
-                    </section>
+                    <div class="pa3 rounded drop mt3">
+                      <h2 class="mt0 mb1">Get notified</h2>
+                      <p class="mt0">To find out about future talks and conferences subscribe below.</p>
+                      {% include mail-list-signup-form.html id=2 %}
+                    </div>
                   {% endunless %}
 
                 {% endif %}
@@ -288,18 +290,18 @@
 
 
 							{% include organisers.html %}
-						</aside>        		
+						</aside>
         	</div>
         	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top:16px;">
         		{{ content }}
         	</div>
 				</div><!-- row -->
 
-        <!-- 
+        <!--
 				<h2>organisers</h2>
-				{% include supporters.html %} 
+				{% include supporters.html %}
         -->
-			
+
 
       </div><!-- container -->
     </section><!-- overview -->
