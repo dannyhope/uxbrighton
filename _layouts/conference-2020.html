@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Taken from current website -->
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 6 November. This year's theme is UX and Product Management. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2020 for more information."}}{% endif %}" >
+    <meta name="first" content="UX Brighton, Friday 6 November. UX and Product Management">
+
+    <!-- facebook open graph tags -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2020/"}}{% endif %}">
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 6 November. UX and Product Management"}}{% endif %}" >
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 6 November. This year's theme is UX and Product Management. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2020 for more information."}}{% endif %}" >
+      <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+
+
+    <!-- twitter card tags additive with the og: tags -->
+      <meta name="twitter:card" content="summary_large_image" >
+      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+      <meta name="twitter:domain" value="http://uxbrighton.org.uk/2020/" >
+      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 6 November. UX and Product Management"}}{% endif %}" >
+      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 6 November. This year's theme is UX and Product Management. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2020 for more information."}}{% endif %}" >
+      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2020/"}}{% endif %}" >
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+
+    <!-- Icons -->
+      <link rel="apple-touch-icon" href="https://uxbrighton.org.uk/2013/images/icon.png">
+      <link rel="icon" href="https://uxbrighton.org.uk/2013/images/favicon.png">
+      <!--[if IE]><link rel="shortcut icon" href="https://uxbrighton.org.uk/images/favicon.ico"><![endif]-->
+      <!-- or, set /favicon.ico for IE10 win -->
+      <!-- <meta name="msapplication-TileColor" content="#000">-->
+      <meta name="msapplication-TileImage" content="http://uxbrighton.org.uk/2013/images/icon.png">
+
+
+  <!-- Added by Paul D -->
+    <link rel="stylesheet" href="/2018/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css?v=2019">
+
+
+    <!-- schema.org snippets. needed? useful? -->
+    <meta itemprop="startDate" content="2019-11-01T09:30">
+    <meta itemprop="endDate" content="2019-11-01T17:30">
+    <meta itemprop="duration" content="0000-00-00T08:00">
+    <link itemprop="url" href="http://uxbrighton.org.uk/2020/" rel="author"/>
+    <meta itemprop="description" content="UX Brighton, Friday 6 November. This year's theme is UX and Product Management. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2020 for more information.">
+
+
+    <script>
+      var root = document.documentElement;
+      root.className = 'js';
+      if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+        root.className += ' js-touch';
+      }
+      // Make a queue for $
+      window.q=[]; window.$=function(f){q.push(f);};
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-7759112-2', 'auto');
+      ga('require', 'linker');
+      ga(function(tracker) {
+        // we need to get the _ga cross-domain value and replace it with
+        // Eventbrite's _eboga requirement
+        // https://www.eventbrite.com/support/articles/en_US/Troubleshooting/how-to-enable-cross-domain-and-ecommerce-tracking-with-google-universal-analytics#j_id0:HelpCenterSiteTemplate:j_id2:j_id131:articleStepsComponent:j_id132:1:j_id152
+        var xdomain = tracker.get('linkerParam');
+        var links = document.getElementsByTagName('a');
+        Array.prototype.forEach.call(links, function(a){
+          var href = a.href;
+          if (href.match(/eventbrite\.co\.uk/i)) {
+            var splitURL = href.split('#');
+            var hash = splitURL[1];
+            splitURL[0] += "?&" + xdomain.replace(/_ga/, '_eboga');
+            a.href = hash == null ? splitURL[0] : splitURL[0] + '#' + hash;
+          }
+        });
+
+      });
+      ga('send', 'pageview');
+    </script>
+</head>
+<body id="top" class="relative {% if page.slug %}page-{{ page.slug }}{% endif %} {% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+
+  {% include header.html %}
+
+  {{content}}
+
+  {% include footer.html %}
+
+  {% include nav.html %}
+
+
+
+
+</body>
+</html>
