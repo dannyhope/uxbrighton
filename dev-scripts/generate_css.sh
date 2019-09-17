@@ -1,0 +1,1 @@
+sass ../2018/stylesheets/scss/styles.scss ../2018/stylesheets/css/styles.css
