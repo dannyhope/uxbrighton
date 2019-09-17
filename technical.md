@@ -1,3 +1,7 @@
+# Start with the Ops manual 👇
+
+The [UX Brighton Ops Manual](https://docs.google.com/document/d/1t12ZPHP_JP2uj69qeO9Dyljep3zaSu3UpmwLCvR4qdg/edit# ) is the starting point for all UX Brighton technical tasks.
+
 ## Frontmatter
 
 | Attribute		| Example value		| Note	|
@@ -51,8 +55,3 @@ cd /Users/dannyhope/Dropbox/UX\ Brighton\ \(private\)/Repos/uxbrighton
 jekyll serve -w
 
 Browse to [http://0.0.0.0:4000/](http://http://0.0.0.0:4000/ "")
-
--------
-
-## Other documents
-[Domain policies for UX Brighton](https://docs.google.com/document/d/1WYetelsk-EcrE3R5BDW7dkCgERkmAcYa88RYGyrh_PQ/edit?ts=5c8119e2# )
