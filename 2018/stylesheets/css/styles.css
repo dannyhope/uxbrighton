@@ -2030,34 +2030,34 @@ a.drop:hover {
   background: transparent; }
 
 .bg-black-5 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.05); }
 
 .bg-black-10 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.1); }
 
 .bg-black-20 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.2); }
 
 .bg-black-30 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.3); }
 
 .bg-black-40 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.4); }
 
 .bg-black-50 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.5); }
 
 .bg-black-60 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.6); }
 
 .bg-black-70 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.7); }
 
 .bg-black-80 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.8); }
 
 .bg-black-90 {
-  background: #010f15; }
+  background: rgba(1, 15, 21, 0.9); }
 
 .bg-blue {
   background: #108BC1; }
