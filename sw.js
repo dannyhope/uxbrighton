@@ -3,7 +3,7 @@
  */
 
 var cachePrefix = 'uxbri';
-var cacheVersion = '0.12';
+var cacheVersion = '0.2';
 
 var cacheID = cachePrefix + cacheVersion;
 
