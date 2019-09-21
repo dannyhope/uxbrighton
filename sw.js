@@ -2,8 +2,10 @@
  * IMPORTANT: This script must be in the root directory, otherwise it will not work.
  */
 
+var date = new Date();
+var timestamp = date.getTime();
 var cachePrefix = 'uxbri';
-var cacheVersion = '0.2';
+var cacheVersion = timestamp;
 
 var cacheID = cachePrefix + cacheVersion;
 
