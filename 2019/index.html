@@ -12,8 +12,15 @@ slug: "conference-2019"
 fullurl: "https://uxbrighton.org.uk/2019/"
 
 body-classes: "is-pre-conference"
+
 display-speakers: true
 early-bird-tickets: true
+
+# new switches to be plumbed-in
+display-travel-accomodation: false
+display-talk-times: false
+display-slides: false
+display-videos: false
 
 
 masthead-color: dark
@@ -486,9 +493,8 @@ upcoming-button-text: ""
                   <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
                 </a>
               </div>
-
             </div><!-- sponsor -->
-          </div><!-- u1of5-over-s -->
+          </div>
 
           <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
             <div class="drop pa2 sponsor sponsor-3-star">
@@ -516,7 +522,9 @@ upcoming-button-text: ""
           <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
             <div class="drop pa2 sponsor sponsor-3-star">
               <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-                <a href="https://youcanbook.me/" class="" title="https://youcanbook.me"><img src="/2019/images/sponsor-logos/you-can-book-me.png" alt="youcanbook.me logo" width="4320" height="800" class="pt2"></a>
+                <a href="https://youcanbook.me/" class="" title="https://youcanbook.me">
+                  <img src="/2019/images/sponsor-logos/you-can-book-me.png" alt="youcanbook.me logo" width="4320" height="800" class="pt2">
+                </a>
               </div>
               <div class="sponsor__info">
                 <p class="mb0">YouCanBook.me simplifies scheduling, eliminating the usual back-and-forth when setting up meetings. Works with your Google or Microsoft calendar and seamlessly handles timezones, calendar invites and meeting reminders out of the box.</p>
@@ -536,7 +544,10 @@ upcoming-button-text: ""
             </div>
           </div>
 
+        </div><!-- row -->
 
+      </div>
+    </section><!-- sponsors -->
 
           <style>
             .centred-faint {
@@ -549,6 +560,10 @@ upcoming-button-text: ""
               text-align: center;
               right: 0;
             }
+            @media (min-width: 731px) {
+              .u1of3-over-m { width: 33%; }
+            }
+
           </style>
 
           <!-- <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
@@ -556,11 +571,6 @@ upcoming-button-text: ""
               <div class="centred-faint">Sponsorship Opportunity</div>
             </a>
           </div> -->
-        </div><!-- row -->
-
-      </div>
-    </section><!-- sponsors -->
-
 
 
 
