@@ -13,7 +13,7 @@ Here, it tells 2K Hangar 13 that applicants discovereed the job via Indeed inste
 ",,,"1. File > Download as > Comma-seperated values
 2. Rename it to ""jobs.csv"" and  drag it into the _data folder on Github
 3. Wait a minute then load the UX Brighton jobs page",UX Brighton jobs page
-1,glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,£55000-65000,FALSE,"£55,000","£65,000","60,000",1.0,high,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
+1,glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Madgex,Brighton,Permanent,£55000-65000,FALSE,"£55,000","£65,000","60,000",0.9,high,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mo
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,,
-3,Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£50000,TRUE,"£50,000",,"50,000",0.3,med-low,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
+3,Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brilliant Noise,Brighton,Fixed term/3-6 months,£50000,TRUE,"£50,000",,"50,000",0.4,med-low,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
 
 We’re looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
 
@@ -143,7 +143,7 @@ If you’d like to apply, or have any questions about the role, please get in to
 
 We look forward to hearing from you!
 
-",TRUE,,
+",FALSE,,
 4,ian.budden@elucidat.com,,,,,,,,https://www.elucidat.com/careers/,,,,cozujik,UX Designer,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Elucidat,Brighton,Permanent,£47000,TRUE,"£47,000",,"47,000",0.3,low,FALSE,https://elucidat.workable.com/jobs/978209/candidates/new,"**DESCRIPTION**
 
 **Are you a super-talented and hard working UX designer? Are you looking for an exciting, fast growing company where you can see your ideas come to life? Are you driven by great outcomes for your users?**
@@ -238,7 +238,7 @@ If this sounds like your jam, then this could be your next exciting career step.
 
 * **Everyone has a voice** - We are building a culture where everyone is respected and has a voice in the day to day running of the company - a workplace where everyone is valued for the contributions they make. Our quarterly objectives (OKRs) are set by the entire team and we use the latest technologies to collect regular feedback anonymously through polling and pulse checks. We continually celebrate individual and collective achievements.
 
--",TRUE,,
+-",FALSE,,
 5,harry@brignull.com,,,,,,,,https://twitter.com/harrybr/status/1126551196762824704?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet,,,,SPUXD-1,UX Designer,https://workablehr.s3.amazonaws.com/uploads/account/logo/252693/large_smart-logo-token.jpg,Smart Pension,London,Permanent,£45000-60000,TRUE,"£45,000","£60,000","52,500",0.6,med-high,FALSE,https://smart-pension-1.workable.com/jobs/989165/candidates/new,"**ABOUT SMART PENSION LTD**
 
 Smart Pension was founded by experienced finance & technology professionals and has been designed specifically to support UK businesses faced with the challenges of auto enrolment. Our team spent over a year developing & testing the platform whilst also establishing the partnerships necessary to meet regulatory requirements and deliver a seamless end-to-end experience. With thousands of satisfied employers, advisers and employees now using the platform, we know we offer the best workplace pension solution currently available in the UK.
@@ -313,7 +313,7 @@ You will need to present a portfolio containing a selection of materials showing
 
 
 
-",TRUE,,
+",FALSE,,
 6,recruitment@digicatapult.org.uk,,,,,,,,https://www.digicatapult.org.uk/careers/,,,,iejlnc ,Senior Experience Designer,https://www.pesmedia.com/wp-content/uploads/2018/10/Digital-Catapult-Logo-RGB-A4-png-e1540295953939-300x200.png,Digital Catapult,London,Permanent,£45000-70000,TRUE,"£45,000","£70,000","57,500",0.9,high,FALSE,https://www.digicatapult.org.uk/careers/a2s0o00000ijkbeua3/,"We are looking for a talented service experience designer to join Digital Catapult! 
  As an experience designer at Digital Catapult you are curious about what makes people and organisations tick, passionate about how new technologies can impact their experiences and how that in turn creates opportunities for businesses large and small.
  Experience designers at Digital Catapult deliver design projects and help others understand the value of design. We embrace a hands-on and collaborative approach across the entire lifecycle of projects including; planning, scoping, conducting and delivery of quantitative and qualitative research and design activities. 
@@ -360,8 +360,8 @@ The health and wellbeing of our people is important. Why not take advantage of o
 In addition, there is the opportunity to help keep on top of your fitness with the cycle to work scheme and discounts for your local health club.
 
 ## Work life balance
-We  encourage our team to keep a healthy work life balance, our holiday purchase scheme enables you to take more holiday in addition to the 25 days we offer as standard.",TRUE,,
-7,"Suzanne Ditchburn, Head of People. Or Aegir Hallmundur ",,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1554810269023100,,,,woenklsd,Senior UX Researcher,https://s3.amazonaws.com/resumator/customer_20110804041716_4YDKUMRP3UTDHGLG/logos/20130403165255_logo.png,Firefly,London/UK,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.3,med-low,FALSE,https://fireflysolutions.applytojob.com/apply/zjZDsDsXcb/Senior-UX-Researcher,"**Our Purpose**
+We  encourage our team to keep a healthy work life balance, our holiday purchase scheme enables you to take more holiday in addition to the 25 days we offer as standard.",FALSE,,
+7,"Suzanne Ditchburn, Head of People. Or Aegir Hallmundur ",,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1554810269023100,,,,woenklsd,Senior UX Researcher,https://s3.amazonaws.com/resumator/customer_20110804041716_4YDKUMRP3UTDHGLG/logos/20130403165255_logo.png,Firefly,London/UK,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.4,med-low,FALSE,https://fireflysolutions.applytojob.com/apply/zjZDsDsXcb/Senior-UX-Researcher,"**Our Purpose**
 
 Most technology in education is not built for the modern learning experience. It’s complex, unpredictable and no two classes are ever the same. Teachers waste time on non-teaching activities and they find it difficult to collaborate with other teachers. At Firefly, we’re freeing teachers to have a greater impact on the learning experience. Firefly allows teachers to innovate and cater to each student’s needs, preparing all students for success in the future.
 
@@ -535,7 +535,7 @@ If so, please drop me a short email to <andy.thornton@clearleft.com>, or connect
 - We are keeping this vacancy open until it is filled, which means there is no closing date for applications
 - We endeavour to get in touch with candidates within two weeks of you contacting us, which typically begins with a casual chat prior to a more formal interview process
 - We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",TRUE,,
-9,Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,RBS/Coutts,London,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.3,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"Join us in London as a UX Researcher
+9,Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,RBS/Coutts,London,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.4,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"Join us in London as a UX Researcher
 
 - This is an opportunity for a UX Researcher to join us in our Private CX function
 - It's an opportunity to define and run the user research approach for Coutts
@@ -573,7 +573,7 @@ Visit our [reward and benefits page](https://jobs.coutts.com/pages/benefits) for
 
 At Coutts, we want everyone to feel welcome, regardless of your background or needs. If you need adjustments making to your working environment, we’ll do everything we can to support you. As part of this commitment, we offer flexible working options for some of our roles - [find out more](https://jobs.coutts.com/pages/flexible-working).
 
-As a Financial Services organisation we comply with and support the requirements set by our Regulator, the Financial Conduct Authority (FCA), which are designed to protect our customers. This role falls under Conduct Rules of the Individual Accountability Regime (IAR) and is subject to pre-employment screening. This means if your application is successful, you’ll need to satisfy some important background checks before you can start working with us. These will include a full credit check, a criminal record check, residency and right to work checks.",TRUE,,
+As a Financial Services organisation we comply with and support the requirements set by our Regulator, the Financial Conduct Authority (FCA), which are designed to protect our customers. This role falls under Conduct Rules of the Individual Accountability Regime (IAR) and is subject to pre-employment screening. This means if your application is successful, you’ll need to satisfy some important background checks before you can start working with us. These will include a full credit check, a criminal record check, residency and right to work checks.",FALSE,,
 10,Richard Palmer richard@26s.uk,,,,,,,,https://www.google.com/search?q=dunelm+ux+job&oq=dunelm+ux+job&aqs=chrome..69i57.3376j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwjB_a-qqZjiAhWk2eAKHRnwArYQp4wCMAB6BAgJEAs#fpstate=tldetail&htidocid=RzkH2asKrwmAuksWAAAAAA%3D%3D&htivrt=jobs,,,,lkefji,Senior UX Designer,https://www.dunelmcareers.com/images/logo.png,Dunelm,London,Permanent,£40000-70000,TRUE,"£40,000","£70,000","55,000",0.8,med-high,FALSE,https://www.dunelmcareers.com/registration.aspx,"## Job Description
 
 Role Summary
@@ -647,7 +647,7 @@ We’d love to see the following:
 **Additional Information:**
 
 - Competitive day rates
-- Based in-house, but flexible around remote working",TRUE,,
+- Based in-house, but flexible around remote working",FALSE,,
 12,jobs@hangar13games.com,,,,,,,,https://www.indeed.co.uk/Ux-jobs-in-Worthing,,,,LI-H13,UX Designer,https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R19A20_19-03-28-08-35-26-19.A_prod/servlet/dynamic/images/imge_1051.png?lastUploaded=1521050194000&org=GAMES2K,2K Hangar 13,Brighton,Permanent,£30000-50000,TRUE,"£30,000","£50,000","40,000",0.1,low,FALSE,https://chp.tbe.taleo.net/chp04/ats/careers/v2/applyRequisition?org=GAMES2K&cws=68&rid=3394&source=Indeed.com,"**What We Need:**
 
 
@@ -684,8 +684,8 @@ Hangar 13 is the internal 2K development studio behind the award-winning Mafia I
  
 Hangar 13 is based in four locations: Novato (California), Brighton (UK), and Brno & Prague (Czech Republic). We are currently hard at work on our next AAA titles.
  
-This role is based at our Brighton location, who partner with the other Hangar 13 sites to develop all of our games as one global team. Hangar 13’s Brighton location provides the opportunity to work on big-budget, AAA console and PC games in the coolest city in the UK!",TRUE,,
-13,Becky Dominick becky.dominick@digital.hmrc.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj1zZWFyY2hieWNvbnRleHRpZCZ1c2Vyc2VhcmNoY29udGV4dD03Nzk1MjI3NiZwYWdlY2xhc3M9Sm9icyZrZXk9ZmFpciZyZXFzaWc9MTU1Nzk0MTMxMC01N2Y3MjM5NWMyZTRiYmVmY2RhZmZkZTNjOWNiMTQ1NmUxODUxZDY1,,,,1628418,Senior User Researcher,https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183922.gif,HMRC,Worthing,Permanent,£50010-56510,FALSE,"£50,010","£56,510","53,260",0.8,med-high,TRUE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfbm93PTEmYnJhbmRfaWQ9MCZhcHBseV91cmw9L2Nzci9sb2dpbi5jZ2kmamNvZGU9MTYyODQxOCZvd25lcj01MDcwMDAwJnBhZ2VjbGFzcz1BcHBseSZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,"### About the job
+This role is based at our Brighton location, who partner with the other Hangar 13 sites to develop all of our games as one global team. Hangar 13’s Brighton location provides the opportunity to work on big-budget, AAA console and PC games in the coolest city in the UK!",FALSE,,
+13,Becky Dominick becky.dominick@digital.hmrc.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj1zZWFyY2hieWNvbnRleHRpZCZ1c2Vyc2VhcmNoY29udGV4dD03Nzk1MjI3NiZwYWdlY2xhc3M9Sm9icyZrZXk9ZmFpciZyZXFzaWc9MTU1Nzk0MTMxMC01N2Y3MjM5NWMyZTRiYmVmY2RhZmZkZTNjOWNiMTQ1NmUxODUxZDY1,,,,1628418,Senior User Researcher,https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183922.gif,HMRC,Worthing,Permanent,£50010-56510,FALSE,"£50,010","£56,510","53,260",0.7,med-high,TRUE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfbm93PTEmYnJhbmRfaWQ9MCZhcHBseV91cmw9L2Nzci9sb2dpbi5jZ2kmamNvZGU9MTYyODQxOCZvd25lcj01MDcwMDAwJnBhZ2VjbGFzcz1BcHBseSZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,"### About the job
 **Job description**
 
 HMRC is one of the largest organisations in the UK and we run the biggest digital operation in Government. Our digital business runs the IT behind tax and benefits services for 45 million individual and 4.9 million business customers. 
@@ -820,15 +820,417 @@ We also will ask you to complete a short user research exercise with a scenario 
 
 We will also ask questions that let you demonstrate your experience and technical skills relevant to the role. 
 
-Feedback will only be provided if you attend an interview or assessment.",TRUE,,
-14,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
-15,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
-16,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
-17,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
-18,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
-19,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
-20,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
+Feedback will only be provided if you attend an interview or assessment.",FALSE,,
+14,Charlie Butler or Henry Ryder @henryryder on Slack,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1567683657007300,,,,1122995,UX/UI Designer ,https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiYscPqi_bkAhVFdhoKHawMCi8QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.studiogobo.com%2Fxds%2F&psig=AOvVaw0hGSMvRgJXR-cF9hbNCb1b&ust=1569848575703307,Studio Gobo,Hove,Contract,,TRUE,,,,,,FALSE,https://studiogobo.workable.com/jobs/1122995/candidates/new,"Studio Gobo is an established AAA games studio, part of the Keywords family. Our team has worked on multiple world-class projects for companies such as Tencent, Disney, Codemasters, Ubisoft and Warner Bros. Recent projects include the newly announced Synced: Off-Planet, For Honor, Marvel Super Heroes: Guardians of the Galaxy playset for Disney Infinity 2.0 and Star Wars: Rise Against the Empire playset for Disney Infinity 3.0.
+
+
+
+Studio Gobo is looking for a UX designer to join our team, working on an exciting project based on new IP for a major publisher. The successful applicant will possess a strong background in wireframing, information architecture and user flow design for games, coupled with an ability to create fun and rewarding user-focused experiences. Most importantly, the successful candidate will have a passion for quality and a deep knowledge of a broad range of mainstream games and genres across a variety of platforms.
+
+
+
+**Please note:**  *this is a contract role until the end of 2019.*
+
+###Responsibilities:
+- The main focus will be the design, prototyping and balancing of user-facing systems to drive great goal-oriented experiences.
+- Work with key stakeholders to agree on design goals and collaborate with other disciplines throughout implementation and polish phases.
+- Uphold and evangelise UX design quality throughout the team, and collaborate with other disciplines to ensure consistent and high quality UX across the product.
+- You will have a proactive approach to using insights from user testing and data analysis to ensure the game remains compelling and user-focused whilst mindful of project goals.
+
+###Qualifications
+
+- A passionate advocate of quality and UX in games coupled with a practical understanding of Human-Computer Interaction and UX Design across a range of devices and platforms.
+- Experience of designing interfaces for console games in a UX position and a portfolio of designs that illustrates your passion for great user experience and a strong user-centred design process.
+- The ability to design, prototype and refine user experiences and interfaces, working with developers, game designers and UI artists to establish design goals and see designs from concept to shipping quality.
+- Experience with planning and running user testing and/or data analysis to test and refine designs throughout various phases of development.
+- A passion for UX with an ability to clearly and concisely break down and talk about the pros and cons of various designs.
+- An adaptable self-starter with excellent verbal communication skills.
+- A degree in a HCI related field (Psychology, Human Factors, Industrial Design, etc.) is a plus.
+
+###Perks
+- **Free locally roasted Coffee & Speciality Teas**
+- **Gobo Cereal Bar** – Extensive granola, muesli and breakfast cereal selections.
+- **Full Chefs Kitchen & Equipment** – Free use of our large full-sized chef’s kitchen ideal for whipping up a quick snack or a culinary feast.
+- **Fresh Home Cooked Gobo Friday Lunch** – Our world-famous lunch prepared and served every Friday by our own in-house Gobo chef. Sit, eat and chat with your work colleagues
+- **Fresh Fruit & Healthy Snacks** – Provided every day, with a suggestion board for new treats!
+- **Pastries, Cakes & Doughnuts** – For the odd naughty pleasure.
+- **Soft Drinks Fridge** – A large range of free chilled soft drinks.
+- **Gobo Beer & Wine Fridge** – Free beers, ales and wine and even the odd gin and tonic! Grab a beer at our end of week Show and Tell sessions and see what everybody else in the company has been up to!
+- **In-house Clubs** – There are lots of ways to socialise with your colleagues here! From day one you’re invited to join in clubs for D&D fans, board games, bouldering, drawing nights, yoga, cooking club – the list goes on and there is always space open for new members!
+- **Extensive Video Game & Book Library** – Borrow a game, a book or even a whole console.
+- **Spacious Industrial Chic Studio Space** – Many visitors comment on what an amazing studio space we have. We’ve invested a lot of time, thought and money into our studio. And we get to work in this space every day. Our working environment makes an incredible difference to our mood and productivity.
+- **Dogs with Jobs** – Studio Gobo is a dog friendly employer. Bring doggo into the studio to meet and hang out with the rest of the team any time!
+- **Project Wrap Parties, Cinema Nights & Team Nights Out** – We work hard together so it’s good to let off steam and spend some time together seeing what the wonderful city of Brighton & Hove has to offer.
+- **Monthly Studio Social Nights** – Once per month the studio plays host to the biggest party in Brighton & Hove (probably). The drinks fridge is open for all. Invite a loved one to join us for food, drinks and anything in an array of board games, Smash Bros tournaments, 10-person Overwatch multiplayer bouts, Beer Pong or even a bit of karaoke.
+- **Summer Party** – Every year on a hot summer’s afternoon, we all leave work early to enjoy the sun with company organised pop-up diner, cocktail shack, bouncy castle, face painting and other fun amenities. The whole family is invited to spend the day coming to socialise with us, on us :)
+
+*At Studio Gobo, we don’t just accept difference — we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products, and our community. Studio Gobo is proud to be an equal opportunity workplace.*",TRUE,,
+15,Evi Malisianou evi@brandwatch.com ,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1568652380001200,,,,lkdjoewr,UX Writer,https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiVnIe9lfbkAhWHy4UKHUUMAVkQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.brandwatch.com%2Fblog%2Fimage-insights-update%2F&psig=AOvVaw3H3carpIJvl9bJ7Sdd39ZO&ust=1569851079725187,Brandwatch,Brighton,Permanent,,TRUE,,,,,,FALSE,http://jobs.jobvite.com/brandwatch/job/oD9mafw2/apply,"###Description
+Brandwatch is a Digital Consumer Intelligence suite that combines digital, survey, social and first-party data sources with data science and AI. This enables organizations like Unilever, Walmart, and Dell to find the signal in the noise, bring market research into the digital era, and understand consumer and market trends in real time.
+
+We love it, because at Brandwatch we bring structure and meaning to these voices by harnessing the power of social to drive intelligence and answer the questions that matter most to our clients.
+
+We are growing our product design team and are looking for someone to join us on our quest to build amazing SaaS products which push the boundaries of convention, have flair, originality, and make our customers sing out loud with delight.
+
+We want the ooh and we want the ahh! We want personality, and we want grace. If you are a talented UX designer who is motivated by any of the above and want to work in a highly collaborative design team where your ideas count and can tangibly make a difference, then this could be the perfect role for you.
+
+#About the team you’ll be joining
+Our product design team is split across Brighton, Stuttgart and Berlin. We have a wide range of skills from pure user research through to pure visual design, and a number of people with a blend in between. You’ll report to our Head of UX Research.
+
+#About the role
+As part of this role you’ll work with researchers and designers to help shape the best product experiences by crafting copy that guides the user and helps them complete their desired actions and tasks.
+
+On a day to day basis this means researching, conducting or attending usability testing and iterating the literal in app. touchpoints accordingly.
+
+You will be the voice of UX Writing in project teams, explaining your rationale to developers, designers and product managers.
+
+You will turn complex concepts into clear, concise, compelling copy and also work closely with the marketing copywriters to make sure that this copy is not only meaningful for the user but that it also embodies the Brandwatch brand values, personality and tone of voice.
+
+###Required skills and experience
+- A solid grasp of user-centered design (UCD) with empathy for the user.
+- Have experience working across multi-disciplinary teams, such as engineering, product and marketing.
+- A proven copywriting experience with a portfolio that demonstrates excellence in your craft - especially the process that leads to outputs and outcomes.
+- Experience conducting user interviews, usability tests, card sorts, field studies, survey analysis, and journey map analysis.
+- Strong analytical abilities.
+- Ability to define success metrics, their KPIs and evaluation methods for the created copy.
+- Excellent communication skills. Be comfortable working with and presenting to a variety of stakeholders - from developers to senior management.
+
+###As an added bonus you might
+- Basic knowledge of prototyping tools.
+- Flexibility to occasionally travel to our US + European offices.
+- German, French or Spanish language skills
+
+**About Brandwatch**
+
+Brandwatch is the world’s pioneering digital consumer intelligence suite, helping over 2,000 of the world’s most admired brands and agencies including Unilever, Walmart and Dell to make insightful, data-driven business decisions.
+
+The company has made three acquisitions to date: PeerIndex (2013), BuzzSumo (2017) as a standalone content marketing platform, and Qriously (2019) to add global survey capabilities. Additionally, the company was bolstered by its merger with Crimson Hexagon (2018) to create the most comprehensive AI-powered social intelligence solution.
+
+Brandwatch has offices around the globe including Brighton, Boston, New York, London, Berlin, Stuttgart, Paris, Madrid, Sydney and Singapore.
+
+#What we offer
+###Benefits
+We offer a range of benefits including; bike to work scheme, pension contribution. In addition, a 1 year parental leave with a flexible back-to-work scheme.
+
+###Culture
+Brandwatch is a place where the lines between work and fun are blurred. As a growing international company, with 10 offices across the globe, communication is key to ensure everyone’s voices are heard, and helps us maintain our flat structure. We listen and learn. We develop our staff. We care about everything, and above all we support each other.
+
+###Working for Brandwatch
+Brandwatch Brighton is where it all began. We can be found in the vibrant North Laines in our contemporary offices. Whilst we don’t believe in stereotypes, we host subsidized onsite pilates and yoga classes along with our Juice Mondays. We have cupboards bursting with snacks, a well stocked drinks fridge, sushi lunches, flexible working spaces, weekly massages and if you’re lucky we’ll even treat you to an ice-cream on the beach or our fortnightly massages right from the office.
+
+*To all recruitment agencies: Brandwatch does not accept agency resumes. Please do not forward resumes to our jobs alias or Brandwatch employees. Brandwatch is not responsible for any fees related to unsolicited resumes.*",TRUE,,
+16,Lewis Nyman hello@lewisnyman.co.uk,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1569427226009800,,,,pwpcnhg,Interaction Designer,https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiXgorIo_bkAhUGzhoKHX8GDdwQjRx6BAgBEAQ&url=https%3A%2F%2Fblog.weareconvivio.com%2Fsay-hello-to-our-logo-2c1ec2ff11cf&psig=AOvVaw23pdeN3VEfqepmmS0IvSml&ust=1569854951814558,Convivio,UK,Permanent,£40000-43000,FALSE,"£40,000","£43,000","41,500",0.3,med-low,FALSE,https://convivio.teamtailor.com/jobs/287861-interaction-designer/applications/new?,"**Plan, sketch, prototype, and design accessible & usable interfaces based on research. Salary: £40–£43k (plus 10% London weighting if you’re based inside M25).**
+
+All our projects focus on serving the evidenced needs of users. This means services that are designed, prototyped, and tested with users are an absolute necessity. With new projects and a growing team, we need an interaction designer to join us with the following skills:
+
+#Essential skills
+###Technical
+- You can visualise a user journey, and generate design ideas and potential design approaches
+- You can design detailed interface elements 
+- You can create testable prototypes using a variety of methods
+- An understanding of designing interfaces for a diverse range of users including those with disabilities
+- An understanding of designing for multiple devices
+
+###Communication
+- Can translate user research findings into design solutions and ideas
+- You cam work alongside a multi-disciplinary team to translate problems into design ideas and solutions
+- You can communicate your design decisions and use the team's research to support them
+- Workshop and facilitation skills to generate solution ideas and make decisions
+
+###Organisational
+- Self-organising and can coordinate between teams and projects
+
+#Desirable skills
+- 3-5 years demonstrable experience working on digital projects
+- Experience working with design systems
+- Experience working with the gov.uk design system
+- Proficiency in visual design and wire-framing tools
+- Proficient in HTML, CSS, and JavaScript for rapid prototyping
+- Agile experience
+
+###Benefits
+We're highly selective in the projects and clients we take on, meaning you'll be working on things that genuinely make a positive impact on society.
+
+- Salary: £40–£43k (plus 10% London weighting if you’re based inside M25)
+- Pension, including employer contributions of 5%
+- Work from anywhere (mostly from home but some UK travel, mostly to London, is required as part of this role) - so you won't have en expensive stressful commute. 
+- Flexible, life-respecting working hours
+- Unlimited annual leave (minimum level enforced, otherwise agreed via peer review)
+- Unlimited training budget (agreed via peer review)
+- Your own company card for expenses so you're never out of pocket
+- This position is only open to applicants based in the UK with the right to work in the UK. We do not deal with recruitment agencies, so please only apply directly.
+
+###Closing date
+Applications for this vacancy close on Monday 7 October 2019, 23:59.",TRUE,,
+17,Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/about/jobs/ux-designer,,,,bvmkesw,UX Designer,http://www.codefinery.com/wp-content/uploads/2019/01/Clearleft-logo.png,Clearleft,Brighton,Permanent,£35000-45000,FALSE,"£35,000","£45,000","40,000",0.1,low,FALSE,mailto://andy.thornton@clearleft.com,"We’re looking for a designer with demonstrable skills in architecting intuitive and inspiring digital experiences, to join our friendly and supportive team in the heart of Brighton.
+
+You’ll get to tackle big, interesting challenges for diverse clients — we’ve worked with Virgin Atlantic, Penguin, Spotify, UNICEF, and Channel 4 to name a few.
+
+#Responsibilities
+Your role is essential in helping shape and deliver digital products and services, through:
+
+- **Architecture:** You can shape and sequence information and content using a variety of mapping techniques.
+- **Exploration:** You can repeatedly iterate and improve on a range of potential design solutions.
+- **Validation:** You understand common user behaviours, and can provide evidence-based design guidance by assessing and validating specific design concepts and solutions with end-users, peers and client stakeholders.
+- **Vision:** You interrogate the mission, goals and desired outcomes of each client project, to ensure they are coherent and readily understood across the team.
+- **Interaction:** You understand the design fundamentals of layout, and can prototype testable user interfaces under support and guidance from colleagues.
+
+Depending on your prior experience and seniority, it would also be advantageous for candidates to be able to demonstrate the following skills:
+
+- **Insight:** You’re able to conduct a variety of primary research into the clients target audiences and business domain, to help reveal potential challenges or opportunities.
+
+#Benefits
+- Competitive salary £35,000–£45,000 depending on experience
+- Flexible, family-friendly working hours
+- 30 days annual leave as standard
+- £1,000 training budget each year
+- A friendly, creative studio environment two minutes walk from the seafront
+- Free breakfasts, great coffee and top notch tea
+
+#What we value
+We’re a group of smart, passionate people with the support, trust and freedom to do the job we love. We’re free from the typical constraints of big agencies and have fostered a culture that encourages you to do the best and most fulfilling work of your career. There are a number of key attitudes shared by everyone at Clearleft:
+
+**You get under the skin of problems**
+
+You insist on a deeper understanding of the problem before rushing into solutions, even if that sometimes means starting out with ‘just enough research’. You focus on the needs of the people using your products and services, but are able to understand the complexity involved in balancing them with the client’s organisational goals or technical constraints.
+
+**You’re a visual thinker**
+
+You understand the benefits of making complex ideas simple through diagrams, concept maps, sketches or other visual thinking techniques. Workshops are often your medium of choice. You enjoy working through ideas with clients and colleagues, but you’re also hands-on enough to help bring those ideas into reality.
+
+**You are articulate**
+
+You understand that success can often rest on the quality of communication. You prefer discussion over emails and documents. You pride yourself on expressing your ideas clearly and with a strong sense of purpose that encourages trust from your colleagues and clients, whether that’s a conversation around a whiteboard, an innovative design concept or a strategy presentation in a slide deck.
+
+**You collaborate**
+
+You do your best work collaborating within cross–functional teams and know that shared understanding is the critical factor in achieving a successful outcome. You instinctively share your ideas with colleagues and peers, and love to see them adapt and evolve as a result of constructive criticism.
+
+**You value outputs, but know that outcomes are what matter**
+
+You know the best way to tackle complex problems is by remaining adaptable. You understand and respect the differences between the various research, design or development methodologies (such as Lean or Agile), while not following any practice unknowingly. You have an array of techniques to draw upon, but focus on the outcomes of your work, rather than fetishise the way it looks or how it’s delivered.
+
+#Does this sound like you?
+If so, please drop me a short email to <andy.thornton@clearleft.com>, or connect with me on [LinkedIn](https://www.linkedin.com/in/thorntonandy/), telling me why you’re right for this role and point to a CV, resume or portfolio of your work. We’re more interested in understanding what problems you have helped solve (and how), rather than seeing a collection of shiny deliverables. I look forward to hearing from you.
+
+**Some things worth noting**
+
+- Applicants should be eligible to work in the UK
+- We are keeping this vacancy open until it is filled, which means there is no closing date for applications
+- We endeavour to get in touch with candidates within four weeks of you contacting us, which typically begins with a casual chat prior to a more formal interview process
+- We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",TRUE,,
+18,Maribel Trillo Maribel.Trillo@edfenergy.com ,,,,,,,,https://www.indeed.co.uk/jobs?q=Ux&l=Worthing&vjk=982753248b2e86d7,,,,u98eh,UI Designer,https://rmkcdn.successfactors.com/9d205a5f/1565e535-26cc-4458-8fc7-9.png,EDF Energy,Brighton,Permanent,,TRUE,,,,,,FALSE,https://careers.edfenergy.com/job/Hove-Digital-UI-Design-Executive/547256201/,"EDF Energy has ambitious objectives for Digital. Already our principal customer contact and engagement channel, we aim to grow digital’s volume, breadth and quality in line with our ambition to place digital at the centre of all our activity.     
+
+ 
+
+We have opportunities for UI Designers to join our Brighton based design team.  You’ll drive user-centred design and evolve our pattern library which is the source of truth for UX/UI/CX design guidelines across the EDF Energy business.  You’ll manage external agency relationships, project priorities and internal resources to lead interactive build and design. 
+
+This vibrant and creative team acts as an internal agency across the whole of the EDF Energy business.  Enjoy regular meet-ups with external agency partners to discuss what’s new in in user-centred design and develop your expertise in the interactive design community.  You’ll design using your Mac and the latest industry tools InVision, communicating and collaborating using Slack and Miro  
+
+Day to Day:
+
+- You’ll work within a programme of continuous improvement, demonstrating full use of agile methods and tools, as well as digital best practice, to deliver maximum velocity and minimum cost, while demonstrating full use of customer and market insight and segmentation around attitudes & lifestyles as well as channel best practice.
+- You’ll be responsible for the delivery of commercial results for identified digital journeys/channels (number of transactions, efficiency measures, additional revenue and customer retention)
+- You’ll identify ways to continuously improve customer experiences to drive competitiveness & profitability, using insight to challenge existing practices where benefits are clear.
+- You’ll manage & influence relationships with colleagues to prioritise & manage a move to commercial practices and digital first thinking, while building & managing strong relationships with Customer Services, Supply Chain and relevant digital suppliers to ensure the business gains best possible value and quality.
+
+###The Person
+ 
+
+You’ll have the experience and ability to drive a step-change in digital interaction design capability across all channels (to include web, mobile, tablet, email and other key channels) supporting outstanding customer experiences. You’ll have managed and delivered suites of assets, resources and approaches to ensure consistent, high-quality interaction design principles supporting the operational delivery of digital channel operations.
+
+ 
+
+You’ll have taken the lead in defining and implementing usability principles into creative development, including accessibility compliance considerations.  You’ll have developed  and delivered a continuous improvement programme for digital interaction design, demonstrating use of customer segmentation around attitudes and lifestyles to support the delivery of coherent, cross-channel experiences
+
+ 
+
+You’ll have collaboratively managed the design approach across internal and external agencies and have identified and investigated new opportunities to ensure competitiveness and profitability through insight and data-driven decision-making.         
+
+###The Skills
+ 
+
+- Extensive and demonstrable experience producing digital interaction design creative with a major brand or agency
+- Creative talent and technical ability to drive and implement a user-centred approach to interaction design
+- Strong experience of digital interaction design best practice and methodologies with a proven track record of delivery in a customer-centric commercial environment
+- Able to demonstrate a clear technical understanding of cross-browser and device compliance, with experience of delivering responsive and adaptive design solutions
+- Excellent collaborative concept creation and proposition development techniques and skills, with an ability to work in an Agile environment and with a passion for creating and maintaining a strong visual identity and brand compliance
+ 
+
+**Desirable:**
+
+ 
+- Professional qualification in interaction design, graphic design, user experience, marketing, digital-related disciplines.   
+
+###Competitive Salary & Benefits
+ 
+
+We offer a competitive salary and benefits package, including a defined contribution pension scheme, a wide range of flexible benefits to suit your lifestyle, and the opportunity to earn bonus. 
+
+ 
+Although these roles are advertised on a full-time/part-time basis as standard, flexible working arrangements will be considered.
+
+###Why EDF Energy?
+ 
+
+We’re proud to be an inclusive, disability confident employer and recognise the importance of employee well-being, and although these roles are advertised on a full-time/part-time basis as standard, flexible working arrangements will be considered. 
+
+ 
+We’re about the people who work with us and we celebrate their diversities and embrace the value that their differences bring. We believe that a culture of inclusion forms the basis of a truly sustainable business and is vital to shaping a strong and fresh-thinking organisation, with a number of employer networks and benefits to suit your lifestyle.
+
+ 
+
+Recruiting from the widest possible pool of talent, we assess every potential employee against our four key behaviours – Integrity, Inclusion, Inspiration and Impact. We make sure that our workforce is a true reflection of our communities and customers. Their unique perspectives not only give us a better understanding of customers from all walks of life, but bring fresh ideas too.",TRUE,,
+19,Laura Paplanskaite +44 (0) 20 3633 4573,,,,,,,,https://www.indeed.co.uk/jobs?q=Ux&l=Worthing&vjk=982753248b2e86d7,,,,mkloiugt,Lead User Experience/Service Designer,https://uxpa-uk.org/wp-content/uploads/job-manager-uploads/company_logo/2016/07/bitzesty-logo-01-150x150.jpg,Bit Zesty,London,Permanent,£65000-85000,FALSE,"£65,000","£85,000","75,000",1.0,high,FALSE,https://bit-zesty.workable.com/j/932C8C7BC7,"**DESCRIPTION**
+
+**Who we are**
+
+We are a digital service design agency with strong technical delivery capabilities with ambitious growth plans. We’ve been helping the government, charities, corporations, and start-ups to achieve their digital goals since 2009. We like to do work that has a positive impact on society, and many of our projects have a social-good aspect to them.
+
+
+
+Relationships, innovation, and quality are at the core of who we are. We believe that by forming positive relationships with colleagues and clients, we can be better than the sum of our parts. Our focus on human-centred design helps us find smart solutions to our clients’ problems. Our dedication to quality means the services and products we create always leave people smiling.
+
+
+
+**Flexible and remote working**
+
+From the very beginning, we established effective remote working practices. It provides a better work-life balance and gives our people more autonomy. It opens up opportunities for people who otherwise would not be able to work with us and helps us do our bit in preserving the environment. As long as you can make it to client meetings when required, you can choose to work from home as much as you wish.
+
+
+**What is it like being a Lead User Experience Designer at Bit Zesty?**
+
+At Bit Zesty, being a Lead UX Designer is about design thinking, collaboration as well as creating great user-centered digital services and products. You will be:
+
+- Leading UX and service design projects.
+- Facilitating workshops.
+- Creating user journey maps, service blueprints, reports.
+- Chipping in with hands-on UX work, by creating sketches or wireframes.
+- Establishing internal UX Design frameworks and methodologies.
+- Training and mentoring team members in Design.
+- Educating clients on UX Design principles and value.
+- Driving new business & creating UX/Service - Design proposition.
+
+**REQUIREMENTS**
+
+**You would love this role if you are:**
+
+- Experienced as a lead level User Experience Designer/Service Designer.
+- Passionate about good UX with appreciation of NNG & GDS practices.
+- An analytical thinker, who enjoys problem solving and learning new industries as well as complex domains.
+- Happy to work on projects of all sizes and shapes, from a quick one-page prototype to multi-designer six-month research and design project.
+- Empathetic with the users, but considerate of organisational needs.
+- Comfortable working under time pressure and meeting deadlines.
+- Enjoy managing and mentoring people.
+
+**As a Bit Zesty team member, you should also be:**
+
+- Customer experience orientated - we strive to provide an excellent experience for the end-users, our customers and our teammates.
+- Committed to quality - whether it is award-winning designs, robust code or well-written email, we never cut corners.
+- Task-focused - for us it is about getting the job done, rather than watching the clock.
+- Flexible - we are not fazed by changing priorities or requirements and are comfortable with a level of uncertainty.
+- Honest - we value sincerity and openness.
+
+**BENEFITS**
+
+**What do we offer in return?**
+
+- Opportunity to work mostly remotely (unless you prefer to be office based).
+- Office in trendy and easy to reach central London location (Kings Cross/Islington).
+- 25 days holiday, birthday day off (+ bank holidays).
+- Medical insurance.
+- Gym membership.
+- Training/conference budget.
+- Free bar to unwind after a busy day (when in the office).
+- Roof terrace for hot summer days (when in the office).
+- £65K to £85K salary depending on relevant experience and working arrangements.
+
+Are you intrigued? Please send us your CV and portfolio. Even if you don’t meet all the requirements or your portfolio is not ready, we’d love to hear from you.
+
+We are an equal opportunities employer and welcome applications from all suitably qualified persons regardless of their race, sex, disability, religion or belief, sexual orientation, gender reassignment, marriage and civil partnerships, pregnancy or maternity or age.",TRUE,,
+20,Richard Hirst 01403 232323,,,,,,,,https://www.indeed.co.uk/jobs?q=Ux&l=Worthing&vjk=982753248b2e86d7,,,,3juhfu,User Researcher,https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png,RSA Group,Horsham,Permanent,,TRUE,,,,,,FALSE,https://www.rsagroup.com/careers/search-our-vacancies/uk-job-description?jobId=68228&jobTitle=UX%20Researcher,"The UX Researcher will join our growing Experience Design Team, based in Horsham/Liverpool. This role is critical to discover and champion the needs of our users and provide insights for significant and impactful changes across all our products. Collaboration with the digital team is key as this role is involved in research, discovery, sketching, prototyping and testing, putting the user at the centre of the process.
+
+
+###Responsibilities will include
+Running workshops and studies to gather both qualitative and quantitative feedback on our products 
+
+Planning and conducting a range of user research and requirements gathering methods, including A/B testing, user interviews, stakeholder interviews, field studies and guerrilla research 
+
+Synthesising data and presenting findings to the project teams 
+
+Planning, leading and participating in various activities including competitor analysis, sketching sessions, wire framing, prototyping and user testing 
+
+Developing a strategy for UX research across all products 
+
+Planning and running lab-based and online usability testing sessions
+
+###What we are looking for from you
+Experience in a similar role
+
+Knowledge of UX tools e.g. InVision, Axure etc 
+
+Experience of running lab-based usability testing sessions 
+
+Ability to work independently and as part of a team 
+
+Great communication & presentation skills 
+
+Creative and innovative 
+
+Open-minded and comfortable with mentoring and coaching other members of the team 
+
+Team player, working closely with the digital team 
+
+Confident to champion User Centred Design across the business
+
+###About Us
+RSA is one of the world's leading FTSE 100 general insurers with a proud heritage dating back over 300 years. We provide high quality, innovative insurance products and services for some 20 million customers in over 100 countries, setting new standards in the industry.
+
+Why are we telling you all this? Well, we’re an ambitious sort of company. And if you’re an ambitious sort of person – with the drive to improve us as you improve yourself – we’ll promise you all the resources and career opportunities you need
+
+We aim to provide every one of our employees with a great work-life balance and the opportunity to contribute to charity. We have a thriving community investment programme, volunteer weeks, social events, focus groups, and team outings.
+
+Apply now
+
+If this sounds like a role you’re interested in then please apply.",TRUE,,
+,Mirna Hashwa - 020 7695 6000,,,,,,,,https://sainsburys.jobs/search-apply/ux-researcher-344412/,,,,2kjhf8,UX Researcher,https://logos-download.com/wp-content/uploads/2016/05/Sainsburys_Live_Well_For_Less_logo.png,Sainsburys,London,Permanent,,TRUE,,,,,,FALSE,https://sainsburys.jobs/search-apply/ux-researcher-344412/,"The big question: why on earth should a Digital professional like you work for a 150-year-old retail chain? Because we’re on a journey. Changing the way we operate. Learning to think nimble. Giving our teams the time and freedom they need to push boundaries within an ever-changing, ever-accelerating digital landscape, where we’re always testing, experimenting, and learning. Digital is at the heart of everything we do. Welcome to the home of Sainsbury’s Digital.
+
+###More about the role:
+- In collaboration with the wider multidisciplinary team, support, conduct and manage user research for Sainsbury’s that will inform product roadmaps, concepts and design direction
+- Determine measurable and actionable user experience metrics for various digital products with the digital experience management team
+- Act as an ambassador of Experience Design research best practice and help the wider Sainsbury’s business to understand the behavioural usage patterns which users will engage in when using their devices, as well as, anticipate interaction issues
+- Design and execute user research that focuses on interaction design outputs that will inform future product development
+Use the research output to communicate how user interface designs will be perceived by end users
+- Work closely with insight and research teams and help leverage their data to inform design
+- Present user insights to project stakeholders at all levels
+ 
+###What we’re looking for:
+- Proven experience as a Researcher
+- Proven success conducting user research in a large-scale software platform setting, or equivalent
+- Experience working at all stages of the product development process is highly desirable, as this will help the user researcher to prioritise research activities and proactively identify important areas in the designs which will require user research guidance
+- Experience working closely with designers and developers, to drive effective user research
+- Must be comfortable with high-level of ambiguity
+- Experience with heuristic approaches
+- A strong portfolio demonstrating past work experience and deliverables (e.g.: study plans, reports). Academic qualification in related field, e.g. cognitive psychology, human factors, HCI
+- Strong background in applying qualitative methodologies and experience with quantitative tools desired
+- Nimble, creative, pragmatic approach to product user research
+- Capacity to work quickly whilst delivering high-quality outputs
+- Strong organisational skills and ability to work on multiple projects simultaneously
+- Multi-skilling and prioritisation skills
+- Understanding of product strategy, design and user experience disciplines
+ 
+###We would love to see examples of your work, please ensure you include this with your application.
+
+###In return you’ll get:
+- Colleague discount across the multi-brands – Sainsbury’s, Argos and Habitat
+- Holiday allowance
+- Bonus scheme
+- Pension plan
+- Special offers on gym memberships, restaurants, holidays, retail vouchers and more
+
+Flexible working and job share conversations are encouraged. Across our multi-brands, we’re proud to be an equal opportunities employer that champions a diverse and inclusive culture. If you’re reading this, even if you’re not 100% sure you’re there with your experience, we’d still love to hear from you. If you’d like to find out more head to [Sainsburys Digital](https://sainsburys.jobs/roles/digital-tech-data/digital/)
+
+",TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,,
