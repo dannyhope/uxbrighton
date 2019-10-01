@@ -15,8 +15,14 @@
 
       <div class="gutters__container flex-over-m">
 
-        {% if page.slug != "conference-2019" %}
-          <div class="u1of2-over-m left-over-m gutters flex-over-m gutter-bottom-under-m">
+        {% assign varnum = 1 %}
+
+
+
+        {% if page.url contains "/2019/" %}
+          
+        {% else %}
+          <div class="u1of2-over-m left-over-m gutters flex-over-m gutter-bottom-under-m {{ varnum }} ">
             <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2018/images/photos/sponsors-35.jpg') center center no-repeat #000; background-size: cover;">
               <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
               <h1 class="leading-solid mb2 color-white fs-xl relative">
@@ -31,6 +37,7 @@
               </div>
             </a>
           </div>
+          {% assign varnum = varnum | plus: 1 %}
         {% endif %}
 
         {% assign has_upcoming = false %}
@@ -41,12 +48,13 @@
         {% endfor %}
 
         {% if has_upcoming %}
+
           {% for post in site.posts reversed limit:2 %}
 
             {% if post.upcoming == true && if post.published == true %}
                 {% if post.slug == page.slug %}
                 {% else %}
-                <div class="u1of2-over-m left-over-m gutters flex-over-m">
+                <div class="u1of2-over-m left-over-m gutters flex-over-m {{ varnum }} ">
                   <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
                     <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
                     <div style="flex: 1 0 auto;">
@@ -65,6 +73,7 @@
                     </div>
                   </a>
                 </div>
+                {% assign varnum = varnum | plus: 1 %}
               {% endif %}
             {% endif %}
           {% endfor %}
