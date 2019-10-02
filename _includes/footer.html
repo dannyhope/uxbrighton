@@ -1,3 +1,99 @@
+{% assign has_upcoming = false %}
+{% for post in site.posts %}
+  {% if post.upcoming == true && if post.published == true %}
+    {% assign has_upcoming = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_upcoming %}
+  <aside>
+    <style>
+      .flex-over-m .block-link,
+      .flex-over-m .block-link:hover {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+
+    <section id="promotions">
+      <div class="container">
+        <hr>
+        <div class="row">
+
+          <h3 class="fs-h2 mt0">Other UX Brighton events</h3>
+
+          <div class="gutters__container flex-over-m">
+
+            {% assign varnum = 1 %}
+
+
+
+            {% if page.url contains "/2019/" %}
+              
+            {% else %}
+              <div class="u1of2-over-m left-over-m gutters flex-over-m gutter-bottom-under-m {{ varnum }} ">
+                <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2018/images/photos/sponsors-35.jpg') center center no-repeat #000; background-size: cover;">
+                  <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                  <h1 class="leading-solid mb2 color-white fs-xl relative">
+                    <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Conference 2019</span>
+                    Early-bird discount
+                  </h1>
+                  <div class="mt0 regular track-normal mb3 relative">
+                    <div class="color-white ">A limited number of tickets are now available at a the early bird price of £145 + vat.</div>
+                  </div>
+                  <div>
+                    <div class="button button--green bold standfirst mb0">Tickets and info</div>
+                  </div>
+                </a>
+              </div>
+              {% assign varnum = varnum | plus: 1 %}
+            {% endif %}
+
+
+
+            {% if has_upcoming %}
+              {% for post in site.posts reversed limit:2 %}
+
+                {% if post.upcoming == true && if post.published == true %}
+                    {% if post.slug == page.slug %}
+                    {% else %}
+                    <div class="u1of2-over-m left-over-m gutters flex-over-m {{ varnum }} ">
+                      <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                        <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                        <div style="flex: 1 0 auto;">
+                          <h1 class="leading-solid mb2 color-white fs-xl relative">
+                            <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
+                            {{ post.title }}
+                          </h1>
+                          <div class="mt0 regular track-normal mb3 relative">
+                            <div class="color-white">
+                              {{ post.description }}
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
+                        </div>
+                      </a>
+                    </div>
+                    {% assign varnum = varnum | plus: 1 %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% else %}
+
+            {% endif %}
+
+          </div><!-- gutters__container -->
+
+        </div><!-- .row -->
+      </div><!-- container -->
+
+    </section>  
+  </aside>
+{% endif %}
+
+
   <!-- <section id="styleguide"></section> -->
   <style>
     [type="checkbox"] {
@@ -132,16 +228,16 @@
   </script>
 
 
-<link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/tooltipster.bundle.min.css" />
-<link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" />
-<script type="text/javascript" src="/js/tooltipster-master/dist/js/tooltipster.bundle.min.js"></script>
-    <!-- <script type="text/javascript" src="/js/tooltipster-master/dist/js/plugins/tooltipster/SVG/tooltipster-SVG.min.js"></script> -->
-<script>
-$(function() {
-  $('.tooltip').tooltipster({
-    animation: 'fade',
-    delay: 1,
-    theme: 'tooltipster-shadow'
+  <link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/tooltipster.bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" />
+  <script type="text/javascript" src="/js/tooltipster-master/dist/js/tooltipster.bundle.min.js"></script>
+      <!-- <script type="text/javascript" src="/js/tooltipster-master/dist/js/plugins/tooltipster/SVG/tooltipster-SVG.min.js"></script> -->
+  <script>
+  $(function() {
+    $('.tooltip').tooltipster({
+      animation: 'fade',
+      delay: 1,
+      theme: 'tooltipster-shadow'
+    });
   });
-});
-</script>
+  </script>
