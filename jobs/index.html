@@ -167,7 +167,16 @@ h2 {
 h2 + h3 {
   margin: 1em 0 0.5em;
 }
+
+.hist {
+    position: relative;
+    z-index: 2;
+}
 </style>
+
+
+
+
 <div class="clearfix gutters__container">
   <div class="u3of4-over-m left-over-m gutters">
     <h2>Current vacancies</h2>
@@ -208,36 +217,39 @@ h2 + h3 {
                     {% if job.show-salary == 'TRUE' %}
                         ·  <span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
                     {% else %}
-                      <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
-                        {% comment %} <title id="svg-{{ job.job-id }}" lang="en">Highlighted area indicates the salary range for this job compared to similar jobs. Left is lower, right is higher.</title> {% endcomment %}
-                        <desc>Histogram, providing an abstract indication of salary range.</desc>
-                        <g fill="none" fill-rule="evenodd">
-                          <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
+                      <span class="inline-block tooltip">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                          {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).</title>{% endcomment %}
+                          <desc>Histogram, providing an abstract indication of salary range.</desc>
+                          <g fill="none" fill-rule="evenodd">
+                            <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
 
-                          <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
-                        </g>
-                      </svg>
-                      &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).
+                            <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
+                          </g>
+                        </svg>                        
+                      </span>
+
+                      <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
                     {% endif %}
                   </p>
                   <a class="button button--green mt2 pa2 job-top-apply-btn" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
@@ -253,37 +265,36 @@ h2 + h3 {
                     {% if job.show-salary == 'TRUE' %}
                         ·  <span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
                     {% else %}
-                      <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
-                        {% comment %} <title id="svg-{{ job.job-id }}" lang="en">Highlighted area indicates the salary range for this job compared to similar jobs. Left is lower, right is higher.</title> {% endcomment %}
-                        <desc>Histogram, providing an abstract indication of salary range.</desc>
-                        <g fill="none" fill-rule="evenodd">
-                          <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
-                          <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
+                      <span class="inline-block tooltip" title="Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                          {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).</title>{% endcomment %}
+                          <desc>Histogram, providing an abstract indication of salary range.</desc>
+                          <g fill="none" fill-rule="evenodd">
+                            <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
+                            <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
 
-                          <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
-                          <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
-                        </g>
-                      </svg>
-                      <span id="js-hover-text-{{job.job-id}}" class="js-hover-text" style="display: none; color: rgba(0,0,0,0.6); font-size: 1rem;">
-                        &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).
+                            <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
+                            <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
+                          </g>
+                        </svg>
                       </span>
                     {% endif %}
                   </p>
