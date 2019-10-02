@@ -120,14 +120,14 @@
   }
 
 
-  @include over-m {
+  @include over-s {
     // nav ul {
     //   padding: 0 14px;
     // }
 
     .masthead__links a {
       font-size: 16px;
-      padding: 17px 7px 15px !important;
+      padding: 16px 7px 15px !important;
     }
   }
 
@@ -137,7 +137,7 @@
     }
   }
 
-  @media only screen and (max-width: 542px) {
+  @media only screen and (max-width: $width-m)  {
     .nav-hidden-under-m {
       display: none;
     }

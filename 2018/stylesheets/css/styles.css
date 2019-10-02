@@ -883,16 +883,16 @@ body.scroll-started .masthead__logo {
   line-height: 16px;
   text-decoration: none; }
 
-@media only screen and (min-width: 731px) {
+@media only screen and (min-width: 451px) {
   .masthead__links a {
     font-size: 16px;
-    padding: 17px 7px 15px !important; } }
+    padding: 16px 7px 15px !important; } }
 
 @media only screen and (max-width: 622px) {
   .masthead__links a {
     font-size: 13px; } }
 
-@media only screen and (max-width: 542px) {
+@media only screen and (max-width: 730px) {
   .nav-hidden-under-m {
     display: none; } }
 
@@ -3230,6 +3230,8 @@ a.drop:hover {
     opacity: 1; } }
 
 .show {
+  opacity: 0;
+  max-height: 0;
   overflow: hidden;
   opacity: 1;
   -webkit-animation: fade 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards, slideDownEmailOptions 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards;
