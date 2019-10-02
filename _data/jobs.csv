@@ -1,5 +1,5 @@
 ,Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be live,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,employer,logo-link,location,work-pattern,money,money is guess,money min,money max,money median,rank,money-indication,show-salary,apply-link,extended-description,publish,How to publish jobs,
-,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,,used for displaying the logo on the jobs pages,as specifific as possible,this appears in the job description,Calculated automatically,if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
+,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,,Logos are part of the adverts,as specifific as possible,this appears in the job description,Calculated automatically,if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
 0.2-<0.4    = med-low
 0.4-<0.6    = med
 0.6-<0.8    = med-high
@@ -1179,7 +1179,7 @@ Apply now
 If this sounds like a role you’re interested in then please apply.",TRUE,,
 21,Mirna Hashwa - 020 7695 6000,,,,,,,,https://sainsburys.jobs/search-apply/ux-researcher-344412/,,,,2kjhf8,UX Researcher,Sainsburys,https://logos-download.com/wp-content/uploads/2016/05/Sainsburys_Live_Well_For_Less_logo.png,London,Permanent,,TRUE,,,,,,FALSE,https://sainsburys.jobs/search-apply/ux-researcher-344412/,"The big question: why on earth should a Digital professional like you work for a 150-year-old retail chain? Because we’re on a journey. Changing the way we operate. Learning to think nimble. Giving our teams the time and freedom they need to push boundaries within an ever-changing, ever-accelerating digital landscape, where we’re always testing, experimenting, and learning. Digital is at the heart of everything we do. Welcome to the home of Sainsbury’s Digital.
 
-###More about the role:
+### More about the role:
 - In collaboration with the wider multidisciplinary team, support, conduct and manage user research for Sainsbury’s that will inform product roadmaps, concepts and design direction
 - Determine measurable and actionable user experience metrics for various digital products with the digital experience management team
 - Act as an ambassador of Experience Design research best practice and help the wider Sainsbury’s business to understand the behavioural usage patterns which users will engage in when using their devices, as well as, anticipate interaction issues
@@ -1188,7 +1188,7 @@ Use the research output to communicate how user interface designs will be percei
 - Work closely with insight and research teams and help leverage their data to inform design
 - Present user insights to project stakeholders at all levels
  
-###What we’re looking for:
+### What we’re looking for:
 - Proven experience as a Researcher
 - Proven success conducting user research in a large-scale software platform setting, or equivalent
 - Experience working at all stages of the product development process is highly desirable, as this will help the user researcher to prioritise research activities and proactively identify important areas in the designs which will require user research guidance
@@ -1203,9 +1203,9 @@ Use the research output to communicate how user interface designs will be percei
 - Multi-skilling and prioritisation skills
 - Understanding of product strategy, design and user experience disciplines
  
-###We would love to see examples of your work, please ensure you include this with your application.
+### We would love to see examples of your work, please ensure you include this with your application.
 
-###In return you’ll get:
+### In return you’ll get:
 - Colleague discount across the multi-brands – Sainsbury’s, Argos and Habitat
 - Holiday allowance
 - Bonus scheme
