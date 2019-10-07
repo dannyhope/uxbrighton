@@ -99,31 +99,13 @@
           <img alt="Placeholder avatar" class="bg-grey-20" src="/2019/images/speakers/placeholder-310.jpg" width="310" height="310">
         </figure>
 
-<!--
+        <!--
         <figure class="u1of4 left gutters--xs mb0" style="padding-top: 8px;">
           <img alt="Placeholder avatar" class="bg-grey-20" src="/2019/images/speakers/placeholder-310.jpg" width="310" height="310">
-        </figure> -->
+        </figure> 
+        -->
 
       </div>
-
-
-
-      <div class="clearfix gutters__container--xs pb1">
-
-
-        <!-- <figure class="u1of4 left gutters--xs mb0">
-          <a href="#Dr-Nick-Fine" class="talk__image-link">
-            <img alt="Dr Nick Fine" class="bg-grey-20" src="/2019/images/speakers/nick-310.jpg" width="310" height="310">
-            <figcaption class="talk__image-link__caption">
-              <span class="talk__image-link__caption--1 block">
-                Dr Nick Fine
-              </span>
-            </figcaption>
-          </a>
-        </figure> -->
-
-      </div>
-
 
     </div><!-- row -->
   </div>
@@ -165,11 +147,20 @@
           </span>
           <span class="talk__abstract regular block">Designing with artificial intelligence</span>
         </h3>
-        <div class="">
-          <div class="responsive-height-limiter mt3">
-            <div class="embed-container hd">
-            </div>
-          </div>
+        <div class="talk__abstract">
+
+          {% if page.display-videos == true %}
+            <div class="responsive-height-limiter mt3">
+              <div class="embed-container hd">
+                <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
+              </div>
+            </div>          
+          {% endif %}
+
+          {% if page.display-slides == true %}
+            <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🔥🔥🔥🔥___">___🔥🔥🔥🔥___</a></p>
+          {% endif %}
+
           <p>We are entering the age of intelligence—a time when technologists imbue artificially intelligent components into many products without a clear framework for how such intelligence is delivered to users consistently. It is a product designer’s job to make AI feel human-like and magical, not overwhelming and scary to users. When designing for Artificial Intelligence scenarios, whether for a large enterprise or small startup, setting user expectations is critical to deliver a reliable product. Emily will share some best practices from designing for AI in both large and small organizations. No matter the company size, a minimum viable product is important to design and not to be the result of unplanned feature cuts. Emily will share what Minimum Viable Intelligence is for an AI product, and how designers can deliver a clear UX when solving problems efficiently.</p>
 
           <p>When thinking of how to design for intelligent products, first and foremost it needs to seem competent. Users must trust the AI agent or service with information and believe that it can achieve their goal. The bar for this depends on the expectations the designer sets. The most difficult thing about breaking out of scenario-focused AI is the lack of clear boundaries. Are you aspiring to create an entire conversational AI agent? Then the bar will be high. A less intelligent Bot, however, will teach users the rails of its conversation early on to avoid disappointment. In this talk we’ll dig deeper into setting appropriate expectations when designing for AI across large and small applications.</p>

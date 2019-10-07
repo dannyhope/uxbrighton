@@ -93,6 +93,36 @@ $(function() {
 
 
 
+  // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
+
+  /* Table of contents */
+  var ToC =
+  "<nav role='navigation' class='table-of-contents'>" +
+    "<strong>In this page</strong>" +
+    "<ul class='nav'>";
+   var newLine, el, title, link;
+   $("#info h3[id]").each(function() {
+   el = $(this);
+  title = el.text();
+  console.log('title',title);
+  link = "#" + el.attr("id");
+   newLine =
+    "<li class='nav-item'>" +
+      "<a href='" + link + "'>" +
+        title +
+      "</a>" +
+    "</li>";
+   ToC += newLine;
+   });
+   ToC +=
+   "</ul>" +
+  "</nav>";
+   $("[data-toc]").after(ToC);
+   // setTimeout(function(){ 
+   //  console.log($('.table-of-contents'));
+   //  $('body').scrollspy({ target: '.table-of-contents',offset: navScrollOffset });
+   // }, 3000);
+
 
   // $(document).on('click tap', '.job-open,.job-close', function(e){
   //   //e.preventDefault();
@@ -200,60 +230,7 @@ $(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // if(document.location.search.length) { $("#styleguide").load("style-guide.html"); };
-
-
-  /* Table of contents */
-  var ToC =
-  "<nav role='navigation' class='table-of-contents'>" +
-    "<strong>On this page</strong>" +
-    "<ul class='nav'>";
-   var newLine, el, title, link;
-   $("#info h3[id]").each(function() {
-   el = $(this);
-  title = el.text();
-  link = "#" + el.attr("id");
-   newLine =
-    "<li class='nav-item'>" +
-      "<a href='" + link + "'>" +
-        title +
-      "</a>" +
-    "</li>";
-   ToC += newLine;
-   });
-   ToC +=
-   "</ul>" +
-  "</nav>";
-   $("[data-toc]").after(ToC);
-   // setTimeout(function(){ 
-   //  console.log($('.table-of-contents'));
-   //  $('body').scrollspy({ target: '.table-of-contents',offset: navScrollOffset });
-   // }, 3000);
-
-
-
-
-}); // dom ready stuff
+}); // dom ready stuff  -------------------------------------------------------------------------
 
 
 /*!

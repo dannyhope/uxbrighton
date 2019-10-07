@@ -46,7 +46,10 @@ display-tickets: early-bird
 display-travel-accomodation: false
 display-party: false
 display-workshops: false 
+
+
 display-schedule: false
+
 display-slides: false
 display-videos: false
 
@@ -182,6 +185,21 @@ display-videos: false
       padding-top: 25%;
     }
   }
+  @media (min-width: 450px) and (max-width: 730px) {
+    .hidden-under-ms {
+
+    }
+    .nav--in-page a {
+      padding: 18px 12px;
+    }
+    .nav-item--tickets {
+      float: right;
+      margin: 8px;
+    }
+    .nav--in-page .container {
+      padding: 0;
+    }
+  }
 </style>
 
 
@@ -226,11 +244,8 @@ display-videos: false
         <ul class="nav ph0">
 
           <li class="inline-block nav-item color-black">
-            <!-- <div class="hidden-if--nav--in-page-is-stuck">
-              In this page:
-            </div> -->
             <a href="#overview" class="-show-if--nav--in-page-is-stuck masthead__link nav-link color-black">
-              Intro<span class="hidden-under-m">duction</span>
+              Top
             </a>
           </li>
 
@@ -243,6 +258,11 @@ display-videos: false
               <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
             </li>
           {% endif %}
+
+
+          <!-- <li class="nav-item inline-block nav-item--sponsors hidden-under-ms">
+            <a href="#venue" class="masthead__link nav-link color-black">Venue</a>
+          </li> -->
 
 
           <li class="nav-item inline-block nav-item--sponsors hidden-under-m">
@@ -280,7 +300,8 @@ display-videos: false
 
               <p>At this year's conference, we want to focus on the craft of design: on expanding our understanding and the skills we need to build fluid and rewarding experiences. We want to stimulate discussion and enrich design knowledge, elevating the importance of design in the UX process. We want to help widen the understanding of design, so that everyone who builds UX outcomes can speak the same language.</p>
 
-              <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. So <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">join us</a>: our goal is that everyone who attends will leave with a heightened awareness of design.</p>              
+              <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. So <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">join us</a> for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
+              <p><a href="/2019/convince-your-boss">Convince your boss</a> to invest in your development.</p>
             </div>
 
 
@@ -351,11 +372,76 @@ display-videos: false
           </div><!-- u1of2-over-m -->
         </div><!-- row -->
 
+
+
+
+
+
+
+
+
+        <style>
+          .columnar-list {
+            columns: 3;
+          }
+          @media (max-width:680px) {
+            .columnar-list { columns: 2; }
+          }
+          @media (max-width:400px) {
+            .columnar-list { columns: 1; }
+          }
+          .attendee-info-icons {
+            display: flex;
+            justify-content: space-between;
+          }
+          .attendee-info-icon {
+            display: flex;
+            flex: 1;
+            opacity: 0.34;
+            height: 50px;
+            width: auto;
+          }
+          @media (max-width:680px) {
+            .attendee-info-icon { height: 30px; }
+          }
+          @media (max-width:400px) {
+            .attendee-info-icon { height: 21px; }
+          }
+        </style>
+        <div class="row mv0">
+            <h2 class="mt0 mb3"><a href="/2018/info" class="color-heading">Information for Attendees</a></h2>
+            <p>The conference is being held in the beautiful and historic <a href="https://brightondome.org/your_visit/venues/concert_hall/">Brighton Dome Concert Hall</a>: just 10 minutes from Brighton Station, 3 minutes from the Lanes, 5 minutes from the beach and 5 minutes from a whole heap of great restaurants and hotels. Registration starts from 9am with the first speaker on at 10am, we’ll email you to let you know when when the talk times are finalised.</p>
+            <p>Before the conference why not <a href="http://slack.uxbrighton.org.uk">join the UX Brighton Slack</a> and get chatting with other UXers. We’ve also got a rather nice <a href="https://uxbri.slack.com/messages/jobs">#jobs</a>.</p>
+
+            <p>See our <a href="/2019/info" class="bold">Attendee information guide</a> for everything you need to get the most out of your visit to UX Brighton, including:</p>
+            <ul class="columnar-list">
+              <li>Travel</li>
+              <li>Accommodation</li>
+              <li>Pre-conference meet-ups</li>
+              <li>Accessibility</li>
+              <li>Wifi and charging</li>
+              <li>Cloakrooms</li>
+              <li>Registration</li>
+              <li>Refreshments</li>
+              <li>After Party</li>
+            </ul>
+
+            <a class="row attendee-info-icons" href="/2019/info">
+              <img alt="Travel" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Travel.svg"/>
+              <img alt="Acommodation" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Hotel.svg"/>
+              <img alt="Accessibility" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Accessibility.svg"/>
+              <img alt="Refreshments" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Coffee.svg"/>
+              <img alt="Charge" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Charge.svg"/>
+              <img alt="Wifi" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Wifi.svg"/>
+              <img alt="After Party" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Drinks.svg"/>
+            </a>
+        </div>
+
     </section>
 
 
     <section class="testimonial container">
-      <div class="row border-top padding-top-row mt0">
+      <div class="row padding-top-row border-top mt0">
         <blockquote class="standfirst">
           <div class="quote">
             <p>Hands-down the most helpful and practical UX conference I attended.</p>
