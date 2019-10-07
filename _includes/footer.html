@@ -51,23 +51,23 @@
             {% if page.url contains "/2019/" %}
               
             {% else %}
-              <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2018/images/photos/sponsors-35.jpg') center center no-repeat #000; background-size: cover;">
-                  <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                  <div class="upcoming-teaser__text">
-                    <h1 class="leading-solid mb2 color-white fs-xl relative">
-                      <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Conference 2019</span>
-                      Early-bird discount
-                    </h1>
-                    <div class="mt0 regular track-normal mb3 relative">
-                      <div class="color-white ">A limited number of tickets are now available at a the early bird price of £145 + vat.</div>
-                    </div>                    
-                  </div>
-                  <div class="upcoming-teaser__button-wrapper">
-                    <div class="button button--green bold standfirst mb0">Tickets and info</div>
-                  </div>
-                </a>
-              </div>
+                <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
+                  <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2018/images/photos/sponsors-35.jpg') center center no-repeat #000; background-size: cover;">
+                    <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                    <div class="upcoming-teaser__text">
+                      <h1 class="leading-solid mb2 color-white fs-xl relative">
+                        <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Conference 2019</span>
+                        Early-bird discount
+                      </h1>
+                      <div class="mt0 regular track-normal mb3 relative">
+                        <div class="color-white ">A limited number of tickets are now available at a the early bird price of £145 + vat.</div>
+                      </div>                    
+                    </div>
+                    <div class="upcoming-teaser__button-wrapper">
+                      <div class="button button--green bold standfirst mb0">Tickets and info</div>
+                    </div>
+                  </a>
+                </div>
               {% assign varnum = varnum | plus: 1 %}
             {% endif %}
 
@@ -79,25 +79,28 @@
                 {% if post.upcoming == true && if post.published == true %}
                     {% if post.slug == page.slug %}
                     {% else %}
-                    <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                      <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
-                        <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                        <div class="upcoming-teaser__text">
-                          <h1 class="leading-solid mb2 color-white fs-xl relative">
-                            <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
-                            {{ post.title }}
-                          </h1>
-                          <div class="mt0 regular track-normal mb3 relative">
-                            <div class="color-white">
-                              {{ post.description }}
+                      {% if page.url contains "/2019/" and post.slug == "voice-ui-workshop" %}
+                      {% else %}
+                        <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
+                          <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                            <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                            <div class="upcoming-teaser__text">
+                              <h1 class="leading-solid mb2 color-white fs-xl relative">
+                                <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
+                                {{ post.title }}
+                              </h1>
+                              <div class="mt0 regular track-normal mb3 relative">
+                                <div class="color-white">
+                                  {{ post.description }}
+                                </div>
+                              </div>
                             </div>
-                          </div>
+                            <div class="upcoming-teaser__button-wrapper">
+                              <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
+                            </div>
+                          </a>
                         </div>
-                        <div class="upcoming-teaser__button-wrapper">
-                          <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
-                        </div>
-                      </a>
-                    </div>
+                      {% endif %}
                     {% assign varnum = varnum | plus: 1 %}
                   {% endif %}
                 {% endif %}

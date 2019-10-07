@@ -185,10 +185,13 @@ display-videos: false
 </style>
 
 
+
+
   <!-- Add this code to event page: -->
   <main class="">
 
     <section id="intro" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
+
       <div class="upcoming-events-outer">
         {% if page.display-event-promo-top-of-page == true %}
           {% include 2019-upcoming-mini.html %}
@@ -242,11 +245,15 @@ display-videos: false
           {% endif %}
 
 
-          <li class="nav-item inline-block ">
+          <li class="nav-item inline-block nav-item--sponsors hidden-under-m">
             <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
           </li>
+ 
+          <li class="nav-item inline-block nav-item--other-workshop">
+            <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
+          </li>
 
-          <li class="nav-item inline-block hidden-under-l">
+          <li class="nav-item inline-block hidden-under-l nav-item--other-events">
             <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
           </li>
 
@@ -258,21 +265,24 @@ display-videos: false
       </div>
     </div>
 
-    <section id="overview">
+    <section id="overview" class="relative">
 
-      <div class="container">
+      <div class="container" style="position: static;">
 
 
-        <div class="row gutters__container">
+        <div class="row gutters__container ">
 
-          <div class="u2of3-over-l left-over-l  gutters">
+          <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
             <h2 class="mb2">Why Design? Why now?</h2>
             <p class="standfirst">Join us for our 9th annual one-day conference.</p>
-            <p>While the industry concentrates on research as the foundation for user experience, design chugs along in the background, not getting the attention it deserves. On many projects design just happens, but it should fit hand in glove with research: design should answer the challenges that research identifies.</p>
+            <div class="if-cta-is-stuck__adjacent-content__text">
+              <p>While the industry concentrates on research as the foundation for user experience, design chugs along in the background, not getting the attention it deserves. On many projects design just happens, but it should fit hand in glove with research: design should answer the challenges that research identifies.</p>
 
-            <p>At this year's conference, we want to focus on the craft of design: on expanding our understanding and the skills we need to build fluid and rewarding experiences. We want to stimulate discussion and enrich design knowledge, elevating the importance of design in the UX process. We want to help widen the understanding of design, so that everyone who builds UX outcomes can speak the same language.</p>
+              <p>At this year's conference, we want to focus on the craft of design: on expanding our understanding and the skills we need to build fluid and rewarding experiences. We want to stimulate discussion and enrich design knowledge, elevating the importance of design in the UX process. We want to help widen the understanding of design, so that everyone who builds UX outcomes can speak the same language.</p>
 
-            <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. So <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">join us</a>: our goal is that everyone who attends will leave with a heightened awareness of design.</p>
+              <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. So <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">join us</a>: our goal is that everyone who attends will leave with a heightened awareness of design.</p>              
+            </div>
+
 
 
 
@@ -281,8 +291,41 @@ display-videos: false
             <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>-->
           </div>
 
+<!-- Stuff relating to sticky cta area -->
 
-          <div class="u1of3-over-l right-over-l gutters gutter-top-under-m">
+          <style>
+            @media (min-width: 1910px) {
+              .if-cta-is-stuck__cta  {
+                position: absolute;
+                left: calc(((100vw - 1150px) / 2) + 1124px);
+                width: 380px;
+                z-index: 999;
+                background: white;
+                padding: 16px;
+                border-radius: 2px;
+              }
+              .nav--in-page-is-stuck .if-cta-is-stuck__cta {
+                position: fixed;
+                top: 68px;
+              }
+              .nav--in-page .nav-item--tickets {
+                display: none;
+              }
+              .container {
+                max-width: 1150px;
+              }
+              .if-cta-is-stuck__adjacent-content {
+                width: 100%;
+                transition: all 0.2s;
+              }
+              .if-cta-is-stuck__adjacent-content__text {
+                transition: all 0.2s;
+                column-count: 2;
+                column-gap: 24px;
+              }
+            }
+          </style>
+          <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
 
             {% if page.display-speakers == true %}
 
@@ -595,7 +638,57 @@ display-videos: false
             </div>
           </section>
 
+          <section id="workshop" style="min-height: 0;">
+            <div class="container "><hr>
+              <div class="row">
+                <h3 class="fs-h2 mt0">Workshop</h3>
+                <div class="drop clearfix flex-over-m">
+                  <div class="u1of2-over-m left-over-m flex-over-m">
 
+
+
+                      <a href="/Voice-UI-workshop/" class="block-link fill tile pa3 rounded drop relative" style="background: url('/images/events/voice-ui-workshop.jpeg') center center no-repeat #1a272c; background-size: cover;">
+                        <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                        <div class="upcoming-teaser__text">
+                          <h1 class="leading-solid mb2 color-white fs-xl relative">
+                            <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">31 October 2019<span class="event-time inline-block">, 9:30am</span></span>
+                            Workshop: Make Your First Voice Interface
+                          </h1>
+                          <div class="mt0 regular track-normal mb3 relative">
+                            <div class="color-white">
+                              We’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="upcoming-teaser__button-wrapper">
+                          <div class="button button--green bold standfirst mb0">Tickets and info</div>
+                        </div>
+                      </a>
+
+
+                  </div>
+
+                  <div class="u1of2-over-m left-over-m flex-over-m">
+                    <a href="/Voice-UI-workshop/" class="block-link tile bg-grey-5 fill pa3">
+                      <h3 class="mt0">
+                        Are you ready for Voice UI?
+                      </h3>
+                      <div class="block-link__summary">
+                        <p>Voice UI is growing fast and provides an opportunity to create better products in new contexts. Learn to use VUIs to make interaction simple, pleasurable, accessible and reduce cognitive load.</p>
+
+                        <p>In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.</p>
+
+                        <p class="block-link__highlight"><strong>Learn more about the Voice UI Workshop</strong></p>
+                      </div>
+                    </a>
+                  </div>            
+                </div>
+
+
+              </div>
+            </div>
+
+          </section>
 
   </main>
 
