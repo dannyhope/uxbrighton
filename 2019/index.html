@@ -208,36 +208,44 @@ display-videos: false
   <!-- Add this code to event page: -->
   <main class="">
 
-    <section id="intro" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
 
-      <div class="upcoming-events-outer">
-        {% if page.display-event-promo-top-of-page == true %}
-          {% include 2019-upcoming-mini.html %}
-        {% endif %}
+
+
+
+
+    <section id="hero" class="overlay__outer pa0" style="  background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
+
+      <div class="overlay__inner overflow-hidden">
+        <div class="upcoming-events-outer">
+          {% if page.display-event-promo-top-of-page == true %}
+            {% include 2019-upcoming-mini.html %}
+          {% endif %}
+        </div>
+        <div class="container color-white">
+          <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+            <span class="fs-l mb1 block track-normal weight-400">UX Brighton 2019</span>
+            A Focus <br>on Design 
+          </h1>
+          <h2 class="mt0 fs-l regular track-normal mb6">
+            <span class="event-date" itemprop="startDate" content="2019-11-01T09:30">Friday 1 November</span>, Brighton Dome
+          </h2>
+          <div>
+            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green weight-900 fs-l">Buy now — £170 + vat</a>
+
+            <p class="mb0 mt1 weight-400 fs-l">Group Discount - buy 4 get 1 free</p>
+
+            <!-- <p class="mb0 mt1 weight-400 fs-l">
+              Online ticket sales have closed <br>
+              Tickets will be available on the door at £250 — cash only
+            </p> -->
+          </div>
+        </div>
+
       </div>
-      <div class="color-white main-text-padding">
-        <div style="background: rgba(1,15,21,0.5);">
-          <div class="container bba">
-            <div class="-u2of3-over-m pt3 bba1" style="margin-bottom: 20px;">
-              <h1 itemprop="name" class="fs-xxxl leading-solid">
-                <span class="fs-l block track-normal weight-400 mb1" >UX Brighton 2019</span>
-                A Focus on Design
-              </h1>
-              <p class="mt0 fs-l regular track-normal mb0">Friday 1 November, Brighton Dome</p>
-            </div><!-- u2of3-over-m -->
-            <!--
-            <div class="u1of3-over-m mv3  bba2">
-              <div class="inline-block right-over-m">
-                <div class="pt0-under-m ">Sponsored by</div>
-                <a href="https://madgex.com" title="Visit madgex.com"><img alt="Madgex" src="/2018/images/sponsor-logos/madgex-white.svg" width="200" class="banner-sponsor-logo"></a>
-                <div><a class="color-white underline" href="mailto:emmeline@uxbrighton.org.uk">Email us</a> for sponsorship opportunities</div>
-              </div>
-            </div>
-            -->
-          </div><!-- container -->
-        </div><!-- row -->
-      </div>
+
     </section>
+
+
 
     <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
       <div class="container ">
