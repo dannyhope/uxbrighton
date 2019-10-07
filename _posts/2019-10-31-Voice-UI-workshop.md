@@ -1,6 +1,6 @@
 ---
 layout: event-page  
-title: "Make Your First Voice Interface - a workshop with Ben Sauer"
+title: "Workshop: Make Your First Voice Interface"
 venue: 68 Middle Street
 start: "9:30am"
 upcoming: true

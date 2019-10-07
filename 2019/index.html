@@ -1,34 +1,54 @@
 ---
-layout: conference-2019
-title: A Focus on Design – UX Brighton Conference 2019
+# •••••••••••••••••••••••••••••
+# Page Options
+# •••••••••••••••••••••••••••••
 
-redirect_from:
-  - /
+title: "A Focus on Design – UX Brighton Conference 2019"
 
 description: "Design has many meanings. This conference will cover a broad range of them. From visual design to organisational design maturity, from data visualisation to design thinking."
 
-image: "https://uxbrighton.org.uk/images/cards/2019-early.jpg"
+fullurl: "https://uxbri.org/2019/"
 slug: "conference-2019"
-fullurl: "https://uxbrighton.org.uk/2019/"
+redirect_from:
+  - /
 
-body-classes: "is-pre-conference"
-
-display-speakers: true
-early-bird-tickets: true
-
-# new switches to be plumbed-in
-display-travel-accomodation: false
-display-talk-times: false
-display-slides: false
-display-videos: false
-
-
+# Page style
+layout: conference-2019
 masthead-color: dark
 hero-image: ""
+display-event-promo-top-of-page: true
+display-event-promo-foot-of-page: true
+
+# Social media cards
+image: "https://uxbrighton.org.uk/images/cards/2019-early.jpg"
+
+
+
+# •••••••••••••••••••••••••••••
+# Displayed in upcoming sections
+# •••••••••••••••••••••••••••••
 
 upcoming-image: ""
 upcoming-text: ""
 upcoming-button-text: ""
+
+
+
+# •••••••••••••••••••••••••••••
+# Conference Switches
+# •••••••••••••••••••••••••••••
+
+display-speakers: true
+display-sponsors: true
+
+# “display-tickets” takes one of the following values: super-early-bird, early-bird ,full-price, waiting-list, sales-ended, event-is-over, cancelled
+display-tickets: early-bird
+display-travel-accomodation: false
+display-party: false
+display-workshops: false 
+display-schedule: false
+display-slides: false
+display-videos: false
 
 
 ---
@@ -170,7 +190,9 @@ upcoming-button-text: ""
 
     <section id="intro" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
       <div class="upcoming-events-outer">
-        {% include 2019-upcoming-mini.html %}
+        {% if page.display-event-promo-top-of-page == true %}
+          {% include 2019-upcoming-mini.html %}
+        {% endif %}
       </div>
       <div class="color-white main-text-padding">
         <div style="background: rgba(1,15,21,0.5);">

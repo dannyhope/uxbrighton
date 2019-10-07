@@ -1396,11 +1396,16 @@ th, td {
     float: none;
     text-align: center;
     width: auto; }
+  .talk li,
   .talk p {
     text-align: left !important;
     -webkit-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto; }
+  .talk__speaker-links a {
+    display: block;
+    float: none;
+    padding-bottom: 8px; }
   .talk .talk__photo-wrapper {
     margin: 0 auto;
     float: none !important; } }
@@ -2737,65 +2742,53 @@ a.drop:hover {
   margin-left: -4px;
   margin-right: -4px; }
 
-@media only screen and (min-width: 451px) {
-  .gutters__container {
-    margin-left: -8px;
-    margin-right: -8px; } }
+.gutters__container {
+  margin-left: -16px;
+  margin-right: -16px; }
+  @media only screen and (min-width: 731px) {
+    .gutters__container {
+      margin-left: -16px;
+      margin-right: -16px; } }
+  @media only screen and (min-width: 951px) {
+    .gutters__container {
+      margin-left: -16px;
+      margin-right: -16px; } }
+  @media only screen and (min-width: 1281px) {
+    .gutters__container {
+      margin-left: -32px;
+      margin-right: -32px; } }
 
-@media only screen and (min-width: 731px) {
-  .gutters__container {
-    margin-left: -16px;
-    margin-right: -16px; } }
+.gutters,
+.gutter-left {
+  padding-left: 16px; }
+  @media only screen and (min-width: 731px) {
+    .gutters,
+    .gutter-left {
+      padding-left: 16px; } }
+  @media only screen and (min-width: 951px) {
+    .gutters,
+    .gutter-left {
+      padding-left: 16px; } }
+  @media only screen and (min-width: 1281px) {
+    .gutters,
+    .gutter-left {
+      padding-left: 32px; } }
 
-@media only screen and (min-width: 951px) {
-  .gutters__container {
-    margin-left: -16px;
-    margin-right: -16px; } }
-
-@media only screen and (min-width: 1281px) {
-  .gutters__container {
-    margin-left: -32px;
-    margin-right: -32px; } }
-
-@media only screen and (min-width: 451px) {
-  .gutters,
-  .gutter-left {
-    padding-left: 8px; } }
-
-@media only screen and (min-width: 731px) {
-  .gutters,
-  .gutter-left {
-    padding-left: 16px; } }
-
-@media only screen and (min-width: 951px) {
-  .gutters,
-  .gutter-left {
-    padding-left: 16px; } }
-
-@media only screen and (min-width: 1281px) {
-  .gutters,
-  .gutter-left {
-    padding-left: 32px; } }
-
-@media only screen and (min-width: 451px) {
-  .gutters,
-  .gutter-right {
-    padding-right: 8px; } }
-
-@media only screen and (min-width: 731px) {
-  .gutters,
-  .gutter-right {
-    padding-right: 16px; } }
-
-@media only screen and (min-width: 951px) {
-  .gutters,
-  .gutter-right {
-    padding-right: 16px; } }
-
-@media only screen and (min-width: 1281px) {
-  .gutters,
-  .gutter-right {
-    padding-right: 32px; } }
+.gutters,
+.gutter-right {
+  padding-right: 16px; }
+  @media only screen and (min-width: 731px) {
+    .gutters,
+    .gutter-right {
+      padding-right: 16px; } }
+  @media only screen and (min-width: 951px) {
+    .gutters,
+    .gutter-right {
+      padding-right: 16px; } }
+  @media only screen and (min-width: 1281px) {
+    .gutters,
+    .gutter-right {
+      padding-right: 32px; } }
 
 .pt0, .pa0, .pv0 {
   padding-top: 0px; }

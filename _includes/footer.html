@@ -16,32 +16,54 @@
     </style>
 
     <section id="promotions">
-      <div class="container">
+      
+
+      <style>
+        .upcoming-teaser__wrapper {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+
+        }
+        .upcoming-teaser {
+          max-width: 635px;
+          text-align: left;
+        }
+        .upcoming-teaser__text {
+          flex: 1 0 auto;
+          min-height: 13em;
+        }
+        .upcoming-teaser__button-wrapper {
+
+        }
+      </style>
         <hr>
-        <div class="row">
+        <div class="row text-center">
 
-          <h3 class="fs-h2 mt0">Other UX Brighton events</h3>
+          <h3 class="fs-h2 mt0 gutter-bottom">
+            {% if page.url contains "/2019/" or page.layout == "event-page" %}Other {% endif %}UX Brighton events
+          </h3>
 
-          <div class="gutters__container flex-over-m">
+          <div class="flex-over-m upcoming-teaser__wrapper">
 
             {% assign varnum = 1 %}
-
-
 
             {% if page.url contains "/2019/" %}
               
             {% else %}
-              <div class="u1of2-over-m left-over-m gutters flex-over-m gutter-bottom-under-m {{ varnum }} ">
+              <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
                 <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2018/images/photos/sponsors-35.jpg') center center no-repeat #000; background-size: cover;">
                   <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                  <h1 class="leading-solid mb2 color-white fs-xl relative">
-                    <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Conference 2019</span>
-                    Early-bird discount
-                  </h1>
-                  <div class="mt0 regular track-normal mb3 relative">
-                    <div class="color-white ">A limited number of tickets are now available at a the early bird price of £145 + vat.</div>
+                  <div class="upcoming-teaser__text">
+                    <h1 class="leading-solid mb2 color-white fs-xl relative">
+                      <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Conference 2019</span>
+                      Early-bird discount
+                    </h1>
+                    <div class="mt0 regular track-normal mb3 relative">
+                      <div class="color-white ">A limited number of tickets are now available at a the early bird price of £145 + vat.</div>
+                    </div>                    
                   </div>
-                  <div>
+                  <div class="upcoming-teaser__button-wrapper">
                     <div class="button button--green bold standfirst mb0">Tickets and info</div>
                   </div>
                 </a>
@@ -57,10 +79,10 @@
                 {% if post.upcoming == true && if post.published == true %}
                     {% if post.slug == page.slug %}
                     {% else %}
-                    <div class="u1of2-over-m left-over-m gutters flex-over-m {{ varnum }} ">
+                    <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
                       <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
                         <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                        <div style="flex: 1 0 auto;">
+                        <div class="upcoming-teaser__text">
                           <h1 class="leading-solid mb2 color-white fs-xl relative">
                             <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
                             {{ post.title }}
@@ -71,7 +93,7 @@
                             </div>
                           </div>
                         </div>
-                        <div>
+                        <div class="upcoming-teaser__button-wrapper">
                           <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
                         </div>
                       </a>
@@ -87,7 +109,7 @@
           </div><!-- gutters__container -->
 
         </div><!-- .row -->
-      </div><!-- container -->
+      
 
     </section>  
   </aside>

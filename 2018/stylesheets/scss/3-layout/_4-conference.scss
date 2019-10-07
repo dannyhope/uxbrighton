@@ -122,9 +122,15 @@
         text-align: center;
         width: auto;
       }
+      .talk li,
       .talk p {
         text-align: left !important;
         hyphens: auto;
+      }
+      .talk__speaker-links a {
+        display: block;
+        float: none;
+        padding-bottom: 8px;
       }
       .talk .talk__photo-wrapper {
         margin: 0 auto;

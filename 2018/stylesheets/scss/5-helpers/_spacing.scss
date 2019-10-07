@@ -114,10 +114,10 @@
 
 
     .gutters__container {
-      @include over-s {
-        margin-left:  -#{$space-s};
-        margin-right: -#{$space-s};
-      }
+      //@include over-s {
+        margin-left:  -#{$space-m};
+        margin-right: -#{$space-m};
+      //}
       @include over-m {
         margin-left:  -#{$space-m};
         margin-right: -#{$space-m};
@@ -134,9 +134,9 @@
 
     .gutters,
     .gutter-left {
-      @include over-s {
-        padding-left:  $space-s;
-      }
+      //@include over-s {
+        padding-left:  $space-m;
+      //}
       @include over-m {
         padding-left:  $space-m;
       }
@@ -150,9 +150,9 @@
 
     .gutters,
     .gutter-right {
-      @include over-s {
-        padding-right:  $space-s;
-      }
+      //@include over-s {
+        padding-right:  $space-m;
+      //}
       @include over-m {
         padding-right:  $space-m;
       }
