@@ -323,14 +323,13 @@ display-videos: false
 <!-- Stuff relating to sticky cta area -->
 
           <style>
-            /*.if-cta-is-stuck__cta {
-              opacity: 0;
-              transition: opacity 0.5s
+            .if-cta-is-stuck__tickets {
+              display: none;
             }
-            .nav--in-page-is-stuck .if-cta-is-stuck__cta {
-              opacity: 1;
-            }*/
             @media (min-width: 1910px) {
+              .if-cta-is-stuck__tickets {
+                display: block;
+              }
               .if-cta-is-stuck__cta  {
                 position: absolute;
                 left: calc(((100vw - 1150px) / 2) + 1124px);
@@ -339,10 +338,17 @@ display-videos: false
                 background: white;
                 padding: 16px;
                 border-radius: 2px;
+
+
+                opacity: 0;
+                transition: opacity 0s;
               }
               .nav--in-page-is-stuck .if-cta-is-stuck__cta {
+                display: block;
+                opacity: 1;
                 position: fixed;
                 top: 68px;
+                transition: opacity 0.5s;
               }
               .nav--in-page .nav-item--tickets {
                 display: none;
@@ -363,23 +369,25 @@ display-videos: false
           </style>
           <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
 
-            {% if page.display-speakers == true %}
+            <div class="if-cta-is-stuck__tickets">
+              {% if page.display-speakers == true %}
 
-              {% if page.early-bird-tickets == true %}
-                <h2 class="mb2">Early bird tickets</h2>
-                <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £145 + vat</a>
+                {% if page.early-bird-tickets == true %}
+                  <h2 class="mb2">Early bird tickets</h2>
+                  <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £145 + vat</a>
+                {% else %}
+                  <h2 class="mb2">Tickets</h2>
+                  <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £170 + vat</a>
+                {% endif %}
+
               {% else %}
-                <h2 class="mb2">Tickets</h2>
-                <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £170 + vat</a>
-              {% endif %}
 
-            {% else %}
+                <h2 class="mb2">Super early bird tickets</h2>
+                <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a>
+                <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
 
-              <h2 class="mb2">Super early bird tickets</h2>
-              <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a>
-              <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
-
-            {% endif %}
+              {% endif %}              
+            </div>
 
             <h2 class="mb2 mt4">Stay updated</h2>
             <p>Join our newsletter for announcements and information about our evening talks.</p>
