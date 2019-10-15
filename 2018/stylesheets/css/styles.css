@@ -447,6 +447,12 @@ ul {
 blockquote, p, ul, ol, dd,
 figure {
   margin-bottom: 0.75em; }
+  @media only screen and (max-width: 730px) {
+    blockquote, p, ul, ol, dd,
+    figure {
+      -webkit-hyphens: auto;
+          -ms-hyphens: auto;
+              hyphens: auto; } }
 
 blockquote {
   margin-left: 0;
@@ -1096,48 +1102,6 @@ body.scroll-started .masthead__logo {
   #hero h1 {
     margin-bottom: 16px; } }
 
-.talk__image-link {
-  margin: 0;
-  display: block;
-  position: relative; }
-  .talk__image-link img {
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    border-radius: 2px; }
-  .talk__image-link .talk__image-link__caption {
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: -0.03em;
-    position: absolute;
-    bottom: 16px;
-    line-height: 1;
-    max-width: calc(100% - 10px); }
-    @media only screen and (max-width: 950px) {
-      .talk__image-link .talk__image-link__caption {
-        font-size: 15.984px; } }
-    @media only screen and (max-width: 730px) {
-      .talk__image-link .talk__image-link__caption {
-        display: none; } }
-  .talk__image-link .talk__image-link__caption--1 {
-    font-weight: 900;
-    margin-bottom: 8px;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 8px; }
-  .talk__image-link:hover .talk__image-link__caption--1 {
-    background: #C9003A; }
-
-@media only screen and (max-width: 450px) {
-  .talk__photo-wrapper {
-    max-width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 24px; } }
-
-@media only screen and (max-width: 450px) {
-  .talk__heading {
-    text-align: center;
-    margin: -16px 0 16px; } }
-
 .circle-background {
   padding-top: 100%;
   height: 0;
@@ -1276,140 +1240,6 @@ th, td {
   right: 30px !important;
   left: auto !important; }
 
-.talk {
-  border-top: 1px solid #eee; }
-
-.talk:first-of-type {
-  border-top: 0 solid #eee; }
-
-.talk__heading {
-  margin-top: 0.25em; }
-
-.talk h4 {
-  font-size: 24px;
-  margin: 1em 0 0.5em; }
-
-.talk__time {
-  color: #80878a;
-  display: inline-block; }
-
-@media (max-width: 450px) {
-  .talk__heading {
-    margin-bottom: -0.6em; }
-  .talk h4 {
-    text-align: center; }
-  .talk__time {
-    display: block; } }
-
-.if-is-pre-conference,
-.if-is-conference-day,
-.if-is-post-conference {
-  display: none; }
-
-.is-pre-conference .if-is-pre-conference,
-.is-conference-day .if-is-conference-day,
-.is-post-conference .if-is-post-conference {
-  display: block; }
-
-.talk__time {
-  display: none; }
-
-.is-conference-day .talk__time {
-  color: #c9003a; }
-
-.talk * {
-  -webkit-transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1); }
-
-.js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
-  width: 200px; }
-
-@media (max-width: 500px) {
-  .js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 0; } }
-
-.js .is-conference-day .if-conference-day-talk-toggled .talk__photo-wrapper + .u2of3-over-s {
-  /*width: auto;*/
-  margin: 0; }
-
-/*.js .is-conference-day*/
-.talk__abstract h4 {
-  margin: 0 0 0.5em;
-  font-weight: 400;
-  font-size: 30px; }
-
-/*.js .is-conference-day*/
-.talk__heading {
-  margin: 0; }
-
-.js .is-conference-day .talk__heading--not-a-talk {
-  margin: 1.5em 0 0; }
-
-@media (max-width: 500px) {
-  /*.js .is-conference-day*/
-  .talk__heading {
-    margin: 0; } }
-
-.js .is-conference-day p,
-.js .is-conference-day .talk__speaker-bio {
-  opacity: 1;
-  max-height: 1000px; }
-
-.talk__speaker-links {
-  overflow: hidden; }
-
-.js-show-talk-details,
-.js-show-talk-details .js-hide,
-.js-show-talk-details .js-show {
-  display: none; }
-
-.js .is-conference-day .if-conference-day-talk-toggled .js-show-talk-details {
-  display: block;
-  clear: both; }
-
-.js .js-show-talk-details.is-active {
-  padding-top: 12px !important;
-  display: block !important;
-  clear: both !important; }
-
-@media (max-width: 500px) {
-  .js .js-show-talk-details {
-    text-align: center; } }
-
-.js .is-conference-day .js-show-talk-details.is-active .js-hide,
-.js .is-conference-day .if-conference-day-talk-toggled .js-show {
-  display: inline; }
-
-.js .is-conference-day .if-conference-day-talk-toggled p,
-.js .is-conference-day .if-conference-day-talk-toggled .talk__speaker-bio {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  margin-bottom: 0; }
-
-@media (max-width: 640px) {
-  .talk,
-  .talk * {
-    float: none;
-    text-align: center;
-    width: auto; }
-  .talk li,
-  .talk p {
-    text-align: left !important;
-    -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto; }
-  .talk__speaker-links a {
-    display: block;
-    float: none;
-    padding-bottom: 8px; }
-  .talk .talk__photo-wrapper {
-    margin: 0 auto;
-    float: none !important; } }
-
 @media (min-width: 500px) {
   .flex-reverse-under-l {
     -webkit-box-orient: horizontal;
@@ -1424,6 +1254,103 @@ th, td {
 
 #newletter-signup:target {
   padding-bottom: calc(100vh - 340px); }
+
+.talk__image-link {
+  margin: 0;
+  display: block;
+  position: relative; }
+  .talk__image-link img {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 2px; }
+  .talk__image-link .talk__image-link__caption {
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    position: absolute;
+    bottom: 16px;
+    line-height: 1;
+    max-width: calc(100% - 10px); }
+    @media only screen and (max-width: 950px) {
+      .talk__image-link .talk__image-link__caption {
+        font-size: 15.984px; } }
+    @media only screen and (max-width: 730px) {
+      .talk__image-link .talk__image-link__caption {
+        display: none; } }
+  .talk__image-link .talk__image-link__caption--1 {
+    font-weight: 900;
+    margin-bottom: 8px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px; }
+  .talk__image-link:hover .talk__image-link__caption--1 {
+    background: #C9003A; }
+
+.talk {
+  border-top: 1px solid #eee; }
+
+.talk * {
+  -webkit-transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.talk:first-of-type {
+  margin-top: 0; }
+
+@media only screen and (max-width: 450px) {
+  .talk__photo-wrapper {
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 24px; } }
+
+.talk__heading {
+  margin-top: 0; }
+
+.talk__time {
+  color: #80878a;
+  color: #1bab1b;
+  display: inline-block; }
+
+.talk h4 {
+  font-size: 24px;
+  margin: 1em 0 0.5em; }
+
+.talk__speaker-links {
+  overflow: hidden; }
+
+@media (max-width: 640px) {
+  .talk,
+  .talk * {
+    float: none;
+    text-align: center;
+    width: auto; }
+  .talk li,
+  .talk p {
+    text-align: left !important;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto; }
+  .talk__time {
+    display: block; }
+  .talk__speaker-links a {
+    display: block;
+    float: none;
+    padding-bottom: 8px; }
+  .talk .talk__photo-wrapper {
+    margin: 16px auto;
+    float: none !important;
+    max-width: 50%;
+    padding: 0; }
+  .talk .talk__text-wrapper {
+    display: block;
+    clear: both;
+    width: auto !important;
+    padding: 0; } }
+
+.js-show-talk-details,
+.js-show-talk-details__show,
+.js-show-talk-details__hide,
+.js .talk.talk-toggled-to-display .js-show-talk-details__show {
+  display: none; }
 
 .show-if--nav--in-page-is-stuck,
 .nav--in-page-is-stuck .hidden-if--nav--in-page-is-stuck {

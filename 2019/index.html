@@ -16,8 +16,6 @@ redirect_from:
 layout: conference-2019
 masthead-color: dark
 hero-image: ""
-display-event-promo-top-of-page: true
-display-event-promo-foot-of-page: true
 
 # Social media cards
 image: "https://uxbrighton.org.uk/images/cards/2019.jpg"
@@ -38,369 +36,96 @@ upcoming-button-text: ""
 # Conference Switches
 # •••••••••••••••••••••••••••••
 
-display-speakers: true
-display-sponsors: true
+# TICKETS
 
-# “display-tickets” takes one of the following values: super-early-bird, early-bird ,full-price, waiting-list, sales-ended, event-is-over, cancelled
-display-tickets: early-bird
-display-travel-accomodation: false
-display-party: false
-display-workshops: false 
+ticket-button: show
+ticket-button-text: "Buy now — £170 + vat"
+ticket-button-url: "https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets"
+ticket-button-extra-text: "Group Discount - buy 4 get 1 free"
 
+# PAGE SECTIONS
 
-display-schedule: false
+# Hero section contents search for 🦸
 
-display-slides: false
-display-videos: false
+event-promo-top-of-page:        show # show / hide
+event-promo-footer:             hide # show / hide
+
+# Pre and during conference
+travel-and-accommodation-blurb: show # show / hide
+pre-party:                      show # show / hide
+speakers:                       show # show / hide
+sponsors:                       show # show / hide
+highlights:                     show # show / hide
+workshops:                      show # show / hide
+
+# SPEAKERS, TALKS and SCHEDULE
+talk-times:                     hide # show / hide (times for registration, talk times, party etc)
+registration:                   hide # show / hide
+after-party:                    hide # show / hide
+
+# Post conference
+talk-slides:                    hide # show / hide
+talk-videos:                    hide # show / hide
+
 
 
 ---
 
 
-<style>
-  .masthead {
-    background:#1a272c;
-  }
-  .masthead__links .masthead__link {
-    color: #fff;
-    border-color: #000 !important;
-  }
-  .masthead__link__unfocused {
-    color: #000;
-    border-color: #000 !important;
-  }
-  .masthead__link svg {
-    fill: white;
-  }
-  #promotions hr {
-    visibility: hidden;
-  }
-  @media (max-width: 500px ){
-    .banner-sponsor-logo {
-      width: 130px;
-    }
-  }
-  .video-box {
-    max-width: 380px;
-    padding-bottom: 32px;
-  }
-  .video-box img {
-    width: 100%;
-  }
-  .video-box a {
-    display: block;
-    overflow: hidden;
-    border-radius: 1rem;
-    background: #000;
-  }
-  .video-box a:hover img {
-    opacity: 0.8;
-    /*transform: scale(1.1);*/
-  }
-  .video-box:nth-child(1) {
-    padding-right: 16px !important;
-  }
-  .video-box:nth-child(2) {
-    padding-left: 16px !important;
-  }
-
-  /* under l */
-  @media (max-width: 950px ){
-  }
-
-  /* under m */
-  @media (max-width: 730px ){
-    .video-box:nth-child(1) { padding-right: 8px !important; }
-    .video-box:nth-child(2) { padding-left: 8px !important; }
-    .video-box { padding-bottom: 16px; }
-  }
-
-  /* under s */
-  @media (max-width: 450px ){
-    .video-box:nth-child(1) { padding-right: 0px !important; }
-    .video-box:nth-child(2) { padding-left: 0px !important; }
-    .video-box { padding-bottom: 16px; }
-    .pt3-under-s {
-      padding-top: 24px;
-    }
-  }
-  @media (min-width: 730px ){
-    .bba {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-end;
-    }
-    .bba2 {
-      flex-direction: column;
-      align-content: right;
-    }
-  }
-  @media (min-width: 730px ){
-    .nav-item--tickets {
-
-    }
-  }
-  @media only screen and (max-width: 450px) {
-    #top .nav-item--tickets a {
-      padding: 20px 0 0 !important;
-      height: auto;
-    }
-    #top .nav-item--tickets a:hover {
-      box-shadow: initial;
-    }
-  }
-  .nav-item--tickets {
-    display: none;
-  }
-  .nav--in-page-is-stuck .nav-item--tickets {
-    display: inline-block;
-  }
-  a.button.button--large.button--green.bold.standfirst {
-    width: 100%;
-    max-width: 355px;
-  }
-  .upcoming-events-outer {
-    position: absolute;
-    top: 7rem;
-    left: calc(50% + 15rem);
-    width: 22.2rem;
-  }
-  .main-text-padding {
-    padding-top: 25%;
-  }
-  @media only screen and (max-width: 1260px) {
-    .upcoming-events-outer {
-      left: unset;
-      right: 3.5rem;
-    }
-    .main-text-padding {
-      padding-top: 20rem;
-    }
-  }
-  @media only screen and (max-width: 599px) {
-    .upcoming-events-outer {
-      display: none;
-    }
-    .main-text-padding {
-      padding-top: 25%;
-    }
-  }
-  @media (min-width: 450px) and (max-width: 730px) {
-    .hidden-under-ms {
-
-    }
-    .nav--in-page a {
-      padding: 18px 12px;
-    }
-    .nav-item--tickets {
-      float: right;
-      margin: 8px;
-    }
-    .nav--in-page .container {
-      padding: 0;
-    }
-  }
-</style>
-
+  
 
 
 
   <!-- Add this code to event page: -->
   <main class="">
 
-
-
-
-
-
-    <section id="hero" class="overlay__outer pa0" style="  background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
-
+    <section id="hero" class="overlay__outer pa0" style="background: url('/2019/images/header-1.jpg') center center no-repeat #000; background-size: cover;">
       <div class="overlay__inner overflow-hidden">
         <div class="upcoming-events-outer">
-          {% if page.display-event-promo-top-of-page == true %}
+          {% if page.event-promo-top-of-page == "show" %}
             {% include 2019-upcoming-mini.html %}
           {% endif %}
         </div>
         <div class="container color-white">
-          <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
-            <span class="fs-l mb1 block track-normal weight-400">UX Brighton 2019</span>
-            A Focus <br>on Design 
-          </h1>
-          <h2 class="mt0 fs-l regular track-normal mb6">
-            <span class="event-date" itemprop="startDate" content="2019-11-01T09:30">Friday 1 November</span>, Brighton Dome
-          </h2>
-          <div>
-            <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green weight-900 fs-l">Buy now — £170 + vat</a>
-
-            <p class="mb0 mt1 weight-400 fs-l">Group Discount - buy 4 get 1 free</p>
-
-            <!-- <p class="mb0 mt1 weight-400 fs-l">
-              Online ticket sales have closed <br>
-              Tickets will be available on the door at £250 — cash only
-            </p> -->
-          </div>
+          <!-- 🦸 Chnge the URL beloe to change Hero Content -->
+          {% include_relative conf-page-partials/hero-pre-conference-main.html %}
         </div>
-
       </div>
-
     </section>
 
 
+    {% include_relative conf-page-partials/in-page-nav.html %}
 
-    <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
-      <div class="container ">
-        <ul class="nav ph0">
-
-          <li class="inline-block nav-item color-black">
-            <a href="#overview" class="-show-if--nav--in-page-is-stuck masthead__link nav-link color-black">
-              Top
-            </a>
-          </li>
-
-          {% if page.display-speakers == true %}
-            <li class="nav-item inline-block ">
-              <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
-            </li>
-          {% else %}
-            <li class="nav-item inline-block ">
-              <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
-            </li>
-          {% endif %}
-
-
-          <!-- <li class="nav-item inline-block nav-item--sponsors hidden-under-ms">
-            <a href="#venue" class="masthead__link nav-link color-black">Venue</a>
-          </li> -->
-
-
-          <li class="nav-item inline-block nav-item--sponsors hidden-under-m">
-            <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
-          </li>
- 
-          <li class="nav-item inline-block nav-item--other-workshop">
-            <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
-          </li>
-
-          <li class="nav-item inline-block hidden-under-l nav-item--other-events">
-            <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
-          </li>
-
-          <li class="nav-item inline-block nav-item--tickets">
-            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--green bold" style="padding:8px; vertical-align: baseline;"><span class="hidden-under-m">Buy </span>Tickets</a>
-          </li>
-
-        </ul>
-      </div>
-    </div>
 
     <section id="overview" class="relative">
-
       <div class="container" style="position: static;">
-
-
         <div class="row gutters__container ">
-
           <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
             <h2 class="mb2">Why Design? Why now?</h2>
             <p class="standfirst">Join us for our 9th annual one-day conference.</p>
             <div class="if-cta-is-stuck__adjacent-content__text">
-              <p>While the industry concentrates on research as the foundation for user experience, design chugs along in the background, not getting the attention it deserves. On many projects design just happens, but it should fit hand in glove with research: design should answer the challenges that research identifies.</p>
-
               <p>At this year's conference, we want to focus on the craft of design: on expanding our understanding and the skills we need to build fluid and rewarding experiences. We want to stimulate discussion and enrich design knowledge, elevating the importance of design in the UX process. We want to help widen the understanding of design, so that everyone who builds UX outcomes can speak the same language.</p>
-
               <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. So <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets">join us</a> for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
               <p class="mb0"><a href="/2019/convince-your-boss">Convince your boss</a> to invest in your development.</p>
             </div>
-
-
-
-
-            <!-- <h3 class=" ">Book now — ticket sales end 1st November</h3> -->
-            <!-- <p>Join us for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
-            <p><a href="/convince-your-boss">Convince your boss</a> to invest in your development.</p>-->
-          </div>
-
-<!-- Stuff relating to sticky cta area -->
-
-          <style>
-            .if-cta-is-stuck__tickets {
-              display: none;
-            }
-            @media (min-width: 1910px) {
-              .if-cta-is-stuck__tickets {
-                display: block;
-              }
-              .if-cta-is-stuck__cta  {
-                position: absolute;
-                left: calc(((100vw - 1150px) / 2) + 1124px);
-                width: 380px;
-                z-index: 999;
-                background: white;
-                padding: 16px;
-                border-radius: 2px;
-
-
-                opacity: 0;
-                transition: opacity 0s;
-              }
-              .nav--in-page-is-stuck .if-cta-is-stuck__cta {
-                display: block;
-                opacity: 1;
-                position: fixed;
-                top: 68px;
-                transition: opacity 0.5s;
-              }
-              .nav--in-page .nav-item--tickets {
-                display: none;
-              }
-              .container {
-                max-width: 1150px;
-              }
-              .if-cta-is-stuck__adjacent-content {
-                width: 100%;
-                transition: all 0.2s;
-              }
-              .if-cta-is-stuck__adjacent-content__text {
-                transition: all 0.2s;
-                column-count: 2;
-                column-gap: 24px;
-              }
-            }
-          </style>
+          </div><!-- u2of3-over-l -->
+          <!-- sticky cta area -->
           <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
-
+            {% if page.ticket-button == "show" %}
             <div class="if-cta-is-stuck__tickets">
-              {% if page.display-speakers == true %}
-
-                {% if page.early-bird-tickets == true %}
-                  <h2 class="mb2">Early bird tickets</h2>
-                  <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £145 + vat</a>
-                {% else %}
-                  <h2 class="mb2">Tickets</h2>
-                  <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — £170 + vat</a>
-                {% endif %}
-
-              {% else %}
-
-                <h2 class="mb2">Super early bird tickets</h2>
-                <a onclick='ga("send", "event", "conference", "click", "buynow");' href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="button button--large button--green bold standfirst">Buy now — 35% off</a>
-                <p>A limited number of super early bird tickets are available at a 35% discount&thinsp;&mdash;&thinsp;until we start announcing speakers.</p>
-
-              {% endif %}              
+              <h2 class="mb2">Get tickets</h2>
+              <a onclick='ga("send", "event", "conference", "click", "buynow");' href="{{ page.ticket-button-text }}" class="button button--large button--green bold standfirst">{{ page.ticket-button-text }}</a>
+              {% if page.ticket-button-extra-text %}
+                <p>{{ page.ticket-button-extra-text }}</p>
+              {% endif %}
             </div>
-
+            {% endif %}
             <h2 class="mb2 mt4">Stay updated</h2>
             <p>Join our newsletter for announcements and information about our evening talks.</p>
             {% include mail-list-signup-form.html id=4 green_signup=false email_border=true %}
-          </div><!-- u1of2-over-m -->
+          </div><!-- u1of3-over-l -->
         </div><!-- row -->
-
-
-
-
-
-
-        <section class="testimonial ">
+        <div class="testimonial">
           <div class="row pv5 border-top border-bottom mt0">
             <blockquote class="standfirst">
               <div class="quote">
@@ -409,393 +134,36 @@ display-videos: false
               <div class="quotee">Alex Wright, Director of User Experience at the New York Times</div>
             </blockquote>
           </div>
-        </section>
-
-
-        <style>
-          .columnar-list {
-            columns: 3;
-          }
-          @media (max-width:680px) {
-            .columnar-list { columns: 2; }
-          }
-          @media (max-width:400px) {
-            .columnar-list { columns: 1; }
-          }
-          .attendee-info-icons {
-            display: flex;
-            justify-content: space-between;
-          }
-          .attendee-info-icon {
-            display: flex;
-            flex: 1;
-            opacity: 0.34;
-            height: 50px;
-            width: auto;
-          }
-          @media (max-width:680px) {
-            .attendee-info-icon { height: 30px; }
-          }
-          @media (max-width:400px) {
-            .attendee-info-icon { height: 21px; }
-          }
-        </style>
-        <div class="row mv0">
-            <h2 class="mt0 mb3"><a href="/2018/info" class="color-heading">Information for Attendees</a></h2>
-            <p>The conference is being held in the beautiful and historic <a href="https://brightondome.org/your_visit/venues/concert_hall/">Brighton Dome Concert Hall</a>: just 10 minutes from Brighton Station, 3 minutes from the Lanes, 5 minutes from the beach and a whole heap of great restaurants and hotels. Registration starts from 9am with the first speaker on at 10am, we’ll email you to let you know when when the talk times are finalised.</p>
-            <p>Before the conference why not <a href="http://slack.uxbrighton.org.uk">join the UX Brighton Slack</a> and get chatting with other UXers. We’ve also got a rather nice <a href="https://uxbri.slack.com/messages/jobs">#jobs</a>.</p>
-
-            <p>See our <a href="/2019/info" class="bold">Attendee information guide</a> for everything you need to get the most out of your visit to UX Brighton, including:</p>
-            <ul class="columnar-list">
-              <li>Travel</li>
-              <li>Accommodation</li>
-              <li>Pre-conference meet-ups</li>
-              <li>Accessibility</li>
-              <li>Wifi and charging</li>
-              <li>Cloakrooms</li>
-              <li>Registration</li>
-              <li>Refreshments</li>
-              <li>After Party</li>
-            </ul>
-
-            <a class="row attendee-info-icons" href="/2019/info">
-              <img alt="Travel" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Travel.svg"/>
-              <img alt="Acommodation" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Hotel.svg"/>
-              <img alt="Accessibility" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Accessibility.svg"/>
-              <img alt="Refreshments" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Coffee.svg"/>
-              <img alt="Charge" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Charge.svg"/>
-              <img alt="Wifi" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Wifi.svg"/>
-              <img alt="After Party" class="attendee-info-icon" src="/2018/graphics/attendee-info-icons/Drinks.svg"/>
-            </a>
-        </div>
-
+        </div><!-- testimonial -->
+        {% if page.travel-and-accommodation-blurb == "show" %}
+          {% include_relative conf-page-partials/travel-and-accommodation.html %}
+        {% endif %}
+        {% if page.pre-party == "show" %}
+          {% include_relative conf-page-partials/pre-party.html %}
+        {% endif %}
+      </div>
     </section>
 
-    <!-- 
-    <style>
-      .hover-grayscale img {
-        filter: grayscale(1);
-        opacity:0.4;
-        transition: all 0.5s;
-      }
-      .hover-grayscale:hover img {
-        filter: grayscale(0);
-        opacity: 1;
-        transition: all 0s;
-      }
 
-    </style>
-    <section class="container">
-      <div class="row border-top padding-top-row mt0 gutter-top-under-m gutters__container flex-over-m ">
-        <div class="u1of2-over-m left-over-m gutters flex-over-m flex-column gutter-bottom-under-m">
-          <h3 class="mt0">Conference Accomodation</h3>
-          <a href="https://book.passkey.com/go/bdux2019" class="flex-grow hover-grayscale content-center">
-            <img src="https://www.visitbrighton.com/dbimgs/logo(3).png" alt="Visit brighton logo" width="824" style="max-width:300px; width:100%;">
-          </a>
-          <p class="mt2">With attendees travelling from all over the world to attend UX Brighton we are delighted to offer <a href="https://book.passkey.com/go/bdux2019">specially negotiated accommodation rates for attendees.</a></p>
-        </div>
-        <div class="u1of2-over-m left-over-m gutters flex-over-m flex-column ">
-          <h3 class="mt0">News: First sponsor announced</h3>
-          <a href="#sponsors" class=" hover-grayscale flex-grow content-center">
-            <img src="/2019/images/sponsor-logos/madgex.svg" alt="Madgex logo" width="824" height="201" style="max-width:300px; width:100%;">
-          </a>
-          <p class="mt2">Madgex have wasted no time in booking their sponsor slot for this years conference following the popularity of last years biggest ever UX Brighton conference. <a href="#sponsors">More about sponsorship.</a></p>
-        </div>
-      </div>
-    </section> 
-    -->
-
-
-
-
-
-
-
-    {% if page.display-speakers == true %}
+    {% if page.speakers == "show" %}
       {% include_relative conf-page-partials/speakers.html %}
     {% endif %}
 
 
+    {% if page.sponsors == "show" %}
+      {% include_relative conf-page-partials/sponsors.html %}
+    {% endif %}
 
 
+    {% if page.highlights == "show" %}
+      {% include_relative conf-page-partials/highlights.html %}
+    {% endif %}
 
 
-    <style>
-      .sponsor__links {
-        margin-left: -8px;
-      }
-      .sponsor__link {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        padding: 8px;
-      }
-      .sponsor__link:hover {
-        color: #000;
-      }
-     .sponsor__links svg {
-        width: 24px;
-        height: 24px;
-      }
-      .sponsor__logo {
-        align-items: center;
-        justify-content: center;
-      }
-      .sponsor__logo--3-star {
-        min-height: 130px !important;
-      }
-      .sponsor__logo--3-star img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-    </style>
+    {% if page.workshops == "show" %}
+      {% include_relative conf-page-partials/workshop.html %}
+    {% endif %}
 
-    <section id="sponsors">
-      <div class="overlay__outer" style="background-image: url('/2018/images/photos/sponsors-35.jpg');">
-        <div class="overlay__inner" style="background: transparent;">
-          <div class="container color-white" style="">
-            <h2 class="fs-xxxl mb0">Sponsors</h2>
-          </div>
-        </div>
-      </div>
-      <div class="overlay__after container bg-white">
-
-
-
-        <h3 class="fs-h2 mt5">Sponsor UX Brighton</h3>
-        <p class="standfirst pb2">UX Brighton attracts an engaged crowd of designers, decision makers and influencers. If you’re interested in supporting UX Brighton have a look at the <a href="sponsorship" class="bold">sponsorship information page</a> for more details.</p>
-
-
-
-        <!--
-        <hr>
-        <h3 class=" pt2 fs-h2 mb2">Premium Sponsors</h3>
-        <div class="row pb5 eh-row">
-          <div class=" u1of2-over-m  pr1 left eh-item">
-            <div class="drop pa2 sponsor sponsor-3-star">
-              <div class="sponsor__logo color-grey-40 pt2">
-                <a href="https://mojdigital.blog.gov.uk/" class="block text-center" title="mojdigital.blog.gov.uk"><img src="images/sponsor-logos/moj.svg" alt="Ministry of Justice Digital" class="inline-block"></a>
-              </div>
-              <div class="sponsor__info">
-                <p class="mb0 pt3">We design, build and support user-centred digital and technology services for the justice system: services that make a real difference to our staff, members of the public and their families who use them.</p>
-              </div>
-              <div class="sponsor__links icons-currentColor mt1">
-                <a href="https://mojdigital.blog.gov.uk/" class="sponsor__link color-grey-30" title="mojdigital.blog.gov.uk">
-                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-                </a>
-                <a href="https://twitter.com/Justice_Digital" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-                </a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        -->
-
-
-        <hr>
-        <h3 class=" pt2 fs-h2 mb2">Standard Sponsors</h3>
-
-        <div class="row pb5 eh-row">
-
-          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
-            <div class="drop pa2 sponsor sponsor-3-star">
-              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-                <a href="https://www.madgex.com/uk/" class="" title="madgex.com">
-                  <img src="/2019/images/sponsor-logos/madgex.svg" alt="Madgex logo" width="824" height="201" style="padding-top: 4%;">
-                </a>
-              </div>
-              <div class="sponsor__info">
-
-                <p class="mb0">Madgex software allows users to operate outstanding career and development hubs that perfectly represent their brand and enables clients to engage and develop their professional audiences.</p>
-              </div>
-              <div class="sponsor__links icons-currentColor mt1">
-                <a href="https://www.madgex.com/uk/" class="sponsor__link color-grey-30" title="madgex.com">
-                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-                </a>
-                <a href="https://twitter.com/madgex" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-                </a>
-                <a href="https://www.facebook.com/MadgexLtd" class="sponsor__link color-grey-30" title="Facebook">
-                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
-                </a>
-              </div>
-            </div><!-- sponsor -->
-          </div>
-
-          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
-            <div class="drop pa2 sponsor sponsor-3-star">
-              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-                <a href="https://balsamiq.com/" class="" title="balsamiq.com"><img src="/2018/images/sponsor-logos/balsamiq-logo-noborder-screen.svg" alt="Balsamiq logo" width="239" height="59"></a>
-              </div>
-              <div class="sponsor__info">
-                <p class="mb0">Balsamiq is a rapid wireframing tool that helps you Work Faster & Smarter. It reproduces the experience of sketching on a whiteboard, but using a computer.</p>
-              </div>
-              <div class="sponsor__links icons-currentColor mt1">
-                <a href="https://balsamiq.com/" class="sponsor__link color-grey-30" title="balsamiq.com">
-                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-                </a>
-                <a href="https://twitter.com/balsamiq" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-                </a>
-                <a href="https://www.facebook.com/balsamiq" class="sponsor__link color-grey-30" title="Facebook">
-                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
-                </a>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
-            <div class="drop pa2 sponsor sponsor-3-star">
-              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-                <a href="https://youcanbook.me/" class="" title="https://youcanbook.me">
-                  <img src="/2019/images/sponsor-logos/you-can-book-me.png" alt="youcanbook.me logo" width="4320" height="800" class="pt2">
-                </a>
-              </div>
-              <div class="sponsor__info">
-                <p class="mb0">YouCanBook.me simplifies scheduling, eliminating the usual back-and-forth when setting up meetings. Works with your Google or Microsoft calendar and seamlessly handles timezones, calendar invites and meeting reminders out of the box.</p>
-              </div>
-              <div class="sponsor__links icons-currentColor mt1">
-                <a href="https://youcanbook.me/" class="sponsor__link color-grey-30" title="youcanbook.me/">
-                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-                </a>
-                <a href="https://twitter.com/youcanbookme" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-                </a>
-                <a href="https://www.youtube.com/channel/UCUkips9yLLYF4hFUeNgkzeg" class="sponsor__link color-grey-30" title="Youtube">
-                  <svg class="icon-youtube--small"><use xlink:href="/2018/images/icons/social-sprite.svg#youtube"></use></svg>
-                </a>
-              </div>
-
-            </div>
-          </div>
-
-        </div><!-- row -->
-
-      </div>
-    </section><!-- sponsors -->
-
-          <style>
-            .centred-faint {
-              color: #cccfd0;
-              position: absolute;
-              top: 50%;
-              left: 0;
-              transform: translateY(-50%);
-              width: 100%;
-              text-align: center;
-              right: 0;
-            }
-            @media (min-width: 731px) {
-              .u1of3-over-m { width: 33%; }
-            }
-
-          </style>
-
-          <!-- <div class="u1of2-over-s  u1of3-over-m -u1of5-over-l pr1 left eh-item">
-            <a href="/2019/sponsorship" class="block drop pa2 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
-              <div class="centred-faint">Sponsorship Opportunity</div>
-            </a>
-          </div> -->
-
-          <section id="highlights" class="bg-grey-5">
-            <div class="container">
-              <h2 class="mb2 gutter-top">Highlights from previous years</h2>
-              <div class="row mt0">
-                <div class="u2of3-over-l left-over-l  pr0-under-l">
-
-                  <div class="clearfix">
-                    <div class="video-box u1of2-over-s left-over-s ">
-                      <a href="https://youtu.be/rz7sy81Yg5E" title="Opens in YouTube">
-                        <img src="/assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png" alt="ResearchOps - Kate Towsey">
-                      </a>
-                    </div>
-                    <div class="video-box u1of2-over-s left-over-s">
-                     <a href="https://youtu.be/8A3SEmvx7uY" title="Opens in YouTube">
-                        <img src="/assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png" alt="UX and Forecasting - James Woudhuysen">
-                      </a>
-                    </div>
-                  </div><!-- row -->
-                  <div class="clearfix">
-                    <div class="video-box u1of2-over-s left-over-s">
-                      <a href="https://youtu.be/DjRR1MpBr1g" title="Opens in YouTube">
-                        <img src="/assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png" alt="Top Tasks - Gerry McGovern">
-                      </a>
-                    </div>
-                    <div class="video-box u1of2-over-s left-over-s">
-                      <a href="https://youtu.be/h9s3DrImGXA" title="Opens in YouTube">
-                        <img src="/assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png" alt="Atomic UX - Daniel Pidcock">
-                      </a>
-                    </div>
-                  </div><!-- row -->
-                </div><!-- u1of2-over-m -->
-
-                <div class="u1of3-over-l right-over-l gutter-left pb3 pt3-under-s pt1">
-                  <blockquote>
-                    <div class="quote">
-                      <p>UX Brighton is one of the premier UX events in Europe. In just one day, you’ll get access to some of the most cutting-edge presentations you can imagine. Well organized, fabulous location, packed with valuable content — go if you can: it’s worth the investment.</p>
-                    </div>
-                    <div class="quotee">Jim Kalbach, Past Speaker</div>
-                  </blockquote>
-                </div><!-- u1of2-over-m -->
-              </div><!-- row -->
-            </div>
-          </section>
-
-          <section id="workshop" style="min-height: 0;">
-            <div class="container "><hr>
-              <div class="row">
-                <h3 class="fs-h2 mt0">Workshop</h3>
-                <div class="drop clearfix flex-over-m">
-                  <div class="u1of2-over-m left-over-m flex-over-m">
-
-
-
-                      <a href="/Voice-UI-workshop/" class="block-link fill tile pa3 rounded drop relative" style="background: url('/images/events/voice-ui-workshop.jpeg') center center no-repeat #1a272c; background-size: cover;">
-                        <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                        <div class="upcoming-teaser__text">
-                          <h1 class="leading-solid mb2 color-white fs-xl relative">
-                            <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">31 October 2019<span class="event-time inline-block">, 9:30am</span></span>
-                            Workshop: Make Your First Voice Interface
-                          </h1>
-                          <div class="mt0 regular track-normal mb3 relative">
-                            <div class="color-white">
-                              We’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="upcoming-teaser__button-wrapper">
-                          <div class="button button--green bold standfirst mb0">Tickets and info</div>
-                        </div>
-                      </a>
-
-
-                  </div>
-
-                  <div class="u1of2-over-m left-over-m flex-over-m">
-                    <a href="/Voice-UI-workshop/" class="block-link tile bg-grey-5 fill pa3">
-                      <h3 class="mt0">
-                        Are you ready for Voice UI?
-                      </h3>
-                      <div class="block-link__summary">
-                        <p>Voice UI is growing fast and provides an opportunity to create better products in new contexts. Learn to use VUIs to make interaction simple, pleasurable, accessible and reduce cognitive load.</p>
-
-                        <p>In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.</p>
-
-                        <p class="block-link__highlight"><strong>Learn more about the Voice UI Workshop</strong></p>
-                      </div>
-                    </a>
-                  </div>            
-                </div>
-
-
-              </div>
-            </div>
-
-          </section>
 
   </main>
 

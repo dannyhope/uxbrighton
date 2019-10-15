@@ -1,87 +1,69 @@
-<style>
-  .upcoming__container {
-    float: right;
-  }
-  .upcoming__container__heading {
-    margin-bottom: 12px;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .upcoming__teaser {
-    padding: 0 16px;
-    padding-bottom: 12px;
-  }
-  .upcoming__teaser__heading {
-    margin-bottom: 0;
-  }
-  .upcoming__teaser:hover {
-    background-color: #f2f3f3;
-  }
-  .upcoming__teaser__link {
-    padding-top: 8px;
-  }
-  .upcoming-events-outer {
-    top: 10.2rem;
-    z-index: 99;
-  }
-</style>
+{% assign has_upcoming = false %}
+{% for post in site.posts %}
+  {% if post.upcoming == true && if post.published == true %}
+    {% assign has_upcoming = true %}
+  {% endif %}
+{% endfor %}
 
-<!-- <div class="upcoming__container color-black bg-white rounded ">
-  <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
-  <a href="/September-2019" class="block-link upcoming__teaser border-top upcoming__teaser__link">
-    <h3 class="upcoming__teaser__heading mv0">
-      September Double Bill
-    </h3>
-    <div class="upcoming__teaser__text">
-      What makes a brand voice brilliant? with Lauren Pope and
-      Grammatical & Readable Code with Daniel van Berzon
-    </div>
-  </a>
-</div> -->
+{% if has_upcoming %}
 
-<div class="upcoming__container color-black bg-white rounded hidden-under-l">
-  <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
+  <style>
+    .upcoming__container {
+      float: right;
+    }
+    .upcoming__container__heading {
+      margin-bottom: 12px;
+      padding-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .upcoming__teaser {
+      padding: 0 16px;
+      padding-bottom: 12px;
+    }
+    .upcoming__teaser__heading {
+      margin-bottom: 0;
+    }
+    .upcoming__teaser:hover {
+      background-color: #f2f3f3;
+    }
+    .upcoming__teaser__link {
+      padding-top: 8px;
+    }
+    .upcoming-events-outer {
+      top: 10.2rem;
+      z-index: 99;
+    }
+  </style>
 
+  <div class="upcoming__container color-black bg-white rounded hidden-under-l">
+    <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
     {% if page.slug != "conference-2019" %}
-
       <a href="/2019" class="block-link upcoming__teaser border-top upcoming__teaser__link">
-        <h3 class="upcoming__teaser__heading mv0">
+        <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
           Conference 2019
-        </h3>
+        </h4>
         <div class="upcoming__teaser__text">
           A Focus on Design
         </div>
       </a>
-
     {% endif %}
 
-    {% assign has_upcoming = false %}
-    {% for post in site.posts %}
+    {% for post in site.posts reversed limit:2 %}
       {% if post.upcoming == true && if post.published == true %}
-        {% assign has_upcoming = true %}
+        {% if post.slug == page.slug %}
+        {% else %}
+          <a href="{{ site.url }}{{post.url}}" class="block-link upcoming__teaser border-top upcoming__teaser__link">
+            <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
+              {{ post.title }}
+            </h4>
+            <div class="upcoming__teaser__text">
+              {{ post.date | date: "%A, %B %-d, %Y" }}
+            </div>
+          </a>
+        {% endif %}
       {% endif %}
     {% endfor %}
-
-    {% if has_upcoming %}
-      {% for post in site.posts reversed limit:2 %}
-
-        {% if post.upcoming == true && if post.published == true %}
-            {% if post.slug == page.slug %}
-            {% else %}
-
-              <a href="{{ site.url }}{{post.url}}" class="block-link upcoming__teaser border-top upcoming__teaser__link">
-                <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
-                  {{ post.title }}
-                </h4>
-                <div class="upcoming__teaser__text">
-                  {{ post.date | date: "%A, %B %-d, %Y" }}
-                </div>
-              </a>
-
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-</div>
+  </div>
+  
+{% endif %}

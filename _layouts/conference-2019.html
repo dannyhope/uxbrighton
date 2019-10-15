@@ -86,6 +86,7 @@
       });
       ga('send', 'pageview');
     </script>
+    {% include_relative conf-page-partials/styles-to-be-rationalised.html %}
 </head>
 
 <body id="top" class="relative {% if page.slug %}page-{{ page.slug }}{% endif %} {% if page.body-classes %} {{ page.body-classes }} {% endif %}">

@@ -67,6 +67,9 @@
     blockquote, p, ul, ol, dd,
     figure {
       margin-bottom: $paragraph-spacing;
+      @include under-m {
+        hyphens: auto;
+      }
     }
     blockquote {
       margin-left: 0;

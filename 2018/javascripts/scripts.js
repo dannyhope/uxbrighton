@@ -86,10 +86,11 @@ $(function() {
     }
   });
 
-  $(document).on('click tap', '.js-show-talk-details', function(e) {
-    e.preventDefault();
-    $(this).toggleClass('is-active').closest('.talk').toggleClass("if-conference-day-talk-toggled");
-  });
+
+
+  $(document).on("click tap", ".js-show-talk-details__show, .js-show-talk-details__hide", function() {
+    $(this).closest('.talk').toggleClass("talk-toggled-to-display");
+  });  
 
 
 

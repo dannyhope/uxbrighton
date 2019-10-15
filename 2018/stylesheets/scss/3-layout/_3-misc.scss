@@ -61,62 +61,7 @@
   // }
 
 
-  .talk__image-link {
-    margin: 0;
-    display: block;
-    position: relative;
-    img {
-      box-shadow: 0 2px 3px rgba(0,0,0,0.1);
-      border-radius: $border-radius;      
-    }
-    .talk__image-link__caption{
-      font-size: $size-leader;    
-      line-height: 1;
-      letter-spacing: -0.03em;
-      position: absolute;
-      bottom: 2px * $ssi;
-      line-height: 1;
-      max-width: calc(100% - 10px);
 
-      @include under-l { 
-        font-size: $size-leader * 0.666;    
-      }
-      @include under-m { 
-        display: none;
-      }
-    }
-    .talk__image-link__caption--1 {
-      font-weight: 900;
-      margin-bottom: 8px;
-      color: #fff;
-      background: rgba(0,0,0,0.6);
-      padding: 1px * $ssi;
-    }
-    &:hover {
-      .talk__image-link__caption--1 {
-        background: $color-red;
-      }
-    }
-    .talk__image-link__caption--2 {
-      
-    }
-  }
-
-  .talk__photo-wrapper {
-    @include under-s {
-      max-width: 70%;
-      margin-left: 15%;
-      margin-right: 15%;
-      margin-bottom: 3px * $ssi;
-    }
-  }
-
-  .talk__heading {
-    @include under-s {
-      text-align: center;
-      margin: #{-2px * $ssi} 0 #{2px * $ssi};
-    }
-  }
 
 
 
@@ -271,3 +216,20 @@ $triangle: 7px;
 
 
 
+
+@media (min-width:500px) {
+  .flex-reverse-under-l {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width:950px) and (max-width:1300px) {
+  .is-post-conference .fs-xxxl {
+    font-size: 4rem;
+  }
+  .is-post-conference .fs-l {
+    font-size: 24px;
+  }
+}
+#newletter-signup:target {
+  padding-bottom: calc(100vh - 340px);
+}
