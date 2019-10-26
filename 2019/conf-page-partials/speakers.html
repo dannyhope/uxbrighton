@@ -12,21 +12,36 @@
     <div class="clearfix gutter-top-under-m">
 
 
-      <!-- <style>
-        #speaker-grid {
-          position: sticky;
-          z-index: 99999;
-          top: 0;
-          left: 0;
-          right: 0;
-          width: 100%;
-          background: #fff;
-          padding-top: 8px;
+      <style>
+        @media (max-width:730px){
+          #speaker-grid {
+            position: sticky;
+            z-index: 99999;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: calc(100% + 32px);
+            background: #fff;
+            padding: 0.5% 4px;
+            margin: 0 -16px;
+          }
+          #speaker-grid .u1of4 {
+            width: 12.5%;
+            margin: 0;
+            padding: 0;
+          }
+          #speaker-grid .talk__image-link {
+            padding: 10px 4px;
+            display: block;
+          }
+          #speaker-grid .u1of4 img {
+            border-radius: 50%;
+          }
+          .speaker-grid-is-stuck  #speaker-grid { 
+            box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+          }         
         }
-        #speaker-grid .u1of4 {
-          width: 12.5%;
-        }
-      </style> -->
+      </style>
 
       <div id="speaker-grid" class="clearfix gutters__container--xs pb1">
 

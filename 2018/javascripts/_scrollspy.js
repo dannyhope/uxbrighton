@@ -114,6 +114,15 @@
     } else {
       $('body').removeClass('nav--in-page-is-stuck');
     }
+
+    var speaker_grid = $('#speaker-grid')[0];
+    var speaker_grid_pos_top = speaker_grid.getBoundingClientRect().top;
+    if (speaker_grid_pos_top == 0){
+      $('body').addClass('speaker-grid-is-stuck');
+      $("body").attr('data-overlay-active','false');
+    } else {
+      $('body').removeClass('speaker-grid-is-stuck');
+    } 
     
 
   }

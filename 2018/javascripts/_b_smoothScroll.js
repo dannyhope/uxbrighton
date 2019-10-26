@@ -36,6 +36,7 @@ var requestAnimFrame = (function() {
 function scrollTo(to, callback, duration) {
   // because it's so fucking difficult to detect the scrolling element, just move them all
   function move(amount) {
+    amount = amount - 50;
     document.documentElement.scrollTop = amount;
     document.body.parentNode.scrollTop = amount;
     document.body.scrollTop = amount;

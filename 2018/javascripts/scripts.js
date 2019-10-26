@@ -155,22 +155,22 @@ $(function() {
 
 
 
-  if (hashFragment) {
+  // if (hashFragment) {
 
-    _target   = $(hashFragment).find('.job-info');
-    _width    = _target.width();
-    _height   = _target.height();
-    _top      = _target[0].getBoundingClientRect().top;
-    _left     = _target[0].getBoundingClientRect().left;
+  //   _target   = $(hashFragment).find('.job-info');
+  //   _width    = _target.width();
+  //   _height   = _target.height();
+  //   _top      = _target[0].getBoundingClientRect().top;
+  //   _left     = _target[0].getBoundingClientRect().left;
 
-    _target.css({
-      "height": _height, 
-      "width":  _width,
-      "top":    _top,
-      "left":   _left,
-      "position": "fixed"
-    }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
-  }
+  //   _target.css({
+  //     "height": _height, 
+  //     "width":  _width,
+  //     "top":    _top,
+  //     "left":   _left,
+  //     "position": "fixed"
+  //   }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
+  // }
 
 
   $('.job-open').on('click', function(e){
@@ -224,7 +224,6 @@ $(function() {
     setTimeout(function() {
       window.scrollTo(the_pos, 0);
     }, 1); 
-
   });
 
 
