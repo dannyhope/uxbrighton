@@ -1,0 +1,105 @@
+---
+
+layout: default
+title: "Subscribe"
+id: "Subscribe"
+
+description: "Conference and workshop news, Evening event news and Interesting links picked by the UX Brighton team"
+
+fullurl: "https://uxbri.org/email/"
+slug: "email"
+redirect_from: 
+  - /subscribe
+
+# Page style
+masthead-color: light
+hero-image: ""
+
+# Social media cards
+image: "https://uxbri.org/images/cards/default.jpg"
+
+event-promo-footer: hide
+
+---
+
+    <section id="hero" class="overlay__outer pa0 bg-grey-90">
+      <div class="overlay__inner overflow-hidden bg-trans">
+        <div class="container color-white">
+          <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
+          <h2 class="mt0 fs-l regular track-normal mb1">
+            Email newsletters from UX Brighton
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="bg-white">
+      <div class="container" style="min-height: calc(100vh - 400px);">
+        <div class="row">
+          <div class="clearfix gutters__container">
+            <div class="u3of4-over-m left-over-m gutters">
+              <h2>I’d like to receive …</h2>
+              <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup" id="signup">
+                <label class="screen-reader-text" for="fieldEmail{{ id }}">Email</label>
+                <div class="input-group mt1 mb1" style="max-width: 366px;">
+                  <input
+                    id="fieldEmail{{ id }}"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="Your email"
+                    class="fill input-group__field rounded-left{% if include.email_border != true %} border--none{% endif %}"
+                    onfocus="document.getElementById('newsletter-options{{ id }}').className = 'show'">
+                  <input
+                    onclick="newsletterAnalytics.call(this,event);"
+                    data-news-options="{% if include.job_notifications == true %}no-no-no-job{% else %}conference-newsletter-evening-no{% endif %}"
+                    type="submit"
+                    value="Sign up"
+                    name="subscribe"
+                    id="subscribe{{ id }}"
+                    class="button input-group__button rounded-right js-mailinglist-submit{% if include.green_signup != false %} button--green{% endif %}">
+                </div><!-- input-group -->
+                <div id="newsletter-options{{ id }}">
+                  <h3 class="bold pb0 block regular screen-reader-text">
+                    I’d like to receive…
+                  </h3>
+                  <div class="js-email-no-choice hidden color-black mv1"><strong>👇 Please select at least one option</strong></div>
+                  <div class="mail-list-option">
+                    <input id="conference-mailinglist{{ id }}" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
+                    <label class="table" for="conference-mailinglist{{ id }}">Conference and workshop news</label>
+                  </div>
+                  <div class="mail-list-option">
+                    <input id="evening-events-mailinglist{{ id }}" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
+                    <label class="table" for="evening-events-mailinglist{{ id }}">Evening event news</label>
+                  </div>
+                  <div class="jobs-element mail-list-option">
+                    <input id="job-updates-mailinglist{{ id }}" name="list[]" value="ibnrqcWYOJDQJDrV892b892RSg" type="checkbox" checked class="left">
+                    <label class="table" for="job-updates-mailinglist{{ id }}">Job alerts</label>
+                  </div>
+                  <div class="mail-list-option">
+                    <input id="newsletter-mailinglist{{ id }}" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
+                    <label class="table" for="newsletter-mailinglist{{ id }}">Interesting links picked by the UX Brighton team</label>
+                  </div>
+                </div>
+                <div style="display:none;">
+                  <label for="hp{{ id }}">HP</label><br/>
+                  <input type="text" name="hp" id="hp{{ id }}"/>
+                </div>
+              </form>
+
+
+
+
+
+
+            </div>
+            <div class="u3of4-over-m left-over-m gutters">
+
+            </div>
+          </div><!-- gutters__container -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- overview -->
+
+    <!-- <h2>upcoming</h2> -->
+
