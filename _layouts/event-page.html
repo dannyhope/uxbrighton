@@ -25,28 +25,20 @@
       <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
       <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}" >
 
-  <!-- PWA -->
-  <!-- <link rel="manifest" href="/manifest.json"> -->
-  <meta name="theme-color" content="#000000">
+  <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
-    <!-- Icons -->
-      <link rel="apple-touch-icon" href="https://uxbrighton.org.uk/2013/images/icon.png">
-      <link rel="icon" href="https://uxbrighton.org.uk/2013/images/favicon.png">
-      <!--[if IE]><link rel="shortcut icon" href="https://uxbrighton.org.uk/images/favicon.ico"><![endif]-->
-      <!-- or, set /favicon.ico for IE10 win -->
-      <!-- <meta name="msapplication-TileColor" content="#000">-->
-      <meta name="msapplication-TileImage" content="http://uxbrighton.org.uk/2013/images/icon.png">
-
-
-    <!-- needed?
-      <script src="https://uxbrighton.org.uk/2013/modernizr.js"></script> -->
-
-  <!-- Added by Paul D -->
-    <link rel="stylesheet" href="/2018/fonts/museo/museo/font.css">
+  <!-- Stylesheets -->
     <link rel="stylesheet" href="/2018/fonts/museo/sans/font.css">
-    <link rel="stylesheet" href="/2018/fonts/museo/sans-rounded/font.css">
-    <!-- <link rel="stylesheet" href="/2018/fonts/museo/slab/font.css"> -->
-    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css">
+    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css?v=2019">
 
 
     <!-- schema.org snippets. needed? useful? -->
@@ -152,7 +144,9 @@
         margin: 2em 0;
       }
 
-
+      {% if page.cssbackdoor %}
+        {{ page.cssbackdoor }}
+      {% endif %}
     </style>
 </head>
 
@@ -194,7 +188,7 @@
 
 
     <section id="overview" class="bg-white">
-      <div class="container">
+      <div class="container" style="min-height: 50vh">
         <div class="row pt pb" style="margin-top: 24px;">
         	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l" style="padding-top: 16px;">
 

@@ -2,7 +2,6 @@
 
 layout: default
 title: "Subscribe"
-id: "Subscribe"
 
 description: "Conference and workshop news, Evening event news and Interesting links picked by the UX Brighton team"
 
@@ -10,6 +9,7 @@ fullurl: "https://uxbri.org/email/"
 slug: "email"
 redirect_from: 
   - /subscribe
+  - /subscribe/
 
 # Page style
 masthead-color: light
@@ -21,7 +21,7 @@ image: "https://uxbri.org/images/cards/default.jpg"
 event-promo-footer: hide
 
 ---
-
+{% assign id = 1 %}
     <section id="hero" class="overlay__outer pa0 bg-grey-90">
       <div class="overlay__inner overflow-hidden bg-trans">
         <div class="container color-white">
@@ -87,10 +87,64 @@ event-promo-footer: hide
                 </div>
               </form>
 
+              <div id="js-newsletter-thanks{{ id }}" class="{% if include.change-on-overlay %}text-black-on-overlay {% endif %}js-signup-confirmation" style="display: none;">
+                <strong>Thanks!</strong> Please look out for the confirmation email that we&apos;ve just sent you.
+              </div>
+              <script>
+                // Figure out a solution to the text being grey on white bg when clicking the email newsletter navbar drop down
 
+                // function to write the current options into a data attribute which is in turn passed to analytics
+                function newsOption(returnValue,returnOption) {
 
+                  var newsletterType = returnValue.split("-")[0];
+                  var currentOptions = $('[data-news-options]').first().attr('data-news-options');
+                  var replacementSubString;
+                  var revisedOptions;
 
+                  if (returnOption == "include") {
+                    replacementSubString = newsletterType;
+                    $('[type="checkbox"][id^='+newsletterType+']').prop('checked', true);
+                  } else {
+                    replacementSubString = "no";
+                    $('[type="checkbox"][id^='+newsletterType+']').prop('checked', false);
+                  }
 
+                  if (newsletterType == "conference") {
+                    revisedOptions = replacementSubString + "-" + currentOptions.split("-")[1] + "-" + currentOptions.split("-")[2];
+                  } else if (newsletterType == "newsletter")  {
+                    revisedOptions = currentOptions.split("-")[0] + "-" + replacementSubString + "-" + currentOptions.split("-")[2];
+                  } else {
+                    revisedOptions = currentOptions.split("-")[0] + "-" + currentOptions.split("-")[1] + "-" + replacementSubString;
+                  }
+
+                  $('[data-news-options]').attr('data-news-options', revisedOptions);
+                }
+
+                // send the current options to google analytics
+                function newsletterAnalytics (event) {
+                  var newsletterOptions = $(this).attr('data-news-options');
+                  if (newsletterOptions == "no-no-no-no") {
+                    event.preventDefault();
+                    $('#js-email-signup{{ id }}').find('.js-email-no-choice').slideDown()
+                  }
+                  ga("send", "event", "newsletter", "signup", newsletterOptions);
+                }
+
+                $(function() {
+
+                  // click handler for newsOption function
+                  $('#js-email-signup{{ id }} input[type="checkbox"]').change(function() {
+                    var returnVal = $(this).attr('id');
+                    if(this.checked) {
+                      newsOption(returnVal,"include");
+                    } else {
+                      newsOption(returnVal,"exclude");
+                    }
+                  });
+
+                }); // dom ready
+
+              </script>
 
             </div>
             <div class="u3of4-over-m left-over-m gutters">
@@ -100,6 +154,6 @@ event-promo-footer: hide
         </div><!-- row -->
       </div><!-- container -->
     </section><!-- overview -->
-
+{% assign id = 2 %}
     <!-- <h2>upcoming</h2> -->
 
