@@ -36,10 +36,10 @@ upcoming-button-text: ""
 
 # TICKETS
 
-ticket-button: show
+ticket-button: show # Can be: show, hide. 
 ticket-button-text: "Buy now — £170 + vat"
 ticket-button-url: "https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets"
-ticket-button-extra-text: "Online ticket sales end this at 1pm this Thursday, 31st October. <br>Cash only tickets will be available on the door at £230 (incl vat)."
+ticket-button-extra-text: "Online ticket sales end at 1pm today, 31st October. Cash only tickets will be available on the door for £230 (incl vat)."
 
 # PAGE SECTIONS
 
@@ -85,7 +85,19 @@ talk-videos:                    hide # Can be: show, hide.
         </div>
         <div class="container color-white">
           <!-- 🦸 Chnge the URL beloe to change Hero Content -->
-          {% include_relative conf-page-partials/hero-pre-conference-main.html %}
+          {% comment %}
+
+            {% include_relative conf-page-partials/hero-pre-conference-main.html %}
+
+            {% include_relative conf-page-partials/hero-buy-on-the-door.html %}
+
+            {% include_relative conf-page-partials/hero-its-a-wrap.html %}
+
+          {% endcomment %}
+
+            {% include_relative conf-page-partials/hero-pre-conference-main.html %}
+
+
         </div>
       </div>
     </section>

@@ -97,9 +97,10 @@ talk-videos:                    hide # show / hide
 
     <section id="overview" class="relative">
       <div class="container" style="position: static;">
-        <div class="row gutters__container ">
-          <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
-            <h2 class="mb2">Why UX and Product Management</h2>
+
+            <h2 class="mb2 mt5">Sign up to be notified when details are announced 👇</h2>
+        <div class="row gutters__container mt0">
+          <div class="u1of2-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
             <p class="standfirst">Join us for our 🎂 10th annual one-day conference! </p>
             <div class="if-cta-is-stuck__adjacent-content__text">
 
@@ -108,7 +109,7 @@ talk-videos:                    hide # show / hide
             </div>
           </div><!-- u2of3-over-l -->
           <!-- sticky cta area -->
-          <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
+          <div class="u1of2-over-l right-over-l gutters gutter-top-under-m">
             {% if page.ticket-button == "show" %}
             <div class="if-cta-is-stuck__tickets">
               <h2 class="mb2">Get tickets</h2>
@@ -117,10 +118,59 @@ talk-videos:                    hide # show / hide
                 <p>{{ page.ticket-button-extra-text }}</p>
               {% endif %}
             </div>
-            {% endif %}
+            {% endif %}<!-- 
             <h2 class="mb2 mt4">Stay updated</h2>
-            <p>Join our newsletter for announcements and information about our evening talks.</p>
-            {% include mail-list-signup-form.html id=4 green_signup=false email_border=true %}
+            <p>Join our newsletter for announcements and information about our evening talks.</p> -->
+            {% assign id = 2020 %}
+              <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup" id="signup">
+                <label class="screen-reader-text" for="fieldEmail{{ id }}">Email</label>
+                <div class="input-group mt1 mb1" style="max-width: 366px;">
+                  <input
+                    id="fieldEmail{{ id }}"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="Your email"
+                    class="fill input-group__field rounded-left{% if include.email_border != true %} border--none{% endif %}"
+                    onfocus="document.getElementById('newsletter-options{{ id }}').className = 'show'">
+                  <input
+                    onclick="newsletterAnalytics.call(this,event);"
+                    data-news-options="{% if include.job_notifications == true %}no-no-no-job{% else %}conference-newsletter-evening-no{% endif %}"
+                    type="submit"
+                    value="Sign up"
+                    name="subscribe"
+                    id="subscribe{{ id }}"
+                    class="button input-group__button rounded-right js-mailinglist-submit button--green{% if include.green_signup != false %}{% endif %}">
+                </div><!-- input-group -->
+                <div id="newsletter-options{{ id }}">
+                  <div class="js-email-no-choice hidden color-black mv1"><strong>👇 Please select at least one option</strong></div>
+                  <div class="mail-list-option">
+                    <input id="conference-mailinglist{{ id }}" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
+                    <label class="table" for="conference-mailinglist{{ id }}">Conference and workshop news</label>
+                  </div>
+                  <div class="mail-list-option">
+                    <input id="evening-events-mailinglist{{ id }}" name="list[]" value="G6t21K8OuZVMD429r6RZ0g" type="checkbox" class="left">
+                    <label class="table" for="evening-events-mailinglist{{ id }}">Evening event news</label>
+                  </div>
+                  <div class="jobs-element mail-list-option">
+                    <input id="job-updates-mailinglist{{ id }}" name="list[]" value="ibnrqcWYOJDQJDrV892b892RSg" type="checkbox" class="left">
+                    <label class="table" for="job-updates-mailinglist{{ id }}">Job alerts</label>
+                  </div>
+                  <div class="mail-list-option">
+                    <input id="newsletter-mailinglist{{ id }}" name="list[]" value="cbdLJAjiH5csEhKZFWEtJQ" type="checkbox" class="left">
+                    <label class="table" for="newsletter-mailinglist{{ id }}">Interesting links picked by the UX Brighton team</label>
+                  </div>
+                </div>
+                <div style="display:none;">
+                  <label for="hp{{ id }}">HP</label><br/>
+                  <input type="text" name="hp" id="hp{{ id }}"/>
+                </div>
+              </form>
+
+              <div id="js-newsletter-thanks{{ id }}" class="{% if include.change-on-overlay %}text-black-on-overlay {% endif %}js-signup-confirmation" style="display: none;">
+                <strong>Thanks!</strong> Please look out for the confirmation email that we&apos;ve just sent you.
+              </div>
+            {% assign id = 1 %}
           </div><!-- u1of3-over-l -->
         </div><!-- row -->
         <div class="testimonial ">

@@ -9,6 +9,9 @@
             <div class="clearfix">
               <div class="bg-red ph4 pv2 weight-900 fs-l inline-block">
                 Tickets available on the door
-              </div>              
+              </div> 
+              {% if page.ticket-button-extra-text %}
+              <p class="mb0 mt1 weight-400 fs-l" style="max-width: 31em;">{{ page.ticket-button-extra-text }}</p>
+              {% endif %}             
             </div>
           </div>
