@@ -3,7 +3,7 @@ layout: event-page
 title: "Workshop: Make Your First Voice Interface"
 venue: 68 Middle Street
 start: "9:30am"
-upcoming: true
+upcoming: false
 published: true
 price: "from £300 + VAT"
 ticket-link: https://www.eventbrite.co.uk/e/talking-design-make-your-first-voice-interface-a-workshop-with-ben-sauer-tickets-70743031311
