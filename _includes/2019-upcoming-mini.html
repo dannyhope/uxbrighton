@@ -38,15 +38,15 @@
 
   <div class="upcoming__container color-black bg-white rounded hidden-under-l">
     <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
-    {% if page.slug != "conference-2019" %}
-      <a href="/2019" class="block-link upcoming__teaser border-top upcoming__teaser__link">
+    {% if page.slug != "conference-2020" %}
+      <!-- <a href="/2020" class="block-link upcoming__teaser border-top upcoming__teaser__link">
         <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
-          Conference 2019
+          Conference 2020
         </h4>
         <div class="upcoming__teaser__text">
-          A Focus on Design
+          UX and Product Management
         </div>
-      </a>
+      </a> -->
     {% endif %}
 
     {% for post in site.posts reversed limit:2 %}
