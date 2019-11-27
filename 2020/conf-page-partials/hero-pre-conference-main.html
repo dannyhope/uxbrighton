@@ -8,8 +8,8 @@
           <div>
             {% if page.ticket-button == "show" %}
               <a onclick='ga("send", "event", "conference", "click", "buynow");' href="{{ page.ticket-button-url }}" class="button button--large button--green weight-900 fs-l">{{ page.ticket-button-text }}</a>
-            {% endif %}
-            {% if page.ticket-button-extra-text %}
-              <p class="mb0 mt1 weight-400 fs-l">{{ page.ticket-button-extra-text }}</p>
+              {% if page.ticket-button-extra-text %}
+                <p class="mb0 mt1 weight-400 fs-l">{{ page.ticket-button-extra-text }}</p>
+              {% endif %}
             {% endif %}
           </div>

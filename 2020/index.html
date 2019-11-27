@@ -36,10 +36,11 @@ upcoming-button-text: "Tickets and info"
 
 # TICKETS
 
-ticket-button: hide
+ticket-button: hide         # show / hide
+
 ticket-button-text: "Super Early Bird Ticket — 35% Off" # "Buy now — £170 + vat"
 ticket-button-url: "https://www.eventbrite.co.uk/e/ux-brighton-2020-ux-and-product-management-tickets-73136002753" # "https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets"
-ticket-button-extra-text: "" # "Group Discount - buy 4 get 1 free"
+ticket-button-extra-text: "Group Discount - buy 4 get 1 free" # "Group Discount - buy 4 get 1 free"
 
 # PAGE SECTIONS
 
@@ -98,14 +99,16 @@ talk-videos:                    hide # show / hide
     <section id="overview" class="relative">
       <div class="container" style="position: static;">
 
-        <div class="row gutters__container ">
+        <div class="row gutters__container mt0">
           <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
+             <h2 class="mb2 mt4">Join us for our 🎂 10th annual one-day conference!</h2>
             <div class="if-cta-is-stuck__adjacent-content__text">
+              <p class="standfirst">Desirability, feasibility, and viability are the three components of a model for successful products — an integrated model that is often carried out by segregated teams.</p>
+              <div>
+              <p>Join us for our 10th conference where people from product mangement, ux, research and design will gather to discover what we have to learn from one another. </p> 
+              <p>Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients. </p>                
+              </div>
 
-              <h2 class="mb2 mt0">Join us for our 🎂 10th annual one-day conference!</h2>
-              <p class="standfirst">Desirable, feasible, viable</p>
-              <p>You'll find UXers of all levels – from those just starting out to senior managers – all looking to embrace the latest thinking. </p>
-              <p>Join us for the day. Gather skills and insights that will bring solid benefits for you, your colleagues and your clients. </p>
             </div>
           </div><!-- u2of3-over-l -->
           <!-- sticky cta area -->
@@ -122,7 +125,7 @@ talk-videos:                    hide # show / hide
             <h2 class="mb2 mt4">Stay updated</h2>
             <p>Join our newsletter for announcements and information about future events.</p> -->
             {% assign id = 2020 %}
-            <h2 class="mb2 mt0">Stay updated</h2>
+            <h2 class="mb2 mt4">Stay updated</h2>
             <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8" class="newletter-signup" id="signup">
               <label class="screen-reader-text" for="fieldEmail{{ id }}">Email</label>
               <div class="input-group mt1 mb1" style="max-width: 366px;">
