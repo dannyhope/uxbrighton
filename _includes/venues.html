@@ -10,6 +10,39 @@
 	  border-radius: 4px;
 	}
 </style>
+
+
+
+
+                        <div class="mt2">
+                          <!-- <span class="bold">When: </span> -->
+                          {{page.date | date: "%d %b %Y"}}{% if page.start %}<span class="event-time inline-block">,
+                            {{page.start}}</span>{% endif %}
+                          <!-- <span class="_start">{{page.date | date: "%Y-%m-%d"}} {{page.start}}</span>
+                          <span class="_end">{{page.date | date: "%Y-%m-%d"}} {{page.end}}</span>
+                          <span class="_zonecode">36</span>
+                          <span class="_summary">{{page.title}}</span>
+                          <span class="_description"></span> -->
+                          <span class="_location block mv1">
+                            <!-- <span class="bold">Where: </span> -->
+                            {% if    page.venue == "Platf9rm-Brighton" %}PLATF9RM, Floor 5 & 6, Tower Point, 44 North Rd, Brighton BN1 1YR
+                            {% elsif page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG
+                            {% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ
+                            {% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD
+                            {% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL
+                            {% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU
+                            {% elsif page.venue == "The Skiff" %}The Skiff, 30 Cheapside, Brighton BN1 4GD
+                            {% else %}Venue: <abbr title="to be announced">TBA</abbr>
+                            {% endif %}
+                          </span>
+                          <!-- <span class="_organizer"></span>
+                          <span class="_facebook_event"></span>
+                          <span class="_date_format">DD/MM/YYYY</span> -->
+                        </div>
+                        
+
+
+
 {% if page.venue == "Platf9rm-Brighton" %}
 	<a class="venue" href="https://goo.gl/maps/Es5e4Sw6aBp" title="Platf9rm in Google Maps" style="background: url(/images/maps/Platf9rm.png) center center;background-size: cover;"><span class="screen-reader-text">Map</span><!-- <img src="/images/maps/Platf9rm.png" alt="Platf9rm in Google Maps"> --></a>
 
