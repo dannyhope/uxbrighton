@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>UX Brighton - {{ page.title }}</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% if page.title %}{{ page.title }} - {% endif %}UX Brighton</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}" >
+
+  {% include tracking-head.html %}
+
 	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
@@ -19,27 +22,8 @@
 	 <!--[if lt IE 9]>
 	      <script src="js/html5shiv.js"></script>
 	  <![endif]-->
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7759112-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-7759112-2');
-	</script>
 
-<!-- Hotjar Tracking Code for uxbrighton.org.uk -->
-<script>
-    (function(f,b){
-        var c;
-        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
-        f._hjSettings={hjid:29589, hjsv:3};
-        c=b.createElement("script");c.async=1;
-        c.src="//static.hotjar.com/c/hotjar-29589.js?sv=3";
-        b.getElementsByTagName("head")[0].appendChild(c);
-    })(window,document);
-</script>
 
 {% if page.art-direction %}
 	<style media="screen">
@@ -49,6 +33,7 @@
 
 </head>
 <body style="padding: 0 2.5rem 0 2.5rem;">
+  {% include tracking-body.html %}
 	{{ content }}
 </body>
 </html>

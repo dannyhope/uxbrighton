@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
+	{% include tracking-head.html %}
 
 	<script src="legacy-assets/js/modernizr.js"></script> 
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
@@ -29,19 +30,15 @@
 	<!-- <meta name="msapplication-TileColor"	content="#000">-->
 	<meta name="msapplication-TileImage"		content="images/icon.png">
 
-<!-- Hotjar Tracking Code for uxbrighton.org.uk -->
-<script>
-    (function(f,b){
-        var c;
-        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
-        f._hjSettings={hjid:29589, hjsv:3};
-        c=b.createElement("script");c.async=1;
-        c.src="//static.hotjar.com/c/hotjar-29589.js?sv=3";
-        b.getElementsByTagName("head")[0].appendChild(c); 
-    })(window,document);
-</script> 
+  <!-- Pre dom-ready scripts -->
+    <script>
+      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+    </script>
+
 </head>
 <body>
+{% include tracking-body.html %}
 {% include header-mini.html %}	
 <div class="photos">
 	<div id="speakertiles">

@@ -4,24 +4,21 @@ permalink: /2017/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7759112-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-7759112-2');
-	</script>
-
+  <!-- Pre dom-ready scripts -->
+  <script>
+    var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+    window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+  </script>
 	<meta charset="utf-8">
 	<meta content="width=device-width" name="viewport">
 	<title>UX Brighton 2017</title>
+	{% include tracking-head.html %}
 	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 	<link href="{{ relative }}2017/style.css" rel="stylesheet">
 </head>
 <body> 
+  {% include tracking-body.html %}
 	<section class="intro">
 		<h1><img class="ux-brighton-2017-logo" src="{{ relative }}2017/graphics/logo.svg" alt="UX Brighton 2017"><br>
 		<span><img class="subtitle" src="{{ relative }}2017/graphics/subtitle.svg" alt="Designing for Complexity"></span></h1><a class="ticket-button" href="https://www.eventbrite.co.uk/e/ux-brighton-2017-tickets-29815170979#tickets"><img alt="Tickets button" src="{{ relative }}2017/graphics/ticket-button.svg"></a>

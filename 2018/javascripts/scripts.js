@@ -4,7 +4,6 @@
 // @codekit-prepend "_stickybits.js";
 
 
-
 $(function() {
 
   // console.log('dom2');
@@ -21,7 +20,7 @@ $(function() {
     root.className += ' showJobs';
   }
 
-  $(document).on('click tap', '[data-overlay-trigger]', function(e) {
+  $(document).on('click', '[data-overlay-trigger]', function(e) {
 
     e.preventDefault();
 
@@ -66,8 +65,8 @@ $(function() {
   var navScrollOffset   = navOffset + 1;
   var navScrollSpeed    = 300;
 
+  // bootstrap scrollspy, automatically highlights the menu
   if ($('.nav--in-page').length > 0) {
-    // bootstrap scrollspy, automatically highlights the menu
     $('#top').scrollspy({ target: '.nav--in-page',offset: navScrollOffset });    
   }
 

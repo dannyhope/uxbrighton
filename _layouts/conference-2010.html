@@ -4,6 +4,7 @@
 <head>
 <title>UX Brighton 2010</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% include tracking-head.html %}
 <meta http-equiv="imagetoolbar" content="no" />
 <link rel="canonical" href="/2010/" />
 <link rel="stylesheet" href="http://f.fontdeck.com/s/css/le6LYy5voEXsjcQv1DVPef7oSfw/2010.uxbrighton.org.uk/967.css" type="text/css" />
@@ -11,19 +12,15 @@
 <link rel="apple-touch-icon" href="/images/icon.png">
 <link rel="icon" href="/images/favicon.png">
 
-<!-- Hotjar Tracking Code for uxbrighton.org.uk -->
-<script>
-    (function(f,b){
-        var c;
-        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
-        f._hjSettings={hjid:29589, hjsv:3};
-        c=b.createElement("script");c.async=1;
-        c.src="//static.hotjar.com/c/hotjar-29589.js?sv=3";
-        b.getElementsByTagName("head")[0].appendChild(c); 
-    })(window,document);
-</script> 
+  <!-- Pre dom-ready scripts -->
+    <script>
+      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+    </script>
+
 </head>
 <body>
+{% include tracking-body.html %}
 {% include header-mini.html %}
 <div id="main">
 	<div id="main-presentational">

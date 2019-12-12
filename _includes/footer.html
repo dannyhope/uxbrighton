@@ -1,138 +1,121 @@
-<style>
-  .flex-over-m .block-link,
-  .flex-over-m .block-link:hover {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .upcoming-teaser__wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  <style>
+    .flex-over-m .block-link,
+    .flex-over-m .block-link:hover {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .upcoming-teaser__wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
 
-  }
-  .upcoming-teaser {
-    max-width: 635px;
-    text-align: left;
-  }
-  .upcoming-teaser__text {
-    flex: 1 0 auto;
-    min-height: 13em;
-  }
-  .upcoming-teaser__button-wrapper {
+    }
+    .upcoming-teaser {
+      max-width: 635px;
+      text-align: left;
+    }
+    .upcoming-teaser__text {
+      flex: 1 0 auto;
+      min-height: 13em;
+    }
+    .upcoming-teaser__button-wrapper {
 
-  }
-  [type="checkbox"] {
-    margin: 5px 5px 0 0;
-  }
-</style>
+    }
+    [type="checkbox"] {
+      margin: 5px 5px 0 0;
+    }
+  </style>
 
 
-{% assign has_upcoming = false %}
-{% assign postnum = 1 %}
-{% for post in site.posts %}
-  {% if post.upcoming == true && if post.published == true %}
-    {% assign has_upcoming = true %}
-  {% endif %}
-{% endfor %}
+  {% assign has_upcoming = false %}
+  {% assign postnum = 1 %}
+  {% for post in site.posts %}
+    {% if post.upcoming == true && if post.published == true %}
+      {% assign has_upcoming = true %}
+    {% endif %}
+  {% endfor %}
 
-{% if has_upcoming  %}
-  {% if page.event-promo-footer == null or page.event-promo-footer != "hide" %}
-    <aside>
-      <section id="promotions">
-        <hr>
-        <div class="row text-center">
-          <h3 class="fs-h2 mt0 gutter-bottom">
-            {% if page.url contains "/2019/" or page.layout == "event-page" %}Other {% endif %}UX Brighton events
-          </h3>
+  {% if has_upcoming  %}
+    {% if page.event-promo-footer == null or page.event-promo-footer != "hide" %}
+      <aside>
+        <section id="promotions">
+          <hr>
+          <div class="row text-center">
+            <h3 class="fs-h2 mt0 gutter-bottom">
+              {% if page.url contains "/2019/" or page.layout == "event-page" %}Other {% endif %}UX Brighton events
+            </h3>
 
-          <div class="flex-over-m upcoming-teaser__wrapper">
-            {% assign varnum = 1 %}
-            {% if page.url contains "/2019/" %}
-            {% else %}
-              <!-- <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                <a href="https://www.eventbrite.co.uk/e/ux-brighton-2019-tickets-51654305418#tickets" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2018/images/photos/sponsors-35.jpg') center center no-repeat #000; background-size: cover;">
-                  <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                  <div class="upcoming-teaser__text">
-                    <h1 class="leading-solid mb2 color-white fs-xl relative">
-                      <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Conference 2019 · Friday 1 November, Brighton Dome</span>
-                      A Focus on Design
-                    </h1>
-                    <div class="mt0 regular track-normal mb3 relative">
-                      <div class="color-white "></div>
-                      <div class="color-white ">At this year's conference, we want to focus on the craft of design: on expanding our understanding and the skills we need to build fluid and rewarding experiences.</div>
-                    </div>                    
-                  </div>
-                  <div class="upcoming-teaser__button-wrapper">
-                    <div class="button button--green bold standfirst mb0">Tickets and info</div>
-                  </div>
-                </a>
-              </div> -->
-              {% assign varnum = varnum | plus: 1 %}
-            {% endif %}
+            <div class="flex-over-m upcoming-teaser__wrapper">
+              {% assign varnum = 1 %}
+              {% if page.url contains "/2020/" %}
 
-            {% if has_upcoming %}
-              {% for post in site.posts reversed limit:2 %}
+              {% else %}
+                <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
+                  <a href="/2020" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2020/images/upcoming-bg.jpg') center center no-repeat #1a272c; background-size: cover;">
+                    <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                    <div class="upcoming-teaser__text">
+                      <h1 class="leading-solid mb2 color-white fs-xl relative">
+                        <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Friday 6 November 2020</span>
+                        UX and Product Management
+                      </h1>
+                      <div class="mt0 regular track-normal mb3 relative">
+                        <div class="color-white">
+                          Join us for our 🎂 10th annual one-day conference!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="upcoming-teaser__button-wrapper">
+                      <div class="button button--green bold standfirst mb0">More info</div>
+                    </div>
+                  </a>
+                </div>
+                {% assign varnum = varnum | plus: 1 %}
+              {% endif %}
 
-                {% if post.upcoming == true && if post.published == true %}
-                    {% if post.slug == page.slug %}
-                    {% else %}
-                      {% if page.url contains "/2019/" and post.slug == "voice-ui-workshop" %}
+              {% if has_upcoming %}
+                {% for post in site.posts reversed limit:2 %}
+
+                  {% if post.upcoming == true && if post.published == true %}
+                      {% if post.slug == page.slug %}
                       {% else %}
-                        <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                          <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
-                            <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                            <div class="upcoming-teaser__text">
-                              <h1 class="leading-solid mb2 color-white fs-xl relative">
-                                <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
-                                {{ post.title }}
-                              </h1>
-                              <div class="mt0 regular track-normal mb3 relative">
-                                <div class="color-white">
-                                  {{ post.description }}
+                        {% if page.url contains "/2019/" and post.slug == "voice-ui-workshop" %}
+                        {% else %}
+                          <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
+                            <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                              <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                              <div class="upcoming-teaser__text">
+                                <h1 class="leading-solid mb2 color-white fs-xl relative">
+                                  <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
+                                  {{ post.title }}
+                                </h1>
+                                <div class="mt0 regular track-normal mb3 relative">
+                                  <div class="color-white">
+                                    {{ post.description }}
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                            <div class="upcoming-teaser__button-wrapper">
-                              <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
-                            </div>
-                          </a>
-                        </div>
-                      {% endif %}
-                    {% assign varnum = varnum | plus: 1 %}
+                              <div class="upcoming-teaser__button-wrapper">
+                                <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
+                              </div>
+                            </a>
+                          </div>
+                        {% endif %}
+                      {% assign varnum = varnum | plus: 1 %}
+                    {% endif %}
                   {% endif %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-
-
-                        <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                          <a href="/2020" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2020/images/upcoming-bg.jpg') center center no-repeat #1a272c; background-size: cover;">
-                            <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                            <div class="upcoming-teaser__text">
-                              <h1 class="leading-solid mb2 color-white fs-xl relative">
-                                <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Friday 6 November 2020</span>
-                                UX and Product Management
-                              </h1>
-                              <div class="mt0 regular track-normal mb3 relative">
-                                <div class="color-white">
-                                  Join us for our 🎂 10th annual one-day conference!
-                                </div>
-                              </div>
-                            </div>
-                            <div class="upcoming-teaser__button-wrapper">
-                              <div class="button button--green bold standfirst mb0">More info</div>
-                            </div>
-                          </a>
-                        </div>
-
-
-          </div><!-- gutters__container -->
-        </div><!-- .row -->
-      </section>  
-    </aside>
+                {% endfor %}
+              {% endif %}
+            </div><!-- gutters__container -->
+          </div><!-- .row -->
+        </section>  
+      </aside>
+    {% endif %}
   {% endif %}
-{% endif %}
+
+
+
+
 
 
   <div class="overlay-active-underlay full-screen-overlay hidden" onclick="$('body').attr('data-overlay-active','false'); $( '#js-newsletter-thanks' ).css('color', '');"></div>
@@ -214,14 +197,6 @@
 
 
 
-
-
-
-
-
-
-
-
   <script>
     // if browser has serviceWorkers remove service worker caches and registrations
     if ('serviceWorker' in navigator) {
@@ -238,12 +213,18 @@
   </script>
 
 
- <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script> -->
+
+
+
+
+  <!--  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-  <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
   <script src="/2018/javascripts/scripts-min.js?v=feb"></script>
+  <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
 
   <script>
     $(function() {
