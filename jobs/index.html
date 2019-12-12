@@ -219,7 +219,7 @@ h2 + h3 {
                     {% else %}
                       <span class="inline-block tooltip">
                         <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
-                          {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).</title>{% endcomment %}
+                          {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all recent jobs).</title>{% endcomment %}
                           <desc>Histogram, providing an abstract indication of salary range.</desc>
                           <g fill="none" fill-rule="evenodd">
                             <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
@@ -335,6 +335,8 @@ h2 + h3 {
 		<td>50+</td><td style="text-align: right;">400</td>
 	</tr>
 </table>
+	  <h2>Pay Rank</h2>
+	  <p>When employers hide salaries, pay rank is one way to give some idea of whether the position might be a good fit for you – it shows where the job sits among other recent jobs. We could insist employers show salaries but we don’t because it would unfairly bias salary negotiations so much against the employer. (Employers do share a salary range with us so that we can determining the rank.)</p>
     <div class="unless-is-fancy">
       <h3 class="mt6 mb2 upcoming__container__heading fs-s track-loose uppercase regular border-bottom pb1">Supporting Employers</h3>
       <a href="/jobs/company/" class="grayscale-until-hover">
