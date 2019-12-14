@@ -7,7 +7,7 @@
     overflow: visible;
   }
 </style>
-<form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8"  data-news-options="true" class="{% if include.job_notifications == true %}job{% else %}conference newsletter evening job{% endif %}" id="js-email-signup{{ id }}">
+<form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8"  data-news-options="true" class="newletter-signup {% if include.job_notifications == true %}job{% else %}conference newsletter evening job{% endif %}" id="js-email-signup{{ id }}">
   <label class="screen-reader-text" for="fieldEmail{{ id }}">Email</label>
   <div class="input-group mt1 mb1" style="max-width: 366px;">
     <input
@@ -61,9 +61,9 @@
 <script>
 $(function() {
   function newsletterAnalytics (event) {
+    event.preventDefault();
     var newsletterOptions = $(this).closest('[data-news-options]').attr('class');
     if (newsletterOptions == "") {
-      event.preventDefault();
       $('#js-email-signup').find('.js-email-no-choice').slideDown()
     } else {
       window.dataLayer = window.dataLayer || [];
@@ -71,7 +71,8 @@ $(function() {
         'event' : 'formSubmission',
         'formName' : 'contact us',
         'formFieldsSelected' : newsletterOptions
-      });      
+      });
+      $(this).closest('form').submit(); 
     }
   }
 });
