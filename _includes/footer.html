@@ -248,9 +248,7 @@
       if (/[?&]open=newsletter/.test(location.search)) {
         displayNewsletter();
       }
-
-
-
+      
     });
 
       function newsletterAnalytics (event) {
@@ -266,7 +264,7 @@
             'formName' : 'contact us',
             'formFieldsSelected' : newsletterOptions
           });
-          // console.log('newsletterOptions',newsletterOptions);
+          console.log('newsletterOptions',newsletterOptions);
           $(this).closest('form').submit(); 
         }
       }
