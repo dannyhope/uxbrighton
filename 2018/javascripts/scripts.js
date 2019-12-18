@@ -40,10 +40,9 @@ $(function() {
         $( '#fieldEmail' ).focus();
       }
     }
-
   });
 
-  $("form.newletter-signup").submit(function(e){
+  $("[data-newletter-signup]").submit(function(e){
     var form = e.target;
     e.preventDefault();
     $.post(form.action, $(form).serialize());

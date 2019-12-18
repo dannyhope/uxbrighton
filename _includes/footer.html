@@ -228,6 +228,8 @@
 
   <script>
     $(function() {
+
+
       var options = { valueNames: [ 'post-excerpt'] };
       var userList = new List('js-archive-nav', options);
       function displayNewsletter(){
@@ -242,10 +244,33 @@
           if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); }
         }
       };
+
       if (/[?&]open=newsletter/.test(location.search)) {
         displayNewsletter();
       }
+
+
+
     });
+
+      function newsletterAnalytics (event) {
+        event.preventDefault();
+        var newsletterOptions = $(this).closest('[data-news-options]').attr('class');
+        newsletterOptions = newsletterOptions.trim().replace(/ /g, ' - ');
+        if (newsletterOptions == "") {
+          $('#js-email-signup').find('.js-email-no-choice').slideDown()
+        } else {
+          window.dataLayer = window.dataLayer || [];
+          dataLayer.push({
+            'event' : 'formSubmission',
+            'formName' : 'contact us',
+            'formFieldsSelected' : newsletterOptions
+          });
+          // console.log('newsletterOptions',newsletterOptions);
+          $(this).closest('form').submit(); 
+        }
+      }
+
   </script>
 
 
