@@ -1,5 +1,5 @@
 ,Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be live,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,employer,logo-link,location,work-pattern,money,money is guess,money min,money max,money median,rank,money-indication,show-salary,apply-link,extended-description,publish,,How to publish jobs,
-,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,,Logos are part of the adverts,as specifific as possible,this appears in the job description,Calculated automatically,if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
+,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,based on the contract,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,,"Logos are part of the adverts, we don’rt store them on our own websirte we need a link to the logo wherever it currently is","tell the client that this is required, be as specifific as possible",this appears in the job description,Calculated automatically,if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
 0.2-<0.4    = med-low
 0.4-<0.6    = med
 0.6-<0.8    = med-high
@@ -10,9 +10,9 @@
 &source=Indeed.com
 
 Here, it tells 2K Hangar 13 that applicants found the job via Indeed instead of UX Brighton.
-",,,,1. File › Download as › Comma-seperated values,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2. Rename it to ""jobs.csv"" and drag it into the _data folder (Github)",_data folder
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3. Wait a minute then load the UX Brighton jobs page,UX Brighton jobs page
+",https://www.google.com/search?q=markdown+cheatsheet&oq=markdown+cheatsheet&aqs=chrome..69i57j0l6j69i60.4019j0j7&sourceid=chrome&ie=UTF-8,,,1. File › Download › Comma-seperated values,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://jsbin.com,,,"2. Rename it to ""jobs.csv"" and drag it into the _data folder (Github)",_data folder
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,☝️remember to select Markdown from the little list in the top-riught,,,3. Wait a minute then load the UX Brighton jobs page,UX Brighton jobs page
 1,glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,Madgex,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Brighton,Permanent,£55000-65000,FALSE,"£55,000","£65,000","60,000",0.9,high,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -144,7 +144,7 @@ If you’d like to apply, or have any questions about the role, please get in to
 We look forward to hearing from you!
 
 ",FALSE,FALSE,,
-4,ian.budden@elucidat.com,,,,,,,,https://www.elucidat.com/careers/,,,,cozujik,UX Designer,Elucidat,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Brighton,Permanent,£47000,TRUE,"£47,000",,"47,000",0.3,low,FALSE,https://elucidat.workable.com/jobs/978209/candidates/new,"**DESCRIPTION**
+4,ian.budden@elucidat.com,,,,,,,,https://www.elucidat.com/careers/,,,,cozujik,UX Designer,Elucidat,https://elearningindustry.com/wp-content/uploads/2015/07/elucidat-review-create-html5-elearning-courses.png,Brighton,Permanent,£47000,TRUE,"£47,000",,"47,000",0.4,low,FALSE,https://elucidat.workable.com/jobs/978209/candidates/new,"**DESCRIPTION**
 
 **Are you a super-talented and hard working UX designer? Are you looking for an exciting, fast growing company where you can see your ideas come to life? Are you driven by great outcomes for your users?**
 
@@ -194,9 +194,9 @@ If this sounds like your jam, then this could be your next exciting career step.
 
 * Have an exceptional track record of working as a UX designer, with a great portfolio. Extra points if you have experience :
 
-	* In a Learning Design environment or agency
-	
-	* Or for a fast paced, exciting startup of growth stage SAAS company
+        * In a Learning Design environment or agency
+        
+        * Or for a fast paced, exciting startup of growth stage SAAS company
 
 * Have a real vision for great UX - and the right processes to deliver it. You should be super-passionate about how to deliver great interfaces
 
@@ -534,7 +534,7 @@ If so, please drop me a short email to <andy.thornton@clearleft.com>, or connect
 - Applicants should be eligible to work in the UK
 - We are keeping this vacancy open until it is filled, which means there is no closing date for applications
 - We endeavour to get in touch with candidates within two weeks of you contacting us, which typically begins with a casual chat prior to a more formal interview process
-- We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",TRUE,TRUE,,
+- We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",FALSE,TRUE,,
 9,Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,RBS/Coutts,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,London,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.4,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"Join us in London as a UX Researcher
 
 - This is an opportunity for a UX Researcher to join us in our Private CX function
@@ -685,7 +685,7 @@ Hangar 13 is the internal 2K development studio behind the award-winning Mafia I
 Hangar 13 is based in four locations: Novato (California), Brighton (UK), and Brno & Prague (Czech Republic). We are currently hard at work on our next AAA titles.
  
 This role is based at our Brighton location, who partner with the other Hangar 13 sites to develop all of our games as one global team. Hangar 13’s Brighton location provides the opportunity to work on big-budget, AAA console and PC games in the coolest city in the UK!",FALSE,FALSE,,
-13,Becky Dominick becky.dominick@digital.hmrc.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj1zZWFyY2hieWNvbnRleHRpZCZ1c2Vyc2VhcmNoY29udGV4dD03Nzk1MjI3NiZwYWdlY2xhc3M9Sm9icyZrZXk9ZmFpciZyZXFzaWc9MTU1Nzk0MTMxMC01N2Y3MjM5NWMyZTRiYmVmY2RhZmZkZTNjOWNiMTQ1NmUxODUxZDY1,,,,1628418,Senior User Researcher,HMRC,https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183922.gif,Worthing,Permanent,£50010-56510,FALSE,"£50,010","£56,510","53,260",0.7,med-high,TRUE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfbm93PTEmYnJhbmRfaWQ9MCZhcHBseV91cmw9L2Nzci9sb2dpbi5jZ2kmamNvZGU9MTYyODQxOCZvd25lcj01MDcwMDAwJnBhZ2VjbGFzcz1BcHBseSZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,"### About the job
+13,Becky Dominick becky.dominick@digital.hmrc.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj1zZWFyY2hieWNvbnRleHRpZCZ1c2Vyc2VhcmNoY29udGV4dD03Nzk1MjI3NiZwYWdlY2xhc3M9Sm9icyZrZXk9ZmFpciZyZXFzaWc9MTU1Nzk0MTMxMC01N2Y3MjM5NWMyZTRiYmVmY2RhZmZkZTNjOWNiMTQ1NmUxODUxZDY1,,,,1628418,Senior User Researcher,HMRC,https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183922.gif,Worthing,Permanent,£50010-56510,FALSE,"£50,010","£56,510","53,260",0.8,med-high,TRUE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfbm93PTEmYnJhbmRfaWQ9MCZhcHBseV91cmw9L2Nzci9sb2dpbi5jZ2kmamNvZGU9MTYyODQxOCZvd25lcj01MDcwMDAwJnBhZ2VjbGFzcz1BcHBseSZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,"### About the job
 **Job description**
 
 HMRC is one of the largest organisations in the UK and we run the biggest digital operation in Government. Our digital business runs the IT behind tax and benefits services for 45 million individual and 4.9 million business customers. 
@@ -961,7 +961,7 @@ We're highly selective in the projects and clients we take on, meaning you'll be
 - This position is only open to applicants based in the UK with the right to work in the UK. We do not deal with recruitment agencies, so please only apply directly.
 
 ## Closing date
-Applications for this vacancy close on Monday 7 October 2019, 23:59.",TRUE,TRUE,,
+Applications for this vacancy close on Monday 7 October 2019, 23:59.",FALSE,TRUE,,
 17,Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/about/jobs/ux-designer,,,,bvmkesw,UX Designer,Clearleft,https://miro.medium.com/max/5040/1*_248fAGOlSUbaJ5wOOSBpQ.png,Brighton,Permanent,£35000-45000,FALSE,"£35,000","£45,000","40,000",0.1,low,TRUE,mailto://andy.thornton@clearleft.com,"We’re looking for a designer with demonstrable skills in architecting intuitive and inspiring digital experiences, to join our friendly and supportive team in the heart of Brighton.
 
 You’ll get to tackle big, interesting challenges for diverse clients — we’ve worked with Virgin Atlantic, Penguin, Spotify, UNICEF, and Channel 4 to name a few.
@@ -1018,7 +1018,7 @@ If so, please drop me a short email to <andy.thornton@clearleft.com>, or connect
 - Applicants should be eligible to work in the UK
 - We are keeping this vacancy open until it is filled, which means there is no closing date for applications
 - We endeavour to get in touch with candidates within four weeks of you contacting us, which typically begins with a casual chat prior to a more formal interview process
-- We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",TRUE,TRUE,,
+- We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",FALSE,TRUE,,
 18,Maribel Trillo Maribel.Trillo@edfenergy.com ,,,,,,,,https://www.indeed.co.uk/jobs?q=Ux&l=Worthing&vjk=982753248b2e86d7,,,,u98eh,UI Designer,EDF Energy,https://www.energyjobline.com/getasset/?uiAssetID=ce4af4f8-f262-4d36-9b32-e4db5419c92f,Brighton,Permanent,,TRUE,,,,,,FALSE,https://careers.edfenergy.com/job/Hove-Digital-UI-Design-Executive/547256201/,"EDF Energy has ambitious objectives for Digital. Already our principal customer contact and engagement channel, we aim to grow digital’s volume, breadth and quality in line with our ambition to place digital at the centre of all our activity.
 
 We have opportunities for UI Designers to join our Brighton based design team.  You’ll drive user-centred design and evolve our pattern library which is the source of truth for UX/UI/CX design guidelines across the EDF Energy business.  You’ll manage external agency relationships, project priorities and internal resources to lead interactive build and design. 
@@ -1064,7 +1064,7 @@ We’re proud to be an inclusive, disability confident employer and recognise th
 
 We’re about the people who work with us and we celebrate their diversities and embrace the value that their differences bring. We believe that a culture of inclusion forms the basis of a truly sustainable business and is vital to shaping a strong and fresh-thinking organisation, with a number of employer networks and benefits to suit your lifestyle.
 
-Recruiting from the widest possible pool of talent, we assess every potential employee against our four key behaviours – Integrity, Inclusion, Inspiration and Impact. We make sure that our workforce is a true reflection of our communities and customers. Their unique perspectives not only give us a better understanding of customers from all walks of life, but bring fresh ideas too.",TRUE,TRUE,,
+Recruiting from the widest possible pool of talent, we assess every potential employee against our four key behaviours – Integrity, Inclusion, Inspiration and Impact. We make sure that our workforce is a true reflection of our communities and customers. Their unique perspectives not only give us a better understanding of customers from all walks of life, but bring fresh ideas too.",FALSE,TRUE,,
 19,Laura Paplanskaite +44 (0) 20 3633 4573,,,,,,,,https://www.indeed.co.uk/jobs?q=Ux&l=Worthing&vjk=982753248b2e86d7,,,,mkloiugt,Lead User Experience/Service Designer,Bit Zesty,https://uploads.ifdesign.de/Wdg/Profile/11611/logos/medium/2c72980c7ced5b6234c4d05f3a97a88d4d0aa700.png,London,Permanent,£65000-85000,FALSE,"£65,000","£85,000","75,000",1.0,high,TRUE,https://bit-zesty.workable.com/j/932C8C7BC7,"**DESCRIPTION**
 
 **Who we are**
@@ -1176,7 +1176,7 @@ We aim to provide every one of our employees with a great work-life balance and 
 
 Apply now
 
-If this sounds like a role you’re interested in then please apply.",TRUE,TRUE,,
+If this sounds like a role you’re interested in then please apply.",FALSE,TRUE,,
 21,Mirna Hashwa - 020 7695 6000,,,,,,,,https://sainsburys.jobs/search-apply/ux-researcher-344412/,,,,2kjhf8,UX Researcher,Sainsburys,https://logos-download.com/wp-content/uploads/2016/05/Sainsburys_Live_Well_For_Less_logo.png,London,Permanent,,TRUE,,,,,,FALSE,https://sainsburys.jobs/search-apply/ux-researcher-344412/,"The big question: why on earth should a Digital professional like you work for a 150-year-old retail chain? Because we’re on a journey. Changing the way we operate. Learning to think nimble. Giving our teams the time and freedom they need to push boundaries within an ever-changing, ever-accelerating digital landscape, where we’re always testing, experimenting, and learning. Digital is at the heart of everything we do. Welcome to the home of Sainsbury’s Digital.
 
 ### More about the role:
@@ -1214,7 +1214,1526 @@ Use the research output to communicate how user interface designs will be percei
 
 Flexible working and job share conversations are encouraged. Across our multi-brands, we’re proud to be an equal opportunities employer that champions a diverse and inclusive culture. If you’re reading this, even if you’re not 100% sure you’re there with your experience, we’d still love to hear from you. If you’d like to find out more head to [Sainsburys Digital](https://sainsburys.jobs/roles/digital-tech-data/digital/)
 
-",TRUE,TRUE,,
+",FALSE,TRUE,,
+22,Tom Cox tom@15gifts.com,,,,,,,,https://15gifts.com/ux-designer/,,,,ko38r4h,UX Designer,15 Gifts Ltd,,Brighton,Permanent,£35000-40000,FALSE,"£35,000","£40,000","37,500",0.1,low,TRUE,https://15gifts.breathehr.com/application/5933/new,"#About the role
+Due to significant growth, we are now looking for a talented UX designer to join the product team and help drive our products forward.
+
+This is a fantastic opportunity, that would allow you to work closely with leading UK and global brands, as well as having a large influence on a young product.
+
+The ideal candidate would have 2+ years of UX design experience within a digital agency or product environment.
+
+#The person we are looking for…
+- 2+ years as a UX practitioner, ideally within a digital product based environment
+
+- Demonstrable history of reasoned UX decision making
+
+- Proven ability to drive data-led optimisation within a digital product
+
+- Experience of user testing and user research
+
+- Comfortable planning and running UX workshops
+
+- The ability to write good copy that creates clear flows and consistent experiences
+
+- A background of working closely with both developers and designers
+
+- Empathy for customer needs, but can also consider technical limitations and business goals.
+
+#You will be responsible for
+- Working alongside our product owners and visual designers to create groundbreaking digital solutions
+
+- Conducting usability tests and user research
+
+- Designing new features and optimisations for our products and internal tools
+
+- Taking ownership of a product aspect to guide its evolution and optimisation
+
+- Developing ideas that improve user engagement and have a positive impact upon conversion
+
+- Building interactive product prototypes
+
+- Working with developers to ensure feasibility
+
+- Planning, creating and facilitating UX workshops
+
+#About 15gifts
+At 15gifts, we’re obsessed with the psychology of choice. We study the key principles that drive people to make confident choices on the high-street, and we pour this insight into our intelligent decision-engine technology to replicate the experience online.
+
+We work with some of the world’s leading brands, powering thousands of confident customer decisions every day. Our partners include Verizon, O2, Sky, Virgin Media, EE, BT and The Times.
+
+With every interaction we learn more about our customers – gathering insights to generate increasingly accurate recommendations.
+
+We’re a fast-growing company and we’re excited about the opportunities that lie ahead. We’re a team that’s made of driven, ambitious and exceptional individuals and we’re looking for like-minded people to become part of our success story.
+
+#Our culture
+Our success is underpinned by our cultural values. These values are not something we stick up on a wall – they don’t need to be. They are behaviours that we recognise and celebrate in each other. They are what we live by every day..
+
+15gifts cultural values:
+ 
+- Celebrate brilliance
+
+- Take ownership
+
+- Share Insights
+
+- Look for a better way
+
+- Support each other
+
+Our values are driven through Culture Club – a staff team that rotates every quarter. Advocates for our culture as we grow, Culture Club activates ideas, makes improvements and helps everyone to connect.
+
+#Working at 15gifts
+We can confidently say that our sea-view office is one of Brighton’s best. Our flexible workspaces mean you’re not tied to a desk, unless you want to be.
+
+You could work in a sociable spot on floor 4, or set yourself up with a screen on floor 3. This is everyone’s space and it’s available after work – our staff host everything from gaming and craft nights to adventure film screenings.
+
+**Other benefits include:**
+
+- Free breakfasts, fresh fruit, snacks, beers, locally-roasted coffee
+
+- Food for thought: free lunch and talks every Friday
+
+- Lunchtime yoga, mindfulness and other fitness activities
+
+- Regular social events, from Friday drinks to tea clubs and volleyball
+
+- Visits from friendly office dogs
+
+- Quarterly reviews that involve everyone in strategy planning
+
+- EAP (Employee Assistance Programme): confidential counselling for work and personal issues
+
+- Cycle to work scheme and free eye tests
+
+- 33 days holiday (including Bank holidays) and your birthday off work",TRUE,FALSE,,
+23,Caroline Constable HR Manager linkedin.com/in/caroline-constable-2304434,,,,,,,,https://www.wpmeducation.com/,,,,invu9e,UX/UI Developer,WPM Education,https://www.wpmeducation.com/new_2019/images/logo.png,Burgess Hill,Permanent,,TRUE,,,,,,FALSE,https://www.linkedin.com/jobs/view/ux-ui-developer-at-wpm-education-1551599490/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&originalSubdomain=uk,"Our activities encompass a broad range of technologies, systems and tasks, but essentially we provide software to manage incoming payments and their associated processes, as well as helping large organisations manage complex document, printing, scanning, compliance and reporting requirements. We believe in good planning, realistic expectations and a commitment to clear direction.
+
+Based in West Sussex, we are in a position to provide a genuine work life balance as well as the opportunity to work with a skilled team on interesting and challenging technology - there is no need to compromise.
+
+###What are we looking for?
+
+Working within the tight knit development team you will deliver development-ready assets and UX guidelines for the team, whilst also sharing best-practice on UX/UI design and development, working towards a common framework to speed up development and issue resolution.
+
+You will ensure that interfaces adhere to appropriate standards, and support an over-arching UX strategy (which you will contribute to the development of).
+
+You will ideally be from a technical background (with a strong understanding of the principles of software architecture and UX/UI framework development and use) but also have capable design and creative skills.
+
+**Responsibilities**
+
+Work within the tight knit development team to keep development focussed on user needs.
+
+Keep ideas and designs technically feasible.
+
+Document and test your code. Also debugging and issue resolution where UI is involved.
+
+Support the UX process through prototyping and wireframing of proposals.
+
+**Essential**
+
+Commercial experience using HTML/CSS/Javascript and associated technologies.
+
+Experience of related tools/frameworks, including LESS/SASS, jQuery, and Bootstrap
+
+Axure, Omnigraffle (or similar) for prototyping, wireframes and validating ideas.
+
+Detailed understanding of cross-browser and cross-device issues
+
+Proficiency with graphics tools for the purpose of sourcing, optimising and formatting simple visual assets
+
+Experience using appropriate UX techniques to develop understanding of problems and identify solutions.
+
+**Our benefits include;**
+
+- A genuine work life balance
+- 25 days holiday
+- Private medical insurance (family included)
+- Ride to work scheme
+- Fantastic social events!
+- Complimentary food and drink",TRUE,FALSE,,
+24,Richard Hirst 01403 232323,,,,,,,,https://www.rsagroup.com/careers/,,,,nviuo3,UX Researcher,RSA Group,https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png,Horsham,Permanent,,TRUE,,,,,,FALSE,https://www.rsagroup.com/careers/search-our-vacancies/uk-job-application/?jobId=Q0JFK026203F3VBQB7968F6Z6-71008&langCode=en_GB,"###Job Description
+The UX Researcher will join our growing Experience Design Team, based in Horsham/Liverpool. This role is critical to discover and champion the needs of our users and provide insights for significant and impactful changes across all our products. Collaboration with the digital team is key as this role is involved in research, discovery, sketching, prototyping and testing, putting the user at the centre of the process.
+
+###Responsibilities will include
+- Running workshops and studies to gather both qualitative and quantitative feedback on our products
+- Planning and conducting a range of user research and requirements gathering methods, including A/B testing, user interviews, stakeholder interviews, field studies and guerrilla research
+- Synthesising data and presenting findings to the project teams
+- Planning, leading and participating in various activities including competitor analysis, sketching sessions, wire framing, prototyping and user testing
+- Developing a strategy for UX research across all products
+- Planning and running lab-based and online usability testing sessions
+
+###What we are looking for from you
+- Experience in a similar role
+- Knowledge of UX tools e.g. InVision, Axure etc
+- Experience of running lab-based usability testing sessions
+- Ability to work independently and as part of a team
+- Great communication & presentation skills
+- Creative and innovative
+- Open-minded and comfortable with mentoring and coaching other members of the team
+- Team player, working closely with the digital team
+- Confident to champion User Centred Design across the business
+
+###About Us
+RSA is one of the world's leading FTSE 100 general insurers with a proud heritage dating back over 300 years. We provide high quality, innovative insurance products and services for some 20 million customers in over 100 countries, setting new standards in the industry.
+
+Why are we telling you all this? Well, we’re an ambitious sort of company. And if you’re an ambitious sort of person – with the drive to improve us as you improve yourself – we’ll promise you all the resources and career opportunities you need
+
+We aim to provide every one of our employees with a great work-life balance and the opportunity to contribute to charity. We have a thriving community investment programme, volunteer weeks, social events, focus groups, and team outings.",TRUE,FALSE,,
+25,Richard Hirst 01403 232323,,,,,,,,https://www.rsagroup.com/careers/,,,,hh9e0nc,UX Designer,RSA Group,https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png,Horsham,Permanent,,TRUE,,,,,,FALSE,https://www.rsagroup.com/careers/search-our-vacancies/uk-job-application/?jobId=Q0JFK026203F3VBQB7968F6Z6-71093&langCode=en_GB,"###Job Description
+We’re looking for a UX Designer to join our team. We understand that job titles and experience can vary in our industry, so whether you’re a UX Designer, UX Researcher, Interaction Designer or an Information Architect we want to hear from you.
+
+###Our Team
+
+RSA’s digital team is made up of Designers (spanning several disciplines), Researchers, Content Writers, Analysts and Product Managers who believe putting our customers first is the key to creating better products. RSA aspire to become a digital-first organisation, so we’re looking for the brightest minds to help us fulfil this ambition.
+
+Our team oversees the entire digital customer experience, from researching insurance products and buying behaviour, through to claims and policy servicing. We do this for RSA and our partner products, including a number of well known high street brands. RSA also own the popular MoreThan brand, offering a range of insurance products including our innovative SmartWheels telematics insurance for young drivers.
+
+###Responsibilities
+UX Designers at RSA have a research, communication and facilitation focus. We’d expect you to feel comfortable with the following aspects of the role:
+
+- Facilitating workshops and discussions that get to the heart of business and customer needs.
+- Mapping current processes and identifying pain points and opportunities.
+- Communicating customer and business needs to stakeholders and the project team.
+- Analysing research and presenting findings back to the wider team.
+- Sketching and prototyping concepts in collaboration with other Designers.
+- Collaborating with the Content team to create effective and well informed information architecture, navigation, and taxonomies.
+- Communicating information architecture through wireframes, user journeys and sitemaps.
+- Understanding the UCD process and apply it to projects of varying scales to deliver the best business and customer outcomes.
+
+###The Individual
+We’d love to see evidence of experience in full-time UX roles.
+We're looking for someone has been through the UCD process multiple times, has seen the challenges it can present (particularly in large organisations) and learned from it.
+
+We'd like to see:
+- The story of your work: not only what you did, but more importantly why you did it.
+- Practical experience of applying UCD methods to commercial projects.
+- Experience of Agile and Lean approaches to digital product design.
+
+###About Us
+RSA is one of the world's leading FTSE 100 general insurers with a proud heritage dating back over 300 years. We provide high quality, innovative insurance products and services for some 20 million customers in over 100 countries, setting new standards in the industry.
+
+Why are we telling you all this? Well, we’re an ambitious sort of company. And if you’re an ambitious sort of person – with the drive to improve us as you improve yourself – we’ll promise you all the resources and career opportunities you need
+
+We aim to provide every one of our employees with a great work-life balance and the opportunity to contribute to charity. We have a thriving community investment programme, volunteer weeks, social events, focus groups, and team outings.",TRUE,FALSE,,
+26,Bethany Pratt Senior Recruiter https://www.linkedin.com/in/bethanypratt/,,,,,,,,https://www.avalara.com/us/en/about/jobs/job-details.oIeebfw5.html,,,,8uggvtd,Senior UX Designer,Avalara,https://www.avalara.com/etc/designs/avalara/images/corporate_home_2_u15612.svg,Brighton,Permanent,,TRUE,,,,,,FALSE,https://jobs.jobvite.com/avalara/job/oIeebfw5/apply?__jvst=Avalara+Career+Site,"Our team’s design principles are:
+
+- Focus on users and their journey
+- Design with data and best practices 
+- Advocate efficiency and consistency everywhere
+
+These simple principles guide us through our day to day, and keep us rooted in what is important and who we are making software for. If these resonate with you, than we’d love for you to meet the team.
+
+###What you’ll do....
+- Create design deliverables appropriate to projects - including flows, diagrams, mockups, interactive prototypes, specs, and assets for stakeholders, validation with users, and engineering teams
+- Manage multiple projects simultaneously across diverse product teams
+- Use, contribute to, and help to maintain Avalara’s product design system
+- Help establish new and/or improve existing workflows as necessary including the full customer journey spanning discovery, purchase, onboarding, and on-going product usage
+ 
+###What you’ll bring to the role....
+- Proven track record working with Product Management and Engineering 
+- Experience analyzing and applying user research to aid in user-centric design solutions
+- Proven application of Design Thinking methodology
+- Experience working with User Research to validate design hypothesis 
+- Experience designing with design systems a plus
+- Expertise in Sketch or equivalent design tools and InVision or equivalent prototype solution
+ 
+
+###Preferred Qualifications
+- 5-8 years of experience 
+- Bachelors or higher degree in a User Experience related field such as (UX design, HCI, Interaction Design, or Graphic Design.) Or equivalent professional experience
+- Experience designing with design systems a plus
+- Working knowledge of HTML5 and CSS3
+- Portfolio of 3+ live or shipped projects that you were a principal designer 
+ 
+
+#Where you will work…
+ 
+
+Avalara helps businesses of all sizes achieve compliance with transactional taxes, including VAT, sales and use, excise, communications, and other tax types. We deliver comprehensive, automated, cloud-based solutions that are fast, accurate, and easy to use.
+
+Avalara offers hundreds of pre-built connectors into leading accounting, ERP, ecommerce and other business applications. Each year, the company processes billions of tax transactions for customers and users, files hundreds of thousands of tax compliance documents and tax returns, and manages millions of exemption certificates and other compliance related documents.
+
+Avalara’s headquarters are in Seattle, WA and it has offices across the U.S. and in Brighton and London, England; Brussels, Belgium; and Pune, India. More information at: www.avalara.com
+
+Avalara is an Equal Opportunity Employer.  All qualified candidates will receive consideration for employment without regard to race, color, creed, religion, age, gender, national orientation, disability, sexual orientation, US Veteran status, or any other factor protected by law.
+
+Avalara is committed to working with and providing reasonable accommodations to job applicants with physical or mental disabilities. Applicants with a disability who require a reasonable accommodation for any part of the application or hiring process can follow this process outlined when applying for a position.",TRUE,FALSE,,
+27,Lyn Nie https://www.linkedin.com/in/lynnnie/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=V8EfBR8LqAN_tJ4eAAAAAA%3D%3D&fpstate=tldetail,,,,4hfli3o,Senior Manager UX / UI,Vodafone,https://careers.vodafone.co.uk/img/8d6dd191-4c53-4c22-8828-08d589c6533f?v=2019.6.1772-release-2019.6,London,Permanent,,TRUE,,,,,,FALSE,https://careers.vodafone.co.uk/job/senior-manager-ux-ui-in-london-greater-london-jid-23056," ###Are you bold? Innovative? Inquisitive? Great, then we can help you thrive…
+
+ 
+The V by Vodafone team was created just 2 years ago to pioneer a new way of connecting our 500 million customers globally to the world of Internet of Things.
+
+ 
+We’re a team of fearless, restless visionaries in a completely new technology, on a mission to create world-changing products that connect people to their homes, their smart devices, and the things they love. Using our smart V SIM card, innate objects can now be controlled and monitored from anywhere at anytime, giving people the opportunity to do things they have never done before, offering freedom, security and control on a new level.
+
+ 
+We have already launched 15 products in 7 markets internationally …and we just can’t stop!
+
+ 
+###This is where you come in…
+ 
+We are seeking like-minded intrepid explorers to join us. People that aren’t afraid to take risks. The daring ones, the trailblazers, the pioneers!
+
+ 
+As the head of product design for IoT you’ll lead the design vision and strategy for V apps, building compelling and creative experiences that strike a balance between our customer’s needs and business’s requirements. You will lead multiple product design projects creating magical experience for our customers.  You embrace the Product principles and agility that comes from working within a Squad-based structure following lean and agile product and design principles collaborating.
+
+ 
+Together with your team of designers and researchers, you will be accountable for delivery of UX insights and designs that support the product strategy. You and your team will work very closely with product owners and the engineering teams, organising changes to our digital applications to deliver optimisations built around our user’s needs.
+
+ 
+The Head of Product Design is the creative heartbeat of our design and development teams. You are responsible for building amazing products and magical experiences for our customers.  You are a passionate problem solver, have the customer at the heart of everything you do and are willing to embrace the unknown. You thrive in an environment with like-minded collaborative and creative people. You will be part of a dedicated team of specialists committed to producing world-changing products in the consumer tech industry. You will share our prioritisation of user centricity and passion for learning and experimenting and you will be responsible for getting these principles into products that surprise and delight our customers.
+
+ 
+Every day is guaranteed to be different
+ 
+**With us you will:**
+ 
+- Play a pivotal role in the Squad based product structure leading on the customer experience.
+- Be a key member of delivering the product roadmap and your own budget (CAPEX and OPEX)
+- Own usability and research studies to direct our design thinking and strategy
+- Be part of the Product & Design leadership team
+
+**You’re able to:**
+ 
+- Work within a lean and agile environment
+- Drive the Squad based product and design based structure balancing your team sitting within the Squads as well as solving problems centrally within the design team
+- 5+ years p Product Design and a track record of creating a culture and become in a culture amplifier in a startup environment
+- Ideal but not necessary - Degree in design, design management, psychology, human-computer interaction or equivalent
+- Excellent people management skills
+- Created products from scratch with a product team
+- Using an analytical and data-driven approach for creating user interfaces
+- User-centric and you are capable to incorporate user insights and feedback into your design process
+- Quick to bring ideas to life using prototyping tools like InVision, Figma, Zeplin and turn them to high-quality designs and final assets
+- Familiar in designing for a wide range of devices and platforms and familiar with current web and mobile standards
+ 
+**What you can expect from us:**
+
+- Dedicated support and mentoring
+- Opportunity to develop and progress – plus a solid dedication to work-life balance. It all means you’ll have everything you need to advance your career, and achieve your full potential.
+- Annual company bonus
+- 28 day’s holiday
+- Contributory company pension scheme
+ 
+**If you have any questions left**
+
+ 
+Check out the application process and get to know us better here: [https://careers.vodafone.co.uk/consumer-internet-of-things](https://careers.vodafone.co.uk/consumer-internet-of-things)
+
+ 
+Read more stories here: [https://careers.vodafone.co.uk/posts](https://careers.vodafone.co.uk/posts)",TRUE,FALSE,,
+28,Evi Malisianou evi@brandwatch.com ,,,,,,,,https://www.brandwatch.com/careers/#current-positions,,,,jkeliu4,Product/UX Designer,Brandwatch,https://www.brandwatch.com/wp-content/uploads/2018/01/horizontal-grey.svg,Brighton,Permanent,,TRUE,,,,,,FALSE,http://jobs.jobvite.com/brandwatch/job/o33DafwD/apply,"###About Brandwatch
+Brandwatch is the world’s pioneering digital consumer intelligence suite, helping over 2,000 of the world’s most admired brands and agencies including Unilever, Walmart and Dell to make insightful, data-driven business decisions.
+
+The company has made three acquisitions to date: PeerIndex (2013), BuzzSumo (2017) as a standalone content marketing platform, and Qriously (2019) to add global survey capabilities. Additionally, the company was bolstered by its merger with Crimson Hexagon (2018) to create the most comprehensive AI-powered social intelligence solution.
+
+Brandwatch has offices around the globe including Brighton, Boston, New York, London, Berlin, Stuttgart, Paris, Madrid, Sydney and Singapore.
+
+###Role description:
+We are growing our product design team and are looking for someone to join us on our quest to build amazing SaaS products which push the boundaries of convention, have flair, originality, and make our customers sing out loud with delight.
+
+We want the ooh and we want the ahh! We want personality, and we want grace. If you are a talented Product/UX designer who is motivated by any of the above and want to work in a highly collaborative design team where your ideas count and can tangibly make a difference, then this could be the perfect role for you.
+
+###About the team you’ll be joining:
+Our product design team is split across Brighton, Stuttgart and Berlin. We have a wide range of skills from pure user research through to pure visual design, and a number of people with a blend in between.
+
+###Responsibilities/Skills and experiences required:
+- Have at least 2 years aggregated commercial experience working as a UX designer on digital products (web apps/SaaS preferred over mobile/native)
+- Present a portfolio during your interview that demonstrates excellence in your craft - show us your process of translating outcomes into outputs
+- Be able to drive great UX design within a cross-functional team of Product Managers, Marketers, technical architects and developers
+- Be able to plan, organise and execute all aspects of the design stage from concept to prototype
+- Be able to distil and translate complex requirements into modern, accessible and inviting experiences
+- Have experience in planning and conducting user research (generative and evaluative) and translating those findings into design opportunities
+- Document and communicate your work efficiently and effectively to a variety of stakeholders and colleagues from juniors through to execs
+
+###We are seeking:
+- Understand and be conversant with the core design principles regarding colour, typography, psychology, movement and behaviour
+- Know how to work with established design systems / pattern libraries
+- Have a passion for data visualisation
+- Have designed and tested information dashboards before
+- Have experience designing for mobile contexts
+
+###What we offer:
+**Benefits:**
+
+We offer a range of benefits including; bike to work scheme, pension contribution, and discounted gym memberships.
+
+**Culture:**
+
+Brandwatch is a place where the lines between work and fun are blurred. As a growing international company, with 10 offices across the globe, communication is key to ensure everyone’s voices are heard, and helps us maintain our flat structure. We listen and learn. We develop our staff. We care about everything, and above all we support each other.
+
+**Working for Brandwatch:**
+
+Brandwatch Brighton is where it all began. We can be found in the vibrant North Laines in our contemporary offices. Whilst we don’t believe in stereotypes, we host subsidized onsite pilates and yoga classes along with our Juice Mondays. We have cupboards bursting with snacks, a well stocked drinks fridge, sushi lunches, flexible working spaces, weekly massages and if you’re lucky we’ll even treat you to an ice-cream on the beach or our fortnightly massages right from the office.",TRUE,FALSE,,
+29,Sarah Murray https://www.linkedin.com/in/murrays2/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=1Jd1axl-fXkmGq6IAAAAAA%3D%3D&fpstate=tldetail,,,,neliorhb,Senior Associate Consulting UX Designer,PWC,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1200px-PricewaterhouseCoopers_Logo.svg.png,London,Permanent,,TRUE,,,,,,FALSE,http://www.experiencedcareers.pwc.co.uk/ShowJob/Id/903212/Senior-Associate-Consulting-UX-Designer-London/,"###The Role
+PwC is evolving it's approach to business transformation by bringing in experience strategy, design, and user experience (UX) capabilities. We believe that providing a combined approach incorporating business, experience and technology is essential to delivering successful transformative outcomes for our clients. This new team will benefit from working closely with our established business strategists and technologists throughout the firm, gaining access to leading clients globally. PwC has recently appointed a new CXO (Chief Experience Officer) to its Consulting practice, to evolve the firm’s approach.
+
+PwC is looking for a User Experience (UX) Designer with 1-3 years of agency, relevant client-side (public or private sector), or consultancy experience to join its growing London-based experience team. The ideal candidate will
+
+Be a design leader with deep knowledge of information and interaction design across a variety of devices, touch-points, and experience domains Have a keen eye for detail, and a strong visual design aesthetic Have a working knowledge of service design and content strategy Be well-versed in modern design research methods (remote and ethnographic) Have demonstrable experience helping global brands design and deliver digital products and services Have a strong desire to co-create (with clients and internal teams), and experience facilitating this type of collaboration
+
+###The Basics
+Expertly proficient in Sketch and Invision Supporting the development and documentation of detailed user experience specifications, wireframes, component mapping for interactive interfaces. A specialist in 2 or more other rapid prototyping tools Well-versed in either Design Thinking or MG Taylor methodologies Be the voice of the user through your work, organising and conducting user research and user testing to inform concepts and validate designs Ability to navigate a variety of legacy UX tools (e.g., Axure, Omnigraffle, etc.) Knowledge of Framer, UX-Pin Confident verbal and visual communicator A natural problem solver An all-around cool person
+
+###About you
+We’re looking for energetic, passionate UX practitioners who enjoy sweating the details - working across devices and touch-points – to design and deliver bold work for our brave clients across the UK. Reporting to the Head of UX, you’ll be a key part of the London-based Experience team working hard to put the customer at the centre of everything that you do (and you’ll challenge our clients and their teams to do the same), and bringing propositions, products and services, and ‘the art of the possible’ to life.
+
+###About your day-to-day
+- Quickly formulate hypotheses based on insights and intuition;
+- Design and facilitate multi-disciplinary co-creation workshops at different points throughout the product- and service-design lifecycle to explore those hypotheses;
+- Prototype ideas quickly (i.e., make the simplest artefact possible to test a hypothesis or assumption)
+- Design experiences across devices and touch-points for our clients and their customers;
+- Work closely with third parties as part of delivery projects; engage with and support your colleagues from customer, technology and strategy practice areas;
+- Support business development through participation in proposals and client meetings;
+- Support practice development, through design leadership, mentoring and coaching;
+
+###Our Competencies
+Our people need to demonstrate a defined set of core skills and behaviours. We refer to these as the PwC Professional. They're integral to who we are as a firm and form the basis of our people appraisal process. We will also assess you against them within our recruitment process to benchmark your own skills and behaviours. We recommend you visit the below web page to find out more about the PwC Professional and to consider how your own experiences will align against them. This will help you through the recruitment process with us.
+
+
+**Consulting**
+
+In Consulting we deliver practical, far-sighted advice that gets straight to the heart of clients’ business issues and delivers amazing results by helping our clients improve the way they operate, reduce costs, manage risks, leverage talent or fundamentally change the way they do business, the work you do will be all about helping organisations of all shapes and sizes work smarter and grow faster. You could find yourself working with household names in a diverse range of industries – everyone from big-name broadcasters and high-street banks to multinational telecoms operators and energy companies.
+
+**Not the role for you?**
+
+Did you know PwC offer [flexible contract](https://www.pwc.co.uk/careers/experienced-jobs/opportunities/flexible-talent-network.html) arrangements as well as [contingent work](https://www.pwc.co.uk/careers/experienced-jobs/opportunities/contract-opportunities.html) ( ie temporary or day rate contracting)?
+
+**The skills we look for in future employees**
+
+All our people need to demonstrate the skills and behaviours that support us in delivering our business strategy. This is important to the work we do for our business, and our clients. These skills and behaviours make up our global leadership framework, ‘The PwC Professional’ and are made up of five core attributes; whole leadership, technical capabilities, business acumen, global acumen and relationships.
+
+Learn more here [www.pwc.com/uk/careers/experienced/apply](www.pwc.com/uk/careers/experienced/apply)
+
+**Diversity**
+
+We work in a changing world which offers great opportunities for people with diverse backgrounds and experiences. We seek to attract and employ the best people from the widest talent pool, as well as those who reflect the diverse nature of our society. And we aim to encourage a culture where people can be themselves and be valued for their strengths. Creating value through diversity is what makes us strong as a business and as an organisation with an increasingly agile workforce, we're open to flexible working arrangements where appropriate.
+
+Learn more here [www.pwc.com/uk/diversity](www.pwc.com/uk/diversity)",TRUE,FALSE,,
+30,Tom Bird thomasbirddesign@gmail.com,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1573489544072100,,,,byudyer,Digital Designer,The Student Room,https://tsrmatters.com/wp-content/uploads/2018/07/tsr-logo.png,Brighton,Permanent,,TRUE,,,,,,FALSE,https://tsrmatters.com/about-us/current-vacancies/digdesigner/,"###Who we are?
+We are looking for a digital designer to join TSR’s Enlitened team, the newly created fast-growth business within The Student Room Group.
+
+Founded in 2001, The Student Room (TSR) is the UK’s largest, most useful and best-loved online student community. Millions of students turn to us first for advice, info and support on work, learning and life’s ups and downs.
+
+Enlitened delivers continuous improvement to both universities and university students to further deliver on our vision of ensuring that students get the best possible support in life.
+
+Enlitened is a transformative global platform that helps students and academic institutions take a radical new approach to improving student engagement and wellbeing. A subject we are extremely passionate about.
+
+This is an exciting opportunity to play a key role in building a ground-breaking product that will deliver significant social benefit, using the very latest technologies. You will be joining a new fast-growing team, working in a start-up environment.
+
+We have quickly gained momentum and following a very successful pilot have gone live with thousands of students across 4 institutions earlier this year.
+
+We’re a well-resourced team of people who all care deeply about the problem we’re trying to solve. We believe work should be exciting, challenging and meaningful in equal measure. Being a part of our growing team will give you the opportunity to shape our mission and culture as we grow. We’re looking for exceptional people who want to make students’ lives better.
+
+###What does a Digital Designer at Enlitened do?
+You will work closely with our UX/UI Designer, Marketing manager and Growth Manager to create visually compelling campaign assets to drive engagement with the Enlitened apps. This will include emails, print material and web assets. You will also assist with user research and testing so an understanding of user centric design principles is a plus.
+
+###What does success in 6 months look like?
+- You will have fully understood the services and apps we have live as well as the feature backlog.
+- You will work closely with our Growth Manager and Head of Content designing multi variant campaigns to understand effective marketing strategies
+- You will create a suite of compelling visual assets for all of Enlitened digital channels including emails, social media, display and web art-working. You will also push the boundaries and show creative flair to further enhance wider creative direction of the Enlitened brand and not feel restricted by what has been delivered previously.
+- Improve design and usability of the client facing Enlitened website. This will include helping with SEO implementation, introducing and tracking heatmapping tools such as Hotjar and seeking improvements as a result of quantitative data.
+- Assist with refining and developing brand guidelines – including image style guide, UI pattern library and font styles to ensure consistent design across all platforms
+- You will fully understand and help define Enlitened’s user base by assisting with lab testing, workshops and varying research projects
+- You will help maintain and grow our product research insights via a central repository
+
+###This opportunity will suit someone who has:
+You will be passionate and driven, unafraid to try new things and learn fast. You will be a team player who knows that we can only be our best if we all support and challenge each other in equal measures. You will love questioning the status quo and be excited by the opportunity to quickly move mountains and help students globally.
+
+You will also need the following experience or outlook:
+
+- You’ll be fully proficient in Adobe creative suite and Sketch
+- You’ll have a sufficient working knowledge of HTML and CSS and email design
+- You’ll have experience or solid understanding of an Agile working environment
+- You’ll be comfortable designing for both native mobile and responsive web and understand the restrictions that come with it
+- You’ll have knowledge of prototyping tools such as Invision or Marvel for quick and dirty user testing
+- You’ll be comfortable with the basics of WordPress and popular plugins that enhance functionality
+- As a bonus you will have a general understanding of the design thinking process, user research and UX methods
+- Experience in After Effects and interaction design is a big plus but not essential
+
+###Working at TSR – Benefits Include
+- Competitive salary
+- Generous approach to holidays
+- Flexible working hours and arrangements
+- Group Life insurance
+- Generous pension scheme
+- Private healthcare
+- Cycle to work Scheme
+
+To apply for this position, please send a cover letter and CV **(including your salary expectation)** to [hr@thestudentroom.com](mailto:hr@thestudentroom.com)
+
+To stay up to date on all of The Student Room’s vacancies then follow us on [Twitter](https://twitter.com/TSRcareers) and Facebook @TSRcareers, or find us on [LinkedIn](https://www.linkedin.com/company/the-student-room-group/).
+
+As part of our recruitment process, The Student Room collects, stores and processes personal data relating to job applicants. Please read our [Job Application Privacy Policy](https://tsrmatters.com/blog/tsr-privacy-notice-to-candidates-and-applicants/) to understand how we use and protect the information you provide, both in your application and at other stages of the recruitment process.",TRUE,FALSE,,
+31,Chris Roberts chrisroberts@hotels.com,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1572595590057300,,,,nfue2sc,UX Researcher,Expedia Group,https://lifeatexpedia.com/assets/build/img/logos/expedia-group.svg,London,Permanent,,TRUE,,,,,,FALSE,https://expedia.wd5.myworkdayjobs.com/search/job/UK---London/User-Experience-Researcher_R-46397/apply?source=lifeatexpedia,"The Hotels.com User Experience research team is dedicated to understanding our customers', their needs and behaviours when researching and booking hotels. We are looking for a UX researcher who is passionate about influencing our product through customer data and qualitative feedback and who is motivated to use a variety of research methodologies to get to this understanding.
+
+**What you’ll do:**
+
+As a Hotels.com User Experience Researcher, you will:
+
+- Define, consolidate, and execute qualitative and quantitative research using a wide variety of research methodologies (lab testing, primary/generative research, surveys, etc.) in order to present deep insights on requirements definition, content strategy, wireframes, visual and interaction design.
+- Work closely with partners across multiple product teams to clearly define and prioritise user research questions, then outline and schedule research plans.
+- Identify and recommend the best methods to answer UX product research questions and prioritise them according to schedule and opportunity constraints.
+- Proactively find opportunities to improve the user experience and better serve business needs using site analytics and independent research.
+Manage and lead all aspects of vendor-base research projects and relationships, ensuring their work is delivered on time and fit to business needs.
+- Propagate research results and insights throughout the organisation and champion the voice of the customer, ensuring that the customer travel lifecycle, user needs, and pain points are well understood, documented, and communicated.
+
+**Who you are:**
+
+To be a successful, it is a given that you are a detailed- and process driven thinker grounded in cognitive sciences, but you must also have a creative streak, a love for experimentation, and an ability to deliver quickly. You must have:
+
+- Excellent research skills with a record of delivering insights that influence product and design decisions.
+- Demonstrable experience in a wide range of qualitative and quantitative methodologies, including lab testing, remote user testing, interviews, surveys, rapid iterative testing, ethnography, and other techniques, combined with access to data from the analytics team.
+- The ability to write detailed study plans which include goals, metrics, study protocols, and to summarise large sets of data.
+- Strong organisational skills, able to act independently and to switch quickly between different projects, even within a day.
+- Excellent written and verbal communication skills and talent in articulating and visualising both qualitative and qualitative results.
+- Being able to understand others' perspective and clarify meaning before reacting
+- An understanding the interplay between business requirements, product strategy and user experience.
+- The belief that observations are key, and that understanding the “why” is critical.
+- Masters degree or PhD in Human Factors, Human-Computer Interaction, Experimental Psychology, Cognitive Science, or equivalent preferred.
+- Proven experience working with product teams and UX designers conducting user research (e.g., usability testing, UI reviews, competitive benchmarking, site visits, and literature reviews) on software interfaces.
+- Demonstrable ability to work with others in a consultative capacity, including excellent interpersonal skills and the talent to forge strong working relationships.
+
+**Why join us:**
+
+Expedia Group recognizes our success is dependent on the success of our people. We are the world's travel platform, made up of the most knowledgeable, passionate, and creative people in our business. Our brands recognize the power of travel to break down barriers and make people's lives better – that responsibility inspires us to be the place where exceptional people want to do their best work, and to provide them to tools to do so.
+
+Whether you're applying to work in engineering or customer support, marketing or lodging supply, at Expedia Group we act as one team, working towards a common goal; to bring the world within reach. We relentlessly strive for better, but not at the cost of the customer. We act with humility and optimism, respecting ideas big and small. We value diversity and voices of all volumes. We are a global organization but keep our feet on the ground so we can act fast and stay simple. Our teams also have the chance to give back on a local level and make a difference through our corporate social responsibility program, Expedia Cares.
+
+If you have a hunger to make a difference with one of the most loved consumer brands in the world and to work in the dynamic travel industry, this is the job for you.
+
+Our family of travel brands includes: Brand Expedia®, Hotels.com®, Expedia® Partner Solutions, Egencia®, trivago®, HomeAway®, Orbitz®, Travelocity®, Wotif®, lastminute.com.au®, ebookers®, CheapTickets®, Hotwire®, Classic Vacations®, Expedia® Media Solutions, CarRentals.com™, Expedia Local Expert®, Expedia® CruiseShipCenters®, SilverRail Technologies, Inc., ALICE and Traveldoo®.
+
+**Diversity statement**
+
+Expedia is committed to creating an inclusive work environment with a diverse workforce. All applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age
+
+Expedia is committed to creating an inclusive work environment with a diverse workforce. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age.",TRUE,FALSE,,
+32,No contact as yet,,,,,,,,UXPAUK,,,,hskouth,,,,,,,,,,,,,FALSE,,"Digital is at the core of everything we do and we’re looking for a talented User Experience Director to join our established digital team.
+
+As a UX Director you will need to be at the top of your game and thoroughly immersed in the importance and benefits of user-centered design from both a theoretical and practical point of view. You will report to the Head of Digital & UX, but have line management responsibility for the UX team.
+
+ 
+
+## Role & Responsibilities
+
+- Leading, motivating and mentoring a team of UX specialists
+ - Helping to grow the skills and capabilities of Torpedo’s UX Consultancy offering
+ - Working on all sizes of project to ensure user centered design principles and methodology are consistently applied
+- Analysing target audiences, user behaviours, key metrics, and functional specifications to execute user-friendly, goal-oriented solutions
+- Working with clients to understand their business models and goals, and presenting deliverables to both internal teams, clients and stakeholder groups
+- Conducting stakeholder meetings to unify thinking and present key deliverables
+- Organising information by creating wireframes, sitemaps, work-flows, content inventories, specification documents, user scenarios and prototypes, along with thorough documentation and annotations of UI control behaviour
+- Defining user-interface design, navigation, structure, and hierarchy to serve as a blueprint for all web experiences including mobile and responsive
+- Defining the most effective nomenclature, taxonomy classes and calls-to-action for user interfaces and navigational elements
+- Designing and conducting user experience tests, usability testing and focus groups and reporting/presenting outcomes and recommendations to both clients and internal teams
+- Analysing site data to improve user experience post launch
+- Committed to staying at the forefront of IA/UX/UI and continually improving the processes as well as helping to educate the internal teams.
+ 
+
+
+## Technical Skills & Experience
+- At least 5 years commercial experience of information architecture, user centered design and user testing working on medium to large, complex websites and mobile applications
+- Expertise in prototyping and mockup tools such as Moqups, InVision, Axure, Balsamiq and InDesign to deliver UI wireframes, sitemaps, user journeys, data modeling and prototypes of varying fidelity
+- Extensive expertise in user experience design processes, techniques and methodologies
+- Expertise in implementing various user research and analysis techniques including; ethnographic research, personas and usage scenarios, user journeys
+Expertise in planning, conducting and documenting heuristics evaluations and user testing
+- Expertise in human interface guidelines, standards, and best practices as they apply to digital platforms
+- Experience of analysing and interpretating site analytics
+- The ability to work to tight deadlines whilst providing clients and colleagues with exceptional service at all times
+- Management experience of leading a team of specialists
+- Excellent communication (verbal and written), presentation and organisational skills
+- The ability to think clearly and remain calm and effective in high-pressure situations
+
+
+Previous digital agency experience preferred, but not essential.",FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
