@@ -7,7 +7,7 @@ venue: The Werks
 start: 7pm
 ---
 
-## Harry Brignull & Pete Gale –  Practical insights in designing Out of the Box Experiences
+## Practical insights in designing Out of the Box Experiences – Harry Brignull & Pete Gale
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/557597" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
