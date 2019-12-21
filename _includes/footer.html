@@ -48,59 +48,38 @@
 
             <div class="flex-over-m upcoming-teaser__wrapper">
               {% assign varnum = 1 %}
-              {% if page.url contains "/2020/" %}
-
-              {% else %}
-                <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                  <a href="/2020" class="block-link fill tile pa3 rounded drop relative" style="background: url('/2020/images/upcoming-bg.jpg') center center no-repeat #1a272c; background-size: cover;">
-                    <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                    <div class="upcoming-teaser__text">
-                      <h1 class="leading-solid mb2 color-white fs-xl relative">
-                        <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">Friday 6 November 2020</span>
-                        UX and Product Management
-                      </h1>
-                      <div class="mt0 regular track-normal mb3 relative">
-                        <div class="color-white">
-                          Join us for our 🎂 10th annual one-day conference!
-                        </div>
-                      </div>
-                    </div>
-                    <div class="upcoming-teaser__button-wrapper">
-                      <div class="button button--green bold standfirst mb0">More info</div>
-                    </div>
-                  </a>
-                </div>
-                {% assign varnum = varnum | plus: 1 %}
-              {% endif %}
-
               {% if has_upcoming %}
                 {% for post in site.posts reversed limit:2 %}
-
                   {% if post.upcoming == true && if post.published == true %}
                       {% if post.slug == page.slug %}
                       {% else %}
-                        {% if page.url contains "/2019/" and post.slug == "voice-ui-workshop" %}
-                        {% else %}
-                          <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                            <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
-                              <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                              <div class="upcoming-teaser__text">
-                                <h1 class="leading-solid mb2 color-white fs-xl relative">
-                                  <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
+                        <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
+                          <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                            <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                            <div class="upcoming-teaser__text">
+                              <h1 class="leading-solid mb2 color-white fs-xl relative">
+                                <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
+                                {% if post.upcoming-title %}
+                                  {{ post.upcoming-title }}
+                                {% else %}
                                   {{ post.title }}
-                                </h1>
-                                <div class="mt0 regular track-normal mb3 relative">
-                                  <div class="color-white">
+                                {% endif %}
+                              </h1>
+                              <div class="mt0 regular track-normal mb3 relative">
+                                <div class="color-white">
+                                  {% if post.upcoming-text %}
+                                    {{ post.upcoming-text }}
+                                  {% else %}
                                     {{ post.description }}
-                                  </div>
+                                  {% endif %}
                                 </div>
                               </div>
-                              <div class="upcoming-teaser__button-wrapper">
-                                <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
-                              </div>
-                            </a>
-                          </div>
-                        {% endif %}
+                            </div>
+                            <div class="upcoming-teaser__button-wrapper">
+                              <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
+                            </div>
+                          </a>
+                        </div>
                       {% assign varnum = varnum | plus: 1 %}
                     {% endif %}
                   {% endif %}

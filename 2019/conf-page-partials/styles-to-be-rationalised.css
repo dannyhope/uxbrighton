@@ -1,4 +1,4 @@
-<style>
+
   .masthead {
     background:#1a272c;
   }
@@ -141,8 +141,8 @@
       padding: 0;
     }
   }
-</style>
-<style>
+
+
   .if-cta-is-stuck__tickets {
     display: none;
   }
@@ -186,8 +186,8 @@
       column-gap: 24px;
     }
   }
-</style>
-<style>
+
+
   .columnar-list {
     columns: 3;
   }
@@ -214,8 +214,8 @@
   @media (max-width:400px) {
     .attendee-info-icon { height: 21px; }
   }
-</style>
-<style>
+
+
   .hover-grayscale img {
     filter: grayscale(1);
     opacity:0.4;
@@ -226,8 +226,8 @@
     opacity: 1;
     transition: all 0s;
   }
-</style>
-<style>
+
+
   .sponsor__links {
     margin-left: -8px;
   }
@@ -256,8 +256,8 @@
     height: auto;
     display: block;
   }
-</style>
-<style>
+
+
   .centred-faint {
     color: #cccfd0;
     position: absolute;
@@ -271,4 +271,4 @@
   @media (min-width: 731px) {
     .u1of3-over-m { width: 33%; }
   }
-</style>
+

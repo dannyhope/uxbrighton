@@ -45,7 +45,11 @@
         {% else %}
           <a href="{{ site.url }}{{post.url}}" class="block-link upcoming__teaser border-top upcoming__teaser__link">
             <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
-              {{ post.title }}
+              {% if post.upcoming-title %}
+                {{ post.upcoming-title }}
+              {% else %}
+                {{ post.title }}
+              {% endif %}
             </h4>
             <div class="upcoming__teaser__text">
               {{ post.date | date: "%A, %B %-d, %Y" }}
@@ -54,18 +58,6 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-
-    {% if page.slug != "conference-2020" %}
-      <a href="/2020" class="block-link upcoming__teaser border-top upcoming__teaser__link">
-        <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
-          UX Brighton 2020
-        </h4>
-        <div class="upcoming__teaser__text">
-          UX and Product Management
-        </div>
-      </a>
-    {% endif %}
     
   </div>
   
