@@ -205,6 +205,24 @@
   <script src="/2018/javascripts/scripts-min.js?v=feb"></script>
   <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
 
+
+<style>
+span.unviewed {
+  display: inline-block;
+  text-align: center;
+  background: #c9003a;
+  color: white;
+  font-size: 10px;
+  padding: 3px 3px 3px 4px;
+  line-height: 1;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;
+  right: -6px;
+}  
+</style>
+
+
   <script>
     $(function() {
 
@@ -227,8 +245,17 @@
       if (/[?&]open=newsletter/.test(location.search)) {
         displayNewsletter();
       }
+
+      // getCookie(name)
+      // setCookie(name, value, days)
+      // deleteCookie(name)
       
     });
+
+
+
+
+
 
       function newsletterAnalytics (event) {
         event.preventDefault();
@@ -251,6 +278,10 @@
   </script>
 
 
+
+
+
+
   {% if page.url contains "/jobs/" %}
     <link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/tooltipster.bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" />
@@ -263,5 +294,73 @@
           theme: 'tooltipster-shadow'
         });
       });
+
+      var jobs_stored  = [{% for job in site.data.jobs %}{% if job.publish == 'TRUE' %}'{{ job.job-id }}',{% endif %}{% endfor %}
+      ];
+      var json_str = JSON.stringify(jobs_stored);
+      setCookie('jobs_stored', json_str);
+
+    </script>
+  {% else %}
+    <script>
+      // var jobs_stored  = ['peter','ko38r4h','invu9e','nviuo3','hh9e0nc','8uggvtd'];
+      // var json_str = JSON.stringify(jobs_stored);
+      // setCookie('jobs_stored', json_str);
     </script>
   {% endif %}
+
+
+  <script>
+    var jobs_current     = [
+      {% for job in site.data.jobs %}{% if job.publish == 'TRUE' %}'{{ job.job-id }}',{% endif %}{% endfor %}
+    ];
+    var jobs_stored = getCookie('jobs_stored');
+    jobs_stored = JSON.parse(jobs_stored);
+    var jobs_diff    = $(jobs_current).not(jobs_stored).get().length;
+    if (jobs_diff > 0) {
+      if (jobs_diff > 9) { jobs_diff = "9+" };
+      $('.masthead__link--jobs').prepend('<span class="unviewed">'+jobs_diff+'</span>');
+    };
+  </script>
+
+  <script>
+    var upcoming_current  = [];
+    {% assign has_upcoming = false %}
+    {% for post in site.posts %}
+      {% if post.upcoming == true && if post.published == true %}
+        {% assign has_upcoming = true %}
+      {% endif %}
+    {% endfor %}
+    {% if has_upcoming %}
+    upcoming_current  = [ {% for post in site.posts %}{% if post.upcoming == true && if post.published == true %}'{% if post.conference-url %}{{ post.conference-url }}{% else %}{{ post.url }}{% endif %}',{% endif %}{% endfor %} ];
+    {% endif %}
+    //console.log('upcoming_current',upcoming_current);
+
+    var upcoming_stored = getCookie('upcoming_stored');
+    upcoming_stored = JSON.parse(upcoming_stored);
+    if (upcoming_stored == null) {
+      upcoming_stored = [];
+    }
+
+    //console.log('upcoming_stored',upcoming_stored);
+
+    //If the current pathname is in the upcoming current, but not the upcoming stored, add the pathname to upcoming stored and re set cookie with update
+
+    var this_path = window.location.pathname
+    //console.log('this_path',this_path);
+    if ((upcoming_current.indexOf(this_path) > -1)){
+      if ((upcoming_stored.indexOf(this_path) == -1)){
+        upcoming_stored.push(this_path);
+        //console.log('upcoming_stored2',upcoming_stored);
+      }
+    }
+    var json_str = JSON.stringify(upcoming_stored);
+    setCookie('upcoming_stored', json_str);
+    var upcoming_diff    = $(upcoming_current).not(upcoming_stored).get().length;
+    if (upcoming_diff > 0) {
+      if (upcoming_diff > 9) { jobs_diff = "9+" };
+      $('.masthead__link--events').prepend('<span class="unviewed">'+upcoming_diff+'</span>');
+    };
+  </script>
+
+
