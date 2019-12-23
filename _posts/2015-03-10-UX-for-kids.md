@@ -18,7 +18,6 @@ Thinking of coming? If you're a designer, UX-person, copy-writer, web or mobile 
 
 We'll look at involving children in the design process, how we can engage pre-school children, what techniques we should use when we need to address children of differing abilities and how we can build low-fidelity prototypes to quickly address design issues.
 
-<hr>
 
 <style>
   .cols {
@@ -53,7 +52,6 @@ The video Leanne shows at the beginning of her presentation is <a href='https://
 
 Leanne Dougan is acting Creative Director for BBC Content Discovery. Leanne has worked at the BBC almost 8 years and during that time has worked across products such as iPlayer, The Red Button and BBC Children's where she was design lead across apps, sites and games across CBeebies and CBBC.
 
-<hr>
 
 <div class="cols"><img src="https://farm9.staticflickr.com/8726/16650723780_ae5c910b7d_z_d.jpg" srcset="https://farm9.staticflickr.com/8726/16650723780_6fd06e38cf_k_d.jpg 1024w" alt="Leanne Dougan presenting" /><img src="https://farm9.staticflickr.com/8599/16837048991_f095424ef7_z_d.jpg" srcset="https://farm9.staticflickr.com/8599/16837048991_454d4a1c46_k_d.jpg 1024w" alt="Lean & Liz"/></div>
 

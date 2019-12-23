@@ -11,7 +11,7 @@ Judy Rees is known as The Elephant Whisperer because of her uncanny ability to p
 
 Her approach draws on almost 20 years experience of news journalism, with surprising insights from the world of psychotherapy and coaching. She is the co-author of Clean Language: Revealing Metaphors and Opening Minds, and creator of a new home study course “Intelligent Influence”. Judy has been introducing these techniques to the UX community for the last year, speaking at UXCamp London and at two London UX agencies.
 
-## UX Brighton community discussion
+## UX Brighton community discussion – Judy Rees
 
 UX Brighton has been going for about two and a half years now and we’d like to hear your feedback on how it’s going, and especially to gather ideas for what we can do in future.
 

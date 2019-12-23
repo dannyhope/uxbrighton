@@ -38,8 +38,6 @@ Following the success of our [last UX Career Clinic](http://www.nppdigital.com/b
 
 Approximately 20 company representatives and UX freelancers will be on-hand <strong>to give one-to-one advice</strong> to those looking to get into the industry or move within it.
 
-<hr>
-
 Our <strong>confirmed mentors</strong> are:
 
 <p class="cols mv3"><a href="https://www.americanexpress.com/uk/"><img src="../assets/2016-careers-clinic/amex.svg" alt="Amex"></a>
@@ -61,7 +59,6 @@ Our <strong>confirmed mentors</strong> are:
 <a href="http://www.theunit.co.uk/"><img src="../assets/2016-careers-clinic/the_unit.svg" alt="The Unit"></a>
 <a href="http://www.webcredible.com/"><img src="../assets/2016-careers-clinic/webcredible.png" alt="Webcredible"></a></p>
 
-<hr>
 
 Here's what one attendee from our previous career clinic had to say:
 
