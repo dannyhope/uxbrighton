@@ -41,7 +41,7 @@ Toms work explores the gap between spontaneous/creative and rule-bound forms of 
 > It's never too late to have a happy childhood"
 — [Tom Robbins](https://en.wikipedia.org/wiki/Tom_Robbins "Tom Robbins on Wikipedia")
 
-## About The Speaker
+### About Thomas
 
 Thomas Forsyth is a designer and artist based in Brighton. He is currently graduating from Brighton University where he studied a BA(Hons) in Wood, Metal, Ceramics and Plastics. Always having taken a great interest in the way people perceive and interact with objects, his recent work explores and challenges rules within play.
 
