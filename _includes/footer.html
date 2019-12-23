@@ -220,6 +220,9 @@ span.unviewed {
   top: 8px;
   right: -6px;
 }  
+.is-invalid {
+  box-shadow: 0 1px 10px red;
+}
 </style>
 
 
@@ -253,25 +256,30 @@ span.unviewed {
     });
 
 
-
-
-
-
+      $('[type="email"]').on('focus', function(){
+        $(this).removeClass('is-invalid');
+      });
       function newsletterAnalytics (event) {
         event.preventDefault();
         var newsletterOptions = $(this).closest('[data-news-options]').attr('class');
         newsletterOptions = newsletterOptions.trim().replace(/ /g, ' - ');
         if (newsletterOptions == "") {
-          $('#js-email-signup').find('.js-email-no-choice').slideDown()
+          $(this).closest('form').find('.js-email-no-choice').slideDown();
         } else {
-          window.dataLayer = window.dataLayer || [];
-          dataLayer.push({
-            'event' : 'formSubmission',
-            'formName' : 'contact us',
-            'formFieldsSelected' : newsletterOptions
-          });
-          console.log('newsletterOptions',newsletterOptions);
-          $(this).closest('form').submit(); 
+          var fieldToTest  = $(this).closest('form').find('[type="email"]')[0];
+          var isValidEmail = fieldToTest.checkValidity();
+          if ( isValidEmail ) {
+            window.dataLayer = window.dataLayer || [];
+            dataLayer.push({
+              'event' : 'formSubmission',
+              'formName' : 'contact us',
+              'formFieldsSelected' : newsletterOptions
+            });
+            console.log('newsletterOptions',newsletterOptions);
+            $(this).closest('form').submit();             
+          } else {
+            $(this).closest('form').find('.js-email-no-email').slideDown();
+          }
         }
       }
 

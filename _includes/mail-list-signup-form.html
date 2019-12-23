@@ -10,6 +10,8 @@
 </style>
 <form action="https://sendy.uxbrighton.org.uk/msubscribe" method="POST" accept-charset="utf-8"  data-news-options="true" data-newletter-signup class=" {% if include.job_notifications == true %}job{% else %}conference newsletter evening job{% endif %}" id="js-email-signup{{ id }}">
   <label class="screen-reader-text" for="fieldEmail{{ id }}">Email</label>
+
+  <div class="js-email-no-email hidden mv1"><strong>👇 Please enter a valid email address</strong></div>
   <div class="input-group mt1 mb1" style="max-width: 366px;">
     <input
       id="fieldEmail{{ id }}"
@@ -31,7 +33,7 @@
     <h3 class="bold pb0 block regular screen-reader-text">
       I’d like to receive…
     </h3>
-    <div class="js-email-no-choice hidden color-black mv1"><strong>👇 Please select at least one option</strong></div>
+    <div class="js-email-no-choice hidden mv1"><strong>👇 Please select at least one option</strong></div>
     <div class="mail-list-option">
       <input onclick="$(this).closest('form').toggleClass('conference');" id="conference-mailinglist{{ id }}" name="list[]" value="tE7kdODDq3zHNYJKOkdOAA" type="checkbox" {% if include.job_notifications != true %}checked{% endif %} class="left">
       <label class="table" for="conference-mailinglist{{ id }}">Conference and workshop news</label>
