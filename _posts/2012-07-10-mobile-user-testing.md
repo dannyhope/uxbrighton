@@ -18,9 +18,11 @@ Both talks are available to watch below:
 
 Raj's talk will explore current ways in which usability testing can be conducted for mobile devices. There will be some exploration of future technologies as well as practical examples of what has worked well in the Interaction Lab in the past and why.
 
-[Raj Arjan](http://www.twitter.com/RajArjan)
+### About Raj
 
 Raj is the interaction lab manager at City University London. The Interaction Lab is a commercial and academic research facility used by academia and industry to conduct user research in areas such as Mobile, Web, Gestural Interaction, Eye Tracking, Accessibility and more. Raj has been working in UX for 4 years and has considerable experience in planning, running and evaluating user research on a variety of different platforms.
+
+[@RajArjan](http://www.twitter.com/RajArjan)
 
 
 ## [Walt Buchan](http://www.twitter.com/silverfoxyboy)
