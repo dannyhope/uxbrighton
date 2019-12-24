@@ -30,7 +30,7 @@ This is exactly where Rob Gillham’s talk picks up. Rob will give a talk coveri
 Rob’s talk involves a 1 hour sneak peak into HFI’s ‘Psychology, Emotion & Trust’ training course, normally only available for paying customers.
 Rob Gillham is a Project Director at Human Factors International (HFI), the world’s largest UX consultancy with offices in UK, US, Germany, India, China and Singapore.
 
-##Audience Participation Eye tracking demo
+## Audience Participation Eye tracking demo – Rebecca Gill
 
 After the talks we'll be cracking open the beers (and wine and snacks) for an eye tracking demo from the Bunnyfoot crew.
 
