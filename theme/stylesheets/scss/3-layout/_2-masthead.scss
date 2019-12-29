@@ -1,0 +1,350 @@
+
+  $masthead-height: 48px;
+
+
+  body {
+    padding-top: $masthead-height;
+    @include over-m {
+    }
+  }
+
+
+
+  .masthead {
+    height: $masthead-height;
+    transition: all 0s linear 0.4s;
+    position: fixed;
+    left: 0;right: 0;
+    top: 0;
+    bottom: auto;
+    background: #fff;
+    z-index: 100;
+    font-weight: 700;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    @media (max-width: 830px) {
+      .container {
+        padding: 0 !important;
+      }
+    } 
+  }
+  .masthead__logo {
+    float: left;
+    width: $masthead-height;
+    @media (min-width: 830px) {
+      min-width: 80px;
+      width: 10vh;
+      max-width: 120px;
+      transition: none !important;
+    }
+  }
+
+  // .logo-shrink {
+  //   overflow: hidden;
+  // }
+  body.scroll-started .masthead__logo {
+    min-width: unset;
+    width: $masthead-height;
+  }
+
+  .masthead__links { 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    @include over-m {
+      position: relative;
+      right: 0;
+      //margin-left: 20px;
+    }
+    // @include under-m {
+    //   overflow: hidden;
+    //   width: calc(100vw - #{$masthead-height});
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: $masthead-height;
+    //   right: 0;
+    // }
+  }
+
+  // .masthead .nav-item {
+  //   @include under-m {
+  //     display: block;
+  //     width: 8rem;
+  //     float: left;
+  //     a{
+  //       padding: 8px 0 12px !important;
+  //     }
+  //     img,svg {
+  //       height: 18px !important;
+  //       width: auto !important;
+  //       display: block;
+  //       margin: 0 auto 4px !important;
+  //       top: 0 !important;
+  //       position: static !important;
+  //       [data-overlay-trigger="slack"] & {
+  //         margin-bottom: 10px !important;
+  //       }
+  //     }
+  //   }    
+  //   @include under-s {
+  //     display: block;
+  //     width: 33.33%;
+  //     float: left;
+  //   }    
+  // }
+  // // .page-conference-2018 .masthead .nav-item {
+  // //   @include under-m {
+  // //     float: left;
+  // //   }    
+  // // }
+  // .masthead__link {
+  //     padding: 16px;
+  //     line-height: 16px;
+  //     text-decoration: none;
+  // }
+  // .masthead__links a {
+  //   @include under-m {
+  //     font-size: 11px;
+  //     letter-spacing: 0;
+  //     text-align: center;
+  //     width: 100%;
+  //     border-right: 1px solid #eee;
+  //     //&.masthead__link {
+  //       padding: 17px 0 15px;
+  //     //}
+  //     height: 49px;
+  //   }
+  // }
+  .masthead__link {
+    padding: 16px;
+    line-height: 16px;
+    text-decoration: none
+  }
+
+
+  @include over-s {
+    // nav ul {
+    //   padding: 0 14px;
+    // }
+
+    .masthead__links a {
+      font-size: 16px;
+      padding: 16px 7px 15px !important;
+    }
+  }
+
+  @media only screen and (max-width: 622px) {
+    .masthead__links a {
+      font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: $width-m)  {
+    .nav-hidden-under-m {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 483px) {
+    .nav-hidden-under-s {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 374px) {
+    nav ul {
+      padding: 0 8px;
+    }
+
+    .masthead__links a {
+      font-size: 11px;
+      padding: 17px 4px 15px !important;
+    }
+  }
+
+  .masthead__link,
+  .masthead__link:hover {
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+    }
+  .masthead__link:before {
+      content: '';
+      background: $color-link-hover;
+      height: 0.3em;
+      width:0;
+      bottom: 0;
+      left: 0;
+      // left:50%;
+      // right: 50%;
+      // right: auto;
+      position: absolute;
+      z-index: -1;
+      //transition: all 0.4s;
+    }
+    .active .masthead__link:before {
+      //transition: all 0.4s 0.2s;
+    }
+    .masthead__link:hover:before,
+    .active .masthead__link:before,
+    .active .masthead__link:before {
+      width: 100%;
+      //left: 0;
+      right: 0;
+      z-index: 0;
+    } 
+    // a:hover:before {
+    //   background: $color-black;
+    // }   
+  .masthead__link--last {
+    border-right: 0 none !important;
+  }
+  .nav-item--tickets {
+    @include over-m {
+      float: right;
+      margin: 8px;
+    }
+    @include under-m {
+      border: 0 none;
+      a {
+        // display: inline-block;
+        // border: 0 none;
+        // border-radius: 0;
+        // font-weight: 900;
+        // padding: 19px 5px 18px;
+        // height: $masthead-height;
+      }
+    }
+    @include under(400px) {
+      a {
+        padding: 13px 10px;
+        letter-spacing: 0.25px; 
+      }
+    }
+    @include under(330px) {
+      a {
+        padding: 13px 0;
+      }
+    }
+
+    @include under-s {
+      border: 0 none;
+      a {
+        border: 0 none;
+        border-radius: 0;
+        font-weight: 900;
+        letter-spacing: 0.25px;     
+      }
+    }
+  }
+
+
+
+    @media only screen and (min-width: 731px) {
+      .masthead__links a {
+        padding-top: 16px !important;
+      }
+    }
+
+  
+
+
+    #slack-signup {
+      display: none;
+    }
+    [data-overlay-active="slack"] #slack-signup {
+      display: block;
+      position: fixed;
+      z-index: 9999;
+    }
+
+    [data-overlay-active="newsletter"] #newletter-signup {
+      position: fixed;
+      z-index: 9999;
+      background: #fff;
+      padding: 20px;
+    }
+    [data-overlay-active="newsletter"] #newletter-signup form {
+      max-width: calc(100vw - 40px);
+    }
+
+    [data-overlay-active="slack"] #slack-signup,
+    [data-overlay-active="newsletter"] #newletter-signup {
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.6);
+    }
+    [data-overlay-active="slack"] .overlay-active-underlay,
+    [data-overlay-active="newsletter"] .overlay-active-underlay {
+      display: block;
+    }
+    /*contents*/
+      [data-overlay-active="slack"] #slack-signup h2,
+      [data-overlay-active="newsletter"] #newletter-signup h2, 
+      [data-overlay-active="newsletter"] #newletter-signup label,
+      [data-overlay-active="newsletter"] .text-black-on-overlay {
+        color: #000;
+      }
+      [data-overlay-active="newsletter"] #newsletter-options {
+        display: block;
+        animation: fade 0s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards, 
+        slideDownEmailOptions 0s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s 1 normal forwards
+      }
+      [data-overlay-active="newsletter"] #newletter-signup nav {
+        display: none;
+      }
+      [data-overlay-active="newsletter"] #newletter-signup:before {
+        position: absolute;
+        content: '';
+        top: -7px;
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid white;
+        right: 30px !important;
+      }
+      [data-overlay-active="slack"] #slack-signup [type="email"],
+      [data-overlay-active="newsletter"] #fieldEmail {
+        border-style: solid;
+        box-shadow: 1px 2px 1px rgba(0,0,0,0.1) inset;
+        width: 100%;
+      }
+
+
+    @media (max-width:800px) {
+      [data-overlay-active="slack"] #slack-signup,
+      [data-overlay-active="newsletter"] #newletter-signup {
+        top: 49px; 
+        left: 0;
+        right: 0;
+        width: 100%;
+      }
+      [data-overlay-active="slack"] #slack-signup:before,
+      [data-overlay-active="newsletter"] #newletter-signup:before {
+        display: none;
+      }
+    }
+
+    @media (min-width:1320px) {
+      [data-overlay-active="newsletter"] #newletter-signup {
+        margin: 0 0 0 610px;
+      }
+      [data-overlay-active="slack"] #slack-signup {
+        margin: 0 0 0 810px;
+      }
+    }
+    @media (max-width:1319px) {
+      [data-overlay-active="newsletter"] #newletter-signup {
+        margin: 0;
+        right: 240px;
+      }
+      [data-overlay-active="slack"] #slack-signup {
+        margin: 0;
+        right: 100px;
+      }
+    }
+    @media (min-width:800px) {
+      [data-overlay-active="slack"] #slack-signup,
+      [data-overlay-active="newsletter"] #newletter-signup {
+        border-radius: 3px;
+        top: 56px;
+        width: 410px;
+      }
+    }

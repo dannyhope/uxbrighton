@@ -1,0 +1,24 @@
+// Another screenreader option to help with better decriptive semantics
+/* Text meant only for screen readers. */
+.screen-reader-text,
+.visually-hidden {
+  position: fixed !important;
+  _position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.screen-reader-text:focus,
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  //position: relative;
+  z-index: 99999; // above the wp admin-bar
+  background: #fff;
+  color: #000;
+  width: auto;
+}
+
+

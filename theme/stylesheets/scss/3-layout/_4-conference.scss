@@ -1,0 +1,297 @@
+////////////////////////////////////
+//
+//   Speaker Grid Nav
+
+  .talk__image-link {
+    margin: 0;
+    display: block;
+    position: relative;
+    img {
+      box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+      border-radius: $border-radius;      
+    }
+    .talk__image-link__caption{
+      font-size: $size-leader;    
+      line-height: 1;
+      letter-spacing: -0.03em;
+      position: absolute;
+      bottom: 2px * $ssi;
+      line-height: 1;
+      max-width: calc(100% - 10px);
+
+      @include under-l { 
+        font-size: $size-leader * 0.666;    
+      }
+      @include under-m { 
+        display: none;
+      }
+    }
+    .talk__image-link__caption--1 {
+      font-weight: 900;
+      margin-bottom: 8px;
+      color: #fff;
+      background: rgba(0,0,0,0.6);
+      padding: 1px * $ssi;
+    }
+    &:hover {
+      .talk__image-link__caption--1 {
+        background: $color-red;
+      }
+    }
+    .talk__image-link__caption--2 {
+      
+    }
+  }
+
+
+////////////////////////////////////
+//
+//  Speaker / talk list
+
+  .talk {
+    border-top: 1px solid #eee;
+  }
+  .talk * {
+    transition: 0.1s  cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .talk:first-of-type {
+    margin-top: 0;
+  }
+
+  .talk__photo-wrapper {
+    @include under-s {
+      max-width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-bottom: 3px * $ssi;
+    }
+  }
+
+
+
+// TALK HEADINGS
+  .talk__heading {
+    margin-top: 0;
+  }
+  .talk__time {
+    color: #80878a;
+    color: $color-green;
+    display: inline-block;
+  }
+  .talk h4 {
+    font-size: 24px;
+    margin: 1em 0 0.5em;
+  }
+  .talk__speaker-links {
+    overflow: hidden;
+  }
+  @media (max-width:640px) {
+    .talk,
+    .talk * {
+      float: none;
+      text-align: center;
+      width: auto;
+    }
+    .talk li,
+    .talk p {
+      text-align: left !important;
+      hyphens: auto;
+    }
+    .talk__time {
+      display: block;
+    }
+    .talk__speaker-links a {
+      display: block;
+      float: none;
+      padding-bottom: 8px;
+    }
+    .talk .talk__photo-wrapper {
+      margin: 16px auto;
+      float: none !important;
+      max-width: 50%;
+      padding: 0;
+    }
+    .talk .talk__text-wrapper {
+      display: block;
+      clear: both;
+      width: auto !important;
+      padding: 0;
+    }
+  }
+
+
+
+
+  // Text Toggled
+
+
+    .js-show-talk-details,
+    .js-show-talk-details__show,
+    .js-show-talk-details__hide,
+    .js .talk.talk-toggled-to-display .js-show-talk-details__show {
+      display: none;
+    }
+    // .js .talk-toggled-to-display .js-show-talk-details__hide,
+    // .js .talk-text-toggled-by-default .js-show-talk-details__show {
+    //   padding-top: 12px;
+    //   display: block;
+    //   clear: both;
+    //   font-weight: 600;
+    //   cursor: pointer;
+    //   color: $color-link;
+    //   &:hover {
+    //     text-decoration: underline;
+    //   }
+    // }
+    // .js .talk-text-toggled-by-default .talk .talk__abstract,
+    // .js .talk-text-toggled-by-default .talk .talk__speaker-bio {
+    //   max-height: 0;
+    //   overflow: hidden;
+    //   opacity: 0;
+    //   margin-bottom: 0;  
+    // }
+    // .js .talk-text-toggled-by-default .talk.talk-toggled-to-display .talk__abstract,
+    // .js .talk-text-toggled-by-default .talk.talk-toggled-to-display .talk__speaker-bio {
+    //   opacity: 1;
+    //   max-height: 1000px;
+    // }
+
+    // .js .talk-text-toggled-by-default {
+      
+    // }
+    // .js .talk-text-toggled-by-default .talk__photo-wrapper {
+    //   width: 200px;
+    // }
+    // .js .talk-text-toggled-by-default .talk__text-wrapper {
+    //   width: calc(100% - 230px;)
+    // }
+    // @media (max-width:500px) {
+    //   .js .talk-text-toggled-by-default .talk__photo-wrapper {
+    //     width: 70%;
+    //     margin-left: 15%;
+    //     margin-right: 15%;
+    //     margin-bottom: 0;
+    //   }
+    // }
+
+
+
+
+
+
+
+////////////////////////////////////
+//
+//  In-page Nav
+
+  .show-if--nav--in-page-is-stuck,
+  .nav--in-page-is-stuck .hidden-if--nav--in-page-is-stuck {
+    display: none;
+  }
+  .nav--in-page-is-stuck .show-if--nav--in-page-is-stuck {
+    display: inline-block;
+  }
+  .nav--in-page a {
+    padding: 18px;
+  }
+  .nav--in-page .active a {
+    background: #C9003A;
+    color: #fff;
+  }
+  .nav--in-page .active a .stamped {
+    color: transparent;
+  }
+  @media (max-width: 450px) {
+    .nav--in-page .nav {
+      padding: 0;
+      display: flex;
+      display: flex;
+      flex:1;
+    }
+    .nav--in-page .nav .nav-item {
+      display: flex;
+      flex:1;
+    }
+    .nav--in-page .container {
+      padding: 0;
+    }
+    .nav--in-page .nav .hidden-if--nav--in-page-is-stuck,
+    .nav--in-page .nav a {
+      padding: 18px 3px !important;
+      font-size: 11px;
+      letter-spacing: 0;
+      text-align: center;
+      width: 100%;
+      border-left: 1px solid #eee;
+    }
+  }
+
+
+
+////////////////////////////////////
+//
+//  Attendee Info
+
+  .columnar-list { columns: 3; }
+  @media (max-width:680px) {
+    .columnar-list { columns: 2; }
+  }
+  @media (max-width:400px) {
+    .columnar-list { columns: 1; }
+  }
+  .attendee-info-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .attendee-info-icon {
+    display: flex;
+    flex: 1;
+    opacity: 0.34;
+    height: 50px;
+    width: auto;
+  }
+  @media (max-width:680px) {
+    .attendee-info-icon { height: 30px; }
+  }
+  @media (max-width:400px) {
+    .attendee-info-icon { height: 21px; }
+  }
+
+
+////////////////////////////////////
+//
+//  Sponsors
+
+  .sponsor__links {
+    margin-left: -8px;
+  }
+  .sponsor__link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+  }
+  .sponsor__link:hover {
+    color: #000;
+  }
+  .sponsor__links svg {
+    width: 24px;
+    height: 24px;
+  }
+  .sponsor__logo {
+    align-items: center;
+    justify-content: center;
+  }
+  .sponsor__logo--3-star {
+    min-height: 130px !important;
+  }
+  .sponsor__logo--3-star img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+
+
+
