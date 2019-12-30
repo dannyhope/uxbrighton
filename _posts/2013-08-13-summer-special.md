@@ -8,7 +8,7 @@ lanyrd-url: http://lanyrd.com/2013/ux-brighton-summer-special/
 ---
 UX Brighton is back! Join us on the 13th of August at the beautiful Fabrica Gallery for an evening with some truly inspiring speakers.
 
-## Launching probes and releasing trojan mice - Sam Hill
+## Hello Lamp Post - Sam Hill
 
 Sam is co-founder of PAN, a critical design studio established to create enriching and affecting experiences. Established in 2011, PAN creates interactive pieces and theatrical installations, as well as designing products, systems and services to enrich every day experiences.
 
