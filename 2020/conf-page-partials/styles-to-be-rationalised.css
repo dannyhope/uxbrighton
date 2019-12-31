@@ -1,3 +1,11 @@
+  .container {
+    max-width: 1150px !important;
+  }
+  @media (min-width: 1320px) {
+    [data-overlay-active="newsletter"] #newletter-signup {
+        margin: 0 0 0 480px;
+    }    
+  }
 
   .masthead {
     background:#1a272c;
@@ -158,8 +166,6 @@
       background: white;
       padding: 16px;
       border-radius: 2px;
-
-
       opacity: 0;
       transition: opacity 0s;
     }
@@ -169,12 +175,10 @@
       position: fixed;
       top: 68px;
       transition: opacity 0.5s;
+      box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1)
     }
     .nav--in-page .nav-item--tickets {
       display: none;
-    }
-    .container {
-      max-width: 1150px;
     }
     .if-cta-is-stuck__adjacent-content {
       width: 100%;
