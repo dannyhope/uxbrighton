@@ -217,6 +217,8 @@
       line-height: 1;
       border-radius: 10px;
       min-width: 14px;
+      position: relative;
+      top: -2px;
     }
     @media only screen and (min-width: 451px) {
       .masthead__links .masthead__link.unviewed--single {
@@ -226,16 +228,11 @@
         padding: 16px 14px 15px 7px !important;
       }
       span.unviewed {
-        position: absolute;
-        top: 8px;
-        right: -4px;
+        top: -10px;
+        right: 4px;
       }
     }
     @media only screen and (max-width: 450px) {
-      span.unviewed {
-        position: relative;
-        top: -2px;
-      }
       .masthead__links .masthead__link {
         padding: 16px 0px !important;
       }
