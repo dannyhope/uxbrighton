@@ -9,7 +9,7 @@ upcoming: false
 
 UX Brighton evenings returned with UX Oktoberfest - our last event before November's big conference. Join us on 8th October at Fabrica Gallery for three talks from three fantastic speakers, none of whom - sadly - have consented to wearing their lederhosen.
 
-## Cognitive biases & design - Jerome Ribot
+## Cognitive biases & design – Jerome Ribot
 
 <div class="embed-container hd">
 <iframe width="560" height="315" src="//www.youtube.com/embed/SFPKRSAjsV4?list=PLmeBKCinpyZ-sEPG7a-pD0bHfU1Kfalu8" frameborder="0" allowfullscreen></iframe>	
@@ -39,7 +39,7 @@ Jason is Head of User Experience at Plan Strategic, a Product Strategy consultan
 [@jasonmesut](http://twitter.com/jasonmesut)
 
 
-## Using Design for Competitive Advantage - Andy Budd
+## Using Design for Competitive Advantage – Andy Budd
 
 <div class="embed-container hd"><iframe width="560" height="315" src="//www.youtube.com/embed/otqFLcKGraQ?list=PLmeBKCinpyZ-sEPG7a-pD0bHfU1Kfalu8" frameborder="0" allowfullscreen></iframe></div>
 
