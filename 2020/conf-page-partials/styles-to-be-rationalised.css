@@ -1,3 +1,10 @@
+@media only screen and (max-width: 400px) {
+  .template--2020 .fs-xxxl {
+    font-size: 3.0rem;
+  }
+}
+
+
   .container {
     max-width: 1150px !important;
   }
@@ -143,7 +150,6 @@
     }
     .nav-item--tickets {
       float: right;
-      margin: 8px;
     }
     .nav--in-page .container {
       padding: 0;
