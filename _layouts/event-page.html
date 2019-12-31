@@ -12,19 +12,18 @@
 
     <!-- facebook open graph tags -->
       <meta property="og:type" content="website">
-      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}">
-      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
-      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
-      <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% endif %}">
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}" >
 
 
     <!-- twitter card tags additive with the og: tags -->
       <meta name="twitter:card" content="summary_large_image" >
-      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% endif %}" >
       <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
-      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
-      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
-      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}" >
+      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% endif %}" >
+      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% endif %}" >
 
   <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -38,16 +37,8 @@
     <meta name="theme-color" content="#ffffff">
 
   <!-- Stylesheets -->
-    <link rel="stylesheet" href="/2018/fonts/museo/sans/font.css">
-    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css?v=2019">
-
-
-    <!-- schema.org snippets. needed? useful? -->
-    <meta itemprop="startDate" content="2018-11-02T09:30">
-    <meta itemprop="endDate" content="2018-11-02T17:30">
-    <meta itemprop="duration" content="0000-00-00T08:00">
-    <link itemprop="url" href="http://uxbrighton.org.uk/2018/" rel="author"/>
-    <meta itemprop="description" content="UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information.">
+    <link rel="stylesheet" href="/theme/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/theme/stylesheets/css/styles.css?v=2019">
 
 
   <!-- Pre dom-ready scripts -->
@@ -55,7 +46,6 @@
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
       window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
     </script>
-
   	{% if page.art-direction %}
 			<style media="screen">
 				{{page.art-direction}}
@@ -122,7 +112,7 @@
 
 
 
-<body id="top" class="relative {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+<body id="top" class="relative template--event {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
   
   {% include tracking-body.html %}
 

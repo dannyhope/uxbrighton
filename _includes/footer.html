@@ -206,24 +206,44 @@
   <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
 
 
-<style>
-span.unviewed {
-  display: inline-block;
-  text-align: center;
-  background: #c9003a;
-  color: white;
-  font-size: 10px;
-  padding: 3px 3px 3px 4px;
-  line-height: 1;
-  border-radius: 10px;
-  position: absolute;
-  top: 8px;
-  right: -6px;
-}  
-.is-invalid {
-  box-shadow: 0 1px 10px red;
-}
-</style>
+  <style>
+    span.unviewed {
+      display: inline-block;
+      text-align: center;
+      background: #c9003a;
+      color: white;
+      font-size: 10px;
+      padding: 2px 2px 2px 3px;
+      line-height: 1;
+      border-radius: 10px;
+      min-width: 14px;
+    }
+    @media only screen and (min-width: 451px) {
+      .masthead__links .masthead__link.unviewed--single {
+        padding: 16px 10px 15px 7px !important;
+      }
+      .masthead__links .masthead__link.unviewed--double {
+        padding: 16px 14px 15px 7px !important;
+      }
+      span.unviewed {
+        position: absolute;
+        top: 8px;
+        right: -4px;
+      }
+    }
+    @media only screen and (max-width: 450px) {
+      span.unviewed {
+        position: relative;
+        top: -2px;
+      }
+      .masthead__links .masthead__link {
+        padding: 16px 0px !important;
+      }
+    }
+    .is-invalid {
+      box-shadow: 0 1px 10px red;
+    }
+  </style>
 
 
   <script>
@@ -324,10 +344,11 @@ span.unviewed {
     ];
     var jobs_stored = getCookie('jobs_stored');
     jobs_stored = JSON.parse(jobs_stored);
-    var jobs_diff    = $(jobs_current).not(jobs_stored).get().length;
+    var jobs_diff  = $(jobs_current).not(jobs_stored).get().length;
+    var unviewed_number = "unviewed--single";
     if (jobs_diff > 0) {
-      if (jobs_diff > 9) { jobs_diff = "9+" };
-      $('.masthead__link--jobs').prepend('<span class="unviewed">'+jobs_diff+'</span>');
+      if (jobs_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
+      $('.masthead__link--jobs').addClass(unviewed_number).append('<span class="unviewed">'+jobs_diff+'</span>');
     };
   </script>
 
@@ -365,9 +386,10 @@ span.unviewed {
     var json_str = JSON.stringify(upcoming_stored);
     setCookie('upcoming_stored', json_str);
     var upcoming_diff    = $(upcoming_current).not(upcoming_stored).get().length;
+    var unviewed_number = "unviewed--single";
     if (upcoming_diff > 0) {
-      if (upcoming_diff > 9) { jobs_diff = "9+" };
-      $('.masthead__link--events').prepend('<span class="unviewed">'+upcoming_diff+'</span>');
+      if (upcoming_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
+      $('.masthead__link--events').addClass(unviewed_number).append('<span class="unviewed">'+upcoming_diff+'</span>');
     };
   </script>
 
