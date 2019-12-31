@@ -93,64 +93,28 @@ fullurl: "https://uxbrighton.org.uk/2018/"
 
 
 
+
+
     <div class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
       <div class="container ">
-        <ul class="nav ">
-
+        <ul class="nav ph0">
           <li class="inline-block nav-item color-black">
-            <div class="hidden-if--nav--in-page-is-stuck">
-              In this page:
-            </div>
-            <a href="#intro" class="show-if--nav--in-page-is-stuck  nav-link color-black">
-              Intro<span class="hidden-under-m">duction</span>
+            <a href="#top" class="highlight-if--nav--in-page-is-stuck nav-link color-black">
+              Top
             </a>
           </li>
-          {% if page.name == "index.html" %}
-            <li class="nav-item inline-block">
-              <a href="#speakers" class=" nav-link color-black">Talks</a>
-            </li>
-            <!-- <li class="nav-item inline-block">
-              <a href="#venue" class=" nav-link">Venue</a>
-            </li> -->
-            <li class="nav-item inline-block ">
-              <a href="#sponsors" class=" nav-link color-black">Sponsors</a>
-            </li>
-            <li class="nav-item inline-block relative">
-              <a href="#workshop" class=" color-black">Workshop <span class="stamped">sold out</span></a>
-            </li>
-          {% endif %}
-          {% if page.name == "info.html" %}
-            <li class="nav-item inline-block">
-              <a href="#before" class=" nav-link">Before</a>
-            </li>
-            <li class="nav-item inline-block">
-              <a href="#travel-and-accomodation" class=" nav-link">Travel</a>
-            </li>
-            <li class="nav-item inline-block relative">
-              <a href="#on-the-day" class=" ">On the day</a>
-            </li>
-          {% endif %}
-          {% if page.name != "info.html" %}
-            {% if page.name == "top-tasks-workshop-with-gerry-mcgovern.html" %}
-            <!--              
-              <li class="nav-item inline-block nav-item--tickets">
-                <a
-                 href="https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets"
-                 class="button button--green">Sold Out
-                </a>
-              </li> -->
-              {% else %}
-              <!-- <li class="nav-item inline-block nav-item--tickets">
-                <a
-                 href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets"
-                 class="button button--green">Buy Tickets 
-                </li>-->
-              {% endif %}
-          {% endif %}
+          <li class="nav-item inline-block ">
+            <a href="#speakers" class=" nav-link color-black">Talks</a>
+          </li>
+          <li class="nav-item inline-block nav-item--sponsors hidden-under-m">
+            <a href="#sponsors" class=" nav-link color-black">Sponsors</a>
+          </li>
+          <li class="nav-item inline-block nav-item--other-workshop">
+            <a href="#workshop" class=" nav-link color-black">Workshop</a>
+          </li>
         </ul>
-      </div>      
+      </div>
     </div>
-
 
 
 
