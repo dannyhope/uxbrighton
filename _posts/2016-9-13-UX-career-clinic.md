@@ -30,7 +30,7 @@ art-direction: ".event-detail_desc img{vertical-align: middle} @media (max-width
 </style>
 
 
-[Writeup from a mentor’s point of view (blog post by Rachel McConnell of RSA)](https://rsa.digital/2016/11/21/rsa-digital-goes-to-ux-brighton-career-clinic/ )
+[Writeup from a mentor’s point of view (blog post by Rachel McConnell of RSA)](https://web.archive.org/web/20161222002302/https://rsa.digital/2016/11/21/rsa-digital-goes-to-ux-brighton-career-clinic/ )
 
 Following the success of our [last UX Career Clinic](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/), [we're back again](http://brightondigitalfestival.co.uk/event/ux-career-clinic-supercharge-ux-career/) as part of the [Brighton Digital Festival](http://brightondigitalfestival.co.uk/).
 
