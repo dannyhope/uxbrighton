@@ -68,6 +68,6 @@ Here's what one attendee from our previous career clinic had to say:
 
 Here’s [what mentors from The Unit had to say about our last career clinic](http://www.theunit.co.uk/our-thinking/2015/portfolio-clinic-at-ux-brighton).
 
-And here’s a [writeup from digital agency No Pork Pies](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/).
+And here’s a [writeup from digital agency No Pork Pies](https://web.archive.org/web/20160818085301/http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/).
 
 
