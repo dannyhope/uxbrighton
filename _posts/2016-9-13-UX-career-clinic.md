@@ -66,8 +66,8 @@ Here's what one attendee from our previous career clinic had to say:
 
 <strong>If you are coming, be sure to read our [tips for attendees](/careers-clinic-2016-attendees-guide)</strong>.
 
-[Here's](http://www.theunit.co.uk/our-thinking/2015/portfolio-clinic-at-ux-brighton) what mentors from [The Unit](http://www.theunit.co.uk) had to say about our last Career Clinic.
+Here’s [what mentors from The Unit had to say about our last career clinic](http://www.theunit.co.uk/our-thinking/2015/portfolio-clinic-at-ux-brighton).
 
-And [here's](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/) a write up from digital agency [No Pork Pies](http://www.noporkpies.com/).
+And here’s a [writeup from digital agency No Pork Pies](http://www.nppdigital.com/blog/user-experience/ux-brighton-career-clinic-2014/).
 
 
