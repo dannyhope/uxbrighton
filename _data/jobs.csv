@@ -14,7 +14,7 @@ optional (if we don’t know the date, leave it completely empty)
 
 Here, it tells 2K Hangar 13 that applicants found the job via Indeed instead of UX Brighton.
 ",https://www.google.com/search?q=markdown+cheatsheet&oq=markdown+cheatsheet&aqs=chrome..69i57j0l6j69i60.4019j0j7&sourceid=chrome&ie=UTF-8,,,1. File › Download › Comma-seperated values,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://jsbin.com,,,"2. Rename it to ""jobs.csv"" and drag it into the _data folder (Github)",_data folder
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://jsbin.com,,,"2. Rename it ""jobs.csv"" and drag it into _data folder on Github",_data folder
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,☝️remember to select Markdown from the little list in the top-riught,,,3. Wait a minute then load the UX Brighton jobs page,UX Brighton jobs page
 1,glenn.jones@madgex.com,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 7 Mar ’19",unlimited,#VALUE!,,,,,jjid20190307T1357-01,Interaction Designer,Madgex,https://www.energyjobline.com/getasset/5048d4b8-02c8-46be-930e-a6ab8330f73b/,Brighton,,Permanent,£55000-65000,FALSE,"£55,000","£65,000","60,000",0.9,high,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
@@ -1218,14 +1218,14 @@ Use the research output to communicate how user interface designs will be percei
 Flexible working and job share conversations are encouraged. Across our multi-brands, we’re proud to be an equal opportunities employer that champions a diverse and inclusive culture. If you’re reading this, even if you’re not 100% sure you’re there with your experience, we’d still love to hear from you. If you’d like to find out more head to [Sainsburys Digital](https://sainsburys.jobs/roles/digital-tech-data/digital/)
 
 ",FALSE,TRUE,,
-22,Tom Cox tom@15gifts.com,,,,,,,,https://15gifts.com/ux-designer/,,,,ko38r4h,UX Designer,15 Gifts Ltd,,Brighton,,Permanent,£35000-40000,FALSE,"£35,000","£40,000","37,500",0.1,low,TRUE,https://15gifts.breathehr.com/application/5933/new,"# About the role
+22,Tom Cox tom@15gifts.com,,,,,,,,https://15gifts.com/ux-designer/,,,,ko38r4h,UX Designer,15 Gifts Ltd,,Brighton,,Permanent,£35000-40000,FALSE,"£35,000","£40,000","37,500",0.1,low,TRUE,https://15gifts.breathehr.com/application/5933/new,"## About the role
 Due to significant growth, we are now looking for a talented UX designer to join the product team and help drive our products forward.
 
 This is a fantastic opportunity, that would allow you to work closely with leading UK and global brands, as well as having a large influence on a young product.
 
 The ideal candidate would have 2+ years of UX design experience within a digital agency or product environment.
 
-# The person we are looking for…
+## The person we are looking for…
 - 2+ years as a UX practitioner, ideally within a digital product based environment
 
 - Demonstrable history of reasoned UX decision making
@@ -1242,7 +1242,7 @@ The ideal candidate would have 2+ years of UX design experience within a digital
 
 - Empathy for customer needs, but can also consider technical limitations and business goals.
 
-#You will be responsible for
+## You will be responsible for
 - Working alongside our product owners and visual designers to create groundbreaking digital solutions
 
 - Conducting usability tests and user research
@@ -1259,7 +1259,7 @@ The ideal candidate would have 2+ years of UX design experience within a digital
 
 - Planning, creating and facilitating UX workshops
 
-# About 15gifts
+## About 15gifts
 At 15gifts, we’re obsessed with the psychology of choice. We study the key principles that drive people to make confident choices on the high-street, and we pour this insight into our intelligent decision-engine technology to replicate the experience online.
 
 We work with some of the world’s leading brands, powering thousands of confident customer decisions every day. Our partners include Verizon, O2, Sky, Virgin Media, EE, BT and The Times.
@@ -1268,7 +1268,7 @@ With every interaction we learn more about our customers – gathering insights 
 
 We’re a fast-growing company and we’re excited about the opportunities that lie ahead. We’re a team that’s made of driven, ambitious and exceptional individuals and we’re looking for like-minded people to become part of our success story.
 
-# Our culture
+## Our culture
 Our success is underpinned by our cultural values. These values are not something we stick up on a wall – they don’t need to be. They are behaviours that we recognise and celebrate in each other. They are what we live by every day..
 
 15gifts cultural values:
@@ -1285,7 +1285,7 @@ Our success is underpinned by our cultural values. These values are not somethin
 
 Our values are driven through Culture Club – a staff team that rotates every quarter. Advocates for our culture as we grow, Culture Club activates ideas, makes improvements and helps everyone to connect.
 
-# Working at 15gifts
+## Working at 15gifts
 We can confidently say that our sea-view office is one of Brighton’s best. Our flexible workspaces mean you’re not tied to a desk, unless you want to be.
 
 You could work in a sociable spot on floor 4, or set yourself up with a screen on floor 3. This is everyone’s space and it’s available after work – our staff host everything from gaming and craft nights to adventure film screenings.
