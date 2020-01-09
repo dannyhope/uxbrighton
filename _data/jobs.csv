@@ -1,8 +1,8 @@
 ,Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be live,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,employer,logo-link,location,apply-by-date,work-pattern,money,money is guess,money min,money max,money median,rank,money-indication,show-salary,apply-link,extended-description,publish,,How to publish jobs,
-,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,based on the contract,Where you discovered the thing and where the content was extracted from,,,,a random string of letters (used in job links and analtytics),,,"Logos are part of the adverts, we don’rt store them on our own websirte we need a link to the logo wherever it currently is","tell the client that this is required, be as specifific as possible","lets the job hunter know the deadline
+,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,based on the contract,Where you discovered the thing and where the content was extracted from,total since the ad first went online,total since the ad first went online,,a random string of letters (used in job links and analtytics),,,"Logos are part of the adverts, we don’rt store them on our own websirte we need a link to the logo wherever it currently is","tell the client that this is required, be as specifific as possible","lets the job hunter know the deadline
 
 optional (if we don’t know the date, leave it completely empty)
-",this appears in the job description,Calculated automatically,if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
+",this appears in the job description,Generated automatically,if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
 0.2-<0.4    = med-low
 0.4-<0.6    = med
 0.6-<0.8    = med-high
@@ -1313,7 +1313,7 @@ You could work in a sociable spot on floor 4, or set yourself up with a screen o
 
 Based in West Sussex, we are in a position to provide a genuine work life balance as well as the opportunity to work with a skilled team on interesting and challenging technology - there is no need to compromise.
 
-###What are we looking for?
+### What are we looking for?
 
 Working within the tight knit development team you will deliver development-ready assets and UX guidelines for the team, whilst also sharing best-practice on UX/UI design and development, working towards a common framework to speed up development and issue resolution.
 
@@ -1353,10 +1353,10 @@ Experience using appropriate UX techniques to develop understanding of problems 
 - Ride to work scheme
 - Fantastic social events!
 - Complimentary food and drink",TRUE,FALSE,,
-24,Richard Hirst 01403 232323,,,,,,,,https://www.rsagroup.com/careers/,,,,nviuo3,UX Researcher,RSA Group,https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png,Horsham,,Permanent,,TRUE,,,,,,FALSE,https://www.rsagroup.com/careers/search-our-vacancies/uk-job-application/?jobId=Q0JFK026203F3VBQB7968F6Z6-71008&langCode=en_GB,"###Job Description
+24,Richard Hirst 01403 232323,,,,,,,,https://www.rsagroup.com/careers/,,,,nviuo3,UX Researcher,RSA Group,https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png,Horsham,,Permanent,,TRUE,,,,,,FALSE,https://www.rsagroup.com/careers/search-our-vacancies/uk-job-application/?jobId=Q0JFK026203F3VBQB7968F6Z6-71008&langCode=en_GB,"### Job Description
 The UX Researcher will join our growing Experience Design Team, based in Horsham/Liverpool. This role is critical to discover and champion the needs of our users and provide insights for significant and impactful changes across all our products. Collaboration with the digital team is key as this role is involved in research, discovery, sketching, prototyping and testing, putting the user at the centre of the process.
 
-###Responsibilities will include
+### Responsibilities will include
 - Running workshops and studies to gather both qualitative and quantitative feedback on our products
 - Planning and conducting a range of user research and requirements gathering methods, including A/B testing, user interviews, stakeholder interviews, field studies and guerrilla research
 - Synthesising data and presenting findings to the project teams
@@ -1364,7 +1364,7 @@ The UX Researcher will join our growing Experience Design Team, based in Horsham
 - Developing a strategy for UX research across all products
 - Planning and running lab-based and online usability testing sessions
 
-###What we are looking for from you
+### What we are looking for from you
 - Experience in a similar role
 - Knowledge of UX tools e.g. InVision, Axure etc
 - Experience of running lab-based usability testing sessions
@@ -1375,22 +1375,22 @@ The UX Researcher will join our growing Experience Design Team, based in Horsham
 - Team player, working closely with the digital team
 - Confident to champion User Centred Design across the business
 
-###About Us
+### About Us
 RSA is one of the world's leading FTSE 100 general insurers with a proud heritage dating back over 300 years. We provide high quality, innovative insurance products and services for some 20 million customers in over 100 countries, setting new standards in the industry.
 
 Why are we telling you all this? Well, we’re an ambitious sort of company. And if you’re an ambitious sort of person – with the drive to improve us as you improve yourself – we’ll promise you all the resources and career opportunities you need
 
 We aim to provide every one of our employees with a great work-life balance and the opportunity to contribute to charity. We have a thriving community investment programme, volunteer weeks, social events, focus groups, and team outings.",TRUE,FALSE,,
-25,Richard Hirst 01403 232323,,,,,,,,https://www.rsagroup.com/careers/,,,,hh9e0nc,UX Designer,RSA Group,https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png,Horsham,,Permanent,,TRUE,,,,,,FALSE,https://www.rsagroup.com/careers/search-our-vacancies/uk-job-application/?jobId=Q0JFK026203F3VBQB7968F6Z6-71093&langCode=en_GB,"###Job Description
+25,Richard Hirst 01403 232323,,,,,,,,https://www.rsagroup.com/careers/,,,,hh9e0nc,UX Designer,RSA Group,https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png,Horsham,,Permanent,,TRUE,,,,,,FALSE,https://www.rsagroup.com/careers/search-our-vacancies/uk-job-application/?jobId=Q0JFK026203F3VBQB7968F6Z6-71093&langCode=en_GB,"### Job Description
 We’re looking for a UX Designer to join our team. We understand that job titles and experience can vary in our industry, so whether you’re a UX Designer, UX Researcher, Interaction Designer or an Information Architect we want to hear from you.
 
-###Our Team
+### Our Team
 
 RSA’s digital team is made up of Designers (spanning several disciplines), Researchers, Content Writers, Analysts and Product Managers who believe putting our customers first is the key to creating better products. RSA aspire to become a digital-first organisation, so we’re looking for the brightest minds to help us fulfil this ambition.
 
 Our team oversees the entire digital customer experience, from researching insurance products and buying behaviour, through to claims and policy servicing. We do this for RSA and our partner products, including a number of well known high street brands. RSA also own the popular MoreThan brand, offering a range of insurance products including our innovative SmartWheels telematics insurance for young drivers.
 
-###Responsibilities
+### Responsibilities
 UX Designers at RSA have a research, communication and facilitation focus. We’d expect you to feel comfortable with the following aspects of the role:
 
 - Facilitating workshops and discussions that get to the heart of business and customer needs.
@@ -1402,7 +1402,7 @@ UX Designers at RSA have a research, communication and facilitation focus. We’
 - Communicating information architecture through wireframes, user journeys and sitemaps.
 - Understanding the UCD process and apply it to projects of varying scales to deliver the best business and customer outcomes.
 
-###The Individual
+### The Individual
 We’d love to see evidence of experience in full-time UX roles.
 We're looking for someone has been through the UCD process multiple times, has seen the challenges it can present (particularly in large organisations) and learned from it.
 
@@ -1411,7 +1411,7 @@ We'd like to see:
 - Practical experience of applying UCD methods to commercial projects.
 - Experience of Agile and Lean approaches to digital product design.
 
-###About Us
+### About Us
 RSA is one of the world's leading FTSE 100 general insurers with a proud heritage dating back over 300 years. We provide high quality, innovative insurance products and services for some 20 million customers in over 100 countries, setting new standards in the industry.
 
 Why are we telling you all this? Well, we’re an ambitious sort of company. And if you’re an ambitious sort of person – with the drive to improve us as you improve yourself – we’ll promise you all the resources and career opportunities you need
@@ -1425,13 +1425,13 @@ We aim to provide every one of our employees with a great work-life balance and 
 
 These simple principles guide us through our day to day, and keep us rooted in what is important and who we are making software for. If these resonate with you, than we’d love for you to meet the team.
 
-###What you’ll do....
+### What you’ll do....
 - Create design deliverables appropriate to projects - including flows, diagrams, mockups, interactive prototypes, specs, and assets for stakeholders, validation with users, and engineering teams
 - Manage multiple projects simultaneously across diverse product teams
 - Use, contribute to, and help to maintain Avalara’s product design system
 - Help establish new and/or improve existing workflows as necessary including the full customer journey spanning discovery, purchase, onboarding, and on-going product usage
  
-###What you’ll bring to the role....
+### What you’ll bring to the role....
 - Proven track record working with Product Management and Engineering 
 - Experience analyzing and applying user research to aid in user-centric design solutions
 - Proven application of Design Thinking methodology
@@ -1440,7 +1440,7 @@ These simple principles guide us through our day to day, and keep us rooted in w
 - Expertise in Sketch or equivalent design tools and InVision or equivalent prototype solution
  
 
-###Preferred Qualifications
+### Preferred Qualifications
 - 5-8 years of experience 
 - Bachelors or higher degree in a User Experience related field such as (UX design, HCI, Interaction Design, or Graphic Design.) Or equivalent professional experience
 - Experience designing with design systems a plus
@@ -1448,7 +1448,7 @@ These simple principles guide us through our day to day, and keep us rooted in w
 - Portfolio of 3+ live or shipped projects that you were a principal designer 
  
 
-#Where you will work…
+# Where you will work…
  
 
 Avalara helps businesses of all sizes achieve compliance with transactional taxes, including VAT, sales and use, excise, communications, and other tax types. We deliver comprehensive, automated, cloud-based solutions that are fast, accurate, and easy to use.
@@ -1460,7 +1460,7 @@ Avalara’s headquarters are in Seattle, WA and it has offices across the U.S. a
 Avalara is an Equal Opportunity Employer.  All qualified candidates will receive consideration for employment without regard to race, color, creed, religion, age, gender, national orientation, disability, sexual orientation, US Veteran status, or any other factor protected by law.
 
 Avalara is committed to working with and providing reasonable accommodations to job applicants with physical or mental disabilities. Applicants with a disability who require a reasonable accommodation for any part of the application or hiring process can follow this process outlined when applying for a position.",TRUE,FALSE,,
-27,Lyn Nie https://www.linkedin.com/in/lynnnie/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=V8EfBR8LqAN_tJ4eAAAAAA%3D%3D&fpstate=tldetail,,,,4hfli3o,Senior Manager UX / UI,Vodafone,https://careers.vodafone.co.uk/img/8d6dd191-4c53-4c22-8828-08d589c6533f?v=2019.6.1772-release-2019.6,London,,Permanent,,TRUE,,,,,,FALSE,https://careers.vodafone.co.uk/job/senior-manager-ux-ui-in-london-greater-london-jid-23056," ###Are you bold? Innovative? Inquisitive? Great, then we can help you thrive…
+27,Lyn Nie https://www.linkedin.com/in/lynnnie/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=V8EfBR8LqAN_tJ4eAAAAAA%3D%3D&fpstate=tldetail,,,,4hfli3o,Senior Manager UX / UI,Vodafone,https://careers.vodafone.co.uk/img/8d6dd191-4c53-4c22-8828-08d589c6533f?v=2019.6.1772-release-2019.6,London,,Permanent,,TRUE,,,,,,FALSE,https://careers.vodafone.co.uk/job/senior-manager-ux-ui-in-london-greater-london-jid-23056," ### Are you bold? Innovative? Inquisitive? Great, then we can help you thrive…
 
  
 The V by Vodafone team was created just 2 years ago to pioneer a new way of connecting our 500 million customers globally to the world of Internet of Things.
@@ -1472,7 +1472,7 @@ We’re a team of fearless, restless visionaries in a completely new technology,
 We have already launched 15 products in 7 markets internationally …and we just can’t stop!
 
  
-###This is where you come in…
+### This is where you come in…
  
 We are seeking like-minded intrepid explorers to join us. People that aren’t afraid to take risks. The daring ones, the trailblazers, the pioneers!
 
@@ -1523,7 +1523,7 @@ Check out the application process and get to know us better here: [https://caree
 
  
 Read more stories here: [https://careers.vodafone.co.uk/posts](https://careers.vodafone.co.uk/posts)",TRUE,FALSE,,
-28,Evi Malisianou evi@brandwatch.com ,,,,,,,,https://www.brandwatch.com/careers/#current-positions,,,,jkeliu4,Product/UX Designer,Brandwatch,https://www.brandwatch.com/wp-content/uploads/2018/01/horizontal-grey.svg,Brighton,,Permanent,,TRUE,,,,,,FALSE,http://jobs.jobvite.com/brandwatch/job/o33DafwD/apply,"### About Brandwatch
+28,Evi Malisianou evi@brandwatch.com ,,,,,,,,https://www.brandwatch.com/careers/#current-positions,5,1,5:1,jkeliu4,Product/UX Designer,Brandwatch,https://www.brandwatch.com/wp-content/uploads/2018/01/horizontal-grey.svg,Brighton,,Permanent,,TRUE,,,,,,FALSE,http://jobs.jobvite.com/brandwatch/job/o33DafwD/apply,"### About Brandwatch
 Brandwatch is the world’s pioneering digital consumer intelligence suite, helping over 2,000 of the world’s most admired brands and agencies including Unilever, Walmart and Dell to make insightful, data-driven business decisions.
 
 The company has made three acquisitions to date: PeerIndex (2013), BuzzSumo (2017) as a standalone content marketing platform, and Qriously (2019) to add global survey capabilities. Additionally, the company was bolstered by its merger with Crimson Hexagon (2018) to create the most comprehensive AI-powered social intelligence solution.
@@ -1566,20 +1566,20 @@ Brandwatch is a place where the lines between work and fun are blurred. As a gro
 **Working for Brandwatch:**
 
 Brandwatch Brighton is where it all began. We can be found in the vibrant North Laines in our contemporary offices. Whilst we don’t believe in stereotypes, we host subsidized onsite pilates and yoga classes along with our Juice Mondays. We have cupboards bursting with snacks, a well stocked drinks fridge, sushi lunches, flexible working spaces, weekly massages and if you’re lucky we’ll even treat you to an ice-cream on the beach or our fortnightly massages right from the office.""",TRUE,FALSE,,
-29,Sarah Murray https://www.linkedin.com/in/murrays2/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=1Jd1axl-fXkmGq6IAAAAAA%3D%3D&fpstate=tldetail,,,,neliorhb,Senior Associate Consulting UX Designer,PWC,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1200px-PricewaterhouseCoopers_Logo.svg.png,London,,Permanent,,TRUE,,,,,,FALSE,http://www.experiencedcareers.pwc.co.uk/ShowJob/Id/903212/Senior-Associate-Consulting-UX-Designer-London/,"###The Role
+29,Sarah Murray https://www.linkedin.com/in/murrays2/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=1Jd1axl-fXkmGq6IAAAAAA%3D%3D&fpstate=tldetail,,,,neliorhb,Senior Associate Consulting UX Designer,PWC,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1200px-PricewaterhouseCoopers_Logo.svg.png,London,,Permanent,,TRUE,,,,,,FALSE,http://www.experiencedcareers.pwc.co.uk/ShowJob/Id/903212/Senior-Associate-Consulting-UX-Designer-London/,"### The Role
 PwC is evolving it's approach to business transformation by bringing in experience strategy, design, and user experience (UX) capabilities. We believe that providing a combined approach incorporating business, experience and technology is essential to delivering successful transformative outcomes for our clients. This new team will benefit from working closely with our established business strategists and technologists throughout the firm, gaining access to leading clients globally. PwC has recently appointed a new CXO (Chief Experience Officer) to its Consulting practice, to evolve the firm’s approach.
 
 PwC is looking for a User Experience (UX) Designer with 1-3 years of agency, relevant client-side (public or private sector), or consultancy experience to join its growing London-based experience team. The ideal candidate will
 
 Be a design leader with deep knowledge of information and interaction design across a variety of devices, touch-points, and experience domains Have a keen eye for detail, and a strong visual design aesthetic Have a working knowledge of service design and content strategy Be well-versed in modern design research methods (remote and ethnographic) Have demonstrable experience helping global brands design and deliver digital products and services Have a strong desire to co-create (with clients and internal teams), and experience facilitating this type of collaboration
 
-###The Basics
+### The Basics
 Expertly proficient in Sketch and Invision Supporting the development and documentation of detailed user experience specifications, wireframes, component mapping for interactive interfaces. A specialist in 2 or more other rapid prototyping tools Well-versed in either Design Thinking or MG Taylor methodologies Be the voice of the user through your work, organising and conducting user research and user testing to inform concepts and validate designs Ability to navigate a variety of legacy UX tools (e.g., Axure, Omnigraffle, etc.) Knowledge of Framer, UX-Pin Confident verbal and visual communicator A natural problem solver An all-around cool person
 
-###About you
+### About you
 We’re looking for energetic, passionate UX practitioners who enjoy sweating the details - working across devices and touch-points – to design and deliver bold work for our brave clients across the UK. Reporting to the Head of UX, you’ll be a key part of the London-based Experience team working hard to put the customer at the centre of everything that you do (and you’ll challenge our clients and their teams to do the same), and bringing propositions, products and services, and ‘the art of the possible’ to life.
 
-###About your day-to-day
+### About your day-to-day
 - Quickly formulate hypotheses based on insights and intuition;
 - Design and facilitate multi-disciplinary co-creation workshops at different points throughout the product- and service-design lifecycle to explore those hypotheses;
 - Prototype ideas quickly (i.e., make the simplest artefact possible to test a hypothesis or assumption)
@@ -1611,7 +1611,7 @@ Learn more here [www.pwc.com/uk/careers/experienced/apply](www.pwc.com/uk/career
 We work in a changing world which offers great opportunities for people with diverse backgrounds and experiences. We seek to attract and employ the best people from the widest talent pool, as well as those who reflect the diverse nature of our society. And we aim to encourage a culture where people can be themselves and be valued for their strengths. Creating value through diversity is what makes us strong as a business and as an organisation with an increasingly agile workforce, we're open to flexible working arrangements where appropriate.
 
 Learn more here [www.pwc.com/uk/diversity](www.pwc.com/uk/diversity)",TRUE,FALSE,,
-30,Tom Bird thomasbirddesign@gmail.com,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1573489544072100,,,,byudyer,Digital Designer,The Student Room,https://tsrmatters.com/wp-content/uploads/2018/07/tsr-logo.png,Brighton,,Permanent,,TRUE,,,,,,FALSE,https://tsrmatters.com/about-us/current-vacancies/digdesigner/,"###Who we are?
+30,Tom Bird thomasbirddesign@gmail.com,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1573489544072100,,,,byudyer,Digital Designer,The Student Room,https://tsrmatters.com/wp-content/uploads/2018/07/tsr-logo.png,Brighton,,Permanent,,TRUE,,,,,,FALSE,https://tsrmatters.com/about-us/current-vacancies/digdesigner/,"### Who we are?
 We are looking for a digital designer to join TSR’s Enlitened team, the newly created fast-growth business within The Student Room Group.
 
 Founded in 2001, The Student Room (TSR) is the UK’s largest, most useful and best-loved online student community. Millions of students turn to us first for advice, info and support on work, learning and life’s ups and downs.
@@ -1626,10 +1626,10 @@ We have quickly gained momentum and following a very successful pilot have gone 
 
 We’re a well-resourced team of people who all care deeply about the problem we’re trying to solve. We believe work should be exciting, challenging and meaningful in equal measure. Being a part of our growing team will give you the opportunity to shape our mission and culture as we grow. We’re looking for exceptional people who want to make students’ lives better.
 
-###What does a Digital Designer at Enlitened do?
+### What does a Digital Designer at Enlitened do?
 You will work closely with our UX/UI Designer, Marketing manager and Growth Manager to create visually compelling campaign assets to drive engagement with the Enlitened apps. This will include emails, print material and web assets. You will also assist with user research and testing so an understanding of user centric design principles is a plus.
 
-###What does success in 6 months look like?
+### What does success in 6 months look like?
 - You will have fully understood the services and apps we have live as well as the feature backlog.
 - You will work closely with our Growth Manager and Head of Content designing multi variant campaigns to understand effective marketing strategies
 - You will create a suite of compelling visual assets for all of Enlitened digital channels including emails, social media, display and web art-working. You will also push the boundaries and show creative flair to further enhance wider creative direction of the Enlitened brand and not feel restricted by what has been delivered previously.
@@ -1638,7 +1638,7 @@ You will work closely with our UX/UI Designer, Marketing manager and Growth Mana
 - You will fully understand and help define Enlitened’s user base by assisting with lab testing, workshops and varying research projects
 - You will help maintain and grow our product research insights via a central repository
 
-###This opportunity will suit someone who has:
+### This opportunity will suit someone who has:
 You will be passionate and driven, unafraid to try new things and learn fast. You will be a team player who knows that we can only be our best if we all support and challenge each other in equal measures. You will love questioning the status quo and be excited by the opportunity to quickly move mountains and help students globally.
 
 You will also need the following experience or outlook:
@@ -1652,7 +1652,7 @@ You will also need the following experience or outlook:
 - As a bonus you will have a general understanding of the design thinking process, user research and UX methods
 - Experience in After Effects and interaction design is a big plus but not essential
 
-###Working at TSR – Benefits Include
+### Working at TSR – Benefits Include
 - Competitive salary
 - Generous approach to holidays
 - Flexible working hours and arrangements
