@@ -1,12 +1,21 @@
-## Sendy <abbr title="United Kingdom">🇬🇧</abbr>
-
-Name, email address are collected (by consent – article 6(1)(a)), safeguarded by two-factor authentication and stored until you unsubscribe or after a few bounces.
-
-Self-hosted (on Dreamhost, in our case) email newsletter application. <a href="https://sendy.co/privacy-policy">Sendy privacy policy</a>.
-
-
-##	Sendy	EU (UK) 🇬🇧
-
-Name, email address	are collected (by	consent – article 6(1)(a)	), safeguarded by	multi-factor authentication	 and stored	until the user unsubscribes or after a few bounces.
-
-Self-hosted (on Dreamhost) email newsletter application.	[Sendy privacy policy.](	https://sendy.co/privacy-policy	)
+###	Sendy	<abbr title="UK">🇬🇧</abbr>	<br><br>	Name, email address	are collected (by	consent – article 6(1)(a)	), safeguarded by	multi-factor authentication	 and stored	until the user unsubscribes or after a few bounces.	<br><br>	Self-hosted (on Dreamhost) email newsletter application.	[Sendy privacy policy.](	https://sendy.co/privacy-policy
+###	Amazon SES	<abbr title="USA">🇺🇸</abbr>	<br><br>	Name, email address and meta data, IP address	are collected (by	"Consent
+Article 6(1)(a)"	), safeguarded by	TLS and DMARC certified, spam and virus checking	 and stored		<br><br>	Outgoing mail server for the Newsletter	[Amazon SES privacy policy.](	
+###	Facebook	<abbr title="USA">🇺🇸</abbr>	<br><br>	Name, screen name, user name, location, photo, Facebook profile information including gender, location, device information, websites visited etc.	are collected (by	"Consent
+Article 6(1)(a)"	), safeguarded by	EU-US Privacy Shield	 and stored	Defined in Facebook’s Privacy Policy and until a user unsubscribes from the fan page	<br><br>	To promote UX Brighton to potentially new members while proving a member support/Q&A platform.	[Facebook privacy policy.](	
+###	Slack	<abbr title="USA">🇺🇸</abbr><abbr title="EU">🇪🇺</abbr>	<br><br>	"Direct may include email address, phone number, location, password, domain, user workspace logs, channels, other users, personal content and URL’s / links you interact with.
+Automated includes IP address, the address of the web page visited before using the website, and cookie data.
+Device Information includes type of device, device settings, application IDs, unique device identifiers and crash data. If authorized, device address book data.
+Third Party Data: Slack may aggregate data about organizations, industries, website visitors, marketing campaigns … IP addresses corresponding to zip codes or countries.
+Additional information: Other Information when submitted to our Websites or if you participate in a focus group, contest, activity or event, apply for a job, request support, interact with our social media accounts or otherwise communicate with Slack."	are collected (by	"Consent
+Article 6(1)(a)"	), safeguarded by	EU-US Privacy Shield, SCC's, SOC 2, SOC 3, 27001, ISO 27017, ISO 27018 certifications	 and stored	Defined by Workspace administrator or until user leaves the group (Slack may retain some data per their privacy policy)	<br><br>	Member support/Q&A	[Slack privacy policy.](	
+###	Eventbrite	<abbr title="USA">🇺🇸</abbr>	<br><br>	Name, Email, device and browser information, credit card details, billing address, dietary requirements (workshop attendees and speakers only), special accessibility requirements	are collected (by	"Legitimate interests
+Article 6(1)(f)"	), safeguarded by	EU-US Privacy Shield, AES and TLS encryption, Qualified Security Assessor audit, pen-tests, daily approved vendor scanning (ASV), PCI Attestation of Compliance (AOC), Quarterly Scan Attestation of Compliance, Amazon EC2 security level	 and stored	As required by applicable laws (7 years)	<br><br>	Registration of Customers for activities and events	[Eventbrite privacy policy.](	
+###	Google G Suite	<abbr title="USA">🇺🇸</abbr>	<br><br>	Name, email address, company, telephone	are collected (by	"Legitimate interests
+Article 6(1)(f)"	), safeguarded by	EU-US Privacy Shield, Model Contractual Clauses, Model Contractual Clauses	 and stored		<br><br>	Storage and sharing of attendee registration information	[Google G Suite privacy policy.](	
+###	Face Media Group	<abbr title="UK">🇬🇧</abbr>	<br><br>	Attendee names	are collected (by	"Legitimate interests
+Article 6(1)(f)"	), safeguarded by	Appropriate technical and organizational measures	 and stored	Only for as long as is needed to print the tags	<br><br>	Printing of conference name tags	[Face Media Group privacy policy.](	
+###	Dreamhost	<abbr title="USA">🇺🇸</abbr>	<br><br>	Name, email address and meta data, IP address, server logs, device and browser information, information collected by third party cookies (e.g. location, URL’s visited)	are collected (by	"Consent
+Article 6(1)(a)"	), safeguarded by	“appropriate technical and organizational measures”	 and stored		<br><br>	Website and Sendy server hosting company	[Dreamhost privacy policy.](	
+###	Narnia IT Consulting	<abbr title="UK">🇬🇧</abbr>	<br><br>	Name, email address and meta data, IP address, server logs, device and browser information, information collected by third party cookies (e.g. location, URL’s visited)	are collected (by	"Legitimate interests
+Article 6(1)(f)"	), safeguarded by	Appropriate technical and organizational measures	 and stored	For the duration of the service contract	<br><br>	Website development and IT support	[Narnia IT Consulting privacy policy.](	
