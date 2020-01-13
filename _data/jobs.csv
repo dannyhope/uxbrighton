@@ -1,5 +1,5 @@
 ,Contact,Cost,Contract link,Invoice link,Paid date,Publication date,Days it should be live,Expiration date (calculated),Source,Views,Applications,ratio,job-id,job-title,employer,logo-link,location,apply-by-date,work-pattern,money,money is guess,money min,money max,money median,rank,money-indication,show-salary,apply-link,extended-description,publish,,How to publish jobs,
-,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,based on the contract,Where you discovered the thing and where the content was extracted from,total since the ad first went online,total since the ad first went online,,a random string of letters (used in job links and analtytics),,,"Logos are part of the adverts, we don’rt store them on our own websirte we need a link to the logo wherever it currently is","tell the client that this is required, be as specifific as possible","lets the job hunter know the deadline
+,Name and email so that Danny can get in touch with them to offer them a paid psoting,,,,,,,based on the contract,Where you discovered the thing and where the content was extracted from,total since the ad first went online,"total since the ad first went online. People want 10 CVs to choose from so, if they advertise in 3 places, we should aim for this to be 4",,a random string of letters (used in job links and analtytics),,,"Logos are part of the adverts, we don’rt store them on our own websirte we need a link to the logo wherever it currently is","tell the client that this is required, be as specifific as possible","lets the job hunter know the deadline
 
 optional (if we don’t know the date, leave it completely empty)
 ",this appears in the job description,Generated automatically,if we don’t know the range,if we know the specific salary (which is rare) enter it here,,[formula],[formula],"0   -<0.2    = low
@@ -29,7 +29,7 @@ Here, it tells 2K Hangar 13 that applicants found the job via Indeed instead of 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,FALSE,,
-2,someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ’19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,Ministry of Justice,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,"London, Victoria",,Permanent,£35000-45000,FALSE,"£35,000","£45,000","40,000",0.1,low,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
+2,someone@moj.gov.uk,£0.00,no contract in place,not invoiced,nothing to pay,"Fri, 8 Mar ’19",unlimited,#VALUE!,,,,,jid20190307T1527-01,User Resarcher,Ministry of Justice,https://uxbrighton.org.uk/2018/images/sponsor-logos/MOJ.png,"London, Victoria",,Permanent,£35000-45000,FALSE,"£35,000","£45,000","40,000",0.2,low,TRUE,https://uxbrighton.org.uk/jobs/test/,"## Wow
 
  - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  - Doloribus consectetur et quasi?
@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mo
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in amet, voluptates! In eius cum, voluptate quos ratione veritatis excepturi, porro perspiciatis unde architecto nihil illum vel quae eaque laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla dolor mollitia nisi vitae facilis rem ratione itaque, numquam dolores, minus adipisci neque ex dicta labore blanditiis? Omnis, ipsa, fuga.",FALSE,FALSE,,
-3,Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,Brilliant Noise,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brighton,,Fixed term/3-6 months,£50000,TRUE,"£50,000",,"50,000",0.4,med-low,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
+3,Ed Baker ed_trombone on UX Brighton Slack,£0.00,no contract in place,not invoiced,nothing to pay,"Thu, 11 Apr ’19",unlimited,#VALUE!,https://brilliantnoise.com/careers/ux-analyst/ via UX Brighton Slack,,,,joyotel,UX Analyst,Brilliant Noise,https://brilliantnoise.com/wp-content/themes/bn/dist/images/bn-logo-black.svg,Brighton,,Fixed term/3-6 months,£50000,TRUE,"£50,000",,"50,000",0.5,med-low,TRUE,mailto://careers@brilliantnoise.com,"The end user, or customer, is at the heart of what Brilliant Noise do, and it’s their experience that will determine the success of our clients.
 
 We’re looking for an experienced UX Analyst with a keen eye to join our fast growing agency on a fixed term basis (3-6 months). As a UX Analyst, your mission will be to bring your extensive knowledge of the user experience into our team of experts, helping us to identify opportunities and overcome challenges for our clients.
 
@@ -242,7 +242,7 @@ If this sounds like your jam, then this could be your next exciting career step.
 * **Everyone has a voice** - We are building a culture where everyone is respected and has a voice in the day to day running of the company - a workplace where everyone is valued for the contributions they make. Our quarterly objectives (OKRs) are set by the entire team and we use the latest technologies to collect regular feedback anonymously through polling and pulse checks. We continually celebrate individual and collective achievements.
 
 -",FALSE,FALSE,,
-5,harry@brignull.com,,,,,,,,https://twitter.com/harrybr/status/1126551196762824704?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet,,,,SPUXD-1,UX Designer,Smart Pension,https://workablehr.s3.amazonaws.com/uploads/account/logo/252693/large_smart-logo-token.jpg,London,,Permanent,£45000-60000,TRUE,"£45,000","£60,000","52,500",0.6,med-high,FALSE,https://smart-pension-1.workable.com/jobs/989165/candidates/new,"**ABOUT SMART PENSION LTD**
+5,harry@brignull.com,,,,,,,,https://twitter.com/harrybr/status/1126551196762824704?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet,,,,SPUXD-1,UX Designer,Smart Pension,https://workablehr.s3.amazonaws.com/uploads/account/logo/252693/large_smart-logo-token.jpg,London,,Permanent,£45000-60000,TRUE,"£45,000","£60,000","52,500",0.7,med-high,FALSE,https://smart-pension-1.workable.com/jobs/989165/candidates/new,"**ABOUT SMART PENSION LTD**
 
 Smart Pension was founded by experienced finance & technology professionals and has been designed specifically to support UK businesses faced with the challenges of auto enrolment. Our team spent over a year developing & testing the platform whilst also establishing the partnerships necessary to meet regulatory requirements and deliver a seamless end-to-end experience. With thousands of satisfied employers, advisers and employees now using the platform, we know we offer the best workplace pension solution currently available in the UK.
 
@@ -364,7 +364,7 @@ In addition, there is the opportunity to help keep on top of your fitness with t
 
 ## Work life balance
 We  encourage our team to keep a healthy work life balance, our holiday purchase scheme enables you to take more holiday in addition to the 25 days we offer as standard.",FALSE,FALSE,,
-7,"Suzanne Ditchburn, Head of People. Or Aegir Hallmundur ",,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1554810269023100,,,,woenklsd,Senior UX Researcher,Firefly,https://s3.amazonaws.com/resumator/customer_20110804041716_4YDKUMRP3UTDHGLG/logos/20130403165255_logo.png,London/UK,,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.4,med-low,FALSE,https://fireflysolutions.applytojob.com/apply/zjZDsDsXcb/Senior-UX-Researcher,"**Our Purpose**
+7,"Suzanne Ditchburn, Head of People. Or Aegir Hallmundur ",,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1554810269023100,,,,woenklsd,Senior UX Researcher,Firefly,https://s3.amazonaws.com/resumator/customer_20110804041716_4YDKUMRP3UTDHGLG/logos/20130403165255_logo.png,London/UK,,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.5,med-low,FALSE,https://fireflysolutions.applytojob.com/apply/zjZDsDsXcb/Senior-UX-Researcher,"**Our Purpose**
 
 Most technology in education is not built for the modern learning experience. It’s complex, unpredictable and no two classes are ever the same. Teachers waste time on non-teaching activities and they find it difficult to collaborate with other teachers. At Firefly, we’re freeing teachers to have a greater impact on the learning experience. Firefly allows teachers to innovate and cater to each student’s needs, preparing all students for success in the future.
 
@@ -474,7 +474,7 @@ You can read a bit more about some of our recent design activities in our team b
 - Participation in our employee options scheme
 - We have a Tier 2 Visa Sponsorship License available
 - Employee Assistance Programme",FALSE,FALSE,,
-8,Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/team/jobs,,,,poenld,Senior UX Designer,Clearleft,https://miro.medium.com/max/5040/1*_248fAGOlSUbaJ5wOOSBpQ.png,Brighton,,Permanent,£45000-60000,FALSE,"£45,000","£60,000","52,500",0.6,med,TRUE,mailto://andy.thornton@clearleft.com,"We’re looking for a designer with demonstrable skills in leading and architecting intuitive and inspiring digital experiences to join our friendly and supportive team in the heart of Brighton.
+8,Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/team/jobs,,,,poenld,Senior UX Designer,Clearleft,https://miro.medium.com/max/5040/1*_248fAGOlSUbaJ5wOOSBpQ.png,Brighton,,Permanent,£45000-60000,FALSE,"£45,000","£60,000","52,500",0.7,med,TRUE,mailto://andy.thornton@clearleft.com,"We’re looking for a designer with demonstrable skills in leading and architecting intuitive and inspiring digital experiences to join our friendly and supportive team in the heart of Brighton.
 
 You’ll get to tackle big, interesting challenges for diverse clients — we’ve worked with Virgin Atlantic, Penguin, Spotify, UNICEF, and Channel 4 to name a few.
 
@@ -538,7 +538,7 @@ If so, please drop me a short email to <andy.thornton@clearleft.com>, or connect
 - We are keeping this vacancy open until it is filled, which means there is no closing date for applications
 - We endeavour to get in touch with candidates within two weeks of you contacting us, which typically begins with a casual chat prior to a more formal interview process
 - We categorically won’t be working with recruitment agencies on this appointment. Even if you are different from all the others.",FALSE,TRUE,,
-9,Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,RBS/Coutts,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,London,,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.4,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"Join us in London as a UX Researcher
+9,Jonathan Brierley jonathan.brierley@coutts.com,,,,,,,,https://jobs.rbs.com/jobs/3525313-ux-researcher,,,,85404,UX Researcher,RBS/Coutts,https://connect.talemetry.com/system/production/assets/77016/original/brand-logo.png,London,,Permanent,£40000-60000,TRUE,"£40,000","£60,000","50,000",0.5,med-low,FALSE,https://apply.talemetry.com/application/b85738b1-2eb7-43aa-bf78-e0347744869b,"Join us in London as a UX Researcher
 
 - This is an opportunity for a UX Researcher to join us in our Private CX function
 - It's an opportunity to define and run the user research approach for Coutts
@@ -623,7 +623,7 @@ A Solid understanding of Google Analytics, AB Testing Tools and User Research Be
 Working Practices:
 
 Knowledge and experience of agile frameworks and practices: Scrum/Kanban and User stories. ",FALSE,TRUE,,
-11,Laura Woodward 	rnash@saba.com,,,,,,,,https://www.wiredsussex.com/jobs/vacancy/junior-ui-designer-in-brighton/26955,,,,pwoefm,Junior UI Designer,Saba Lumesse Ltd,"data:image/webp;base64,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",Brighton/Hove,,Permanent,£25000-40000,TRUE,"£25,000","£40,000","32,500",0.0,low,FALSE,https://apply5.lumessetalentlink.com/apply-app/pages/application-form?jobId=P09FK026203F3VBQB7V6G79PF-5418,"Lumesse is the only global company making talent management solutions work locally. We help customers around the world to implement successful local talent management initiatives that identify, nurture and develop the right people, in the right place, at the right time. 1,700 customers work with us in over 70 countries because they recognise that commitment, innovation and value only come from people. Our integrated talent management solutions are comprehensive, intuitive, secure and fully internationalised into over 50 languages.
+11,Laura Woodward 	rnash@saba.com,,,,,,,,https://www.wiredsussex.com/jobs/vacancy/junior-ui-designer-in-brighton/26955,,,,pwoefm,Junior UI Designer,Saba Lumesse Ltd,"data:image/webp;base64,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",Brighton/Hove,,Permanent,£25000-40000,TRUE,"£25,000","£40,000","32,500",0.1,low,FALSE,https://apply5.lumessetalentlink.com/apply-app/pages/application-form?jobId=P09FK026203F3VBQB7V6G79PF-5418,"Lumesse is the only global company making talent management solutions work locally. We help customers around the world to implement successful local talent management initiatives that identify, nurture and develop the right people, in the right place, at the right time. 1,700 customers work with us in over 70 countries because they recognise that commitment, innovation and value only come from people. Our integrated talent management solutions are comprehensive, intuitive, secure and fully internationalised into over 50 languages.
 
 **Job Description:**
 
@@ -651,7 +651,7 @@ We’d love to see the following:
 
 - Competitive day rates
 - Based in-house, but flexible around remote working",FALSE,FALSE,,
-12,jobs@hangar13games.com,,,,,,,,https://www.indeed.co.uk/Ux-jobs-in-Worthing,,,,LI-H13,UX Designer,2K Hangar 13,https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R19A20_19-03-28-08-35-26-19.A_prod/servlet/dynamic/images/imge_1051.png?lastUploaded=1521050194000&org=GAMES2K,Brighton,,Permanent,£30000-50000,TRUE,"£30,000","£50,000","40,000",0.1,low,FALSE,https://chp.tbe.taleo.net/chp04/ats/careers/v2/applyRequisition?org=GAMES2K&cws=68&rid=3394&source=Indeed.com,"**What We Need:**
+12,jobs@hangar13games.com,,,,,,,,https://www.indeed.co.uk/Ux-jobs-in-Worthing,,,,LI-H13,UX Designer,2K Hangar 13,https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R19A20_19-03-28-08-35-26-19.A_prod/servlet/dynamic/images/imge_1051.png?lastUploaded=1521050194000&org=GAMES2K,Brighton,,Permanent,£30000-50000,TRUE,"£30,000","£50,000","40,000",0.2,low,FALSE,https://chp.tbe.taleo.net/chp04/ats/careers/v2/applyRequisition?org=GAMES2K&cws=68&rid=3394&source=Indeed.com,"**What We Need:**
 
 
 Do you believe, like we do, that good UX includes all aspects of the game including audio, visuals, signs and feedback, animation as well as UI elements?   Do you have the drive to help other designers make their systems more discoverable?  Hangar 13 is in search of a highly skilled UX Designer who is dedicated and passionate to help create narratively-driven games with great UX surfacing deep and interesting systemic gameplay.
@@ -922,7 +922,7 @@ Brandwatch is a place where the lines between work and fun are blurred. As a gro
 Brandwatch Brighton is where it all began. We can be found in the vibrant North Laines in our contemporary offices. Whilst we don’t believe in stereotypes, we host subsidized onsite pilates and yoga classes along with our Juice Mondays. We have cupboards bursting with snacks, a well stocked drinks fridge, sushi lunches, flexible working spaces, weekly massages and if you’re lucky we’ll even treat you to an ice-cream on the beach or our fortnightly massages right from the office.
 
 *To all recruitment agencies: Brandwatch does not accept agency resumes. Please do not forward resumes to our jobs alias or Brandwatch employees. Brandwatch is not responsible for any fees related to unsolicited resumes.*",FALSE,FALSE,,
-16,Lewis Nyman hello@lewisnyman.co.uk,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1569427226009800,,,,pwpcnhg,Interaction Designer,Convivio,https://miro.medium.com/max/1200/1*Pt9XjzqzPakIwNhSV-VSbw.png,UK,,Permanent,£40000-43000,FALSE,"£40,000","£43,000","41,500",0.3,med-low,TRUE,https://convivio.teamtailor.com/jobs/287861-interaction-designer/applications/new?,"**Plan, sketch, prototype, and design accessible & usable interfaces based on research. Salary: £40–£43k (plus 10% London weighting if you’re based inside M25).**
+16,Lewis Nyman hello@lewisnyman.co.uk,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1569427226009800,,,,pwpcnhg,Interaction Designer,Convivio,https://miro.medium.com/max/1200/1*Pt9XjzqzPakIwNhSV-VSbw.png,UK,,Permanent,£40000-43000,FALSE,"£40,000","£43,000","41,500",0.4,med-low,TRUE,https://convivio.teamtailor.com/jobs/287861-interaction-designer/applications/new?,"**Plan, sketch, prototype, and design accessible & usable interfaces based on research. Salary: £40–£43k (plus 10% London weighting if you’re based inside M25).**
 
 All our projects focus on serving the evidenced needs of users. This means services that are designed, prototyped, and tested with users are an absolute necessity. With new projects and a growing team, we need an interaction designer to join us with the following skills:
 
@@ -965,7 +965,7 @@ We're highly selective in the projects and clients we take on, meaning you'll be
 
 ## Closing date
 Applications for this vacancy close on Monday 7 October 2019, 23:59.",FALSE,TRUE,,
-17,Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/about/jobs/ux-designer,,,,bvmkesw,UX Designer,Clearleft,https://miro.medium.com/max/5040/1*_248fAGOlSUbaJ5wOOSBpQ.png,Brighton,,Permanent,£35000-45000,FALSE,"£35,000","£45,000","40,000",0.1,low,TRUE,mailto://andy.thornton@clearleft.com,"We’re looking for a designer with demonstrable skills in architecting intuitive and inspiring digital experiences, to join our friendly and supportive team in the heart of Brighton.
+17,Andy Thornton andy.thornton@clearleft.com,,,,,,,,https://clearleft.com/about/jobs/ux-designer,,,,bvmkesw,UX Designer,Clearleft,https://miro.medium.com/max/5040/1*_248fAGOlSUbaJ5wOOSBpQ.png,Brighton,,Permanent,£35000-45000,FALSE,"£35,000","£45,000","40,000",0.2,low,TRUE,mailto://andy.thornton@clearleft.com,"We’re looking for a designer with demonstrable skills in architecting intuitive and inspiring digital experiences, to join our friendly and supportive team in the heart of Brighton.
 
 You’ll get to tackle big, interesting challenges for diverse clients — we’ve worked with Virgin Atlantic, Penguin, Spotify, UNICEF, and Channel 4 to name a few.
 
@@ -1068,7 +1068,7 @@ We’re proud to be an inclusive, disability confident employer and recognise th
 We’re about the people who work with us and we celebrate their diversities and embrace the value that their differences bring. We believe that a culture of inclusion forms the basis of a truly sustainable business and is vital to shaping a strong and fresh-thinking organisation, with a number of employer networks and benefits to suit your lifestyle.
 
 Recruiting from the widest possible pool of talent, we assess every potential employee against our four key behaviours – Integrity, Inclusion, Inspiration and Impact. We make sure that our workforce is a true reflection of our communities and customers. Their unique perspectives not only give us a better understanding of customers from all walks of life, but bring fresh ideas too.",FALSE,TRUE,,
-19,Laura Paplanskaite +44 (0) 20 3633 4573,,,,,,,,https://www.indeed.co.uk/jobs?q=Ux&l=Worthing&vjk=982753248b2e86d7,,,,mkloiugt,Lead User Experience/Service Designer,Bit Zesty,https://uploads.ifdesign.de/Wdg/Profile/11611/logos/medium/2c72980c7ced5b6234c4d05f3a97a88d4d0aa700.png,London,None found,Permanent,£65000-85000,FALSE,"£65,000","£85,000","75,000",1.0,high,TRUE,https://bit-zesty.workable.com/j/932C8C7BC7,"**DESCRIPTION**
+19,Laura Paplanskaite +44 (0) 20 3633 4573,,,,,,,,https://www.indeed.co.uk/jobs?q=Ux&l=Worthing&vjk=982753248b2e86d7,,,,mkloiugt,Lead User Experience/Service Designer,Bit Zesty,https://uploads.ifdesign.de/Wdg/Profile/11611/logos/medium/2c72980c7ced5b6234c4d05f3a97a88d4d0aa700.png,London,,Permanent,£65000-85000,FALSE,"£65,000","£85,000","75,000",1.0,high,TRUE,https://bit-zesty.workable.com/j/932C8C7BC7,"**DESCRIPTION**
 
 **Who we are**
 
@@ -1218,7 +1218,7 @@ Use the research output to communicate how user interface designs will be percei
 Flexible working and job share conversations are encouraged. Across our multi-brands, we’re proud to be an equal opportunities employer that champions a diverse and inclusive culture. If you’re reading this, even if you’re not 100% sure you’re there with your experience, we’d still love to hear from you. If you’d like to find out more head to [Sainsburys Digital](https://sainsburys.jobs/roles/digital-tech-data/digital/)
 
 ",FALSE,TRUE,,
-22,Tom Cox tom@15gifts.com,,,,,,,,https://15gifts.com/ux-designer/,,,,ko38r4h,UX Designer,15 Gifts Ltd,,Brighton,None found (wired sussex 03/03/20,Permanent,£35000-40000,FALSE,"£35,000","£40,000","37,500",0.1,low,TRUE,https://15gifts.breathehr.com/application/5933/new,"## About the role
+22,Tom Cox tom@15gifts.com,,,,,,,,https://15gifts.com/ux-designer/,,,,ko38r4h,UX Designer,15 Gifts Ltd,"https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1488813020/insrwkpptx8txofy699c.png",Brighton,,Permanent,£35000-40000,FALSE,"£35,000","£40,000","37,500",0.1,low,TRUE,https://15gifts.breathehr.com/application/5933/new,"## About the role
 Due to significant growth, we are now looking for a talented UX designer to join the product team and help drive our products forward.
 
 This is a fantastic opportunity, that would allow you to work closely with leading UK and global brands, as well as having a large influence on a young product.
@@ -1460,7 +1460,7 @@ Avalara’s headquarters are in Seattle, WA and it has offices across the U.S. a
 Avalara is an Equal Opportunity Employer.  All qualified candidates will receive consideration for employment without regard to race, color, creed, religion, age, gender, national orientation, disability, sexual orientation, US Veteran status, or any other factor protected by law.
 
 Avalara is committed to working with and providing reasonable accommodations to job applicants with physical or mental disabilities. Applicants with a disability who require a reasonable accommodation for any part of the application or hiring process can follow this process outlined when applying for a position.",FALSE,FALSE,,
-27,Lyn Nie https://www.linkedin.com/in/lynnnie/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=V8EfBR8LqAN_tJ4eAAAAAA%3D%3D&fpstate=tldetail,,,,4hfli3o,Senior Manager UX / UI,Vodafone,https://careers.vodafone.co.uk/img/8d6dd191-4c53-4c22-8828-08d589c6533f?v=2019.6.1772-release-2019.6,London,(posted April 19),Permanent,,TRUE,,,,,,FALSE,https://careers.vodafone.co.uk/job/senior-manager-ux-ui-in-london-greater-london-jid-23056,"### Are you bold? Innovative? Inquisitive? Great, then we can help you thrive…
+27,Lyn Nie https://www.linkedin.com/in/lynnnie/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=V8EfBR8LqAN_tJ4eAAAAAA%3D%3D&fpstate=tldetail,,,,4hfli3o,Senior Manager UX / UI,Vodafone,https://careers.vodafone.co.uk/img/8d6dd191-4c53-4c22-8828-08d589c6533f?v=2019.6.1772-release-2019.6,London,,Permanent,,TRUE,,,,,,FALSE,https://careers.vodafone.co.uk/job/senior-manager-ux-ui-in-london-greater-london-jid-23056,"### Are you bold? Innovative? Inquisitive? Great, then we can help you thrive…
 
  
 The V by Vodafone team was created just 2 years ago to pioneer a new way of connecting our 500 million customers globally to the world of Internet of Things.
@@ -1523,7 +1523,7 @@ Check out the application process and get to know us better here: [https://caree
 
  
 Read more stories here: [https://careers.vodafone.co.uk/posts](https://careers.vodafone.co.uk/posts)",TRUE,FALSE,,
-28,Evi Malisianou evi@brandwatch.com ,,,,,,,,https://www.brandwatch.com/careers/#current-positions,5,1,5:1,jkeliu4,Product/UX Designer,Brandwatch,https://www.brandwatch.com/wp-content/uploads/2018/01/horizontal-grey.svg,Brighton,None found (wired sussex 03/03/20,Permanent,,TRUE,,,,,,FALSE,http://jobs.jobvite.com/brandwatch/job/oS6RbfwK/apply,"### About Brandwatch
+28,Evi Malisianou evi@brandwatch.com ,,,,,,,,https://www.brandwatch.com/careers/#current-positions,5,1,5:1,jkeliu4,Product/UX Designer,Brandwatch,https://www.brandwatch.com/wp-content/uploads/2018/01/horizontal-grey.svg,Brighton,,Permanent,,TRUE,,,,,,FALSE,http://jobs.jobvite.com/brandwatch/job/oS6RbfwK/apply,"### About Brandwatch
 Brandwatch is the world’s pioneering digital consumer intelligence suite, helping over 2,000 of the world’s most admired brands and agencies including Unilever, Walmart and Dell to make insightful, data-driven business decisions.
 
 The company has made three acquisitions to date: PeerIndex (2013), BuzzSumo (2017) as a standalone content marketing platform, and Qriously (2019) to add global survey capabilities. Additionally, the company was bolstered by its merger with Crimson Hexagon (2018) to create the most comprehensive AI-powered social intelligence solution.
@@ -1566,7 +1566,7 @@ Brandwatch is a place where the lines between work and fun are blurred. As a gro
 **Working for Brandwatch:**
 
 Brandwatch Brighton is where it all began. We can be found in the vibrant North Laines in our contemporary offices. Whilst we don’t believe in stereotypes, we host subsidized onsite pilates and yoga classes along with our Juice Mondays. We have cupboards bursting with snacks, a well stocked drinks fridge, sushi lunches, flexible working spaces, weekly massages and if you’re lucky we’ll even treat you to an ice-cream on the beach or our fortnightly massages right from the office.""",TRUE,FALSE,,
-29,Sarah Murray https://www.linkedin.com/in/murrays2/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=1Jd1axl-fXkmGq6IAAAAAA%3D%3D&fpstate=tldetail,,,,neliorhb,Senior Associate Consulting UX Designer,PWC,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1200px-PricewaterhouseCoopers_Logo.svg.png,London,None found,Permanent,,TRUE,,,,,,FALSE,http://www.experiencedcareers.pwc.co.uk/ShowJob/Id/903212/Senior-Associate-Consulting-UX-Designer-London/,"### The Role
+29,Sarah Murray https://www.linkedin.com/in/murrays2/,,,,,,,,https://www.google.com/search?q=ux+jobs+london&oq=ux+jobs+london&aqs=chrome..69i57j0l5.2683j0j4&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi1mInh-vjlAhVsREEAHbFeDTUQiYsCKAF6BAgJEBA#htivrt=jobs&htidocid=1Jd1axl-fXkmGq6IAAAAAA%3D%3D&fpstate=tldetail,,,,neliorhb,Senior Associate Consulting UX Designer,PWC,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1200px-PricewaterhouseCoopers_Logo.svg.png,London,,Permanent,,TRUE,,,,,,FALSE,http://www.experiencedcareers.pwc.co.uk/ShowJob/Id/903212/Senior-Associate-Consulting-UX-Designer-London/,"### The Role
 PwC is evolving it's approach to business transformation by bringing in experience strategy, design, and user experience (UX) capabilities. We believe that providing a combined approach incorporating business, experience and technology is essential to delivering successful transformative outcomes for our clients. This new team will benefit from working closely with our established business strategists and technologists throughout the firm, gaining access to leading clients globally. PwC has recently appointed a new CXO (Chief Experience Officer) to its Consulting practice, to evolve the firm’s approach.
 
 PwC is looking for a User Experience (UX) Designer with 1-3 years of agency, relevant client-side (public or private sector), or consultancy experience to join its growing London-based experience team. The ideal candidate will
@@ -1666,7 +1666,7 @@ To apply for this position, please send a cover letter and CV **(including your 
 To stay up to date on all of The Student Room’s vacancies then follow us on [Twitter](https://twitter.com/TSRcareers) and Facebook @TSRcareers, or find us on [LinkedIn](https://www.linkedin.com/company/the-student-room-group/).
 
 As part of our recruitment process, The Student Room collects, stores and processes personal data relating to job applicants. Please read our [Job Application Privacy Policy](https://tsrmatters.com/blog/tsr-privacy-notice-to-candidates-and-applicants/) to understand how we use and protect the information you provide, both in your application and at other stages of the recruitment process.",FALSE,FALSE,,
-31,Chris Roberts chrisroberts@hotels.com,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1572595590057300,,,,nfue2sc,UX Researcher,Expedia Group,https://lifeatexpedia.com/assets/build/img/logos/expedia-group.svg,London,None found,Permanent,,TRUE,,,,,,FALSE,https://expedia.wd5.myworkdayjobs.com/search/job/UK---London/User-Experience-Researcher_R-46397/apply?source=lifeatexpedia,"The Hotels.com User Experience research team is dedicated to understanding our customers', their needs and behaviours when researching and booking hotels. We are looking for a UX researcher who is passionate about influencing our product through customer data and qualitative feedback and who is motivated to use a variety of research methodologies to get to this understanding.
+31,Chris Roberts chrisroberts@hotels.com,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1572595590057300,,,,nfue2sc,UX Researcher,Expedia Group,https://lifeatexpedia.com/assets/build/img/logos/expedia-group.svg,London,,Permanent,,TRUE,,,,,,FALSE,https://expedia.wd5.myworkdayjobs.com/search/job/UK---London/User-Experience-Researcher_R-46397/apply?source=lifeatexpedia,"The Hotels.com User Experience research team is dedicated to understanding our customers', their needs and behaviours when researching and booking hotels. We are looking for a UX researcher who is passionate about influencing our product through customer data and qualitative feedback and who is motivated to use a variety of research methodologies to get to this understanding.
 
 **What you’ll do:**
 
@@ -1748,7 +1748,7 @@ Expertise in planning, conducting and documenting heuristics evaluations and use
 
 
 Previous digital agency experience preferred, but not essential.",FALSE,FALSE,,
-33,None. Back fill seeker phase. Dean.wanless@communitities.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=1661322,,,,kopam3,Senior Executive Officer - User Researcher,"Ministry of Housing, Communities & Local Government",,"City of Westminster, London",19th January 2020,Permanent,"£38,821",,"£38,821","£38,821",,,,TRUE,https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=1661322,"### Summary
+33,None. Back fill seeker phase. Dean.wanless@communitities.gov.uk,,,,,,,,https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=1661322,,,,kopam3,Senior Executive Officer - User Researcher,"Ministry of Housing, Communities & Local Government",https://static.civilservicejobs.service.gov.uk/company/nghr/sp/images/logos/183864.jpg,"City of Westminster, London",19th January 2020,Permanent,£38821-38821,,"£38,821","£38,821","38,821",0.2,low,TRUE,https://app.beapplied.com/apply/eyoap6fj5p,"### Summary
 ##### SEO stands for Senior Executive Officer and is a grade within the Civil Service. The role is not to do with Search Engine Optimisation.
 
 
@@ -1793,7 +1793,62 @@ We are looking for someone with the following skills, experience and knowledge:
 • experience working on public service design, especially local public service design an advantage.
 
 • Knowledge of WCAG 2.1 guidelines",TRUE,FALSE,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
+34,None. Back fill seeker phase. careers@getlucidity.com,,,,,,,,https://uxbri.slack.com/archives/C1626ASJY/p1578255551016400,,,,dbfjye6,Creative Designer,Lucidity,https://www.lucidity.org.uk/wp-content/themes/lucidity2015/dist/img/lucidityLogo.png,Brighton,,Permanent,£18000-25000,,"£18,000","£25,000","21,500",0.0,low,TRUE,mailto:careers@getlucidity.com,"Hello 👋 We’re Lucidity and we’re on a mission to help companies be their best by reinventing how they plan and manage their strategy. 
+
+Our team is building the world’s most advanced Strategy Platform that offers a fast, easy and enjoyable way for businesses to formulate a plan, communicate it clearly and motivate their team.
+
+Based in central Brighton, we’re a growing team who are passionate about making strategy simple. Could you help us propel to new heights? 🚀
+
+
+### About the role
+
+We’re looking for a talented, enthusiastic Creative Designer who’s keen to learn and get stuck in with all aspects of design at a busy startup. 
+
+Design and user experience are intrinsic in everyday decisions and direction at Lucidity, meaning you’ll serve a vital role at the company. We’re after someone who cares deeply about their craft, is infinitely keen to learn, and embraces collaboration and feedback.
+
+You’ll be primarily focused on the Lucidity digital marketing and brand, helping out with product and UX work when needed. We're a tech company creating digital products, meaning the role is predominantly web/digital oriented.
+
+
+### Things you’ll do
+
+- Design competently with layout, typography, colour, icons, imagery and illustrations
+- Work with the Chief Design Officer to maintain and evolve the Lucidity brand 
+- Create online marketing campaigns and sales presentations
+- Design for our website and social media channels
+- Occasionally design for print or create e-books
+- Give, seek and receive thoughtful, constructive feedback
+- Participate in the weekly team stand-up
+- Make an effort to get to know and work well with the whole team
+- Be infinitely keen to learn and develop new skills
+- Stay up to date with the latest design news, insights and trends
+ 
+### Who you are
+
+- We’ll consider graduates or lesser experience if you have a stunning portfolio but ideally 2+ years commercial design experience at either an agency or in-house. Any previous experience at a technology company or startup is a bonus
+- You have an unrivalled enthusiasm to learn and develop your skillset and are always happy to get stuck in where needed
+- You have a fantastic portfolio that showcases your skills in visual design, typography and layout in a primarily digital format. Any infographics, product, UX or print design work is a bonus
+- You live in Sketch and can design for web in desktop, tablet and mobile viewports
+- You’re equally happy creating vectors in Illustrator or laying out print designs in InDesign
+- Experience working in PowerPoint and Word
+- Experience working and collaborating in a team
+- Excellent written and verbal communication skills—you must be fluent in English
+ 
+### What we offer
+
+As an early Lucidity team member, you’ll be rewarded with:
+
+- Salary of £18,000-£25,000—depending on experience, reviewed annually
+- Options in our company equity scheme and a discretionary bonus—when the company is doing well, you do too
+- 25 days holiday plus bank holidays—and your allowance increases by 1 day every year
+- Flexible working hours—fit your work in around your life
+- Work from home when you need to
+- Dedicated L&D budget—a commitment to your personal career growth
+- Enhanced maternity/paternity/adoption policies—for those big life moments
+- Regular socials—we love a Friday beer!
+
+Sound good? Drop us your CV and portfolio link at careers@getlucidity.com
+
+We look forward to hearing from you!",TRUE,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE,,,FALSE,FALSE,,
