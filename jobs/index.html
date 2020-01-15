@@ -201,7 +201,7 @@ h2 + h3 {
           {% assign hoverTextRange = 'high' %}
         {% endif %}
         <div id="{{ job.job-id }}" class="job" itemscope itemtype="http://schema.org/JobPosting">
-          <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='(ga("send", "event", "jobs", "view", "{{ job.job-id }}"), jobOpen("{{ job.job-id }}"))'></a>
+          <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='jobOpen("{{ job.job-id }}")'></a>
           <!-- <span itemprop="datePosted">2011-10-31</span> -->
           <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobClose("{{ job.job-id }}")'>&times;</a>
           <div id="{{ job.job-id }}-info" class="job-info pa3">
@@ -252,7 +252,7 @@ h2 + h3 {
                       <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
                     {% endif %}
                   </p>
-                  <a class="button button--green mt2 pa2 job-top-apply-btn" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
+                  <a class="button button--green mt2 pa2 job-top-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
                 </div>
               </div>
               <div class="job-text table">
@@ -301,7 +301,7 @@ h2 + h3 {
                 </div>
                 <div class="job-text-extended hidden row mt6"  itemprop="description">
                   {{ job.extended-description | markdownify }}
-                  <a class="button button--green mt2 pa2 job-bottom-apply-btn" onclick='ga("send", "event", "jobs", "apply", "{{ job.job-id }}");' href="{{ job.apply-link }}">Apply for this job</a>
+                  <a class="button button--green mt2 pa2 job-bottom-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
                 </div><!-- job-text-extended -->
               </div><!-- job-text -->
             </div>

@@ -6,35 +6,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TTCR2PB');</script>
 <!-- End Google Tag Manager -->
 
-<!-- Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-7759112-2', 'auto');
-  ga('require', 'linker');
-  ga(function(tracker) {
-    // we need to get the _ga cross-domain value and replace it with
-    // Eventbrite's _eboga requirement
-    // https://www.eventbrite.com/support/articles/en_US/Troubleshooting/how-to-enable-cross-domain-and-ecommerce-tracking-with-google-universal-analytics#j_id0:HelpCenterSiteTemplate:j_id2:j_id131:articleStepsComponent:j_id132:1:j_id152
-    var xdomain = tracker.get('linkerParam');
-    var links = document.getElementsByTagName('a');
-    Array.prototype.forEach.call(links, function(a){
-      var href = a.href;
-      if (href.match(/eventbrite\.co\.uk/i)) {
-        var splitURL = href.split('#');
-        var hash = splitURL[1];
-        splitURL[0] += "?&" + xdomain.replace(/_ga/, '_eboga');
-        a.href = hash == null ? splitURL[0] : splitURL[0] + '#' + hash;
-      }
-    });
-
-  });
-  ga('send', 'pageview');
-</script>
-
 <script>
   window['_fs_debug'] = false;
   window['_fs_host'] = 'www.fullstory.com';

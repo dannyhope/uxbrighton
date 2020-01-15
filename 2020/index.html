@@ -15,7 +15,7 @@ redirect_from:
 # Page style
 layout: conference-2020
 masthead-color: dark
-hero-image: "/2020/images/header-1.jpg"
+hero-image: "/2020/images/header-2.jpg"
 
 # Social media cards
 image: "https://uxbri.org/2020/images/cards/UX-Brighton-2020-UX-and-Product-Management-super-early-bird.jpg"
@@ -118,7 +118,7 @@ talk-videos:                    hide # show / hide
             {% if page.ticket-button == "show" %}
             <div class="if-cta-is-stuck__tickets mb4">
               <h2 class="mb2 mt2">Get tickets</h2>
-              <a onclick='ga("send", "event", "conference", "click", "buynow");' href="{{ page.ticket-button-text }}" class="button button--large button--green bold standfirst">{{ page.ticket-button-text }}</a>
+              <a href="{{ page.ticket-button-text }}" class="button button--large button--green bold standfirst">{{ page.ticket-button-text }}</a>
               {% if page.ticket-button-extra-text %}
                 <p>{{ page.ticket-button-extra-text }}</p>
               {% endif %}
