@@ -214,8 +214,8 @@ h2 + h3 {
                   <p class="mb1">
                     <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·
                     <span itemprop="addressLocality">{{ job.location }}</span>
-                    {% if job.show-salary == 'TRUE' %}
-                        ·  <span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
+                    {% if 1 == 1 %}
+                      {% if job.show-salary == 'TRUE' %}  ·  {% endif %}<span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
                     {% else %}
                       <span class="inline-block tooltip">
                         <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
@@ -262,8 +262,8 @@ h2 + h3 {
                   <p class="mv0">
                     <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·
                     <span itemprop="addressLocality">{{ job.location }}</span>
-                    {% if job.show-salary == 'TRUE' %}
-                        ·  <span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
+                    {% if 1 == 1 %}
+                      {% if job.show-salary == 'TRUE' %}  ·  {% endif %}<span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
                     {% else %}
                       <span class="inline-block tooltip" title="Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).">
                         <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
@@ -322,8 +322,8 @@ h2 + h3 {
       The team are currently manually adding jobs to the site. If you’d like us to post a vacancy for your company, the first thing to do is email us via
       <a href="mailto:jobs@uxbri.org?subject=Post a job on UX Brighton Jobs&amp;body=Hi there, Thanks for your interest in UX Brighton Jobs. The main things we need are your name and phone number, that way we can get in touch with you to chat about your job needs.%0D%0A%0D%0AYour name:%0D%0AYour phone number:%0D%0A%0D%0AIf the job is already advertised somewhere, can you give us a link to it, please?%0D%0A%0D%0ADescription link:%0D%0A%0D%0AWe’ll get back to you ASAP.%0D%0A" title="mailto link includes instructions about what to include">jobs@uxbri.org</a>, then we’ll arrange getting your job advert live.
     </p>
-	  <h2>Pay Rank</h2>
-	  <p>When employers hide salaries, pay rank is one way to give some idea of whether the position might be a good fit for you – it shows where the job sits among other recent jobs. We could insist employers show salaries but we don’t because it would unfairly bias salary negotiations so much against the employer. (Employers do share a salary range with us so that we can determining the rank.)</p>
+	  <!-- <h2>Pay Rank</h2>
+	  <p>When employers hide salaries, pay rank is one way to give some idea of whether the position might be a good fit for you – it shows where the job sits among other recent jobs. We could insist employers show salaries but we don’t because it would unfairly bias salary negotiations so much against the employer. (Employers do share a salary range with us so that we can determining the rank.)</p> -->
     <div class="unless-is-fancy">
       <h3 class="mt6 mb2 upcoming__container__heading fs-s track-loose uppercase regular border-bottom pb1">Supporting Employers</h3>
       <a href="/jobs/company/" class="grayscale-until-hover">
