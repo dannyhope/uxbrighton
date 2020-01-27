@@ -8,38 +8,7 @@ fullurl: https://uxbrighton.org.uk/jobs
 ---
 <!-- image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg"
 header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
-<script>
 
-
-
-  if (window.location.href.indexOf('cols') > 0) {
-    root.className += ' cols-only';
-  }
-
-
-  if (window.location.href.indexOf('fancy') > 0) {
-    root.className += ' is-fancy';
-  }
-
-
-
-
-  if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
-    window.the_pos = 0;
-    window.hashFragment = window.location.hash;
-    setTimeout(function() {
-      window.scrollTo(0, 0);
-    }, 1);
-  } else {
-    window.hashFragment = false;
-    window.addEventListener("popstate", function(){
-      $('.job-close').click();
-      history.pushState(null, null, document.url);
-    });
-  }
-
-
-</script>
 
 <style>
 .grayscale-until-hover {
@@ -438,4 +407,44 @@ h2 + h3 {
       $('.job-close').trigger('click');
     }
   });
+</script>
+<script>
+
+
+
+  if (window.location.href.indexOf('cols') > 0) {
+    root.className += ' cols-only';
+  }
+
+
+  if (window.location.href.indexOf('fancy') > 0) {
+    root.className += ' is-fancy';
+  }
+
+
+
+  
+  if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
+    
+    if(window.location.hash) {
+      var this_hash = window.location.hash.substring(1);
+      console.log(this_hash);
+      var target = document.getElementById(this_hash);
+      target.classList.add("job-target");
+    }
+    
+    window.the_pos = 0;
+    window.hashFragment = window.location.hash;
+    setTimeout(function() {
+      window.scrollTo(0, 0);
+    }, 1);
+  } else {
+    window.hashFragment = false;
+    window.addEventListener("popstate", function(){
+      $('.job-close').click();
+      history.pushState(null, null, document.url);
+    });
+  }
+
+
 </script>
