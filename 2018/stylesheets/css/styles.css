@@ -973,12 +973,13 @@ span.unviewed {
   background: #c9003a;
   color: white;
   font-size: 10px;
-  padding: 2px 2px 2px 3px;
+  padding: 2px 4px 1px 4px;
   line-height: 1;
   border-radius: 10px;
   min-width: 14px;
   position: relative;
-  top: -2px; }
+  top: -2px;
+  margin-left: 2px; }
 
 @media only screen and (min-width: 451px) {
   span.unviewed {
