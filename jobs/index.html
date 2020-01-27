@@ -172,6 +172,12 @@ h2 + h3 {
     position: relative;
     z-index: 2;
 }
+.job-meta::before {
+  content:  "  ·  "
+}
+.job-meta:first-child::before {
+  content:  ""
+}
 </style>
 
 
@@ -212,10 +218,14 @@ h2 + h3 {
                   <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
                   <p class="mv0 mt2" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
                   <p class="mb1">
-                    <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·
-                    <span itemprop="addressLocality">{{ job.location }}</span>
+                    {% if job.work-pattern %}
+                      <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
+                    {% endif %}
+                    {% if job.location %}
+                      <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
+                    {% endif %}
                     {% if 1 == 1 %}
-                      {% if job.show-salary == 'TRUE' %}  ·  {% endif %}<span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
+                      {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
                     {% else %}
                       <span class="inline-block tooltip">
                         <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
@@ -260,10 +270,14 @@ h2 + h3 {
                   <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
                   <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
                   <p class="mv0">
-                    <span itemprop="employmentType">{{ job.work-pattern }}</span>   ·
-                    <span itemprop="addressLocality">{{ job.location }}</span>
+                    {% if job.work-pattern %}
+                      <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
+                    {% endif %}
+                    {% if job.location %}
+                      <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
+                    {% endif %}
                     {% if 1 == 1 %}
-                      {% if job.show-salary == 'TRUE' %}  ·  {% endif %}<span itemprop="baseSalary" class="js-salary-span">{{ job.money }}</span>
+                      {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
                     {% else %}
                       <span class="inline-block tooltip" title="Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).">
                         <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">

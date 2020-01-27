@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }} - {% endif %}UX Brighton</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}" >
 
   {% include tracking-head.html %}
 
-  <!-- facebook open graph tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
-    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
+    <!-- facebook open graph tags -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% endif %}">
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}" >
 
-  <!-- twitter card tags additive with the og: tags -->
-    <meta name="twitter:card" content="summary_large_image" >
-    <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbrighton.org.uk/2018/images/cards/ux-brighton-2018-card.jpg"}}{% endif %}" >
-    <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
-    <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton, Friday 2 November. Advancing Research"}}{% endif %}" >
-    <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton, Friday 2 November. This year's theme is Advancing Research. We'll be taking a deep dive into research – looking beyond traditional methods to tackle everything from how research can inform strategy to building research teams. From designing surveys that don't suck to researching for new technologies. See http://uxbrighton.org.uk/2018 for more information."}}{% endif %}" >
-    <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"http://uxbrighton.org.uk/2018/"}}{% endif %}" >
+    <!-- twitter card tags additive with the og: tags -->
+      <meta name="twitter:card" content="summary_large_image" >
+      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% endif %}" >
+      <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
+      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% endif %}" >
+      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% endif %}" >
 
-  <!-- PWA -->
-  <!-- <link rel="manifest" href="/manifest.json"> -->
-  <meta name="theme-color" content="#000000">
-    
   <!-- Icons -->
-    <link rel="apple-touch-icon" href="https://uxbrighton.org.uk/2013/images/icon.png">
-    <link rel="icon" href="https://uxbrighton.org.uk/2013/images/favicon.png">
-    <!--[if IE]><link rel="shortcut icon" href="https://uxbrighton.org.uk/images/favicon.ico"><![endif]-->
-    <!-- or, set /favicon.ico for IE10 win -->
-    <!-- <meta name="msapplication-TileColor" content="#000">-->
-    <meta name="msapplication-TileImage" content="http://uxbrighton.org.uk/2013/images/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
-  <!-- Styles -->
+  <!-- Stylesheets -->
     <link rel="stylesheet" href="/2018/fonts/museo/sans/font.css">
-    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css">
+    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css?v=2019">
+
     {% if page.art-direction %}
       <style media="screen">
         {{page.art-direction}}
