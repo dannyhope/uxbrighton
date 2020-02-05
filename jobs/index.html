@@ -11,155 +11,190 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
 
 
 <style>
-.grayscale-until-hover {
-  filter: grayscale(100%);
-  opacity: 0.4;
-  transition: all 0.3s;
-}
-.grayscale-until-hover:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-}
-
-.h-col {
-  fill: #bbb;
-}
-
-
-.cols-only .hist--low .h-col--1,
-.cols-only .hist--low .h-col--2,
-.cols-only .hist--low .h-col--3,
-.cols-only .hist--low .h-col--4,
-
-
-.cols-only .hist--low-mid .h-col--4,
-.cols-only .hist--low-mid .h-col--5,
-.cols-only .hist--low-mid .h-col--6,
-
-.cols-only .hist--mid .h-col--5,
-.cols-only .hist--mid .h-col--6,
-.cols-only .hist--mid .h-col--7,
-
-.cols-only .hist--high-mid .h-col--6,
-.cols-only .hist--high-mid .h-col--7,
-.cols-only .hist--high-mid .h-col--8,
-
-.cols-only .hist--high .h-col--8,
-.cols-only .hist--high .h-col--9,
-.cols-only .hist--high .h-col--10,
-.cols-only .hist--high .h-col--11 {
-  fill: #C9003A;
-}
-
-.hist--low .h-ul--1,
-.hist--low .h-ul--2,
-.hist--low .h-ul--3,
-.hist--low .h-ul--4,
-
-.hist--low-mid .h-ul--3,
-.hist--low-mid .h-ul--4,
-.hist--low-mid .h-ul--5,
-
-.hist--mid .h-ul--5,
-.hist--mid .h-ul--6,
-.hist--mid .h-ul--7,
-
-.hist--high-mid .h-ul--7,
-.hist--high-mid .h-ul--8,
-.hist--high-mid .h-ul--9,
-
-.hist--high .h-ul--8,
-.hist--high .h-ul--9,
-.hist--high .h-ul--10,
-.hist--high .h-ul--11 {
-  fill: #C9003A;
-}
-
-.job-close, .job-close:hover {
-  text-decoration: none;
-  right: 24px !important;
-}
-
-.unless-is-fancy {
-  display: none;
-}
-.is-fancy .unless-is-fancy {
-  display: block;
-}
-
-.job-desc-column {
-  top: 0;
-  width: 33%;
-}
-
-.job-bottom-apply-btn {
-  display: none;
-}
-.job-top-apply-btn {
-  display: inline-block;
-}
-
-@media only screen and (min-width: 851px) {
-  .job-desc-column {
-    width: 25%;
+  .grayscale-until-hover {
+    filter: grayscale(100%);
+    opacity: 0.4;
+    transition: all 0.3s;
   }
-}
+  .grayscale-until-hover:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
 
-@media only screen and (max-width: 951px) {
-  @media only screen and (max-width: 650px) {
+  .h-col {
+    fill: #bbb;
+  }
+
+
+  .cols-only .hist--low .h-col--1,
+  .cols-only .hist--low .h-col--2,
+  .cols-only .hist--low .h-col--3,
+  .cols-only .hist--low .h-col--4,
+
+
+  .cols-only .hist--low-mid .h-col--4,
+  .cols-only .hist--low-mid .h-col--5,
+  .cols-only .hist--low-mid .h-col--6,
+
+  .cols-only .hist--mid .h-col--5,
+  .cols-only .hist--mid .h-col--6,
+  .cols-only .hist--mid .h-col--7,
+
+  .cols-only .hist--high-mid .h-col--6,
+  .cols-only .hist--high-mid .h-col--7,
+  .cols-only .hist--high-mid .h-col--8,
+
+  .cols-only .hist--high .h-col--8,
+  .cols-only .hist--high .h-col--9,
+  .cols-only .hist--high .h-col--10,
+  .cols-only .hist--high .h-col--11 {
+    fill: #C9003A;
+  }
+
+  .hist--low .h-ul--1,
+  .hist--low .h-ul--2,
+  .hist--low .h-ul--3,
+  .hist--low .h-ul--4,
+
+  .hist--low-mid .h-ul--3,
+  .hist--low-mid .h-ul--4,
+  .hist--low-mid .h-ul--5,
+
+  .hist--mid .h-ul--5,
+  .hist--mid .h-ul--6,
+  .hist--mid .h-ul--7,
+
+  .hist--high-mid .h-ul--7,
+  .hist--high-mid .h-ul--8,
+  .hist--high-mid .h-ul--9,
+
+  .hist--high .h-ul--8,
+  .hist--high .h-ul--9,
+  .hist--high .h-ul--10,
+  .hist--high .h-ul--11 {
+    fill: #C9003A;
+  }
+
+  .job-close, .job-close:hover {
+    text-decoration: none;
+    right: 24px !important;
+  }
+
+  .unless-is-fancy {
+    display: none;
+  }
+  .is-fancy .unless-is-fancy {
+    display: block;
+  }
+
+  .job-desc-column {
+    top: 0;
+    width: 33%;
+  }
+
+  .job-bottom-apply-btn {
+    display: none;
+  }
+  .job-top-apply-btn {
+    display: inline-block;
+  }
+
+  @media only screen and (min-width: 851px) {
     .job-desc-column {
-      width: 100%;
-    }
-    .job-text-extended {
-      margin-top: 24px;
-    }
-    .job-bottom-apply-btn {
-      display: inline-block;
-    }
-    .job-top-apply-btn {
-      display: none;
+      width: 25%;
     }
   }
-  .job-desc-column {
-    margin-right: 16px;
+
+  @media only screen and (max-width: 951px) {
+    @media only screen and (max-width: 650px) {
+      .job-desc-column {
+        width: 100%;
+      }
+      .job-text-extended {
+        margin-top: 24px;
+      }
+      .job-bottom-apply-btn {
+        display: inline-block;
+      }
+      .job-top-apply-btn {
+        display: none;
+      }
+    }
+    .job-desc-column {
+      margin-right: 16px;
+    }
   }
-}
 
-  /*.h-ul--6,
-  .h-ul--7,
-  .h-ul--8 {
-    fill: #1bab1b;
-  }*/
-h2 {
-  margin: 1em 0 0.5em;
-}
-h2 + h3 {
-  margin: 1em 0 0.5em;
-}
+    /*.h-ul--6,
+    .h-ul--7,
+    .h-ul--8 {
+      fill: #1bab1b;
+    }*/
+  h2 {
+    margin: 1em 0 0.5em;
+  }
+  h2 + h3 {
+    margin: 1em 0 0.5em;
+  }
 
-.hist {
-    position: relative;
-    z-index: 2;
-}
-.job-meta::before {
-  content:  "  ·  "
-}
-.job-meta:first-child::before {
-  content:  ""
-}
-.job-target .job-show-expanded {
-  display: block !important;
-}
+  .hist {
+      position: relative;
+      z-index: 2;
+  }
+  .job-meta::before {
+    content:  "  ·  "
+  }
+  .job-meta:first-child::before {
+    content:  ""
+  }
+  .job-target .job-show-expanded {
+    display: block !important;
+  }
+
+  .js-sort-list__trigger {
+    border: 0 none;
+    padding: 13px 0 0;
+    background: transparent;
+    color: #80878a;
+    font-weight: 300;
+    margin-right: 3px;
+    outline: none !important;
+  }
+  .js-sort-list__trigger span {
+  }
+  .js-sort-list__trigger span:hover {
+    color: #C9003A;
+    text-decoration: underline;
+  }
+  .no-js .js-sort-list__trigger,
+  .js-sort-list__trigger__label--oldest,
+  .js-sort-list__trigger__label--newest {
+    display: none;
+  }
+  .js-sorted-newest-first .js-sort-list__trigger__label--newest,
+  .js-sorted-oldest-first .js-sort-list__trigger__label--oldest {
+    display: inline;
+  }
 </style>
 
 
-
-
 <div class="clearfix gutters__container">
-  <div class="u3of4-over-m left-over-m gutters">
-    <h2>Current vacancies</h2>
+  <div class="u3of4-over-m left-over-m gutters js-sort-list">
+    <div style="overflow: hidden;">
+      <h2>
+        Current vacancies
+        <div class="right fs-m color-info" style="font-weight: 300;">
+          Sorted by:  
+          <button class="js-sort-list__trigger">
+            <span class="js-sort-list__trigger__label--newest">Newest first</span>
+            <span class="js-sort-list__trigger__label--oldest">Oldest first</span>
+          </button>          
+        </div> 
+      </h2>
+    </div>
+    
     {% assign i = 0 %}
-    {% for job in site.data.jobs %}
+    {% for job in site.data.jobs reversed %}
       {% if job.publish == 'TRUE' %}
         {% assign rank = job.rank | plus: 0 %}
         {% if rank <= 0.2 %}
@@ -178,7 +213,7 @@ h2 + h3 {
           {% assign range = 'high' %}
           {% assign hoverTextRange = 'high' %}
         {% endif %}
-        <div id="{{ job.job-id }}" class="job" itemscope itemtype="http://schema.org/JobPosting">
+        <div id="{{ job.job-id }}" class="job js-sort-list__child"  data-sortup="{{i}}" data-sortdown=" {{ job.index }}" itemscope itemtype="http://schema.org/JobPosting">
           <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='jobOpen("{{ job.job-id }}")'></a>
           <!-- <span itemprop="datePosted">2011-10-31</span> -->
           <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobClose("{{ job.job-id }}")'>&times;</a>
@@ -462,3 +497,36 @@ h2 + h3 {
 
 
 </script>
+<script>
+$(function() {
+  $("body").addClass('js-sorted-newest-first');
+  $(".js-sort-list__trigger").click(function() {
+
+    var ul = $('.js-sort-list'),
+        li = ul.children('.js-sort-list__child');
+
+    // console.log('ul',ul);
+    // console.log('li',li);    
+
+    if ( $("body").hasClass('js-sorted-newest-first') ) {
+      $("body").removeClass('js-sorted-newest-first');
+      $("body").addClass('js-sorted-oldest-first');
+      li.detach().sort(function(a,b) { 
+        return $(a).data('sortdown') - $(b).data('sortdown'); 
+      });
+    } else {
+      $("body").addClass('js-sorted-newest-first');
+      $("body").removeClass('js-sorted-oldest-first');
+      li.detach().sort(function(a,b) { 
+        return $(a).data('sortup') - $(b).data('sortup'); 
+      });
+    }
+
+    ul.append(li);
+  });
+
+});
+</script>
+
+
+
