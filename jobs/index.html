@@ -397,6 +397,8 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
 
   function jobOpen(jobId) {
     var jobShowExpanded = document.getElementById('js-job-show-expanded-' + jobId);
+    $('body').addClass('job-open');
+    console.log( $('body').attr("class") );
     if (jobShowExpanded) {
       jobShowExpanded.style.display = null;
     }
@@ -461,40 +463,29 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
 
 
 
-  
-  if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
-
-    if(window.location.hash) {
-      var this_hash = window.location.hash.substring(1);
-      console.log(this_hash);
-      var target = document.getElementById(this_hash);
-      target.classList.add("job-target");
-      jobOpen(this_hash);
-      //var jobTitle = document.getElementById('js-job-title-' + this_hash);
-      // if (jobTitle) {
-      //   jobTitle.classList.remove('color-blue');
-      //   jobTitle.classList.add('job-title-page-style');
-      //   var hoverText = document.getElementById('js-hover-text-' + this_hash);
-      //   if (!isTouch && hoverText) {
-      //     hoverText.style.display = null;
-      //   }
-      // }
-
+  $(function() {
+    if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
+      console.log('=)');
+      if(window.location.hash) {
+        var this_hash = window.location.hash.substring(1);
+        console.log('hash',this_hash);
+        var target = document.getElementById(this_hash);
+        target.classList.add("job-target");
+        jobOpen(this_hash);
+      }
+      window.the_pos = 0;
+      window.hashFragment = window.location.hash;
+      setTimeout(function() {
+        window.scrollTo(0, 0);
+      }, 1);
+    } else {
+      window.hashFragment = false;
+      window.addEventListener("popstate", function(){
+        $('.job-close').click();
+        history.pushState(null, null, document.url);
+      });
     }
-    
-    window.the_pos = 0;
-    window.hashFragment = window.location.hash;
-    setTimeout(function() {
-      window.scrollTo(0, 0);
-    }, 1);
-  } else {
-    window.hashFragment = false;
-    window.addEventListener("popstate", function(){
-      $('.job-close').click();
-      history.pushState(null, null, document.url);
-    });
-  }
-
+  });
 
 </script>
 <script>
