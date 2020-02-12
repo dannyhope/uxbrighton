@@ -94,6 +94,7 @@
   .no-js .job:target .job-info,
   .job-target .job-info {
     animation: openJobInfo 0.2s forwards;
+    position: fixed;
   }
   @keyframes fadeIn {
     0% {

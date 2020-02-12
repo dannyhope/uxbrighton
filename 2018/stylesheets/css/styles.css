@@ -1628,7 +1628,8 @@ th, td {
 .no-js .job:target .job-info,
 .job-target .job-info {
   -webkit-animation: openJobInfo 0.2s forwards;
-          animation: openJobInfo 0.2s forwards; }
+          animation: openJobInfo 0.2s forwards;
+  position: fixed; }
 
 @-webkit-keyframes fadeIn {
   0% {
