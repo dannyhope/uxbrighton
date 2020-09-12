@@ -1,4 +1,4 @@
-index,job-title,employer,publish,Publication date,Unpublished date,Expiration date (calculated),Original job description,job-id,logo-link,location,apply-by-date,work-pattern,money min,money max,money,money median,rank,money-indication,show-salary,apply-link,paid ad,accepting applications,extended-description,Legacy columns,Notes,Lead status,Prospect status,Needs to be published,Date Lead added,Annie-Marie think’s it’s ready,Discovered,Contact,Contacted?,Cost,Contract link,Invoice link,Paid date,Source 🔴 DON’T USE,money is guess 🔴 dont use,Where to look to see if they’ve got jobs coming up,CSV,Upload CSV (remember to tick publish),Upload logos,uxbri.org/jobs
+index,job-title,employer,publish,Publication date,Unpublished date,Expiration date (calculated),Original job description,job-id,logo-link,location,apply-by-date,work-pattern,money min,money max,money,money median,rank,money-indication,show-salary,apply-link,paid-ad,accepting applications,extended-description,Legacy columns,Notes,Lead status,Prospect status,Needs to be published,Date Lead added,Annie-Marie think’s it’s ready,Discovered,Contact,Contacted?,Cost,Contract link,Invoice link,Paid date,Source 🔴 DON’T USE,money is guess 🔴 dont use,Where to look to see if they’ve got jobs coming up,CSV,Upload CSV (remember to tick publish),Upload logos,uxbri.org/jobs
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -2287,7 +2287,7 @@ Understanding of enterprise-grade design system
 
 
 (UX Brighton presumes this is a permanent role. Please check directly with Elekta)",,JOb not available checked 12/2/20,,,,,,,None. Backfill,,,,,,https://elekta.wd3.myworkdayjobs.com/en-US/Elekta_Careers/job/Crawley/User-Experience-Designer_R2019-1141,,,,,,
-43,UX Designer,15 Gifts,FALSE,"Fri, 24 Jan ’20",NOW,19 Mar,https://15gifts.com/ux-designer/,kabdhu7,"https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1488813020/insrwkpptx8txofy699c.png",Brighton,02/03/2020,Permanent,"£35,000","£50,000",£35000-50000,"42,500",0.4,,TRUE,https://15gifts.breathehr.com/recruitment/vacancies/11657,,11 Mar,"### The opportunity
+43,UX Designer,15 Gifts,FALSE,"Fri, 24 Jan ’20",NOW,19 Mar,https://15gifts.com/ux-designer/,kabdhu7,"https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1488813020/insrwkpptx8txofy699c.png",Brighton,02/03/2020,Permanent,"£35,000","£50,000",£35000-50000,"42,500",0.5,,TRUE,https://15gifts.breathehr.com/recruitment/vacancies/11657,,11 Mar,"### The opportunity
 
 We’re looking for a talented end-to-end UX Designer to drive forward our product, supporting our mission to humanise online decision making and to drive incremental sales for our major retail partners.
 
@@ -3599,7 +3599,7 @@ As part of our recruitment process we’ll ask you to send us some examples of y
 112,Lead User Experience Researcher,Googel Health,FALSE,,,,"https://careers.google.com/jobs/results/127774923805336262-lead-user-experience-researcher-google-health/?company=Google&company=Google%20Fiber&company=YouTube&employment_type=FULL_TIME&hl=en_US&jlo=en_US&location=London,%20UK&q=ux&sort_by=relevance",aposue5,/jobs/logos/Google-logo.svg,,,,,,,,,,FALSE,,,,,,,❇️ Tor to upload without sale,Pitch without publishing,Yes,28/02/2020,,,,,,,,,,,,,,,
 113,UX Manager,Amazon,FALSE,,,,https://www.amazon.jobs/en/jobs/848889/ux-manager,qscvgy76,,,,,,,,,,,FALSE,,,,,,,🔵 lead closed. Close date is in the past (when found),-,No,28/02/2020,,Checking expiring,,,,,,,,,,,,,
 114,Senior UX Designer,INTO,FALSE,,,20 Mar,Can't find online,mnbgy74,,,,Contract,,,,,,,FALSE,,,,,,Brighton so AM or D to contact. AMP contacted Racehl via Slack.,🔴 AMP contaced 5.3.20,Pitch without publishing,No,28/02/2020,,https://app.slack.com/client/T02ANRZBC/C1626ASJY,Rachel Smith,,,,,,,,,,,,
-115,Senior UX Designer,RSPCA,FALSE,"Sun, 1 Mar ’20",09/03/2020,9 Mar,https://www.rspca.org.uk/utilities/jobs/jobvacancies/details/-/articleName/senior-ux-designer-rspca-hq,pakse34,/jobs/logos/RSPCA-Logo.png,"Southwater, West Sussex",09/03/2020,Permanent,"£40,000","£45,000",£40000-45000,"42,500",0.4,,TRUE,https://www.rspca.org.uk/utilities/jobs/jobvacancies/details/-/articleName/senior-ux-designer-rspca-hq,,6 Mar,"We have an exciting opportunity for a Senior UX Designer to join the RSPCA IT team to deliver the design for digital experiences that support all RSPCA activities including rehoming, campaigns, advice and welfare, fundraising, education and brand awareness work.
+115,Senior UX Designer,RSPCA,FALSE,"Sun, 1 Mar ’20",09/03/2020,9 Mar,https://www.rspca.org.uk/utilities/jobs/jobvacancies/details/-/articleName/senior-ux-designer-rspca-hq,pakse34,/jobs/logos/RSPCA-Logo.png,"Southwater, West Sussex",09/03/2020,Permanent,"£40,000","£45,000",£40000-45000,"42,500",0.5,,TRUE,https://www.rspca.org.uk/utilities/jobs/jobvacancies/details/-/articleName/senior-ux-designer-rspca-hq,,6 Mar,"We have an exciting opportunity for a Senior UX Designer to join the RSPCA IT team to deliver the design for digital experiences that support all RSPCA activities including rehoming, campaigns, advice and welfare, fundraising, education and brand awareness work.
 
 This role is fundamental to ensuring that digital design communicates the overall brand identity for the business and is consistent with digital creative produced by the in-house design team.
 
@@ -10185,7 +10185,7 @@ As Senior UI/UX Designer at Supersolid, you'll be responsible for designing, imp
 * Open to feedback and eager to learn and apply new skills
 * A good understanding of the mobile platform and able to identify best-in-class UX examples
 * Strong knowledge of best design practices across different platforms – Web, Mobile (iOS, Android)",,,,,,,,,,,,,,,,,,,,,
-256,UX Designer, Dr.Martens,TRUE,"Thu, 13 Aug ’20",,11 Sep,https://jobs.drmartens.com/job/67403/ux-designer/,natydm45,"/jobs/logos/dr-martens.svg
+256,UX Designer, Dr.Martens,FALSE,"Thu, 13 Aug ’20",12/09,11 Sep,https://jobs.drmartens.com/job/67403/ux-designer/,natydm45,"/jobs/logos/dr-martens.svg
 ",London,,Permanent,,,,,,,FALSE,https://jobs.drmartens.com/job/67403/ux-designer/apply/,,13 Aug,"We’re always on the lookout for people who share our ambition — passionate, driven people with fire in their hearts. Do you think you have what it takes?
 
 ## The Gig
@@ -10902,7 +10902,7 @@ Ultimately, to work as a teammate in Content Platforms and a Partner to our Edit
 The Company is an equal opportunities employer and wholeheartedly supports the principle of equal opportunities for all its employees and for all applicants for employment. It opposes all forms of discrimination in the workplace. 
 We are a diverse team so want to maximise every individual’s potential to create a productive environment where everyone feels valued, and where talents are fully recognised and utilised. 
 This means affording equal access to any employment opportunities within the Company according to your ability, without prejudice or discrimination by reason of race, colour, nationality, ethnic or national origin, religion, belief, gender, sexual orientation, gender reassignment, marital status, disability or age. ",,,,,,,,,,,,,,,,,,,,,
-270,Behavioural & User Experience Designer,Ofgem,TRUE,"Sun, 30 Aug ’20",,11 Sep,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWNsYXNzPUpvYnMmdXNlcnNlYXJjaGNvbnRleHQ9OTI4MjU5NTMmcGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0Jm93bmVydHlwZT1mYWlyJnNlYXJjaF9zbGljZV9jdXJyZW50PTEmb3duZXI9NTA3MDAwMCZqb2JsaXN0X3ZpZXdfdmFjPTE2ODQ3OTc=,vuobr56,/jobs/logos/Ofgem-logo.svg,"Glasgow, London",,12 Months,,,,,,,FALSE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=b3duZXI9NTA3MDAwMCZicmFuZF9pZD0wJm93bmVydHlwZT1mYWlyJmFwcGx5X3VybD1odHRwczovL2NzaHIudGFsLm5ldC92eC9sYW5nLWVuLUdCL2FwcGNlbnRyZS0xMS9jYW5kaWRhdGUvcG9zdGluZ3MvNTIyNTE%2FaW5zdGFudD1hcHBseSZwYWdlY2xhc3M9QXBwbHkmYXBwbHlfbm93PTEmamNvZGU9MTY4NDc5NyZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,,30 Aug,"## About the job
+270,Behavioural & User Experience Designer,Ofgem,FALSE,"Sun, 30 Aug ’20",12/09,11 Sep,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWNsYXNzPUpvYnMmdXNlcnNlYXJjaGNvbnRleHQ9OTI4MjU5NTMmcGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0Jm93bmVydHlwZT1mYWlyJnNlYXJjaF9zbGljZV9jdXJyZW50PTEmb3duZXI9NTA3MDAwMCZqb2JsaXN0X3ZpZXdfdmFjPTE2ODQ3OTc=,vuobr56,/jobs/logos/Ofgem-logo.svg,"Glasgow, London",,12 Months,,,,,,,FALSE,https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=b3duZXI9NTA3MDAwMCZicmFuZF9pZD0wJm93bmVydHlwZT1mYWlyJmFwcGx5X3VybD1odHRwczovL2NzaHIudGFsLm5ldC92eC9sYW5nLWVuLUdCL2FwcGNlbnRyZS0xMS9jYW5kaWRhdGUvcG9zdGluZ3MvNTIyNTE%2FaW5zdGFudD1hcHBseSZwYWdlY2xhc3M9QXBwbHkmYXBwbHlfbm93PTEmamNvZGU9MTY4NDc5NyZwb3N0aW5nX2NvZGU9MA%3D%3D&login_button=Apply+now,,30 Aug,"## About the job
 
 ### Summary
 Alongside work on Ofgem’s strategic operating model – the ‘what’ we do – we have launched an organisational transformation programme focused on ‘how’ we set ourselves up to achieve success through creating the right culture and ways of working, talent, operating environment, digital capability, systems and processes. This includes moving to more flexible ways of working that will enable us to best deliver on our priorities, so we can have the biggest impact for consumers.
@@ -11493,7 +11493,7 @@ Interview process (2 weeks):
 3. Candidate needs to prepare 1 in-depth case study about a project they are proud of. (1 hour interview) Video interview with Head of design, Senior designer & VP Product.
 4. Separate interviews with Head of design, Senior designer, CEO & CTO
 5. Feedback from interviews/job offer",,,,,,,,,,,,,,,,,,,,,
-284,UX Designer,Emerald Works,TRUE,"Thu, 10 Sep ’20",,21 Sep,https://emeraldgroup.current-vacancies.com/Jobs/Advert/1990319?cid=1707,rnrak298,/jobs/logos/emeralrdwork-logo.png,"Horsham, West Sussex",21/09/2020,Permanent,"£30,000","£40,000",£30000-40000,"35,000",0.2,,TRUE,https://emeraldgroup.current-vacancies.com/Jobs/Advert/1990319?cid=1707,,10 Sep,"Are you looking for a new role as a User Experience / UX Designer?
+284,UX Designer,Emerald Works,TRUE,"Thu, 10 Sep ’20",,21 Sep,https://emeraldgroup.current-vacancies.com/Jobs/Advert/1990319?cid=1707,rnrak298,/jobs/logos/emeralrdwork-logo.png,"Horsham, West Sussex",21/09/2020,Permanent,"£30,000","£40,000",£30000-40000,"35,000",0.2,,TRUE,https://emeraldgroup.current-vacancies.com/Jobs/Advert/1990319?cid=1707,Paid,10 Sep,"Are you looking for a new role as a User Experience / UX Designer?
 
 ## Who Are Emerald Works:
 
@@ -11542,8 +11542,98 @@ You’ll join a cross-disciplinary team with an emphasis on collaborative workin
  We value our people. Becoming a part of our team means you’ll join a trusting and flexible environment with numerous opportunities to progress your career, as well as access to professional development and the opportunity to learn new skills.
 
  You’ll receive a wide range of benefits, such as flexible working, performance bonus, enhanced pension contribution, a generous holiday allowance, life assurance and various benefits aimed at supporting your wellbeing and work-life balance.",,,,,,,,,,,,,,,,,,,,,
-285,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
-286,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
+285,Digital Product Designer,British Heart Foundation,TRUE,"Sat, 12 Sep ’20",,20 Sep,https://jobs.bhf.org.uk/vacancies/9217/digital-product-designer.html,grsy23,"/jobs/logos/bhf-logo.svg
+",London,20/09/2020,3 Months,"£40,000","£42,500",£40000-42500,"41,250",0.4,,TRUE,https://jobs.bhf.org.uk/registration.aspx,,12 Sep,"## The opportunity
+Are you experienced in UX/UI design?  Do you have a strong technical skill set and the ability to inventively solve problems? 
+
+If so you could be the Digital Product Designer we need.
+
+## About the role
+
+The British Heart Foundation (BHF) is driving a period of dynamic digital change and growth. To support this, a Digital Content & Experiences Centre of Excellence has been established to step change the impact of digital experiences for BHF customers – leading and supporting aspects of our digital strategy, as well as setting robust standards for online delivery.
+
+As our Digital Product Designer, you’ll work on end-to-end sprint-based delivery from ideation through user research, low-fi sketches, visual concepting, wireframing through to fully interactive, responsive production prototypes ready for development and user testing. 
+
+Creating world class front-end customer experiences you’ll be comfortable with a variety of digital analysis tools including Google Analytics and SessionCam, to analyse audience interaction with our sites and develop evidence-based recommendations.
+
+## About you
+
+The ideal candidate will be a bold and brilliant visual designer with strong expertise delivering conversion focused microsites and content offers to market that serve and delight customers across mobile and web. Our products include high traffic mass participation and third party events, individual giving fundraising offers, branded experiences, innovation MVPs and more.
+
+You’ll be a bold and brave creative with strong expertise delivering conversion focused microsites and content offers to market that serve and delight customers across mobile and web. You’ll have a thirst for optimising user research and an eye for designing world-class customer experiences online.
+
+A strong problem solver who’s able to use their initiative to approach difficult problems, you’ll be able to understand a wide range of audiences and customer needs, building lasting relationships across the organisation.
+
+You’ll also need: 
+* An outstanding portfolio demonstrating first class UX and UI work 
+* Solid knowledge of responsive web design, cross-browser compatibility, creating world-class customer experiences online and how to validate them with real people
+* Practical knowledge of HTML, CSS and JQuery/JavaScript 
+* Understanding of personalisation, UX principles, A/B and multivariate testing and CRO tactics
+* Knowledge of analysis and conversion
+
+At the British Heart Foundation we actively support our people in their career development and achieving their potential. The role will benefit from access to comprehensive learning and development as well as informal expert mentoring and coaching opportunities.
+
+## About us
+
+We’re here to keep hearts beating and blood flowing. With research spanning all heart and circulatory diseases, we are out to beat the world’s biggest killers. From head to toe you have over 60,000 miles of blood vessels in your body so we have our work cut out.
+
+## How to apply
+
+To apply for this role please use the apply button below. Our process involves submitting your CV and supporting statement, which should outline your interest and explain how you meet the role’s criteria. 
+
+Early application is encouraged as we will review applications throughout the advertising period and reserve the right to close the advert early. 
+
+Please note this is a 3 month contract with potential to extend 
+ 
+Interviews will be held via MS Teams.
+
+Here at the British Heart Foundation we celebrate diversity and make inclusion part of what we do every day. Diversity and Inclusion forms a main pillar in our People Experience Strategy and we drive our strategy through our diversity and inclusion leaders group Kaleidoscope. Our aim is for all of our colleagues and volunteers to bring their true self to work, so we can beat heartbreak for everyone. Should you need any adjustments to the recruitment process, at either application or interview, please [contact us](https://jobs.bhf.org.uk/contact.aspx)
+
+[Job Description](https://jobs.bhf.org.uk/popups/displayfile.aspx?storedfilepathid=zd2kjbkbVTRL_2c-gGkISQ)",,,,,,,,,,,,,,,,,,,,,
+286,UX Designer,MarcoPolo Learning,TRUE,"Sat, 12 Sep ’20",,,https://marcopololearning.bamboohr.com/jobs/view.php?id=30,nstvi09,"/jobs/logos/marco-polo-logo.png
+",London,,Permanent or Contract,,,,,,,FALSE,https://marcopololearning.bamboohr.com/jobs/view.php?id=30,,12 Sep,"## MarcoPolo Learning
+
+MarcoPolo is reinventing early learning children's media for a new generation. The company is a top global publisher of award-winning educational games and videos for children age 3-7. We inspire children to become explorers and life-long learners. We make STEAM learning an adventure, filled with the thrills and joys of discovery, for early learners, parents and educators.
+
+Apps include our flagship subscription-based app, Emmy-nominated MarcoPolo World School, and a suite of free-to-play apps (Weather, Arctic, Recall and Ocean). MarcoPolo also produces award-winning content for broadcast. Our TV series, The Polos, is broadcast worldwide, including Discovery Family (USA), NatGeo (LatAm), YouKu (China) and Nickelodeon (India). 
+
+## The role: 
+
+Reporting to the Head of Product, you will be responsible for the interaction and visual design of the MarcoPolo World School app and the MarcoPolo Learning website. Taking a user-centred design approach, you will collaborate with our education and content teams to create design solutions, and work with our development teams to implement your designs. 
+
+## Your experience: 
+
+You are an accomplished designer with a portfolio of UX design focusing on consumer-facing apps. Your previous work demonstrates how your user-centered mindset informs your design. You are highly skilled at crafting the pixel-perfect visual design of the UI. You can use a range of UX techniques such as user flows, user scenarios, storyboards or prototypes - whatever is needed - to best ideate, define and communicate your UX vision. You look to evidence from user research and established design principles to inform your decisions. You might even have solid experience of designing for children, game design, or video apps.
+
+## Key responsibilities: 
+
+* Create high-fidelity design specifications for the World School app and website 
+* Collaborate with the creative and business teams for feedback
+* Explore and ideate new UI concepts as sketches, user journeys or wireframes
+* Provide design direction and UI details to the front-end app & web developers within an agile development process
+* Create the information architecture and user flows for the MarcoPolo website, including the ecommerce experience
+* Test app builds and feedback on design implementation
+* Immerse yourself in the needs of our users (parents and early learners), and interpret data and analytics feedback, in order to be the ‘voice’ of users in design and development discussions
+* Contribute to usability testing as required, including creating interactive prototypes
+
+## Requirements:
+
+* 5+ years of UX design experience 
+* Demonstrable experience in consumer-facing, content-rich apps
+* Outstanding portfolio showcasing user-centred design projects that includes evidence of creating low and hi-fidelity mock ups, user flows, scenarios or other UX artifacts
+* Demonstrable experience of executing pixel-perfect UI design
+* Empathetic collaboration and problem solving skills
+* Excellent communicator with fluent written and spoken English
+* Working knowledge of user research, usability principles and accessibility standards
+* Experience or knowledge of educational products, game design, ecommerce or video-based apps will be a significant bonus 
+
+## Package: 
+
+Competitive salary based on experience, with benefits/incentives to be discussed. 
+
+Candidates must submit a portfolio (document or link to website) in order to be considered. 
+
+We want to recruit the best talent for the next phase of company growth. MarcoPolo Learning is based in London, New York and Shanghai. We operate a remote working model and will prioritize the best candidate in any location. As the majority of the Product and Engineering teams are based in the UK, a European timezone would be preferred. ",,,,,,,,,,,,,,,,,,,,,
 287,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
 288,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
 289,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
