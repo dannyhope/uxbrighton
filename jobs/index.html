@@ -183,19 +183,20 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
     <div style="overflow: hidden;">
       <h2>
         Current vacancies
-        <div class="right fs-m color-info" style="font-weight: 300;">
+        <!-- <div class="right fs-m color-info" style="font-weight: 300;">
           Sorted by:  
           <button class="js-sort-list__trigger">
             <span class="js-sort-list__trigger__label--newest">Newest first</span>
             <span class="js-sort-list__trigger__label--oldest">Oldest first</span>
           </button>          
-        </div> 
+        </div>  -->
       </h2>
     </div>
     
     {% assign i = 0 %}
     {% for job in site.data.jobs reversed %}
       {% if job.publish == 'TRUE' %}
+
         {% assign rank = job.rank | plus: 0 %}
         {% if rank <= 0.2 %}
           {% assign range = 'low' %}
@@ -213,121 +214,270 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
           {% assign range = 'high' %}
           {% assign hoverTextRange = 'high' %}
         {% endif %}
-        <div id="{{ job.job-id }}" class="job js-sort-list__child"  data-sortup="{{i}}" data-sortdown=" {{ job.index }}" itemscope itemtype="http://schema.org/JobPosting">
-          <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='jobOpen("{{ job.job-id }}")'></a>
-          <!-- <span itemprop="datePosted">2011-10-31</span> -->
-          <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobClose("{{ job.job-id }}")'>&times;</a>
-          <div id="{{ job.job-id }}-info" class="job-info pa3">
-            <div class="container">
-              <div class="job-desc-column sticky-body-column left-over-s">
-                <div class="job-logo mr3" style="background-image: url({{ job.logo-link }});"></div>
-                <div class="job-show-expanded" id="js-job-show-expanded-{{ job.job-id }}" style="display: none;">
-                  <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0 ">{{ job.job-title }}</h3>
-                  <p class="mv0 mt2" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
-                  <p class="mb1">
-                    {% if job.work-pattern %}
-                      <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
-                    {% endif %}
-                    {% if job.location %}
-                      <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
-                    {% endif %}
-                    {% if 1 == 1 %}
-                      {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
-                    {% else %}
-                      <span class="inline-block tooltip">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
-                          {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all recent jobs).</title>{% endcomment %}
-                          <desc>Histogram, providing an abstract indication of salary range.</desc>
-                          <g fill="none" fill-rule="evenodd">
-                            <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
 
-                            <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
-                          </g>
-                        </svg>
-                      </span>
+        {% if job.paid-ad == "Paid" or job.paid-ad == "paid" %}
+          <div id="{{ job.job-id }}" class="job js-sort-list__child" data-sortup="{{i}}" data-sortdown=" {{ job.index }}" itemscope itemtype="http://schema.org/JobPosting">
+            <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='jobOpen("{{ job.job-id }}")'></a>
+            <!-- <span itemprop="datePosted">2011-10-31</span> -->
+            <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobClose("{{ job.job-id }}")'>&times;</a>
+            <div id="{{ job.job-id }}-info" class="job-info pa3">
+              <div class="container">
+                <div class="job-desc-column sticky-body-column left-over-s">
+                  <div class="job-logo mr3" style="background-image: url({{ job.logo-link }});"></div>
+                  <div class="job-show-expanded" id="js-job-show-expanded-{{ job.job-id }}" style="display: none;">
+                    <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0 ">{{ job.job-title }}</h3>
+                    <p class="mv0 mt2" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
+                    <p class="mb1">
+                      {% if job.work-pattern %}
+                        <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
+                      {% endif %}
+                      {% if job.location %}
+                        <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
+                      {% endif %}
+                      {% if 1 == 1 %}
+                        {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
+                      {% else %}
+                        <span class="inline-block tooltip">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                            {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all recent jobs).</title>{% endcomment %}
+                            <desc>Histogram, providing an abstract indication of salary range.</desc>
+                            <g fill="none" fill-rule="evenodd">
+                              <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
 
-                      <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
-                    {% endif %}
-                  </p>
-                  <a class="button button--green mt2 pa2 job-top-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
+                              <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
+                            </g>
+                          </svg>
+                        </span>
+
+                        <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
+                      {% endif %}
+                    </p>
+                    <a class="button button--green mt2 pa2 job-top-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
+                  </div>
                 </div>
+                <div class="job-text table">
+                  <div id="js-job-hide-expanded-{{ job.job-id }}">
+                    <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
+                    <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
+                    <p class="mv0">
+                      {% if job.work-pattern %}
+                        <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
+                      {% endif %}
+                      {% if job.location %}
+                        <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
+                      {% endif %}
+                      {% if 1 == 1 %}
+                        {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
+                      {% else %}
+                        <span class="inline-block tooltip" title="Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                            {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).</title>{% endcomment %}
+                            <desc>Histogram, providing an abstract indication of salary range.</desc>
+                            <g fill="none" fill-rule="evenodd">
+                              <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
+
+                              <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
+                            </g>
+                          </svg>
+                        </span>
+                      {% endif %}
+                    </p>
+                  </div>
+                  <div class="job-text-extended hidden row mt6 mb6 pb4"  itemprop="description">
+                    {{ job.extended-description | markdownify }}
+                    <a class="button button--green mt2 pa2 job-bottom-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
+                  </div><!-- job-text-extended -->
+                </div><!-- job-text -->
               </div>
-              <div class="job-text table">
-                <div id="js-job-hide-expanded-{{ job.job-id }}">
-                  <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
-                  <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
-                  <p class="mv0">
-                    {% if job.work-pattern %}
-                      <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
-                    {% endif %}
-                    {% if job.location %}
-                      <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
-                    {% endif %}
-                    {% if 1 == 1 %}
-                      {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
-                    {% else %}
-                      <span class="inline-block tooltip" title="Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
-                          {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).</title>{% endcomment %}
-                          <desc>Histogram, providing an abstract indication of salary range.</desc>
-                          <g fill="none" fill-rule="evenodd">
-                            <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
+            </div><!-- job-info -->
+          </div>
+        {% endif %}
 
-                            <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
-                          </g>
-                        </svg>
-                      </span>
-                    {% endif %}
-                  </p>
+        {% assign i = i | plus:1 %}
+      {% endif %}
+    {% endfor %}
+
+
+    {% assign i = 0 %}
+    {% for job in site.data.jobs reversed %}
+      {% if job.publish == 'TRUE' %}
+
+        {% assign rank = job.rank | plus: 0 %}
+        {% if rank <= 0.2 %}
+          {% assign range = 'low' %}
+          {% assign hoverTextRange = 'low' %}
+        {% elsif rank <= 0.4 %}
+          {% assign range = 'low-mid' %}
+          {% assign hoverTextRange = 'low/medium' %}
+        {% elsif rank <= 0.6 %}
+          {% assign range = 'mid' %}
+          {% assign hoverTextRange = 'medium' %}
+        {% elsif rank <= 0.8 %}
+          {% assign range = 'high-mid' %}
+          {% assign hoverTextRange = 'medium/high' %}
+        {% elsif rank <= 1 %}
+          {% assign range = 'high' %}
+          {% assign hoverTextRange = 'high' %}
+        {% endif %}
+
+
+        {% unless job.paid-ad == "Paid" or job.paid-ad == "paid" %}
+          <div id="{{ job.job-id }}" class="job js-sort-list__child" data-sortup="{{i}}" data-sortdown=" {{ job.index }}" itemscope itemtype="http://schema.org/JobPosting">
+            <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='jobOpen("{{ job.job-id }}")'></a>
+            <!-- <span itemprop="datePosted">2011-10-31</span> -->
+            <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobClose("{{ job.job-id }}")'>&times;</a>
+            <div id="{{ job.job-id }}-info" class="job-info pa3">
+              <div class="container">
+                <div class="job-desc-column sticky-body-column left-over-s">
+                  <div class="job-logo mr3" style="background-image: url({{ job.logo-link }});"></div>
+                  <div class="job-show-expanded" id="js-job-show-expanded-{{ job.job-id }}" style="display: none;">
+                    <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0 ">{{ job.job-title }}</h3>
+                    <p class="mv0 mt2" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
+                    <p class="mb1">
+                      {% if job.work-pattern %}
+                        <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
+                      {% endif %}
+                      {% if job.location %}
+                        <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
+                      {% endif %}
+                      {% if 1 == 1 %}
+                        {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
+                      {% else %}
+                        <span class="inline-block tooltip">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                            {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all recent jobs).</title>{% endcomment %}
+                            <desc>Histogram, providing an abstract indication of salary range.</desc>
+                            <g fill="none" fill-rule="evenodd">
+                              <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
+
+                              <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
+                            </g>
+                          </svg>
+                        </span>
+
+                        <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
+                      {% endif %}
+                    </p>
+                    <a class="button button--green mt2 pa2 job-top-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
+                  </div>
                 </div>
-                <div class="job-text-extended hidden row mt6 mb6 pb4"  itemprop="description">
-                  {{ job.extended-description | markdownify }}
-                  <a class="button button--green mt2 pa2 job-bottom-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
-                </div><!-- job-text-extended -->
-              </div><!-- job-text -->
-            </div>
-          </div><!-- job-info -->
-        </div>
+                <div class="job-text table">
+                  <div id="js-job-hide-expanded-{{ job.job-id }}">
+                    <h3 id="js-job-title-{{ job.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0">{{ job.job-title }}</h3>
+                    <p class="mv0" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ job.employer }}</strong></p>
+                    <p class="mv0">
+                      {% if job.work-pattern %}
+                        <span itemprop="employmentType" class="job-meta">{{ job.work-pattern }}</span>
+                      {% endif %}
+                      {% if job.location %}
+                        <span itemprop="addressLocality" class="job-meta">{{ job.location }}</span>
+                      {% endif %}
+                      {% if 1 == 1 %}
+                        {% if job.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ job.money }}</span>{% endif %}
+                      {% else %}
+                        <span class="inline-block tooltip" title="Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                            {% comment %}<title id="svg-{{ job.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all jobs ever advertised here).</title>{% endcomment %}
+                            <desc>Histogram, providing an abstract indication of salary range.</desc>
+                            <g fill="none" fill-rule="evenodd">
+                              <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
+                              <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
+
+                              <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
+                              <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
+                            </g>
+                          </svg>
+                        </span>
+                      {% endif %}
+                    </p>
+                  </div>
+                  <div class="job-text-extended hidden row mt6 mb6 pb4"  itemprop="description">
+                    {{ job.extended-description | markdownify }}
+                    <a class="button button--green mt2 pa2 job-bottom-apply-btn" href="{{ job.apply-link }}">Apply for this job</a>
+                  </div><!-- job-text-extended -->
+                </div><!-- job-text -->
+              </div>
+            </div><!-- job-info -->
+          </div>
+        {% endunless %}
         {% assign i = i | plus:1 %}
       {% endif %}
     {% endfor %}
