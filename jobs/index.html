@@ -216,7 +216,7 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
         {% endif %}
 
         {% if job.paid-ad == "Paid" or job.paid-ad == "paid" %}
-          <div id="{{ job.job-id }}" class="job js-sort-list__child" data-sortup="{{i}}" data-sortdown=" {{ job.index }}" itemscope itemtype="http://schema.org/JobPosting">
+          <div id="{{ job.job-id }}" class="job job-{{i}} js-sort-list__child" data-sortup="{{i}}" data-sortdown=" {{ job.index }}" itemscope itemtype="http://schema.org/JobPosting">
             <a href="#{{ job.job-id }}" class="job-open drop rounded" onmouseover='showHoverText("{{job.job-id}}")' onmouseout='hideHoverText("{{job.job-id}}")' onclick='jobOpen("{{ job.job-id }}")'></a>
             <!-- <span itemprop="datePosted">2011-10-31</span> -->
             <a href="#{{ job.job-id }}-info" class="job-close job-close-{{ i }}" onclick='jobClose("{{ job.job-id }}")'>&times;</a>
