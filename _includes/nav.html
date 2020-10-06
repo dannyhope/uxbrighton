@@ -31,7 +31,7 @@
 	} 
 
 	@media (max-width: 730px){
-/*		.archive-nav__link,
+	/*		.archive-nav__link,
 		.archive-nav__heading {
 			border-bottom: 1px solid #ddd;
 		}*/
@@ -172,7 +172,7 @@
 
 				
 				{% if has_upcoming %}
-					{% for post in site.posts reversed %}
+					{% for post in site.posts %}
 
 						{% if post.upcoming == true && post.hide_in_nav != true %}
 							{% if post.hide_in_nav == true %}

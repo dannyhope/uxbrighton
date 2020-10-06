@@ -1,4 +1,4 @@
-index,job-title,employer,publish,Publication date,Unpublished date,Expiration date (calculated),Original job description,job-id,logo-link,location,apply-by-date,work-pattern,money min,money max,money,money median,rank,money-indication,show-salary,apply-link,paid-ad,accepting applications,extended-description,Legacy columns,Notes,Lead status,Prospect status,Needs to be published,Date Lead added,Annie-Marie think’s it’s ready,Discovered,Contact,Contacted?,Cost,Contract link,Invoice link,Paid date,Source 🔴 DON’T USE,money is guess 🔴 dont use,Where to look to see if they’ve got jobs coming up,CSV,Upload CSV (remember to tick publish),Upload logos,uxbri.org/jobs
+index,job-title,employer,publish,Publication date,Unpublished date,Expiration date (calculated),Original job description,job-id,logo-link,location,apply-by-date,work-pat,money min,money max,money,money median,rank,money-indication,show-salary,apply-link,paid-ad,accepting applications,extended-description,Legacy columns,Notes,Lead status,Prospect status,Needs to be published,Date Lead added,Annie-Marie think’s it’s ready,Discovered,Contact,Contacted?,Cost,Contract link,Invoice link,Paid date,Source 🔴 DON’T USE,money is guess 🔴 dont use,Where to look to see if they’ve got jobs coming up,CSV,Upload CSV (remember to tick publish),Upload logos,uxbri.org/jobs
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -12264,10 +12264,249 @@ There's never been a better time to join us. We're dreaming bigger and can see a
 
 ## Apply Now
 Please apply in English and don’t forget to share your portfolio with us.",,,,,,,,,,,,,,,,,,,,,
-301,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
-302,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
-303,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
-304,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
+301,Digital Designer & UX Designer (part-time),Symless,TRUE,"Sat, 3 Oct ’20",,,https://careers.symless.com/o/digital-designer-ux-designer-parttime,dunkds34,/jobs/logos/symless-logo.png,Remote,,Permanent (Part time),,,,,,,FALSE,https://careers.symless.com/o/digital-designer-ux-designer-parttime/c/new,,3 Oct,"## Job description
+*Do you have a passion for digital design, with experience in UX or UI design? Join our team to let your creativity flow.*
+
+**Who is this for?** This role is ideal for remote freelancers. We're mostly a distributed team with people working worldwide. We’re looking for a digital designer who can also, when needed, contribute to UX design and UI design. Must have strong brand awareness and the ability to help us promote our product and brand to target audiences.
+
+**Location:** Remote, in EU time zone. 
+
+**Hours:** Part-Time, approximately 10 hours per week
+
+**About Symless and Synergy**: Our mission at Symless is to make great apps for people who have multiple computers. Since 2012, Symless has proudly developed Synergy, an app that shares one mouse, one keyboard, and one clipboard between multiple computers. As well as having over 2 million users worldwide, our app is also used at some pretty neat companies like Apple, Pixar, Disney, Google, Amazon, and many more. That said, we're actually a tight-knit team of 20 people, so you won't let lost in the crowd.
+
+### What about the role?
+Your role will be to design compelling digital assets including digital art for promotional campaigns. You’ll also be making visual design changes to the website, working on email campaigns, assisting with website A/B testing and promoting our brand across social media. You will also have the opportunity to participate in UX design and improving our user interfaces.
+
+You'll report directly to the VP of Technology and work closely with our existing UX Designer as well as collaborate with the development team. From requirements research to interface design, you'll be involved in an iterative process that will result in an elegant and intuitive user experience. You will need to empathize with the user, feeling your way through their journey. You'll work closely with Software Developers, design wireframes and mockups, and then engage with users to test and analyze their experience. You'll contribute to the UX and UI design of our desktop apps, web apps, and e-commerce website.
+
+### Here are a few things you'll be doing:
+
+* Design and create digital assets for various internal departments
+* Implement design changes and create new pages on our e-commerce website
+* Experience with website A/B testing
+* Customer interviews and general research
+* Perform quantitative and qualitative surveys
+* Wire-framing and prototyping of user interfaces
+* Working hand-in-hand with our UX Designer
+* Test newly built designs to find opportunities
+* Contribute to agile methodology and planning
+* Teach others on the team what you learn
+* Learn from 20 years of development experience
+* Training is encouraged and paid as needed
+
+## Job requirements
+
+We'll need you to have academic or professional experience with:
+
+* Web design experience
+* Digital design experience
+* Experience designing web and desktop apps
+* Various web technologies, including HTML and CSS
+* Working knowledge of some or all of these design packages: 
+* Figma, Sketch, Adobe XD, Affinity Designer, Adobe Illustrator, and/or Adobe Photoshop
+* Strong brand awareness
+
+This experience would be a bonus:
+
+* UX design
+* UI design
+
+### Benefits of Joining the Symless Team
+
+* Competitive compensation.
+* Opportunity for rate increases once per year.
+* Professional development opportunities.
+* An environment in which your ideas and professional opinions are valued.
+* Casual work environment.
+* Collaborative, creative, and fun team atmosphere.
+
+Thanks for checking us out and we look forward to the opportunity to get to know you personally!
+
+## Referral Reward Terms & Conditions
+For a referrer to be eligible for the discretionary $500.00 USD referral reward (in exchange for referring a successful applicant), candidates must include the name and email address of the referrer on their initial job application. Referral information cannot be added later on in the recruitment process. We will assess the referrer's eligibility and if they qualify, then we will purchase an online gift voucher for them. After being hired, the applicant must remain hired for at least three months, at which point we will issue the online gift voucher. We reserve the right to amend these terms and conditions and we may be limited by which gift voucher services we can use. Our decisions are final.  
+
+UX Brighton presumes this role is permanent. Please confirm directly with Symless.",,,,,,,,,,,,,,,,,,,,,
+302,Lead UX/Product Designer,Pupil,TRUE,"Sat, 3 Oct ’20",,,https://pupil.recruitee.com/o/lead-uxproduct-designer,oiouk87,"/jobs/logos/pupil-logo.svg
+",London,,Permanent,,,,,,,FALSE,https://pupil.recruitee.com/o/lead-uxproduct-designer/c/new,,3 Oct,"## Job description
+We’re looking for a Lead UX/Product Designer to work across Pupil’s world-class digital product suite focused on digitising the world’s interior spaces. Our users include: our growing fleet of Digital Surveyors actively capturing properties in the field; our post-production teams working on pointcloud data and imagery; and estate agents and homebuyers assessing our feature-rich marketing assets for residential property. Pupil’s technology ecosystem covers touchpoints from spatial data acquisition through internal tools to property listings and next-generation, guaranteed accurate floor plans.
+
+Pupil also has one of London’s leading machine learning teams which has been awarded numerous AI grants from Innovate UK, so your design work will be collaborative with their capabilities. We are committed to building a world-class design pedigree with the top designers in the game. Pupil and its brands, Spec and Stak, have been created by Pentagram.
+
+This role is for you if you are passionate about designing user-centred and logical digital products that people love to use. You are a natural problem solver and comfortable in an agile environment working with remote engineers and product teams. You will be placing our users’ needs and behaviours at the forefront of your work, ensuring that the experience they have when using our products is efficient, coherent and delights. You will own the design vision across several products, leading and collaborating with our designers, understanding the users’ needs at every stage of development, maintaining their experience at the heart of our product in your design work and leadership.
+
+You have an interest or experience in the property, interiors, or spatial data world. You are a strong work ethic willing to put in the hours for a career-defining chapter during a critical growth stage for a truly exciting startup.
+
+### About Pupil
+
+Pupil is a spatial data company. Pupil captures and publishes 3D information about real-world interiors on an industrial scale. Their technology is raising standards of practice around the globe and transforming industries by digitising the world’s interiors with new levels of accuracy and consistency.
+
+Pupil’s first brand, Spec, takes transparency to a new level for sales and lettings of every size. Spec quickly delivers insured and accurate assets everyone can trust. Spec uses advanced 3D technology to capture millions of data points per property to deliver more accurate and reliable floor plan measurements.
+
+Pupil's second brand Stak is working with industry-leading commercial asset managers to capture and deliver robust spatial datasets at scale, allowing them to optimise their portfolio and unlock its full potential value.
+
+We’re a diverse bunch and we recognise the value that having a range of different experiences and perspectives brings to our team. We actively welcome applications from everyone, regardless of race, ethnicity, gender, disability, religion/belief, sexual orientation or age.
+
+## Job requirements
+
+### Roles and responsibilities
+
+* Lead the design team across all product teams and collaborate with tech and product.
+* Help define product roadmaps and potential business opportunities through strong UX architecture and user-centric approach.
+* Deeply understand the Pupil internal users and external customers in the home buying process and their values; always fiercely advocate from their perspective.
+* Solve complex data flows and simplify processes and user journeys to deliver impactful experiences for the end-users, that help them work efficiently and with enjoyment therefore increasing output and improving quality.
+* Drive the UX vision on current and future platforms and devices through mixed methods involving research, user flow, design, interactions, testing & best practices.
+* Think systematically; streamline interaction patterns across the product yet optimize for each platform.
+* Help find a middle ground between ideal design and realistic development timeframes. In addition, ensuring that teams develop and test quickly in order to learn.
+* Understand the value of teamwork and foster a collaborative team spirit to bring together designers, developers and product managers to a common goal of solving our users’ problems.
+* Promote the continuous improvement of design tools and processes and libraries, focused on creativity and innovation
+* You will create/maintain product design systems to allow our product and engineering teams to be most effective in building user experiences.
+* Champion design work to senior leadership for review and feedback.
+* Rapidly produce multiple concepts and prototypes; knowing when to apply pixel-perfect attention to detail, and when to make low-fi sketches and prototypes.
+* Ensure compliance with company policies & procedures, and support company mission, values, and standards of ethics and integrity
+
+### Requirements
+* You have 5+ years of work experience with a focus on UX for digital products across a variety of platforms and with a good balance between UX and UI.
+* You have worked with and have a strong knowledge of UCD methodologies.
+* You have worked in an in-house environment before, and can demonstrate ownership of projects and communicating timelines.
+* You have the ability to understand customers, run user testing, create journeys, and host workshops/design sprints, and have the ability to integrate qualitative and quantitative data into design work.
+* You have worked deploying or maintaining design libraries in the past.
+* You have experience in an agile environment with enthusiasm for an iterative design process, inspired by group critique and testing. 
+* You have previously worked with Sketch, Zeplin and Figma.
+* You’re a positive leader and team player with the ability to lead and mentor other designers.
+* You are a creative person with a real passion for making world-class digital products and experiences.
+* You can communicate ideas and concepts effectively, with technical and non-technical team members.
+* You can present the strategic rationale for design decisions to team members and across the board.",,,,,,,,,,,,,,,,,,,,,
+303,Product Designer,Perlego,TRUE,"Sun, 4 Oct ’20",,,https://careers.perlego.com/jobs/301572-product-designer,osdf683,/jobs/logos/Perlego-logo.png,London,,Permanent,,,,,,,FALSE,https://perlego.teamtailor.com/jobs/301572-product-designer/applications/new?_ga=2.144637366.2012127522.1601824949-1107123226.1601732087,,4 Oct,"## About Us
+
+At Perlego, we’re working to make education material accessible to all. In this digital age, we believe that anyone should be able to learn anything at any time. Knowledge should be more accessible, not locked behind sky-high price tags and tuition fees.
+
+We want to change that and make learning accessible to all, and help the environment along the way. Billed by the media as the “Spotify for Textbooks”, Perlego is a learning eBook subscription that gives students and professionals unlimited access to over 400,000 titles. 
+
+With a recent Global expansion and an increased demand for online education post the recent crisis, we’re growing fast! 
+
+We are a happy team of 54 people, with 21 nationalities, and 1 office dog. We’re very proud of our 4.8-star rating on [Glassdoor](https://www.glassdoor.co.uk/Overview/Working-at-Perlego-EI_IE2343767.11,18.htm) and 97% of the team saying they’d recommend to a friend. We’re a tight-knit bunch who believe culture is the most important part of any business.
+
+## Benefits
+
+We offer a fantastic workplace at the heart of Central London. We offer a competitive salary, a personal development budget, flexible work hours and the opportunity to design the way millions of students will read and learn. We foster a unique company culture championing self-empowerment, personal development, direct communication and mutual support.
+
+🌴 **Base Holiday**
+30 days base holiday (22 days + 8 bank holidays)
+
+🎅🏼 **Christmas break**
+Office will be shut for certain days over the Christmas holidays to allow everyone to have a break
+
+✨ **Fully Flexible**
+We trust you to get your work done wherever you are
+
+🌱**L&D Budget**
+There is an annual training budget for everyone's personal development
+
+🚲 **Cycle to work scheme**
+Perlego will buy a bike up-front and you can salary sacrifice to pay-off over the next 12-36 months
+
+🌻 **Wellbeing Subsidy**
+£30 per person, per month to subsidy your choice of: gym or Vitality health insurance
+
+🎉 **Subsidised Social Activities**
+Encourage everyone in the team to hang out so we have regular team socials and activities
+
+✨**Company Wide Bonus**
+Everyone helps us achieve our goals of user growth and revenue. If we achieve our collective goal, the whole company gets a bonus!
+
+ ## What We Need
+
+We’re looking for a **Product Designer** to join Perlego’s design team. You will be an integral part of every stage of the process: from research to delivery, you will be defining the UI and UX design throughout, while also being involved in the product strategy and help get it to market.
+
+👇🏼
+
+**Take on responsibility** for the design process, design system and prototyping to create delightfully simple experiences for our users.
+
+**Implement a world class user experience** with a consistent visual language across all our touchpoints - both on and off of our platform.
+
+**Develop a deep understanding** of our users’ goals, workflows and pain points, through conducting user research and running workshops.
+
+**Work collaboratively** with our engineering team to deliver your solutions as you intended.
+
+**Work alongside a marketing designer** to ensure your features are communicated to the right people at the right time. 
+
+
+## What You Need To Succeed
+
+✅Must-haves:
+
+* An insatiable passion for digital design and the latest trends.
+* Strong visual skills, creative thinking and design background. Detail-oriented, always striving for quality and consistency. 
+* Strong portfolio including product design, branding and visual communication projects.
+* 3+ years of work experience designing digital products for web and mobile platforms. 
+* You're proficient with UI design tools, such as Sketch, Figma, Framer X or XD.
+* You're proficient with prototyping tools, such as InVision or Marvel.
+* You can own a design process from start to finish from workshops, user testing and UX research to creating first class final designs and dev handover.
+* You’re passionate about analysing data to make informed design decisions and to test your theories.
+* You create close relationships with stakeholders and customers. 
+* You can communicate your hypotheses and findings back to the business with actionable takeaways.
+* You have energy, passion and a sleeves-rolled-up mentality: think quick, act fast and measure later. We don’t overplan or get lost in “strategising” - you’re a self-starter.
+* You share our mission and you believe in the change Perlego is trying to make in the world.
+
+🌱** Salary range available:**
+
+£35,000- £40,000
+
+⭐️ **Ideal candidates will also have:**
+
+* Advanced experience in product design
+* Advanced experience with user research and testing
+* Experience working as a sole designer in a tech business
+* Experience in illustration and digital arts
+* Experience in a startup environment and/or MA (or equivalent) in Business / Entrepreneurship
+* Have a general interest in books, reading and always learning new things!",,,,,,,,,,,,,,,,,,,,,
+304,UX Designer,Sage,TRUE,"Sun, 4 Oct ’20",,,https://sagehr.secure.force.com/careers/fRecruit__ApplyJob?vacancyNo=VN12791,dshr45,/jobs/logos/Sage-logo.svg,London,,Permanent,,,,,,,FALSE,https://sagehr.secure.force.com/careers/fRecruit__ApplyRegister?portal=English&startURL=%2Fapex%2FfRecruit__Apply%3FvacancyNo%3DVN12791%26portal%3DEnglish,,4 Oct,"People make Sage great. From our colleagues delivering ground-breaking solutions to the customers who use them: people have helped us grow for more than thirty years, and people are driving our future as a great SaaS company. We’re writing our next chapter. Be part of it!
+
+Experience has taught us that when our customers thrive, we thrive. As a team, we always start with what customers need. Through the good… and more challenging times. Innovating at pace so customers can manage their finances, operations and people. Every one of us shapes our culture at Sage - doing what’s right and succeeding together, united by our commitment to each other. We encourage each other to grow in our roles, in our careers and as individuals.
+
+Follow us on our social media sites below to join in conversations about career tips, open positions and company news! #lifeatsage #sagecareers. If you would like support with your application (or require any adjustments) please contact us at [careers@sage.com](mailto:careers@sage.com) for assistance. All qualified applicants will be thoughtfully considered and never discriminated against based on their race, color, age, religion, sexual orientation, gender identity, national origin, disability or veteran status.
+
+## Job Purpose:
+
+At Sage, Experience Designers play a mission critical role, using empathic methods to design and deliver products and services that delight our users. With specialty in one or more of: product design, interaction design, visual design, or user research; they engage across the XD community, product management, product marketing, and engineering.
+
+Experience Designers combine user knowledge with analysis and artistry.
+
+They:
+* Are inspired by first-hand user engagement, and immersed in user context and the problem domain.
+* Transform complex business scenarios into useful solutions that are easy to learn, and efficient to use, meeting the exact needs of the user with simplicity and elegance.
+* Delight users with extraordinary emotional experiences, delivering innovative, great-looking, and uniquely ‘Sage’ experiences that users love.
+* Design for the whole - end-to-end user journeys, across Sage Business Cloud, and for Sage’s design language system.
+
+An Experience Designer is an established performer with strong communication skills who proactively builds relationships.
+
+They:
+* Have a track record of contributing to shipped projects.
+* Self-sufficiently solve major product areas, with thorough rationale and critique.
+
+## Key Responsibilities	
+### Skills, Know-how and Experience:
+
+#### General
+* Knows and applies the fundamental concepts, practices and procedures of Experience Design.
+* Ability to document requirements and specifications in their field
+
+#### Product Design Skills
+* Iterative, customer-centric exploration of problems and solutions.
+* Understand business goals and strategy, perform competitor analysis, understand business rules, legislation, and constraints.
+* Apply design thinking to determine the best solution.
+* Requirements definition and elicitation techniques, resolving conflicting requirements, validating requirements across multiple stakeholders while considering impact on the customer and product.
+* Accurate, unambiguous design deliverables aligned to business goals and strategy, estimation, phasing delivery, innovative and inventive in devising quality solutions.
+* Communicates complex ideas, requirements and solutions clearly, articulately and effectively.
+
+#### Visual Design Skills
+* Adapts visual design trends, processes, and industry best practice to context.
+* Visual design concepting and exploration, sketching, mood boards.
+* Visual design of componentry and style sheets.
+* Aligns with brand, pattern libraries, and design language systems. Production of high-fidelity pixel-perfect visual designs, and key states treatments.
+* Skills in motion, transition, and animation.
+* Production of visual specifications and assets for engineering.",,,,,,,,,,,,,,,,,,,,,
 305,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
 306,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
 307,,,FALSE,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,
