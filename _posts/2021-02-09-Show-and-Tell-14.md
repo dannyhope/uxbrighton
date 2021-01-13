@@ -8,7 +8,7 @@ upcoming: true
 published: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-&-tell-13/
+fullurl: https://uxbri.org/show-&-tell-14/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
