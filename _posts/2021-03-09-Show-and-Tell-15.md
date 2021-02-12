@@ -14,7 +14,7 @@ upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
 ---
 
-Tuesday 12th March 2021, 7-9pm
+Tuesday 9th March 2021, 7-9pm
 
 Google Meet video call: [https://meet.google.com/rpt-gybq-xxn](https://meet.google.com/rpt-gybq-xxn)
 
