@@ -1,20 +1,20 @@
 ---
 layout: event-page
-title: Show & Tell 11
+title: Show & Tell 15
 price: Free
 venue: Online
 start: 7pm
-upcoming: false
+upcoming: true
 published: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-&-tell-11/
+fullurl: https://uxbri.org/show-&-tell-15/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
 ---
 
-Tuesday 13th October 2020, 7-9pm
+Tuesday 9th March 2021, 7-9pm
 
 Google Meet video call: [https://meet.google.com/rpt-gybq-xxn](https://meet.google.com/rpt-gybq-xxn)
 
@@ -22,7 +22,7 @@ The UX Brighton Show & Tell is a low-key event. A supportive environment for sha
 
 Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the conversation. 
 
-**It's free. Sign up at [this shared Google Doc](https://docs.google.com/document/d/1Ez2fFrebnxKjGWU7cIgDNbYlN7a4WGhJeb0rc0beyXI/edit#) with your Show & Tell topic.** 
+**It's free. Sign up at [this shared Google Doc](https://docs.google.com/document/d/1k8KrHOEk6_gtqDWch3IckZukkDDJG6htrDcWhuRC7d4/edit?usp=sharing) with your Show & Tell topic.** 
 
 Show & Tell places are limited to 12, as we keep the group small enough for everyone to learn each other's names. 
 
