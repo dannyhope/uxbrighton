@@ -18,6 +18,8 @@ Tuesday 11th May 2021, 7-9pm
 
 Google Meet video call: [https://meet.google.com/rpt-gybq-xxn](https://meet.google.com/rpt-gybq-xxn)
 
+---
+
 The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion.
 
 Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the conversation. 
@@ -26,7 +28,7 @@ Whether you’re a UXer of many years’ standing, new to UX or UX is only part 
 
 Show & Tell places are limited to 12, as we keep the group small enough for everyone to learn each other's names. 
 
-
+---
 
 ## How Show & Tell works
 
@@ -35,7 +37,7 @@ Show & Tell places are limited to 12, as we keep the group small enough for ever
 - 15-minute timebox for each discussion 
 - Everything is off the record - [Chatham House Rule](https://www.chathamhouse.org/chatham-house-rule). (If you’re under NDA, it’s OK to be non-specific about your client. We won’t interrogate you!) 
 
-
+---
 
 ## Deciding on a topic for Show & Tell
 
@@ -52,7 +54,7 @@ If you’re not sure what to share at the Show & Tell, here are some prompts:
 
 Still stuck? It’s more than fine to bring a question or introduce a topic for discussion.
 
-
+---
 
 ## What people say about Show & Tell
 
@@ -72,6 +74,7 @@ Still stuck? It’s more than fine to bring a question or introduce a topic for 
 
 —Luis Abreu 
 
+---
 
 ## Any questions? 
 
