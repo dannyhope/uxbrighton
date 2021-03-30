@@ -14,9 +14,10 @@ upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
 ---
 
-Tuesday 13th April 2021, 7-9pm
 
-**The UX Brighton Show & Tell takeover!**
+**UX Watch Party: a UX Brighton Show & Tell takeover!**
+
+Tuesday 13th April 2021, 7-9pm
 
 Guest MC Fiona MacNeill will present a set of short films on the theme of UX using the BETA web application backyard.co. Between each video we’ll have breaks for discussion, challenges and more. 
 
