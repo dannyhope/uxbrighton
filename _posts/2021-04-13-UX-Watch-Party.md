@@ -27,7 +27,7 @@ Unlike Show and Tell you do not need to bring anything to present or discuss. Al
 
 **Sign up and find out more at [this shared Google Doc](https://docs.google.com/document/d/1r23QcNURzNlRqqaWKIo-NLP7CqErkd7bRlquoh8gZtE/edit#).**  
 
-
+---
 
 ## Any questions? 
 
