@@ -15,7 +15,7 @@ upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 ---
 
 
-**UX Brighton Show & Tell: a Watch Party takeover!**
+## UX Brighton Show & Tell: a Watch Party takeover!
 
 Tuesday 13th April 2021, 7-9pm
 
