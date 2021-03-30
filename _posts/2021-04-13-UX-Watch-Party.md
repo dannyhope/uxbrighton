@@ -19,6 +19,8 @@ upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
 Tuesday 13th April 2021, 7-9pm
 
+---
+
 Guest MC Fiona MacNeill will present a series of short films on themes relevant to our UX interests, using the BETA web application [backyard.co](https://backyard.co/). Between each video we’ll have breaks for discussion, challenges and more. 
 
 Like Show and Tell, places are limited to 12. And it's still free. 
