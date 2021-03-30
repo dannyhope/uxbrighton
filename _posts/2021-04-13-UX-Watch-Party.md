@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Show & Tell 16
+title: UX Watch Party
 price: Free
 venue: Online
 start: 7pm
