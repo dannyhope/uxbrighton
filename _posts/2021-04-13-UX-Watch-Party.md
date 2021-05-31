@@ -4,7 +4,7 @@ title: UX Watch Party
 price: Free
 venue: Online
 start: 7pm
-upcoming: true
+upcoming: false
 published: true
 
 description: "Show and Tell takeover! Guest MC Fiona MacNeill will present a series of short films for discussion."
