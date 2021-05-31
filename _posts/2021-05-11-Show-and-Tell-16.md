@@ -4,7 +4,7 @@ title: Show & Tell 16
 price: Free
 venue: Online
 start: 7pm
-upcoming: true
+upcoming: false
 published: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
