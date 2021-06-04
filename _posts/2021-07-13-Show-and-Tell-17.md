@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Show & Tell 18
+title: Show & Tell 17
 price: Free
 venue: Online
 start: 7pm
@@ -8,7 +8,7 @@ upcoming: true
 published: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-and-tell-18/
+fullurl: https://uxbri.org/show-and-tell-17/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
