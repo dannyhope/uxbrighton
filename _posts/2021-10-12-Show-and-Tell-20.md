@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Show & Tell 20
+title: Show & Tell 20 (Online)
 price: Free
 venue: Online
 start: 7pm
