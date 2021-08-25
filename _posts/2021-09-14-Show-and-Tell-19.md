@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Show & Tell 19
+title: Show & Tell 19 (IRL)
 price: Free
 venue: The Skiff
 start: 7pm
