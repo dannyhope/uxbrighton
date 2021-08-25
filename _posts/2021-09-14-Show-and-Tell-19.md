@@ -24,7 +24,7 @@ The UX Brighton Show & Tell is a low-key event. A supportive environment for sha
 
 Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the conversation. 
 
-**It's free. Sign up at [this shared Google Doc](https://docs.google.com/document/d/1ZcG1lpV62rRiCMXwdOv-5BVYL0gDA4IKLt3tsbO4nSw/edit#) with your Show & Tell topic.** 
+**It's free. Sign up at [this shared Google Doc](https://docs.google.com/document/d/1_KYHjZx-OhRgAO-_i1Z556v46nwFCwZQvjJzKBPsP6k/edit#) with your Show & Tell topic.** 
 
 Show & Tell places are limited to 12, as we keep the group small enough for everyone to learn each other's names. 
 
