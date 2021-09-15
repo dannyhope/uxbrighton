@@ -4,7 +4,7 @@ title: Show & Tell 19 at The Skiff
 price: Free
 venue: The Skiff
 start: 7pm
-upcoming: true
+upcoming: false
 published: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
