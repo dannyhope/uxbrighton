@@ -7,7 +7,7 @@ start: 7pm
 upcoming: true
 published: true
 
-description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
+description: "UX Brighton Show & Tell 20, Tuesday 9 November 2021, 7-9pm at the Skiff in Brighton. A supportive meetup for sharing, advice and discussion."
 fullurl: https://uxbri.org/show-and-tell-20/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
