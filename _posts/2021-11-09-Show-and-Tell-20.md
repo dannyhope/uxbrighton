@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Show & Tell 21 at The Skiff
+title: Show & Tell 20 at The Skiff
 price: Free
 venue: The Skiff
 start: 7pm
@@ -8,7 +8,7 @@ upcoming: true
 published: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-and-tell-21/
+fullurl: https://uxbri.org/show-and-tell-20/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
@@ -24,7 +24,7 @@ The UX Brighton Show & Tell is a low-key event. A supportive environment for sha
 
 Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the conversation. 
 
-**It's free. Sign up at [this shared Google Doc](https://docs.google.com/document/d/1_KYHjZx-OhRgAO-_i1Z556v46nwFCwZQvjJzKBPsP6k/edit#) with your Show & Tell topic.** 
+**It's free. Sign up at [this shared Google Doc](https://docs.google.com/document/d/13HWuQH6smiNbRm9yqvliJz6L50lRzdkZkNz-c64Lwn8/edit#) with your Show & Tell topic.** 
 
 Show & Tell places are limited to 12, as we keep the group small enough for everyone to learn each other's names. 
 
@@ -66,7 +66,7 @@ Still stuck? It’s more than fine to bring a question or introduce a topic for 
 
 —Fiona MacNeill 
 
-> The informal format allowed everyone to contribute and ask questions without judgement. I’d encourage everyone from old UX hands to newbies to go along.
+> I’d encourage everyone from old UX hands to newbies to go along.
 
 —Mat Walker
 
