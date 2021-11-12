@@ -4,7 +4,7 @@ title: Show & Tell 20 at The Skiff
 price: Free
 venue: The Skiff
 start: 7pm
-upcoming: true
+upcoming: false
 published: true
 
 description: "UX Brighton Show & Tell 20, Tuesday 9 November 2021, 7-9pm at the Skiff in Brighton. A supportive meetup for sharing, advice and discussion."
