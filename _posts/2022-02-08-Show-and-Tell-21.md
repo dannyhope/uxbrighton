@@ -4,7 +4,7 @@ title: Show & Tell 21
 price: Free
 venue: Online
 start: 7pm
-upcoming: true
+upcoming: false
 published: true
 
 description: "UX Brighton Show & Tell 21, Tuesday 8 February 2022, 7-9pm on Google Meet. A supportive meetup for sharing, advice and discussion."
