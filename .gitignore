@@ -4,6 +4,7 @@ config.codekit3
 .ruby-gemset*
 .ruby-version*
 .jekyll-metadata
+.jekyll-cache
 .DS_Store
 /_site/
 .tags
