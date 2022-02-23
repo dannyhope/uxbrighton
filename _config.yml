@@ -8,4 +8,4 @@ plugins:
   - jekyll-redirect-from
 sass:
   style: compressed
-  sass_dir: ./2018/stylesheets/scss
+  sass_dir: ./2022/stylesheets/scss
