@@ -1,0 +1,98 @@
+//////////////////////////
+// Baseline grid of 6px
+
+  $ssi: 8; // smallest spacing increment
+ 
+
+  // standardised spacing 
+  $space-s:  $ssi * 1px;
+  $space-m:  $ssi * 2px;
+  $space-l:  $ssi * 5px;
+  $space-xl: $ssi * 5px;
+  
+  // main breakpoints
+  $max-width: 1300px;
+  $width-xl:  1280px;
+  $width-l:    950px;
+  $width-m:    730px;
+  $width-s:    450px;
+  $width-xs:   300px;
+
+  $height-l: 780px;
+  $height-m: 600px;
+
+  $breakpoints: s m l xl;
+  $breakpoint-values:  $width-s $width-m $width-l $width-xl;
+
+  // grid basics
+  $grid-columns: 5;
+
+
+//////////////////////////
+// Media Queries
+
+
+
+  // If width is more than ...
+
+    @mixin over($point) {
+      @media only screen and (min-width: $point + 1)  {
+        @content; 
+      }
+    }
+    @mixin over-xl {
+      @media only screen and (min-width: $width-xl + 1)  { 
+        @content; 
+      } 
+    }
+    @mixin over-l {
+      @media only screen and (min-width: $width-l + 1)  {
+        @content; 
+      }
+    }
+    @mixin over-m {
+      @media only screen and (min-width: $width-m + 1)  {
+        @content; 
+      }
+    }
+    @mixin over-s {
+      @media only screen and (min-width: $width-s + 1)  {
+        @content; 
+      }
+    }
+
+  // If width is less than ...
+
+    @mixin under($point) {
+      @media only screen and (max-width: $point)  {
+        @content; 
+      }
+    }
+    @mixin under-xl {
+      @media only screen and (max-width: $width-xl)  {
+        @content; 
+      }
+    }
+    @mixin under-l {
+      @media only screen and (max-width: $width-l)  {
+        @content; 
+      }
+    }
+    @mixin under-m {
+      @media only screen and (max-width: $width-m)  {
+        @content; 
+      }
+    }
+    @mixin under-s {
+      @media only screen and (max-width: $width-s)  {
+        @content; 
+      }
+    }
+
+  // If is retina screen (typically for background images)
+  
+    @mixin pixels-x2 {
+      @media only screen and (-webkit-min-device-pixel-ratio : 1.5)  {
+        @content; 
+      }
+    }

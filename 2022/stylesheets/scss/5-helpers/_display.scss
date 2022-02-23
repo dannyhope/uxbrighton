@@ -1,0 +1,87 @@
+.inline       { display: inline; }
+.block        { display: block; }
+.inline-block { display: inline-block; }
+.table        { display: table; }
+.table-cell   { display: table-cell; }
+.flex         { display: flex; } 
+// more flex rules after breakpoint stuff
+
+@include over-s {
+  .inline-over-s       { display: inline; }
+  .block-over-s        { display: block; }
+  .inline-block-over-s { display: inline-block; }
+  .table-over-s        { display: table; }
+  .table-cell-over-s   { display: table-cell; }
+  .flex-over-s         { display: flex }
+}
+@include over-m {
+  .inline-over-m       { display: inline; }
+  .block-over-m        { display: block; }
+  .inline-block-over-m { display: inline-block; }
+  .table-over-m        { display: table; }
+  .table-cell-over-m   { display: table-cell; }
+  .flex-over-m         { display: flex }
+}
+@include over-l {
+  .inline-over-l       { display: inline; }
+  .block-over-l        { display: block; }
+  .inline-block-over-l { display: inline-block; }
+  .table-over-l        { display: table; }
+  .table-cell-over-l   { display: table-cell; }
+  .flex-over-l         { display: flex }
+}
+@include over-xl {
+  .inline-over-xl       { display: inline; }
+  .block-over-xl        { display: block; }
+  .inline-block-over-xl { display: inline-block; }
+  .table-over-xl        { display: table; }
+  .table-cell-over-xl   { display: table-cell; }
+  .flex-over-xl         { display: flex }
+}
+
+
+
+
+
+.flex-column  { flex-direction: column }
+.flex-wrap    { flex-wrap: wrap }
+
+.items-start    { align-items: flex-start }
+.items-end      { align-items: flex-end }
+.items-center   { align-items: center }
+.items-baseline { align-items: baseline }
+.items-stretch  { align-items: stretch }
+
+.self-start    { align-self: flex-start }
+.self-end      { align-self: flex-end }
+.self-center   { align-self: center }
+.self-baseline { align-self: baseline }
+.self-stretch  { align-self: stretch }
+
+.justify-start   { justify-content: flex-start }
+.justify-end     { justify-content: flex-end }
+.justify-center  { justify-content: center }
+.justify-between { justify-content: space-between }
+.justify-around  { justify-content: space-around }
+
+.content-start   { align-content: flex-start }
+.content-end     { align-content: flex-end }
+.content-center  { align-content: center }
+.content-between { align-content: space-between }
+.content-around  { align-content: space-around }
+.content-stretch { align-content: stretch }
+
+/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
+.flex-auto {
+  flex: 1 1 auto;
+  min-width: 0; /* 1 */
+  min-height: 0; /* 1 */
+}
+.flex-grow  { flex: 1 0 auto; }
+.flex-none  { flex: none }
+
+.order-0 { order: 0 }
+.order-1 { order: 1 }
+.order-2 { order: 2 }
+.order-3 { order: 3 }
+.order-last { order: 99999 }
