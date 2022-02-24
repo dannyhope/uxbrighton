@@ -1,0 +1,139 @@
+  // Base font sizes
+
+    body, input, textarea {
+      font-size: $size-body;
+      font-family: $font-body;
+      line-height: $leading;
+      font-weight: 300;
+    }
+  // .font-museo {
+  //   font-family: $font-museo;
+  // }
+  // Headings
+    h1, h2, h3, h4, h5, h6 .masthead__link {
+      font-family: $font-heading;
+      font-weight: 900;
+    }
+    h1, .fs-h1 {
+      font-size: $size-h1;
+      letter-spacing: $track-tighter;
+      line-height: $leading-tighter;
+    }
+    h2, .fs-h2 {
+      font-size: $size-h2;
+      letter-spacing: $track-tight;
+      line-height: $leading-tight;
+      margin-bottom: 0.5em;
+    }
+    h3, .fs-h3 {
+      font-size: $size-h3;
+      line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    h4, .fs-h4 {
+      font-size: $size-h4;
+      line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    h5, .fs-h5 {
+      font-size: $size-h5;
+      line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    h6, .fs-h6 {
+      font-size: $size-h6;
+      line-height: $leading-tight;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    strong {
+      font-weight: 900;
+    }
+    blockquote, q, i, em {
+      // font-family: 'museo';
+      // font-style: italic;      
+    }
+
+  // other elements
+    ol, 
+    ul {
+      padding-left: 1.5em;
+    }
+
+    blockquote, p, ul, ol, dd,
+    figure {
+      margin-bottom: $paragraph-spacing;
+      @include under-m {
+        hyphens: auto;
+      }
+    }
+    blockquote {
+      margin-left: 0;
+      margin-right: 0;
+      color: $blockquote-color;
+      letter-spacing: 0.2px;
+      position: relative;
+      max-width: 40em;
+      margin-left: auto;
+      margin-right: auto;
+      @include over-s {
+        padding: 0 0 0 3em;
+      }
+
+     &:before {
+        content: "“";
+        font-size: 100px;
+        color: $color-info-lighter;
+        font-family: "Times New Roman",Times,serif;
+        font-weight: 900;
+        line-height: 1;
+        display: block;
+        height: .6em;
+        left: -8px;
+        position: relative;
+        @include over-s {
+          top: -20px;
+          position: absolute;
+        }
+      }
+      // padding: 0 2em;
+      // border-left: 3px solid $color-grey-10;
+      // padding: $blockquote-padding;
+      // border-width: $blockquote-border-width;
+      // border-color: $blockquote-border-color;
+      // border-style: $blockquote-border-style;
+    }
+    blockquote.standfirst {
+      margin-bottom: 0;
+    }
+    // .quote:before {
+    //     content: '“';
+    //     font-size: 3em;
+    //     font-style: normal;
+    //     line-height: 20px;
+    //   }
+    .quotee {
+      //text-align: right;
+      // margin-top: -1em;
+      margin-bottom: 0;
+      font-style: normal;
+      &:before {
+        content: '– ';
+      }
+    }
+    dt {
+      font-weight: 700;
+    }
+    hr {
+      border: 0;
+      border-bottom: 1px solid $color-ui-border;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+
+

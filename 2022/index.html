@@ -1,0 +1,168 @@
+---
+# •••••••••••••••••••••••••••••
+# Page Options
+# •••••••••••••••••••••••••••••
+
+title: "UX and Product Management – UX Brighton Conference 2022"
+
+description: "Join us for our 10th annual one-day conference!"
+
+fullurl: "https://uxbri.org/2022/"
+slug: "conference-2022"
+redirect_from:
+  - /
+
+# Page style
+layout: conference-2022/default
+masthead-color: dark
+hero-image: "/2022/images/header.jpg"
+
+# Social media cards
+image: "https://uxbri.org/2022/images/cards/Early-bird.png"
+
+
+# •••••••••••••••••••••••••••••
+# Displayed in upcoming sections
+# •••••••••••••••••••••••••••••
+
+upcoming-image: "/2022/images/upcoming-bg.jpg"
+upcoming-text: "Join us for our 🎂 10th annual one-day conference!"
+upcoming-button-text: "Tickets and info"
+
+
+
+# •••••••••••••••••••••••••••••
+# Conference Switches
+# •••••••••••••••••••••••••••••
+
+# TICKETS
+
+ticket-button: show         # show / hide
+
+ticket-button-text: "Early Bird Ticket — 15% Off" # "Buy now — £170 + vat"
+ticket-button-url: "https://www.tickettailor.com/events/uxbrighton/362453" # "any URL"
+ticket-button-extra-text: "Group Discount - buy 4 get 1 free" # "Group Discount - buy 4 get 1 free"
+
+# PAGE SECTIONS
+
+# Hero content: Search for 🦸
+
+event-promo-top-of-page:        hide # show / hide
+event-promo-footer:             hide # show / hide
+
+# Pre and during conference
+travel-and-accommodation-blurb: hide # show / hide
+pre-party:                      hide # show / hide
+speakers:                       hide # show / hide
+sponsors:                       show # show / hide
+highlights:                     show # show / hide
+workshops:                      hide # show / hide
+
+# SPEAKERS, TALKS and SCHEDULE
+talk-times:                     hide # show / hide (times for registration, talk times, party etc)
+registration:                   hide # show / hide
+after-party:                    hide # show / hide
+
+# Post conference
+talk-slides:                    hide # show / hide
+talk-videos:                    hide # show / hide
+
+
+
+---
+
+
+
+  <!-- Add this code to event page: -->
+  <main class="">
+
+    <section id="hero" class="overlay__outer pa0" style="background: url('{{ page.hero-image }}') center center no-repeat #000; background-size: cover;">
+      <div class="overlay__inner overflow-hidden">
+        <div class="upcoming-events-outer">
+          {% if page.event-promo-top-of-page == "show" %}
+            {% include 2019-upcoming-mini.html %}
+          {% endif %}
+        </div>
+        <div class="container color-white">
+          <!-- 🦸 Change the URL below to change Hero Content -->
+          {% include_relative conf-page-partials/hero-pre-conference-main.html %}
+        </div>
+      </div>
+    </section>
+
+    {% include_relative conf-page-partials/in-page-nav.html %}
+
+    <section id="overview" class="relative">
+      <div class="container" style="position: static;">
+
+        <div class="row gutters__container mt0">
+          <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
+            <h2 class="mb2 mt4">Join us for our 🎂 10th annual one-day conference!</h2>
+            <div class="if-cta-is-stuck__adjacent-content__text">
+              <p class="standfirst">Desirability, feasibility, and viability are the three components of a model for successful products — an integrated model that is often carried out by segregated teams.</p>
+            <div>
+            <p>Join us for our 10th conference where people from product management, ux, research and design will gather to discover what we have to learn from one another. </p>
+            <p>Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients. </p>
+            </div>
+            </div>
+          </div><!-- u2of3-over-l -->
+          <!-- sticky cta area -->
+          <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
+            {% if page.ticket-button == "show" %}
+            <div class="if-cta-is-stuck__tickets mb4">
+              <h2 class="mb2 mt2">Get tickets</h2>
+              <a href="{{ page.ticket-button-url }}" class="button button--large button--green bold standfirst">{{ page.ticket-button-text }}</a>
+              {% if page.ticket-button-extra-text %}
+                <p>{{ page.ticket-button-extra-text }}</p>
+              {% endif %}
+            </div>
+            {% endif %}<!--
+            <h2 class="mb2 mt4">Stay updated</h2>
+            <p>Join our newsletter for announcements and information about future events.</p> -->
+            {% assign id = 2022 %}
+            <h2 class="mb2 mt4">Stay updated</h2>
+            {% include mail-list-signup-form.html change-on-overlay=true id=1 %}
+          </div><!-- u1of3-over-l -->
+        </div><!-- row -->
+
+        <div class="testimonial clearfix">
+          <div class="row padding-top-row border-top mt0">
+            <blockquote class="standfirst">
+              <div class="quote">
+                <p>Some of the smartest, most insightful and entertaining people I've met. And that was just the audience. The speakers were great, too.</p>
+              </div>
+              <div class="quotee">Mike Kuniavsky, Xerox PARC</div>
+            </blockquote>
+          </div>
+        </div>
+        {% if page.travel-and-accommodation-blurb == "show" %}
+          {% include_relative conf-page-partials/travel-and-accommodation.html %}
+        {% endif %}
+        {% if page.pre-party == "show" %}
+          {% include_relative conf-page-partials/pre-party.html %}
+        {% endif %}
+      </div>
+    </section>
+
+
+    {% if page.speakers == "show" %}
+      {% include_relative conf-page-partials/speakers.html %}
+    {% endif %}
+
+
+    {% if page.highlights == "show" %}
+      {% include_relative conf-page-partials/highlights.html %}
+    {% endif %}
+
+
+    {% if page.sponsors == "show" %}
+      {% include_relative conf-page-partials/sponsors.html %}
+    {% endif %}
+
+
+    {% if page.workshops == "show" %}
+      {% include_relative conf-page-partials/workshop.html %}
+    {% endif %}
+
+
+  </main>

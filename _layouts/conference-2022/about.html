@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description }}" >
+
+  {% include tracking-head.html %}
+
+  <meta name="first" content="UX Brighton, Friday 4 November. UX and Product Management">
+
+  <!-- facebook open graph tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.fullurl }}">
+    <meta property="og:title" content="{{ page.title }}" >
+    <meta property="og:description" content="{{ page.description }}" >
+    <meta property="og:image" content="{{ page.image }}" >
+
+  <!-- twitter card tags additive with the og tags -->
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:image" content="{{ page.image }}" >
+    <meta name="twitter:domain" value="{{ page.fullurl }}" >
+    <meta name="twitter:title" value="{{ page.title }}" >
+    <meta name="twitter:description" value="{{ page.description }}" >
+    <meta name="twitter:url" value="{{ page.fullurl }}" >
+
+  <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+  <!-- Styles -->
+    <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
+
+  <!-- Pre dom-ready scripts -->
+    <script>
+      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+    </script>
+</head>
+
+
+<body  id="top" class="relative template--2022 template--conference {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+
+  {% include tracking-body.html %}
+
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include nav.html %}
+
+</body>
+</html>
