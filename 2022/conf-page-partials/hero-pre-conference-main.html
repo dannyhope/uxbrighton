@@ -1,15 +1,15 @@
-          <h1 itemprop="name" class="fs-xxxl leading-solid mb3 u2of3-over-m">
-            <span class="fs-l mb1 block track-normal weight-400">UX Brighton 2022</span>
-            UX and Product Management
-          </h1>
-          <h2 class="mt0 fs-l regular track-normal mb6">
-            <span class="event-date" itemprop="startDate" content="2022-11-04T09:30">Friday 4 November</span>, Brighton Dome
-          </h2>
-          <div>
-            {% if page.ticket-button == "show" %}
-              <a href="{{ page.ticket-button-url }}" class="button button--large button--green weight-900 fs-l">{{ page.ticket-button-text }}</a>
-              {% if page.ticket-button-extra-text %}
-                <p class="mb0 mt1 weight-400 fs-l">{{ page.ticket-button-extra-text }}</p>
-              {% endif %}
-            {% endif %}
-          </div>
+<h1 itemprop="name" class="fs-xxxl leading-solid mb3 u2of3-over-m">
+  <span class="fs-l mb1 block track-normal weight-400">UX Brighton 2022</span>
+  UX and Product Management
+</h1>
+<h2 class="mt0 fs-l regular track-normal mb6">
+  <span class="event-date" itemprop="startDate" content="2022-11-04T09:30">Friday 4 November</span>, Brighton Dome
+</h2>
+<div>
+  {% if page.hero.button.ticket-button == "show" %}
+    <a href="{{ page.hero.button.ticket-button-url }}" class="button button--large button--green weight-900 fs-l">{{ page.hero.button.ticket-button-text }}</a>
+    {% if page.hero.button.ticket-button-extra-text %}
+      <p class="mb0 mt1 weight-400 fs-l">{{ page.hero.button.ticket-button-extra-text }}</p>
+    {% endif %}
+  {% endif %}
+</div>

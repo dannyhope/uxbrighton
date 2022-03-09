@@ -10,14 +10,44 @@ media_folder: "images/uploads"
 site_url: https://uxbri.org/
 display_url: https://uxbri.org/
 
+local_backend:
+  # when using a custom proxy server port
+  url: http://localhost:8082/api/v1
+  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+  allowed_hosts: ['192.168.0.1']
+
+# These lines should *not* be indented
+publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
+media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "images/uploads" # The src attribute for uploaded media will begin with images/uploads
+site_url: https://uxbri.org/
+display_url: https://uxbri.org/
+logo_url: https://uxbri.org/2022/logo/red-square-small.png
+
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    folder: "_posts/" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "UX Brighton 2022"
+    name: "uxbri-2022"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "2022/index.html"
+        fields:
+          - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
+          - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
+          - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
+          - label: "Hero" # Hero section
+            hint: "Hero (top) section of the website."
+            name: "hero"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Hero Background Image", name: "hero-image", widget: "string", default: "/2022/images/header.jpg"} # Hero background image
+              - label: "Button" # Button (primary)
+                name: "button"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Button visibility", name: "ticket-button", hint: "Choose whether to *show* or *hide* the ticket button. It defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
+                  - {label: "Button text", name: "ticket-button-text", hint: "Text in the button.", widget: "string"}
+                  - {label: "Button text - extra", name: "ticket-button-extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
+                  - {label: "Button URL Address", name: "ticket-button-url", hint: "URL this button points to.", widget: "string"}
