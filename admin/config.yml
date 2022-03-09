@@ -4,12 +4,6 @@ backend:
   branch: gh-pages # Branch that Netlify CMS will be available on
   site_domain: uxbri-netlify-cms.netlify.com # Using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
 
-# These lines should *not* be indented
-publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
-media_folder: "images/uploads"
-site_url: https://uxbri.org/
-display_url: https://uxbri.org/
-
 local_backend:
   # when using a custom proxy server port
   url: http://localhost:8082/api/v1
