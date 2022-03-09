@@ -29,6 +29,7 @@ collections:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
+          - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
           - label: "Hero" # Hero section
             hint: "Hero (top) section of the website."
             name: "hero"
@@ -45,3 +46,10 @@ collections:
                   - {label: "Button text", name: "ticket-button-text", hint: "Text in the button.", widget: "string"}
                   - {label: "Button text - extra", name: "ticket-button-extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
                   - {label: "Button URL Address", name: "ticket-button-url", hint: "URL this button points to.", widget: "string"}
+          - label: "Event Promotions" # Event Promotions
+            name: "events"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Event Promotion (top)", name: "event-promo-top-of-page", hint: "Event promotion showing at top of page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Event Promotion (footer)", name: "event-promo-footer", hint: "Event promotion showing at the bottom of the page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}

@@ -37,13 +37,13 @@
   {% endfor %}
 
   {% if has_upcoming  %}
-    {% if page.event-promo-footer == null or page.event-promo-footer != "hide" %}
+    {% if page.events.event-promo-footer == null or page.events.event-promo-footer != "hide" %}
       <aside>
         <section id="promotions">
           <hr>
           <div class="row text-center">
             <h3 class="fs-h2 mt0 gutter-bottom">
-              {% if page.url contains "/2019/" or page.layout == "event-page" %}Other {% endif %}UX Brighton events
+              {% if page.url contains "/2022/" or page.layout == "event-page" %}Other {% endif %}UX Brighton events
             </h3>
 
             <div class="flex-over-m upcoming-teaser__wrapper">

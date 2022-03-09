@@ -1,13 +1,17 @@
 ---
-title: UX and Product Management – UX Brighton Conference 2022
+title: UX and Product Management - UX Brighton Conference 2022
 description: Join us for our 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
 slug: conference-2022
 redirect_from:
   - /
 
+layout: conference-2022/default
+masthead-color: dark
+image: https://uxbri.org/2022/images/cards/Early-bird.png
+
 upcoming-image: /2022/images/upcoming-bg.jpg
-upcoming-text: Join us for our 🎂 10th annual one-day conference!
+upcoming-text: Join us for our 🎂 100th annual one-day conference!
 upcoming-button-text: Tickets and info
 
 hero:
@@ -18,12 +22,13 @@ hero:
     ticket-button-extra-text: Group Discount - buy 4 get 1 free
     ticket-button-url: https://www.tickettailor.com/events/uxbrighton/362453
 
+events:
+  event-promo-top-of-page: hide
+  event-promo-footer: hide
+
 talk-slides: hide
 talk-times: hide
-layout: conference-2022/default
-masthead-color: dark
 
-event-promo-footer: hide
 workshops: hide
 
 speakers: hide
@@ -33,8 +38,6 @@ travel-and-accommodation-blurb: hide
 sponsors: show
 registration: hide
 talk-videos: hide
-image: https://uxbri.org/2022/images/cards/Early-bird.png
-event-promo-top-of-page: hide
 pre-party: hide
 highlights: show
 ---
@@ -47,8 +50,8 @@ highlights: show
     <section id="hero" class="overlay__outer pa0" style="background: url('{{ page.hero.hero-image }}') center center no-repeat #000; background-size: cover;">
       <div class="overlay__inner overflow-hidden">
         <div class="upcoming-events-outer">
-          {% if page.event-promo-top-of-page == "show" %}
-            {% include 2019-upcoming-mini.html %}
+          {% if page.events.event-promo-top-of-page == "show" %}
+            {% include 2022-upcoming-mini.html %}
           {% endif %}
         </div>
         <div class="container color-white">

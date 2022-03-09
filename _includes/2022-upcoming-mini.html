@@ -1,0 +1,64 @@
+{% assign has_upcoming = false %}
+{% for post in site.posts %}
+  {% if post.upcoming == true && if post.published == true %}
+    {% assign has_upcoming = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_upcoming %}
+
+  <style>
+    .upcoming__container {
+      float: right;
+    }
+    .upcoming__container__heading {
+      margin-bottom: 12px;
+      padding-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .upcoming__teaser {
+      padding: 0 16px;
+      padding-bottom: 12px;
+    }
+    .upcoming__teaser__heading {
+      margin-bottom: 0;
+    }
+    .upcoming__teaser:hover {
+      background-color: #f2f3f3;
+    }
+    .upcoming__teaser__link {
+      padding-top: 8px;
+    }
+    .upcoming-events-outer {
+      top: 10.2rem;
+      z-index: 99;
+    }
+  </style>
+
+  <div class="upcoming__container color-black bg-white rounded hidden-under-l">
+    <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Upcoming Events</h2>
+
+    {% for post in site.posts reversed limit:2 %}
+      {% if post.upcoming == true && if post.published == true %}
+        {% if post.slug == page.slug %}
+        {% else %}
+          <a href="{{ site.url }}{{post.url}}" class="block-link upcoming__teaser border-top upcoming__teaser__link">
+            <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
+              {% if post.upcoming-title %}
+                {{ post.upcoming-title }}
+              {% else %}
+                {{ post.title }}
+              {% endif %}
+            </h4>
+            <div class="upcoming__teaser__text">
+              {{ post.date | date: "%A, %B %-d, %Y" }}
+            </div>
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    
+  </div>
+  
+{% endif %}
