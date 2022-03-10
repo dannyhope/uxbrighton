@@ -10,10 +10,6 @@ layout: conference-2022/default
 masthead-color: dark
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 
-upcoming-image: /2022/images/upcoming-bg.jpg
-upcoming-text: Join us for our 🎂 100th annual one-day conference!
-upcoming-button-text: Tickets and info
-
 hero:
   hero-image: /2022/images/header.jpg
   button:
@@ -28,20 +24,20 @@ events:
 
 pre-and-during-conf:
   travel-and-accommodation-blurb: hide
+  pre-party: hide
+  speakers: hide
+  sponsors: show
+  highlights: show
+  workshops: hide
 
-talk-slides: hide
-talk-times: hide
+speakers-and-schedule:
+  talk-times: hide
+  registration: hide
+  after-party: hide
 
-workshops: hide
-
-speakers: hide
-after-party: hide
-
-sponsors: show
-registration: hide
-talk-videos: hide
-pre-party: hide
-highlights: show
+post-conf:
+  talk-slides: hide
+  talk-videos: hide
 ---
 
 
@@ -111,29 +107,29 @@ highlights: show
         {% if page.pre-and-during-conf.travel-and-accommodation-blurb == "show" %}
           {% include_relative conf-page-partials/travel-and-accommodation.html %}
         {% endif %}
-        {% if page.pre-party == "show" %}
+        {% if page.pre-and-during-conf.pre-party == "show" %}
           {% include_relative conf-page-partials/pre-party.html %}
         {% endif %}
       </div>
     </section>
 
 
-    {% if page.speakers == "show" %}
+    {% if page.pre-and-during-conf.speakers == "show" %}
       {% include_relative conf-page-partials/speakers.html %}
     {% endif %}
 
 
-    {% if page.highlights == "show" %}
+    {% if page.pre-and-during-conf.highlights == "show" %}
       {% include_relative conf-page-partials/highlights.html %}
     {% endif %}
 
 
-    {% if page.sponsors == "show" %}
+    {% if page.pre-and-during-conf.sponsors == "show" %}
       {% include_relative conf-page-partials/sponsors.html %}
     {% endif %}
 
 
-    {% if page.workshops == "show" %}
+    {% if page.pre-and-during-conf.workshops == "show" %}
       {% include_relative conf-page-partials/workshop.html %}
     {% endif %}
 

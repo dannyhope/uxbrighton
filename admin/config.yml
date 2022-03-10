@@ -32,32 +32,55 @@ collections:
           - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
           - label: "Hero" # Hero section
             name: "hero"
-            summary: "Hero section content eg. background image & ticket button"
+            summary: "Hero section content - (eg. hero image & ticket button)."
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Hero Background Image", name: "hero-image", widget: "string", default: "/2022/images/header.jpg"} # Hero background image
-              - label: "Button" # Button (tickets)
+              - {label: "Hero Background Image", name: "hero-image", widget: "string", default: "/2022/images/header.jpg"}
+              - label: "Button"
                 name: "button"
+                summary: "Ticket button."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Button visibility", name: "ticket-button", hint: "Choose whether to *show* or *hide* the ticket button. It defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
+                  - {label: "Button visibility", name: "ticket-button", hint: "Choose whether to *show* or *hide* the ticket button. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
                   - {label: "Button text", name: "ticket-button-text", hint: "Text in the button.", widget: "string"}
                   - {label: "Button text - extra", name: "ticket-button-extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
                   - {label: "Button URL Address", name: "ticket-button-url", hint: "URL this button points to.", widget: "string"}
           - label: "Event Promotions" # Event Promotions
             name: "events"
-            summary: "Event promotion content showing at top & bottom."
+            summary: "Event promotion content - (top & bottom of page)."
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Event Promotion (top)", name: "event-promo-top-of-page", hint: "Event promotion showing at top of page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "Event Promotion (footer)", name: "event-promo-footer", hint: "Event promotion showing at the bottom of the page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Event Promotion (top)", name: "event-promo-top-of-page", hint: "Event promotion showing at top of page. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Event Promotion (footer)", name: "event-promo-footer", hint: "Event promotion showing at the bottom of the page. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
           - label: "Pre & During Conference" # Pre & During Conference
             name: "pre-and-during-conf"
-            summary: "Content related to pre & during the conference."
+            summary: "Pre & during conference content - (eg. pre-party, speakers & workshops)."
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Travel & Accommodation", name: "travel-and-accommodation-blurb", hint: "Travel & accommodation info. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Travel & Accommodation", name: "travel-and-accommodation-blurb", hint: "Travel & accommodation info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Pre party", name: "pre-party", hint: "Pre party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Speakers", name: "speakers", hint: "Speakers info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
+              - {label: "Highlights", name: "highlights", hint: "Highlights info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
+              - {label: "Workshops", name: "workshops", hint: "Workshops info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+          - label: "Speakers, Talks & Schedule" # Speakers, Talks & Schedule
+            name: "speakers-and-schedule"
+            summary: "Speakers, Talks & Schedule content - (eg. registration times, talk times & after party)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Talk times", name: "talk-times", hint: "Talk times info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Registration", name: "registration", hint: "Registration info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "After party", name: "after-party", hint: "After party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+          - label: "Post Conference" # Post Conference
+            name: "post-conf"
+            summary: "Post conference content - (eg. talk slides & talk videos)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Talk slides", name: "talk-slides", hint: "Talk slides info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - {label: "Talk videos", name: "talk-videos", hint: "Talk videos info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
