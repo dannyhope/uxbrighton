@@ -31,13 +31,13 @@ collections:
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
           - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
           - label: "Hero" # Hero section
-            hint: "Hero (top) section of the website."
             name: "hero"
+            summary: "Hero section content eg. background image & ticket button"
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - {label: "Hero Background Image", name: "hero-image", widget: "string", default: "/2022/images/header.jpg"} # Hero background image
-              - label: "Button" # Button (primary)
+              - label: "Button" # Button (tickets)
                 name: "button"
                 widget: "object"
                 collapsed: true
@@ -48,8 +48,16 @@ collections:
                   - {label: "Button URL Address", name: "ticket-button-url", hint: "URL this button points to.", widget: "string"}
           - label: "Event Promotions" # Event Promotions
             name: "events"
+            summary: "Event promotion content showing at top & bottom."
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - {label: "Event Promotion (top)", name: "event-promo-top-of-page", hint: "Event promotion showing at top of page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Event Promotion (footer)", name: "event-promo-footer", hint: "Event promotion showing at the bottom of the page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+          - label: "Pre & During Conference" # Pre & During Conference
+            name: "pre-and-during-conf"
+            summary: "Content related to pre & during the conference."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Travel & Accommodation", name: "travel-and-accommodation-blurb", hint: "Travel & accommodation info. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}

@@ -26,6 +26,9 @@ events:
   event-promo-top-of-page: hide
   event-promo-footer: hide
 
+pre-and-during-conf:
+  travel-and-accommodation-blurb: hide
+
 talk-slides: hide
 talk-times: hide
 
@@ -33,7 +36,6 @@ workshops: hide
 
 speakers: hide
 after-party: hide
-travel-and-accommodation-blurb: hide
 
 sponsors: show
 registration: hide
@@ -106,7 +108,7 @@ highlights: show
             </blockquote>
           </div>
         </div>
-        {% if page.travel-and-accommodation-blurb == "show" %}
+        {% if page.pre-and-during-conf.travel-and-accommodation-blurb == "show" %}
           {% include_relative conf-page-partials/travel-and-accommodation.html %}
         {% endif %}
         {% if page.pre-party == "show" %}
