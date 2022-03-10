@@ -19,11 +19,11 @@ display_url: https://uxbri.org/
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
-  - label: "UX Brighton 2022"
-    name: "uxbri-2022"
+  - label: "Conferences"
+    name: "conferences"
     files:
-      - label: "Homepage"
-        name: "homepage"
+      - label: "UX Brighton 2022"
+        name: "uxbri-2022"
         file: "2022/index.html"
         fields:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
@@ -34,7 +34,7 @@ collections:
             hint: "Hero (top) section of the website."
             name: "hero"
             widget: "object"
-            collapsed: true
+            collapsed: false
             fields:
               - {label: "Hero Background Image", name: "hero-image", widget: "string", default: "/2022/images/header.jpg"} # Hero background image
               - label: "Button" # Button (primary)
@@ -49,7 +49,7 @@ collections:
           - label: "Event Promotions" # Event Promotions
             name: "events"
             widget: "object"
-            collapsed: true
+            collapsed: false
             fields:
               - {label: "Event Promotion (top)", name: "event-promo-top-of-page", hint: "Event promotion showing at top of page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Event Promotion (footer)", name: "event-promo-footer", hint: "Event promotion showing at the bottom of the page. Choose whether to *show* or *hide*. It defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
