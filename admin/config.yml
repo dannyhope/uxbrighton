@@ -26,6 +26,7 @@ collections:
         name: "uxbri-2022"
         file: "2022/index.html"
         fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/default"}
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
@@ -47,6 +48,32 @@ collections:
                   - {label: "Button text", name: "ticket-button-text", hint: "Text in the button.", widget: "string"}
                   - {label: "Button text - extra", name: "ticket-button-extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
                   - {label: "Button URL Address", name: "ticket-button-url", hint: "URL this button points to.", widget: "string"}
+          - label: "Overview" # Overview section
+            name: "overview"
+            summary: "Overview section content - (eg. intro / lede text under the hero & testimonial)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Lede text"
+                name: "lede"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - {label: "Paragraph", name: "paragraph", widget: "text"}
+              - label: "Text (other)"
+                name: "text"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - {label: "Paragraph", name: "paragraph", widget: "text"}
+              - label: "Testimonial"
+                name: "testimonial"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Quote", name: "quote", widget: "text"}
+                  - {label: "Quotee", name: "quotee", widget: "string"}
           - label: "Event Promotions" # Event Promotions
             name: "events"
             summary: "Event promotion content - (top & bottom of page)."
