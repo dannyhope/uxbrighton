@@ -33,10 +33,14 @@ collections:
           - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
           - label: "Hero" # Hero section
             name: "hero"
-            summary: "Hero section content - (eg. hero image & ticket button)."
+            summary: "Hero section content - (eg. conference name & theme, hero image & ticket button)."
             widget: "object"
             collapsed: true
             fields:
+              - {label: "Conference", name: "conference", widget: "string"}
+              - {label: "Conference theme", name: "conference-theme", widget: "string"}
+              - {label: "Conference date", name: "conference-date", widget: "string"}
+              - {label: "Conference venue", name: "conference-venue", widget: "string"}
               - {label: "Hero Background Image", name: "hero-image", widget: "string", default: "/2022/images/header.jpg"}
               - label: "Button"
                 name: "button"
