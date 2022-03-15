@@ -1,9 +1,9 @@
 <h1 itemprop="name" class="fs-xxxl leading-solid mb3 u2of3-over-m">
-  <span class="fs-l mb1 block track-normal weight-400">UX Brighton 2022</span>
-  UX and Product Management
+  <span class="fs-l mb1 block track-normal weight-400">{{ page.hero.conference }}</span>
+  {{ page.hero.conference-theme }}
 </h1>
 <h2 class="mt0 fs-l regular track-normal mb6">
-  <span class="event-date" itemprop="startDate" content="2022-11-04T09:30">Friday 4 November</span>, Brighton Dome
+  <span class="event-date" itemprop="startDate" content="2022-11-04T09:30">{{ page.hero.conference-date }}</span>, {{ page.hero.conference-venue }}
 </h2>
 <div>
   {% if page.hero.button.ticket-button == "show" %}
