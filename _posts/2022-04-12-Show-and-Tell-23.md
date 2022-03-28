@@ -7,8 +7,8 @@ start: 7pm
 upcoming: true
 published: true
 
-description: "UX Brighton Show & Tell 21, Tuesday 12 April 2022, 7-9pm on Google Meet. A supportive meetup for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-and-tell-21/
+description: "UX Brighton Show & Tell 23, Tuesday 12 April 2022, 7-9pm on Google Meet. A supportive meetup for sharing, advice and discussion."
+fullurl: https://uxbri.org/show-and-tell-23/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 
