@@ -33,25 +33,67 @@ collections:
           - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
           - label: "Hero" # Hero section
             name: "hero"
-            summary: "Hero section content - (eg. conference name & theme, hero image & ticket button)."
+            summary: "Hero section for pre, during & post-conference content states."
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Conference", name: "conference", widget: "string"}
-              - {label: "Conference theme", name: "conference-theme", widget: "string"}
-              - {label: "Conference date", name: "conference-date", widget: "string"}
-              - {label: "Conference venue", name: "conference-venue", widget: "string"}
-              - {label: "Hero Background Image", name: "hero-image", widget: "string", default: "/2022/images/header.jpg"}
-              - label: "Button"
-                name: "button"
-                summary: "Ticket button."
+              - label: "Hero content states"
+                name: "hero-state"
+                hint: "Choose whether to show *pre*, *during* or *post*-conference hero content."
+                widget: "select"
+                multiple: false
+                options:
+                  - {label: "Pre-conference", value: "pre"}
+                  - {label: "During conference", value: "during"}
+                  - {label: "Post-conference", value: "post"}
+              - label: "Global hero content"
+                name: "global"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Button visibility", name: "ticket-button", hint: "Choose whether to *show* or *hide* the ticket button. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
-                  - {label: "Button text", name: "ticket-button-text", hint: "Text in the button.", widget: "string"}
-                  - {label: "Button text - extra", name: "ticket-button-extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
-                  - {label: "Button URL Address", name: "ticket-button-url", hint: "URL this button points to.", widget: "string"}
+                  - {label: "Conference", name: "conference", widget: "string", default: "UX Brighton 2022"}
+                  - {label: "Date", name: "date", widget: "string", default: "Friday 4 November"}
+                  - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30"}
+                  - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome"}
+                  - {label: "Background Image", name: "image", widget: "string", default: "/2022/images/header.jpg"}
+              - label: "Pre-conference content"
+                name: "pre"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
+                  - label: "Button"
+                    name: "button"
+                    summary: "Ticket button."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
+                      - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
+                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
+              - label: "During conference content"
+                name: "during"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
+                  - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door"}
+              - label: "Post-conference content"
+                name: "post"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
+                  - {label: "Message", name: "message", widget: "string", default: "Thanks For Coming To UX Brighton 2022: UX and Product Management"}
+                  - label: "Button"
+                    name: "button"
+                    summary: "Ticket button."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
+                      - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
+                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
           - label: "Overview" # Overview section
             name: "overview"
             summary: "Overview section content - (eg. intro / lede text under the hero & testimonial)."
