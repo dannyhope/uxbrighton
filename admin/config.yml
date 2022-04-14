@@ -43,7 +43,7 @@ collections:
                 multiple: false
                 options:
                   - {label: "Pre-conference", value: "pre"}
-                  - {label: "During", value: "during"}
+                  - {label: "During conference", value: "during"}
                   - {label: "Post-conference", value: "post"}
               - label: "Global content"
                 name: "global"
@@ -77,6 +77,22 @@ collections:
                 fields:
                   - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
                   - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door"}
+              - label: "Post-conference content"
+                name: "post"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
+                  - {label: "Message", name: "message", widget: "string", default: "Thanks For Coming To UX Brighton 2022: UX and Product Management"}
+                  - label: "Button"
+                    name: "button"
+                    summary: "Ticket button."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
+                      - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
+                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
           - label: "Overview" # Overview section
             name: "overview"
             summary: "Overview section content - (eg. intro / lede text under the hero & testimonial)."
