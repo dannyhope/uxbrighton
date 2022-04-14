@@ -35,9 +35,9 @@
             <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
           </li> -->
 
-          {% if page.hero.button.ticket-button == "show" %}
+          {% if page.hero.hero-state == "pre" %}
             <li class="nav-item inline-block nav-item--tickets">
-              <a href="{{ page.hero.button.ticket-button-url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;"><span class="hidden-under-m">Buy </span>Tickets</a>
+              <a href="{{ page.hero.pre.button.url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;"><span class="hidden-under-m">Buy </span>Tickets</a>
             </li>
           {% endif %}
         </ul>
