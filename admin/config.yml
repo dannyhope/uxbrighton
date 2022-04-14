@@ -45,17 +45,22 @@ collections:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During", value: "during"}
                   - {label: "Post-conference", value: "post"}
+              - label: "Global content"
+                name: "global"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Conference", name: "conference", widget: "string", default: "UX Brighton 2022"}
+                  - {label: "Date", name: "date", widget: "string", default: "Friday 4 November"}
+                  - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30"}
+                  - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome"}
+                  - {label: "Background Image", name: "image", widget: "string", default: "/2022/images/header.jpg"}
               - label: "Pre-conference content"
                 name: "pre"
                 widget: "object"
                 collapsed: true
                 fields:
                   - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
-                  - {label: "Subtitle", name: "subtitle", widget: "string", default: "UX Brighton 2022"}
-                  - {label: "Date", name: "date", widget: "string", default: "Friday 4 November"}
-                  - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30"}
-                  - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome"}
-                  - {label: "Background Image", name: "image", widget: "string", default: "/2022/images/header.jpg"}
                   - label: "Button"
                     name: "button"
                     summary: "Ticket button."
@@ -65,6 +70,13 @@ collections:
                       - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
                       - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
                       - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
+              - label: "During conference content"
+                name: "during"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
+                  - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door"}
           - label: "Overview" # Overview section
             name: "overview"
             summary: "Overview section content - (eg. intro / lede text under the hero & testimonial)."

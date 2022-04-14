@@ -11,18 +11,22 @@ redirect_from:
   - /
 title: UX and Product Management - UX Brighton Conference 2022
 hero:
-  pre:
-    title: UX and Product Management
-    subtitle: UX Brighton 2022
+  global:
+    conference: UX Brighton 2022
     date: Friday 4 November
+    date-time: 2022-11-04T09:30
     venue: Brighton Dome
     image: /2022/images/header.jpg
+  pre:
+    title: UX and Product Management
     button:
       label: Early Bird Ticket – 15% Off
       url: https://www.tickettailor.com/events/uxbrighton/362453
       extra-text: Group Discount - buy 4 get 1 free
-    date-time: 2022-11-04T09:30
-  hero-state: pre
+  during:
+    title: UX and Product Management
+    message: Tickets available on the door
+  hero-state: during
 overview:
   title: Join us for our 🎂 10th annual one-day conference!
   lede:
@@ -61,7 +65,7 @@ description: Join us for our 🎂 10th annual one-day conference!
   <!-- Add this code to event page: -->
   <main class="">
 
-    <section id="hero" class="overlay__outer pa0" style="background: url('{{ page.hero.pre.image }}') center center no-repeat #000; background-size: cover;">
+    <section id="hero" class="overlay__outer pa0" style="background: url('{{ page.hero.global.image }}') center center no-repeat #000; background-size: cover;">
       <div class="overlay__inner overflow-hidden">
         <div class="upcoming-events-outer">
           {% if page.events.event-promo-top-of-page == "show" %}

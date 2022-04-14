@@ -1,13 +1,19 @@
 {% if page.hero.hero-state == "pre" %}
   <h1 itemprop="name" class="fs-xxxl leading-solid mb3 u2of3-over-m">
-    <span class="fs-l mb1 block track-normal weight-400">{{ page.hero.pre.subtitle }}</span>
+    <span class="fs-l mb1 block track-normal weight-400">{{ page.hero.global.conference }}</span>
     {{ page.hero.pre.title }}
   </h1>
 {% endif %}
+{% if page.hero.hero-state == "during" %}
+  <h1 itemprop="name" class="fs-xxxl leading-solid mb3">
+    <span class="fs-l mb1 block track-normal weight-400">{{ page.hero.global.conference }}</span>
+    {{ page.hero.during.title }}
+  </h1>
+{% endif %}
 
-{% if page.hero.hero-state == "pre" %}
+{% if (page.hero.hero-state == "pre") or (page.hero.hero-state == "during") %}
   <h2 class="mt0 fs-l regular track-normal mb6">
-      <span class="event-date" itemprop="startDate" content="{{ page.hero.pre.date-time }}">{{ page.hero.pre.date }}</span>, {{ page.hero.pre.venue }}
+      <span class="event-date" itemprop="startDate" content="{{ page.hero.global.date-time }}">{{ page.hero.global.date }}</span>, {{ page.hero.global.venue }}
   </h2>
 {% endif %}
 
@@ -17,5 +23,13 @@
     {% if page.hero.pre.button.extra-text %}
       <p class="mb0 mt1 weight-400 fs-l">{{ page.hero.pre.button.extra-text }}</p>
     {% endif %}
+  {% endif %}
+
+  {% if page.hero.hero-state == "during" %}
+    <div class="clearfix">
+      <div class="bg-red ph4 pv2 weight-900 fs-l inline-block">
+        {{ page.hero.during.message }}
+      </div>
+    </div>
   {% endif %}
 </div>
