@@ -106,14 +106,14 @@ description: Join us for our 🎂 10th annual one-day conference!
           </div><!-- u2of3-over-l -->
           <!-- sticky cta area -->
           <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
-            {% if page.hero.button.ticket-button == "show" %}
-            <div class="if-cta-is-stuck__tickets mb4">
-              <h2 class="mb2 mt2">Get tickets</h2>
-              <a href="{{ page.hero.button.ticket-button-url }}" class="button button--large button--green bold standfirst">{{ page.hero.button.ticket-button-text }}</a>
-              {% if page.hero.button.ticket-button-extra-text %}
-                <p>{{ page.hero.button.ticket-button-extra-text }}</p>
-              {% endif %}
-            </div>
+            {% if page.hero.hero-state == "pre" %}
+              <div class="if-cta-is-stuck__tickets mb4">
+                <h2 class="mb2 mt2">Get tickets</h2>
+                <a href="{{ page.hero.pre.button.url }}" class="button button--large button--green bold standfirst">{{ page.hero.pre.button.label }}</a>
+                {% if page.hero.pre.button.extra-text %}
+                  <p>{{ page.hero.pre.button.extra-text }}</p>
+                {% endif %}
+              </div>
             {% endif %}<!--
             <h2 class="mb2 mt4">Stay updated</h2>
             <p>Join our newsletter for announcements and information about future events.</p> -->

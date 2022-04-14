@@ -33,19 +33,20 @@ collections:
           - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
           - label: "Hero" # Hero section
             name: "hero"
-            summary: "Hero section content for pre, during & post conference states."
+            summary: "Hero section for pre, during & post-conference content states."
             widget: "object"
             collapsed: true
             fields:
-              - label: "Hero States"
+              - label: "Hero content states"
                 name: "hero-state"
+                hint: "Choose whether to show *pre*, *during* or *post*-conference hero content."
                 widget: "select"
                 multiple: false
                 options:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During conference", value: "during"}
                   - {label: "Post-conference", value: "post"}
-              - label: "Global content"
+              - label: "Global hero content"
                 name: "global"
                 widget: "object"
                 collapsed: true
