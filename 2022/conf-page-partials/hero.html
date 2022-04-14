@@ -1,0 +1,21 @@
+{% if page.hero.hero-state == "pre" %}
+  <h1 itemprop="name" class="fs-xxxl leading-solid mb3 u2of3-over-m">
+    <span class="fs-l mb1 block track-normal weight-400">{{ page.hero.pre.subtitle }}</span>
+    {{ page.hero.pre.title }}
+  </h1>
+{% endif %}
+
+{% if page.hero.hero-state == "pre" %}
+  <h2 class="mt0 fs-l regular track-normal mb6">
+      <span class="event-date" itemprop="startDate" content="{{ page.hero.pre.date-time }}">{{ page.hero.pre.date }}</span>, {{ page.hero.pre.venue }}
+  </h2>
+{% endif %}
+
+<div>
+  {% if page.hero.hero-state == "pre" %}
+    <a href="{{ page.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l">{{ page.hero.pre.button.label }}</a>
+    {% if page.hero.pre.button.extra-text %}
+      <p class="mb0 mt1 weight-400 fs-l">{{ page.hero.pre.button.extra-text }}</p>
+    {% endif %}
+  {% endif %}
+</div>

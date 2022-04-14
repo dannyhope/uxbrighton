@@ -1,20 +1,28 @@
 ---
 layout: conference-2022/default
-title: UX and Product Management - UX Brighton Conference 2022
-description: Join us for our 🎂 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
+speakers-and-schedule:
+  talk-times: hide
+  registration: hide
+  after-party: hide
+masthead-color: dark
 slug: conference-2022
+redirect_from:
+  - /
+title: UX and Product Management - UX Brighton Conference 2022
 hero:
-  conference: UX Brighton 2022
-  conference-theme: UX and Product Management
-  conference-date: Friday 4 November
-  conference-venue: Brighton Dome
-  hero-image: /2022/images/header.jpg
-  button:
-    ticket-button: show
-    ticket-button-text: Early Bird Ticket – 15% Off
-    ticket-button-extra-text: Group Discount - buy 4 get 1 free
-    ticket-button-url: https://www.tickettailor.com/events/uxbrighton/362453
+  pre:
+    title: UX and Product Management
+    subtitle: UX Brighton 2022
+    date: Friday 4 November
+    venue: Brighton Dome
+    image: /2022/images/header.jpg
+    button:
+      label: Early Bird Ticket – 15% Off
+      url: https://www.tickettailor.com/events/uxbrighton/362453
+      extra-text: Group Discount - buy 4 get 1 free
+    date-time: 2022-11-04T09:30
+  hero-state: pre
 overview:
   title: Join us for our 🎂 10th annual one-day conference!
   lede:
@@ -41,17 +49,11 @@ pre-and-during-conf:
   sponsors: show
   highlights: show
   workshops: hide
-speakers-and-schedule:
-  talk-times: hide
-  registration: hide
-  after-party: hide
-masthead-color: dark
-redirect_from:
-  - /
 post-conf:
   talk-slides: hide
   talk-videos: hide
 image: https://uxbri.org/2022/images/cards/Early-bird.png
+description: Join us for our 🎂 10th annual one-day conference!
 ---
 
 
@@ -59,7 +61,7 @@ image: https://uxbri.org/2022/images/cards/Early-bird.png
   <!-- Add this code to event page: -->
   <main class="">
 
-    <section id="hero" class="overlay__outer pa0" style="background: url('{{ page.hero.hero-image }}') center center no-repeat #000; background-size: cover;">
+    <section id="hero" class="overlay__outer pa0" style="background: url('{{ page.hero.pre.image }}') center center no-repeat #000; background-size: cover;">
       <div class="overlay__inner overflow-hidden">
         <div class="upcoming-events-outer">
           {% if page.events.event-promo-top-of-page == "show" %}
@@ -67,8 +69,7 @@ image: https://uxbri.org/2022/images/cards/Early-bird.png
           {% endif %}
         </div>
         <div class="container color-white">
-          <!-- 🦸 Change the URL below to change Hero Content -->
-          {% include_relative conf-page-partials/hero-pre-conference-main.html %}
+          {% include_relative conf-page-partials/hero.html %}
         </div>
       </div>
     </section>
