@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Show & Tell 25 
+title: Show & Tell 25 - online meetup
 price: Free
 venue: Online
 start: 7pm
