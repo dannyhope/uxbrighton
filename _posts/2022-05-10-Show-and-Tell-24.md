@@ -4,7 +4,7 @@ title: Show & Tell 24 at The Skiff
 price: Free
 venue: The Skiff
 start: 7pm
-upcoming: true
+upcoming: false
 published: true
 
 description: "UX Brighton Show & Tell 24, Tuesday 10 May 2022, 7-9pm at the Skiff in Brighton. A supportive meetup for sharing, advice and discussion."
