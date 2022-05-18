@@ -184,15 +184,15 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
       <h2>
         Current vacancies
         <!-- <div class="right fs-m color-info" style="font-weight: 300;">
-          Sorted by:  
+          Sorted by:
           <button class="js-sort-list__trigger">
             <span class="js-sort-list__trigger__label--newest">Newest first</span>
             <span class="js-sort-list__trigger__label--oldest">Oldest first</span>
-          </button>          
+          </button>
         </div>  -->
       </h2>
     </div>
-    
+
     {% assign i = 0 %}
     {% for job in site.data.jobs reversed %}
       {% if job.publish == 'TRUE' %}
@@ -486,7 +486,7 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
   <div class="sticky-body-column u1of4-over-m left-over-m gutters gutter-bottom-under-m">
     <div class="inline-block">
       <h2>Get job alerts</h2>
-      {% include mail-list-signup-form.html id=6 job_notifications=true %}
+      <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
     </div>
     <h2>Post a job ad</h2>
     <p>
@@ -647,19 +647,19 @@ $(function() {
         li = ul.children('.js-sort-list__child');
 
     // console.log('ul',ul);
-    // console.log('li',li);    
+    // console.log('li',li);
 
     if ( $("body").hasClass('js-sorted-newest-first') ) {
       $("body").removeClass('js-sorted-newest-first');
       $("body").addClass('js-sorted-oldest-first');
-      li.detach().sort(function(a,b) { 
-        return $(a).data('sortdown') - $(b).data('sortdown'); 
+      li.detach().sort(function(a,b) {
+        return $(a).data('sortdown') - $(b).data('sortdown');
       });
     } else {
       $("body").addClass('js-sorted-newest-first');
       $("body").removeClass('js-sorted-oldest-first');
-      li.detach().sort(function(a,b) { 
-        return $(a).data('sortup') - $(b).data('sortup'); 
+      li.detach().sort(function(a,b) {
+        return $(a).data('sortup') - $(b).data('sortup');
       });
     }
 
@@ -668,6 +668,3 @@ $(function() {
 
 });
 </script>
-
-
-

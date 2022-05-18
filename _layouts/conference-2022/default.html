@@ -40,6 +40,32 @@
     <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
     <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
 
+    <style>
+      /* Email Octopus embeds:
+
+         900e27a8-d6c8-11ec-9258-0241b9615763 is the body subscribe
+         ffc9764e-d6cb-11ec-9258-0241b9615763 is the footer & nav menu subscribe
+
+         Override their styles like this:
+
+         [data-form="ffc9764e-d6cb-11ec-9258-0241b9615763"] .btn-primary {
+           background-color: red !important;
+           border-color: #009300 !important;
+         }
+
+         or more generically:
+
+         div[eo-row] .btn-primary {
+           background-color: red !important;
+         }
+
+         div[eo-row] div[eo-block="text"] {
+           background: blue !important;
+         }
+      */
+
+    </style>
+
   <!-- Pre dom-ready scripts -->
     <script>
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles

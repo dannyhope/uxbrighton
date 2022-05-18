@@ -4,7 +4,7 @@
       display: flex;
       flex-direction: column;
     }
-    
+
     .upcoming-teaser__wrapper {
       display: flex;
       justify-content: center;
@@ -87,7 +87,7 @@
               {% endif %}
             </div><!-- gutters__container -->
           </div><!-- .row -->
-        </section>  
+        </section>
       </aside>
     {% endif %}
   {% endif %}
@@ -104,7 +104,7 @@
         <div class="u1of2-over-m left-over-m gutter-right mb5"  id="newletter-signup">
           <div class="inline-block center-under-m">
             <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Sign up for updates</h2>
-            {% include mail-list-signup-form.html change-on-overlay=true %}
+            <script async src="https://eocampaign1.com/form/ffc9764e-d6cb-11ec-9258-0241b9615763.js" data-form="ffc9764e-d6cb-11ec-9258-0241b9615763"></script>
           </div>
         </div><!-- u1of2-over-s -->
         <div class="u1of2-over-m left-over-m gutter-left pb3">
@@ -202,7 +202,7 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-  <script src="/2018/javascripts/scripts-min.js?v=feb"></script>
+  <script src="/2022/javascripts/scripts.js?v=2022-05-18_21:54"></script>
   <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
 
 
@@ -233,7 +233,7 @@
       // getCookie(name)
       // setCookie(name, value, days)
       // deleteCookie(name)
-      
+
     });
 
 
@@ -257,7 +257,7 @@
               'formFieldsSelected' : newsletterOptions
             });
             console.log('newsletterOptions',newsletterOptions);
-            $(this).closest('form').submit();             
+            $(this).closest('form').submit();
           } else {
             $(this).closest('form').find('.js-email-no-email').slideDown();
           }
@@ -353,5 +353,3 @@
       $('.masthead__link--events').addClass(unviewed_number).append('<span class="unviewed">'+upcoming_diff+'</span>');
     };
   </script>
-
-
