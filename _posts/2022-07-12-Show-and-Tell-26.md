@@ -4,8 +4,8 @@ title: Show & Tell 26 at The Skiff
 price: Free
 venue: The Skiff
 start: 7pm
-upcoming: true
-published: true
+upcoming: false
+published: false
 
 description: "UX Brighton Show & Tell 26, Tuesday 12 July 2022, 7-9pm at the Skiff in Brighton. A supportive meetup for sharing, advice and discussion."
 fullurl: https://uxbri.org/show-and-tell-26/
