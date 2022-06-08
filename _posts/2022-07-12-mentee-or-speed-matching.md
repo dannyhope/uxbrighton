@@ -5,7 +5,7 @@ price: £15
 venue: TBC
 start: TBC
 upcoming: false
-published: true
+published: false
 
 description: "UX Brighton Show & Tell 26, Tuesday 12 July 2022, 7-9pm at the Skiff in Brighton. A supportive meetup for sharing, advice and discussion."
 fullurl: https://uxbri.org/show-and-tell-26/
