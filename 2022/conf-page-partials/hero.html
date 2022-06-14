@@ -33,7 +33,7 @@
 
 <div>
   {% if page.hero.hero-state == "pre" %}
-    <a href="{{ page.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l">{{ page.hero.pre.button.label }}</a>
+    <a href="{{ page.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank">{{ page.hero.pre.button.label }}</a>
     {% if page.hero.pre.button.extra-text %}
       <p class="mb0 mt1 weight-400 fs-l">{{ page.hero.pre.button.extra-text }}</p>
     {% endif %}
@@ -48,7 +48,7 @@
   {% endif %}
 
   {% if page.hero.hero-state == "post" %}
-    <a href="{{ page.hero.post.button.url }}" class="button button--large button--green weight-900 fs-l">{{ page.hero.post.button.label }}</a>
+    <a href="{{ page.hero.post.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank">{{ page.hero.post.button.label }}</a>
     {% if page.hero.post.button.extra-text %}
       <p class="mb0 mt1 weight-400 fs-l">{{ page.hero.post.button.extra-text }}</p>
     {% endif %}
