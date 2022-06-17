@@ -4,8 +4,8 @@ title: Mentee/or speed matching
 price: £10
 venue: Spaces, Brighton
 start: 7 pm to 9 pm 
-upcoming: true
-published: true
+upcoming: false
+published: false
 
 description: "UX Brighton Mentorship Launch, Tuesday 12 July 2022, 7-9pm at Spaces, Brighton. Get inspired and gain clarity on what you want to achieve from your mentor/ee relationship."
 fullurl: https://uxbri.org/mentorship-launch-22/
