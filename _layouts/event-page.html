@@ -177,7 +177,7 @@
                       {% elsif page.ticket-link == 'unticketed' %}
                         <a class="ticket-button">Unticketed event</a>
                       {% else %}
-                        <a href="{{page.ticket-link}}" class="button button--green fill mt1" title="{{page.title}} tickets on Eventbrite">
+                        <a href="{{page.ticket-link}}" class="button button--green fill mt1" title="{{page.title}} tickets" target="_blank">
                           {% capture price %}{{ page.price | downcase}}{% endcapture %}
                           <span class="bold block mb1">{% if price == 'free' %}Get{% else %}Buy{% endif %} your ticket</span> {% if page.price %}{{page.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}
                           {% endif %}<span></span>
