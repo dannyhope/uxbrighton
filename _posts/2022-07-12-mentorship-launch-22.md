@@ -28,11 +28,11 @@ Attend the launch to meet other UXers broadening their horizons. This is where y
 
 ## Speakers
 
-### Speaker 1: Jessica Squires, Lead User Experience Designer at Reach plc
+### Jessica Squires, Lead User Experience Designer at Reach plc
 
-### Speaker 2: Shrut Kirti Saksena, Senior Experience Researcher at Adobe 
+### Shrut Kirti Saksena, Senior Experience Researcher at Adobe 
 
-### Speaker 1: TBA
+### Speaker 3: TBA
 
 ---
 
