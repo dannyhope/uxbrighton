@@ -25,13 +25,14 @@
                           <span class="_description"></span> -->
                           <span class="_location block mv1">
                             <!-- <span class="bold">Where: </span> -->
-                            {% if    page.venue == "Platf9rm-Brighton" %}PLATF9RM, Floor 5 & 6, Tower Point, 44 North Rd, Brighton BN1 1YR
+                            {% if page.venue == "Platf9rm-Brighton" %}PLATF9RM, Floor 5 & 6, Tower Point, 44 North Rd, Brighton BN1 1YR
                             {% elsif page.venue == "Fabrica" %}Fabrica, 40 Duke Street, Brighton, BN1 1AG
                             {% elsif page.venue == "Lighthouse" %}Lighthouse, 28 Kensington Street, Brighton, BN1 4AJ
                             {% elsif page.venue == "Hotel Du Vin" %}2-7 Ship Street, Brighton, Sussex BN1 1AD
                             {% elsif page.venue == "68 Middle Street" %}68 Middle Street, Brighton, BN1 1AL
                             {% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU
                             {% elsif page.venue == "The Skiff" %}The Skiff, 30 Cheapside, Brighton BN1 4GD
+                            {% elsif page.venue == "Spaces" %}Spaces, Mocatta House, Trafalgar Pl, Brighton BN1 4DU
                             {% else %}Venue: <abbr title="to be announced">TBA</abbr>
                             {% endif %}
                           </span>
@@ -78,6 +79,9 @@
 
 {% elsif page.venue == "Hatch" %}
 	<a class="venue" href="https://www.google.co.uk/maps/place/1+Preston+Rd,+Brighton,+The+City+of+Brighton+and+Hove+BN1/@50.8330585,-0.1407332,17z/data=!4m2!3m1!1s0x48758577bf971d2f:0x3188aa7d63223b88" title="1 Preston Road in Google Maps" class="where"><span class="screen-reader-text">Map</span><img src="/images/maps/hatch.png" alt="Map of Hatch, 1 Preston Rd"></a>
+
+{% elsif page.venue == "Spaces" %}
+	<a class="venue" href="https://www.google.co.uk/maps/place/Spaces+-+Brighton,+Trafalgar+Place/@50.82944,-0.1420947,17z/data=!3m2!4b1!5s0x48758575de74b61d:0x70b67ab741f98ce7!4m5!3m4!1s0x48758575d0300001:0x59505aaf1ef1ab25!8m2!3d50.82944!4d-0.139906" title="Spaces, Mocatta House in Google Maps" style="background: url(/images/maps/spaces.png) center center; background-size: cover;"><span class="screen-reader-text">Map</span></a>
 
 {% else %}
 <a class="soon">The venue for this event will be announced soon.</a>
