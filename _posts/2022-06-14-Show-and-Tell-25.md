@@ -4,7 +4,7 @@ title: Show & Tell 25 - online meetup
 price: Free
 venue: Online
 start: 7pm
-upcoming: true
+upcoming: false
 published: true
 
 description: "UX Brighton Show & Tell 25, Tuesday 14 June 2022, 7-9pm on Google Meet. A supportive meetup for sharing, advice and discussion."
