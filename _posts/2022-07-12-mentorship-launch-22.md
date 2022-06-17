@@ -26,6 +26,16 @@ Attend the launch to meet other UXers broadening their horizons. This is where y
 
 ---
 
+## Speakers
+
+### Speaker 1: Jessica Squires, Lead User Experience Designer at Reach plc
+
+### Speaker 2: Shrut Kirti Saksena, Senior Experience Researcher at Adobe 
+
+### Speaker 1: TBA
+
+---
+
 ## Any questions? 
 
 Send Annie-Marie Page a message on the UX Brighton Slack, or email anniemarie@uxbri.org  
