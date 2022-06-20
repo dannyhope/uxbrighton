@@ -112,6 +112,7 @@ collections:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During conference", value: "during"}
                   - {label: "Post-conference", value: "post"}
+                  - {label: "Hidden", value: "hide"}
               - label: "Pre-conference content"
                 name: "pre"
                 summary: "Overview section pre-conference content."
