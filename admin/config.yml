@@ -205,7 +205,21 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Travel & Accommodation", name: "travel-and-accommodation-blurb", hint: "Travel & accommodation info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - label: "Travel & Accommodation"
+                name: "travel-and-accommodation-blurb"
+                summary: "Travel & Accommodation summary info."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Body", name: "body", widget: "markdown"}
+                  - label: "Info guide items"
+                    name: "info"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Info item", name: "item", widget: "string"}
               - {label: "Pre party", name: "pre-party", hint: "Pre party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Speakers", name: "speakers", hint: "Speakers info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
