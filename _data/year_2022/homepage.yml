@@ -88,7 +88,15 @@ pre-and-during-conf:
   pre-party: hide
   speakers: hide
   sponsors: show
-  highlights: show
+  highlights:
+    visibility: show
+    title: Highlights from previous years
+    testimonial:
+      quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+        you'll get access to some of the most cutting-edge presentations you can
+        imagine. Well organized, fabulous location, packed with valuable content
+        — go if you can: it's worth the investment."
+      quotee: Jim Kalbach, Past Speaker
   workshops: hide
 speakers-and-schedule:
   talk-times: hide

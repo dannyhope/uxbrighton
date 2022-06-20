@@ -209,7 +209,21 @@ collections:
               - {label: "Pre party", name: "pre-party", hint: "Pre party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Speakers", name: "speakers", hint: "Speakers info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
-              - {label: "Highlights", name: "highlights", hint: "Highlights info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
+              - label: "Highlights"
+                name: "highlights"
+                summary: "Highlights (past) section."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Testimonial"
+                    name: "testimonial"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Quote", name: "quote", widget: "text"}
+                      - {label: "Quotee", name: "quotee", widget: "string"}
               - {label: "Workshops", name: "workshops", hint: "Workshops info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
           - label: "Speakers, Talks & Schedule" # Speakers, Talks & Schedule
             name: "speakers-and-schedule"

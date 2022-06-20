@@ -41,8 +41,8 @@ redirect_from:
         {% include_relative conf-page-partials/aside-cta.html %}
       </div>
 
-      <!-- Testimonial component -->
-      {% include_relative conf-page-partials/testimonial.html %}
+      <!-- Testimonial (overview section) component -->
+      {% include_relative conf-page-partials/testimonial-overview.html %}
 
       <!-- Travel and accommodation component -->
       {% if homepage.pre-and-during-conf.travel-and-accommodation-blurb == "show" %}
@@ -63,9 +63,7 @@ redirect_from:
   {% endif %}
 
   <!-- Highlights (past) component -->
-  {% if homepage.pre-and-during-conf.highlights == "show" %}
-    {% include_relative conf-page-partials/highlights.html %}
-  {% endif %}
+  {% include_relative conf-page-partials/highlights.html %}
 
   <!-- Sponsors component -->
   {% if homepage.pre-and-during-conf.sponsors == "show" %}
