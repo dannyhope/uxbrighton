@@ -33,7 +33,7 @@ collections:
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
           - label: "Hero" # Hero section
             name: "hero"
-            summary: "Hero section for pre, during & post-conference content states."
+            summary: "Hero section content - (eg. banner title, subtitle, date and primary ticket button)."
             widget: "object"
             collapsed: true
             fields:
@@ -46,7 +46,7 @@ collections:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During conference", value: "during"}
                   - {label: "Post-conference", value: "post"}
-              - label: "Global hero content"
+              - label: "Hero section global content"
                 name: "global"
                 widget: "object"
                 collapsed: true
@@ -58,6 +58,7 @@ collections:
                   - {label: "Background Image", name: "image", widget: "string", default: "/2022/images/header.jpg"}
               - label: "Pre-conference content"
                 name: "pre"
+                summary: "Hero section pre-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
@@ -73,6 +74,7 @@ collections:
                       - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
               - label: "During conference content"
                 name: "during"
+                summary: "Hero section during-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
@@ -80,6 +82,7 @@ collections:
                   - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door"}
               - label: "Post-conference content"
                 name: "post"
+                summary: "Hero section post-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
@@ -100,26 +103,93 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - label: "Lede text"
-                name: "lede"
-                widget: "list"
-                collapsed: true
-                fields:
-                  - {label: "Paragraph", name: "paragraph", widget: "text"}
-              - label: "Text (other)"
-                name: "text"
-                widget: "list"
-                collapsed: true
-                fields:
-                  - {label: "Paragraph", name: "paragraph", widget: "text"}
-              - label: "Testimonial"
-                name: "testimonial"
+              - label: "Overview content states"
+                name: "overview-state"
+                hint: "Choose whether to show *pre*, *during* or *post*-conference overview content."
+                widget: "select"
+                multiple: false
+                options:
+                  - {label: "Pre-conference", value: "pre"}
+                  - {label: "During conference", value: "during"}
+                  - {label: "Post-conference", value: "post"}
+              - label: "Pre-conference content"
+                name: "pre"
+                summary: "Overview section pre-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Quote", name: "quote", widget: "text"}
-                  - {label: "Quotee", name: "quotee", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Paragraph", name: "paragraph", widget: "text"}
+                  - label: "Text (extra)"
+                    name: "text"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Content", name: "body", widget: "markdown"}
+                  - label: "Testimonial"
+                    name: "testimonial"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Quote", name: "quote", widget: "text"}
+                      - {label: "Quotee", name: "quotee", widget: "string"}
+              - label: "During conference content"
+                name: "during"
+                summary: "Overview section during-conference content."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Paragraph", name: "paragraph", widget: "text"}
+                  - label: "Text (extra)"
+                    name: "text"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Content", name: "body", widget: "markdown"}
+                  - label: "Testimonial"
+                    name: "testimonial"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Quote", name: "quote", widget: "text"}
+                      - {label: "Quotee", name: "quotee", widget: "string"}
+              - label: "Post-conference content"
+                name: "post"
+                summary: "Overview section post-conference content."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Paragraph", name: "paragraph", widget: "text"}
+                  - label: "Text (extra)"
+                    name: "text"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Content", name: "body", widget: "markdown"}
+                  - label: "Testimonial"
+                    name: "testimonial"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Quote", name: "quote", widget: "text"}
+                      - {label: "Quotee", name: "quotee", widget: "string"}
           - label: "Event Promotions" # Event Promotions
             name: "events"
             summary: "Event promotion content - (top & bottom of page)."

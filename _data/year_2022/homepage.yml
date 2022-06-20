@@ -25,21 +25,61 @@ hero:
       url: /2023
       extra-text: Super early bird discounts available now!
 overview:
-  title: Join us for our 🎂 10th annual one-day conference!
-  lede:
-    - paragraph: Desirability, feasibility, and viability are the three components of
-        a model for successful products — an integrated model that is often
-        carried out by segregated teams.
-  text:
-    - paragraph: Join us for our 10th conference where people from product management,
+  overview-state: pre
+  pre:
+    title: Join us for our 🎂 10th annual one-day conference!
+    lede:
+      - paragraph: Desirability, feasibility, and viability are the three components of
+          a model for successful products — an integrated model that is often
+          carried out by segregated teams.
+    text:
+      body: >-
+        Join us for our 10th conference where people from product management,
         ux, research and design will gather to discover what we have to learn
         from one another.
-    - paragraph: Learn new approaches and glean fresh insights that will bring solid
-        benefits for you, your colleagues and your clients.
-  testimonial:
-    quote: Some of the smartest, most insightful and entertaining people I've met.
-      And that was just the audience. The speakers were great, too.
-    quotee: Mike Kuniavsky, Xerox PARC
+
+
+        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+    testimonial:
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  during:
+    title: Join us for our 🎂 10th annual one-day conference!
+    lede:
+      - paragraph: Desirability, feasibility, and viability are the three components of
+          a model for successful products — an integrated model that is often
+          carried out by segregated teams.
+    text:
+      body: >-
+        Join us for our 10th conference where people from product management,
+        ux, research and design will gather to discover what we have to learn
+        from one another.
+
+
+        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+    testimonial:
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  post:
+    title: Join us for our 🎂 10th annual one-day conference!
+    lede:
+      - paragraph: Desirability, feasibility, and viability are the three components of
+          a model for successful products — an integrated model that is often
+          carried out by segregated teams.
+    text:
+      body: >-
+        Join us for our 10th conference where people from product management,
+        ux, research and design will gather to discover what we have to learn
+        from one another.
+
+
+        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+    testimonial:
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
 events:
   event-promo-top-of-page: hide
   event-promo-footer: hide

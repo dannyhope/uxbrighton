@@ -1,0 +1,41 @@
+{% if homepage.overview.overview-state == "pre" %}
+<div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
+  <h2 class="mb2 mt4">{{ homepage.overview.pre.title }}</h2>
+  <div class="if-cta-is-stuck__adjacent-content__text">
+    {% for entry in homepage.overview.pre.lede %}
+      <p class="standfirst">{{ entry.paragraph}}</p>
+    {% endfor %}
+  <div>
+    {{ homepage.overview.pre.text.body | markdownify }}
+  </div>
+  </div>
+</div>
+{% endif %}
+
+{% if homepage.overview.overview-state == "during" %}
+<div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
+  <h2 class="mb2 mt4">{{ homepage.overview.during.title }}</h2>
+  <div class="if-cta-is-stuck__adjacent-content__text">
+    {% for entry in homepage.overview.during.lede %}
+      <p class="standfirst">{{ entry.paragraph}}</p>
+    {% endfor %}
+  <div>
+    {{ homepage.overview.during.text.body | markdownify }}
+  </div>
+  </div>
+</div>
+{% endif %}
+
+{% if homepage.overview.overview-state == "post" %}
+<div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
+  <h2 class="mb2 mt4">{{ homepage.overview.post.title }}</h2>
+  <div class="if-cta-is-stuck__adjacent-content__text">
+    {% for entry in homepage.overview.post.lede %}
+      <p class="standfirst">{{ entry.paragraph}}</p>
+    {% endfor %}
+  <div>
+    {{ homepage.overview.post.text.body | markdownify }}
+  </div>
+  </div>
+</div>
+{% endif %}
