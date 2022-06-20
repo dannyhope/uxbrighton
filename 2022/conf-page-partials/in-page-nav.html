@@ -8,7 +8,7 @@
               Top
             </a>
           </li>
-          {% if page.pre-and-during-conf.speakers == "show" %}
+          {% if homepage.pre-and-during-conf.speakers == "show" %}
             <li class="nav-item inline-block ">
               <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
             </li>
@@ -20,12 +20,12 @@
           <!-- <li class="nav-item inline-block nav-item--sponsors hidden-under-ms">
             <a href="#venue" class="masthead__link nav-link color-black">Venue</a>
           </li> -->
-          {% if page.pre-and-during-conf.sponsors == "show" %}
+          {% if homepage.pre-and-during-conf.sponsors == "show" %}
             <li class="nav-item inline-block nav-item--sponsors hidden-under-s">
               <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
             </li>
           {% endif %}
-          {% if page.pre-and-during-conf.workshops == "show" %}
+          {% if homepage.pre-and-during-conf.workshops == "show" %}
             <li class="nav-item inline-block nav-item--other-workshop">
               <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
             </li>
@@ -35,9 +35,9 @@
             <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
           </li> -->
 
-          {% if page.hero.hero-state == "pre" %}
+          {% if homepage.hero.hero-state == "pre" %}
             <li class="nav-item inline-block nav-item--tickets">
-              <a href="{{ page.hero.pre.button.url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;" target="_blank"><span class="hidden-under-m">Buy </span>Tickets</a>
+              <a href="{{ homepage.hero.pre.button.url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;" target="_blank"><span class="hidden-under-m">Buy </span>Tickets</a>
             </li>
           {% endif %}
         </ul>

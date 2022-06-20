@@ -1,29 +1,40 @@
+{%- assign metaTitle = page.title -%}
+{%- assign metaDescription = page.description -%}
+{%- assign metaFullUrl = page.fullurl -%}
+
+{%- if page.slug == 'conference-2022' %}
+  {% assign metaTitle = site.data.year_2022.homepage.title %}
+  {% assign metaDescription = site.data.year_2022.homepage.description %}
+  {% assign metaFullUrl = site.data.year_2022.homepage.fullurl %}
+{% endif -%}
+
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
 <head>
-  <title>{{ page.title }}</title>
+  <title>{{ metaTitle }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ page.description }}" >
+  <meta name="description" content="{{ metaDescription }}" >
 
   {% include tracking-head.html %}
 
+  <!-- Hmmmm.... what is this? -->
   <meta name="first" content="UX Brighton, Friday 4 November. UX and Product Management">
 
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ page.fullurl }}">
-    <meta property="og:title" content="{{ page.title }}" >
-    <meta property="og:description" content="{{ page.description }}" >
+    <meta property="og:url" content="{{ metaFullUrl }}">
+    <meta property="og:title" content="{{ metaTitle }}" >
+    <meta property="og:description" content="{{ metaDescription }}" >
     <meta property="og:image" content="{{ page.image }}" >
 
   <!-- twitter card tags additive with the og tags -->
     <meta name="twitter:card" content="summary_large_image" >
     <meta name="twitter:image" content="{{ page.image }}" >
-    <meta name="twitter:domain" value="{{ page.fullurl }}" >
-    <meta name="twitter:title" value="{{ page.title }}" >
-    <meta name="twitter:description" value="{{ page.description }}" >
-    <meta name="twitter:url" value="{{ page.fullurl }}" >
+    <meta name="twitter:domain" value="{{ metaFullUrl }}" >
+    <meta name="twitter:title" value="{{ metaTitle }}" >
+    <meta name="twitter:description" value="{{ metaDescription }}" >
+    <meta name="twitter:url" value="{{ metaFullUrl }}" >
 
   <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">

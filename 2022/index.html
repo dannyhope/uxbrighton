@@ -1,166 +1,103 @@
 ---
 layout: conference-2022/default
-title: UX and Product Management - UX Brighton Conference 2022
-description: Join us for our 🎂 10th annual one-day conference!
-fullurl: https://uxbri.org/2022/
 slug: conference-2022
-hero:
-  global:
-    conference: UX Brighton 2022
-    date: Friday 4 November
-    date-time: 2022-11-04T09:30
-    venue: Brighton Dome
-    image: /2022/images/header.jpg
-  pre:
-    title: UX and Product Management
-    button:
-      label: Tickets
-      url: https://www.tickettailor.com/events/uxbrighton/362453
-      extra-text: Group Discount - buy 4 get 1 free
-  during:
-    title: UX and Product Management
-    message: Tickets available on the door
-  post:
-    title: It’s a wrap
-    message: "Thanks For Coming To UX Brighton 2022: UX and Product Management"
-    button:
-      label: Book now for 2023
-      url: /2023
-      extra-text: Super early bird discounts available now!
-  hero-state: pre
-overview:
-  title: Join us for our 🎂 10th annual one-day conference!
-  lede:
-    - paragraph: Desirability, feasibility, and viability are the three components of
-        a model for successful products — an integrated model that is often
-        carried out by segregated teams.
-  text:
-    - paragraph: Join us for our 10th conference where people from product management,
-        ux, research and design will gather to discover what we have to learn
-        from one another.
-    - paragraph: Learn new approaches and glean fresh insights that will bring solid
-        benefits for you, your colleagues and your clients.
-  testimonial:
-    quote: Some of the smartest, most insightful and entertaining people I've met.
-      And that was just the audience. The speakers were great, too.
-    quotee: Mike Kuniavsky, Xerox PARC
-events:
-  event-promo-top-of-page: hide
-  event-promo-footer: hide
-pre-and-during-conf:
-  travel-and-accommodation-blurb: hide
-  pre-party: hide
-  speakers: hide
-  sponsors: show
-  highlights: show
-  workshops: hide
-speakers-and-schedule:
-  talk-times: hide
-  registration: hide
-  after-party: hide
+image: https://uxbri.org/2022/images/cards/Early-bird.png
 masthead-color: dark
 redirect_from:
   - /
-post-conf:
-  talk-slides: hide
-  talk-videos: hide
-image: https://uxbri.org/2022/images/cards/Early-bird.png
 ---
 
+{%- assign homepage = site.data.year_2022.homepage -%}
 
+<main class="">
 
-  <!-- Add this code to event page: -->
-  <main class="">
-
-    <section id="hero" class="overlay__outer pa0" style="background: url('{{ page.hero.global.image }}') center center no-repeat #000; background-size: cover;">
-      <div class="overlay__inner overflow-hidden">
-        <div class="upcoming-events-outer">
-          {% if page.events.event-promo-top-of-page == "show" %}
-            {% include 2022-upcoming-mini.html %}
-          {% endif %}
-        </div>
-        <div class="container color-white">
-          {% include_relative conf-page-partials/hero.html %}
-        </div>
+  <section id="hero" class="overlay__outer pa0" style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
+    <div class="overlay__inner overflow-hidden">
+      <div class="upcoming-events-outer">
+        {% if homepage.events.event-promo-top-of-page == "show" %}
+          {% include 2022-upcoming-mini.html %}
+        {% endif %}
       </div>
-    </section>
+      <div class="container color-white">
+        {% include_relative conf-page-partials/hero.html %}
+      </div>
+    </div>
+  </section>
 
-    {% include_relative conf-page-partials/in-page-nav.html %}
+  {% include_relative conf-page-partials/in-page-nav.html %}
 
-    <section id="overview" class="relative">
-      <div class="container" style="position: static;">
+  <section id="overview" class="relative">
+    <div class="container" style="position: static;">
 
-        <div class="row gutters__container mt0">
-          <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
-            <h2 class="mb2 mt4">{{ page.overview.title }}</h2>
-            <div class="if-cta-is-stuck__adjacent-content__text">
-              {% for entry in page.overview.lede %}
-                <p class="standfirst">{{ entry.paragraph}}</p>
-              {% endfor %}
-            <div>
-              {% for entry in page.overview.text %}
-                <p>{{ entry.paragraph }}</p>
-              {% endfor %}
-            </div>
-            </div>
-          </div><!-- u2of3-over-l -->
-          <!-- sticky cta area -->
-          <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
-            {% if page.hero.hero-state == "pre" %}
-              <div class="if-cta-is-stuck__tickets mb4">
-                <h2 class="mb2 mt2">Get tickets</h2>
-                <a href="{{ page.hero.pre.button.url }}" class="button button--large button--green bold standfirst" target="_blank">{{ page.hero.pre.button.label }}</a>
-                {% if page.hero.pre.button.extra-text %}
-                  <p>{{ page.hero.pre.button.extra-text }}</p>
-                {% endif %}
-              </div>
-            {% endif %}<!--
-            <h2 class="mb2 mt4">Stay updated</h2>
-            <p>Join our newsletter for announcements and information about future events.</p> -->
-            {% assign id = 2022 %}
-            <h2 class="mb2 mt4">Stay updated</h2>
-            <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
-          </div><!-- u1of3-over-l -->
-        </div><!-- row -->
-
-        <div class="testimonial clearfix">
-          <div class="row padding-top-row border-top mt0">
-            <blockquote class="standfirst">
-              <div class="quote">
-                <p>{{ page.overview.testimonial.quote }}</p>
-              </div>
-              <div class="quotee">{{ page.overview.testimonial.quotee }}</div>
-            </blockquote>
+      <div class="row gutters__container mt0">
+        <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
+          <h2 class="mb2 mt4">{{ homepage.overview.title }}</h2>
+          <div class="if-cta-is-stuck__adjacent-content__text">
+            {% for entry in homepage.overview.lede %}
+              <p class="standfirst">{{ entry.paragraph}}</p>
+            {% endfor %}
+          <div>
+            {% for entry in homepage.overview.text %}
+              <p>{{ entry.paragraph }}</p>
+            {% endfor %}
           </div>
+          </div>
+        </div><!-- u2of3-over-l -->
+        <!-- sticky cta area -->
+        <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
+          {% if homepage.hero.hero-state == "pre" %}
+            <div class="if-cta-is-stuck__tickets mb4">
+              <h2 class="mb2 mt2">Get tickets</h2>
+              <a href="{{ homepage.hero.pre.button.url }}" class="button button--large button--green bold standfirst" target="_blank">{{ homepage.hero.pre.button.label }}</a>
+              {% if homepage.hero.pre.button.extra-text %}
+                <p>{{ homepage.hero.pre.button.extra-text }}</p>
+              {% endif %}
+            </div>
+          {% endif %}<!--
+          <h2 class="mb2 mt4">Stay updated</h2>
+          <p>Join our newsletter for announcements and information about future events.</p> -->
+          {% assign id = 2022 %}
+          <h2 class="mb2 mt4">Stay updated</h2>
+          <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
+        </div><!-- u1of3-over-l -->
+      </div><!-- row -->
+
+      <div class="testimonial clearfix">
+        <div class="row padding-top-row border-top mt0">
+          <blockquote class="standfirst">
+            <div class="quote">
+              <p>{{ homepage.overview.testimonial.quote }}</p>
+            </div>
+            <div class="quotee">{{ homepage.overview.testimonial.quotee }}</div>
+          </blockquote>
         </div>
-        {% if page.pre-and-during-conf.travel-and-accommodation-blurb == "show" %}
-          {% include_relative conf-page-partials/travel-and-accommodation.html %}
-        {% endif %}
-        {% if page.pre-and-during-conf.pre-party == "show" %}
-          {% include_relative conf-page-partials/pre-party.html %}
-        {% endif %}
       </div>
-    </section>
 
+      {% if homepage.pre-and-during-conf.travel-and-accommodation-blurb == "show" %}
+        {% include_relative conf-page-partials/travel-and-accommodation.html %}
+      {% endif %}
 
-    {% if page.pre-and-during-conf.speakers == "show" %}
-      {% include_relative conf-page-partials/speakers.html %}
-    {% endif %}
+      {% if homepage.pre-and-during-conf.pre-party == "show" %}
+        {% include_relative conf-page-partials/pre-party.html %}
+      {% endif %}
 
+    </div>
+  </section>
 
-    {% if page.pre-and-during-conf.highlights == "show" %}
-      {% include_relative conf-page-partials/highlights.html %}
-    {% endif %}
+  {% if homepage.pre-and-during-conf.speakers == "show" %}
+    {% include_relative conf-page-partials/speakers.html %}
+  {% endif %}
 
+  {% if homepage.pre-and-during-conf.highlights == "show" %}
+    {% include_relative conf-page-partials/highlights.html %}
+  {% endif %}
 
-    {% if page.pre-and-during-conf.sponsors == "show" %}
-      {% include_relative conf-page-partials/sponsors.html %}
-    {% endif %}
+  {% if homepage.pre-and-during-conf.sponsors == "show" %}
+    {% include_relative conf-page-partials/sponsors.html %}
+  {% endif %}
 
+  {% if homepage.pre-and-during-conf.workshops == "show" %}
+    {% include_relative conf-page-partials/workshop.html %}
+  {% endif %}
 
-    {% if page.pre-and-during-conf.workshops == "show" %}
-      {% include_relative conf-page-partials/workshop.html %}
-    {% endif %}
-
-
-  </main>
+</main>

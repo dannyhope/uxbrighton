@@ -22,15 +22,15 @@ collections:
   - label: "Conferences"
     name: "conferences"
     files:
-      - label: "UX Brighton 2022"
+      - label: "UX Brighton 2022 - (homepage)"
         name: "uxbri-2022"
-        file: "2022/index.html"
+        file: "_data/year_2022/homepage.yml" # Content file now seperate to markdown `.md` file
+        editor:
+          preview: false # Hiding preview panel for now
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/default"}
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
-          - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
           - label: "Hero" # Hero section
             name: "hero"
             summary: "Hero section for pre, during & post-conference content states."
