@@ -14,11 +14,13 @@ redirect_from:
   <section id="hero" class="overlay__outer pa0" style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
     <div class="overlay__inner overflow-hidden">
       <div class="upcoming-events-outer">
+        <!-- Event promo component -->
         {% if homepage.events.event-promo-top-of-page == "show" %}
           {% include 2022-upcoming-mini.html %}
         {% endif %}
       </div>
       <div class="container color-white">
+        <!-- Hero component -->
         {% include_relative conf-page-partials/hero.html %}
       </div>
     </div>
@@ -30,53 +32,21 @@ redirect_from:
     <div class="container" style="position: static;">
 
       <div class="row gutters__container mt0">
-        <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
-          <h2 class="mb2 mt4">{{ homepage.overview.title }}</h2>
-          <div class="if-cta-is-stuck__adjacent-content__text">
-            {% for entry in homepage.overview.lede %}
-              <p class="standfirst">{{ entry.paragraph}}</p>
-            {% endfor %}
-          <div>
-            {% for entry in homepage.overview.text %}
-              <p>{{ entry.paragraph }}</p>
-            {% endfor %}
-          </div>
-          </div>
-        </div><!-- u2of3-over-l -->
-        <!-- sticky cta area -->
-        <div class="u1of3-over-l right-over-l gutters gutter-top-under-m if-cta-is-stuck__cta">
-          {% if homepage.hero.hero-state == "pre" %}
-            <div class="if-cta-is-stuck__tickets mb4">
-              <h2 class="mb2 mt2">Get tickets</h2>
-              <a href="{{ homepage.hero.pre.button.url }}" class="button button--large button--green bold standfirst" target="_blank">{{ homepage.hero.pre.button.label }}</a>
-              {% if homepage.hero.pre.button.extra-text %}
-                <p>{{ homepage.hero.pre.button.extra-text }}</p>
-              {% endif %}
-            </div>
-          {% endif %}<!--
-          <h2 class="mb2 mt4">Stay updated</h2>
-          <p>Join our newsletter for announcements and information about future events.</p> -->
-          {% assign id = 2022 %}
-          <h2 class="mb2 mt4">Stay updated</h2>
-          <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
-        </div><!-- u1of3-over-l -->
-      </div><!-- row -->
-
-      <div class="testimonial clearfix">
-        <div class="row padding-top-row border-top mt0">
-          <blockquote class="standfirst">
-            <div class="quote">
-              <p>{{ homepage.overview.testimonial.quote }}</p>
-            </div>
-            <div class="quotee">{{ homepage.overview.testimonial.quotee }}</div>
-          </blockquote>
-        </div>
+        <!-- Overview component -->
+        {% include_relative conf-page-partials/overview.html %}
+        <!-- Sticky 'aside' call-to-action component -->
+        {% include_relative conf-page-partials/aside-cta.html %}
       </div>
 
+      <!-- Testimonial component -->
+      {% include_relative conf-page-partials/testimonial.html %}
+
+      <!-- Travel and accommodation component -->
       {% if homepage.pre-and-during-conf.travel-and-accommodation-blurb == "show" %}
         {% include_relative conf-page-partials/travel-and-accommodation.html %}
       {% endif %}
 
+      <!-- Pre-party component -->
       {% if homepage.pre-and-during-conf.pre-party == "show" %}
         {% include_relative conf-page-partials/pre-party.html %}
       {% endif %}
@@ -84,18 +54,22 @@ redirect_from:
     </div>
   </section>
 
+  <!-- Speakers component -->
   {% if homepage.pre-and-during-conf.speakers == "show" %}
     {% include_relative conf-page-partials/speakers.html %}
   {% endif %}
 
+  <!-- Highlights (past) component -->
   {% if homepage.pre-and-during-conf.highlights == "show" %}
     {% include_relative conf-page-partials/highlights.html %}
   {% endif %}
 
+  <!-- Sponsors component -->
   {% if homepage.pre-and-during-conf.sponsors == "show" %}
     {% include_relative conf-page-partials/sponsors.html %}
   {% endif %}
 
+  <!-- Workshops component -->
   {% if homepage.pre-and-during-conf.workshops == "show" %}
     {% include_relative conf-page-partials/workshop.html %}
   {% endif %}
