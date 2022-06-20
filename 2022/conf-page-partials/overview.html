@@ -1,3 +1,4 @@
+<!-- Pre-conference content -->
 {% if homepage.overview.overview-state == "pre" %}
 <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
   <h2 class="mb2 mt4">{{ homepage.overview.pre.title }}</h2>
@@ -12,6 +13,7 @@
 </div>
 {% endif %}
 
+<!-- During conference content -->
 {% if homepage.overview.overview-state == "during" %}
 <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
   <h2 class="mb2 mt4">{{ homepage.overview.during.title }}</h2>
@@ -26,6 +28,7 @@
 </div>
 {% endif %}
 
+<!-- Post-conference content -->
 {% if homepage.overview.overview-state == "post" %}
 <div class="u2of3-over-l left-over-l  gutters if-cta-is-stuck__adjacent-content">
   <h2 class="mb2 mt4">{{ homepage.overview.post.title }}</h2>
