@@ -4,31 +4,16 @@
     <h2 class="mb2 gutter-top">{{ homepage.pre-and-during-conf.highlights.title }}</h2>
     <div class="row mt0">
       <div class="u2of3-over-l left-over-l  pr0-under-l">
-
         <div class="clearfix">
-          <div class="video-box u1of2-over-s left-over-s ">
-            <a href="https://youtu.be/rz7sy81Yg5E" title="Opens in YouTube">
-              <img src="/assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png" alt="ResearchOps - Kate Towsey">
-            </a>
-          </div>
-          <div class="video-box u1of2-over-s left-over-s">
-            <a href="https://youtu.be/8A3SEmvx7uY" title="Opens in YouTube">
-              <img src="/assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png" alt="UX and Forecasting - James Woudhuysen">
-            </a>
-          </div>
-          <div class="video-box u1of2-over-s left-over-s">
-            <a href="https://youtu.be/DjRR1MpBr1g" title="Opens in YouTube">
-              <img src="/assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png" alt="Top Tasks - Gerry McGovern">
-            </a>
-          </div>
-          <div class="video-box u1of2-over-s left-over-s">
-            <a href="https://youtu.be/h9s3DrImGXA" title="Opens in YouTube">
-              <img src="/assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png" alt="Atomic UX - Daniel Pidcock">
-            </a>
-          </div>
+          {% for entry in homepage.pre-and-during-conf.highlights.video %}
+            <div class="video-box u1of2-over-s left-over-s ">
+              <a href="{{ entry.url }}">
+                <img src="{{ entry.thumbnail }}" alt="{{ entry.alt }}">
+              </a>
+            </div>
+          {% endfor %}
         </div>
-      </div><!-- u1of2-over-m -->
-
+      </div>
       <div class="u1of3-over-l right-over-l gutter-left pb3 pt3-under-s pt1">
         <blockquote>
           <div class="quote">
@@ -36,8 +21,8 @@
           </div>
           <div class="quotee">{{ homepage.pre-and-during-conf.highlights.testimonial.quotee }}</div>
         </blockquote>
-      </div><!-- u1of2-over-m -->
-    </div><!-- row -->
+      </div>
+    </div>
   </div>
 </section>
 {% endif %}

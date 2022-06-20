@@ -12,8 +12,8 @@ local_backend:
 
 # These lines should *not* be indented
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
-public_folder: "images/uploads" # The src attribute for uploaded media will begin with images/uploads
+media_folder: "/images/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with images/uploads
 site_url: https://uxbri.org/
 display_url: https://uxbri.org/
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
@@ -217,6 +217,14 @@ collections:
                 fields:
                   - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
                   - {label: "Title", name: "title", widget: "string"}
+                  - label: "Videos"
+                    name: "video"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Description", name: "alt", widget: "string"}
+                      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+                      - {label: "URL", name: "url", widget: "string"}
                   - label: "Testimonial"
                     name: "testimonial"
                     widget: "object"
