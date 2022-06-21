@@ -20,7 +20,8 @@ logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
   - label: "Conferences"
-    name: "conferences"
+    name: "conferences" # this is used for namespacing
+    description: "Go here to edit conference pages"
     files:
       - label: "UX Brighton 2022"
         name: "uxbri-2022"
@@ -157,3 +158,20 @@ collections:
             fields:
               - {label: "Talk slides", name: "talk-slides", hint: "Talk slides info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Talk videos", name: "talk-videos", hint: "Talk videos info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+  - label: "Event pages"
+    name: "event-pages"
+    folder: "_posts"
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    create: true
+    fields: # stuff unique to each post follows
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Venue", name: "venue", widget: "string"}
+      - {label: "Price", name: "price", widget: "string"}
+      - {label: "Ticket link", name: "ticket-link", widget: "string"}
+      - {label: "Start", name: "start", widget: "string"}
+      - {label: "Upcoming", name: "upcoming", widget: "boolean"}
+      - {label: "Publish", name: "publish", widget: "boolean"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Align images right", name: "align-images-right", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"}
