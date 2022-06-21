@@ -12,8 +12,8 @@ local_backend:
 
 # These lines should *not* be indented
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
-public_folder: "images/uploads" # The src attribute for uploaded media will begin with images/uploads
+media_folder: "images" # Media files will be stored in the repo under images
+public_folder: "images" # The src attribute for uploaded media will begin with images
 site_url: https://uxbri.org/
 display_url: https://uxbri.org/
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
