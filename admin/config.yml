@@ -21,6 +21,7 @@ logo_url: https://uxbri.org/2022/logo/red-square-small.png
 collections:
   - label: "Conferences"
     name: "conferences"
+    description: "Year-specific UX Brighton conference homepages."
     files:
       - label: "UX Brighton 2022 - (homepage)"
         name: "uxbri-2022"
@@ -220,7 +221,19 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Info item", name: "item", widget: "string"}
-              - {label: "Pre party", name: "pre-party", hint: "Pre party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - label: "Pre party"
+                name: "pre-party"
+                summary: "Pre-party info."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show pre-party info?", name: "visibility", hint: "Pre-party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+                  - label: "Pre-part events"
+                    name: "event"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Body", name: "body", widget: "markdown"}
               - {label: "Speakers", name: "speakers", hint: "Speakers info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
               - label: "Highlights"
