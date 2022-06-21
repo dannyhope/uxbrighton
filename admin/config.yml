@@ -200,6 +200,30 @@ collections:
                     fields:
                       - {label: "Quote", name: "quote", widget: "text"}
                       - {label: "Quotee", name: "quotee", widget: "string"}
+          - label: "Speakers"
+            name: "speakers"
+            summary: "Speakers section content - (eg. section title, speaker names, speaker talk times, talk slides & videos)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - label: "Speakers, Talks & Schedule" # Speakers, Talks & Schedule
+                name: "speakers-and-schedule"
+                summary: "Speakers, Talks & Schedule content - (eg. registration times, talk times & after party)."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Talk times", name: "talk-times", hint: "Talk times info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+                  - {label: "Registration", name: "registration", hint: "Registration info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+                  - {label: "After party", name: "after-party", hint: "After party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+              - label: "Post Conference" # Post Conference
+                name: "post-conf"
+                summary: "Post conference content - (eg. talk slides & talk videos)."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Talk slides", name: "talk-slides", hint: "Talk slides info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+                  - {label: "Talk videos", name: "talk-videos", hint: "Talk videos info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
           - label: "Pre & During Conference" # Pre & During Conference
             name: "pre-and-during-conf"
             summary: "Pre & during conference content - (eg. pre-party, speakers & workshops)."
@@ -234,30 +258,6 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Body", name: "body", widget: "markdown"}
-              - label: "Speakers"
-                name: "speakers"
-                summary: "Speakers info."
-                widget: "object"
-                collapsed: true
-                fields:
-                  - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                  - label: "Speakers, Talks & Schedule" # Speakers, Talks & Schedule
-                    name: "speakers-and-schedule"
-                    summary: "Speakers, Talks & Schedule content - (eg. registration times, talk times & after party)."
-                    widget: "object"
-                    collapsed: true
-                    fields:
-                      - {label: "Talk times", name: "talk-times", hint: "Talk times info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                      - {label: "Registration", name: "registration", hint: "Registration info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                      - {label: "After party", name: "after-party", hint: "After party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                  - label: "Post Conference" # Post Conference
-                    name: "post-conf"
-                    summary: "Post conference content - (eg. talk slides & talk videos)."
-                    widget: "object"
-                    collapsed: true
-                    fields:
-                      - {label: "Talk slides", name: "talk-slides", hint: "Talk slides info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                      - {label: "Talk videos", name: "talk-videos", hint: "Talk videos info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - label: "Highlights"
                 name: "highlights"
                 summary: "Highlights (past) section."
