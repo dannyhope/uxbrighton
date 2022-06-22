@@ -1,15 +1,18 @@
 ---
 layout: event-page
+file-name: 2022-07-12-mentorship-launch-22
 title: Mentorship Launch
+description: UX Brighton Mentorship Launch, Tuesday 12 July 2022, 7-9pm at
+  Spaces, Brighton. Get inspired and gain clarity on what you want to achieve
+  from your mentor/ee relationship.
 venue: Spaces
 price: £10
 ticket-link: https://www.tickettailor.com/events/uxbrighton/719267
 start: 7pm to 9pm
 upcoming: true
 published: true
-
-description: "UX Brighton Mentorship Launch, Tuesday 12 July 2022, 7-9pm at Spaces, Brighton. Get inspired and gain clarity on what you want to achieve from your mentor/ee relationship."
 fullurl: https://uxbri.org/mentorship-launch-22/
+art-direction: inline
 ---
 
 Are you an ambitious UXer who wants to improve your credibility, reliability, confidence and skills? The UX Brighton mentorship program has been created to support and inspire you on your journey.

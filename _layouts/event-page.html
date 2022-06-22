@@ -118,9 +118,7 @@
 
   {% include header.html %}
 
-	<main class="content-main-detail {% if page.upcoming == null or page.upcoming == false %}is-not-upcoming{% else %}is-upcoming{% endif %}" role="main">
-
-
+	<main class="content-main-detail{% if page.upcoming == null or page.upcoming == false %} is-not-upcoming{% else %} is-upcoming{% endif %}{% if page.art-direction == 'left' %} images-align-left{% elsif page.art-direction == 'right' %} images-align-left{% endif %}" role="main">
 
     <section id="hero" class="overlay__outer pa0 bg-grey-90">
 
