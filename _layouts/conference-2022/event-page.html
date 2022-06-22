@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
+<head>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}UX Brighton</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}" >
+
+  {% include tracking-head.html %}
+
+    <!-- facebook open graph tags -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% endif %}">
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}" >
+
+
+    <!-- twitter card tags additive with the og: tags -->
+      <meta name="twitter:card" content="summary_large_image" >
+      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% endif %}" >
+      <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
+      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% endif %}" >
+      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% endif %}" >
+
+  <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+  <!-- Stylesheets -->
+    <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
+
+
+  <!-- Pre dom-ready scripts -->
+    <script>
+      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+    </script>
+  	{% if page.art-direction %}
+			<style media="screen">
+				{{page.art-direction}}
+			</style>
+		{% endif %}
+
+
+
+
+    <style>
+      .responsive-height-limiter + h2,
+      p + h2 { margin-top: 1.33em; }
+      p + h3 { margin-top: 1em; }
+      h3 + p { margin-top: 0.33em; }
+      h2 + .responsive-height-limiter,
+      h3 + .responsive-height-limiter,
+      h2 + .embed-container  { margin-top: 1em; }
+
+      h2 + h3 + p,
+      h2 + p,
+      h2 + ul { margin-top: 0.66em; }
+
+
+      @media (min-width: 680px) {
+        .talk__thumb,
+        .speaker-photo,
+        [alt="speaker-photo"] {
+          margin: 0 0 30px 20px;
+          max-width: 250px;
+          float: right;
+          border-radius: 50%;
+        }
+      }
+      @media (max-width: 679px) {
+        .talk__thumb,
+        .speaker-photo {
+          margin: 0 auto 20px;
+          display: block;
+          float: none;
+          max-width: 250px;
+          border-radius: 50%;
+          left: 0;
+        }
+        h2,h3 {
+          text-align: center;
+        }
+      }
+      h2,h3 {
+        margin: 1em 0 0.5em;
+        line-height: 1.2;
+      }
+      .event-overview h2:first-of-type {
+        margin-top: 0;
+      }
+      hr {
+        margin: 2em 0;
+      }
+
+      {% if page.cssbackdoor %}
+        {{ page.cssbackdoor }}
+      {% endif %}
+    </style>
+</head>
+
+
+
+<body id="top" class="relative template--event {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+
+  {% include tracking-body.html %}
+
+  {% include header.html %}
+
+	<main class="content-main-detail{% if page.upcoming == null or page.upcoming == false %} is-not-upcoming{% else %} is-upcoming{% endif %}{% if page.art-direction == 'left' %} images-align-left{% elsif page.art-direction == 'right' %} images-align-right{% else %} images-align-inline{% endif %}" role="main">
+
+    <section id="hero" class="overlay__outer pa0 bg-grey-90">
+
+      <div class="overlay__inner overflow-hidden bg-trans">
+
+        <div class="container color-white">
+          <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
+          <h2 class="mt0 fs-l regular track-normal mb1">
+          	{% if page.upcoming == null or page.upcoming == false %}
+							{% capture previous_event %}{% endcapture %}This event was held on {{page.date | date: "%d %b %Y"}}.
+						{% else %}
+							{{page.date | date: "%d %b"}}{% if page.start %}, <span class="event-time">{{page.start}}</span>{% endif %}
+						{% endif %}
+          </h2>
+          {{page.sponsor}}
+          <!-- <div>
+            <a href="https://www.eventbrite.co.uk/e/ux-brighton-2018-advancing-research-tickets-39252964674#tickets" class="button button--large button--green bold  fs-l">Tickets — £170 + vat</a>
+            <p class="mb0 mt1  fs-l">Group Discount - buy 4 get 1 free</p>
+          </div> -->
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <section id="overview" class="bg-white">
+      <div class="container" style="min-height: 50vh">
+        <div class="row pt pb" style="margin-top: 24px;">
+        	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l" style="padding-top: 16px;">
+
+						<aside class="event-detail_meta">
+
+             <!--  {{page.sponsor2}} -->
+
+              {% if page.upcoming == null or page.upcoming == false %}
+
+                <div class="pa3 rounded drop mb3">
+                  <h2 class="mt0 mb1">Get notified</h2>
+                  <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
+                  <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
+                </div>
+
+
+
+              {% else %}
+                {% if page.ticket %}
+                  {% if page.upcoming == true %}
+                    <section class="event-meta">
+                      {% if page.ticket.state == 'sold-out' %}
+                        <span class="ticket-button standfirst bold">Sorry, sold out</span>
+                      {% elsif page.ticket.state == 'unticketed' %}
+                        <span class="ticket-button standfirst bold">Unticketed event</span>
+                      {% else %}
+                        <a href="{{page.ticket.link}}" class="button button--green fill mt1" title="{{page.title}} tickets" target="_blank">
+                          {% capture price %}{{ page.ticket.price | downcase}}{% endcapture %}
+                          <span class="bold block mb1">{% if price == 'free' %}Get{% else %}Buy{% endif %} your ticket</span> {% if page.ticket.price %}{{page.ticket.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}
+                        </a>
+                      {% endif %}
+                      <!-- <a href="{{page.url}}" title="Add to Calendar" class="addthisevent"> -->
+                      {% include venues.html %}
+                    </section>
+                  {% endif %}
+                {% else %}
+                  {% if page.upcoming == true %}
+                    Details about this event will be posted soon.
+                  {% else %}
+                    {% capture pageyear %}{{page.date | date: "%Y"}}{% endcapture %}
+                    {% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
+                    <span class="when-and-where">
+                      {% if pageyear >= currentyear %}
+                        <span id="this-year">{{ page.date | date: "%-d %B" }}</span>
+                      {% else %}
+                        <span id="previous-year">{{ page.date | date: "%-d %B %Y" }}</span>
+                      {% endif %}
+
+                      {% if page.venue%} at {{page.venue}} {% endif %}
+                    </span>
+                  {% endif %}
+
+                  {% unless page.ticket.link %}
+                    <div class="pa3 rounded drop mt3">
+                      <h2 class="mt0 mb1">Get notified</h2>
+                      <p class="mt0">To find out about future talks and conferences subscribe below.</p>
+                      <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
+                    </div>
+                  {% endunless %}
+
+                {% endif %}
+
+              {% endif %}
+
+
+							{% include organisers.html %}
+						</aside>
+        	</div>
+        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top:16px;">
+        		{{ content }}
+        	</div>
+				</div><!-- row -->
+
+        <!--
+				<h2>organisers</h2>
+				{% include supporters.html %}
+        -->
+
+
+      </div><!-- container -->
+    </section><!-- overview -->
+
+    <!-- <h2>upcoming</h2> -->
+
+
+    <aside class="jobs-element fill">
+      <p class="text-center">
+        <a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}" title="Edit this page on Github">✎</a>
+      </p>
+    </aside>
+
+	</main>
+
+  {% include footer.html %}
+
+  {% include nav.html %}
+
+
+</body>
+</html>
