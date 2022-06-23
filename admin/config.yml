@@ -26,8 +26,6 @@ collections:
       - label: "UX Brighton 2022 - (homepage)"
         name: "uxbri-2022"
         file: "_data/year_2022/homepage.yml" # Content file now seperate to markdown `.md` file
-        editor:
-          preview: false # Hiding preview panel for now
         fields:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
