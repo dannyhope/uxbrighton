@@ -8,7 +8,7 @@
               Top
             </a>
           </li>
-          {% if homepage.pre-and-during-conf.speakers == "show" %}
+          {% if homepage.pre-and-during-conf.speakers == true %}
             <li class="nav-item inline-block ">
               <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
             </li>
@@ -20,12 +20,12 @@
           <!-- <li class="nav-item inline-block nav-item--sponsors hidden-under-ms">
             <a href="#venue" class="masthead__link nav-link color-black">Venue</a>
           </li> -->
-          {% if homepage.pre-and-during-conf.sponsors == "show" %}
+          {% if homepage.pre-and-during-conf.sponsors == true %}
             <li class="nav-item inline-block nav-item--sponsors hidden-under-s">
               <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
             </li>
           {% endif %}
-          {% if homepage.pre-and-during-conf.workshops == "show" %}
+          {% if homepage.pre-and-during-conf.workshops == true %}
             <li class="nav-item inline-block nav-item--other-workshop">
               <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
             </li>

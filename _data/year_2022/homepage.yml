@@ -1,8 +1,8 @@
 title: UX and Product Management - UX Brighton Conference 2022
 fullurl: https://uxbri.org/2022/
 events:
-  event-promo-top-of-page: hide
-  event-promo-footer: hide
+  event-promo-top-of-page: false
+  event-promo-footer: false
 hero:
   hero-state: pre
   global:
@@ -84,7 +84,7 @@ overview:
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
 speakers:
-  visibility: false
+  visibility: true
   speakers-and-schedule:
     talk-times: show
     registration: show
@@ -94,7 +94,7 @@ speakers:
     talk-videos: show
 pre-and-during-conf:
   travel-and-accommodation-blurb:
-    visibility: hide
+    visibility: true
     title: Information for Attendees
     body: >-
       The conference is being held in the beautiful and historic [Brighton Dome
@@ -121,7 +121,7 @@ pre-and-during-conf:
       - item: Refreshments
       - item: After Party
   pre-party:
-    visibility: hide
+    visibility: true
     event:
       - body: >-
           <h3>Pre-conf meetup – 31<sup>st</sup> Oct</h3>
@@ -133,9 +133,9 @@ pre-and-during-conf:
 
 
           If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
-  sponsors: show
+  sponsors: true
   highlights:
-    visibility: show
+    visibility: true
     title: Highlights from previous years
     video:
       - url: https://youtu.be/rz7sy81Yg5E
@@ -156,7 +156,7 @@ pre-and-during-conf:
         imagine. Well organized, fabulous location, packed with valuable content
         — go if you can: it's worth the investment."
       quotee: Jim Kalbach, Past Speaker
-  workshops: hide
+  workshops: true
 post-conf:
   talk-slides: hide
   talk-videos: hide

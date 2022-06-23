@@ -1,50 +1,47 @@
-      <section id="workshop" style="min-height: 0;">
-        <div class="container "><hr>
-          <div class="row">
-            <h3 class="fs-h2 mt0">Workshop</h3>
-            <div class="drop clearfix flex-over-m">
-              <div class="u1of2-over-m left-over-m flex-over-m">
+{% if homepage.pre-and-during-conf.workshops == true %}
+<section id="workshop" style="min-height: 0;">
+  <div class="container "><hr>
+    <div class="row">
+      <h3 class="fs-h2 mt0">Workshop</h3>
+      <div class="drop clearfix flex-over-m">
+        <div class="u1of2-over-m left-over-m flex-over-m">
 
-
-
-                  <a href="/Voice-UI-workshop/" class="block-link fill tile pa3 rounded drop relative" style="background: url('/images/events/voice-ui-workshop.jpeg') center center no-repeat #1a272c; background-size: cover;">
-                    <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                    <div class="upcoming-teaser__text">
-                      <h1 class="leading-solid mb2 color-white fs-xl relative">
-                        <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">31 October 2019<span class="event-time inline-block">, 9:30am</span></span>
-                        Workshop: Make Your First Voice Interface
-                      </h1>
-                      <div class="mt0 regular track-normal mb3 relative">
-                        <div class="color-white">
-                          We’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="upcoming-teaser__button-wrapper">
-                      <div class="button button--green bold standfirst mb0">Tickets and info</div>
-                    </div>
-                  </a>
-
-
-              </div>
-
-              <div class="u1of2-over-m left-over-m flex-over-m">
-                <a href="/Voice-UI-workshop/" class="block-link tile bg-grey-5 fill pa3">
-                  <h3 class="mt0">
-                    Are you ready for Voice UI?
-                  </h3>
-                  <div class="block-link__summary">
-                    <p>Voice UI is growing fast and provides an opportunity to create better products in new contexts. Learn to use VUIs to make interaction simple, pleasurable, accessible and reduce cognitive load.</p>
-
-                    <p>In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.</p>
-
-                    <p class="block-link__highlight"><strong>Learn more about the Voice UI Workshop</strong></p>
+            <a href="/Voice-UI-workshop/" class="block-link fill tile pa3 rounded drop relative" style="background: url('/images/events/voice-ui-workshop.jpeg') center center no-repeat #1a272c; background-size: cover;">
+              <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+              <div class="upcoming-teaser__text">
+                <h1 class="leading-solid mb2 color-white fs-xl relative">
+                  <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">31 October 2019<span class="event-time inline-block">, 9:30am</span></span>
+                  Workshop: Make Your First Voice Interface
+                </h1>
+                <div class="mt0 regular track-normal mb3 relative">
+                  <div class="color-white">
+                    We’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations.
                   </div>
-                </a>
-              </div>            
-            </div>
+                </div>
+              </div>
+              <div class="upcoming-teaser__button-wrapper">
+                <div class="button button--green bold standfirst mb0">Tickets and info</div>
+              </div>
+            </a>
 
-
-          </div>
         </div>
-      </section>
+
+        <div class="u1of2-over-m left-over-m flex-over-m">
+          <a href="/Voice-UI-workshop/" class="block-link tile bg-grey-5 fill pa3">
+            <h3 class="mt0">
+              Are you ready for Voice UI?
+            </h3>
+            <div class="block-link__summary">
+              <p>Voice UI is growing fast and provides an opportunity to create better products in new contexts. Learn to use VUIs to make interaction simple, pleasurable, accessible and reduce cognitive load.</p>
+
+              <p>In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.</p>
+
+              <p class="block-link__highlight"><strong>Learn more about the Voice UI Workshop</strong></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

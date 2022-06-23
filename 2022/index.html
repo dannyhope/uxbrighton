@@ -16,7 +16,7 @@ redirect_from:
     <div class="overlay__inner overflow-hidden">
       <div class="upcoming-events-outer">
         <!-- Event promo component -->
-        {% if homepage.events.event-promo-top-of-page == "show" %}
+        {% if homepage.events.event-promo-top-of-page == true %}
           {% include 2022-upcoming-mini.html %}
         {% endif %}
       </div>
@@ -60,13 +60,9 @@ redirect_from:
   {% include_relative conf-page-partials/highlights.html %}
 
   <!-- Sponsors component -->
-  {% if homepage.pre-and-during-conf.sponsors == "show" %}
-    {% include_relative conf-page-partials/sponsors.html %}
-  {% endif %}
+  {% include_relative conf-page-partials/sponsors.html %}
 
   <!-- Workshops component -->
-  {% if homepage.pre-and-during-conf.workshops == "show" %}
-    {% include_relative conf-page-partials/workshop.html %}
-  {% endif %}
+  {% include_relative conf-page-partials/workshop.html %}
 
 </main>
