@@ -84,7 +84,7 @@ overview:
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
 speakers:
-  visibility: show
+  visibility: false
   speakers-and-schedule:
     talk-times: show
     registration: show
@@ -157,5 +157,8 @@ pre-and-during-conf:
         — go if you can: it's worth the investment."
       quotee: Jim Kalbach, Past Speaker
   workshops: hide
+post-conf:
+  talk-slides: hide
+  talk-videos: hide
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our 🎂 10th annual one-day conference!
