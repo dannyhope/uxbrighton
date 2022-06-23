@@ -5,3 +5,35 @@
   .icons-currentColor svg {
     fill: currentColor;
   }
+
+  // Image alignment / layout rules
+  // ============================================
+  // @NOTE: Typically used on event / post pages
+  img {
+    // If a parent element has an `images-align` class, then images have the following rules...
+    [class*="images-align"] & {
+      display: block;
+      border-radius: 2px;
+      margin: 0 auto 30px auto;
+    }
+
+    .images-align-left &,
+    .images-align-right & {
+      max-width: 280px;
+    }
+
+    // Only when the viewport gets wide enough for an image to float next to other content...
+    @include over-m {
+      // Images float left
+      .images-align-left & {
+        float: left;
+        margin-right: 30px;
+      }
+
+      // Images float right
+      .images-align-right & {
+        float: right;
+        margin-left: 30px;
+      }
+    }
+  }

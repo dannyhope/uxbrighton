@@ -12,15 +12,16 @@ local_backend:
 
 # These lines should *not* be indented
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
-public_folder: "images/uploads" # The src attribute for uploaded media will begin with images/uploads
+media_folder: "/images" # Media files will be stored in the repo under images
+public_folder: "/images" # The src attribute for uploaded media will begin with images
 site_url: https://uxbri.org/
 display_url: https://uxbri.org/
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
   - label: "Conferences"
-    name: "conferences"
+    name: "conferences" # this is used for namespacing
+    description: "Year-specific conference (home) pages."
     files:
       - label: "UX Brighton 2022"
         name: "uxbri-2022"
@@ -157,3 +158,57 @@ collections:
             fields:
               - {label: "Talk slides", name: "talk-slides", hint: "Talk slides info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
               - {label: "Talk videos", name: "talk-videos", hint: "Talk videos info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+  - label: "Event pages"
+    name: "event-pages"
+    description: "Event pages (Past, Present & Future)."
+    folder: "_posts"
+    identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
+    slug: "{{file-name}}"
+    create: true
+    fields: # stuff unique to each post follows
+      - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/event-page"}
+      - {label: "File Name", name: "file-name", hint: "This is the full file name - (*including the date prefix*). Eg. **2022-06-12-this-part-is-the-url**", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description (meta)", name: "description", widget: "string"}
+      - label: "Venue"
+        name: "venue"
+        hint: "Select from available venues."
+        widget: "select"
+        multiple: false
+        options: [
+          "TBA",
+          "Platf9rm-Brighton",
+          "Fabrica",
+          "Lighthouse",
+          "Hotel Du Vin",
+          "68 Middle Street",
+          "Hatch",
+          "The Skiff",
+          "Spaces"
+        ]
+        default: ["TBA"]
+      - label: "Ticket"
+        name: "ticket"
+        summary: "Ticket state, link and price."
+        widget: "object"
+        collapsed: false
+        fields:
+          - {label: "Ticket state", name: "state", hint: "Choose state of ticket, eg. *unticketed*.", widget: "select", multiple: false, options: ["ticketed", "unticketed", "sold-out"], default: ["ticketed"]}
+          - {label: "Ticket link", name: "link", hint: "Link to ticket payment page.", widget: "string", required: false}
+          - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price.", widget: "string", default: "free"}
+      - {label: "Start", name: "start", widget: "string"}
+      - {label: "Upcoming", name: "upcoming", widget: "boolean", default: false}
+      - {label: "Publish", name: "published", widget: "boolean", default: false}
+      - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string"}
+      - label: "Art direction (images)"
+        name: "art-direction"
+        hint: "Enables you to decide how images should align on the page. Defaults to *inline*."
+        widget: "select"
+        multiple: false
+        options: [
+          "left",
+          "right",
+          "inline"
+        ]
+        default: ["inline"]
+      - {label: "Body", name: "body", widget: "markdown"}
