@@ -166,49 +166,23 @@ collections:
     slug: "{{file-name}}"
     create: true
     fields: # stuff unique to each post follows
-      - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/event-page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/event-page"} # The `layout` field is hidden in the GUI and needs to be changed here instead
       - {label: "File Name", name: "file-name", hint: "This is the full file name - (*including the date prefix*). Eg. **2022-06-12-this-part-is-the-url**", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description (meta)", name: "description", widget: "string"}
-      - label: "Venue"
-        name: "venue"
-        hint: "Select from available venues."
-        widget: "select"
-        multiple: false
-        options: [
-          "TBA",
-          "Platf9rm-Brighton",
-          "Fabrica",
-          "Lighthouse",
-          "Hotel Du Vin",
-          "68 Middle Street",
-          "Hatch",
-          "The Skiff",
-          "Spaces"
-        ]
-        default: ["TBA"]
+      - {label: "Title", name: "title", hint: "The primary title of the event.", widget: "string"}
+      - {label: "Description", name: "description", hint: "This populates the *meta* description.", widget: "string"}
+      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces"], default: ["TBA"]}
+      - {label: "Start", name: "start", hint: "Event time.", widget: "string"}
       - label: "Ticket"
         name: "ticket"
         summary: "Ticket state, link and price."
         widget: "object"
-        collapsed: false
+        collapsed: true
         fields:
-          - {label: "Ticket state", name: "state", hint: "Choose state of ticket, eg. *unticketed*.", widget: "select", multiple: false, options: ["ticketed", "unticketed", "sold-out"], default: ["ticketed"]}
-          - {label: "Ticket link", name: "link", hint: "Link to ticket payment page.", widget: "string", required: false}
-          - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price.", widget: "string", default: "free"}
-      - {label: "Start", name: "start", widget: "string"}
+          - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["ticketed", "unticketed", "sold-out"], default: ["ticketed"]}
+          - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
+          - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free"}
       - {label: "Upcoming", name: "upcoming", widget: "boolean", default: false}
       - {label: "Publish", name: "published", widget: "boolean", default: false}
       - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string"}
-      - label: "Art direction (images)"
-        name: "art-direction"
-        hint: "Enables you to decide how images should align on the page. Defaults to *inline*."
-        widget: "select"
-        multiple: false
-        options: [
-          "left",
-          "right",
-          "inline"
-        ]
-        default: ["inline"]
+      - {label: "Art direction (images)", name: "art-direction", hint: "Enables you to decide how images should align on the page. Defaults to **inline**.", widget: "select", multiple: false, options: ["left", "right", "inline"], default: ["inline"]}
       - {label: "Body", name: "body", widget: "markdown"}
