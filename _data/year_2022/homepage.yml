@@ -156,7 +156,7 @@ pre-and-during-conf:
         imagine. Well organized, fabulous location, packed with valuable content
         — go if you can: it's worth the investment."
       quotee: Jim Kalbach, Past Speaker
-  workshops: true
+  workshops: false
 post-conf:
   talk-slides: hide
   talk-videos: hide

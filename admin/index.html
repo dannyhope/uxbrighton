@@ -9,7 +9,51 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js"></script>
   <script>
+    // Registering custom CSS call for the editor preview
     CMS.registerPreviewStyle("styles-cms.css");
+
+    // Enhancing the editor `image` component to handle adding a CSS class
+    CMS.registerEditorComponent({
+        label: 'Image',
+        id: 'image',
+        fromBlock: match =>
+          match && {
+            image: match[1],
+            alt: match[2],
+            classes: match[3]
+          },
+        toBlock: function({image, alt, classes}, getAsset, fields) {
+          return `<img src="${image || ''}" alt="${alt || ''}" class="${classes || ''}"/>`
+        },
+        toPreview: ({ image, alt, title, classes }, getAsset, fields) => {
+          return `<img src="${image}" alt="${alt}" class="${classes}"/>`;
+        },
+        pattern:  /^<img src="(.*?)" alt="(.*?)" class="(.*?)"\/>$/s,
+        fields: [
+          {
+            label: 'Image',
+            name: 'image',
+            widget: 'image',
+            media_library: {
+              allow_multiple: false,
+            },
+          },
+          {
+            label: 'Alt Text',
+            name: 'alt',
+            hint: 'Enter a short description for this image.',
+            widget: 'string'
+          },
+          {
+            label: 'CSS Class',
+            name: 'classes',
+            hint: 'Choose a class from the list to layout your image. Defaults to **image-align-right**.',
+            widget: 'select',
+            options: ['image-align-left', 'image-align-right', 'image-align-inline'],
+            default: ['image-align-right']
+          }
+        ]
+      })
   </script>
 </body>
 </html>

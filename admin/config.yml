@@ -312,8 +312,7 @@ collections:
           - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["ticketed", "unticketed", "sold-out"], default: ["ticketed"]}
           - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
           - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free"}
-      - {label: "Upcoming", name: "upcoming", widget: "boolean", default: false}
-      - {label: "Publish", name: "published", widget: "boolean", default: false}
+      - {label: "Upcoming", name: "upcoming", hint: "Upcoming event?", widget: "boolean", default: false}
+      - {label: "Publish", name: "published", hint: "Want to publish?", widget: "boolean", default: false}
       - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string"}
-      - {label: "Art direction (images)", name: "art-direction", hint: "Enables you to decide how images should align on the page. Defaults to **inline**.", widget: "select", multiple: false, options: ["left", "right", "inline"], default: ["inline"]}
       - {label: "Body", name: "body", widget: "markdown"}
