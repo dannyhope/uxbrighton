@@ -59,8 +59,13 @@ Shrut's talk highlights the emerging demands of the industry from a UX Research 
 
 Talk details TBA
 
+
+
+Supported by Silicon Brighton
+
 - - -
 
 ## Any questions?
 
 Send Annie-Marie Page a message on the UX Brighton Slack, or email anniemarie@uxbri.org
+
