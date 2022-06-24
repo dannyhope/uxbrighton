@@ -14,7 +14,6 @@
       <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" >
       <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}" >
 
-
     <!-- twitter card tags additive with the og: tags -->
       <meta name="twitter:card" content="summary_large_image" >
       <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% endif %}" >
@@ -38,7 +37,6 @@
     <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
     <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
 
-
   <!-- Pre dom-ready scripts -->
     <script>
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
@@ -49,9 +47,6 @@
 				{{page.art-direction}}
 			</style>
 		{% endif %}
-
-
-
 
     <style>
       .responsive-height-limiter + h2,
@@ -108,8 +103,6 @@
     </style>
 </head>
 
-
-
 <body id="top" class="relative template--event {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
 
   {% include tracking-body.html %}
@@ -142,9 +135,6 @@
 
     </section>
 
-
-
-
     <section id="overview" class="bg-white">
       <div class="container" style="min-height: 50vh">
         <div class="row pt pb" style="margin-top: 24px;">
@@ -161,8 +151,6 @@
                   <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
                   <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
                 </div>
-
-
 
               {% else %}
                 {% if page.ticket %}
@@ -211,7 +199,6 @@
 
               {% endif %}
 
-
 							{% include organisers.html %}
 						</aside>
         	</div>
@@ -225,25 +212,22 @@
 				{% include supporters.html %}
         -->
 
-
       </div><!-- container -->
     </section><!-- overview -->
 
     <!-- <h2>upcoming</h2> -->
 
-
-    <aside class="jobs-element fill">
+    <!-- <aside class="jobs-element fill">
       <p class="text-center">
         <a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}" title="Edit this page on Github">✎</a>
       </p>
-    </aside>
+    </aside> -->
 
 	</main>
 
   {% include footer.html %}
 
   {% include nav.html %}
-
 
 </body>
 </html>

@@ -1,31 +1,31 @@
 <!-- Organisers -->
-			{% if page.organisers %}
-			<h2 id="organisers">Organisers</h2>
-			<ul class="organisers-list">
-			{% for organiser in page.organisers %} 
-				{% if organiser == "Alex" %}
-					<li>Alex Goluszko &ndash; <a href="http://www.twitter.com/alexandtheweb">@alexandtheweb</a> &&ndash; <a href="http://www.alexandtheweb.com">alexandtheweb.com</a></li>
-				{% elsif organiser == "Danny" %}
-					<li>Danny Hope &ndash; <a href="http://www.twitter.com/yandle">@yandle</a> &ndash; <a href="http://dannyhope.co.uk/">dannyhope.co.uk</a></li>
-				{% elsif organiser == "Patrick" %}
-					<li>Patrick Sansom &ndash; <a href="https://twitter.com/Patrick_Sansom">@Patrick_Sansom</a> &ndash; <a href="http://www.linkedin.com/in/patricksansomdesigner">Patrick on LinkedIn</a></li>
-				{% elsif organiser == "Luke" %}
-					<li>Luke Hay &ndash; <a href="http://www.twitter.com/hayluke">@hayluke</a> &ndash; <a href="http://www.lukehay.co.uk/">lukehay.co.uk</a></li>
-				{% elsif organiser == "Tim" %}
-					<li>Tim Minor &ndash; <a href="https://twitter.com/timminor">@timminor</a> &ndash; <a href="http://www.t75.org/">t75.org</a></li>
-				{% elsif organiser == "Tom" %}
-					<li>Tom Prior &ndash; <a href="https://twitter.com/tomprior">@tomprior</a> &ndash; <a href="http://thomasprior.co.uk/">thomasprior.co.uk</a></li>
-				{% elsif organiser == "Harry" %}
-					<li>Harry Brignull &ndash; <a href="https://twitter.com/harrybr">@harrybr</a> &ndash; <a href="http://90percentofeverything.com/">90percentofeverything.com</a></li>
-				{% elsif organiser == "Jay" %}
-					<li>Jay Caines-Gooby &ndash; <a href="https://twitter.com/jaygooby">@jaygooby</a> &ndash; <a href="http://jay.gooby.org/">jay.gooby.org</a></li>
-				{% elsif organiser == "Jenni" %}
-					<li>Jenni Lloyd &ndash; <a href="https://twitter.com/jennilloyd">@jennilloyd</a></li>
-				{% elsif organiser == "Rob" %}
-					<li>Rob Pearson &ndash; <a href="https://twitter.com/robotperson">@robotperson</a></li>
-				{% else %}	
-					<li>{{ organiser.name }} {% if organiser.url %} &ndash; <a href="{{ organiser.url }}">{{ organiser.url }}</a> {% endif %}</li>
-				{% endif %}									
-			{% endfor %}		
-			</ul>			
-			{% endif %}	
+{% if page.organisers %}
+<h2 id="organisers">Organisers</h2>
+<ul class="organisers-list">
+{% for organiser in page.organisers %} 
+  {% if organiser == "Alex" %}
+    <li>Alex Goluszko &ndash; <a href="http://www.twitter.com/alexandtheweb">@alexandtheweb</a> &&ndash; <a href="http://www.alexandtheweb.com">alexandtheweb.com</a></li>
+  {% elsif organiser == "Danny" %}
+    <li>Danny Hope &ndash; <a href="http://www.twitter.com/yandle">@yandle</a> &ndash; <a href="http://dannyhope.co.uk/">dannyhope.co.uk</a></li>
+  {% elsif organiser == "Patrick" %}
+    <li>Patrick Sansom &ndash; <a href="https://twitter.com/Patrick_Sansom">@Patrick_Sansom</a> &ndash; <a href="http://www.linkedin.com/in/patricksansomdesigner">Patrick on LinkedIn</a></li>
+  {% elsif organiser == "Luke" %}
+    <li>Luke Hay &ndash; <a href="http://www.twitter.com/hayluke">@hayluke</a> &ndash; <a href="http://www.lukehay.co.uk/">lukehay.co.uk</a></li>
+  {% elsif organiser == "Tim" %}
+    <li>Tim Minor &ndash; <a href="https://twitter.com/timminor">@timminor</a> &ndash; <a href="http://www.t75.org/">t75.org</a></li>
+  {% elsif organiser == "Tom" %}
+    <li>Tom Prior &ndash; <a href="https://twitter.com/tomprior">@tomprior</a> &ndash; <a href="http://thomasprior.co.uk/">thomasprior.co.uk</a></li>
+  {% elsif organiser == "Harry" %}
+    <li>Harry Brignull &ndash; <a href="https://twitter.com/harrybr">@harrybr</a> &ndash; <a href="http://90percentofeverything.com/">90percentofeverything.com</a></li>
+  {% elsif organiser == "Jay" %}
+    <li>Jay Caines-Gooby &ndash; <a href="https://twitter.com/jaygooby">@jaygooby</a> &ndash; <a href="http://jay.gooby.org/">jay.gooby.org</a></li>
+  {% elsif organiser == "Jenni" %}
+    <li>Jenni Lloyd &ndash; <a href="https://twitter.com/jennilloyd">@jennilloyd</a></li>
+  {% elsif organiser == "Rob" %}
+    <li>Rob Pearson &ndash; <a href="https://twitter.com/robotperson">@robotperson</a></li>
+  {% else %}
+    <li>{{ organiser.name }} {% if organiser.url %} &ndash; <a href="{{ organiser.url }}">{{ organiser.url }}</a> {% endif %}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+{% endif %}

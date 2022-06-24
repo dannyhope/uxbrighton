@@ -9,11 +9,8 @@
 		display: block;
 	}
 
-
-
-
 	.archive-nav__body {
-		overflow-x: hidden; 
+		overflow-x: hidden;
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
 		max-height: calc(100vh - 50px);
@@ -24,11 +21,11 @@
 			max-height: calc(100vh - 100px);
 			max-width: 730px; 
 			border-radius: 5px;
-		} 
+		}
 		.archive-nav__body {
 			max-height: calc(100vh - 150px);
 		}
-	} 
+	}
 
 	@media (max-width: 730px){
 	/*		.archive-nav__link,
@@ -49,7 +46,7 @@
 			margin-top: 24px;
 		}
 	}
-	.post-excerpt { 
+	.post-excerpt {
 	display:none; }
 
 	.archive-nav__head {
@@ -95,13 +92,10 @@
 		transition: 0.2s;
 	}
 
-
-
-
 	.archive-nav__search:focus {
 	  outline: none;
-	  box-shadow: 
-	  	0px 0px 12px #4D90FE, 
+	  box-shadow:
+	  	0px 0px 12px #4D90FE,
 	  	0px 0px 3px #4D90FE
 	  ;
 	}
@@ -119,7 +113,7 @@
 </style>
 
 <script>
-	function noClose(e) { 
+	function noClose(e) {
 		e.stopImmediatePropagation();
 	}
 </script>
@@ -141,7 +135,7 @@
 				<div class="relative">
 					<img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 7px;left: 12px;" alt="search icon">
 					<label for="search_events" class="screen-reader-text">Search events</label>
-					<input id="search_events" class="search archive-nav__search" />				
+					<input id="search_events" class="search archive-nav__search" />
 				</div>
 
 			</div>
@@ -156,21 +150,11 @@
 					{% endif %}
 				{% endfor %}
 
-				
-
-
-				
-				
-				
 			<ul class="list pt4">
 				<li>
 					<h2 class="fs-s  track-loose uppercase regular pv1 ph4">Upcoming Events</h2>
-				</li>		
+				</li>
 
-
-
-
-				
 				{% if has_upcoming %}
 					{% for post in site.posts %}
 
@@ -183,15 +167,13 @@
 										<div class="post-date ">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{post.start}}</span>{% endif %}</div>
 										<div class="post-excerpt">{{ post.content | strip_html }}</div>
 									</a>
-								</li>							
+								</li>
 							{% endif %}
 
 						{% endif %}
 					{% endfor %}
 				{% endif %}
 
-
-				
 				<!-- <li class="event-title-list-item">
 					<a class="block-link pv3 ph4 archive-nav__link" href="/2020">
 						<div class="post-title weight-900 block-link__highlight">2020 Conference ★ UX and Product Management</div>
@@ -199,12 +181,10 @@
 					</a>
 				</li> -->
 
-				
 				<li>
 					<hr style="margin: 1.5em 0 2em;">
 					<h2 class="fs-s  track-loose uppercase regular pv1 ph4 ">Archive: Previous Events</h2>
 				</li>
-				
 
 				{% for post in site.posts %}
 					{% if post.stub == null %}
@@ -225,18 +205,14 @@
 									</div>
 									<div class="post-excerpt">{{ post.content | strip_html }}</div>
 								</a>
-			          
 							</li>
 
 						{% endif %}
 					{% endif %}
-			  {% endfor %}	
-				</ul>	
-			</div><!-- width-m -->		
-		</div>		
+			  {% endfor %}
+				</ul>
+			</div><!-- width-m -->
+		</div>
 	</div>
-
-	
-
 
 </nav>
