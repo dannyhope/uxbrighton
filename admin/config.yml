@@ -247,7 +247,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
+                  - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Body", name: "body", widget: "markdown"}
                   - label: "Info guide items"
@@ -262,7 +262,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show pre-party info?", name: "visibility", hint: "Pre-party info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
+                  - {label: "Show pre-party info?", name: "visibility", hint: "Pre-party info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
                   - label: "Pre-part events"
                     name: "event"
                     widget: "list"
@@ -275,7 +275,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
+              - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
               - label: "Speakers, Talks & Schedule" # Speakers, Talks & Schedule
                 name: "speakers-and-schedule"
                 summary: "Speakers, Talks & Schedule content - (eg. registration time, talk times & after party)."
@@ -293,7 +293,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
+              - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
               - {label: "Title", name: "title", widget: "string"}
               - label: "Videos"
                 name: "video"
@@ -310,8 +310,8 @@ collections:
                 fields:
                   - {label: "Quote", name: "quote", widget: "text"}
                   - {label: "Quotee", name: "quotee", widget: "string"}
-          - {label: "Workshops", name: "workshops", hint: "Workshops info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
-          - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
+          - {label: "Workshops", name: "workshops", hint: "Workshops info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+          - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
   - label: "Event pages"
     name: "event-pages"
     description: "Event pages (Past, Present & Future)."
