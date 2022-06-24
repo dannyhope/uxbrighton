@@ -15,6 +15,7 @@ file-name: 2022-07-12-mentorship-launch-22
 description: UX Brighton Mentorship Launch, Tuesday 12 July 2022, 7-9pm at
   Spaces, Brighton. Get inspired and gain clarity on what you want to achieve
   from your mentor/ee relationship.
+conference: false
 upcoming: true
 ---
 Are you an ambitious UXer who wants to improve your credibility, reliability, confidence and skills? The UX Brighton mentorship program has been created to support and inspire you on your journey.
