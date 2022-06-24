@@ -37,7 +37,7 @@
   {% endfor %}
 
   {% if has_upcoming  %}
-    {% if homepage.events.event-promo-footer == null or homepage.events.event-promo-footer != true %}
+    {% if page.events.event-promo-footer == null or page.events.event-promo-footer != "hide" %}
       <aside>
         <section id="promotions">
           <hr>

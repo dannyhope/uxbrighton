@@ -32,6 +32,7 @@ collections:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
+          - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "Event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
           - label: "Hero" # Hero section
             name: "hero"
             summary: "Hero section content - (eg. banner title, subtitle, date and primary ticket button)."
@@ -311,14 +312,6 @@ collections:
                   - {label: "Quotee", name: "quotee", widget: "string"}
           - {label: "Workshops", name: "workshops", hint: "Workshops info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
           - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
-          - label: "Event Promotions" # Event Promotions
-            name: "events"
-            summary: "Event promotion content - (top & bottom of page)."
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "Event Promotion (top)", name: "event-promo-top-of-page", hint: "Event promotion showing at top of page. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
-              - {label: "Event Promotion (footer)", name: "event-promo-footer", hint: "Event promotion showing at the bottom of the page. Choose whether to show or hide. Defaults to *false*.", widget: "boolean", default: false}
   - label: "Event pages"
     name: "event-pages"
     description: "Event pages (Past, Present & Future)."

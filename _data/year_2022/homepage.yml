@@ -135,11 +135,9 @@ speakers:
     talk-videos: hide
 workshops: false
 sponsors: true
-events:
-  event-promo-top-of-page: false
-  event-promo-footer: false
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our 🎂 10th annual one-day conference!
+event-promo-top-of-page: false
 highlights:
   visibility: true
   title: Highlights from previous years
