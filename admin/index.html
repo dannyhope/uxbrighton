@@ -10,9 +10,11 @@
   <script src="https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js"></script>
   <script>
     // Registering custom CSS call for the editor preview
+    // --------------------------------------------------------------------------------------
     CMS.registerPreviewStyle("styles-cms.css");
 
-    // Enhancing the Markdown editor `image` component to handle adding a CSS class
+    // Enhancing the existing Markdown editor `image` component to handle adding a CSS class
+    // --------------------------------------------------------------------------------------
     CMS.registerEditorComponent({
       // Visible label
       label: 'Image',
@@ -70,6 +72,11 @@
         }
       ]
     })
+
+    // Other components could be added in...
+    // For example: "Video", "Slides" etc.
+    /// .............
+
   </script>
 </body>
 </html>
