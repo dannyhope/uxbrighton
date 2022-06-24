@@ -1,45 +1,43 @@
+<div id="nav--in-page" class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
+  <div class="container ">
+    <ul class="nav ph0">
+      <li class="inline-block nav-item color-black">
+        <a href="#top" class="highlight-if--nav--in-page-is-stuck masthead__link nav-link color-black">
+          Top
+        </a>
+      </li>
+      {% if homepage.speakers == true %}
+        <li class="nav-item inline-block ">
+          <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
+        </li>
+      {% else %}
+        <li class="nav-item inline-block ">
+          <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
+        </li>
+      {% endif %}
+      <!-- <li class="nav-item inline-block nav-item--sponsors hidden-under-ms">
+        <a href="#venue" class="masthead__link nav-link color-black">Venue</a>
+      </li> -->
+      {% if homepage.sponsors == true %}
+        <li class="nav-item inline-block nav-item--sponsors hidden-under-s">
+          <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
+        </li>
+      {% endif %}
+      {% if homepage.workshops == true %}
+        <li class="nav-item inline-block nav-item--other-workshop">
+          <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
+        </li>
+      {% endif %}
 
+      <!-- <li class="nav-item inline-block hidden-under-l nav-item--other-events">
+        <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
+      </li> -->
 
-    <div id="nav--in-page" class="relative nav--in-page sticky drop bg-white  bold z-max top-0 " style="height: 51px; z-index: 200;">
-      <div class="container ">
-        <ul class="nav ph0">
-          <li class="inline-block nav-item color-black">
-            <a href="#top" class="highlight-if--nav--in-page-is-stuck masthead__link nav-link color-black">
-              Top
-            </a>
-          </li>
-          {% if homepage.pre-and-during-conf.speakers == true %}
-            <li class="nav-item inline-block ">
-              <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
-            </li>
-          {% else %}
-            <li class="nav-item inline-block ">
-              <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
-            </li>
-          {% endif %}
-          <!-- <li class="nav-item inline-block nav-item--sponsors hidden-under-ms">
-            <a href="#venue" class="masthead__link nav-link color-black">Venue</a>
-          </li> -->
-          {% if homepage.pre-and-during-conf.sponsors == true %}
-            <li class="nav-item inline-block nav-item--sponsors hidden-under-s">
-              <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
-            </li>
-          {% endif %}
-          {% if homepage.pre-and-during-conf.workshops == true %}
-            <li class="nav-item inline-block nav-item--other-workshop">
-              <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
-            </li>
-          {% endif %}
-
-          <!-- <li class="nav-item inline-block hidden-under-l nav-item--other-events">
-            <a href="#promotions" class="masthead__link nav-link color-black">Other events</a>
-          </li> -->
-
-          {% if homepage.hero.hero-state == "pre" %}
-            <li class="nav-item inline-block nav-item--tickets">
-              <a href="{{ homepage.hero.pre.button.url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;" target="_blank"><span class="hidden-under-m">Buy </span>Tickets</a>
-            </li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
+      {% if homepage.hero.hero-state == "pre" %}
+        <li class="nav-item inline-block nav-item--tickets">
+          <a href="{{ homepage.hero.pre.button.url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;" target="_blank"><span class="hidden-under-m">Buy </span>Tickets</a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+</div>

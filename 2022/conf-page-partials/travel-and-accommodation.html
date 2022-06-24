@@ -1,10 +1,10 @@
-{% if homepage.pre-and-during-conf.travel-and-accommodation-blurb.visibility == true %}
+{% if homepage.attendee-info.travel-accom.visibility == true %}
 <div class="row">
-  <h2 class="mt0 mb3">{{ homepage.pre-and-during-conf.travel-and-accommodation-blurb.title }}</h2>
-  {{ homepage.pre-and-during-conf.travel-and-accommodation-blurb.body | markdownify }}
+  <h2 class="mt0 mb3">{{ homepage.attendee-info.travel-accom.title }}</h2>
+  {{ homepage.attendee-info.travel-accom.body | markdownify }}
 
   <ul class="columnar-list gutter-bottom">
-    {% for entry in homepage.pre-and-during-conf.travel-and-accommodation-blurb.info %}
+    {% for entry in homepage.attendee-info.travel-accom.info %}
       <li>{{ entry.item }}</li>
     {% endfor %}
   </ul>
