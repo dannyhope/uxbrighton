@@ -249,7 +249,12 @@ collections:
                 fields:
                   - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
                   - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Body", name: "body", widget: "markdown"}
+                  - label: "Content"
+                    name: "body"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Info guide items"
                     name: "info"
                     widget: "list"
@@ -268,7 +273,12 @@ collections:
                     widget: "list"
                     collapsed: true
                     fields:
-                      - {label: "Body", name: "body", widget: "markdown"}
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
           - label: "Speakers" # Speakers section
             name: "speakers"
             summary: "Speakers section content - (eg. section title, speaker names, speaker talk times, talk slides & videos)."

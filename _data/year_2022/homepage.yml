@@ -86,7 +86,7 @@ overview:
   overview-state: pre
 attendee-info:
   travel-accom:
-    visibility: true
+    visibility: false
     title: Information for Attendees
     body: >-
       The conference is being held in the beautiful and historic [Brighton Dome
@@ -113,7 +113,7 @@ attendee-info:
       - item: Refreshments
       - item: After Party
   pre-party:
-    visibility: true
+    visibility: false
     event:
       - body: >-
           <h3>Pre-conf meetup – 31<sup>st</sup> Oct</h3>
