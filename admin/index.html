@@ -12,48 +12,64 @@
     // Registering custom CSS call for the editor preview
     CMS.registerPreviewStyle("styles-cms.css");
 
-    // Enhancing the editor `image` component to handle adding a CSS class
+    // Enhancing the Markdown editor `image` component to handle adding a CSS class
     CMS.registerEditorComponent({
-        label: 'Image',
-        id: 'image',
-        fromBlock: match =>
-          match && {
-            image: match[1],
-            alt: match[2],
-            classes: match[3]
-          },
-        toBlock: function({image, alt, classes}, getAsset, fields) {
-          return `<img src="${image || ''}" alt="${alt || ''}" class="${classes || ''}"/>`
+      // Visible label
+      label: 'Image',
+      // Internal id of the component
+      id: 'image',
+      collapsed: true,
+
+      // This is used to populate the custom widget in the markdown editor in the CMS.
+      fromBlock: match =>
+        match && {
+          image: match[1],
+          alt: match[2],
+          classes: match[3]
         },
-        toPreview: ({ image, alt, title, classes }, getAsset, fields) => {
-          return `<img src="${image}" alt="${alt}" class="${classes}"/>`;
+
+      // Given an object with one property for each field defined in `fields`, return the string you wish to be inserted into your markdown.
+      //
+      // This is used to serialize the data from the custom widget to the markdown document
+      toBlock: function({image, alt, classes}, getAsset, fields) {
+        return `<img src="${image || ''}" alt="${alt || ''}" class="${classes || ''}"/>`
+      },
+
+      // Preview output for this component. Can either be a string or a React component
+      // (component gives better render performance)
+      toPreview: ({ image, alt, title, classes }, getAsset, fields) => {
+        return `<img src="${image}" alt="${alt}" class="${classes}"/>`;
+      },
+
+      // Regex pattern used to search for instances of this block in the markdown document.
+      pattern:  /^<img src="(.*?)" alt="(.*?)" class="(.*?)"\/>$/s,
+
+      // Fields the user needs to fill out when adding an instance of the component
+      fields: [
+        {
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
+          media_library: {
+            allow_multiple: false,
+          },
         },
-        pattern:  /^<img src="(.*?)" alt="(.*?)" class="(.*?)"\/>$/s,
-        fields: [
-          {
-            label: 'Image',
-            name: 'image',
-            widget: 'image',
-            media_library: {
-              allow_multiple: false,
-            },
-          },
-          {
-            label: 'Alt Text',
-            name: 'alt',
-            hint: 'Enter a short description for this image.',
-            widget: 'string'
-          },
-          {
-            label: 'CSS Class',
-            name: 'classes',
-            hint: 'Choose a class from the list to layout your image. Defaults to **image-align-right**.',
-            widget: 'select',
-            options: ['image-align-left', 'image-align-right', 'image-align-inline'],
-            default: ['image-align-right']
-          }
-        ]
-      })
+        {
+          label: 'Alt Text',
+          name: 'alt',
+          hint: 'Enter a short description for this image.',
+          widget: 'string'
+        },
+        {
+          label: 'CSS Class',
+          name: 'classes',
+          hint: 'Choose a class from the list to layout your image. Defaults to **image-align-right**.',
+          widget: 'select',
+          options: ['image-align-left', 'image-align-right', 'image-align-inline'],
+          default: ['image-align-right']
+        }
+      ]
+    })
   </script>
 </body>
 </html>
