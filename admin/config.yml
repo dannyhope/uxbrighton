@@ -100,10 +100,11 @@ collections:
                       - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
           - label: "Overview" # Overview section
             name: "overview"
-            summary: "Overview section content - (eg. intro / lede text under the hero & testimonial)."
+            summary: "Overview section content - (eg. intro section & testimonial under the hero section)."
             widget: "object"
             collapsed: true
             fields:
+              - {label: "Show overview section?", name: "visibility", hint: "Overview info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
               - label: "Overview content states"
                 name: "overview-state"
                 hint: "Choose whether to show *pre*, *during* or *post*-conference overview content."
@@ -113,7 +114,6 @@ collections:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During conference", value: "during"}
                   - {label: "Post-conference", value: "post"}
-                  - {label: "Hidden", value: "hide"}
               - label: "Pre-conference content"
                 name: "pre"
                 summary: "Overview section pre-conference content."
@@ -123,21 +123,35 @@ collections:
                   - {label: "Title", name: "title", widget: "string"}
                   - label: "Lede text"
                     name: "lede"
-                    widget: "list"
+                    summary: "Larger 'lede' / intro text."
+                    widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Paragraph", name: "paragraph", widget: "text"}
-                  - label: "Text (extra)"
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Text (additional)"
                     name: "text"
+                    summary: "Additional section text."
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Content", name: "body", widget: "markdown"}
-                  - label: "Testimonial"
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Testimonial (quote)"
                     name: "testimonial"
+                    summary: "Testimonial / quote content."
                     widget: "object"
                     collapsed: true
                     fields:
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
                       - {label: "Quote", name: "quote", widget: "text"}
                       - {label: "Quotee", name: "quotee", widget: "string"}
               - label: "During conference content"
@@ -149,21 +163,35 @@ collections:
                   - {label: "Title", name: "title", widget: "string"}
                   - label: "Lede text"
                     name: "lede"
-                    widget: "list"
+                    summary: "Larger 'lede' / intro text."
+                    widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Paragraph", name: "paragraph", widget: "text"}
-                  - label: "Text (extra)"
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Text (additional)"
                     name: "text"
+                    summary: "Additional section text."
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Content", name: "body", widget: "markdown"}
-                  - label: "Testimonial"
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Testimonial (quote)"
                     name: "testimonial"
+                    summary: "Testimonial / quote content."
                     widget: "object"
                     collapsed: true
                     fields:
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
                       - {label: "Quote", name: "quote", widget: "text"}
                       - {label: "Quotee", name: "quotee", widget: "string"}
               - label: "Post-conference content"
@@ -175,21 +203,35 @@ collections:
                   - {label: "Title", name: "title", widget: "string"}
                   - label: "Lede text"
                     name: "lede"
-                    widget: "list"
+                    summary: "Larger 'lede' / intro text."
+                    widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Paragraph", name: "paragraph", widget: "text"}
-                  - label: "Text (extra)"
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Text (additional)"
                     name: "text"
+                    summary: "Additional section text."
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Content", name: "body", widget: "markdown"}
-                  - label: "Testimonial"
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Testimonial (quote)"
                     name: "testimonial"
+                    summary: "Testimonial / quote content."
                     widget: "object"
                     collapsed: true
                     fields:
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
                       - {label: "Quote", name: "quote", widget: "text"}
                       - {label: "Quotee", name: "quotee", widget: "string"}
           - label: "Attendee information" # Attendee information
