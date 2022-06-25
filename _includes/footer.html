@@ -31,7 +31,7 @@
   {% assign has_upcoming = false %}
   {% assign postnum = 1 %}
   {% for post in site.posts %}
-    {% if post.upcoming == true && if post.published == true %}
+    {% if post.upcoming == true and post.published == true %}
       {% assign has_upcoming = true %}
     {% endif %}
   {% endfor %}

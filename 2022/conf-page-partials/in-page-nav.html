@@ -10,7 +10,7 @@
         <li class="nav-item inline-block ">
           <a href="#talks" class="masthead__link nav-link color-black">Talks</a>
         </li>
-      {% else %}
+      {% elsif homepage.highlights.visibility == true %}
         <li class="nav-item inline-block ">
           <a href="#highlights" class="masthead__link nav-link color-black"><span class="hidden-under-m">Past highlights</span><span class="hidden-over-m">Highlights</span></a>
         </li>
@@ -23,7 +23,7 @@
           <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
         </li>
       {% endif %}
-      {% if homepage.workshops == true %}
+      {% if homepage.workshop == true %}
         <li class="nav-item inline-block nav-item--other-workshop">
           <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
         </li>
