@@ -286,17 +286,35 @@ collections:
             collapsed: true
             fields:
               - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-              - label: "Speakers, Talks & Schedule" # Speakers, Talks & Schedule
-                name: "speakers-and-schedule"
-                summary: "Speakers, Talks & Schedule content - (eg. registration time, talk times & after party)."
+              - {label: "Title", name: "title", hint: "Speakers section title.", widget: "string"}
+              - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+              - label: "Speaker & talk info."
+                name: "speaker-info"
+                summary: ""
+                widget: "list"
+                collapsed: true
+                fields:
+                  - {label: "Speaker name", name: "name", widget: "string"}
+                  - {label: "Speaker thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "Speaker anchor tag", name: "anchor", widget: "string"}
+                  - {label: "Speaker talk time", name: "talk-time", widget: "string"}
+                  # - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  # - {label: "Show talk slides?", name: "talk-slides", hint: "Talk slides info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  # - {label: "Show talk videos?", name: "talk-videos", hint: "Talk videos info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+              - label: "Registration"
+                name: "registration"
+                summary: "Registration time and event info."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Talk times", name: "talk-times", hint: "Talk times info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                  - {label: "Registration", name: "registration", hint: "Registration info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                  - {label: "After party", name: "after-party", hint: "After party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                  - {label: "Talk slides", name: "talk-slides", hint: "Talk slides info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-                  - {label: "Talk videos", name: "talk-videos", hint: "Talk videos info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+                  - {label: "Show registration content?", name: "visibility", hint: "Registration info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+              - label: "After-party"
+                name: "after-party"
+                summary: "After-party time and info."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
           - label: "Highlights" # Highlights section
             name: "highlights"
             summary: "Highlights section - (Only shows if 'Speakers' section not visible)."
