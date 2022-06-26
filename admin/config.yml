@@ -19,6 +19,7 @@ display_url: https://uxbri.org/
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
+    # "Conferences collection"
   - label: "Conferences"
     name: "conferences"
     description: "Year-specific UX Brighton conference homepages."
@@ -416,6 +417,7 @@ collections:
                   - {label: "Quotee", name: "quotee", widget: "string"}
           - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
           - {label: "Workshop", name: "workshop", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+    # "Events collection"
   - label: "Event pages"
     name: "event-pages"
     description: "Event pages (Past, Present & Future)."
