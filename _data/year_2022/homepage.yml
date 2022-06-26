@@ -132,31 +132,31 @@ speakers:
     - name: Martyn Reding
       thumbnail: /images/martyn-310.jpg
       anchor: Martyn-Reding
-      talk-time: 10
+      talk-time: 10:00 am
     - name: Emily Sappington
       thumbnail: /images/emily-sappington-310.jpg
       anchor: Emily-Sappington
-      talk-time: 10
+      talk-time: 10:40 am
     - name: Carmen Brion
       thumbnail: /images/carmen-brion-310.jpg
       anchor: Carmen-Brion
-      talk-time: 11
+      talk-time: 11:40 am
     - name: Ruby Steel
       thumbnail: /images/ruby-310.jpg
       anchor: Ruby-Steel
-      talk-time: 12
+      talk-time: 12:10 pm
     - name: Brendan Kearns
       thumbnail: /images/brendan-310.jpg
       anchor: Brendan-Kearns
-      talk-time: 2
+      talk-time: 14:10 pm
     - name: Dr. Nick Fine
       thumbnail: /images/nick-310.jpg
       anchor: Dr-Nick-Fine
-      talk-time: 3
+      talk-time: 15:40 pm
     - name: Liz Citron
       thumbnail: /images/liz-citron.jpg
       anchor: Liz-Citron
-      talk-time: 4
+      talk-time: 16:10 pm
   registration:
     visibility: false
   after-party:

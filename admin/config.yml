@@ -297,7 +297,7 @@ collections:
                   - {label: "Speaker name", name: "name", widget: "string"}
                   - {label: "Speaker thumbnail", name: "thumbnail", widget: "image"}
                   - {label: "Speaker anchor tag", name: "anchor", widget: "string"}
-                  - {label: "Speaker talk time", name: "talk-time", widget: "string"}
+                  - {label: "Speaker talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
                   # - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
                   # - {label: "Show talk slides?", name: "talk-slides", hint: "Talk slides info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
                   # - {label: "Show talk videos?", name: "talk-videos", hint: "Talk videos info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}

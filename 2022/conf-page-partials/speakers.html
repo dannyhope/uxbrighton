@@ -180,7 +180,7 @@
               <h3 class="talk__heading text-center-under-m fs-h2">
                 <span class="talk__speaker">
                   {% if homepage.speakers.talk-times == true %}
-                    <span class="talk__time">{{ speaker.talk-time }}</span>
+                    <span class="talk__time">{{ speaker.talk-time | date: "%H:%M" }}</span>
                   {% endif %}
                   <span>Old thinking – {{ speaker.name }}</span>
                 </span>
