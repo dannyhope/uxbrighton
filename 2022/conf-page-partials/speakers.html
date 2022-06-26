@@ -73,17 +73,20 @@
                   <img alt="{{ speaker.name }}." class="talk__photo" src="{{ speaker.thumbnail }}" width="310" height="310">
                 </div>
               </div>
+
+              <!-- Speaker talk time, talk title, talk summary, name, video & slides and bio -->
               <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
                 <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
                     {% if homepage.speakers.speaker-info.talk-times == true %}
-                      <span class="talk__time">{{ speaker.talk-time | date: "%H:%M" }}</span>
+                      <span class="talk__time">{{ speaker.talk-info.talk-time | date: "%H:%M" }}</span>
                     {% endif %}
-                    <span>{{ speaker.talk-title }} - {{ speaker.name }}</span>
+                    <span>{{ speaker.talk-info.talk-title }} - {{ speaker.name }}</span>
                   </span>
                 </h3>
                 <div class="talk__abstract">
 
+                  <!-- Talk video and slides... -->
                   {% if homepage.speakers.speaker-info.talk-videos == true %}
                     <div class="responsive-height-limiter mt3">
                       <div class="embed-container hd">
@@ -96,23 +99,24 @@
                     <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
                   {% endif %}
 
-                  {{ speaker.talk-description | markdownify }}
+                  <!-- Talk summary... -->
+                  {{ speaker.talk-info.talk-summary | markdownify }}
 
                 </div>
 
+                <!-- Speaker bio.... -->
                 <div class="talk__speaker-bio">
-                  <h4>{{ speaker.bio-title }}</h4>
-                  {{ speaker.bio-description | markdownify }}
+                  <h4>{{ speaker.speaker-bio.bio-title }}</h4>
+                  {{ speaker.speaker-bio.bio-summary | markdownify }}
                   <nav class="talk__speaker-links">
-                    {% for entry in speaker.social-profiles %}
-                      <a class="talk__speaker-links--twitter mr2 left" href="{{ entry.profile-url }}">{{ entry.profile-label }}</a>
+                    {% for entry in speaker.speaker-bio.social-profiles %}
+                      <a class="talk__speaker-links--{{ entry.profile-type }} mr2 left" href="{{ entry.profile-url }}">{{ entry.profile-label }}</a>
                     {% endfor %}
                   </nav>
-                  <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-                </div><!-- talk__speaker-bio -->
+                </div>
                 <div class="js-show-talk-details__show">Show talk and speaker details</div>
                 <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-              </div><!-- u2of3 -->
+              </div>
             </div>
           {% endfor %}
 

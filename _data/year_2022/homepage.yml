@@ -127,84 +127,42 @@ attendee-info:
           If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 speakers:
   visibility: true
+  section-title: Talks
+  section-banner: /images/header2.jpg
   speaker-info:
     talk-times: true
     speaker-list:
-      - social-profiles:
-          - profile-label: "@blahblah"
-            profile-url: http://website.com
-          - profile-url: http://website.com
-            profile-label: "@blahdeeblahblah"
+      - talk-info:
+          talk-time: 10:00 am
+          talk-title: Old thinking
+          talk-summary: >-
+            Holding the mirror up to some of the ‘new thinking’ in design and
+            showing that it is the same as the ideas being explored way back in
+            other design disciplines.
+
+
+            This talk really recognises how young UX Design (as a discipline) is when compared to other design disciplines and asks ourselves to make the effort to learn more about the history of branding, publishing, advertising, industrial design, type design etc to see what we can learn and take forward with us.
         name: Martyn Reding
         thumbnail: /images/martyn-310.jpg
-        talk-time: 10:00 am
-        bio-title: qwefqwef
         anchor: Martyn-Reding
-        talk-title: A title
-        bio-description: efqwfeq
-        talk-description: |-
-          Some text....
-
-          And **more text**.
-      - social-profiles:
-          - profile-url: http://website.com
-            profile-label: "@hellotag"
-          - profile-url: http://websitehello.com
-            profile-label: "@andanothertag"
-        name: Emily Sappington
-        thumbnail: /images/emily-sappington-310.jpg
-        talk-time: 10:40 am
-        bio-title: weq5tq4t
-        anchor: Emily-Sappington
-        talk-title: asdada
-        bio-description: rgergerg
-        talk-description: asdadsa
-      - name: Carmen Brion
-        thumbnail: /images/carmen-brion-310.jpg
-        anchor: Carmen-Brion
-        talk-time: 11:40 am
-        talk-title: asdada
-        talk-description: asdada
-        bio-title: 34tqtqre
-        bio-description: qregqerg
-      - name: Ruby Steel
-        thumbnail: /images/ruby-310.jpg
-        anchor: Ruby-Steel
-        talk-time: 12:10 pm
-        talk-title: aasdasdads
-        talk-description: asdasda
-        bio-title: qwetqwetq
-        bio-description: qweqwrq
-      - name: Brendan Kearns
-        thumbnail: /images/brendan-310.jpg
-        anchor: Brendan-Kearns
-        talk-time: 14:10 pm
-        talk-title: asdadsa
-        talk-description: asdasda
-        bio-title: qweqweqwe
-        bio-description: qweqwrqw
-      - name: Dr. Nick Fine
-        thumbnail: /images/nick-310.jpg
-        anchor: Dr-Nick-Fine
-        talk-time: 15:40 pm
-        talk-title: asdasd
-        talk-description: asdasdasda
-        bio-title: qwetqwetqw
-        bio-description: weqwe
-      - name: Liz Citron
-        thumbnail: /images/liz-citron.jpg
-        anchor: Liz-Citron
-        talk-time: 16:10 pm
-        talk-title: asdasd
-        talk-description: asdada
-        bio-title: weqwet
-        bio-description: qweqweqw
+        speaker-bio:
+          bio-title: About Martyn
+          bio-summary: Martyn is a British designer, based in Brighton. For the first 10
+            years of his career ‘agency side’, holding senior design roles and
+            working with a range of brands including IKEA, Penguin books, BBC
+            and Sony. Since being ‘client side’ he has specialised in building
+            and running multi-discipline teams.
+          social-profiles:
+            - profile-type: twitter
+              profile-label: "@martynreding"
+              profile-url: https://twitter.com/martynreding
+            - profile-type: website
+              profile-label: martyn.design
+              profile-url: https://martyn.design
   registration:
     visibility: false
   after-party:
     visibility: false
-  section-banner: /images/header2.jpg
-  section-title: Talks
 sponsors: true
 workshop: false
 image: https://uxbri.org/2022/images/cards/Early-bird.png
