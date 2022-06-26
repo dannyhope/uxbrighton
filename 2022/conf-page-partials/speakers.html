@@ -42,26 +42,28 @@
 
           <!-- Registration info... -->
           {% if homepage.speakers.registration.visibility == true %}
-            <div class="talk row padding-top-row" id="Registration">
+            <div class="talk row padding-top-row" id="{{ homepage.speakers.registration.anchor }}">
               <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
                 <div class="circle overflow-hidden inline-block">
-                  <img alt="Registration" class="talk__photo" src="/2018/images/speakers/registration.jpg" width="310" height="310">
+                  <img alt="{{ homepage.speakers.registration.title }}." class="talk__photo" src="{{ homepage.speakers.registration.thumbnail }}" width="310" height="310">
                 </div>
-              </div><!-- u1of3 -->
+              </div>
               <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-                <h3 class="talk__heading text-center-under-m talk__heading text-center-under-m--not-a-talk fs-h2 ">
+                <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
-                    <span class="talk__time">9:00</span>
-                    <span>Registration</span>
+                    {% if homepage.speakers.speaker-info.show-times == true %}
+                      <span class="talk__time">{{ homepage.speakers.registration.time | date: "%H:%M" }}</span>
+                    {% endif %}
+                    <span>{{ homepage.speakers.registration.title }}</span>
                   </span>
                 </h3>
-                <p>Doors will open at 9am for registration. Name badges will be arranged alphabetically by first name. Complimentary pastries and refreshments will be available.</p>
-                <p>Use the <a href="https://www.google.com/maps/place/Brighton+Dome/@50.8236893,-0.1380335,169m/data=!3m1!1e3!4m5!3m4!1s0x4875850a94b987c3:0x204845bd08377bb3!8m2!3d50.8237117!4d-0.1379561">Dome entrance</a> on Church Street. It’s approx <a href="https://goo.gl/maps/zkU5qz2Zyok">10 mins walk</a> from the train station</p>
-                <p>Please note that The Dome may conduct bag searches.</p>
-                <p>Please be seated by 9.50am so you don’t miss anything.</p>
+
+                <!-- Registration summary... -->
+                {{ homepage.speakers.registration.summary | markdownify }}
+
                 <div class="js-show-talk-details__show">Show talk and speaker details</div>
                 <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-              </div><!-- u2of3 -->
+              </div>
             </div>
           {% endif %}
 
@@ -78,7 +80,7 @@
               <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
                 <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
-                    {% if homepage.speakers.speaker-info.talk-times == true %}
+                    {% if homepage.speakers.speaker-info.show-times == true %}
                       <span class="talk__time">{{ speaker.talk-info.talk-time | date: "%H:%M" }}</span>
                     {% endif %}
                     <span>{{ speaker.talk-info.talk-title }} - {{ speaker.name }}</span>
@@ -86,17 +88,18 @@
                 </h3>
                 <div class="talk__abstract">
 
-                  <!-- Talk video and slides... -->
-                  {% if homepage.speakers.speaker-info.talk-videos == true %}
+                  <!-- Talk video... -->
+                  {% if homepage.speakers.speaker-info.show-videos == true %}
                     <div class="responsive-height-limiter mt3">
                       <div class="embed-container hd">
-                        <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
+                        <iframe src="https://www.youtube.com/embed/{{ speaker.talk-media.talk-video }}" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
                       </div>
                     </div>
                   {% endif %}
 
-                  {% if homepage.speakers.speaker-info.talk-slides == true %}
-                    <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
+                  <!-- Talk slides... -->
+                  {% if homepage.speakers.speaker-info.show-slides == true %}
+                    <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/{{ speaker.talk-media.talk-slides }}">{{ speaker.talk-info.talk-title }}</a></p>
                   {% endif %}
 
                   <!-- Talk summary... -->
@@ -121,31 +124,29 @@
           {% endfor %}
 
           <!-- After party info.... -->
-          {% if homepage.speakers.speaker-info.after-party == true %}
-            <div class="talk  row pv4" id="After-Party">
-              <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
+          {% if homepage.speakers.after-party.visibility == true %}
+            <div class="talk row padding-top-row" id="{{ homepage.speakers.after-party.anchor }}">
+              <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
                 <div class="circle overflow-hidden inline-block">
-                  <img class="talk__photo" src="/2018/images/speakers/party1.jpg" width="310" height="310">
+                  <img alt="{{ homepage.speakers.after-party.title }}." class="talk__photo" src="{{ homepage.speakers.after-party.thumbnail }}" width="310" height="310">
                 </div>
-              </div><!-- u1of3 -->
-              <div class="talk__text-wrapper u2of3-over-s left gutter-right">
-                <h3 class="talk__heading fs-h2 mb2">
-                <h3 class="talk__heading talk__heading--not-a-talk fs-h2 mb2">
-                  <!-- <span class="talk__title block"></span> -->
+              </div>
+              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+                <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
-                    {% if homepage.speakers.speaker-info.talk-times == true %}
-                      <span class="talk__time">
-                        5:05
-                      </span>
+                    {% if homepage.speakers.speaker-info.show-times == true %}
+                      <span class="talk__time">{{ homepage.speakers.after-party.time | date: "%H:%M" }}</span>
                     {% endif %}
-                    <span class="nowrap">After Party</span>
+                    <span>{{ homepage.speakers.after-party.title }}</span>
                   </span>
                 </h3>
-                <p>Join us for after conference drinks in the Foyer Bar (at the venue) until 8pm. You will receive a drinks voucher at registration. Your voucher is valid for a selection of alcoholic and non-alcoholic drinks.</p>
-                <p>Please keep your name badge with you if you want to leave and come back again.</p>
+
+                <!-- After-party summary... -->
+                {{ homepage.speakers.after-party.summary | markdownify }}
+
                 <div class="js-show-talk-details__show">Show details</div>
                 <div class="js-show-talk-details__hide">Hide details</div>
-              </div><!-- u2of3 -->
+              </div>
             </div>
           {% endif %}
         </div>

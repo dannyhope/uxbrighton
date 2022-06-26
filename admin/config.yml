@@ -294,7 +294,9 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - {label: "Show talk times?", name: "show-times", hint: "Talk times. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show talk videos?", name: "show-videos", hint: "Talk videos. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show talk slides?", name: "show-slides", hint: "Talk slides. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
                   - label: "List of speakers"
                     name: "speaker-list"
                     summary: ""
@@ -318,6 +320,14 @@ collections:
                             buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                             editor_components: [] # An empty array to remove any editor components - eg. "image"
                             modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                      - label: "Talk video & slides."
+                        name: "talk-media"
+                        summary: "Video & slides from the speaker's talk."
+                        widget: "object"
+                        collapsed: true
+                        fields:
+                          - {label: "Talk video", name: "talk-video", hint: "Enter YouTube video ID - eg. *kCBVxrV9Omg*", widget: "string"}
+                          - {label: "Talk slides", name: "talk-slides", hint: "Enter SlideShare talks string - eg. *martyn-reding-connecting-the-dots*", widget: "string"}
                       - label: "Speaker bio."
                         name: "speaker-bio"
                         summary: "Information related to the speaker."
@@ -347,9 +357,6 @@ collections:
                                   - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Social profile label / hashtag", name: "profile-label", widget: "string"}
                               - {label: "Social profile link / URL", name: "profile-url", widget: "string"}
-                      # - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
-                      # - {label: "Show talk slides?", name: "talk-slides", hint: "Talk slides info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
-                      # - {label: "Show talk videos?", name: "talk-videos", hint: "Talk videos info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
               - label: "Registration"
                 name: "registration"
                 summary: "Registration time and event info."
@@ -357,6 +364,16 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show registration content?", name: "visibility", hint: "Registration info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - {label: "Registration time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                  - {label: "Registration title", name: "title", widget: "string"}
+                  - {label: "Registration thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "Registration anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the registration information.", widget: "string"}
+                  - label: "Registration summary"
+                    name: "summary"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
               - label: "After-party"
                 name: "after-party"
                 summary: "After-party time and info."
@@ -364,6 +381,16 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - {label: "After-party time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                  - {label: "After-party title", name: "title", widget: "string"}
+                  - {label: "After-party thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "After-party anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the after-party information.", widget: "string"}
+                  - label: "After-party summary"
+                    name: "summary"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
           - label: "Highlights" # Highlights section
             name: "highlights"
             summary: "Highlights section - (Only shows if 'Speakers' section not visible)."
