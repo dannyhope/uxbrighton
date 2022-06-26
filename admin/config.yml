@@ -290,7 +290,7 @@ collections:
               - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image"}
               - label: "Speaker & talk info."
                 name: "speaker-info"
-                summary: ""
+                summary: "Each speaker's talk details and bio."
                 widget: "object"
                 collapsed: true
                 fields:
