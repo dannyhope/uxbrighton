@@ -34,16 +34,16 @@
 
           <!-- Trying out this speaker grid section for loop... -->
           {% for speaker in homepage.speakers.speaker-info %}
-          <figure class="u1of4 left gutters--xs mb1">
-            <a href="#{{ speaker.anchor }}" class="talk__image-link">
-              <img alt="{{ speaker.name }}." class="bg-grey-20" src="{{ speaker.thumbnail }}" width="310" height="310">
-              <figcaption class="talk__image-link__caption">
-                <span class="talk__image-link__caption--1 block">
-                  {{ speaker.name }}
-                </span>
-              </figcaption>
-            </a>
-          </figure>
+            <figure class="u1of4 left gutters--xs mb1">
+              <a href="#{{ speaker.anchor }}" class="talk__image-link">
+                <img alt="{{ speaker.name }}." class="bg-grey-20" src="{{ speaker.thumbnail }}" width="310" height="310">
+                <figcaption class="talk__image-link__caption">
+                  <span class="talk__image-link__caption--1 block">
+                    {{ speaker.name }}
+                  </span>
+                </figcaption>
+              </a>
+            </figure>
           {% endfor %}
 
           <!-- Martyn Reding -->
@@ -170,52 +170,53 @@
 
 
           {% for speaker in homepage.speakers.speaker-info %}
-          <div class="talk row padding-top-row" id="{{ speaker.anchor }}">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="{{ speaker.name }}." class="talk__photo" src="{{ speaker.thumbnail }}" width="310" height="310">
+            <div class="talk row padding-top-row" id="{{ speaker.anchor }}">
+              <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
+                <div class="circle overflow-hidden inline-block">
+                  <img alt="{{ speaker.name }}." class="talk__photo" src="{{ speaker.thumbnail }}" width="310" height="310">
+                </div>
               </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.talk-times == true %}
-                    <span class="talk__time">{{ speaker.talk-time | date: "%H:%M" }}</span>
-                  {% endif %}
-                  <span>Old thinking – {{ speaker.name }}</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
+              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+                <h3 class="talk__heading text-center-under-m fs-h2">
+                  <span class="talk__speaker">
+                    {% if homepage.speakers.talk-times == true %}
+                      <span class="talk__time">{{ speaker.talk-time | date: "%H:%M" }}</span>
+                    {% endif %}
+                    <span>{{ speaker.talk-title }} - {{ speaker.name }}</span>
+                  </span>
+                </h3>
+                <div class="talk__abstract">
 
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
+                  {% if homepage.speakers.speaker-info.talk-videos == true %}
+                    <div class="responsive-height-limiter mt3">
+                      <div class="embed-container hd">
+                        <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
+                      </div>
                     </div>
-                  </div>
-                {% endif %}
+                  {% endif %}
 
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-                <p>Holding the mirror up to some of the ‘new thinking’ in design and showing that it is the same as the ideas being explored way back in other design disciplines.</p>
-                <p>This talk really recognises how young UX Design (as a discipline) is when compared to other design disciplines and asks ourselves to make the effort to learn more about the history of branding, publishing, advertising, industrial design, type design etc to see what we can learn and take forward with us.</p>
+                  {% if homepage.speakers.speaker-info.talk-slides == true %}
+                    <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
+                  {% endif %}
 
-              </div><!-- talk__abstract -->
+                  {{ speaker.talk-description | markdownify }}
 
-              <div class="talk__speaker-bio">
-                <h4>About Martyn</h4>
-                <p>Martyn is a British designer, based in Brighton. For the first 10 years of his career ‘agency side’, holding senior design roles and working with a range of brands including IKEA, Penguin books, BBC and Sony. Since being ‘client side’ he has specialised in building and running multi-discipline teams.</p>
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/martynreding">@martynreding</a>
-                  <a href="http://martyn.design/">http://martyn.design/</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
+                </div>
+
+                <div class="talk__speaker-bio">
+                  <h4>{{ speaker.bio-title }}</h4>
+                  {{ speaker.bio-description | markdownify }}
+                  <nav class="talk__speaker-links">
+                    {% for entry in speaker.social-profiles %}
+                      <a class="talk__speaker-links--twitter mr2 left" href="{{ entry.profile-url }}">{{ entry.profile-label }}</a>
+                    {% endfor %}
+                  </nav>
+                  <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
+                </div><!-- talk__speaker-bio -->
+                <div class="js-show-talk-details__show">Show talk and speaker details</div>
+                <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
+              </div><!-- u2of3 -->
+            </div>
           {% endfor %}
 
 

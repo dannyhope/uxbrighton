@@ -298,6 +298,28 @@ collections:
                   - {label: "Speaker thumbnail", name: "thumbnail", widget: "image"}
                   - {label: "Speaker anchor tag", name: "anchor", widget: "string"}
                   - {label: "Speaker talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                  - {label: "Talk title", name: "talk-title", widget: "string"}
+                  - label: "Talk description"
+                    name: "talk-description"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - {label: "Speaker bio title", name: "bio-title", widget: "string"}
+                  - label: "Speaker bio description"
+                    name: "bio-description"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Speaker social profiles"
+                    name: "social-profiles"
+                    summary: ""
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Social profile label / hashtag", name: "profile-label", widget: "string"}
+                      - {label: "Social profile link / URL", name: "profile-url", widget: "string"}
                   # - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
                   # - {label: "Show talk slides?", name: "talk-slides", hint: "Talk slides info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
                   # - {label: "Show talk videos?", name: "talk-videos", hint: "Talk videos info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}

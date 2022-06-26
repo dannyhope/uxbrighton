@@ -129,34 +129,75 @@ speakers:
   visibility: true
   title: Talks
   speaker-info:
-    - name: Martyn Reding
+    - social-profiles:
+        - profile-label: "@blahblah"
+          profile-url: http://website.com
+        - profile-url: http://website.com
+          profile-label: "@blahdeeblahblah"
+      name: Martyn Reding
       thumbnail: /images/martyn-310.jpg
-      anchor: Martyn-Reding
       talk-time: 10:00 am
-    - name: Emily Sappington
+      bio-title: qwefqwef
+      anchor: Martyn-Reding
+      talk-title: A title
+      bio-description: efqwfeq
+      talk-description: |-
+        Some text....
+
+        And **more text**.
+    - social-profiles:
+        - profile-url: http://website.com
+          profile-label: "@hellotag"
+        - profile-url: http://websitehello.com
+          profile-label: "@andanothertag"
+      name: Emily Sappington
       thumbnail: /images/emily-sappington-310.jpg
-      anchor: Emily-Sappington
       talk-time: 10:40 am
+      bio-title: weq5tq4t
+      anchor: Emily-Sappington
+      talk-title: asdada
+      bio-description: rgergerg
+      talk-description: asdadsa
     - name: Carmen Brion
       thumbnail: /images/carmen-brion-310.jpg
       anchor: Carmen-Brion
       talk-time: 11:40 am
+      talk-title: asdada
+      talk-description: asdada
+      bio-title: 34tqtqre
+      bio-description: qregqerg
     - name: Ruby Steel
       thumbnail: /images/ruby-310.jpg
       anchor: Ruby-Steel
       talk-time: 12:10 pm
+      talk-title: aasdasdads
+      talk-description: asdasda
+      bio-title: qwetqwetq
+      bio-description: qweqwrq
     - name: Brendan Kearns
       thumbnail: /images/brendan-310.jpg
       anchor: Brendan-Kearns
       talk-time: 14:10 pm
+      talk-title: asdadsa
+      talk-description: asdasda
+      bio-title: qweqweqwe
+      bio-description: qweqwrqw
     - name: Dr. Nick Fine
       thumbnail: /images/nick-310.jpg
       anchor: Dr-Nick-Fine
       talk-time: 15:40 pm
+      talk-title: asdasd
+      talk-description: asdasdasda
+      bio-title: qwetqwetqw
+      bio-description: weqwe
     - name: Liz Citron
       thumbnail: /images/liz-citron.jpg
       anchor: Liz-Citron
       talk-time: 16:10 pm
+      talk-title: asdasd
+      talk-description: asdada
+      bio-title: weqwet
+      bio-description: qweqweqw
   registration:
     visibility: false
   after-party:
