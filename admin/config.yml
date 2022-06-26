@@ -57,7 +57,7 @@ collections:
                   - {label: "Date", name: "date", widget: "string", default: "Friday 4 November"}
                   - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30"}
                   - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome"}
-                  - {label: "Background Image", name: "image", widget: "string", default: "/2022/images/header.jpg"}
+                  - {label: "Background Image", name: "image", widget: "image"}
               - label: "Pre-conference content"
                 name: "pre"
                 summary: "Hero section pre-conference content."
@@ -286,43 +286,50 @@ collections:
             collapsed: true
             fields:
               - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-              - {label: "Title", name: "title", hint: "Speakers section title.", widget: "string"}
-              - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+              - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string"}
+              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image"}
               - label: "Speaker & talk info."
                 name: "speaker-info"
                 summary: ""
-                widget: "list"
+                widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Speaker name", name: "name", widget: "string"}
-                  - {label: "Speaker thumbnail", name: "thumbnail", widget: "image"}
-                  - {label: "Speaker anchor tag", name: "anchor", widget: "string"}
-                  - {label: "Speaker talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
-                  - {label: "Talk title", name: "talk-title", widget: "string"}
-                  - label: "Talk description"
-                    name: "talk-description"
-                    widget: "markdown"
-                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                    editor_components: [] # An empty array to remove any editor components - eg. "image"
-                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
-                  - {label: "Speaker bio title", name: "bio-title", widget: "string"}
-                  - label: "Speaker bio description"
-                    name: "bio-description"
-                    widget: "markdown"
-                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                    editor_components: [] # An empty array to remove any editor components - eg. "image"
-                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
-                  - label: "Speaker social profiles"
-                    name: "social-profiles"
+                  - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - label: "List of speakers"
+                    name: "speaker-list"
                     summary: ""
                     widget: "list"
                     collapsed: true
                     fields:
-                      - {label: "Social profile label / hashtag", name: "profile-label", widget: "string"}
-                      - {label: "Social profile link / URL", name: "profile-url", widget: "string"}
-                  # - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
-                  # - {label: "Show talk slides?", name: "talk-slides", hint: "Talk slides info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
-                  # - {label: "Show talk videos?", name: "talk-videos", hint: "Talk videos info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                      - {label: "Speaker name", name: "name", widget: "string"}
+                      - {label: "Speaker thumbnail", name: "thumbnail", widget: "image"}
+                      - {label: "Speaker anchor tag", name: "anchor", widget: "string"}
+                      - {label: "Speaker talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                      - {label: "Talk title", name: "talk-title", widget: "string"}
+                      - label: "Talk description"
+                        name: "talk-description"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                      - {label: "Speaker bio title", name: "bio-title", widget: "string"}
+                      - label: "Speaker bio description"
+                        name: "bio-description"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                      - label: "Speaker social profiles"
+                        name: "social-profiles"
+                        summary: ""
+                        widget: "list"
+                        collapsed: true
+                        fields:
+                          - {label: "Social profile label / hashtag", name: "profile-label", widget: "string"}
+                          - {label: "Social profile link / URL", name: "profile-url", widget: "string"}
+                      # - {label: "Show talk times?", name: "talk-times", hint: "Talk times info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                      # - {label: "Show talk slides?", name: "talk-slides", hint: "Talk slides info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                      # - {label: "Show talk videos?", name: "talk-videos", hint: "Talk videos info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
               - label: "Registration"
                 name: "registration"
                 summary: "Registration time and event info."

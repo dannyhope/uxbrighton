@@ -2,10 +2,10 @@
 
   <section id="talks" class='{% if page.talk-text-toggle == "show" %} talk-text-toggled-by-default {% endif %}'>
 
-    <div class="overlay__outer" style="background-image: url('/2019/images/header2.jpg');">
+    <div class="overlay__outer" style="background-image: url('{{ homepage.speakers.section-banner }}');">
       <div class="overlay__inner" style="background: rgba(0,0,0,0.2)">
         <div class="container color-white">
-          <h2 class="fs-xxxl mb0 leading-solid">{{ homepage.speakers.title }}</h2>
+          <h2 class="fs-xxxl mb0 leading-solid">{{ homepage.speakers.section-title }}</h2>
         </div>
       </div>
     </div>
@@ -13,27 +13,10 @@
     <div class="overlay__after container">
       <div class="clearfix gutter-top-under-m">
 
-
-        <!-- <style>
-          #speaker-grid {
-            position: sticky;
-            z-index: 99999;
-            top: 0;
-            left: 0;
-            right: 0;
-            width: 100%;
-            background: #fff;
-            padding-top: 8px;
-          }
-          #speaker-grid .u1of4 {
-            width: 12.5%;
-          }
-        </style> -->
-
+        <!-- Speaker grid section... -->
         <div id="speaker-grid" class="clearfix gutters__container--xs pb1">
 
-          <!-- Trying out this speaker grid section for loop... -->
-          {% for speaker in homepage.speakers.speaker-info %}
+          {% for speaker in homepage.speakers.speaker-info.speaker-list %}
             <figure class="u1of4 left gutters--xs mb1">
               <a href="#{{ speaker.anchor }}" class="talk__image-link">
                 <img alt="{{ speaker.name }}." class="bg-grey-20" src="{{ speaker.thumbnail }}" width="310" height="310">
@@ -136,14 +119,16 @@
           </figure> -->
 
 
+          <!-- Speaker placeholder avatar... -->
           <figure class="u1of4 left gutters--xs mb1">
             <img alt="Placeholder avatar" class="bg-grey-20" src="/2019/images/speakers/placeholder-310.jpg" width="310" height="310">
           </figure>
-        </div><!-- #speaker-grid -->
+        </div>
 
-
+        <!-- Speaker & talk list... -->
         <div id="speaker-and-talk-list" class="bg-white container">
 
+          <!-- Registration info... -->
           {% if homepage.speakers.registration.visibility == true %}
             <div class="talk row padding-top-row" id="Registration">
               <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
@@ -168,8 +153,8 @@
             </div>
           {% endif %}
 
-
-          {% for speaker in homepage.speakers.speaker-info %}
+          <!-- Speaker info... -->
+          {% for speaker in homepage.speakers.speaker-info.speaker-list %}
             <div class="talk row padding-top-row" id="{{ speaker.anchor }}">
               <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
                 <div class="circle overflow-hidden inline-block">
@@ -179,7 +164,7 @@
               <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
                 <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
-                    {% if homepage.speakers.talk-times == true %}
+                    {% if homepage.speakers.speaker-info.talk-times == true %}
                       <span class="talk__time">{{ speaker.talk-time | date: "%H:%M" }}</span>
                     {% endif %}
                     <span>{{ speaker.talk-title }} - {{ speaker.name }}</span>
@@ -219,375 +204,7 @@
             </div>
           {% endfor %}
 
-
-
-          <div class="talk row padding-top-row" id="Martyn-Reding">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="Martyn Reding" class="talk__photo" src="/2019/images/speakers/martyn-310.jpg" width="310" height="310">
-              </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.speaker-info.talk-times == true %}
-                    <span class="talk__time">
-                      10:00
-                    </span>
-                  {% endif %}
-                  <span>Old thinking – Martyn Reding</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
-
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
-                    </div>
-                  </div>
-                {% endif %}
-
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-                <p>Holding the mirror up to some of the ‘new thinking’ in design and showing that it is the same as the ideas being explored way back in other design disciplines.</p>
-                <p>This talk really recognises how young UX Design (as a discipline) is when compared to other design disciplines and asks ourselves to make the effort to learn more about the history of branding, publishing, advertising, industrial design, type design etc to see what we can learn and take forward with us.</p>
-
-              </div><!-- talk__abstract -->
-
-              <div class="talk__speaker-bio">
-                <h4>About Martyn</h4>
-                <p>Martyn is a British designer, based in Brighton. For the first 10 years of his career ‘agency side’, holding senior design roles and working with a range of brands including IKEA, Penguin books, BBC and Sony. Since being ‘client side’ he has specialised in building and running multi-discipline teams.</p>
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/martynreding">@martynreding</a>
-                  <a href="http://martyn.design/">http://martyn.design/</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
-
-
-          <div class="talk  row padding-top-row mt0" id="Emily-Sappington">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="Emily Sappington" class="talk__photo" src="/2019/images/speakers/Emily-Sappington-310.jpg" width="310" height="310">
-              </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.speaker-info.talk-times == true %}
-                    <span class="talk__time">
-                      10:40
-                    </span>
-                  {% endif %}
-                  <span>Designing with artificial intelligence – Emily Sappington</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
-
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
-                    </div>
-                  </div>
-                {% endif %}
-
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-
-                <p>We are entering the age of intelligence—a time when technologists imbue artificially intelligent components into many products without a clear framework for how such intelligence is delivered to users consistently. It is a product designer’s job to make AI feel human-like and magical, not overwhelming and scary to users. When designing for Artificial Intelligence scenarios, whether for a large enterprise or small startup, setting user expectations is critical to deliver a reliable product. Emily will share some best practices from designing for AI in both large and small organizations. No matter the company size, a minimum viable product is important to design and not to be the result of unplanned feature cuts. Emily will share what Minimum Viable Intelligence is for an AI product, and how designers can deliver a clear UX when solving problems efficiently.</p>
-
-                <p>When thinking of how to design for intelligent products, first and foremost it needs to seem competent. Users must trust the AI agent or service with information and believe that it can achieve their goal. The bar for this depends on the expectations the designer sets. The most difficult thing about breaking out of scenario-focused AI is the lack of clear boundaries. Are you aspiring to create an entire conversational AI agent? Then the bar will be high. A less intelligent Bot, however, will teach users the rails of its conversation early on to avoid disappointment. In this talk we’ll dig deeper into setting appropriate expectations when designing for AI across large and small applications.</p>
-
-                <p>Emily will share how drawing on human interaction models helps designers know what to expect when people encounter their AI product. Responsiveness when users expect it is only one part of this equation. Apps that explain processes in human ways, like thinking, seeing, or reading, can benefit from showing users where they are in a process, while explaining it in natural ways. Emulating true intelligence takes more than just seeming alive and being basically competent though. To surpass users’ expectations can be a delightful moment when the product seems truly and independently intelligent.</p>
-              </div><!-- talk__abstract -->
-
-              <div class="talk__speaker-bio">
-                <h4>About Emily</h4>
-                <p>Emily Sappington is the Product Design Manager for Voice & Conversational UI at Babylon Health. Previously she served as VP of Product at London-based AI startup, Context Scout.</p>
-                <p>Emily has spent the bulk of her career in the United States designing Cortana for Microsoft across devices, particularly Natural Language & UI interactions with the assistant. Emily is a lecturer, US patent-holder, career coach for Ada School (the National College for Digital Skills in the UK), and is a recipient of an Exceptional Talent Visa from the UK Government and Tech Nation.</p>
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/sappingtonemily">@sappingtonemily</a>
-                  <a href="https://uk.linkedin.com/in/emilysappington">linkedin.com/in/emilysappington</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
-
-
-          <div class="talk  row padding-top-row" id="Carmen-Brion">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="Carmen Brion" class="talk__photo" src="/2019/images/speakers/Carmen-Brion-310.jpg" width="310" height="310">
-              </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.speaker-info.talk-times == true %}
-                    <span class="talk__time">
-                      11:40
-                    </span>
-                  {% endif %}
-                  <span>The value of Design Thinking for product teams – Carmen Brion</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
-
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
-                    </div>
-                  </div>
-                {% endif %}
-
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-                <p>Design Thinking is a powerful mindset and framework leading to innovation and bringing to market impactful products/services. However, after the initial excitement applying it within different business environments, criticism started to emerge putting into question its value.</p>
-                <p>This talk aims to present what makes Design Thinking a powerful tool and the type of problems is good for.</p>
-                <p>Based on Carmen's experience working with many product teams, she will be covering the main practices diluting the Design Thinking value, and a direction to avoid ending up in disappointment.</p>
-                <p>Like Agile and Lean, Design Thinking has its place. None of them are silver bullets. It doesn't exist a formula we can apply to solve everything in the same way. Different problems require different/flexible approaches to solve them.</p>
-              </div><!-- talk__abstract -->
-
-              <div class="talk__speaker-bio">
-                <h4>About Carmen</h4>
-                <p>Carmen has worked in experience design and research for over 12 years and is currently a design/product researcher. An expert in evaluating the value of digital products, she is a passionate practitioner in research-driven product design. A design thinker at heart, Carmen draws strong influence from Lean UX and JTBD in her work and is always seeking to make an impact for both customers and the business through effective ways of testing design hypotheses.</p>
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/tea_monster">@tea_monster</a>
-                  <a href="https://www.linkedin.com/in/carmenbrion/?originalSubdomain=uk">LinkedIn/carmenbrion</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
-
-
-          <div class="talk  row padding-top-row" id="Ruby-Steel">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="Ruby Steel" class="talk__photo" src="/2019/images/speakers/ruby-310.jpg" width="310" height="310">
-              </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.speaker-info.talk-times == true %}
-                    <span class="talk__time">
-                      12:10
-                    </span>
-                  {% endif %}
-                  <span>The craft of inclusive design – Ruby Steel</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
-
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
-                    </div>
-                  </div>
-                {% endif %}
-
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-                <p>Inclusive design is a noble and aspirational concept; however it can be challenging to implement as a process and can seem inaccessible to client projects.</p>
-                <p>Including the extremes, while keeping an eye on your core audience can seem like a daunting and expensive approach. What if we told you that there is a shortcut to inclusive design? Telling stories from BBC Two’s Big Life Fix, Ruby Steel will share principles that can be applied to every day projects.</p>
-              </div><!-- talk__abstract -->
-
-              <div class="talk__speaker-bio">
-                <h4>About Ruby</h4>
-                <p>Ruby Steel is a trailblazer in inclusive design. She was also a “fixer” on the BBC2 show Big Life Fix, the show that involves a team of inventors creating new and life-changing solutions for people in need. As Associate Strategy Director at Smart Design, Ruby is committed to making people’s lives better through the power of design, working across a variety of industries. </p>
-                <p>Ruby graduated from Kingston University and then went on to gain a Master’s degree in Innovation Design Engineering at the Royal College of Art and Imperial College of London. She has been awarded two Helen Hamlyn Design Awards for Creativity and Inclusive Design, and received honorable mentions from Core77 and the RSA for design solutions combating issues such as social isolation in older people.</p>
-
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/rubysteel">@rubysteel</a>
-                  <a href="https://www.linkedin.com/in/ruby-steel-3766671b/">https://www.linkedin.com/in/ruby-steel-3766671b/</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
-
-
-          <div class="talk  row padding-top-row" id="Brendan-Kearns">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="Brendan Kearns" class="talk__photo" src="/2019/images/speakers/brendan-310.jpg" width="310" height="310">
-              </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.speaker-info.talk-times == true %}
-                    <span class="talk__time">
-                      2:10
-                    </span>
-                  {% endif %}
-                  <span>Vision vs Iteration – Brendan Kearns</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
-
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
-                    </div>
-                  </div>
-                {% endif %}
-
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-                <p>Teams iterating without a vision are working blindfolded. The constant demand for new features and growth often force product teams into endless cycles of iteration. At best, they're missing out on new opportunities. At worst, they’re ignoring threats that could upend their business.</p>
-                <p>The struggle to plan beyond the short-term mean it's easy to ignore the future bets you need to make to survive.</p>
-                <p>In this talk, Brendan will share models and ways of working from that designers and product owners can use to focus on both the short and long term.</p>
-                <p>Some of the topics covered in this talk are:</p>
-                <ul>
-                  <li>the value of a vision,</li>
-                  <li>how to measure big bets through experimentation, and</li>
-                  <li>validation and turning a vision into a roadmap.</li>
-                </ul>
-
-              </div><!-- talk__abstract -->
-
-              <div class="talk__speaker-bio">
-                <h4>About Brendan</h4>
-                <p>Brendan is the founder of Studio Rival – a digital product agency in London. Rival partners with leading startups, tech companies, and brands to design and innovate digital products. As a former designer at companies like Google, Twitter, and InVision, he has the inside take on some of the biggest and most complex products in tech.</p>
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/brendan_kearns">@brendan_kearns</a>
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/RivalLondon">@RivalLondon</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
-
-
-          <!-- Nat Buckley -->
-
-
-          <div class="talk  row padding-top-row" id="Dr-Nick-Fine">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="Dr Nick Fine" class="talk__photo" src="/2019/images/speakers/nick-310.jpg" width="310" height="310">
-              </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.speaker-info.talk-times == true %}
-                    <span class="talk__time">
-                      3:40
-                    </span>
-                  {% endif %}
-                  <span>Scientific Design – Dr. Nick Fine</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
-
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
-                    </div>
-                  </div>
-                {% endif %}
-
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-
-                <p>The world of UX Design is constantly in flux, and there are so many different approaches - some good, some not so good. UX Design is inherently art and science, but since the explosion in popularity of UX, the science component of UX Design has lost out to the more appealing visual design elements of the practice.</p>
-                <p>In his talk, <em>Scientific Design</em>, Nick will show you where you can add science to your workflow to help guide your craft and to enhance your creativity, rather than to limit and stifle it. We'll cover methods for both innovation-type projects and optimisation-type projects, as well as how to apply scientific principles alongside all that you do. Adding science to design creates killer UX, and Nick will give you all the shortcuts and pointers needed to apply scientific design on the project you're currently working on.</p>
-              </div><!-- talk__abstract -->
-
-              <div class="talk__speaker-bio">
-                <h4>About Dr. Nick</h4>
-                <p>Nick is a lead user experience researcher and designer with 20 years experience in Digital, both agency and client side. He was awarded his PhD in Human Computer Interaction (HCI) in 2009 from Brunel University for his work on personalisation and also holds MSc HCI from University College London (2004) and BSc Psychology (1996) from Portsmouth University. By combining academic research skills and HCI knowledge with commercial UX experience, Nick has successfully delivered a number of complex and mission-critical projects, including air traffic control, financial systems and pharmaceutical drug trial planning. He has been lead UX on projects for a number of brands, including Coca Cola, SAB Miller, Jaguar Land Rover, Bentley, EY, Novartis, GlaxoSmithKline, BT, Virgin Media, Camelot and Shell.</p>
-                <p>Nick’s areas of expertise are scientific UX, behavioural design,personalisation, personality psychology, conversion rate optimisation, remote user testing and transformation through user experience.</p>
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/doctorfine">@doctorfine</a>
-                  <a href="https://www.linkedin.com/in/drnickfine/">https://www.linkedin.com/in/drnickfine</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
-
-
-
-          <div class="talk  row padding-top-row" id="Liz-Citron">
-            <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
-              <div class="circle overflow-hidden inline-block">
-                <img alt="Liz Citron" class="talk__photo" src="/2019/images/speakers/Liz-Citron.jpg" width="310" height="310">
-              </div>
-            </div><!-- u1of3 -->
-            <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
-              <h3 class="talk__heading text-center-under-m fs-h2">
-                <span class="talk__speaker">
-                  {% if homepage.speakers.speaker-info.talk-times == true %}
-                    <span class="talk__time">
-                      4:10
-                    </span>
-                  {% endif %}
-                  <span>Rolling with the Punches – Liz Citron</span>
-                </span>
-              </h3>
-              <div class="talk__abstract">
-
-                {% if homepage.speakers.speaker-info.talk-videos == true %}
-                  <div class="responsive-height-limiter mt3">
-                    <div class="embed-container hd">
-                      <iframe src="https://www.youtube.com/embed/___🔥🔥🔥🔥___" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
-                    </div>
-                  </div>
-                {% endif %}
-
-                {% if homepage.speakers.speaker-info.talk-slides == true %}
-                  <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/___🌟🌟🌟🌟___">___🌟🌟🌟🌟___</a></p>
-                {% endif %}
-
-                <p>Life is full of surprises; some are good and some are not so good. Our ability to stay flexible and positive under pressure can have a huge impact on our wellbeing. Resilience is not an innate capability; it's more like a muscle that can be built and strengthened. There are 4 pillars to well being: mental, physical, emotional and social. Each of these can be fortified to help us handle life's ups and downs, reducing the negative impact and allowing you to take it in your stride. In this session, we will talk about a few research-backed techniques that can help you bounce back when you need to.</p>
-              </div><!-- talk__abstract -->
-
-              <div class="talk__speaker-bio">
-                <h4>About Liz</h4>
-                <p>Liz Citron has 25 years of experience helping individuals, teams, and organisations find their way through the challenges of building tools and services that meet business and users’ needs. She has worked with a wide variety of organisations - from tiny businesses to large government departments. Digital transformation is by its nature catalytic and individuals and teams often are on the front line in dealing with the fallout. Having recently trained as a coach, Liz firmly believes that the digital community need to spend time turning our creative skills on ourselves occasionally, to make sure we operate in an environment that encourages each of us to succeed.</p>
-                <nav class="talk__speaker-links">
-                  <a class="talk__speaker-links--twitter mr2 left" href="https://twitter.com/lizcitron">@lizcitron</a>
-                  <a href="https://www.lizcitron.com/">lizcitron.com</a>
-                </nav>
-                <!-- <p class="talk__meet-speakers">Meet <a href="#speakers">our other speakers</a></p> -->
-              </div><!-- talk__speaker-bio -->
-
-              <div class="js-show-talk-details__show">Show talk and speaker details</div>
-              <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
-            </div><!-- u2of3 -->
-          </div>
-
+          <!-- After party info.... -->
           {% if homepage.speakers.speaker-info.after-party == true %}
             <div class="talk  row pv4" id="After-Party">
               <div class="u1of3-over-s left gutter-right talk__photo-wrapper">
@@ -615,10 +232,9 @@
               </div><!-- u2of3 -->
             </div>
           {% endif %}
-        </div><!-- container -->
+        </div>
 
-
-      </div><!-- row -->
+      </div>
     </div>
   </section>
 
