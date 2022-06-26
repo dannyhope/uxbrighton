@@ -37,7 +37,7 @@
 
         </div>
 
-        <!-- Speaker & talk list... -->
+        <!-- Main speaker & talk section... -->
         <div id="speaker-and-talk-list" class="bg-white container">
 
           <!-- Registration info... -->
@@ -65,7 +65,7 @@
             </div>
           {% endif %}
 
-          <!-- Speaker info... -->
+          <!-- Speaker-specific info (eg. talk times, subject, talk summary, bio etc.)... -->
           {% for speaker in homepage.speakers.speaker-info.speaker-list %}
             <div class="talk row padding-top-row" id="{{ speaker.anchor }}">
               <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
