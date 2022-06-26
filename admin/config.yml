@@ -19,22 +19,24 @@ display_url: https://uxbri.org/
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
+    # "Conferences collection"
   - label: "Conferences"
-    name: "conferences" # this is used for namespacing
-    description: "Year-specific conference (home) pages."
+    name: "conferences"
+    description: "Year-specific UX Brighton conference homepages."
+    editor:
+      preview: true
     files:
-      - label: "UX Brighton 2022"
+      - label: "UX Brighton 2022 - (homepage)"
         name: "uxbri-2022"
-        file: "2022/index.html"
+        file: "_data/year_2022/homepage.yml" # Content file now seperate to markdown `.md` file
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/default"}
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
-          - {label: "Slug", name: "slug", widget: "string", default: "conference-2022"}
+          - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
           - label: "Hero" # Hero section
             name: "hero"
-            summary: "Hero section for pre, during & post-conference content states."
+            summary: "Hero section content - (eg. banner title, subtitle, date and primary ticket button)."
             widget: "object"
             collapsed: true
             fields:
@@ -47,7 +49,7 @@ collections:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During conference", value: "during"}
                   - {label: "Post-conference", value: "post"}
-              - label: "Global hero content"
+              - label: "Hero section global content"
                 name: "global"
                 widget: "object"
                 collapsed: true
@@ -56,9 +58,10 @@ collections:
                   - {label: "Date", name: "date", widget: "string", default: "Friday 4 November"}
                   - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30"}
                   - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome"}
-                  - {label: "Background Image", name: "image", widget: "string", default: "/2022/images/header.jpg"}
+                  - {label: "Background Image", name: "image", widget: "image"}
               - label: "Pre-conference content"
                 name: "pre"
+                summary: "Hero section pre-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
@@ -74,6 +77,7 @@ collections:
                       - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
               - label: "During conference content"
                 name: "during"
+                summary: "Hero section during-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
@@ -81,6 +85,7 @@ collections:
                   - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door"}
               - label: "Post-conference content"
                 name: "post"
+                summary: "Hero section post-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
@@ -97,23 +102,312 @@ collections:
                       - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
           - label: "Overview" # Overview section
             name: "overview"
-            summary: "Overview section content - (eg. intro / lede text under the hero & testimonial)."
+            summary: "Overview section content - (eg. intro section & testimonial under the hero section)."
             widget: "object"
             collapsed: true
             fields:
+              - {label: "Show overview section?", name: "visibility", hint: "Overview info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+              - label: "Overview content states"
+                name: "overview-state"
+                hint: "Choose whether to show *pre*, *during* or *post*-conference overview content."
+                widget: "select"
+                multiple: false
+                options:
+                  - {label: "Pre-conference", value: "pre"}
+                  - {label: "During conference", value: "during"}
+                  - {label: "Post-conference", value: "post"}
+              - label: "Pre-conference content"
+                name: "pre"
+                summary: "Overview section pre-conference content."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    summary: "Larger 'lede' / intro text."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Text (additional)"
+                    name: "text"
+                    summary: "Additional section text."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Testimonial (quote)"
+                    name: "testimonial"
+                    summary: "Testimonial / quote content."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                      - {label: "Quote", name: "quote", widget: "text"}
+                      - {label: "Quotee", name: "quotee", widget: "string"}
+              - label: "During conference content"
+                name: "during"
+                summary: "Overview section during-conference content."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    summary: "Larger 'lede' / intro text."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Text (additional)"
+                    name: "text"
+                    summary: "Additional section text."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Testimonial (quote)"
+                    name: "testimonial"
+                    summary: "Testimonial / quote content."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                      - {label: "Quote", name: "quote", widget: "text"}
+                      - {label: "Quotee", name: "quotee", widget: "string"}
+              - label: "Post-conference content"
+                name: "post"
+                summary: "Overview section post-conference content."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    summary: "Larger 'lede' / intro text."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Text (additional)"
+                    name: "text"
+                    summary: "Additional section text."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Testimonial (quote)"
+                    name: "testimonial"
+                    summary: "Testimonial / quote content."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                      - {label: "Quote", name: "quote", widget: "text"}
+                      - {label: "Quotee", name: "quotee", widget: "string"}
+          - label: "Attendee information" # Attendee information
+            name: "attendee-info"
+            summary: "Attendee information content - (eg. travel & accommodation, pre-party)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Travel & Accommodation"
+                name: "travel-accom"
+                summary: "Travel & Accommodation summary info."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Content"
+                    name: "body"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                  - label: "Info guide items"
+                    name: "info"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Info item", name: "item", widget: "string"}
+              - label: "Pre party"
+                name: "pre-party"
+                summary: "Pre-party info."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show pre-party info?", name: "visibility", hint: "Pre-party info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - label: "Pre-part events"
+                    name: "event"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - label: "Content"
+                        name: "body"
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+          - label: "Speakers" # Speakers section
+            name: "speakers"
+            summary: "Speakers section content - (eg. section title, speaker names, speaker talk times, talk slides & videos)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+              - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string"}
+              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image"}
+              - label: "Speaker & talk info."
+                name: "speaker-info"
+                summary: "Each speaker's talk details and bio."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show talk times?", name: "show-times", hint: "Talk times. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show talk videos?", name: "show-videos", hint: "Talk videos. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show talk slides?", name: "show-slides", hint: "Talk slides. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - label: "List of speakers"
+                    name: "speaker-list"
+                    summary: ""
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Speaker name", name: "name", widget: "string"}
+                      - {label: "Speaker thumbnail", name: "thumbnail", widget: "image"}
+                      - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string"}
+                      - label: "Talk info."
+                        name: "talk-info"
+                        summary: "Information related to the speaker's talk."
+                        widget: "object"
+                        collapsed: true
+                        fields:
+                          - {label: "Talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                          - {label: "Talk title", name: "talk-title", widget: "string"}
+                          - label: "Talk summary"
+                            name: "talk-summary"
+                            widget: "markdown"
+                            buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                            editor_components: [] # An empty array to remove any editor components - eg. "image"
+                            modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                      - label: "Talk video & slides."
+                        name: "talk-media"
+                        summary: "Video & slides from the speaker's talk."
+                        widget: "object"
+                        collapsed: true
+                        fields:
+                          - {label: "Talk video", name: "talk-video", hint: "Enter YouTube video ID - eg. *kCBVxrV9Omg*", widget: "string"}
+                          - {label: "Talk slides", name: "talk-slides", hint: "Enter SlideShare talks string - eg. *martyn-reding-connecting-the-dots*", widget: "string"}
+                      - label: "Speaker bio."
+                        name: "speaker-bio"
+                        summary: "Information related to the speaker."
+                        widget: "object"
+                        collapsed: true
+                        fields:
+                          - {label: "Speaker bio title", name: "bio-title", widget: "string"}
+                          - label: "Speaker bio summary"
+                            name: "bio-summary"
+                            widget: "markdown"
+                            buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                            editor_components: [] # An empty array to remove any editor components - eg. "image"
+                            modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                          - label: "Speaker social profiles"
+                            name: "social-profiles"
+                            widget: "list"
+                            collapsed: true
+                            fields:
+                              - label: "Social profile type"
+                                name: "profile-type"
+                                hint: "Choose social profile type. Eg. 'twitter'."
+                                widget: "select"
+                                multiple: false
+                                options:
+                                  - {label: "Personal website", value: "website"}
+                                  - {label: "Twitter", value: "twitter"}
+                                  - {label: "LinkedIn", value: "linkedin"}
+                              - {label: "Social profile label / hashtag", name: "profile-label", widget: "string"}
+                              - {label: "Social profile link / URL", name: "profile-url", widget: "string"}
+              - label: "Registration"
+                name: "registration"
+                summary: "Registration time and event info."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show registration content?", name: "visibility", hint: "Registration info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - {label: "Registration time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                  - {label: "Registration title", name: "title", widget: "string"}
+                  - {label: "Registration thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "Registration anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the registration information.", widget: "string"}
+                  - label: "Registration summary"
+                    name: "summary"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+              - label: "After-party"
+                name: "after-party"
+                summary: "After-party time and info."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - {label: "After-party time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                  - {label: "After-party title", name: "title", widget: "string"}
+                  - {label: "After-party thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "After-party anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the after-party information.", widget: "string"}
+                  - label: "After-party summary"
+                    name: "summary"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+          - label: "Highlights" # Highlights section
+            name: "highlights"
+            summary: "Highlights section - (Only shows if 'Speakers' section not visible)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
               - {label: "Title", name: "title", widget: "string"}
-              - label: "Lede text"
-                name: "lede"
+              - label: "Videos"
+                name: "video"
                 widget: "list"
                 collapsed: true
                 fields:
-                  - {label: "Paragraph", name: "paragraph", widget: "text"}
-              - label: "Text (other)"
-                name: "text"
-                widget: "list"
-                collapsed: true
-                fields:
-                  - {label: "Paragraph", name: "paragraph", widget: "text"}
+                  - {label: "Description", name: "alt", widget: "string"}
+                  - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "URL", name: "url", widget: "string"}
               - label: "Testimonial"
                 name: "testimonial"
                 widget: "object"
@@ -121,43 +415,9 @@ collections:
                 fields:
                   - {label: "Quote", name: "quote", widget: "text"}
                   - {label: "Quotee", name: "quotee", widget: "string"}
-          - label: "Event Promotions" # Event Promotions
-            name: "events"
-            summary: "Event promotion content - (top & bottom of page)."
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "Event Promotion (top)", name: "event-promo-top-of-page", hint: "Event promotion showing at top of page. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "Event Promotion (footer)", name: "event-promo-footer", hint: "Event promotion showing at the bottom of the page. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-          - label: "Pre & During Conference" # Pre & During Conference
-            name: "pre-and-during-conf"
-            summary: "Pre & during conference content - (eg. pre-party, speakers & workshops)."
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "Travel & Accommodation", name: "travel-and-accommodation-blurb", hint: "Travel & accommodation info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "Pre party", name: "pre-party", hint: "Pre party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "Speakers", name: "speakers", hint: "Speakers info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
-              - {label: "Highlights", name: "highlights", hint: "Highlights info. Choose whether to *show* or *hide*. Defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
-              - {label: "Workshops", name: "workshops", hint: "Workshops info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-          - label: "Speakers, Talks & Schedule" # Speakers, Talks & Schedule
-            name: "speakers-and-schedule"
-            summary: "Speakers, Talks & Schedule content - (eg. registration times, talk times & after party)."
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "Talk times", name: "talk-times", hint: "Talk times info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "Registration", name: "registration", hint: "Registration info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "After party", name: "after-party", hint: "After party info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-          - label: "Post Conference" # Post Conference
-            name: "post-conf"
-            summary: "Post conference content - (eg. talk slides & talk videos)."
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "Talk slides", name: "talk-slides", hint: "Talk slides info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
-              - {label: "Talk videos", name: "talk-videos", hint: "Talk videos info. Choose whether to *show* or *hide*. Defaults to *hide*.", widget: "select", options: ["show", "hide"], default: ["hide"]}
+          - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+          - {label: "Workshop", name: "workshop", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+    # "Events collection"
   - label: "Event pages"
     name: "event-pages"
     description: "Event pages (Past, Present & Future)."
@@ -165,6 +425,8 @@ collections:
     identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
     slug: "{{file-name}}"
     create: true
+    editor:
+      preview: true
     fields: # stuff unique to each post follows
       - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/event-page"} # The `layout` field is hidden in the GUI and needs to be changed here instead
       - {label: "File Name", name: "file-name", hint: "This is the full file name - (*including the date prefix*). Eg. **2022-06-12-this-part-is-the-url**", widget: "string"}
@@ -181,8 +443,8 @@ collections:
           - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["ticketed", "unticketed", "sold-out"], default: ["ticketed"]}
           - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
           - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free"}
-      - {label: "Upcoming", name: "upcoming", widget: "boolean", default: false}
-      - {label: "Publish", name: "published", widget: "boolean", default: false}
+      - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false}
+      - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **false**.", widget: "boolean", default: false}
+      - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string"}
-      - {label: "Art direction (images)", name: "art-direction", hint: "Enables you to decide how images should align on the page. Defaults to **inline**.", widget: "select", multiple: false, options: ["left", "right", "inline"], default: ["inline"]}
       - {label: "Body", name: "body", widget: "markdown"}
