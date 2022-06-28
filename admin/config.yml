@@ -133,7 +133,7 @@ collections:
                         name: "body"
                         widget: "markdown"
                         buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
-                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Text (additional)"
                     name: "text"
@@ -145,7 +145,7 @@ collections:
                         name: "body"
                         widget: "markdown"
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Testimonial (quote)"
                     name: "testimonial"
@@ -173,7 +173,7 @@ collections:
                         name: "body"
                         widget: "markdown"
                         buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
-                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Text (additional)"
                     name: "text"
@@ -185,7 +185,7 @@ collections:
                         name: "body"
                         widget: "markdown"
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Testimonial (quote)"
                     name: "testimonial"
@@ -213,7 +213,7 @@ collections:
                         name: "body"
                         widget: "markdown"
                         buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
-                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Text (additional)"
                     name: "text"
@@ -225,7 +225,7 @@ collections:
                         name: "body"
                         widget: "markdown"
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Testimonial (quote)"
                     name: "testimonial"
@@ -254,7 +254,7 @@ collections:
                     name: "body"
                     widget: "markdown"
                     buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                   - label: "Info guide items"
                     name: "info"
@@ -278,7 +278,7 @@ collections:
                         name: "body"
                         widget: "markdown"
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                        editor_components: [] # An empty array to remove any editor components - eg. "image"
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
           - label: "Speakers" # Speakers section
             name: "speakers"
@@ -319,7 +319,7 @@ collections:
                             name: "talk-summary"
                             widget: "markdown"
                             buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                            editor_components: [] # An empty array to remove any editor components - eg. "image"
+                            editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                             modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                       - label: "Talk video & slides."
                         name: "talk-media"
@@ -340,7 +340,7 @@ collections:
                             name: "bio-summary"
                             widget: "markdown"
                             buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                            editor_components: [] # An empty array to remove any editor components - eg. "image"
+                            editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                             modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                           - label: "Speaker social profiles"
                             name: "social-profiles"
@@ -373,7 +373,7 @@ collections:
                     name: "summary"
                     widget: "markdown"
                     buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
               - label: "After-party"
                 name: "after-party"
@@ -390,7 +390,7 @@ collections:
                     name: "summary"
                     widget: "markdown"
                     buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
-                    editor_components: [] # An empty array to remove any editor components - eg. "image"
+                    editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
           - label: "Highlights" # Highlights section
             name: "highlights"
