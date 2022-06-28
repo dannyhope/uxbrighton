@@ -73,6 +73,26 @@
       ]
     })
 
+    // Adding a horizontal-rule, aka `<hr>`, component to the Markdown editor
+    // --------------------------------------------------------------------------------------
+    CMS.registerEditorComponent({
+      label: 'Horizontal rule',
+      id: 'separator',
+      summary: 'This is a separator line.',
+      collapsed: true,
+
+      // Never match anything so that the separator will be recognized as a horizontal rule when the document is reloaded:
+      pattern: /.^/,
+
+      toBlock(obj) {
+        return '---';
+      },
+
+      toPreview(obj) {
+        return '<hr>';
+      }
+    })
+
     // Other components could be added in...
     // For example: "Video (Youtube)", "Slides (Slideshare)" etc.
     /// .............
