@@ -99,77 +99,36 @@
 
     <!-- Section testimonial... -->
     {% if homepage.sponsors.testimonial.visibility == true %}
-    <div class="testimonial">
-      <div class="row pv5 border-top mv0">
-        <blockquote class="standfirst">
-          <div class="quote">
-            <p>{{ homepage.sponsors.testimonial.quote }}</p>
-          </div>
-          <div class="quotee">{{ homepage.sponsors.testimonial.quotee }}</div>
-        </blockquote>
+      <div class="testimonial">
+        <div class="row pv5 border-top mv0">
+          <blockquote class="standfirst">
+            <div class="quote">
+              <p>{{ homepage.sponsors.testimonial.quote }}</p>
+            </div>
+            <div class="quotee">{{ homepage.sponsors.testimonial.quotee }}</div>
+          </blockquote>
+        </div>
       </div>
-    </div>
     {% endif %}
 
     <!-- "Headline" sponsor.... -->
     {% if homepage.sponsors.sponsors-headline.visibility == true %}
-    <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-headline.section-title }}</h3>
-    <div class="row mv0 eh-row drop pa2 sponsor-headline ">
+      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-headline.section-title }}</h3>
+      <div class="row mv0 eh-row drop pa2 sponsor-headline ">
 
-      <div class="u1of2-over-m sponsor-headline__image-box">
-        <a href="{{ homepage.sponsors.sponsors-headline.sponsor-details.url }}">
-          <img alt="{{ homepage.sponsors.sponsors-headline.sponsor-details.name }}" src="{{ homepage.sponsors.sponsors-headline.sponsor-details.logo }}" style="width: 100%">
-        </a>
-      </div>
-
-      <div class="u1of2-over-m">
-        <div class="sponsor-headline__text-box">
-          <div class="sponsor-headline__text">
-            <p class="mb0">{{ homepage.sponsors.sponsors-headline.sponsor-details.summary }}</p>
-          </div>
-          <div class="sponsor__links icons-currentColor mt1">
-            {% for entry in homepage.sponsors.sponsors-headline.sponsor-details.links %}
-              {% if entry.link-type == "website" %}
-                <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
-                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-                </a>
-              {% elsif entry.link-type == "twitter" %}
-                <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Twitter">
-                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-                </a>
-              {% elsif entry.link-type == "facebook" %}
-                <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Facebook">
-                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
-                </a>
-              {% endif %}
-            {% endfor %}
-          </div>
+        <div class="u1of2-over-m sponsor-headline__image-box">
+          <a href="{{ homepage.sponsors.sponsors-headline.sponsor-details.url }}">
+            <img src="{{ homepage.sponsors.sponsors-headline.sponsor-details.logo }}" alt="{{ homepage.sponsors.sponsors-headline.sponsor-details.name }}" style="width: 100%">
+          </a>
         </div>
-      </div>
 
-    </div>
-    {% endif %}
-
-    <!-- "Premium" sponsors.... -->
-    {% if homepage.sponsors.sponsors-premium.visibility == true %}
-    <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-premium.section-title }}</h3>
-    <div class="row mv0 pb5 eh-row">
-
-      {% for sponsor in homepage.sponsors.sponsors-premium.sponsor-list %}
-        <div class="u1of2-over-s pr1 left eh-item">
-          <div class="drop pa2 sponsor sponsor-premium">
-            <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-              <a href="{{ sponsor.url }}">
-                <div class="image-container">
-                  <img alt="{{ sponsor.name }}" src="{{ sponsor.logo }}" width="273" height="203" style="width: 45%">
-                </div>
-              </a>
-            </div>
-            <div class="sponsor__info">
-              <p class="mb0">{{ sponsor.summary }}</p>
+        <div class="u1of2-over-m">
+          <div class="sponsor-headline__text-box">
+            <div class="sponsor-headline__text">
+              <p class="mb0">{{ homepage.sponsors.sponsors-headline.sponsor-details.summary }}</p>
             </div>
             <div class="sponsor__links icons-currentColor mt1">
-              {% for entry in sponsor.links %}
+              {% for entry in homepage.sponsors.sponsors-headline.sponsor-details.links %}
                 {% if entry.link-type == "website" %}
                   <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
                     <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
@@ -187,160 +146,207 @@
             </div>
           </div>
         </div>
-      {% endfor %}
 
-      <!-- Sponsorship (premium) placeholder 'available' slot -->
-      <!-- <div class="u1of2-over-s pr1 left eh-item">
-        <a href="/2022/sponsorship" class="block drop  ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
-          <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
-        </a>
-      </div> -->
+      </div>
+    {% endif %}
 
-    </div>
+    <!-- "Premium" sponsors.... -->
+    {% if homepage.sponsors.sponsors-premium.visibility == true %}
+      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-premium.section-title }}</h3>
+      <div class="row mv0 pb5 eh-row">
+
+        {% for sponsor in homepage.sponsors.sponsors-premium.sponsor-list %}
+          <div class="u1of2-over-s pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-premium">
+              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+                <a href="{{ sponsor.url }}">
+                  <div class="image-container">
+                    <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" width="273" height="203" style="width: 45%">
+                  </div>
+                </a>
+              </div>
+              <div class="sponsor__info">
+                <p class="mb0">{{ sponsor.summary }}</p>
+              </div>
+              <div class="sponsor__links icons-currentColor mt1">
+                {% for entry in sponsor.links %}
+                  {% if entry.link-type == "website" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
+                      <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "twitter" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Twitter">
+                      <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "facebook" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Facebook">
+                      <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
+        <!-- Sponsorship (premium) placeholder 'available' slot -->
+        <!-- <div class="u1of2-over-s pr1 left eh-item">
+          <a href="/2022/sponsorship" class="block drop  ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
+            <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
+          </a>
+        </div> -->
+
+      </div>
     {% endif %}
 
     <!-- "Standard" sponsors.... -->
     {% if homepage.sponsors.sponsors-standard.visibility == true %}
-    <h3 class=" pt2 fs-h2">Standard Sponsors</h3>
-    <div class="row mt0 pb5 eh-row" style="font-size:15px;">
+      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-standard.section-title }}</h3>
+      <div class="row mt0 pb5 eh-row" style="font-size:15px;">
 
-      <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
-        <div class="drop pa2 sponsor sponsor-standard">
-          <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-            <a href="https://balsamiq.com/" class="" title="balsamiq.com">
-              <div class="image-container">
-                <img src="/2018/images/sponsor-logos/balsamiq-logo-noborder-screen.svg" alt="Balsamiq logo">
+        {% for sponsor in homepage.sponsors.sponsors-standard.sponsor-list %}
+          <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-standard">
+              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+                <a href="{{ sponsor.url }}">
+                  <div class="image-container">
+                    <img src="{{ sponsor.logo }}" alt="{ sponsor.name }}">
+                  </div>
+                  </a>
               </div>
-              </a>
-          </div>
-          <div class="sponsor__info hidden-under-s">
-            <p class="mb0">Balsamiq is the maker of the industry-leading rapid wireframing software that combines the simplicity of paper sketching with the power of a digital tool so that teams can focus on what's important. </p>
-          </div>
-          <div class="sponsor__links icons-currentColor mt1">
-            <a href="https://balsamiq.com/" class="sponsor__link color-grey-30" title="balsamiq.com">
-              <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-            </a>
-            <a href="https://twitter.com/balsamiq" class="sponsor__link color-grey-30" title="Twitter">
-              <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-            </a>
-          </div>
-        </div><!-- sponsor -->
-      </div>
-
-      <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
-        <div class="drop pa2 sponsor sponsor-standard">
-          <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-            <a href="https://www.brightec.co.uk/" class="" title="brightec.co.uk">
-              <div class="image-container">
-                <img src="/2021/images/rsz_brightec_logo_2019_1 (1).jpg" alt="Brightec logo">
+              <div class="sponsor__info hidden-under-s">
+                <p class="mb0">{{ sponsor.summary }}</p>
               </div>
-              </a>
-          </div>
-          <div class="sponsor__info hidden-under-s">
-            <p class="mb0">Brightec are a multi award-winning mobile app development agency based in Brighton, UK.  Their mission is simple; to be a company that customers love working with, and their employees love working for. </p>
-          </div>
-          <div class="sponsor__links icons-currentColor mt1">
-            <a href="https://www.brightec.co.uk/" class="sponsor__link color-grey-30" title="brightec.co.uk">
-              <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-            </a>
-            <a href="https://twitter.com/brightec" class="sponsor__link color-grey-30" title="Twitter">
-              <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-            </a>
-            <a href="https://www.facebook.com/BrightecApps/?ref=br_rs" class="sponsor__link color-grey-30" title="Facebook">
-              <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
-            </a>
-          </div>
-        </div><!-- sponsor -->
-      </div>
-
-      <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
-        <div class="drop pa2 sponsor sponsor-3-star">
-          <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-            <a href="https://youcanbook.me/" class="" title="YouCanBook.me">
-              <div class="image-container">
-                <img src="/2021/images/sponsor-logos/youcanbook.me.png" alt="youcanbook.me logo">
+              <div class="sponsor__links icons-currentColor mt1">
+                {% for entry in sponsor.links %}
+                  {% if entry.link-type == "website" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
+                      <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "twitter" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Twitter">
+                      <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "facebook" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Facebook">
+                      <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                    </a>
+                  {% endif %}
+                {% endfor %}
               </div>
-              </a>
+            </div>
           </div>
-          <div class="sponsor__info hidden-under-s">
-            <p class="mb0">Award-winning scheduling tool for teams. YouCanBook.me prevents the usual back-and-forth when setting up meetings. Works with your Google or Microsoft calendar to give you flexible, customizable, and powerful automated scheduling.</p>
-          </div>
-          <div class="sponsor__links icons-currentColor mt1">
-            <a class="sponsor__link color-grey-30" href="https://youcanbook.me/" class="" title="YouCanBook.me">
-              <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-            </a>
-            <a href="https://twitter.com/youcanbookme?lang=en" class="sponsor__link color-grey-30" title="Twitter">
-              <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-            </a>
-            <a href="https://www.facebook.com/youcanbookme/" class="sponsor__link color-grey-30" title="Facebook">
-              <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
-            </a>
-          </div>
-        </div>
-      </div>
+        {% endfor %}
 
-      <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
-        <div class="drop pa2 sponsor sponsor-3-star">
-          <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-            <a href="https://www.madgex.com/" class="" title="Madgex">
-              <div class="image-container">
-                <img src="/2021/images/sponsor-logos/madgex.svg" alt="Madgex logo">
-              </div>
-              </a>
-          </div>
-          <div class="sponsor__info hidden-under-s">
-            <p class="mb0">We are an awarding winning Brighton based employer-of-choice, powering the most recognized media brands on the planet with our job board technology.</p>
-          </div>
-          <div class="sponsor__links icons-currentColor mt1">
-            <a href="https://www.madgex.com/" class="sponsor__link color-grey-30" title="www.madgex.com">
-              <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-            </a>
-            <a href="https://twitter.com/madgex?lang=en" class="sponsor__link color-grey-30" title="Twitter">
-              <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-            </a>
-            <a href="https://www.facebook.com/MadgexLtd/" class="sponsor__link color-grey-30" title="Facebook">
-              <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!--
-        <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
-          <div class="drop pa2 sponsor sponsor-3-star">
+        <!-- <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+          <div class="drop pa2 sponsor sponsor-standard">
             <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
-              <a href="https://_____🔥_____" class="" title="_____🔥_____">
+              <a href="https://balsamiq.com/" class="" title="balsamiq.com">
                 <div class="image-container">
-                  <img src="_____🔥_____" alt="_____🔥_____ logo">
+                  <img src="/2018/images/sponsor-logos/balsamiq-logo-noborder-screen.svg" alt="Balsamiq logo">
                 </div>
                 </a>
             </div>
             <div class="sponsor__info hidden-under-s">
-              <p class="mb0">_____🔥_____</p>
+              <p class="mb0">Balsamiq is the maker of the industry-leading rapid wireframing software that combines the simplicity of paper sketching with the power of a digital tool so that teams can focus on what's important. </p>
             </div>
             <div class="sponsor__links icons-currentColor mt1">
-              <a href="_____🔥_____" class="sponsor__link color-grey-30" title="_____🔥_____">
+              <a href="https://balsamiq.com/" class="sponsor__link color-grey-30" title="balsamiq.com">
                 <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
               </a>
-              <a href="_____🔥_____" class="sponsor__link color-grey-30" title="Twitter">
+              <a href="https://twitter.com/balsamiq" class="sponsor__link color-grey-30" title="Twitter">
                 <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
               </a>
-              <a href="_____🔥_____" class="sponsor__link color-grey-30" title="Facebook">
+            </div>
+          </div>
+        </div>
+
+        <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+          <div class="drop pa2 sponsor sponsor-standard">
+            <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+              <a href="https://www.brightec.co.uk/" class="" title="brightec.co.uk">
+                <div class="image-container">
+                  <img src="/2021/images/rsz_brightec_logo_2019_1 (1).jpg" alt="Brightec logo">
+                </div>
+                </a>
+            </div>
+            <div class="sponsor__info hidden-under-s">
+              <p class="mb0">Brightec are a multi award-winning mobile app development agency based in Brighton, UK.  Their mission is simple; to be a company that customers love working with, and their employees love working for. </p>
+            </div>
+            <div class="sponsor__links icons-currentColor mt1">
+              <a href="https://www.brightec.co.uk/" class="sponsor__link color-grey-30" title="brightec.co.uk">
+                <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+              </a>
+              <a href="https://twitter.com/brightec" class="sponsor__link color-grey-30" title="Twitter">
+                <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+              </a>
+              <a href="https://www.facebook.com/BrightecApps/?ref=br_rs" class="sponsor__link color-grey-30" title="Facebook">
                 <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
               </a>
             </div>
           </div>
         </div>
-      -->
 
-      <!-- Sponsorship (standard) placeholder 'available' slot -->
-      <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
-        <a href="/2022/sponsorship" class="block drop ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
-          <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
-        </a>
+        <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+          <div class="drop pa2 sponsor sponsor-3-star">
+            <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+              <a href="https://youcanbook.me/" class="" title="YouCanBook.me">
+                <div class="image-container">
+                  <img src="/2021/images/sponsor-logos/youcanbook.me.png" alt="youcanbook.me logo">
+                </div>
+                </a>
+            </div>
+            <div class="sponsor__info hidden-under-s">
+              <p class="mb0">Award-winning scheduling tool for teams. YouCanBook.me prevents the usual back-and-forth when setting up meetings. Works with your Google or Microsoft calendar to give you flexible, customizable, and powerful automated scheduling.</p>
+            </div>
+            <div class="sponsor__links icons-currentColor mt1">
+              <a class="sponsor__link color-grey-30" href="https://youcanbook.me/" class="" title="YouCanBook.me">
+                <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+              </a>
+              <a href="https://twitter.com/youcanbookme?lang=en" class="sponsor__link color-grey-30" title="Twitter">
+                <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+              </a>
+              <a href="https://www.facebook.com/youcanbookme/" class="sponsor__link color-grey-30" title="Facebook">
+                <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+          <div class="drop pa2 sponsor sponsor-3-star">
+            <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+              <a href="https://www.madgex.com/" class="" title="Madgex">
+                <div class="image-container">
+                  <img src="/2021/images/sponsor-logos/madgex.svg" alt="Madgex logo">
+                </div>
+                </a>
+            </div>
+            <div class="sponsor__info hidden-under-s">
+              <p class="mb0">We are an awarding winning Brighton based employer-of-choice, powering the most recognized media brands on the planet with our job board technology.</p>
+            </div>
+            <div class="sponsor__links icons-currentColor mt1">
+              <a href="https://www.madgex.com/" class="sponsor__link color-grey-30" title="www.madgex.com">
+                <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+              </a>
+              <a href="https://twitter.com/madgex?lang=en" class="sponsor__link color-grey-30" title="Twitter">
+                <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+              </a>
+              <a href="https://www.facebook.com/MadgexLtd/" class="sponsor__link color-grey-30" title="Facebook">
+                <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Sponsorship (standard) placeholder 'available' slot -->
+        <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+          <a href="/2022/sponsorship" class="block drop ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
+            <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
+          </a>
+        </div>
+
       </div>
-
-    </div>
     {% endif %}
 
   </div>

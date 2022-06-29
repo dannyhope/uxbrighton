@@ -531,5 +531,58 @@ sponsors:
             profile-url: https://www.facebook.com/jpmorgan
   sponsors-standard:
     visibility: true
+    section-title: Standard Sponsors
+    sponsor-list:
+      - name: Balsamiq
+        logo: /images/balsamiq-logo-noborder-screen.svg
+        url: https://balsamiq.com/
+        summary: Balsamiq is the maker of the industry-leading rapid wireframing
+          software that combines the simplicity of paper sketching with the
+          power of a digital tool so that teams can focus on what's important.
+        links:
+          - link-type: website
+            profile-url: https://balsamiq.com/
+          - link-type: twitter
+            profile-url: https://twitter.com/balsamiq
+      - name: Brightec
+        logo: /images/rsz_brightec_logo_2019_1-1-.jpg
+        url: https://www.brightec.co.uk/
+        summary: Brightec are a multi award-winning mobile app development agency based
+          in Brighton, UK.  Their mission is simple; to be a company that
+          customers love working with, and their employees love working for.
+        links:
+          - link-type: website
+            profile-url: https://www.brightec.co.uk/
+          - link-type: twitter
+            profile-url: https://twitter.com/brightec
+          - link-type: facebook
+            profile-url: https://www.facebook.com/BrightecApps/
+      - name: YouCanBook.me
+        logo: /images/youcanbook.me.png
+        url: https://youcanbook.me/
+        summary: Award-winning scheduling tool for teams. YouCanBook.me prevents the
+          usual back-and-forth when setting up meetings. Works with your Google
+          or Microsoft calendar to give you flexible, customizable, and powerful
+          automated scheduling.
+        links:
+          - link-type: website
+            profile-url: https://youcanbook.me/
+          - link-type: twitter
+            profile-url: https://twitter.com/youcanbookme
+          - link-type: facebook
+            profile-url: https://www.facebook.com/youcanbookme/
+      - name: Madgex
+        logo: /images/madgex.svg
+        url: https://www.madgex.com/
+        summary: We are an awarding winning Brighton based employer-of-choice, powering
+          the most recognized media brands on the planet with our job board
+          technology.
+        links:
+          - link-type: website
+            profile-url: https://www.madgex.com/
+          - link-type: twitter
+            profile-url: https://twitter.com/madgex
+          - link-type: facebook
+            profile-url: https://www.facebook.com/MadgexLtd/
 workshop: false
 image: https://uxbri.org/2022/images/cards/Early-bird.png
