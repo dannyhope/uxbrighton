@@ -1,22 +1,22 @@
 ---
-layout: conference-2022/event-page
-file-name: 2022-07-12-mentorship-launch-22
-title: Mentorship Launch
-description: UX Brighton Mentorship Launch, Tuesday 12 July 2022, 7-9pm at
-  Spaces, Brighton. Get inspired and gain clarity on what you want to achieve
-  from your mentor/ee relationship.
-venue: Spaces
 start: 7pm to 9pm
+fullurl: https://uxbri.org/mentorship-launch-22/
+price: £10
+layout: conference-2022/event-page
+title: Mentorship Launch
+venue: Spaces
 ticket:
   state: ticketed
   link: https://www.tickettailor.com/events/uxbrighton/719267
   price: £10
-fullurl: https://uxbri.org/mentorship-launch-22/
-price: £10
-conference: false
-upcoming: true
 published: true
 ticket-link: https://www.tickettailor.com/events/uxbrighton/719267
+file-name: 2022-07-12-mentorship-launch-22
+description: UX Brighton Mentorship Launch, Tuesday 12 July 2022, 7-9pm at
+  Spaces, Brighton. Get inspired and gain clarity on what you want to achieve
+  from your mentor/ee relationship.
+conference: false
+upcoming: true
 ---
 Are you an ambitious UXer who wants to improve your credibility, reliability, confidence and skills? The UX Brighton mentorship program has been created to support and inspire you on your journey.
 
@@ -57,14 +57,11 @@ Shrut's talk highlights the emerging demands of the industry from a UX Research 
 
 ### Lewis Nyman, UX, Design & Research Freelancer
 
-<img src="/images/d7x_0366-wowo_sm_2400px.jpg" alt="Lewis Nyman, UX, Design & Research Freelancer" class="image-align-right"/>
+<img src="/images/d7x_0366-wowo_sm_2400px.jpg" alt="Lewis Nyman, UX, Design & Research Freelancer." class="image-align-right"/>
 
 Lewis Nyman is a UK senior public sector contractor in UX, Research, and Service Design. He's worked with the NHS, The Cabinet Office, GDS, hackney Council, and The Crown Prosecution Service.  He's also the founder of electric campervan hire company Wild Drives. He's been a UX mentor at Springboard for 2 years. 
 
-\
 A mentoring relationship is beneficial for both sides, Lewis is going to be presenting research that outlines how to create an effective mentoring relationship.
-
-
 
 This event is supported by [Silicon Brighton](https://siliconbrighton.com/)
 
