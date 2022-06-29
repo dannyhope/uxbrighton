@@ -1,5 +1,7 @@
 title: UX and Product Management - UX Brighton Conference 2022
+description: Join us for our 🎂 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
+event-promo-top-of-page: false
 hero:
   hero-state: pre
   global:
@@ -443,11 +445,6 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
-sponsors: true
-workshop: false
-image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: Join us for our 🎂 10th annual one-day conference!
-event-promo-top-of-page: false
 highlights:
   visibility: true
   title: Highlights from previous years
@@ -470,3 +467,122 @@ highlights:
       imagine. Well organized, fabulous location, packed with valuable content —
       go if you can: it's worth the investment."
     quotee: Jim Kalbach, Past Speaker
+sponsors:
+  visibility: true
+  section-title: Sponsors
+  section-banner: /images/sponsors-35.jpg
+  section-intro:
+    title: Sponsor UX Brighton
+    lede: UX Brighton attracts an engaged crowd of designers, decision makers and
+      influencers. If you’re interested in supporting UX Brighton have a look at
+      the [sponsorship information page](sponsorship) for more details.
+  testimonial:
+    visibility: true
+    quote: Fantastic conference - a fresh mix of new ideas, provocative speakers,
+      and a highly engaged audience. Well worth the trip.
+    quotee: Alex Wright, Director of User Experience at the New York Times
+  sponsors-headline:
+    visibility: true
+    section-title: Headline Sponsor
+    sponsor-details:
+      name: Legal & General
+      logo: /images/l-g-logo-rgb-4c-black.svg
+      url: https://www.legalandgeneral.com/
+      summary: Legal & General is a FTSE 30 multinational financial services company.
+        Its products and services include investment management, lifetime
+        mortgages (a form of equity release), pensions, annuities and life
+        assurance.
+      links:
+        - link-type: website
+          profile-url: https://www.legalandgeneral.com/
+        - link-type: twitter
+          profile-url: https://twitter.com/landg_uk
+        - link-type: facebook
+          profile-url: https://www.facebook.com/legalandgeneral/
+  sponsors-premium:
+    visibility: true
+    section-title: Premium Sponsors
+    sponsor-list:
+      - name: Fresh Egg
+        logo: /images/fresh-egg-logo.svg
+        url: https://www.freshegg.co.uk/
+        summary: Fresh Egg provide digital marketing that’s driven by customer
+          experience. Everything they do starts with understanding audience
+          needs while improving user journeys to improve digital success.
+        links:
+          - link-type: website
+            profile-url: https://www.freshegg.co.uk/
+          - link-type: twitter
+            profile-url: https://twitter.com/freshegg
+          - link-type: facebook
+            profile-url: https://www.facebook.com/FreshEggUK/
+      - name: J.P. Morgan
+        logo: /images/jpm.svg
+        url: https://www.jpmorgan.com/GB/en/about-us
+        summary: J.P. Morgan is a leader in financial services, offering solutions to
+          clients in more than 100 countries with one of the most comprehensive
+          global product platforms available.
+        links:
+          - link-type: website
+            profile-url: https://www.jpmorgan.com/GB/en/about-us
+          - link-type: twitter
+            profile-url: https://twitter.com/jpmorgan
+          - link-type: facebook
+            profile-url: https://www.facebook.com/jpmorgan
+  sponsors-standard:
+    visibility: true
+    section-title: Standard Sponsors
+    sponsor-list:
+      - name: Balsamiq
+        logo: /images/balsamiq-logo-noborder-screen.svg
+        url: https://balsamiq.com/
+        summary: Balsamiq is the maker of the industry-leading rapid wireframing
+          software that combines the simplicity of paper sketching with the
+          power of a digital tool so that teams can focus on what's important.
+        links:
+          - link-type: website
+            profile-url: https://balsamiq.com/
+          - link-type: twitter
+            profile-url: https://twitter.com/balsamiq
+      - name: Brightec
+        logo: /images/rsz_brightec_logo_2019_1-1-.jpg
+        url: https://www.brightec.co.uk/
+        summary: Brightec are a multi award-winning mobile app development agency based
+          in Brighton, UK.  Their mission is simple; to be a company that
+          customers love working with, and their employees love working for.
+        links:
+          - link-type: website
+            profile-url: https://www.brightec.co.uk/
+          - link-type: twitter
+            profile-url: https://twitter.com/brightec
+          - link-type: facebook
+            profile-url: https://www.facebook.com/BrightecApps/
+      - name: YouCanBook.me
+        logo: /images/youcanbook.me.png
+        url: https://youcanbook.me/
+        summary: Award-winning scheduling tool for teams. YouCanBook.me prevents the
+          usual back-and-forth when setting up meetings. Works with your Google
+          or Microsoft calendar to give you flexible, customizable, and powerful
+          automated scheduling.
+        links:
+          - link-type: website
+            profile-url: https://youcanbook.me/
+          - link-type: twitter
+            profile-url: https://twitter.com/youcanbookme
+          - link-type: facebook
+            profile-url: https://www.facebook.com/youcanbookme/
+      - name: Madgex
+        logo: /images/madgex.svg
+        url: https://www.madgex.com/
+        summary: We are an awarding winning Brighton based employer-of-choice, powering
+          the most recognized media brands on the planet with our job board
+          technology.
+        links:
+          - link-type: website
+            profile-url: https://www.madgex.com/
+          - link-type: twitter
+            profile-url: https://twitter.com/madgex
+          - link-type: facebook
+            profile-url: https://www.facebook.com/MadgexLtd/
+workshop: false
+image: https://uxbri.org/2022/images/cards/Early-bird.png

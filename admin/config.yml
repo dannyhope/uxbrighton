@@ -394,7 +394,7 @@ collections:
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
           - label: "Highlights" # Highlights section
             name: "highlights"
-            summary: "Highlights section - (Only shows if 'Speakers' section not visible)."
+            summary: "Highlights section - (only shows if 'Speakers' section not visible)."
             widget: "object"
             collapsed: true
             fields:
@@ -415,7 +415,137 @@ collections:
                 fields:
                   - {label: "Quote", name: "quote", widget: "text"}
                   - {label: "Quotee", name: "quotee", widget: "string"}
-          - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+          - label: "Sponsors" # Sponsors section
+            name: "sponsors"
+            summary: "Sponsors section - (eg. section title, intro, testimonial, headline, premium & standard sponsors)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+              - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string"}
+              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image"}
+              - label: "Section intro."
+                name: "section-intro"
+                summary: "Section intro. (title and lede text)."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", hint: "Intro title.", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    hint: "Larger 'lede' / intro text."
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                    editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+              - label: "Testimonial (quote)"
+                name: "testimonial"
+                summary: "Testimonial / quote content."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Quote", name: "quote", widget: "text"}
+                  - {label: "Quotee", name: "quotee", widget: "string"}
+              - label: "Sponsor (Headline)"
+                name: "sponsors-headline"
+                summary: "Headline sponsor"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string"}
+                  - label: "Sponsor details"
+                    name: "sponsor-details"
+                    summary: "Sponsor details"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Sponsor name", name: "name", widget: "string"}
+                      - {label: "Sponsor logo", name: "logo", widget: "image"}
+                      - {label: "Sponsor URL", name: "url", widget: "string"}
+                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - label: "Sponsor social profiles"
+                        name: "links"
+                        widget: "list"
+                        collapsed: true
+                        fields:
+                          - label: "Social link type"
+                            name: "link-type"
+                            hint: "Choose social link type. Eg. 'twitter'."
+                            widget: "select"
+                            multiple: false
+                            options:
+                              - {label: "Website", value: "website"}
+                              - {label: "Twitter", value: "twitter"}
+                              - {label: "Facebook", value: "facebook"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
+              - label: "Sponsors (Premium)"
+                name: "sponsors-premium"
+                summary: "Premium sponsors"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string"}
+                  - label: "Sponsor list"
+                    name: "sponsor-list"
+                    summary: ""
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Sponsor name", name: "name", widget: "string"}
+                      - {label: "Sponsor logo", name: "logo", widget: "image"}
+                      - {label: "Sponsor URL", name: "url", widget: "string"}
+                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - label: "Sponsor social profiles"
+                        name: "links"
+                        widget: "list"
+                        collapsed: true
+                        fields:
+                          - label: "Social link type"
+                            name: "link-type"
+                            hint: "Choose social link type. Eg. 'twitter'."
+                            widget: "select"
+                            multiple: false
+                            options:
+                              - {label: "Website", value: "website"}
+                              - {label: "Twitter", value: "twitter"}
+                              - {label: "Facebook", value: "facebook"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
+              - label: "Sponsors (Standard)"
+                name: "sponsors-standard"
+                summary: "Standard sponsors"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string"}
+                  - label: "Sponsor list"
+                    name: "sponsor-list"
+                    summary: ""
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Sponsor name", name: "name", widget: "string"}
+                      - {label: "Sponsor logo", name: "logo", widget: "image"}
+                      - {label: "Sponsor URL", name: "url", widget: "string"}
+                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - label: "Sponsor social profiles"
+                        name: "links"
+                        widget: "list"
+                        collapsed: true
+                        fields:
+                          - label: "Social link type"
+                            name: "link-type"
+                            hint: "Choose social link type. Eg. 'twitter'."
+                            widget: "select"
+                            multiple: false
+                            options:
+                              - {label: "Website", value: "website"}
+                              - {label: "Twitter", value: "twitter"}
+                              - {label: "Facebook", value: "facebook"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
           - {label: "Workshop", name: "workshop", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
     # "Events collection"
   - label: "Event pages"
