@@ -487,10 +487,10 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string"}
+                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string"}
                   - label: "Sponsor list"
                     name: "sponsor-list"
-                    summary: "List of sponsors."
+                    summary: ""
                     widget: "list"
                     collapsed: true
                     fields:

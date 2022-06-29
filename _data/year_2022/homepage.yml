@@ -501,7 +501,35 @@ sponsors:
           profile-url: https://www.facebook.com/legalandgeneral/
   sponsors-premium:
     visibility: true
+    section-title: Premium Sponsors
+    sponsor-list:
+      - name: Fresh Egg
+        logo: /images/fresh-egg-logo.svg
+        url: https://www.freshegg.co.uk/
+        summary: Fresh Egg provide digital marketing that’s driven by customer
+          experience. Everything they do starts with understanding audience
+          needs while improving user journeys to improve digital success.
+        links:
+          - link-type: website
+            profile-url: https://www.freshegg.co.uk/
+          - link-type: twitter
+            profile-url: https://twitter.com/freshegg
+          - link-type: facebook
+            profile-url: https://www.facebook.com/FreshEggUK/
+      - name: J.P. Morgan
+        logo: /images/jpm.svg
+        url: https://www.jpmorgan.com/GB/en/about-us
+        summary: J.P. Morgan is a leader in financial services, offering solutions to
+          clients in more than 100 countries with one of the most comprehensive
+          global product platforms available.
+        links:
+          - link-type: website
+            profile-url: https://www.jpmorgan.com/GB/en/about-us
+          - link-type: twitter
+            profile-url: https://twitter.com/jpmorgan
+          - link-type: facebook
+            profile-url: https://www.facebook.com/jpmorgan
   sponsors-standard:
-    visibility: false
+    visibility: true
 workshop: false
 image: https://uxbri.org/2022/images/cards/Early-bird.png
