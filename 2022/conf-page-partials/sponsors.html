@@ -94,7 +94,7 @@
     <!-- Section intro title & text... -->
     <h3 class="fs-h2 mt5">{{ homepage.sponsors.section-intro.title }}</h3>
     <div class="standfirst pb2">
-      {{ homepage.sponsors.section-intro.text | markdownify }}
+      {{ homepage.sponsors.section-intro.lede | markdownify }}
     </div>
 
     <!-- Section testimonial... -->
@@ -112,37 +112,46 @@
     {% endif %}
 
     <!-- "Headline" sponsor.... -->
-    <h3 class="pt2 fs-h2">Headline Sponsor</h3>
+    {% if homepage.sponsors.sponsors-headline.visibility == true %}
+    <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-headline.section-title }}</h3>
     <div class="row mv0 eh-row drop pa2 sponsor-headline ">
 
       <div class="u1of2-over-m sponsor-headline__image-box">
-        <a href="https://www.legalandgeneral.com/" class="" title="legalandgeneral.com">
-          <img alt="Fresh Egg" src="/2021/images/sponsor-logos/L&G Logo RGB 4C Black.svg" style="width: 100%">
+        <a href="{{ homepage.sponsors.sponsors-headline.sponsor-details.url }}">
+          <img alt="{{ homepage.sponsors.sponsors-headline.sponsor-details.name }}" src="{{ homepage.sponsors.sponsors-headline.sponsor-details.logo }}" style="width: 100%">
         </a>
       </div>
 
       <div class="u1of2-over-m">
         <div class="sponsor-headline__text-box">
           <div class=" sponsor-headline__text">
-            <p class="mb0">Legal & General is a FTSE 30 multinational financial services company. Its products and services include investment management, lifetime mortgages (a form of equity release), pensions, annuities and life assurance.</p>
+            <p class="mb0">{{ homepage.sponsors.sponsors-headline.sponsor-details.summary }}</p>
           </div>
           <div class="sponsor__links icons-currentColor mt1">
-            <a href="https://www.legalandgeneral.com/" class="sponsor__link color-grey-30" title="legalandgeneral.com">
-              <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
-            </a>
-            <a href="https://twitter.com/landg_uk" class="sponsor__link color-grey-30" title="Twitter">
-              <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
-            </a>
-            <a href="https://www.facebook.com/legalandgeneral/" class="sponsor__link color-grey-30" title="Facebook">
-              <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
-            </a>
+            {% for entry in homepage.sponsors.sponsors-headline.sponsor-details.links %}
+              {% if entry.link-type == "website" %}
+                <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
+                  <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                </a>
+              {% elsif entry.link-type == "twitter" %}
+                <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Twitter">
+                  <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                </a>
+              {% elsif entry.link-type == "facebook" %}
+                <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Facebook">
+                  <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                </a>
+              {% endif %}
+            {% endfor %}
           </div>
         </div>
       </div>
 
     </div>
+    {% endif %}
 
     <!-- "Premium" sponsors.... -->
+    {% if homepage.sponsors.sponsors-premium.visibility == true %}
     <h3 class=" pt2 fs-h2">Premium Sponsors</h3>
     <div class="row mv0 pb5 eh-row">
 
@@ -206,8 +215,10 @@
         </a>
       </div> -->
     </div>
+    {% endif %}
 
     <!-- "Standard" sponsors.... -->
+    {% if homepage.sponsors.sponsors-standard.visibility == true %}
     <h3 class=" pt2 fs-h2">Standard Sponsors</h3>
     <div class="row mt0 pb5 eh-row" style="font-size:15px;">
 
@@ -347,9 +358,9 @@
       </div>
 
     </div>
+    {% endif %}
 
   </div>
-
 
 </section>
 {% endif %}

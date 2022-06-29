@@ -426,12 +426,14 @@ collections:
               - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image"}
               - label: "Section intro."
                 name: "section-intro"
+                summary: "Section intro. (title and lede text)."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string"}
-                  - label: "Text"
-                    name: "text"
+                  - {label: "Title", name: "title", hint: "Intro title.", widget: "string"}
+                  - label: "Lede text"
+                    name: "lede"
+                    hint: "Larger 'lede' / intro text."
                     widget: "markdown"
                     buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
                     editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
@@ -445,6 +447,53 @@ collections:
                   - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
                   - {label: "Quote", name: "quote", widget: "text"}
                   - {label: "Quotee", name: "quotee", widget: "string"}
+              - label: "Sponsor (Headline)"
+                name: "sponsors-headline"
+                summary: "Headline sponsor"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string"}
+                  - label: "Sponsor details"
+                    name: "sponsor-details"
+                    summary: "Sponsor details"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Sponsor name", name: "name", widget: "string"}
+                      - {label: "Sponsor logo", name: "logo", widget: "image"}
+                      - {label: "Sponsor URL", name: "url", widget: "string"}
+                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - label: "Sponsor social profiles"
+                        name: "links"
+                        widget: "list"
+                        collapsed: true
+                        fields:
+                          - label: "Social link type"
+                            name: "link-type"
+                            hint: "Choose social link type. Eg. 'twitter'."
+                            widget: "select"
+                            multiple: false
+                            options:
+                              - {label: "Website", value: "website"}
+                              - {label: "Twitter", value: "twitter"}
+                              - {label: "Facebook", value: "facebook"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
+              - label: "Sponsors (Premium)"
+                name: "sponsors-premium"
+                summary: "Premium sponsors"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+              - label: "Sponsors (Standard)"
+                name: "sponsors-standard"
+                summary: "Standard sponsors"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
           - {label: "Workshop", name: "workshop", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
     # "Events collection"
   - label: "Event pages"
