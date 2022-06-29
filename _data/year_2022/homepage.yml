@@ -500,7 +500,7 @@ sponsors:
         - link-type: facebook
           profile-url: https://www.facebook.com/legalandgeneral/
   sponsors-premium:
-    visibility: false
+    visibility: true
   sponsors-standard:
     visibility: false
 workshop: false

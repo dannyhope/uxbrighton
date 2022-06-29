@@ -487,6 +487,32 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string"}
+                  - label: "Sponsor list"
+                    name: "sponsor-list"
+                    summary: "List of sponsors."
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Sponsor name", name: "name", widget: "string"}
+                      - {label: "Sponsor logo", name: "logo", widget: "image"}
+                      - {label: "Sponsor URL", name: "url", widget: "string"}
+                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - label: "Sponsor social profiles"
+                        name: "links"
+                        widget: "list"
+                        collapsed: true
+                        fields:
+                          - label: "Social link type"
+                            name: "link-type"
+                            hint: "Choose social link type. Eg. 'twitter'."
+                            widget: "select"
+                            multiple: false
+                            options:
+                              - {label: "Website", value: "website"}
+                              - {label: "Twitter", value: "twitter"}
+                              - {label: "Facebook", value: "facebook"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
               - label: "Sponsors (Standard)"
                 name: "sponsors-standard"
                 summary: "Standard sponsors"
