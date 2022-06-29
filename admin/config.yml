@@ -394,7 +394,7 @@ collections:
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
           - label: "Highlights" # Highlights section
             name: "highlights"
-            summary: "Highlights section - (Only shows if 'Speakers' section not visible)."
+            summary: "Highlights section - (only shows if 'Speakers' section not visible)."
             widget: "object"
             collapsed: true
             fields:
@@ -415,7 +415,36 @@ collections:
                 fields:
                   - {label: "Quote", name: "quote", widget: "text"}
                   - {label: "Quotee", name: "quotee", widget: "string"}
-          - {label: "Sponsors", name: "sponsors", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+          - label: "Sponsors" # Sponsors section
+            name: "sponsors"
+            summary: "Sponsors section - (eg. section title, intro, testimonial, headline, premium & standard sponsors)."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+              - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string"}
+              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image"}
+              - label: "Section intro."
+                name: "section-intro"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Text"
+                    name: "text"
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                    editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+              - label: "Testimonial (quote)"
+                name: "testimonial"
+                summary: "Testimonial / quote content."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Quote", name: "quote", widget: "text"}
+                  - {label: "Quotee", name: "quotee", widget: "string"}
           - {label: "Workshop", name: "workshop", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
     # "Events collection"
   - label: "Event pages"
