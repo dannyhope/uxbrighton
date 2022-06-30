@@ -487,6 +487,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
                   - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string"}
                   - label: "Sponsor list"
                     name: "sponsor-list"
@@ -520,6 +521,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
                   - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string"}
                   - label: "Sponsor list"
                     name: "sponsor-list"
