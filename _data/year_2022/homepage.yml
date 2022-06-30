@@ -586,5 +586,26 @@ sponsors:
           - link-type: facebook
             profile-url: https://www.facebook.com/MadgexLtd/
     show-opportunity: true
-workshop: false
+workshop:
+  visibility: false
+  details:
+    workshop-date: 2019-10-31T00:00:00.000Z
+    workshop-time: 2022-06-30T09:30:00.000Z
+    title: Make Your First Voice Interface
+    url: /Voice-UI-workshop
+    lede: We’re all competent in person-to-person conversation, designing a good
+      conversation is a new challenge for most organisations.
+    button: Tickets and info
+    summary:
+      title: Are you ready for Voice UI?
+      body: >-
+        Voice UI is growing fast and provides an opportunity to create better
+        products in new contexts. Learn to use VUIs to make interaction simple,
+        pleasurable, accessible and reduce cognitive load.
+
+
+        In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.
+      cta: Learn more about the Voice UI Workshop
+    back-image: /images/voice-ui-workshop.jpeg
+  section-title: Workshop
 image: https://uxbri.org/2022/images/cards/Early-bird.png

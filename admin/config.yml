@@ -548,7 +548,42 @@ collections:
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string"}
-          - {label: "Workshop", name: "workshop", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+          - label: "Workshop" # Workshop information
+            name: "workshop"
+            summary: "Workshop information."
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Show workshop?", name: "visibility", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+              - {label: "Section title", name: "section-title", hint: "Workshop section title.", widget: "string"}
+              - label: "Workshop details"
+                name: "details"
+                summary: "Workshop details"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Workshop title", name: "title", hint: "Workshop title.", widget: "string"}
+                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image.", widget: "image"}
+                  - {label: "Workshop URL", name: "url", hint: "Workshop URL.", widget: "string"}
+                  - {label: "Workshop date", name: "workshop-date", widget: "datetime", default: "", date_format: true, time_format: false, picker_utc: true}
+                  - {label: "Workshop time", name: "workshop-time", widget: "datetime", default: "", date_format: false, time_format: true, picker_utc: false}
+                  - {label: "Workshop lede", name: "lede", hint: "Workshop lede. This text appears under title.", widget: "text"}
+                  - {label: "Workshop button (label)", name: "button", hint: "Workshop button (label).", widget: "string"}
+                  - label: "Workshop summary"
+                    name: "summary"
+                    summary: "Workshop summary / description."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Summary title", name: "title", hint: "Workshop summary title.", widget: "string"}
+                      - label: "Summary body text"
+                        name: "body"
+                        hint: "Workshop summary body text."
+                        widget: "markdown"
+                        buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
+                        editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
+                        modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                      - {label: "Summary CTA (label)", name: "cta", hint: "Worshop summary call-to-action (label).", widget: "string"}
     # "Events collection"
   - label: "Event pages"
     name: "event-pages"
