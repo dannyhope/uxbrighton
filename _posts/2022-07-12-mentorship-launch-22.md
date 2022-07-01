@@ -18,7 +18,7 @@ upcoming: true
 published: true
 ticket-link: https://www.tickettailor.com/events/uxbrighton/719267
 ---
-Are you an ambitious UXer who wants to improve your credibility, reliability, confidence and skills? The UX Brighton mentorship program has been created to support and inspire you on your journey.
+Are you an ambitious UXer who wants to improve your confidence, skills and career?  The UX Brighton mentorship program has been created to support and inspire you on your journey.
 
 Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the community.
 
@@ -66,8 +66,6 @@ A mentoring relationship is beneficial for both sides, Lewis is going to be pres
 ### Peter Winchester, Head of design at Madgex
 
 Talk details TBA
-
-
 
 This event is supported by [Silicon Brighton](https://siliconbrighton.com/)
 
