@@ -34,7 +34,7 @@ Attend the launch to meet other UXers broadening their horizons. This is where y
 
 ## Speakers
 
-### Jessica Squires, Lead User Experience Architect
+### **Starting your journey, common ground and self-care -** Jessica Squires, Lead User Experience Architect
 
 <img src="/images/jessica_squires_cropped.png" alt="Jessica Squires, Lead User Experience Architect." class="image-align-right"/>
 
@@ -42,7 +42,7 @@ Jessica is a Lead UX Architect for a large media organisation. Day to day she ov
 
 She truly enjoys mentoring, not only does she get to meet lots of wonderful people, she helps them to expand on their current knowledge, or maybe set them on a path to switch careers but she’s improved her UX practice and skillset along the way. She will talk about how you can get into mentoring, empowerment, setting boundaries and more... 
 
-### Shrut Kirti Saksena, Senior Experience Researcher at Adobe
+### Holy Shift! Learnings in UX Research over the years - Shrut Kirti Saksena, Senior Experience Researcher at Adobe
 
 <img src="/images/shrut-kirti-saksena-cropped.jpg" alt="Shrut Kirti Saksena, Senior Experience Researcher at Adobe." class="image-align-right"/>
 
@@ -55,7 +55,7 @@ In a recent survey looking at 100 Experience Researcher job postings in the US i
 
 Shrut's talk highlights the emerging demands of the industry from a UX Research role, elucidates why a change in perspective of mentorship & learning is required to meet these demands & how one could benefit from this perspective shift to grow into an experienced researcher: amplifying the impact of UX research and leveraging research soft-skills of collaboration, communication, connection, and influence to empower product teams & stakeholders.
 
-### Lewis Nyman, UX, Design & Research Freelancer
+### Building effective mentoring relationships - Lewis Nyman, UX, Design & Research Freelancer
 
 <img src="/images/d7x_0366-wowo_sm_2400px.jpg" alt="Lewis Nyman, UX, Design & Research Freelancer." class="image-align-right"/>
 
@@ -63,9 +63,13 @@ Lewis Nyman is a UK senior public sector contractor in UX, Research, and Service
 
 A mentoring relationship is beneficial for both sides, Lewis is going to be presenting research that outlines how to create an effective mentoring relationship.
 
-### Peter Winchester, Head of design at Madgex
+### How to progress your career with (or without) a mentor - Peter Winchester, Head of Design at Madgex
 
-Talk details TBA
+<img src="/images/pw.jpeg" alt="Peter Winchester" class="image-align-right"/>
+
+Peter is a designer and design leader with over 12 years of experience. He’s worked for a SaaS startup, a large marketing agency, and for corporates in travel and finance. During that time he’s designed products for MoreThan, Nationwide, Argos, Durex, Philips and Adidas. He’s now head of Design at Madgex, a career technology company in Brighton.
+
+Working with a mentor is a great way to help move your career forward. But not everyone will find the right person, at the right time. Peter’s going to talk about some potential alternative ways you can continue to progress your career.
 
 This event is supported by [Silicon Brighton](https://siliconbrighton.com/)
 
