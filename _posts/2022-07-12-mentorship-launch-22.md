@@ -63,7 +63,7 @@ Lewis Nyman is a UK senior public sector contractor in UX, Research, and Service
 
 A mentoring relationship is beneficial for both sides, Lewis is going to be presenting research that outlines how to create an effective mentoring relationship.
 
-### How to progress your career with (or without) a mentor – Peter Winchester, Head of Design at Madgex
+### Growing your career with (or without) a mentor – Peter Winchester, Head of Design at Madgex
 
 <img src="/images/pw.jpeg" alt="Peter Winchester" class="image-align-right"/>
 
