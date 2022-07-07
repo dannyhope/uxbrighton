@@ -1,5 +1,8 @@
 title: UX and Product Management - UX Brighton Conference 2022
+description: Join us for our 🎂 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
+social-image: ""
+event-promo-top-of-page: false
 hero:
   hero-state: pre
   global:
@@ -443,6 +446,28 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
+highlights:
+  visibility: true
+  title: Highlights from previous years
+  video:
+    - url: https://youtu.be/rz7sy81Yg5E
+      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
+      alt: ResearchOps - Kate Towsey
+    - url: https://youtu.be/8A3SEmvx7uY
+      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
+      alt: UX and Forecasting - James Woudhuysen
+    - url: https://youtu.be/DjRR1MpBr1g
+      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+      alt: Top Tasks - Gerry McGovern
+    - alt: Atomic UX - Daniel Pidcock
+      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      url: https://youtu.be/h9s3DrImGXA
+  testimonial:
+    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+      you'll get access to some of the most cutting-edge presentations you can
+      imagine. Well organized, fabulous location, packed with valuable content —
+      go if you can: it's worth the investment."
+    quotee: Jim Kalbach, Past Speaker
 sponsors:
   visibility: true
   section-title: Sponsors
@@ -585,28 +610,3 @@ workshop:
     back-image: /images/voice-ui-workshop.jpeg
   section-title: Workshop
 image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: Join us for our 🎂 10th annual one-day conference!
-social-image: /images/show-and-tell-7-twitter.jpg
-event-promo-top-of-page: false
-highlights:
-  visibility: true
-  title: Highlights from previous years
-  video:
-    - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
-      alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
-      alt: Top Tasks - Gerry McGovern
-    - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
-      url: https://youtu.be/h9s3DrImGXA
-  testimonial:
-    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
-      you'll get access to some of the most cutting-edge presentations you can
-      imagine. Well organized, fabulous location, packed with valuable content —
-      go if you can: it's worth the investment."
-    quotee: Jim Kalbach, Past Speaker
