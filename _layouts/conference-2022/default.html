@@ -6,6 +6,7 @@
   {% assign metaTitle = site.data.year_2022.homepage.title %}
   {% assign metaDescription = site.data.year_2022.homepage.description %}
   {% assign metaFullUrl = site.data.year_2022.homepage.fullurl %}
+  {% assign metaSocialImage = site.data.year_2022.homepage.social-image %}
 {% endif -%}
 
 <!DOCTYPE html>
@@ -26,11 +27,11 @@
     <meta property="og:url" content="{{ metaFullUrl }}">
     <meta property="og:title" content="{{ metaTitle }}" >
     <meta property="og:description" content="{{ metaDescription }}" >
-    <meta property="og:image" content="{{ page.image }}" >
+    <meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}" >
 
   <!-- twitter card tags additive with the og tags -->
     <meta name="twitter:card" content="summary_large_image" >
-    <meta name="twitter:image" content="{{ page.image }}" >
+    <meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}" >
     <meta name="twitter:domain" value="{{ metaFullUrl }}" >
     <meta name="twitter:title" value="{{ metaTitle }}" >
     <meta name="twitter:description" value="{{ metaDescription }}" >

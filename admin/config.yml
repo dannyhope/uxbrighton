@@ -33,6 +33,7 @@ collections:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org/2022/"}
+          - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
           - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
           - label: "Hero" # Hero section
             name: "hero"
@@ -599,6 +600,7 @@ collections:
       - {label: "File Name", name: "file-name", hint: "This is the full file name - (*including the date prefix*). Eg. **2022-06-12-this-part-is-the-url**", widget: "string"}
       - {label: "Title", name: "title", hint: "The primary title of the event.", widget: "string"}
       - {label: "Description", name: "description", hint: "This populates the *meta* description.", widget: "string"}
+      - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
       - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces"], default: ["TBA"]}
       - {label: "Start", name: "start", hint: "Event time.", widget: "string"}
       - label: "Ticket"
