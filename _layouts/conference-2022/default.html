@@ -15,7 +15,7 @@
   <title>{{ metaTitle }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ metaDescription }}" >
+  <meta name="description" content="{{ metaDescription }}">
 
   {% include tracking-head.html %}
 
@@ -25,17 +25,17 @@
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ metaFullUrl }}">
-    <meta property="og:title" content="{{ metaTitle }}" >
-    <meta property="og:description" content="{{ metaDescription }}" >
-    <meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}" >
+    <meta property="og:title" content="{{ metaTitle }}">
+    <meta property="og:description" content="{{ metaDescription }}">
+    <meta property="og:image" content="{% if metaSocialImage %}https://uxbri.org{{ metaSocialImage }}{% endif %}">
 
   <!-- twitter card tags additive with the og tags -->
-    <meta name="twitter:card" content="summary_large_image" >
-    <meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}" >
-    <meta name="twitter:domain" value="{{ metaFullUrl }}" >
-    <meta name="twitter:title" value="{{ metaTitle }}" >
-    <meta name="twitter:description" value="{{ metaDescription }}" >
-    <meta name="twitter:url" value="{{ metaFullUrl }}" >
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{% if metaSocialImage %}https://uxbri.org{{ metaSocialImage }}{% endif %}">
+    <meta name="twitter:domain" value="{{ metaFullUrl }}">
+    <meta name="twitter:title" value="{{ metaTitle }}">
+    <meta name="twitter:description" value="{{ metaDescription }}">
+    <meta name="twitter:url" value="{{ metaFullUrl }}">
 
   <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
