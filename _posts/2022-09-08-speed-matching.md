@@ -1,6 +1,6 @@
 ---
 layout: conference-2022/event-page
-file-name: 2022-09-08-speed-matching
+file-name: 2022-08-09-speed-matching
 title: UX Mentor/ee Speed Matching
 description: "Mentorship program for ambitious UXers wanting to develop their career. "
 venue: Spaces
