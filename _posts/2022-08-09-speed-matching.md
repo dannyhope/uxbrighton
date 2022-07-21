@@ -16,7 +16,9 @@ fullurl: https://uxbri.org/speed-matching
 ---
 Join us for an evening of mentor/ee speed matching. Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the community.   You can choose to be a mentor or mentee or you can sign up to be both!
 
-### **How does the Speed Matching work?**
+---
+
+### **How does Mentorship Speed Matching work?**
 
 * Get your ticket 
 * Attend the Speed Matching evening with a goal in mind that you would like to achieve from working with a mentor/ee by April 2023. 
@@ -25,8 +27,12 @@ Join us for an evening of mentor/ee speed matching. Whether you’re a UXer of m
 * After the event our matching team will study your score cards and endevour to pair everyone up.* 
 * We'll be in touch with what we hope will be your perfect mentor/ee match. 
 
-### **What happens after we've been paired up?** 
+---
 
-*
+### **What happens after I've been paired up?**
 
-\*Please note that we will do our best to ensure everyone gets a match but we can't make any promises.
+* Comit to meeting with your mentor/ee for at least one hour per month (virtually or face to face) until April 2023. You could use this time to work towards your goal. 
+* Get support and advice at mentor and mentee drop-in's. 
+* Join the community in April at the end of program celebration. 🎉
+
+\*We will do our best to ensure everyone gets a match but we can't make any promises.
