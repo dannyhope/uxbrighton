@@ -32,7 +32,7 @@ Join us for an evening of mentor/ee speed matching. Whether you’re a UXer of m
 ### **What happens after I've been paired up?**
 
 * Commit to meeting with your mentor/ee for at least one hour per month (virtually or face to face) until April 2023. You could use this time to work towards your goal!
-* Get support and advice at mentor and mentee drop-in's. 
+* Get support and advice at mentor and mentee drop-ins. 
 * Join the community in April at the end of program celebration. 🎉
 
 \*We will do our best to ensure everyone gets a match but we can't make any promises.
