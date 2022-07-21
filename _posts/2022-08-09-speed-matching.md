@@ -3,6 +3,7 @@ layout: conference-2022/event-page
 file-name: 2022-08-09-speed-matching
 title: UX Mentor/ee Speed Matching
 description: "Mentorship program for ambitious UXers wanting to develop their career. "
+social-image: /images/ux-brighton-870-x-450-px.png
 venue: Spaces
 start: 7 pm
 ticket:
