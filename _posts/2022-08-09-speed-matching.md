@@ -36,4 +36,6 @@ Join us for an evening of mentor/ee speed matching. Whether you’re a UXer of m
 * Get support and advice at mentor and mentee drop-ins. 
 * Join the community in April at the end of program celebration. 🎉
 
+﻿Tickets are £10 and include pizza & beer. 🍕🍺
+
 \*We will do our best to ensure everyone gets a match but we can't make any promises.
