@@ -39,3 +39,5 @@ Join us for an evening of mentor/ee speed matching. Whether you’re a UXer of m
 ﻿Tickets are £10 and include pizza & beer. 🍕🍺
 
 \*We will do our best to ensure everyone gets a match but we can't make any promises.
+
+This event is supported by [Silicon Brighton](https://siliconbrighton.com/)
