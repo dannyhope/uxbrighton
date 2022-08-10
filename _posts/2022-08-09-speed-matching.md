@@ -11,7 +11,7 @@ ticket:
   price: £10
   link: https://www.tickettailor.com/events/uxbrighton/731085#
 conference: false
-upcoming: true
+upcoming: false
 published: true
 fullurl: https://uxbri.org/speed-matching
 ---
