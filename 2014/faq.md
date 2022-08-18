@@ -4,7 +4,7 @@ layout: minimal
 
 # Frequently Asked Questions
 
-**If you have a question that&#8217;s not answered below, please [email Emmeline](mailto:emmeline@uxbrighton.org.uk), the Event Manager, or tweet [@uxbri](http://twitter.com/uxbri "").**
+**If you have a question that&#8217;s not answered below, please email [Annie-Marie](mailto:anniemarie@uxbri.org), the Event Manager, or tweet [@uxbri](http://twitter.com/uxbri "").**
 
 ## What are my transport/parking options getting to the event?
 
