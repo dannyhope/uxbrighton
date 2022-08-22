@@ -208,9 +208,29 @@
 
 
   <script>
+
+    // LinkedIn Insight Tracker...
+    let linkedInTracker = (function () {
+
+      function Constructor (elem, id) {
+        const buttons = Array.from(document.querySelectorAll(elem))
+
+        buttons.forEach(button => {
+          button.addEventListener('click', event => {
+            window.lintrk('track', { conversion_id: id })
+          })
+        })
+      }
+
+      return Constructor;
+
+    })();
+
+    // This instance is looking for a ticket button for the `conference-2022`
+    let buttonBuyTicket = new linkedInTracker('[data-buy-ticket="conference-2022"]', 9245130 )
+
+
     $(function() {
-
-
       var options = { valueNames: [ 'post-excerpt'] };
       var userList = new List('js-archive-nav', options);
       function displayNewsletter(){
