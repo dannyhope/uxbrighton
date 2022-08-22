@@ -33,7 +33,7 @@
 
 <div>
   {% if homepage.hero.hero-state == "pre" %}
-    <a href="{{ homepage.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank">{{ homepage.hero.pre.button.label }}</a>
+    <a href="{{ homepage.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank" data-buy-ticket="conference-2022">{{ homepage.hero.pre.button.label }}</a>
     {% if homepage.hero.pre.button.extra-text %}
       <p class="mb0 mt1 weight-400 fs-l">{{ homepage.hero.pre.button.extra-text }}</p>
     {% endif %}
