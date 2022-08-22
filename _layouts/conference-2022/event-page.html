@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
 
+  <!-- Google Analytics -->
   {% include tracking-head.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-head.html %}
 
     <!-- facebook open graph tags -->
       <meta property="og:type" content="website">
@@ -229,6 +233,9 @@
   {% include footer.html %}
 
   {% include nav.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-body.html %}
 
 </body>
 </html>

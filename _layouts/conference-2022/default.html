@@ -17,7 +17,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ metaDescription }}">
 
+  <!-- Google Analytics -->
   {% include tracking-head.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-head.html %}
 
   <!-- Hmmmm.... what is this? -->
   <meta name="first" content="UX Brighton, Friday 4 November. UX and Product Management">
@@ -99,6 +103,9 @@
   {% include footer.html %}
 
   {% include nav.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-body.html %}
 
 </body>
 </html>
