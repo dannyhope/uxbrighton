@@ -586,7 +586,22 @@ sponsors:
             profile-url: https://twitter.com/madgex
           - link-type: facebook
             profile-url: https://www.facebook.com/MadgexLtd/
-    show-opportunity: true
+      - name: Lagom Finance
+        logo: /images/lagom-finance-logo-01-1-.svg
+        url: https://www.lagomfinance.com/
+        summary: Lagom Finance provides jargon-free accountancy services for creatives,
+          freelancers and agencies. We act as an outsourced finance team for our
+          clients, no matter how small they are so they can focus on running
+          their business whilst we take care of the bookkeeping, taxes and
+          everything in-between.
+        links:
+          - link-type: website
+            profile-url: https://www.lagomfinance.com/
+          - link-type: twitter
+            profile-url: https://twitter.com/lagomfinance1
+          - link-type: facebook
+            profile-url: https://www.facebook.com/Lagom-Finance-107444047667801
+    show-opportunity: false
 workshop:
   visibility: false
   details:
