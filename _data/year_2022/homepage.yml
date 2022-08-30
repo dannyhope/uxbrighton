@@ -587,7 +587,7 @@ sponsors:
           - link-type: facebook
             profile-url: https://www.facebook.com/MadgexLtd/
       - name: Lagom Finance
-        logo: file:///Users/annie-marie/Downloads/lagom-finance-logo-01%20(1).svg
+        logo: /images/lagom-logo.png
         url: https://www.lagomfinance.com/
         summary: Lagom Finance provides jargon-free accountancy services for creatives,
           freelancers and agencies. We act as an outsourced finance team for our
