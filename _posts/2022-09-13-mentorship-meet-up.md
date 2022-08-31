@@ -15,4 +15,6 @@ fullurl: https://uxbri.org/mentorship-meet-up
 ---
 Whether you're a mentor, mentee or just want to chat with the UX community about mentorship, join us at the Lord Nelson Inn on Tuesday 13th September at 7 pm. 
 
-Use this time to network, have a drink, meet new people, learm more about mentorship and find out more about our closing party at the end of the program!
+Use this time to network, have a drink, meet new people, learm more about mentorship and find out more about our closing party at the end of the program! 
+
+Find us on the top deck at the Lord Nelson Inn! 🏴‍☠️
