@@ -30,6 +30,7 @@
     {% elsif page.venue == "Hatch" %}Hatch, 1 Preston Rd, Brighton BN1 4QU
     {% elsif page.venue == "The Skiff" %}The Skiff, 30 Cheapside, Brighton BN1 4GD
     {% elsif page.venue == "Spaces" %}Spaces, Mocatta House, Trafalgar Pl, Brighton BN1 4DU
+    {% elsif page.venue == "Lord Nelson Inn" %}Lord Nelson Inn, 36 Trafalgar St, Brighton BN1 4ED
     {% else %}Venue: <abbr title="to be announced">TBA</abbr>
     {% endif %}
   </span>
@@ -76,6 +77,9 @@
 
 {% elsif page.venue == "Spaces" %}
 	<a class="venue" href="https://www.google.co.uk/maps/place/Spaces+-+Brighton,+Trafalgar+Place/@50.82944,-0.1420947,17z/data=!3m2!4b1!5s0x48758575de74b61d:0x70b67ab741f98ce7!4m5!3m4!1s0x48758575d0300001:0x59505aaf1ef1ab25!8m2!3d50.82944!4d-0.139906" title="Spaces, Mocatta House in Google Maps" style="background: url(/images/maps/spaces.png) center center; background-size: cover;"><span class="screen-reader-text">Map</span></a>
+
+{% elsif page.venue == "Lord Nelson Inn" %}
+	<a class="venue" href="https://www.google.co.uk/maps/place/Lord+Nelson+Inn/@50.828265,-0.139081,15z/data=!4m5!3m4!1s0x0:0xdfe7eb2146843773!8m2!3d50.8283239!4d-0.1390587" title="Lord Nelson Inn in Google Maps" style="background: url(/images/maps/lord-nelson-inn.png) center center; background-size: cover;"><span class="screen-reader-text">Map</span></a>
 
 {% else %}
 <span class="soon bold">The venue for this event will be announced soon.</span>
