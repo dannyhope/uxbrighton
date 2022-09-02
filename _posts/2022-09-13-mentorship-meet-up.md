@@ -3,7 +3,7 @@ layout: conference-2022/event-page
 file-name: 2022-09-13-mentorship-meet-up
 title: Mentorship Meetup
 description: Join us for an informal chat about mentorship at the Lord Nelson Inn, Brighton
-venue: TBA
+venue: Lord Nelson Inn
 start: "7 pm "
 ticket:
   state: unticketed
