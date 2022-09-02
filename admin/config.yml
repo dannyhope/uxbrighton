@@ -478,6 +478,7 @@ collections:
                             multiple: false
                             options:
                               - {label: "Website", value: "website"}
+                              - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string"}
@@ -512,6 +513,7 @@ collections:
                             multiple: false
                             options:
                               - {label: "Website", value: "website"}
+                              - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string"}
@@ -546,6 +548,7 @@ collections:
                             multiple: false
                             options:
                               - {label: "Website", value: "website"}
+                              - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string"}

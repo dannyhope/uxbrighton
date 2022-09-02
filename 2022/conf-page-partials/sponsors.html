@@ -133,6 +133,10 @@
                   <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
                     <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
                   </a>
+                {% elsif entry.link-type == "linkedin" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="LinkedIn">
+                      <svg class="icon-linkedin--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-linkedin2"></use></svg>
+                    </a>
                 {% elsif entry.link-type == "twitter" %}
                   <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Twitter">
                     <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
@@ -173,6 +177,10 @@
                   {% if entry.link-type == "website" %}
                     <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
                       <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "linkedin" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="LinkedIn">
+                      <svg class="icon-linkedin--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-linkedin2"></use></svg>
                     </a>
                   {% elsif entry.link-type == "twitter" %}
                     <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Twitter">
@@ -224,6 +232,10 @@
                   {% if entry.link-type == "website" %}
                     <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Website">
                       <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "linkedin" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="LinkedIn">
+                      <svg class="icon-linkedin--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-linkedin2"></use></svg>
                     </a>
                   {% elsif entry.link-type == "twitter" %}
                     <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Twitter">
