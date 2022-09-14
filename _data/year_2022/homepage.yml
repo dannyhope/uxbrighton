@@ -1,7 +1,7 @@
 title: UX and Product Management - UX Brighton Conference 2022
 fullurl: https://uxbri.org/2022/
 hero:
-  hero-state: pre
+  hero-state: post
   global:
     conference: UX Brighton 2022
     date: Friday 4 November
@@ -16,7 +16,11 @@ hero:
       extra-text: Group Discount - buy 4 get 1 free
   during:
     title: UX and Product Management
-    message: Tickets available on the door
+    message: 2022 conference tickets available on the door
+    button:
+      label: Book now for 2023
+      extra-text: Super early bird discounts available now!
+      url: https://www.tickettailor.com/events/uxbrighton/362453
   post:
     title: It’s a wrap
     message: "Thanks For Coming To UX Brighton 2022: UX and Product Management"

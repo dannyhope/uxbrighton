@@ -84,6 +84,15 @@ collections:
                 fields:
                   - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
                   - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door"}
+                  - label: "Button"
+                    name: "button"
+                    summary: "Ticket button."
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
+                      - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
+                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
               - label: "Post-conference content"
                 name: "post"
                 summary: "Hero section post-conference content."
