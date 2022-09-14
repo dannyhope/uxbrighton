@@ -9,7 +9,7 @@ ticket:
   state: unticketed
   price: free
 conference: false
-upcoming: true
+upcoming: false
 published: true
 fullurl: https://uxbri.org/mentorship-meet-up
 ---
