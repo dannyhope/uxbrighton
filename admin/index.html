@@ -73,6 +73,95 @@
       ]
     })
 
+    // Adding a Slideshare link component to the Markdown editor
+    // --------------------------------------------------------------------------------------
+    CMS.registerEditorComponent({
+      // Visible label
+      label: 'Slideshare link',
+      // Internal id of the component
+      id: 'slideshare-link',
+      collapsed: true,
+
+      fields: [
+        {
+          label: 'Slideshare URL',
+          name: 'url',
+          hint: 'This is the full URL for the Slideshare deck.',
+          widget: 'string'
+        },
+        {
+          label: 'Slideshare label',
+          name: 'label',
+          hint: 'This is the Slideshare label (text) which will show on the page.',
+          widget: 'string'
+        }
+      ],
+
+      // Regex pattern used to search for instances of this block in the markdown document.
+      pattern:  /^<a href="(.*?)"><strong>Slides:<\/strong>(.*?)<\/a>$/ms,
+
+      // This is used to populate the custom widget in the markdown editor in the CMS.
+      fromBlock: match =>
+        match && {
+          url: match[1],
+          label: match[2]
+        },
+
+      // Given an object with one property for each field defined in `fields`, return the string you wish to be inserted into your markdown.
+      //
+      // This is used to serialize the data from the custom widget to the markdown document
+      toBlock: function({url, label}, getAsset, fields) {
+        return `<a href="${url || ''}"><strong>Slides:</strong> ${label || ''}</a>`
+      },
+
+      // Preview output for this component. Can either be a string or a React component
+      // (component gives better render performance)
+      toPreview: ({url, label}, getAsset, fields) => {
+        return `<a href="${url}"><strong>Slides:</strong> ${label}</a>`
+      },
+    })
+
+    // Adding a Slideshare embedded 'iframe' component to the Markdown editor
+    // --------------------------------------------------------------------------------------
+    CMS.registerEditorComponent({
+      // Visible label
+      label: 'Slideshare (embedded)',
+      // Internal id of the component
+      id: 'slideshare-embedded',
+      collapsed: true,
+
+      fields: [
+        {
+          label: 'Slideshare URL (embed)',
+          name: 'url',
+          hint: 'This is the full (embed) URL for the Slideshare deck.',
+          widget: 'string'
+        }
+      ],
+
+      // Regex pattern used to search for instances of this block in the markdown document.
+      pattern: /^<div class="embed-container hd"><iframe src="(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
+
+      // This is used to populate the custom widget in the markdown editor in the CMS.
+      fromBlock: match =>
+        match && {
+          url: match[1]
+        },
+
+      // Given an object with one property for each field defined in `fields`, return the string you wish to be inserted into your markdown.
+      //
+      // This is used to serialize the data from the custom widget to the markdown document
+      toBlock: function({url}, getAsset, fields) {
+        return `<div class="embed-container hd"><iframe src="${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+      },
+
+      // Preview output for this component. Can either be a string or a React component
+      // (component gives better render performance)
+      toPreview: ({url}, getAsset, fields) => {
+        return `<div class="embed-container hd"><iframe src="${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+      },
+    })
+
     // Adding a horizontal-rule, aka `<hr>`, component to the Markdown editor
     // --------------------------------------------------------------------------------------
     CMS.registerEditorComponent({
