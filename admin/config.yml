@@ -55,61 +55,61 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Conference", name: "conference", widget: "string", default: "UX Brighton 2022"}
-                  - {label: "Date", name: "date", widget: "string", default: "Friday 4 November"}
-                  - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30"}
-                  - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome"}
-                  - {label: "Background Image", name: "image", widget: "image"}
+                  - {label: "Conference", name: "conference", widget: "string", default: "UX Brighton 2022", required: false}
+                  - {label: "Date", name: "date", widget: "string", default: "Friday 4 November", required: false}
+                  - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30", required: false}
+                  - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome", required: false}
+                  - {label: "Background Image", name: "image", widget: "image", required: false}
               - label: "Pre-conference content"
                 name: "pre"
                 summary: "Hero section pre-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
                   - label: "Button"
                     name: "button"
                     summary: "Ticket button."
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
+                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string", required: false}
                       - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
-                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
+                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string", required: false}
               - label: "During conference content"
                 name: "during"
                 summary: "Hero section during-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
-                  - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door"}
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door", required: false}
                   - label: "Button"
                     name: "button"
                     summary: "Ticket button."
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
+                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string", required: false}
                       - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
-                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
+                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string", required: false}
               - label: "Post-conference content"
                 name: "post"
                 summary: "Hero section post-conference content."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management"}
-                  - {label: "Message", name: "message", widget: "string", default: "Thanks For Coming To UX Brighton 2022: UX and Product Management"}
+                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Message", name: "message", widget: "string", default: "Thanks For Coming To UX Brighton 2022: UX and Product Management", required: false}
                   - label: "Button"
                     name: "button"
                     summary: "Ticket button."
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string"}
+                      - {label: "Button label", name: "label", hint: "Text in the button.", widget: "string", required: false}
                       - {label: "Button text - extra", name: "extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
-                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string"}
+                      - {label: "Button URL Address", name: "url", hint: "URL this button points to.", widget: "string", required: false}
           - label: "Overview" # Overview section
             name: "overview"
             summary: "Overview section content - (eg. intro section & testimonial under the hero section)."
@@ -132,7 +132,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string", required: false}
                   - label: "Lede text"
                     name: "lede"
                     summary: "Larger 'lede' / intro text."
@@ -145,6 +145,7 @@ collections:
                         buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                        required: false
                   - label: "Text (additional)"
                     name: "text"
                     summary: "Additional section text."
@@ -157,6 +158,7 @@ collections:
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                        required: false
                   - label: "Testimonial (quote)"
                     name: "testimonial"
                     summary: "Testimonial / quote content."
@@ -164,8 +166,8 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                      - {label: "Quote", name: "quote", widget: "text"}
-                      - {label: "Quotee", name: "quotee", widget: "string"}
+                      - {label: "Quote", name: "quote", widget: "text", required: false}
+                      - {label: "Quotee", name: "quotee", widget: "string", required: false}
               - label: "During conference content"
                 name: "during"
                 summary: "Overview section during-conference content."
@@ -185,6 +187,7 @@ collections:
                         buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                        required: false
                   - label: "Text (additional)"
                     name: "text"
                     summary: "Additional section text."
@@ -197,6 +200,7 @@ collections:
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                        required: false
                   - label: "Testimonial (quote)"
                     name: "testimonial"
                     summary: "Testimonial / quote content."
@@ -204,8 +208,8 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                      - {label: "Quote", name: "quote", widget: "text"}
-                      - {label: "Quotee", name: "quotee", widget: "string"}
+                      - {label: "Quote", name: "quote", widget: "text", required: false}
+                      - {label: "Quotee", name: "quotee", widget: "string", required: false}
               - label: "Post-conference content"
                 name: "post"
                 summary: "Overview section post-conference content."
@@ -225,6 +229,7 @@ collections:
                         buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                        required: false
                   - label: "Text (additional)"
                     name: "text"
                     summary: "Additional section text."
@@ -237,6 +242,7 @@ collections:
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                        required: false
                   - label: "Testimonial (quote)"
                     name: "testimonial"
                     summary: "Testimonial / quote content."
@@ -244,8 +250,8 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                      - {label: "Quote", name: "quote", widget: "text"}
-                      - {label: "Quotee", name: "quotee", widget: "string"}
+                      - {label: "Quote", name: "quote", widget: "text", required: false}
+                      - {label: "Quotee", name: "quotee", widget: "string", required: false}
           - label: "Attendee information" # Attendee information
             name: "attendee-info"
             summary: "Attendee information content - (eg. travel & accommodation, pre-party)."
@@ -259,19 +265,20 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string", required: false}
                   - label: "Content"
                     name: "body"
                     widget: "markdown"
                     buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                     editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                    required: false
                   - label: "Info guide items"
                     name: "info"
                     widget: "list"
                     collapsed: true
                     fields:
-                      - {label: "Info item", name: "item", widget: "string"}
+                      - {label: "Info item", name: "item", widget: "string", required: false}
               - label: "Pre party"
                 name: "pre-party"
                 summary: "Pre-party info."
@@ -290,6 +297,7 @@ collections:
                         buttons: ["bold", "italic", "link", "heading-three", "heading-four", "heading-five", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                        required: false
           - label: "Speakers" # Speakers section
             name: "speakers"
             summary: "Speakers section content - (eg. section title, speaker names, speaker talk times, talk slides & videos)."
@@ -297,8 +305,8 @@ collections:
             collapsed: true
             fields:
               - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-              - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string"}
-              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image"}
+              - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image", required: false}
               - label: "Speaker & talk info."
                 name: "speaker-info"
                 summary: "Each speaker's talk details and bio."
@@ -314,9 +322,9 @@ collections:
                     widget: "list"
                     collapsed: true
                     fields:
-                      - {label: "Speaker name", name: "name", widget: "string"}
-                      - {label: "Speaker thumbnail", name: "thumbnail", widget: "image"}
-                      - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string"}
+                      - {label: "Speaker name", name: "name", widget: "string", required: false}
+                      - {label: "Speaker thumbnail", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
                         name: "talk-info"
                         summary: "Information related to the speaker's talk."
@@ -324,34 +332,36 @@ collections:
                         collapsed: true
                         fields:
                           - {label: "Talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false, required: false}
-                          - {label: "Talk title", name: "talk-title", widget: "string"}
+                          - {label: "Talk title", name: "talk-title", widget: "string", required: false}
                           - label: "Talk summary"
                             name: "talk-summary"
                             widget: "markdown"
                             buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                             editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                             modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                            required: false
                       - label: "Talk video & slides."
                         name: "talk-media"
                         summary: "Video & slides from the speaker's talk."
                         widget: "object"
                         collapsed: true
                         fields:
-                          - {label: "Talk video", name: "talk-video", hint: "Enter YouTube video ID - eg. *kCBVxrV9Omg*", widget: "string"}
-                          - {label: "Talk slides", name: "talk-slides", hint: "Enter SlideShare talks string - eg. *martyn-reding-connecting-the-dots*", widget: "string"}
+                          - {label: "Talk video", name: "talk-video", hint: "Enter YouTube video ID - eg. *kCBVxrV9Omg*", widget: "string", required: false}
+                          - {label: "Talk slides", name: "talk-slides", hint: "Enter SlideShare talks string - eg. *martyn-reding-connecting-the-dots*", widget: "string", required: false}
                       - label: "Speaker bio."
                         name: "speaker-bio"
                         summary: "Information related to the speaker."
                         widget: "object"
                         collapsed: true
                         fields:
-                          - {label: "Speaker bio title", name: "bio-title", widget: "string"}
+                          - {label: "Speaker bio title", name: "bio-title", widget: "string", required: false}
                           - label: "Speaker bio summary"
                             name: "bio-summary"
                             widget: "markdown"
                             buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
                             editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                             modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                            required: false
                           - label: "Speaker social profiles"
                             name: "social-profiles"
                             widget: "list"
@@ -366,8 +376,8 @@ collections:
                                   - {label: "Personal website", value: "website"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
-                              - {label: "Social profile label / hashtag", name: "profile-label", widget: "string"}
-                              - {label: "Social profile link / URL", name: "profile-url", widget: "string"}
+                              - {label: "Social profile label / hashtag", name: "profile-label", widget: "string", required: false}
+                              - {label: "Social profile link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
                 summary: "Registration time and event info."
@@ -409,22 +419,22 @@ collections:
             collapsed: true
             fields:
               - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Title", name: "title", widget: "string", required: false}
               - label: "Videos"
                 name: "video"
                 widget: "list"
                 collapsed: true
                 fields:
-                  - {label: "Description", name: "alt", widget: "string"}
-                  - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-                  - {label: "URL", name: "url", widget: "string"}
+                  - {label: "Description", name: "alt", widget: "string", required: false}
+                  - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+                  - {label: "URL", name: "url", widget: "string", required: false}
               - label: "Testimonial"
                 name: "testimonial"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Quote", name: "quote", widget: "text"}
-                  - {label: "Quotee", name: "quotee", widget: "string"}
+                  - {label: "Quote", name: "quote", widget: "text", required: false}
+                  - {label: "Quotee", name: "quotee", widget: "string", required: false}
           - label: "Sponsors" # Sponsors section
             name: "sponsors"
             summary: "Sponsors section - (eg. section title, intro, testimonial, headline, premium & standard sponsors)."
@@ -432,15 +442,15 @@ collections:
             collapsed: true
             fields:
               - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-              - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string"}
-              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image"}
+              - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image", required: false}
               - label: "Section intro."
                 name: "section-intro"
                 summary: "Section intro. (title and lede text)."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", hint: "Intro title.", widget: "string"}
+                  - {label: "Title", name: "title", hint: "Intro title.", widget: "string", required: false}
                   - label: "Lede text"
                     name: "lede"
                     hint: "Larger 'lede' / intro text."
@@ -448,6 +458,7 @@ collections:
                     buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
                     editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                    required: false
               - label: "Testimonial (quote)"
                 name: "testimonial"
                 summary: "Testimonial / quote content."
@@ -455,8 +466,8 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                  - {label: "Quote", name: "quote", widget: "text"}
-                  - {label: "Quotee", name: "quotee", widget: "string"}
+                  - {label: "Quote", name: "quote", widget: "text", required: false}
+                  - {label: "Quotee", name: "quotee", widget: "string", required: false}
               - label: "Sponsor (Headline)"
                 name: "sponsors-headline"
                 summary: "Headline sponsor"
@@ -464,17 +475,17 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string"}
+                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor details"
                     name: "sponsor-details"
                     summary: "Sponsor details"
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Sponsor name", name: "name", widget: "string"}
-                      - {label: "Sponsor logo", name: "logo", widget: "image"}
-                      - {label: "Sponsor URL", name: "url", widget: "string"}
-                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - {label: "Sponsor name", name: "name", widget: "string", required: false}
+                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
                         widget: "list"
@@ -490,7 +501,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
-                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Premium)"
                 name: "sponsors-premium"
                 summary: "Premium sponsors"
@@ -499,17 +510,17 @@ collections:
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string"}
+                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
                     widget: "list"
                     collapsed: true
                     fields:
-                      - {label: "Sponsor name", name: "name", widget: "string"}
-                      - {label: "Sponsor logo", name: "logo", widget: "image"}
-                      - {label: "Sponsor URL", name: "url", widget: "string"}
-                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - {label: "Sponsor name", name: "name", widget: "string", required: false}
+                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
                         widget: "list"
@@ -525,7 +536,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
-                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Standard)"
                 name: "sponsors-standard"
                 summary: "Standard sponsors"
@@ -534,17 +545,17 @@ collections:
                 fields:
                   - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                  - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string"}
+                  - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
                     widget: "list"
                     collapsed: true
                     fields:
-                      - {label: "Sponsor name", name: "name", widget: "string"}
-                      - {label: "Sponsor logo", name: "logo", widget: "image"}
-                      - {label: "Sponsor URL", name: "url", widget: "string"}
-                      - {label: "Sponsor summary", name: "summary", widget: "text"}
+                      - {label: "Sponsor name", name: "name", widget: "string", required: false}
+                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
                         widget: "list"
@@ -560,7 +571,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
-                          - {label: "Social link / URL", name: "profile-url", widget: "string"}
+                          - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
           - label: "Workshop" # Workshop information
             name: "workshop"
             summary: "Workshop information."
@@ -568,27 +579,27 @@ collections:
             collapsed: true
             fields:
               - {label: "Show workshop?", name: "visibility", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-              - {label: "Section title", name: "section-title", hint: "Workshop section title.", widget: "string"}
+              - {label: "Section title", name: "section-title", hint: "Workshop section title.", widget: "string", required: false}
               - label: "Workshop details"
                 name: "details"
                 summary: "Workshop details"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Workshop title", name: "title", hint: "Workshop title.", widget: "string"}
-                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image.", widget: "image"}
-                  - {label: "Workshop URL", name: "url", hint: "Workshop URL.", widget: "string"}
-                  - {label: "Workshop date", name: "workshop-date", widget: "datetime", default: "", date_format: true, time_format: false, picker_utc: true}
-                  - {label: "Workshop time", name: "workshop-time", widget: "datetime", default: "", date_format: false, time_format: true, picker_utc: false}
-                  - {label: "Workshop lede", name: "lede", hint: "Workshop lede. This text appears under title.", widget: "text"}
-                  - {label: "Workshop button (label)", name: "button", hint: "Workshop button (label).", widget: "string"}
+                  - {label: "Workshop title", name: "title", hint: "Workshop title.", widget: "string", required: false}
+                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image.", widget: "image", required: false}
+                  - {label: "Workshop URL", name: "url", hint: "Workshop URL.", widget: "string", required: false}
+                  - {label: "Workshop date", name: "workshop-date", widget: "datetime", default: "", date_format: true, time_format: false, picker_utc: true, required: false}
+                  - {label: "Workshop time", name: "workshop-time", widget: "datetime", default: "", date_format: false, time_format: true, picker_utc: false, required: false}
+                  - {label: "Workshop lede", name: "lede", hint: "Workshop lede. This text appears under title.", widget: "text", required: false}
+                  - {label: "Workshop button (label)", name: "button", hint: "Workshop button (label).", widget: "string", required: false}
                   - label: "Workshop summary"
                     name: "summary"
                     summary: "Workshop summary / description."
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Summary title", name: "title", hint: "Workshop summary title.", widget: "string"}
+                      - {label: "Summary title", name: "title", hint: "Workshop summary title.", widget: "string", required: false}
                       - label: "Summary body text"
                         name: "body"
                         hint: "Workshop summary body text."
@@ -596,7 +607,8 @@ collections:
                         buttons: ["bold", "italic", "link"] # List of this markdown editor's component button options
                         editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
-                      - {label: "Summary CTA (label)", name: "cta", hint: "Worshop summary call-to-action (label).", widget: "string"}
+                        required: false
+                      - {label: "Summary CTA (label)", name: "cta", hint: "Worshop summary call-to-action (label).", widget: "string", required: false}
     # "Events collection"
   - label: "Event pages"
     name: "event-pages"
@@ -614,7 +626,7 @@ collections:
       - {label: "Description", name: "description", hint: "This populates the *meta* description.", widget: "string"}
       - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
       - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn"], default: ["TBA"]}
-      - {label: "Start", name: "start", hint: "Event time.", widget: "string"}
+      - {label: "Start", name: "start", hint: "Event time.", widget: "string", required: false}
       - label: "Ticket"
         name: "ticket"
         summary: "Ticket state, link and price."
@@ -623,9 +635,9 @@ collections:
         fields:
           - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["ticketed", "unticketed", "sold-out"], default: ["ticketed"]}
           - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
-          - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free"}
+          - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free", required: false}
       - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **false**.", widget: "boolean", default: false}
-      - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
