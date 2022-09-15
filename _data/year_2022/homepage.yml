@@ -140,7 +140,30 @@ speakers:
     show-times: false
     show-videos: false
     show-slides: false
-    speaker-list: []
+    speaker-list:
+      - talk-info:
+          talk-time: ""
+          talk-title: Avoiding the Agency Trap
+          talk-summary: Building a product can help your business scale to incredible
+            heights, but too many teams get stuck in what Janna Bastow calls the
+            Agency Trap. In this talk, she'll share signs you're veering into
+            this trap, and actionable guides on how to get out and stay out!
+        name: Janna Bastow
+        thumbnail: /images/janna-bastow-profile-pic-xl.jpg
+        anchor: Janna-Bastow
+        speaker-bio:
+          bio-title: About Janna
+          bio-summary: "Janna Bastow is co-founder
+            of [ProdPad](https://www.prodpad.com/) , product management and
+            roadmapping software for product people. Janna is also co-founder
+            of [ProductTank](https://www.producttank.com/) and [Mind the
+            Product](https://www.mindtheproduct.com/) , a global community of
+            product managers. She often starts and stops conversations with the
+            question: “What problem are you trying to solve?”"
+          social-profiles: []
+        talk-media:
+          talk-video: hjklnjk;
+          talk-slides: hjk;hjk;
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
