@@ -323,7 +323,7 @@ collections:
                         widget: "object"
                         collapsed: true
                         fields:
-                          - {label: "Talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
+                          - {label: "Talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false, required: false}
                           - {label: "Talk title", name: "talk-title", widget: "string"}
                           - label: "Talk summary"
                             name: "talk-summary"
