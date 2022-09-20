@@ -160,10 +160,50 @@ speakers:
             Product](https://www.mindtheproduct.com/) , a global community of
             product managers. She often starts and stops conversations with the
             question: “What problem are you trying to solve?”"
-          social-profiles: []
+          social-profiles:
+            - profile-type: twitter
+              profile-url: https://twitter.com/simplybastow
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/jannabastow/
         talk-media:
-          talk-video: hjklnjk;
-          talk-slides: hjk;hjk;
+          talk-video: ""
+          talk-slides: ""
+      - talk-info:
+          talk-time: ""
+          talk-title: Leading culture change to increase customer centricity
+          talk-summary: >-
+            Digital disruptors and the covid crisis have highlighted the
+            importance of customer centricity. Business leaders clearly
+            recognise their organisations need to be more customer centric and
+            future proof them against ever-changing customer expectations,
+            volatile economic conditions and aggressive digital disruptors.\
+
+            Business leaders want to understand how to lead culture change to be more customer centric, how to implement new ways of working and how technology can enable their strategy.\
+
+            Jonathan will talk about leading culture change to increase customer centricity, innovation and agility:
+
+
+            * Working backwards from customers
+
+            * Implications for operating models to empower small cross-functional teams.
+
+            * How companies like Amazon, Cisco and others reinforce and change their culture.
+
+
+            Jonathan’s objective is to help leaders understand their critical role increasing the focus on customer centricity.
+        thumbnail: /images/ab733_4-2.jpg
+        speaker-bio:
+          bio-summary: Jonathan Smare is a Partner at DigitalWorksGroup. In his career
+            spanning over 30 years at Hewlett Packard, Cisco Systems and Amazon
+            Web Services Jonathan has led numerous large-scale transformations.
+            A veteran executive and public speaker, Jonathan works with
+            executives worldwide to share experiences and discuss strategies for
+            their digital transformation journeys.
+          bio-title: About Jonathan
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/jonathan-smare/
+        name: Jonathan Smare
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
