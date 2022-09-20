@@ -1,5 +1,8 @@
 title: UX and Product Management - UX Brighton Conference 2022
+description: Join us for our 🎂 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
+social-image: ""
+event-promo-top-of-page: false
 hero:
   hero-state: pre
   global:
@@ -130,7 +133,7 @@ attendee-info:
 
           If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 speakers:
-  visibility: false
+  visibility: true
   section-title: Talks
   section-banner: /images/header2.jpg
   speaker-info:
@@ -139,283 +142,68 @@ speakers:
     show-slides: false
     speaker-list:
       - talk-info:
-          talk-time: 10:00 am
-          talk-title: Old thinking
-          talk-summary: >-
-            Holding the mirror up to some of the ‘new thinking’ in design and
-            showing that it is the same as the ideas being explored way back in
-            other design disciplines.
-
-
-            This talk really recognises how young UX Design (as a discipline) is when compared to other design disciplines and asks ourselves to make the effort to learn more about the history of branding, publishing, advertising, industrial design, type design etc to see what we can learn and take forward with us.
-        name: Martyn Reding
-        thumbnail: /images/martyn-310.jpg
-        anchor: Martyn-Reding
+          talk-time: ""
+          talk-title: Avoiding the Agency Trap
+          talk-summary: Building a product can help your business scale to incredible
+            heights, but too many teams get stuck in what Janna Bastow calls the
+            Agency Trap. In this talk, she'll share signs you're veering into
+            this trap, and actionable guides on how to get out and stay out!
+        name: Janna Bastow
+        thumbnail: /images/janna-bastow-profile-pic-xl.jpg
+        anchor: Janna-Bastow
         speaker-bio:
-          bio-title: About Martyn
-          bio-summary: Martyn is a British designer, based in Brighton. For the first 10
-            years of his career ‘agency side’, holding senior design roles and
-            working with a range of brands including IKEA, Penguin books, BBC
-            and Sony. Since being ‘client side’ he has specialised in building
-            and running multi-discipline teams.
+          bio-title: About Janna
+          bio-summary: "Janna Bastow is co-founder
+            of [ProdPad](https://www.prodpad.com/) , product management and
+            roadmapping software for product people. Janna is also co-founder
+            of [ProductTank](https://www.producttank.com/) and [Mind the
+            Product](https://www.mindtheproduct.com/) , a global community of
+            product managers. She often starts and stops conversations with the
+            question: “What problem are you trying to solve?”"
           social-profiles:
             - profile-type: twitter
-              profile-label: "@martynreding"
-              profile-url: https://twitter.com/martynreding
-            - profile-type: website
-              profile-label: martyn.design
-              profile-url: https://martyn.design
-        talk-media:
-          talk-video: kCBVxrV9Omg
-          talk-slides: martyn-reding-connecting-the-dots
-      - talk-info:
-          talk-time: 10:40 am
-          talk-title: Designing with artificial intelligence
-          talk-summary: >-
-            We are entering the age of intelligence. A time when technologists
-            imbue artificially intelligent components into many products without
-            a clear framework for how such intelligence is delivered to users
-            consistently. It is a product designer’s job to make AI feel
-            human-like and magical, not overwhelming and scary to users. When
-            designing for Artificial Intelligence scenarios, whether for a large
-            enterprise or small startup, setting user expectations is critical
-            to deliver a reliable product. Emily will share some best practices
-            from designing for AI in both large and small organizations. No
-            matter the company size, a minimum viable product is important to
-            design and not to be the result of unplanned feature cuts. Emily
-            will share what Minimum Viable Intelligence is for an AI product,
-            and how designers can deliver a clear UX when solving problems
-            efficiently.
-
-
-            When thinking of how to design for intelligent products, first and foremost it needs to seem competent. Users must trust the AI agent or service with information and believe that it can achieve their goal. The bar for this depends on the expectations the designer sets. The most difficult thing about breaking out of scenario-focused AI is the lack of clear boundaries. Are you aspiring to create an entire conversational AI agent? Then the bar will be high. A less intelligent Bot, however, will teach users the rails of its conversation early on to avoid disappointment. In this talk we’ll dig deeper into setting appropriate expectations when designing for AI across large and small applications.
-
-
-            Emily will share how drawing on human interaction models helps designers know what to expect when people encounter their AI product. Responsiveness when users expect it is only one part of this equation. Apps that explain processes in human ways, like thinking, seeing, or reading, can benefit from showing users where they are in a process, while explaining it in natural ways. Emulating true intelligence takes more than just seeming alive and being basically competent though. To surpass users’ expectations can be a delightful moment when the product seems truly and independently intelligent.
-        name: Emily Sappington
-        thumbnail: /images/emily-sappington-310.jpg
-        anchor: Emily-Sappington
-        speaker-bio:
-          bio-title: About Emily
-          bio-summary: >-
-            Emily Sappington is the Product Design Manager for Voice &
-            Conversational UI at Babylon Health. Previously she served as VP of
-            Product at London-based AI startup, Context Scout.
-
-
-            Emily has spent the bulk of her career in the United States designing Cortana for Microsoft across devices, particularly Natural Language & UI interactions with the assistant. Emily is a lecturer, US patent-holder, career coach for Ada School (the National College for Digital Skills in the UK), and is a recipient of an Exceptional Talent Visa from the UK Government and Tech Nation.
-          social-profiles:
-            - profile-type: twitter
-              profile-label: "@sappingtonemily"
-              profile-url: https://twitter.com/sappingtonemily
+              profile-url: https://twitter.com/simplybastow
             - profile-type: linkedin
-              profile-label: linkedin.com/in/emilysappington
-              profile-url: https://uk.linkedin.com/in/emilysappington
+              profile-url: https://www.linkedin.com/in/jannabastow/
         talk-media:
-          talk-video: b1W-YSSVfwE
-          talk-slides: emily-sappington-designing-for-ai
+          talk-video: ""
+          talk-slides: ""
       - talk-info:
-          talk-time: 11:40 am
-          talk-title: The value of Design Thinking for product teams
+          talk-time: ""
+          talk-title: Leading culture change to increase customer centricity
           talk-summary: >-
-            Design Thinking is a powerful mindset and framework leading to
-            innovation and bringing to market impactful products/services.
-            However, after the initial excitement applying it within different
-            business environments, criticism started to emerge putting into
-            question its value.
+            Digital disruptors and the covid crisis have highlighted the
+            importance of customer centricity. Business leaders clearly
+            recognise their organisations need to be more customer centric and
+            future proof them against ever-changing customer expectations,
+            volatile economic conditions and aggressive digital disruptors.\
+
+            Business leaders want to understand how to lead culture change to be more customer centric, how to implement new ways of working and how technology can enable their strategy.\
+
+            Jonathan will talk about leading culture change to increase customer centricity, innovation and agility:
 
 
-            This talk aims to present what makes Design Thinking a powerful tool and the type of problems is good for.
+            * Working backwards from customers
+
+            * Implications for operating models to empower small cross-functional teams.
+
+            * How companies like Amazon, Cisco and others reinforce and change their culture.
 
 
-            Based on Carmen's experience working with many product teams, she will be covering the main practices diluting the Design Thinking value, and a direction to avoid ending up in disappointment.
-
-
-            Like Agile and Lean, Design Thinking has its place. None of them are silver bullets. It doesn't exist a formula we can apply to solve everything in the same way. Different problems require different/flexible approaches to solve them.
-        name: Carmen Brion
-        thumbnail: /images/carmen-brion-310.jpg
-        anchor: Carmen-Brion
+            Jonathan’s objective is to help leaders understand their critical role increasing the focus on customer centricity.
+        thumbnail: /images/ab733_4-2.jpg
         speaker-bio:
-          bio-title: About Carmen
-          bio-summary: Carmen has worked in experience design and research for over 12
-            years and is currently a design/product researcher. An expert in
-            evaluating the value of digital products, she is a passionate
-            practitioner in research-driven product design. A design thinker at
-            heart, Carmen draws strong influence from Lean UX and JTBD in her
-            work and is always seeking to make an impact for both customers and
-            the business through effective ways of testing design hypotheses.
+          bio-summary: Jonathan Smare is a Partner at DigitalWorksGroup. In his career
+            spanning over 30 years at Hewlett Packard, Cisco Systems and Amazon
+            Web Services Jonathan has led numerous large-scale transformations.
+            A veteran executive and public speaker, Jonathan works with
+            executives worldwide to share experiences and discuss strategies for
+            their digital transformation journeys.
+          bio-title: About Jonathan
           social-profiles:
-            - profile-type: twitter
-              profile-label: "@tea_monster"
-              profile-url: https://twitter.com/tea_monster
             - profile-type: linkedin
-              profile-label: linkedin.com/in/carmenbrion
-              profile-url: https://www.linkedin.com/in/carmenbrion/
-        talk-media:
-          talk-video: bf1cmmZADjs
-          talk-slides: carmen-brion-the-value-for-product-teams-to-design-think
-      - talk-info:
-          talk-time: 12:10 pm
-          talk-title: The craft of inclusive design
-          talk-summary: >-
-            Inclusive design is a noble and aspirational concept; however it can
-            be challenging to implement as a process and can seem inaccessible
-            to client projects.
-
-
-            Including the extremes, while keeping an eye on your core audience can seem like a daunting and expensive approach. What if we told you that there is a shortcut to inclusive design? Telling stories from BBC Two’s Big Life Fix, Ruby Steel will share principles that can be applied to every day projects.
-        name: Ruby Steel
-        thumbnail: /images/ruby-310.jpg
-        anchor: Ruby-Steel
-        speaker-bio:
-          bio-title: About Ruby
-          bio-summary: >-
-            Ruby Steel is a trailblazer in inclusive design. She was also a
-            “fixer” on the BBC2 show Big Life Fix, the show that involves a team
-            of inventors creating new and life-changing solutions for people in
-            need. As Associate Strategy Director at Smart Design, Ruby is
-            committed to making people’s lives better through the power of
-            design, working across a variety of industries.
-
-
-            Ruby graduated from Kingston University and then went on to gain a Master’s degree in Innovation Design Engineering at the Royal College of Art and Imperial College of London. She has been awarded two Helen Hamlyn Design Awards for Creativity and Inclusive Design, and received honorable mentions from Core77 and the RSA for design solutions combating issues such as social isolation in older people.
-          social-profiles:
-            - profile-type: twitter
-              profile-label: "@rubysteel"
-              profile-url: https://twitter.com/rubysteel
-            - profile-type: linkedin
-              profile-label: linkedin.com/in/ruby-steel-3766671b
-              profile-url: https://www.linkedin.com/in/ruby-steel-3766671b
-        talk-media:
-          talk-video: none
-          talk-slides: none
-      - talk-info:
-          talk-time: 14:10 pm
-          talk-title: Vision vs Iteration
-          talk-summary: >-
-            Teams iterating without a vision are working blindfolded. The
-            constant demand for new features and growth often force product
-            teams into endless cycles of iteration. At best, they're missing out
-            on new opportunities. At worst, they’re ignoring threats that could
-            upend their business.
-
-
-            The struggle to plan beyond the short-term mean it's easy to ignore the future bets you need to make to survive.
-
-
-            In this talk, Brendan will share models and ways of working from that designers and product owners can use to focus on both the short and long term.
-
-
-            Some of the topics covered in this talk are:
-
-
-            * the value of a vision,
-
-            * how to measure big bets through experimentation, and
-
-            * validation and turning a vision into a roadmap.
-        name: Brendan Kearns
-        thumbnail: /images/brendan-310.jpg
-        anchor: Brendan-Kearns
-        speaker-bio:
-          bio-title: About Brendan
-          bio-summary: Brendan is the founder of Studio Rival – a digital product agency
-            in London. Rival partners with leading startups, tech companies, and
-            brands to design and innovate digital products. As a former designer
-            at companies like Google, Twitter, and InVision, he has the inside
-            take on some of the biggest and most complex products in tech.
-          social-profiles:
-            - profile-type: twitter
-              profile-label: "@brendan_kearns"
-              profile-url: https://twitter.com/brendan_kearns
-            - profile-type: twitter
-              profile-label: "@RivalLondon"
-              profile-url: https://twitter.com/RivalLondon
-        talk-media:
-          talk-video: none
-          talk-slides: none
-      - talk-info:
-          talk-time: 15:40 pm
-          talk-title: Scientific Design
-          talk-summary: >-
-            The world of UX Design is constantly in flux, and there are so many
-            different approaches - some good, some not so good. UX Design is
-            inherently art and science, but since the explosion in popularity of
-            UX, the science component of UX Design has lost out to the more
-            appealing visual design elements of the practice.
-
-
-            In his talk, *Scientific Design*, Nick will show you where you can add science to your workflow to help guide your craft and to enhance your creativity, rather than to limit and stifle it. We'll cover methods for both innovation-type projects and optimisation-type projects, as well as how to apply scientific principles alongside all that you do. Adding science to design creates killer UX, and Nick will give you all the shortcuts and pointers needed to apply scientific design on the project you're currently working on.
-        name: Dr. Nick Fine
-        thumbnail: /images/nick-310.jpg
-        anchor: Dr-Nick-Fine
-        speaker-bio:
-          bio-title: About Dr. Nick
-          bio-summary: >-
-            Nick is a lead user experience researcher and designer with 20 years
-            experience in Digital, both agency and client side. He was awarded
-            his PhD in Human Computer Interaction (HCI) in 2009 from Brunel
-            University for his work on personalisation and also holds MSc HCI
-            from University College London (2004) and BSc Psychology (1996) from
-            Portsmouth University. By combining academic research skills and HCI
-            knowledge with commercial UX experience, Nick has successfully
-            delivered a number of complex and mission-critical projects,
-            including air traffic control, financial systems and pharmaceutical
-            drug trial planning. He has been lead UX on projects for a number of
-            brands, including Coca Cola, SAB Miller, Jaguar Land Rover, Bentley,
-            EY, Novartis, GlaxoSmithKline, BT, Virgin Media, Camelot and Shell.
-
-
-            Nick’s areas of expertise are scientific UX, behavioural design,personalisation, personality psychology, conversion rate optimisation, remote user testing and transformation through user experience.
-          social-profiles:
-            - profile-type: twitter
-              profile-label: "@doctorfine"
-              profile-url: https://twitter.com/doctorfine
-            - profile-type: linkedin
-              profile-label: linkedin.com/in/drnickfine
-              profile-url: https://www.linkedin.com/in/drnickfine
-        talk-media:
-          talk-video: 3T5M_ispuaQ
-          talk-slides: nick-fine-scientific-design
-      - talk-info:
-          talk-time: 16:10 pm
-          talk-title: Rolling with the Punches
-          talk-summary: "Life is full of surprises; some are good and some are not so
-            good. Our ability to stay flexible and positive under pressure can
-            have a huge impact on our wellbeing. Resilience is not an innate
-            capability; it's more like a muscle that can be built and
-            strengthened. There are 4 pillars to well being: mental, physical,
-            emotional and social. Each of these can be fortified to help us
-            handle life's ups and downs, reducing the negative impact and
-            allowing you to take it in your stride. In this session, we will
-            talk about a few research-backed techniques that can help you bounce
-            back when you need to."
-        name: Liz Citron
-        thumbnail: /images/liz-citron.jpg
-        anchor: Liz-Citron
-        speaker-bio:
-          bio-title: About Liz
-          bio-summary: Liz Citron has 25 years of experience helping individuals, teams,
-            and organisations find their way through the challenges of building
-            tools and services that meet business and users’ needs. She has
-            worked with a wide variety of organisations - from tiny businesses
-            to large government departments. Digital transformation is by its
-            nature catalytic and individuals and teams often are on the front
-            line in dealing with the fallout. Having recently trained as a
-            coach, Liz firmly believes that the digital community need to spend
-            time turning our creative skills on ourselves occasionally, to make
-            sure we operate in an environment that encourages each of us to
-            succeed.
-          social-profiles:
-            - profile-type: twitter
-              profile-label: "@lizcitron"
-              profile-url: https://twitter.com/lizcitron
-            - profile-type: website
-              profile-label: lizcitron.com
-              profile-url: https://www.lizcitron.com
-        talk-media:
-          talk-video: bHUKL8FYfRM
-          talk-slides: liz-citron-rolling-with-the-punches
+              profile-url: https://www.linkedin.com/in/jonathan-smare/
+        name: Jonathan Smare
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
@@ -447,6 +235,28 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
+highlights:
+  visibility: true
+  title: Highlights from previous years
+  video:
+    - url: https://youtu.be/rz7sy81Yg5E
+      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
+      alt: ResearchOps - Kate Towsey
+    - url: https://youtu.be/8A3SEmvx7uY
+      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
+      alt: UX and Forecasting - James Woudhuysen
+    - url: https://youtu.be/DjRR1MpBr1g
+      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+      alt: Top Tasks - Gerry McGovern
+    - alt: Atomic UX - Daniel Pidcock
+      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      url: https://youtu.be/h9s3DrImGXA
+  testimonial:
+    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+      you'll get access to some of the most cutting-edge presentations you can
+      imagine. Well organized, fabulous location, packed with valuable content —
+      go if you can: it's worth the investment."
+    quotee: Jim Kalbach, Past Speaker
 sponsors:
   visibility: true
   section-title: Sponsors
@@ -604,28 +414,3 @@ workshop:
     back-image: /images/voice-ui-workshop.jpeg
   section-title: Workshop
 image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: Join us for our 🎂 10th annual one-day conference!
-social-image: ""
-event-promo-top-of-page: false
-highlights:
-  visibility: true
-  title: Highlights from previous years
-  video:
-    - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
-      alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
-      alt: Top Tasks - Gerry McGovern
-    - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
-      url: https://youtu.be/h9s3DrImGXA
-  testimonial:
-    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
-      you'll get access to some of the most cutting-edge presentations you can
-      imagine. Well organized, fabulous location, packed with valuable content —
-      go if you can: it's worth the investment."
-    quotee: Jim Kalbach, Past Speaker
