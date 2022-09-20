@@ -204,6 +204,7 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/jonathan-smare/
         name: Jonathan Smare
+        anchor: Jonathan-Smare
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
