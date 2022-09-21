@@ -79,7 +79,7 @@
       // Visible label
       label: 'Slideshare link',
       // Internal id of the component
-      id: 'slideshare-link',
+      id: 'slideshare_link',
       collapsed: true,
 
       fields: [
@@ -127,7 +127,7 @@
       // Visible label
       label: 'Slideshare (embedded)',
       // Internal id of the component
-      id: 'slideshare-embedded',
+      id: 'slideshare_embedded',
       collapsed: true,
 
       fields: [
@@ -140,7 +140,7 @@
       ],
 
       // Regex pattern used to search for instances of this block in the markdown document.
-      pattern: /^<div class="embed-container hd"><iframe src="(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
+      pattern: /^<div class="embed-container slideshare hd"><iframe src="(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
 
       // This is used to populate the custom widget in the markdown editor in the CMS.
       fromBlock: match =>
@@ -152,13 +152,54 @@
       //
       // This is used to serialize the data from the custom widget to the markdown document
       toBlock: function({url}, getAsset, fields) {
-        return `<div class="embed-container hd"><iframe src="${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+        return `<div class="embed-container slideshare hd"><iframe src="${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
 
       // Preview output for this component. Can either be a string or a React component
       // (component gives better render performance)
       toPreview: ({url}, getAsset, fields) => {
-        return `<div class="embed-container hd"><iframe src="${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+        return `<div class="embed-container slideshare hd"><iframe src="${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+      },
+    })
+
+    // Adding a YouTube embedded 'iframe' component to the Markdown editor
+    // --------------------------------------------------------------------------------------
+    CMS.registerEditorComponent({
+      // Visible label
+      label: 'YouTube (embedded)',
+      // Internal id of the component
+      id: 'youtube_embedded',
+      collapsed: true,
+
+      fields: [
+        {
+          label: 'YouTube URL',
+          name: 'url',
+          hint: 'This is the full URL for the YouTube video.',
+          widget: 'string'
+        }
+      ],
+
+      // Regex pattern used to search for instances of this block in the markdown document.
+      pattern: /^<div class="embed-container youtube hd"><iframe src="(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
+
+      // This is used to populate the custom widget in the markdown editor in the CMS.
+      fromBlock: match =>
+        match && {
+          url: match[1]
+        },
+
+      // Given an object with one property for each field defined in `fields`, return the string you wish to be inserted into your markdown.
+      //
+      // This is used to serialize the data from the custom widget to the markdown document
+      toBlock: function({url}, getAsset, fields) {
+        return `<div class="embed-container youtube hd"><iframe src="${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+      },
+
+      // Preview output for this component. Can either be a string or a React component
+      // (component gives better render performance)
+      toPreview: ({url}, getAsset, fields) => {
+        return `<div class="embed-container youtube hd"><iframe src="${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
     })
 
