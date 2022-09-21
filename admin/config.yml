@@ -640,4 +640,8 @@ collections:
       - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "code", "link", "heading-two", "heading-three", "heading-four", "heading-five", "quote", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+        required: false
