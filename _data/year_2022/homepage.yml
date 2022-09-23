@@ -205,6 +205,29 @@ speakers:
               profile-url: https://www.linkedin.com/in/jonathan-smare/
         name: Jonathan Smare
         anchor: Jonathan-Smare
+      - talk-info:
+          talk-time: ""
+          talk-title: Trade-offs
+          talk-summary: Product development requires trade-offs, but just like a deal with
+            the devil, the devil is in the details of how you make those
+            trade-offs. And your choices can be devilishly hard. This demonic
+            themed talk looks at various techniques for easing the burden of the
+            bargains you make.
+        name: Lucy Spence
+        thumbnail: /images/spence-1-.jpg
+        anchor: Lucy-Spence
+        speaker-bio:
+          bio-title: About
+          bio-summary: Lucy has spent two decades making all sorts of mistakes while
+            building customer experiences. She likes to share what she’s learnt
+            from places like Amazon, TUI, LOVEFiLM, M&S, Department of Health,
+            Compare the Market, and now Appvia, so others can make new and more
+            interesting mistakes.
+          social-profiles:
+            - profile-type: twitter
+              profile-url: "@lucyjspence"
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/lucyspence/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
