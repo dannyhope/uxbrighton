@@ -625,7 +625,7 @@ collections:
       - {label: "Title", name: "title", hint: "The primary title of the event.", widget: "string"}
       - {label: "Description", name: "description", hint: "This populates the *meta* description.", widget: "string"}
       - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
-      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: ["TBA"]}
+      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: "TBA"}
       - {label: "Start", name: "start", hint: "Event time.", widget: "string", required: false}
       - label: "Ticket"
         name: "ticket"
@@ -633,9 +633,10 @@ collections:
         widget: "object"
         collapsed: true
         fields:
-          - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["ticketed", "unticketed", "sold-out"], default: ["ticketed"]}
+          - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["Free", "Ticketed", "Unticketed", "Sold out"], default: "Ticketed"}
           - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
-          - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free", required: false}
+          - {label: "Ticket price", name: "price", hint: "Enter ticket price.", widget: "string", required: false}
+          # - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free", required: false}
       - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **false**.", widget: "boolean", default: false}

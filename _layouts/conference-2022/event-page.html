@@ -162,15 +162,17 @@
                 {% if page.ticket %}
                   {% if page.upcoming == true %}
                     <section class="event-meta">
-                      {% if page.ticket.state == 'sold-out' %}
-                        <span class="ticket-button standfirst bold">Sorry, sold out</span>
-                      {% elsif page.ticket.state == 'unticketed' %}
-                        <span class="ticket-button standfirst bold">Unticketed event</span>
-                      {% else %}
+                      {% if page.ticket.state == 'Ticketed' %}
                         <a href="{{page.ticket.link}}" class="button button--green fill mt1" title="{{page.title}} tickets" target="_blank">
                           {% capture price %}{{ page.ticket.price | downcase}}{% endcapture %}
-                          <span class="bold block mb1">{% if price == 'free' %}Get{% else %}Buy{% endif %} your ticket</span> {% if page.ticket.price %}{{page.ticket.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}
+                          <span class="bold block mb1">Buy your ticket</span> {% if page.ticket.price %}£{{page.ticket.price}}{% endif %}
                         </a>
+                      {% elsif page.ticket.state == 'Free' %}
+                        <span class="ticket-button standfirst bold">Free event.</span>
+                      {% elsif page.ticket.state == 'Sold out' %}
+                        <span class="ticket-button standfirst bold">Sorry, sold out.</span>
+                      {% elsif page.ticket.state == 'Unticketed' %}
+                        <span class="ticket-button standfirst bold">Unticketed event.</span>
                       {% endif %}
                       <!-- <a href="{{page.url}}" title="Add to Calendar" class="addthisevent"> -->
                       {% include venues.html %}
