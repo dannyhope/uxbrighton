@@ -39,7 +39,7 @@ Attend the launch to meet other UXers broadening their horizons. This is where y
 
 <img src="/images/jessica_squires_cropped.png" alt="Jessica Squires, Lead User Experience Architect." class="image-align-right"/>
 
-Jessica is a Lead UX Architect for a large media organisation. Day to day she oversees projects, gets hands-on with wireframes (and more), collaborates with her talented UX team, and mentors’ people inside and outside of her work.
+Jessica is a Lead UX Architect for a large media organisation. Day to day she oversees projects, gets hands-on with wireframes (and more), collaborates with her talented UX team, and mentors people inside and outside of her work.
 
 She truly enjoys mentoring, not only does she get to meet lots of wonderful people, she helps them to expand on their current knowledge, or maybe set them on a path to switch careers but she’s improved her UX practice and skillset along the way. She will talk about how you can get into mentoring, empowerment, setting boundaries and more... 
 
