@@ -47,10 +47,6 @@ She truly enjoys mentoring, not only does she get to meet lots of wonderful peop
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
-### Slides
-
-<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/uxbri/jessica-squires-starting-your-mentorship-journey-common-ground-and-selfcare" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
-
 ### Holy Shift! Learnings in UX Research over the years – Shrut Kirti Saksena, Senior Experience Researcher at Adobe
 
 <img src="/images/shrut-kirti-saksena-cropped.jpg" alt="Shrut Kirti Saksena, Senior Experience Researcher at Adobe." class="image-align-right"/>
