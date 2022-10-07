@@ -45,7 +45,7 @@ She truly enjoys mentoring, not only does she get to meet lots of wonderful peop
 
 ### Talk
 
-<div class="embed-container youtube hd"><iframe src="https://youtu.be/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 ### Slides
 
