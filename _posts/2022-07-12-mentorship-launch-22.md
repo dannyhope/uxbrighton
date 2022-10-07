@@ -43,6 +43,14 @@ Jessica is a Lead UX Architect for a large media organisation. Day to day she ov
 
 She truly enjoys mentoring, not only does she get to meet lots of wonderful people, she helps them to expand on their current knowledge, or maybe set them on a path to switch careers but she’s improved her UX practice and skillset along the way. She will talk about how you can get into mentoring, empowerment, setting boundaries and more... 
 
+### Talk
+
+<div class="embed-container youtube hd"><iframe src="https://youtu.be/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
+### Slides
+
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/uxbri/jessica-squires-starting-your-mentorship-journey-common-ground-and-selfcare" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
 ### Holy Shift! Learnings in UX Research over the years – Shrut Kirti Saksena, Senior Experience Researcher at Adobe
 
 <img src="/images/shrut-kirti-saksena-cropped.jpg" alt="Shrut Kirti Saksena, Senior Experience Researcher at Adobe." class="image-align-right"/>
