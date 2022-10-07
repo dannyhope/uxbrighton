@@ -116,7 +116,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Show overview section?", name: "visibility", hint: "Overview info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+              - {label: "Show overview section?", name: "visibility", hint: "Overview info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - label: "Overview content states"
                 name: "overview-state"
                 hint: "Choose whether to show *pre*, *during* or *post*-conference overview content."
@@ -165,7 +165,7 @@ collections:
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                       - {label: "Quote", name: "quote", widget: "text", required: false}
                       - {label: "Quotee", name: "quotee", widget: "string", required: false}
               - label: "During conference content"
@@ -207,7 +207,7 @@ collections:
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                       - {label: "Quote", name: "quote", widget: "text", required: false}
                       - {label: "Quotee", name: "quotee", widget: "string", required: false}
               - label: "Post-conference content"
@@ -249,7 +249,7 @@ collections:
                     widget: "object"
                     collapsed: true
                     fields:
-                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                      - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                       - {label: "Quote", name: "quote", widget: "text", required: false}
                       - {label: "Quotee", name: "quotee", widget: "string", required: false}
           - label: "Attendee information" # Attendee information
@@ -264,7 +264,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show travel & accommodation?", name: "visibility", hint: "Travel & accommodation info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
                   - {label: "Title", name: "title", widget: "string", required: false}
                   - label: "Content"
                     name: "body"
@@ -273,6 +273,7 @@ collections:
                     editor_components: ["separator"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
                     modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                     required: false
+                  - {label: "Show info guide items?", name: "show-info", hint: "Info guide items *(below)*. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
                   - label: "Info guide items"
                     name: "info"
                     widget: "list"
@@ -285,7 +286,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show pre-party info?", name: "visibility", hint: "Pre-party info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show pre-party info?", name: "visibility", hint: "Pre-party info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
                   - label: "Pre-part events"
                     name: "event"
                     widget: "list"
@@ -304,7 +305,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+              - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
               - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string", required: false}
               - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image", required: false}
               - label: "Speaker & talk info."
@@ -313,9 +314,9 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show talk times?", name: "show-times", hint: "Talk times. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-                  - {label: "Show talk videos?", name: "show-videos", hint: "Talk videos. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
-                  - {label: "Show talk slides?", name: "show-slides", hint: "Talk slides. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show talk times?", name: "show-times", hint: "Talk times. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
+                  - {label: "Show talk videos?", name: "show-videos", hint: "Talk videos. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
+                  - {label: "Show talk slides?", name: "show-slides", hint: "Talk slides. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
                   - label: "List of speakers"
                     name: "speaker-list"
                     summary: ""
@@ -376,15 +377,15 @@ collections:
                                   - {label: "Personal website", value: "website"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
-                              - {label: "Social profile label / hashtag", name: "profile-label", widget: "string", required: false}
-                              - {label: "Social profile link / URL", name: "profile-url", widget: "string", required: false}
+                              - {label: "Social profile label / hashtag", name: "profile-label", hint: "Label (eg. *LinkedIn/joeblogs*) or hashtag (eg. *@joeblogs*) for this social profile link.", widget: "string", required: false}
+                              - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
                 summary: "Registration time and event info."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show registration content?", name: "visibility", hint: "Registration info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - {label: "Show registration content?", name: "visibility", hint: "Registration info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: true}
                   - {label: "Registration time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
                   - {label: "Registration title", name: "title", widget: "string"}
                   - {label: "Registration thumbnail", name: "thumbnail", widget: "image"}
@@ -401,7 +402,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: true}
+                  - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: true}
                   - {label: "After-party time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
                   - {label: "After-party title", name: "title", widget: "string"}
                   - {label: "After-party thumbnail", name: "thumbnail", widget: "image"}
@@ -418,7 +419,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+              - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - {label: "Title", name: "title", widget: "string", required: false}
               - label: "Videos"
                 name: "video"
@@ -441,7 +442,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+              - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string", required: false}
               - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image", required: false}
               - label: "Section intro."
@@ -465,7 +466,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Show testimonial (quote)?", name: "visibility", hint: "Testimonial (quote). Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Quote", name: "quote", widget: "text", required: false}
                   - {label: "Quotee", name: "quotee", widget: "string", required: false}
               - label: "Sponsor (Headline)"
@@ -474,7 +475,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor details"
                     name: "sponsor-details"
@@ -508,8 +509,8 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                  - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+                  - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
+                  - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
                   - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
@@ -543,8 +544,8 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
-                  - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **true**.", widget: "boolean", default: true}
+                  - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
+                  - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
@@ -578,7 +579,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Show workshop?", name: "visibility", hint: "Workshop info. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false}
+              - {label: "Show workshop?", name: "visibility", hint: "Workshop info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
               - {label: "Section title", name: "section-title", hint: "Workshop section title.", widget: "string", required: false}
               - label: "Workshop details"
                 name: "details"
