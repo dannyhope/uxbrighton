@@ -47,6 +47,10 @@ She truly enjoys mentoring, not only does she get to meet lots of wonderful peop
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
+### Slides
+
+<a href="https://www.slideshare.net/uxbri/jessica-squires-starting-your-mentorship-journey-common-ground-and-selfcare"><strong>Slides:</strong> </a>
+
 ### Holy Shift! Learnings in UX Research over the years – Shrut Kirti Saksena, Senior Experience Researcher at Adobe
 
 <img src="/images/shrut-kirti-saksena-cropped.jpg" alt="Shrut Kirti Saksena, Senior Experience Researcher at Adobe." class="image-align-right"/>
@@ -59,6 +63,10 @@ Her research expertise lies at the intersection of emerging technologies, global
 In a recent survey looking at 100 Experience Researcher job postings in the US in 2021, it was found that collaboration (84%) and business acumen(scoping, translating business requirements, & influencing product strategy) were the most sought-after requirements, other than the expected requirements of designing and conducting research studies (84%) for a UX Researcher. Also, it is no secret that there is now more demand for user insights than there are UX researchers in the industry.
 
 Shrut's talk highlights the emerging demands of the industry from a UX Research role, elucidates why a change in perspective of mentorship & learning is required to meet these demands & how one could benefit from this perspective shift to grow into an experienced researcher: amplifying the impact of UX research and leveraging research soft-skills of collaboration, communication, connection, and influence to empower product teams & stakeholders.
+
+### Talk
+
+<div class="embed-container youtube hd"><iframe src="https://youtu.be/uZ2j8i8s9WU" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 ### Building effective mentoring relationships – Lewis Nyman, UX, Design & Research Freelancer
 
