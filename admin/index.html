@@ -84,21 +84,21 @@
 
       fields: [
         {
-          label: 'Slideshare URL',
+          label: 'Slideshare talk',
           name: 'url',
-          hint: 'This is the full URL for the Slideshare deck.',
+          hint: 'The talk\'s name part of the Slideshare URL - eg. ***joe-blogs-ux-pearls-of-wisdom***.',
           widget: 'string'
         },
         {
           label: 'Slideshare label',
           name: 'label',
-          hint: 'This is the Slideshare label (text) which will show on the page.',
+          hint: 'The label (text) you\'d like to show on the page - eg. ***Joe Blog\'s UX Pearls Of Wisdom***.',
           widget: 'string'
         }
       ],
 
       // Regex pattern used to search for instances of this block in the markdown document.
-      pattern:  /^<a href="(.*?)"><strong>Slides:<\/strong>(.*?)<\/a>$/ms,
+      pattern:  /^<strong>Slides: <\/strong><a href="https:\/\/www\.slideshare\.net\/uxbri\/(.*?)">(.*?)<\/a>$/ms,
 
       // This is used to populate the custom widget in the markdown editor in the CMS.
       fromBlock: match =>
@@ -111,13 +111,13 @@
       //
       // This is used to serialize the data from the custom widget to the markdown document
       toBlock: function({url, label}, getAsset, fields) {
-        return `<a href="${url || ''}"><strong>Slides:</strong> ${label || ''}</a>`
+        return `<strong>Slides: </strong><a href="https://www.slideshare.net/uxbri/${url || ''}">${label || ''}</a>`
       },
 
       // Preview output for this component. Can either be a string or a React component
       // (component gives better render performance)
       toPreview: ({url, label}, getAsset, fields) => {
-        return `<a href="${url}"><strong>Slides:</strong> ${label}</a>`
+        return `<strong>Slides: </strong><a href="https://www.slideshare.net/uxbri/${url}">${label}</a>`
       },
     })
 
@@ -132,15 +132,15 @@
 
       fields: [
         {
-          label: 'Slideshare URL (embed)',
+          label: 'Slideshare deck ID',
           name: 'url',
-          hint: 'This is the full (embed) URL for the Slideshare deck.',
+          hint: 'Slideshare deck\'s *ID* part of the URL - eg. ***oMuJCaYIpEUZNo***.',
           widget: 'string'
         }
       ],
 
       // Regex pattern used to search for instances of this block in the markdown document.
-      pattern: /^<div class="embed-container slideshare hd"><iframe src="(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
+      pattern: /^<div class="embed-container slideshare hd"><iframe src="https:\/\/www\.slideshare\.net\/slideshow\/embed_code\/key\/(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
 
       // This is used to populate the custom widget in the markdown editor in the CMS.
       fromBlock: match =>
@@ -152,13 +152,13 @@
       //
       // This is used to serialize the data from the custom widget to the markdown document
       toBlock: function({url}, getAsset, fields) {
-        return `<div class="embed-container slideshare hd"><iframe src="${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+        return `<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
 
       // Preview output for this component. Can either be a string or a React component
       // (component gives better render performance)
       toPreview: ({url}, getAsset, fields) => {
-        return `<div class="embed-container slideshare hd"><iframe src="${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+        return `<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
     })
 
@@ -173,15 +173,15 @@
 
       fields: [
         {
-          label: 'YouTube URL',
+          label: 'YouTube video ID',
           name: 'url',
-          hint: 'This is the full URL for the YouTube video.',
+          hint: 'YouTube video\'s *ID* part of the URL - eg. ***uZ2j8i8s9WU***.',
           widget: 'string'
         }
       ],
 
       // Regex pattern used to search for instances of this block in the markdown document.
-      pattern: /^<div class="embed-container youtube hd"><iframe src="(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
+      pattern: /^<div class="embed-container youtube hd"><iframe src="https:\/\/youtube\.com\/embed\/(.*?)" frameborder="0" scrolling="no" allowfullscreen><\/iframe><\/div>$/ms,
 
       // This is used to populate the custom widget in the markdown editor in the CMS.
       fromBlock: match =>
@@ -193,13 +193,13 @@
       //
       // This is used to serialize the data from the custom widget to the markdown document
       toBlock: function({url}, getAsset, fields) {
-        return `<div class="embed-container youtube hd"><iframe src="${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+        return `<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/${url || ''}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
 
       // Preview output for this component. Can either be a string or a React component
       // (component gives better render performance)
       toPreview: ({url}, getAsset, fields) => {
-        return `<div class="embed-container youtube hd"><iframe src="${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
+        return `<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
     })
 
