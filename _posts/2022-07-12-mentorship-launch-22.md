@@ -47,7 +47,9 @@ She truly enjoys mentoring, not only does she get to meet lots of wonderful peop
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
-<strong>Slides: </strong><a href="https://www.slideshare.net/uxbri/jessica-squires-starting-your-mentorship-journey-common-ground-and-selfcare">Starting your mentorship journey, common ground and self-care</a>
+#### Slides
+
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/oMuJCaYIpEUZNo" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 - - -
 
