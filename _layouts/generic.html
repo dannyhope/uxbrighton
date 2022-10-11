@@ -8,7 +8,7 @@
   <title>{{ metaTitle }} - UX Brighton</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if metaDescription %}<meta name="description" content="{{ metaDescription }}">{% endif %}
+  {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
 
   <!-- Google Analytics -->
   {% include tracking-head.html %}
@@ -20,7 +20,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://uxbri.org{{ metaFullUrl }}">
     <meta property="og:title" content="{{ metaTitle }}">
-    {% if metaDescription %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
+    {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
     <meta property="og:image" content="{% if metaSocialImage %}https://uxbri.org{{ metaSocialImage }}{% endif %}">
 
   <!-- twitter card tags additive with the og tags -->
@@ -69,16 +69,16 @@
   {% include header.html %}
 
   <main>
-    <div class="overlay__outer bg-grey-90"{% if page.image != null %} style="background-image: url('/2018/images/photos/attendees.jpg');background-position: center center"{% endif %}>
-      <div class="overlay__inner"{% if page.image != null %} style="background: rgba(0,0,0,0.65);"{% endif %}>
+    <div class="overlay__outer bg-grey-90"{% if page.image and page.image != '' %} style="background-image: url('{{ page.image }}'); background-position: center center"{% endif %}>
+      <div class="overlay__inner"{% if page.image and page.image != '' %} style="background: rgba(0,0,0,0.50);"{% endif %}>
         <div class="container color-white">
-          {% if page.pretitle != null %}
-            <span class="fs-l mb2 block color-orange font-museo track-normal pt5" style="font-weight: 500;">{{ page.pretitle }}</span>
-          {% endif %}
+          {% if page.pretitle and page.pretitle != '' -%}
+            <span class="fs-l mb2 block color-orange font-museo track-normal" style="font-weight: 500;">{{ page.pretitle }}</span>
+          {%- endif %}
           <h1 class="fs-xxxl leading-solid mb2">{{ page.title }}</h1>
-          {% if page.subtitle != null %}
+          {% if page.subtitle and page.subtitle != '' -%}
             <h2 class="mt0 fs-l regular track-normal mb2">{{ page.subtitle }}</h2>
-					{% endif %}
+					{%- endif %}
         </div>
       </div>
     </div>
