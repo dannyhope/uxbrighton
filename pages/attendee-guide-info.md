@@ -5,7 +5,8 @@ pretitle: UX Brighton 2022
 subtitle: Friday 4 November, Brighton Dome
 image: /images/attendees.jpg
 description: Hopefully everything you need to know about coming to UX Brighton 2022.
-permalink: /2022/guide
+permalink: /2022/guide-tastico
+redirect_from: []
 art-direction: |-
   /*
     A comment if you'd like
