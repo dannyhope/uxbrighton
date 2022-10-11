@@ -1,8 +1,18 @@
 ---
-layout: conference-2022/generic
+layout: generic
 title: Attendee Guide Info
-description: Something goes here.
+pretitle: UX Brighton 2022
+subtitle: Friday 4 November, Brighton Dome
+image: /images/attendees.jpg
+description: Hopefully everything you need to know about coming to UX Brighton 2022.
 permalink: /2022/guide
+art-direction: |-
+  /*
+    A comment if you'd like
+  */
+  .myClass {
+    font-size: 4rem;
+  }
 ---
 ## We want you to get the most out of your visit to UX Brighton.
 
@@ -29,5 +39,3 @@ The venue is fully accessible. We would like to ensure that all delegates are ab
 If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a bright green UX Brighton t-shirt – or by calling or texting the number printed on your name badge. Your call will be answered by an on-site member of our staff.
 
 **We reserve the right to refuse admission.**
-
-<img src="/images/header.jpg" alt="" class="image-align-inline"/>

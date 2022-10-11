@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
 <head>
-  <title>{{ metaTitle }} | UX Brighton</title>
+  <title>{{ metaTitle }} - UX Brighton</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if metaDescription %}<meta name="description" content="{{ metaDescription }}">{% endif %}
@@ -45,18 +45,23 @@
   <!-- Styles -->
     <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
     <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
+    <link rel="stylesheet" href="/2022/conf-page-partials/styles-to-be-rationalised.css">
+
+  <!-- Page-specific "art direction" styles -->
+    {% if page.art-direction %}
+      <style>
+        {{ page.art-direction }}
+      </style>
+    {% endif %}
 
   <!-- Pre dom-ready scripts -->
     <script>
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
-      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+      window.q=[]; window.$=function(f){q.push(f);}; // Make a queue for $
     </script>
-
-    <link rel="stylesheet" href="/2022/conf-page-partials/styles-to-be-rationalised.css">
 </head>
 
-
-<body  id="top" class="relative template--2022 template--generic {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+<body id="top" class="relative template--2022 template--generic {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
 
   <!-- Google Analytics -->
   {% include tracking-body.html %}
@@ -64,12 +69,16 @@
   {% include header.html %}
 
   <main>
-    <div class="overlay__outer" style="background-image: url('/2018/images/photos/attendees.jpg');background-position: center center">
-      <div class="overlay__inner" style="background: rgba(0,0,0,0.65);">
-        <div class="container">
-          <h1 class="fs-xxxl mb2 color-white">
-            {{ page.title }}
-          </h1>
+    <div class="overlay__outer bg-grey-90"{% if page.image != null %} style="background-image: url('/2018/images/photos/attendees.jpg');background-position: center center"{% endif %}>
+      <div class="overlay__inner"{% if page.image != null %} style="background: rgba(0,0,0,0.65);"{% endif %}>
+        <div class="container color-white">
+          {% if page.pretitle != null %}
+            <span class="fs-l mb2 block color-orange font-museo track-normal pt5" style="font-weight: 500;">{{ page.pretitle }}</span>
+          {% endif %}
+          <h1 class="fs-xxxl leading-solid mb2">{{ page.title }}</h1>
+          {% if page.subtitle != null %}
+            <h2 class="mt0 fs-l regular track-normal mb2">{{ page.subtitle }}</h2>
+					{% endif %}
         </div>
       </div>
     </div>

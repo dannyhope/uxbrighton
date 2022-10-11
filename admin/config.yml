@@ -658,11 +658,15 @@ collections:
     editor:
       preview: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/generic"} # The `layout` field is hidden in the GUI and needs to be changed here instead
-      - {label: "Title", name: "title", hint: "The primary title of the page.", widget: "string"}
-      - {label: "Description", name: "description", hint: "This populates the *meta* description.", widget: "string", required: false}
-      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display - eg. ***/2022/guide***.", widget: "string", required: false}
-      - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple - eg. ***/guide-tastic, /another-fun-url***.", widget: "list", allow_add: true, required: false}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "generic"} # The `layout` field is hidden in the GUI and needs to be changed here instead
+      - {label: "Title", name: "title", hint: "Primary title of the page. This also generates the page *slug*.", widget: "string"}
+      - {label: "Pre-title", name: "pretitle", hint: "Text appearing just ***above*** the title.", widget: "string", required: false}
+      - {label: "Sub-title", name: "subtitle", hint: "Text appearing just ***under*** the title.", widget: "string", required: false}
+      - {label: "Background Image", name: "image", hint: "Background image appearing behind the title text.", widget: "image", required: false}
+      - {label: "Description", name: "description", hint: "Populates the *meta* description. Helpful for SEO.", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/2022/guide***.", widget: "string", required: false}
+      - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* - redirects eg. ***/guide-tastic, /another-fun-url***.", widget: "list", allow_add: true, required: false}
+      - {label: "Art direction", name: "art-direction", hint: "If you'd like to add page-specific inline CSS.", widget: "code", allow_language_selection: false, output_code_only: true, default_language: "css", required: false}
       - label: "Body"
         name: "body"
         widget: "markdown"
