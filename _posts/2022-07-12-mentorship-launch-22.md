@@ -1,29 +1,27 @@
 ---
-start: 7pm to 9pm
-fullurl: https://uxbri.org/mentorship-launch-22/
-price: £10
 layout: conference-2022/event-page
-title: Mentorship Launch
-venue: Spaces
-ticket:
-  state: ticketed
-  link: https://www.tickettailor.com/events/uxbrighton/719267
-  price: £10
-published: true
-ticket-link: https://www.tickettailor.com/events/uxbrighton/719267
 file-name: 2022-07-12-mentorship-launch-22
+title: Mentorship Launch
 description: UX Brighton Mentorship Launch, Tuesday 12 July 2022, 7-9pm at
   Spaces, Brighton. Get inspired and gain clarity on what you want to achieve
   from your mentor/ee relationship.
 social-image: ""
+venue: Spaces
+start: 7pm to 9pm
+ticket:
+  state: ticketed
+  link: https://www.tickettailor.com/events/uxbrighton/719267
+  price: £10
+fullurl: https://uxbri.org/mentorship-launch-22/
+price: £10
 conference: false
+published: true
+ticket-link: https://www.tickettailor.com/events/uxbrighton/719267
 upcoming: false
 ---
 Are you an ambitious UXer who wants to improve your confidence, skills and career?  The UX Brighton mentorship program has been created to support and inspire you on your journey.
 
 Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the community.
-
-- - -
 
 ## What the event is for
 
@@ -31,9 +29,7 @@ The Mentorship Launch is the first in a series of events as part of the UX Brigh
 
 Attend the launch to meet other UXers broadening their horizons. This is where you can get ready for pairing up with your new mentor/ee at the next UX Brighton mentorship evening in August at the speed-matching event.
 
-- - -
-
-## Speakers
+## Talks
 
 ### **Starting your journey, common ground and self-care –** Jessica Squires, Lead User Experience Architect
 
@@ -50,8 +46,6 @@ She truly enjoys mentoring, not only does she get to meet lots of wonderful peop
 #### Slides
 
 <div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/oMuJCaYIpEUZNo" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
-
-- - -
 
 ### Holy Shift! Learnings in UX Research over the years – Shrut Kirti Saksena, Senior Experience Researcher at Adobe
 
@@ -70,8 +64,6 @@ Shrut's talk highlights the emerging demands of the industry from a UX Research 
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/uZ2j8i8s9WU" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
-- - -
-
 ### Building effective mentoring relationships – Lewis Nyman, UX, Design & Research Freelancer
 
 <img src="/images/d7x_0366-wowo_sm_2400px.jpg" alt="Lewis Nyman, UX, Design & Research Freelancer." class="image-align-right"/>
@@ -79,8 +71,6 @@ Shrut's talk highlights the emerging demands of the industry from a UX Research 
 Lewis Nyman is a UK senior public sector contractor in UX, Research, and Service Design. He's worked with the NHS, The Cabinet Office, GDS, hackney Council, and The Crown Prosecution Service.  He's also the founder of electric campervan hire company Wild Drives. He's been a UX mentor at Springboard for 2 years. 
 
 A mentoring relationship is beneficial for both sides, Lewis is going to be presenting research that outlines how to create an effective mentoring relationship.
-
-- - -
 
 ### Growing your career with (or without) a mentor – Peter Winchester, Head of Design at Madgex
 
@@ -91,8 +81,6 @@ Peter is a designer and design leader with over 12 years of experience. He’s w
 Working with a mentor is a great way to help move your career forward. But not everyone will find the right person, at the right time. Peter’s going to talk about some potential alternative ways you can continue to progress your career.
 
 This event is supported by [Silicon Brighton](https://siliconbrighton.com/)
-
-- - -
 
 ## Any questions?
 
