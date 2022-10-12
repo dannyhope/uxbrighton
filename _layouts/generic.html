@@ -1,6 +1,7 @@
 {%- assign metaTitle = page.title -%}
 {%- assign metaDescription = page.description -%}
 {%- assign metaFullUrl = page.permalink -%}
+{%- assign seoIndexing = page.seo -%}
 
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
@@ -9,6 +10,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
+  <meta name="robots" content="{% if seoIndexing != true %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
   <!-- Google Analytics -->
   {% include tracking-head.html %}
@@ -30,6 +32,11 @@
     <meta name="twitter:title" value="{{ metaTitle }}">
     {% if metaDescription %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
     <meta name="twitter:url" value="https://uxbri.org{{ metaFullUrl }}">
+
+    {% if seoIndexing == true %}
+  <!-- Canonical -->
+    <link rel="canonical" href="https://uxbri.org{{ metaFullUrl }}">
+    {% endif %}
 
   <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">

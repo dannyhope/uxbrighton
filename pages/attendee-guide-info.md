@@ -7,6 +7,7 @@ image: /images/attendees.jpg
 description: Hopefully everything you need to know about coming to UX Brighton 2022.
 permalink: /2022/guide-tastico
 redirect_from: []
+seo: false
 art-direction: |-
   /*
     A comment if you'd like
