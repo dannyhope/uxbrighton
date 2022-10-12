@@ -19,7 +19,7 @@ display_url: https://uxbri.org/
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
-    # "Conferences collection"
+  # "Conferences collection"
   - label: "Conferences"
     name: "conferences"
     description: "Year-specific UX Brighton conference homepages."
@@ -610,7 +610,7 @@ collections:
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                         required: false
                       - {label: "Summary CTA (label)", name: "cta", hint: "Worshop summary call-to-action (label).", widget: "string", required: false}
-    # "Events collection"
+  # "Events collection"
   - label: "Event pages"
     name: "event-pages"
     description: "Event pages (Past, Present & Future)."
@@ -642,6 +642,32 @@ collections:
       - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Full URL", name: "fullurl", hint: "Full live URL of the page.", widget: "string", required: false}
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "code", "link", "heading-two", "heading-three", "heading-four", "heading-five", "quote", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
+        required: false
+
+  # "Generic pages collection"
+  - label: "Generic pages"
+    name: "generic-pages"
+    description: "Generic pages - eg. 'About', 'GDPR & Cookies' etc."
+    folder: "pages"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "generic"} # The `layout` field is hidden in the GUI and needs to be changed here instead
+      - {label: "Title", name: "title", hint: "Primary title of the page. This also generates the page *slug*.", widget: "string"}
+      - {label: "Pre-title", name: "pretitle", hint: "Text appearing just ***above*** the title.", widget: "string", required: false}
+      - {label: "Sub-title", name: "subtitle", hint: "Text appearing just ***under*** the title.", widget: "string", required: false}
+      - {label: "Background Image", name: "image", hint: "Background image appearing behind the title text.", widget: "image", required: false}
+      - {label: "Description", name: "description", hint: "Populates the *meta* description. Helpful for SEO.", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/2022/guide***.", widget: "string", required: false}
+      - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* redirects - eg. ***/guide-tastic, /another-fun-url***.", widget: "list", allow_add: true, required: false}
+      - {label: "Index on search engines?", name: "seo", hint: "Choose whether to index on search engines or not. Defaults to **yes**.", widget: "boolean", default: true}
+      - {label: "Art direction", name: "art-direction", hint: "If you'd like to add page-specific inline CSS.", widget: "code", allow_language_selection: false, output_code_only: true, default_language: "css", required: false}
       - label: "Body"
         name: "body"
         widget: "markdown"

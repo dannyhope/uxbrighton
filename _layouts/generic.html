@@ -1,0 +1,105 @@
+{%- assign metaTitle = page.title -%}
+{%- assign metaDescription = page.description -%}
+{%- assign metaFullUrl = page.permalink -%}
+{%- assign seoIndexing = page.seo -%}
+
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
+<head>
+  <title>{{ metaTitle }} - UX Brighton</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
+  <meta name="robots" content="{% if seoIndexing != true %}noindex, nosnippet{% else %}index{% endif %}, follow">
+
+  <!-- Google Analytics -->
+  {% include tracking-head.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-head.html %}
+
+  <!-- facebook open graph tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://uxbri.org{{ metaFullUrl }}">
+    <meta property="og:title" content="{{ metaTitle }}">
+    {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
+    <meta property="og:image" content="{% if metaSocialImage %}https://uxbri.org{{ metaSocialImage }}{% endif %}">
+
+  <!-- twitter card tags additive with the og tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{% if metaSocialImage %}https://uxbri.org{{ metaSocialImage }}{% endif %}">
+    <meta name="twitter:domain" value="https://uxbri.org{{ metaFullUrl }}">
+    <meta name="twitter:title" value="{{ metaTitle }}">
+    {% if metaDescription %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
+    <meta name="twitter:url" value="https://uxbri.org{{ metaFullUrl }}">
+
+    {% if seoIndexing == true %}
+  <!-- Canonical -->
+    <link rel="canonical" href="https://uxbri.org{{ metaFullUrl }}">
+    {% endif %}
+
+  <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+  <!-- Styles -->
+    <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
+    <link rel="stylesheet" href="/2022/conf-page-partials/styles-to-be-rationalised.css">
+
+  <!-- Page-specific "art direction" styles -->
+    {% if page.art-direction %}
+      <style>
+        {{ page.art-direction }}
+      </style>
+    {% endif %}
+
+  <!-- Pre dom-ready scripts -->
+    <script>
+      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+      window.q=[]; window.$=function(f){q.push(f);}; // Make a queue for $
+    </script>
+</head>
+
+<body id="top" class="relative template--2022 template--generic {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+
+  <!-- Google Analytics -->
+  {% include tracking-body.html %}
+
+  {% include header.html %}
+
+  <main>
+    <div class="overlay__outer bg-grey-90"{% if page.image and page.image != '' %} style="background-image: url('{{ page.image }}'); background-position: center center"{% endif %}>
+      <div class="overlay__inner"{% if page.image and page.image != '' %} style="background: rgba(0,0,0,0.50);"{% endif %}>
+        <div class="container color-white">
+          {% if page.pretitle and page.pretitle != '' -%}
+            <span class="fs-l mb2 block color-orange font-museo track-normal" style="font-weight: 500;">{{ page.pretitle }}</span>
+          {%- endif %}
+          <h1 class="fs-xxxl leading-solid mb2">{{ page.title }}</h1>
+          {% if page.subtitle and page.subtitle != '' -%}
+            <h2 class="mt0 fs-l regular track-normal mb2">{{ page.subtitle }}</h2>
+					{%- endif %}
+        </div>
+      </div>
+    </div>
+    <div class="overlay__after container bg-white pt5">
+      {{ content }}
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+  {% include nav.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-body.html %}
+
+</body>
+</html>
