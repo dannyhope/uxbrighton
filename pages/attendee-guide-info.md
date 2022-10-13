@@ -8,13 +8,7 @@ description: Hopefully everything you need to know about coming to UX Brighton 2
 permalink: /2022/info
 redirect_from: []
 seo: true
-art-direction: |-
-  /*
-    A comment if you'd like
-  */
-  .myClass {
-    font-size: 4rem;
-  }
+art-direction: ""
 ---
 ## We want you to get the most out of your visit to UX Brighton.
 
@@ -26,11 +20,11 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
 
 - - -
 
-### Pre-conf meetup – 3rd Nov
+<h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
 
 In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm.
 
-### Pre-event breakfast networking & coffee – 4th Nov
+<h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
 
 If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 

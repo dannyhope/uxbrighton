@@ -54,11 +54,11 @@
     <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
     <link rel="stylesheet" href="/2022/conf-page-partials/styles-to-be-rationalised.css">
 
+    {% if page.art-direction and page.art-direction != '' %}
   <!-- Page-specific "art direction" styles -->
-    {% if page.art-direction %}
-      <style>
-        {{ page.art-direction }}
-      </style>
+    <style>
+      {{ page.art-direction }}
+    </style>
     {% endif %}
 
   <!-- Pre dom-ready scripts -->
