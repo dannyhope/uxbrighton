@@ -29,9 +29,7 @@ The Mentorship Launch is the first in a series of events as part of the UX Brigh
 
 Attend the launch to meet other UXers broadening their horizons. This is where you can get ready for pairing up with your new mentor/ee at the next UX Brighton mentorship evening in August at the speed-matching event.
 
-## Talks
-
-### **Starting your journey, common ground and self-care –** Jessica Squires, Lead User Experience Architect
+## **Starting your journey, common ground and self-care –** Jessica Squires, Lead User Experience Architect
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
@@ -41,7 +39,7 @@ Jessica is a Lead UX Architect for a large media organisation. Day to day she ov
 
 She truly enjoys mentoring, not only does she get to meet lots of wonderful people, she helps them to expand on their current knowledge, or maybe set them on a path to switch careers but she’s improved her UX practice and skillset along the way. She will talk about how you can get into mentoring, empowerment, setting boundaries and more... 
 
-### Holy Shift! Learnings in UX Research over the years – Shrut Kirti Saksena, Senior Experience Researcher at Adobe
+## Holy Shift! Learnings in UX Research over the years – Shrut Kirti Saksena, Senior Experience Researcher at Adobe
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/uZ2j8i8s9WU" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
@@ -56,7 +54,7 @@ In a recent survey looking at 100 Experience Researcher job postings in the US i
 
 Shrut's talk highlights the emerging demands of the industry from a UX Research role, elucidates why a change in perspective of mentorship & learning is required to meet these demands & how one could benefit from this perspective shift to grow into an experienced researcher: amplifying the impact of UX research and leveraging research soft-skills of collaboration, communication, connection, and influence to empower product teams & stakeholders.
 
-### Building effective mentoring relationships – Lewis Nyman, UX, Design & Research Freelancer
+## Building effective mentoring relationships – Lewis Nyman, UX, Design & Research Freelancer
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/9HnvpawBUJk" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
@@ -66,7 +64,7 @@ Lewis Nyman is a UK senior public sector contractor in UX, Research, and Service
 
 A mentoring relationship is beneficial for both sides, Lewis is going to be presenting research that outlines how to create an effective mentoring relationship.
 
-### Growing your career with (or without) a mentor – Peter Winchester, Head of Design at Madgex
+## Growing your career with (or without) a mentor – Peter Winchester, Head of Design at Madgex
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/6kj7-fc5mLI" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
