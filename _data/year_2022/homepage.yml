@@ -125,12 +125,12 @@ attendee-info:
     visibility: true
     event:
       - body: >-
-          <h3>Pre-conf meetup – 31<sup>st</sup> Oct</h3>
+          <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
 
 
           In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too!
       - body: >-
-          <h3>Pre-event networking & coffee – 1<sup>st</sup> Nov</h3>
+          <h3>Pre-event networking & coffee – 4<sup>th</sup> Nov</h3>
 
 
           If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
@@ -258,30 +258,6 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/kateflood16/
               profile-label: LinkedIn/kateflood16
-      - talk-info:
-          talk-time: ""
-          talk-title: "Arrogance & Confidence in Design...Redux "
-          talk-summary: Ten years ago Jonty gave a talk that changed his life. Now he
-            revisits some of those lines of inquiry that upended his career (in
-            a good way). With the benefit of hindsight, some spectacular
-            mistakes, and a decade of experience scaling businesses and teams,
-            what does Arrogance and Confidence look like in 2022?
-        name: Jonty Sharples
-        thumbnail: /images/screenshot-2022-10-13-at-10.43.22.png
-        anchor: Jonty-Sharples
-        speaker-bio:
-          bio-title: About Jonty
-          bio-summary: >-
-            Jonty's been involved in the creation of digital 'stuff' for over
-            two decades, with clients spanning museums, console and mobile
-            device manufacturers, transport networks, charities, educational
-            programs, government departments, financial services...he’s even
-            helped redesign an ambulance. He loves complicated, and relishes
-            making sense of the chaotic.\
-
-            Jonty is currently VP of Product and Design at Airalo.
-      - talk-info:
-          talk-time: ""
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
