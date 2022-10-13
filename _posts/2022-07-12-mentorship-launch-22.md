@@ -35,19 +35,19 @@ Attend the launch to meet other UXers broadening their horizons. This is where y
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/x7dEbgh3GGw" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
+[S﻿lides for Starting your journey, common ground and self-care](https://www.slideshare.net/uxbri/jessica-squires-starting-your-mentorship-journey-common-ground-and-selfcare)
+
 <img src="/images/jessica_squires_cropped.png" alt="Jessica Squires, Lead User Experience Architect" class="image-align-right"/>
 
 Jessica is a Lead UX Architect for a large media organisation. Day to day she oversees projects, gets hands-on with wireframes (and more), collaborates with her talented UX team, and mentors people inside and outside of her work.
 
 She truly enjoys mentoring, not only does she get to meet lots of wonderful people, she helps them to expand on their current knowledge, or maybe set them on a path to switch careers but she’s improved her UX practice and skillset along the way. She will talk about how you can get into mentoring, empowerment, setting boundaries and more... 
 
-#### Slides
-
-<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/oMuJCaYIpEUZNo" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
-
 ### Holy Shift! Learnings in UX Research over the years – Shrut Kirti Saksena, Senior Experience Researcher at Adobe
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/uZ2j8i8s9WU" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
+[S﻿lides for Holy Shift! Learnings in UX Research over the years](https://www.slideshare.net/uxbri/shrut-kirti-saksena-holy-shift-learnings-in-ux-research-over-the-years)
 
 <img src="/images/shrut-kirti-saksena-cropped.jpg" alt="Shrut Kirti Saksena, Senior Experience Researcher at Adobe." class="image-align-right"/>
 
@@ -64,6 +64,8 @@ Shrut's talk highlights the emerging demands of the industry from a UX Research 
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/9HnvpawBUJk" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
+[S﻿lides for effective mentoring relationships](https://www.slideshare.net/uxbri/lewis-nyman-building-effective-mentoring-relationships)
+
 <img src="/images/d7x_0366-wowo_sm_2400px.jpg" alt="Lewis Nyman, UX, Design & Research Freelancer." class="image-align-right"/>
 
 Lewis Nyman is a UK senior public sector contractor in UX, Research, and Service Design. He's worked with the NHS, The Cabinet Office, GDS, hackney Council, and The Crown Prosecution Service.  He's also the founder of electric campervan hire company Wild Drives. He's been a UX mentor at Springboard for 2 years. 
@@ -73,6 +75,8 @@ A mentoring relationship is beneficial for both sides, Lewis is going to be pres
 ### Growing your career with (or without) a mentor – Peter Winchester, Head of Design at Madgex
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/6kj7-fc5mLI" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
+[S﻿lides for Growing your career with (or without) a mentor](https://www.slideshare.net/uxbri/peter-winchester-growing-your-career-with-or-without-a-mentor)
 
 <img src="/images/pw.jpeg" alt="Peter Winchester" class="image-align-right"/>
 
