@@ -122,13 +122,13 @@ attendee-info:
       - item: After Party
     show-info: true
   pre-party:
-    visibility: false
+    visibility: true
     event:
       - body: >-
           <h3>Pre-conf meetup – 31<sup>st</sup> Oct</h3>
 
 
-          In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for [Jay](https://uxbrighton.org.uk/about/#jay) in the bright green UX Brighton t-shirt.
+          In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too!
       - body: >-
           <h3>Pre-event networking & coffee – 1<sup>st</sup> Nov</h3>
 
