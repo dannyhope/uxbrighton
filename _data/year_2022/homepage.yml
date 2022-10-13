@@ -107,6 +107,9 @@ attendee-info:
 
 
       Before the conference why not [join the UX Brighton Slack](https://slofile.com/slack/uxbri) and get chatting with other UXers. We’ve also got a rather nice [\#jobs](https://uxbri.slack.com/messages/jobs).
+
+
+      See our [Attendee information guide](https://uxbri.org/2022/info) for everything you need to get the most out of your visit to UX Brighton, including:
     info:
       - item: Travel
       - item: Accommodation
@@ -117,7 +120,7 @@ attendee-info:
       - item: Registration
       - item: Refreshments
       - item: After Party
-    show-info: false
+    show-info: true
   pre-party:
     visibility: false
     event:
