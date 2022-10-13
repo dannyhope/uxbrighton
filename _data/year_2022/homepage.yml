@@ -1,5 +1,8 @@
 title: UX and Product Management - UX Brighton Conference 2022
+description: Join us for our 🎂 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
+social-image: ""
+event-promo-top-of-page: false
 hero:
   hero-state: pre
   global:
@@ -95,7 +98,8 @@ attendee-info:
     body: >-
       The conference is being held in the beautiful and historic [Brighton Dome
       Concert Hall](https://brightondome.org/your_visit/venues/concert_hall/):
-      just [10 minutes from Brighton Station](https://goo.gl/maps/zkU5qz2Zyok),
+      just [10 minutes from Brighton
+      Station](https://www.google.co.uk/maps/dir/Brighton,+Queens+Rd,+Brighton+BN1+3XP/Brighton+Dome,+Church+St,+Brighton+BN1+1UE/@50.8262758,-0.144999,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x487585743a2f976d:0x59436d7ac9c32976!2m2!1d-0.1410151!2d50.8288519!1m5!1m1!1s0x4875850a94b987c3:0x204845bd08377bb3!2m2!1d-0.1380842!2d50.8236999!3e2?hl=en),
       3 minutes from the Lanes, 5 minutes from the beach and a whole heap of
       great restaurants and hotels. Registration starts from 9am with the first
       speaker on at 10am, we’ll email you to let you know when the talk times
@@ -103,6 +107,9 @@ attendee-info:
 
 
       Before the conference why not [join the UX Brighton Slack](https://slofile.com/slack/uxbri) and get chatting with other UXers. We’ve also got a rather nice [\#jobs](https://uxbri.slack.com/messages/jobs).
+
+
+      See our [Attendee information guide](https://uxbri.org/2022/info) for everything you need to get the most out of your visit to UX Brighton, including:
     info:
       - item: Travel
       - item: Accommodation
@@ -113,15 +120,15 @@ attendee-info:
       - item: Registration
       - item: Refreshments
       - item: After Party
-    show-info: false
+    show-info: true
   pre-party:
-    visibility: false
+    visibility: true
     event:
       - body: >-
           <h3>Pre-conf meetup – 31<sup>st</sup> Oct</h3>
 
 
-          In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for [Jay](https://uxbrighton.org.uk/about/#jay) in the bright green UX Brighton t-shirt.
+          In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too!
       - body: >-
           <h3>Pre-event networking & coffee – 1<sup>st</sup> Nov</h3>
 
@@ -251,6 +258,30 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/kateflood16/
               profile-label: LinkedIn/kateflood16
+      - talk-info:
+          talk-time: ""
+          talk-title: "Arrogance & Confidence in Design...Redux "
+          talk-summary: Ten years ago Jonty gave a talk that changed his life. Now he
+            revisits some of those lines of inquiry that upended his career (in
+            a good way). With the benefit of hindsight, some spectacular
+            mistakes, and a decade of experience scaling businesses and teams,
+            what does Arrogance and Confidence look like in 2022?
+        name: Jonty Sharples
+        thumbnail: /images/screenshot-2022-10-13-at-10.43.22.png
+        anchor: Jonty-Sharples
+        speaker-bio:
+          bio-title: About Jonty
+          bio-summary: >-
+            Jonty's been involved in the creation of digital 'stuff' for over
+            two decades, with clients spanning museums, console and mobile
+            device manufacturers, transport networks, charities, educational
+            programs, government departments, financial services...he’s even
+            helped redesign an ambulance. He loves complicated, and relishes
+            making sense of the chaotic.\
+
+            Jonty is currently VP of Product and Design at Airalo.
+      - talk-info:
+          talk-time: ""
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
@@ -282,6 +313,28 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
+highlights:
+  visibility: true
+  title: Highlights from previous years
+  video:
+    - url: https://youtu.be/rz7sy81Yg5E
+      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
+      alt: ResearchOps - Kate Towsey
+    - url: https://youtu.be/8A3SEmvx7uY
+      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
+      alt: UX and Forecasting - James Woudhuysen
+    - url: https://youtu.be/DjRR1MpBr1g
+      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+      alt: Top Tasks - Gerry McGovern
+    - alt: Atomic UX - Daniel Pidcock
+      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      url: https://youtu.be/h9s3DrImGXA
+  testimonial:
+    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+      you'll get access to some of the most cutting-edge presentations you can
+      imagine. Well organized, fabulous location, packed with valuable content —
+      go if you can: it's worth the investment."
+    quotee: Jim Kalbach, Past Speaker
 sponsors:
   visibility: true
   section-title: Sponsors
@@ -439,28 +492,3 @@ workshop:
     back-image: /images/voice-ui-workshop.jpeg
   section-title: Workshop
 image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: Join us for our 🎂 10th annual one-day conference!
-social-image: ""
-event-promo-top-of-page: false
-highlights:
-  visibility: true
-  title: Highlights from previous years
-  video:
-    - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
-      alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
-      alt: Top Tasks - Gerry McGovern
-    - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
-      url: https://youtu.be/h9s3DrImGXA
-  testimonial:
-    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
-      you'll get access to some of the most cutting-edge presentations you can
-      imagine. Well organized, fabulous location, packed with valuable content —
-      go if you can: it's worth the investment."
-    quotee: Jim Kalbach, Past Speaker
