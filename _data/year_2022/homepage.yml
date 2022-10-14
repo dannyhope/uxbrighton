@@ -280,6 +280,13 @@ speakers:
 
             Jonty is currently VP of Product and Design at Airalo.
           bio-title: About Jonty
+          social-profiles:
+            - profile-type: linkedin
+              profile-label: LinkedIn/jontysharples
+              profile-url: https://www.linkedin.com/in/jontysharples/
+            - profile-type: twitter
+              profile-label: "@gringomoses"
+              profile-url: https://twitter.com/gringomoses
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
