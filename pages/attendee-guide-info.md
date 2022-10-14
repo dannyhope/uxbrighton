@@ -100,6 +100,6 @@ Did you know we have a Slack group with 1500 members? You can join here: <http:/
 * We are unable to issue refunds or transfers.
 * Of course, you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list.
 
-Thanks for reading, we look forward to seeing you on the 3rd!
+Thanks for reading, we look forward to seeing you on the 4th!
 
 Danny & Annie-Marie [UX Brighton](https://twitter.com/uxbri) (DMs are open)
