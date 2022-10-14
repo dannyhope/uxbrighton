@@ -2,6 +2,7 @@
 {%- assign metaDescription = page.description -%}
 {%- assign metaFullUrl = page.permalink -%}
 {%- assign seoIndexing = page.seo -%}
+{%- assign metaSocialImage = page.social-image -%}
 
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
@@ -18,22 +19,22 @@
   <!-- Social media analytics -->
   {% include social-tracking-head.html %}
 
+    {% if seoIndexing == true %}
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://uxbri.org{{ metaFullUrl }}">
     <meta property="og:title" content="{{ metaTitle }}">
     {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
-    <meta property="og:image" content="{% if metaSocialImage %}https://uxbri.org{{ metaSocialImage }}{% endif %}">
+    {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
 
-  <!-- twitter card tags additive with the og tags -->
+  <!-- twitter card tags additive with the og: tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{% if metaSocialImage %}https://uxbri.org{{ metaSocialImage }}{% endif %}">
+    {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
     <meta name="twitter:domain" value="https://uxbri.org{{ metaFullUrl }}">
     <meta name="twitter:title" value="{{ metaTitle }}">
-    {% if metaDescription %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
+    {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
     <meta name="twitter:url" value="https://uxbri.org{{ metaFullUrl }}">
 
-    {% if seoIndexing == true %}
   <!-- Canonical -->
     <link rel="canonical" href="https://uxbri.org{{ metaFullUrl }}">
     {% endif %}
