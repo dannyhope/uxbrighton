@@ -1,10 +1,14 @@
+{%- assign metaTitle = page.title -%}
+{%- assign metaDescription = page.description -%}
+{%- assign metaFullUrl = page.permalink -%}
+
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
 <head>
-  <title>{% if page.title %}{{ page.title }} - {% endif %}UX Brighton</title>
+  <title>{{ metaTitle }} - UX Brighton</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
+  {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
 
   <!-- Google Analytics -->
   {% include tracking-head.html %}
@@ -14,18 +18,18 @@
 
     <!-- facebook open graph tags -->
       <meta property="og:type" content="website">
-      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% endif %}">
-      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}">
-      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}">
+      <meta property="og:url" content="https://uxbri.org{{ metaFullUrl }}">
+      <meta property="og:title" content="{{ metaTitle }}">
+      {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
       <meta property="og:image" content="{% if page.social-image %}https://uxbri.org{{ page.social-image }}{% endif %}">
 
     <!-- twitter card tags additive with the og: tags -->
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:image" content="{% if page.social-image %}https://uxbri.org{{ page.social-image }}{% endif %}">
-      <meta name="twitter:domain" value="{{ page.fullurl }}">
-      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% endif %}">
-      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% endif %}">
-      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% endif %}">
+      <meta name="twitter:domain" value="https://uxbri.org{{ metaFullUrl }}">
+      <meta name="twitter:title" value="{{ metaTitle }}">
+      {% if metaDescription %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
+      <meta name="twitter:url" value="https://uxbri.org{{ metaFullUrl }}">
 
   <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">

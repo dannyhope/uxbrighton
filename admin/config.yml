@@ -616,18 +616,19 @@ collections:
     description: "Event pages (Past, Present & Future)."
     folder: "_posts"
     identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
-    slug: "{{file-name}}"
+    slug: "{{event-date}}-{{permalink}}" # This generates the URL - eg. "2022-06-12-this-part-is-the-url"
     create: true
     editor:
       preview: true
     fields: # stuff unique to each post follows
       - {label: "Layout", name: "layout", widget: "hidden", default: "conference-2022/event-page"} # The `layout` field is hidden in the GUI and needs to be changed here instead
-      - {label: "File Name", name: "file-name", hint: "This is the full file name - (*including the date prefix*). Eg. **2022-06-12-this-part-is-the-url**", widget: "string"}
       - {label: "Title", name: "title", hint: "The primary title of the event.", widget: "string"}
-      - {label: "Description", name: "description", hint: "This populates the *meta* description.", widget: "string"}
+      - {label: "Description", name: "description", hint: "Populates the *meta* description. Helpful for SEO.", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/social***.", widget: "string"}
       - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
       - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: "TBA"}
-      - {label: "Start", name: "start", hint: "Event time.", widget: "string", required: false}
+      - {label: "Event date", name: "event-date", hint: "Date of the event. This is needed as part of generating the actual file name.", widget: "date", default: "", format: 'YYYY-MM-DD'}
+      - {label: "Start", name: "start", hint: "Enter an event time - eg. ***7pm***.", widget: "string", required: false}
       - label: "Ticket"
         name: "ticket"
         summary: "Ticket state, link and price."
@@ -636,8 +637,7 @@ collections:
         fields:
           - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["Free", "Ticketed", "Unticketed", "Sold out"], default: "Ticketed"}
           - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
-          - {label: "Ticket price", name: "price", hint: "Enter ticket price.", widget: "string", required: false}
-          # - {label: "Ticket price", name: "price", hint: "Enter **free** if no ticket price. Defaults to **free**.", widget: "string", default: "free", required: false}
+          - {label: "Ticket price", name: "price", hint: "Enter ticket price - eg. ***£10***.", widget: "string", required: false}
       - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **false**.", widget: "boolean", default: false}
