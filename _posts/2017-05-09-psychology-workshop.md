@@ -1,11 +1,14 @@
 ---
-layout: event-page  
+layout: event-page
 title: Psychology for Design workshop
 venue: 68 Middle Street
 start: 9:30am
 price: £350–450
 published: true
 homepage: false
+permalink: /psychology-workshop
+event-date: 2017-05-09
+seo: true
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 95%; max-width: 120px;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 30%; float: left; padding-right: 1em}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
 

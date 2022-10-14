@@ -1,5 +1,5 @@
 ---
-layout: event-page	
+layout: event-page
 title: February Triple Bill
 price: £4+VAT & fees
 venue: The Skiff
@@ -10,6 +10,10 @@ homepage: false
 
 upcoming: false
 published: true
+permalink: /February-triple-bill
+event-date: 2019-02-12
+seo: true
+
 description: "Rachel McConnell – How to take your content from zero to hero; Fiona MacNeill – A UX perspective on ‘bring your own data’ in healthcare; Nabeeha Ahmed — The Selfish Giant - the converted"
 fullurl: https://uxbrighton.org.uk/February-triple-bill/
 

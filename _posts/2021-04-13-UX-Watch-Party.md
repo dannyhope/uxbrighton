@@ -6,6 +6,9 @@ venue: Online
 start: 7pm
 upcoming: false
 published: true
+permalink: /ux-watch-party
+event-date: 2021-04-13
+seo: true
 
 description: "Show and Tell takeover! Guest MC Fiona MacNeill will present a series of short films for discussion."
 fullurl: https://uxbri.org/ux-watch-party/

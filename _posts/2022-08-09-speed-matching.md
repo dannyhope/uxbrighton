@@ -1,11 +1,12 @@
 ---
-layout: conference-2022/event-page
-file-name: 2022-08-09-speed-matching
+layout: event-page
 title: UX Mentor/ee Speed Matching
 description: "Mentorship program for ambitious UXers wanting to develop their career. "
+permalink: /speed-matching
 social-image: /images/ux-brighton-870-x-450-px.png
 venue: Spaces
-start: 7 pm
+event-date: 2022-08-09
+start: 7pm
 ticket:
   state: ticketed
   price: £10
@@ -13,7 +14,7 @@ ticket:
 conference: false
 upcoming: false
 published: true
-fullurl: https://uxbri.org/speed-matching
+seo: true
 ---
 Join us for an evening of mentor/ee speed matching. Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the community.   You can choose to be a mentor or mentee or you can sign up to be both!
 

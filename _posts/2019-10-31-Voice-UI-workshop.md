@@ -1,15 +1,18 @@
 ---
-layout: event-page  
+layout: event-page
 title: "Workshop: Make Your First Voice Interface"
 venue: 68 Middle Street
 start: "9:30am"
 upcoming: false
 published: true
+permalink: /voice-ui-workshop
+event-date: 2019-10-31
+seo: true
+
 price: "from £300 + VAT"
 ticket-link: https://www.eventbrite.co.uk/e/talking-design-make-your-first-voice-interface-a-workshop-with-ben-sauer-tickets-70743031311
 description: "Voice UI is growing fast. Although we’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations."
-fullurl: https://uxbrighton.org.uk/voice-ui-workshop/
-slug: "voice-ui-workshop"
+fullurl: https://uxbrighton.org.uk/voice-ui-workshop/"
 image: "https://uxbrighton.org.uk/images/cards/vui-2019-tw.jpg"
 upcoming-bg-image: "/images/events/voice-ui-workshop.jpeg"
 

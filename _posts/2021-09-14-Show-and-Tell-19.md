@@ -6,9 +6,11 @@ venue: The Skiff
 start: 7pm
 upcoming: false
 published: true
+permalink: /Show-and-Tell-19
+event-date: 2021-09-14
+seo: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-and-tell-19/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 

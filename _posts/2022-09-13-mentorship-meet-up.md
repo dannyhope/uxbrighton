@@ -1,8 +1,9 @@
 ---
-layout: conference-2022/event-page
-file-name: 2022-09-13-mentorship-meet-up
+layout: event-page
 title: Mentorship Meetup
+permalink: /mentorship-meet-up
 description: Join us for an informal chat about mentorship at the Lord Nelson Inn, Brighton
+event-date: 2022-09-13
 venue: Lord Nelson Inn
 start: 7pm
 ticket:
@@ -11,7 +12,7 @@ ticket:
 conference: false
 upcoming: false
 published: true
-fullurl: https://uxbri.org/mentorship-meet-up
+seo: true
 ---
 Whether you're a mentor, mentee or just want to chat with the UX community about mentorship, join us at the Lord Nelson Inn on Tuesday 13th September at 7 pm. 
 

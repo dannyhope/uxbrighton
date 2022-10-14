@@ -1,11 +1,15 @@
 ---
-layout: event-page  
+layout: event-page
 title: Jobs To Be Done Workshop
 venue: 68 Middle Street
 start: 9:30am
 upcoming: false
 homepage: false
-ticket-link: sold-out  
+permalink: /JTBD-Workshop
+event-date: 2017-07-12
+seo: true
+
+ticket-link: sold-out
 art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 90%; max-width: 100px;}} @media (min-width: 60rem) {.event-detail_desc .speaker-photo {width: 30%; float: left; padding-right: 1em}} .speaker-photo {margin: 0; padding: 0; border: 0}"
 ---
 

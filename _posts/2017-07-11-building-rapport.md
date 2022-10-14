@@ -1,5 +1,5 @@
 ---
-layout: event-page	
+layout: event-page
 title: Rapport & Manipulation
 price: £4+VAT & fees
 venue: The Skiff
@@ -8,6 +8,9 @@ ticket-link: https://www.eventbrite.co.uk/e/building-rapport-machiavellian-manip
 homepage: false
 upcoming: false
 published: true
+permalink: /building-rapport
+event-date: 2017-07-11
+seo: true
 ---
 
 We're excited to announce our next evening event with two great talks on Building Rapport & Machiavellian Manipulation.
