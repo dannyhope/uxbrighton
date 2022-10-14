@@ -616,7 +616,7 @@ collections:
     description: "Event pages (Past, Present & Future)."
     folder: "_posts"
     identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
-    slug: "{{event-date}}-{{permalink}}" # This generates the URL - eg. "2022-06-12-this-part-is-the-url"
+    slug: "{{event-date}}-{{permalink}}" # This generates the file name - eg. "2022-06-12-this-part-is-the-url"
     create: true
     editor:
       preview: true
