@@ -6,6 +6,9 @@ start: 7pm
 price: £4 +VAT etc
 homepage: false
 published: true
+permalink: /UXCampRedux
+event-date: 2017-05-09
+seo: true
 ---
 
 Back in March 2017, our friends [UX Camp Brighton](https://www.uxcampbrighton.org/) held their most popular barcamp yet. In keeping with tradition, here at UX Brighton we’re extremely happy to host the follow-up Redux event featuring some of the most popular sessions from the day.

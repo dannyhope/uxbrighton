@@ -1,14 +1,16 @@
 ---
 layout: event-page
-title: Show & Tell 21 
+title: Show & Tell 21
 price: Free
 venue: Online
 start: 7pm
 upcoming: false
 published: true
+permalink: /Show-and-Tell-21
+event-date: 2022-02-08
+seo: true
 
 description: "UX Brighton Show & Tell 21, Tuesday 8 February 2022, 7-9pm on Google Meet. A supportive meetup for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-and-tell-21/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 

@@ -1,10 +1,14 @@
 ---
-layout: event-page  
+layout: event-page
 title: Top Tasks Workshop with Gerry McGovern
 venue: 68 Middle Street
 start: 9:30am
 upcoming: false
 homepage: false
+permalink: /top-tasks-workshop
+event-date: 2018-11-01
+seo: true
+
 price: from £300 + VAT
 ticket-link: https://www.eventbrite.co.uk/e/measuring-the-customer-experience-with-top-tasks-a-masterclass-with-gerry-mcgovern-tickets-45097500839#tickets
 

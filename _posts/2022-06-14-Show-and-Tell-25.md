@@ -6,9 +6,11 @@ venue: Online
 start: 7pm
 upcoming: false
 published: true
+permalink: /Show-and-Tell-25
+event-date: 2022-06-14
+seo: true
 
 description: "UX Brighton Show & Tell 25, Tuesday 14 June 2022, 7-9pm on Google Meet. A supportive meetup for sharing, advice and discussion."
-fullurl: https://uxbri.org/show-and-tell-25/
 image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
 upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
 

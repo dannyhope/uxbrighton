@@ -1,29 +1,43 @@
+{%- assign metaTitle = page.title -%}
+{%- assign metaDescription = page.description -%}
+{%- assign metaFullUrl = page.permalink -%}
+{%- assign seoIndexing = page.seo -%}
+{%- assign metaSocialImage = page.social-image -%}
+
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
 <head>
-  <title>{% if page.title %}{{ page.title }} - {% endif %}UX Brighton</title>
+  <title>{{ metaTitle }} | UX Brighton</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}" >
+  {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
+  <meta name="robots" content="{% if seoIndexing != true %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
+  <!-- Google Analytics -->
   {% include tracking-head.html %}
 
+  <!-- Social media analytics -->
+  {% include social-tracking-head.html %}
 
+    {% if seoIndexing == true %}
+  <!-- facebook open graph tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://uxbri.org{{ metaFullUrl }}">
+    <meta property="og:title" content="{{ metaTitle }}">
+    {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
+    {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
 
-    <!-- facebook open graph tags -->
-      <meta property="og:type" content="website">
-      <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% endif %}">
-      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" >
-      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}" >
+  <!-- twitter card tags additive with the og: tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
+    <meta name="twitter:domain" value="https://uxbri.org{{ metaFullUrl }}">
+    <meta name="twitter:title" value="{{ metaTitle }}">
+    {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
+    <meta name="twitter:url" value="https://uxbri.org{{ metaFullUrl }}">
 
-
-    <!-- twitter card tags additive with the og: tags -->
-      <meta name="twitter:card" content="summary_large_image" >
-      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% endif %}" >
-      <meta name="twitter:domain" value="http://uxbrighton.org.uk/2018/" >
-      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% endif %}" >
-      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% endif %}" >
-      <meta name="twitter:url" value="{% if page.fullurl %}{{ page.fullurl }}{% endif %}" >
+  <!-- Canonical -->
+    <link rel="canonical" href="https://uxbri.org{{ metaFullUrl }}">
+    {% endif %}
 
   <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -37,23 +51,15 @@
     <meta name="theme-color" content="#ffffff">
 
   <!-- Stylesheets -->
-    <link rel="stylesheet" href="/2018/fonts/museo/sans/font.css">
-    <link rel="stylesheet" href="/2018/stylesheets/css/styles.css?v=2019">
+    <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
 
-
-  <!-- Pre dom-ready scripts -->
-    <script>
-      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
-      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
-    </script>
-  	{% if page.art-direction %}
-			<style media="screen">
-				{{page.art-direction}}
-			</style>
-		{% endif %}
-
-
-
+    {% if page.art-direction and page.art-direction != '' %}
+    <!-- Page-specific "art direction" styles -->
+      <style>
+        {{ page.art-direction }}
+      </style>
+      {% endif %}
 
     <style>
       .responsive-height-limiter + h2,
@@ -108,17 +114,22 @@
         {{ page.cssbackdoor }}
       {% endif %}
     </style>
+
+    <!-- Pre dom-ready scripts -->
+    <script>
+      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+      window.q=[]; window.$=function(f){q.push(f);}; // Make a queue for $
+    </script>
 </head>
-
-
 
 <body id="top" class="relative template--event {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
 
+  <!-- Google Analytics -->
   {% include tracking-body.html %}
 
   {% include header.html %}
 
-	<main class="content-main-detail{% if page.upcoming == null or page.upcoming == false %} is-not-upcoming{% else %} is-upcoming{% endif %}{% if page.art-direction == 'left' %} images-align-left{% elsif page.art-direction == 'right' %} images-align-left{% endif %}" role="main">
+	<main class="content-main-detail{% if page.upcoming == null or page.upcoming == false %} is-not-upcoming{% else %} is-upcoming{% endif %}" role="main">
 
     <section id="hero" class="overlay__outer pa0 bg-grey-90">
 
@@ -144,9 +155,6 @@
 
     </section>
 
-
-
-
     <section id="overview" class="bg-white">
       <div class="container" style="min-height: 50vh">
         <div class="row pt pb" style="margin-top: 24px;">
@@ -164,24 +172,24 @@
                   <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
                 </div>
 
-
-
               {% else %}
-                {% if page.ticket-link %}
+                {% if page.ticket %}
                   {% if page.upcoming == true %}
                     <section class="event-meta">
-                      {% if page.ticket-link == 'sold-out' %}
-                        <a class="ticket-button">Sorry, sold out</a>
-                      {% elsif page.ticket-link == 'unticketed' %}
-                        <a class="ticket-button">Unticketed event</a>
-                      {% else %}
-                        <a href="{{page.ticket-link}}" class="button button--green fill mt1" title="{{page.title}} tickets" target="_blank">
-                          {% capture price %}{{ page.price | downcase}}{% endcapture %}
-                          <span class="bold block mb1">{% if price == 'free' %}Get{% else %}Buy{% endif %} your ticket</span> {% if page.price %}{{page.price}}{% else %}£7 +VAT & Eventbrite fee{% endif %}
-                          {% endif %}<span></span>
+                      {% if page.ticket.state == 'Ticketed' %}
+                        <a href="{{page.ticket.link}}" class="button button--green fill mt1" title="{{page.title}} tickets" target="_blank">
+                          {% capture price %}{{ page.ticket.price | downcase}}{% endcapture %}
+                          <span class="bold block mb1">Buy your ticket</span> {% if page.ticket.price %}{{page.ticket.price}}{% endif %}
                         </a>
-                        <!-- <a href="{{page.url}}" title="Add to Calendar" class="addthisevent"> -->
-                        {% include venues.html %}
+                      {% elsif page.ticket.state == 'Free' %}
+                        <span class="ticket-button standfirst bold">Free event.</span>
+                      {% elsif page.ticket.state == 'Sold out' %}
+                        <span class="ticket-button standfirst bold">Sorry, sold out.</span>
+                      {% elsif page.ticket.state == 'Unticketed' %}
+                        <span class="ticket-button standfirst bold">Unticketed event.</span>
+                      {% endif %}
+                      <!-- <a href="{{page.url}}" title="Add to Calendar" class="addthisevent"> -->
+                      {% include venues.html %}
                     </section>
                   {% endif %}
                 {% else %}
@@ -201,7 +209,7 @@
                     </span>
                   {% endif %}
 
-                  {% unless page.ticket-link %}
+                  {% unless page.ticket.link %}
                     <div class="pa3 rounded drop mt3">
                       <h2 class="mt0 mb1">Get notified</h2>
                       <p class="mt0">To find out about future talks and conferences subscribe below.</p>
@@ -212,7 +220,6 @@
                 {% endif %}
 
               {% endif %}
-
 
 							{% include organisers.html %}
 						</aside>
@@ -227,18 +234,16 @@
 				{% include supporters.html %}
         -->
 
-
       </div><!-- container -->
     </section><!-- overview -->
 
     <!-- <h2>upcoming</h2> -->
 
-
-    <aside class="jobs-element fill">
+    <!-- <aside class="jobs-element fill">
       <p class="text-center">
         <a href="https://github.com/dannyhope/uxbrighton/edit/gh-pages/{{page.path}}" title="Edit this page on Github">✎</a>
       </p>
-    </aside>
+    </aside> -->
 
 	</main>
 
@@ -246,6 +251,8 @@
 
   {% include nav.html %}
 
+  <!-- Social media analytics -->
+  {% include social-tracking-body.html %}
 
 </body>
 </html>
