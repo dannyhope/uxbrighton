@@ -623,12 +623,12 @@ collections:
     fields: # stuff unique to each post follows
       - {label: "Layout", name: "layout", widget: "hidden", default: "event-page"} # The `layout` field is hidden in the GUI and needs to be changed here instead
       - {label: "Title", name: "title", hint: "The primary title of the event.", widget: "string"}
-      - {label: "Description", name: "description", hint: "Populates the *meta* description. Helpful for SEO.", widget: "string", required: false}
-      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/mentorship-meet-up***. Needed as part of generating the actual file name.", widget: "string"}
+      - {label: "Description", name: "description", hint: "A brief description of the event. Helpful for SEO.", widget: "string", required: false}
       - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
-      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: "TBA"}
+      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/mentorship-meet-up***. Needed as part of generating the actual file name.", widget: "string"}
       - {label: "Event date", name: "event-date", hint: "Date of the event. Needed as part of generating the actual file name.", widget: "date", default: "", format: 'YYYY-MM-DD'}
       - {label: "Start", name: "start", hint: "Enter an event time - eg. ***7pm***.", widget: "string", required: false}
+      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: "TBA"}
       - label: "Ticket"
         name: "ticket"
         summary: "Ticket state, link and price."
@@ -641,7 +641,7 @@ collections:
       - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false}
       - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **true**.", widget: "boolean", default: true}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **true**.", widget: "boolean", default: true}
-      - {label: "Index on search engines?", name: "seo", hint: "Choose whether to index on search engines or not. Defaults to **yes**.", widget: "boolean", default: true}
+      - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true}
       - {label: "Art direction", name: "art-direction", hint: "If you'd like to add page-specific inline CSS.", widget: "code", allow_language_selection: false, output_code_only: true, default_language: "css", required: false}
       - label: "Body"
         name: "body"
@@ -663,12 +663,12 @@ collections:
       - {label: "Title", name: "title", hint: "Primary title of the page. This also generates the page *slug*.", widget: "string"}
       - {label: "Pre-title", name: "pretitle", hint: "Text appearing just ***above*** the title.", widget: "string", required: false}
       - {label: "Sub-title", name: "subtitle", hint: "Text appearing just ***under*** the title.", widget: "string", required: false}
+      - {label: "Description", name: "description", hint: "A brief description of the page. Helpful for SEO.", widget: "string", required: false}
       - {label: "Background Image", name: "image", hint: "Background image appearing behind the title text.", widget: "image", required: false}
       - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
-      - {label: "Description", name: "description", hint: "Populates the *meta* description. Helpful for SEO.", widget: "string", required: false}
       - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/2022/guide***.", widget: "string", required: false}
       - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* redirects - eg. ***/guide-tastic, /another-fun-url***.", widget: "list", allow_add: true, required: false}
-      - {label: "Index on search engines?", name: "seo", hint: "Choose whether to index on search engines or not. Defaults to **yes**.", widget: "boolean", default: true}
+      - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true}
       - {label: "Art direction", name: "art-direction", hint: "If you'd like to add page-specific inline CSS.", widget: "code", allow_language_selection: false, output_code_only: true, default_language: "css", required: false}
       - label: "Body"
         name: "body"
