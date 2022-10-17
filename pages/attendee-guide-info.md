@@ -1,16 +1,16 @@
 ---
 layout: generic
-title: Attendee Guide Info
+title: Attendee Guide
 pretitle: UX Brighton 2022
 subtitle: Friday 4 November, Brighton Dome
-image: /images/attendees.jpg
 description: Hopefully everything you need to know about coming to UX Brighton 2022.
+image: /images/attendees.jpg
 permalink: /2022/info
 redirect_from: []
 seo: true
 art-direction: ""
 ---
-## We want you to get the most out of your visit to UX Brighton.
+## We want you to get the most out of your visit to UX Brighton
 
 <p class="standfirst">Use this section to <a href='#accommodation'>book discounted hotels</a>, find out <a href="#on-the-day">more about the day</a> and where to <a href='#refreshments'>eat</a> and visit.</p>
 
@@ -26,7 +26,7 @@ In town the night before? Come along from 7pm to [The Fountainhead](https://www.
 
 <h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
 
-If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
+If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) coffee shop is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 
 ### Accessibility
 
