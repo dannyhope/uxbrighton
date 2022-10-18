@@ -287,6 +287,17 @@ speakers:
             - profile-type: twitter
               profile-label: "@gringomoses"
               profile-url: https://twitter.com/gringomoses
+      - talk-info:
+          talk-time: ""
+          talk-title: TBA
+        name: Alison Rawlings
+        thumbnail: /images/alison-rawlings.png
+        anchor: Alison-Rawlings
+        speaker-bio:
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/alison-rawlings-6520962/
+              profile-label: LinkedIn/AlisonRawlings
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
