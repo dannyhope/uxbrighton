@@ -298,6 +298,17 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/alison-rawlings-6520962/
               profile-label: LinkedIn/AlisonRawlings
+      - talk-info:
+          talk-time: ""
+          talk-title: TBA
+        name: Matt LeMay
+        thumbnail: /images/matt-lemay.png
+        anchor: Matt-LeMay
+        speaker-bio:
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/mattlemay/
+              profile-label: LinkedIn/MattLeMay
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
