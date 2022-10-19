@@ -1,9 +1,11 @@
 ---
 layout: event-page
-title: Film Night - The Social life of Small Urban Spaces
+title: Film Night – The Social life of Small Urban Spaces
 permalink: film-night
 event-date: 2009-06-09
 conference: false
+published: true
+seo: true
 ---
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/DEwo-_pQCz8" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
