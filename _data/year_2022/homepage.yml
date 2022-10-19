@@ -29,7 +29,7 @@ hero:
     message: "Thanks For Coming To UX Brighton 2022: UX and Product Management"
     button:
       label: Book now for 2023
-      url: /2023
+      url: https://www.tickettailor.com/events/uxbrighton/782636#
       extra-text: Super early bird discounts available now!
 overview:
   visibility: true
@@ -72,19 +72,11 @@ overview:
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
   post:
-    title: Join us for our 🎂 10th annual one-day conference!
+    title: "Join us for our "
     lede:
-      body: Desirability, feasibility, and viability are the three components of a
-        model for successful products — an integrated model that is often
-        carried out by segregated teams.
+      body: ""
     text:
-      body: >-
-        Join us for our 10th conference where people from product management,
-        ux, research and design will gather to discover what we have to learn
-        from one another.
-
-
-        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+      body: ""
     testimonial:
       visibility: true
       quote: Some of the smartest, most insightful and entertaining people I've met.
@@ -334,7 +326,13 @@ speakers:
             singer-songwriter Elliott Smith.
       - talk-info:
           talk-time: ""
-          talk-title: TBA
+          talk-title: Is UX Strategy even a thing?
+          talk-summary: We hear a lot about UX strategy but what is it and how does it
+            differ from business or product strategy? Do you need it, and how do
+            you go about getting it? That's a lot of questions to cover in
+            twenty minutes, but Alison will make a start by calling on her
+            experience of helping companies think more carefully (and
+            strategically) about their customers.
         name: Alison Rawlings
         thumbnail: /images/alison-rawlings.png
         anchor: Alison-Rawlings
@@ -343,6 +341,15 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/alison-rawlings-6520962/
               profile-label: LinkedIn/AlisonRawlings
+          bio-title: About Alison
+          bio-summary: Alison has a career going back over 25 years and has established
+            and run UX teams in both agencies and client-side organisations. She
+            is currently Consultancy Director at experience design agency
+            Bunnyfoot where, as well as supporting Bunnyfoot's growth and
+            evolution and delivering their UX strategy training course, she
+            works with organisations such as EDF Energy and Sony Playstation to
+            help them improve their performance by becoming more
+            customer-centred in their approach.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
