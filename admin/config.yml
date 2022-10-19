@@ -617,6 +617,7 @@ collections:
     folder: "_posts"
     identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
     slug: "{{event-date}}-{{permalink}}" # This generates the file name - eg. "2022-06-12-this-part-is-the-url"
+    preview_path: "{{permalink}}"
     create: true
     editor:
       preview: true
@@ -628,20 +629,20 @@ collections:
       - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/mentorship-meet-up***. Needed as part of generating the actual file name.", widget: "string"}
       - {label: "Event date", name: "event-date", hint: "Date of the event. Needed as part of generating the actual file name.", widget: "date", default: "", format: 'YYYY-MM-DD'}
       - {label: "Start", name: "start", hint: "Enter an event time - eg. ***7pm***.", widget: "string", required: false}
-      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: "TBA"}
+      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: "TBA", required: false}
       - label: "Ticket"
         name: "ticket"
         summary: "Ticket state, link and price."
         widget: "object"
         collapsed: true
         fields:
-          - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["Free", "Ticketed", "Unticketed", "Sold out"], default: "Ticketed"}
+          - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["Free", "Ticketed", "Unticketed", "Sold out"], default: "Ticketed", required: false}
           - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
           - {label: "Ticket price", name: "price", hint: "Enter ticket price - eg. ***£10***.", widget: "string", required: false}
       - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false}
-      - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **true**.", widget: "boolean", default: true}
-      - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **true**.", widget: "boolean", default: true}
-      - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true}
+      - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
+      - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **true**.", widget: "boolean", default: true, required: false}
+      - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true, required: false}
       - {label: "Art direction", name: "art-direction", hint: "If you'd like to add page-specific inline CSS.", widget: "code", allow_language_selection: false, output_code_only: true, default_language: "css", required: false}
       - label: "Body"
         name: "body"
@@ -668,7 +669,7 @@ collections:
       - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/2022/guide***.", widget: "string", required: false}
       - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* redirects - eg. ***/guide-tastic, /another-fun-url***.", widget: "list", allow_add: true, required: false}
-      - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true}
+      - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true, required: false}
       - {label: "Art direction", name: "art-direction", hint: "If you'd like to add page-specific inline CSS.", widget: "code", allow_language_selection: false, output_code_only: true, default_language: "css", required: false}
       - label: "Body"
         name: "body"
