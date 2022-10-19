@@ -289,6 +289,51 @@ speakers:
               profile-url: https://twitter.com/gringomoses
       - talk-info:
           talk-time: ""
+          talk-title: YOU DON'T "GET" ANYONE TO DO ANYTHING
+          talk-summary: >-
+            "How do we get product managers to value user research?"
+
+
+            "How do we get executives to think in an Agile way?"
+
+
+            "How do we get UX researchers to prioritize our work?"
+
+
+            "How do we get our sales team to stop making promises we can't deliver?"
+
+
+
+
+            For the last twelve years, I have heard these questions on a weekly basis. And the answer to all of them is exactly the same: you don't "get" anyone to do anything. In this talk, product leader and author of *Product Management in Practice* Matt LeMay shares his experience working across product, UX, marketing, and leadership teams at companies like Google, Audible, Mailchimp, and Spotify. You'll learn how the path to success in cross-functional product development means embracing ego death and recognizing that you have very little direct control over anyone or anything. No, seriously.
+        name: Matt LeMay
+        thumbnail: /images/matt-lemay.png
+        anchor: Matt-LeMay
+        speaker-bio:
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/mattlemay/
+              profile-label: LinkedIn/MattLeMay
+            - profile-type: twitter
+              profile-label: "@MattLeMay"
+              profile-url: https://twitter.com/mattlemay
+          bio-title: About Matt
+          bio-summary: Matt LeMay is an internationally recognized product leader, author,
+            and consultant who has worked with companies like Spotify, Audible,
+            Mailchimp, and Google. He is the author of Agile for Everybody
+            (O’Reilly Media, 2018) and Product Management in Practice (Second
+            Edition O'Reilly Media, 2022), and has helped build and scale
+            product management practices at companies ranging from early-stage
+            startups to Fortune 500 enterprises. Matt is the creator of the One
+            Page / One Hour Pledge, a commitment to minimize busywork and
+            maximize collaboration that has been adopted by over 100 individuals
+            and teams at Amazon, Walmart, CNN, BBVA, and more. Previously, Matt
+            worked as Senior Product Manager at music startup Songza (acquired
+            by Google), and Head of Consumer Product at Bitly. Matt is also a
+            musician, recording engineer, and the author of a book about
+            singer-songwriter Elliott Smith.
+      - talk-info:
+          talk-time: ""
           talk-title: TBA
         name: Alison Rawlings
         thumbnail: /images/alison-rawlings.png
@@ -298,17 +343,6 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/alison-rawlings-6520962/
               profile-label: LinkedIn/AlisonRawlings
-      - talk-info:
-          talk-time: ""
-          talk-title: TBA
-        name: Matt LeMay
-        thumbnail: /images/matt-lemay.png
-        anchor: Matt-LeMay
-        speaker-bio:
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/mattlemay/
-              profile-label: LinkedIn/MattLeMay
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
