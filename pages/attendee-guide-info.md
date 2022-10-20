@@ -12,13 +12,22 @@ art-direction: ""
 ---
 ## We want you to get the most out of your visit to UX Brighton
 
-<p class="standfirst">Use this section to <a href='#accommodation'>book discounted hotels</a>, find out <a href="#on-the-day">more about the day</a> and where to <a href='#refreshments'>eat</a> and visit.</p>
+<p class="standfirst">Use this section to <a href='#accommodation'>book discounted hotels</a>, find out <a href="#registration">more about the day</a> and where to <a href='#refreshments'>eat</a> and visit.</p>
 
 <p class="standfirst pb2">If you have any questions, email <a href="mailto:anniemarie@uxbri.org" class=" bold">anniemarie@uxbri.org</a>
 
 or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@uxbri</a> (DMs are open).</p>
 
-- - -
+<section class="testimonial ">
+  <div class="pv4 border-top border-bottom">
+    <blockquote class="standfirst">
+      <div class="quote">
+        <p>Hands-down the most helpful and practical UX conference I attended.</p>
+      </div>
+      <div class="quotee">Agnieszka Rzesniowiecka</div>
+    </blockquote>
+  </div>
+</section>
 
 <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
 
@@ -61,6 +70,25 @@ Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/
 * Please note that The Dome may conduct bag searches.
 * Please be seated by 9.50am so you don’t miss anything.
 * We’re in the beautiful [Concert Hall](https://brightondome.org/your_visit/venues/concert_hall/) again, which is comfortable and very spacious.
+
+
+
+### Refreshments
+
+* Complimentary breakfast pastries (from 9am) and fruit throughout the day.
+* Coffee, tea and water will be available all day in the Foyer bar.
+* Drinks can be brought through to the auditorium if they have a lid. Consider the environment and bring your own re-usuable lidded cup, and/or water bottle if possible.
+* There will be 3 breaks during the day.
+* Lunch is **not,** included, however there are loads of places to eat close to the venue; [Al Duomo](https://www.alduomo.co.uk/), [All Bar One](http://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton), [Bellota Bar Y Tapas](https://www.tripadvisor.co.uk/Restaurant_Review-g186273-d3815712-Reviews-Bellota-Brighton_East_Sussex_England.html), [The Chilli Pickle](http://thechillipickle.com/), [Donatello](http://www.donatello.co.uk/), [Food for Friends (vegetarian)](http://www.foodforfriends.com/), [Gourmet Burger Kitchen](http://www.gbk.co.uk/location/brighton), [Pinnocchio](http://www.pinocchio.co.uk/), Pizza Express ([Jubliee Street](https://www.pizzaexpress.com/brighton-jubilee-street) & [Prince Albert Street](https://www.pizzaexpress.com/brighton-the-lanes)) and [many, many more](https://www.tripadvisor.co.uk/Restaurants-g186273-Brighton_East_Sussex_England.html) We recommend advance booking if you are in a large group.
+* Travelling to UX Brighton alone? We are arranging a ‘Lunch with Strangers’. There is a table booked at [Pizza Express, Jubilee St](https://www.google.com/maps/@50.824605,-0.1384549,3a,75y,95.65h,81.67t/data=!3m8!1e1!3m6!1sAF1QipNG4rqu_Gj_yePfdjT5xnxCzlKJgXIbR3WIGxs!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNG4rqu_Gj_yePfdjT5xnxCzlKJgXIbR3WIGxs%3Dw203-h100-k-no-pi-0-ya99.10889-ro-0-fo100!7i9732!8i4866) (just ask for the UX Brighton booking) - don’t be lonely, go there and meet new friends. Introverts welcome!
+
+
+
+### Cloakroom
+
+* We have coat-racks for you to hang your coats on, but there isn’t a dedicated cloakroom.
+* Ours is the only event happening at the venue on the day, and is not open to the public, however items are left at your own risk.
+* Please report any lost property to the registration desk. UX Brighton & Brighton Dome takes no responsibility for delegate’s lost property so we ask you to be vigilant at all times.
 
 ### Wifi
 
