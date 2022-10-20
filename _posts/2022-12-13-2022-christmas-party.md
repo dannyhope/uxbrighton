@@ -16,4 +16,4 @@ seo: true
 ---
 Join us for a drink and a mince pie on the second Tuesday of December to celebrate this festive period. 🎄
 
-S﻿ee you at 7 pm at the [](https://www.google.co.uk/maps/place/North+Laine+Brewhouse/@50.826819,-0.135655,15z/data=!4m2!3m1!1s0x0:0x81ec753c0d8fdae2?sa=X&hl=en&ved=2ahUKEwiXge2zh7L6AhUHS0EAHaJ5CmAQ_BJ6BAh0EAU)[he Earth & Stars](https://www.google.co.uk/maps/place/The+Earth+%26+Stars/@50.8248306,-0.1421861,15z/data=!4m2!3m1!1s0x0:0x9db9a618075247e1?sa=X&hl=en&ved=2ahUKEwiWhsuR0u76AhVGTsAKHauGD2kQ_BJ6BAhuEAU), Brighton.
+S﻿ee you at 7 pm at [The Earth & Stars](https://www.google.co.uk/maps/place/The+Earth+%26+Stars/@50.8248306,-0.1421861,15z/data=!4m2!3m1!1s0x0:0x9db9a618075247e1?sa=X&hl=en&ved=2ahUKEwiWhsuR0u76AhVGTsAKHauGD2kQ_BJ6BAhuEAU), Brighton.
