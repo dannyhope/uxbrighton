@@ -111,7 +111,7 @@
                 <div class="talk__speaker-bio">
                   <h4>{{ speaker.speaker-bio.bio-title }}</h4>
                   {{ speaker.speaker-bio.bio-summary | markdownify }}
-                  <nav class="talk__speaker-links sponsor__links icons-currentColor">
+                  <nav class="talk__speaker-links icons-currentColor">
                     {% for entry in speaker.speaker-bio.social-profiles %}
                       {% if entry.profile-type == "website" %}
                         <a href="{{ entry.profile-url }}" class="talk__speaker-link color-grey-40" title="Visit speaker's Website.">
