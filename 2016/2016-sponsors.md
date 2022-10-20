@@ -5,7 +5,6 @@ redirect_from:
   - /sponsors2016
   - /2016sponsors
   - /2016-sponsors
-  - /sponsorship
 layout: minimal
 art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 1.5rem; color: #1075b0} h3{font-size: 1.3rem; color: #1075b0 !important} img {width: 100%; padding:0; margin: 0; border: none} h1#sponsor-information{background-image: url('/assets/conference-2016/16415170687_c4ed3d9c88_k.jpg'); background-repeat: no-repeat; margin: -2rem -2rem 0 -2rem; padding: 35% 1rem 0 1rem; text-align: center; height: 5rem; background-size: cover; color: #fff !important;} #ux-brighton-2016 {background-image: url(/2016/logo/red-square-2016.svg); background-repeat: no-repeat; color: transparent; height: 15%; width: auto; position: absolute; top: 1rem; left: 1rem; margin: 0; padding: 0;} #ux-brighton-2016httpuxbrightonorguk  a {height: 100%; width: auto; display: block; color: transparent} #ux-brighton-2016httpuxbrightonorguk a:hover {border: none} .event-detail{position: relative} .event-meta{ margin-bottom: 0} #ux-brighton-4th-november-a-one-day-conference-for-ux-people {font-size: 3.2vmin; margin: 0 -2rem; padding: 1rem 2rem; background: #b83246; color: #fff; text-align: center;} div#body p{font-size: 1.1rem; line-height: 1.7rem} .quote p {margin: 6rem 2rem 0 0; color: rgb(127,127,127)} @media (min-width: 55rem) {#quotes{float: left; width: 30%} #body{float: right; width: 70%} img {width: auto}}"
 ---
