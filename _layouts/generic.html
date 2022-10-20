@@ -77,7 +77,7 @@
   {% include header.html %}
 
   <main>
-    <div class="overlay__outer bg-grey-90"{% if page.image and page.image != '' %} style="background-image: url('{{ page.image }}'); background-position: center center"{% endif %}>
+    <div class="overlay__outer bg-grey-90"{% if page.image and page.image != '' %} style="background-image: url('{{ page.image }}'); background-repeat: no-repeat; background-position: center center; background-size: cover;"{% endif %}>
       <div class="overlay__inner"{% if page.image and page.image != '' %} style="background: rgba(0,0,0,0.50);"{% endif %}>
         <div class="container color-white">
           {% if page.pretitle and page.pretitle != '' -%}
