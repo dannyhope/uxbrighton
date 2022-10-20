@@ -627,9 +627,17 @@ collections:
       - {label: "Description", name: "description", hint: "A brief description of the event. Helpful for SEO.", widget: "string", required: false}
       - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***/mentorship-meet-up***. Needed as part of generating the actual file name.", widget: "string"}
+      - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* redirects - eg. ***/christmas-party, /another-xmas***.", widget: "list", allow_add: true, required: false}
       - {label: "Event date", name: "event-date", hint: "Date of the event. Needed as part of generating the actual file name.", widget: "date", default: "", format: 'YYYY-MM-DD'}
       - {label: "Start", name: "start", hint: "Enter an event time - eg. ***7pm***.", widget: "string", required: false}
-      - {label: "Venue", name: "venue", hint: "Select from available venues. Defaults to **TBA**.", widget: "select", multiple: false, options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse"], default: "TBA", required: false}
+      - label: "Venue"
+        name: "venue"
+        hint: "Select from available venues. Defaults to **TBA**."
+        widget: "select"
+        multiple: false
+        options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse", "Earth & Stars"]
+        default: "TBA"
+        required: false
       - label: "Ticket"
         name: "ticket"
         summary: "Ticket state, link and price."
