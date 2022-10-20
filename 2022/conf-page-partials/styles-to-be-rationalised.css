@@ -239,19 +239,23 @@
   }
 
 
-  .sponsor__links {
+  .sponsor__links,
+  .talk__speaker-links {
     margin-left: -8px;
   }
-  .sponsor__link {
+  .sponsor__link,
+  .talk__speaker-link {
     display: inline-block;
     width: 40px;
     height: 40px;
     padding: 8px;
   }
-  .sponsor__link:hover {
+  .sponsor__link:hover,
+  .talk__speaker-link:hover {
     color: #000;
   }
- .sponsor__links svg {
+ .sponsor__links svg,
+ .talk__speaker-links svg {
     width: 24px;
     height: 24px;
   }

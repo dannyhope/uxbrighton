@@ -377,7 +377,6 @@ collections:
                                   - {label: "Personal website", value: "website"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
-                              - {label: "Social profile label / hashtag", name: "profile-label", hint: "Label (eg. *LinkedIn/joeblogs*) or hashtag (eg. *@joeblogs*) for this social profile link.", widget: "string", required: false}
                               - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
