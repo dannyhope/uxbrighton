@@ -33,7 +33,7 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
 
 In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for Faisal in a bright orange UX Brighton T-shirt. 
 
-a<h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
+<h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
 
 If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) coffee shop is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 
