@@ -31,9 +31,9 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
 
 <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
 
-In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm.
+In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for Faisal in a bright orange UX Brighton T-shirt. 
 
-<h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
+a<h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
 
 If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) coffee shop is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 
@@ -43,7 +43,7 @@ The venue is fully accessible. We would like to ensure that all delegates are ab
 
 ### Help
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a UX Brighton t-shirt.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing an orange UX Brighton t-shirt. 
 
 **We reserve the right to refuse admission.**
 
@@ -55,6 +55,7 @@ Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/
 
 ### Travel
 
+* If you are planning to travel by train please be aware that there are [rail strikes on the 3rd and 5th of November](https://news.sky.com/story/more-rail-strikes-announced-for-3-and-5-november-this-time-involving-train-operators-12724718). 
 * Parking is expensive, so if you can avoid driving, please consider travelling by train or bus.
 * Travelling from overseas? Gatwick is the nearest airport. Trains take approx 30 mins to Brighton.
 * We recommend using [traintimes.org.uk](https://traintimes.org.uk/) for up-to-date train timetables.
@@ -71,8 +72,6 @@ Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/
 * Please be seated by 9.50am so you don’t miss anything.
 * We’re in the beautiful [Concert Hall](https://brightondome.org/your_visit/venues/concert_hall/) again, which is comfortable and very spacious.
 
-
-
 ### Refreshments
 
 * Complimentary breakfast pastries (from 9am) and fruit throughout the day.
@@ -81,8 +80,6 @@ Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/
 * There will be 3 breaks during the day.
 * Lunch is **not,** included, however there are loads of places to eat close to the venue; [Al Duomo](https://www.alduomo.co.uk/), [All Bar One](http://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton), [Bellota Bar Y Tapas](https://www.tripadvisor.co.uk/Restaurant_Review-g186273-d3815712-Reviews-Bellota-Brighton_East_Sussex_England.html), [The Chilli Pickle](http://thechillipickle.com/), [Donatello](http://www.donatello.co.uk/), [Food for Friends (vegetarian)](http://www.foodforfriends.com/), [Gourmet Burger Kitchen](http://www.gbk.co.uk/location/brighton), [Pinnocchio](http://www.pinocchio.co.uk/), Pizza Express ([Jubliee Street](https://www.pizzaexpress.com/brighton-jubilee-street) & [Prince Albert Street](https://www.pizzaexpress.com/brighton-the-lanes)) and [many, many more](https://www.tripadvisor.co.uk/Restaurants-g186273-Brighton_East_Sussex_England.html) We recommend advance booking if you are in a large group.
 * Travelling to UX Brighton alone? We are arranging a ‘Lunch with Strangers’. There is a table booked at [Pizza Express, Jubilee St](https://www.google.com/maps/@50.824605,-0.1384549,3a,75y,95.65h,81.67t/data=!3m8!1e1!3m6!1sAF1QipNG4rqu_Gj_yePfdjT5xnxCzlKJgXIbR3WIGxs!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNG4rqu_Gj_yePfdjT5xnxCzlKJgXIbR3WIGxs%3Dw203-h100-k-no-pi-0-ya99.10889-ro-0-fo100!7i9732!8i4866) (just ask for the UX Brighton booking) - don’t be lonely, go there and meet new friends. Introverts welcome!
-
-
 
 ### Cloakroom
 
@@ -127,6 +124,8 @@ Did you know we have a Slack group with 1500 members? You can join here: <http:/
 
 * We are unable to issue refunds or transfers.
 * Of course, you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list.
+* Ticket sales end 1pm Thursday 3rd November
+* Payment on the day is **cash only**, £250 (includes vat).
 
 Thanks for reading, we look forward to seeing you on the 4th!
 
