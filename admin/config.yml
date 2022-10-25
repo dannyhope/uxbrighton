@@ -306,6 +306,7 @@ collections:
             collapsed: true
             fields:
               - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
+              - {label: "Speaker lineup is full?", name: "full", hint: "If speaker lineup is full. Choose whether true or false. Defaults to **false**.", widget: "boolean", default: false}
               - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string", required: false}
               - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image", required: false}
               - label: "Speaker & talk info."

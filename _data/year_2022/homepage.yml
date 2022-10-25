@@ -410,6 +410,7 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
+  full: true
 sponsors:
   visibility: true
   section-title: Sponsors
