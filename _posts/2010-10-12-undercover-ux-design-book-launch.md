@@ -5,7 +5,7 @@ permalink: undercover-ux-design-book-launch
 event-date: 2010-10-12
 conference: false
 ---
-## Undercover UX – C﻿ennydd Bowles, James Box
+## Writing a UX book – C﻿ennydd Bowles, James Box
 
 ## S﻿imple & Usable – Giles Colbourne
 
