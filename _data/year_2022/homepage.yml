@@ -1,5 +1,8 @@
 title: UX and Product Management - UX Brighton Conference 2022
+description: Join us for our 🎂 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
+social-image: ""
+event-promo-top-of-page: false
 hero:
   hero-state: pre
   global:
@@ -133,7 +136,7 @@ speakers:
     show-slides: false
     speaker-list:
       - talk-info:
-          talk-time: ""
+          talk-time: 10:00 am
           talk-title: Avoiding the Agency Trap
           talk-summary: Building a product can help your business scale to incredible
             heights, but too many teams get stuck in what Janna Bastow calls the
@@ -162,7 +165,142 @@ speakers:
           talk-video: ""
           talk-slides: ""
       - talk-info:
-          talk-time: ""
+          talk-time: 10:35 am
+          talk-title: Arrogance & Confidence in <s>Design</s>...Redux
+          talk-summary: Ten years ago Jonty gave a talk that changed his life. Now he
+            revisits some of those lines of enquiry that upended his career (in
+            a good way). With the benefit of hindsight, some spectacular
+            mistakes, and a decade of experience scaling businesses and teams,
+            what does Arrogance and Confidence look like in 2022?
+        name: Jonty Sharples
+        thumbnail: /images/screenshot-2022-10-13-at-10.43.22.png
+        anchor: Jonty-Sharples
+        speaker-bio:
+          bio-summary: >-
+            Jonty's been involved in the creation of digital 'stuff' for over
+            two decades, with clients spanning museums, console and mobile
+            device manufacturers, transport networks, charities, educational
+            programs, government departments, financial services...he’s even
+            helped redesign an ambulance. He loves complicated, and relishes
+            making sense of the chaotic.\
+
+            Jonty is currently VP of Product and Design at Airalo.
+          bio-title: About Jonty
+          social-profiles:
+            - profile-type: linkedin
+              profile-label: LinkedIn/jontysharples
+              profile-url: https://www.linkedin.com/in/jontysharples/
+            - profile-type: twitter
+              profile-label: "@gringomoses"
+              profile-url: https://twitter.com/gringomoses
+      - talk-info:
+          talk-time: 11:40 am
+          talk-title: T-shaped skills save lives (and products). How and why to learn
+            laterally for better outcomes.
+          talk-summary: >-
+            Product development requires the work of lots of different people
+            with different skills to deliver their best efforts. So it's natural
+            we want to be the best at what we do. When those people work in
+            silos and can't share ideas or communicate, products suffer.
+            Creating 't-shaped' skill sets, with deep knowledge of your own
+            field and insight into those around you, can help.
+
+
+            Using examples from the NHS, where multidisciplinary team working is critical to patient outcomes and supported by a culture of lateral learning and knowledge sharing, Louise looks at the benefits of knowing a little about a lot for product outcomes, team working and your own career, and shares a few surprising outcomes from her own 't-shaped' approach to learning new skills.
+        name: Louise Bloom
+        thumbnail: /images/louise-bloom.jpeg
+        anchor: Louise-Bloom
+        speaker-bio:
+          bio-title: About Louise
+          bio-summary: Louise is a Senior UX consultant professional who has spent over 15
+            years working for everyone from global banks to local butchers
+            during which time she has contributed to books, blogs, conferences
+            and podcasts on the future of work, digital wellbeing, ethical
+            technology, and the physiology of technostress. Curious to
+            understand more about how human-tech interactions were affecting
+            levels of stress, Louise is now also a registered and practising
+            Physiotherapist in the UK with a specialism in neurology.
+          social-profiles:
+            - profile-type: twitter
+              profile-url: https://twitter.com/Lou_Bloom
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/louisebloom/
+      - talk-info:
+          talk-time: 12:15 pm
+          talk-title: Speaking the same language
+          talk-summary: It sometimes feels like design and product are talking a different
+            language – both striving to get great products out to their
+            customers, but frequently misunderstanding each other on the path to
+            get there. Kate will share the times she’s seen this happen and the
+            ways she’s tackled it so that you can get ahead and create brilliant
+            working partnerships with your product counterparts.
+        name: Kate Flood
+        thumbnail: /images/screenshot-2022-09-27-at-13.19.14.png
+        anchor: Kate-Flood
+        speaker-bio:
+          bio-title: About Kate
+          bio-summary: Kate is the Director of Product Design at Sky, working with the
+            teams that look after NOW, Sky Go, Sky Sports and Sky News. Her
+            career has taken her from New York to London, always trying to
+            better the experiences for the people using the products and the
+            people designing them.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/kateflood16/
+              profile-label: LinkedIn/kateflood16
+      - talk-info:
+          talk-time: 14:20 pm
+          talk-title: Is UX Strategy even a thing?
+          talk-summary: We hear a lot about UX strategy but what is it and how does it
+            differ from business or product strategy? Do you need it, and how do
+            you go about getting it? That's a lot of questions to cover in
+            twenty minutes, but Alison will make a start by calling on her
+            experience of helping companies think more carefully (and
+            strategically) about their customers.
+        name: Alison Rawlings
+        thumbnail: /images/alison-rawlings.png
+        anchor: Alison-Rawlings
+        speaker-bio:
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/alison-rawlings-6520962/
+              profile-label: LinkedIn/AlisonRawlings
+          bio-title: About Alison
+          bio-summary: Alison has a career going back over 25 years and has established
+            and run UX teams in both agencies and client-side organisations. She
+            is currently Consultancy Director at experience design agency
+            Bunnyfoot where, as well as supporting Bunnyfoot's growth and
+            evolution and delivering their UX strategy training course, she
+            works with organisations such as EDF Energy and Sony Playstation to
+            help them improve their performance by becoming more
+            customer-centred in their approach.
+      - talk-info:
+          talk-time: 14:55 pm
+          talk-title: Trade-offs
+          talk-summary: Product development requires trade-offs, but just like a deal with
+            the devil, the devil is in the details of how you make those
+            trade-offs. And your choices can be devilishly hard. This demonic
+            themed talk looks at various techniques for easing the burden of the
+            bargains you make.
+        name: Lucy Spence
+        thumbnail: /images/spence-1-.jpg
+        anchor: Lucy-Spence
+        speaker-bio:
+          bio-title: About Lucy
+          bio-summary: Lucy has spent two decades making all sorts of mistakes while
+            building customer experiences. She likes to share what she’s learnt
+            from places like Amazon, TUI, LOVEFiLM, M&S, Department of Health,
+            Compare the Market, and now Appvia, so others can make new and more
+            interesting mistakes.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/lucyspence/
+              profile-label: LinkedIn/lucyspence
+            - profile-type: twitter
+              profile-url: https://twitter.com/lucyjspence
+              profile-label: "@lucyjspence"
+      - talk-info:
+          talk-time: 15:55 pm
           talk-title: Leading culture change to increase customer centricity
           talk-summary: >-
             Digital disruptors and the covid crisis have highlighted the
@@ -200,84 +338,7 @@ speakers:
         name: Jonathan Smare
         anchor: Jonathan-Smare
       - talk-info:
-          talk-time: ""
-          talk-title: Trade-offs
-          talk-summary: Product development requires trade-offs, but just like a deal with
-            the devil, the devil is in the details of how you make those
-            trade-offs. And your choices can be devilishly hard. This demonic
-            themed talk looks at various techniques for easing the burden of the
-            bargains you make.
-        name: Lucy Spence
-        thumbnail: /images/spence-1-.jpg
-        anchor: Lucy-Spence
-        speaker-bio:
-          bio-title: About Lucy
-          bio-summary: Lucy has spent two decades making all sorts of mistakes while
-            building customer experiences. She likes to share what she’s learnt
-            from places like Amazon, TUI, LOVEFiLM, M&S, Department of Health,
-            Compare the Market, and now Appvia, so others can make new and more
-            interesting mistakes.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/lucyspence/
-              profile-label: LinkedIn/lucyspence
-            - profile-type: twitter
-              profile-url: https://twitter.com/lucyjspence
-              profile-label: "@lucyjspence"
-      - talk-info:
-          talk-time: ""
-          talk-title: Speaking the same language
-          talk-summary: It sometimes feels like design and product are talking a different
-            language – both striving to get great products out to their
-            customers, but frequently misunderstanding each other on the path to
-            get there. Kate will share the times she’s seen this happen and the
-            ways she’s tackled it so that you can get ahead and create brilliant
-            working partnerships with your product counterparts.
-        name: Kate Flood
-        thumbnail: /images/screenshot-2022-09-27-at-13.19.14.png
-        anchor: Kate-Flood
-        speaker-bio:
-          bio-title: About Kate
-          bio-summary: Kate is the Director of Product Design at Sky, working with the
-            teams that look after NOW, Sky Go, Sky Sports and Sky News. Her
-            career has taken her from New York to London, always trying to
-            better the experiences for the people using the products and the
-            people designing them.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/kateflood16/
-              profile-label: LinkedIn/kateflood16
-      - talk-info:
-          talk-time: ""
-          talk-title: Arrogance & Confidence in <s>Design</s>...Redux
-          talk-summary: Ten years ago Jonty gave a talk that changed his life. Now he
-            revisits some of those lines of enquiry that upended his career (in
-            a good way). With the benefit of hindsight, some spectacular
-            mistakes, and a decade of experience scaling businesses and teams,
-            what does Arrogance and Confidence look like in 2022?
-        name: Jonty Sharples
-        thumbnail: /images/screenshot-2022-10-13-at-10.43.22.png
-        anchor: Jonty-Sharples
-        speaker-bio:
-          bio-summary: >-
-            Jonty's been involved in the creation of digital 'stuff' for over
-            two decades, with clients spanning museums, console and mobile
-            device manufacturers, transport networks, charities, educational
-            programs, government departments, financial services...he’s even
-            helped redesign an ambulance. He loves complicated, and relishes
-            making sense of the chaotic.\
-
-            Jonty is currently VP of Product and Design at Airalo.
-          bio-title: About Jonty
-          social-profiles:
-            - profile-type: linkedin
-              profile-label: LinkedIn/jontysharples
-              profile-url: https://www.linkedin.com/in/jontysharples/
-            - profile-type: twitter
-              profile-label: "@gringomoses"
-              profile-url: https://twitter.com/gringomoses
-      - talk-info:
-          talk-time: ""
+          talk-time: 16:30 pm
           talk-title: YOU DON'T "GET" ANYONE TO DO ANYTHING
           talk-summary: >-
             "How do we get product managers to value user research?"
@@ -321,32 +382,6 @@ speakers:
             by Google), and Head of Consumer Product at Bitly. Matt is also a
             musician, recording engineer, and the author of a book about
             singer-songwriter Elliott Smith.
-      - talk-info:
-          talk-time: ""
-          talk-title: Is UX Strategy even a thing?
-          talk-summary: We hear a lot about UX strategy but what is it and how does it
-            differ from business or product strategy? Do you need it, and how do
-            you go about getting it? That's a lot of questions to cover in
-            twenty minutes, but Alison will make a start by calling on her
-            experience of helping companies think more carefully (and
-            strategically) about their customers.
-        name: Alison Rawlings
-        thumbnail: /images/alison-rawlings.png
-        anchor: Alison-Rawlings
-        speaker-bio:
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/alison-rawlings-6520962/
-              profile-label: LinkedIn/AlisonRawlings
-          bio-title: About Alison
-          bio-summary: Alison has a career going back over 25 years and has established
-            and run UX teams in both agencies and client-side organisations. She
-            is currently Consultancy Director at experience design agency
-            Bunnyfoot where, as well as supporting Bunnyfoot's growth and
-            evolution and delivering their UX strategy training course, she
-            works with organisations such as EDF Energy and Sony Playstation to
-            help them improve their performance by becoming more
-            customer-centred in their approach.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
@@ -378,6 +413,28 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
+highlights:
+  visibility: true
+  title: Highlights from previous years
+  video:
+    - url: https://youtu.be/rz7sy81Yg5E
+      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
+      alt: ResearchOps - Kate Towsey
+    - url: https://youtu.be/8A3SEmvx7uY
+      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
+      alt: UX and Forecasting - James Woudhuysen
+    - url: https://youtu.be/DjRR1MpBr1g
+      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+      alt: Top Tasks - Gerry McGovern
+    - alt: Atomic UX - Daniel Pidcock
+      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      url: https://youtu.be/h9s3DrImGXA
+  testimonial:
+    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+      you'll get access to some of the most cutting-edge presentations you can
+      imagine. Well organized, fabulous location, packed with valuable content —
+      go if you can: it's worth the investment."
+    quotee: Jim Kalbach, Past Speaker
 sponsors:
   visibility: true
   section-title: Sponsors
@@ -535,28 +592,3 @@ workshop:
     back-image: /images/voice-ui-workshop.jpeg
   section-title: Workshop
 image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: Join us for our 🎂 10th annual one-day conference!
-social-image: ""
-event-promo-top-of-page: false
-highlights:
-  visibility: true
-  title: Highlights from previous years
-  video:
-    - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
-      alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
-      alt: Top Tasks - Gerry McGovern
-    - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
-      url: https://youtu.be/h9s3DrImGXA
-  testimonial:
-    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
-      you'll get access to some of the most cutting-edge presentations you can
-      imagine. Well organized, fabulous location, packed with valuable content —
-      go if you can: it's worth the investment."
-    quotee: Jim Kalbach, Past Speaker
