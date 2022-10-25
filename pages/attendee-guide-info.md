@@ -67,7 +67,7 @@ Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/
 
 * Doors will open at 9am for registration. Name badges will be arranged alphabetically by first name.
 * Complimentary pastries and refreshments will be available.
-* Use the [Dome entrance](http://brightondome.org/your_visit/venues/corn_exchange/) on Church Street. It’s approx [9 mins walk](https://goo.gl/maps/zkU5qz2Zyok) from the train station
+* Use the [Dome entrance](http://brightondome.org/your_visit/venues/corn_exchange/) on Church Street. It’s approx [9 mins walk](https://goo.gl/maps/YigaTebcGPU2) from the train station
 * Please note that The Dome may conduct bag searches.
 * Please be seated by 9.50am so you don’t miss anything.
 * We’re in the beautiful [Concert Hall](https://brightondome.org/your_visit/venues/concert_hall/) again, which is comfortable and very spacious.
