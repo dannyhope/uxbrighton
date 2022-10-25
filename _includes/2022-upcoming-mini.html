@@ -45,14 +45,23 @@
         {% else %}
           <a href="{{ site.url }}{{post.url}}" class="block-link upcoming__teaser border-top upcoming__teaser__link">
             <h4 class="upcoming__teaser__heading mv0 block-link__highlight">
-              {% if post.upcoming-title %}
-                {{ post.upcoming-title }}
+              {% if post.upcoming-teaser.title %}
+                {{ post.upcoming-teaser.title }}
               {% else %}
                 {{ post.title }}
               {% endif %}
             </h4>
             <div class="upcoming__teaser__text">
               {{ post.date | date: "%A, %B %-d, %Y" }}
+            </div>
+            <div class="upcoming-teaser__button-wrapper">
+              <div class="upcoming__teaser__button button button--green">
+                {% if post.upcoming-teaser.label %}
+                    {{ post.upcoming-teaser.label }}
+                  {% else %}
+                    Tickets and info
+                  {% endif %}
+              </div>
             </div>
           </a>
         {% endif %}

@@ -69,9 +69,13 @@ overview:
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
   post:
-    title: "Join us for our "
+    title: It’s a wrap!
     lede:
-      body: ""
+      body: "Thanks to everyone who attended, sponsored and spoke at UX Brighton 2022.
+        [Sign up to be notified](https://uxbri.org/2022/#newletter-signup) about
+        future UX Brighton talks and events. You may also wish to [join our
+        Slack](http://slack.uxbrighton.org.uk/) community, which includes a
+        rather nice #jobs channel."
     text:
       body: ""
     testimonial:
@@ -570,7 +574,7 @@ workshop:
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our 🎂 10th annual one-day conference!
 social-image: ""
-event-promo-top-of-page: false
+event-promo-top-of-page: true
 highlights:
   visibility: true
   title: Highlights from previous years
