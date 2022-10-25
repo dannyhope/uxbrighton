@@ -54,21 +54,21 @@
                       {% if post.slug == page.slug %}
                       {% else %}
                         <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                          <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                          <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-teaser.bg-image}}') center center no-repeat #1a272c; background-size: cover;">
                             <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
                             <div class="upcoming-teaser__text">
                               <h1 class="leading-solid mb2 color-white fs-xl relative">
                                 <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
-                                {% if post.upcoming-title %}
-                                  {{ post.upcoming-title }}
+                                {% if post.upcoming-teaser.title %}
+                                  {{ post.upcoming-teaser.title }}
                                 {% else %}
                                   {{ post.title }}
                                 {% endif %}
                               </h1>
                               <div class="mt0 regular track-normal mb3 relative">
                                 <div class="color-white">
-                                  {% if post.upcoming-text %}
-                                    {{ post.upcoming-text }}
+                                  {% if post.upcoming-teaser.text %}
+                                    {{ post.upcoming-teaser.text }}
                                   {% else %}
                                     {{ post.description }}
                                   {% endif %}
@@ -76,7 +76,13 @@
                               </div>
                             </div>
                             <div class="upcoming-teaser__button-wrapper">
-                              <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">Tickets and info</div>
+                              <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">
+                                {% if post.upcoming-teaser.label %}
+                                    {{ post.upcoming-teaser.label }}
+                                  {% else %}
+                                    Tickets and info
+                                  {% endif %}
+                              </div>
                             </div>
                           </a>
                         </div>

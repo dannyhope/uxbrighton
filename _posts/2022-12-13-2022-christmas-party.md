@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: "Christmas party "
+title: Christmas party
 permalink: /2022-christmas-party
 event-date: 2022-12-13
 start: 7pm
@@ -9,6 +9,12 @@ ticket:
   state: Ticketed
   price: Free
   link: https://www.tickettailor.com/events/uxbrighton/786570
+upcoming-teaser:
+  title: Christmas party
+  text: Join us for a drink and a mince pie on the second Tuesday of December to
+    celebrate this festive period. 🎄
+  button-label: Tickets and info
+  bg-image: /images/upcoming_christmas_2022.jpg
 conference: false
 upcoming: true
 published: true
