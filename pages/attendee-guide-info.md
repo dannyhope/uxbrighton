@@ -31,7 +31,7 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
 
 <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
 
-In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for Faisal in a bright orange UX Brighton T-shirt. 
+In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/) in a bright orange UX Brighton T-shirt. 
 
 <h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
 
