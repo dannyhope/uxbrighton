@@ -71,11 +71,11 @@ overview:
   post:
     title: It’s a wrap!
     lede:
-      body: "Thanks to everyone who attended, sponsored and spoke at UX Brighton 2022.
+      body: Thanks to everyone who attended, sponsored and spoke at UX Brighton 2022.
         [Sign up to be notified](https://uxbri.org/2022/#newletter-signup) about
         future UX Brighton talks and events. You may also wish to [join our
         Slack](http://slack.uxbrighton.org.uk/) community, which includes a
-        rather nice #jobs channel."
+        rather nice [\#jobs](https://uxbri.slack.com/messages/jobs) channel.
     text:
       body: ""
     testimonial:
