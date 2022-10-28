@@ -1,0 +1,397 @@
+  $space-s:   $ssi * 1px;
+  $space-m:   $ssi * 2px;
+  $space-l:   $ssi * 4px;
+  $space-xl:  $ssi * 5px;
+  $space-xxl: $ssi * 6px;
+
+// vertical spacing
+
+  .row,
+  .gutter-top {
+    margin-top:  $space-m;
+    @include over-s {
+      margin-top:  $space-l;
+    }
+    @include over-m {
+      margin-top:  $space-l;
+    }
+    @include over-l {
+      margin-top:  $space-xl;
+    }
+    @include over-xl {
+      margin-top:  $space-xxl;
+    }
+  }
+  .gutter-top-under-l {
+    @include under-l {
+      margin-top:  $space-l;
+    }
+  }
+  .gutter-top-under-m {
+    @include under-m {
+      margin-top:  $space-l;
+    }
+  }
+  .gutter-bottom-under-l {
+    @include under-l {
+      margin-bottom:  $space-l;
+    }
+  }
+  .gutter-bottom-under-m {
+    @include under-m {
+      margin-bottom:  $space-l;
+    }
+  }
+
+  .padding-top-row {
+    padding-top:  $space-m;
+    @include over-s {
+      padding-top:  $space-l;
+    }
+    @include over-m {
+      padding-top:  $space-l;
+    }
+    @include over-l {
+      padding-top:  $space-xl;
+    }
+    @include over-xl {
+      padding-top:  $space-xxl;
+    }
+  }
+
+  .row,
+  .gutter-bottom {
+    margin-bottom:  $space-m;
+    @include over-s {
+      margin-bottom:  $space-l;
+    }
+    @include over-m {
+      margin-bottom:  $space-l;
+    }
+    @include over-l {
+      margin-bottom:  $space-xl;
+    }
+    @include over-xl {
+      margin-bottom:  $space-xxl;
+    }
+  }
+
+// horizontal spacing
+
+  .container {
+    padding-left:  $space-m;
+    padding-right:  $space-m;
+    @include over-s {
+      padding-left:  $space-m;
+      padding-right:  $space-m;
+    }
+    @include over-m {
+      padding-left:  $space-l;
+      padding-right:  $space-l;
+    }
+    @include over-l {
+      padding-left:  $space-xl;
+      padding-right:  $space-xl;
+    }
+    @include over-xl {
+      padding-left:  $space-xxl;
+      padding-right:  $space-xxl;
+    }
+  }
+
+
+  // small gutters
+    .gutters--xs {
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+    .gutters__container--xs {
+      margin-left:  -4px;
+      margin-right: -4px;
+    }
+
+  // regular gutters
+
+
+    .gutters__container {
+      //@include over-s {
+        margin-left:  -#{$space-m};
+        margin-right: -#{$space-m};
+      //}
+      @include over-m {
+        margin-left:  -#{$space-m};
+        margin-right: -#{$space-m};
+      }
+      @include over-l {
+        margin-left:  -#{$space-m};
+        margin-right: -#{$space-m};
+      }
+      @include over-xl {
+        margin-left:  -#{$space-l};
+        margin-right: -#{$space-l};
+      }
+    }
+
+    .gutters,
+    .gutter-left {
+      //@include over-s {
+        padding-left:  $space-m;
+      //}
+      @include over-m {
+        padding-left:  $space-m;
+      }
+      @include over-l {
+        padding-left:  $space-m;
+      }
+      @include over-xl {
+        padding-left:  $space-l;
+      }
+    }
+
+    .gutters,
+    .gutter-right {
+      //@include over-s {
+        padding-right:  $space-m;
+      //}
+      @include over-m {
+        padding-right:  $space-m;
+      }
+      @include over-l {
+        padding-right:  $space-m;
+      }
+      @include over-xl {
+        padding-right:  $space-l;
+      }
+    }
+
+
+
+
+
+
+
+ 
+
+  // .ml
+  // .mh {
+  //   margin-left:  $space-m;
+  //   @include over-s {
+  //     margin-left:  $space-m;
+  //   }
+  //   @include over-m {
+  //     margin-left:  $space-l;
+  //   }
+  //   @include over-l {
+  //     margin-left:  $space-xl;
+  //   }
+  //   @include over-xl {
+  //     margin-left:  $space-xl;
+  //   }
+  // }
+  // .mr,
+  // .mh {
+  //   margin-right:  $space-m;
+  //   @include over-s {
+  //     margin-right:  $space-m;
+  //   }
+  //   @include over-m {
+  //     margin-right:  $space-l;
+  //   }
+  //   @include over-l {
+  //     margin-right:  $space-xl;
+  //   }
+  //   @include over-xl {
+  //     margin-right:  $space-xl;
+  //   }
+  // }
+  // .mt,
+  // .mv {
+  //   margin-top:  $space-m;
+  //   @include over-s {
+  //     margin-top:  $space-m;
+  //   }
+  //   @include over-m {
+  //     margin-top:  $space-l;
+  //   }
+  //   @include over-l {
+  //     margin-top:  $space-xl;
+  //   }
+  //   @include over-xl {
+  //     margin-top:  $space-xl;
+  //   }
+  // }
+  // .mb,
+  // .mv {
+  //   margin-bottom:  $space-m;
+  //   @include over-s {
+  //     margin-bottom:  $space-m;
+  //   }
+  //   @include over-m {
+  //     margin-bottom:  $space-l;
+  //   }
+  //   @include over-l {
+  //     margin-bottom:  $space-xl;
+  //   }
+  //   @include over-xl {
+  //     margin-bottom:  $space-xl;
+  //   }
+  // }
+
+
+
+
+// .pam {
+//   padding:  $space-m;
+//   @include over-s {
+//     padding:  $space-m;
+//   }
+//   @include over-m {
+//     padding:  $space-l;
+//   }
+//   @include over-l {
+//     padding:  $space-xl;
+//   }
+//   @include over-xl {
+//     padding:  $space-xl;
+//   }
+// }
+
+// .pas {
+//   padding:  $space-m;
+//   @include over-s {
+//     padding:  $space-m;
+//   }
+//   @include over-m {
+//     padding:  $space-l;
+//   }
+//   @include over-l {
+//     padding:  $space-xl;
+//   }
+//   @include over-xl {
+//     padding:  $space-xl;
+//   }
+// }
+
+
+$spacing-increments: 0 1 2 3 4 5 6;
+
+@each $spacing-increment in $spacing-increments {
+  .pt#{$spacing-increment} { 
+    padding-top: ($ssi * $spacing-increment) * 1px; 
+  }
+  .pl#{$spacing-increment} { 
+    padding-left: ($ssi * $spacing-increment) * 1px; 
+  }
+  .pb#{$spacing-increment} { 
+    padding-bottom: ($ssi * $spacing-increment) * 1px; 
+  }
+  .pr#{$spacing-increment} { 
+    padding-right: ($ssi * $spacing-increment) * 1px; 
+  }
+  .pa#{$spacing-increment} { 
+    @extend .pt#{$spacing-increment}; 
+    @extend .pb#{$spacing-increment}; 
+    @extend .pl#{$spacing-increment}; 
+    @extend .pr#{$spacing-increment}; 
+  }
+  .pv#{$spacing-increment} { 
+    @extend .pt#{$spacing-increment}; 
+    @extend .pb#{$spacing-increment}; 
+  }
+  .ph#{$spacing-increment} { 
+    @extend .pl#{$spacing-increment}; 
+    @extend .pr#{$spacing-increment}; 
+  }
+}
+
+@each $spacing-increment in $spacing-increments {
+  .mt#{$spacing-increment} { 
+    margin-top: ($ssi * $spacing-increment) * 1px; 
+  }
+  .ml#{$spacing-increment} { 
+    margin-left: ($ssi * $spacing-increment) * 1px; 
+  }
+  .mb#{$spacing-increment} { 
+    margin-bottom: ($ssi * $spacing-increment) * 1px; 
+  }
+  .mr#{$spacing-increment} { 
+    margin-right: ($ssi * $spacing-increment) * 1px; 
+  }
+  .ma#{$spacing-increment} { 
+    @extend .mt#{$spacing-increment}; 
+    @extend .mb#{$spacing-increment}; 
+    @extend .ml#{$spacing-increment}; 
+    @extend .mr#{$spacing-increment}; 
+  }
+  .mv#{$spacing-increment} { 
+    @extend .mt#{$spacing-increment}; 
+    @extend .mb#{$spacing-increment}; 
+  }
+  .mh#{$spacing-increment} { 
+    @extend .ml#{$spacing-increment}; 
+    @extend .mr#{$spacing-increment}; 
+  }
+}
+
+
+
+
+
+
+// @include over-m {
+//   .pb6-over-l {
+//     padding-bottom: $ssi * 3px;
+//   }
+// }
+// @include over-l {
+//   .pb6-over-l {
+//     padding-bottom: $ssi * 6px;
+//   }
+// }
+// @include over-m {
+//   .pt1-over-m {
+//     padding-top: $ssi * 1px;
+//   }
+//   .pl2-over-m {
+//     padding-left: $ssi * 2px;
+//   }
+//   .pr2-over-m {
+//     padding-right: $ssi * 2px;
+//   }
+// }
+
+
+
+@include under-l {
+  .pt0-under-l, .pv0-under-l { padding-top: 0; }
+  .pb0-under-l, .pv0-under-l { padding-bottom: 0; } 
+   
+  .pl0-under-l, .ph0-under-l { padding-left: 0; }
+  .pr0-under-l, .ph0-under-l { padding-right: 0; }
+
+  .ml0-under-l, .mh0-under-l { margin-left: 0; }
+  .mr0-under-l, .mh0-under-l { margin-right: 0; }
+
+  .mt0-under-l, .mv0-under-l { margin-top: 0; }
+  .mb0-under-l, .mv0-under-l { margin-bottom: 0; }
+}
+
+@include under-m {
+  .pt0-under-m, .pv0-under-m { padding-top: 0; }
+  .pb0-under-m, .pv0-under-m { padding-bottom: 0; } 
+   
+  .pl0-under-m, .ph0-under-m { padding-left: 0; }
+  .pr0-under-m, .ph0-under-m { padding-right: 0; }
+
+  .ml0-under-m, .mh0-under-m { margin-left: 0; }
+  .mr0-under-m .mh0-under-m { margin-right: 0; }
+
+  .mt0-under-m, .mv0-under-m { margin-top: 0; }
+  .mb0-under-m, .mv0-under-m { margin-bottom: 0; }
+}
+
+
+
+
+
+

@@ -1,95 +1,7 @@
-title: " UX Brighton 2022: UX and Product Management"
-description: Join us for our 🎂 10th annual one-day conference!
-fullurl: https://uxbri.org/2022/
-social-image: ""
-event-promo-top-of-page: true
-hero:
-  hero-state: pre
-  global:
-    conference: UX Brighton 2022
-    date: Friday 4 November
-    date-time: 2022-11-04T09:30
-    venue: Brighton Dome
-    image: /images/header.jpg
-  pre:
-    title: UX and Product Management
-    button:
-      label: Buy tickets
-      url: https://www.tickettailor.com/events/uxbrighton/362453
-      extra-text: Group Discount - buy 4 get 1 free
-  during:
-    title: UX and Product Management
-    message: 2022 conference tickets available on the door
-    button:
-      label: Book now for 2023
-      extra-text: Super early bird discounts available now!
-      url: https://www.tickettailor.com/events/uxbrighton/782636
-  post:
-    title: It’s a wrap
-    message: "Thanks for coming to UX Brighton 2022: UX and Product Management"
-    button:
-      label: Book now for 2023
-      url: https://www.tickettailor.com/events/uxbrighton/782636
-      extra-text: Super early bird discounts available now!
-overview:
-  visibility: true
-  pre:
-    title: Join us for our 🎂 10th annual one-day conference!
-    lede:
-      body: Desirability, feasibility, and viability are the three components of a
-        model for successful products — an integrated model that is often
-        carried out by segregated teams.
-    text:
-      body: >-
-        Join us for our 10th conference where people from product management,
-        ux, research and design will gather to discover what we have to learn
-        from one another.
-
-
-        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
-    testimonial:
-      visibility: true
-      quote: Some of the smartest, most insightful and entertaining people I've met.
-        And that was just the audience. The speakers were great, too.
-      quotee: Mike Kuniavsky, Xerox PARC
-  during:
-    title: Join us for our 🎂 10th annual one-day conference!
-    lede:
-      body: Desirability, feasibility, and viability are the three components of a
-        model for successful products — an integrated model that is often
-        carried out by segregated teams.
-    text:
-      body: >-
-        Join us for our 10th conference where people from product management,
-        ux, research and design will gather to discover what we have to learn
-        from one another.
-
-
-        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
-    testimonial:
-      visibility: true
-      quote: Some of the smartest, most insightful and entertaining people I've met.
-        And that was just the audience. The speakers were great, too.
-      quotee: Mike Kuniavsky, Xerox PARC
-  post:
-    title: It’s a wrap!
-    lede:
-      body: Thanks to everyone who attended, sponsored and spoke at UX Brighton 2022.
-        [Sign up to be notified](https://uxbri.org/2022/#newletter-signup) about
-        future UX Brighton talks and events. You may also wish to [join our
-        Slack](http://slack.uxbrighton.org.uk/) community, which includes a
-        rather nice [\#jobs](https://uxbri.slack.com/messages/jobs) channel.
-    text:
-      body: ""
-    testimonial:
-      visibility: true
-      quote: Some of the smartest, most insightful and entertaining people I've met.
-        And that was just the audience. The speakers were great, too.
-      quotee: Mike Kuniavsky, Xerox PARC
-  overview-state: pre
+fullurl: https://uxbri.org/2023/
 attendee-info:
   travel-accom:
-    visibility: true
+    visibility: false
     title: Information for Attendees
     body: >-
       The conference is being held in the beautiful and historic [Brighton Dome
@@ -105,7 +17,7 @@ attendee-info:
       Before the conference why not [join the UX Brighton Slack](https://slofile.com/slack/uxbri) and get chatting with other UXers. We’ve also got a rather nice [\#jobs](https://uxbri.slack.com/messages/jobs).
 
 
-      See our [Attendee information guide](/2022/info) for everything you need to get the most out of your visit to UX Brighton, including:
+      See our [Attendee information guide](/2022/info) for everything you need to get the most out of your visit to UX Brighton, including:
     info:
       - item: Travel
       - item: Accommodation
@@ -116,9 +28,9 @@ attendee-info:
       - item: Registration
       - item: Refreshments
       - item: After Party
-    show-info: true
+    show-info: false
   pre-party:
-    visibility: true
+    visibility: false
     event:
       - body: >-
           <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
@@ -130,8 +42,116 @@ attendee-info:
 
 
           If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
-speakers:
+workshop:
+  visibility: false
+  details:
+    workshop-date: 2019-10-31T00:00:00.000Z
+    workshop-time: 2022-06-30T09:30:00.000Z
+    title: Make Your First Voice Interface
+    url: /Voice-UI-workshop
+    lede: We’re all competent in person-to-person conversation, designing a good
+      conversation is a new challenge for most organisations.
+    button: Tickets and info
+    summary:
+      title: Are you ready for Voice UI?
+      body: >-
+        Voice UI is growing fast and provides an opportunity to create better
+        products in new contexts. Learn to use VUIs to make interaction simple,
+        pleasurable, accessible and reduce cognitive load.
+
+
+        In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.
+      cta: Learn more about the Voice UI Workshop
+    back-image: /images/voice-ui-workshop.jpeg
+  section-title: Workshop
+conference-year: "2023"
+title: UX Brighton Conference 2023
+hero:
+  hero-state: pre
+  global:
+    conference: UX Brighton 2023
+    date: Friday 3 November
+    date-time: 2023-11-03T09:00
+    venue: Brighton Dome
+    image: /images/header.jpg
+  pre:
+    title: UX and Innovation
+    button:
+      label: Buy tickets
+      url: https://www.tickettailor.com/events/uxbrighton/782636
+      extra-text: Super early bird discounts available now!
+  during:
+    title: UX and Product Management
+    message: 2023 conference tickets available on the door
+    button:
+      label: Book now for 2024
+      extra-text: Super early bird discounts available now!
+      url: https://www.tickettailor.com/events/uxbrighton/782636
+  post:
+    title: It’s a wrap
+    message: Thanks for coming to UX Brighton 2023
+    button:
+      label: Book now for 2024
+      url: https://www.tickettailor.com/events/uxbrighton/782636
+      extra-text: Super early bird discounts available now!
+overview:
   visibility: true
+  pre:
+    title: Join us for our annual one-day conference!
+    lede:
+      body: Desirability, feasibility, and viability are the three components of a
+        model for successful products — an integrated model that is often
+        carried out by segregated teams.
+    text:
+      body: >-
+        Join us for our annual conference where people from product management,
+        ux, research and design will gather to discover what we have to learn
+        from one another.
+
+
+        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+    testimonial:
+      visibility: true
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  during:
+    title: Join us for our annual one-day conference!
+    lede:
+      body: Desirability, feasibility, and viability are the three components of a
+        model for successful products — an integrated model that is often
+        carried out by segregated teams.
+    text:
+      body: >-
+        Join us for our annual conference where people from product management,
+        ux, research and design will gather to discover what we have to learn
+        from one another.
+
+
+        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+    testimonial:
+      visibility: true
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  post:
+    title: It’s a wrap!
+    lede:
+      body: Thanks to everyone who attended, sponsored and spoke at UX Brighton 2023.
+        [Sign up to be notified](https://uxbri.org/2022/#newletter-signup) about
+        future UX Brighton talks and events. You may also wish to [join our
+        Slack](http://slack.uxbrighton.org.uk/) community, which includes a
+        rather nice [\#jobs](https://uxbri.slack.com/messages/jobs) channel.
+    text:
+      body: ""
+    testimonial:
+      visibility: true
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  overview-state: pre
+speakers:
+  visibility: false
   section-title: Talks
   section-banner: /images/header2.jpg
   speaker-info:
@@ -152,10 +172,10 @@ speakers:
         speaker-bio:
           bio-title: About Janna
           bio-summary: "Janna Bastow is co-founder
-            of [ProdPad](https://www.prodpad.com/) , product management and
+            of [ProdPad](https://www.prodpad.com/) , product management and
             roadmapping software for product people. Janna is also co-founder
-            of [ProductTank](https://www.producttank.com/) and [Mind the
-            Product](https://www.mindtheproduct.com/) , a global community of
+            of [ProductTank](https://www.producttank.com/) and [Mind the
+            Product](https://www.mindtheproduct.com/) , a global community of
             product managers. She often starts and stops conversations with the
             question: “What problem are you trying to solve?”"
           social-profiles:
@@ -235,7 +255,7 @@ speakers:
           talk-summary: It sometimes feels like design and product are talking a different
             language – both striving to get great products out to their
             customers, but frequently misunderstanding each other on the path to
-            get there. Kate will share the times she’s seen this happen and the
+            get there. Kate will share the times she’s seen this happen and the
             ways she’s tackled it so that you can get ahead and create brilliant
             working partnerships with your product counterparts.
         name: Kate Flood
@@ -243,7 +263,7 @@ speakers:
         anchor: Kate-Flood
         speaker-bio:
           bio-title: About Kate
-          bio-summary: Kate is the Director of Product Design at Sky, working with the
+          bio-summary: Kate is the Director of Product Design at Sky, working with the
             teams that look after NOW, Sky Go, Sky Sports and Sky News. Her
             career has taken her from New York to London, always trying to
             better the experiences for the people using the products and the
@@ -328,20 +348,17 @@ speakers:
             Jonathan’s objective is to help leaders understand their critical role increasing the focus on customer centricity.
         thumbnail: /images/screenshot-2022-09-20-at-14.02.35.png
         speaker-bio:
-          bio-summary: Jonathan Smare is a Partner, Strategy, Leadership & Innovation at
-            DigitalWorksGroup. In his career spanning over 30 years at Hewlett
-            Packard, Cisco Systems and Amazon Web Services Jonathan has led
-            numerous large-scale transformations. A veteran executive and public
-            speaker, Jonathan works with executives worldwide to share
-            experiences and discuss strategies for their digital transformation
-            journeys.
+          bio-summary: Jonathan Smare is a Partner at DigitalWorksGroup. In his career
+            spanning over 30 years at Hewlett Packard, Cisco Systems and Amazon
+            Web Services Jonathan has led numerous large-scale transformations.
+            A veteran executive and public speaker, Jonathan works with
+            executives worldwide to share experiences and discuss strategies for
+            their digital transformation journeys.
           bio-title: About Jonathan
           social-profiles:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/jonathan-smare/
               profile-label: LinkedIn/jonathan-smare
-            - profile-type: website
-              profile-url: https://digitalworksgroup.com/
         name: Jonathan Smare
         anchor: Jonathan-Smare
       - talk-info:
@@ -362,7 +379,7 @@ speakers:
 
 
 
-            For the last twelve years, I have heard these questions on a weekly basis. And the answer to all of them is exactly the same: you don't "get" anyone to do anything. In this talk, product leader and author of *Product Management in Practice* Matt LeMay shares his experience working across product, UX, marketing, and leadership teams at companies like Google, Audible, Mailchimp, and Spotify. You'll learn how the path to success in cross-functional product development means embracing ego death and recognizing that you have very little direct control over anyone or anything. No, seriously.
+            For the last twelve years, I have heard these questions on a weekly basis. And the answer to all of them is exactly the same: you don't "get" anyone to do anything. In this talk, product leader and author of *Product Management in Practice* Matt LeMay shares his experience working across product, UX, marketing, and leadership teams at companies like Google, Audible, Mailchimp, and Spotify. You'll learn how the path to success in cross-functional product development means embracing ego death and recognizing that you have very little direct control over anyone or anything. No, seriously.
         name: Matt LeMay
         thumbnail: /images/matt-lemay.png
         anchor: Matt-LeMay
@@ -377,7 +394,7 @@ speakers:
           bio-title: About Matt
           bio-summary: Matt LeMay is an internationally recognized product leader, author,
             and consultant who has worked with companies like Spotify, Audible,
-            Mailchimp, and Google. He is the author of Agile for Everybody
+            Mailchimp, and Google. He is the author of Agile for Everybody
             (O’Reilly Media, 2018) and Product Management in Practice (Second
             Edition O'Reilly Media, 2022), and has helped build and scale
             product management practices at companies ranging from early-stage
@@ -420,29 +437,7 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
-  full: true
-highlights:
-  visibility: true
-  title: Highlights from previous years
-  video:
-    - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
-      alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
-      alt: Top Tasks - Gerry McGovern
-    - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
-      url: https://youtu.be/h9s3DrImGXA
-  testimonial:
-    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
-      you'll get access to some of the most cutting-edge presentations you can
-      imagine. Well organized, fabulous location, packed with valuable content —
-      go if you can: it's worth the investment."
-    quotee: Jim Kalbach, Past Speaker
+  full: false
 sponsors:
   visibility: true
   section-title: Sponsors
@@ -451,7 +446,7 @@ sponsors:
     title: Sponsor UX Brighton
     lede: UX Brighton attracts an engaged crowd of designers, decision makers and
       influencers. If you’re interested in supporting UX Brighton have a look at
-      the [sponsorship information page](/2023/sponsorship) for more details.
+      the [sponsorship information page](/sponsorship) for more details.
   testimonial:
     visibility: true
     quote: Fantastic conference - a fresh mix of new ideas, provocative speakers,
@@ -577,26 +572,29 @@ sponsors:
           - link-type: facebook
             profile-url: https://www.facebook.com/Lagom-Finance-107444047667801
     show-opportunity: false
-workshop:
-  visibility: false
-  details:
-    workshop-date: 2019-10-31T00:00:00.000Z
-    workshop-time: 2022-06-30T09:30:00.000Z
-    title: Make Your First Voice Interface
-    url: /Voice-UI-workshop
-    lede: We’re all competent in person-to-person conversation, designing a good
-      conversation is a new challenge for most organisations.
-    button: Tickets and info
-    summary:
-      title: Are you ready for Voice UI?
-      body: >-
-        Voice UI is growing fast and provides an opportunity to create better
-        products in new contexts. Learn to use VUIs to make interaction simple,
-        pleasurable, accessible and reduce cognitive load.
-
-
-        In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.
-      cta: Learn more about the Voice UI Workshop
-    back-image: /images/voice-ui-workshop.jpeg
-  section-title: Workshop
 image: https://uxbri.org/2022/images/cards/Early-bird.png
+description: Join us for our annual one-day conference!
+social-image: ""
+event-promo-top-of-page: false
+highlights:
+  visibility: true
+  title: Highlights from previous years
+  video:
+    - url: https://youtu.be/rz7sy81Yg5E
+      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
+      alt: ResearchOps - Kate Towsey
+    - url: https://youtu.be/8A3SEmvx7uY
+      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
+      alt: UX and Forecasting - James Woudhuysen
+    - url: https://youtu.be/DjRR1MpBr1g
+      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+      alt: Top Tasks - Gerry McGovern
+    - alt: Atomic UX - Daniel Pidcock
+      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      url: https://youtu.be/h9s3DrImGXA
+  testimonial:
+    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+      you'll get access to some of the most cutting-edge presentations you can
+      imagine. Well organized, fabulous location, packed with valuable content —
+      go if you can: it's worth the investment."
+    quotee: Jim Kalbach, Past Speaker

@@ -1,0 +1,9 @@
+{% if homepage.attendee-info.pre-party.visibility == true %}
+<div class="row gutters__container">
+  {% for entry in homepage.attendee-info.pre-party.event %}
+    <div class="u1of2-over-m left-over-m gutters">
+      {{ entry.body | markdownify }}
+    </div>
+  {% endfor %}
+</div>
+{% endif %}

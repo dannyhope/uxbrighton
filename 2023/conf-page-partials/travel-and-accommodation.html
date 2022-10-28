@@ -1,0 +1,24 @@
+{% if homepage.attendee-info.travel-accom.visibility == true %}
+<div class="row padding-top-row border-top mt0">
+  <h2 class="mt0 mb3">{{ homepage.attendee-info.travel-accom.title }}</h2>
+  {{ homepage.attendee-info.travel-accom.body | markdownify }}
+
+  {% if homepage.attendee-info.travel-accom.show-info == true %}
+    <ul class="columnar-list gutter-bottom">
+      {% for entry in homepage.attendee-info.travel-accom.info %}
+        <li>{{ entry.item }}</li>
+      {% endfor %}
+    </ul>
+
+    <a class="row mv0 attendee-info-icons" href="/2023/info">
+      <img alt="Travel" class="attendee-info-icon" src="/2022/graphics/attendee-info-icons/Travel.svg"/>
+      <img alt="Acommodation" class="attendee-info-icon" src="/2022/graphics/attendee-info-icons/Hotel.svg"/>
+      <img alt="Accessibility" class="attendee-info-icon" src="/2022/graphics/attendee-info-icons/Accessibility.svg"/>
+      <img alt="Refreshments" class="attendee-info-icon" src="/2022/graphics/attendee-info-icons/Coffee.svg"/>
+      <img alt="Charge" class="attendee-info-icon" src="/2022/graphics/attendee-info-icons/Charge.svg"/>
+      <img alt="Wifi" class="attendee-info-icon" src="/2022/graphics/attendee-info-icons/Wifi.svg"/>
+      <img alt="After Party" class="attendee-info-icon" src="/2022/graphics/attendee-info-icons/Drinks.svg"/>
+    </a>
+  {% endif %}
+</div>
+{% endif %}
