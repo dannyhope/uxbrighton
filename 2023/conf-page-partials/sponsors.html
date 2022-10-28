@@ -1,0 +1,270 @@
+{% if homepage.sponsors.visibility == true %}
+<style>
+  /* required styles */
+  .image-container {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    width: 100%;
+  }
+  .image-container img {
+    margin: 0 auto; 
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 80%;
+  }
+  .sponsor__logo {
+    position: relative;
+    height: 0;
+    padding-top: 50%;
+    margin-bottom: 10px;
+  }
+  .sponsor__logo a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+  .sponsor__logo--3-star {
+    min-height: 50px !important;
+  }
+  .sponsor__logo--3-star .image-container {
+    padding: 10px 0;
+  }
+
+
+  .sponsor__logo {
+    padding-top: 40%;
+  }
+  .sponsor-headline__image-box img {
+    width: 100%
+  }
+  @media (max-width: 951px){
+    .sponsor-headline__image-box {
+      display: block;
+    }
+  }
+  @media (max-width: 730px){
+    .sponsor-headline__image-box {
+      width: 100%
+    }
+    .sponsor-premium .sponsor__info {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 731px){
+    .sponsor-headline__text-box {
+      max-width: 400px;
+      margin: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  @media (min-width: 951px){
+    .sponsor-headline__text {
+      font-size: 24px;
+    }
+    .sponsor-headline__text-box {
+      max-width: 400px;
+      margin: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+</style>
+
+<section id="sponsors">
+
+  <!-- Section image and title... -->
+  <div class="overlay__outer" style="background-image: url('{{ homepage.sponsors.section-banner }}');">
+    <div class="overlay__inner" style="background: transparent;">
+      <div class="container color-white">
+        <h2 class="fs-xxxl mb0">{{ homepage.sponsors.section-title }}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="overlay__after container bg-white">
+    <!-- Section intro title & text... -->
+    <h3 class="fs-h2 mt5">{{ homepage.sponsors.section-intro.title }}</h3>
+    <div class="standfirst pb2">
+      {{ homepage.sponsors.section-intro.lede | markdownify }}
+    </div>
+
+    <!-- Section testimonial... -->
+    {% if homepage.sponsors.testimonial.visibility == true %}
+      <div class="testimonial">
+        <div class="row pv5 border-top mv0">
+          <blockquote class="standfirst">
+            <div class="quote">
+              <p>{{ homepage.sponsors.testimonial.quote }}</p>
+            </div>
+            <div class="quotee">{{ homepage.sponsors.testimonial.quotee }}</div>
+          </blockquote>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- "Headline" sponsor.... -->
+    {% if homepage.sponsors.sponsors-headline.visibility == true %}
+      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-headline.section-title }}</h3>
+      <div class="row mv0 eh-row drop pa2 sponsor-headline ">
+
+        <div class="u1of2-over-m sponsor-headline__image-box">
+          <a href="{{ homepage.sponsors.sponsors-headline.sponsor-details.url }}">
+            <img src="{{ homepage.sponsors.sponsors-headline.sponsor-details.logo }}" alt="{{ homepage.sponsors.sponsors-headline.sponsor-details.name }}" style="width: 100%">
+          </a>
+        </div>
+
+        <div class="u1of2-over-m">
+          <div class="sponsor-headline__text-box">
+            <div class="sponsor-headline__text">
+              <p class="mb0">{{ homepage.sponsors.sponsors-headline.sponsor-details.summary }}</p>
+            </div>
+            <div class="sponsor__links icons-currentColor mt1">
+              {% for entry in homepage.sponsors.sponsors-headline.sponsor-details.links %}
+                {% if entry.link-type == "website" %}
+                  <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Website.">
+                    <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                  </a>
+                {% elsif entry.link-type == "linkedin" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's LinkedIn.">
+                      <svg class="icon-linkedin--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-linkedin2"></use></svg>
+                    </a>
+                {% elsif entry.link-type == "twitter" %}
+                  <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Twitter.">
+                    <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                  </a>
+                {% elsif entry.link-type == "facebook" %}
+                  <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Facebook.">
+                    <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    {% endif %}
+
+    <!-- "Premium" sponsors.... -->
+    {% if homepage.sponsors.sponsors-premium.visibility == true %}
+      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-premium.section-title }}</h3>
+      <div class="row mv0 eh-row">
+
+        {% for sponsor in homepage.sponsors.sponsors-premium.sponsor-list %}
+          <div class="u1of2-over-s pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-premium">
+              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+                <a href="{{ sponsor.url }}">
+                  <div class="image-container">
+                    <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" width="273" height="203" style="width: 45%">
+                  </div>
+                </a>
+              </div>
+              <div class="sponsor__info">
+                <p class="mb0">{{ sponsor.summary }}</p>
+              </div>
+              <div class="sponsor__links icons-currentColor mt1">
+                {% for entry in sponsor.links %}
+                  {% if entry.link-type == "website" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Website.">
+                      <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "linkedin" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's LinkedIn.">
+                      <svg class="icon-linkedin--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-linkedin2"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "twitter" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Twitter.">
+                      <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "facebook" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Facebook.">
+                      <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
+        <!-- Sponsorship (premium) placeholder 'available' slot -->
+        {% if homepage.sponsors.sponsors-premium.show-opportunity == true %}
+          <div class="u1of2-over-s pr1 left eh-item">
+            <a href="/2023/sponsorship" class="block drop ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
+              <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
+            </a>
+          </div>
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+    <!-- "Standard" sponsors.... -->
+    {% if homepage.sponsors.sponsors-standard.visibility == true %}
+      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-standard.section-title }}</h3>
+      <div class="row mt0 eh-row" style="font-size:15px;">
+
+        {% for sponsor in homepage.sponsors.sponsors-standard.sponsor-list %}
+          <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+            <div class="drop pa2 sponsor sponsor-standard">
+              <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
+                <a href="{{ sponsor.url }}">
+                  <div class="image-container">
+                    <img src="{{ sponsor.logo }}" alt="{ sponsor.name }}">
+                  </div>
+                  </a>
+              </div>
+              <div class="sponsor__info hidden-under-s">
+                <p class="mb0">{{ sponsor.summary }}</p>
+              </div>
+              <div class="sponsor__links icons-currentColor mt1">
+                {% for entry in sponsor.links %}
+                  {% if entry.link-type == "website" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Website.">
+                      <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "linkedin" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's LinkedIn.">
+                      <svg class="icon-linkedin--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-linkedin2"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "twitter" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Twitter.">
+                      <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "facebook" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Facebook.">
+                      <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
+        <!-- Sponsorship (standard) placeholder 'available' slot -->
+        {% if homepage.sponsors.sponsors-standard.show-opportunity == true %}
+          <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+            <a href="/2023/sponsorship" class="block drop ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
+              <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
+            </a>
+          </div>
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+  </div>
+
+</section>
+{% endif %}

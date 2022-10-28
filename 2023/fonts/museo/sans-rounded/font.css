@@ -1,0 +1,36 @@
+@font-face {
+    font-family:'museo-sans-rounded';
+    src: url('museo-sans-rounded-100.woff') format('woff');
+    font-weight:100;
+    font-style:normal;
+}
+@font-face {
+    font-family:'museo-sans-rounded';
+    src: url('museo-sans-rounded-300.woff') format('woff');
+    font-weight:300;
+    font-style:normal;
+}
+@font-face {
+    font-family:'museo-sans-rounded';
+    src: url('museo-sans-rounded-500.woff') format('woff');
+    font-weight:500;
+    font-style:normal;
+}
+@font-face {
+    font-family:'museo-sans-rounded';
+    src: url('museo-sans-rounded-700.woff') format('woff');
+    font-weight:700;
+    font-style:normal;
+}
+@font-face {
+    font-family:'museo-sans-rounded';
+    src: url('museo-sans-rounded-900.woff') format('woff');
+    font-weight:900;
+    font-style:normal;
+}
+@font-face {
+    font-family:'museo-sans-rounded';
+    src: url('museo-sans-rounded-1000.woff') format('woff');
+    font-weight:1000;
+    font-style:normal;
+}

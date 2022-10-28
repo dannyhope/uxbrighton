@@ -50,8 +50,9 @@
     <meta name="theme-color" content="#ffffff">
 
   <!-- Styles -->
-    <link rel="stylesheet" href="/2022/fonts/museo/sans/font.css">
-    <link rel="stylesheet" href="/2022/stylesheets/css/styles.css?v=2022">
+    <link rel="stylesheet" href="/2023/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/2023/stylesheets/css/styles.css?v=2023">
+    <link rel="stylesheet" href="/2023/conf-page-partials/styles-to-be-rationalised.css">
 
     <style>
       /* Email Octopus embeds:
@@ -84,11 +85,9 @@
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
       window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
     </script>
-
-    <link rel="stylesheet" href="/2022/conf-page-partials/styles-to-be-rationalised.css">
 </head>
 
-<body id="top" class="relative template--2023 template--conference {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+<body id="top" class="relative template--default template--conference {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
 
   <!-- Google Analytics -->
   {% include tracking-body.html %}

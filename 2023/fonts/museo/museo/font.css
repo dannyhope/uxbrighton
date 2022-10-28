@@ -1,0 +1,82 @@
+
+
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-900-normal.woff') format('woff');
+  font-weight:900;
+  font-style:normal;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-700-normal.woff') format('woff');
+  font-weight:700;
+  font-style:normal;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-300-normal.woff') format('woff');
+  font-weight:300;
+  font-style:normal;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-100-normal.woff') format('woff');
+  font-weight:100;
+  font-style:normal;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-500-normal.woff') format('woff');
+  font-weight:500;
+  font-style:normal;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-300-italic.woff') format('woff');
+  font-weight:300;
+  font-style:italic;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-900-italic.woff') format('woff');
+  font-weight:900;
+  font-style:italic;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-100-italic.woff') format('woff');
+  font-weight:100;
+  font-style:italic;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-500-italic.woff') format('woff');
+  font-weight:500;
+  font-style:italic;
+}
+ 
+  
+@font-face {
+  font-family: 'museo';
+  src: url('museo-700-italic.woff') format('woff');
+  font-weight:700;
+  font-style:italic;
+}
+ 

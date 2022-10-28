@@ -1,0 +1,46 @@
+@include under-s {
+  /* you shall not pass */
+  textarea, 
+  table, 
+  td, 
+  th, 
+  code, 
+  pre, 
+  samp {
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+
+.cf, 
+.clear,
+.clearfix {
+  @extend %clearfix-micro;
+}
+
+
+
+// fitting things in boxes 
+
+.fit                { max-width:100%; }
+.fill               { width: 100%; 
+                      -moz-box-sizing: border-box; 
+                      -webkit-box-sizing: border-box; 
+                      box-sizing: border-box; }
+
+// when there’s too much stuff to fit in the box 
+
+.overflow-scroll    { overflow: scroll; }
+.overflow-auto      { overflow: auto; }
+
+.overflow-hidden    { overflow: hidden; }  
+.overflow-x-hidden  { overflow-x: hidden; }
+.overflow-y-hidden  { overflow-y: hidden; }
+
+// .max-width-1{ max-width: 24rem }
+// .max-width-2{ max-width: 32rem }
+// .max-width-3{ max-width: 48rem }
+// .max-width-4{ max-width: 64rem }
+
+

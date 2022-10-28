@@ -1,0 +1,1 @@
+sass ../../2023/stylesheets/scss/styles.scss ../../2023/stylesheets/css/styles.css

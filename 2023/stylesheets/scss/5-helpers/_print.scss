@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request: h5bp.com/r
+   ========================================================================== */
+   
+
+@media print {
+  @page { 
+    margin: 1cm 1cm 0.5cm;
+    size: A4 portrait;
+  }
+  div, p, h1, h2, h3, h4, h5, li, section, header, footer, nav, span {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  // a:after {
+  //   content: " (" attr(href) ")";
+  //   font-size: 12px;
+  //   color: #777;
+  //   font-weight: normal;
+  //   text-transform: lowercase;
+  //   word-wrap:break-word;
+  // }
+  // abbr[title]:after {
+  //   content: " (" attr(title) ")";
+  // }
+  /* Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  thead {
+    display: table-header-group; /* h5bp.com/t */
+  }
+  tr, 
+  img,
+  .about,
+  .music-world #instruments,
+  .fluid-width-video-wrapper {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  header, 
+  footer, 
+  .login, 
+  .sidebar,
+  .nav-in-page,
+  aside,
+  .sponsor__link,
+  #speakers .overlay__after,
+  iframe,
+  .fluid-width-video-wrapper {
+    display: none;
+  }
+  body,
+  .overlay__inner {
+    padding: 0;
+  }
+  .overlay__after {
+    margin: 0;
+  }
+  .talk__photo-wrapper {
+    float: none;
+    text-align: center;
+  }
+  .talk__heading {
+    text-align: center;
+  }
+}
