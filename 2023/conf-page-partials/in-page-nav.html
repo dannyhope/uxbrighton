@@ -18,12 +18,12 @@
       <!-- <li class="nav-item inline-block nav-item--sponsors hidden-under-ms">
         <a href="#venue" class="masthead__link nav-link color-black">Venue</a>
       </li> -->
-      {% if homepage.sponsors == true %}
+      {% if homepage.sponsors.visibility == true %}
         <li class="nav-item inline-block nav-item--sponsors hidden-under-s">
           <a href="#sponsors" class="masthead__link nav-link color-black">Sponsors</a>
         </li>
       {% endif %}
-      {% if homepage.workshop == true %}
+      {% if homepage.workshop.visibility == true %}
         <li class="nav-item inline-block nav-item--other-workshop">
           <a href="#workshop" class="masthead__link nav-link color-black">Workshop</a>
         </li>
@@ -35,7 +35,7 @@
 
       {% if homepage.hero.hero-state == "pre" %}
         <li class="nav-item inline-block nav-item--tickets">
-          <a href="{{ homepage.hero.pre.button.url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;" target="_blank" data-buy-ticket="conference-2022"><span class="hidden-under-m">Buy </span>Tickets</a>
+          <a href="{{ homepage.hero.pre.button.url }}" class="button button--green bold" style="padding:8px; vertical-align: baseline;" target="_blank" data-buy-ticket="conference-2023"><span class="hidden-under-m">Buy </span>Tickets</a>
         </li>
       {% endif %}
     </ul>

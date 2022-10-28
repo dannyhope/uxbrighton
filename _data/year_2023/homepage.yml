@@ -69,13 +69,13 @@ title: UX Brighton Conference 2023
 hero:
   hero-state: pre
   global:
-    conference: ""
-    date: Date & venue to be confirmed.
-    date-time: ""
-    venue: ""
+    conference: UX Brighton 2023
+    date: Friday 3 November
+    date-time: 2023-11-03T09:00
+    venue: Brighton Dome
     image: /images/header.jpg
   pre:
-    title: UX Brighton 2023
+    title: UX and Innovation
     button:
       label: Buy tickets
       url: https://www.tickettailor.com/events/uxbrighton/782636
@@ -446,7 +446,7 @@ sponsors:
     title: Sponsor UX Brighton
     lede: UX Brighton attracts an engaged crowd of designers, decision makers and
       influencers. If you’re interested in supporting UX Brighton have a look at
-      the [sponsorship information page](/2023/sponsorship) for more details.
+      the [sponsorship information page](/sponsorship) for more details.
   testimonial:
     visibility: true
     quote: Fantastic conference - a fresh mix of new ideas, provocative speakers,
