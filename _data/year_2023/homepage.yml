@@ -77,7 +77,7 @@ hero:
   pre:
     title: UX and Innovation
     button:
-      label: Buy tickets
+      label: Book now for 2023
       url: https://www.tickettailor.com/events/uxbrighton/782636
       extra-text: Super early bird discounts available now!
   during:
@@ -575,7 +575,7 @@ sponsors:
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
 social-image: ""
-event-promo-top-of-page: false
+event-promo-top-of-page: true
 highlights:
   visibility: true
   title: Highlights from previous years

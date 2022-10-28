@@ -26,7 +26,8 @@ collections:
     editor:
       preview: true
     files:
-      - label: "UX Brighton 2022 - (homepage)" # `2022`
+      # "Conference homepage 2022"
+      - label: "UX Brighton 2022 - (homepage)"
         name: "uxbri-2022"
         file: "_data/year_2022/homepage.yml" # Content file now seperate to markdown `.md` file
         fields:
@@ -610,7 +611,8 @@ collections:
                         modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
                         required: false
                       - {label: "Summary CTA (label)", name: "cta", hint: "Worshop summary call-to-action (label).", widget: "string", required: false}
-      - label: "UX Brighton 2023 - (homepage)" # `2023`
+      # "Conference homepage 2023"
+      - label: "UX Brighton 2023 - (homepage)"
         name: "uxbri-2023"
         file: "_data/year_2023/homepage.yml" # Content file now seperate to markdown `.md` file
         fields:
@@ -641,8 +643,8 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Conference", name: "conference", hint: "Eg. **UX Brighton 2023**", widget: "string", default: "UX Brighton 2023", required: false}
-                  - {label: "Date", name: "date", hint: "Eg. **Friday 4 November**", widget: "string", default: "Friday 4 November", required: false}
-                  - {label: "Date & time (numerical)", name: "date-time", hint: "Eg. **2023-11-04T09:30**", widget: "string", default: "2023-11-04T09:30", required: false}
+                  - {label: "Date", name: "date", hint: "Eg. **Friday 4 November**", widget: "string", default: "Friday 3 November", required: false}
+                  - {label: "Date & time (numerical)", name: "date-time", hint: "Eg. **2023-11-03T09:00**", widget: "string", default: "2023-11-03T09:00", required: false}
                   - {label: "Venue", name: "venue", hint: "Eg. **Brighton Dome**", widget: "string", default: "Brighton Dome", required: false}
                   - {label: "Background Image", name: "image", widget: "image", required: false}
               - label: "Pre-conference content"
@@ -1253,7 +1255,6 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "heading-two", "heading-three", "heading-four", "heading-five", "quote", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
         required: false
-
   # "Generic pages collection"
   - label: "Generic pages"
     name: "generic-pages"
