@@ -1,12 +1,13 @@
 ---
 layout: event-page
 title: Double Bill Designing the UX Curve & Planning Discussion
-venue: Lighthouse
-conference: false
+permalink: double-bill-designing-the-ux-curve
+event-date: 2008-04-15
 start: 7pm
-ticket-link: 
+venue: Lighthouse
+ticket-link: null
+conference: false
 ---
-
 ## Designing the User Experience Curve – Andy Budd
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/491406" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
@@ -27,15 +28,13 @@ There are a multitude of digital media companies in Brighton, and many different
 
 Since UX Brighton is a really new group, there will be an opportunity to discuss things like:
 
-- Topics for future talks.
-- How the group should be formed e.g. should it be a club.
-- Do we need to bother with sponsorship?
-- How to do stuff in conjunction with/alongside other organisations like use8
-- Anything else you want.
-
-[jennilloyd](https://twitter.com/jennilloyd "Jenni on Twitter"), [yandle](https://twitter.com/yandle "Danny on Twitter")
+* Topics for future talks.
+* How the group should be formed e.g. should it be a club.
+* Do we need to bother with sponsorship?
+* How to do stuff in conjunction with/alongside other organisations like use8
+* Anything else you want.
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
-- <a href="http://uxbrighton.org.uk/about/#jenni">Jenni</a>
+* <a href="https://uxbri.org/about/#danny">Danny</a>
+* <a href="https://uxbri.org/about/#jenni">Jenni</a>
