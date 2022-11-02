@@ -6,7 +6,6 @@ layout: event-page
 title: Design Research - 2 new approaches
 description: An evening featuring two Brighton-based speakers discussing how
   behavioural research can be used for design.
-permalink: behavioural-research-for-design
 published: true
 date: 2017-02-14T19:00:00ZGMT
 venue: The Skiff
