@@ -8,7 +8,6 @@ ticket-link: https://www.eventbrite.co.uk/e/building-rapport-machiavellian-manip
 homepage: false
 upcoming: false
 published: true
-permalink: /building-rapport
 event-date: 2017-07-11
 seo: true
 ---

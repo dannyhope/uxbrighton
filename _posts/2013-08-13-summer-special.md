@@ -1,10 +1,13 @@
 ---
 layout: event-page
 title: Summer Special 2013
-conference: false
 venue: Fabrica
 start: 6:30pm
 lanyrd-url: http://lanyrd.com/2013/ux-brighton-summer-special/
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 UX Brighton is back! Join us on the 13th of August at the beautiful Fabrica Gallery for an evening with some truly inspiring speakers.
 

@@ -6,7 +6,6 @@ start: 7pm
 price: £4 +VAT etc
 homepage: false
 published: true
-permalink: /UXCampRedux
 event-date: 2017-05-09
 seo: true
 ---

@@ -1,7 +1,6 @@
 ---
 layout: event-page
 title: Show & Tell 26 at The Skiff
-permalink: /Show-and-Tell-26
 price: Free
 venue: The Skiff
 event-date: 2022-07-12

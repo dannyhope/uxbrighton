@@ -6,7 +6,6 @@ venue: Online
 start: 7pm
 upcoming: false
 published: true
-permalink: /Show-and-Tell-23
 event-date: 2022-04-12
 seo: true
 

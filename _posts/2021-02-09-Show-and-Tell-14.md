@@ -6,7 +6,6 @@ venue: Online
 start: 7pm
 upcoming: false
 published: true
-permalink: /Show-and-Tell-14
 event-date: 2021-02-09
 seo: true
 

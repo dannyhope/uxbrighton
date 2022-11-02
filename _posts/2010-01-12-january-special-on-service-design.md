@@ -2,6 +2,9 @@
 layout: event-page
 title: A Brief Guide to Service Design
 conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 ## A Brief Guide to Service Design – Paul Thurston & Nick Marsh

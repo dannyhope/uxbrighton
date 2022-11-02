@@ -1,12 +1,14 @@
 ---
 layout: event-page
 title: Double Bill Designing the UX Curve & Planning Discussion
-permalink: double-bill-designing-the-ux-curve
 event-date: 2008-04-15
 start: 7pm
 venue: Lighthouse
 ticket-link: null
 conference: false
+upcoming: false
+published: true
+seo: true
 ---
 ## Designing the User Experience Curve – Andy Budd
 

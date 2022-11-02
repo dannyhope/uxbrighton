@@ -4,7 +4,10 @@ title: Designing for Health and Wellbeing
 start: 7pm
 venue: Lighthouse
 lanyrd-url: http://lanyrd.com/2014/uxbrihealth/
+conference: false
 upcoming: false
+published: true
+seo: true
 ---
 
 The April edition of UX Brighton took on the big challenges of designing for health and wellbeing. Say hello to our three fantastic speakers.

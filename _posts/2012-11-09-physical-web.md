@@ -1,9 +1,12 @@
 ---
 layout: event-page
 title: The Physical Web
-conference: false
 venue: Fabrica
 start: 7pm
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 The web has spilled beyond the screen and into the physical world. The Internet of Things (IOT) brings net connectivity to household appliances, common everyday objects and novel devices.

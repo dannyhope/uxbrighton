@@ -4,7 +4,10 @@ title: People Skills for UXers
 start: 7pm
 venue: Fabrica
 lanyrd-url: http://lanyrd.com/2015/uxbripeople/
+conference: false
 upcoming: false
+published: true
+seo: true
 ticket-link: 
 ---
 

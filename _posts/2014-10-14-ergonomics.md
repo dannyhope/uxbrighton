@@ -4,9 +4,12 @@ title: UX, Human Factors & Ergonomics
 start: 7pm
 venue: Hotel Du Vin
 lanyrd-url: 
-upcoming: false
 homepage: false
 ticket-link: 
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 [<img alt="Photograph of the event" src="/assets/15537580292_fe574d7b1f_o.jpg">](https://www.flickr.com/photos/yandle/15537580292/)

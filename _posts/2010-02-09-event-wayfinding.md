@@ -2,6 +2,9 @@
 layout: event-page
 title: Finding your way in wayfinding
 conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 ## Format

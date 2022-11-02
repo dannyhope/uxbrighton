@@ -4,6 +4,10 @@ title: UX Brighton goes for a spin
 venue: Lighthouse
 lanyrd-url: http://lanyrd.com/2013/uxbrighton-june/
 start: 6:30pm
+conference: false
+upcoming: false
+published: true
+seo: true
 
 ---
 

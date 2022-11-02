@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: February triple bill
+title: February double bill
 price: £4+VAT & fees
 venue: The Skiff
 start: 7pm
@@ -8,7 +8,6 @@ ticket-link: https://www.eventbrite.co.uk/e/february-double-bill-tickets-5305172
 homepage: false
 upcoming: false
 published: false
-permalink: /February-double-bill
 event-date: 2019-02-12
 seo: true
 

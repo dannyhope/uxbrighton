@@ -2,6 +2,9 @@
 layout: event-page
 title: Practical Tips &amp; Templates
 conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 ## An easy but effective technique for note-taking and analysis in usability testing – Harry Brignull

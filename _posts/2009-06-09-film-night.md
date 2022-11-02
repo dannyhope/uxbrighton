@@ -4,6 +4,7 @@ title: Film Night – The Social life of Small Urban Spaces
 permalink: film-night
 event-date: 2009-06-09
 conference: false
+upcoming: false
 published: true
 seo: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: event-page
 title: Christmas party
-permalink: /2022-christmas-party
+permalink: 2022-christmas-party
 event-date: 2022-12-13
 start: 7pm
 venue: Earth & Stars

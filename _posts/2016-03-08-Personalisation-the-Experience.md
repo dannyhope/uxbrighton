@@ -4,7 +4,10 @@ title: "Personalising the Experience"
 venue: 68 Middle Street
 start: 7:00pm
 end: 10:00pm
+conference: false
 upcoming: false
+published: true
+seo: true
 price: £7 + VAT & Eventbrite fee
 ---
 

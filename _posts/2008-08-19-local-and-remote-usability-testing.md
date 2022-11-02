@@ -4,7 +4,10 @@ title: Local &amp; Remote Usability Testing
 conference: false
 venue: Regency Town House
 start:	7pm
-ticket-link: 
+ticket-link:
+upcoming: false
+published: true
+seo: true
 ---
 
 [![Photograph of Danny Hope](https://farm4.staticflickr.com/3135/2780007075_5e71341772_o.jpg)](https://www.flickr.com/photos/10199641@N08/2780007075/)

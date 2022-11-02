@@ -3,10 +3,13 @@ layout: event-page
 title: SuperGoogleAnalyticsExpialidocious
 start: 7pm
 venue: iCrossing
-lanyrd-url: 
-upcoming: false
+lanyrd-url:
 homepage: false
-ticket-link: 
+ticket-link:
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 [Read a review of the event](http://www.wiredsussex.com/blog/supergoogleanalyticsexpialidocious) by Wired Sussex

@@ -6,7 +6,7 @@ venue: Online
 start: 7pm
 upcoming: false
 published: true
-permalink: /Show-and-Tell-18
+permalink: Show-and-Tell-18
 event-date: 2021-08-10
 seo: true
 

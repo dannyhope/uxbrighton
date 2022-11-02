@@ -1,8 +1,11 @@
 ---
 layout: event-page
 title: Design Games
-conference: false 
 start: 6pm
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 ## Design Games – Rob Phillips

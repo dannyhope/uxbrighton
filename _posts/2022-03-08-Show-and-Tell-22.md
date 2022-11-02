@@ -6,7 +6,6 @@ venue: The Skiff
 start: 7pm
 upcoming: false
 published: true
-permalink: /Show-and-Tell-22
 event-date: 2022-03-08
 seo: true
 

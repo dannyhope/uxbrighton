@@ -1,8 +1,7 @@
 ---
 layout: event-page
 title: UX Mentor/ee Speed Matching
-description: "Mentorship program for ambitious UXers wanting to develop their career. "
-permalink: /speed-matching
+description: "Mentorship program for ambitious UXers wanting to develop their career."
 social-image: /images/ux-brighton-870-x-450-px.png
 venue: Spaces
 event-date: 2022-08-09

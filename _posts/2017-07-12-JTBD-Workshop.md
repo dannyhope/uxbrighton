@@ -5,7 +5,7 @@ venue: 68 Middle Street
 start: 9:30am
 upcoming: false
 homepage: false
-permalink: /JTBD-Workshop
+permalink: JTBD-Workshop
 event-date: 2017-07-12
 seo: true
 

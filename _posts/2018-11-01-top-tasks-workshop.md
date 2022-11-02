@@ -5,7 +5,6 @@ venue: 68 Middle Street
 start: 9:30am
 upcoming: false
 homepage: false
-permalink: /top-tasks-workshop
 event-date: 2018-11-01
 seo: true
 

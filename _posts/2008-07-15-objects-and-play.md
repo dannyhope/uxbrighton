@@ -5,6 +5,10 @@ ticket-link: http://web.archive.org/web/20130425100129/http://upcoming.yahoo.com
 start: 6:45pm
 venue: The Werks
 ticket-link: http://web.archive.org/web/20130421092305/upcoming.yahoo.com/event/863184/BRI/Hove/UX-Brighton-Objects-and-Play/The-Werks
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 <style>

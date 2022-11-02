@@ -3,7 +3,10 @@ layout: event-page
 title: UX Analytics Workshop
 venue: Lighthouse
 start: 10am
+conference: false
 upcoming: false
+published: true
+seo: true
 price: £149 + VAT
 ---
 

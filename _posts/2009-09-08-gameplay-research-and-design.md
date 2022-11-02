@@ -2,6 +2,9 @@
 layout: event-page
 title: Gameplay research and design
 conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 [Ellie Martin blogged about the event](http://www.martiandaze.net/blog/2009/9/10/back-out-there-ux-brighton.html)

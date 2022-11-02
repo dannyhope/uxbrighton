@@ -4,7 +4,10 @@ title: UX Oktoberfest
 start: 7pm
 venue: Fabrica
 lanyrd-url: http://lanyrd.com/2013/ux-brighton-oktoberfest/
+conference: false
 upcoming: false
+published: true
+seo: true
 ---
 
 UX Brighton evenings returned with UX Oktoberfest - our last event before November's big conference. Join us on 8th October at Fabrica Gallery for three talks from three fantastic speakers, none of whom - sadly - have consented to wearing their lederhosen.

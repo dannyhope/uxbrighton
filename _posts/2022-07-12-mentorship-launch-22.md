@@ -1,7 +1,6 @@
 ---
 start: 7pm to 9pm
 layout: event-page
-permalink: /mentorship-launch-22
 event-date: 2022-07-12
 title: Mentorship Launch
 venue: Spaces

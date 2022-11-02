@@ -7,7 +7,10 @@ date: 2015-12-17T19:00:00ZGMT
 organisers:
   - name: Patrick
   - name: Luke
+conference: false
 upcoming: false
+published: true
+seo: true
 ---
 
 The next UX Brighton event is our Xmas party. We’ll order takeaway curry and BYO booze, then around 9pm go off to a nearby pub.

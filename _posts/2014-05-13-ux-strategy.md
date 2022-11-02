@@ -4,8 +4,11 @@ title: UX Strategy
 start: 7pm
 venue: Hotel du Vin
 lanyrd-url: http://lanyrd.com/2014/uxbristrategy/
-upcoming: false
 homepage: false
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 Our May event covered the emerging issue of how UX practitioners (and the 'UX industry' as a whole) move beyond just carrying out narrow-focused tactical work and get involved with the broader digital and business strategy decision-making, in order to create really meaningful change for our clients and customers.

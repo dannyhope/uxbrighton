@@ -1,8 +1,11 @@
 ---
 layout: event-page
 title: Remote User Research – a 360° view
-conference: false
 venue: Old Music Library
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 ## Remote usability applied: a case study – Louise Klinker

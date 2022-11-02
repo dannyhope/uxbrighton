@@ -5,7 +5,6 @@ venue: 68 Middle Street
 start: "9:30am"
 upcoming: false
 published: true
-permalink: /voice-ui-workshop
 event-date: 2019-10-31
 seo: true
 

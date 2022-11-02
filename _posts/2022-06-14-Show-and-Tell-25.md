@@ -6,7 +6,7 @@ venue: Online
 start: 7pm
 upcoming: false
 published: true
-permalink: /Show-and-Tell-25
+permalink: Show-and-Tell-25
 event-date: 2022-06-14
 seo: true
 

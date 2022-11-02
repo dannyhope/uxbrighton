@@ -7,7 +7,6 @@ start: 7:00pm
 price: £5+fees
 published: true
 upcoming: false
-permalink: /behavioural-research-for-design
 event-date: 2017-02-14
 seo: true
 ---

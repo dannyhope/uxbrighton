@@ -1,11 +1,13 @@
 ---
 layout: event-page
-upcoming: no
 title: Lightning Edition
 venue: 68 Middle Street
 start: 7pm
 price: Free, but donations welcome
+conference: false
 upcoming: false
+published: true
+seo: true
 ---
 
 Inspired by the great work from [300 Seconds](300seconds.co.uk), we’re hosting a special lightning event and we would like you to join us and take part!

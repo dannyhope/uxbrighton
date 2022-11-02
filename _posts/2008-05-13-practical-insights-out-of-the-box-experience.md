@@ -5,6 +5,9 @@ conference: false
 ticket-link: 
 venue: The Werks
 start: 7pm
+upcoming: false
+published: true
+seo: true
 ---
 
 ## Practical insights in designing Out of the Box Experiences – Harry Brignull & Pete Gale

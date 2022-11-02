@@ -6,7 +6,6 @@ venue: The Skiff
 start: 7pm
 upcoming: false
 published: true
-permalink: /Show-and-Tell-20
 event-date: 2021-11-09
 seo: true
 

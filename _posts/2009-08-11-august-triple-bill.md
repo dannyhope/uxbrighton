@@ -2,6 +2,9 @@
 layout: event-page
 title: Designing for Persuasion, International Research, and Eye Tracking!
 conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 ## How (not) to run successful international user research projects – Carsten Schmitt &amp; Poppy James

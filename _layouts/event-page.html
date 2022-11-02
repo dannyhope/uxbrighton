@@ -1,6 +1,7 @@
 {%- assign metaTitle = page.title -%}
 {%- assign metaDescription = page.description -%}
-{%- assign metaFullUrl = page.permalink -%}
+{%- assign metaFullUrlPerm = page.permalink -%}
+{%- assign metaFullUrlSlug = page.slug -%}
 {%- assign seoIndexing = page.seo -%}
 {%- assign metaSocialImage = page.social-image -%}
 
@@ -22,7 +23,7 @@
     {% if seoIndexing == true %}
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://uxbri.org{{ metaFullUrl }}">
+    <meta property="og:url" content="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
     <meta property="og:title" content="{{ metaTitle }}">
     {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
     {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
@@ -30,13 +31,13 @@
   <!-- twitter card tags additive with the og: tags -->
     <meta name="twitter:card" content="summary_large_image">
     {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
-    <meta name="twitter:domain" value="https://uxbri.org{{ metaFullUrl }}">
+    <meta name="twitter:domain" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
     <meta name="twitter:title" value="{{ metaTitle }}">
     {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
-    <meta name="twitter:url" value="https://uxbri.org{{ metaFullUrl }}">
+    <meta name="twitter:url" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
 
   <!-- Canonical -->
-    <link rel="canonical" href="https://uxbri.org{{ metaFullUrl }}">
+    <link rel="canonical" href="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
     {% endif %}
 
   <!-- Icons -->

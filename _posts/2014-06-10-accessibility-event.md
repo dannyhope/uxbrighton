@@ -4,8 +4,11 @@ title: The Accessible Web
 start: 7pm
 venue: Fabrica
 lanyrd-url: http://lanyrd.com/2014/uxbriaccessibility/
-upcoming: false
 homepage: false
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 [Read a review of the event](http://www.noporkpies.com/blog/accessibility/reflections-uxbrighton-accessible-web/) by Kristian Banniser of No Pork Pies

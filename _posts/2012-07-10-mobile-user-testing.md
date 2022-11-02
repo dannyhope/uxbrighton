@@ -1,9 +1,12 @@
 ---
 layout: event-page
 title: Mobile User Testing
-conference: false
 venue: Fabrica
 start: 7pm
+conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 The July 2012 edition of UX Brighton focused on mobile user testing. We had two great talks and a hands-on demo of some of the best testing kit out there.  

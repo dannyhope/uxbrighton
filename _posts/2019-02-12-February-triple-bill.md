@@ -10,7 +10,6 @@ homepage: false
 
 upcoming: false
 published: true
-permalink: /February-triple-bill
 event-date: 2019-02-12
 seo: true
 

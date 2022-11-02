@@ -2,6 +2,9 @@
 layout: event-page
 title: Mental Models, Service Design &amp; Problems with Convergence
 conference: false
+upcoming: false
+published: true
+seo: true
 ---
 
 ## Mental Models, Service Design &amp; Problems with Convergence  – Filip Healy & GiGi Demming
