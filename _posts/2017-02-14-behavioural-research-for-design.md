@@ -15,7 +15,7 @@ seo: true
 ---
 An evening featuring two Brighton-based speakers discussing how behavioural research can be used for design. Enjoy the talks, beers and networking in great co-working space [The Skiff](http://www.theskiff.org/).
 
-## To Bot or Not to Bot: Using dramaturgy to connect Research with Development, [Mark McElhaw](https://www.linkedin.com/in/mark-mcelhaw-805a92)
+## To Bot or Not to Bot: Using dramaturgy to connect Research with Development – Mark McElhaw
 
 ## Slides
 
@@ -31,9 +31,10 @@ A framework is proposed that draws on dramatic theory to tackles issues like per
 
 Mark is a Brighton based freelance Experience Consultant working across strategy, design and research. Recent worked includes; a supermarket, a Premier League club and an HR startup.
 
-[@markmcelhaw](https://twitter.com/markmcelhaw)
+* [@markmcelhaw](https://twitter.com/markmcelhaw)
+* [linkedin.com/in/mark-mcelhaw-805a92](https://www.linkedin.com/in/mark-mcelhaw-805a92)
 
-## Too Dry; Didn’t Apply: Redesigning Behavioural Research for Practical Use, [Jerome Ribot](https://www.linkedin.com/in/jerome-ribot-6520976)
+## [](https://www.linkedin.com/in/mark-mcelhaw-805a92)Too Dry; Didn’t Apply: Redesigning Behavioural Research for Practical Use – Jerome Ribot
 
 ## Slides
 
@@ -47,10 +48,10 @@ This isn’t good enough. Might there be a better way to facilitate its use in p
 
 Jerome is Founder of [Coglode](http://coglode.com/), which aims to communicate behavioural research to a wider business and design audience.  Prior to this, he spent ten years as Co-Founder and Chief Design Officer at [ribot](http://ribot.co.uk/), an multi-award-winning agency which works with Google, Channel Four, Tesco and Intel on ground-breaking digital products.
 
-[@coglode](https://twitter.com/coglode)
+* [@coglode](https://twitter.com/coglode)
+* <http://coglode.com/>
+* [linkedin.com/in/jerome-ribot-6520976/](https://www.linkedin.com/in/jerome-ribot-6520976/)
 
-<http://coglode.com/>
-
-## Organisers
+## [](https://www.linkedin.com/in/jerome-ribot-6520976/)Organisers
 
 Danny Hope
