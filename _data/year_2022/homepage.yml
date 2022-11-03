@@ -18,9 +18,9 @@ hero:
     title: UX and Product Management
     message: 2022 conference tickets available on the door
     button:
-      label: Book now for 2023
-      extra-text: Super early bird discounts available now!
-      url: https://www.tickettailor.com/events/uxbrighton/782636
+      label: ""
+      extra-text: ""
+      url: ""
   post:
     title: UX and Product Management
     message: Thanks for coming to our 🎂 10th annual one-day conference
