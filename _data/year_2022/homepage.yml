@@ -1,5 +1,8 @@
 title: " UX Brighton 2022: UX and Product Management"
+description: Join us for our 🎂 10th annual one-day conference!
 fullurl: https://uxbri.org/2022/
+social-image: ""
+event-promo-top-of-page: false
 hero:
   hero-state: post
   global:
@@ -164,7 +167,7 @@ speakers:
               profile-label: "@simplybastow"
         talk-media:
           talk-video: ""
-          talk-slides: ""
+          talk-slides: janna-bastow-avoiding-the-agency-trap
       - talk-info:
           talk-time: 10:35 am
           talk-title: Arrogance & Confidence in <s>Design</s>...Redux
@@ -194,6 +197,8 @@ speakers:
             - profile-type: twitter
               profile-label: "@gringomoses"
               profile-url: https://twitter.com/gringomoses
+        talk-media:
+          talk-slides: jonty-sharples-arrogance-confidence-in-redux
       - talk-info:
           talk-time: 11:40 am
           talk-title: T-shaped skills save lives (and products). How and why to learn
@@ -226,6 +231,8 @@ speakers:
               profile-url: https://twitter.com/Lou_Bloom
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/louisebloom/
+        talk-media:
+          talk-slides: louise-bloom-tshaped-skills-save-lives-and-products-how-and-why-to-learn-laterally-for-better-outcomes
       - talk-info:
           talk-time: 12:15 pm
           talk-title: Speaking the same language
@@ -249,6 +256,8 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/kateflood16/
               profile-label: LinkedIn/kateflood16
+        talk-media:
+          talk-slides: kate-flood-speaking-the-same-language
       - talk-info:
           talk-time: 14:20 pm
           talk-title: Is UX Strategy even a thing?
@@ -275,6 +284,8 @@ speakers:
             works with organisations such as EDF Energy and Sony Playstation to
             help them improve their performance by becoming more
             customer-centred in their approach.
+        talk-media:
+          talk-slides: alison-rawlings-is-ux-strategy-even-a-thing
       - talk-info:
           talk-time: 14:55 pm
           talk-title: Trade-offs
@@ -300,6 +311,8 @@ speakers:
             - profile-type: twitter
               profile-url: https://twitter.com/lucyjspence
               profile-label: "@lucyjspence"
+        talk-media:
+          talk-slides: lucy-spence-tradeoffs
       - talk-info:
           talk-time: 15:55 pm
           talk-title: Leading culture change to increase customer centricity
@@ -341,6 +354,8 @@ speakers:
               profile-url: https://digitalworksgroup.com/
         name: Jonathan Smare
         anchor: Jonathan-Smare
+        talk-media:
+          talk-slides: jonathan-smare-leading-culture-change-to-increase-customer-centricity
       - talk-info:
           talk-time: 16:30 pm
           talk-title: YOU DON'T "GET" ANYONE TO DO ANYTHING
@@ -420,6 +435,28 @@ speakers:
 
       Please keep your name badge with you if you want to leave and come back again.
   full: true
+highlights:
+  visibility: true
+  title: Highlights from previous years
+  video:
+    - url: https://youtu.be/rz7sy81Yg5E
+      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
+      alt: ResearchOps - Kate Towsey
+    - url: https://youtu.be/8A3SEmvx7uY
+      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
+      alt: UX and Forecasting - James Woudhuysen
+    - url: https://youtu.be/DjRR1MpBr1g
+      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+      alt: Top Tasks - Gerry McGovern
+    - alt: Atomic UX - Daniel Pidcock
+      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      url: https://youtu.be/h9s3DrImGXA
+  testimonial:
+    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+      you'll get access to some of the most cutting-edge presentations you can
+      imagine. Well organized, fabulous location, packed with valuable content —
+      go if you can: it's worth the investment."
+    quotee: Jim Kalbach, Past Speaker
 sponsors:
   visibility: true
   section-title: Sponsors
@@ -577,28 +614,3 @@ workshop:
     back-image: /images/voice-ui-workshop.jpeg
   section-title: Workshop
 image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: Join us for our 🎂 10th annual one-day conference!
-social-image: ""
-event-promo-top-of-page: false
-highlights:
-  visibility: true
-  title: Highlights from previous years
-  video:
-    - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
-      alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
-      alt: Top Tasks - Gerry McGovern
-    - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
-      url: https://youtu.be/h9s3DrImGXA
-  testimonial:
-    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
-      you'll get access to some of the most cutting-edge presentations you can
-      imagine. Well organized, fabulous location, packed with valuable content —
-      go if you can: it's worth the investment."
-    quotee: Jim Kalbach, Past Speaker
