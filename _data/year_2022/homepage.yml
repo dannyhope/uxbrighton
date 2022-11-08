@@ -389,6 +389,8 @@ speakers:
             by Google), and Head of Consumer Product at Bitly. Matt is also a
             musician, recording engineer, and the author of a book about
             singer-songwriter Elliott Smith.
+        talk-media:
+          talk-slides: matt-lemay-you-dont-get-anyone-to-do-anything
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
