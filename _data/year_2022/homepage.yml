@@ -404,11 +404,11 @@ speakers:
       * Please note that The Dome may conduct bag searches.
 
       * Please be seated by 9.50am so you don’t miss anything.
-    visibility: true
+    visibility: false
     anchor: Registration
     title: Registration
   after-party:
-    visibility: true
+    visibility: false
     time: 17:20 pm
     thumbnail: /images/party1.jpg
     title: After Party
