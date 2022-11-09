@@ -135,7 +135,7 @@ speakers:
   section-title: Talks
   section-banner: /images/header2.jpg
   speaker-info:
-    show-times: true
+    show-times: false
     show-videos: false
     show-slides: true
     speaker-list:
