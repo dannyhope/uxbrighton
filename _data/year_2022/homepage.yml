@@ -137,7 +137,7 @@ speakers:
   speaker-info:
     show-times: false
     show-videos: false
-    show-slides: true
+    show-slides: false
     speaker-list:
       - talk-info:
           talk-time: 10:00 am
