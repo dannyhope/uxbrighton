@@ -8,7 +8,7 @@ venue: Earth & Stars
 ticket:
   state: Ticketed
   price: Free
-  link: https://www.tickettailor.com/events/uxbrighton/786570
+  link: https://www.tickettailor.com/checkout/view-event/id/1729516/chk/8421/?modal_widget=true&widget=true
 upcoming-teaser:
   title: Christmas party
   text: Join us for a drink and a mince pie on the second Tuesday of December to
