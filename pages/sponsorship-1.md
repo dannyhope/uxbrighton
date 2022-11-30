@@ -1,13 +1,12 @@
 ---
 layout: generic
 title: Sponsorship
-pretitle: UX Brighton 2023
+pretitle: UX Brighton 2022
 description: Unlike most other conferences, we gather together a mix of academic
   and industry experts and curate our talks around a single theme.
 image: /images/sponsorship.jpg
-permalink: 2023/sponsorship
-redirect_from:
-  - /sponsorship
+permalink: 2022/sponsorship
+redirect_from: []
 seo: true
 art-direction: |-
   h2 {
