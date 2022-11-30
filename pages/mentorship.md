@@ -5,7 +5,7 @@ pretitle: Season 1
 subtitle: ""
 image: /images/46101279451_389039c794_o-1-.jpg
 social-image: /images/46101279451_389039c794_o-1-.jpg
-permalink: mentorship/season1
+permalink: season1/mentorship
 seo: true
 ---
 U﻿X Brighton's mentorship programme supports UXers at all stages of their career. From student to Head of Design and anything in between. Whether you're a Researcher or Designer we pair mentors and mentees to help you grow within your UX career. 
