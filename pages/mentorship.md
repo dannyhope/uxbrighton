@@ -16,7 +16,7 @@ T﻿he mentorship programme is a 9-month scheme designed to support your career 
 
 U﻿X design consultancy, [cxparnters](https://www.cxpartners.co.uk/) are season 1's programme sponsor.
 
-<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cpartners logo" class="image-align-right"/>
+<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-right"/>
 
 Want to become a mentor? Please email anniemarie@uxbri.org. 
 
