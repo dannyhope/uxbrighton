@@ -14,7 +14,7 @@ U﻿X Brighton's mentorship programme supports UXers at all stages of their care
 
 T﻿he mentorship programme is a 9-month scheme designed to support your career growth within the UX community. Whether you're a mentor, mentee or peer mentor it's an opportunity to eradicate impostor syndrome, develop your professional relationships, improve your skills, increase confidence and achieve your career goals. 
 
-U﻿X design consultancy, [cxparnters](https://www.cxpartners.co.uk/) are season 1's programme sponsor.
+U﻿X design consultancy, [cxparnters](https://www.cxpartners.co.uk/) are this year's programme sponsor. 
 
 Want to become a mentor? Please email anniemarie@uxbri.org. 
 
