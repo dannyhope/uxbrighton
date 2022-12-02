@@ -1,0 +1,129 @@
+
+@mixin show(){
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  overflow: auto;
+}
+@mixin hide(){
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+
+// Gradients
+@mixin linear-gradient($top:#000, $bottom:#111) {
+  background-color: $bottom; /* Old browsers */
+  background: -moz-linear-gradient(top,  $bottom 0%, $top 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  $bottom 0%, $top 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(0deg,  $bottom 0%, $top 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+
+
+// No highlight
+
+  @mixin no-highlight {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+
+
+// Rems with fallback
+
+  @function font-size-rem($size: $font-size-calc-base) {
+    $size: strip-unit($size);
+    $font-size-calc-base: strip-unit($font-size-calc-base);
+    @return ($size / $font-size-calc-base) + rem;
+  }
+
+  @mixin font-size($size: 16) {
+    $size: strip-unit($size);
+    font-size: $size + px;
+    // font-size: em($size);
+    font-size: ($size / 16) + rem;
+  }
+
+
+  @mixin type($font-size, $leading: null, $tracking: null) {
+
+    $font-size-base: strip-unit($font-size-calc-base);
+
+    @if ($font-size) {
+
+      $unit:  unit($font-size);
+      $value: strip-unit($font-size);
+
+      @if $unit == "px" {
+        $font-size: $value;
+      }
+      @if $unit == "rem" { 
+        // 1.6 rem  = 1.6 * 16 = 25.6
+        $font-size: $value * $font-size-base;
+        //test: unit- $unit;
+      }
+      @if $unit == "em" { 
+        $font-size: $value * $font-size-base;
+      }
+      @else {
+        $font-size: $value;
+      }
+      // else is em or pixe with no numbers
+
+      font-size: $font-size + px;
+      font-size: ($font-size / $font-size-base) + rem;
+    }
+
+
+
+
+
+    @if ($leading) {
+      $unit:  unit($leading);
+      $value: strip-unit($leading);
+
+      @if $unit == "rem" { 
+        // 1.6 rem  = 1.6 * 16 = 25.6
+        $value: ($value * $font-size-base) / $font-size;
+        line-height: $value;
+        // test: unit- $unit;
+      }
+      // else is em 
+      @if $unit == "em" {
+        line-height: $value;
+        // test: unit- $unit;
+      }
+
+      @if $unit == "px" or $value > 3{
+        line-height: $value / $font-size;
+        //test: unit- $unit;
+      }
+      // it is probably a unitless, relative line height
+      @else { 
+        line-height: $value;
+      }
+    }
+
+    @if ($tracking) {
+      $tracking: strip-unit($tracking);
+      $tracking: ($tracking / $font-size);
+      letter-spacing: $tracking  + em; 
+    }
+  }
+
+
+
+

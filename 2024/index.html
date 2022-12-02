@@ -1,0 +1,68 @@
+---
+layout: conference-2024/default
+slug: conference-2024
+image: https://uxbri.org/2024/images/cards/Early-bird.png
+masthead-color: dark
+redirect_from:
+  - /conference-2024
+---
+
+{%- assign homepage = site.data.year_2024.homepage -%}
+
+<main class="">
+
+  <!-- Overarching hero content grouping / section -->
+  <section id="hero" class="overlay__outer pa0" style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
+    <div class="overlay__inner overflow-hidden">
+      <div class="upcoming-events-outer">
+        <!-- Event promo component -->
+        {% if homepage.event-promo-top-of-page == true %}
+          {% include_relative conf-page-partials/upcoming-mini.html %}
+        {% endif %}
+      </div>
+      <div class="container color-white">
+        <!-- Hero component -->
+        {% include_relative conf-page-partials/hero.html %}
+      </div>
+    </div>
+  </section>
+
+  <!-- In-page section navigation -->
+  {% include_relative conf-page-partials/in-page-nav.html %}
+
+  <!-- Overarching 'overview' content grouping -->
+  <section id="overview" class="relative">
+    <div class="container" style="position: static;">
+
+      <div class="row gutters__container mt0">
+        <!-- Overview component -->
+        {% include_relative conf-page-partials/overview.html %}
+        <!-- Sticky 'aside' call-to-action component -->
+        {% include_relative conf-page-partials/aside-cta.html %}
+      </div>
+
+      <!-- Testimonial (overview section) component -->
+      {% include_relative conf-page-partials/testimonial-overview.html %}
+
+      <!-- Travel and accommodation component -->
+      {% include_relative conf-page-partials/travel-and-accommodation.html %}
+
+      <!-- Pre-party component -->
+      {% include_relative conf-page-partials/pre-party.html %}
+
+    </div>
+  </section>
+
+  <!-- Speakers component -->
+  {% include_relative conf-page-partials/speakers.html %}
+
+  <!-- Highlights (past) component -->
+  {% include_relative conf-page-partials/highlights.html %}
+
+  <!-- Sponsors component -->
+  {% include_relative conf-page-partials/sponsors.html %}
+
+  <!-- Workshops component -->
+  {% include_relative conf-page-partials/workshop.html %}
+
+</main>

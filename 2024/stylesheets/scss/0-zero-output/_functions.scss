@@ -1,0 +1,54 @@
+
+  @function strip-unit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+      @return $number / ($number * 0 + 1);
+    }
+    @return $number;
+  }
+
+  @function rem($size) {
+    $em: strip-unit($size) / strip-unit($font-size-calc-base); 
+    @return #{$em}rem;
+  }
+
+// Convert px to em
+
+   // @param $elfont-size:
+   // the element font size in pixels.
+   // e.g. you want to set margin on your text, and font 
+   // size on your text is equivalent to 14px, then your 
+   // context is 14px.
+
+   // @param $values:
+   // the values in pixel you want to convert. 
+   // You can pass in an space separated array of values.
+   // e.g. margin: pxToEm(16px 20px 20px 16px, 16px);
+
+  @function em($values, $elfont-size: $font-size-calc-base) {
+    $list: ();
+    @each $value in $values {
+      @if ($value == 0 or $value == auto) {
+        $list: append($list, $value);
+      } @else {
+        $value:       strip-unit($value);
+        $elfont-size: strip-unit($elfont-size);
+        $emValue: ($value / $elfont-size) + em;
+        $list: append($list, $emValue);
+      }
+    }
+    @return $list;
+  }
+
+
+
+// Tint + Shade
+
+  /// Lighten a color
+  @function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+  }
+
+  /// Darken a color
+  @function shade($color, $percentage) {
+    @return mix(black, $color, $percentage);
+  }

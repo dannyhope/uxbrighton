@@ -1,0 +1,110 @@
+
+.relative { position:relative }
+.absolute { position:absolute }
+.fixed    { position:fixed }
+.static   { position:static }
+.sticky   { position:sticky }
+
+@media only screen and (min-width: 780px) and (min-height: 525px) {
+  .sticky-body-column {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+}
+
+@media only screen and (min-width: 951px) {
+  .event-sticky-body-column {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+}
+
+@media only screen and (max-width: 27.2678rem) {
+  .hide-footer-middot {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 27.2678rem) {
+  .break-footer-links {
+    display: none;
+  }
+}
+
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+.centre-xy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@include over-m   { 
+  .absolute-m { position:absolute }
+  .fixed-m    { position:fixed }
+  .sticky-over-m { position: sticky; }
+} 
+@include over-l   { 
+  .absolute-l { position:absolute }
+  .fixed-l    { position:fixed }
+} 
+@include over-xl   { 
+  .absolute-xl { position:absolute }
+  .fixed-xl    { position:fixed }
+} 
+
+.full-screen-overlay {
+  position: fixed;
+  z-index: 9999; 
+  top: 0;left: 0;right: 0;bottom: 0;
+  width: 100%;height: 100%;
+  background: rgba(0,0,0,0.4) !important;
+}
+
+.full-screen-overlay__inner {
+  background: #fff;
+  overflow: hidden;
+}
+.intrinsic-fill {
+  position: absolute;
+  top: 0;left: 0;right: 0;bottom: 0;
+  width: 100%;height: 100%;
+}
+
+.top-0    { top:0 }
+.right-0  { right:0 }
+.bottom-0 { bottom:0 }
+.left-0   { left:0 }
+@include over-m   { 
+  .top-0-m    { top:0 }
+  .right-0-m  { right:0 }
+  .bottom-0-m { bottom:0 }
+  .left-0-m   { left:0 }
+} 
+@include over-l   { 
+  .top-0-l    { top:0 }
+  .right-0-l  { right:0 }
+  .bottom-0-l { bottom:0 }
+  .left-0-l   { left:0 }
+} 
+@include over-xl   { 
+  .top-0-xl    { top:0 }
+  .right-0-xl  { right:0 }
+  .bottom-0-xl { bottom:0 }
+  .left-0-xl   { left:0 }
+}
+
+
+.z1 { z-index: 1 }
+.z2 { z-index: 2 }
+.z3 { z-index: 3 }
+.z4 { z-index: 4 }
+.z5 { z-index: 5 }
+.z6 { z-index: 6 }
+.z7 { z-index: 7 }
+.z8 { z-index: 8 }

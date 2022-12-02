@@ -1,0 +1,172 @@
+{% if homepage.speakers.visibility == true %}
+
+  <section id="talks" class='{% if page.talk-text-toggle == "show" %} talk-text-toggled-by-default {% endif %}'>
+
+    <div class="overlay__outer" style="background-image: url('{{ homepage.speakers.section-banner }}');">
+      <div class="overlay__inner" style="background: rgba(0,0,0,0.2)">
+        <div class="container color-white">
+          <h2 class="fs-xxxl mb0 leading-solid">{{ homepage.speakers.section-title }}</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay__after container">
+      <div class="clearfix gutter-top-under-m">
+
+        <!-- Speaker grid section... -->
+        <div id="speaker-grid" class="clearfix gutters__container--xs pb1">
+
+          <!-- Speaker-specific grid thumbnails... -->
+          {% for speaker in homepage.speakers.speaker-info.speaker-list %}
+            <figure class="u1of4 left gutters--xs mb1">
+              <a href="#{{ speaker.anchor }}" class="talk__image-link">
+                <img alt="{{ speaker.name }}." class="bg-grey-20" src="{{ speaker.thumbnail }}" width="310" height="310">
+                <figcaption class="talk__image-link__caption">
+                  <span class="talk__image-link__caption--1 block">
+                    {{ speaker.name }}
+                  </span>
+                </figcaption>
+              </a>
+            </figure>
+          {% endfor %}
+
+          {% if homepage.speakers.full == false %}
+            <!-- Speaker placeholder avatar... -->
+            <figure class="u1of4 left gutters--xs mb1">
+              <img alt="Placeholder avatar" class="bg-grey-20" src="/2019/images/speakers/placeholder-310.jpg" width="310" height="310">
+            </figure>
+          {% endif %}
+
+        </div>
+
+        <!-- Main speaker & talk section... -->
+        <div id="speaker-and-talk-list" class="bg-white container">
+
+          <!-- Registration info... -->
+          {% if homepage.speakers.registration.visibility == true %}
+            <div class="talk row padding-top-row" id="{{ homepage.speakers.registration.anchor }}">
+              <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
+                <div class="circle overflow-hidden inline-block">
+                  <img alt="{{ homepage.speakers.registration.title }}." class="talk__photo" src="{{ homepage.speakers.registration.thumbnail }}" width="310" height="310">
+                </div>
+              </div>
+              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+                <h3 class="talk__heading text-center-under-m fs-h2">
+                  <span class="talk__speaker">
+                    {% if homepage.speakers.speaker-info.show-times == true %}
+                      <span class="talk__time">{{ homepage.speakers.registration.time | date: "%H:%M" }}</span>
+                    {% endif %}
+                    <span>{{ homepage.speakers.registration.title }}</span>
+                  </span>
+                </h3>
+
+                <!-- Registration summary... -->
+                {{ homepage.speakers.registration.summary | markdownify }}
+
+                <div class="js-show-talk-details__show">Show talk and speaker details</div>
+                <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
+              </div>
+            </div>
+          {% endif %}
+
+          <!-- Speaker-specific info (eg. talk times, subject, talk summary, bio etc.)... -->
+          {% for speaker in homepage.speakers.speaker-info.speaker-list %}
+            <div class="talk row padding-top-row" id="{{ speaker.anchor }}">
+              <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
+                <div class="circle overflow-hidden inline-block">
+                  <img alt="{{ speaker.name }}." class="talk__photo" src="{{ speaker.thumbnail }}" width="310" height="310">
+                </div>
+              </div>
+
+              <!-- Speaker talk time, talk title, talk summary, name, video & slides and bio -->
+              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+                <h3 class="talk__heading text-center-under-m fs-h2">
+                  <span class="talk__speaker">
+                    {% if homepage.speakers.speaker-info.show-times == true %}
+                      <span class="talk__time">{{ speaker.talk-info.talk-time | date: "%H:%M" }}</span>
+                    {% endif %}
+                    <span>{{ speaker.talk-info.talk-title }} - {{ speaker.name }}</span>
+                  </span>
+                </h3>
+                <div class="talk__abstract">
+
+                  <!-- Talk video... -->
+                  {% if homepage.speakers.speaker-info.show-videos == true %}
+                    <div class="responsive-height-limiter mt3">
+                      <div class="embed-container hd">
+                        <iframe src="https://www.youtube.com/embed/{{ speaker.talk-media.talk-video }}" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
+                      </div>
+                    </div>
+                  {% endif %}
+
+                  <!-- Talk slides... -->
+                  {% if homepage.speakers.speaker-info.show-slides == true %}
+                    <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/{{ speaker.talk-media.talk-slides }}">{{ speaker.talk-info.talk-title }}</a></p>
+                  {% endif %}
+
+                  <!-- Talk summary... -->
+                  {{ speaker.talk-info.talk-summary | markdownify }}
+
+                </div>
+
+                <!-- Speaker bio.... -->
+                <div class="talk__speaker-bio">
+                  <h4>{{ speaker.speaker-bio.bio-title }}</h4>
+                  {{ speaker.speaker-bio.bio-summary | markdownify }}
+                  <nav class="talk__speaker-links icons-currentColor">
+                    {% for entry in speaker.speaker-bio.social-profiles %}
+                      {% if entry.profile-type == "website" %}
+                        <a href="{{ entry.profile-url }}" class="talk__speaker-link color-grey-40" title="Visit speaker's Website.">
+                          <svg class="icon-web--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-sphere"></use></svg>
+                        </a>
+                      {% elsif entry.profile-type == "linkedin" %}
+                        <a href="{{ entry.profile-url }}" class="talk__speaker-link color-grey-40" title="Visit speaker's LinkedIn.">
+                          <svg class="icon-linkedin--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-linkedin2"></use></svg>
+                        </a>
+                      {% elsif entry.profile-type == "twitter" %}
+                        <a href="{{ entry.profile-url }}" class="talk__speaker-link color-grey-40" title="Visit speaker's Twitter.">
+                          <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
+                        </a>
+                      {% endif %}
+                    {% endfor %}
+                  </nav>
+                </div>
+                <div class="js-show-talk-details__show">Show talk and speaker details</div>
+                <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
+              </div>
+            </div>
+          {% endfor %}
+
+          <!-- After party info.... -->
+          {% if homepage.speakers.after-party.visibility == true %}
+            <div class="talk row padding-top-row" id="{{ homepage.speakers.after-party.anchor }}">
+              <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
+                <div class="circle overflow-hidden inline-block">
+                  <img alt="{{ homepage.speakers.after-party.title }}." class="talk__photo" src="{{ homepage.speakers.after-party.thumbnail }}" width="310" height="310">
+                </div>
+              </div>
+              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+                <h3 class="talk__heading text-center-under-m fs-h2">
+                  <span class="talk__speaker">
+                    {% if homepage.speakers.speaker-info.show-times == true %}
+                      <span class="talk__time">{{ homepage.speakers.after-party.time | date: "%H:%M" }}</span>
+                    {% endif %}
+                    <span>{{ homepage.speakers.after-party.title }}</span>
+                  </span>
+                </h3>
+
+                <!-- After-party summary... -->
+                {{ homepage.speakers.after-party.summary | markdownify }}
+
+                <div class="js-show-talk-details__show">Show details</div>
+                <div class="js-show-talk-details__hide">Hide details</div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+{% endif %}

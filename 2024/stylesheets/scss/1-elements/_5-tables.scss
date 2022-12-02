@@ -1,0 +1,14 @@
+$table-padding-top: 0.5px * $ssi;
+$table-padding-left: 0;
+$table-padding-right: 6px * $ssi;
+$table-padding-bottom: 0.5px * $ssi;
+
+.table--transparent {
+  th, td {
+    vertical-align: top;
+    padding: $table-padding-top $table-padding-right $table-padding-bottom $table-padding-left;
+  }
+}
+th {
+  text-align: left;
+}
