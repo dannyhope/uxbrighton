@@ -1233,7 +1233,7 @@ collections:
         fields:
           - {label: "Ticket state", name: "state", hint: "Choose state of ticket. Defaults to **ticketed**.", widget: "select", multiple: false, options: ["Free", "Ticketed", "Unticketed", "Sold out"], default: "Ticketed", required: false}
           - {label: "Ticket link", name: "link", hint: "Link pointing to the specific ticket payment page.", widget: "string", required: false}
-          - {label: "Ticket price", name: "price", hint: "Enter ticket price - eg. ***£10***.", widget: "string", required: false}
+          - {label: "Ticket price", name: "price", hint: "Enter ticket price - eg. ***£10*** or ***Free***.", widget: "string", required: false}
       - label: "Upcoming teaser content"
         name: "upcoming-teaser"
         summary: "Teaser title, summary text, button label, and background image. These 'cards' appear near the footer."
