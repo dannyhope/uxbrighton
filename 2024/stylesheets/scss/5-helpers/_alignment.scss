@@ -1,0 +1,198 @@
+
+// float type stuff
+
+  .center,
+  // wordpress support
+  .aligncenter {
+    display: block;
+    float:none; 
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  .left { float: left; }
+  .right { float: right; }
+  .none { float: none; }
+
+  @include under-s {
+    .center-under-s { 
+      float:none; 
+      margin-left: auto;
+      margin-right: auto; 
+    }   
+    .none-under-s { 
+      float:none; 
+    }
+  }
+
+
+
+
+  @include over-s {
+    .left-over-s  { float: left;  } 
+    .right-over-s { float: right; }
+    .none-over-s  { float: none;  }
+    // .center-over-s { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
+  }
+  @include over-m {
+    .left-over-m  { float: left; }
+    .right-over-m { float: right; }
+    .none-over-m  { float: none;  }
+    // .center-over-m { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
+  }
+  @include over-l {
+    .left-over-l  { float: left; }
+    .right-over-l { float: right; }
+    .none-over-l  { float: none;  }
+    // .center-over-l { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
+  }
+  @include over-xl {
+    .left-over-xl  { float: left; }
+    .right-over-xl { float: right; }
+    // .center-over-xl { 
+    //   float:none; 
+    //   margin-left: auto;
+    //   margin-right: auto; 
+    // }
+  }
+
+
+  @include under-m {
+    .center-under-m { 
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }   
+    .none-under-m { 
+      float:none; 
+    }
+  }
+
+
+// clears
+
+  .cf, 
+  .clear,
+  .clearfix
+  .clear-fix   { @extend %clearfix-micro; }
+  .clear-left  { clear: left; }
+  .clear-right { clear: right; }
+  .clear-both  { clear: both; }
+  .clear-none  { clear: none; }
+
+
+// text-align
+
+  .text-left      { text-align: left; }
+  .text-right     { text-align: right; }
+  .text-center    { text-align: center; }
+
+  @include over-s {
+    .text-left-over-s      { text-align: left; }
+    .text-right-over-s     { text-align: right; }
+    .text-center-over-s    { text-align: center; }
+  }
+  @include over-m {
+    .text-left-over-m      { text-align: left; }
+    .text-right-over-m     { text-align: right; }
+    .text-center-over-m    { text-align: center; }
+  }
+  @include over-l {
+    .text-left-over-l      { text-align: left; }
+    .text-right-over-l     { text-align: right; }
+    .text-center-over-l    { text-align: center; }
+  }
+  @include over-xl {
+    .text-left-over-xl      { text-align: left; }
+    .text-right-over-xl     { text-align: right; }
+    .text-center-over-xl    { text-align: center; }
+  }
+  
+  @include under-s {
+    .text-left-under-s      { text-align: left; }
+    .text-right-under-s     { text-align: right; }
+    .text-center-under-s    { text-align: center; }
+  }
+  @include under-m {
+    .text-left-under-m      { text-align: left; }
+    .text-right-under-m     { text-align: right; }
+    .text-center-under-m    { text-align: center; }
+  }
+  @include under-l {
+    .text-left-under-l      { text-align: left; }
+    .text-right-under-l     { text-align: right; }
+    .text-center-under-l    { text-align: center; }
+  }
+  @include under-xl {
+    .text-left-under-xl      { text-align: left; }
+    .text-right-under-xl     { text-align: right; }
+    .text-center-under-xl    { text-align: center; }
+  }
+
+
+// vertical-align
+
+  .align-baseline { vertical-align: baseline; }
+  .align-top      { vertical-align: top; }
+  .align-middle   { vertical-align: middle; }
+  .align-bottom   { vertical-align: bottom; }
+
+
+  
+  // @include over-s {
+  //   .align-baseline-s { vertical-align: baseline; }
+  //   .align-top-s      { vertical-align: top; }
+  //   .align-middle-s   { vertical-align: middle; }
+  //   .align-bottom-s   { vertical-align: bottom; }
+  // }
+  // @include over-m {
+  //   .align-baseline-m { vertical-align: baseline; }
+  //   .align-top-m      { vertical-align: top; }
+  //   .align-middle-m   { vertical-align: middle; }
+  //   .align-bottom-m   { vertical-align: bottom; }
+  // }
+  // @include over-l {
+  //   .align-baseline-l { vertical-align: baseline; }
+  //   .align-top-l      { vertical-align: top; }
+  //   .align-middle-l   { vertical-align: middle; }
+  //   .align-bottom-l   { vertical-align: bottom; }
+  // }
+  // @include over-xl {
+  //   .align-baseline-xl { vertical-align: baseline; }
+  //   .align-top-xl      { vertical-align: top; }
+  //   .align-middle-xl   { vertical-align: middle; }
+  //   .align-bottom-xl   { vertical-align: bottom; }
+  // }
+
+
+
+
+
+  @include over-s {
+
+  }
+  @include over-m {
+
+  }
+  @include over-l {
+
+  }
+  @include over-xl {
+
+  }
+
+

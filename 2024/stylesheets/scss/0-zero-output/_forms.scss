@@ -1,0 +1,48 @@
+// Button & Field spacing styles
+
+  $btn-and-field-leading:         1;
+  $btn-and-field-padding:         0.375em 0.75em;
+  $btn-and-field-padding-large:   0.7em 1em;
+
+// Button styles
+
+  $btn-text-weight:               400;
+  $btn-text-size:                 inherit;
+  $button-border-radius:          $border-radius;
+
+// Button Colours
+
+  $button-color:                  $color-text;
+  $button-bg:                     $color-grey-5;
+  $button-bg--focus:              saturate( darken($button-bg, 10%), 10%);
+  $button-bg--hover:              saturate( darken($button-bg, 10%), 10%);
+  $button-bg--disabled:           $color-black;
+  $button-bg--active:             saturate( darken($button-bg, 10%), 10%);
+
+  $button-color--red:             #fff;
+  $button-bg--red:                $color-red;
+  $button-bg--red--focus:         saturate( lighten($button-bg--red, 10%), 10%);
+  $button-bg--red--hover:         saturate( lighten($button-bg--red, 10%), 10%);
+  $button-bg--red--disabled:      $color-black;
+  $button-bg--red--active:        saturate( lighten($button-bg--red, 10%), 10%);
+
+  $button-color--orange:          #fff;
+  $button-bg--orange:             $color-orange;
+  $button-bg--orange--focus:      saturate( lighten($button-bg--orange, 10%), 10%);
+  $button-bg--orange--hover:      saturate( lighten($button-bg--orange, 10%), 10%);
+  $button-bg--orange--disabled:   $color-black;
+  $button-bg--orange--active:     saturate( lighten($button-bg--orange, 10%), 10%);
+
+  $button-color--green:           #fff;
+  $button-bg--green:              $color-green;
+  $button-bg--green--focus:       saturate($button-bg--green, 50%);
+  $button-bg--green--hover:       saturate( darken($button-bg--green, 10%), 50%);
+  $button-bg--green--disabled:    $color-black;
+  $button-bg--green--active:      saturate( darken($button-bg--green, 10%), 50%);
+
+  $button-color--blue:            #fff;
+  $button-bg--blue:               $color-blue;
+  $button-bg--blue--focus:        saturate( lighten($button-bg--blue, 10%), 10%);
+  $button-bg--blue--hover:        saturate( lighten($button-bg--blue, 10%), 10%);
+  $button-bg--blue--disabled:     $color-black;
+  $button-bg--blue--active:       saturate( lighten($button-bg--blue, 10%), 10%);
