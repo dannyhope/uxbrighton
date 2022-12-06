@@ -100,7 +100,7 @@ art-direction: |-
         <img alt="Photo of Danny" src="/images/team/danny.jpg">
         <h2><a href="https://twitter.com/yandle">Danny Hope</a>Founder</h2>
       </header>
-      <p>Danny is a User Experience consultant and the founder of UX Brighton. He curates the annual UX Brighton conference. Danny is also the cofounder of <a href="http://jsbin.com">JS Bin</a>, a tool for experimenting with web languages. <br><a href="mailto:danny@uxbrighton.org.uk">danny@uxbrighton.org.uk</a></p>
+      <p>Danny is a User Experience consultant and the founder of UX Brighton. He curates the annual UX Brighton conference. Danny is also the cofounder of <a href="http://jsbin.com">JS Bin</a>, a tool for experimenting with web languages. <br><a href="mailto:danny@uxbri.org">danny@uxbri.org</a></p>
     </article>
     <article class="organiser-blurb" id="amp">
       <header>
