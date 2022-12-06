@@ -34,4 +34,4 @@ Average attendance for the last 3 events is 50
 
 ## Guidance for curators
 
-[G﻿uidance for curators](curate)
+[G﻿uidance for curators](/curate)
