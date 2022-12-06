@@ -89,11 +89,11 @@ art-direction: |-
       <h2 id="curate">Curate an event</h2>
       <p class="standfirst">Got an idea for a UX Brighton event you'd like to see?</p>
       <p>We'd love it if you wanted to curate an evening and put some speakers together! We have done this loads of times and can help you at every step.</p>
-      <p>We have a checklist <a href="https://docs.google.com/document/d/1YOR97eyhMgL8EZswrOtx5nR6ye0JpZoX_-1GfAjLVlE/">to guide you through finding speakers, promoting the evening</a> and running it on the night. We have a number of venues that we regularly use and can book for you. Drop <a href="mailto:anniemarie@uxbri.org">us a line</a>, join our <a href="https://slack.uxbrighton.org.uk">Slack</a> or send us a <a href="https://twitter.com/uxbri">tweet</a> and we'll get you started...</p>
+      <p>We have a checklist <a href="https://docs.google.com/document/d/1YOR97eyhMgL8EZswrOtx5nR6ye0JpZoX_-1GfAjLVlE/">to guide you through finding speakers, promoting the evening</a> and running it on the night. We have a number of venues that we regularly use and can book for you. Drop <a href="mailto:anniemarie@uxbri.org">us a line</a>, join our <a href="https://slack.uxbrighton.org.uk">Slack</a> or send us a <a href="https://twitter.com/uxbri">tweet</a> and we'll get you started…</p>
     </div>
   </div>
   <hr class="mv5 clearfix">
-  <h2 class="h1">Organisers</h2>
+  <h2 class="h1">Team</h2>
   <div class="content-main-about clearfix">
     <article class="organiser-blurb" id="danny">
       <header>
