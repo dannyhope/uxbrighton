@@ -1,8 +1,10 @@
 ---
 layout: generic
-title: Help for curators
-pretitle: Evening Event Takeovers
+title: Curate
+pretitle: ""
+subtitle: Tips for curating a UX Brighton evening event
 description: ""
+permalink: curate
 seo: true
 ---
 Guidance docs for the customer
