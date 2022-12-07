@@ -15,7 +15,7 @@ hero:
     title: UX and Innovation
     button:
       label: Book now for 2023
-      url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true&_ga=2.115592899.49297345.1669732823-49707818.1668329442
+      url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
       extra-text: Super early bird discounts available now!
   during:
     title: UX and Product Management
@@ -23,13 +23,13 @@ hero:
     button:
       label: Book now for 2024
       extra-text: Super early bird discounts available now!
-      url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true&_ga=2.115592899.49297345.1669732823-49707818.1668329442
+      url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
   post:
     title: It’s a wrap
     message: Thanks for coming to UX Brighton 2023
     button:
       label: Book now for 2024
-      url: https://www.tickettailor.com/events/uxbrighton/782636
+      url: ""
       extra-text: Super early bird discounts available now!
 overview:
   visibility: true
