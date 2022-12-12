@@ -34,6 +34,7 @@
     {% elsif page.venue == "North Laine Brewhouse" %}North Laine Brewhouse, 27 Gloucester Pl, Brighton BN1 4AA
     {% elsif page.venue == "The Eagle" %}The Eagle, 125 Gloucester Rd, Brighton BN1 4AF
     {% elsif page.venue == "Earth & Stars" %}Earth & Stars 46 Windsor St, Brighton, BN1 1RJ
+    {% elsif page.venue == "Barclays Eagle Lab Brighton" %}Barclays Eagle Lab Brighton, 1 Preston Rd, Brighton BN1 4QU
     {% else %}Venue: <abbr title="to be announced">TBA</abbr>
     {% endif %}
   </span>
@@ -89,6 +90,9 @@
 
 {% elsif page.venue == "Earth & Stars" %}
 	<a class="venue" href="https://www.google.co.uk/maps/place/The+Earth+%2526+Stars/@50.8248306,-0.1421861,15z/data=!4m5!3m4!1s0x0:0x9db9a618075247e1!8m2!3d50.8248484!4d-0.1421825" title="Earth & Stars pub in Google Maps" style="background: url(/images/maps/earth-and-stars.png) center center; background-size: cover;"><span class="screen-reader-text">Map</span></a>
+
+{% elsif page.venue == "Barclays Eagle Lab Brighton" %}
+	<a class="venue" href="https://www.google.co.uk/maps/place/Barclays+Eagle+Lab+Brighton/@50.8337164,-0.1392451,15z/data=!4m5!3m4!1s0x0:0x4d6282c7f21b1711!8m2!3d50.8337164!4d-0.1392451" title="Barclays Eagle Lab Brighton in Google Maps" style="background: url(/images/maps/barclays-eagle-lab-brighton.png) center center; background-size: cover;"><span class="screen-reader-text">Map</span></a>
 
 {% else %}
 <span class="soon bold">The venue for this event will be announced soon.</span>
