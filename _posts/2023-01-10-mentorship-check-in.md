@@ -5,7 +5,7 @@ social-image: /images/49047057398_0939717a36_o.jpg
 permalink: /mentorship-check-in
 redirect_from: []
 event-date: 2023-01-10
-start: 7pm - 9pm
+start: 7pm
 venue: Barclays Eagle Lab Brighton
 ticket:
   state: Ticketed
