@@ -27,13 +27,13 @@ This January UX Brighton's mentors and mentees are meeting to reflect on the [me
 * F﻿acilitated group session
 * P﻿ub
 
-### L﻿earn from each other
-
-After the talks, we'll be holding a facilitated group session where you can share your experiences and hear from your peers about how their mentorship relationship is going. This is an opportunity to tell us what you've achieved and what challenges have arisen. Or maybe you have a burning question to ask that is mentorship or UX related. This is the place to ask the community and get answers. 
-
 ### L﻿earn from the speakers
 
 W﻿e'll hear from a few mentors and mentees who will be speaking about their mentorship experience and how you can make the most of your time with your mentor and/or mentee. 
+
+### L﻿earn from each other
+
+After the talks, we'll be holding a facilitated group session where you can share your experiences and hear from your peers about how their mentorship relationship is going. This is an opportunity to tell us what you've achieved and what challenges have arisen. Or maybe you have a burning question to ask that is mentorship or UX related. This is the place to ask the community and get answers.
 
 ### G﻿ive UX Brighton feedback
 
