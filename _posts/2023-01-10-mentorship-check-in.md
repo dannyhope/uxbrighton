@@ -10,6 +10,7 @@ venue: Barclays Eagle Lab Brighton
 ticket:
   state: Ticketed
   price: Free
+  link: https://www.tickettailor.com/checkout/view-event/id/1836844/chk/9eb8/?modal_widget=true&widget=true
 upcoming-teaser:
   bg-image: /images/49047057398_0939717a36_o.jpg
 conference: false
