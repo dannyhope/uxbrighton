@@ -437,7 +437,7 @@ speakers:
       Please keep your name badge with you if you want to leave and come back again.
   full: false
 sponsors:
-  visibility: false
+  visibility: true
   section-title: Sponsors
   section-banner: /images/sponsors-35.jpg
   section-intro:
