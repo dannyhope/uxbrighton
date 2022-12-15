@@ -16,7 +16,7 @@ upcoming-teaser:
   button-label: Tickets and info
   bg-image: /images/upcoming_christmas_2022.jpg
 conference: false
-upcoming: true
+upcoming: false
 published: true
 seo: true
 ---
