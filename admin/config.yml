@@ -11,7 +11,7 @@ local_backend:
   allowed_hosts: ['192.168.0.1']
 
 # These lines should *not* be indented
-publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
+# publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
 media_folder: "/images" # Media files will be stored in the repo under images
 public_folder: "/images" # The src attribute for uploaded media will begin with images
 site_url: https://uxbri.org/
