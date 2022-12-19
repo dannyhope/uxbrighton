@@ -451,23 +451,22 @@ sponsors:
       and a highly engaged audience. Well worth the trip.
     quotee: Alex Wright, Director of User Experience at the New York Times
   sponsors-headline:
-    visibility: false
+    visibility: true
     section-title: Headline Sponsor
     sponsor-details:
-      name: Legal & General
-      logo: /images/l-g-logo-rgb-4c-black.svg
-      url: https://www.legalandgeneral.com/
-      summary: Legal & General is a FTSE 30 multinational financial services company.
-        Its products and services include investment management, lifetime
-        mortgages (a form of equity release), pensions, annuities and life
-        assurance.
+      name: J.P. Morgan
+      logo: /images/jpm.svg
+      url: https://www.jpmorgan.com/GB/en/about-us
+      summary: J.P. Morgan is a leader in financial services, offering solutions to
+        clients in more than 100 countries with one of the most comprehensive
+        global product platforms available.
       links:
         - link-type: website
-          profile-url: https://www.legalandgeneral.com/
+          profile-url: https://www.jpmorgan.com/GB/en/about-us
         - link-type: twitter
-          profile-url: https://twitter.com/landg_uk
+          profile-url: https://twitter.com/jpmorgan
         - link-type: facebook
-          profile-url: https://www.facebook.com/legalandgeneral/
+          profile-url: https://www.facebook.com/jpmorgan
   sponsors-premium:
     visibility: false
     section-title: Premium Sponsors
