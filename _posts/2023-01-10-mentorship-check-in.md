@@ -56,3 +56,5 @@ Luke’s going to be sharing his experiences of mentoring over the years. He has
 Thank you [cxpartners](https://www.cxpartners.co.uk/) for sponsoring UX Brighton’s first mentorship programme.
 
 <img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-left"/>
+
+[Silicon Brighton](https://siliconbrighton.com/), is a community-led initiative supporting digital growth in the South East. Thanks for supporting this event.
