@@ -1,6 +1,6 @@
 ---
 layout: generic
-title: Mentorship 2022
+title: Mentorship
 pretitle: ""
 subtitle: ""
 image: /images/46101279451_389039c794_o-1-.jpg
@@ -26,12 +26,18 @@ Want to become a mentor? Please email anniemarie@uxbri.org.
 
 Mentors and mentees can meet when they wish, we ask that you commit to at least 1 hour a month until the end of the programme in April 2023, unless you've got what you need before then. You can meet virtually or face-to-face. We recommend that mentees set a goal to work towards within the programme, mentors can support mentees to achieve this goal by helping them be accountable and asking guiding questions. When considering mentoring it may be worth taking into account the [C's of Great UX Mentorship](https://youtu.be/0tZomurxE0w).
 
-## 2023 programme dates
+## Program 1 dates 
 
-Applications o﻿pen - July 2023 
+Mentorship Check-in - Tuesday 10th January
+
+M﻿entorship closing party - Tuesday 11th April
+
+## Program 2 dates 
+
+Applications o﻿pen - July 
 
 M﻿entorship speed matching event - Tuesday 8th August 
 
-S﻿uccessful applicants contacted - September 2023 
+S﻿uccessful applicants contacted - September 
 
 Want to sponsor season 2? Contact anniemarie@uxbri.org.
