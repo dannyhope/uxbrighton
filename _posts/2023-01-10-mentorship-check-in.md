@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Mentorship check-in
+title: Mentorship Check-in
 social-image: /images/49047057398_0939717a36_o.jpg
 permalink: /mentorship-check-in
 redirect_from: []
