@@ -10,7 +10,7 @@ redirect_from:
   - /mentorship
 seo: true
 ---
-U﻿X Brighton's mentorship programme supports UXers at all stages of their career. From student to Head of Design and anything in between. Whether you're a Researcher or Designer we pair mentors and mentees to help you grow your UX career. 
+U﻿X Brighton’s mentorship programme supports UXers at each stage of their career. From student to Head of Design and anything in between. Whether you're a Researcher or Designer we pair mentors and mentees to help you grow your UX career. 
 
 ## A﻿bout the programme
 
@@ -24,20 +24,22 @@ Want to become a mentor? Please email anniemarie@uxbri.org.
 
 ## C﻿ommitment
 
-Mentors and mentees can meet when they wish, we ask that you commit to at least 1 hour a month until the end of the programme in April 2023, unless you've got what you need before then. You can meet virtually or face-to-face. We recommend that mentees set a goal to work towards within the programme, mentors can support mentees to achieve this goal by helping them be accountable and asking guiding questions. When considering mentoring it may be worth taking into account the [C's of Great UX Mentorship](https://youtu.be/0tZomurxE0w).
+We ask that you commit to meeting with your mentee or mentor at least 1-hour a month until the end of the programme in April 2023. You can meet virtually or face-to-face. We recommend that mentees set a goal to work towards within the programme, mentors can support mentees to achieve this goal by helping them make a plan, be accountable and asking guiding questions. When considering mentoring it's useful to know the [C's of Great UX Mentorship](https://youtu.be/0tZomurxE0w).
 
-## Program 1 dates 
+## Program 1 dates
 
-Mentorship Check-in - Tuesday 10th January
+Mentorship Check-in - 10th January 2023
 
 M﻿entorship closing party - Tuesday 11th April
 
-## Program 2 dates 
+## Program 2 dates
 
-Applications o﻿pen - July 
+Applications o﻿pen - July 2023
 
-M﻿entorship speed matching event - Tuesday 8th August 
+M﻿entorship speed matching event - 8th August 2023
 
-S﻿uccessful applicants contacted - September 
+S﻿uccessful applicants contacted - September 2023
 
-Want to sponsor season 2? Contact anniemarie@uxbri.org.
+---
+
+Insterested in sponsoring season 2? Contact anniemarie@uxbri.org.
