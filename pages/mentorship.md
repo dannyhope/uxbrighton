@@ -40,7 +40,7 @@ M﻿entorship closing party - Tuesday 11 April 2023
 
 ## 2023 programme dates
 
-Applications o﻿pen - July 2023
+Applications o﻿pen - Tuesday 11th July 2023 
 
 M﻿entorship speed matching event - Tuesday 8 August 2023
 
