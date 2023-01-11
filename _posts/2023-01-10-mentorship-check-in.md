@@ -20,12 +20,24 @@ seo: true
 ---
 This January UX Brighton's mentors and mentees are meeting to reflect on the [mentorship](https://uxbri.org/mentorship/2022) programme so far. Learn from others to see what you can implement into your mentorship experience. D﻿rinks and snacks provided. 🍺🍕
 
-### A﻿genda
+## A﻿genda
 
 * Networking
-* Talks
+* Talk
 * F﻿acilitated group session
 * P﻿ub
+
+## Talk: Making the Most of Mentoring **–** Luke Hay, Senior UX Researcher at Clearleft
+
+<img src="/images/luke-hay.png" alt="Luke Hay" class="image-align-right"/>
+
+Luke Hay is a senior UX researcher at Clearleft, who’s worked with clients of all shapes and sizes over his 20 year career. Luke has facilitated various forms of user research with people from different backgrounds – from teenagers to pensioners, dress-makers to body builders over the course of a few hundred user research sessions.
+
+As well as getting stuck into research Luke also runs training in UX and analytics. He has spoken at conferences and events on a variety of UX related topics and in 2018 he wrote a book about UX and Analytics, which is actually more exciting than it sounds, apparently.
+
+Luke’s going to be sharing his experiences of mentoring over the years. He has mentored, and managed, several people and was also heavily involved in running the Brighton Internship Programme during his time at Wired Sussex. He’ll be focusing on his experience of the UX Brighton mentoring programme so far, which will include tips for mentors and mentees to help them get the most from their time together.
+
+## F﻿acilitated group session
 
 ### L﻿earn from the speakers
 
@@ -38,18 +50,6 @@ After the talks, we'll be holding a facilitated group session where you can shar
 ### G﻿ive UX Brighton feedback
 
 Take part in the facilitated group session to give us feedback so we can make the next mentorship program even better. 
-
-## Talks
-
-### Making the Most of Mentoring **–** Luke Hay, Senior UX Researcher at Clearleft
-
-<img src="/images/luke-hay.png" alt="Luke Hay" class="image-align-right"/>
-
-Luke Hay is a senior UX researcher at Clearleft, who’s worked with clients of all shapes and sizes over his 20 year career. Luke has facilitated various forms of user research with people from different backgrounds – from teenagers to pensioners, dress-makers to body builders over the course of a few hundred user research sessions.
-
-As well as getting stuck into research Luke also runs training in UX and analytics. He has spoken at conferences and events on a variety of UX related topics and in 2018 he wrote a book about UX and Analytics, which is actually more exciting than it sounds, apparently.
-
-Luke’s going to be sharing his experiences of mentoring over the years. He has mentored, and managed, several people and was also heavily involved in running the Brighton Internship Programme during his time at Wired Sussex. He’ll be focusing on his experience of the UX Brighton mentoring programme so far, which will include tips for mentors and mentees to help them get the most from their time together.
 
 ## Support
 
