@@ -2,11 +2,12 @@
 layout: generic
 title: Attendee Guide
 pretitle: UX Brighton 2023
-subtitle: Friday 4 November, Brighton Dome
+subtitle: Friday 3 November, Brighton Dome
 description: Hopefully everything you need to know about coming to UX Brighton 2022.
 image: /images/attendees.jpg
-permalink: 2022/info
-redirect_from: []
+permalink: 2023/info
+redirect_from:
+  - /info
 seo: true
 art-direction: ""
 ---
