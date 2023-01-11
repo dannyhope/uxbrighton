@@ -32,7 +32,7 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
 
 <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
 
-In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/) in a bright orange UX Brighton T-shirt. 
+In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for our volunteer in a UX Brighton T-shirt. 
 
 <h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
 
@@ -50,13 +50,12 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 ### Accommodation
 
-Our friends at Visit Brighton have put together [a comprehensive list of accommodation at specially negotiated rates for UX Brighton delegates](https://book.passkey.com/go/uxbtn2022). This website is open for bookings *until 1st November 2022*; we advise early booking in order to guarantee your preferred hotel.
+Our friends at Visit Brighton have put together a comprehensive list of [accommodation](https://book.passkey.com/go/UXBTN23) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 1st November 2023*; we advise early booking in order to guarantee your preferred hotel.
 
-Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/​uxbtn2022](https://book.passkey.com/go/uxbtn2022)[](https://book.passkey.com/go/bdux2019)
+Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/​UXBTN23](https://book.passkey.com/go/UXBTN23)[](https://book.passkey.com/go/uxbtn2022)[](https://book.passkey.com/go/bdux2019)
 
 ### Travel
 
-* If you are planning to travel by train please be aware that there are [rail strikes on the 3rd and 5th of November](https://news.sky.com/story/more-rail-strikes-announced-for-3-and-5-november-this-time-involving-train-operators-12724718). 
 * Parking is expensive, so if you can avoid driving, please consider travelling by train or bus.
 * Travelling from overseas? Gatwick is the nearest airport. Trains take approx 30 mins to Brighton.
 * We recommend using [traintimes.org.uk](https://traintimes.org.uk/) for up-to-date train timetables.
@@ -114,20 +113,13 @@ There will be several 4-ways on the Mezzanine level which is upstairs, to the ri
 
 Did you know we have a Slack group with 1500 members? You can join here: <http://slack.uxbrighton.org.uk/>. Chat, ask questions, post or [look for jobs](https://uxbri.slack.com/messages/C1626ASJY/), find events - we’re a friendly bunch!
 
-### After Party
-
-* Join us for after conference drinks and pizza in the Foyer Bar (at the venue) until 8pm.
-* Keep your name badge with you if you want to leave and come back again.
-* Collect your drinks voucher at registration.
-* Your voucher is valid for all non-alcoholic and a selection of alcoholic drinks.
-
 ### Reminder about tickets
 
 * We are unable to issue refunds or transfers.
 * Of course, you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list.
-* Ticket sales end 1pm Thursday 3rd November
-* Payment on the day is **cash only**, £250 (includes vat).
+* Ticket sales end 1pm Thursday 2nd November 
+* Payment on the day is **cash only**, £300 (includes vat). 
 
-Thanks for reading, we look forward to seeing you on the 4th!
+Thanks for reading, we look forward to seeing you on the 3rd!
 
 Danny & Annie-Marie [UX Brighton](https://twitter.com/uxbri) (DMs are open)
