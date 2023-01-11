@@ -51,6 +51,8 @@ As well as getting stuck into research Luke also runs training in UX and analyti
 
 Luke’s going to be sharing his experiences of mentoring over the years. He has mentored, and managed, several people and was also heavily involved in running the Brighton Internship Programme during his time at Wired Sussex. He’ll be focusing on his experience of the UX Brighton mentoring programme so far, which will include tips for mentors and mentees to help them get the most from their time together.
 
+## Support
+
 Thank you [cxpartners](https://www.cxpartners.co.uk/) for sponsoring UX Brighton’s first mentorship programme.
 
 <img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-left"/>
