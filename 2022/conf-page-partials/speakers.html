@@ -92,16 +92,20 @@
 
                   <!-- Talk video... -->
                   {% if homepage.speakers.speaker-info.show-videos == true %}
-                    <div class="responsive-height-limiter mt3">
-                      <div class="embed-container hd">
-                        <iframe src="https://www.youtube.com/embed/{{ speaker.talk-media.talk-video }}" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
+                    {% if speaker.talk-media.talk-video and speaker.talk-media.talk-video != '' %}
+                      <div class="responsive-height-limiter mt3">
+                        <div class="embed-container hd">
+                          <iframe src="https://www.youtube.com/embed/{{ speaker.talk-media.talk-video }}" frameborder="0" scrolling="no" allowfullscreen="" name="fitvid1"></iframe>
+                        </div>
                       </div>
-                    </div>
+                    {% endif %}
                   {% endif %}
 
                   <!-- Talk slides... -->
                   {% if homepage.speakers.speaker-info.show-slides == true %}
-                    <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/{{ speaker.talk-media.talk-slides }}">{{ speaker.talk-info.talk-title }}</a></p>
+                    {% if speaker.talk-media.talk-slides and speaker.talk-media.talk-slides != '' %}
+                      <p><strong>Slides for</strong> <a href="https://www.slideshare.net/uxbri/{{ speaker.talk-media.talk-slides }}">{{ speaker.talk-info.talk-title }}</a></p>
+                    {% endif %}
                   {% endif %}
 
                   <!-- Talk summary... -->
