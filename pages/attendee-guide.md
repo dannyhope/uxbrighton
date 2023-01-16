@@ -30,11 +30,11 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
   </div>
 </section>
 
-<h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
+<h3>Pre-conf meetup – 2<sup>nd</sup> Nov</h3>
 
 In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for our volunteer in a UX Brighton T-shirt. 
 
-<h3>Pre-event breakfast networking & coffee – 4<sup>th</sup> Nov</h3>
+<h3>Pre-event breakfast networking & coffee – 3<sup>rd</sup> Nov</h3>
 
 If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) coffee shop is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 
@@ -44,7 +44,7 @@ The venue is fully accessible. We would like to ensure that all delegates are ab
 
 ### Help
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing an orange UX Brighton t-shirt. 
+If you are being harassed, notice that someone else is being harassed, or have any other concerns or questions, please contact a member of staff – they’ll be wearing a UX Brighton t-shirt. 
 
 **We reserve the right to refuse admission.**
 
