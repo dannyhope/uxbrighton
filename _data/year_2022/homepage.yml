@@ -320,6 +320,7 @@ speakers:
               profile-label: "@lucyjspence"
         talk-media:
           talk-slides: lucy-spence-tradeoffs-254092118
+          talk-video: https://youtu.be/zNfoSKIobK8
       - talk-info:
           talk-time: 15:55 pm
           talk-title: Leading culture change to increase customer centricity
