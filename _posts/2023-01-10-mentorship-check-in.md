@@ -29,6 +29,8 @@ This January UX Brighton's mentors and mentees are meeting to reflect on the [me
 
 ## Talk: Making the Most of Mentoring **–** Luke Hay, Senior UX Researcher at Clearleft
 
+**S﻿lides for** [](https://www.prodpad.com/product-management-resources/avoiding_agency_trap_slides/)[Making the Most of Mentoring](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)[](https://www.slideshare.net/uxbri/jonty-sharples-arrogance-confidence-in-redux)
+
 <img src="/images/luke-hay.png" alt="Luke Hay" class="image-align-right"/>
 
 Luke Hay is a senior UX researcher at Clearleft, who’s worked with clients of all shapes and sizes over his 20 year career. Luke has facilitated various forms of user research with people from different backgrounds – from teenagers to pensioners, dress-makers to body builders over the course of a few hundred user research sessions.
