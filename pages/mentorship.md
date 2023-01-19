@@ -36,18 +36,20 @@ Applications for the 2022 mentorship programme are now closed. Visit this page i
 
 In the mean time you can join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship) channel on Slack. 
 
-## 2022 programme dates
+## 2022 programme
 
 [Mentorship Check-in](https://uxbri.org/mentorship-check-in) - Tuesday 10 January 2023
 
 M﻿entorship closing party - Tuesday 11 April 2023
 
-## 2023 programme dates
+## 2023 programme
 
-Applications o﻿pen - Tuesday 11th July 2023 
+Applications o﻿pen – Tuesday 11 July 2023 
 
-M﻿entorship speed matching event - Tuesday 8 August 2023
+M﻿entorship speed matching event – Tuesday 8 August 2023
 
-S﻿uccessful applicants contacted - September 2023
+S﻿uccessful applicants contacted – September 2023
+
+## S﻿ponsorship
 
 Insterested in sponsoring season 2? Contact [anniemarie@uxbri.org](anniemarie@uxbri.org).
