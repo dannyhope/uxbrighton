@@ -8,18 +8,12 @@ event-date: 2023-03-14
 start: 7pm
 venue: Barclays Eagle Lab Brighton
 ticket:
-  state: Ticketed
+  ? state
 conference: false
 upcoming: true
 published: true
 seo: true
 ---
-Tuesday 14th March 2023, 7-9pm
-
-[](https://www.google.com/maps/place/The+Skiff/@50.829334,-0.138472,15z/data=!4m5!3m4!1s0x0:0xa82eae645ae91b0f!8m2!3d50.829334!4d-0.138472?shorturl=1)[Barclays Eagle Lab Brighton BN1 4QU](https://goo.gl/maps/eEhbKYwDhBkV3HWe6)
-
-- - -
-
 The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion.
 
 Whether you’re a UXer of many years’ standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the conversation.
