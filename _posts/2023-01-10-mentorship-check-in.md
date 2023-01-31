@@ -27,7 +27,7 @@ This January UX Brighton's mentors and mentees are meeting to reflect on the [me
 * F﻿acilitated group session
 * P﻿ub
 
-## Talk: Making the Most of Mentoring **–** Luke Hay, Senior UX Researcher at Clearleft
+## Talk: Making the Most of Mentoring **–** Luke Hay
 
 **S﻿lides for** [](https://www.prodpad.com/product-management-resources/avoiding_agency_trap_slides/)[Making the Most of Mentoring](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)[](https://www.slideshare.net/uxbri/jonty-sharples-arrogance-confidence-in-redux)
 
