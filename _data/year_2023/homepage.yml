@@ -207,6 +207,15 @@ sponsors:
             profile-url: https://twitter.com/brightec
           - link-type: facebook
             profile-url: https://www.facebook.com/BrightecApps/
+      - logo: /images/jsbin-1-.svg
+        name: JS Bin
+        summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
+          folk test snippets of code, within some context, and debug the code
+          collaboratively.
+        url: jsbin.com
+        links:
+          - link-type: website
+            profile-url: jsbin.com
     show-opportunity: true
 workshop:
   visibility: false
