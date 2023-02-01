@@ -9,6 +9,8 @@ start: 7pm
 venue: Barclays Eagle Lab Brighton
 ticket:
   ? state
+upcoming-teaser:
+  bg-image: /images/img_3034.jpg
 conference: false
 upcoming: true
 published: true
