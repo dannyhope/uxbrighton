@@ -78,6 +78,10 @@
       transform: translateY(-50%);
     }
   }
+
+  .sponsor-standard .image-container img {
+    max-height: 50px;
+  }
 </style>
 
 <section id="sponsors">
@@ -220,7 +224,7 @@
               <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
                 <a href="{{ sponsor.url }}">
                   <div class="image-container">
-                    <img src="{{ sponsor.logo }}" alt="{ sponsor.name }}">
+                    <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
                   </div>
                   </a>
               </div>
