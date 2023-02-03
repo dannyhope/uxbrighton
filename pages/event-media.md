@@ -6,8 +6,9 @@ subtitle: Event media from every past event going all the way back to about a we
 description: Event media from every past event going all the way back to about a week ago
 image: /images/screenshot-2023-02-03-at-2.54.38-pm.png
 social-image: /images/screenshot-2023-02-03-at-2.55.22-pm.png
-permalink: media, slides
-redirect_from: []
+permalink: media
+redirect_from:
+  - slides
 seo: false
 ---
 [All our recently uploaded videos (YouTube)](https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw/videos).
