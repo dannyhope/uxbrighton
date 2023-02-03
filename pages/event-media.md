@@ -12,8 +12,10 @@ seo: false
 ---
 ## Making the Most of Mentoring – Luke Hay
 
-[](https://uxbri.org/mentorship-check-in)[S﻿lides for Making the Most of Mentoringn](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)
+\[video] \[audio]
 
-F﻿rom the [Mentorship Check-in](https://uxbri.org/mentorship-check-in)
+[](https://uxbri.org/mentorship-check-in)[S﻿lides for Making the Most of Mentoring (SlideShare)](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)
+
+F﻿rom the [Mentorship Check-in](https://uxbri.org/mentorship-check-in) event.
 
 [](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)
