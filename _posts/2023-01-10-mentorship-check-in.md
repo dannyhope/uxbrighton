@@ -29,7 +29,7 @@ This January UX Brighton's mentors and mentees are meeting to reflect on the [me
 
 ## Talk: Making the Most of Mentoring **–** Luke Hay
 
-[Slides for Making the Most of Mentoring (SlideShare)](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)[](https://www.slideshare.net/uxbri/jonty-sharples-arrogance-confidence-in-redux)
+[Slides for Making the Most of Mentoring (SlideShare)](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)[](https://www.slideshare.net/uxbri/jonty-sharples-arrogance-confidence-in-redux) 
 
 <img src="/images/luke-hay.png" alt="Luke Hay" class="image-align-right"/>
 
