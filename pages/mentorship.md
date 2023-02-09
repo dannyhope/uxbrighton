@@ -32,19 +32,19 @@ We ask that you commit to meeting with your mentee or mentor at least 1-hour a m
 
 ## Get involved
 
-Applications for the 2022 mentorship programme are now closed. Visit this page in July 2023 for more information on applying to take part in UX Brighton’s 2023 mentorship programme. 
+Applications for the 2022 mentorship programme are now closed. Visit this page on 11 July 2023 for more information on applying to take part in UX Brighton’s 2023 mentorship programme.
 
 In the mean time you can join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship) channel on Slack. 
 
 ## 2022 programme
 
-[Mentorship Check-in](https://uxbri.org/mentorship-check-in) - Tuesday 10 January 2023
+**10 January**: [Mentorship Check-in](https://uxbri.org/mentorship-check-in) event 
 
-M﻿entorship closing party - Tuesday 11 April 2023
+**11 April**: m﻿entorship closing party
 
 ## 2023 programme
 
-**11 July**: applications o﻿pen
+**11 July**: applications o﻿pen. Add [reminder](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&tmsrc=anniemarie%40uxbri.org) to my calendar. <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&amp;tmsrc=anniemarie%40uxbri.org"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>  
 
 **8 August**: m﻿entorship speed matching event
 
