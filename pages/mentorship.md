@@ -38,9 +38,9 @@ In the mean time you can join our [\#Mentorship](https://uxbri.slack.com/channel
 
 ## 2022 programme
 
-**10 January**: [Mentorship Check-in](https://uxbri.org/mentorship-check-in) event 
+**10 January 2023**: [mentorship check-in](https://uxbri.org/mentorship-check-in) event 
 
-**11 April**: m﻿entorship closing party
+**11 April 2023**: m﻿entorship closing party 
 
 ## 2023 programme
 
