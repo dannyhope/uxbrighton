@@ -222,6 +222,7 @@
     let linkedInTracker = (function () {
 
       function Constructor (elem, id) {
+        // setTimeout(() => {
         const buttons = Array.from(document.querySelectorAll(elem))
 
         buttons.forEach(button => {
@@ -229,18 +230,18 @@
             window.lintrk('track', { conversion_id: id })
           })
         })
+        // }, 1000)
       }
 
       return Constructor;
 
     })();
 
-    // This instance is looking for a ticket button for the `conference-2022`
-    let buttonBuyTicket2022 = new linkedInTracker('[data-buy-ticket="conference-2022"]', 9245130)
-    // This instance is looking for a ticket button for the `conference-2023`
+    // This instance is looking for any `conference-2023` ticket buttons on a page
     let buttonBuyTicket2023 = new linkedInTracker('[data-buy-ticket="conference-2023"]', 10371226)
-    // This instance is looking for a ticket button for the `conference-2024`
-    // let buttonBuyTicket2024 = new linkedInTracker('[data-buy-ticket="conference-2024"]', xxxxxxxx)
+    // This instance is looking for any email subscribe buttons on a page
+    let buttonEmailSubscribe = new linkedInTracker('.emailoctopus-form input[type="submit"].btn-primary', 11356706)
+
 
 
     $(function() {
