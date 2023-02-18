@@ -1,4 +1,6 @@
+/_site/
 _site/
+_jobs/
 codekit-config.json
 config.codekit3
 .ruby-gemset*
@@ -6,7 +8,6 @@ config.codekit3
 .jekyll-metadata
 .jekyll-cache
 .DS_Store
-/_site/
 .env
 .tags
 to-do.md
