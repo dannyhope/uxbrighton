@@ -222,25 +222,32 @@
     let linkedInTracker = (function () {
 
       function Constructor (elem, id) {
-        // setTimeout(() => {
         const buttons = Array.from(document.querySelectorAll(elem))
+        console.log('🚀 ~ file: footer.html:226 ~ Constructor ~ buttons', buttons)
 
         buttons.forEach(button => {
           button.addEventListener('click', event => {
             window.lintrk('track', { conversion_id: id })
           })
         })
-        // }, 1000)
       }
 
       return Constructor;
 
     })();
 
-    // This instance is looking for any `conference-2023` ticket buttons on a page
+    /*
+     * This instance is looking for any `conference-2023` ticket buttons on a page
+     */
     let buttonBuyTicket2023 = new linkedInTracker('[data-buy-ticket="conference-2023"]', 10371226)
-    // This instance is looking for any email subscribe buttons on a page
-    let buttonEmailSubscribe = new linkedInTracker('.emailoctopus-form input[type="submit"].btn-primary', 11356706)
+
+    /*
+     * This instance is looking for any email subscribe buttons on a page
+     * Timeout needed to ensure dynamically added DOM elements are loaded first...
+     */
+    setTimeout(() => {
+      let buttonEmailSubscribe = new linkedInTracker('.emailoctopus-form input[type="submit"].btn-primary', 11356706)
+    }, 2000)
 
 
 
