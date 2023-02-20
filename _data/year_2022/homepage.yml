@@ -12,7 +12,7 @@ hero:
     venue: Brighton Dome
     image: /images/header.jpg
   pre:
-    title: UX and Product Management
+    title: UX & Product Management
     button:
       label: Buy tickets
       url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
