@@ -44,3 +44,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: feature/jobs-page-optimisation
           FOLDER: _site
+
+      - name: "Deploy to mirror 🚀"
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          REPOSITORY_NAME: rstacruz/devhints-mirror
+          BRANCH: feature/jobs-page-optimisation
+          FOLDER: _site
