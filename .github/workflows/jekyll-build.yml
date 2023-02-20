@@ -25,15 +25,12 @@ jobs:
         with: { node-version: '12.x' }
 
       - name: Use Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Dependencies
         run: |
-          bundle install
-          mkdir _site
-          mkdir jobs
           bundle exec jekyll pagemaster jobs
           bundle exec jekyll build
 
