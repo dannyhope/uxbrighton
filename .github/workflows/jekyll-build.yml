@@ -1,45 +1,45 @@
-name: Build and Deploy to Github Pages
+# name: Build and Deploy to Github Pages
 
-on:
-  push:
-    branches:
-      - feature/jobs-page-optimisation  # Here source code branch is `feature/jobs-page-optimisation`, it could be other branch
+# on:
+#   push:
+#     branches:
+#       - feature/jobs-page-optimisation  # Here source code branch is `feature/jobs-page-optimisation`, it could be other branch
 
-jobs:
-  build_and_deploy:
-    concurrency: ci-${{ github.ref }}
-    runs-on: ubuntu-latest
+# jobs:
+#   build_and_deploy:
+#     concurrency: ci-${{ github.ref }}
+#     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3
+#     steps:
+#       - uses: actions/checkout@v3
 
-      # Use GitHub Actions' cache to cache dependencies on servers
-      - uses: actions/cache@v3
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+#       # Use GitHub Actions' cache to cache dependencies on servers
+#       - uses: actions/cache@v3
+#         with:
+#           path: vendor/bundle
+#           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+#           restore-keys: |
+#             ${{ runner.os }}-gems-
 
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with: { node-version: '12.x' }
+#       - name: Use Node.js
+#         uses: actions/setup-node@v1
+#         with: { node-version: '12.x' }
 
-      - name: Use Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.0.3' # Not needed with a .ruby-version file
+#       - name: Use Ruby
+#         uses: ruby/setup-ruby@v1
+#         with:
+#           ruby-version: '3.0.3' # Not needed with a .ruby-version file
 
-      - name: Bundle install
-        run: bundle install
+#       - name: Bundle install
+#         run: bundle install
 
-      - name: Build Jobs markdown files
-        run: bundle exec jekyll pagemaster jobs
+#       - name: Build Jobs markdown files
+#         run: bundle exec jekyll pagemaster jobs
 
-      - name: Jekyll site build
-        run: bundle exec jekyll build
+#       - name: Jekyll site build
+#         run: bundle exec jekyll build
 
-      - name: "Deploy 🚀"
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: _site
+#       - name: "Deploy 🚀"
+#         uses: JamesIves/github-pages-deploy-action@v4
+#         with:
+#           folder: _site
