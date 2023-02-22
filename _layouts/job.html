@@ -280,6 +280,37 @@
       </div><!-- container -->
     </section><!-- overview -->
 
+    <!-- JobPosting page-specific Schema Data Structure -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "JobPosting",
+        "title": "{{ page.job-title }}",
+        "hiringOrganization" : {
+          "@type": "Organization",
+          "name": "{{ page.employer }}",
+          "logo" : "https://uxbri.org{{ page.logo-link }}"
+        },
+        "datePosted": "{{ page.publication-date }}",
+        "validThrough": "{{ page.unpublished-date }}",
+        "employmentType" : "{{ page.work-pat }}",
+        "jobLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "{{ page.location }}",
+            "addressCountry": "UK"
+          }
+        },
+        "baseSalary": {
+          "@type": "MonetaryAmount",
+          "currency": "GPB",
+          "minValue": "{{ page.money-min }}",
+          "maxValue": "{{ page.money-max }}",
+        }
+      }
+    </script>
+
 	</main>
 
   {% include footer.html %}
