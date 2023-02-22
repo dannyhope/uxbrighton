@@ -14,7 +14,7 @@ This `admin/` directory of this repo contains the Netlify CMS files necessary to
     1. Run `npx netlify-cms-proxy-server`
     2. Navigate to `http://localhost:4000/admin/` in your browser.
 4. Start the website server:
-    1. Open a new terminal 
+    1. Open a new terminal
     2. Run `bundle exec jekyll serve`
     3. Navigate to `http://localhost:4000/` in your browser.
 
