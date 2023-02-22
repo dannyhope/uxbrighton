@@ -35,6 +35,7 @@
     {% elsif page.venue == "The Eagle" %}The Eagle, 125 Gloucester Rd, Brighton BN1 4AF
     {% elsif page.venue == "Earth & Stars" %}Earth & Stars 46 Windsor St, Brighton, BN1 1RJ
     {% elsif page.venue == "Barclays Eagle Lab Brighton" %}Barclays Eagle Lab Brighton, 1 Preston Rd, Brighton BN1 4QU
+    {% elsif page.venue == "Shelter Hall" %}Shelter Hall, Skylark Cocktail Bar, Brighton BN1 1NB
     {% else %}Venue: <abbr title="to be announced">TBA</abbr>
     {% endif %}
   </span>
@@ -93,6 +94,9 @@
 
 {% elsif page.venue == "Barclays Eagle Lab Brighton" %}
 	<a class="venue" href="https://www.google.co.uk/maps/place/Barclays+Eagle+Lab+Brighton/@50.8337164,-0.1392451,15z/data=!4m5!3m4!1s0x0:0x4d6282c7f21b1711!8m2!3d50.8337164!4d-0.1392451" title="Barclays Eagle Lab Brighton in Google Maps" style="background: url(/images/maps/barclays-eagle-lab-brighton.png) center center; background-size: cover;"><span class="screen-reader-text">Map</span></a>
+
+{% elsif page.venue == "Shelter Hall" %}
+	<a class="venue" href="https://www.google.co.uk/maps/place/Shelter+Hall/@50.8202065,-0.1451799,15z/data=!4m6!3m5!1s0x487585212d72c79f:0x37250f773dad7525!8m2!3d50.8202065!4d-0.1451799!16s%2Fg%2F11cly8cfm9" title="Shelter Hall, Brighton, in Google Maps" style="background: url(/images/maps/shelter-hall-brighton.png) center center; background-size: cover;"><span class="screen-reader-text">Map</span></a>
 
 {% else %}
 <span class="soon bold">The venue for this event will be announced soon.</span>

@@ -25,14 +25,14 @@
 
       function Constructor (elem, id) {
         const buttons = Array.from(document.querySelectorAll(elem))
-        console.log('🚀 ~ Constructor ~ buttons', buttons)
+        // console.log('🚀 ~ Constructor ~ buttons', buttons)
 
         buttons.forEach(button => {
           button.addEventListener('click', event => {
-            console.log('🚀 ~ Constructor ~ event:', event)
+            // console.log('🚀 ~ Constructor ~ event:', event)
 
             window.lintrk('track', { conversion_id: id })
-            console.log('🚀 ~ Constructor ~ id:', id)
+            // console.log('🚀 ~ Constructor ~ id:', id)
           })
         })
       }
