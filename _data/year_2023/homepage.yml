@@ -207,6 +207,8 @@ sponsors:
             profile-url: https://twitter.com/brightec
           - link-type: facebook
             profile-url: https://www.facebook.com/BrightecApps/
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/brightec/?originalSubdomain=uk
       - logo: /images/jsbin-1-.svg
         name: JS Bin
         summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
