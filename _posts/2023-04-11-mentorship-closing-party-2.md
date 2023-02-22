@@ -11,6 +11,8 @@ ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/1980935/chk/c033/?modal_widget=true&widget=true
   price: Free
+upcoming-teaser:
+  bg-image: /images/30387033433_044e294dc1_o.jpg
 conference: false
 upcoming: true
 published: true
