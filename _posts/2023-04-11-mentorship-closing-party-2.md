@@ -36,7 +36,7 @@ Shelter Hall, Skylark Bar, BN1 1NB
 
 Kate mentors Carl Smith. She will be talking about her experience of mentoring.
 
-### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead 
+### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead
 
 Carl is being mentored by Kate Grant. He will be speaking about his experience and achievements from being a mentee.
 
@@ -52,6 +52,6 @@ Scarlet is being mentored by Sharon Webster. She will be talking about her exper
 
 Thank you [cxpartners](https://www.cxpartners.co.uk/) for sponsoring UX Brighton’s first mentorship programme.
 
-![cxpartners logo](https://uxbri.org/images/cxpartners_logo_blue-black-1-.png)
+<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-left"/>
 
 We’d also like to thank [Silicon Brighton](https://siliconbrighton.com/), the community-led initiative supporting digital growth in the South East.
