@@ -1,7 +1,9 @@
 ---
 layout: event-page
 title: Mentorship Closing Party
+description: "Celebration for UX Brighton's very first mentees and mentors. "
 social-image: /images/30387033433_044e294dc1_o.jpg
+permalink: mentorship-closing-party
 event-date: 2023-04-11
 start: 7pm
 venue: TBA
