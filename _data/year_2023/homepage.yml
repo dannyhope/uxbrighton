@@ -216,6 +216,23 @@ sponsors:
         links:
           - link-type: website
             profile-url: jsbin.com
+      - name: zeroheight
+        logo: /images/property-1-default.svg
+        url: https://hubs.li/Q01CYBy40
+        summary: zeroheight is a design system documentation platform that helps teams
+          come together and document their design components, coded components,
+          styles and product-related patterns. It syncs with your design and dev
+          tools to ensure your content is always up-to-date and allows you to
+          have a single source of truth.
+        links:
+          - link-type: twitter
+            profile-url: https://twitter.com/zeroheight
+          - link-type: facebook
+            profile-url: https://www.facebook.com/zeroheight
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/zero-height/
+          - link-type: website
+            profile-url: https://hubs.li/Q01CYBy40
     show-opportunity: true
 workshop:
   visibility: false
