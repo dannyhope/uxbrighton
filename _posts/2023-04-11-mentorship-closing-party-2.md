@@ -6,7 +6,7 @@ social-image: /images/30387033433_044e294dc1_o.jpg
 permalink: mentorship-closing-party
 event-date: 2023-04-11
 start: 7pm
-venue: TBA
+venue: Shelter Hall
 ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/1980935/chk/c033/?modal_widget=true&widget=true
