@@ -113,8 +113,8 @@
 
     <!-- "Headline" sponsor.... -->
     {% if homepage.sponsors.sponsors-headline.visibility == true %}
-      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-headline.section-title }}</h3>
-      <div class="row mv0 eh-row drop pa2 sponsor-headline ">
+      <h3 class="visually-hidden">Headline Sponsor</h3>
+      <div class="row mt5 eh-row drop pa2 sponsor-headline">
 
         <div class="u1of2-over-m sponsor-headline__image-box">
           <a href="{{ homepage.sponsors.sponsors-headline.sponsor-details.url }}">
@@ -156,8 +156,8 @@
 
     <!-- "Premium" sponsors.... -->
     {% if homepage.sponsors.sponsors-premium.visibility == true %}
-      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-premium.section-title }}</h3>
-      <div class="row mv0 eh-row">
+      <h3 class="visually-hidden">Premium Sponsors</h3>
+      <div class="row mv5 eh-row">
 
         {% for sponsor in homepage.sponsors.sponsors-premium.sponsor-list %}
           <div class="u1of2-over-s pr1 left eh-item">
@@ -211,8 +211,8 @@
 
     <!-- "Standard" sponsors.... -->
     {% if homepage.sponsors.sponsors-standard.visibility == true %}
-      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-standard.section-title }}</h3>
-      <div class="row mt0 eh-row" style="font-size:15px;">
+      <h3 class="visually-hidden">Standard Sponsors</h3>
+      <div class="row mt5 eh-row" style="font-size:15px;">
 
         {% for sponsor in homepage.sponsors.sponsors-standard.sponsor-list %}
           <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">

@@ -1064,7 +1064,6 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
-                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor details"
                     name: "sponsor-details"
                     summary: "Sponsor details"
@@ -1099,7 +1098,6 @@ collections:
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
-                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
@@ -1134,7 +1132,6 @@ collections:
                 fields:
                   - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
-                  - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
@@ -1649,7 +1646,6 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
-                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor details"
                     name: "sponsor-details"
                     summary: "Sponsor details"
@@ -1684,7 +1680,6 @@ collections:
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
-                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
@@ -1719,7 +1714,6 @@ collections:
                 fields:
                   - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
-                  - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
