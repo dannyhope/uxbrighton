@@ -22,7 +22,7 @@ We're delighted to celebrate the end of UX Brighton's first [Mentorship Program
 
 Over the past 9 months, we've seen tremendous growth and development among our mentorship pairs. We're proud to have played a role in facilitating these meaningful connections and learning experiences.
 
-Join us, at Shelter Hall's **Skylark Bar**, to raise a glass to our very first mentees and mentors. Whether you're a mentee, mentor, or considering joining our next mentorship programme 🥂
+Join us in raising a glass to our very first mentees and mentors. Whether you're a mentee, mentor, or considering joining our next mentorship programme 🥂 
 
 ## Agenda
 
