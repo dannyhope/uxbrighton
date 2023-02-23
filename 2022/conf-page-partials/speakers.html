@@ -131,6 +131,10 @@
                         <a href="{{ entry.profile-url }}" class="talk__speaker-link color-grey-40" title="Visit speaker's Twitter.">
                           <svg class="icon-twitter--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-twitter"></use></svg>
                         </a>
+                      {% elsif entry.profile-type == "instagram" %}
+                        <a href="{{ entry.profile-url }}" class="talk__speaker-link color-grey-40" title="Visit speaker's Instagram.">
+                          <svg class="icon-instagram--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-instagram"></use></svg>
+                        </a>
                       {% endif %}
                     {% endfor %}
                   </nav>
