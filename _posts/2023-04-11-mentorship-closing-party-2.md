@@ -6,7 +6,7 @@ social-image: /images/30387033433_044e294dc1_o.jpg
 permalink: mentorship-closing-party
 event-date: 2023-04-11
 start: 7pm
-venue: TBA
+venue: Shelter Hall
 ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/1980935/chk/c033/?modal_widget=true&widget=true
@@ -22,11 +22,7 @@ We're delighted to celebrate the end of UX Brighton's first [Mentorship Program
 
 Over the past 9 months, we've seen tremendous growth and development among our mentorship pairs. We're proud to have played a role in facilitating these meaningful connections and learning experiences.
 
-Join us to raise a glass to our very first mentees and mentors. Whether you're a mentee, mentor, or considering joining our next mentorship programme 🥂
-
-## Location
-
-Shelter Hall, Skylark Bar, BN1 1NB
+Join us, at Shelter Hall's **Skylark Bar**, to raise a glass to our very first mentees and mentors. Whether you're a mentee, mentor, or considering joining our next mentorship programme 🥂
 
 ## Agenda
 
