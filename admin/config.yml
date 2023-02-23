@@ -377,8 +377,9 @@ collections:
                                 multiple: false
                                 options:
                                   - {label: "Personal website", value: "website"}
-                                  - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
+                                  - {label: "Twitter", value: "twitter"}
+                                  - {label: "Instagram", value: "instagram"}
                               - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
@@ -964,8 +965,9 @@ collections:
                                 multiple: false
                                 options:
                                   - {label: "Personal website", value: "website"}
-                                  - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
+                                  - {label: "Twitter", value: "twitter"}
+                                  - {label: "Instagram", value: "instagram"}
                               - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
@@ -1546,8 +1548,9 @@ collections:
                                 multiple: false
                                 options:
                                   - {label: "Personal website", value: "website"}
-                                  - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
+                                  - {label: "Twitter", value: "twitter"}
+                                  - {label: "Instagram", value: "instagram"}
                               - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
