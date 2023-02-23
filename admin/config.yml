@@ -377,8 +377,9 @@ collections:
                                 multiple: false
                                 options:
                                   - {label: "Personal website", value: "website"}
-                                  - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
+                                  - {label: "Twitter", value: "twitter"}
+                                  - {label: "Instagram", value: "instagram"}
                               - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
@@ -503,6 +504,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Premium)"
                 name: "sponsors-premium"
@@ -538,6 +540,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Standard)"
                 name: "sponsors-standard"
@@ -573,6 +576,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
           - label: "Workshop" # Workshop information
             name: "workshop"
@@ -964,8 +968,9 @@ collections:
                                 multiple: false
                                 options:
                                   - {label: "Personal website", value: "website"}
-                                  - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
+                                  - {label: "Twitter", value: "twitter"}
+                                  - {label: "Instagram", value: "instagram"}
                               - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
@@ -1089,6 +1094,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Premium)"
                 name: "sponsors-premium"
@@ -1123,6 +1129,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Standard)"
                 name: "sponsors-standard"
@@ -1157,6 +1164,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
           - label: "Workshop" # Workshop information
             name: "workshop"
@@ -1546,8 +1554,9 @@ collections:
                                 multiple: false
                                 options:
                                   - {label: "Personal website", value: "website"}
-                                  - {label: "Twitter", value: "twitter"}
                                   - {label: "LinkedIn", value: "linkedin"}
+                                  - {label: "Twitter", value: "twitter"}
+                                  - {label: "Instagram", value: "instagram"}
                               - {label: "Social profile link / URL", name: "profile-url", hint: "Full URL pointing to the relevant website / social profile.", widget: "string", required: false}
               - label: "Registration"
                 name: "registration"
@@ -1671,6 +1680,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Premium)"
                 name: "sponsors-premium"
@@ -1705,6 +1715,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
               - label: "Sponsors (Standard)"
                 name: "sponsors-standard"
@@ -1739,6 +1750,7 @@ collections:
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
+                              - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
           - label: "Workshop" # Workshop information
             name: "workshop"

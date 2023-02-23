@@ -149,6 +149,10 @@
                   <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Facebook.">
                     <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
                   </a>
+                {% elsif entry.link-type == "instagram" %}
+                  <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Instagram.">
+                    <svg class="icon-instagram--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-instagram"></use></svg>
+                  </a>
                 {% endif %}
               {% endfor %}
             </div>
@@ -193,6 +197,10 @@
                   {% elsif entry.link-type == "facebook" %}
                     <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Facebook.">
                       <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "instagram" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Instagram.">
+                      <svg class="icon-instagram--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-instagram"></use></svg>
                     </a>
                   {% endif %}
                 {% endfor %}
@@ -248,6 +256,10 @@
                   {% elsif entry.link-type == "facebook" %}
                     <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Facebook.">
                       <svg class="icon-facebook--small"><use xlink:href="/2018/images/icons/social-sprite.svg#facebook"></use></svg>
+                    </a>
+                  {% elsif entry.link-type == "instagram" %}
+                    <a href="{{ entry.profile-url }}" class="sponsor__link color-grey-30" title="Visit sponsor's Instagram.">
+                      <svg class="icon-instagram--small"><use xlink:href="/2018/images/icons/social-sprite.svg#icon-instagram"></use></svg>
                     </a>
                   {% endif %}
                 {% endfor %}
