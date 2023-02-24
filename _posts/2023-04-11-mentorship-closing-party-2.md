@@ -46,7 +46,7 @@ Sharon is Scarlet Cummin's mentor. She will be sharing her experience of mentori
 
 ### Making connections whilst working remotely  **–**  [Scarlet Cummins](https://www.linkedin.com/in/scarletcummins/), Freelance Designer
 
-<img src="/images/bw.png" alt="Head shot of Scarlet Cummins " class="image-align-inline"/>
+<img src="/images/bw.png" alt="Head shot of Scarlet Cummins " class="image-align-left"/>
 
 Scarlet will talk about what it's like to have the guidance and support of a mentor. Her career is a combination of remote, self-employment. Scarlet will share the challenges of navigating this combination. And, how creating a support system through the mentorship programme has helped her. 
 
