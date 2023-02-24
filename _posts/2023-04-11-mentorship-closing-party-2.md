@@ -44,9 +44,11 @@ Carl is being mentored by Kate Grant. He will be speaking about his experience a
 
 Sharon is Scarlet Cummin's mentor. She will be sharing her experience of mentoring.
 
-### [Scarlet Cummins](https://www.linkedin.com/in/scarletcummins/), Freelance Designer
+### Making connections whilst working remotely  **–**  [Scarlet Cummins](https://www.linkedin.com/in/scarletcummins/), Freelance Designer
 
-Scarlet is being mentored by Sharon Webster. She will be talking about her experience of being a mentee.
+<img src="/images/bw.png" alt="Head shot of Scarlet Cummins " class="image-align-right"/>
+
+Scarlet will talk about what it's like to have the guidance and support of a mentor. Her career is a combination of remote, self-employment. Scarlet will share the challenges of navigating this combination. And, how creating a support system through the mentorship programme has helped her. 
 
 ## Support
 
