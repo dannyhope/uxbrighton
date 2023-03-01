@@ -30,7 +30,7 @@ Join us in raising a glass to our very first mentees and mentors. Whether you're
 * Micro talks
 * Social
 
----
+- - -
 
 ## Micro talks
 
@@ -48,11 +48,9 @@ Sharon is Scarlet Cummin's mentor. She will be sharing her experience of mentori
 
 ### Making connections whilst working remotely  **–**  [Scarlet Cummins](https://www.linkedin.com/in/scarletcummins/), Freelance Designer
 
-<img src="/images/scarlet_mentorship.jpg" alt="Scarlet Cummins, a freelance designer." class="image-align-left"/>
+<img src="/images/scarlet_mentorship.jpg" alt="Scarlet Cummins, a freelance designer." class="image-align-inline-25w"/>
 
 Scarlet will talk about what it's like to have the guidance and support of a mentor. Her career is a combination of remote, self-employment. Scarlet will share the challenges of navigating this combination. And, how creating a support system through the mentorship programme has helped her.
-
----
 
 ## Support
 
