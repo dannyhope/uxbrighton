@@ -42,13 +42,15 @@ Kate mentors Carl Smith. She will be talking about her experience of mentoring.
 
 Carl is being mentored by Kate Grant. He will be speaking about his experience and achievements from being a mentee.
 
-### [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
+### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
 
-Sharon is Scarlet Cummin's mentor. She will be sharing her experience of mentoring.
+<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-right"/>
+
+Sharon will debunk some common myths about what you need, to be a mentor. She'll draw on her experiences mentoring to talk about how she's found it, and what she's gained by being a mentor. 
 
 ### Making connections whilst working remotely  **–**  [Scarlet Cummins](https://www.linkedin.com/in/scarletcummins/), Freelance Designer
 
-<img src="/images/scarlet_mentorship.jpg" alt="Scarlet Cummins, a freelance designer." class="image-align-inline-50w"/>
+<img src="/images/scarlet_mentorship.jpg" alt="Scarlet Cummins, a freelance designer." class="image-align-inline-25w"/>
 
 Scarlet will talk about what it's like to have the guidance and support of a mentor. Her career is a combination of remote, self-employment. Scarlet will share the challenges of navigating this combination. And, how creating a support system through the mentorship programme has helped her.
 
