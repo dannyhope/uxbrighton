@@ -30,8 +30,6 @@ Join us in raising a glass to our very first mentees and mentors. Whether you're
 * Micro talks
 * Social
 
-- - -
-
 ## Micro talks
 
 ### [Kate Grant,](https://www.linkedin.com/in/katiegrant/) Senior UX and Content Consultant, cxpartners 
