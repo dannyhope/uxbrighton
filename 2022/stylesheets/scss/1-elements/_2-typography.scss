@@ -24,18 +24,21 @@
       letter-spacing: $track-tight;
       line-height: $leading-tight;
       margin-bottom: 0.5em;
+      clear: both; // Added in case there's a preceding content image or element that has been floated left or right
     }
     h3, .fs-h3 {
       font-size: $size-h3;
       line-height: $leading-tight;
       margin-top: 1.5em;
       margin-bottom: 0.5em;
+      clear: both; // Added in case there's a preceding content image or element that has been floated left or right
     }
     h4, .fs-h4 {
       font-size: $size-h4;
       line-height: $leading-tight;
       margin-top: 1.5em;
       margin-bottom: 0.5em;
+      clear: both; // Added in case there's a preceding content image or element that has been floated left or right
     }
     h5, .fs-h5 {
       font-size: $size-h5;
@@ -133,6 +136,7 @@
       border-bottom: 1px solid $color-ui-border;
       margin-top: 0;
       margin-bottom: 0;
+      clear: both; // Added in case there's a preceding content image or element that has been floated left or right
     }
 
 
