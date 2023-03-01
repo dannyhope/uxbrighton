@@ -44,7 +44,7 @@ Carl is being mentored by Kate Grant. He will be speaking about his experience a
 
 ### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
 
-<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-right"/>
+<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-inline-25w"/>
 
 Sharon will debunk some common myths about what you need, to be a mentor. She'll draw on her experiences mentoring to talk about how she's found it, and what she's gained by being a mentor. 
 
