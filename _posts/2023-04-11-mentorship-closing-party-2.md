@@ -32,13 +32,17 @@ Join us in raising a glass to our very first mentees and mentors. Whether you're
 
 ## Micro talks
 
-### [Kate Grant,](https://www.linkedin.com/in/katiegrant/) Senior UX and Content Consultant, cxpartners 
+### **Carl and Kate’s Story –** 
 
-Kate mentors Carl Smith. She will be talking about her experience of mentoring.
+Mentoring can be strangely serendipitous! Carl & Kate will talk about how they met at a pivotal point and how mentoring takes its own path.
 
 ### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead
 
-Carl is being mentored by Kate Grant. He will be speaking about his experience and achievements from being a mentee.
+<img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-inline-25w"/>
+
+### [Kate Grant,](https://www.linkedin.com/in/katiegrant/) Senior UX and Content Consultant, cxpartners
+
+<img src="/images/kate-grant.jpeg" alt="Head shot of kate Grant" class="image-align-inline-25w"/>
 
 ### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
 
