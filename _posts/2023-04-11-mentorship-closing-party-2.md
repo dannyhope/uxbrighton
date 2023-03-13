@@ -32,13 +32,26 @@ Join us in raising a glass to our very first mentees and mentors. Whether you're
 
 ## Micro talks
 
-### **Carl and Kate’s Story –** 
+### **Carl and Kate’s Story –**
 
 Mentoring can be strangely serendipitous! Carl & Kate will talk about how they met at a pivotal point and how mentoring takes its own path.
 
 ### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead
 
-<img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-inline-25w"/>
+Carl Smith is a Digital Project Manager and Agile practitioner. Carl has worked as a Graphic Designer, Tech support, Quality assurance, Business development, Product owner and Scrum master.\
+He has worked almost exclusively for Fujifilm over last 20 years and produced globally recognisable products for likes of Fujifilm, Canon and Xerox and even won an IF design award for his collaboration with Canon on the Labelstream 4000 printing press. His experience has led to consultancy in digital printing across the world including USA, Europe, Asia and south America.\
+\
+COVID 19 became a pivotal point for Carl when redundancies forced a career rethink forcing the transfer of skills from server and IoT based Software to Web. An opportunity with Ricardo Energy & Environment to leading 25 person dev team on Agile transformation from Prince II to Agile. Resulting in 3 Agile teams, UX and DevOps team.  Whilst at Ricardo and discovering that UX tied together many previous skills over the previous 25 years Design & Systems thinking, Business Analysis, Data Analysis, Ethics, sustainability and Agile.\
+\
+In 2022 Carl took a leap of faith moving with family from Oxford to Brighton to undergo a lifestyle Change. This move supported by his successful Airbnb business in Hove.\
+\
+Carl became aware of UX Brighton and Silicon Brighton to conduct research and gain focus of on business requirements of many Brighton based agencies who have strong UX focus, where he took up the Mentee scheme.
+
+ 
+
+Carl recently gained a new position as Senior technical project manager at Agency Rittman Mead based in Central Brighton.
+
+<img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-right"/>
 
 ### [Kate Grant,](https://www.linkedin.com/in/katiegrant/) Senior UX and Content Consultant, cxpartners
 
