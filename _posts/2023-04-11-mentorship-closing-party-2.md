@@ -38,6 +38,8 @@ Mentoring can be strangely serendipitous! Carl & Kate will talk about how they
 
 ### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead
 
+<img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-right"/>
+
 Carl Smith is a Digital Project Manager and Agile practitioner. Carl has worked as a Graphic Designer, Tech support, Quality assurance, Business development, Product owner and Scrum master.\
 He has worked almost exclusively for Fujifilm over last 20 years and produced globally recognisable products for likes of Fujifilm, Canon and Xerox and even won an IF design award for his collaboration with Canon on the Labelstream 4000 printing press. His experience has led to consultancy in digital printing across the world including USA, Europe, Asia and south America.\
 \
@@ -49,17 +51,15 @@ Carl became aware of UX Brighton and Silicon Brighton to conduct research and ga
 
 Carl recently gained a new position as Senior technical project manager at Agency Rittman Mead based in Central Brighton.
 
-<img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-right"/>
-
 ### [Kate Grant,](https://www.linkedin.com/in/katiegrant/) Senior UX and Content Consultant, cxpartners
+
+<img src="/images/kate-grant.jpeg" alt="Head shot of kate Grant" class="image-align-right"/>
 
 Kate Grant, creative content design consultant has 20 years of experience. In content design and editorial management. Kate held senior roles at the Disability Rights, Equalities and Human Rights Commission. They have extensive experience of writing, designing and producing accessible and inclusive information. Across a range of formats and channels. Specialising in converting information for people with different lived experiences, including disabled and neurodiverse audiences. Kate has discovered that adapting their skills into a UX environment as both strategic content designer and UX researcher is an ideal pairing.
 Relevant experience
 NHS - designing an inclusive form-based mental health care and choices document
 Women’s Aid - developing chat scripts for women who experience domestic abuse
 PHE Talk to Frank - content design for new website including key content around harm reduction and drug information for young people in line with the new government drug strategy.
-
-<img src="/images/kate-grant.jpeg" alt="Head shot of kate Grant" class="image-align-right"/>
 
 ### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
 
