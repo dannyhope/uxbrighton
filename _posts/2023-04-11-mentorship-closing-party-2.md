@@ -80,3 +80,5 @@ Thank you [cxpartners](https://www.cxpartners.co.uk/) for sponsoring UX Bright
 <img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-inline-25w"/>
 
 We’d also like to thank [Silicon Brighton](https://siliconbrighton.com/), the community-led initiative supporting digital growth in the South East.
+
+<img src="/images/siliconbrighton-logo.png" alt="Silicon Brighton logo" class="image-align-inline-25w"/>
