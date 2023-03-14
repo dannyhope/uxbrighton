@@ -63,7 +63,9 @@ PHE Talk to Frank - content design for new website including key content around 
 
 ### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
 
-<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-inline-25w"/>
+<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-right"/>
+
+Sharon Webster is a Senior UX Consultant at cxpartners, where she enjoys the breadth of projects. She particularly loves getting to grips with problems through research. Sharon also has a thing for sorting out content mess, and finds a great information architecture very satisfying. Her first taste of working with UX came when a colleague asked her to take notes during a rather simplistic usability study. Since then she's developed her research skills, with accessibility and inclusivity at the forefront to make things better for more people. 
 
 Sharon will debunk some common myths about what you need, to be a mentor. She'll draw on her experiences mentoring to talk about how she's found it, and what she's gained by being a mentor. 
 
