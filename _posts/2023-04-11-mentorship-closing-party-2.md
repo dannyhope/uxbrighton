@@ -56,6 +56,7 @@ Carl recently gained a new position as Senior technical project manager at Agenc
 <img src="/images/kate-grant.jpeg" alt="Head shot of kate Grant" class="image-align-right"/>
 
 Kate Grant, creative content design consultant has 20 years of experience. In content design and editorial management. Kate held senior roles at the Disability Rights, Equalities and Human Rights Commission. They have extensive experience of writing, designing and producing accessible and inclusive information. Across a range of formats and channels. Specialising in converting information for people with different lived experiences, including disabled and neurodiverse audiences. Kate has discovered that adapting their skills into a UX environment as both strategic content designer and UX researcher is an ideal pairing.
+
 Relevant experience
 NHS - designing an inclusive form-based mental health care and choices document
 Women’s Aid - developing chat scripts for women who experience domestic abuse
