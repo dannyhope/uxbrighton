@@ -74,6 +74,8 @@ Sharon will debunk some common myths about what you need, to be a mentor. She'l
 
 <img src="/images/scarlet_mentorship.jpg" alt="Scarlet Cummins, a freelance designer." class="image-align-inline-25w"/>
 
+Scarlet, is a freelance digital designer based in Brighton. Throughout her career, she has brought creative solutions to UI design teams. Scarlet has a background in graphic design. She has worked with in-house teams and agencies. Her clients include charities, heritage and the arts through to e-commerce and applications. She's passionate about work that creates a positive social impact, and those where the end user is considered throughout. 
+
 Scarlet will talk about what it's like to have the guidance and support of a mentor. Her career is a combination of remote, self-employment. Scarlet will share the challenges of navigating this combination. And, how creating a support system through the mentorship programme has helped her.
 
 ## Support
