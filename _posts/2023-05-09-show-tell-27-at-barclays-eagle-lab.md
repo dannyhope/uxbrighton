@@ -12,7 +12,7 @@ ticket:
 upcoming-teaser:
   bg-image: /images/49047779292_ef7aac44d6_o.jpg
 conference: false
-upcoming: false
+upcoming: true
 published: true
 seo: true
 ---
