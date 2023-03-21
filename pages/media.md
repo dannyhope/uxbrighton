@@ -1,11 +1,10 @@
 ---
 layout: generic
 title: Media
+description: Videos and slides from past UX Brighton events
 permalink: media
 seo: true
 ---
-# V﻿ideos 
+## [Videos (YouTube)](<# https://www.youtube.com/@uxbri/videos>) - [Playlists](https://www.youtube.com/@uxbri/playlists)
 
-# [videos](<# https://www.youtube.com/@uxbri/videos>)﻿ [playlists](https://www.youtube.com/@uxbri/playlists)
-
-[](https://www.youtube.com/@uxbri/playlists)SlideShare
+## [Slide decks (Slideshare)](https://www.slideshare.net/uxbri/presentations)
