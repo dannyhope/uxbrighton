@@ -49,7 +49,7 @@
             <div class="flex-over-m upcoming-teaser__wrapper">
               {% assign varnum = 1 %}
               {% if has_upcoming %}
-                {% for post in site.posts reversed limit:2 %}
+                {% for post in site.posts reversed limit:3 %}
                   {% if post.upcoming == true && if post.published == true %}
                       {% if post.slug == page.slug %}
                       {% else %}
