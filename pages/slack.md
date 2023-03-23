@@ -4,6 +4,8 @@ title: Slack
 subtitle: A friendly and useful place for Brighton’s UX community to chat
 description: Join the UX Brighton Slack group
 permalink: slack
+redirect_from:
+  - sl
 seo: true
 ---
 ## Join the UX Brighton Slack
