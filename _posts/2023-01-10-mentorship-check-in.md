@@ -27,7 +27,7 @@ This January UX Brighton's mentors and mentees are meeting to reflect on the [me
 * F﻿acilitated group session
 * P﻿ub
 
-## Talk: Making the Most of Mentoring **–** Luke Hay
+## Talk: Making the most of Mentoring **–** Luke Hay
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/9oU8bej0MAU" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
