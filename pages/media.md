@@ -10,7 +10,7 @@ seo: true
 * ### Making the most of Mentoring – Luke Hay
 
   * **Video** for Making the most of Mentoring
-  * **Slides** for Making the most of Mentoring
+  * [**Slides** for Making the most of Mentoring](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)
 
 ## Media from all events
 
