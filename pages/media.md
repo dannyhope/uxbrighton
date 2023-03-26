@@ -5,6 +5,14 @@ description: Videos and slides from past UX Brighton events
 permalink: media
 seo: true
 ---
-## [Videos (YouTube)](<# https://www.youtube.com/@uxbri/videos>)
+## [Mentorship Check-in](https://uxbri.org/mentorship-check-in)
 
-## [Slide decks (Slideshare)](https://www.slideshare.net/uxbri/presentations)
+* ### Making the most of Mentoring – Luke Hay
+
+  * **Video** for Making the most of Mentoring
+  * **Slides** for Making the most of Mentoring
+
+## Media from all events
+
+* [Videos (YouTube)](https://www.youtube.com/@uxbri/videos)
+* [Slide decks (Slideshare)](https://www.slideshare.net/uxbri/presentations)
