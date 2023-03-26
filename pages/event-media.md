@@ -1,15 +1,13 @@
 ---
 layout: generic
-title: A
+title: "[x]"
 pretitle: ""
 subtitle: Event media from every past event going all the way back to about a week ago
 description: Event media from every past event going all the way back to about a week ago
 image: ""
 social-image: ""
-permalink: media
-redirect_from:
-  - slides
-  - video
+permalink: ""
+redirect_from: []
 seo: false
 ---
 [All our recently uploaded videos (YouTube)](https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw/videos).
