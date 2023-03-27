@@ -13,9 +13,9 @@
   "author": "UX Brighton",
   "license": "ISC",
   "scripts": {
-    "start": "npx bundle exec jekyll build",
-    "dev": "npx bundle exec jekyll serve",
-    "build": "npx bundle exec jekyll build",
+    "start": "bundle exec jekyll build",
+    "dev": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build",
     "build-styles-2022-dev": "cd dev-scripts/2022 && bash generate_css.sh",
     "build-styles-2022-prod": "cd dev-scripts/2022 && bash generate_css_compressed.sh",
     "build-styles-2023-dev": "cd dev-scripts/2023 && bash generate_css.sh",
