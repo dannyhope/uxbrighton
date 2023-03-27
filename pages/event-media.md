@@ -6,7 +6,6 @@ subtitle: Event media from every past event going all the way back to about a we
 description: Event media from every past event going all the way back to about a week ago
 image: ""
 social-image: ""
-permalink: ""
 redirect_from: []
 seo: false
 ---

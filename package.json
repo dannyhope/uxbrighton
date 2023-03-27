@@ -1,0 +1,32 @@
+{
+  "name": "uxbrighton",
+  "version": "1.0.0",
+  "description": "Codebase for the UX Brighton website.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyhope/uxbrighton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dannyhope/uxbrighton/issues"
+  },
+  "homepage": "https://github.com/dannyhope/uxbrighton#readme",
+  "author": "UX Brighton",
+  "license": "ISC",
+  "scripts": {
+    "start": "npx bundle exec jekyll build",
+    "dev": "npx bundle exec jekyll serve",
+    "build": "npx bundle exec jekyll build",
+    "build-styles-2022-dev": "cd dev-scripts/2022 && bash generate_css.sh",
+    "build-styles-2022-prod": "cd dev-scripts/2022 && bash generate_css_compressed.sh",
+    "build-styles-2023-dev": "cd dev-scripts/2023 && bash generate_css.sh",
+    "build-styles-2023-prod": "cd dev-scripts/2023 && bash generate_css_compressed.sh",
+    "cms-local": "npx netlify-cms-proxy-server"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "rimraf": "^4.4.1"
+  }
+}
