@@ -10,7 +10,7 @@ seo: true
 ---
 ## Join the UX Brighton Slack
 
-Add your email address here <https://uxbri.org/slack>
+Add your email address here <https://slofile.com/slack/uxbri>
 
 ## Use Slack to
 
