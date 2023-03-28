@@ -14,6 +14,20 @@ There's still a fair bit of work to do on the stylesheets. Particularly their co
 
 ---
 
+## Building the stylesheets
+
+The outputs of these build scripts are the `styles.css` and `styles.css.map` files in the `stylesheets/css` directory.
+
+```bash
+# Output an unminified / uncompressed version of the stylesheet
+npm run build:styles-dev
+
+# Output a minified / compressed version of the stylesheet (for production)
+npm run build:styles-prod
+```
+
+---
+
 ## Stylesheets structure
 
 ```bash
