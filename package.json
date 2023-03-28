@@ -16,10 +16,8 @@
     "start": "bundle exec jekyll build",
     "dev": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
-    "build-styles-2022-dev": "cd dev-scripts/2022 && bash generate_css.sh",
-    "build-styles-2022-prod": "cd dev-scripts/2022 && bash generate_css_compressed.sh",
-    "build-styles-2023-dev": "cd dev-scripts/2023 && bash generate_css.sh",
-    "build-styles-2023-prod": "cd dev-scripts/2023 && bash generate_css_compressed.sh",
+    "build-styles-dev": "cd dev-scripts && bash generate_css.sh",
+    "build-styles-prod": "cd dev-scripts && bash generate_css_compressed.sh",
     "cms-local": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
