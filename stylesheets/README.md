@@ -2,10 +2,17 @@
 
 This directory contains the stylesheets used by the site.
 
+There's still a fair bit of work to do on the stylesheets. Particularly their consolidation & optimisation - but a global structure is now in place and the sites - (*from year `/2022` onwards*) - are using these styles.
+
+---
+
+## Some important notes
+
 * **IMPORTANT:** `styles-to-be-rationalised.css` &mdash; in the `/css` directory &mdash; is a collection of styles that need to be rationalised and moved into the appropriate component files.
   > Please ***DO NOT*** remove this file until all styles have been moved into the appropriate component files.
-* There's still a fair bit of work to do on the stylesheets and their configuration, but a global structure is now in place and the sites - (from year 2022) - are using these styles.
 * Need to find a solution for file name cachebusting to ensure that the latest styles are always used.
+
+---
 
 ## Stylesheets structure
 
@@ -52,7 +59,7 @@ uxbri.org
 │   │   ├── 5-helpers                                  # Helpers
 │   │   │   ├── _alignment.scss
 │   │   │   ├── _colours.scss
-│   │   │   ├── decorative.scss
+│   │   │   ├── _decorative.scss
 │   │   │   ├── _display.scss
 │   │   │   ├── _grids.scss
 │   │   │   ├── _hidden-at-breakpoints.scss
