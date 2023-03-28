@@ -1,1 +1,1 @@
-sass --style=compressed ../2022/stylesheets/scss/styles.scss ../2022/stylesheets/css/styles.css
+sass --style=compressed ../stylesheets/scss/styles.scss ../stylesheets/css/styles.css
