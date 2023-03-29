@@ -4,7 +4,7 @@ title: About new
 permalink: about2
 redirect_from:
   - a2
-seo: true
+seo: false
 ---
 UX Brighton is a community group disseminating knowledge about all aspects of user experience, founded in 2008.\
 \
