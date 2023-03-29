@@ -30,6 +30,8 @@ Luke
 
 ## [Curate an event](/curate)
 
+* [Curate a UX Brighton event – workings (Notion)](https://www.notion.so/uxbri/Running-your-own-UX-Brighton-evening-event-49bedcbd5aaa4d9cb055100482854d2b)
+
 Got an idea for a UX Brighton event you'd like to see?
 
 We'd love it if you wanted to curate an evening and put some speakers together! We have done this loads of times and can help you at every step.
