@@ -6,7 +6,7 @@ redirect_from:
   - a2
 seo: false
 ---
-UX Brighton is a community group disseminating knowledge about all aspects of user experience, founded in 2008.\
+ UX Brighton is a community group disseminating knowledge about all aspects of user experience, founded in 2008.\
 \
 Our evening events happen on the 2nd Tuesday of the month in central Brighton and we also run an annual conference, usually in November.
 
@@ -29,8 +29,6 @@ Luke
 2008 – Danny did a talk at [BarCamp Brighton 2](http://barcamp.org/w/page/400551/BarCampBrighton2). The idea of founding a group was discussed. Jenny made a page for the idea. The next day we had loads of signups. Our innagural event was on \_date\_.
 
 ## [Curate an event](/curate)
-
-* [Curate a UX Brighton event – workings (Notion)](https://www.notion.so/uxbri/Running-your-own-UX-Brighton-evening-event-49bedcbd5aaa4d9cb055100482854d2b)
 
 Got an idea for a UX Brighton event you'd like to see?
 
