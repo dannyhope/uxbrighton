@@ -6,7 +6,7 @@ redirect_from:
   - a2
 seo: false
 ---
-UX Brighton is a community group disseminating knowledge about all aspects of user experience, founded in 2008.\
+ UX Brighton is a community group disseminating knowledge about all aspects of user experience, founded in 2008.\
 \
 Our evening events happen on the 2nd Tuesday of the month in central Brighton and we also run an annual conference, usually in November.
 
