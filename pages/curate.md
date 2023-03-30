@@ -7,8 +7,6 @@ seo: false
 ---
 [Workings (Notion)](https://www.notion.so/uxbri/Running-your-own-UX-Brighton-evening-event-49bedcbd5aaa4d9cb055100482854d2b)
 
-
-
 [](https://docs.google.com/document/d/161nIOp7bCiKcNHDNqpXwrLozKcM9_J2xgkhS2ArPwF8/edit#heading=h.90plnot7fb0z)<https://docs.google.com/document/d/161nIOp7bCiKcNHDNqpXwrLozKcM9_J2xgkhS2ArPwF8/edit#heading=h.90plnot7fb0z>
 
 # Introduction
