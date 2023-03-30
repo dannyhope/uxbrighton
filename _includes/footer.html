@@ -12,15 +12,13 @@
 
     }
     .upcoming-teaser {
+      width: 100%;
       max-width: 635px;
       text-align: left;
     }
     .upcoming-teaser__text {
       flex: 1 0 auto;
       min-height: 13em;
-    }
-    .upcoming-teaser__button-wrapper {
-
     }
     [type="checkbox"] {
       margin: 5px 5px 0 0;
@@ -49,7 +47,7 @@
             <div class="flex-over-m upcoming-teaser__wrapper">
               {% assign varnum = 1 %}
               {% if has_upcoming %}
-                {% for post in site.posts reversed limit:3 %}
+                {% for post in site.posts reversed limit:4 %}
                   {% if post.upcoming == true && if post.published == true %}
                       {% if post.slug == page.slug %}
                       {% else %}
