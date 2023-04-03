@@ -1,1 +1,1 @@
-sass ../2022/stylesheets/scss/styles.scss ../2022/stylesheets/css/styles.css
+sass ../stylesheets/scss/styles.scss ../stylesheets/css/styles.css

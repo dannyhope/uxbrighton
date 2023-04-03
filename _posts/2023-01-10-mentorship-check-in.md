@@ -27,11 +27,13 @@ This January UX Brighton's mentors and mentees are meeting to reflect on the [me
 * F﻿acilitated group session
 * P﻿ub
 
-## Talk: Making the Most of Mentoring **–** Luke Hay
+## Talk: Making the most of Mentoring **–** Luke Hay
+
+<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/9oU8bej0MAU" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 [Slides for Making the Most of Mentoring (SlideShare)](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)[](https://www.slideshare.net/uxbri/jonty-sharples-arrogance-confidence-in-redux) 
 
-<img src="/images/luke-hay.png" alt="Luke Hay" class="image-align-right"/>
+<img src="" alt="Luke Hay" class="image-align-right"/>
 
 Luke Hay is a senior UX researcher at Clearleft, who’s worked with clients of all shapes and sizes over his 20 year career. Luke has facilitated various forms of user research with people from different backgrounds – from teenagers to pensioners, dress-makers to body builders over the course of a few hundred user research sessions.
 
@@ -57,6 +59,6 @@ Take part in the facilitated group session to give us feedback so we can make th
 
 Thank you [cxpartners](https://www.cxpartners.co.uk/) for sponsoring UX Brighton’s first mentorship programme.
 
-<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-left"/>
+<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-inline-50w"/>
 
 We'd also like to thank [Silicon Brighton](https://siliconbrighton.com/), the community-led initiative supporting digital growth in the South East.

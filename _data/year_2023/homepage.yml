@@ -161,6 +161,8 @@ sponsors:
           profile-url: https://www.facebook.com/jpmorgan
         - link-type: linkedin
           profile-url: https://www.linkedin.com/company/jpmorgan/
+        - link-type: instagram
+          profile-url: https://www.instagram.com/jpmorgan
   sponsors-premium:
     visibility: false
     section-title: Premium Sponsors

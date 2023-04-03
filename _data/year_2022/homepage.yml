@@ -266,6 +266,7 @@ speakers:
               profile-label: LinkedIn/kateflood16
         talk-media:
           talk-slides: kate-flood-speaking-the-same-language
+          talk-video: 3l8f_JD_fAM
       - talk-info:
           talk-time: 14:20 pm
           talk-title: Is UX Strategy even a thing?
@@ -294,6 +295,7 @@ speakers:
             customer-centred in their approach.
         talk-media:
           talk-slides: alison-rawlings-is-ux-strategy-even-a-thing
+          talk-video: pJa51b7qCkM
       - talk-info:
           talk-time: 14:55 pm
           talk-title: Trade-offs
@@ -416,6 +418,7 @@ speakers:
             singer-songwriter Elliott Smith.
         talk-media:
           talk-slides: matt-lemay-you-dont-get-anyone-to-do-anything
+          talk-video: ue0WquKJtqo
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am

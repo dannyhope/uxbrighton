@@ -13,7 +13,6 @@ config.codekit3
 to-do.md
 node_modules
 yarn.lock
-package.json
 .vscode
 .sass-cache
 jobs/logos/unit9-logo.png

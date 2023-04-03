@@ -6,7 +6,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TTCR2PB');</script>
 <!-- End Google Tag Manager -->
 
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) ## NEW GA4 tag ## -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TSMSY0SC4H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'linker', {'domains': ['tickettailor.com']});
+  gtag('config', 'G-TSMSY0SC4H');
+</script>
+
+{%- comment %}
+<!-- Google tag (gtag.js) ## OLD tag ## -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7759112-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -14,6 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('js', new Date());
   gtag('config', 'UA-7759112-2');
 </script>
+{% endcomment %}
 
 <script>
   window['_fs_debug'] = false;

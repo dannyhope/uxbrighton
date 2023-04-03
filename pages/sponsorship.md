@@ -111,9 +111,9 @@ Our speakers are individually selected from industry and academia; we make a par
       <td>Mentioned as <strong>Standard sponsor</strong> on all marketing collateral</td>
     </tr>
     <tr class="tds-have-bullets">
-      <td>Several mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 700+, Linked In and Facebook)</td>
-      <td>Mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 700+, Linked In and Facebook)</td>
-      <td>A couple of mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 700+, Linked In and Facebook)</td>
+      <td>Several mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 1700+, LinkedIn 500+ and Facebook)</td>
+      <td>Mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 1700+, LinkedIn 500+ and Facebook)</td>
+      <td>A couple of mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 1700+, LinkedIn 500+ and Facebook)</td>
     </tr>
     <tr class="tds-have-bullets">
       <td>5 conference tickets with the option to buy more at a discounted price.</td>
@@ -148,7 +148,7 @@ Our speakers are individually selected from industry and academia; we make a par
         <td>Mentioned as <strong>Headline sponsor</strong> on all marketing collateral</td>
       </tr>
       <tr class="tds-have-bullets">
-        <td>Several mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 700+, Linked In and Facebook)</td>
+        <td>Several mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 1700+, LinkedIn 500+ and Facebook)</td>
       </tr>
       <tr class="tds-have-bullets">
         <td>5 conference tickets with the option to buy more at a discounted price.</td>
@@ -177,7 +177,7 @@ Our speakers are individually selected from industry and academia; we make a par
         <td>Mentioned as <strong>Premium sponsor</strong> on all marketing collateral</td>
       </tr>
       <tr class="tds-have-bullets">
-        <td>Mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 700+, Linked In and Facebook)</td>
+        <td>Mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 1700+, LinkedIn 500+ and Facebook)</td>
       </tr>
       <tr class="tds-have-bullets">
         <td>4 conference tickets with the option to buy more at a discounted price.</td>
@@ -203,7 +203,7 @@ Our speakers are individually selected from industry and academia; we make a par
         <td>Mentioned as <strong>Standard sponsor</strong> on all marketing collateral</td>
       </tr>
       <tr class="tds-have-bullets">
-        <td>A couple of mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 700+, Linked In and Facebook)</td>
+        <td>A couple of mentions on all our social media channels (Twitter: 5000+ followers, mailing list: 1800+, Slack: 1700+, LinkedIn 500+ and Facebook)</td>
       </tr>
       <tr class="tds-have-bullets">
         <td>3 conference tickets with the option to buy more at a discounted price.</td>

@@ -1,0 +1,21 @@
+# editorconfig.org
+
+# NOTE: Be sure to install the "EditorConfig" plugin is using VS Code
+# Of course this may be the same with other IDE's that don't have it already built in.
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.njk]
+indent_style = tab
+indent_size = 2

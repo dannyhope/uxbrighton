@@ -9,7 +9,7 @@ plugins:
   - pagemaster
 sass:
   style: compressed
-  sass_dir: ./2022/stylesheets/scss
+  sass_dir: ./stylesheets/scss
 collections:
   jobs:
     output: true

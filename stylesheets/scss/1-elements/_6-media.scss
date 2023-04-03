@@ -1,0 +1,47 @@
+  img, svg {
+    max-width: 100%;
+    height: auto;
+  }
+  .icons-currentColor svg {
+    fill: currentColor;
+  }
+
+  // Image alignment / layout rules
+  // ============================================
+  // @NOTE: Typically used on event / post pages
+  [class*="image-align"] {
+    display: block;
+    border-radius: 2px;
+    margin: 0 0 30px 0;
+  }
+
+  // Only when the viewport gets wide enough for an image to float next to other content...
+  @include over-m {
+    // If image is inline, a width is set as well
+    // Defaults to 100% width which is why a `image-align-inline-100w` class and rule isn't declared
+    .image-align-inline-25w {
+      max-width: 25%;
+    }
+
+    .image-align-inline-50w {
+      max-width: 50%;
+    }
+
+    .image-align-inline-75w {
+      max-width: 75%;
+    }
+
+    // Image float left
+    .image-align-left {
+      float: left;
+      margin-right: 30px;
+      max-width: 280px;
+    }
+
+    // Image float right
+    .image-align-right {
+      float: right;
+      margin-left: 30px;
+      max-width: 280px;
+    }
+  }
