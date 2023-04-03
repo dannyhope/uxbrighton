@@ -4,12 +4,15 @@ highlighter: rouge
 permalink: /:title/
 future: true
 exclude: [CNAME, 'node_modules']
+
 plugins:
   - jekyll-redirect-from
   - pagemaster
+
 sass:
   style: compressed
   sass_dir: ./stylesheets/scss
+
 collections:
   jobs:
     output: true
