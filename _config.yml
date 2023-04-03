@@ -13,6 +13,6 @@ sass:
 collections:
   jobs:
     output: true
-    source: jobs_test_json.json
+    source: jobs/jobs_test_json.json
     id_key: job-id
     layout: job

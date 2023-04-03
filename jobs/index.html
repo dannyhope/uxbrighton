@@ -216,7 +216,7 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
 
     <!-- IS paid advert... -->
     {% assign i = 0 %}
-    {% for job in site.data.jobs_test_json reversed %}
+    {% for job in site.data.jobs.jobs_test_json reversed %}
       {% if job.publish == 'TRUE' %}
 
         {% assign rank = job.rank | plus: 0 %}
@@ -358,7 +358,7 @@ header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
 
     <!-- NOT paid advert... -->
     {% assign i = 0 %}
-    {% for job in site.data.jobs_test_json reversed %}
+    {% for job in site.data.jobs.jobs_test_json reversed %}
       {% if job.publish == 'TRUE' %}
 
         {% assign rank = job.rank | plus: 0 %}

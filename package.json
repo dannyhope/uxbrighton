@@ -18,7 +18,8 @@
     "build": "bundle exec jekyll build",
     "build:styles-dev": "cd dev-scripts && bash generate_css.sh",
     "build:styles-prod": "cd dev-scripts && bash generate_css_compressed.sh",
-    "cms-local": "npx netlify-cms-proxy-server"
+    "cms-local": "npx netlify-cms-proxy-server",
+    "build:jobs-markdown": "bundle exec jekyll pagemaster jobs"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
