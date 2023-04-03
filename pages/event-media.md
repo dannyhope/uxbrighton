@@ -11,7 +11,7 @@ seo: false
 ---
 [All our recently uploaded videos (YouTube)](https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw/videos).
 
----
+- - -
 
 ## Making the Most of Mentoring – Luke Hay
 
@@ -19,6 +19,6 @@ seo: false
 
 [](https://uxbri.org/mentorship-check-in)[S﻿lides for Making the Most of Mentoring (SlideShare)](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)
 
-F﻿rom the [Mentorship Check-in](https://uxbri.org/mentorship-check-in) event.
+F﻿rom the [Mentorship Check-in](https://uxbri.org/mentorship-check-in) event.jh
 
 [](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)
