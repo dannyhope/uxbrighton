@@ -12,7 +12,7 @@ start: 7pm
 venue: Platf9rm-Brighton
 ticket:
   state: Free
-  link: https://www.tickettailor.com/events/uxbrighton/894754
+  link: https://www.tickettailor.com/checkout/view-event/id/2109732/chk/2e73/?modal_widget=true&widget=true
 upcoming-teaser:
   bg-image: /images/45189389495_512009f058_o.jpg
 conference: false
