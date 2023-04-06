@@ -62,14 +62,6 @@ NHS - designing an inclusive form-based mental health care and choices document
 Women’s Aid - developing chat scripts for women who experience domestic abuse
 PHE Talk to Frank - content design for new website including key content around harm reduction and drug information for young people in line with the new government drug strategy.
 
-### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
-
-<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-right"/>
-
-Sharon Webster is a Senior UX Consultant at cxpartners, where she enjoys the breadth of projects. She particularly loves getting to grips with problems through research. Sharon also has a thing for sorting out content mess, and finds a great information architecture very satisfying. Her first taste of working with UX came when a colleague asked her to take notes during a rather simplistic usability study. Since then she's developed her research skills, with accessibility and inclusivity at the forefront to make things better for more people. 
-
-Sharon will debunk some common myths about what you need, to be a mentor. She'll draw on her experiences mentoring to talk about how she's found it, and what she's gained by being a mentor. 
-
 ### Making connections whilst working remotely  **–**  [Scarlet Cummins](https://www.linkedin.com/in/scarletcummins/), Freelance Designer
 
 <img src="/images/scarlet_mentorship.jpg" alt="Scarlet Cummins, a freelance designer." class="image-align-right"/>
@@ -77,6 +69,14 @@ Sharon will debunk some common myths about what you need, to be a mentor. She'l
 Scarlet, is a freelance digital designer based in Brighton. Throughout her career, she has brought creative solutions to UI design teams. Scarlet has a background in graphic design. She has worked with in-house teams and agencies. Her clients include charities, heritage and the arts through to e-commerce and applications. She's passionate about work that creates a positive social impact, and those where the end user is considered throughout. 
 
 Scarlet will talk about what it's like to have the guidance and support of a mentor. Her career is a combination of remote, self-employment. Scarlet will share the challenges of navigating this combination. And, how creating a support system through the mentorship programme has helped her.
+
+### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
+
+<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-right"/>
+
+Sharon Webster is a Senior UX Consultant at cxpartners, where she enjoys the breadth of projects. She particularly loves getting to grips with problems through research. Sharon also has a thing for sorting out content mess, and finds a great information architecture very satisfying. Her first taste of working with UX came when a colleague asked her to take notes during a rather simplistic usability study. Since then she's developed her research skills, with accessibility and inclusivity at the forefront to make things better for more people. 
+
+Sharon will debunk some common myths about what you need, to be a mentor. She'll draw on her experiences mentoring to talk about how she's found it, and what she's gained by being a mentor. 
 
 ## Support
 
