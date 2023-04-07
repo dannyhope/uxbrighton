@@ -11,7 +11,7 @@ event-date: 2023-06-13
 start: 7pm
 venue: Platf9rm-Brighton
 ticket:
-  state: Free
+  state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/2109732/chk/2e73/?modal_widget=true&widget=true
 upcoming-teaser:
   bg-image: /images/45189389495_512009f058_o.jpg
