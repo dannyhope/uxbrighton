@@ -21,20 +21,20 @@ upcoming: true
 published: true
 seo: true
 ---
-‘Impact’ has become a ubiquitous term that is hard to define and hard to measure. Join cxpartners in this workshop where we'll be working through the steps of developing an impact map, as both a process and a tool for setting clear intent around the impact we want to achieve in our projects, and mapping the journey for getting there.\
+‘Impact’ has become a ubiquitous term that is hard to define and hard to measure. Join [cxpartners](https://www.cxpartners.co.uk/) in this workshop where we'll be working through the steps of developing an impact map, as both a process and a tool for setting clear intent around the impact we want to achieve in our projects, and mapping the journey for getting there.\
 Impact maps are extremely effective for gathering consensus on our longer term objectives, and challenging our assumptions around how we think positive change happens as a result of the services we deliver.\
 In the session itself, participants will be developing their own personal impact maps, and will leave equipped with the tools to apply the same process in their work contexts.
 
-**Workshop Leaders**
+## **Workshop Leaders**
 
-Nicola Pritchard, Principal Service Designer at cxpartners
+### [Nicola Pritchard](https://www.linkedin.com/in/nicolapritchard/), Principal Service Designer at cxpartners
 
 <img src="/images/nicola-pritchard.jpg" alt="Head shot of Nicola Pritchard" class="image-align-right"/>
 
 \
 Nicola is a Principal Service Designer with 12 years of experience in a range of roles. She brings experience in systems thinking and qualitative research practices that centre on achieving positive social and environmental impact. She has led research projects for a range of non-profit and public sector organisations including the NHS, UK Export Finance, Bucks Council, Women’s Aid, Nationwide Foundation, the British Red Cross, Lambeth Early Action Partnership (LEAP), STEM Learning, MS Society Canada and the National Lottery Community Fund. Nicola is passionate about making things that work for people, that are sustainable, and doing the critical groundwork through meaningful and proportionate research.
 
-Hannah Whiteley, Principal UX Consultant at cxpartners
+### [Hannah Whiteley](https://www.linkedin.com/in/hwhiteley/), Principal UX Consultant at cxpartners
 
 <img src="/images/hannah-whiteley.jpg" alt="Head shot of Hannah Whiteley" class="image-align-right"/>
 
