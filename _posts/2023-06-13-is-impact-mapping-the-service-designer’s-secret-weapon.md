@@ -13,6 +13,7 @@ venue: Platf9rm-Brighton
 ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/2109732/chk/2e73/?modal_widget=true&widget=true
+  price: Free
 upcoming-teaser:
   bg-image: /images/45189389495_512009f058_o.jpg
 conference: false
