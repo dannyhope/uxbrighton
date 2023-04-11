@@ -8,7 +8,7 @@ event-date: 2023-05-09
 start: 7pm
 venue: Barclays Eagle Lab Brighton
 ticket:
-  state: Ticketed
+  state: Free
 upcoming-teaser:
   bg-image: /images/49047779292_ef7aac44d6_o.jpg
 conference: false
