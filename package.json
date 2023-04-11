@@ -18,11 +18,13 @@
     "build": "bundle exec jekyll build",
     "build:styles-dev": "cd dev-scripts && bash generate_css.sh",
     "build:styles-prod": "cd dev-scripts && bash generate_css_compressed.sh",
+    "build:scripts-prod": "minify scripts/modules/scripts.js > scripts/bundle.js",
     "cms-local": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
+    "minify": "^9.2.0",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "rimraf": "^4.4.1"

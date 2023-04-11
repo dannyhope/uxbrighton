@@ -70,7 +70,7 @@ uxbri.org
 │   │   │   ├── _4-conference.scss
 │   │   │   └── _5-jobs.scss
 │   │   │
-│   │   ├── 5-helpers                                  # Helpers
+│   │   ├── 4-helpers                                  # Helpers
 │   │   │   ├── _alignment.scss
 │   │   │   ├── _colours.scss
 │   │   │   ├── _decorative.scss

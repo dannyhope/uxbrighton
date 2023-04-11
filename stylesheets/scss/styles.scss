@@ -24,20 +24,20 @@
   @import '1-elements/3-links';
   @import '1-elements/4-forms';
   @import '1-elements/5-tables';
-  @import '1-elements/6-media'; 
+  @import '1-elements/6-media';
 
 
 
-  @import '2-components/hoverable-caption'; 
-  @import '2-components/responsive-embeds'; 
+  @import '2-components/hoverable-caption';
+  @import '2-components/responsive-embeds';
 
 
 
-  @import '3-layout/1-main-layout'; 
-  @import '3-layout/2-masthead'; 
-  @import '3-layout/3-misc'; 
-  @import '3-layout/4-conference'; 
-  @import '3-layout/5-jobs'; 
+  @import '3-layout/1-main-layout';
+  @import '3-layout/2-masthead';
+  @import '3-layout/3-misc';
+  @import '3-layout/4-conference';
+  @import '3-layout/5-jobs';
 
 
 //    H E L P E R S
@@ -45,28 +45,28 @@
 
   //  Decorative
 
-  @import "5-helpers/typographic";
-  @import "5-helpers/colours";
-  @import "5-helpers/decorative";
+  @import "4-helpers/typographic";
+  @import "4-helpers/colours";
+  @import "4-helpers/decorative";
 
   //  Layout
 
-  @import "5-helpers/display";
-  @import "5-helpers/grids";
-  @import "5-helpers/alignment";
-  @import "5-helpers/spacing";
-  @import "5-helpers/positioning";
-  @import "5-helpers/wrap-fit-and-clear";
-  
+  @import "4-helpers/display";
+  @import "4-helpers/grids";
+  @import "4-helpers/alignment";
+  @import "4-helpers/spacing";
+  @import "4-helpers/positioning";
+  @import "4-helpers/wrap-fit-and-clear";
+
 // hiding stuff
 
-  @import "5-helpers/hidden-misc";
-  @import "5-helpers/hidden-at-breakpoints";
-  @import "5-helpers/hidden-but-accessible";
+  @import "4-helpers/hidden-misc";
+  @import "4-helpers/hidden-at-breakpoints";
+  @import "4-helpers/hidden-but-accessible";
 
   // Print
 
-  @import "5-helpers/print";
+  @import "4-helpers/print";
 
 
 
