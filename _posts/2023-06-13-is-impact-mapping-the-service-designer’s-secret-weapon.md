@@ -21,7 +21,7 @@ upcoming: true
 published: true
 seo: true
 ---
-‘Impact’ has become a ubiquitous term that is hard to define and hard to measure. Join [cxpartners](https://www.cxpartners.co.uk/) in this workshop where we'll be working through the steps of developing an impact map, as both a process and a tool for setting clear intent around the impact we want to achieve in our projects, and mapping the journey for getting there.\
+‘Impact’ has become a ubiquitous term that is hard to define and hard to measure. Join **[cxpartners](https://www.cxpartners.co.uk/)** in this workshop where we'll be working through the steps of developing an impact map, as both a process and a tool for setting clear intent around the impact we want to achieve in our projects, and mapping the journey for getting there.\
 Impact maps are extremely effective for gathering consensus on our longer term objectives, and challenging our assumptions around how we think positive change happens as a result of the services we deliver.\
 In the session itself, participants will be developing their own personal impact maps, and will leave equipped with the tools to apply the same process in their work contexts.
 
