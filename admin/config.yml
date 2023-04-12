@@ -326,7 +326,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Speaker name", name: "name", widget: "string", required: false}
-                      - {label: "Speaker thumbnail", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels.", widget: "image", required: false}
                       - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
                         name: "talk-info"
@@ -917,7 +917,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Speaker name", name: "name", widget: "string", required: false}
-                      - {label: "Speaker thumbnail", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels.", widget: "image", required: false}
                       - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
                         name: "talk-info"
@@ -1503,7 +1503,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Speaker name", name: "name", widget: "string", required: false}
-                      - {label: "Speaker thumbnail", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels.", widget: "image", required: false}
                       - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
                         name: "talk-info"
