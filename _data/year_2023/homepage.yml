@@ -274,20 +274,20 @@ speakers:
     speaker-list:
       - talk-info:
           talk-time: ""
-          talk-title: "UX for DX: The critical importance of supporting designer and
-            developer creativity"
+          talk-title: The critical importance of supporting designer and developer
+            creativity
           talk-summary: When we think about UX as a discipline, what often first comes to
             mind are everyday consumer experiences from websites to games, or
-            perhaps enterprise and productivity tools. In recent years, I have
-            been focused on UX for designers and developers to enhance and
-            support their creativity. Based in studies of designer and developer
-            experiences, we have been improving documentation, working on task
-            accomplishment and smoothing workflows, focusing on better
-            communication and collaboration, and addressing tech debt management
-            and team productivity and velocity. In this talk, I will share some
-            case studies, and share why supporting designer and developer
-            creative tools leads to better and more inclusive user experiences
-            for everyone.
+            perhaps enterprise and productivity tools. In recent years however,
+            Elizabeth has focused instead on UX for *designers and
+            developers* and how to enhance and support their creativity. Based
+            in studies of designer and developer experiences, Elizabeth’s team
+            have been improving documentation, working on task accomplishment
+            and smoothing workflows, focusing on better communication and
+            collaboration, and addressing tech and design debt management and
+            team productivity.In this talk, Elizabeth will discuss case studies,
+            and share why supporting designer and developer creative tools leads
+            to better and more inclusive user experiences for everyone.
         name: Elizabeth Churchill
         thumbnail: /images/elizabeth-churchill-600x600.jpg
         anchor: Elizabeth-Churchill
