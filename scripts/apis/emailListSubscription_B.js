@@ -8,6 +8,7 @@ async function postData(url = "", data = {}) {
     credentials: "include", // include, *same-origin, omit
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
       // 'Content-Type': 'application/x-www-form-urlencoded',
     },
     redirect: "follow", // manual, *follow, error
