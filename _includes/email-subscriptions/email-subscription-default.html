@@ -1,10 +1,10 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
-<div id="email-subscription-form">
-  <h2>I'd like to receive</h2>
-  <form method="post" autocomplete="off" name="google-sheet" id="form">
+<div id="email-subscription-form flow">
+  <h2>I'd like to receive&hellip;</h2>
+  <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
     <fieldset>
       <legend class="visually-hidden">Email newsletter options</legend>
-      <ul class="no-list">
+      <ul class="no-list flow">
         <li class="form-control">
           <input type="checkbox" id="field_0" name="Conference & workshop news" class="form-control" checked>
           <label for="field_0">Conference & workshop news</label>
@@ -27,11 +27,13 @@
         </li>
       </ul>
     </fieldset>
-    <span class="form-group">
-      <label for="email" class="visually-hidden">Email Address</label>
-      <input type="email" id="email" name="Email address" placeholder="Email address" class="form-control" required>
-    </span>
-    <input type="submit" name="submit" value="Subscribe" class="button button--green bold mb0">
+    <div>
+      <span class="form-group">
+        <label for="email" class="visually-hidden">Email Address</label>
+        <input type="email" id="email" name="Email address" placeholder="Email address" class="form-control" required>
+      </span>
+      <input type="submit" name="submit" value="Subscribe" class="button button--green bold mb0">
+    </div>
   </form>
   {% comment %} Completion message {% endcomment %}
   <div id="form-message" style="display: none;">

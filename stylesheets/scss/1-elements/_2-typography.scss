@@ -58,13 +58,18 @@
     }
     blockquote, q, i, em {
       // font-family: 'museo';
-      // font-style: italic;      
+      // font-style: italic;
     }
 
   // other elements
-    ol, 
+    ol,
     ul {
       padding-left: 1.5em;
+
+      &.no-list {
+        list-style: none;
+        padding: 0;
+      }
     }
 
     blockquote, p, ul, ol, dd,

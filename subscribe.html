@@ -1,9 +1,9 @@
 ---
 
-layout: default
+layout: basic
 title: "Subscribe"
 
-description: "Conference and workshop news, Evening event news and Interesting links picked by the UX Brighton team"
+description: "Conference and workshop news, Job alerts, Evening event news and Interesting links picked by the UX Brighton team."
 
 fullurl: "https://uxbri.org/subscribe/"
 slug: "subscribe"
@@ -20,36 +20,20 @@ event-promo-footer: hide
 ---
 
 
-    {% assign id = 1 %}
+{% assign id = 1 %}
 
-    <section id="hero" class="overlay__outer pa0 bg-grey-90">
-      <div class="overlay__inner overflow-hidden bg-trans">
-        <div class="container color-white">
-          <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
-          <h2 class="mt0 fs-l regular track-normal mb1">
-            Email newsletters from UX Brighton
-          </h2>
+<section id="overview" class="bg-white layout--subscribe">
+  <div class="container" style="min-height: calc(100vh - 400px);">
+    <div class="row">
+      <div class="clearfix gutters__container">
+        <div class="u3of4-over-m left-over-m gutters">
+
+          {% include email-subscriptions/email-subscription-default.html %}
+
         </div>
-      </div>
-    </section>
+      </div><!-- gutters__container -->
+    </div><!-- row -->
+  </div><!-- container -->
+</section><!-- overview -->
 
-    <style>
-      .layout--subscribe #newsletter-options {
-        display: block !important;
-      }
-    </style>
-
-    <section id="overview" class="bg-white layout--subscribe">
-      <div class="container" style="min-height: calc(100vh - 400px);">
-        <div class="row">
-          <div class="clearfix gutters__container">
-            <div class="u3of4-over-m left-over-m gutters">
-              <h2>I’d like to receive …</h2>
-              <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
-            </div>
-          </div><!-- gutters__container -->
-        </div><!-- row -->
-      </div><!-- container -->
-    </section><!-- overview -->
-
-    {% assign id = 2 %}
+{% assign id = 2 %}
