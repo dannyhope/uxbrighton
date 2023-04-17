@@ -1,3 +1,7 @@
+// NOTE: This file is not used in the project. It is just a reference for the EmailOctopus API calls for now
+// TODO: Decide whether we use something like this in the future. For now not recommended because it's not secure
+// Being able to see the API key in the browser is not good.
+
 // API variables
 const api = {
   url: 'https://emailoctopus.com/api/1.6/lists/',
