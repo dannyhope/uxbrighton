@@ -38,17 +38,25 @@ In the mean time you can join our [\#Mentorship](https://uxbri.slack.com/channel
 
 ## 2022 programme
 
-**10 January 2023**: [mentorship check-in](https://uxbri.org/mentorship-check-in) event 
+**12 July 2022:** [Mentorship Launch](https://uxbri.org/mentorship-launch-22/) 
 
-**11 April 2023**: [m﻿entorship closing party](https://uxbri.org/mentorship-closing-party) 
+**9 August 2022:** [Mentorship Speed Matching](https://uxbri.org/speed-matching/)
+
+**13 September 2022:** [Mentorship Meetup](https://uxbri.org/mentorship-meet-up/) 
+
+**10 January 2023**: [Mentorship Check-In](https://uxbri.org/mentorship-check-in) 
+
+**11 April 2023**: End of 2022 Mentorship Programme, [Mentorship Closing Party](https://uxbri.org/mentorship-closing-party) 
 
 ## 2023 programme
 
-**11 July**: applications o﻿pen. Add [reminder](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&tmsrc=anniemarie%40uxbri.org) to my calendar. <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&amp;tmsrc=anniemarie%40uxbri.org"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>  
+**11 July 2023**: Applications o﻿pen. Add [reminder](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&tmsrc=anniemarie%40uxbri.org) to my calendar. <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&amp;tmsrc=anniemarie%40uxbri.org"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>  
 
-**8 August**: m﻿entorship speed matching event
+**8 August 2023:** M﻿entorship Speed Matching event
 
-**September**: s﻿uccessful applicants contacted
+**September 2023**: S﻿uccessful applicants contacted
+
+**April 2024:** End of Mentorship Programme 
 
 ## S﻿ponsorship
 
