@@ -76,6 +76,6 @@ applicationUrl: https://career2.successfactors.eu/career?career_ns=job_listing&c
 applicationType: link
 closedDate: "2023-04-24T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1200/junior-product-designer.html"
+permalink: "/jobs2/1200/junior-product-designer"
 layout: job
 ---
