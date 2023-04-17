@@ -114,6 +114,6 @@ applicationUrl: https://careers.thebodyshop.com/job/London-Senior-UX-Designer-LN
 applicationType: link
 closedDate: "2023-04-27T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1204/senior-ux-designer"
+permalink: "/jobs2/1204/senior-ux-designer.html"
 layout: job
 ---

@@ -101,6 +101,6 @@ applicationUrl: https://careers.staysure.co.uk/jobs/2587941-head-of-ux-and-resea
 applicationType: link
 closedDate: "2023-04-28T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1203/head-of-ux-and-research"
+permalink: "/jobs2/1203/head-of-ux-and-research.html"
 layout: job
 ---

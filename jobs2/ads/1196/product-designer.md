@@ -93,6 +93,6 @@ applicationUrl: https://short.sg/a/27922541
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1196/product-designer"
+permalink: "/jobs2/1196/product-designer.html"
 layout: job
 ---
