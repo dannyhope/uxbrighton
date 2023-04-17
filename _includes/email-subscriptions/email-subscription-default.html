@@ -1,7 +1,7 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
 <div id="email-subscription-form flow">
   <h2>I'd like to receive&hellip;</h2>
-  <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
+  <form method="post" autocomplete="off" name="google-sheet" id="form" class="email-form--default flow">
     <fieldset>
       <legend class="visually-hidden">Email newsletter options</legend>
       <ul class="no-list flow">
@@ -21,17 +21,11 @@
           <input type="checkbox" id="field_3" name="Interesting links" class="form-control" checked>
           <label for="field_3">Interesting links picked by the UX Brighton team</label>
         </li>
-        <li class="form-control">
-          <input type="checkbox" id="field_4" name="Slack group" class="form-control" checked>
-          <label for="field_4">Invite me to the UX Brighton Slack group too</label>
-        </li>
       </ul>
     </fieldset>
-    <div>
-      <span class="form-group">
-        <label for="email" class="visually-hidden">Email Address</label>
-        <input type="email" id="email" name="Email address" placeholder="Email address" class="form-control" required>
-      </span>
+    <div class="form-cta">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="Email address" class="form-control" required>
       <input type="submit" name="submit" value="Subscribe" class="button button--green bold mb0">
     </div>
   </form>
