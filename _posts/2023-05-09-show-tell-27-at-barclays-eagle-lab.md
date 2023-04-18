@@ -22,6 +22,8 @@ Whether you’re a UXer of many years’ standing, new to UX or UX is only part 
 
 **It's free. [Sign up](https://docs.google.com/document/d/1xPcSn3KO8g9vvDLhQTtYmYdiHpYqwjeT0H5bepdxmQk/edit?usp=sharing) at this shared Google Doc with your Show & Tell topic.**
 
+D﻿rinks and snacks provided. 🍺🍕
+
 Show & Tell places are limited to 12, as we keep the group small enough for everyone to learn each other's names.
 
 - - -
