@@ -316,6 +316,10 @@ a.button.disabled, fieldset:disabled a.button {
       display: flex;
       align-items: baseline;
       gap: 0.5em;
+
+      [type="checkbox"] {
+        flex-shrink: 0;
+      }
     }
 
     .form-cta {
