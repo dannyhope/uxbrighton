@@ -281,22 +281,22 @@
     <!-- JobPosting page-specific Schema Data Structure -->
     <script type="application/ld+json">
       {
-        "@context": "https://schema.org/",
+        "@context": "https://schema.org",
         "@type": "JobPosting",
-        "title": "{{ page.job-title }}",
-        "hiringOrganization" : {
+        "title": "{{ page.title.original }}",
+        "hiringOrganization": {
           "@type": "Organization",
-          "name": "{{ page.employer }}",
-          "logo" : "https://uxbri.org{{ page.logo-link }}"
+          "name": "{{ page.hiringOrganization.name }}",
+          "logo": "https:{{ page.hiringOrganization.logo }}"
         },
-        "datePosted": "{{ page.publication-date }}",
-        "validThrough": "{{ page.unpublished-date }}",
-        "employmentType" : "{{ page.work-pat }}",
+        "datePosted": "{{ page.postedDate }}",
+        "validThrough": "{{ page.closedDate }}",
+        "employmentType": "{{ page.employmentType.original }}",
         "jobLocation": {
           "@type": "Place",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "{{ page.location }}",
+            "addressLocality": "{{ page.jobLocation.original }}",
             "addressCountry": "UK"
           }
         },
@@ -304,7 +304,7 @@
           "@type": "MonetaryAmount",
           "currency": "GPB",
           "minValue": "{{ page.money-min }}",
-          "maxValue": "{{ page.money-max }}",
+          "maxValue": "{{ page.money-max }}"
         }
       }
     </script>
