@@ -18,6 +18,8 @@ upcoming: false
 published: true
 seo: true
 ---
+[Photos from the Mentorship Closing Party](https://www.flickr.com/photos/uxbrighton/albums/72177720307587706) 
+
 We're delighted to celebrate the end of UX Brighton's first [Mentorship Programme](https://uxbri.org/mentorship).
 
 Over the past 9 months, we've seen tremendous growth and development among our mentorship pairs. We're proud to have played a role in facilitating these meaningful connections and learning experiences.
