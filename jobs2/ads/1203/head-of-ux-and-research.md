@@ -2,7 +2,7 @@
 ---
 _id: 6422c2624576a1bbc6095e67 
 id: 1203  
-shortId: jfhyhyyy77
+shortId: jfhyhyyy77 
 uuid: 6c2995bb-6f8f-48fa-922e-e90d910da763
 title:
   original: Head of UX and Research
@@ -11,10 +11,43 @@ title:
   inferred:
     canonicalTitle: undefined
     expandedTitle: undefined
-    similiarTitles: undefined
-# description starts here
-description: | 
-  <h2 id="role-purpose">Role purpose</h2>
+    similiarTitles: undefined 
+postedDate: "2023-03-26T23:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: London, Hybrid
+  textDescription: Hybrid, London
+  locations:
+  - textDescription: London
+    locality: London
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.5074
+    longitude: -0.1278
+  
+  workplace: PART_REMOTE
+hiringOrganization:
+  name: Staysure group
+  logo: "//uxbri.org/jobs/logos/staysure-group-logo.png"
+  id: 667
+  shortId: Aa16yup6
+  uuid: 8298893b-537d-4f6a-9806-f0f994a8126c
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://careers.staysure.co.uk/jobs/2587941-head-of-ux-and-research
+applicationType: link
+closedDate: "2023-04-28T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1203/head-of-ux-and-research"
+layout: job
+---
+<h2 id="role-purpose">Role purpose</h2>
 <p>The Head of UX &amp; Research is responsible for ensuring that the user experience across all digital platforms is exceptional. They are the guardian of the Staysure group customer journey and will create complimentary yet distinct design systems across all of the group’s major brands. This role exists to champion UX &amp; Research best practice and implement this new discipline into the business. The Head of UX and Research will play a key role in managing CRO and increase conversion through beautiful customer journeys.</p>
 <h2 id="key-responsibilities">Key Responsibilities</h2>
 <ul>
@@ -68,39 +101,3 @@ We'll support you with costs if you're someone who likes to cycle to work</li>
 Pass probation and get a private medical policy</li>
 </ul>
 
-# description ends here
-postedDate: "2023-03-26T23:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: London, Hybrid
-  textDescription: Hybrid, London
-  locations:
-  - textDescription: London
-    locality: London
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.5074
-    longitude: -0.1278
-  
-  workplace: PART_REMOTE
-hiringOrganization:
-  name: Staysure group
-  logo: "//uxbri.org/jobs/logos/staysure-group-logo.png"
-  id: 667
-  shortId: Aa16yup6
-  uuid: 8298893b-537d-4f6a-9806-f0f994a8126c
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://careers.staysure.co.uk/jobs/2587941-head-of-ux-and-research
-applicationType: link
-closedDate: "2023-04-28T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1203/head-of-ux-and-research"
-layout: job
----

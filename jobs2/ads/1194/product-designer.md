@@ -2,7 +2,7 @@
 ---
 _id: 6422c2424576a1bbc6095e51 
 id: 1194  
-shortId: ujdgetww56
+shortId: ujdgetww56 
 uuid: b96663cc-a861-4443-9fcd-2c9cf1515bcb
 title:
   original: Product Designer
@@ -16,10 +16,43 @@ title:
       - Product Manager
       - UX Designer
       - UI Designer
-      - Software Designer
-# description starts here
-description: | 
-  <h2 id="about-napo">About Napo</h2>
+      - Software Designer 
+postedDate: "2023-03-20T00:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: London, Hybrid
+  textDescription: Hybrid, London
+  locations:
+  - textDescription: London
+    locality: London
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.5074
+    longitude: -0.1278
+  
+  workplace: PART_REMOTE
+hiringOrganization:
+  name: Napo
+  logo: "//uxbri.org/jobs/logos/logo-napo-pet-insurance-1667835378.svg"
+  id: 662
+  shortId: 5d9m5KoG
+  uuid: c8c49d65-b315-4966-9ed9-148a049fcf48
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://careers.napo.pet/jobs/2565362-product-designer
+applicationType: link
+closedDate: "2023-04-20T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1194/product-designer"
+layout: job
+---
+<h2 id="about-napo">About Napo</h2>
 <p>Napo is a pet insurance company with one simple mission: to help every pet owner keep their pets healthy and happy. We are in the business of selling peace of mind and want people to know that Napo is a synonym for quality. The pet insurance space has suffered from low quality and misleading products, and we want to ensure that all the Napo products are simple and trustworthy. We’re digital first - customers can do anything they need online, but if they need to talk to us, we have a 6-star customer support team to answer the phone.</p>
 <h2 id="the-role">The Role</h2>
 <p>As a Product designer in Growth, you’ll craft and optimise a cohesive marketing and buying experience for potential Napo customers.</p>
@@ -81,39 +114,3 @@ description: |
 </li>
 </ul>
 
-# description ends here
-postedDate: "2023-03-20T00:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: London, Hybrid
-  textDescription: Hybrid, London
-  locations:
-  - textDescription: London
-    locality: London
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.5074
-    longitude: -0.1278
-  
-  workplace: PART_REMOTE
-hiringOrganization:
-  name: Napo
-  logo: "//uxbri.org/jobs/logos/logo-napo-pet-insurance-1667835378.svg"
-  id: 662
-  shortId: 5d9m5KoG
-  uuid: c8c49d65-b315-4966-9ed9-148a049fcf48
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://careers.napo.pet/jobs/2565362-product-designer
-applicationType: link
-closedDate: "2023-04-20T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1194/product-designer"
-layout: job
----

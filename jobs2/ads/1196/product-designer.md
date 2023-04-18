@@ -2,7 +2,7 @@
 ---
 _id: 6422c2484576a1bbc6095e56 
 id: 1196  
-shortId: sbcgtt36
+shortId: sbcgtt36 
 uuid: cf270672-b978-4e09-9613-57ff4a343280
 title:
   original: Product Designer
@@ -16,10 +16,43 @@ title:
       - Product Manager
       - UX Designer
       - UI Designer
-      - Software Designer
-# description starts here
-description: | 
-  <p><strong>Lawo designs, manufactures, and sells cutting-edge networked video, audio, and control systems for television, radio, and live performance applications all over the world. Chances are, if you've watched a live event on TV, listened to the radio, or been to a live performance, then Lawo products have helped create the sound and pictures. Check us out at <a href="https://lawo.com/">https://lawo.com/</a></strong></p>
+      - Software Designer 
+postedDate: "2023-03-20T00:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: Chichester, Flexible, some travel to Germany
+  textDescription: Chichester
+  locations:
+  - textDescription: Chichester
+    locality: Chichester
+    countryName: Germany
+    countryCode: DE
+    latitude: undefined
+    longitude: undefined
+  
+  workplace: undefined
+hiringOrganization:
+  name: Lawo
+  logo: "//uxbri.org/jobs/logos/Lawo.svg"
+  id: 664
+  shortId: P79hg2Um
+  uuid: 4caca0c6-d903-4396-8305-ddbc89334121
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://short.sg/a/27922541
+applicationType: link
+closedDate: "2023-04-20T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1196/product-designer"
+layout: job
+---
+<p><strong>Lawo designs, manufactures, and sells cutting-edge networked video, audio, and control systems for television, radio, and live performance applications all over the world. Chances are, if you've watched a live event on TV, listened to the radio, or been to a live performance, then Lawo products have helped create the sound and pictures. Check us out at <a href="https://lawo.com/">https://lawo.com/</a></strong></p>
 <p>Lawo's customers bring the atmosphere of sporting events into supporters' living rooms, they quickly and clearly deliver breaking news, and they produce incredible live events that fans will remember for the rest of their lives. Our goal is to make our solutions effortless and invisible, getting them out of the way, so our customers can spend less time thinking about how to do something and focus all their effort on the product they're delivering.</p>
 <h2 id="where-you-fit-in">Where you fit in</h2>
 <p>To strengthen our team in the UK, we have an immediate opening for a <strong>Product Designer</strong> to join the Experience &amp; Design team, working on UI, UX, workflows, and design systems across our portfolio of audio mixers, video processors, routers, multi-viewers, network management tools, facility control systems, and so much more. It's a rare and unique opportunity!</p>
@@ -60,39 +93,3 @@ description: |
 </ul>
 <p>We look forward to hearing from you!</p>
 
-# description ends here
-postedDate: "2023-03-20T00:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: Chichester, Flexible, some travel to Germany
-  textDescription: Chichester
-  locations:
-  - textDescription: Chichester
-    locality: Chichester
-    countryName: Germany
-    countryCode: DE
-    latitude: undefined
-    longitude: undefined
-  
-  workplace: undefined
-hiringOrganization:
-  name: Lawo
-  logo: "//uxbri.org/jobs/logos/Lawo.svg"
-  id: 664
-  shortId: P79hg2Um
-  uuid: 4caca0c6-d903-4396-8305-ddbc89334121
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://short.sg/a/27922541
-applicationType: link
-closedDate: "2023-04-20T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1196/product-designer"
-layout: job
----

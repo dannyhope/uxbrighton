@@ -2,7 +2,7 @@
 ---
 _id: 6422c2444576a1bbc6095e53 
 id: 1195  
-shortId: ihsgtttt55
+shortId: ihsgtttt55 
 uuid: dc442561-8302-4f50-97f9-877f9cef3b0c
 title:
   original: Senior UX Researcher
@@ -16,10 +16,43 @@ title:
       - Senior Usability Researcher
       - Senior User Research Analyst
       - Senior User Experience Analyst
-      - Senior User Interface Analyst
-# description starts here
-description: | 
-  <p>Darwin is part of Mercer Marsh Benefits (MMB), a 7,000-person strong community of specialists in health, benefits, and employee wellbeing. This affords us a massive opportunity to impact the lives of tens of millions of people around the world. Darwin is changing benefits for good in eight out of the top ten technology companies in the world and has a wealth of clients across a diverse range of sectors. In fact, more than 2 million people are already using our platform.</p>
+      - Senior User Interface Analyst 
+postedDate: "2023-03-20T00:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: London
+  textDescription: London
+  locations:
+  - textDescription: London
+    locality: London
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.5074
+    longitude: -0.1278
+  
+  workplace: undefined
+hiringOrganization:
+  name: MarshMcLennan
+  logo: "//uxbri.org/jobs/logos/marsh-mclennan-companies-logo-vector-2021.svg"
+  id: 663
+  shortId: aZ20E4fy
+  uuid: 3b2e75e8-c0de-4e78-8977-9cd21a491d8c
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://careers.marshmclennan.com/global/en/apply/1/1?jobSeqNo=MAMCGLOBALR223499EXTERNALENGLOBAL
+applicationType: link
+closedDate: "2023-04-20T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1195/senior-ux-researcher"
+layout: job
+---
+<p>Darwin is part of Mercer Marsh Benefits (MMB), a 7,000-person strong community of specialists in health, benefits, and employee wellbeing. This affords us a massive opportunity to impact the lives of tens of millions of people around the world. Darwin is changing benefits for good in eight out of the top ten technology companies in the world and has a wealth of clients across a diverse range of sectors. In fact, more than 2 million people are already using our platform.</p>
 <p>We are currently looking for a Senior UX Researcher to join our talented UX team, who bring the research discipline to life in an organisation that more and more is leaning on data to make the right decisions.</p>
 <p>If you are passionate about understanding the users and their behaviours, in spreading the gospel of research and its importance in design and product development, in measuring progress in the UX and product improvements in a meaningful and sharable way….look no further, we are here for you.</p>
 <p>You are going to be the first full time research for the Darwin MMB UX team. So far, the UX designers have done research as part of the design process. But the need for more specialised, diverse, efficient research, has create the need for a dedicate person to take on the challenge.</p>
@@ -67,39 +100,3 @@ description: |
 <p>Marsh &amp; McLennan Companies and its affiliates aim to attract and retain the best people regardless of their gender expression or identity, marital and civil partnership status, ethnic origin, nationality, age, background, disability, sexual orientation or beliefs.</p>
 <p><strong>At Marsh McLennan, we understand the complexity, and the reality, of the modern career path. If your experience looks a little different from what we’ve identified and you think you would be a great fit for the role, we would love to hear from you.</strong></p>
 
-# description ends here
-postedDate: "2023-03-20T00:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: London
-  textDescription: London
-  locations:
-  - textDescription: London
-    locality: London
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.5074
-    longitude: -0.1278
-  
-  workplace: undefined
-hiringOrganization:
-  name: MarshMcLennan
-  logo: "//uxbri.org/jobs/logos/marsh-mclennan-companies-logo-vector-2021.svg"
-  id: 663
-  shortId: aZ20E4fy
-  uuid: 3b2e75e8-c0de-4e78-8977-9cd21a491d8c
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://careers.marshmclennan.com/global/en/apply/1/1?jobSeqNo=MAMCGLOBALR223499EXTERNALENGLOBAL
-applicationType: link
-closedDate: "2023-04-20T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1195/senior-ux-researcher"
-layout: job
----

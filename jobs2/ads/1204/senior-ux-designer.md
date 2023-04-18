@@ -2,7 +2,7 @@
 ---
 _id: 6422c2644576a1bbc6095e68 
 id: 1204  
-shortId: ogh43
+shortId: ogh43 
 uuid: 55e10047-b21b-40fa-ab95-a7b4ed1bacad
 title:
   original: Senior UX Designer
@@ -16,10 +16,43 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher
-# description starts here
-description: | 
-  <h2 id="your-role-in-a-nutshell">Your role in a nutshell</h2>
+      - Senior UX Researcher 
+postedDate: "2023-03-27T23:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: London
+  textDescription: London
+  locations:
+  - textDescription: London
+    locality: London
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.5074
+    longitude: -0.1278
+  
+  workplace: undefined
+hiringOrganization:
+  name: The Body Shop
+  logo: "//uxbri.org/jobs/logos/The-Body-Shop-logo.png"
+  id: 374
+  shortId: B5kn68f2
+  uuid: d79c52f9-28f7-4615-b78b-2a0d17beb100
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://careers.thebodyshop.com/job/London-Senior-UX-Designer-LND-SE1-2JP/917678601/?feedId=288301
+applicationType: link
+closedDate: "2023-04-27T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1204/senior-ux-designer"
+layout: job
+---
+<h2 id="your-role-in-a-nutshell">Your role in a nutshell</h2>
 <p>The core purpose of the role is to manage all UX design activities and to own and drive customer-focussed usability, accessibility adherence with a target of WCAG AA and overall UX consistency across all of our digital estate. Also to be a champion of creative UI consistency and to participate in the evolving of said design language throughout the channels, maintaining an already flourishing link with the wider global creative “Greenhouse” team.</p>
 <p>As a shared function, the senior UX designer will be expected to work across multiple delivery teams and initiatives, thus the role holder must be able to manage competing priorities across different workstreams and have experience in managing their own path through this.</p>
 <p>The senior UX designer will be well versed and experienced in organising and running collaborative design and ideation workshops with participants from all levels within an organisation up to c-suite.</p>
@@ -81,39 +114,3 @@ description: |
 <h2 id="diversity-statement">Diversity Statement</h2>
 <p><em>At The Body Shop, we firmly believe that equality is a human right and that all people should have an equal opportunity to pursue their dreams and aspirations.  We are committed to attracting, developing, and retaining the very best people by offering a creative and inclusive workplace where talent is recognized. We value diversity and consider all applicants for employment without regard to race, religion, colour, national origin, sex, gender, gender expression, sexual orientation, age, marital status or disability status. We are proud to have a number of different active employee inclusion networks that serve not just as catalysts for change, but also to build a spirit of diversity, equality, inclusivity, and provide safe supportive spaces for engagement and solidarity for members of these communities.  The Body Shop is also committed to providing access, equal opportunity, and reasonable accommodations for individuals with disabilities in employment, its services, programs and activities. To request a reasonable accommodation, please let us know in your application or email us at <a href="mailto:UK.Recruitment@thebodyshop.com">UK.Recruitment@thebodyshop.com</a>.</em></p>
 
-# description ends here
-postedDate: "2023-03-27T23:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: London
-  textDescription: London
-  locations:
-  - textDescription: London
-    locality: London
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.5074
-    longitude: -0.1278
-  
-  workplace: undefined
-hiringOrganization:
-  name: The Body Shop
-  logo: "//uxbri.org/jobs/logos/The-Body-Shop-logo.png"
-  id: 374
-  shortId: B5kn68f2
-  uuid: d79c52f9-28f7-4615-b78b-2a0d17beb100
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://careers.thebodyshop.com/job/London-Senior-UX-Designer-LND-SE1-2JP/917678601/?feedId=288301
-applicationType: link
-closedDate: "2023-04-27T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1204/senior-ux-designer"
-layout: job
----

@@ -2,7 +2,7 @@
 ---
 _id: 6422c2504576a1bbc6095e5b 
 id: 1198  
-shortId: bbcyyhg87
+shortId: bbcyyhg87 
 uuid: c59ed731-8b00-4bf9-a421-7479636ed14d
 title:
   original: Senior UX Designer
@@ -16,10 +16,43 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher
-# description starts here
-description: | 
-  <h2 id="package-description">Package Description</h2>
+      - Senior UX Researcher 
+postedDate: "2023-03-24T00:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: London, Hybrid
+  textDescription: Hybrid, London
+  locations:
+  - textDescription: London
+    locality: London
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.5074
+    longitude: -0.1278
+  
+  workplace: PART_REMOTE
+hiringOrganization:
+  name: BBC
+  logo: "//uxbri.org/jobs/logos/BBC-logo.svg"
+  id: 198
+  shortId: rkfN7jg2
+  uuid: 838a5944-9dae-4f24-955e-5a0b4c308127
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://careershub.bbc.co.uk/members/?j=67041
+applicationType: link
+closedDate: "2023-04-24T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1198/senior-ux-designer"
+layout: job
+---
+<h2 id="package-description">Package Description</h2>
 <p><strong>Unfortunately we're unable to consider anyone without the eligibility/right to work in the UK and we cannot offer sponsorship</strong></p>
 <ul>
 <li><p>Band: D</p>
@@ -105,39 +138,3 @@ description: |
 <h2 id="attached-documents">Attached documents</h2>
 <p>pdf <a href="https://careershub.bbc.co.uk/members/modules/jobV2/fdownload.php?j=e9642c8b03889fa9&amp;f=704d9200cae41c83">Our BBC Values.pdf</a></p>
 
-# description ends here
-postedDate: "2023-03-24T00:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: London, Hybrid
-  textDescription: Hybrid, London
-  locations:
-  - textDescription: London
-    locality: London
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.5074
-    longitude: -0.1278
-  
-  workplace: PART_REMOTE
-hiringOrganization:
-  name: BBC
-  logo: "//uxbri.org/jobs/logos/BBC-logo.svg"
-  id: 198
-  shortId: rkfN7jg2
-  uuid: 838a5944-9dae-4f24-955e-5a0b4c308127
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://careershub.bbc.co.uk/members/?j=67041
-applicationType: link
-closedDate: "2023-04-24T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1198/senior-ux-designer"
-layout: job
----

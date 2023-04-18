@@ -2,7 +2,7 @@
 ---
 _id: 6422c24f4576a1bbc6095e5a 
 id: 1197  
-shortId: odwwppli88
+shortId: odwwppli88 
 uuid: 4d22f6c9-2078-4512-87f2-de758d779885
 title:
   original: UX Product Designer
@@ -16,10 +16,43 @@ title:
       - Interaction Designer
       - Visual Designer
       - Product Strategist
-      - User Researcher
-# description starts here
-description: | 
-  <h2 id="about-the-role">About The Role</h2>
+      - User Researcher 
+postedDate: "2023-03-20T00:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: Brighton, Hybrid
+  textDescription: Hybrid, Brighton
+  locations:
+  - textDescription: Brighton
+    locality: Brighton
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 50.82838
+    longitude: -0.13947
+  
+  workplace: PART_REMOTE
+hiringOrganization:
+  name: Brightlocal
+  logo: "//uxbri.org/jobs/logos/BL_logo_green.svg"
+  id: 665
+  shortId: P1Ug9wCn
+  uuid: ac89d133-d557-4c2a-913b-4243dccb3045
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://www.brightlocal.com/careers/#jobform-1261484
+applicationType: link
+closedDate: "2023-04-20T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1197/ux-product-designer"
+layout: job
+---
+<h2 id="about-the-role">About The Role</h2>
 <p>We are looking for a skilled and passionate mid-level Product Designer to help guide the evolution of our product. As a key member of our Product Team, you will work closely with Product Managers, Designers, and Engineers to define requirements by conducting research and analyzing insights. This role will require both design and research skills but we appreciate you may not be a master of all of these. 
 Currently, we work in a hybrid environment with 1-2 days in the Brighton office so you will need to live within a commutable distance.
 Please apply via our online application system and include your CV, a link to examples of your work (+ any password), and state your salary expectations on the application. We will be reviewing applications as they arrive.</p>
@@ -104,39 +137,3 @@ We do this through a unique combination of powerful software, done-for-you servi
 <p>You can find out more about life at BrightLocal on our ‘Working at BrightLocal’ page, and check out our reviews and photos on <a href="https://www.glassdoor.co.uk/Jobs/BrightLocal-Jobs-E2096468.htm">Glassdoor</a> which shows you what it’s like to be a member of our team.</p>
 <p>We know that our future is packed with big challenges and exciting opportunities; and we need smart, passionate and committed people like you to help us realise them!</p>
 
-# description ends here
-postedDate: "2023-03-20T00:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: Brighton, Hybrid
-  textDescription: Hybrid, Brighton
-  locations:
-  - textDescription: Brighton
-    locality: Brighton
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 50.82838
-    longitude: -0.13947
-  
-  workplace: PART_REMOTE
-hiringOrganization:
-  name: Brightlocal
-  logo: "//uxbri.org/jobs/logos/BL_logo_green.svg"
-  id: 665
-  shortId: P1Ug9wCn
-  uuid: ac89d133-d557-4c2a-913b-4243dccb3045
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://www.brightlocal.com/careers/#jobform-1261484
-applicationType: link
-closedDate: "2023-04-20T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1197/ux-product-designer"
-layout: job
----

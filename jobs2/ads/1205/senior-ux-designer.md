@@ -2,7 +2,7 @@
 ---
 _id: 6422c2654576a1bbc6095e6a 
 id: 1205  
-shortId: jjurs45
+shortId: jjurs45 
 uuid: f9cb812e-efba-4554-ae21-c48dea5238fd
 title:
   original: Senior UX Designer
@@ -16,10 +16,43 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher
-# description starts here
-description: | 
-  <h2 id="about-zava">About ZAVA</h2>
+      - Senior UX Researcher 
+postedDate: "2023-03-27T23:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: London, Remote
+  textDescription: Remote, London
+  locations:
+  - textDescription: London
+    locality: London
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.509865
+    longitude: -0.118092
+  
+  workplace: FULLY_REMOTE
+hiringOrganization:
+  name: ZAVA
+  logo: "//uxbri.org/jobs/logos/zava-seeklogo.com.svg"
+  id: 668
+  shortId: y3jBU730
+  uuid: fe385aa0-8bcf-4b76-86bb-6f691a4bc62f
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://boards.greenhouse.io/zava/jobs/6682728002#app
+applicationType: link
+closedDate: "2023-04-27T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1205/senior-ux-designer"
+layout: job
+---
+<h2 id="about-zava">About ZAVA</h2>
 <p>We're on a mission to provide our patients with healthcare that is accessible and dependable at a fraction of today's cost. </p>
 <p>Our team of Doctors, Engineers, Customer Support Advisors, Marketers, Product Managers, UX Designers, Pharmacists, and Commercial &amp; Operations Specialists work collaboratively, to develop and maintain a digital healthcare platform that provides our patients with healthcare that suits their needs &amp; schedules.</p>
 <p>The pandemic changed our lives, requiring us to find flexible, remote and innovative healthcare solutions to meet our needs during challenging and changeable periods. Many of our patients turned to telemedicine as a convenient solution to getting their healthcare online from the comfort of their homes. And through delivering a safe and efficient digital healthcare service, we've provided over 7.8 million consultations across the UK, Germany, France, and Ireland, enabling millions of people with essential access to healthcare when they needed it most. </p>
@@ -122,39 +155,3 @@ This is a stand alone role and you will have the opportunity to own and deliver 
 <p><em>Diversity is everywhere and it makes the world a more interesting place. At ZAVA we encourage diversity, welcome difference and celebrate new ideas. Everyone is welcome to apply to ZAVA, regardless of origin, creed, disability, age, nationality, marital status, partnership status, sexual orientation, gender or other legally protected reasons. Additionally, research shows that generally, men are happy to apply for positions where they fit 60% of the requirements or higher, whereas women and underrepresented groups often will not apply unless they fit the requirements almost entirely. If you think you’d be great in this role, even if you don’t match all the requirements we have listed, we’d still love to hear from you!</em> </p>
 <p><em>Please note: certain positions will be subject to a satisfactory DBS check.</em></p>
 
-# description ends here
-postedDate: "2023-03-27T23:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: London, Remote
-  textDescription: Remote, London
-  locations:
-  - textDescription: London
-    locality: London
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.509865
-    longitude: -0.118092
-  
-  workplace: FULLY_REMOTE
-hiringOrganization:
-  name: ZAVA
-  logo: "//uxbri.org/jobs/logos/zava-seeklogo.com.svg"
-  id: 668
-  shortId: y3jBU730
-  uuid: fe385aa0-8bcf-4b76-86bb-6f691a4bc62f
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://boards.greenhouse.io/zava/jobs/6682728002#app
-applicationType: link
-closedDate: "2023-04-27T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1205/senior-ux-designer"
-layout: job
----

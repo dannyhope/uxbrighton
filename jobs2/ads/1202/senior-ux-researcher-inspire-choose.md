@@ -2,7 +2,7 @@
 ---
 _id: 6422c25d4576a1bbc6095e63 
 id: 1202  
-shortId: udhfghw63
+shortId: udhfghw63 
 uuid: d64923cd-5f5b-4712-90d5-2150e04b9ff6
 title:
   original: Senior UX Researcher - Inspire & Choose
@@ -16,10 +16,43 @@ title:
       - Senior User Interface Researcher
       - Senior Usability Researcher
       - Senior User Experience Analyst
-      - Senior User Experience Strategist
-# description starts here
-description: | 
-  <h2 id="whats-in-it-for-you">What’s in it for you</h2>
+      - Senior User Experience Strategist 
+postedDate: "2023-03-26T23:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: Hybrid, London
+  textDescription: Hybrid, London
+  locations:
+  - textDescription: London
+    locality: London
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.5074
+    longitude: -0.1278
+  
+  workplace: PART_REMOTE
+hiringOrganization:
+  name: Tesco
+  logo: "//uxbri.org/jobs/logos/tesco-logo.svg"
+  id: 112
+  shortId: 3Cz0ad1K
+  uuid: c25e4c44-2f96-4684-9895-c7daa9fce26a
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://apply.tesco-careers.com/members/?j=797742
+applicationType: link
+closedDate: "2023-04-26T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1202/senior-ux-researcher-inspire-choose"
+layout: job
+---
+<h2 id="whats-in-it-for-you">What’s in it for you</h2>
 <p>We offer excellent benefits that help make Tesco a great place to work!  These include but are not limited to:</p>
 <ul>
 <li>Annual bonus scheme</li>
@@ -65,39 +98,3 @@ description: |
 <p>We have recently announced that we are moving to a more blended working week – combining office and remote working.  Our offices continue to be where we connect, collaborate and innovate.  Talk to us about how this can work for you.</p>
 <p><em>Note: Should you be successful in your application, your employment will be subject to and conditional upon you providing your bank account details on your agreed start date.</em></p>
 
-# description ends here
-postedDate: "2023-03-26T23:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: Hybrid, London
-  textDescription: Hybrid, London
-  locations:
-  - textDescription: London
-    locality: London
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.5074
-    longitude: -0.1278
-  
-  workplace: PART_REMOTE
-hiringOrganization:
-  name: Tesco
-  logo: "//uxbri.org/jobs/logos/tesco-logo.svg"
-  id: 112
-  shortId: 3Cz0ad1K
-  uuid: c25e4c44-2f96-4684-9895-c7daa9fce26a
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://apply.tesco-careers.com/members/?j=797742
-applicationType: link
-closedDate: "2023-04-26T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1202/senior-ux-researcher-inspire-choose"
-layout: job
----

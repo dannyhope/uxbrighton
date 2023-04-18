@@ -2,7 +2,7 @@
 ---
 _id: 6422c2594576a1bbc6095e61 
 id: 1201  
-shortId: odssaqw06
+shortId: odssaqw06 
 uuid: bb097db2-c1a9-4808-95aa-c5f3079effdd
 title:
   original: Senior UX Designer
@@ -16,10 +16,43 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher
-# description starts here
-description: | 
-  <h2 id="have-the-digital-world-at-your-feet">Have the digital world at your feet...</h2>
+      - Senior UX Researcher 
+postedDate: "2023-03-26T23:00:00.000Z"
+directApply: false
+jobLocation: 
+  original: Wembley Stadium
+  textDescription: Wembley
+  locations:
+  - textDescription: Wembley
+    locality: Wembley
+    countryName: United Kingdom
+    countryCode: GB
+    latitude: 51.556
+    longitude: -0.27902
+  
+  workplace: undefined
+hiringOrganization:
+  name: The FA
+  logo: "//uxbri.org/jobs/logos/FA_crest_2009.png"
+  id: 666
+  shortId: Hsrho0c7
+  uuid: f51c36ee-d7ab-4cc0-bba7-b208b7d7f2ee
+employmentType:
+  typeInfo:
+  - text: Permanent
+    code: PERMANENT
+    type: contract
+  
+  original: Permanent
+  textDescription: Permanent
+applicationUrl: https://careers.thefa.com/jobs/vacancy/1590/questions/1/
+applicationType: link
+closedDate: "2023-04-26T00:00:00.000Z"
+status: LIVE
+permalink: "/jobs2/1201/senior-ux-designer"
+layout: job
+---
+<h2 id="have-the-digital-world-at-your-feet">Have the digital world at your feet...</h2>
 <p>Welcome to the home of English Football. As a Senior UX designer, you will play a hands-on role in the way players, fans, staff, and volunteers engage with the beautiful game. </p>
 <p>You will be a key part in the conception, delivery and continuous improvement of digital products and services, across both web and mobile native platforms. </p>
 <p>You will join a friendly, passionate, and inclusive team who wants to constantly innovate, listen to our users and create better digital experiences for them.</p>
@@ -95,39 +128,3 @@ description: |
 <h2 id="documents">Documents</h2>
 <p>PDF <a href="https://careers.thefa.com/jobs/vacancy/senior-ux-designer-wnsl0587-wembley-stadium/1590/description/ajaxaction/downloadfile/?id=250480&amp;pagestamp=64632121-adec-4f1e-a382-214d689a18c9">TM0934 FA BENEFITS BOOKLET V1.pdf (188.82 KB)</a></p>
 
-# description ends here
-postedDate: "2023-03-26T23:00:00.000Z"
-directApply: false
-jobLocation: 
-  original: Wembley Stadium
-  textDescription: Wembley
-  locations:
-  - textDescription: Wembley
-    locality: Wembley
-    countryName: United Kingdom
-    countryCode: GB
-    latitude: 51.556
-    longitude: -0.27902
-  
-  workplace: undefined
-hiringOrganization:
-  name: The FA
-  logo: "//uxbri.org/jobs/logos/FA_crest_2009.png"
-  id: 666
-  shortId: Hsrho0c7
-  uuid: f51c36ee-d7ab-4cc0-bba7-b208b7d7f2ee
-employmentType:
-  typeInfo:
-  - text: Permanent
-    code: PERMANENT
-    type: contract
-  
-  original: Permanent
-  textDescription: Permanent
-applicationUrl: https://careers.thefa.com/jobs/vacancy/1590/questions/1/
-applicationType: link
-closedDate: "2023-04-26T00:00:00.000Z"
-status: LIVE
-permalink: "/jobs2/1201/senior-ux-designer"
-layout: job
----
