@@ -10,18 +10,18 @@ input:focus:-moz-placeholder{
 
 
 // btn reset
-  button::-moz-focus-inner, 
+  button::-moz-focus-inner,
   input::-moz-focus-inner {
     border: 0;
     padding: 0;
   }
   [type=text],[type=date],[type=email],[type=password],
   [type=search],[type=time],[type=url],[type=file],[type=week],
-  button,[type=submit],[type=reset] { 
+  button,[type=submit],[type=reset] {
      -webkit-appearance: none;
      -moz-appearance:    none;
      appearance:         none;
-  } 
+  }
 
 
 // text inputs
@@ -53,7 +53,7 @@ input:focus:-moz-placeholder{
     width: 200px;
     &.flex {
       width:100%;
-    } 
+    }
   }
   textarea,
   .textarea {
@@ -67,23 +67,23 @@ input:focus:-moz-placeholder{
   .input-group {
     position: relative;
     display: flex;
-    width: 100%; 
+    width: 100%;
   }
 
   .input-group__field,
   .input-group__addon,
   .input-group__button {
-    display: flex; 
+    display: flex;
   }
 
   .input-group__field {
     border-top-right-radius: 0;
-    border-bottom-right-radius: 0; 
+    border-bottom-right-radius: 0;
     border-right: 0 none;
   }
   .input-group__button {
     border-top-left-radius: 0;
-    border-bottom-left-radius: 0; 
+    border-bottom-left-radius: 0;
   }
   .input-group__button:hover {
     box-shadow: none !important;
@@ -103,7 +103,7 @@ input:focus:-moz-placeholder{
   // cursor: pointer;
   position: relative;
   max-width: 100%;
-  text-decoration: none; 
+  text-decoration: none;
 
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -120,14 +120,14 @@ input:focus:-moz-placeholder{
   border: 1px solid transparent;
   padding: $btn-and-field-padding;
 
-  color: $button-color;  
+  color: $button-color;
   background-color: $button-bg;
 
   border-radius: $button-border-radius;
-  transition: 
-    color $anim-time-fast $anim-easing-main, 
-    background-color $anim-time-fast $anim-easing-main, 
-    border-color $anim-time-fast $anim-easing-main, 
+  transition:
+    color $anim-time-fast $anim-easing-main,
+    background-color $anim-time-fast $anim-easing-main,
+    border-color $anim-time-fast $anim-easing-main,
     box-shadow $anim-time-fast $anim-easing-main
   ;
 }
@@ -149,13 +149,13 @@ input:focus:-moz-placeholder{
   background-color: $button-bg--disabled;
   border-color: $button-bg--disabled;
 }
-.button:not(:disabled):not(.disabled) { 
-  cursor: pointer; 
+.button:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
-a.button.disabled, fieldset:disabled a.button { 
-  pointer-events: none; 
+a.button.disabled, fieldset:disabled a.button {
+  pointer-events: none;
 }
-.button:not(:disabled):not(.disabled):active, 
+.button:not(:disabled):not(.disabled):active,
 .button:not(:disabled):not(.disabled).active {
   background-image: none;
 }
@@ -187,13 +187,13 @@ a.button.disabled, fieldset:disabled a.button {
       background-color: $button-bg--red--disabled;
       border-color: $button-bg--red--disabled;
     }
-    &:not(:disabled):not(.disabled):active, 
+    &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled).active {
       background-color: $button-bg--red--active;
       border-color: $button-bg--red--active;
     }
 
-    &:not(:disabled):not(.disabled):active:focus, 
+    &:not(:disabled):not(.disabled):active:focus,
     &:not(:disabled):not(.disabled).active:focus  {
       background-color: $button-bg--red--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--red--active, 0.5);
@@ -218,13 +218,13 @@ a.button.disabled, fieldset:disabled a.button {
       background-color: $button-bg--orange--disabled;
       border-color: $button-bg--orange--disabled;
     }
-    &:not(:disabled):not(.disabled):active, 
+    &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled).active {
       background-color: $button-bg--orange--active;
       border-color: $button-bg--orange--active;
     }
 
-    &:not(:disabled):not(.disabled):active:focus, 
+    &:not(:disabled):not(.disabled):active:focus,
     &:not(:disabled):not(.disabled).active:focus  {
       background-color: $button-bg--orange--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--orange--active, 0.5);
@@ -250,13 +250,13 @@ a.button.disabled, fieldset:disabled a.button {
       background-color: $button-bg--blue--disabled;
       border-color: $button-bg--blue--disabled;
     }
-    &:not(:disabled):not(.disabled):active, 
+    &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled).active {
       background-color: $button-bg--blue--active;
       border-color: $button-bg--blue--active;
     }
 
-    &:not(:disabled):not(.disabled):active:focus, 
+    &:not(:disabled):not(.disabled):active:focus,
     &:not(:disabled):not(.disabled).active:focus  {
       background-color: $button-bg--blue--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--blue--active, 0.5);
@@ -282,13 +282,13 @@ a.button.disabled, fieldset:disabled a.button {
       background-color: $button-bg--green--disabled;
       border-color: $button-bg--green--disabled;
     }
-    &:not(:disabled):not(.disabled):active, 
+    &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled).active {
       background-color: $button-bg--green--active;
       border-color: $button-bg--green--active;
     }
 
-    &:not(:disabled):not(.disabled):active:focus, 
+    &:not(:disabled):not(.disabled):active:focus,
     &:not(:disabled):not(.disabled).active:focus  {
       background-color: $button-bg--green--active;
       box-shadow: 0 0 0 0.2rem rgba($button-bg--green--active, 0.5);
@@ -296,9 +296,47 @@ a.button.disabled, fieldset:disabled a.button {
   } // .button--primary
 
 
+  // Email subscription forms
+  [class*="email-form"] {
+    margin-bottom: 1em;
 
+    label {
+      font-weight: 700;
+    }
 
+    input[type=checkbox] {
+      transform: scale(1.5);
+    }
 
+    ul.flow {
+      --flow-space: 0.5em;
+    }
 
+    .form-control {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5em;
 
+      [type="checkbox"] {
+        flex-shrink: 0;
+      }
+    }
 
+    .form-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
+
+      > :first-child {
+        flex: 0 1 100%;
+      }
+
+      > :nth-child(2) {
+        flex: 0 1 430px;
+      }
+
+      > :last-child {
+        flex: 0 1 200px;
+      }
+    }
+  }
