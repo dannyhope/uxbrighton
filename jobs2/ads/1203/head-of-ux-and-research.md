@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2624576a1bbc6095e67 
-id: 1203  
-shortId: jfhyhyyy77 
+_id: 6422c2624576a1bbc6095e67
+id: 1203
+shortId: jfhyhyyy77
 uuid: 6c2995bb-6f8f-48fa-922e-e90d910da763
 title:
   original: Head of UX and Research
@@ -11,10 +10,10 @@ title:
   inferred:
     canonicalTitle: undefined
     expandedTitle: undefined
-    similiarTitles: undefined 
+    similiarTitles: undefined
 postedDate: "2023-03-26T23:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: London, Hybrid
   textDescription: Hybrid, London
   locations:
@@ -24,7 +23,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.5074
     longitude: -0.1278
-  
   workplace: PART_REMOTE
 hiringOrganization:
   name: Staysure group
@@ -37,7 +35,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://careers.staysure.co.uk/jobs/2587941-head-of-ux-and-research

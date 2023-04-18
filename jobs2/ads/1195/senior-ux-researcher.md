@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2444576a1bbc6095e53 
-id: 1195  
-shortId: ihsgtttt55 
+_id: 6422c2444576a1bbc6095e53
+id: 1195
+shortId: ihsgtttt55
 uuid: dc442561-8302-4f50-97f9-877f9cef3b0c
 title:
   original: Senior UX Researcher
@@ -16,10 +15,10 @@ title:
       - Senior Usability Researcher
       - Senior User Research Analyst
       - Senior User Experience Analyst
-      - Senior User Interface Analyst 
+      - Senior User Interface Analyst
 postedDate: "2023-03-20T00:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: London
   textDescription: London
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.5074
     longitude: -0.1278
-  
   workplace: undefined
 hiringOrganization:
   name: MarshMcLennan
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://careers.marshmclennan.com/global/en/apply/1/1?jobSeqNo=MAMCGLOBALR223499EXTERNALENGLOBAL

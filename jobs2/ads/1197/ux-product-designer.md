@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c24f4576a1bbc6095e5a 
-id: 1197  
-shortId: odwwppli88 
+_id: 6422c24f4576a1bbc6095e5a
+id: 1197
+shortId: odwwppli88
 uuid: 4d22f6c9-2078-4512-87f2-de758d779885
 title:
   original: UX Product Designer
@@ -16,10 +15,10 @@ title:
       - Interaction Designer
       - Visual Designer
       - Product Strategist
-      - User Researcher 
+      - User Researcher
 postedDate: "2023-03-20T00:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: Brighton, Hybrid
   textDescription: Hybrid, Brighton
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 50.82838
     longitude: -0.13947
-  
   workplace: PART_REMOTE
 hiringOrganization:
   name: Brightlocal
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://www.brightlocal.com/careers/#jobform-1261484

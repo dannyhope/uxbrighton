@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2554576a1bbc6095e5e 
-id: 1200  
-shortId: huefuh87 
+_id: 6422c2554576a1bbc6095e5e
+id: 1200
+shortId: huefuh87
 uuid: 541ee384-de38-43b5-aeb8-dcd0f00ff116
 title:
   original: Junior Product Designer
@@ -16,10 +15,10 @@ title:
       - Junior Product Manager
       - Junior UX Designer
       - Junior UI Designer
-      - Junior Software Designer 
+      - Junior Software Designer
 postedDate: "2023-03-24T00:00:00.000Z"
 directApply: true
-jobLocation: 
+jobLocation:
   original: London
   textDescription: London
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.5074
     longitude: -0.1278
-  
   workplace: undefined
 hiringOrganization:
   name: TSB

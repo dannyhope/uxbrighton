@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2424576a1bbc6095e51 
-id: 1194  
-shortId: ujdgetww56 
+_id: 6422c2424576a1bbc6095e51
+id: 1194
+shortId: ujdgetww56
 uuid: b96663cc-a861-4443-9fcd-2c9cf1515bcb
 title:
   original: Product Designer
@@ -16,10 +15,10 @@ title:
       - Product Manager
       - UX Designer
       - UI Designer
-      - Software Designer 
+      - Software Designer
 postedDate: "2023-03-20T00:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: London, Hybrid
   textDescription: Hybrid, London
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.5074
     longitude: -0.1278
-  
   workplace: PART_REMOTE
 hiringOrganization:
   name: Napo
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://careers.napo.pet/jobs/2565362-product-designer

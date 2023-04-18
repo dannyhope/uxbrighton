@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2504576a1bbc6095e5b 
-id: 1198  
-shortId: bbcyyhg87 
+_id: 6422c2504576a1bbc6095e5b
+id: 1198
+shortId: bbcyyhg87
 uuid: c59ed731-8b00-4bf9-a421-7479636ed14d
 title:
   original: Senior UX Designer
@@ -16,10 +15,10 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher 
+      - Senior UX Researcher
 postedDate: "2023-03-24T00:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: London, Hybrid
   textDescription: Hybrid, London
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.5074
     longitude: -0.1278
-  
   workplace: PART_REMOTE
 hiringOrganization:
   name: BBC
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://careershub.bbc.co.uk/members/?j=67041

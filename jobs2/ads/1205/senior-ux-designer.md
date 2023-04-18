@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2654576a1bbc6095e6a 
-id: 1205  
-shortId: jjurs45 
+_id: 6422c2654576a1bbc6095e6a
+id: 1205
+shortId: jjurs45
 uuid: f9cb812e-efba-4554-ae21-c48dea5238fd
 title:
   original: Senior UX Designer
@@ -16,10 +15,10 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher 
+      - Senior UX Researcher
 postedDate: "2023-03-27T23:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: London, Remote
   textDescription: Remote, London
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.509865
     longitude: -0.118092
-  
   workplace: FULLY_REMOTE
 hiringOrganization:
   name: ZAVA
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://boards.greenhouse.io/zava/jobs/6682728002#app

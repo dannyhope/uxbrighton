@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2594576a1bbc6095e61 
-id: 1201  
-shortId: odssaqw06 
+_id: 6422c2594576a1bbc6095e61
+id: 1201
+shortId: odssaqw06
 uuid: bb097db2-c1a9-4808-95aa-c5f3079effdd
 title:
   original: Senior UX Designer
@@ -16,10 +15,10 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher 
+      - Senior UX Researcher
 postedDate: "2023-03-26T23:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: Wembley Stadium
   textDescription: Wembley
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.556
     longitude: -0.27902
-  
   workplace: undefined
 hiringOrganization:
   name: The FA
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://careers.thefa.com/jobs/vacancy/1590/questions/1/

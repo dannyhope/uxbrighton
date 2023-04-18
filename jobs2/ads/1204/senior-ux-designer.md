@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2644576a1bbc6095e68 
-id: 1204  
-shortId: ogh43 
+_id: 6422c2644576a1bbc6095e68
+id: 1204
+shortId: ogh43
 uuid: 55e10047-b21b-40fa-ab95-a7b4ed1bacad
 title:
   original: Senior UX Designer
@@ -16,10 +15,10 @@ title:
       - Senior Interaction Designer
       - Senior Visual Designer
       - Senior Product Designer
-      - Senior UX Researcher 
+      - Senior UX Researcher
 postedDate: "2023-03-27T23:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: London
   textDescription: London
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.5074
     longitude: -0.1278
-  
   workplace: undefined
 hiringOrganization:
   name: The Body Shop
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://careers.thebodyshop.com/job/London-Senior-UX-Designer-LND-SE1-2JP/917678601/?feedId=288301

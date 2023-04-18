@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c25d4576a1bbc6095e63 
-id: 1202  
-shortId: udhfghw63 
+_id: 6422c25d4576a1bbc6095e63
+id: 1202
+shortId: udhfghw63
 uuid: d64923cd-5f5b-4712-90d5-2150e04b9ff6
 title:
   original: Senior UX Researcher - Inspire & Choose
@@ -16,10 +15,10 @@ title:
       - Senior User Interface Researcher
       - Senior Usability Researcher
       - Senior User Experience Analyst
-      - Senior User Experience Strategist 
+      - Senior User Experience Strategist
 postedDate: "2023-03-26T23:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: Hybrid, London
   textDescription: Hybrid, London
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: GB
     latitude: 51.5074
     longitude: -0.1278
-  
   workplace: PART_REMOTE
 hiringOrganization:
   name: Tesco
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://apply.tesco-careers.com/members/?j=797742

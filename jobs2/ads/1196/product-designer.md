@@ -1,8 +1,7 @@
-
 ---
-_id: 6422c2484576a1bbc6095e56 
-id: 1196  
-shortId: sbcgtt36 
+_id: 6422c2484576a1bbc6095e56
+id: 1196
+shortId: sbcgtt36
 uuid: cf270672-b978-4e09-9613-57ff4a343280
 title:
   original: Product Designer
@@ -16,10 +15,10 @@ title:
       - Product Manager
       - UX Designer
       - UI Designer
-      - Software Designer 
+      - Software Designer
 postedDate: "2023-03-20T00:00:00.000Z"
 directApply: false
-jobLocation: 
+jobLocation:
   original: Chichester, Flexible, some travel to Germany
   textDescription: Chichester
   locations:
@@ -29,7 +28,6 @@ jobLocation:
     countryCode: DE
     latitude: undefined
     longitude: undefined
-  
   workplace: undefined
 hiringOrganization:
   name: Lawo
@@ -42,7 +40,6 @@ employmentType:
   - text: Permanent
     code: PERMANENT
     type: contract
-  
   original: Permanent
   textDescription: Permanent
 applicationUrl: https://short.sg/a/27922541
