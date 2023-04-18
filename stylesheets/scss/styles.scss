@@ -24,20 +24,20 @@
   @import '1-elements/3-links';
   @import '1-elements/4-forms';
   @import '1-elements/5-tables';
-  @import '1-elements/6-media'; 
+  @import '1-elements/6-media';
 
 
 
-  @import '2-components/hoverable-caption'; 
-  @import '2-components/responsive-embeds'; 
+  @import '2-components/hoverable-caption';
+  @import '2-components/responsive-embeds';
 
 
 
-  @import '3-layout/1-main-layout'; 
-  @import '3-layout/2-masthead'; 
-  @import '3-layout/3-misc'; 
-  @import '3-layout/4-conference'; 
-  @import '3-layout/5-jobs'; 
+  @import '3-layout/1-main-layout';
+  @import '3-layout/2-masthead';
+  @import '3-layout/3-misc';
+  @import '3-layout/4-conference';
+  @import '3-layout/5-jobs';
 
 
 //    H E L P E R S
@@ -57,7 +57,8 @@
   @import "5-helpers/spacing";
   @import "5-helpers/positioning";
   @import "5-helpers/wrap-fit-and-clear";
-  
+  @import "5-helpers/flow";
+
 // hiding stuff
 
   @import "5-helpers/hidden-misc";
