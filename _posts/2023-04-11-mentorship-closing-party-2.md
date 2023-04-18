@@ -38,6 +38,8 @@ Mentoring can be strangely serendipitous! Carl & Kate will talk about how they
 
 ### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead
 
+[Slides for Carl and Kate's Story (SlideShare)](https://www.slideshare.net/uxbri/carl-smith-carl-and-kates-story)
+
 <img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-right"/>
 
 Carl Smith is a Digital Project Manager and Agile practitioner. Carl has worked as a Graphic Designer, Tech support, Quality assurance, Business development, Product owner and Scrum master.\
@@ -63,6 +65,8 @@ Women’s Aid - developing chat scripts for women who experience domestic abuse
 PHE Talk to Frank - content design for new website including key content around harm reduction and drug information for young people in line with the new government drug strategy.
 
 ### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
+
+[Slides for Are you ready to mentor? (SlideShare)](https://www.slideshare.net/uxbri/sharon-webster-are-you-ready-to-mentor)
 
 <img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-right"/>
 
