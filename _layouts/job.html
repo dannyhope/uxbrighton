@@ -1,9 +1,8 @@
-{%- assign jobTitle = page.job-title -%}
-{%- assign jobEmployer = page.employer -%}
-{%- assign metaDescription = page.description -%}
+{%- assign jobTitle = page.title.original -%}
+{%- assign jobEmployer = page.hiringOrganization.name -%}
+{%- assign metaDescription = page.textDescription -%}
 {%- assign metaFullUrlPerm = page.permalink -%}
 {%- assign metaFullUrlSlug = page.slug -%}
-{%- assign seoIndexing = page.seo -%}
 {%- assign metaSocialImage = page.social-image -%}
 
 <!DOCTYPE html>
@@ -13,7 +12,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
-  <meta name="robots" content="{% if seoIndexing != true %}noindex, nosnippet{% else %}index{% endif %}, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- Google Analytics -->
   {% include tracking-head.html %}
@@ -21,40 +20,38 @@
   <!-- Social media analytics -->
   {% include social-tracking-head.html %}
 
-    {% if seoIndexing == true %}
   <!-- facebook open graph tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
-    <meta property="og:title" content="{{ jobTitle }} | {{ jobEmployer }}">
-    {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
-    {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
+  <meta property="og:title" content="{{ jobTitle }} | {{ jobEmployer }}">
+  {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
+  {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
 
   <!-- twitter card tags additive with the og: tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
-    <meta name="twitter:domain" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
-    <meta name="twitter:title" value="{{ metaTitle }}">
-    {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
-    <meta name="twitter:url" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
+  <meta name="twitter:domain" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
+  <meta name="twitter:title" value="{{ metaTitle }}">
+  {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
+  <meta name="twitter:url" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
 
   <!-- Canonical -->
-    <link rel="canonical" href="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
-    {% endif %}
+  <link rel="canonical" href="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
 
   <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Stylesheets -->
-    <link rel="stylesheet" href="/stylesheets/fonts/museo/sans/font.css">
-    <link rel="stylesheet" href="/stylesheets/css/styles.css?v=2022">
+  <link rel="stylesheet" href="/stylesheets/fonts/museo/sans/font.css">
+  <link rel="stylesheet" href="/stylesheets/css/styles.css">
 
     {% if page.art-direction and page.art-direction != '' %}
     <!-- Page-specific "art direction" styles -->
@@ -221,16 +218,16 @@
         	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l" style="padding-top: 16px;">
 						<aside class="event-detail_meta">
               <div class="job-desc-column">
-                <div class="job-logo mr3" style="background-image: url({{ page.logo-link }});"></div>
-                <div class="job-show-expanded" id="js-job-show-expanded-{{ page.job-id }}">
-                  <h3 id="js-job-title-{{ page.job-id }}" itemprop="title" class="job-title block-link__highlight color-blue mv0 ">{{ jobTitle }}</h3>
-                  <p class="mv0 mt2" itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"><strong itemprop="name">{{ jobEmployer }}</strong></p>
+                <div class="job-logo mr3" style="background-image: url({{ page.hiringOrganization.logo }});"></div>
+                <div class="job-show-expanded">
+                  <h3 class="job-title block-link__highlight color-blue mv0 ">{{ jobTitle }}</h3>
+                  <p class="mv0 mt2"><strong>{{ jobEmployer }}</strong></p>
                   <p class="mb1">
                     {% if page.work-pat %}
                       <span itemprop="employmentType" class="job-meta">{{ page.work-pat }}</span>
                     {% endif %}
                     {% if page.location %}
-                      <span itemprop="addressLocality" class="job-meta">{{ page.location }}</span>
+                      <span itemprop="addressLocality" class="job-meta">{{ page.jobLocation.original }}</span>
                     {% endif %}
                     {% if 1 == 1 %}
                       {% if page.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ page.money }}</span>{% endif %}
@@ -268,13 +265,14 @@
                       <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
                     {% endif %}
                   </p>
-                  <a class="button button--green mt2 pa2 job-top-apply-btn" href="{{ page.apply-link }}">Apply for this job</a>
+                  <a class="button button--green mt2 pa2 job-top-apply-btn" href="{{ page.applicationUrl }}">Apply for this job</a>
                 </div>
               </div>
 						</aside>
         	</div>
         	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top:16px;">
-        		{{ page.extended-description | markdownify }}
+        		{% comment %} {{ page.extended-description | markdownify }} {% endcomment %}
+            {{ content }}
         	</div>
 				</div><!-- row -->
       </div><!-- container -->

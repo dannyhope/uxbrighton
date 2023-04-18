@@ -7,15 +7,7 @@ exclude: [CNAME, 'node_modules']
 
 plugins:
   - jekyll-redirect-from
-  - pagemaster
 
 sass:
   style: compressed
   sass_dir: ./stylesheets/scss
-
-collections:
-  jobs:
-    output: true
-    source: jobs/jobs_test_json.json
-    id_key: job-id
-    layout: job
