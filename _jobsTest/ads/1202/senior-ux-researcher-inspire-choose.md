@@ -46,7 +46,7 @@ applicationUrl: https://apply.tesco-careers.com/members/?j=797742
 applicationType: link
 closedDate: "2023-04-26T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1202/senior-ux-researcher-inspire-choose"
+permalink: "/jobsTest/1202/senior-ux-researcher-inspire-choose"
 layout: job
 ---
 <h2 id="whats-in-it-for-you">What’s in it for you</h2>

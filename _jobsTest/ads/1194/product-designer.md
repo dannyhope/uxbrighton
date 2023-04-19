@@ -46,7 +46,7 @@ applicationUrl: https://careers.napo.pet/jobs/2565362-product-designer
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1194/product-designer"
+permalink: "/jobsTest/1194-test/product-designer"
 layout: job
 ---
 <h2 id="about-napo">About Napo</h2>

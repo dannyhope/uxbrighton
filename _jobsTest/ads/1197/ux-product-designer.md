@@ -46,7 +46,7 @@ applicationUrl: https://www.brightlocal.com/careers/#jobform-1261484
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1197/ux-product-designer"
+permalink: "/jobsTest/1197/ux-product-designer"
 layout: job
 ---
 <h2 id="about-the-role">About The Role</h2>

@@ -43,7 +43,7 @@ applicationUrl: https://career2.successfactors.eu/career?career_ns=job_listing&c
 applicationType: link
 closedDate: "2023-04-24T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1200/junior-product-designer"
+permalink: "/jobsTest/1200/junior-product-designer"
 layout: job
 ---
 <p>At TSB, we're all here to give money confidence to our customers and communities. Wherever you work in TSB, you can make a real difference to your career, our business, and the wider community". we're looking for a Junior Product Designer who is passionate about customer centric design and innovation</p>

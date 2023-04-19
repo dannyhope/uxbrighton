@@ -1,0 +1,380 @@
+---
+layout: basic
+title: Jobs
+subtitle: "UX & Design jobs in London, Brighton and the South East"
+published: true
+description: "The best place to find UX, design and research jobs in Brighton, Sussex, London and the South East of England"
+permalink: /jobsTest/index.html
+---
+<!-- image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg"
+header-image: "https://uxbrighton.org.uk/images/cards/___!!!!!____jobs.jpg" -->
+
+
+<style>
+  .grayscale-until-hover {
+    filter: grayscale(100%);
+    opacity: 0.4;
+    transition: all 0.3s;
+  }
+  .grayscale-until-hover:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
+  .h-col {
+    fill: #bbb;
+  }
+
+
+  .cols-only .hist--low .h-col--1,
+  .cols-only .hist--low .h-col--2,
+  .cols-only .hist--low .h-col--3,
+  .cols-only .hist--low .h-col--4,
+
+
+  .cols-only .hist--low-mid .h-col--4,
+  .cols-only .hist--low-mid .h-col--5,
+  .cols-only .hist--low-mid .h-col--6,
+
+  .cols-only .hist--mid .h-col--5,
+  .cols-only .hist--mid .h-col--6,
+  .cols-only .hist--mid .h-col--7,
+
+  .cols-only .hist--high-mid .h-col--6,
+  .cols-only .hist--high-mid .h-col--7,
+  .cols-only .hist--high-mid .h-col--8,
+
+  .cols-only .hist--high .h-col--8,
+  .cols-only .hist--high .h-col--9,
+  .cols-only .hist--high .h-col--10,
+  .cols-only .hist--high .h-col--11 {
+    fill: #C9003A;
+  }
+
+  .hist--low .h-ul--1,
+  .hist--low .h-ul--2,
+  .hist--low .h-ul--3,
+  .hist--low .h-ul--4,
+
+  .hist--low-mid .h-ul--3,
+  .hist--low-mid .h-ul--4,
+  .hist--low-mid .h-ul--5,
+
+  .hist--mid .h-ul--5,
+  .hist--mid .h-ul--6,
+  .hist--mid .h-ul--7,
+
+  .hist--high-mid .h-ul--7,
+  .hist--high-mid .h-ul--8,
+  .hist--high-mid .h-ul--9,
+
+  .hist--high .h-ul--8,
+  .hist--high .h-ul--9,
+  .hist--high .h-ul--10,
+  .hist--high .h-ul--11 {
+    fill: #C9003A;
+  }
+
+  .job-close, .job-close:hover {
+    text-decoration: none;
+    right: 24px !important;
+  }
+
+  .unless-is-fancy {
+    display: none;
+  }
+  .is-fancy .unless-is-fancy {
+    display: block;
+  }
+
+  .job-desc-column {
+    top: 0;
+    width: 33%;
+  }
+
+  .job-bottom-apply-btn {
+    display: none;
+  }
+  .job-top-apply-btn {
+    display: inline-block;
+  }
+
+  @media only screen and (min-width: 851px) {
+    .job-desc-column {
+      width: 25%;
+    }
+  }
+
+  @media only screen and (max-width: 951px) {
+    @media only screen and (max-width: 650px) {
+      .job-desc-column {
+        width: 100%;
+      }
+      .job-text-extended {
+        margin-top: 24px;
+      }
+      .job-bottom-apply-btn {
+        display: inline-block;
+      }
+      .job-top-apply-btn {
+        display: none;
+      }
+    }
+    .job-desc-column {
+      margin-right: 16px;
+    }
+  }
+
+    /*.h-ul--6,
+    .h-ul--7,
+    .h-ul--8 {
+      fill: #1bab1b;
+    }*/
+  h2 {
+    margin: 1em 0 0.5em;
+  }
+  h2 + h3 {
+    margin: 1em 0 0.5em;
+  }
+
+  hr {
+    margin: 2em 0;
+  }
+
+  .hist {
+      position: relative;
+      z-index: 2;
+  }
+  .job-meta::before {
+    content:  "  ·  "
+  }
+  .job-meta:first-child::before {
+    content:  ""
+  }
+  .job-target .job-show-expanded {
+    display: block !important;
+  }
+
+  .js-sort-list__trigger {
+    border: 0 none;
+    padding: 13px 0 0;
+    background: transparent;
+    color: #80878a;
+    font-weight: 300;
+    margin-right: 3px;
+    outline: none !important;
+  }
+  .js-sort-list__trigger span {
+  }
+  .js-sort-list__trigger span:hover {
+    color: #C9003A;
+    text-decoration: underline;
+  }
+  .no-js .js-sort-list__trigger,
+  .js-sort-list__trigger__label--oldest,
+  .js-sort-list__trigger__label--newest {
+    display: none;
+  }
+  .js-sorted-newest-first .js-sort-list__trigger__label--newest,
+  .js-sorted-oldest-first .js-sort-list__trigger__label--oldest {
+    display: inline;
+  }
+</style>
+
+<div class="clearfix gutters__container">
+
+  <div class="gutters">
+    {% include email-subscriptions/email-subscription-jobs.html %}
+  </div>
+
+  <div class="sticky-body-column u1of4-over-m right-over-m gutters gutter-bottom-under-m">
+    <h2>Post a job ad?</h2>
+    <p>
+      Get in touch with us to post a vacancy for your company – email us via
+      <a href="mailto:jobs@uxbri.org?subject=Post a job on UX Brighton Jobs&amp;body=Hi there, Thanks for your interest in UX Brighton Jobs. The main things we need are your name and phone number, that way we can get in touch with you to chat about your job needs.%0D%0A%0D%0AYour name:%0D%0AYour phone number:%0D%0A%0D%0AIf the job is already advertised somewhere, can you give us a link to it, please?%0D%0A%0D%0ADescription link:%0D%0A%0D%0AWe’ll get back to you ASAP.%0D%0A" title="mailto link includes instructions about what to include">jobs@uxbri.org</a>, then we’ll arrange getting your job advert live.
+    </p>
+	  <!-- <h2>Pay Rank</h2>
+	  <p>When employers hide salaries, pay rank is one way to give some idea of whether the position might be a good fit for you – it shows where the job sits among other recent jobs. We could insist employers show salaries but we don’t because it would unfairly bias salary negotiations so much against the employer. (Employers do share a salary range with us so that we can determining the rank.)</p> -->
+    <div class="unless-is-fancy">
+      <h3 class="mt6 mb2 upcoming__container__heading fs-s track-loose uppercase regular border-bottom pb1">Supporting Employers</h3>
+      <a href="/jobs/company/" class="grayscale-until-hover">
+        <img src="/jobs/logo%402x.png" width="190">
+      </a>
+    </div>
+  </div>
+
+  <div class="u3of4-over-m left-over-m gutters js-sort-list">
+    <h2>Current vacancies</h2>
+
+    {% for job in site.jobsTest %}
+      <h3>{{ job.title.original }}</h3>
+      <a href="{{ job.url }}">View this job</a>
+    {% endfor %}
+
+  </div>
+
+</div>
+
+<script>
+  // function insertCommas(num) {
+  //   for (var j = num.length - 3; j > 0; j-=3) {
+  //     num = num.substring(0, j) + ',' + num.substring(j, num.length);
+  //   }
+  //   return num;
+  // }
+
+  // var salarySpan = document.getElementsByClassName('js-salary-span');
+
+  // for (var i = 0; i < salarySpan.length; i++) {
+  //   salarySpan[i].innerHTML = salarySpan[i].innerHTML.replace(/[1-9]\d{3,}/g, insertCommas);
+  // }
+
+  // var isTouch = window['ontouchstart'] === null;
+  // if (isTouch) {
+  //   var hoverTexts = document.getElementsByClassName('js-hover-text');
+  //   for (var i = 0; i < hoverTexts.length; i++) {
+  //     hoverTexts[i].style.display = null;
+  //   }
+  // }
+
+  // function showHoverText(jobId) {
+  //   if (isTouch) return;
+  //   var isListView = document.getElementById('js-job-title-' + jobId).classList.contains('color-blue');
+  //   var hoverText = document.getElementById('js-hover-text-' + jobId);
+  //   if (isListView && hoverText) {
+  //     hoverText.style.display = null;
+  //   }
+  // }
+
+  // function hideHoverText(jobId) {
+  //   if (isTouch) return;
+  //   var isListView = document.getElementById('js-job-title-' + jobId).classList.contains('color-blue');
+  //   var hoverText = document.getElementById('js-hover-text-' + jobId);
+  //   if (isListView && hoverText) {
+  //     hoverText.style.display = 'none';
+  //   }
+  // }
+
+  // function jobOpen(jobId) {
+  //   var jobShowExpanded = document.getElementById('js-job-show-expanded-' + jobId);
+  //   $('body').addClass('job-open');
+  //   console.log( $('body').attr("class") );
+  //   if (jobShowExpanded) {
+  //     jobShowExpanded.style.display = null;
+  //   }
+  //   var jobHideExpanded = document.getElementById('js-job-hide-expanded-' + jobId);
+  //   if (jobHideExpanded) {
+  //     jobHideExpanded.style.display = 'none';
+  //   }
+  //   var jobTitle = document.getElementById('js-job-title-' + jobId);
+  //   if (jobTitle) {
+  //     jobTitle.classList.remove('color-blue');
+  //     jobTitle.classList.add('job-title-page-style');
+  //     var hoverText = document.getElementById('js-hover-text-' + jobId);
+  //     if (!isTouch && hoverText) {
+  //       hoverText.style.display = null;
+  //     }
+  //   }
+  // }
+
+  // function jobClose(jobId) {
+  //   var jobShowExpanded = document.getElementById('js-job-show-expanded-' + jobId);
+  //   if (jobShowExpanded) {
+  //     jobShowExpanded.style.display = 'none';
+  //   }
+  //   var jobHideExpanded = document.getElementById('js-job-hide-expanded-' + jobId);
+  //   if (jobHideExpanded) {
+  //     jobHideExpanded.style.display = null;
+  //   }
+  //   var jobTitle = document.getElementById('js-job-title-' + jobId);
+  //   jobTitle.classList.add('color-blue');
+  //   jobTitle.classList.remove('job-title-page-style');
+  //   var hoverText = document.getElementById('js-hover-text-' + jobId);
+  //   if (!isTouch && hoverText) {
+  //     hoverText.style.display = 'none';
+  //   }
+  // }
+
+  // if (window.hashFragment) {
+  //   var jobId = window.location.hash.substring(1);
+  //   jobOpen(jobId);
+  // }
+
+  // window.addEventListener('hashchange', function() {
+  //   var body = document.getElementsByTagName('body')[0];
+
+  //   if (body.classList.contains('job-open') && window.location.hash.length <= 1) {
+  //     $('.job-close').trigger('click');
+  //   }
+  // });
+</script>
+<script>
+
+
+
+  // if (window.location.href.indexOf('cols') > 0) {
+  //   root.className += ' cols-only';
+  // }
+
+
+  // if (window.location.href.indexOf('fancy') > 0) {
+  //   root.className += ' is-fancy';
+  // }
+
+
+
+  // $(function() {
+  //   if ( (window.location.href.indexOf('#') > 0) && (window.location.href.indexOf('-info') < 1) ) {
+  //     console.log('=)');
+  //     if(window.location.hash) {
+  //       var this_hash = window.location.hash.substring(1);
+  //       console.log('hash',this_hash);
+  //       var target = document.getElementById(this_hash);
+  //       target.classList.add("job-target");
+  //       jobOpen(this_hash);
+  //     }
+  //     window.the_pos = 0;
+  //     window.hashFragment = window.location.hash;
+  //     setTimeout(function() {
+  //       window.scrollTo(0, 0);
+  //     }, 1);
+  //   } else {
+  //     window.hashFragment = false;
+  //     window.addEventListener("popstate", function(){
+  //       $('.job-close').click();
+  //       history.pushState(null, null, document.url);
+  //     });
+  //   }
+  // });
+
+</script>
+<script>
+// $(function() {
+//   $("body").addClass('js-sorted-newest-first');
+//   $(".js-sort-list__trigger").click(function() {
+
+//     var ul = $('.js-sort-list'),
+//         li = ul.children('.js-sort-list__child');
+
+//     // console.log('ul',ul);
+//     // console.log('li',li);
+
+//     if ( $("body").hasClass('js-sorted-newest-first') ) {
+//       $("body").removeClass('js-sorted-newest-first');
+//       $("body").addClass('js-sorted-oldest-first');
+//       li.detach().sort(function(a,b) {
+//         return $(a).data('sortdown') - $(b).data('sortdown');
+//       });
+//     } else {
+//       $("body").addClass('js-sorted-newest-first');
+//       $("body").removeClass('js-sorted-oldest-first');
+//       li.detach().sort(function(a,b) {
+//         return $(a).data('sortup') - $(b).data('sortup');
+//       });
+//     }
+
+//     ul.append(li);
+//   });
+
+// });
+</script>

@@ -46,7 +46,7 @@ applicationUrl: https://short.sg/a/27922541
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1196/product-designer"
+permalink: "/jobsTest/1196/product-designer"
 layout: job
 ---
 <p><strong>Lawo designs, manufactures, and sells cutting-edge networked video, audio, and control systems for television, radio, and live performance applications all over the world. Chances are, if you've watched a live event on TV, listened to the radio, or been to a live performance, then Lawo products have helped create the sound and pictures. Check us out at <a href="https://lawo.com/">https://lawo.com/</a></strong></p>

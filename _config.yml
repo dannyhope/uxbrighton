@@ -5,9 +5,17 @@ permalink: /:title/
 future: true
 exclude: [CNAME, 'node_modules']
 
+# Plugins
 plugins:
   - jekyll-redirect-from
 
+# Where to look when Jekyll building styles
 sass:
   style: compressed
   sass_dir: ./stylesheets/scss
+
+# Collections
+collections:
+  # Name of the collection needs to correspond with a directory that has an underscore prefix in the name
+  jobsTest:
+    output: true

@@ -46,7 +46,7 @@ applicationUrl: https://careershub.bbc.co.uk/members/?j=67041
 applicationType: link
 closedDate: "2023-04-24T00:00:00.000Z"
 status: LIVE
-permalink: "/jobs2/1198/senior-ux-designer"
+permalink: "/jobsTest/1198/senior-ux-designer"
 layout: job
 ---
 <h2 id="package-description">Package Description</h2>
