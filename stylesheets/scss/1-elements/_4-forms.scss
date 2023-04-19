@@ -341,10 +341,10 @@ a.button.disabled, fieldset:disabled a.button {
     }
   }
 
-  .email-subscription- {
+  .email-subscription-- {
 
     // Default email subscription form
-    &-default {
+    &default {
       .form-message {
         p {
           font-size: $size-h2;
@@ -357,10 +357,22 @@ a.button.disabled, fieldset:disabled a.button {
     }
 
     // Jobs email subscription form
-    &-jobs {
+    &jobs {
       .form-message {
         p {
           font-weight: 700;
+        }
+      }
+    }
+
+    // Minimal email subscription form
+    &minimal {
+      .form-cta {
+        > :nth-child(2),
+        > :last-child {
+          flex-grow: 1;
+          flex-basis: auto;
+          max-width: 100%;
         }
       }
     }
