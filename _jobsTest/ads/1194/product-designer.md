@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://careers.napo.pet/jobs/2565362-product-designer
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobsTest/1194-test/product-designer"
 layout: job

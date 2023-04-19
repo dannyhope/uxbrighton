@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://www.brightlocal.com/careers/#jobform-1261484
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
+salary:
+  original: £33000-45000
+  textDescription: £33,000 - £45,000
+  currencyCode: GBP
+  currancySymbol: £
+  minValue: 33000
+  maxValue: 45000
 status: LIVE
 permalink: "/jobsTest/1197/ux-product-designer"
 layout: job

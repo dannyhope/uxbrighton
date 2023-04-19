@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://boards.greenhouse.io/zava/jobs/6682728002#app
 applicationType: link
 closedDate: "2023-04-27T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobsTest/1205/senior-ux-designer"
 layout: job

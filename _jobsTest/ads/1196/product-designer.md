@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://short.sg/a/27922541
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobsTest/1196/product-designer"
 layout: job

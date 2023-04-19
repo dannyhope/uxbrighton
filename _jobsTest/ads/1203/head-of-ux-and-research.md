@@ -40,6 +40,13 @@ employmentType:
 applicationUrl: https://careers.staysure.co.uk/jobs/2587941-head-of-ux-and-research
 applicationType: link
 closedDate: "2023-04-28T00:00:00.000Z"
+salary:
+  original: £120000-120000
+  textDescription: £120,000
+  currencyCode: GBP
+  currancySymbol: £
+  minValue: 120000
+  maxValue: 120000
 status: LIVE
 permalink: "/jobsTest/1203/head-of-ux-and-research"
 layout: job

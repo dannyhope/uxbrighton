@@ -3,16 +3,8 @@ layout: generic
 title: Media
 subtitle: Videos and slides from past UX Brighton events
 description: Videos and slides from past UX Brighton events
-permalink: media
-redirect_from:
-  - v
-  - vid
-  - vids
-  - video
-  - videos
-  - slides
-  - slidedecks
-  - slide-decks
+permalink: media2
+redirect_from: []
 seo: true
 ---
 ## [Mentorship Check-in](https://uxbri.org/mentorship-check-in)
@@ -24,5 +16,6 @@ seo: true
 
 ## Media from all events
 
-* [Videos (YouTube)](https://www.youtube.com/@uxbri/videos)
-* [Slide decks (Slideshare)](https://www.slideshare.net/uxbri/presentations)
+* **Videos** are on [YouTube](https://youtube.com/@uxbri)
+* **All our images** are on [Flickr](https://www.flickr.com/photos/uxbrighton/), some are on [Instagram](https://www.instagram.com/uxbrighton/)
+* **Slides** from some sessions are on [SlideShare](https://www.slideshare.net/uxbri). Not all decks are here as speakers often publish them under their own name.

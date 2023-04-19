@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Is impact mapping the service designer’s secret weapon?
+title: "Impact mapping: the Service Designer’s secret weapon"
 description: Join cxpartners in this workshop where we'll be working through the
   steps of developing an impact map, as both a process and a tool for setting
   clear intent around the impact we want to achieve in our projects, and mapping

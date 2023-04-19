@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://careers.thebodyshop.com/job/London-Senior-UX-Designer-LND-SE1-2JP/917678601/?feedId=288301
 applicationType: link
 closedDate: "2023-04-27T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobsTest/1204/senior-ux-designer"
 layout: job
