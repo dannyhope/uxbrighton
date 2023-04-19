@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://careers.marshmclennan.com/global/en/apply/1/1?jobSeqNo=MAMCGLOBALR223499EXTERNALENGLOBAL
 applicationType: link
 closedDate: "2023-04-20T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobs2/1195/senior-ux-researcher"
 layout: job

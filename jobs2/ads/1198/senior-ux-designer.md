@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://careershub.bbc.co.uk/members/?j=67041
 applicationType: link
 closedDate: "2023-04-24T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobs2/1198/senior-ux-designer"
 layout: job

@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://careers.thefa.com/jobs/vacancy/1590/questions/1/
 applicationType: link
 closedDate: "2023-04-26T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobs2/1201/senior-ux-designer"
 layout: job

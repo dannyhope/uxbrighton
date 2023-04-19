@@ -45,6 +45,13 @@ employmentType:
 applicationUrl: https://apply.tesco-careers.com/members/?j=797742
 applicationType: link
 closedDate: "2023-04-26T00:00:00.000Z"
+salary:
+  original: undefined
+  textDescription: undefined
+  currencyCode: undefined
+  currancySymbol: undefined
+  minValue: undefined
+  maxValue: undefined
 status: LIVE
 permalink: "/jobs2/1202/senior-ux-researcher-inspire-choose"
 layout: job
