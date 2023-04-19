@@ -297,7 +297,7 @@ a.button.disabled, fieldset:disabled a.button {
 
 
   // Email subscription forms
-  [class*="email-form"] {
+  [class*="email-subscription"] {
     margin-bottom: 1em;
 
     label {
@@ -339,4 +339,30 @@ a.button.disabled, fieldset:disabled a.button {
         flex: 0 1 200px;
       }
     }
+  }
+
+  .email-subscription- {
+
+    // Default email subscription form
+    &-default {
+      .form-message {
+        p {
+          font-size: $size-h2;
+          font-weight: 900;
+          letter-spacing: -.025em;
+          line-height: 1.333;
+          margin-bottom: 0.5em;
+        }
+      }
+    }
+
+    // Jobs email subscription form
+    &-jobs {
+      .form-message {
+        p {
+          font-weight: 700;
+        }
+      }
+    }
+
   }

@@ -1,36 +1,39 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
-<div id="email-subscription-form flow">
-  <h2>I'd like to receive&hellip;</h2>
-  <form method="post" autocomplete="off" name="google-sheet" id="form" class="email-form--default flow">
-    <fieldset>
-      <legend class="visually-hidden">Email newsletter options</legend>
-      <ul class="no-list flow">
-        <li class="form-control">
-          <input type="checkbox" id="field_0" name="Conference & workshop news" class="form-control" checked>
-          <label for="field_0">Conference & workshop news</label>
-        </li>
-        <li class="form-control">
-          <input type="checkbox" id="field_1" name="Evening event news" class="form-control" checked>
-          <label for="field_1">Evening event news</label>
-        </li>
-        <li class="form-control">
-          <input type="checkbox" id="field_2" name="Job alerts" class="form-control" checked>
-          <label for="field_2">Job alerts</label>
-        </li>
-        <li class="form-control">
-          <input type="checkbox" id="field_3" name="Interesting links" class="form-control" checked>
-          <label for="field_3">Interesting links picked by the UX Brighton team</label>
-        </li>
-      </ul>
-    </fieldset>
-    <div class="form-cta">
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="Email address" class="form-control" required>
-      <input type="submit" name="submit" value="Subscribe" class="button button--green bold mb0">
-    </div>
-  </form>
+<div class="email-subscription--default">
+  <div class="form-content flow">
+    <h2>I'd like to receive&hellip;</h2>
+    <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
+      <fieldset>
+        <legend class="visually-hidden">Email newsletter options</legend>
+        <ul class="no-list flow">
+          <li class="form-control">
+            <input type="checkbox" id="field_0" name="Conference & workshop news" class="form-control" checked>
+            <label for="field_0">Conference & workshop news</label>
+          </li>
+          <li class="form-control">
+            <input type="checkbox" id="field_1" name="Evening event news" class="form-control" checked>
+            <label for="field_1">Evening event news</label>
+          </li>
+          <li class="form-control">
+            <input type="checkbox" id="field_2" name="Job alerts" class="form-control" checked>
+            <label for="field_2">Job alerts</label>
+          </li>
+          <li class="form-control">
+            <input type="checkbox" id="field_3" name="Interesting links" class="form-control" checked>
+            <label for="field_3">Interesting links picked by the UX Brighton team</label>
+          </li>
+        </ul>
+      </fieldset>
+      <div class="form-cta">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="Email address" class="form-control" required>
+        <input type="submit" name="submit" value="Subscribe" class="button button--green bold mb0">
+      </div>
+    </form>
+  </div>
+
   {% comment %} Completion message {% endcomment %}
-  <div id="form-message" style="display: none;">
-    Thanks. We’ll be in touch soon.
+  <div class="form-message" style="display: none;">
+    <p>Thanks, you're subscribed.</p>
   </div>
 </div>

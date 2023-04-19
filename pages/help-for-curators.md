@@ -4,7 +4,7 @@ title: Curate
 pretitle: ""
 subtitle: Tips for curating a UX Brighton evening event
 description: ""
-permalink: curate
+permalink: curate_old
 seo: true
 ---
 Guidance docs for the customer
