@@ -3,16 +3,8 @@ layout: generic
 title: Media
 subtitle: Videos and slides from past UX Brighton events
 description: Videos and slides from past UX Brighton events
-permalink: media
-redirect_from:
-  - v
-  - vid
-  - vids
-  - video
-  - videos
-  - slides
-  - slidedecks
-  - slide-decks
+permalink: media2
+redirect_from: []
 seo: true
 ---
 ## [Mentorship Check-in](https://uxbri.org/mentorship-check-in)
