@@ -10,8 +10,8 @@ event-date: 2022-02-08
 seo: true
 
 description: "UX Brighton Show & Tell 21, Tuesday 8 February 2022, 7-9pm on Google Meet. A supportive meetup for sharing, advice and discussion."
-image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
-upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
+image: "/images/cards/show-and-tell-8-twitter.png"
+upcoming-bg-image: "/images/events/show-and-tell.jpg"
 
 ---
 

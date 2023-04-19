@@ -13,7 +13,7 @@ seo: true
 ticket-link: https://docs.google.com/document/d/1VuZzoXK4Ef33rgy2XBCpWMY-cn5W2WU2qZCin6sAX_k/edit#
 description: "This is a low-key event – small enough that everybody in the room can know each other’s names. A safe environment for talking about unfinished ideas etc."
 fullurl: https://uxbrighton.org.uk/show-&-tell-4/
-image: "https://uxbrighton.org.uk/images/cards/show-and-tell-4-twitter.jpg"
+image: "/images/cards/show-and-tell-4-twitter.jpg"
 upcoming-bg-image: "/images/events/show-and-tell.jpg"
 
 ---

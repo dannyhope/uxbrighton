@@ -11,8 +11,8 @@ seo: true
 
 description: "This is a low-key event for people of all levels of UX experience. A supportive environment for talking about unfinished ideas and work-in-progress."
 fullurl: https://uxbri.org/show-&-tell-6/
-image: "https://uxbri.org/images/cards/show-and-tell-6-twitter.jpg"
-upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
+image: "/images/cards/show-and-tell-6-twitter.jpg"
+upcoming-bg-image: "/images/events/show-and-tell.jpg"
 
 ---
 

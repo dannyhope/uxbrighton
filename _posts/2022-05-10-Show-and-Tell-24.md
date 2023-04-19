@@ -10,8 +10,8 @@ event-date: 2022-05-10
 seo: true
 
 description: "UX Brighton Show & Tell 24, Tuesday 10 May 2022, 7-9pm at the Skiff in Brighton. A supportive meetup for sharing, advice and discussion."
-image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
-upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
+image: "/images/cards/show-and-tell-8-twitter.png"
+upcoming-bg-image: "/images/events/show-and-tell.jpg"
 
 ---
 
