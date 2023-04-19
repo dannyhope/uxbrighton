@@ -7,10 +7,7 @@
         <p>{{ homepage.hero.pre.button.extra-text }}</p>
       {% endif %}
     </div>
-  {% endif %}<!--
-  <h2 class="mb2 mt4">Stay updated</h2>
-  <p>Join our newsletter for announcements and information about future events.</p> -->
+  {% endif %}
   {% assign id = 2022 %}
-  <h2 class="mb2 mt4">Stay updated</h2>
-  <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
+  {% include email-subscriptions/email-subscription-minimal.html %}
 </aside>
