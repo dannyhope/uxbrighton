@@ -1,6 +1,6 @@
 ---
 layout: generic
-title: About new
+title: About
 permalink: about
 redirect_from:
   - /about-us
@@ -24,11 +24,11 @@ Event Manager Annie-Marie Page
 
 ### Advocates and volunteers
 
-Luke
+Luke Hay
 
 ## History
 
-2008 – Danny did a talk at [BarCamp Brighton 2](http://barcamp.org/w/page/400551/BarCampBrighton2). The idea of founding a group was discussed. Jenny made a page for the idea. The next day we had loads of signups. Our innagural event was on \_date\_.
+2008 – Danny spoke at [BarCamp Brighton 2](http://barcamp.org/w/page/400551/BarCampBrighton2). The idea of founding a group was discussed. Jenny made a page for the idea. The next day we had loads of signups. Our innagural event was on 15 April 2008.
 
 ## [Curate an event](/curate)
 
