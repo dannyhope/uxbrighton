@@ -4,11 +4,7 @@ title: About
 description: UX Brighton is a community group disseminating knowledge about all
   aspects of user experience, founded in 2008 by Danny Hope.
 image: /images/uxbrightonlights.jpg
-permalink: about
-redirect_from:
-  - /about-us
-  - /contact
-  - /contact-us
+permalink: about-old
 seo: true
 art-direction: |-
   .overlay__inner {
