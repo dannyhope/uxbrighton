@@ -36,7 +36,7 @@ hiringOrganization:
   shortId: Hsrho0c7
   uuid: f51c36ee-d7ab-4cc0-bba7-b208b7d7f2ee
 employmentType:
-  typeInfo:
+  typeInfo: 
   - text: Permanent
     code: PERMANENT
     type: contract

@@ -36,7 +36,7 @@ hiringOrganization:
   shortId: 3Cz0ad1K
   uuid: c25e4c44-2f96-4684-9895-c7daa9fce26a
 employmentType:
-  typeInfo:
+  typeInfo: 
   - text: Permanent
     code: PERMANENT
     type: contract

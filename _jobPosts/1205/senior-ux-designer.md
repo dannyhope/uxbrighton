@@ -36,7 +36,7 @@ hiringOrganization:
   shortId: y3jBU730
   uuid: fe385aa0-8bcf-4b76-86bb-6f691a4bc62f
 employmentType:
-  typeInfo:
+  typeInfo: 
   - text: Permanent
     code: PERMANENT
     type: contract
