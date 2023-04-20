@@ -285,7 +285,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.9.2)
   webrick (~> 1.7)
 
 RUBY VERSION

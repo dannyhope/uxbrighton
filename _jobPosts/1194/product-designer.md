@@ -53,7 +53,7 @@ salary:
   minValue: undefined
   maxValue: undefined
 status: LIVE
-permalink: "/jobs2/1194/product-designer"
+permalink: "/jobs2/1194-test/product-designer"
 layout: job
 ---
 <h2 id="about-napo">About Napo</h2>

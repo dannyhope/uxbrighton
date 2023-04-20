@@ -1,0 +1,99 @@
+---
+layout: basic
+title: Jobs
+subtitle: "UX & Design jobs in London, Brighton and the South East"
+published: true
+description: "The best place to find UX, design and research jobs in Brighton, Sussex, London and the South East of England"
+permalink: /jobs2/index.html
+---
+
+<style>
+  .unless-is-fancy {
+    display: none;
+  }
+
+  .is-fancy .unless-is-fancy {
+    display: block;
+  }
+
+  .job-desc-column {
+    width: 33%;
+  }
+
+  @media only screen and (min-width: 851px) {
+    .job-desc-column {
+      width: 25%;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .job-desc-column {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 951px) {
+    .job-desc-column {
+      margin-right: 16px;
+    }
+  }
+
+  h2 {
+    margin: 1em 0 0.5em;
+  }
+
+  h2 + h3 {
+    margin: 1em 0 0.5em;
+  }
+</style>
+
+<div class="clearfix gutters__container">
+
+  <div class="gutters">
+    {% include email-subscriptions/email-subscription-jobs.html %}
+  </div>
+
+  <div class="sticky-body-column u1of4-over-m right-over-m gutters gutter-bottom-under-m">
+    <h2>Post a job ad?</h2>
+    <p>
+      Get in touch with us to post a vacancy for your company – email us via
+      <a href="mailto:jobs@uxbri.org?subject=Post a job on UX Brighton Jobs&amp;body=Hi there, Thanks for your interest in UX Brighton Jobs. The main things we need are your name and phone number, that way we can get in touch with you to chat about your job needs.%0D%0A%0D%0AYour name:%0D%0AYour phone number:%0D%0A%0D%0AIf the job is already advertised somewhere, can you give us a link to it, please?%0D%0A%0D%0ADescription link:%0D%0A%0D%0AWe’ll get back to you ASAP.%0D%0A" title="mailto link includes instructions about what to include">jobs@uxbri.org</a>, then we’ll arrange getting your job advert live.
+    </p>
+
+    {% comment %} What is this??? {% endcomment %}
+    <div class="unless-is-fancy">
+      <h3 class="mt6 mb2 upcoming__container__heading fs-s track-loose uppercase regular border-bottom pb1">Supporting Employers</h3>
+      <a href="/jobs/company/" class="grayscale-until-hover">
+        <img src="/jobs/logo%402x.png" width="190">
+      </a>
+    </div>
+  </div>
+
+  <div class="u3of4-over-m left-over-m gutters js-sort-list">
+    <h2>Current vacancies</h2>
+
+    <ul class="job_list no-list">
+      {% comment %} Loop through `jobPosts` collection {% endcomment %}
+      {% for job in site.jobPosts %}
+        <li class="job_item">
+          <a href="{{ job.url }}" class="drop rounded">
+            <div class="job-info pa3">
+              <div class="container">
+                <div class="job-desc-column sticky-body-column left-over-s">
+                  <div class="job-logo mr3" style="background-image: url({{ job.hiringOrganization.logo }});"></div>
+                </div>
+                <div class="job-text table">
+                  <h3 class="job-title block-link__highlight color-blue mv0">{{ job.title.original }}</h3>
+                  <p class="mv0"><strong>{{ job.hiringOrganization.name }}</strong></p>
+                  <p class="mv0"><span class="job-meta">{{ job.jobLocation.original }}</span></p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+</div>

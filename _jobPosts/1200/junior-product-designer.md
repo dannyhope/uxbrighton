@@ -36,7 +36,7 @@ hiringOrganization:
   shortId: 8V87kPej
   uuid: 85e491b0-098a-4868-b635-52df1a72f09a
 employmentType:
-  typeInfo:undefined
+  typeInfo: undefined
   original: undefined
   textDescription: undefined
 applicationUrl: https://career2.successfactors.eu/career?career_ns=job_listing&company=tsbukprod&navBarLevel=JOB_SEARCH&rcm_site_locale=en_GB&site=VjItSmFoc1VqUEliN25XSmxwcnB4TjZ5QT09&career_job_req_id=29191
