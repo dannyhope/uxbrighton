@@ -53,7 +53,7 @@ salary:
   minValue: undefined
   maxValue: undefined
 status: LIVE
-permalink: "/jobsTest/1205/senior-ux-designer"
+permalink: "/jobs2/1205/senior-ux-designer"
 layout: job
 ---
 <h2 id="about-zava">About ZAVA</h2>

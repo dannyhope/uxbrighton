@@ -53,7 +53,7 @@ salary:
   minValue: undefined
   maxValue: undefined
 status: LIVE
-permalink: "/jobsTest/1202/senior-ux-researcher-inspire-choose"
+permalink: "/jobs2/1202/senior-ux-researcher-inspire-choose"
 layout: job
 ---
 <h2 id="whats-in-it-for-you">What’s in it for you</h2>

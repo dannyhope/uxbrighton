@@ -53,7 +53,7 @@ salary:
   minValue: undefined
   maxValue: undefined
 status: LIVE
-permalink: "/jobsTest/1196/product-designer"
+permalink: "/jobs2/1196/product-designer"
 layout: job
 ---
 <p><strong>Lawo designs, manufactures, and sells cutting-edge networked video, audio, and control systems for television, radio, and live performance applications all over the world. Chances are, if you've watched a live event on TV, listened to the radio, or been to a live performance, then Lawo products have helped create the sound and pictures. Check us out at <a href="https://lawo.com/">https://lawo.com/</a></strong></p>

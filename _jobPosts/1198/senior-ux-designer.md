@@ -53,7 +53,7 @@ salary:
   minValue: undefined
   maxValue: undefined
 status: LIVE
-permalink: "/jobsTest/1198/senior-ux-designer"
+permalink: "/jobs2/1198/senior-ux-designer"
 layout: job
 ---
 <h2 id="package-description">Package Description</h2>

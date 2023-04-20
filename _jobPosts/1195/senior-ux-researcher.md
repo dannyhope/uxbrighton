@@ -53,7 +53,7 @@ salary:
   minValue: undefined
   maxValue: undefined
 status: LIVE
-permalink: "/jobsTest/1195/senior-ux-researcher"
+permalink: "/jobs2/1195/senior-ux-researcher"
 layout: job
 ---
 <p>Darwin is part of Mercer Marsh Benefits (MMB), a 7,000-person strong community of specialists in health, benefits, and employee wellbeing. This affords us a massive opportunity to impact the lives of tens of millions of people around the world. Darwin is changing benefits for good in eight out of the top ten technology companies in the world and has a wealth of clients across a diverse range of sectors. In fact, more than 2 million people are already using our platform.</p>

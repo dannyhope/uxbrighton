@@ -17,5 +17,5 @@ sass:
 # Collections
 collections:
   # Name of the collection needs to correspond with a directory that has an underscore prefix in the name
-  jobsTest:
+  jobPosts:
     output: true

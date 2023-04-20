@@ -53,7 +53,7 @@ salary:
   minValue: undefined
   maxValue: undefined
 status: LIVE
-permalink: "/jobsTest/1201/senior-ux-designer"
+permalink: "/jobs2/1201/senior-ux-designer"
 layout: job
 ---
 <h2 id="have-the-digital-world-at-your-feet">Have the digital world at your feet...</h2>

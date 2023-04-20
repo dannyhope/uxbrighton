@@ -53,7 +53,7 @@ salary:
   minValue: 33000
   maxValue: 45000
 status: LIVE
-permalink: "/jobsTest/1197/ux-product-designer"
+permalink: "/jobs2/1197/ux-product-designer"
 layout: job
 ---
 <h2 id="about-the-role">About The Role</h2>
