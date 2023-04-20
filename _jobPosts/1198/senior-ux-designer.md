@@ -36,7 +36,7 @@ hiringOrganization:
   shortId: rkfN7jg2
   uuid: 838a5944-9dae-4f24-955e-5a0b4c308127
 employmentType:
-  typeInfo:
+  typeInfo: 
   - text: Permanent
     code: PERMANENT
     type: contract

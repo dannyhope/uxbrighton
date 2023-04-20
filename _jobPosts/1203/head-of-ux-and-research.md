@@ -31,7 +31,7 @@ hiringOrganization:
   shortId: Aa16yup6
   uuid: 8298893b-537d-4f6a-9806-f0f994a8126c
 employmentType:
-  typeInfo:
+  typeInfo: 
   - text: Permanent
     code: PERMANENT
     type: contract
