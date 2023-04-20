@@ -178,7 +178,7 @@
                   {% if page.upcoming == true %}
                     <section class="event-meta">
                       {% if page.ticket.state == 'Ticketed' %}
-                        <a href="{{page.ticket.link}}" class="button button--green fill mt1" title="{{page.title}} tickets" target="_blank">
+                        <a href="{{page.ticket.link}}" class="button button--green fill pa2 mt1" title="{{page.title}} tickets" target="_blank">
                           {% capture price %}{{ page.ticket.price | downcase}}{% endcapture %}
                           <span class="bold block mb1">{% if page.ticket.price == 'Free' %}Get your ticket{% else %}Buy your ticket{% endif %}</span> {% if page.ticket.price %}{{page.ticket.price}}{% endif %}
                         </a>
