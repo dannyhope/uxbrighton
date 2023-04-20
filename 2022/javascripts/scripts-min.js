@@ -106,7 +106,7 @@
       $('body').removeClass('scroll-started');
     }
 
-    var in_page_nav = document.querySelector('.nav--in-page'); 
+    var in_page_nav = document.querySelector('.nav--in-page');
     if (!in_page_nav) {
       //var in_page_nav_pos_top = 0;
     } else {
@@ -129,9 +129,9 @@
         $("body").attr('data-overlay-active','false');
       } else {
         $('body').removeClass('speaker-grid-is-stuck');
-      } 
+      }
     }
-    
+
 
   }
 
@@ -287,10 +287,10 @@
       });
     });
   };
-  
+
   // Internal counter for unique video names.
   $.fn.fitVids._count = 0;
-  
+
 // Works with either jQuery or Zepto
 })( window.jQuery || window.Zepto );
 
@@ -1031,58 +1031,58 @@ $(function() {
   // }
 
 
-  // $('.job-open').on('click', function(e){
-  //   if (this.tagName !== 'A') return;
+  $('.job-open').on('click', function(e){
+    if (this.tagName !== 'A') return;
 
-  //   e.preventDefault();
+    e.preventDefault();
 
-  //   window.the_pos = $(document).scrollTop();
+    window.the_pos = $(document).scrollTop();
 
-  //   if ( $(this).closest('.job').hasClass('job-target') ) {
+    if ( $(this).closest('.job').hasClass('job-target') ) {
 
-  //     $(this).closest('.job').removeClass('job-target');
-  //     $('body').removeClass('job-open');
-  //     $(this).closest('.job').find('.job-info').attr('style','');
+      $(this).closest('.job').removeClass('job-target');
+      $('body').removeClass('job-open');
+      $(this).closest('.job').find('.job-info').attr('style','');
 
-  //   } else {
+    } else {
 
-  //     _job = "#" + $(this).closest('.job').attr('id');
-  //     history.pushState(null, null, _job);
+      _job = "#" + $(this).closest('.job').attr('id');
+      history.pushState(null, null, _job);
 
-  //     _target   = $(this).closest('.job').find('.job-info');
-  //     _width    = _target.width();
-  //     _height   = _target.height();
-  //     _top      = _target[0].getBoundingClientRect().top;
-  //     _left     = _target[0].getBoundingClientRect().left;
+      _target   = $(this).closest('.job').find('.job-info');
+      _width    = _target.width();
+      _height   = _target.height();
+      _top      = _target[0].getBoundingClientRect().top;
+      _left     = _target[0].getBoundingClientRect().left;
 
-  //     _target.css({
-  //       "height": _height,
-  //       "width":  _width,
-  //       "top":    _top,
-  //       "left":   _left,
-  //       "position": "fixed"
-  //     }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
+      _target.css({
+        "height": _height,
+        "width":  _width,
+        "top":    _top,
+        "left":   _left,
+        "position": "fixed"
+      }).closest('.job').addClass('job-target').closest('body').addClass('job-open');
 
-  //   } // else
-  // });
-
-
+    } // else
+  });
 
 
-  // $('.job-close').on('click', function(e){
-  //   if (this.tagName !== 'A') return;
-  //   history.pushState(null, null, '#');
-  //   e.preventDefault();
-  //   e.stopPropagation();
 
-  //   $(this).closest('.job').removeClass('job-target');
-  //   $('body').removeClass('job-open');
-  //   $(this).closest('.job').find('.job-info').attr('style','');
 
-  //   setTimeout(function() {
-  //     window.scrollTo(the_pos, 0);
-  //   }, 1);
-  // });
+  $('.job-close').on('click', function(e){
+    if (this.tagName !== 'A') return;
+    history.pushState(null, null, '#');
+    e.preventDefault();
+    e.stopPropagation();
+
+    $(this).closest('.job').removeClass('job-target');
+    $('body').removeClass('job-open');
+    $(this).closest('.job').find('.job-info').attr('style','');
+
+    setTimeout(function() {
+      window.scrollTo(the_pos, 0);
+    }, 1);
+  });
 
 
 
