@@ -302,9 +302,9 @@
         },
         "baseSalary": {
           "@type": "MonetaryAmount",
-          "currency": "GPB",
-          "minValue": "{{ page.money-min }}",
-          "maxValue": "{{ page.money-max }}"
+          "currency": "{{ page.salary.currencyCode }}",
+          "minValue": "{{ page.salary.currancySymbol }}{{ page.salary.minValue }}",
+          "maxValue": "{{ page.salary.currancySymbol }}{{ page.salary.maxValue }}"
         }
       }
     </script>

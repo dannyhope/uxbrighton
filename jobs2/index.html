@@ -38,6 +38,10 @@ permalink: /jobs2/index.html
     }
   }
 
+  .job-meta:not(:first-child):before {
+    content: " · "
+  }
+
   h2 {
     margin: 1em 0 0.5em;
   }
@@ -80,12 +84,23 @@ permalink: /jobs2/index.html
             <div class="job-info pa3">
               <div class="container">
                 <div class="job-desc-column sticky-body-column left-over-s">
-                  <div class="job-logo mr3" style="background-image: url({{ job.hiringOrganization.logo }});"></div>
+                  <div class="job-logo mr3" style="background-image: url('{{ job.hiringOrganization.logo }}');"></div>
                 </div>
                 <div class="job-text table">
                   <h3 class="job-title block-link__highlight color-blue mv0">{{ job.title.original }}</h3>
                   <p class="mv0"><strong>{{ job.hiringOrganization.name }}</strong></p>
-                  <p class="mv0"><span class="job-meta">{{ job.jobLocation.original }}</span></p>
+                  <p class="mv0">
+                    <!-- Locality -->
+                    {% assign jobLocation = job.jobLocation.original %}
+                    {% if jobLocation and jobLocation != '' and jobLocation != 'undefined'%}
+                      <span class="job-meta">{{ jobLocation }}</span>
+                    {% endif %}
+                    <!-- Salary -->
+                    {% assign salary = job.salary.original %}
+                    {% if salary and salary != '' and salary != 'undefined'%}
+                      <span class="job-meta">{{ salary }}</span>
+                    {% endif %}
+                  </p>
                 </div>
               </div>
             </div>
