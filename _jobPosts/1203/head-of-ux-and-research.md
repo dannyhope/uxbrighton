@@ -48,7 +48,7 @@ salary:
   minValue: 120000
   maxValue: 120000
 status: LIVE
-permalink: "/jobs2/1203/head-of-ux-and-research"
+permalink: /jobsTest//1203/head-of-ux-and-research"
 layout: job
 ---
 <h2 id="role-purpose">Role purpose</h2>
