@@ -42,4 +42,4 @@ Steve is the Winner of multiple data marketing awards, including the Grand Prix 
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
+- <a href="https://uxbri.org/about/#luke">Luke</a>

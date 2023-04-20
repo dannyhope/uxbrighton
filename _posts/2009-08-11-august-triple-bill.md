@@ -43,5 +43,5 @@ Submissions will be drawn at random from the pile and used in the demo. (PS no n
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="https://uxbri.org/about/#harry">Harry</a>
+- <a href="https://uxbri.org/about/#danny">Danny</a>

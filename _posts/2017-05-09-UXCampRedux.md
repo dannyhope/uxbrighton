@@ -52,9 +52,9 @@ This is event is sponsored by <a href="https://www.optimalworkshop.com/">Optimal
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
-- <a href="http://uxbrighton.org.uk/about/#tim">Tim</a>
-- <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
-- <a href="http://uxbrighton.org.uk/about/#tom">Tom</a>
+- <a href="https://uxbri.org/about/#luke">Luke</a>
+- <a href="https://uxbri.org/about/#tim">Tim</a>
+- <a href="https://uxbri.org/about/#patrick">Patrick</a>
+- <a href="https://uxbri.org/about/#tom">Tom</a>
 - Chris
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="https://uxbri.org/about/#danny">Danny</a>

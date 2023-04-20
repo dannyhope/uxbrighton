@@ -13,7 +13,7 @@ seo: true
 
 hide_in_nav: true
 description: "Rachel McConnell – How to take your content from zero to hero; Fiona MacNeill – A UX perspective on ‘bring your own data’ in healthcare; Nabeeha Ahmed — The Selfish Giant - the converted"
-fullurl: https://uxbrighton.org.uk/February-double-bill/
+fullurl: /February-double-bill/
 image: "/images/cards/Feb-2019.jpg"
 upcoming-bg-image: "/2018/images/photos/feb.jpg"
 ---

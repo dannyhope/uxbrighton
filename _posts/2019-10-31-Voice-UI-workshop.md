@@ -11,7 +11,7 @@ seo: true
 price: "from £300 + VAT"
 ticket-link: https://www.eventbrite.co.uk/e/talking-design-make-your-first-voice-interface-a-workshop-with-ben-sauer-tickets-70743031311
 description: "Voice UI is growing fast. Although we’re all competent in person-to-person conversation, designing a good conversation is a new challenge for most organisations."
-fullurl: https://uxbrighton.org.uk/voice-ui-workshop/"
+fullurl: /voice-ui-workshop/"
 image: "/images/cards/vui-2019-tw.jpg"
 upcoming-bg-image: "/images/events/voice-ui-workshop.jpeg"
 

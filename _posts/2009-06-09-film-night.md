@@ -12,5 +12,5 @@ seo: true
 
 ## Organisers
 
-* <a href="http://uxbrighton.org.uk/about/#harry">Harry</a> 
-* <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+* <a href="https://uxbri.org/about/#harry">Harry</a> 
+* <a href="https://uxbri.org/about/#danny">Danny</a>

@@ -10,7 +10,7 @@ art-direction: "h1, h2,h3 {font-family: 'museo-slab',sans-serif;} h2{font-size: 
 ---
 # Sponsor Information
 
-## [UX Brighton 2016](http://uxbrighton.org.uk)
+## [UX Brighton 2016](https://uxbri.org)
 
 ## UX Brighton, 4th November. A one-day conference for UX people
 

@@ -24,4 +24,4 @@ This is an opportunity to tell us what you need from UX Brighton, what issues yo
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="https://uxbri.org/about/#danny">Danny</a>
