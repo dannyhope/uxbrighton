@@ -267,19 +267,6 @@ sponsors:
     visibility: true
     section-title: Premium Sponsors
     sponsor-list:
-      - name: J.P. Morgan
-        logo: /images/jpm.svg
-        url: https://www.jpmorgan.com/GB/en/about-us
-        summary: J.P. Morgan is a leader in financial services, offering solutions to
-          clients in more than 100 countries with one of the most comprehensive
-          global product platforms available.
-        links:
-          - link-type: website
-            profile-url: https://www.jpmorgan.com/GB/en/about-us
-          - link-type: twitter
-            profile-url: https://twitter.com/jpmorgan
-          - link-type: facebook
-            profile-url: https://www.facebook.com/jpmorgan
       - name: Askable
         logo: /images/group-22.svg
         url: https://www.askable.com/
