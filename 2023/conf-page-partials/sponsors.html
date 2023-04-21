@@ -117,8 +117,8 @@
 
     <!-- "Headline" sponsor.... -->
     {% if homepage.sponsors.sponsors-headline.visibility == true %}
-      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-headline.section-title }}</h3>
-      <div class="row mv0 eh-row drop pa2 sponsor-headline ">
+      <h3 class="pt2 fs-h2 visually-hidden">{{ homepage.sponsors.sponsors-headline.section-title }}</h3>
+      <div class="row mt0 eh-row drop pa2 sponsor-headline ">
 
         <div class="u1of2-over-m sponsor-headline__image-box">
           <a href="{{ homepage.sponsors.sponsors-headline.sponsor-details.url }}">
@@ -164,11 +164,11 @@
 
     <!-- "Premium" sponsors.... -->
     {% if homepage.sponsors.sponsors-premium.visibility == true %}
-      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-premium.section-title }}</h3>
-      <div class="row mv0 eh-row">
+      <h3 class="pt2 fs-h2 visually-hidden">{{ homepage.sponsors.sponsors-premium.section-title }}</h3>
+      <div class="row mt0 eh-row">
 
         {% for sponsor in homepage.sponsors.sponsors-premium.sponsor-list %}
-          <div class="u1of2-over-s pr1 left eh-item">
+          <div class="u1of2-over-s pl1 eh-item">
             <div class="drop pa2 sponsor sponsor-premium">
               <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
                 <a href="{{ sponsor.url }}">
@@ -211,7 +211,7 @@
 
         <!-- Sponsorship (premium) placeholder 'available' slot -->
         {% if homepage.sponsors.sponsors-premium.show-opportunity == true %}
-          <div class="u1of2-over-s pr1 left eh-item">
+          <div class="u1of2-over-s pl1 eh-item">
             <a href="/sponsorship" class="block drop ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
               <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
             </a>
@@ -223,11 +223,11 @@
 
     <!-- "Standard" sponsors.... -->
     {% if homepage.sponsors.sponsors-standard.visibility == true %}
-      <h3 class="pt2 fs-h2">{{ homepage.sponsors.sponsors-standard.section-title }}</h3>
-      <div class="row mt0 eh-row" style="font-size:15px;">
+      <h3 class="pt2 fs-h2 visually-hidden">{{ homepage.sponsors.sponsors-standard.section-title }}</h3>
+      <div class="row mt0 eh-row" style="font-size: 15px;">
 
         {% for sponsor in homepage.sponsors.sponsors-standard.sponsor-list %}
-          <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+          <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 eh-item">
             <div class="drop pa2 sponsor sponsor-standard">
               <div class="sponsor__logo color-grey-40 sponsor__logo--3-star">
                 <a href="{{ sponsor.url }}">
@@ -270,7 +270,7 @@
 
         <!-- Sponsorship (standard) placeholder 'available' slot -->
         {% if homepage.sponsors.sponsors-standard.show-opportunity == true %}
-          <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 left eh-item">
+          <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 eh-item">
             <a href="/sponsorship" class="block drop ph2 pv5 sponsor sponsor-3-star relative" title="Sponsorship opportunities">
               <img src="/images/SponsorshipOpportunity.png" alt="Sponsorship opportunities" class="pt2">
             </a>
