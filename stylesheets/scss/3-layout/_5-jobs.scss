@@ -105,7 +105,7 @@
     }
   }
   .no-js .job:target .job-text-extended,
-  .job-target .job-text-extended { 
+  .job-target .job-text-extended {
     display: block;
     opacity: 0;
     animation: fadeIn 1s forwards 0.1s;
@@ -125,4 +125,19 @@
   }
   body.job-open {
     overflow: hidden !important;
+  }
+
+
+  // ==============================================
+  // A bunch of new styles for the job page
+
+  .job_item {
+    position: relative;
+    margin-bottom: 24px;
+
+    a {
+      display: block;
+      color: unset;
+      text-decoration: none;
+    }
   }

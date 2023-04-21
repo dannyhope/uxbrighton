@@ -96,15 +96,10 @@
     {% endif %}
   {% endif %}
 
-
-
-
-
-
   <div class="overlay-active-underlay full-screen-overlay hidden" onclick="$('body').attr('data-overlay-active','false'); $( '#js-newsletter-thanks' ).css('color', '');"></div>
   <footer class="bg-grey-90 color-grey-10">
     <div class="container pt1">
-      <div class="row" style="display: none;>
+      <div class="row" style="display: none;">
         <!-- u1of2-over-s -->
         <div class="u1of2-over-m left-over-m gutter-left pb3">
           <div class="inline-block right-over-m center-under-m">
@@ -166,11 +161,6 @@
     </div><!-- container -->
   </footer>
 
-
-
-
-
-
   <script>
     // if browser has serviceWorkers remove service worker caches and registrations
     if ('serviceWorker' in navigator) {
@@ -186,79 +176,15 @@
     }
   </script>
 
-
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-  <script src="/2022/javascripts/scripts-min.js?v=2022-05-19_12:04"></script>
+  <script src="/scripts/scripts-min.js"></script>
   <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
 
   {% comment %} Email subscription {% endcomment %}
   <script src="/scripts/components/emailSubscription.js"></script>
-
-
-  <script>
-    $(function() {
-      var options = { valueNames: [ 'post-excerpt'] };
-      var userList = new List('js-archive-nav', options);
-      function displayNewsletter(){
-        var _val = "newsletter",
-            _currentVal = $('body').attr('data-overlay-active');
-        if (_val == _currentVal) {
-          $("body").attr('data-overlay-active','false');
-        } else {
-          $("body").attr('data-overlay-active',_val);
-          if (_val == 'menu'){ $( '.archive-nav__search' ).focus(); }
-          if (_val == 'slack'){ $( '#email' ).focus(); }
-          if (_val == 'newsletter'){ $( '#fieldEmail' ).focus(); }
-        }
-      };
-
-      if (/[?&]open=newsletter/.test(location.search)) {
-        displayNewsletter();
-      }
-
-      // getCookie(name)
-      // setCookie(name, value, days)
-      // deleteCookie(name)
-
-    });
-
-
-      $('[type="email"]').on('focus', function(){
-        $(this).removeClass('is-invalid');
-      });
-      function newsletterAnalytics (event) {
-        event.preventDefault();
-        var newsletterOptions = $(this).closest('[data-news-options]').attr('class');
-        newsletterOptions = newsletterOptions.trim().replace(/ /g, ' - ');
-        if (newsletterOptions == "") {
-          $(this).closest('form').find('.js-email-no-choice').slideDown();
-        } else {
-          var fieldToTest  = $(this).closest('form').find('[type="email"]')[0];
-          var isValidEmail = fieldToTest.checkValidity();
-          if ( isValidEmail ) {
-            window.dataLayer = window.dataLayer || [];
-            dataLayer.push({
-              'event' : 'formSubmission',
-              'formName' : 'contact us',
-              'formFieldsSelected' : newsletterOptions
-            });
-            console.log('newsletterOptions',newsletterOptions);
-            $(this).closest('form').submit();
-          } else {
-            $(this).closest('form').find('.js-email-no-email').slideDown();
-          }
-        }
-      }
-
-  </script>
-
-
-
-
-
 
   {% if page.url contains "/jobs/" %}
     <link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/tooltipster.bundle.min.css" />
@@ -277,68 +203,57 @@
       ];
       var json_str = JSON.stringify(jobs_stored);
       setCookie('jobs_stored', json_str);
-
-    </script>
-  {% else %}
-    <script>
-      // var jobs_stored  = ['peter','ko38r4h','invu9e','nviuo3','hh9e0nc','8uggvtd'];
-      // var json_str = JSON.stringify(jobs_stored);
-      // setCookie('jobs_stored', json_str);
     </script>
   {% endif %}
 
-
   <script>
-    var jobs_current     = [
-      {% for job in site.data.jobs %}{% if job.publish == 'TRUE' %}'{{ job.job-id }}',{% endif %}{% endfor %}
-    ];
-    var jobs_stored = getCookie('jobs_stored');
-    jobs_stored = JSON.parse(jobs_stored);
-    var jobs_diff  = $(jobs_current).not(jobs_stored).get().length;
-    var unviewed_number = "unviewed--single";
-    if (jobs_diff > 0) {
-      if (jobs_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
-      $('.masthead__link--jobs').addClass(unviewed_number).append('<span class="unviewed">'+jobs_diff+'</span>');
-    };
+    (function() {
+      var jobs_current = [
+        {% for job in site.data.jobs %}{% if job.publish == 'TRUE' %}'{{ job.job-id }}',{% endif %}{% endfor %}
+      ];
+      var jobs_stored = getCookie('jobs_stored');
+      jobs_stored = JSON.parse(jobs_stored);
+      var jobs_diff  = $(jobs_current).not(jobs_stored).get().length;
+      var unviewed_number = "unviewed--single";
+      if (jobs_diff > 0) {
+        if (jobs_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
+        $('.masthead__link--jobs').addClass(unviewed_number).append('<span class="unviewed">'+jobs_diff+'</span>');
+      };
+    })();
   </script>
 
   <script>
-    var upcoming_current  = [];
-    {% assign has_upcoming = false %}
-    {% for post in site.posts %}
-      {% if post.upcoming == true && if post.published == true %}
-        {% assign has_upcoming = true %}
+    (function() {
+      var upcoming_current = [];
+      {% assign has_upcoming = false %}
+      {% for post in site.posts %}
+        {% if post.upcoming == true && if post.published == true %}
+          {% assign has_upcoming = true %}
+        {% endif %}
+      {% endfor %}
+      {% if has_upcoming %}
+      upcoming_current  = [ {% for post in site.posts %}{% if post.upcoming == true && if post.published == true %}'{% if post.conference-url %}{{ post.conference-url }}{% else %}{{ post.url }}{% endif %}',{% endif %}{% endfor %} ];
       {% endif %}
-    {% endfor %}
-    {% if has_upcoming %}
-    upcoming_current  = [ {% for post in site.posts %}{% if post.upcoming == true && if post.published == true %}'{% if post.conference-url %}{{ post.conference-url }}{% else %}{{ post.url }}{% endif %}',{% endif %}{% endfor %} ];
-    {% endif %}
-    //console.log('upcoming_current',upcoming_current);
 
-    var upcoming_stored = getCookie('upcoming_stored');
-    upcoming_stored = JSON.parse(upcoming_stored);
-    if (upcoming_stored == null) {
-      upcoming_stored = [];
-    }
-
-    //console.log('upcoming_stored',upcoming_stored);
-
-    //If the current pathname is in the upcoming current, but not the upcoming stored, add the pathname to upcoming stored and re set cookie with update
-
-    var this_path = window.location.pathname
-    //console.log('this_path',this_path);
-    if ((upcoming_current.indexOf(this_path) > -1)){
-      if ((upcoming_stored.indexOf(this_path) == -1)){
-        upcoming_stored.push(this_path);
-        //console.log('upcoming_stored2',upcoming_stored);
+      var upcoming_stored = getCookie('upcoming_stored');
+      upcoming_stored = JSON.parse(upcoming_stored);
+      if (upcoming_stored == null) {
+        upcoming_stored = [];
       }
-    }
-    var json_str = JSON.stringify(upcoming_stored);
-    setCookie('upcoming_stored', json_str);
-    var upcoming_diff    = $(upcoming_current).not(upcoming_stored).get().length;
-    var unviewed_number = "unviewed--single";
-    if (upcoming_diff > 0) {
-      if (upcoming_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
-      $('.masthead__link--events').addClass(unviewed_number).append('<span class="unviewed">'+upcoming_diff+'</span>');
-    };
+      // If the current pathname is in the upcoming current, but not the upcoming stored, add the pathname to upcoming stored and re set cookie with update
+      var this_path = window.location.pathname
+      if ((upcoming_current.indexOf(this_path) > -1)){
+        if ((upcoming_stored.indexOf(this_path) == -1)){
+          upcoming_stored.push(this_path);
+        }
+      }
+      var json_str = JSON.stringify(upcoming_stored);
+      setCookie('upcoming_stored', json_str);
+      var upcoming_diff    = $(upcoming_current).not(upcoming_stored).get().length;
+      var unviewed_number = "unviewed--single";
+      if (upcoming_diff > 0) {
+        if (upcoming_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
+        $('.masthead__link--events').addClass(unviewed_number).append('<span class="unviewed">'+upcoming_diff+'</span>');
+      };
+    })();
   </script>

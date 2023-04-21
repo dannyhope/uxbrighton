@@ -40,8 +40,6 @@ Mentoring can be strangely serendipitous! Carl & Kate will talk about how they
 
 ### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead
 
-[Slides for Carl and Kate's Story (SlideShare)](https://www.slideshare.net/uxbri/carl-smith-carl-and-kates-story)
-
 <img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-right"/>
 
 Carl Smith is a Digital Project Manager and Agile practitioner. Carl has worked as a Graphic Designer, Tech support, Quality assurance, Business development, Product owner and Scrum master.\

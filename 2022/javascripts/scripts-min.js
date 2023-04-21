@@ -106,7 +106,7 @@
       $('body').removeClass('scroll-started');
     }
 
-    var in_page_nav = document.querySelector('.nav--in-page'); 
+    var in_page_nav = document.querySelector('.nav--in-page');
     if (!in_page_nav) {
       //var in_page_nav_pos_top = 0;
     } else {
@@ -129,9 +129,9 @@
         $("body").attr('data-overlay-active','false');
       } else {
         $('body').removeClass('speaker-grid-is-stuck');
-      } 
+      }
     }
-    
+
 
   }
 
@@ -287,10 +287,10 @@
       });
     });
   };
-  
+
   // Internal counter for unique video names.
   $.fn.fitVids._count = 0;
-  
+
 // Works with either jQuery or Zepto
 })( window.jQuery || window.Zepto );
 

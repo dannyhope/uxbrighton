@@ -204,7 +204,7 @@
       <div class="overlay__inner overflow-hidden bg-trans">
 
         <div class="container color-white">
-          <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{ jobTitle }}</h1>
+          <h1 class="fs-xxxl leading-solid mb1">{{ jobTitle }}</h1>
           <h2 class="mt0 fs-l regular track-normal mb2">{{ jobEmployer }}</h2>
         </div>
 
@@ -297,14 +297,14 @@
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "{{ page.jobLocation.original }}",
-            "addressCountry": "UK"
+            "addressCountry": "{{ page.jobLocation.locations.countryCode }}"
           }
         },
         "baseSalary": {
           "@type": "MonetaryAmount",
-          "currency": "GPB",
-          "minValue": "{{ page.money-min }}",
-          "maxValue": "{{ page.money-max }}"
+          "currency": "{{ page.salary.currencyCode }}",
+          "minValue": "{{ page.salary.currancySymbol }}{{ page.salary.minValue }}",
+          "maxValue": "{{ page.salary.currancySymbol }}{{ page.salary.maxValue }}"
         }
       }
     </script>
