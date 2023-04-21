@@ -487,7 +487,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -500,7 +500,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -523,7 +522,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -536,7 +535,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -559,7 +557,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -572,7 +570,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1077,7 +1074,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1090,7 +1087,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1112,7 +1108,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1125,7 +1121,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1147,7 +1142,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1160,7 +1155,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1663,7 +1657,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1676,7 +1670,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1698,7 +1691,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1711,7 +1704,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1733,7 +1725,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1746,7 +1738,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
