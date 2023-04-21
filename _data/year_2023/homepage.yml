@@ -264,22 +264,9 @@ sponsors:
         - link-type: instagram
           profile-url: https://www.instagram.com/jpmorgan
   sponsors-premium:
-    visibility: false
+    visibility: true
     section-title: Premium Sponsors
     sponsor-list:
-      - name: Fresh Egg
-        logo: /images/fresh-egg-logo.svg
-        url: https://www.freshegg.co.uk/
-        summary: Fresh Egg provide digital marketing that’s driven by customer
-          experience. Everything they do starts with understanding audience
-          needs while improving user journeys to improve digital success.
-        links:
-          - link-type: website
-            profile-url: https://www.freshegg.co.uk/
-          - link-type: twitter
-            profile-url: https://twitter.com/freshegg
-          - link-type: facebook
-            profile-url: https://www.facebook.com/FreshEggUK/
       - name: J.P. Morgan
         logo: /images/jpm.svg
         url: https://www.jpmorgan.com/GB/en/about-us
@@ -293,7 +280,24 @@ sponsors:
             profile-url: https://twitter.com/jpmorgan
           - link-type: facebook
             profile-url: https://www.facebook.com/jpmorgan
-    show-opportunity: false
+      - name: Askable
+        logo: /images/group-22.svg
+        url: https://www.askable.com/
+        summary: Askable takes control of participant recruitment, handpicks the exact
+          people you need for face to face research, online tasks, surveys and
+          more.
+        links:
+          - link-type: website
+            profile-url: https://www.askable.com/
+          - link-type: twitter
+            profile-url: https://twitter.com/AskableApp
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/askable/
+          - link-type: facebook
+            profile-url: https://www.facebook.com/askableapp
+          - link-type: instagram
+            profile-url: https://www.instagram.com/askableau/
+    show-opportunity: true
   sponsors-standard:
     visibility: true
     section-title: Standard Sponsors
