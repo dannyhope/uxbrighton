@@ -1,5 +1,66 @@
 ---
-{"_id":"6422c2644576a1bbc6095e68","id":1204,"shortId":"ogh43","uuid":"55e10047-b21b-40fa-ab95-a7b4ed1bacad","title":{"original":"Senior UX Designer","textDescription":"Senior User Experience Designer","urlSlug":"senior-ux-designer","inferred":{"canonicalTitle":"Senior UX Designer","expandedTitle":"Senior User Experience Designer","similiarTitles":["Senior User Interface Designer","Senior Interaction Designer","Senior Visual Designer","Senior Product Designer","Senior UX Researcher"]}},"postedDate":"2023-03-27T23:00:00.000Z","directApply":false,"jobLocation":{"original":"London","textDescription":"London","locations":[{"textDescription":"London","locality":"London","countryName":"United Kingdom","countryCode":"GB","latitude":51.5074,"longitude":-0.1278}]},"hiringOrganization":{"name":"The Body Shop","logo":"//uxbri.org/jobs/logos/The-Body-Shop-logo.png","id":374,"shortId":"B5kn68f2","uuid":"d79c52f9-28f7-4615-b78b-2a0d17beb100"},"employmentType":{"typeInfo":[{"text":"Permanent","code":"PERMANENT","type":"contract"}],"original":"Permanent","textDescription":"Permanent"},"applicationUrl":"https://careers.thebodyshop.com/job/London-Senior-UX-Designer-LND-SE1-2JP/917678601/?feedId=288301","applicationType":"link","closedDate":"2023-04-27T00:00:00.000Z","status":"LIVE","permalink":"\"/jobs2/1204/senior-ux-designer\"","layout":"job"}
+{
+	"_id": "6422c2644576a1bbc6095e68",
+	"id": 1204,
+	"shortId": "ogh43",
+	"uuid": "55e10047-b21b-40fa-ab95-a7b4ed1bacad",
+	"title": {
+		"original": "Senior UX Designer",
+		"textDescription": "Senior User Experience Designer",
+		"urlSlug": "senior-ux-designer",
+		"inferred": {
+			"canonicalTitle": "Senior UX Designer",
+			"expandedTitle": "Senior User Experience Designer",
+			"similiarTitles": [
+				"Senior User Interface Designer",
+				"Senior Interaction Designer",
+				"Senior Visual Designer",
+				"Senior Product Designer",
+				"Senior UX Researcher"
+			]
+		}
+	},
+	"postedDate": "2023-03-27T23:00:00.000Z",
+	"directApply": false,
+	"jobLocation": {
+		"original": "London",
+		"textDescription": "London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		]
+	},
+	"hiringOrganization": {
+		"name": "The Body Shop",
+		"logo": "//uxbri.org/jobs/logos/The-Body-Shop-logo.png",
+		"id": 374,
+		"shortId": "B5kn68f2",
+		"uuid": "d79c52f9-28f7-4615-b78b-2a0d17beb100"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
+	},
+	"applicationUrl": "https://careers.thebodyshop.com/job/London-Senior-UX-Designer-LND-SE1-2JP/917678601/?feedId=288301",
+	"applicationType": "link",
+	"closedDate": "2023-04-27T00:00:00.000Z",
+	"status": "LIVE",
+	"permalink": "\"/jobs2/1204/senior-ux-designer\"",
+	"layout": "job"
+}
 ---
 <h2 id="your-role-in-a-nutshell">Your role in a nutshell</h2>
 <p>The core purpose of the role is to manage all UX design activities and to own and drive customer-focussed usability, accessibility adherence with a target of WCAG AA and overall UX consistency across all of our digital estate. Also to be a champion of creative UI consistency and to participate in the evolving of said design language throughout the channels, maintaining an already flourishing link with the wider global creative “Greenhouse” team.</p>

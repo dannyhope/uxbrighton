@@ -1,5 +1,66 @@
 ---
-{"_id":"6422c2594576a1bbc6095e61","id":1201,"shortId":"odssaqw06","uuid":"bb097db2-c1a9-4808-95aa-c5f3079effdd","title":{"original":"Senior UX Designer","textDescription":"Senior User Experience Designer","urlSlug":"senior-ux-designer","inferred":{"canonicalTitle":"Senior UX Designer","expandedTitle":"Senior User Experience Designer","similiarTitles":["Senior User Interface Designer","Senior Interaction Designer","Senior Visual Designer","Senior Product Designer","Senior UX Researcher"]}},"postedDate":"2023-03-26T23:00:00.000Z","directApply":false,"jobLocation":{"original":"Wembley Stadium","textDescription":"Wembley","locations":[{"textDescription":"Wembley","locality":"Wembley","countryName":"United Kingdom","countryCode":"GB","latitude":51.556,"longitude":-0.27902}]},"hiringOrganization":{"name":"The FA","logo":"//uxbri.org/jobs/logos/FA_crest_2009.png","id":666,"shortId":"Hsrho0c7","uuid":"f51c36ee-d7ab-4cc0-bba7-b208b7d7f2ee"},"employmentType":{"typeInfo":[{"text":"Permanent","code":"PERMANENT","type":"contract"}],"original":"Permanent","textDescription":"Permanent"},"applicationUrl":"https://careers.thefa.com/jobs/vacancy/1590/questions/1/","applicationType":"link","closedDate":"2023-04-26T00:00:00.000Z","status":"LIVE","permalink":"\"/jobs2/1201/senior-ux-designer\"","layout":"job"}
+{
+	"_id": "6422c2594576a1bbc6095e61",
+	"id": 1201,
+	"shortId": "odssaqw06",
+	"uuid": "bb097db2-c1a9-4808-95aa-c5f3079effdd",
+	"title": {
+		"original": "Senior UX Designer",
+		"textDescription": "Senior User Experience Designer",
+		"urlSlug": "senior-ux-designer",
+		"inferred": {
+			"canonicalTitle": "Senior UX Designer",
+			"expandedTitle": "Senior User Experience Designer",
+			"similiarTitles": [
+				"Senior User Interface Designer",
+				"Senior Interaction Designer",
+				"Senior Visual Designer",
+				"Senior Product Designer",
+				"Senior UX Researcher"
+			]
+		}
+	},
+	"postedDate": "2023-03-26T23:00:00.000Z",
+	"directApply": false,
+	"jobLocation": {
+		"original": "Wembley Stadium",
+		"textDescription": "Wembley",
+		"locations": [
+			{
+				"textDescription": "Wembley",
+				"locality": "Wembley",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.556,
+				"longitude": -0.27902
+			}
+		]
+	},
+	"hiringOrganization": {
+		"name": "The FA",
+		"logo": "//uxbri.org/jobs/logos/FA_crest_2009.png",
+		"id": 666,
+		"shortId": "Hsrho0c7",
+		"uuid": "f51c36ee-d7ab-4cc0-bba7-b208b7d7f2ee"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
+	},
+	"applicationUrl": "https://careers.thefa.com/jobs/vacancy/1590/questions/1/",
+	"applicationType": "link",
+	"closedDate": "2023-04-26T00:00:00.000Z",
+	"status": "LIVE",
+	"permalink": "\"/jobs2/1201/senior-ux-designer\"",
+	"layout": "job"
+}
 ---
 <h2 id="have-the-digital-world-at-your-feet">Have the digital world at your feet...</h2>
 <p>Welcome to the home of English Football. As a Senior UX designer, you will play a hands-on role in the way players, fans, staff, and volunteers engage with the beautiful game. </p>
