@@ -51,7 +51,7 @@
 	},
 	"_applicationLink": "https://career2.successfactors.eu/career?career_ns=job_listing&company=tsbukprod&navBarLevel=JOB_SEARCH&rcm_site_locale=en_GB&site=VjItSmFoc1VqUEliN25XSmxwcnB4TjZ5QT09&career_job_req_id=29191",
 	"status": "LIVE",
-	"permalink": "\"/jobs2/1200/junior-product-designer\"",
+	"permalink": "/jobs2/1200/junior-product-designer",
 	"layout": "job"
 }
 ---
