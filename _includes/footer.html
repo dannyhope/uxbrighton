@@ -161,21 +161,6 @@
     </div><!-- container -->
   </footer>
 
-  <script>
-    // if browser has serviceWorkers remove service worker caches and registrations
-    if ('serviceWorker' in navigator) {
-      caches.keys().then(function(cacheNames) {
-        cacheNames.forEach(function(cacheName) {
-          caches.delete(cacheName);
-        });
-      });
-      navigator.serviceWorker.getRegistrations().then(function(registrations) {
-       for(let registration of registrations) {
-        registration.unregister()
-      } });
-    }
-  </script>
-
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
