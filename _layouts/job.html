@@ -297,7 +297,7 @@
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "{{ page.jobLocation.original }}",
-            "addressCountry": "{{ page.jobLocation.locations.countryCode }}"
+            "addressCountry": "{{ page.jobLocation.locations[0].countryCode }}"
           }
         },
         "baseSalary": {
