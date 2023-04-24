@@ -9,8 +9,8 @@ upcoming: false
 published: false
 
 description: "UX Brighton Show & Tell 26, Tuesday 12 July 2022, 7-9pm at the Skiff in Brighton. A supportive meetup for sharing, advice and discussion."
-image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
-upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
+image: "/images/cards/show-and-tell-8-twitter.png"
+upcoming-bg-image: "/images/events/show-and-tell.jpg"
 seo: true
 
 ---

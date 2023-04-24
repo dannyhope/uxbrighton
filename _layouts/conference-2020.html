@@ -12,7 +12,7 @@
 
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ page.fullurl }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.fullurl }}">
     <meta property="og:title" content="{{ page.title }}" >
     <meta property="og:description" content="{{ page.description }}" >
     <meta property="og:image" content="{{ page.image }}" >
@@ -20,10 +20,10 @@
   <!-- twitter card tags additive with the og tags -->
     <meta name="twitter:card" content="summary_large_image" >
     <meta name="twitter:image" content="{{ page.image }}" >
-    <meta name="twitter:domain" value="{{ page.fullurl }}" >
+    <meta name="twitter:domain" value="{{ site.url }}{{ page.fullurl }}" >
     <meta name="twitter:title" value="{{ page.title }}" >
     <meta name="twitter:description" value="{{ page.description }}" >
-    <meta name="twitter:url" value="{{ page.fullurl }}" >
+    <meta name="twitter:url" value="{{ site.url }}{{ page.fullurl }}" >
 
   <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">

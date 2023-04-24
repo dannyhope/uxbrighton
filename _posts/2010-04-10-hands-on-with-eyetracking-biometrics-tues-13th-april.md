@@ -19,4 +19,4 @@ Please be gentle with us if we have technical problems. If the hardware fails, w
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#harry">Harry</a>
+- <a href="https://uxbri.org/about/#harry">Harry</a>

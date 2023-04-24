@@ -108,5 +108,5 @@ After her excellent talk at  last year’s UX Brighton Conference we’re happy
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="https://uxbri.org/about/#luke">Luke</a>
+- <a href="https://uxbri.org/about/#danny">Danny</a>

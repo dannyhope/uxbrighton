@@ -47,4 +47,4 @@ Alex is a usability and user experience consultant specialising in Healthcare an
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#alex">Alex</a>
+- <a href="https://uxbri.org/about/#alex">Alex</a>

@@ -8,7 +8,7 @@ art-direction: "body {font-family: 'Open Sans', sans-serif; color: #130f30} h1, 
 
 # How to convince your boss to send you to UX Brighton 2017
 
-## [UX Brighton 2017](http://uxbrighton.org.uk/2017/)
+## [UX Brighton 2017](https://uxbri.org/2017/)
 
 ## UX Brighton, 3rd November. A one-day conference for UX people
 
@@ -20,10 +20,10 @@ So let’s think about how attending UX Brighton 2017 can benefit your employer 
 
  - **Gathering ideas**: keep abreast of the latest thinking and differing views from a mix of academic and commercial experts on a range of user experience related topic
  - **Sharing knowledge**: Share what you learn at UX Brighton 2017 with colleagues after the event by writing a company blog post, internal report or putting together a presentation. Here are some from last year’s attendees: [Pragmatic](https://pragmatic.agency/our-takeaways-from-ux-brighton/ ), [Mikaela Larsson](http://www.mikaelalarsson.com/blog/2016/11/18/ux-brighton ), [Reward Cloud](https://reward.cloud/blog/post.php?s=2016-11-09-ux-brighton-2016-what-we-learnt ).
- - **Network**: Build relationships, broaden perspectives, make connections with others in the UX field. UX Brighton attracts [delegates](http://uxbrighton.org.uk/2017/attendee-demographics ) from a wide range of organisations as well as being geographically diverse. There are plenty of networking opportunities during the day, as well as later at the after party.
+ - **Network**: Build relationships, broaden perspectives, make connections with others in the UX field. UX Brighton attracts [delegates](https://uxbri.org/2017/attendee-demographics ) from a wide range of organisations as well as being geographically diverse. There are plenty of networking opportunities during the day, as well as later at the after party.
  - **Conferences can invigorate passion**: Often a short work trip away from the office can re-energize you. Delegates are often charged up to try a new technique, idea, or approach that company can benefit from.
  - **Meet potential new hires**: If you’re looking to employ a UXer, it’s a great way to find people that you can recruit into the team. You could even set up informal interviews in one of the quieter spots of the Foyer bar at the Brighton Dome.
- - **Highlight the quality of the content and learning opportunities of UX Brighton**: This is our 7th annual conference. You can find the speakers and talk outlines of previous conferences here: [2016](http://uxbrighton.org.uk/2016/ ), [2014](http://uxbrighton.org.uk/2014/ ), [2013](http://uxbrighton.org.uk/2013/ ), [2012](http://uxbrighton.org.uk/2012/ ), [2011](http://uxbrighton.org.uk/2011/ ) and [2010](http://uxbrighton.org.uk/2010/ ). We also have a [YouTube channel](https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw ) where you can watch talks from our conferences and monthly meetings.
+ - **Highlight the quality of the content and learning opportunities of UX Brighton**: This is our 7th annual conference. You can find the speakers and talk outlines of previous conferences here: [2016](https://uxbri.org/2016/ ), [2014](https://uxbri.org/2014/ ), [2013](https://uxbri.org/2013/ ), [2012](https://uxbri.org/2012/ ), [2011](https://uxbri.org/2011/ ) and [2010](https://uxbri.org/2010/ ). We also have a [YouTube channel](https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw ) where you can watch talks from our conferences and monthly meetings.
  - **Make it hard for your boss to say no**: Offer to share a hotel room with a colleague to save on costs.
  - **Attend local UX events as well**: Going to local UX events as well as conferences demonstrates to your employer that you have the initiative to learn. UX Brighton runs regular evening events and there are many other local UX groups around the country.
  - **If all else fails, DIY**: If you really can’t persuade your boss to send you, consider buying a ticket yourself. We price our tickets reasonably so that people don’t feel excluded, and have a generous group discount, buy 4, get 1 free. We also have student tickets for entry level delegates.

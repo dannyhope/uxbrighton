@@ -159,7 +159,7 @@ art-direction: |-
         <img alt="Photo of Jay" src="/images/team/jay-caines-gooby.jpeg">
         <h2><a href="https://www.twitter.com/jaygooby">Jay Caines-Gooby</a>Organiser and Volunteer</h2>
       </header>
-      <p>Jay has been working on the web since '95 (yes, he's really old). He curated our <a href="https://uxbrighton.org.uk/UX-for-kids/">UX for kids event</a> event, helps out with the UX Brighton website and very occasionally <a href="https://vimeo.com/11753010">makes fun things</a>.</p>
+      <p>Jay has been working on the web since '95 (yes, he's really old). He curated our <a href="/UX-for-kids/">UX for kids event</a> event, helps out with the UX Brighton website and very occasionally <a href="https://vimeo.com/11753010">makes fun things</a>.</p>
     </article>
   </div>
   <!-- content-main-about -->

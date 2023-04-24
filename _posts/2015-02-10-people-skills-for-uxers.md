@@ -75,4 +75,4 @@ Matt is a creativity and collaboration consultant at NixonMcInnes, and he's goin
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#rob">Rob</a>
+- <a href="https://uxbri.org/about/#rob">Rob</a>

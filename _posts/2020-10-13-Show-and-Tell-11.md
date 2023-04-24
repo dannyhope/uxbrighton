@@ -11,8 +11,8 @@ seo: true
 
 description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
 fullurl: https://uxbri.org/show-&-tell-11/
-image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
-upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
+image: "/images/cards/show-and-tell-8-twitter.png"
+upcoming-bg-image: "/images/events/show-and-tell.jpg"
 
 ---
 
