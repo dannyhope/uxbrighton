@@ -300,13 +300,22 @@
             "addressLocality": "{{ page.jobLocation.original }}",
             "addressCountry": "{{ page.jobLocation.locations[0].countryCode }}"
           }
-        },
+        }
+        {%- assign salary = page.salary %}
+        {%- if salary %},
         "baseSalary": {
           "@type": "MonetaryAmount",
-          "currency": "{{ page.salary.currencyCode }}",
-          "minValue": "{{ page.salary.currancySymbol }}{{ page.salary.minValue }}",
-          "maxValue": "{{ page.salary.currancySymbol }}{{ page.salary.maxValue }}"
+          "currency": "{{ page.salary.currencyCode }}"
+          {%- assign minValue = page.salary.minValue %}
+          {%- if minValue and minValue != '' %},
+          "minValue": "{{ page.salary.currancySymbol }}{{ minValue }}"
+          {%- endif %}
+          {%- assign maxValue = page.salary.maxValue %}
+          {%- if maxValue and maxValue != '' %},
+          "maxValue": "{{ page.salary.currancySymbol }}{{ maxValue }}"
+          {%- endif %}
         }
+        {%- endif %}
       }
     </script>
 
