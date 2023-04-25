@@ -4,6 +4,7 @@
 	"id": 1201,
 	"shortId": "odssaqw06",
 	"uuid": "bb097db2-c1a9-4808-95aa-c5f3079effdd",
+  "paidAd": false,
 	"title": {
 		"original": "Senior UX Designer",
 		"textDescription": "Senior User Experience Designer",
