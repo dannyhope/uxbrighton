@@ -281,17 +281,18 @@
     <!-- JobPosting page-specific Schema Data Structure -->
     <script type="application/ld+json">
       {
-        "@context": "https://schema.org",
+        "@context": "https://schema.org/",
         "@type": "JobPosting",
         "title": "{{ page.title.original }}",
+        "description": "{{ page.title.textDescription }}.",
+        "datePosted": "{{ page.postedDate }}",
+        "validThrough": "{{ page.closedDate }}",
+        "employmentType": "{{ page.employmentType.original }}",
         "hiringOrganization": {
           "@type": "Organization",
           "name": "{{ page.hiringOrganization.name }}",
           "logo": "https:{{ page.hiringOrganization.logo }}"
         },
-        "datePosted": "{{ page.postedDate }}",
-        "validThrough": "{{ page.closedDate }}",
-        "employmentType": "{{ page.employmentType.original }}",
         "jobLocation": {
           "@type": "Place",
           "address": {
