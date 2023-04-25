@@ -1,7 +1,7 @@
 ---
 layout: event-page
 title: Show & Tell 27
-description: UX Brighton Show & Tell 27, Tuesday 11 May 2023, 7-9pm at the
+description: UX Brighton Show & Tell 27, Tuesday 9 May 2023, 7-9pm at the
   Barclays Eagle Lab Brighton. A supportive meetup for sharing, advice and
   discussion.
 event-date: 2023-05-09
