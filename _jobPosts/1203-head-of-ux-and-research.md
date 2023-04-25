@@ -4,6 +4,7 @@
 	"id": 1203,
 	"shortId": "jfhyhyyy77",
 	"uuid": "6c2995bb-6f8f-48fa-922e-e90d910da763",
+  "paidAd": true,
 	"title": {
 		"original": "Head of UX and Research",
 		"textDescription": "Head of UX and Research",
