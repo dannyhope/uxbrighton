@@ -61,14 +61,6 @@
       {% endif %}
 
     <style>
-      .responsive-height-limiter + h2,
-      p + h2 { margin-top: 1.33em; }
-      p + h3 { margin-top: 1em; }
-      h3 + p { margin-top: 0.33em; }
-      h2 + .responsive-height-limiter,
-      h3 + .responsive-height-limiter,
-      h2 + .embed-container  { margin-top: 1em; }
-
       h2 + h3 + p,
       h2 + p,
       h2 + ul { margin-top: 0.66em; }
@@ -85,10 +77,6 @@
       hr {
         margin: 2em 0;
       }
-
-      {% if page.cssbackdoor %}
-        {{ page.cssbackdoor }}
-      {% endif %}
     </style>
 
     <!-- Job page-specific styles -->
@@ -96,87 +84,12 @@
       .job-meta:not(:first-child):before {
         content: " · "
       }
-      .grayscale-until-hover {
-        filter: grayscale(100%);
-        opacity: 0.4;
-        transition: all 0.3s;
-      }
-      .grayscale-until-hover:hover {
-        filter: grayscale(0%);
-        opacity: 1;
-      }
-
-      .h-col {
-        fill: #bbb;
-      }
-
-      .cols-only .hist--low .h-col--1,
-      .cols-only .hist--low .h-col--2,
-      .cols-only .hist--low .h-col--3,
-      .cols-only .hist--low .h-col--4,
-
-
-      .cols-only .hist--low-mid .h-col--4,
-      .cols-only .hist--low-mid .h-col--5,
-      .cols-only .hist--low-mid .h-col--6,
-
-      .cols-only .hist--mid .h-col--5,
-      .cols-only .hist--mid .h-col--6,
-      .cols-only .hist--mid .h-col--7,
-
-      .cols-only .hist--high-mid .h-col--6,
-      .cols-only .hist--high-mid .h-col--7,
-      .cols-only .hist--high-mid .h-col--8,
-
-      .cols-only .hist--high .h-col--8,
-      .cols-only .hist--high .h-col--9,
-      .cols-only .hist--high .h-col--10,
-      .cols-only .hist--high .h-col--11 {
-        fill: #C9003A;
-      }
-
-      .hist--low .h-ul--1,
-      .hist--low .h-ul--2,
-      .hist--low .h-ul--3,
-      .hist--low .h-ul--4,
-
-      .hist--low-mid .h-ul--3,
-      .hist--low-mid .h-ul--4,
-      .hist--low-mid .h-ul--5,
-
-      .hist--mid .h-ul--5,
-      .hist--mid .h-ul--6,
-      .hist--mid .h-ul--7,
-
-      .hist--high-mid .h-ul--7,
-      .hist--high-mid .h-ul--8,
-      .hist--high-mid .h-ul--9,
-
-      .hist--high .h-ul--8,
-      .hist--high .h-ul--9,
-      .hist--high .h-ul--10,
-      .hist--high .h-ul--11 {
-        fill: #C9003A;
-      }
-
-      .unless-is-fancy {
-        display: none;
-      }
-
-      .is-fancy .unless-is-fancy {
-        display: block;
-      }
 
       h2 {
         margin: 1em 0 0.5em;
       }
       h2 + h3 {
         margin: 1em 0 0.5em;
-      }
-
-      .hist {
-          position: relative;
-          z-index: 2;
       }
     </style>
 
@@ -230,41 +143,6 @@
                     {% assign salary = page.salary.original %}
                     {% if salary and salary != '' and salary != 'undefined'%}
                       <span class="job-meta">{{ salary }}</span>
-                    {% endif %}
-                    {% if 1 == 1 %}
-                      {% if page.show-salary == 'TRUE' %}<span class="js-salary-span job-meta">{{ page.money }}</span>{% endif %}
-                    {% else %}
-                      <span class="inline-block tooltip">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25" aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
-                          {% comment %}<title id="svg-{{ page.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all recent jobs).</title>{% endcomment %}
-                          <desc>Histogram, providing an abstract indication of salary range.</desc>
-                          <g fill="none" fill-rule="evenodd">
-                            <rect class="h-col h-col--1" width="3" height="2" x="1" y="19" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--2" width="3" height="3" x="5" y="18" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--3" width="3" height="6" x="9" y="15" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--4" width="3" height="11" x="13" y="10" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--5" width="3" height="16" x="17" y="5" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--6" width="3" height="19" x="21" y="2" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--7" width="3" height="16" x="25" y="5" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--8" width="3" height="11" x="29" y="10" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--9" width="3" height="6" x="33" y="15" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--10" width="3" height="3" x="37" y="18" fill="#D8D8D8"/>
-                            <rect class="h-col h-col--11" width="3" height="2" x="41" y="19" fill="#D8D8D8"/>
-                            <rect class="h-ul h-ul--1" width="5" height="2" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--2" width="5" height="2" x="4" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--3" width="5" height="2" x="8" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--4" width="5" height="2" x="12" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--5" width="5" height="2" x="16" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--6" width="5" height="2" x="20" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--7" width="5" height="2" x="24" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--8" width="5" height="2" x="28" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--9" width="5" height="2" x="32" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--10" width="5" height="2" x="36" y="23" fill="#FFF"/>
-                            <rect class="h-ul h-ul--11" width="5" height="2" x="40" y="23" fill="#FFF"/>
-                          </g>
-                        </svg>
-                      </span>
-                      <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
                     {% endif %}
                   </p>
                   <a class="button button--green job-top-apply-btn mt2 pa2" href="{{ page.applicationUrl }}">Apply for this job</a>
