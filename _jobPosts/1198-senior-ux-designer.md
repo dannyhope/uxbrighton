@@ -61,6 +61,11 @@
 	"closedDate": "2023-04-24T00:00:00.000Z",
 	"status": "LIVE",
 	"permalink": "/jobs2/1198/senior-ux-designer",
+  "tags": [
+    "promoted",
+    "tagB",
+    "tagC"
+  ],
 	"layout": "job"
 }
 ---
