@@ -79,8 +79,8 @@ permalink: /jobs2/index.html
     <ul class="job_list no-list">
       {% comment %} Loop through `jobPosts` collection --> (PAID ads) {% endcomment %}
       {% for job in site.jobPosts %}
-        {% if job.paidAd == true %}
-          <li class="job_item paid-ad">
+        {% if job.tags[0] == 'promoted' %}
+          <li class="job_item promoted">
             <a href="{{ job.url }}" class="drop rounded">
               <div class="job-info pa3">
                 <div class="container">
@@ -112,7 +112,7 @@ permalink: /jobs2/index.html
 
       {% comment %} Loop through `jobPosts` collection --> (NOT PAID ads) {% endcomment %}
       {% for job in site.jobPosts %}
-        {% if job.paidAd != true %}
+        {% unless job.tags[0] == 'promoted' %}
           <li class="job_item">
             <a href="{{ job.url }}" class="drop rounded">
               <div class="job-info pa3">
@@ -140,7 +140,7 @@ permalink: /jobs2/index.html
               </div>
             </a>
           </li>
-        {% endif %}
+        {% endunless %}
       {% endfor %}
     </ul>
   </div>
