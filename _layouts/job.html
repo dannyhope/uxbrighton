@@ -73,12 +73,6 @@
       h2 + p,
       h2 + ul { margin-top: 0.66em; }
 
-      @media (max-width: 679px) {
-        h2,h3 {
-          text-align: center;
-        }
-      }
-
       h2,h3 {
         margin: 1em 0 0.5em;
         line-height: 1.2;
@@ -99,6 +93,9 @@
 
     <!-- Job page-specific styles -->
     <style>
+      .job-meta:not(:first-child):before {
+        content: " · "
+      }
       .grayscale-until-hover {
         filter: grayscale(100%);
         opacity: 0.4;
@@ -215,19 +212,24 @@
     <section id="overview" class="bg-white">
       <div class="container" style="min-height: 50vh">
         <div class="row pt pb mt3">
+          {% comment %} Sidebar content {% endcomment %}
         	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l pt2">
 						<aside class="event-detail_meta">
               <div class="job-desc-column">
                 <div class="job-logo mr3" style="background-image: url({{ page.hiringOrganization.logo }});"></div>
                 <div class="job-show-expanded">
-                  <h3 class="job-title block-link__highlight color-blue mv0">{{ jobTitle }}</h3>
+                  <h3 class="job-title mv0">{{ jobTitle }}</h3>
                   <p class="mv0 mt2"><strong>{{ jobEmployer }}</strong></p>
                   <p class="mb1">
-                    {% if page.work-pat %}
-                      <span class="job-meta">{{ page.work-pat }}</span>
+                    <!-- Locality -->
+                    {% assign jobLocation = page.jobLocation.original %}
+                    {% if jobLocation and jobLocation != '' and jobLocation != 'undefined'%}
+                      <span class="job-meta">{{ jobLocation }}</span>
                     {% endif %}
-                    {% if page.location %}
-                      <span class="job-meta">{{ page.jobLocation.original }}</span>
+                    <!-- Salary -->
+                    {% assign salary = page.salary.original %}
+                    {% if salary and salary != '' and salary != 'undefined'%}
+                      <span class="job-meta">{{ salary }}</span>
                     {% endif %}
                     {% if 1 == 1 %}
                       {% if page.show-salary == 'TRUE' %}<span class="js-salary-span job-meta">{{ page.money }}</span>{% endif %}
@@ -270,7 +272,8 @@
               </div>
 						</aside>
         	</div>
-        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview pt2">
+          {% comment %} Main content area {% endcomment %}
+        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview pt5">
         		{{ content }}
         	</div>
 				</div><!-- row -->
