@@ -11,7 +11,7 @@ on:
     branches: [ gh-pages ]
     # production / rendered sitemap.xml in your GitHub repo:
     paths:
-      - _site/sitemap.xml
+      - https://uxbri.org/sitemap.xml
 
   # This allows you to run this workflow manually from the Actions tab in your
   # GitHub repo:
