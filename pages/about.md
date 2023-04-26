@@ -6,6 +6,7 @@ redirect_from:
   - /about-us
   - /contact
   - /contact-us
+  - /a
 seo: false
 ---
  UX Brighton is a community group disseminating knowledge about all aspects of user experience, founded in 2008.\
