@@ -1,17 +1,17 @@
 {%- assign jobTitle = page.title.original -%}
 {%- assign jobEmployer = page.hiringOrganization.name -%}
-{%- assign metaDescription = page.textDescription -%}
+{%- assign metaDescription = page.title.textDescription -%}
 {%- assign metaFullUrlPerm = page.permalink -%}
 {%- assign metaFullUrlSlug = page.slug -%}
 {%- assign metaSocialImage = page.social-image -%}
 
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/JobPosting" class="no-js" lang="en">
+<html class="no-js" lang="en">
 <head>
   <title>{{ jobTitle }} | {{ jobEmployer }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
+  {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}.">{% endif %}
   <meta name="robots" content="index, follow">
 
   <!-- Google Analytics -->
@@ -24,15 +24,15 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
   <meta property="og:title" content="{{ jobTitle }} | {{ jobEmployer }}">
-  {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
+  {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}.">{% endif %}
   {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
 
   <!-- twitter card tags additive with the og: tags -->
   <meta name="twitter:card" content="summary_large_image">
-  {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
+  {%- if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
   <meta name="twitter:domain" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
-  <meta name="twitter:title" value="{{ metaTitle }}">
-  {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
+  <meta name="twitter:title" value="{{ jobTitle }} | {{ jobEmployer }}">
+  {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}.">{% endif %}
   <meta name="twitter:url" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
 
   <!-- Canonical -->
@@ -214,26 +214,26 @@
 
     <section id="overview" class="bg-white">
       <div class="container" style="min-height: 50vh">
-        <div class="row pt pb" style="margin-top: 24px;">
-        	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l" style="padding-top: 16px;">
+        <div class="row pt pb mt3">
+        	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l pt2">
 						<aside class="event-detail_meta">
               <div class="job-desc-column">
                 <div class="job-logo mr3" style="background-image: url({{ page.hiringOrganization.logo }});"></div>
                 <div class="job-show-expanded">
-                  <h3 class="job-title block-link__highlight color-blue mv0 ">{{ jobTitle }}</h3>
+                  <h3 class="job-title block-link__highlight color-blue mv0">{{ jobTitle }}</h3>
                   <p class="mv0 mt2"><strong>{{ jobEmployer }}</strong></p>
                   <p class="mb1">
                     {% if page.work-pat %}
-                      <span itemprop="employmentType" class="job-meta">{{ page.work-pat }}</span>
+                      <span class="job-meta">{{ page.work-pat }}</span>
                     {% endif %}
                     {% if page.location %}
-                      <span itemprop="addressLocality" class="job-meta">{{ page.jobLocation.original }}</span>
+                      <span class="job-meta">{{ page.jobLocation.original }}</span>
                     {% endif %}
                     {% if 1 == 1 %}
-                      {% if page.show-salary == 'TRUE' %}<span itemprop="baseSalary" class="js-salary-span job-meta">{{ page.money }}</span>{% endif %}
+                      {% if page.show-salary == 'TRUE' %}<span class="js-salary-span job-meta">{{ page.money }}</span>{% endif %}
                     {% else %}
                       <span class="inline-block tooltip">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25"  aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="hist hist--{{ range }}" width="45" height="25" viewBox="0 0 45 25" aria-labelledby="title" style="vertical-align:text-bottom;cursor: help;">
                           {% comment %}<title id="svg-{{ page.job-id }}" lang="en">Pay rank: {{ hoverTextRange }} (among all recent jobs).</title>{% endcomment %}
                           <desc>Histogram, providing an abstract indication of salary range.</desc>
                           <g fill="none" fill-rule="evenodd">
@@ -265,14 +265,13 @@
                       <!-- &ndash; pay rank: {{ hoverTextRange }} (among all jobs ever advertised here). -->
                     {% endif %}
                   </p>
-                  <a class="button button--green mt2 pa2 job-top-apply-btn" href="{{ page.applicationUrl }}">Apply for this job</a>
+                  <a class="button button--green job-top-apply-btn mt2 pa2" href="{{ page.applicationUrl }}">Apply for this job</a>
                 </div>
               </div>
 						</aside>
         	</div>
-        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top:16px;">
-        		{% comment %} {{ page.extended-description | markdownify }} {% endcomment %}
-            {{ content }}
+        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview pt2">
+        		{{ content }}
         	</div>
 				</div><!-- row -->
       </div><!-- container -->
