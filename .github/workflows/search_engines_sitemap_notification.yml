@@ -1,5 +1,5 @@
 # Name of this workflow
-name: Ping Google & Yandex About Updated Sitemap
+name: Google & Yandex Sitemap Notification
 
 # Controls when the action will run:
 on:
