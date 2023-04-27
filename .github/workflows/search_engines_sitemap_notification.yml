@@ -11,7 +11,7 @@ on:
     branches: [ gh-pages ]
     # filepath to the live / production / rendered sitemap.xml in your GitHub repo:
     paths:
-      - sitemap.xml
+      - /sitemap.xml
 
   # This allows you to run this workflow manually from the Actions tab in your
   # GitHub repo:
