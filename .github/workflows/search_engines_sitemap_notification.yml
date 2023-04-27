@@ -9,13 +9,13 @@ on:
     # If your primary ("production") branch is "main" (or anything else) instead
     # of "master" you will need to update this line:
     branches: [ gh-pages ]
-    # production / rendered sitemap.xml in your GitHub repo:
+    # filepath to the live / production / rendered sitemap.xml in your GitHub repo:
     paths:
       - _site/sitemap.xml
 
   # This allows you to run this workflow manually from the Actions tab in your
   # GitHub repo:
-  workflow_dispatch:
+  # workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in
 # parallel:
