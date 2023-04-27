@@ -6,7 +6,8 @@ search: exclude
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-    {-% for page in site.pages %}
+
+    {% for page in site.pages %}
     <url>
         <loc>https://uxbri.org{{page.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
@@ -14,7 +15,8 @@ search: exclude
         <priority>0.5</priority>
     </url>
     {% endfor %}
-    {-% for post in site.posts %}
+
+    {% for post in site.posts %}
     <url>
         <loc>https://uxbri.org{{post.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
@@ -22,7 +24,8 @@ search: exclude
         <priority>0.5</priority>
     </url>
     {% endfor %}
-    {-% for job in site.jobPosts %}
+
+    {% for job in site.jobPosts %}
     <url>
         <loc>https://uxbri.org{{job.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
@@ -30,4 +33,5 @@ search: exclude
         <priority>0.5</priority>
     </url>
     {% endfor %}
+
 </urlset>
