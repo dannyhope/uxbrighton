@@ -252,7 +252,10 @@
       let jobs_2_diff  = $(jobs_2_current).not(jobs_2_stored).get().length;
       let unviewed_number = "unviewed--single";
       if (jobs_2_diff > 0) {
-        if (jobs_2_diff > 9) { jobs_2_diff = "9+";unviewed_number = "unviewed--double"; }
+        if (jobs_2_diff > 9) {
+          jobs_2_diff = '9+';
+          unviewed_number = 'unviewed--double';
+        }
         $('.masthead__link--jobs').addClass(unviewed_number).append('<span class="unviewed">'+jobs_2_diff+'</span>');
       };
     })();
