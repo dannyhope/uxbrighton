@@ -10,8 +10,12 @@ on:
     # of "master" you will need to update this line:
     branches: [ gh-pages ]
     # filepath to the live / production / rendered sitemap.xml in your GitHub repo:
-    # paths:
-    #   - https://uxbri.org/sitemap.xml
+    paths:
+      # - https://uxbri.org/sitemap.xml
+      - sitemap.xml
+      - _posts/*.md
+      - _jobPosts/*.md
+      - pages/*.md
 
   # This allows you to run this workflow manually from the Actions tab in your
   # GitHub repo:

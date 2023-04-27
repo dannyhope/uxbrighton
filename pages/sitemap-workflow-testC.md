@@ -1,6 +1,6 @@
 ---
 layout: generic
-title: Test B
+title: Test C
 permalink: test
 seo: false
 ---
