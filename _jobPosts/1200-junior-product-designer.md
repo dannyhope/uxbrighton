@@ -4,7 +4,6 @@
 	"id": 1200,
 	"shortId": "huefuh87",
 	"uuid": "541ee384-de38-43b5-aeb8-dcd0f00ff116",
-  "paidAd": false,
 	"title": {
 		"original": "Junior Product Designer",
 		"textDescription": "Junior Product Designer",

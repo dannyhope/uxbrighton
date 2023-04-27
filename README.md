@@ -1,3 +1,4 @@
+[![pages-build-deployment](https://github.com/dannyhope/uxbrighton/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/dannyhope/uxbrighton/actions/workflows/pages/pages-build-deployment) [![Google & Yandex Sitemap Notification](https://github.com/dannyhope/uxbrighton/actions/workflows/search_engines_sitemap_notification.yml/badge.svg)](https://github.com/dannyhope/uxbrighton/actions/workflows/search_engines_sitemap_notification.yml)
 # UX Brighton
 
 All comprehensive instructions, for how to run and edit the website, have moved to the Ops Manual - https://uxbri.org/ops.

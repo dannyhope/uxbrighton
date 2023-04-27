@@ -4,7 +4,6 @@
 	"id": 1202,
 	"shortId": "udhfghw63",
 	"uuid": "d64923cd-5f5b-4712-90d5-2150e04b9ff6",
-  "paidAd": false,
 	"title": {
 		"original": "Senior UX Researcher - Inspire & Choose",
 		"textDescription": "Senior User Experience Researcher",

@@ -4,7 +4,6 @@
 	"id": 1204,
 	"shortId": "ogh43",
 	"uuid": "55e10047-b21b-40fa-ab95-a7b4ed1bacad",
-  "paidAd": false,
 	"title": {
 		"original": "Senior UX Designer",
 		"textDescription": "Senior User Experience Designer",
