@@ -198,6 +198,8 @@ sponsors:
             profile-url: https://www.facebook.com/BrightecApps/
           - link-type: linkedin
             profile-url: https://www.linkedin.com/company/brightec/?originalSubdomain=uk
+          - link-type: instagram
+            profile-url: https://www.instagram.com/brightecapps/
       - logo: /images/jsbin-1-.svg
         name: JS Bin
         summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
@@ -220,6 +222,8 @@ sponsors:
             profile-url: https://www.facebook.com/zeroheight
           - link-type: linkedin
             profile-url: https://www.linkedin.com/company/zero-height/
+          - link-type: instagram
+            profile-url: https://www.instagram.com/zeroheighthq/
     show-opportunity: true
 workshop:
   visibility: false
