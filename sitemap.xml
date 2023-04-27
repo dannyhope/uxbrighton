@@ -3,6 +3,7 @@ layout: null
 search: exclude
 ---
 
+{% comment %} A comment {% endcomment %}
 <?xml version="1.0" encoding="utf-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
