@@ -9,9 +9,8 @@ on:
     # If your primary ("production") branch is "main" (or anything else) instead
     # of "master" you will need to update this line:
     branches: [ gh-pages ]
-    # filepath to the live / production / rendered sitemap.xml in your GitHub repo:
+    # filepath/s to the updated directories / files that have been committed to your GitHub repo:
     paths:
-      # - https://uxbri.org/sitemap.xml
       - sitemap.xml
       - _posts/*.md
       - _jobPosts/*.md
