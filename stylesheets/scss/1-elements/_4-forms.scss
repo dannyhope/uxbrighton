@@ -377,8 +377,9 @@ a.button.disabled, fieldset:disabled a.button {
       }
     }
 
-    // Homepage email subscription form
-    &home {
+    // Homepage & Past events email subscription forms
+    &home,
+    &events {
       .form-cta {
         > :nth-child(2),
         > :last-child {
