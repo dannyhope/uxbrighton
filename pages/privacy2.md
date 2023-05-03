@@ -1,3 +1,9 @@
+---
+layout: generic
+title: Privacy
+permalink: privacy
+seo: false
+---
 <h2>	Sendy	<abbr title="UK">🇬🇧</abbr>	</h2>	<p>	Name, email address	are collected (by	consent – article 6(1)(a)	), safeguarded by	multi-factor authentication	 and stored	until the user unsubscribes or after a few bounces.	</p><p>	Self-hosted (on Dreamhost) email newsletter application.
 <h2>	Amazon SES	<abbr title="USA">🇺🇸</abbr>	</h2>	<p>	Name, email address and meta data, IP address	are collected (by	consent – article 6(1)(a)	), safeguarded by	TLS and DMARC certified, spam and virus checking	 and stored		</p><p>	Outgoing mail server for the Newsletter
 <h2>	Facebook	<abbr title="USA">🇺🇸</abbr>	</h2>	<p>	Name, screen name, user name, location, photo, Facebook profile information including gender, location, device information, websites visited etc.	are collected (by	consent – article 6(1)(a)	), safeguarded by	EU-US Privacy Shield	 and stored	Defined in Facebook’s Privacy Policy and until a user unsubscribes from the fan page	</p><p>	To promote UX Brighton to potentially new members while proving a member support/Q&A platform.
