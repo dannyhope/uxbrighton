@@ -65,7 +65,7 @@
     "tagB",
     "tagC"
   ],
-	"layout": "job"
+	"layout": "jobs/individual",
 }
 ---
 <h2 id="package-description">Package Description</h2>

@@ -62,7 +62,7 @@
     "tagB",
     "tagC"
   ],
-	"layout": "job"
+	"layout": "jobs/individual"
 }
 ---
 <h2 id="role-purpose">Role purpose</h2>

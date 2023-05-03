@@ -1,8 +1,13 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
-<div class="email-subscription--minimal">
+<div class="email-subscription--home">
   <div class="form-content flow">
     <h2 class="mb2 mt4">Stay updated</h2>
     <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
+      <div class="form-control visually-hidden">
+        {% comment %} So we can capture where the email submission happened {% endcomment %}
+        <input type="text" id="field_0" value="Home page" name="Submitted from" class="form-control">
+        <label for="field_0">Submitted from</label>
+      </div>
       <div class="form-cta">
         <label for="email">Email Address</label>
         <input type="email" id="email" name="Email address" class="form-control pa2" required>
