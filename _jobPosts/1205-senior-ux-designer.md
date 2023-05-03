@@ -61,7 +61,7 @@
 	"_applicationLink": "https://boards.greenhouse.io/zava/jobs/6682728002#app",
 	"status": "LIVE",
 	"permalink": "/jobs2/1205/senior-ux-designer",
-	"layout": "job"
+	"layout": "jobs/individual"
 }
 ---
 <h2 id="about-zava">About ZAVA</h2>

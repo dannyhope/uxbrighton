@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}UX Brighton</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}" >
+
+  <!-- Google Analytics -->
+  {% include tracking-head.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-head.html %}
+
+    <!-- facebook open graph tags -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="{% if page.fullurl %}{{ site.url }}{{ page.fullurl }}{% endif %}">
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}" >
+
+    <!-- twitter card tags additive with the og: tags -->
+      <meta name="twitter:card" content="summary_large_image" >
+      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% endif %}" >
+      <meta name="twitter:domain" value="https://uxbri.org/2018/" >
+      <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% endif %}" >
+      <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% endif %}" >
+      <meta name="twitter:url" value="{% if page.fullurl %}{{ site.url }}{{ page.fullurl }}{% endif %}" >
+
+  <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+  <!-- Stylesheets -->
+    <link rel="stylesheet" href="/stylesheets/fonts/museo/sans/font.css">
+    <link rel="stylesheet" href="/stylesheets/css/styles.css">
+
+    {% if page.art-direction %}
+      <style media="screen">
+        {{page.art-direction}}
+      </style>
+    {% endif %}
+
+  <!-- Pre dom-ready scripts -->
+    <script>
+      var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
+      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+    </script>
+
+
+</head>
+
+
+
+<body id="top" class="relative layout--event {% if page.slug %}page-{{ page.slug }}{% endif %}">
+
+  <!-- Google Analytics -->
+  {% include tracking-body.html %}
+
+  {% include header.html %}
+
+	<main class="content-main-detail {% if page.upcoming == null or page.upcoming == false %}is-not-upcoming{% else %}is-upcoming{% endif %}" role="main">
+
+    <section id="hero" class="overlay__outer pa0 bg-grey-90">
+      <div class="overlay__inner overflow-hidden bg-trans">
+        <div class="container color-white">
+          <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
+        	{% if page.subtitle != null%}
+            <h2 class="fs-l regular track-normal mt5 mb5">
+						  {{ page.subtitle }}
+            </h2>
+					{% endif %}
+          <!-- Email subscription form -->
+          {% include email-subscriptions/email-subscription-jobs.html %}
+        </div>
+      </div>
+    </section>
+
+    <section id="job-list" class="bg-white">
+      <div class="container">
+        <div class="row ">
+        {{ content }}
+				</div><!-- row -->
+      </div><!-- container -->
+    </section><!-- overview -->
+
+	</main>
+
+  {% include footer.html %}
+
+  {% include nav.html %}
+
+  <!-- Social media analytics -->
+  {% include social-tracking-body.html %}
+
+</body>
+</html>

@@ -59,7 +59,7 @@
 	"closedDate": "2023-04-26T00:00:00.000Z",
 	"status": "LIVE",
 	"permalink": "/jobs2/1201/senior-ux-designer",
-	"layout": "job"
+	"layout": "jobs/individual"
 }
 ---
 <h2 id="have-the-digital-world-at-your-feet">Have the digital world at your feet...</h2>
