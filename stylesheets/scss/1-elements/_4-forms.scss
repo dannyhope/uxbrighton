@@ -298,14 +298,16 @@ a.button.disabled, fieldset:disabled a.button {
 
   // Email subscription forms
   [class*="email-subscription"] {
-    // margin-bottom: 1em;
-
     label {
       font-weight: 700;
     }
 
     input[type=checkbox] {
       transform: scale(1.5);
+    }
+
+    .button {
+      font-size: 1.5rem;
     }
 
     ul.flow {
