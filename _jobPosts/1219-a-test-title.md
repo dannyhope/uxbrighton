@@ -60,12 +60,12 @@
 		"textDescription": "Full-time, Permanent"
 	},
 	"salary": {
-		"original": "£10",
-		"textDescription": "£10",
+		"original": "£100000",
+		"textDescription": "£100,000",
 		"currencyCode": "GBP",
 		"currancySymbol": "£",
-		"minValue": 10,
-		"maxValue": 10
+		"minValue": 100000,
+		"maxValue": 100000
 	},
 	"applicationLink": "bbc.com",
 	"status": "LIVE",
