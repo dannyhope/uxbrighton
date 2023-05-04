@@ -45,12 +45,12 @@
               Jobs
             </a>
           </li>
-          <li class="nav-item inline-block relative {% if page.collection == 'posts'%}active{% endif %}">
+          <li class="nav-item inline-block relative{% if page.collection == 'posts'%} active{% endif %}">
             <a class="masthead__link masthead__link--events" href="#" data-overlay-trigger="menu">
               <span class="nav-hidden-under-m">All </span>Events
             </a>
           </li>
-          <li class="nav-item inline-block relative">
+          <li class="nav-item inline-block relative{% if page.dir == '/subscribe/' %} active{% endif %}">
             <a class="masthead__link masthead__link--newsletter" href="/subscribe">
               Subscribe
             </a>
