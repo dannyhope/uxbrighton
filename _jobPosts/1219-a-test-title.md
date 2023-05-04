@@ -70,7 +70,7 @@
 	"applicationLink": "bbc.com",
 	"status": "LIVE",
 	"permalink": "/jobs2/1219/a-test-title",
-	"layout": "job"
+	"layout": "jobs/individual"
 }
 ---
 <p>Bleh bleh bleeeeeh.</p>

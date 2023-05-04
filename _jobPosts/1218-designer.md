@@ -49,7 +49,7 @@
 	"applicationLink": "https://someams.com",
 	"status": "LIVE",
 	"permalink": "/jobs2/1218/designer",
-	"layout": "job"
+	"layout": "jobs/individual"
 }
 ---
 <p>sdc.,m dslcklmksalc dm;klamcdklmasm cdkl;mskldmckla mkl;cm adkslcmakls;d cmkl;asdm ckl;samdcasdc</p><h2> a cda</h2><h3>sdc sadc asc asdc </h3><p>asdc </p>
