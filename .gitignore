@@ -14,3 +14,6 @@ yarn.lock
 .vscode
 .sass-cache
 jobs/logos/unit9-logo.png
+
+# Local Netlify folder
+.netlify
