@@ -4,18 +4,18 @@
 	"shortId": "1U1590vt",
 	"uuid": "dbac5d90-a15d-4562-bb9c-79dbe8166245",
 	"title": {
-		"original": "A Job Title A",
-		"textDescription": "Job Title A",
-		"urlSlug": "a-job-title-a",
+		"original": "A Job Title B",
+		"textDescription": "Job Title B",
+		"urlSlug": "a-job-title-b",
 		"inferred": {
-			"canonicalTitle": "Job Title A",
-			"expandedTitle": "Job Title A",
+			"canonicalTitle": "Job Title B",
+			"expandedTitle": "Job Title B",
 			"similiarTitles": [
-				"Software Developer",
-				"Software Engineer",
-				"Software Programmer",
-				"Software Architect",
-				"Software Analyst"
+				"Software Development Engineer",
+				"Software Development Manager",
+				"Software Development Architect",
+				"Software Development Analyst",
+				"Software Development Consultant"
 			]
 		}
 	},
@@ -69,7 +69,7 @@
 	},
 	"applicationLink": "bbc.com",
 	"status": "LIVE",
-	"permalink": "/jobs2/1219/a-job-title-a",
+	"permalink": "/jobs2/1219/a-job-title-b",
 	"layout": "jobs/individual"
 }
 ---

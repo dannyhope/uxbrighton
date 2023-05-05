@@ -37,13 +37,11 @@
 		]
 	},
 	"hiringOrganization": {
-		"name": "15 Gifts",
+		"name": "15 Gifts Ltd",
 		"logo": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1488813020/insrwkpptx8txofy699c.png",
-		"id": 37,
-		"shortId": "1SI4pTQm",
-		"uuid": "905e99a3-5e9f-42e5-a237-daf94c3905cf",
-		"description": "Next-level guided selling. Combining consumer psychology and machine learning to humanise your online sales journeys and model real-time profiles for up to 70% of your prospects.",
-		"twitter": "15 gifts "
+		"id": 22,
+		"shortId": "3J7XtE53",
+		"uuid": "a4f2efc4-55b8-4d8d-8e91-7949f54bdc57"
 	},
 	"employmentType": {
 		"typeInfo": [
