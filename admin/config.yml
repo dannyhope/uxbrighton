@@ -1,8 +1,18 @@
+# Config for how content is created, modified and previewed using the Netlify CMS GUI.
+# ====================================================================================
+
 backend:
-  name: github
-  repo: dannyhope/uxbrighton # Path to the GitHub code repository
-  branch: gh-pages # Branch that Netlify CMS will be available on
-  site_domain: uxbri-netlify-cms.netlify.com # Using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
+  name: git-gateway
+  branch: gh-pages
+
+# when using the default proxy server port
+# local_backend: true
+
+# backend:
+#   name: github
+#   repo: dannyhope/uxbrighton # Path to the GitHub code repository
+#   branch: gh-pages # Branch that Netlify CMS will be available on
+#   site_domain: uxbri-netlify-cms.netlify.com # Using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
 
 local_backend:
   # when using a custom proxy server port
