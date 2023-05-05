@@ -23,7 +23,9 @@ This `admin/` directory of this repo contains the Netlify CMS files necessary to
 Danny has a file called UX Brighton Netlify CMS secrets.txt containing the Client ID and Client secret.
 
 1. Navigate to `https://uxbri.org/admin/` in your browser.
-2. Login with your GitHub credentials.
+2. Click on the “**Login with Netlify Identity**” button
+3. You should then see a login dialog box with a button at the bottom that says “**Continue with GitHub**”. Click this button. If you are already logged into GitHub, you should then be signed into the CMS.
+4. If you are not logged into GitHub, you will be prompted to log in with your GitHub credentials.
 
 ---
 
