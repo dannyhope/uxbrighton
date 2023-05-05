@@ -389,7 +389,7 @@ collections:
                                 widget: "select"
                                 multiple: false
                                 options:
-                                  - {label: "Personal website", value: "website"}
+                                  - {label: "Website", value: "website"}
                                   - {label: "LinkedIn", value: "linkedin"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "Instagram", value: "instagram"}
@@ -975,7 +975,7 @@ collections:
                                 widget: "select"
                                 multiple: false
                                 options:
-                                  - {label: "Personal website", value: "website"}
+                                  - {label: "Website", value: "website"}
                                   - {label: "LinkedIn", value: "linkedin"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "Instagram", value: "instagram"}
@@ -1561,7 +1561,7 @@ collections:
                                 widget: "select"
                                 multiple: false
                                 options:
-                                  - {label: "Personal website", value: "website"}
+                                  - {label: "Website", value: "website"}
                                   - {label: "LinkedIn", value: "linkedin"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "Instagram", value: "instagram"}
