@@ -75,13 +75,13 @@ hero:
     venue: Brighton Dome
     image: /images/header.jpg
   pre:
-    title: UX & Innovation
+    title: Creativity & Innovation
     button:
       label: Book now for 2023
       url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
       extra-text: Early bird discounts available now!
   during:
-    title: UX & Innovation
+    title: Creativity & Innovation
     message: 2023 conference tickets available on the door
     button:
       label: Book now for 2024
