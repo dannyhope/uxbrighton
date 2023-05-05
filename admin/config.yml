@@ -3,16 +3,17 @@
 
 backend:
   name: git-gateway
-  branch: gh-pages
-
-# when using the default proxy server port
-# local_backend: true
+  repo: dannyhope/uxbrighton # Path to the GitHub code repository
+  branch: gh-pages # Branch that Netlify CMS will be available on
 
 # backend:
 #   name: github
 #   repo: dannyhope/uxbrighton # Path to the GitHub code repository
 #   branch: gh-pages # Branch that Netlify CMS will be available on
 #   site_domain: uxbri-netlify-cms.netlify.com # Using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
+
+# when using the default proxy server port
+# local_backend: true
 
 local_backend:
   # when using a custom proxy server port
@@ -24,8 +25,8 @@ local_backend:
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
 media_folder: "/images" # Media files will be stored in the repo under images
 public_folder: "/images" # The src attribute for uploaded media will begin with images
-site_url: https://uxbri.org/
-display_url: https://uxbri.org/
+site_url: https://uxbri.org
+display_url: https://uxbri.org
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
