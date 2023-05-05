@@ -4,18 +4,18 @@
 	"shortId": "1U1590vt",
 	"uuid": "dbac5d90-a15d-4562-bb9c-79dbe8166245",
 	"title": {
-		"original": "A test title",
-		"textDescription": "Test",
-		"urlSlug": "a-test-title",
+		"original": "A Job Title",
+		"textDescription": "Software Developer",
+		"urlSlug": "a-job-title",
 		"inferred": {
-			"canonicalTitle": "Test",
-			"expandedTitle": "Test",
+			"canonicalTitle": "Software Developer",
+			"expandedTitle": "Software Developer",
 			"similiarTitles": [
-				"Test Engineer",
-				"Test Analyst",
-				"Test Developer",
-				"Test Manager",
-				"Test Architect"
+				"Software Engineer",
+				"Software Programmer",
+				"Software Architect",
+				"Software Analyst",
+				"Software Tester"
 			]
 		}
 	},
@@ -60,16 +60,16 @@
 		"textDescription": "Full-time, Permanent"
 	},
 	"salary": {
-		"original": "£100000",
-		"textDescription": "£100,000",
+		"original": "£150,000",
+		"textDescription": "£150,000",
 		"currencyCode": "GBP",
 		"currancySymbol": "£",
-		"minValue": 100000,
-		"maxValue": 100000
+		"minValue": 150000,
+		"maxValue": 150000
 	},
 	"applicationLink": "bbc.com",
 	"status": "LIVE",
-	"permalink": "/jobs2/1219/a-test-title",
+	"permalink": "/jobs2/1219/a-job-title",
 	"layout": "jobs/individual"
 }
 ---
