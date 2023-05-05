@@ -1,75 +1,67 @@
 ---
 {
-	"id": 1219,
-	"shortId": "1U1590vt",
-	"uuid": "dbac5d90-a15d-4562-bb9c-79dbe8166245",
+	"id": 1218,
+	"shortId": "TUx7m5rM",
+	"uuid": "ec6179c7-4d17-43b0-8767-52b641478275",
 	"title": {
-		"original": "A Job Title",
-		"textDescription": "Software Developer",
-		"urlSlug": "a-job-title",
+		"original": "A Job Title B",
+		"textDescription": "Job Title B",
+		"urlSlug": "a-job-title-b",
 		"inferred": {
-			"canonicalTitle": "Software Developer",
-			"expandedTitle": "Software Developer",
+			"canonicalTitle": "Job Title B",
+			"expandedTitle": "Job Title B",
 			"similiarTitles": [
-				"Software Engineer",
-				"Software Programmer",
-				"Software Architect",
-				"Software Analyst",
-				"Software Tester"
+				"Software Development Engineer",
+				"Software Development Manager",
+				"Software Development Architect",
+				"Software Development Analyst",
+				"Software Development Consultant"
 			]
 		}
 	},
-	"postedDate": "2023-05-04T00:00:00.000Z",
-	"closedDate": "2023-05-23T00:00:00.000Z",
-	"directApply": false,
+	"postedDate": "2023-05-02T00:00:00.000Z",
+	"closedDate": "2023-06-05T00:00:00.000Z",
+	"directApply": true,
 	"jobLocation": {
-		"original": "London",
-		"textDescription": "London",
+		"original": "Brighton UK",
+		"textDescription": "Brighton",
 		"locations": [
 			{
-				"textDescription": "London",
-				"locality": "London",
+				"textDescription": "Brighton",
+				"locality": "Brighton",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.5074,
-				"longitude": -0.1278
+				"latitude": 50.82838,
+				"longitude": -0.13947
 			}
 		]
 	},
 	"hiringOrganization": {
-		"name": "15 Gifts Ltd",
+		"name": "15 Gifts",
 		"logo": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1488813020/insrwkpptx8txofy699c.png",
-		"id": 22,
-		"shortId": "3J7XtE53",
-		"uuid": "a4f2efc4-55b8-4d8d-8e91-7949f54bdc57"
+		"id": 37,
+		"shortId": "1SI4pTQm",
+		"uuid": "905e99a3-5e9f-42e5-a237-daf94c3905cf",
+		"description": "Next-level guided selling. Combining consumer psychology and machine learning to humanise your online sales journeys and model real-time profiles for up to 70% of your prospects.",
+		"twitter": "15 gifts "
 	},
 	"employmentType": {
 		"typeInfo": [
-			{
-				"text": "Full-time",
-				"code": "FULL_TIME",
-				"type": "hours"
-			},
 			{
 				"text": "Permanent",
 				"code": "PERMANENT",
 				"type": "contract"
 			}
 		],
-		"original": "Full-time, Permanent",
-		"textDescription": "Full-time, Permanent"
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"salary": {
-		"original": "£150,000",
-		"textDescription": "£150,000",
-		"currencyCode": "GBP",
-		"currancySymbol": "£",
-		"minValue": 150000,
-		"maxValue": 150000
+		"original": "£60,000"
 	},
-	"applicationLink": "bbc.com",
+	"applicationLink": "https://someams.com",
 	"status": "LIVE",
-	"permalink": "/jobs2/1219/a-job-title",
+	"permalink": "/jobs2/1218/a-job-title-b",
 	"layout": "jobs/individual"
 }
 ---
