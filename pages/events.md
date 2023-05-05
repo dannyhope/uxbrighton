@@ -1,5 +1,5 @@
 ---
-layout: generic
+layout: event-list-page
 title: Upcoming and past events
 subtitle: A list of future & past events that we've organised
 description: A list of future & past events that we've organised.
@@ -34,7 +34,7 @@ seo: true
 
 ## Past:
 
-<ul class="event-archive no-list">
+<ul class="event-archive list">
 {% for post in site.posts %}
 {% if post.noinfo == null %}
 {% if post.stub == null %}
@@ -43,6 +43,7 @@ seo: true
     <article>
       <h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
       <p>{{ post.date | date: "%d %B, %Y" }}</p>
+      <div class="post-excerpt">{{ post.content | strip_html }}</div>
     </article>
   </li>
   {% endif %}
