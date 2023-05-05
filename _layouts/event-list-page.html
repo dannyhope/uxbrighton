@@ -63,6 +63,29 @@
     </style>
     {% endif %}
 
+    <style>
+      .post-excerpt {
+      display:none; }
+    
+      .archive-nav__search-wrapper {
+        padding: 10px 0 0;
+        margin: 0 auto;
+        position: relative;
+      }
+      @media (max-width: 830px){
+        .archive-nav__search-wrapper {
+          padding: 10px 16px 0;
+          margin-right: 50px;
+        }
+      }
+      .archive-nav__search {
+        border-radius: 16px;
+        max-width: 430px;
+        width: 100%;
+        padding-left: 36px;
+      }
+    
+    </style>
   <!-- Pre dom-ready scripts -->
     <script>
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
@@ -90,9 +113,9 @@
 					{%- endif %}
           <div class=" archive-nav__search-wrapper width-m" style="margin:0">
             <div class="relative">
-              <img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 7px;left: 12px;" alt="search icon">
+              <img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 19px;left: 12px;" alt="search icon">
               <label for="search_events_page" class="screen-reader-text">Search events</label>
-              <input id="search_events_page" class="search archive-nav__search" />
+              <input id="search_events_page" class="search archive-nav__search pa2" type="search" />
             </div>
           </div>
         </div>
@@ -106,7 +129,7 @@
 
   {% include footer.html %}
 
-  {% include nav.html %}
+  
 
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}

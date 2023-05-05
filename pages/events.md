@@ -34,7 +34,7 @@ seo: true
 
 ## Past:
 
-<ul class="event-archive list">
+<ul class="event-archive list no-list">
 {% for post in site.posts %}
 {% if post.noinfo == null %}
 {% if post.stub == null %}
