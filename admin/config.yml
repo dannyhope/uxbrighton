@@ -5,11 +5,14 @@ backend:
   name: git-gateway # Use GitHub API for authentication
   branch: gh-pages # Branch that Netlify CMS will be available on
 
+########################################################################################
+# NOTE: Older / Original backend config using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
 # backend:
 #   name: github
 #   repo: dannyhope/uxbrighton # Path to the GitHub code repository
 #   branch: gh-pages # Branch that Netlify CMS will be available on
 #   site_domain: uxbri-netlify-cms.netlify.com # Using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
+########################################################################################
 
 # when using the default proxy server port
 # local_backend: true
