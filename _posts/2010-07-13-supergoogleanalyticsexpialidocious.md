@@ -32,4 +32,4 @@ For July’s event our speakers showed how applications like Google Analytics ca
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="https://uxbri.org/about/#danny">Danny</a>

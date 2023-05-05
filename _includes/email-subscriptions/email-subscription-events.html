@@ -1,0 +1,47 @@
+{% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
+<div class="email-subscription--events">
+  <div class="form-content flow">
+    <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
+      <div class="form-control visually-hidden">
+        {% comment %} So we can capture where the email submission happened {% endcomment %}
+        <input type="text" id="field_0" value="Past events page" name="Submitted from" class="form-control">
+        <label for="field_0">Submitted from</label>
+      </div>
+      <div class="form-cta">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="Email address" class="form-control pa2" required>
+        <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0">
+      </div>
+
+      {% comment %} Lists to subscribe to {% endcomment %}
+      <div class="form-list-add flow" style="display: none;">
+        <fieldset>
+          <legend class="visually-hidden">Email newsletter options to subscribe to</legend>
+          <ul class="no-list flow">
+            <li class="form-control">
+              <input type="checkbox" id="field_1" name="Conference & workshop news" class="form-control" checked>
+              <label for="field_1">Conference & workshop news</label>
+            </li>
+            <li class="form-control">
+              <input type="checkbox" id="field_2" name="Evening event news" class="form-control" checked>
+              <label for="field_2">Evening event news</label>
+            </li>
+            <li class="form-control">
+              <input type="checkbox" id="field_3" name="Job alerts" class="form-control" checked>
+              <label for="field_3">Job alerts</label>
+            </li>
+            <li class="form-control">
+              <input type="checkbox" id="field_4" name="Interesting links" class="form-control" checked>
+              <label for="field_4">Interesting links picked by the UX Brighton team</label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+
+  {% comment %} Completion message {% endcomment %}
+  <div class="form-message" style="display: none;">
+    <p class="mb2 mt4">Thanks, we'll keep you updated.</p>
+  </div>
+</div>

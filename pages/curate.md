@@ -11,7 +11,7 @@ seo: false
 
 # Introduction
 
-UX Brighton is a community [group of volunteers](http://uxbrighton.org.uk/about/), led by [Danny Hope](http://dannyhope.co.uk/). We’re always looking for curators for our bi-monthly evening events. If there’s a UX or UX-related event that you’d like to see, then volunteer to run it yourself.
+UX Brighton is a community [group of volunteers](https://uxbri.org/about/), led by [Danny Hope](http://dannyhope.co.uk/). We’re always looking for curators for our bi-monthly evening events. If there’s a UX or UX-related event that you’d like to see, then volunteer to run it yourself.
 
 We will deal with all the logistical aspects of the event, including finding, booking and paying for a venue (we normally use [Fabrica](http://fabrica.org.uk/), [Pub Du Vin](https://www.hotelduvin.com/locations/brighton/pub-du-vin) or [68 Middle Street](http://68middle.st/), depending on the capacity required and the venue availability).
 
@@ -53,13 +53,13 @@ Here’s a sample email you could send to an organisation that might have speake
 
 > Hi `<name of your potential speaker>`,
 
-I'm emailing on behalf of UX Brighton, a voluntary group in Brighton that runs monthly evening events around different UX topics: [](http://uxbrighton.org.uk/)<http://uxbrighton.org.uk/>.
+I'm emailing on behalf of UX Brighton, a voluntary group in Brighton that runs monthly evening events around different UX topics: [](https://uxbri.org/)<https://uxbri.org/>.
 
 I'm organising an event on `<the date of your event>`, on the theme of "`<the theme of your event>`" and it would be fantastic if we could have someone from `<your speaker’s company>` give a talk about `<the way the person or company is related to the theme of your event>`.
 
 Typically, there are two speakers, each presenting for 10-20 minutes, with a break in between. We tend to have around 60-80 people in the audience, although this can sometimes be closer to 100, depending on the popularity of the event.
 
-The talks are filmed, and then made freely available on the UX Brighton website. Here's a set of talks from our event on Human Factors & Ergonomics: [](http://uxbrighton.org.uk/ergonomics/)<http://uxbrighton.org.uk/ergonomics/>.
+The talks are filmed, and then made freely available on the UX Brighton website. Here's a set of talks from our event on Human Factors & Ergonomics: [](https://uxbri.org/ergonomics/)<https://uxbri.org/ergonomics/>.
 
 Brighton has a thriving digital community; the talks are well-attended both by locals and people who travel specially for our evening events. Brighton is home to some well-known agencies, games companies, mobile developers and startups.
 
@@ -79,7 +79,7 @@ Are there people on Twitter that you think would make good speakers? You could D
 
 I'm organising a UX Brighton evening event (**`<date of your event>`**), around the theme of "**`<your event theme>`**". I want to give the attendees a broad overview of the issues around **`<your event theme>`**.
 
-Our events are volunteer run, have about 60-80 attendees and are typically focused around a single UX theme; e.g. our event on Human Factors & Ergonomics: [](http://uxbrighton.org.uk/ergonomics/)<http://uxbrighton.org.uk/ergonomics/>.
+Our events are volunteer run, have about 60-80 attendees and are typically focused around a single UX theme; e.g. our event on Human Factors & Ergonomics: [](https://uxbri.org/ergonomics/)<https://uxbri.org/ergonomics/>.
 
 I’m looking for two speakers. The talks are between 10–20 minutes each and it would be great to have you as one of the speakers...
 
@@ -103,7 +103,7 @@ Hi! I’m organising a @uxbri event around **<the theme of your event>** - can y
 
 As soon as you have your first speaker, the UX Brighton volunteers will help you get an event page up.
 
-We’ll need an overview of the event’s theme and details of your first speaker. Don’t forget to ask them to provide a short bio, explaining why they’re a good speaker for your topic, plus a photo. Then, once the event page is up on [](http://uxbrighton.org.uk/)<http://uxbrighton.org.uk>, we’ll tweet about it and you can start asking people in your network to promote the event.
+We’ll need an overview of the event’s theme and details of your first speaker. Don’t forget to ask them to provide a short bio, explaining why they’re a good speaker for your topic, plus a photo. Then, once the event page is up on [](https://uxbri.org/)<https://uxbri.org>, we’ll tweet about it and you can start asking people in your network to promote the event.
 
 Open your email contacts and Bcc: something like the following message to everyone you think might be vaguely interested. Be sure to mention that you’re still looking for a second speaker...
 
@@ -113,7 +113,7 @@ Open your email contacts and Bcc: something like the following message to everyo
 
 Could you help me promote this to your networks? I’m actively looking for a second speaker for the evening - if you could recommend or introduce me to someone you think would be keen to speak, that would be great!
 
-If you do nothing else, forwarding on this email or a RT of **`<URL of tweet announcing your event>`** would be very welcome![http://uxbrighton.org.uk/](http://uxbrighton.org.uk/)**`<your event page>`**/**`<date of your event>`** 7-9pm
+If you do nothing else, forwarding on this email or a RT of **`<URL of tweet announcing your event>`** would be very welcome![https://uxbri.org/](https://uxbri.org/)**`<your event page>`**/**`<date of your event>`** 7-9pm
 
 This event **`<short description of your event’s topic>`** Thinking of coming? If you're a designer, UX-person, copy-writer, web or mobile app-developer, a product-owner or anyone who's interested in **`<your topic>`**, then you should definitely come!**`<Eventbrite ticket URL>`**
 
@@ -127,7 +127,7 @@ With a bit of work you’ll definitely find at least two speakers. But that said
 
 Now you’ve confirmed your two speakers, it’s time to put bums on seats.
 
-You’ll already have sent a first round of emails, tweets and DMs to people when you got your first speaker and your event-page went live on [uxbrighton.org.uk](http://uxbrighton.org.uk/).
+You’ll already have sent a first round of emails, tweets and DMs to people when you got your first speaker and your event-page went live on [uxbrighton.org.uk](https://uxbri.org/).
 
 Now that you know who your second speaker is, it’s time to tweet an announcement about them too:
 
@@ -161,7 +161,7 @@ Ideally you’ll personalise this for people who got back to you and helped you 
 
 Could you help me promote this to your networks?
 
-If you do nothing else, forwarding on this email or a RT of **`<URL of tweet announcing your event>`** would be very welcome![http://uxbrighton.org.uk/](http://uxbrighton.org.uk/)**`<your event page>`**/**`<date of your event>`** 7-9pm
+If you do nothing else, forwarding on this email or a RT of **`<URL of tweet announcing your event>`** would be very welcome![https://uxbri.org/](https://uxbri.org/)**`<your event page>`**/**`<date of your event>`** 7-9pm
 
 This event **`<short description of your event’s topic>`**
 

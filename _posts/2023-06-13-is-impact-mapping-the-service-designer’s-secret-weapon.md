@@ -25,7 +25,7 @@ seo: true
 Impact maps are extremely effective for gathering consensus on our longer term objectives, and challenging our assumptions around how we think positive change happens as a result of the services we deliver.\
 In the session itself, participants will be developing their own personal impact maps, and will leave equipped with the tools to apply the same process in their work contexts.
 
-D﻿rinks and snacks provided. 🍺🍕
+D﻿rinks and snacks provided. ☕🍕
 
 ## **Workshop Leaders**
 

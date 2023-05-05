@@ -1,0 +1,77 @@
+##############################
+# Build settings
+##############################
+
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+
+##############################
+# Netlify dev server (local)
+##############################
+
+# Dev settings: (Used when running local Netlify dev server)
+[dev]
+  command = "bundle exec jekyll serve"
+  # Declaring port for netlify dev server to use when running the `npm run dev` command
+  port = 8888
+
+
+##############################
+# Headers
+##############################
+
+# Headers (Global)
+# [[headers]]
+#   # Define which paths this specific [[headers]] block will cover.
+#   for = "/*"
+
+#   [headers.values]
+#     Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com; style-src 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; img-src 'self' 'unsafe-inline' *.cloudfront.net"
+#     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+#     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+#     X-Content-Type-Options = "nosniff"
+#     X-Frame-Options = "SAMEORIGIN"
+#     X-XSS-Protection = "1; mode=block"
+
+# Header for .ico files
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+# Header for 'normal' JS
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+# Header for ES6 Modules
+[[headers]]
+  for = "/*.mjs"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+# Header for JSON
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+
+##############################
+# Redirects
+##############################
+
+## ########################################################################
+# Redirect rule to point temporary Netlify URL to preferred domain name
+# ========================================================================
+# NOTE: This requires the DNS records to be updated to point to Netlify.
+[[redirects]]
+  from = "https://uxbri.netlify.app/*"
+  to = "https://uxbri.org/:splat"
+  status = 301
+  force = true
+
+## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/

@@ -2,7 +2,6 @@
 layout: null
 search: exclude
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -20,6 +19,15 @@ search: exclude
     {% for post in site.posts %}
     <url>
         <loc>https://uxbri.org{{post.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+
+    {% for job in site.jobPosts %}
+    <url>
+        <loc>https://uxbri.org{{job.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>

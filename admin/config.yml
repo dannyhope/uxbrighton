@@ -1,8 +1,21 @@
+# Config for how content is created, modified and previewed using the Netlify CMS GUI.
+# ====================================================================================
+
 backend:
-  name: github
-  repo: dannyhope/uxbrighton # Path to the GitHub code repository
+  name: git-gateway # Use GitHub API for authentication
   branch: gh-pages # Branch that Netlify CMS will be available on
-  site_domain: uxbri-netlify-cms.netlify.com # Using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
+
+########################################################################################
+# NOTE: Older / Original backend config using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
+# backend:
+#   name: github
+#   repo: dannyhope/uxbrighton # Path to the GitHub code repository
+#   branch: gh-pages # Branch that Netlify CMS will be available on
+#   site_domain: uxbri-netlify-cms.netlify.com # Using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
+########################################################################################
+
+# when using the default proxy server port
+# local_backend: true
 
 local_backend:
   # when using a custom proxy server port
@@ -14,8 +27,8 @@ local_backend:
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
 media_folder: "/images" # Media files will be stored in the repo under images
 public_folder: "/images" # The src attribute for uploaded media will begin with images
-site_url: https://uxbri.org/
-display_url: https://uxbri.org/
+site_url: https://uxbri.org
+display_url: https://uxbri.org
 logo_url: https://uxbri.org/2022/logo/red-square-small.png
 
 collections:
@@ -56,9 +69,9 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Conference", name: "conference", widget: "string", default: "UX Brighton 2022", required: false}
-                  - {label: "Date", name: "date", widget: "string", default: "Friday 4 November", required: false}
-                  - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2022-11-04T09:30", required: false}
+                  - {label: "Conference", name: "conference", hint: "Eg. **UX Brighton 2022**", widget: "string", default: "UX Brighton 2022", required: false}
+                  - {label: "Date", name: "date", hint: "Eg. **Friday 4 November**", widget: "string", default: "Friday 4 November", required: false}
+                  - {label: "Date & time (numerical)", name: "date-time", hint: "Eg. **2022-11-04T09:00**", widget: "string", default: "2022-11-04T09:00", required: false}
                   - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome", required: false}
                   - {label: "Background Image", name: "image", widget: "image", required: false}
               - label: "Pre-conference content"
@@ -67,7 +80,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Title", name: "title", hint: "Theme / primary topic of the conference - eg. **UX and Product Management**", widget: "string", default: "UX and Product Management", required: false}
                   - label: "Button"
                     name: "button"
                     summary: "Ticket button."
@@ -83,7 +96,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Title", name: "title", hint: "Theme / primary topic of the conference - eg. **UX and Product Management**", widget: "string", default: "UX and Product Management", required: false}
                   - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door", required: false}
                   - label: "Button"
                     name: "button"
@@ -100,7 +113,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Title", name: "title", hint: "Theme / primary topic of the conference - eg. **UX and Product Management**", widget: "string", default: "UX and Product Management", required: false}
                   - {label: "Message", name: "message", widget: "string", default: "Thanks For Coming To UX Brighton 2022: UX and Product Management", required: false}
                   - label: "Button"
                     name: "button"
@@ -376,7 +389,7 @@ collections:
                                 widget: "select"
                                 multiple: false
                                 options:
-                                  - {label: "Personal website", value: "website"}
+                                  - {label: "Website", value: "website"}
                                   - {label: "LinkedIn", value: "linkedin"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "Instagram", value: "instagram"}
@@ -487,7 +500,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -500,7 +513,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -523,7 +535,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -536,7 +548,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -559,7 +570,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -572,7 +583,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -636,7 +646,6 @@ collections:
                 hint: "Choose whether to show *pre*, *during* or *post*-conference hero content."
                 widget: "select"
                 multiple: false
-                required: false
                 options:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During conference", value: "during"}
@@ -713,7 +722,6 @@ collections:
                 hint: "Choose whether to show *pre*, *during* or *post*-conference overview content."
                 widget: "select"
                 multiple: false
-                required: false
                 options:
                   - {label: "Pre-conference", value: "pre"}
                   - {label: "During conference", value: "during"}
@@ -766,7 +774,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Title", name: "title", widget: "string"}
                   - label: "Lede text"
                     name: "lede"
                     summary: "Larger 'lede' / intro text."
@@ -808,7 +816,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Title", name: "title", widget: "string"}
                   - label: "Lede text"
                     name: "lede"
                     summary: "Larger 'lede' / intro text."
@@ -967,7 +975,7 @@ collections:
                                 widget: "select"
                                 multiple: false
                                 options:
-                                  - {label: "Personal website", value: "website"}
+                                  - {label: "Website", value: "website"}
                                   - {label: "LinkedIn", value: "linkedin"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "Instagram", value: "instagram"}
@@ -1069,6 +1077,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor details"
                     name: "sponsor-details"
                     summary: "Sponsor details"
@@ -1077,7 +1086,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1090,7 +1099,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1104,6 +1112,7 @@ collections:
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
+                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
@@ -1112,7 +1121,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1125,7 +1134,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1139,6 +1147,7 @@ collections:
                 fields:
                   - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
@@ -1147,7 +1156,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1160,7 +1169,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1553,7 +1561,7 @@ collections:
                                 widget: "select"
                                 multiple: false
                                 options:
-                                  - {label: "Personal website", value: "website"}
+                                  - {label: "Website", value: "website"}
                                   - {label: "LinkedIn", value: "linkedin"}
                                   - {label: "Twitter", value: "twitter"}
                                   - {label: "Instagram", value: "instagram"}
@@ -1663,7 +1671,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1676,7 +1684,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1698,7 +1705,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1711,7 +1718,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1733,7 +1739,7 @@ collections:
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
                       - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
-                      - {label: "Sponsor URL", name: "url", widget: "string", required: false}
+                      - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
                         name: "links"
@@ -1746,7 +1752,6 @@ collections:
                             widget: "select"
                             multiple: false
                             options:
-                              - {label: "Website", value: "website"}
                               - {label: "LinkedIn", value: "linkedin"}
                               - {label: "Twitter", value: "twitter"}
                               - {label: "Facebook", value: "facebook"}
@@ -1803,7 +1808,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event-page"} # The `layout` field is hidden in the GUI and needs to be changed here instead
       - {label: "Title", name: "title", hint: "The primary title of the event.", widget: "string"}
       - {label: "Description", name: "description", hint: "A brief description of the event. Helpful for SEO.", widget: "string", required: false}
-      - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
+      - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. An aspect ratio of **2:1** with minimum dimensions of **300x157** or maximum of **4096x4096** pixels. Less than **5MB** file size. **NOTE:** Use smaller side of dimensions whenever possible.", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***mentorship-meet-up***. Otherwise URL defaults to slugified version of the title.", widget: "string", required: false}
       - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* redirects - eg. ***/christmas-party, /another-xmas***.", widget: "list", allow_add: true, required: false}
       - {label: "Event date", name: "event-date", hint: "Date of the event. Needed as part of generating the actual file name.", widget: "date", default: "", format: 'YYYY-MM-DD'}

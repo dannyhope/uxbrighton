@@ -1,14 +1,16 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
 <div class="email-subscription--jobs">
-  <h2>Get weekly job alerts</h2>
-  <p>Be the first to know about jobs in <strong>UX design</strong>, <strong>research</strong>, <strong>writing</strong>, <strong>strategy</strong> and <strong>management</strong>. One email, once a week.</p>
+  <p class="visually-hidden">Be the first to know about jobs in <strong>UX design</strong>, <strong>research</strong>, <strong>writing</strong>, <strong>strategy</strong> and <strong>management</strong>. One email, once a week.</p>
   <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
     <div class="form-control visually-hidden">
       <input type="checkbox" id="field_0" name="Job alerts" class="form-control" checked>
       <label for="field_0">Job alerts</label>
+      {% comment %} So we can capture where the email submission happened {% endcomment %}
+      <input type="text" id="field_1" value="Jobs page" name="Submitted from" class="form-control">
+      <label for="field_1">Submitted from</label>
     </div>
     <div class="form-cta">
-      <label for="email">Email Address</label>
+      <label for="email" class="visually-hidden">Email Address</label>
       <input type="email" id="email" name="Email address" class="form-control pa2" required>
       <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0">
     </div>
@@ -20,16 +22,16 @@
         <legend class="visually-hidden">Additional newsletters to subscribe to</legend>
         <ul class="no-list flow">
           <li class="form-control">
-            <input type="checkbox" id="field_1" name="Conference & workshop news" class="form-control">
-            <label for="field_1">Conference & workshop news</label>
+            <input type="checkbox" id="field_2" name="Conference & workshop news" class="form-control">
+            <label for="field_2">Conference & workshop news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_2" name="Evening event news" class="form-control">
-            <label for="field_2">Evening event news</label>
+            <input type="checkbox" id="field_3" name="Evening event news" class="form-control">
+            <label for="field_3">Evening event news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_3" name="Interesting links" class="form-control">
-            <label for="field_3">Interesting links picked by the UX Brighton team</label>
+            <input type="checkbox" id="field_4" name="Interesting links" class="form-control">
+            <label for="field_4">Interesting links picked by the UX Brighton team</label>
           </li>
         </ul>
       </fieldset>

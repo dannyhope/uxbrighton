@@ -298,8 +298,6 @@ a.button.disabled, fieldset:disabled a.button {
 
   // Email subscription forms
   [class*="email-subscription"] {
-    margin-bottom: 1em;
-
     label {
       font-weight: 700;
     }
@@ -327,24 +325,34 @@ a.button.disabled, fieldset:disabled a.button {
       flex-wrap: wrap;
       gap: 0.5em;
 
+      > * {
+        flex: 1;
+        flex-basis: auto;
+        max-width: 100%;
+      }
+
       > :first-child {
         flex: 0 1 100%;
       }
 
       > :nth-child(2) {
-        flex: 0 1 430px;
+        @include over-s {
+          max-width: 430px;
+        }
       }
 
       > :last-child {
-        flex: 0 1 200px;
+        @include over-s {
+          max-width: 200px;
+        }
       }
     }
   }
 
   .email-subscription-- {
 
-    // Default email subscription form
-    &default {
+    // Subscribe page email subscription form
+    &subscribe {
       .form-message {
         p {
           font-size: $size-h2;
@@ -356,7 +364,7 @@ a.button.disabled, fieldset:disabled a.button {
       }
     }
 
-    // Jobs email subscription form
+    // Jobs page email subscription form
     &jobs {
       .form-message {
         p {
@@ -365,12 +373,12 @@ a.button.disabled, fieldset:disabled a.button {
       }
     }
 
-    // Minimal email subscription form
-    &minimal {
+    // Homepage & Past events email subscription forms
+    &home,
+    &events {
       .form-cta {
         > :nth-child(2),
         > :last-child {
-          flex-grow: 1;
           flex-basis: auto;
           max-width: 100%;
         }

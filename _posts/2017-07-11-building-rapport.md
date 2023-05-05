@@ -32,6 +32,6 @@ Chris is Principal UX Consultant at Clearleft. He helps clients create meaningfu
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
-- <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="https://uxbri.org/about/#luke">Luke</a>
+- <a href="https://uxbri.org/about/#patrick">Patrick</a>
+- <a href="https://uxbri.org/about/#danny">Danny</a>
