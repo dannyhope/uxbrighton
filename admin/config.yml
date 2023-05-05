@@ -2,8 +2,7 @@
 # ====================================================================================
 
 backend:
-  name: git-gateway
-  repo: dannyhope/uxbrighton # Path to the GitHub code repository
+  name: git-gateway # Use GitHub API for authentication
   branch: gh-pages # Branch that Netlify CMS will be available on
 
 # backend:
