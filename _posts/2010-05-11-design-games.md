@@ -14,4 +14,4 @@ In yet another change of format, this month [Rob Phillips](http://www.rdphillips
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#danny">Danny</a>
+- <a href="https://uxbri.org/about/#danny">Danny</a>

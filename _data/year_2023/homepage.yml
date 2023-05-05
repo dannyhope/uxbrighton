@@ -65,7 +65,7 @@ workshop:
     back-image: /images/voice-ui-workshop.jpeg
   section-title: Workshop
 conference-year: "2023"
-title: " UX Brighton 2023: UX & Innovation"
+title: " UX Brighton 2023: Creativity & Innovation"
 hero:
   hero-state: pre
   global:
@@ -75,13 +75,13 @@ hero:
     venue: Brighton Dome
     image: /images/header.jpg
   pre:
-    title: UX & Innovation
+    title: Creativity & Innovation
     button:
       label: Book now for 2023
       url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
       extra-text: Early bird discounts available now!
   during:
-    title: UX & Innovation
+    title: Creativity & Innovation
     message: 2023 conference tickets available on the door
     button:
       label: Book now for 2024
@@ -99,15 +99,29 @@ overview:
   pre:
     title: Join us for our annual one-day conference!
     lede:
-      body: ""
-    text:
       body: >-
-        Join us for our annual conference where people from product management,
-        ux, research and design will gather to discover what we have to learn
-        from one another.
+        Creativity is broad, innovation has been overused so let’s define our
+        terms:
 
 
-        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+        **creativity** *n*. coming up with new ways to think about things
+
+
+        **innovation** *n*. creating ways to solve problems
+
+
+        As user experience designers, it's essential to empathize with users and employ various methods to address their needs effectively. However, achieving our best work requires us to turn the lens inward and apply user-centered design principles to our ways of working and our relationships. By doing so, we can better serve those whose problems we aim to solve.
+
+
+        Amid tight deadlines, finding the time and space for self-reflection and growth can be challenging. UX Brighton 2023 offers a rare opportunity for attendees to focus on themselves in a dedicated environment, fostering creativity and innovation.
+
+
+        When creativity is provided with room to grow, it paves the way for innovation. Embracing innovation offers your organization a valuable edge. Each individual has the capacity for increased creativity. Discover techniques to enhance your creative abilities at UX Brighton 2023.
+
+
+        Join us in this enriching journey as we explore the power of creativity and innovation together, and take the user experience design field to new heights. Register now and secure your place in this transformative event!
+    text:
+      body: ""
     testimonial:
       visibility: true
       quote: Some of the smartest, most insightful and entertaining people I've met.
@@ -253,8 +267,6 @@ sponsors:
         clients in more than 100 countries with one of the most comprehensive
         global product platforms available.
       links:
-        - link-type: website
-          profile-url: https://www.jpmorgan.com/GB/en/about-us
         - link-type: twitter
           profile-url: https://twitter.com/jpmorgan
         - link-type: facebook
@@ -264,36 +276,25 @@ sponsors:
         - link-type: instagram
           profile-url: https://www.instagram.com/jpmorgan
   sponsors-premium:
-    visibility: false
+    visibility: true
     section-title: Premium Sponsors
     sponsor-list:
-      - name: Fresh Egg
-        logo: /images/fresh-egg-logo.svg
-        url: https://www.freshegg.co.uk/
-        summary: Fresh Egg provide digital marketing that’s driven by customer
-          experience. Everything they do starts with understanding audience
-          needs while improving user journeys to improve digital success.
+      - name: Askable
+        logo: /images/group-22.svg
+        url: https://www.askable.com/
+        summary: Askable takes control of participant recruitment, handpicks the exact
+          people you need for face to face research, online tasks, surveys and
+          more.
         links:
-          - link-type: website
-            profile-url: https://www.freshegg.co.uk/
           - link-type: twitter
-            profile-url: https://twitter.com/freshegg
+            profile-url: https://twitter.com/AskableApp
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/askable/
           - link-type: facebook
-            profile-url: https://www.facebook.com/FreshEggUK/
-      - name: J.P. Morgan
-        logo: /images/jpm.svg
-        url: https://www.jpmorgan.com/GB/en/about-us
-        summary: J.P. Morgan is a leader in financial services, offering solutions to
-          clients in more than 100 countries with one of the most comprehensive
-          global product platforms available.
-        links:
-          - link-type: website
-            profile-url: https://www.jpmorgan.com/GB/en/about-us
-          - link-type: twitter
-            profile-url: https://twitter.com/jpmorgan
-          - link-type: facebook
-            profile-url: https://www.facebook.com/jpmorgan
-    show-opportunity: false
+            profile-url: https://www.facebook.com/askableapp
+          - link-type: instagram
+            profile-url: https://www.instagram.com/askableau/
+    show-opportunity: true
   sponsors-standard:
     visibility: true
     section-title: Standard Sponsors
@@ -305,23 +306,21 @@ sponsors:
           in Brighton, UK.  Their mission is simple; to be a company that
           customers love working with, and their employees love working for.
         links:
-          - link-type: website
-            profile-url: https://www.brightec.co.uk/
           - link-type: twitter
             profile-url: https://twitter.com/brightec
           - link-type: facebook
             profile-url: https://www.facebook.com/BrightecApps/
           - link-type: linkedin
             profile-url: https://www.linkedin.com/company/brightec/?originalSubdomain=uk
+          - link-type: instagram
+            profile-url: https://www.instagram.com/brightecapps/
       - logo: /images/jsbin-1-.svg
         name: JS Bin
         summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
           folk test snippets of code, within some context, and debug the code
           collaboratively.
-        url: jsbin.com
-        links:
-          - link-type: website
-            profile-url: jsbin.com
+        url: http://jsbin.com
+        links: []
       - name: zeroheight
         logo: /images/property-1-default.svg
         url: https://hubs.li/Q01CYBy40
@@ -337,13 +336,13 @@ sponsors:
             profile-url: https://www.facebook.com/zeroheight
           - link-type: linkedin
             profile-url: https://www.linkedin.com/company/zero-height/
-          - link-type: website
-            profile-url: https://hubs.li/Q01CYBy40
+          - link-type: instagram
+            profile-url: https://www.instagram.com/zeroheighthq/
     show-opportunity: true
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
 social-image: ""
-event-promo-top-of-page: false
+event-promo-top-of-page: true
 highlights:
   visibility: true
   title: Highlights from previous years

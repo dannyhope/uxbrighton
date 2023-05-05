@@ -14,16 +14,16 @@ event-date: 2019-02-12
 seo: true
 
 description: "Rachel McConnell – How to take your content from zero to hero; Fiona MacNeill – A UX perspective on ‘bring your own data’ in healthcare; Nabeeha Ahmed — The Selfish Giant - the converted"
-fullurl: https://uxbrighton.org.uk/February-triple-bill/
+fullurl: /February-triple-bill/
 
-image: "https://uxbrighton.org.uk/images/cards/Feb-2019.jpg"
+image: "/images/cards/Feb-2019.jpg"
 
 
 sponsor: '<a class="fs-l regular color-white" href="https://www.wiredsussex.com/jobs/vacancy/conversion-optimisation-and-ux-strategist-in-worthing,-by-the-beach/26491"> Sponsored by Fresh Egg<img alt="Fresh Egg" src="/assets/2019-Feb/Fresh-Egg-Logo-white.svg" alt="Fresh Egg Logo" width="50" class="ml1 inline"></a>'
 
 sponsor2: '<div><a class="block standfirst mb3" style="max-width:400px; line-height: 1; color: #888;" href="https://www.wiredsussex.com/jobs/vacancy/conversion-optimisation-and-ux-strategist-in-worthing,-by-the-beach/26491"><img alt="Fresh Egg" src="/assets/2019-Feb/Fresh-Egg-Logo.svg" alt="Fresh Egg Logo" width="60" class="mr2 left">With pizza and drinks sponsored by Fresh Egg</a></div>'
 
-fullurl: https://uxbrighton.org.uk/February-double-bill/
+fullurl: /February-double-bill/
 upcoming-bg-image: "/2018/images/photos/feb.jpg"
 
 ---

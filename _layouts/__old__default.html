@@ -16,7 +16,7 @@
 
 	{% assign frontpage = site.posts.first %}
 
-  {% capture nextevent %}Our next event is {{site.posts.first.title }} event on {{site.posts.first.date | date: "%d %b"}} at {{site.posts.first.start}}. See http://uxbrighton.org.uk{{page.url}} for more information.{% endcapture %}
+  {% capture nextevent %}Our next event is {{site.posts.first.title }} event on {{site.posts.first.date | date: "%d %b"}} at {{site.posts.first.start}}. See https://uxbri.org{{page.url}} for more information.{% endcapture %}
 
 	{% if page.title %}
 	  	{% assign organisers_names = page.organisers | map: "name" %}
@@ -28,7 +28,7 @@
 			{% capture previous_event %}This was our {{page.title }} event, held on {{page.date | date: "%d %b %Y"}}. {% endcapture %}
 		{% endif %}
 
-		{% capture description %}{{previous_event}} Come to our next event: {{site.posts.first.title }} on {{site.posts.first.date | date: "%d %b"}} at {{site.posts.first.start}}. It's being held at {{site.posts.first.venue}}, Brighton and is organised by {{organisers_names | array_to_sentence_string }}. See http://uxbrighton.org.uk{{page.url}} for more information.{% endcapture %}
+		{% capture description %}{{previous_event}} Come to our next event: {{site.posts.first.title }} on {{site.posts.first.date | date: "%d %b"}} at {{site.posts.first.start}}. It's being held at {{site.posts.first.venue}}, Brighton and is organised by {{organisers_names | array_to_sentence_string }}. See https://uxbri.org{{page.url}} for more information.{% endcapture %}
 
 	{% else %}
 		{% capture description %}UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology. {{nextevent}}{% endcapture %} 
@@ -39,18 +39,18 @@
 
 	<!-— facebook open graph tags -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://uxbrighton.org.uk{{page.url}}" />
+	<meta property="og:url" content="https://uxbri.org{{page.url}}" />
 	<meta property="og:title" content="{{title}}" />
 	<meta property="og:description" content="{{description}}" />
 	<!-- <meta property="og:image" content="" /> -->
 
 	<!-— twitter card tags additive with the og: tags -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:domain" value="http://uxbrighton.org.uk" />
+	<meta name="twitter:domain" value="https://uxbri.org" />
 	<meta name="twitter:title" value="{{title}}" />
 	<meta name="twitter:description" value="{{description}}" />
 	<!-- <meta name="twitter:image" content="" /> -->
-	<meta name="twitter:url" value="http://uxbrighton.org.uk{{page.url}}" />
+	<meta name="twitter:url" value="https://uxbri.org{{page.url}}" />
 
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>

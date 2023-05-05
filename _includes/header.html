@@ -40,12 +40,12 @@
       </a>
       <div class="masthead__links">
         <ul class="nav right-over-s">
-          <li class="nav-item inline-block relative jobs-element">
+          <li class="nav-item inline-block relative jobs-element{% if page.dir == '/jobs/' or page.collection == 'jobPosts'%} active{% endif %}">
             <a class="masthead__link masthead__link--jobs" href="/jobs">
               Jobs
             </a>
           </li>
-          <li class="nav-item inline-block relative">
+          <li class="nav-item inline-block relative {% if page.collection == 'posts'%}active{% endif %}">
             <a class="masthead__link masthead__link--events" href="#" data-overlay-trigger="menu">
               <span class="nav-hidden-under-m">All </span>Events
             </a>

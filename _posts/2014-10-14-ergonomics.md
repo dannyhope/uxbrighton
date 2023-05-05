@@ -38,4 +38,4 @@ As well as teaching, his research and consultancy covers many aspects of biomech
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#tim">Tim</a>
+- <a href="https://uxbri.org/about/#tim">Tim</a>

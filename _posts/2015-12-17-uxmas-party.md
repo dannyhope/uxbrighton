@@ -21,5 +21,5 @@ A festive co-production with <a href="https://twitter.com/uxcurrybrighton">UX Cu
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#patrick">Patrick</a>
-- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
+- <a href="https://uxbri.org/about/#patrick">Patrick</a>
+- <a href="https://uxbri.org/about/#luke">Luke</a>
