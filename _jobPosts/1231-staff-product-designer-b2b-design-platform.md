@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-17T23:00:00.000Z",
 	"closedDate": "2023-05-17T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://bumble.wd3.myworkdayjobs.com/en-US/Bumble_Careers/job/London/Staff-Product-Designer--B2B--Design-Platform_JR1493",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://bumble.wd3.myworkdayjobs.com/en-US/Bumble_Careers/job/London/Staff-Product-Designer--B2B--Design-Platform_JR1493",
 	"status": "LIVE",
 	"permalink": "/jobs2/1231/staff-product-designer-b2b-design-platform",
 	"layout": "jobs/individual"

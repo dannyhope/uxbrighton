@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-18T23:00:00.000Z",
 	"closedDate": "2023-05-18T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://apply.workable.com/benivo/j/EFAF5EAC82/apply/",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://apply.workable.com/benivo/j/EFAF5EAC82/apply/",
 	"status": "LIVE",
 	"permalink": "/jobs2/1234/lead-product-designer",
 	"layout": "jobs/individual"

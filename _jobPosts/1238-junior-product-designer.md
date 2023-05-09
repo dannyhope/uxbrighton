@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-23T23:00:00.000Z",
 	"closedDate": "2023-05-23T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://apply.workable.com/nodeslinks/j/65BBBD4267/apply/",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://apply.workable.com/nodeslinks/j/65BBBD4267/apply/",
 	"status": "LIVE",
 	"permalink": "/jobs2/1238/junior-product-designer",
 	"layout": "jobs/individual"

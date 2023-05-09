@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-18T23:00:00.000Z",
 	"closedDate": "2023-05-18T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://curryscareers.co.uk/job/London-Senior-UX-Manager/902237801",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://curryscareers.co.uk/job/London-Senior-UX-Manager/902237801",
 	"status": "LIVE",
 	"permalink": "/jobs2/1233/senior-ux-manager",
 	"layout": "jobs/individual"

@@ -11,7 +11,6 @@
 	"postedDate": "2023-05-05T23:00:00.000Z",
 	"closedDate": "2023-06-05T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://apply.workable.com/cognism-ltd/j/350C498F0B/apply/",
 	"jobLocation": {
 		"original": "London, Remote",
 		"textDescription": "Remote, London",
@@ -45,6 +44,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://apply.workable.com/cognism-ltd/j/350C498F0B/apply/",
 	"status": "LIVE",
 	"permalink": "/jobs2/1257/product-designer-ux",
 	"layout": "jobs/individual"

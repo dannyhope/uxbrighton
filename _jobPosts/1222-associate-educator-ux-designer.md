@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-10T23:00:00.000Z",
 	"closedDate": "2023-05-10T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://boards.greenhouse.io/brainstation/jobs/5574234003#app",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://boards.greenhouse.io/brainstation/jobs/5574234003#app",
 	"status": "LIVE",
 	"permalink": "/jobs2/1222/associate-educator-ux-designer",
 	"layout": "jobs/individual"

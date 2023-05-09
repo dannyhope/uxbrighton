@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-02T23:00:00.000Z",
 	"closedDate": "2023-05-13T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://jobs.smartrecruiters.com/oneclick-ui/company/HitachiSolutions/publication/2b0245ab-3c99-4cee-895d-81a496d0718c?dcr_ci=HitachiSolutions",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/HitachiSolutions/publication/2b0245ab-3c99-4cee-895d-81a496d0718c?dcr_ci=HitachiSolutions",
 	"status": "LIVE",
 	"permalink": "/jobs2/1211/senior-ux-product-designer",
 	"layout": "jobs/individual"

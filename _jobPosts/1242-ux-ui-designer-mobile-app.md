@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-24T23:00:00.000Z",
 	"closedDate": "2023-05-24T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://jobs.tuigroup.com/job/London-UX-UI-Designer-Mobile-App-E1W-1UN/913303001",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://jobs.tuigroup.com/job/London-UX-UI-Designer-Mobile-App-E1W-1UN/913303001",
 	"status": "LIVE",
 	"permalink": "/jobs2/1242/ux-ui-designer-mobile-app",
 	"layout": "jobs/individual"

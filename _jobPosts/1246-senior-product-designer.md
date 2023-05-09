@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-26T23:00:00.000Z",
 	"closedDate": "2023-05-26T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
 	"status": "LIVE",
 	"permalink": "/jobs2/1246/senior-product-designer",
 	"layout": "jobs/individual"

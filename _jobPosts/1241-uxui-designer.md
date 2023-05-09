@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-24T23:00:00.000Z",
 	"closedDate": "2023-05-24T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://www.collinsongrouptalent.com/jobs/2725457-ux-ui-designer",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://www.collinsongrouptalent.com/jobs/2725457-ux-ui-designer",
 	"status": "LIVE",
 	"permalink": "/jobs2/1241/uxui-designer",
 	"layout": "jobs/individual"

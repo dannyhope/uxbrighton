@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-30T00:00:00.000Z",
 	"closedDate": "2023-05-30T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://join.com/companies/getmads/7896165-product-designer#apply-window",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,11 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"salary": {
-		"statusCode": 400,
-		"error": "Bad Request",
-		"message": "Invalid request payload input"
-	},
+	"applicationUri": "https://join.com/companies/getmads/7896165-product-designer#apply-window",
 	"status": "LIVE",
 	"permalink": "/jobs2/1252/product-designer",
 	"layout": "jobs/individual"

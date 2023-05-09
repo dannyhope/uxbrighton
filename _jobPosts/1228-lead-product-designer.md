@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-14T23:00:00.000Z",
 	"closedDate": "2023-05-14T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://careers.elsewhen.com/jobs/2408531-lead-product-designer",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://careers.elsewhen.com/jobs/2408531-lead-product-designer",
 	"status": "LIVE",
 	"permalink": "/jobs2/1228/lead-product-designer",
 	"layout": "jobs/individual"

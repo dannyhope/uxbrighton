@@ -22,7 +22,6 @@
 	"postedDate": "2023-05-04T23:00:00.000Z",
 	"closedDate": "2023-06-04T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://app.beapplied.com/apply/46m192oidg",
 	"jobLocation": {
 		"original": "London, Hybrid",
 		"textDescription": "Hybrid, London",
@@ -60,10 +59,11 @@
 		"original": "£57000-69000",
 		"textDescription": "£57,000 - £69,000",
 		"currencyCode": "GBP",
-		"currancySymbol": "£",
 		"minValue": 57000,
-		"maxValue": 69000
+		"maxValue": 69000,
+		"currencySymbol": "£"
 	},
+	"applicationUri": "https://app.beapplied.com/apply/46m192oidg",
 	"status": "LIVE",
 	"permalink": "/jobs2/1255/product-design-lead-collective-intelligence",
 	"layout": "jobs/individual"

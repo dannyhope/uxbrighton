@@ -18,7 +18,6 @@
 	"postedDate": "2023-04-30T23:00:00.000Z",
 	"closedDate": "2023-05-30T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://boards.greenhouse.io/algolia/jobs/4867299004app#app",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -51,6 +50,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://boards.greenhouse.io/algolia/jobs/4867299004app#app",
 	"status": "LIVE",
 	"permalink": "/jobs2/1251/director-product-design",
 	"layout": "jobs/individual"

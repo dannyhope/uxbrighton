@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-16T23:00:00.000Z",
 	"closedDate": "2023-05-16T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://jobs.pizzaexpress.com/search/63558",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -59,10 +58,11 @@
 		"original": "£70,000 - £80,000",
 		"textDescription": "£70,000 - £80,000",
 		"currencyCode": "GBP",
-		"currancySymbol": "£",
 		"minValue": 70000,
-		"maxValue": 80000
+		"maxValue": 80000,
+		"currencySymbol": "£"
 	},
+	"applicationUri": "https://jobs.pizzaexpress.com/search/63558",
 	"status": "LIVE",
 	"permalink": "/jobs2/1229/digital-ux-designer",
 	"layout": "jobs/individual"

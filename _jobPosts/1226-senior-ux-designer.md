@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-13T23:00:00.000Z",
 	"closedDate": "2023-05-13T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://vanquisbank.current-vacancies.com/Jobs/Advert/3078657?cid=1804&rsid=0&js=0&LinkType=1&FromSearch=False",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -44,6 +43,7 @@
 		"shortId": "CJmYl5dF",
 		"uuid": "b2d1f6cb-e32b-4c26-84f8-f47fe9bc22f2"
 	},
+	"applicationUri": "https://vanquisbank.current-vacancies.com/Jobs/Advert/3078657?cid=1804&rsid=0&js=0&LinkType=1&FromSearch=False",
 	"status": "LIVE",
 	"permalink": "/jobs2/1226/senior-ux-designer",
 	"layout": "jobs/individual"

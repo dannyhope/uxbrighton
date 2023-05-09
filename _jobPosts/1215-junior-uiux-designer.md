@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-04T23:00:00.000Z",
 	"closedDate": "2023-05-13T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://www.gamesjobsdirect.com/details/redirect/junior-uiux-designer/234978",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://www.gamesjobsdirect.com/details/redirect/junior-uiux-designer/234978",
 	"status": "LIVE",
 	"permalink": "/jobs2/1215/junior-uiux-designer",
 	"layout": "jobs/individual"

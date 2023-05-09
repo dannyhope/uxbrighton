@@ -22,7 +22,6 @@
 	"postedDate": "2023-05-03T23:00:00.000Z",
 	"closedDate": "2023-06-03T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://abel-cole.breezy.hr/p/36e1898181ab-ui-designer/apply",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://abel-cole.breezy.hr/p/36e1898181ab-ui-designer/apply",
 	"status": "LIVE",
 	"permalink": "/jobs2/1254/ui-designer",
 	"layout": "jobs/individual"

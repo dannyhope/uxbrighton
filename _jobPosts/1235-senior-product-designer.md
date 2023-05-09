@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-19T23:00:00.000Z",
 	"closedDate": "2023-05-19T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://boards.eu.greenhouse.io/wegiftakavouchermarketlimited/jobs/4152326101#app",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,6 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://boards.eu.greenhouse.io/wegiftakavouchermarketlimited/jobs/4152326101#app",
 	"status": "LIVE",
 	"permalink": "/jobs2/1235/senior-product-designer",
 	"layout": "jobs/individual"

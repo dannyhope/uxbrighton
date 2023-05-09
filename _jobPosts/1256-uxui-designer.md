@@ -22,7 +22,6 @@
 	"postedDate": "2023-05-05T23:00:00.000Z",
 	"closedDate": "2023-06-05T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://jobs.eu.lever.co/anyvan/8b958f6e-5791-4dde-8d89-9ca0d58333b0/apply",
 	"jobLocation": {
 		"original": "Hammersmith, Hybrid",
 		"textDescription": "Hybrid, Hammersmith",
@@ -56,6 +55,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://jobs.eu.lever.co/anyvan/8b958f6e-5791-4dde-8d89-9ca0d58333b0/apply",
 	"status": "LIVE",
 	"permalink": "/jobs2/1256/uxui-designer",
 	"layout": "jobs/individual"

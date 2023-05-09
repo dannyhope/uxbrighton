@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-24T23:00:00.000Z",
 	"closedDate": "2023-05-24T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://jobs.smartrecruiters.com/oneclick-ui/company/Xapien/publication/49a9a24a-9587-4448-9a50-6666aa6798b1?dcr_ci=Xapien",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -59,10 +58,11 @@
 		"original": "£70,000 - £80,000",
 		"textDescription": "£70,000 - £80,000",
 		"currencyCode": "GBP",
-		"currancySymbol": "£",
 		"minValue": 70000,
-		"maxValue": 80000
+		"maxValue": 80000,
+		"currencySymbol": "£"
 	},
+	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/Xapien/publication/49a9a24a-9587-4448-9a50-6666aa6798b1?dcr_ci=Xapien",
 	"status": "LIVE",
 	"permalink": "/jobs2/1243/senior-ux-designer",
 	"layout": "jobs/individual"

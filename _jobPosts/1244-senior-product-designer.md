@@ -22,7 +22,6 @@
 	"postedDate": "2023-04-25T23:00:00.000Z",
 	"closedDate": "2023-05-25T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://www.aplitrak.com/?adid=b2xpdmlhLmhhbnNvbi41Nzk3Ni40NzA3QGxvcmllbi5hcGxpdHJhay5jb20",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -55,11 +54,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"salary": {
-		"statusCode": 400,
-		"error": "Bad Request",
-		"message": "Invalid request payload input"
-	},
+	"applicationUri": "https://www.aplitrak.com/?adid=b2xpdmlhLmhhbnNvbi41Nzk3Ni40NzA3QGxvcmllbi5hcGxpdHJhay5jb20",
 	"status": "LIVE",
 	"permalink": "/jobs2/1244/senior-product-designer",
 	"layout": "jobs/individual"

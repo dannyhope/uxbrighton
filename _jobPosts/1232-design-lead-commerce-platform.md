@@ -23,7 +23,6 @@
 	"postedDate": "2023-04-17T23:00:00.000Z",
 	"closedDate": "2023-05-17T00:00:00.000Z",
 	"directApply": false,
-	"_applicationLink": "https://condenast.wd5.myworkdayjobs.com/en-US/CondeCareers/job/The-Adelphi-London-GB/Design-Lead--Commerce-Platform_R-12825",
 	"jobLocation": {
 		"original": "Wimbledon",
 		"textDescription": "Wimbledon",
@@ -40,7 +39,7 @@
 	},
 	"hiringOrganization": {
 		"name": "Condé Nast",
-		"logo": "//uxbri.org/jobs/logos/CondéNast-logo.svg",
+		"logo": "//uxbri.org/jobs/logos/Cond%C3%A9Nast-logo.svg",
 		"id": 223,
 		"shortId": "IQOvKSwV",
 		"uuid": "70756e3f-0ab0-4e20-88bb-5045d3360f06"
@@ -56,6 +55,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"applicationUri": "https://condenast.wd5.myworkdayjobs.com/en-US/CondeCareers/job/The-Adelphi-London-GB/Design-Lead--Commerce-Platform_R-12825",
 	"status": "LIVE",
 	"permalink": "/jobs2/1232/design-lead-commerce-platform",
 	"layout": "jobs/individual"
