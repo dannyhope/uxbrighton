@@ -143,7 +143,7 @@
 						<aside class="job-detail_meta">
               <div class="job-logo" style="background-image: url({{ page.hiringOrganization.logo }});"></div>
               <!-- Apply button -->
-              <a class="button button--green job-apply-btn mt2 pa2" href="{{ page._applicationLink }}">Apply for this job</a>
+              <a class="button button--green job-apply-btn mt2 pa2" href="{{ page.applicationUri }}">Apply for this job</a>
 						</aside>
         	</div>
           {% comment %} Main content area {% endcomment %}
@@ -151,7 +151,7 @@
         		{{ content }}
             <div class="flex justify-center hidden-over-l">
               <!-- Apply button -->
-              <a class="button button--green job-apply-btn mt2 mb2 pa2" href="{{ page._applicationLink }}">Apply for this job</a>
+              <a class="button button--green job-apply-btn mt2 mb2 pa2" href="{{ page.applicationUri }}">Apply for this job</a>
             </div>
         	</div>
 				</div><!-- row -->
@@ -188,11 +188,11 @@
           "currency": "{{ page.salary.currencyCode }}"
           {%- assign minValue = page.salary.minValue %}
           {%- if minValue and minValue != '' %},
-          "minValue": "{{ page.salary.currancySymbol }}{{ minValue }}"
+          "minValue": "{{ page.salary.currencySymbol }}{{ minValue }}"
           {%- endif %}
           {%- assign maxValue = page.salary.maxValue %}
           {%- if maxValue and maxValue != '' %},
-          "maxValue": "{{ page.salary.currancySymbol }}{{ maxValue }}"
+          "maxValue": "{{ page.salary.currencySymbol }}{{ maxValue }}"
           {%- endif %}
         }
         {%- endif %}
