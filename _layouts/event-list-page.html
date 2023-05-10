@@ -63,6 +63,29 @@
     </style>
     {% endif %}
 
+    <style>
+      .post-excerpt {
+      display:none; }
+    
+      .archive-nav__search-wrapper {
+        padding: 10px 0 0;
+        margin: 0 auto;
+        position: relative;
+      }
+      @media (max-width: 830px){
+        .archive-nav__search-wrapper {
+          padding: 10px 16px 0;
+          margin-right: 50px;
+        }
+      }
+      .archive-nav__search {
+        border-radius: 16px;
+        max-width: 430px;
+        width: 100%;
+        padding-left: 36px;
+      }
+    
+    </style>
   <!-- Pre dom-ready scripts -->
     <script>
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
@@ -77,7 +100,7 @@
 
   {% include header.html %}
 
-  <main>
+  <main id="event-list-filter">
     <div class="overlay__outer bg-grey-90"{% if page.image and page.image != '' %} style="background-image: url('{{ page.image }}'); background-repeat: no-repeat; background-position: center center; background-size: cover;"{% endif %}>
       <div class="overlay__inner"{% if page.image and page.image != '' %} style="background: rgba(0,0,0,0.50);"{% endif %}>
         <div class="container color-white">
@@ -88,18 +111,35 @@
           {% if page.subtitle and page.subtitle != '' -%}
             <h2 class="mt0 fs-l regular track-normal mb2">{{ page.subtitle }}</h2>
 					{%- endif %}
+          <div class=" archive-nav__search-wrapper width-m" style="margin:0">
+            <div class="relative">
+              <img src="/2018/images/icons/search.png" width="17" height="17" style="position: absolute;top: 19px;left: 12px;" alt="search icon">
+              <label for="search_events_page" class="screen-reader-text">Search events</label>
+              <input id="search_events_page" class="search archive-nav__search pa2" type="search" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="overlay__after container bg-white pt5">
+
       {{ content }}
     </div>
   </main>
 
   {% include footer.html %}
 
+  
+
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}
-
+  <script>
+  var options = {valueNames: [ 'post-excerpt']};
+  var eventList = new List('event-list-filter', options);
+  document.querySelector("#search_events_page").addEventListener("focus", (searchInput) => {
+    var top = searchInput.target.getBoundingClientRect().top + window.scrollY - 100;
+    window.scroll({ top , behavior: "smooth"});
+  })
+  </script>
 </body>
 </html>
