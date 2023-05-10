@@ -74,4 +74,13 @@
   status = 301
   force = true
 
+# ########################################################################
+# Site-specific page redirects
+# ========================================================================
+# 404 pages
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
+
 ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
