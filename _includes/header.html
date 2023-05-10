@@ -45,8 +45,8 @@
               Jobs
             </a>
           </li>
-          <li class="nav-item inline-block relative{% if page.collection == 'posts'%} active{% endif %}">
-            <a class="masthead__link masthead__link--events" href="#" data-overlay-trigger="menu">
+          <li class="nav-item inline-block relative{% if page.url == '/events' or page.collection == 'posts'%} active{% endif %}">
+            <a class="masthead__link masthead__link--events" href="/events">
               <span class="nav-hidden-under-m">All </span>Events
             </a>
           </li>

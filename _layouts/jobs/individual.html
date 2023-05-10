@@ -110,7 +110,7 @@
 
   {% include header.html %}
 
-	<main class="content-main-detail{% if page.upcoming == null or page.upcoming == false %} is-not-upcoming{% else %} is-upcoming{% endif %}" role="main">
+	<main class="content-main-detail" role="main">
 
     <section id="hero" class="overlay__outer pa0 bg-grey-90">
 
@@ -119,6 +119,16 @@
         <div class="container color-white">
           <h1 class="fs-xxxl leading-solid mb1">{{ jobTitle }}</h1>
           <h2 class="mt0 fs-l regular track-normal mb2">{{ jobEmployer }}</h2>
+          <!-- Locality -->
+          {% assign jobLocation = page.jobLocation.original %}
+          {% if jobLocation and jobLocation != '' and jobLocation != 'undefined'%}
+            <span class="font-museo track-normal" style="font-weight: 500;">{{ jobLocation }}</span>
+          {% endif %}
+          <!-- Salary -->
+          {% assign salary = page.salary.original %}
+          {% if salary and salary != '' and salary != 'undefined'%}
+            <span class="font-museo track-normal" style="font-weight: 500;"> &#183; {{ salary }}</span>
+          {% endif %}
         </div>
 
       </div>
@@ -129,33 +139,20 @@
       <div class="container" style="min-height: 50vh">
         <div class="row pt pb mt3">
           {% comment %} Sidebar content {% endcomment %}
-        	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l pt2">
-						<aside class="event-detail_meta">
-              <div class="job-desc-column">
-                <div class="job-logo mr3" style="background-image: url({{ page.hiringOrganization.logo }});"></div>
-                <div class="job-show-expanded">
-                  <h3 class="job-title mv0">{{ jobTitle }}</h3>
-                  <p class="mv0 mt2"><strong>{{ jobEmployer }}</strong></p>
-                  <p class="mb1">
-                    <!-- Locality -->
-                    {% assign jobLocation = page.jobLocation.original %}
-                    {% if jobLocation and jobLocation != '' and jobLocation != 'undefined'%}
-                      <span class="job-meta">{{ jobLocation }}</span>
-                    {% endif %}
-                    <!-- Salary -->
-                    {% assign salary = page.salary.original %}
-                    {% if salary and salary != '' and salary != 'undefined'%}
-                      <span class="job-meta">{{ salary }}</span>
-                    {% endif %}
-                  </p>
-                  <a class="button button--green job-top-apply-btn mt2 pa2" href="{{ page.applicationUrl }}">Apply for this job</a>
-                </div>
-              </div>
+        	<div class="job-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l pt2">
+						<aside class="job-detail_meta">
+              <div class="job-logo" style="background-image: url({{ page.hiringOrganization.logo }});"></div>
+              <!-- Apply button -->
+              <a class="button button--green job-apply-btn mt2 pa2" href="{{ page.applicationUri }}">Apply for this job</a>
 						</aside>
         	</div>
           {% comment %} Main content area {% endcomment %}
-        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview pt5">
+        	<div class="job-overview u2of3-over-l left-over-l gutter-right ph0-under-l pt5">
         		{{ content }}
+            <div class="flex justify-center hidden-over-l">
+              <!-- Apply button -->
+              <a class="button button--green job-apply-btn mt2 mb2 pa2" href="{{ page.applicationUri }}">Apply for this job</a>
+            </div>
         	</div>
 				</div><!-- row -->
       </div><!-- container -->
@@ -191,11 +188,11 @@
           "currency": "{{ page.salary.currencyCode }}"
           {%- assign minValue = page.salary.minValue %}
           {%- if minValue and minValue != '' %},
-          "minValue": "{{ page.salary.currancySymbol }}{{ minValue }}"
+          "minValue": "{{ page.salary.currencySymbol }}{{ minValue }}"
           {%- endif %}
           {%- assign maxValue = page.salary.maxValue %}
           {%- if maxValue and maxValue != '' %},
-          "maxValue": "{{ page.salary.currancySymbol }}{{ maxValue }}"
+          "maxValue": "{{ page.salary.currencySymbol }}{{ maxValue }}"
           {%- endif %}
         }
         {%- endif %}
@@ -206,7 +203,7 @@
 
   {% include footer.html %}
 
-  {% include nav.html %}
+  
 
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}

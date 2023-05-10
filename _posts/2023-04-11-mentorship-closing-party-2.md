@@ -40,7 +40,7 @@ Mentoring can be strangely serendipitous! Carl & Kate will talk about how they
 
 ### [Carl Smith](https://www.linkedin.com/in/carl-smith-58402b26/), Digital Project Manager, Rittman Mead
 
-<img src="/images/carl-smith.jpeg" alt="Head shot of Carl Smith" class="image-align-right"/>
+<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/LersLn9fzgQ" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 Carl Smith is a Digital Project Manager and Agile practitioner. Carl has worked as a Graphic Designer, Tech support, Quality assurance, Business development, Product owner and Scrum master.\
 He has worked almost exclusively for Fujifilm over last 20 years and produced globally recognisable products for likes of Fujifilm, Canon and Xerox and even won an IF design award for his collaboration with Canon on the Labelstream 4000 printing press. His experience has led to consultancy in digital printing across the world including USA, Europe, Asia and south America.\
@@ -55,7 +55,7 @@ Carl recently gained a new position as Senior technical project manager at Agenc
 
 ### [Kate Grant,](https://www.linkedin.com/in/katiegrant/) Senior UX and Content Consultant, cxpartners
 
-<img src="/images/kate-grant.jpeg" alt="Head shot of kate Grant" class="image-align-right"/>
+<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/VwZG9Ck3Ob4" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 Kate Grant, creative content design consultant has 20 years of experience. In content design and editorial management. Kate held senior roles at the Disability Rights, Equalities and Human Rights Commission. They have extensive experience of writing, designing and producing accessible and inclusive information. Across a range of formats and channels. Specialising in converting information for people with different lived experiences, including disabled and neurodiverse audiences. Kate has discovered that adapting their skills into a UX environment as both strategic content designer and UX researcher is an ideal pairing.
 
@@ -64,11 +64,19 @@ NHS - designing an inclusive form-based mental health care and choices document
 Women’s Aid - developing chat scripts for women who experience domestic abuse
 PHE Talk to Frank - content design for new website including key content around harm reduction and drug information for young people in line with the new government drug strategy.
 
+### My experience being a mentee – [Heidi Swigon](https://www.linkedin.com/in/heidiswigon/), Content Director & Co-Founder, Purmön
+
+<img src="/images/heidi-profile-pic-pink-bg-1-.png" alt="Heidi Swigon, Content Director & Co-Founder" class="image-align-right"/>
+
+In her talk, Heidi shares her experiences of being mentored by Kate Grant. Although working in content (UX-adjacent) roles for over a decade, Heidi often found herself as the sole practitioner with her skillset in a team. The UX Brighton Mentorship Programme offered her a chance to connect with another content practitioner. Kate has helped Heidi understand her skills in relation to the wiser industry, showing that mentoring can be beneficial at any stage in your career.
+
+Heidi Swigon is Content Director and Co-Founder of Purmön, a marketing agency specialising in branding and creative strategy. As a practitioner, Heid creates, organises and manages user-centric content, as well as supporting clients with the more operational side of marketing. Over the course of her career, she has written copy for national and global brands, worked on large site migration projects, and defined content strategies for a broad range of businesses.
+
 ### Are you ready to mentor? **–** [Sharon Webster](https://www.linkedin.com/in/sharon-webster-ux/), Senior UX Consultant, cxpartners 
 
-[Slides for Are you ready to mentor? (SlideShare)](https://www.slideshare.net/uxbri/sharon-webster-are-you-ready-to-mentor)
+<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/7B8lhMNVBmA" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
-<img src="/images/sharon-webster-option2.jpg" alt="Sharon Webster, a senior UX Consultant " class="image-align-right"/>
+[Slides for Are you ready to mentor? (SlideShare)](https://www.slideshare.net/uxbri/sharon-webster-are-you-ready-to-mentor)
 
 Sharon Webster is a Senior UX Consultant at cxpartners, where she enjoys the breadth of projects. She particularly loves getting to grips with problems through research. Sharon also has a thing for sorting out content mess, and finds a great information architecture very satisfying. Her first taste of working with UX came when a colleague asked her to take notes during a rather simplistic usability study. Since then she's developed her research skills, with accessibility and inclusivity at the forefront to make things better for more people. 
 

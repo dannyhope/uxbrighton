@@ -1,10 +1,8 @@
 /_site/
 _site/
-_jobs/
 codekit-config.json
 config.codekit3
 .ruby-gemset*
-.ruby-version*
 .jekyll-metadata
 .jekyll-cache
 .DS_Store
@@ -16,3 +14,6 @@ yarn.lock
 .vscode
 .sass-cache
 jobs/logos/unit9-logo.png
+
+# Local Netlify folder
+.netlify
