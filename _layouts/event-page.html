@@ -160,14 +160,12 @@
 						<aside class="event-detail_meta">
 
               {% if page.upcoming == null or page.upcoming == false %}
-
                 <div class="pa3 rounded drop mb3">
                   <h2 class="mt0 mb1">Get notified</h2>
                   <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
                   <!-- Email subscription form -->
                   {% include email-subscriptions/email-subscription-events.html %}
                 </div>
-
               {% else %}
                 {% if page.ticket %}
                   {% if page.upcoming == true %}
@@ -205,10 +203,11 @@
                   {% endif %}
 
                   {% unless page.ticket.link %}
-                    <div class="pa3 rounded drop mt3">
+                    <div class="pa3 rounded drop mb3">
                       <h2 class="mt0 mb1">Get notified</h2>
-                      <p class="mt0">To find out about future talks and conferences subscribe below.</p>
-                      <script async src="https://eocampaign1.com/form/e28cb996-d6b9-11ec-9258-0241b9615763.js" data-form="e28cb996-d6b9-11ec-9258-0241b9615763"></script>
+                      <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
+                      <!-- Email subscription form -->
+                      {% include email-subscriptions/email-subscription-events.html %}
                     </div>
                   {% endunless %}
 
@@ -219,7 +218,7 @@
 							{% include organisers.html %}
 						</aside>
         	</div>
-        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top:16px;">
+        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top: 16px;">
         		{{ content }}
         	</div>
 				</div><!-- row -->
@@ -231,7 +230,7 @@
 
   {% include footer.html %}
 
-  
+
 
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}
