@@ -6,14 +6,15 @@ description: A list of future & past events that we've organised.
 permalink: events
 redirect_from:
   - /archive
+  - /e
   - /media
+  - /slides
+  - /slidedecks
+  - /slide-decks
   - /vid
   - /vids
   - /video
   - /videos
-  - /slides
-  - /slidedecks
-  - /slide-decks
 seo: true
 ---
 
