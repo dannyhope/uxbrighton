@@ -210,6 +210,41 @@ speakers:
           social-profiles:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/elizabethfchurchill/
+      - talk-info:
+          talk-time: ""
+          talk-title: "Enabling Creativity: Specific ideas to help your team flourish"
+          talk-summary: >-
+            Mark's talk will explore how to foster innovation and creativity in
+            the workplace.
+
+
+            He will discuss the concept of Kaizen (Lean, Agile, Design Thinking) and how its ideas can be utilized to ensure everyone in the company is constantly innovating how they work.  He will provide an innovation and cultural framework which can be integrated into your company's culture with psychological safety in mind. He will outline specific ideas on enabling creativity and allowing creativity in everyone to flourish. This means everyone will be able to be innovative and creative, which could lead to unintended consequences. Perhaps even using the newly possible to learn and create groundbreaking products and services to help the common good.
+
+
+            But the primary outcome will be improved speed, quality, and overall effectiveness in your day-to-day work.
+        name: " Mark Edgington"
+        thumbnail: /images/_mark-edgington-600-x-600.png
+        anchor: " Mark-Edgington"
+        speaker-bio:
+          bio-title: About Mark
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/markedgington/
+          bio-summary: >-
+            Mark has over 25 years of experience in UX and Development. He has
+            founded several startups and worked in large agencies where he has
+            architected solutions serving millions. 
+
+            Mark is a seasoned speaker, judge and the founder and principal consultant of Incendiary Blue, where he creates elegant solutions to the right problems.
+
+
+            His works span GSK, Wyeth, Vodafone, Orange, Deutsche bank, HSBC, DeBeers, Disney, Saint Gobain, Mazda, Mercedes, Airmiles, Philip Morris, Thomas Cook, Condor, O’Melveny, Orrick, Slaughter and May, Pfizer, Sky and EY and many others.
+
+
+            Mark holds a 1st class degree in Computer Science and Artificial Intelligence and an MSC in Human-Computer Interaction (UX). He has been published online, spoken at multiple conferences and judges UX awards yearly.
+
+
+            He is very passionate about working with schools, running digital days and acting as an Enterprise Careers adviser for the Mayor of London.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
