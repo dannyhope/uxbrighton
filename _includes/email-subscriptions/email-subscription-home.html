@@ -41,8 +41,11 @@
     </form>
   </div>
 
-  {% comment %} Completion message {% endcomment %}
-  <div class="form-message" style="display: none;">
+  {% comment %} Completion messages -> (success or error) {% endcomment %}
+  <div class="form-message--success" style="display: none;">
     <p class="mb2 mt4">Thanks, we'll keep you updated.</p>
+  </div>
+  <div class="form-message--error" style="display: none;">
+    <p class="mb2 mt4">Oops, looks like something went wrong. Please refresh your browser and try again.</p>
   </div>
 </div>
