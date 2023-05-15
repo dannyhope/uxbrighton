@@ -4,19 +4,15 @@
 
   // Get form and page elements
   const form = document.forms['google-sheet'];
-  const homePage = document.querySelector('.email-subscription--home');
-  const subscribePage = document.querySelector('.email-subscription--subscribe');
-  const jobsPage = document.querySelector('.email-subscription--jobs');
-  const eventsPage = document.querySelector('.email-subscription--events');
 
-  // Create an array of page objects
-  const pages = [
-    { page: homePage },
-    { page: jobsPage },
-    { page: eventsPage }
+  // Create an array of page objects that have an additional email list option
+  const pagesWithListAdd = [
+    { page: document.querySelector('.email-subscription--home') },
+    { page: document.querySelector('.email-subscription--jobs') },
+    { page: document.querySelector('.email-subscription--events') }
   ];
 
-  // Function to add email list event listener
+  // Function to add an event listener to pages that have an additional email list option
   function addEmailListListener(page) {
     if (page) {
       const emailField = page.querySelector('input[type=email]');
@@ -26,27 +22,32 @@
     }
   }
 
-  // Attach event listeners for email lists on each page
-  pages.forEach(({ page }) => {
-    addEmailListListener(page);
-  });
+  // Attach event listeners for pages that have an additional email list option
+  pagesWithListAdd.forEach(({ page }) => addEmailListListener(page));
 
+  // Checking whether a page has a google-sheet form
   if (form) {
     // Form submission event listener
     form.addEventListener('submit', event => {
       event.preventDefault();
 
+      // On submit, disable the submit button and change the button text
+      const submitButton = form.querySelector('input[type=submit]');
+      submitButton.value = 'Sending...';
+      submitButton.disabled = true;
+
       // Submit form data using fetch
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      fetch(scriptURL, {
+        method: 'POST',
+        body: new FormData(form)
+      })
         .then(response => {
           console.log("Email subscription choices submitted.", response.message);
 
-          // Hide form content after submission
-          if (subscribePage) {
-            subscribePage.querySelector('.form-content').style.display = 'none';
-          } else {
-            document.querySelector('#form').style.display = 'none';
-          }
+          // Hide form content after submission -> but handle the subscribe page differently
+          const subscribePage = document.querySelector('.email-subscription--subscribe');
+          const formContent = subscribePage ? subscribePage.querySelector('.form-content') : document.querySelector('#form');
+          formContent.style.display = 'none';
 
           // Show completion message (success)
           $('.form-message--success').fadeIn(1000);
@@ -59,4 +60,3 @@
     });
   }
 })();
-
