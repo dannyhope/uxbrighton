@@ -11,9 +11,9 @@ Some information and documentation about the [Netlify CMS](https://decapcms.org/
     - [Site URLs \& logo](#site-urls--logo)
     - [Collections (*data*)](#collections-data)
       - ["Conferences" collection](#conferences-collection)
-        - [UX Brighton 2022 - (homepage)](#ux-brighton-2022---homepage)
-        - [UX Brighton 2023 - (homepage)](#ux-brighton-2023---homepage)
-        - [UX Brighton 2024 - (homepage)](#ux-brighton-2024---homepage)
+        - [**UX Brighton 2022 - (homepage)**](#ux-brighton-2022---homepage)
+        - [**UX Brighton 2023 - (homepage)**](#ux-brighton-2023---homepage)
+        - [**UX Brighton 2024 - (homepage)**](#ux-brighton-2024---homepage)
       - ["Event pages" collection](#event-pages-collection)
       - ["Generic pages" collection](#generic-pages-collection)
   - [2️⃣ `index.html`](#2️⃣-indexhtml)
@@ -91,21 +91,21 @@ The "**Conferences**" collection manages content related to year-specific versio
 
 Here's a list of the conferences and their corresponding data files:
 
-##### UX Brighton 2022 - (homepage)
+##### **UX Brighton 2022 - (homepage)**
 
 - `label: "UX Brighton 2022 - (homepage)"`: Specifies the label for the file, which will be displayed in the CMS. This represents the conference homepage for the year 2022.
 - `file: "_data/year_2022/homepage.yml"`: Specifies the file path for the year 2022 conference homepage data file. The data file contains specific information and settings related to the UX Brighton 2022 conference homepage.
 
 Whenever applicable fields are updated in the CMS for the "**UX Brighton 2022 - (homepage)**" collection, the corresponding data file `_data/year_2022/homepage.yml` will be modified to reflect the changes. This file is then used to generate the conference homepage for the year 2022.
 
-##### UX Brighton 2023 - (homepage)
+##### **UX Brighton 2023 - (homepage)**
 
 - `label: "UX Brighton 2023 - (homepage)"`: Specifies the label for the file, which will be displayed in the CMS. This represents the conference homepage for the year 2023.
 - `file: "_data/year_2023/homepage.yml"`: Specifies the file path for the year 2023 conference homepage data file. The data file contains specific information and settings related to the UX Brighton 2023 conference homepage.
 
 Whenever applicable fields are updated in the CMS for the "**UX Brighton 2023 - (homepage)**" collection, the corresponding data file `_data/year_2023/homepage.yml` will be modified to reflect the changes. This file is then used to generate the conference homepage for the year 2023.
 
-##### UX Brighton 2024 - (homepage)
+##### **UX Brighton 2024 - (homepage)**
 
 - `label: "UX Brighton 2024 - (homepage)"`: Specifies the label for the file, which will be displayed in the CMS. This represents the conference homepage for the year 2024.
 - `file: "_data/year_2024/homepage.yml"`: Specifies the file path for the year 2024 conference homepage data file. The data file contains specific information and settings related to the UX Brighton 2024 conference homepage.
