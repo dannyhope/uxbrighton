@@ -21,4 +21,4 @@ seo: true
 ---
 Let's hang out and meet fellow uxers in the sun at the UX Brighton Summer Social. If the weather doesn't cooperate, we'll have a table inside where we can still enjoy drinks and catch up with one another. Come ready to meet new people, share ideas and enjoy a relaxing evening in good company. 🌞
 
-<img src="/images/brighton-music-hall.png" alt="Brighton Music Hall" class="image-align-inline-100w"/>
+<img src="/images/brighton-music-hall.png" alt="Brighton Music Hall" class="image-align-left"/>
