@@ -10,9 +10,12 @@ Some information and documentation about the [Netlify CMS](https://decapcms.org/
     - [Content workflow \& media](#content-workflow--media)
     - [Site URLs \& logo](#site-urls--logo)
     - [Collections (*data*)](#collections-data)
-      - ["Conferences" collection](#conferences-collection)
-      - ["Event pages" collection](#event-pages-collection)
-      - ["Generic pages" collection](#generic-pages-collection)
+      - [🚀 "Conferences" collection](#-conferences-collection)
+        - [🟢 UX Brighton 2022 - (homepage)](#-ux-brighton-2022---homepage)
+        - [🟢 UX Brighton 2023 - (homepage)](#-ux-brighton-2023---homepage)
+        - [🟢 UX Brighton 2024 - (homepage)](#-ux-brighton-2024---homepage)
+      - [📆 "Event pages" collection](#-event-pages-collection)
+      - [🗓 "Generic pages" collection](#-generic-pages-collection)
   - [2️⃣ `index.html`](#2️⃣-indexhtml)
     - [Customising the CMS editor](#customising-the-cms-editor)
     - [Custom editor components](#custom-editor-components)
@@ -82,27 +85,27 @@ These lines configure the URLs and logo for the site:
 
 Here is where the `collections` are defined. Each collection represents a specific type of content (data) that can be managed in the CMS. The following collections are defined:
 
-#### "Conferences" collection
+#### 🚀 "Conferences" collection
 
 The "**Conferences**" collection manages content related to year-specific versions of the UX Brighton website. Each conference has a specific data file associated with it, which is updated whenever applicable fields are modified in the CMS.
 
 Here's a list of the conferences and their corresponding data files:
 
-**UX Brighton 2022 - (homepage)**
+##### 🟢 UX Brighton 2022 - (homepage)
 
 - `label: "UX Brighton 2022 - (homepage)"`: Specifies the label for the file, which will be displayed in the CMS. This represents the conference homepage for the year 2022.
 - `file: "_data/year_2022/homepage.yml"`: Specifies the file path for the year 2022 conference homepage data file. The data file contains specific information and settings related to the UX Brighton 2022 conference homepage.
 
 Whenever applicable fields are updated in the CMS for the "**UX Brighton 2022 - (homepage)**" collection, the corresponding data file `_data/year_2022/homepage.yml` will be modified to reflect the changes. This file is then used to generate the conference homepage for the year 2022.
 
-**UX Brighton 2023 - (homepage)**
+##### 🟢 UX Brighton 2023 - (homepage)
 
 - `label: "UX Brighton 2023 - (homepage)"`: Specifies the label for the file, which will be displayed in the CMS. This represents the conference homepage for the year 2023.
 - `file: "_data/year_2023/homepage.yml"`: Specifies the file path for the year 2023 conference homepage data file. The data file contains specific information and settings related to the UX Brighton 2023 conference homepage.
 
 Whenever applicable fields are updated in the CMS for the "**UX Brighton 2023 - (homepage)**" collection, the corresponding data file `_data/year_2023/homepage.yml` will be modified to reflect the changes. This file is then used to generate the conference homepage for the year 2023.
 
-**UX Brighton 2024 - (homepage)**
+##### 🟢 UX Brighton 2024 - (homepage)
 
 - `label: "UX Brighton 2024 - (homepage)"`: Specifies the label for the file, which will be displayed in the CMS. This represents the conference homepage for the year 2024.
 - `file: "_data/year_2024/homepage.yml"`: Specifies the file path for the year 2024 conference homepage data file. The data file contains specific information and settings related to the UX Brighton 2024 conference homepage.
@@ -111,11 +114,11 @@ Whenever applicable fields are updated in the CMS for the "**UX Brighton 2024 - 
 
 **NOTE:** The above `collections` are used to manage the conference homepage for each year. The conference homepage is a single page that contains information about the conference, including the conference theme, speakers, sponsors, and other details. If you'd like a new conference homepage to be created for a new year, you can create a new collection in the `config.yml` file - (just below the last one) - and then create a new data file for the new year - eg. `_data/year_2025/homepage.yml`.
 
-#### "Event pages" collection
+#### 📆 "Event pages" collection
 
 The "**Event pages**" collection manages content related to events that UX Brighton run all year round. The CMS is used to create and manage the content for each event, including the event title, description, date, time, location, and other details. A separate markdown file is created for each event in the `_posts` directory of the repository, which is then used by Jekyll to build the event page for the website.
 
-#### "Generic pages" collection
+#### 🗓 "Generic pages" collection
 
 The "**Generic pages**" collection manages content related to generic pages on the UX Brighton website. The CMS is used to create and manage the content for each generic page, including the page title, description, and other details. A separate markdown file is created for each generic page in the `pages` directory of the repository, which is then used by Jekyll to build the generic page for the website.
 
