@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: "UX Brighton Summer Social "
+title: "Summer Social "
 description: TheUX Brighton summer social is an evening event, bringing together
   UX professionals and students.
 social-image: /images/brighton-music-hall.png
