@@ -136,11 +136,9 @@ Inside the `<script>` tag, a few customisations have been made to the Netlify CM
 
 7. The `fields` property defines an array of fields that the user needs to fill out when adding an instance of the component. Each field has a `label`, `name`, `widget` (input type), and optional properties like `hint`, `options`, and `default`.
 
-The `index.html` file provides a basic structure and sets up the necessary scripts and customizations for the Netlify CMS. With these configurations, you can create and manage content using the custom components and functionality defined in the script. You can extend the `CMS.registerEditorComponent({})` section to add more custom components such as "Slideshare link," "Slideshare (embedded)," "YouTube (embedded)," or any other components you need for your CMS.
-
 ### Custom editor components
 
-These are the custom editor components that we've added to the CMS:
+This is a list of the custom editor components that we've added to the CMS:
 
 1. "**Slideshare link**": This component allows you to add Slideshare links to your content. It includes fields for the Slideshare talk URL and the label to be displayed on the page.
 
