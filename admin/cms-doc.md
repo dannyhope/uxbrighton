@@ -3,37 +3,35 @@
 Some information and documentation about the Netlify CMS configuration used in this project.
 
 - [Netlify CMS](#netlify-cms)
-  - [Netlify CMS configuration files](#netlify-cms-configuration-files)
-  - [`config.yml`](#configyml)
+  - [Core configuration files](#core-configuration-files)
+  - [1️⃣ `config.yml`](#1️⃣-configyml)
     - [Backend (*remote*)](#backend-remote)
     - [Backend (*local*)](#backend-local)
     - [Content workflow \& media](#content-workflow--media)
     - [Site URLs \& logo](#site-urls--logo)
     - [Collections (*data*)](#collections-data)
-      - [1.  "Conferences"](#1--conferences)
+      - ["Conferences" collection](#conferences-collection)
         - [UX Brighton 2022 - (homepage)](#ux-brighton-2022---homepage)
         - [UX Brighton 2023 - (homepage)](#ux-brighton-2023---homepage)
         - [UX Brighton 2024 - (homepage)](#ux-brighton-2024---homepage)
-      - [2. "Event pages"](#2-event-pages)
-      - [3. "Generic pages"](#3-generic-pages)
-  - [`index.html`](#indexhtml)
-    - [CMS editor customisations](#cms-editor-customisations)
-    - [Custom editor components - (created by UX Brighton)](#custom-editor-components---created-by-ux-brighton)
-  - [`styles-cms.css`](#styles-cmscss)
+      - ["Event pages" collection](#event-pages-collection)
+      - ["Generic pages" collection](#generic-pages-collection)
+  - [2️⃣ `index.html`](#2️⃣-indexhtml)
+    - [Customising the CMS editor](#customising-the-cms-editor)
+    - [Custom editor components](#custom-editor-components)
+  - [3️⃣ `styles-cms.css`](#3️⃣-styles-cmscss)
 
 ---
 
-## Netlify CMS configuration files
+## Core configuration files
 
-The CMS is configured using the `config.yml` file in the `admin/` directory of this repository. This file contains the configuration for the CMS backend, collections, and other settings.
-
-There are 3 core files in the `admin/` directory:
+The CMS is configured using 3 core files in the `admin/` directory of this repository.
 
 - `config.yml`: The main configuration file for the CMS.
 - `index.html`: The HTML file that loads the CMS GUI.
 - `styles-cms.css`: The CSS file that styles the CMS GUI.
 
-## `config.yml`
+## 1️⃣ `config.yml`
 
 The `config.yml` file contains the configuration for the CMS backend, collections, and other settings. The file is divided into sections, each of which is described below.
 
@@ -71,7 +69,7 @@ These lines configure the URLs and logo for the site:
 
 Here is where the `collections` are defined. Each collection represents a specific type of content (data) that can be managed in the CMS. The following collections are defined:
 
-#### 1.  "Conferences"
+#### "Conferences" collection
 
 The "**Conferences**" collection manages content related to year-specific versions of the UX Brighton website. Each conference has a specific data file associated with it, which is updated whenever applicable fields are modified in the CMS.
 
@@ -100,17 +98,15 @@ Whenever applicable fields are updated in the CMS for the "**UX Brighton 2024 - 
 
 **NOTE:** The above `collections` are used to manage the conference homepage for each year. The conference homepage is a single page that contains information about the conference, including the conference theme, speakers, sponsors, and other details. If you'd like a new conference homepage to be created for a new year, you can create a new collection in the `config.yml` file - (just below the last one) - and then create a new data file for the new year - eg. `_data/year_2025/homepage.yml`.
 
-#### 2. "Event pages"
+#### "Event pages" collection
 
 The "**Event pages**" collection manages content related to events that UX Brighton run all year round. The CMS is used to create and manage the content for each event, including the event title, description, date, time, location, and other details. A separate markdown file is created for each event in the `_posts` directory of the repository, which is then used by Jekyll to build the event page for the website.
 
-#### 3. "Generic pages"
+#### "Generic pages" collection
 
 The "**Generic pages**" collection manages content related to generic pages on the UX Brighton website. The CMS is used to create and manage the content for each generic page, including the page title, description, and other details. A separate markdown file is created for each generic page in the `pages` directory of the repository, which is then used by Jekyll to build the generic page for the website.
 
----
-
-## `index.html`
+## 2️⃣ `index.html`
 
 The `index.html` file is the HTML file that loads the Netlify CMS GUI.
 
@@ -118,7 +114,7 @@ It sets up a basic HTML structure with a `<head>` and `<body>` section.
 
 Within the `<head>` and `<body>`, there are `<script>` tags that load external scripts needed for the content management system (CMS). The first script imports the Netlify Identity widget, which handles authentication and user management. The second script imports Netlify CMS itself, which powers the content management functionality.
 
-### CMS editor customisations
+### Customising the CMS editor
 
 Inside the `<script>` tag, a few customisations have been made to the Netlify CMS editor:
 
@@ -142,7 +138,9 @@ Inside the `<script>` tag, a few customisations have been made to the Netlify CM
 
 The `index.html` file provides a basic structure and sets up the necessary scripts and customizations for the Netlify CMS. With these configurations, you can create and manage content using the custom components and functionality defined in the script. You can extend the `CMS.registerEditorComponent({})` section to add more custom components such as "Slideshare link," "Slideshare (embedded)," "YouTube (embedded)," or any other components you need for your CMS.
 
-### Custom editor components - (created by UX Brighton)
+### Custom editor components
+
+These are the custom editor components that we've added to the CMS:
 
 1. "**Slideshare link**": This component allows you to add Slideshare links to your content. It includes fields for the Slideshare talk URL and the label to be displayed on the page.
 
@@ -156,7 +154,7 @@ These custom editor components enhance the functionality of the Netlify CMS by p
 
 It's worth noting that the script includes comments (`//`) throughout the code, explaining the purpose and functionality of each section. These comments can be helpful for understanding and modifying the code according to your requirements.
 
-## `styles-cms.css`
+## 3️⃣ `styles-cms.css`
 
 The `styles-cms.css` file is the CSS file that styles the Netlify CMS GUI.
 
