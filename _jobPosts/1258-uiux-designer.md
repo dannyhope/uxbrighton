@@ -1,8 +1,6 @@
 ---
 {
 	"id": 1258,
-	"shortId": "ujddewuu76",
-	"uuid": "d1c1a368-1d19-4990-9705-686838489f49",
 	"title": {
 		"original": "UI/UX Designer",
 		"textDescription": "User Interface/User Experience Designer",
@@ -55,7 +53,13 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"tags": [
+		"promoted"
+	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/YouGov1/publication/aa501967-2c51-4b96-969d-dfa2b4c36d98?dcr_ci=YouGov1",
+	"applicationType": "link",
+	"shortId": "ujddewuu76",
+	"uuid": "d1c1a368-1d19-4990-9705-686838489f49",
 	"status": "LIVE",
 	"permalink": "/jobs2/1258/uiux-designer",
 	"layout": "jobs/individual"
