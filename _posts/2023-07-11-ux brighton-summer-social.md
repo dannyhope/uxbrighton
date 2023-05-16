@@ -7,7 +7,7 @@ social-image: /images/brighton-music-hall.png
 permalink: summer-social-23
 event-date: 2023-07-11
 start: 7pm
-venue: TBA
+venue: Brighton Music Hall
 ticket:
   state: Ticketed
   price: Free
