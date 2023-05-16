@@ -103,15 +103,15 @@ There will be several 4-ways on the Mezzanine level which is upstairs, to the ri
 ### Social Media
 
 * Please tag with [\#uxbri](https://twitter.com/search?q=%23uxbri)
-* Twitter: [@uxbri](https://twitter.com/uxbri) <https://twitter.com/uxbri>
-* Facebook: <https://www.facebook.com/uxbrighton/>
-* L﻿inkedIn: https://www.linkedin.com/company/ux-brighton/ 
+* [Twitter](https://twitter.com/uxbri) [@uxbri](https://twitter.com/uxbri) [](https://twitter.com/uxbri)
+* [Facebook](https://www.facebook.com/uxbrighton/)
+* [L﻿inkedIn](https://www.linkedin.com/company/ux-brighton/)
 * We live Tweet the event - great for looking back on if you missed any of the references made during the day.
 * Feel free to follow the Twitter account [@uxbri](https://twitter.com/uxbri) for the latest info on the event.
 
 ### Slack
 
-Did you know we have a Slack group with 1500 members? You can join here: <http://slack.uxbrighton.org.uk/>. Chat, ask questions, post or [look for jobs](https://uxbri.slack.com/messages/C1626ASJY/), find events - we’re a friendly bunch!
+Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/) with over 1500 members? Chat, ask questions, post or [look for jobs](https://uxbri.slack.com/messages/C1626ASJY/), find events - we’re a friendly bunch!
 
 ### Reminder about tickets
 
