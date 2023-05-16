@@ -32,11 +32,11 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
 
 <h3>Pre-conf meetup – 2<sup>nd</sup> Nov</h3>
 
-In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for our volunteer in a UX Brighton T-shirt. 
+In town the night before? Come to [The Fountainhead](https://www.fountainheadbrighton.pub/), from 7pm to 9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/), in a UX Brighton T-shirt. 
 
 <h3>Pre-event breakfast networking & coffee – 3<sup>rd</sup> Nov</h3>
 
-If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) coffee shop is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
+If you’re coming down early to the conference, [Meanwhile Cafe](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees. [](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en)
 
 ### Accessibility
 
