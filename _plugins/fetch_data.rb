@@ -9,8 +9,8 @@ module FetchData
       auth_token = ENV['JOBS_API_TOKEN']
 
       # Iterate through each job post
-      site.jobs.docs.each do |post|
-        # Make API request for each post and retrieve JSON data
+      site.jobs.docs.each do |job|
+        # Make API request for each job post and retrieve JSON data
         uri = URI("https://workml.io/v1/jobs/{id}") # Modify the URL pattern according to your API
         http = Net::HTTP.new(uri.host, uri.port)
         http.use_ssl = true # Enable SSL if needed
