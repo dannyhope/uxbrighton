@@ -36,9 +36,9 @@ seo: true
 ## Past
 
 <ul class="event-archive list no-list">
-{% for post in site.posts %}
+<!-- {% for post in site.posts %}
 {% if post.noinfo == null %}
-{% if post.stub == null %}
+{% if post.stub == null %} -->
   {% if post.upcoming == null or post.upcoming == false %}
   <li>
     <article>
@@ -48,8 +48,8 @@ seo: true
     </article>
   </li>
   {% endif %}
-{% endif %}
-{% endif %}
+<!-- {% endif %}
+{% endif %} -->
 {% endfor %}
 </ul>
 
