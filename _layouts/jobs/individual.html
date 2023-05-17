@@ -199,17 +199,12 @@
       }
     </script> {% endcomment %}
 
-    <script type="application/ld+json">
-      fetch('/netlify/functions/fetchData')
-        .then(response => response.json())
-        .then(data => {
-          const script = document.createElement('script');
-          script.type = 'application/ld+json';
-          script.innerHTML = JSON.stringify(data);
-          document.head.appendChild(script);
-        })
-        .catch(error => console.error('Error fetching data:', error));
-    </script>
+    <!-- JobPosting page-specific Schema Data Structure -->
+    {% for job in site.jobs %}
+      <script type="application/ld+json">
+        {{ job.data.api_data | jsonify }}
+      </script>
+    {% endfor %}
 
 	</main>
 
