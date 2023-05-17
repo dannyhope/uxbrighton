@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 exports.handler = async () => {
-  const siteDirectory = path.resolve(__dirname, '../_site/jobs2');
+  const siteDirectory = path.resolve(__dirname, './_site/jobs2');
 
   // Retrieve all HTML files in the _site/jobs2 directory
   const htmlFiles = getHtmlFiles(siteDirectory);
