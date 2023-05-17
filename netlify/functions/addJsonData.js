@@ -2,10 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 exports.handler = async () => {
-  const siteDirectory = path.resolve(__dirname, './_site/jobs2');
+  const siteDirectory = path.resolve(__dirname, './_site');
+  const targetDirectory = path.resolve(siteDirectory, 'jobs2');
 
-  // Retrieve all HTML files in the _site/jobs2 directory
-  const htmlFiles = getHtmlFiles(siteDirectory);
+  // Retrieve all HTML files in the _site/jobs2 directory and its subdirectories
+  const htmlFiles = getHtmlFiles(targetDirectory);
 
   htmlFiles.forEach((file) => {
     const filePath = path.resolve(siteDirectory, file);
@@ -27,17 +28,17 @@ exports.handler = async () => {
 // Helper function to retrieve all HTML files in a directory and its subdirectories
 function getHtmlFiles(directory) {
   const files = fs.readdirSync(directory);
-  const htmlFiles = [];
+  let htmlFiles = [];
 
   files.forEach((file) => {
     const filePath = path.resolve(directory, file);
     const stats = fs.statSync(filePath);
 
     if (stats.isFile() && path.extname(file) === '.html') {
-      htmlFiles.push(file);
+      htmlFiles.push(path.relative(path.resolve(__dirname, '../_site'), filePath));
     } else if (stats.isDirectory()) {
       const subdirectoryFiles = getHtmlFiles(filePath);
-      htmlFiles.push(...subdirectoryFiles);
+      htmlFiles = htmlFiles.concat(subdirectoryFiles);
     }
   });
 
