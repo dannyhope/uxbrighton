@@ -1,7 +1,7 @@
 ---
 layout: event-list-page
-title: Upcoming and past events
-subtitle: A list of future & past events that we've organised
+title: Events
+subtitle: Upcoming and past UX Brighton events
 description: A list of future & past events that we've organised.
 permalink: events
 redirect_from:
