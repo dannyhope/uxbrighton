@@ -2,18 +2,20 @@ const fs = require('fs');
 const path = require('path');
 
 exports.handler = async () => {
-  const jobPostsDirectory = path.resolve(__dirname, '../_jobPosts');
-  const jobPostFiles = fs.readdirSync(jobPostsDirectory);
+  const siteDirectory = path.resolve(__dirname, '../_site/jobs2');
 
-  jobPostFiles.forEach((file) => {
-    const filePath = path.resolve(jobPostsDirectory, file);
-    let markdownContent = fs.readFileSync(filePath, 'utf-8');
+  // Retrieve all HTML files in the _site/jobs2 directory
+  const htmlFiles = getHtmlFiles(siteDirectory);
 
-    // Modify the markdownContent variable to include the JSON data object
-    markdownContent += `\n<script type="application/ld+json">YOUR_JSON_DATA_OBJECT</script>\n`;
+  htmlFiles.forEach((file) => {
+    const filePath = path.resolve(siteDirectory, file);
+    let htmlContent = fs.readFileSync(filePath, 'utf-8');
+
+    // Modify the htmlContent variable to include the JSON data object
+    htmlContent += `<script type="application/ld+json">YOUR_JSON_DATA_OBJECT</script>`;
 
     // Write the modified content back to the file
-    fs.writeFileSync(filePath, markdownContent, 'utf-8');
+    fs.writeFileSync(filePath, htmlContent, 'utf-8');
   });
 
   return {
@@ -21,3 +23,23 @@ exports.handler = async () => {
     body: 'JSON data added to each page successfully!',
   };
 };
+
+// Helper function to retrieve all HTML files in a directory and its subdirectories
+function getHtmlFiles(directory) {
+  const files = fs.readdirSync(directory);
+  const htmlFiles = [];
+
+  files.forEach((file) => {
+    const filePath = path.resolve(directory, file);
+    const stats = fs.statSync(filePath);
+
+    if (stats.isFile() && path.extname(file) === '.html') {
+      htmlFiles.push(file);
+    } else if (stats.isDirectory()) {
+      const subdirectoryFiles = getHtmlFiles(filePath);
+      htmlFiles.push(...subdirectoryFiles);
+    }
+  });
+
+  return htmlFiles;
+}
