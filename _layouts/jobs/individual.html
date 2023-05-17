@@ -199,12 +199,10 @@
       }
     </script> {% endcomment %}
 
-    <!-- JobPosting page-specific Schema Data Structure -->
-    {% for job in site.jobs %}
-      <script type="application/ld+json">
-        {{ job.data.api_data | jsonify }}
-      </script>
-    {% endfor %}
+    <!-- Testing injecting schema data JSON object -->
+    <script type="application/ld+json">
+      {{ site.data.api_data | jsonify }}
+    </script>
 
 	</main>
 
