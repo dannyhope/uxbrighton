@@ -22,18 +22,18 @@
 # Headers
 ##############################
 
-# Headers (Global)
-# [[headers]]
-#   # Define which paths this specific [[headers]] block will cover.
-#   for = "/*"
+Headers (Global)
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
 
-#   [headers.values]
-#     Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com; style-src 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; img-src 'self' 'unsafe-inline' *.cloudfront.net"
-#     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
-#     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-#     X-Content-Type-Options = "nosniff"
-#     X-Frame-Options = "SAMEORIGIN"
-#     X-XSS-Protection = "1; mode=block"
+  [headers.values]
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com *.google.com *.google-analytics.com *.googletagmanager.com; style-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com; object-src 'self'; img-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.cloudfront.net"
+    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
 
 # Header for .ico files
 [[headers]]
