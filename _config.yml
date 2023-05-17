@@ -8,6 +8,7 @@ exclude: [CNAME, 'node_modules']
 # Plugins
 plugins:
   - jekyll-redirect-from
+  - fetch_data
 
 # Where to look when Jekyll building styles
 sass:
