@@ -29,6 +29,7 @@
 
   [headers.values]
     Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com *.google.com *.google.co.uk *.google-analytics.com *.googletagmanager.com *.fullstory.com *.facebook.net *.licdn.com *.linkedin.com *.jquery.com *.cloudflare.com; style-src 'self' 'unsafe-inline' *.google.com *.google.co.uk *.google-analytics.com *.googletagmanager.com *.fullstory.com *.facebook.net *.licdn.com *.linkedin.com; object-src 'self' 'unsafe-inline'; img-src 'self' 'unsafe-inline' *.google.com *.google.co.uk *.google-analytics.com *.googletagmanager.com *.fullstory.com *.facebook.net *.licdn.com *.linkedin.com *.cloudfront.net"
+    Access-Control-Allow-Origin = "https://www.fullstory.com" # Allow FullStory to work on the site (https://help.fullstory.com/hc/en-us/articles/360020623234-How-do-I-use-FullStory-with-Content-Security-Policy-CSP-)
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
