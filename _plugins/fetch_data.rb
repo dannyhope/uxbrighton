@@ -11,7 +11,9 @@ module FetchData
       # Iterate through each job post
       site.jobs.docs.each do |job|
         # Make API request for each job post and retrieve JSON data
-        uri = URI("https://workml.io/v1/jobs/{id}") # Modify the URL pattern according to your API
+        # uri = URI("https://workml.io/v1/jobs/{id}") # Modify the URL pattern according to your API
+        # uri = URI("https://jsonplaceholder.typicode.com/todos/1")
+        uri = URI("https://workml.io/v1/jobs/#{job.data['id']}") # Modify the URL pattern according to your API
         http = Net::HTTP.new(uri.host, uri.port)
         http.use_ssl = true # Enable SSL if needed
 
