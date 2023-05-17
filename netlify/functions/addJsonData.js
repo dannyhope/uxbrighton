@@ -35,7 +35,7 @@ function getHtmlFiles(directory) {
     const stats = fs.statSync(filePath);
 
     if (stats.isFile() && path.extname(file) === '.html') {
-      htmlFiles.push(path.relative(path.resolve(__dirname, '../_site'), filePath));
+      htmlFiles.push(path.relative(path.resolve(__dirname, './_site'), filePath));
     } else if (stats.isDirectory()) {
       const subdirectoryFiles = getHtmlFiles(filePath);
       htmlFiles = htmlFiles.concat(subdirectoryFiles);
