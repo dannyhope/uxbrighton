@@ -18,7 +18,7 @@ redirect_from:
 seo: true
 ---
 
-## Upcoming:
+## Upcoming
 
 <ul class="event-archive no-list">
 {% for post in site.posts %}
@@ -33,7 +33,7 @@ seo: true
 {% endfor %}
 </ul>
 
-## Past:
+## Past
 
 <ul class="event-archive list no-list">
 {% for post in site.posts %}
