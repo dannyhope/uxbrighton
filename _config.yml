@@ -9,6 +9,7 @@ exclude: [CNAME, 'node_modules']
 plugins:
   - jekyll-redirect-from
   - fetch_data
+  - json_ld_generator
 
 # Where to look when Jekyll building styles
 sass:

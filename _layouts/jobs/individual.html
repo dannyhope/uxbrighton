@@ -200,9 +200,7 @@
     </script> {% endcomment %}
 
     <!-- Testing injecting schema data JSON object -->
-    <script type="application/ld+json">
-      {{ site.data['api_data'] | jsonify }}
-    </script>
+    {{ page.json_ld_script | safe }}
 
 	</main>
 
