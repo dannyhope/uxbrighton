@@ -53,7 +53,7 @@ seo: true
 {% endfor %}
 </ul>
 
-## Past events without much info
+<!-- ## Past events without much info
 
 We don't have much information about the following past events. You can help us contribute content by getting in touch on Twitter or GitHub.
 
@@ -68,7 +68,7 @@ We don't have much information about the following past events. You can help us 
   </li>
   {% endif %}
 {% endfor %}
-</ul>
+</ul> -->
 
 <!-- ## Future events
 
