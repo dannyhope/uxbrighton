@@ -28,7 +28,7 @@
   for = "/*"
 
   [headers.values]
-    Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com *.google.com *.google-analytics.com *.googletagmanager.com *.fullstory.com *.connect.facebook.net *.code.jquery.com *.cdnjs.cloudflare.com *.snap.licdn.com; style-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.fullstory.com *.connect.facebook.net *.code.jquery.com *.cdnjs.cloudflare.com *.snap.licdn.com; object-src 'self'; img-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.fullstory.com *.connect.facebook.net *.code.jquery.com *.cdnjs.cloudflare.com *.snap.licdn.com *.cloudfront.net"
+    # Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com *.google.com *.google-analytics.com *.googletagmanager.com *.fullstory.com *.connect.facebook.net *.code.jquery.com *.cdnjs.cloudflare.com *.snap.licdn.com; style-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.fullstory.com *.connect.facebook.net *.code.jquery.com *.cdnjs.cloudflare.com *.snap.licdn.com; object-src 'self'; img-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.fullstory.com *.connect.facebook.net *.code.jquery.com *.cdnjs.cloudflare.com *.snap.licdn.com *.cloudfront.net"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
