@@ -159,7 +159,7 @@
     </section><!-- overview -->
 
     <!-- JobPosting page-specific Schema Data Structure -->
-    {% comment %} <script type="application/ld+json">
+    <script type="application/ld+json">
       {
         "@context": "https://schema.org/",
         "@type": "JobPosting",
@@ -197,10 +197,7 @@
         }
         {%- endif %}
       }
-    </script> {% endcomment %}
-
-    <!-- Testing injecting schema data JSON object -->
-    {{ page.json_ld_script | safe }}
+    </script>
 
 	</main>
 
