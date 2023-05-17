@@ -159,7 +159,7 @@
     </section><!-- overview -->
 
     <!-- JobPosting page-specific Schema Data Structure -->
-    <script type="application/ld+json">
+    {% comment %} <script type="application/ld+json">
       {
         "@context": "https://schema.org/",
         "@type": "JobPosting",
@@ -197,13 +197,23 @@
         }
         {%- endif %}
       }
+    </script> {% endcomment %}
+
+    <script type="application/ld+json">
+      fetch('/netlify/functions/fetchData')
+        .then(response => response.json())
+        .then(data => {
+          const script = document.createElement('script');
+          script.type = 'application/ld+json';
+          script.innerHTML = JSON.stringify(data);
+          document.head.appendChild(script);
+        })
+        .catch(error => console.error('Error fetching data:', error));
     </script>
 
 	</main>
 
   {% include footer.html %}
-
-  
 
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}
