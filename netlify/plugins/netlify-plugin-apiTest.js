@@ -17,11 +17,11 @@ module.exports = {
           // Read the markdown file content
           let content = await fs.readFile(filePath, 'utf8');
 
-          // Extract the front matter and content from the markdown file
-          const { frontmatter, body } = extractFrontMatter(content);
+          // Extract the JSON front matter and content from the markdown file
+          const { jsonFrontmatter, body } = extractJsonFrontMatter(content);
 
-          // Extract the ID from the front matter attributes
-          const id = frontmatter.id;
+          // Extract the ID from the JSON front matter
+          const id = jsonFrontmatter.id;
 
           // Retrieve the Bearer token from environment variables
           const token = process.env.JOBS_API_TOKEN;
@@ -37,8 +37,8 @@ module.exports = {
           // Append the JSON data to the content
           content = appendToBody(body, data);
 
-          // Update the front matter in the content
-          const updatedContent = createMarkdownWithFrontMatter(frontmatter, content);
+          // Update the JSON front matter in the content
+          const updatedContent = createMarkdownWithJsonFrontMatter(jsonFrontmatter, content);
 
           // Write the updated content back to the markdown file
           await fs.writeFile(filePath, updatedContent, 'utf8');
@@ -52,25 +52,26 @@ module.exports = {
   },
 };
 
-function extractFrontMatter(content) {
-  const frontmatterRegex = /^(---\s*\n[\s\S]*?\n?)^(---\s*$\n?)/m;
+function extractJsonFrontMatter(content) {
+  const frontmatterRegex = /^---\n([\s\S]*?)\n---/m;
   const matches = frontmatterRegex.exec(content);
-  if (matches && matches.length > 2) {
+  if (matches && matches.length > 1) {
+    const jsonFrontmatter = JSON.parse(matches[1]);
     return {
-      frontmatter: JSON.parse(matches[1]),
+      jsonFrontmatter,
       body: content.slice(matches[0].length),
     };
   } else {
     return {
-      frontmatter: {},
+      jsonFrontmatter: {},
       body: content,
     };
   }
 }
 
-function createMarkdownWithFrontMatter(frontmatter, content) {
-  const frontmatterString = JSON.stringify(frontmatter, null, 2);
-  return `---\n${frontmatterString}\n---\n\n${content}`;
+function createMarkdownWithJsonFrontMatter(jsonFrontmatter, content) {
+  const jsonFrontmatterString = JSON.stringify(jsonFrontmatter, null, 2);
+  return `---\n${jsonFrontmatterString}\n---\n\n${content}`;
 }
 
 function appendToBody(content, data) {
@@ -83,4 +84,5 @@ function appendToBody(content, data) {
 
   return updatedContent;
 }
+
 
