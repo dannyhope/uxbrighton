@@ -27,8 +27,7 @@ module.exports = {
           const token = process.env.JOBS_API_TOKEN;
 
           // Make API request to retrieve the JSON data based on the ID
-          const apiUrl = `https://workml.io/v1/jobs/${id}/jsonld`;
-          const response = await axios.get(apiUrl, {
+          const response = await axios.get(`https://workml.io/v1/jobs/${id}/jsonld`, {
             headers: {
               Authorization: `Bearer ${token}`,
             },
@@ -76,9 +75,6 @@ function createMarkdownWithJsonFrontMatter(jsonFrontmatter, content) {
 }
 
 function appendToBody(content, data) {
-  // Update the JSON data with the ID
-  data.id = data.id || '';
-
   // Wrap the JSON data in a <script> tag with type "application/ld+json"
   const jsonData = JSON.stringify(data, null, 2);
   const scriptTag = `<script type="application/ld+json">\n${jsonData}\n</script>`;
