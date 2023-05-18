@@ -3,10 +3,10 @@ const fs = require('fs-extra');
 const path = require('path');
 
 module.exports = {
-  async onPreBuild({ constants }) {
+  async onPreBuild() {
     try {
       // Read the directory containing the job post markdown files
-      const jobPostsDirectory = `${constants.SITE_ROOT}/_jobPosts`;
+      const jobPostsDirectory = `${SITE_ROOT}/_jobPosts`;
       const fileNames = await fs.readdir(jobPostsDirectory);
 
       // Process each markdown file
