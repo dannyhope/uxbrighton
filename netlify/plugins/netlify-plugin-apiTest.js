@@ -1,26 +1,45 @@
 const axios = require('axios');
 const fs = require('fs-extra');
+const path = require('path');
 
 module.exports = {
-  async onPreBuild() {
+  async onPreBuild({ constants }) {
     try {
-      // Your API request logic to retrieve the data
-      const response = await axios.get('https://www.workml.io/v1/jobs/1243/jsonld', {
-        headers: {
-          Authorization: 'Bearer 5e21833f-f5ea-4ce7-7a5c-2bfb537ca8bd', // Replace with your actual authentication token
-        },
-      });
-      const data = response.data;
+      // Read the directory containing the job post markdown files
+      const jobPostsDirectory = `${constants.SITE_ROOT}/_jobPosts`;
+      const fileNames = await fs.readdir(jobPostsDirectory);
 
-      // Read the markdown file and append the data to the body
-      const filePath = `./_jobPosts/1272-senior-ux-designer-saas.md`;
-      const content = await fs.readFile(filePath, 'utf8');
-      const updatedContent = appendToBody(content, data);
+      // Process each markdown file
+      for (const fileName of fileNames) {
+        if (path.extname(fileName) === '.md') {
+          const filePath = path.join(jobPostsDirectory, fileName);
 
-      // Write the updated content back to the markdown file
-      await fs.writeFile(filePath, updatedContent, 'utf8');
+          // Extract the ID from the markdown file name
+          const id = path.basename(fileName, '.md');
 
-      console.log('Markdown file updated successfully.');
+          // Retrieve the Bearer token from environment variables
+          const token = process.env.JOBS_API_TOKEN;
+
+          // Make API request to retrieve the JSON data based on the ID
+          const response = await axios.get(`https://workml.io/v1/jobs/${id}/jsonld`, {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          });
+          const data = response.data;
+
+          // Read the markdown file content
+          let content = await fs.readFile(filePath, 'utf8');
+
+          // Append the JSON data to the content
+          content = appendToBody(content, data);
+
+          // Write the updated content back to the markdown file
+          await fs.writeFile(filePath, content, 'utf8');
+        }
+      }
+
+      console.log('Job post markdown files updated successfully.');
     } catch (error) {
       console.error('Error:', error);
     }
@@ -37,3 +56,4 @@ function appendToBody(content, data) {
 
   return updatedContent;
 }
+
