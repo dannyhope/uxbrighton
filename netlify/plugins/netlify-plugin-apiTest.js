@@ -1,9 +1,8 @@
 const axios = require('axios');
 const fs = require('fs-extra');
-const yaml = require('js-yaml');
 
 module.exports = {
-  async onPreBuild({ constants }) {
+  async onPreBuild() {
     try {
       // Your API request logic to retrieve the data
       const response = await axios.get('https://www.workml.io/v1/jobs/1243/jsonld', {
@@ -13,10 +12,10 @@ module.exports = {
       });
       const data = response.data;
 
-      // Read the markdown file and update the front matter
-      const filePath = `${constants.SITE_ROOT}/_jobPosts/1272-senior-ux-designer-saas.md`;
+      // Read the markdown file and append the data to the body
+      const filePath = `./_jobPosts/1272-senior-ux-designer-saas.md`;
       const content = await fs.readFile(filePath, 'utf8');
-      const updatedContent = appendToFrontMatter(content, data);
+      const updatedContent = appendToBody(content, data);
 
       // Write the updated content back to the markdown file
       await fs.writeFile(filePath, updatedContent, 'utf8');
@@ -28,19 +27,13 @@ module.exports = {
   },
 };
 
-function appendToFrontMatter(content, data) {
-  // Parse the front matter YAML
-  let frontMatter = yaml.safeLoadFront(content);
+function appendToBody(content, data) {
+  // Wrap the JSON data in a <script> tag with type "application/ld+json"
+  const jsonData = JSON.stringify(data, null, 2);
+  const scriptTag = `<script type="application/ld+json">\n${jsonData}\n</script>`;
 
-  // Append the data object to the front matter
-  frontMatter = { ...frontMatter, ...data };
-
-  // Convert the front matter back to YAML string
-  const updatedFrontMatter = yaml.safeDump(frontMatter, { lineWidth: -1 });
-
-  // Update the content with the updated front matter
-  const updatedContent = `---\n${updatedFrontMatter}---\n${content}`;
+  // Append the <script> tag to the body area of the markdown file
+  const updatedContent = `${content}\n\n${scriptTag}`;
 
   return updatedContent;
 }
-
