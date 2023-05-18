@@ -61,9 +61,6 @@
 		"date": "2023-05-10T13:07:54.940Z",
 		"source": "https://careers.publicissapient.com/job-details/743999904239453-senior-ux-designer-saas-london?trid=fabf8f5c-18fc-43ce-ba06-84dac34b9203"
 	},
-	"tags": [
-		"promoted"
-	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/PublicisGroupe/publication/862a3cb7-a9c4-42e3-b50b-9a126d762d70",
 	"applicationType": "link",
 	"shortId": "kpLim3j5",

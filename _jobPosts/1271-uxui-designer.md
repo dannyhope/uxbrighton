@@ -61,9 +61,6 @@
 		"date": "2023-05-10T13:00:38.968Z",
 		"source": "https://apply.workable.com/cur8-earth/j/95FDB5B4DD/"
 	},
-	"tags": [
-		"promoted"
-	],
 	"applicationUri": "https://apply.workable.com/cur8-earth/j/95FDB5B4DD/apply/",
 	"applicationType": "link",
 	"shortId": "J86QF07M",

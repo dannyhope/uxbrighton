@@ -53,9 +53,6 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"tags": [
-		"promoted"
-	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/YouGov1/publication/aa501967-2c51-4b96-969d-dfa2b4c36d98?dcr_ci=YouGov1",
 	"applicationType": "link",
 	"shortId": "ujddewuu76",
