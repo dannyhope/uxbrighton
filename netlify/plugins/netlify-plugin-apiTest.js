@@ -6,7 +6,7 @@ module.exports = {
   async onPreBuild() {
     try {
       // Read the directory containing the job post markdown files
-      const jobPostsDirectory = `${SITE_ROOT}/_jobPosts`;
+      const jobPostsDirectory = './_jobPosts';
       const fileNames = await fs.readdir(jobPostsDirectory);
 
       // Process each markdown file
@@ -56,4 +56,3 @@ function appendToBody(content, data) {
 
   return updatedContent;
 }
-
