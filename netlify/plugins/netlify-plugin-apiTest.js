@@ -23,7 +23,7 @@ module.exports = {
           // Extract the ID from the JSON front matter
           const id = jsonFrontmatter.id;
 
-          if (id && id !== 1273) {
+          if (id) {
             // Retrieve the Bearer token from environment variables
             const token = process.env.JOBS_API_TOKEN;
 
