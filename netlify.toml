@@ -3,9 +3,11 @@
 ##############################
 
 [build]
-  command = "bundle exec jekyll build"
+  command = "npm i && bundle exec jekyll build"
   publish = "_site"
 
+[[plugins]]
+  package = "/netlify/plugins/netlify-plugin-apiTest"
 
 ##############################
 # Netlify dev server (local)
@@ -83,5 +85,6 @@
   from = "/*"
   to = "/404"
   status = 404
+
 
 ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
