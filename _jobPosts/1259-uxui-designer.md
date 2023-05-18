@@ -1,6 +1,6 @@
 ---
 {
-	"id": 1270,
+	"id": 1259,
 	"title": {
 		"original": "UX/UI Designer",
 		"textDescription": "User Experience/User Interface Designer",
@@ -54,7 +54,7 @@
 	"shortId": "0pJ8pCrS",
 	"uuid": "948e12f2-4b36-4359-b4c1-c96a09d63ece",
 	"status": "LIVE",
-	"permalink": "/jobs2/1270/uxui-designer",
+	"permalink": "/jobs2/1259/uxui-designer",
 	"layout": "jobs/individual"
 }
 ---

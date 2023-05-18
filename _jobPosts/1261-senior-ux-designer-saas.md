@@ -1,6 +1,6 @@
 ---
 {
-	"id": 1272,
+	"id": 1261,
 	"title": {
 		"original": "Senior UX Designer - SaaS",
 		"textDescription": "Senior User Experience Designer",
@@ -66,7 +66,7 @@
 	"shortId": "kpLim3j5",
 	"uuid": "07891d19-280d-4352-9800-cc2547d17116",
 	"status": "LIVE",
-	"permalink": "/jobs2/1272/senior-ux-designer-saas",
+	"permalink": "/jobs2/1261/senior-ux-designer-saas",
 	"layout": "jobs/individual"
 }
 ---
