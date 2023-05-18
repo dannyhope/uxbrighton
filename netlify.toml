@@ -3,9 +3,13 @@
 ##############################
 
 [build]
-  command = "bundle exec jekyll build"
+  command = "npm i && bundle exec jekyll build"
   publish = "_site"
 
+[[plugins]]
+  package = "./netlify/plugins/netlify-plugin-apiTest"
+  [plugins.inputs]
+    hook = "onPreBuild"
 
 ##############################
 # Netlify dev server (local)
@@ -83,10 +87,6 @@
   from = "/*"
   to = "/404"
   status = 404
-
-[[redirects]]
-  from = "/netlify/functions/addJsonData"
-  to = "/.netlify/functions/addJsonData"
 
 
 ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
