@@ -23,7 +23,7 @@ module.exports = {
           // Extract the ID from the JSON front matter
           const id = jsonFrontmatter.id;
 
-          if (id) {
+          if (id && id !== 1273) {
             // Retrieve the Bearer token from environment variables
             const token = process.env.JOBS_API_TOKEN;
 
@@ -43,7 +43,7 @@ module.exports = {
               console.error(`Unable to retrieve data for ID ${id}`);
             }
           } else {
-            console.error('ID missing in front matter');
+            console.log(`ID ${id} ignored`);
           }
 
           // Update the JSON front matter in the content
