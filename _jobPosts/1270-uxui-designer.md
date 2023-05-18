@@ -49,9 +49,6 @@
 		"date": "2023-05-10T12:56:24.967Z",
 		"source": "https://boards.greenhouse.io/hangar13/jobs/5588590003#app"
 	},
-	"tags": [
-		"promoted"
-	],
 	"applicationUri": "https://boards.greenhouse.io/hangar13/jobs/5588590003#app",
 	"applicationType": "link",
 	"shortId": "0pJ8pCrS",
