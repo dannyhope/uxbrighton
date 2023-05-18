@@ -23,19 +23,28 @@ module.exports = {
           // Extract the ID from the JSON front matter
           const id = jsonFrontmatter.id;
 
-          // Retrieve the Bearer token from environment variables
-          const token = process.env.JOBS_API_TOKEN;
+          if (id) {
+            // Retrieve the Bearer token from environment variables
+            const token = process.env.JOBS_API_TOKEN;
 
-          // Make API request to retrieve the JSON data based on the ID
-          const response = await axios.get(`https://workml.io/v1/jobs/${id}/jsonld`, {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          });
-          const data = response.data;
+            // Make API request to retrieve the JSON data based on the ID
+            const response = await axios.get(`https://workml.io/v1/jobs/${id}/jsonld`, {
+              headers: {
+                Authorization: `Bearer ${token}`,
+              },
+            });
 
-          // Append the JSON data to the content
-          content = appendToBody(body, data);
+            if (response.status === 200 && response.data) {
+              const data = response.data;
+
+              // Append the JSON data to the content
+              content = appendToBody(body, data);
+            } else {
+              console.error(`Unable to retrieve data for ID ${id}`);
+            }
+          } else {
+            console.error('ID missing in front matter');
+          }
 
           // Update the JSON front matter in the content
           const updatedContent = createMarkdownWithJsonFrontMatter(jsonFrontmatter, content);
