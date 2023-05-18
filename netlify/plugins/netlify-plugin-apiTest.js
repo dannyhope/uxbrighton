@@ -14,8 +14,14 @@ module.exports = {
         if (path.extname(fileName) === '.md') {
           const filePath = path.join(jobPostsDirectory, fileName);
 
-          // Extract the ID from the markdown file name
-          const id = path.basename(fileName, '.md');
+          // Read the markdown file content
+          let content = await fs.readFile(filePath, 'utf8');
+
+          // Extract the front matter and content from the markdown file
+          const { frontmatter, body } = extractFrontMatter(content);
+
+          // Extract the ID from the front matter attributes
+          const id = frontmatter.id;
 
           // Retrieve the Bearer token from environment variables
           const token = process.env.JOBS_API_TOKEN;
@@ -28,14 +34,14 @@ module.exports = {
           });
           const data = response.data;
 
-          // Read the markdown file content
-          let content = await fs.readFile(filePath, 'utf8');
-
           // Append the JSON data to the content
-          content = appendToBody(content, data);
+          content = appendToBody(body, data);
+
+          // Update the front matter in the content
+          const updatedContent = createMarkdownWithFrontMatter(frontmatter, content);
 
           // Write the updated content back to the markdown file
-          await fs.writeFile(filePath, content, 'utf8');
+          await fs.writeFile(filePath, updatedContent, 'utf8');
         }
       }
 
@@ -46,13 +52,35 @@ module.exports = {
   },
 };
 
+function extractFrontMatter(content) {
+  const frontmatterRegex = /^(---\s*\n[\s\S]*?\n?)^(---\s*$\n?)/m;
+  const matches = frontmatterRegex.exec(content);
+  if (matches && matches.length > 2) {
+    return {
+      frontmatter: JSON.parse(matches[1]),
+      body: content.slice(matches[0].length),
+    };
+  } else {
+    return {
+      frontmatter: {},
+      body: content,
+    };
+  }
+}
+
+function createMarkdownWithFrontMatter(frontmatter, content) {
+  const frontmatterString = JSON.stringify(frontmatter, null, 2);
+  return `---\n${frontmatterString}\n---\n\n${content}`;
+}
+
 function appendToBody(content, data) {
   // Wrap the JSON data in a <script> tag with type "application/ld+json"
   const jsonData = JSON.stringify(data, null, 2);
   const scriptTag = `<script type="application/ld+json">\n${jsonData}\n</script>`;
 
-  // Append the <script> tag to the body area of the markdown file
+  // Append the <script> tag to the body area of the markdown content
   const updatedContent = `${content}\n\n${scriptTag}`;
 
   return updatedContent;
 }
+
