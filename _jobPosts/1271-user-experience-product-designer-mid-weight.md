@@ -21,7 +21,7 @@
 		}
 	},
 	"postedDate": "2023-04-28T23:00:00.000Z",
-	"closedDate": "2023-06-18T00:00:00.000Z",
+	"closedDate": "2023-05-21T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
 		"original": "London",

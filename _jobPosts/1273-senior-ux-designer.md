@@ -58,6 +58,14 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"salary": {
+		"original": "£24930- £30430",
+		"textDescription": "£24 - £30",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 24,
+		"maxValue": 30
+	},
 	"sourceSiteJobId": "7BD34A305C",
 	"meta": {
 		"patternName": "ld+json, workable, workable",
