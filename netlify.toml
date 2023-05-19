@@ -7,7 +7,7 @@
   publish = "_site"
 
 [[plugins]]
-  package = "/netlify/plugins/netlify-plugin-apiTest"
+  package = "/netlify/plugins/jobs-structured-schema-api/netlify-plugin-jobs-structured-schema-api"
 
 ##############################
 # Netlify dev server (local)
