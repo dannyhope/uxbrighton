@@ -39,12 +39,12 @@
 		]
 	},
 	"hiringOrganization": {
-		"name": "Sage",
-		"logo": "//uxbri.org/jobs/logos/Sage_Group_logo_2022.png",
-		"twitter": "sageuk",
-		"id": 217,
-		"shortId": "2VwyT8Yt",
-		"uuid": "8162ed3d-5e54-4f92-9460-fc1ce2c96546"
+		"name": "Sage Publications",
+		"logo": "//uxbri.org/jobs/logos/sagepublications-logo.png",
+		"twitter": "Sage_Publishing",
+		"id": 716,
+		"shortId": "1ArJC2zh",
+		"uuid": "bf5dfbc0-8a31-4640-983d-817501474029"
 	},
 	"employmentType": {
 		"typeInfo": [
