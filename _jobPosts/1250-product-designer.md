@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://indrarenewabletechnologies.bamboohr.com/careers/41",
+	"applicationType": "link",
+	"shortDescription": "Indra was founded in 2013 on a mission to create the smartest way to power EVs (electric vehicles). With its design, R&D, engineering, and manufacturing operations based in Malvern, this British",
 	"status": "LIVE",
 	"permalink": "/jobs2/1250/product-designer",
 	"layout": "jobs/individual"

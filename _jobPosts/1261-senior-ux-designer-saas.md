@@ -1,6 +1,8 @@
 ---
 {
 	"id": 1261,
+	"shortId": "kpLim3j5",
+	"uuid": "07891d19-280d-4352-9800-cc2547d17116",
 	"title": {
 		"original": "Senior UX Designer - SaaS",
 		"textDescription": "Senior User Experience Designer",
@@ -54,6 +56,14 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"salary": {
+		"original": "£55000-75000",
+		"textDescription": "£55,000 - £75,000",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 55000,
+		"maxValue": 75000
+	},
 	"sourceSiteJobId": "Publicis Sapient",
 	"meta": {
 		"patternName": "ld+json",
@@ -63,8 +73,7 @@
 	},
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/PublicisGroupe/publication/862a3cb7-a9c4-42e3-b50b-9a126d762d70",
 	"applicationType": "link",
-	"shortId": "kpLim3j5",
-	"uuid": "07891d19-280d-4352-9800-cc2547d17116",
+	"shortDescription": "Company Description Publicis Sapient is a digital transformation partner helping established organisations get to their future, digitally-enabled- state, both in the way they work and the way they",
 	"status": "LIVE",
 	"permalink": "/jobs2/1261/senior-ux-designer-saas",
 	"layout": "jobs/individual"

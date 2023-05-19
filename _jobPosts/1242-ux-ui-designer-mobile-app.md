@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://jobs.tuigroup.com/job/London-UX-UI-Designer-Mobile-App-E1W-1UN/913303001",
+	"applicationType": "link",
+	"shortDescription": "\"Innovation in mobile is changing the way we do business and transforming the way our customers interact with us. Our customers now expect their holiday experience to be enhanced and simplified",
 	"status": "LIVE",
 	"permalink": "/jobs2/1242/ux-ui-designer-mobile-app",
 	"layout": "jobs/individual"

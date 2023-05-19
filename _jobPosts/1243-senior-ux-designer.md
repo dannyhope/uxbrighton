@@ -58,11 +58,13 @@
 		"original": "£70,000 - £80,000",
 		"textDescription": "£70,000 - £80,000",
 		"currencyCode": "GBP",
+		"currencySymbol": "£",
 		"minValue": 70000,
-		"maxValue": 80000,
-		"currencySymbol": "£"
+		"maxValue": 80000
 	},
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/Xapien/publication/49a9a24a-9587-4448-9a50-6666aa6798b1?dcr_ci=Xapien",
+	"applicationType": "link",
+	"shortDescription": "Company Description Described as “the ChatGPT of Due Diligence”, Xapien is transforming how organisations understand who they’re’ doing business with. Founded in 2018 by technology experts with",
 	"status": "LIVE",
 	"permalink": "/jobs2/1243/senior-ux-designer",
 	"layout": "jobs/individual"

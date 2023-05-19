@@ -1,6 +1,8 @@
 ---
 {
 	"id": 1260,
+	"shortId": "J86QF07M",
+	"uuid": "514c3cc1-0c3b-495c-8331-fcc2818ad8b9",
 	"title": {
 		"original": "UX/UI Designer",
 		"textDescription": "User Experience/User Interface Designer",
@@ -54,6 +56,14 @@
 		"original": "full-time",
 		"textDescription": "Full-time"
 	},
+	"salary": {
+		"original": "£55000-75000",
+		"textDescription": "£55,000 - £75,000",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 55000,
+		"maxValue": 75000
+	},
 	"sourceSiteJobId": "8494777981",
 	"meta": {
 		"patternName": "ld+json, workable, workable",
@@ -63,8 +73,7 @@
 	},
 	"applicationUri": "https://apply.workable.com/cur8-earth/j/95FDB5B4DD/apply/",
 	"applicationType": "link",
-	"shortId": "J86QF07M",
-	"uuid": "514c3cc1-0c3b-495c-8331-fcc2818ad8b9",
+	"shortDescription": "About CUR8 The science is clear: even if we do everything else right on reducing emissions, the world needs to remove 200 Gigatonnes of carbon from the atmosphere by 2050. We have decades of",
 	"status": "LIVE",
 	"permalink": "/jobs2/1260/uxui-designer",
 	"layout": "jobs/individual"

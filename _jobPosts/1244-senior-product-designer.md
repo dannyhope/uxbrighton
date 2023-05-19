@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://www.aplitrak.com/?adid=b2xpdmlhLmhhbnNvbi41Nzk3Ni40NzA3QGxvcmllbi5hcGxpdHJhay5jb20",
+	"applicationType": "link",
+	"shortDescription": "Become part of the UK's' leading publishing and media agency with an outreach of nearly 40 million people each month! As a Senior product designer you will be assisting the product design team to",
 	"status": "LIVE",
 	"permalink": "/jobs2/1244/senior-product-designer",
 	"layout": "jobs/individual"

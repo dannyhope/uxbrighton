@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://www.collinsongrouptalent.com/jobs/2725457-ux-ui-designer",
+	"applicationType": "link",
+	"shortDescription": "Collinson Group is a global leader in driving loyalty and engagement for many of the world’s’ largest companies. Predominantly through the provision of travel related benefits within a market leading",
 	"status": "LIVE",
 	"permalink": "/jobs2/1241/uxui-designer",
 	"layout": "jobs/individual"

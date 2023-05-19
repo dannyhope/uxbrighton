@@ -45,6 +45,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://apply.workable.com/cognism-ltd/j/350C498F0B/apply/",
+	"applicationType": "link",
+	"shortDescription": "Making an impact Be nice, it’s’ one of our values which underpins the culture of Cognism, we are a fast-moving- company where we drive things forward together. Our mission is simple, it’s’ to drive",
 	"status": "LIVE",
 	"permalink": "/jobs2/1257/product-designer-ux",
 	"layout": "jobs/individual"

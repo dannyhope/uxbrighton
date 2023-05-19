@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationType": "link",
+	"shortDescription": "Luminary Roli is looking for an experienced Senior Product Designer for the LUMI Music App, the software that drives our music learning platform LUMI. Luminary ROLI is transforming how people play",
 	"status": "LIVE",
 	"permalink": "/jobs2/1246/senior-product-designer",
 	"layout": "jobs/individual"

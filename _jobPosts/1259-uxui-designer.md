@@ -1,6 +1,8 @@
 ---
 {
 	"id": 1259,
+	"shortId": "0pJ8pCrS",
+	"uuid": "948e12f2-4b36-4359-b4c1-c96a09d63ece",
 	"title": {
 		"original": "UX/UI Designer",
 		"textDescription": "User Experience/User Interface Designer",
@@ -43,6 +45,14 @@
 		"shortId": "7B0Cecg4",
 		"uuid": "342aafaf-6694-4be5-a0f5-e472ceafec10"
 	},
+	"salary": {
+		"original": "£55000-75000",
+		"textDescription": "£55,000 - £75,000",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 55000,
+		"maxValue": 75000
+	},
 	"meta": {
 		"patternName": "ld+json, greenhouse",
 		"patternType": "default, system",
@@ -51,8 +61,7 @@
 	},
 	"applicationUri": "https://boards.greenhouse.io/hangar13/jobs/5588590003#app",
 	"applicationType": "link",
-	"shortId": "0pJ8pCrS",
-	"uuid": "948e12f2-4b36-4359-b4c1-c96a09d63ece",
+	"shortDescription": "Who We Are Hangar 13 is the internal 2K development studio behind the award-winning- Mafia III. The studio is comprised of industry veterans drawn from a diverse range of studios, who have",
 	"status": "LIVE",
 	"permalink": "/jobs2/1259/uxui-designer",
 	"layout": "jobs/individual"

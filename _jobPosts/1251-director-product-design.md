@@ -51,6 +51,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://boards.greenhouse.io/algolia/jobs/4867299004app#app",
+	"applicationType": "link",
+	"shortDescription": "Algolia is on a mission to empower every company to create delightful Search Discovery experiences. We power over 1.5. trillion searches a year, for more than 17,000 customers from 100 countries.",
 	"status": "LIVE",
 	"permalink": "/jobs2/1251/director-product-design",
 	"layout": "jobs/individual"

@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://apply.workable.com/uplearn/j/7F61561863/apply/",
+	"applicationType": "link",
+	"shortDescription": "About Us Up Learn has built the world’s’ most effective learning experience. We’ve’ done this by combining cognitive science, instructional theory and artificial intelligence Up Learn’s’ mission",
 	"status": "LIVE",
 	"permalink": "/jobs2/1240/lead-product-designer",
 	"layout": "jobs/individual"

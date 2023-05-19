@@ -59,11 +59,13 @@
 		"original": "£57000-69000",
 		"textDescription": "£57,000 - £69,000",
 		"currencyCode": "GBP",
+		"currencySymbol": "£",
 		"minValue": 57000,
-		"maxValue": 69000,
-		"currencySymbol": "£"
+		"maxValue": 69000
 	},
 	"applicationUri": "https://app.beapplied.com/apply/46m192oidg",
+	"applicationType": "link",
+	"shortDescription": "About Nesta We are Nesta, the UK’s’ innovation agency for social good. We design, test and scale solutions to society’s’ biggest problems. Our three missions are to give every child a fair start,",
 	"status": "LIVE",
 	"permalink": "/jobs2/1255/product-design-lead-collective-intelligence",
 	"layout": "jobs/individual"

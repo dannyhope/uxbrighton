@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://apply.workable.com/nodeslinks/j/65BBBD4267/apply/",
+	"applicationType": "link",
+	"shortDescription": "What does Nodes Links do? Did you know that an ancient Roman Aqueduct had an initial cost of 12 million sesterces but ended up costing more than 30 million? Big projects have always been",
 	"status": "LIVE",
 	"permalink": "/jobs2/1238/junior-product-designer",
 	"layout": "jobs/individual"

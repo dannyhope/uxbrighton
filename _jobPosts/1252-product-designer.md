@@ -55,6 +55,8 @@
 		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://join.com/companies/getmads/7896165-product-designer#apply-window",
+	"applicationType": "link",
+	"shortDescription": "Tasks As a Product Designer, you will create the designs for our web-application- which tackles climate change every day and help make the world a better place for all of us. You will work",
 	"status": "LIVE",
 	"permalink": "/jobs2/1252/product-designer",
 	"layout": "jobs/individual"

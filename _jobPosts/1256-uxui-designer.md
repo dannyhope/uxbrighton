@@ -1,6 +1,8 @@
 ---
 {
 	"id": 1256,
+	"shortId": "unhdiii92",
+	"uuid": "c65246a1-48e7-40d5-b7e3-187a4aea4891",
 	"title": {
 		"original": "UX/UI Designer",
 		"textDescription": "User Experience/User Interface Designer",
@@ -55,8 +57,7 @@
 	},
 	"applicationUri": "https://jobs.eu.lever.co/anyvan/8b958f6e-5791-4dde-8d89-9ca0d58333b0/apply",
 	"applicationType": "link",
-	"shortId": "unhdiii92",
-	"uuid": "c65246a1-48e7-40d5-b7e3-187a4aea4891",
+	"shortDescription": "AnyVan makes moving anything, anywhere easier, more affordable and greener for everyone. With Over 8 million customers across the UK and Europe since our launch over a decade ago, we’re’ proud to be",
 	"status": "LIVE",
 	"permalink": "/jobs2/1256/uxui-designer",
 	"layout": "jobs/individual"

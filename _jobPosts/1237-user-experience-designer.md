@@ -58,11 +58,13 @@
 		"original": "£70,000 - £80,000",
 		"textDescription": "£70,000 - £80,000",
 		"currencyCode": "GBP",
+		"currencySymbol": "£",
 		"minValue": 70000,
-		"maxValue": 80000,
-		"currencySymbol": "£"
+		"maxValue": 80000
 	},
 	"applicationUri": "https://cancerresearchuk.wd3.myworkdayjobs.com/en-US/External_Careers/job/Stratford-2-Redman-Place/User-Experience-Designer_R024609-1",
+	"applicationType": "link",
+	"shortDescription": "We're' open to a variety of ways of working, including full time, part time, job share and compressed hours. Recruitment process: Two competency-based- interviews (1st technical skills, 2nd soft",
 	"status": "LIVE",
 	"permalink": "/jobs2/1237/user-experience-designer",
 	"layout": "jobs/individual"
