@@ -40,7 +40,7 @@
 	},
 	"hiringOrganization": {
 		"name": "accuRx",
-		"logo": "//uxbri.org/jobs/logos/accurx-logo2022.png",
+		"logo": "//uxbri.org/jobs/logos/accurx-logoV3.png",
 		"twitter": "Accurx",
 		"id": 406,
 		"shortId": "xS0Kxatg",
@@ -56,6 +56,14 @@
 		],
 		"original": "Permanent",
 		"textDescription": "Permanent"
+	},
+	"salary": {
+		"original": "45,000-73,000",
+		"textDescription": "$45,000 - $73,000",
+		"currencyCode": "USD",
+		"currencySymbol": "$",
+		"minValue": 45000,
+		"maxValue": 73000
 	},
 	"meta": {
 		"patternName": "ld+json, greenhouse",
