@@ -65,7 +65,7 @@
 		"minValue": 48000,
 		"maxValue": 58000
 	},
-	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationUri": "https://apply.workable.com/learnosity/j/675E2E75BE/apply/",
 	"applicationType": "link",
 	"shortDescription": "Description At Learnosity we believe education and learning opportunities should be equitable, inclusive and accessible to all. Our mission is to advance education and learning worldwide with",
 	"status": "LIVE",

@@ -52,7 +52,7 @@
 		"minValue": 24,
 		"maxValue": 30
 	},
-	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationUri": "https://search.jobs.barclays/job/-/-/22545/48974304416",
 	"applicationType": "link",
 	"shortDescription": "As a Barclays Scale Capability Learner UX Designer, you will join the HR Development Design team, being accountable for the User Experience and Content design. This is an exciting opportunity for",
 	"status": "LIVE",

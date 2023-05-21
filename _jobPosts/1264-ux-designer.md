@@ -64,7 +64,7 @@
 		"minValue": 45000,
 		"maxValue": 47500
 	},
-	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationUri": "https://jobs.bhf.org.uk/registration.aspx",
 	"applicationType": "link",
 	"shortDescription": "The opportunity Are you an experienced UX Designer? Do you have a strong technical skill set, able to create exceptional digital customer experiences that deliver value and impact quickly? We're'",
 	"status": "LIVE",

@@ -24,17 +24,16 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "1 Oliver's Yard London LND EC1Y 1SP UK",
+		"original": "1 Oliver's Yard, London",
 		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
 				"locality": "London",
-				"postalCode": "EC1Y 1SP",
-				"countryName": "UK",
+				"countryName": "United Kingdom",
 				"countryCode": "GB",
 				"latitude": 51.521,
-				"longitude": -0.093
+				"longitude": -0.087
 			}
 		]
 	},

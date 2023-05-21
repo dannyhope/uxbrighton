@@ -63,7 +63,7 @@
 		"minValue": 48000,
 		"maxValue": 58000
 	},
-	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationUri": "https://jobs.jobvite.com/everyday-health-pregnancy-and-parenting/job/oaSdnfwm/apply",
 	"applicationType": "link",
 	"shortDescription": "Reporting to the Head of Product, the UX Designer role will be focused on making our products and services usable, enjoyable and accessible. Using data insight to create intuitive, user-friendly- and",
 	"status": "LIVE",

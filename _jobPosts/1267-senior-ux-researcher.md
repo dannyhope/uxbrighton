@@ -64,7 +64,7 @@
 		"minValue": 48000,
 		"maxValue": 58000
 	},
-	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationUri": "https://business.trustpilot.com/jobs/5030049?gh_jid=5030049",
 	"applicationType": "link",
 	"shortDescription": "We’re’ a leading online reviews platform, free and open to all. Our mission is to be a universal symbol of trust. We are well on our way — but there’s’ still an exciting journey ahead of us. Do you",
 	"status": "LIVE",

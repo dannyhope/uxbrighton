@@ -64,7 +64,7 @@
 		"minValue": 48000,
 		"maxValue": 58000
 	},
-	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationUri": "https://boards.greenhouse.io/via/jobs/6717133002",
 	"applicationType": "link",
 	"shortDescription": "At Citymapper by Via we’re’ on a mission to help make complex cities easy to use. Our app helps millions of people in hundreds of cities around the world by giving them the most up-to-date-- and",
 	"status": "LIVE",

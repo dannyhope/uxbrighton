@@ -64,7 +64,7 @@
 		"minValue": 48000,
 		"maxValue": 58000
 	},
-	"applicationUri": "https://luminaryroli.applytojob.com/apply/Zeavh54iqR/Senior-Product-Designer",
+	"applicationUri": "http://hiring.powster.com/apply/TCMo5cevzc/MidWeight-UXUI-Digital-Designer?source=INDE",
 	"applicationType": "link",
 	"shortDescription": "Powster is a Creative Studio based in London and Los Angeles and we are looking for a proactive Mid-weight- UX/UI/ DIGITAL DESIGNER to join our friendly team based in Hackney Wick (Zone 2). We",
 	"status": "LIVE",
