@@ -55,14 +55,6 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"salary": {
-		"original": "£55000-75000",
-		"textDescription": "£55,000 - £75,000",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 55000,
-		"maxValue": 75000
-	},
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/YouGov1/publication/aa501967-2c51-4b96-969d-dfa2b4c36d98?dcr_ci=YouGov1",
 	"applicationType": "link",
 	"shortDescription": "Company Description YouGov is an international online research data and analytics group. Our mission is to offer unparalleled insight into what the world thinks. Our innovative solutions help",

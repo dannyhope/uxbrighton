@@ -44,14 +44,6 @@
 		"shortId": "tzAR9FW1",
 		"uuid": "3b64433d-4d78-4ec6-b906-361c98d98785"
 	},
-	"salary": {
-		"original": "£24930- £30430",
-		"textDescription": "£24 - £30",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 24,
-		"maxValue": 30
-	},
 	"applicationUri": "https://search.jobs.barclays/job/-/-/22545/48974304416",
 	"applicationType": "link",
 	"shortDescription": "As a Barclays Scale Capability Learner UX Designer, you will join the HR Development Design team, being accountable for the User Experience and Content design. This is an exciting opportunity for",

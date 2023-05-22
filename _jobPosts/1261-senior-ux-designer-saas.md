@@ -56,14 +56,6 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"salary": {
-		"original": "£55000-75000",
-		"textDescription": "£55,000 - £75,000",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 55000,
-		"maxValue": 75000
-	},
 	"sourceSiteJobId": "Publicis Sapient",
 	"meta": {
 		"patternName": "ld+json",

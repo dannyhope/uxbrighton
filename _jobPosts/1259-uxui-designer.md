@@ -45,14 +45,6 @@
 		"shortId": "7B0Cecg4",
 		"uuid": "342aafaf-6694-4be5-a0f5-e472ceafec10"
 	},
-	"salary": {
-		"original": "£55000-75000",
-		"textDescription": "£55,000 - £75,000",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 55000,
-		"maxValue": 75000
-	},
 	"meta": {
 		"patternName": "ld+json, greenhouse",
 		"patternType": "default, system",

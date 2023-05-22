@@ -1,7 +1,7 @@
 ---
 {
 	"id": 1270,
-	"shortId": "x7Qp51GN",
+	"shortId": "ungfawq62",
 	"uuid": "e63a46e5-e321-4d4b-b413-14af1b435e9e",
 	"title": {
 		"original": "Senior Product Designer",
@@ -25,18 +25,15 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London",
-		"textDescription": "London",
+		"original": "UK Remote",
+		"textDescription": "Remote",
 		"locations": [
 			{
-				"textDescription": "London",
-				"locality": "London",
 				"countryName": "United Kingdom",
-				"countryCode": "GB",
-				"latitude": 51.5074,
-				"longitude": -0.1278
+				"countryCode": "GB"
 			}
-		]
+		],
+		"workplace": "FULLY_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Via",
@@ -44,25 +41,6 @@
 		"id": 713,
 		"shortId": "F1RIp5XB",
 		"uuid": "89c05e6b-6120-4add-b281-4902d706c10e"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
-	"salary": {
-		"original": "£48000-58000",
-		"textDescription": "£48,000 - £58,000",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 48000,
-		"maxValue": 58000
 	},
 	"applicationUri": "https://boards.greenhouse.io/via/jobs/6717133002",
 	"applicationType": "link",
