@@ -54,7 +54,7 @@ The plugin performs the following tasks:
    - Updates the JSON front matter in the content.
    - Writes the updated content back to the markdown file.
 
-**NOTE:** The updated markdown files only appear in the site build directory. The original (committed) markdown files remain unchanged in the repository.
+**NOTE:** The updated markdown files only appear in the Nelify deploy preview and not in the local repository. This is because the plugin is executed during the build process and the updated files are not committed to the repository.
 
 **netlify-plugin-jobs-structured-schema-api.js**
 
