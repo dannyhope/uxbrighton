@@ -54,8 +54,10 @@ module.exports = {
         }
       }
 
+      // Log success message
       console.log('Job post markdown files updated successfully.');
     } catch (error) {
+      // Log error message
       console.error('Error:', error);
     }
   },
