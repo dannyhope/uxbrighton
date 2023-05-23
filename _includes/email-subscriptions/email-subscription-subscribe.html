@@ -34,6 +34,10 @@
         <input type="email" id="email" name="Email address" class="form-control pa2" required>
         <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0">
       </div>
+      {% comment %} Message prompt if no checkboxes have been selected {% endcomment %}
+      <div class="form-message--prompt" style="display: none;">
+        <p>Please select at least one option to subscribe to.</p>
+      </div>
     </form>
   </div>
 

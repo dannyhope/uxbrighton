@@ -14,6 +14,10 @@
       <input type="email" id="email" name="Email address" class="form-control pa2" required>
       <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0">
     </div>
+    {% comment %} This message may not be relevant for the 'jobs' page because the job alerts checkbox is automatically selected. Leaving in for now. {% endcomment %}
+    <div class="form-message--prompt" style="display: none;">
+      <p>Please select at least one option to subscribe to.</p>
+    </div>
 
     {% comment %} Additional lists to subscribe to {% endcomment %}
     <div class="form-list-add flow" style="display: none;">
