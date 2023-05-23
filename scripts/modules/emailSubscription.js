@@ -36,7 +36,7 @@
       if (checkboxes.length === 0) {
         // Missing field (checkbox) message
         $('.form-message--prompt').fadeIn(500);
-        return; // Else stop form submission
+        return; // Else just `return` and stop form submission
       }
 
       // On submit, disable the submit button and change the button text
