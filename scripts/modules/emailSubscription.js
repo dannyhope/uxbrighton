@@ -31,6 +31,14 @@
     form.addEventListener('submit', event => {
       event.preventDefault();
 
+      // Check if at least one checkbox is selected
+      const checkboxes = form.querySelectorAll('input[type=checkbox]:checked');
+      if (checkboxes.length === 0) {
+        // Missing field (checkbox) message
+        $('.form-message--prompt').fadeIn(500);
+        return; // Else stop form submission
+      }
+
       // On submit, disable the submit button and change the button text
       const submitButton = form.querySelector('input[type=submit]');
       submitButton.value = 'Sending...';
