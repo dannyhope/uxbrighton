@@ -23,6 +23,21 @@
 	"postedDate": "2023-05-21T00:00:00.000Z",
 	"closedDate": "2023-06-04T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London, Remote",
+		"textDescription": "Remote, London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.509865,
+				"longitude": -0.118092
+			}
+		],
+		"workplace": "FULLY_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "Saga",
 		"logo": "//uxbri.org/jobs/logos/Saga_Logo_Indigo.svg",

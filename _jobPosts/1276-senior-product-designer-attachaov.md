@@ -24,6 +24,21 @@
 	"postedDate": "2023-05-22T00:00:00.000Z",
 	"closedDate": "2023-06-22T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		],
+		"workplace": "PART_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "Moonpig group plc",
 		"logo": "//uxbri.org/jobs/logos/moonpig-group-colour.png",
