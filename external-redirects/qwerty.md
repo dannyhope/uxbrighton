@@ -1,4 +1,4 @@
 ---
 title: qwerty
-redirect_to: qwerty.com
+redirect_to: https://qwerty.com
 ---
