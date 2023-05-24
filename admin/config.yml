@@ -1876,3 +1876,14 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "heading-two", "heading-three", "heading-four", "heading-five", "quote", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
         required: false
+  # "External redirects collection"
+  - label: "External redirect"
+    name: "redirect"
+    description: "External redirect - eg. 'About', 'GDPR & Cookies' etc."
+    folder: "external-redirects"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "title", hint: "Primary title of the page. This also generates the page *slug*.", widget: "string"}
