@@ -1887,7 +1887,7 @@ collections:
     editor:
       preview: true
     fields:
-      - {label: "Title", name: "title", hint: "Primary title of the page. This also generates the page *slug*.", widget: "string"}
+      - {label: "Title", name: "{{permalink}}", hint: "Primary title of the page. This also generates the page *slug*.", widget: "hidden"}
       - {label: "Redirect to", name: "redirect_to", hint: "URL that you’d like to redirect to. ", widget: "string"}
-      # - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***mentorship-meet-up***. Otherwise URL defaults to slugified version of the title.", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***mentorship-meet-up***. Otherwise URL defaults to slugified version of the title.", widget: "string", required: false}
 
