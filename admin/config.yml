@@ -1879,15 +1879,14 @@ collections:
   # "External redirects collection"
   - label: "External redirect"
     name: "redirect"
-    description: "External redirect - eg. 'About', 'GDPR & Cookies' etc."
+    description: "External redirects."
     folder: "external-redirects"
-    # slug: "{{permalink}}"
     permalink: "{{slug}}"
     create: true
     editor:
       preview: true
     fields:
-      - {label: "Title", name: "{{permalink}}", hint: "Primary title of the page. This also generates the page *slug*.", widget: "hidden"}
-      - {label: "Redirect to", name: "redirect_to", hint: "URL that you’d like to redirect to. ", widget: "string"}
-      - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***mentorship-meet-up***. Otherwise URL defaults to slugified version of the title.", widget: "string", required: false}
+      - {label: "Title", name: "{{permalink}}", hint: "Primary title of the page. This also generates the page *slug*.", widget: "hidden"} # The `title` field is hidden in the GUI and is populated by the `permalink` field
+      - {label: "Redirect to", name: "redirect_to", hint: "URL that you’d like to redirect to - eg. ***https://qwerty.com***. ", widget: "string"}
+      - {label: "Permalink", name: "permalink", hint: "The value automatically populates the 'title' field. Which then creates the file name that'll be saved into the 'external-redirects' directory.", widget: "string"}
 
