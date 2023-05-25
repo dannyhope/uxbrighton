@@ -10,7 +10,7 @@
 {% endif -%}
 
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
+<html class="no-js" lang="en">
 <head>
   <title>{{ metaTitle }}</title>
   <meta charset="utf-8">
@@ -22,9 +22,6 @@
 
   <!-- Social media analytics -->
   {% include social-tracking-head.html %}
-
-  <!-- Hmmmm.... what is this? -->
-  <meta name="first" content="UX Brighton, Friday 4 November. UX and Product Management">
 
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
@@ -57,36 +54,10 @@
     <link rel="stylesheet" href="/stylesheets/css/styles.css">
     <link rel="stylesheet" href="/stylesheets/css/styles-to-be-rationalised.css">
 
-    <style>
-      /* Email Octopus embeds:
-
-         900e27a8-d6c8-11ec-9258-0241b9615763 is the body subscribe
-         ffc9764e-d6cb-11ec-9258-0241b9615763 is the footer & nav menu subscribe
-
-         Override their styles like this:
-
-         [data-form="ffc9764e-d6cb-11ec-9258-0241b9615763"] .btn-primary {
-           background-color: red !important;
-           border-color: #009300 !important;
-         }
-
-         or more generically:
-
-         div[eo-row] .btn-primary {
-           background-color: red !important;
-         }
-
-         div[eo-row] div[eo-block="text"] {
-           background: blue !important;
-         }
-      */
-
-    </style>
-
   <!-- Pre dom-ready scripts -->
     <script>
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
-      window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
+      window.q=[]; window.$=function(f){q.push(f);}; // Make a queue for $
     </script>
 </head>
 
@@ -102,7 +73,7 @@
 
   {% include footer.html %}
 
-  {% include nav.html %}
+  
 
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}

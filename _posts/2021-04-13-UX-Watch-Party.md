@@ -11,8 +11,8 @@ seo: true
 
 description: "Show and Tell takeover! Guest MC Fiona MacNeill will present a series of short films for discussion."
 fullurl: https://uxbri.org/ux-watch-party/
-image: "https://uxbri.org/images/cards/show-and-tell-8-twitter.png"
-upcoming-bg-image: "https://uxbri.org/images/events/show-and-tell.jpg"
+image: "/images/cards/show-and-tell-8-twitter.png"
+upcoming-bg-image: "/images/events/show-and-tell.jpg"
 
 ---
 

@@ -29,8 +29,8 @@ hero:
     message: Thanks for coming to our 🎂 10th annual one-day conference
     button:
       label: Book now for 2023
-      url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
-      extra-text: Super early bird discounts available now!
+      url: https://uxbri.org/2023/
+      extra-text: Early bird discounts available now!
 overview:
   visibility: true
   pre:
@@ -499,8 +499,6 @@ sponsors:
         mortgages (a form of equity release), pensions, annuities and life
         assurance.
       links:
-        - link-type: website
-          profile-url: https://www.legalandgeneral.com/
         - link-type: twitter
           profile-url: https://twitter.com/landg_uk
         - link-type: facebook
@@ -516,8 +514,6 @@ sponsors:
           experience. Everything they do starts with understanding audience
           needs while improving user journeys to improve digital success.
         links:
-          - link-type: website
-            profile-url: https://www.freshegg.co.uk/
           - link-type: twitter
             profile-url: https://twitter.com/freshegg
           - link-type: facebook
@@ -529,8 +525,6 @@ sponsors:
           clients in more than 100 countries with one of the most comprehensive
           global product platforms available.
         links:
-          - link-type: website
-            profile-url: https://www.jpmorgan.com/GB/en/about-us
           - link-type: twitter
             profile-url: https://twitter.com/jpmorgan
           - link-type: facebook
@@ -547,8 +541,6 @@ sponsors:
           software that combines the simplicity of paper sketching with the
           power of a digital tool so that teams can focus on what's important.
         links:
-          - link-type: website
-            profile-url: https://balsamiq.com/
           - link-type: twitter
             profile-url: https://twitter.com/balsamiq
       - name: Brightec
@@ -558,8 +550,6 @@ sponsors:
           in Brighton, UK.  Their mission is simple; to be a company that
           customers love working with, and their employees love working for.
         links:
-          - link-type: website
-            profile-url: https://www.brightec.co.uk/
           - link-type: twitter
             profile-url: https://twitter.com/brightec
           - link-type: facebook
@@ -572,8 +562,6 @@ sponsors:
           or Microsoft calendar to give you flexible, customizable, and powerful
           automated scheduling.
         links:
-          - link-type: website
-            profile-url: https://youcanbook.me/
           - link-type: twitter
             profile-url: https://twitter.com/youcanbookme
           - link-type: facebook
@@ -585,8 +573,6 @@ sponsors:
           the most recognized media brands on the planet with our job board
           technology.
         links:
-          - link-type: website
-            profile-url: https://www.madgex.com/
           - link-type: twitter
             profile-url: https://twitter.com/madgex
           - link-type: facebook
@@ -600,8 +586,6 @@ sponsors:
           their business whilst we take care of the bookkeeping, taxes and
           everything in-between.
         links:
-          - link-type: website
-            profile-url: https://www.lagomfinance.com/
           - link-type: twitter
             profile-url: https://twitter.com/lagomfinance1
           - link-type: facebook

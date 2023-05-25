@@ -20,7 +20,7 @@
     margin-top:-100px;
     @include under-m {
       margin-top: 0
-    } 
+    }
   }
   #hero {
     // max-height: 90vh;
@@ -57,7 +57,7 @@
   //   .js  body.scroll-started #hero .button--large {
   //     opacity: 1;
   //     top: -10px;
-  //   }    
+  //   }
   // }
 
 
@@ -86,13 +86,13 @@
   }
 
 
-    .input-group__field, 
-    .input-group__addon, 
+    .input-group__field,
+    .input-group__addon,
     .input-group__button {
       height: 44px;
-    }   
+    }
   footer {
- 
+
   }
 
   .social-icons__link {
@@ -149,7 +149,7 @@ th, td {
     content: '';
   }
 }
-@include over-m { 
+@include over-m {
   table.hidden-under-m {
     margin-left: -3px * $ssi;
   }
@@ -177,9 +177,17 @@ th, td {
 .eh-row {
   display: flex;
   flex-wrap: wrap;
-}
-.eh-item {
-  margin-bottom: 16px;
+
+  .eh-item {
+    @include under-s {
+      padding-left: 0;
+      margin-bottom: 16px;
+    }
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
 }
 .sponsor {
   display: flex;
@@ -200,8 +208,8 @@ $triangle: 7px;
   content: '';
   top: -$triangle;
   left: 12px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: $triangle solid transparent;
   border-right: $triangle solid transparent;
   border-bottom: $triangle solid white;
@@ -210,7 +218,7 @@ $triangle: 7px;
   right: 30px !important;
   left: auto !important;
 }
- 
+
 
 
 

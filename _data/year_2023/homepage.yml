@@ -1,7 +1,7 @@
 fullurl: https://uxbri.org/2023/
 attendee-info:
   travel-accom:
-    visibility: false
+    visibility: true
     title: Information for Attendees
     body: >-
       The conference is being held in the beautiful and historic [Brighton Dome
@@ -17,7 +17,7 @@ attendee-info:
       Before the conference why not [join the UX Brighton Slack](https://slofile.com/slack/uxbri) and get chatting with other UXers. We’ve also got a rather nice [\#jobs](https://uxbri.slack.com/messages/jobs).
 
 
-      See our [Attendee information guide](/2022/info) for everything you need to get the most out of your visit to UX Brighton, including:
+      See our **[Attendee information guide](/2023/info)** for everything you need to get the most out of your visit to UX Brighton, including:
     info:
       - item: Travel
       - item: Accommodation
@@ -28,20 +28,20 @@ attendee-info:
       - item: Registration
       - item: Refreshments
       - item: After Party
-    show-info: false
+    show-info: true
   pre-party:
-    visibility: false
+    visibility: true
     event:
       - body: >-
-          <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
+          <h3>Pre-conf meetup – 2<sup>rd</sup> Nov</h3>
 
 
-          In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/) in a bright orange UX Brighton T-shirt.
+          In town the night before? Come to [The Fountainhead](https://www.google.co.uk/maps/dir//the+fountain+head+pub+brighton/@32.3849821,-29.6384353,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4875859fe2eb77db:0x5bdeb264727a570a!2m2!1d-0.1372304!2d50.8254927?hl=en) from 7pm to 9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/) in a UX Brighton T-shirt.
       - body: >-
-          <h3>Pre-event networking & coffee – 4<sup>th</sup> Nov</h3>
+          <h3>Pre-event networking & coffee – 3<sup>th</sup> Nov</h3>
 
 
-          If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
+          If you’re coming down early to the conference, [Meanwhile Cafe](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en)[](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 workshop:
   visibility: false
   details:
@@ -65,7 +65,7 @@ workshop:
     back-image: /images/voice-ui-workshop.jpeg
   section-title: Workshop
 conference-year: "2023"
-title: " UX Brighton 2023: UX & Innovation"
+title: " UX Brighton 2023: Creativity & Innovation"
 hero:
   hero-state: pre
   global:
@@ -75,13 +75,13 @@ hero:
     venue: Brighton Dome
     image: /images/header.jpg
   pre:
-    title: UX & Innovation
+    title: Creativity & Innovation
     button:
       label: Book now for 2023
       url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
       extra-text: Early bird discounts available now!
   during:
-    title: UX & Innovation
+    title: Creativity & Innovation
     message: 2023 conference tickets available on the door
     button:
       label: Book now for 2024
@@ -99,15 +99,29 @@ overview:
   pre:
     title: Join us for our annual one-day conference!
     lede:
-      body: ""
-    text:
       body: >-
-        Join us for our annual conference where people from product management,
-        ux, research and design will gather to discover what we have to learn
-        from one another.
+        Creativity is broad, innovation has been overused so let’s define our
+        terms:
 
 
-        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+        **creativity** *n*. coming up with new ways to think about things
+
+
+        **innovation** *n*. creating ways to solve problems
+
+
+        As user experience designers, it's essential to empathize with users and employ various methods to address their needs effectively. However, achieving our best work requires us to turn the lens inward and apply user-centered design principles to our ways of working and our relationships. By doing so, we can better serve those whose problems we aim to solve.
+
+
+        Amid tight deadlines, finding the time and space for self-reflection and growth can be challenging. UX Brighton 2023 offers a rare opportunity for attendees to focus on themselves in a dedicated environment, fostering creativity and innovation.
+
+
+        When creativity is provided with room to grow, it paves the way for innovation. Embracing innovation offers your organization a valuable edge. Each individual has the capacity for increased creativity. Discover techniques to enhance your creative abilities at UX Brighton 2023.
+
+
+        Join us in this enriching journey as we explore the power of creativity and innovation together, and take the user experience design field to new heights. Register now and secure your place in this transformative event!
+    text:
+      body: ""
     testimonial:
       visibility: true
       quote: Some of the smartest, most insightful and entertaining people I've met.
@@ -196,6 +210,41 @@ speakers:
           social-profiles:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/elizabethfchurchill/
+      - talk-info:
+          talk-time: ""
+          talk-title: "Enabling Creativity: Specific ideas to help your team flourish"
+          talk-summary: >-
+            Mark's talk will explore how to foster innovation and creativity in
+            the workplace.
+
+
+            He will discuss the concept of Kaizen (Lean, Agile, Design Thinking) and how its ideas can be utilized to ensure everyone in the company is constantly innovating how they work.  He will provide an innovation and cultural framework which can be integrated into your company's culture with psychological safety in mind. He will outline specific ideas on enabling creativity and allowing creativity in everyone to flourish. This means everyone will be able to be innovative and creative, which could lead to unintended consequences. Perhaps even using the newly possible to learn and create groundbreaking products and services to help the common good.
+
+
+            But the primary outcome will be improved speed, quality, and overall effectiveness in your day-to-day work.
+        name: " Mark Edgington"
+        thumbnail: /images/mark-edgington-600-x-600.jpg
+        anchor: " Mark-Edgington"
+        speaker-bio:
+          bio-title: About Mark
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/markedgington/
+          bio-summary: >-
+            Mark has over 25 years of experience in UX and Development. He has
+            founded several startups and worked in large agencies where he has
+            architected solutions serving millions. 
+
+            Mark is a seasoned speaker, judge and the founder and principal consultant of Incendiary Blue, where he creates elegant solutions to the right problems.
+
+
+            His works span GSK, Wyeth, Vodafone, Orange, Deutsche bank, HSBC, DeBeers, Disney, Saint Gobain, Mazda, Mercedes, Airmiles, Philip Morris, Thomas Cook, Condor, O’Melveny, Orrick, Slaughter and May, Pfizer, Sky and EY and many others.
+
+
+            Mark holds a 1st class degree in Computer Science and Artificial Intelligence and an MSC in Human-Computer Interaction (UX). He has been published online, spoken at multiple conferences and judges UX awards yearly.
+
+
+            He is very passionate about working with schools, running digital days and acting as an Enterprise Careers adviser for the Mayor of London.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
@@ -253,8 +302,6 @@ sponsors:
         clients in more than 100 countries with one of the most comprehensive
         global product platforms available.
       links:
-        - link-type: website
-          profile-url: https://www.jpmorgan.com/GB/en/about-us
         - link-type: twitter
           profile-url: https://twitter.com/jpmorgan
         - link-type: facebook
@@ -264,36 +311,25 @@ sponsors:
         - link-type: instagram
           profile-url: https://www.instagram.com/jpmorgan
   sponsors-premium:
-    visibility: false
+    visibility: true
     section-title: Premium Sponsors
     sponsor-list:
-      - name: Fresh Egg
-        logo: /images/fresh-egg-logo.svg
-        url: https://www.freshegg.co.uk/
-        summary: Fresh Egg provide digital marketing that’s driven by customer
-          experience. Everything they do starts with understanding audience
-          needs while improving user journeys to improve digital success.
+      - name: Askable
+        logo: /images/group-22.svg
+        url: https://www.askable.com/
+        summary: Askable takes control of participant recruitment, handpicks the exact
+          people you need for face to face research, online tasks, surveys and
+          more.
         links:
-          - link-type: website
-            profile-url: https://www.freshegg.co.uk/
           - link-type: twitter
-            profile-url: https://twitter.com/freshegg
+            profile-url: https://twitter.com/AskableApp
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/askable/
           - link-type: facebook
-            profile-url: https://www.facebook.com/FreshEggUK/
-      - name: J.P. Morgan
-        logo: /images/jpm.svg
-        url: https://www.jpmorgan.com/GB/en/about-us
-        summary: J.P. Morgan is a leader in financial services, offering solutions to
-          clients in more than 100 countries with one of the most comprehensive
-          global product platforms available.
-        links:
-          - link-type: website
-            profile-url: https://www.jpmorgan.com/GB/en/about-us
-          - link-type: twitter
-            profile-url: https://twitter.com/jpmorgan
-          - link-type: facebook
-            profile-url: https://www.facebook.com/jpmorgan
-    show-opportunity: false
+            profile-url: https://www.facebook.com/askableapp
+          - link-type: instagram
+            profile-url: https://www.instagram.com/askableau/
+    show-opportunity: true
   sponsors-standard:
     visibility: true
     section-title: Standard Sponsors
@@ -305,23 +341,21 @@ sponsors:
           in Brighton, UK.  Their mission is simple; to be a company that
           customers love working with, and their employees love working for.
         links:
-          - link-type: website
-            profile-url: https://www.brightec.co.uk/
           - link-type: twitter
             profile-url: https://twitter.com/brightec
           - link-type: facebook
             profile-url: https://www.facebook.com/BrightecApps/
           - link-type: linkedin
             profile-url: https://www.linkedin.com/company/brightec/?originalSubdomain=uk
+          - link-type: instagram
+            profile-url: https://www.instagram.com/brightecapps/
       - logo: /images/jsbin-1-.svg
         name: JS Bin
         summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
           folk test snippets of code, within some context, and debug the code
           collaboratively.
-        url: jsbin.com
-        links:
-          - link-type: website
-            profile-url: jsbin.com
+        url: http://jsbin.com
+        links: []
       - name: zeroheight
         logo: /images/property-1-default.svg
         url: https://hubs.li/Q01CYBy40
@@ -337,13 +371,13 @@ sponsors:
             profile-url: https://www.facebook.com/zeroheight
           - link-type: linkedin
             profile-url: https://www.linkedin.com/company/zero-height/
-          - link-type: website
-            profile-url: https://hubs.li/Q01CYBy40
+          - link-type: instagram
+            profile-url: https://www.instagram.com/zeroheighthq/
     show-opportunity: true
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
 social-image: ""
-event-promo-top-of-page: false
+event-promo-top-of-page: true
 highlights:
   visibility: true
   title: Highlights from previous years

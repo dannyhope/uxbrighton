@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }} - {% endif %}UX Brighton</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ ""}}{% endif %}" >
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{% endif %}" >
 
   <!-- Google Analytics -->
   {% include tracking-head.html %}
@@ -14,18 +14,18 @@
 
   <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{% if page.fullurl %}{{ page.fullurl }}{% else %}{{"https://uxbri.org/"}}{% endif %}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton"}}{% endif %}" >
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology."}}{% endif %}" >
-    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbri.org/images/cards/default.jpg"}}{% endif %}" >
+    <meta property="og:url" content="{% if page.fullurl %}{{ site.url }}{{ page.fullurl }}{% else %}https://uxbri.org/{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}UX Brighton{% endif %}" >
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology.{% endif %}" >
+    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://uxbri.org/images/cards/default.jpg{% endif %}" >
 
 
   <!-- twitter card tags additive with the og: tags -->
     <meta name="twitter:card" content="summary_large_image" >
-    <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{"https://uxbri.org/images/cards/default.jpg"}}{% endif %}" >
+    <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}https://uxbri.org/images/cards/default.jpg{% endif %}" >
     <meta name="twitter:domain" value="https://uxbri.org" ><!--test-->
-    <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{"UX Brighton"}}{% endif %}" >
-    <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ "UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology."}}{% endif %}" >
+    <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}UX Brighton{% endif %}" >
+    <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}UX Brighton - a community group dedicated to sharing knowledge on user experience and psychology.{% endif %}" >
     <meta name="twitter:url" value="https://uxbri.org/{{ page.url }}" >
 
 
@@ -65,7 +65,7 @@
 
   {% include footer.html %}
 
-  {% include nav.html %}
+  
 
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}

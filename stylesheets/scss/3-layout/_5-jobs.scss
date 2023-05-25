@@ -129,8 +129,9 @@
 
 
   // ==============================================
-  // A bunch of new styles for the job page
+  // A bunch of new styles for the job page (index & individual job pages)
 
+  // Job index page
   .job_item {
     position: relative;
     margin-bottom: 24px;
@@ -140,4 +141,11 @@
       color: unset;
       text-decoration: none;
     }
+  }
+
+  // Job individual page
+  .job-detail_meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }

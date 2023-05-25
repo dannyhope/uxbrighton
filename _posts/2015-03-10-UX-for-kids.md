@@ -135,4 +135,4 @@ Amberlight have been involved in numerous projects researching how children and 
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#jay">Jay</a>
+- <a href="https://uxbri.org/about/#jay">Jay</a>

@@ -60,4 +60,4 @@ This one day workshop includes lunch and refreshments.
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#luke">Luke</a>
+- <a href="https://uxbri.org/about/#luke">Luke</a>

@@ -41,4 +41,4 @@ Boon is an interaction designer, information architect, former developer and avi
 
 ## Organisers
 
-- <a href="http://uxbrighton.org.uk/about/#alex">Alex</a>
+- <a href="https://uxbri.org/about/#alex">Alex</a>

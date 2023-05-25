@@ -40,7 +40,7 @@ There's not long to go! Please take the time to read the information below so yo
 
 ## Schedule for the day
   
-  * Here's what [the day's schedule looks like](http://uxbrighton.org.uk/conference-2016/#schedule)
+  * Here's what [the day's schedule looks like](https://uxbri.org/conference-2016/#schedule)
 
 ## Refreshments
 

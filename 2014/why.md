@@ -21,7 +21,7 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 
 **Meet potential new hires**: If you&#8217;re looking to employ a UXer, it&#8217;s a great way to find people that you can recruit into the team. You could even set up informal interviews in one of the quieter spots of the Foyer bar at the Corn Exchange.
 
-**Highlight the quality of the content and learning opportunities of UX Brighton**: This is our 5th annual conference. You can find the speakers and talk outlines of previous conferences here: [UX Brighton 2013](http://uxbrighton.org.uk/2013/),  [UX Brighton 2012](http://uxbrighton.org.uk/2012/), [UX Brighton 2011](http://uxbrighton.org.uk/2011/) and [UX Brighton 2010](http://uxbrighton.org.uk/2010/). We also have a YouTube channel where you can watch several of the talks from our conferences and monthly meetings [UX Brighton YouTube](https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw). 
+**Highlight the quality of the content and learning opportunities of UX Brighton**: This is our 5th annual conference. You can find the speakers and talk outlines of previous conferences here: [UX Brighton 2013](https://uxbri.org/2013/),  [UX Brighton 2012](https://uxbri.org/2012/), [UX Brighton 2011](https://uxbri.org/2011/) and [UX Brighton 2010](https://uxbri.org/2010/). We also have a YouTube channel where you can watch several of the talks from our conferences and monthly meetings [UX Brighton YouTube](https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw). 
 
 **Make it hard for your boss to say no**: Offer to share a hotel room with a colleague to save on costs. Think about attending [UX Camp Brighton](http://uxcampbrighton.org.uk) which is being held the day after UX Brighton 2014 - a not-for-profit ‘unconference&#8217; where you can share and learn about UX, and its related disciplines, in an open and supportive environment.
 
@@ -39,5 +39,5 @@ Budgets are often tight, resources can be scarce, and employers can be sceptical
 * How philosophical thinking can provide valuable insights for software design.  
 * How scientific methods can help understand the interaction between people and computers.  
  
-UX Brighton curator Danny Hope gives you 4 ways in which philosophy underpins good UX design, in this [short video.](http://uxbrighton.org.uk/2014/#video)  
+UX Brighton curator Danny Hope gives you 4 ways in which philosophy underpins good UX design, in this [short video.](https://uxbri.org/2014/#video)  
 

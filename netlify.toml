@@ -1,0 +1,91 @@
+##############################
+# Build settings
+##############################
+
+[build]
+  command = "npm i && bundle exec jekyll build" # Install dependencies and build site
+  publish = "_site" # Directory to publish (relative to root of your repo)
+
+# Plugins to run during build
+[[plugins]]
+  package = "/netlify/plugins/jobs-structured-schema-api/netlify-plugin-jobs-structured-schema-api" # Plugin to generate structured data for jobs
+
+##############################
+# Netlify dev server (local)
+##############################
+
+# Dev settings: (Used when running local Netlify dev server)
+[dev]
+  command = "bundle exec jekyll serve"
+  # Declaring port for netlify dev server to use when running the `npm run dev` command
+  port = 8888
+
+
+##############################
+# Headers
+##############################
+
+# Headers (Global)
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com *.google.com *.google.co.uk *.google-analytics.com *.googletagmanager.com *.fullstory.com *.facebook.net *.licdn.com *.linkedin.com *.jquery.com *.cloudflare.com; style-src 'self' 'unsafe-inline' *.google.com *.google.co.uk *.google-analytics.com *.googletagmanager.com *.fullstory.com *.facebook.net *.licdn.com *.linkedin.com; object-src 'self' 'unsafe-inline'; img-src 'self' 'unsafe-inline' *.google.com *.google.co.uk *.google-analytics.com *.googletagmanager.com *.fullstory.com *.facebook.net *.licdn.com *.linkedin.com *.cloudfront.net" # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
+    Access-Control-Allow-Origin = "https://www.fullstory.com"                         # Allow FullStory to work on the site (https://help.fullstory.com/hc/en-us/articles/360020623234-How-do-I-use-FullStory-with-Content-Security-Policy-CSP-)
+    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"                  # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"        # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
+    X-Content-Type-Options = "nosniff"                                                # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
+    X-Frame-Options = "SAMEORIGIN"                                                    # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
+    X-XSS-Protection = "1; mode=block"                                                # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
+
+# Header for .ico files
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+# Header for 'normal' JS
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+# Header for ES6 Modules
+[[headers]]
+  for = "/*.mjs"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+# Header for JSON
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+
+##############################
+# Redirects
+##############################
+
+## ########################################################################
+# Redirect rule to point temporary Netlify URL to preferred domain name
+# ========================================================================
+# NOTE: This requires the DNS records to be updated to point to Netlify.
+[[redirects]]
+  from = "https://uxbri.netlify.app/*"
+  to = "https://uxbri.org/:splat"
+  status = 301
+  force = true
+
+# ########################################################################
+# Site-specific page redirects
+# ========================================================================
+# 404 pages
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
+
+
+## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/

@@ -11,7 +11,7 @@ art-direction: "body {font-family: 'Open Sans', sans-serif; color: #130f30} h1, 
 ---
 # UX Brighton 2017 Sponsorship
 
-## [UX Brighton 2017](http://uxbrighton.org.uk)
+## [UX Brighton 2017](https://uxbri.org)
 
 ## UX Brighton, 3rd November. A one-day conference for UX people
 

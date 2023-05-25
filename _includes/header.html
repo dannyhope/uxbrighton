@@ -40,27 +40,27 @@
       </a>
       <div class="masthead__links">
         <ul class="nav right-over-s">
-          <li class="nav-item inline-block relative jobs-element">
+          <li class="nav-item inline-block relative jobs-element{% if page.dir == '/jobs/' or page.collection == 'jobPosts'%} active{% endif %}">
             <a class="masthead__link masthead__link--jobs" href="/jobs">
               Jobs
             </a>
           </li>
-          <li class="nav-item inline-block relative">
-            <a class="masthead__link masthead__link--events" href="#" data-overlay-trigger="menu">
-              <span class="nav-hidden-under-m">All </span>Events
+          <li class="nav-item inline-block relative{% if page.url == '/events' or page.collection == 'posts'%} active{% endif %}">
+            <a class="masthead__link masthead__link--events" href="/events">
+              Events
             </a>
           </li>
-          <li class="nav-item inline-block relative">
+          <li class="nav-item inline-block relative{% if page.dir == '/subscribe/' %} active{% endif %}">
             <a class="masthead__link masthead__link--newsletter" href="/subscribe">
               Subscribe
             </a>
           </li>
-          <li class="nav-item inline-block relative">
+<!--           <li class="nav-item inline-block relative">
             <a class="masthead__link" href="/slack" --data-overlay-trigger="slack">
               <img class="nav-hidden-under-s" src="/2018/images/icons/slack.svg" alt="Slack logo" width="20" style="position: relative;top: -2px;margin-right: 2px;">
               <span class="nav-hidden-under-m2">Join Our </span>Slack
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
