@@ -32,11 +32,11 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
 
 <h3>Pre-conf meetup – 2<sup>nd</sup> Nov</h3>
 
-In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for our volunteer in a UX Brighton T-shirt. 
+In town the night before? Come to [The Fountainhead](https://www.google.co.uk/maps/dir//the+fountain+head+pub+brighton/@32.3849821,-29.6384353,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4875859fe2eb77db:0x5bdeb264727a570a!2m2!1d-0.1372304!2d50.8254927?hl=en), from 7pm to 9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/), in a UX Brighton T-shirt. 
 
 <h3>Pre-event breakfast networking & coffee – 3<sup>rd</sup> Nov</h3>
 
-If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) coffee shop is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
+If you’re coming down early to the conference, [Meanwhile Cafe](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees. [](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en)
 
 ### Accessibility
 
@@ -52,7 +52,7 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 Our friends at Visit Brighton have put together a comprehensive list of [accommodation](https://book.passkey.com/go/UXBTN23) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 1st November 2023*; we advise early booking in order to guarantee your preferred hotel.
 
-Discounted hotel rates for UX Brighton delegates: [https://book.passkey.com/go/​UXBTN23](https://book.passkey.com/go/UXBTN23)[](https://book.passkey.com/go/uxbtn2022)[](https://book.passkey.com/go/bdux2019)
+[Discounted hotel rates](https://book.passkey.com/go/UXBTN23) for UX Brighton delegates.
 
 ### Travel
 
@@ -103,15 +103,15 @@ There will be several 4-ways on the Mezzanine level which is upstairs, to the ri
 ### Social Media
 
 * Please tag with [\#uxbri](https://twitter.com/search?q=%23uxbri)
-* Twitter: [@uxbri](https://twitter.com/uxbri) <https://twitter.com/uxbri>
-* Facebook: <https://www.facebook.com/uxbrighton/>
-* L﻿inkedIn: https://www.linkedin.com/company/ux-brighton/ 
+* [Twitter](https://twitter.com/uxbri) [@uxbri](https://twitter.com/uxbri) [](https://twitter.com/uxbri)
+* [Facebook](https://www.facebook.com/uxbrighton/)
+* [L﻿inkedIn](https://www.linkedin.com/company/ux-brighton/)
 * We live Tweet the event - great for looking back on if you missed any of the references made during the day.
 * Feel free to follow the Twitter account [@uxbri](https://twitter.com/uxbri) for the latest info on the event.
 
 ### Slack
 
-Did you know we have a Slack group with 1500 members? You can join here: <http://slack.uxbrighton.org.uk/>. Chat, ask questions, post or [look for jobs](https://uxbri.slack.com/messages/C1626ASJY/), find events - we’re a friendly bunch!
+Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/) with over 1500 members? Chat, ask questions, post or [look for jobs](https://uxbri.slack.com/messages/C1626ASJY/), find events - we’re a friendly bunch!
 
 ### Reminder about tickets
 

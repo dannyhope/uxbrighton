@@ -33,8 +33,6 @@ This January UX Brighton's mentors and mentees are meeting to reflect on the [me
 
 [Slides for Making the Most of Mentoring (SlideShare)](https://www.slideshare.net/uxbri/luke-hay-making-the-most-of-mentoring)[](https://www.slideshare.net/uxbri/jonty-sharples-arrogance-confidence-in-redux) 
 
-<img src="/images/luke-hay.png" alt="Luke Hay" class="image-align-right"/>
-
 Luke Hay is a senior UX researcher at Clearleft, who’s worked with clients of all shapes and sizes over his 20 year career. Luke has facilitated various forms of user research with people from different backgrounds – from teenagers to pensioners, dress-makers to body builders over the course of a few hundred user research sessions.
 
 As well as getting stuck into research Luke also runs training in UX and analytics. He has spoken at conferences and events on a variety of UX related topics and in 2018 he wrote a book about UX and Analytics, which is actually more exciting than it sounds, apparently.

@@ -27,7 +27,7 @@ While there are plenty of ethical reasons to take an ‘accessibility first’ d
 
 -
 
-<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="http://www.slideshare.net/slideshow/embed_code/35707261" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="https://www.slideshare.net/slideshow/embed_code/35707261" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 <!-- ## Accessibility originates with UX – [Henny Swan, BBC](http://twitter.com/iheni)
 

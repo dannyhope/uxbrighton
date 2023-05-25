@@ -47,7 +47,7 @@ collections:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
-          - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
+          - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
           - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
           - label: "Hero" # Hero section
             name: "hero"
@@ -73,7 +73,7 @@ collections:
                   - {label: "Date", name: "date", hint: "Eg. **Friday 4 November**", widget: "string", default: "Friday 4 November", required: false}
                   - {label: "Date & time (numerical)", name: "date-time", hint: "Eg. **2022-11-04T09:00**", widget: "string", default: "2022-11-04T09:00", required: false}
                   - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome", required: false}
-                  - {label: "Background Image", name: "image", widget: "image", required: false}
+                  - {label: "Background Image", name: "image", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Pre-conference content"
                 name: "pre"
                 summary: "Hero section pre-conference content."
@@ -322,7 +322,7 @@ collections:
               - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
               - {label: "Speaker lineup is full?", name: "full", hint: "If speaker lineup is full. Choose whether true or false. Defaults to **false**.", widget: "boolean", default: false}
               - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string", required: false}
-              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Speaker & talk info."
                 name: "speaker-info"
                 summary: "Each speaker's talk details and bio."
@@ -339,7 +339,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Speaker name", name: "name", widget: "string", required: false}
-                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels.", widget: "image", required: false}
+                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
                         name: "talk-info"
@@ -403,7 +403,7 @@ collections:
                   - {label: "Show registration content?", name: "visibility", hint: "Registration info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: true}
                   - {label: "Registration time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
                   - {label: "Registration title", name: "title", widget: "string"}
-                  - {label: "Registration thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "Registration thumbnail", name: "thumbnail", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image"}
                   - {label: "Registration anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the registration information.", widget: "string"}
                   - label: "Registration summary"
                     name: "summary"
@@ -420,7 +420,7 @@ collections:
                   - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: true}
                   - {label: "After-party time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
                   - {label: "After-party title", name: "title", widget: "string"}
-                  - {label: "After-party thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "After-party thumbnail", name: "thumbnail", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image"}
                   - {label: "After-party anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the after-party information.", widget: "string"}
                   - label: "After-party summary"
                     name: "summary"
@@ -442,7 +442,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Description", name: "alt", widget: "string", required: false}
-                  - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+                  - {label: "Thumbnail", name: "thumbnail", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                   - {label: "URL", name: "url", widget: "string", required: false}
               - label: "Testimonial"
                 name: "testimonial"
@@ -459,7 +459,7 @@ collections:
             fields:
               - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string", required: false}
-              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Section intro."
                 name: "section-intro"
                 summary: "Section intro. (title and lede text)."
@@ -499,7 +499,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -534,7 +534,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -569,7 +569,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -603,7 +603,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Workshop title", name: "title", hint: "Workshop title.", widget: "string", required: false}
-                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image.", widget: "image", required: false}
+                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                   - {label: "Workshop URL", name: "url", hint: "Workshop URL.", widget: "string", required: false}
                   - {label: "Workshop date", name: "workshop-date", widget: "datetime", default: "", date_format: true, time_format: false, picker_utc: true, required: false}
                   - {label: "Workshop time", name: "workshop-time", widget: "datetime", default: "", date_format: false, time_format: true, picker_utc: false, required: false}
@@ -633,7 +633,7 @@ collections:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
-          - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
+          - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
           - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
           - label: "Hero" # Hero section
             name: "hero"
@@ -659,7 +659,7 @@ collections:
                   - {label: "Date", name: "date", hint: "Eg. **Friday 4 November**", widget: "string", default: "Friday 3 November", required: false}
                   - {label: "Date & time (numerical)", name: "date-time", hint: "Eg. **2023-11-03T09:00**", widget: "string", default: "2023-11-03T09:00", required: false}
                   - {label: "Venue", name: "venue", hint: "Eg. **Brighton Dome**", widget: "string", default: "Brighton Dome", required: false}
-                  - {label: "Background Image", name: "image", widget: "image", required: false}
+                  - {label: "Background Image", name: "image", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Pre-conference content"
                 name: "pre"
                 summary: "Hero section pre-conference content."
@@ -908,7 +908,7 @@ collections:
               - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
               - {label: "Speaker lineup is full?", name: "full", hint: "If speaker lineup is full. Choose whether true or false. Defaults to **false**.", widget: "boolean", default: false}
               - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string", required: false}
-              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Speaker & talk info."
                 name: "speaker-info"
                 summary: "Each speaker's talk details and bio."
@@ -925,7 +925,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Speaker name", name: "name", widget: "string", required: false}
-                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels.", widget: "image", required: false}
+                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
                         name: "talk-info"
@@ -1006,7 +1006,7 @@ collections:
                   - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: true}
                   - {label: "After-party time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
                   - {label: "After-party title", name: "title", widget: "string"}
-                  - {label: "After-party thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "After-party thumbnail", name: "thumbnail", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image"}
                   - {label: "After-party anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the after-party information.", widget: "string"}
                   - label: "After-party summary"
                     name: "summary"
@@ -1045,7 +1045,7 @@ collections:
             fields:
               - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string", required: false}
-              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Section intro."
                 name: "section-intro"
                 summary: "Section intro. (title and lede text)."
@@ -1085,7 +1085,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -1120,7 +1120,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -1155,7 +1155,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -1189,7 +1189,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Workshop title", name: "title", hint: "Workshop title.", widget: "string", required: false}
-                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image.", widget: "image", required: false}
+                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                   - {label: "Workshop URL", name: "url", hint: "Workshop URL.", widget: "string", required: false}
                   - {label: "Workshop date", name: "workshop-date", widget: "datetime", default: "", date_format: true, time_format: false, picker_utc: true, required: false}
                   - {label: "Workshop time", name: "workshop-time", widget: "datetime", default: "", date_format: false, time_format: true, picker_utc: false, required: false}
@@ -1219,7 +1219,7 @@ collections:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
-          - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
+          - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
           - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
           - label: "Hero" # Hero section
             name: "hero"
@@ -1245,7 +1245,7 @@ collections:
                   - {label: "Date", name: "date", widget: "string", default: "Friday 4 November", required: false}
                   - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2024-11-04T09:30", required: false}
                   - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome", required: false}
-                  - {label: "Background Image", name: "image", widget: "image", required: false}
+                  - {label: "Background Image", name: "image", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Pre-conference content"
                 name: "pre"
                 summary: "Hero section pre-conference content."
@@ -1494,7 +1494,7 @@ collections:
               - {label: "Show speakers?", name: "visibility", hint: "Speakers info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
               - {label: "Speaker lineup is full?", name: "full", hint: "If speaker lineup is full. Choose whether true or false. Defaults to **false**.", widget: "boolean", default: false}
               - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string", required: false}
-              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image.", widget: "image", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Speaker & talk info."
                 name: "speaker-info"
                 summary: "Each speaker's talk details and bio."
@@ -1511,7 +1511,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Speaker name", name: "name", widget: "string", required: false}
-                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels.", widget: "image", required: false}
+                      - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
                         name: "talk-info"
@@ -1592,7 +1592,7 @@ collections:
                   - {label: "Show after-party content?", name: "visibility", hint: "After party info. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: true}
                   - {label: "After-party time", name: "time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false}
                   - {label: "After-party title", name: "title", widget: "string"}
-                  - {label: "After-party thumbnail", name: "thumbnail", widget: "image"}
+                  - {label: "After-party thumbnail", name: "thumbnail", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image"}
                   - {label: "After-party anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view the after-party information.", widget: "string"}
                   - label: "After-party summary"
                     name: "summary"
@@ -1631,7 +1631,7 @@ collections:
             fields:
               - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string", required: false}
-              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image.", widget: "image", required: false}
+              - {label: "Section banner image", name: "section-banner", hint: "Sponsors section banner image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Section intro."
                 name: "section-intro"
                 summary: "Section intro. (title and lede text)."
@@ -1670,7 +1670,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -1704,7 +1704,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -1738,7 +1738,7 @@ collections:
                     collapsed: true
                     fields:
                       - {label: "Sponsor name", name: "name", widget: "string", required: false}
-                      - {label: "Sponsor logo", name: "logo", widget: "image", required: false}
+                      - {label: "Sponsor logo", name: "logo", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Sponsor URL", name: "url", hint: "Please enter the full URL - eg. **http://jsbin.com**", widget: "string", required: false}
                       - {label: "Sponsor summary", name: "summary", widget: "text", required: false}
                       - label: "Sponsor social profiles"
@@ -1772,7 +1772,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Workshop title", name: "title", hint: "Workshop title.", widget: "string", required: false}
-                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image.", widget: "image", required: false}
+                  - {label: "Workshop background image", name: "back-image", hint: "Workshop module's background image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                   - {label: "Workshop URL", name: "url", hint: "Workshop URL.", widget: "string", required: false}
                   - {label: "Workshop date", name: "workshop-date", widget: "datetime", default: "", date_format: true, time_format: false, picker_utc: true, required: false}
                   - {label: "Workshop time", name: "workshop-time", widget: "datetime", default: "", date_format: false, time_format: true, picker_utc: false, required: false}
@@ -1808,7 +1808,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event-page"} # The `layout` field is hidden in the GUI and needs to be changed here instead
       - {label: "Title", name: "title", hint: "The primary title of the event.", widget: "string"}
       - {label: "Description", name: "description", hint: "A brief description of the event. Helpful for SEO.", widget: "string", required: false}
-      - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. An aspect ratio of **2:1** with minimum dimensions of **300x157** or maximum of **4096x4096** pixels. Less than **5MB** file size. **NOTE:** Use smaller side of dimensions whenever possible.", widget: "image", required: false}
+      - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. An aspect ratio of **2:1** with minimum dimensions of **300x157** or maximum of **4096x4096** pixels. Less than **5MB** file size. **NOTE:** Use smaller side of dimensions whenever possible. Image file names not to begin with an underscore.", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***mentorship-meet-up***. Otherwise URL defaults to slugified version of the title.", widget: "string", required: false}
       - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* redirects - eg. ***/christmas-party, /another-xmas***.", widget: "list", allow_add: true, required: false}
       - {label: "Event date", name: "event-date", hint: "Date of the event. Needed as part of generating the actual file name.", widget: "date", default: "", format: 'YYYY-MM-DD'}
@@ -1818,7 +1818,7 @@ collections:
         hint: "Select from available venues. Defaults to **TBA**."
         widget: "select"
         multiple: false
-        options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse", "Earth & Stars", "Barclays Eagle Lab Brighton", "Shelter Hall"]
+        options: ["TBA", "Platf9rm-Brighton", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse", "Earth & Stars", "Barclays Eagle Lab Brighton", "Shelter Hall", "Brighton Music Hall"]
         default: "TBA"
         required: false
       - label: "Ticket"
@@ -1839,7 +1839,7 @@ collections:
           - {label: "Title", name: "title", hint: "Title of the event.", widget: "string", required: false}
           - {label: "Text", name: "text", hint: "Summary description of the event.", widget: "string", required: false}
           - {label: "Button label", name: "button-label", hint: "Text in the button.", widget: "string", required: false}
-          - {label: "Background image", name: "bg-image", hint: "Background image.", widget: "image", required: false}
+          - {label: "Background image", name: "bg-image", hint: "Background image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
       - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false, required: false}
       - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **true**.", widget: "boolean", default: true, required: false}
@@ -1865,8 +1865,8 @@ collections:
       - {label: "Pre-title", name: "pretitle", hint: "Text appearing just ***above*** the title.", widget: "string", required: false}
       - {label: "Sub-title", name: "subtitle", hint: "Text appearing just ***under*** the title.", widget: "string", required: false}
       - {label: "Description", name: "description", hint: "A brief description of the page. Helpful for SEO.", widget: "string", required: false}
-      - {label: "Background Image", name: "image", hint: "Background image appearing behind the title text.", widget: "image", required: false}
-      - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page.", widget: "image", required: false}
+      - {label: "Background Image", name: "image", hint: "Background image appearing behind the title text. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
+      - {label: "Social media image card", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", hint: "The URL you'd like to display in the browser - eg. ***2022/guide***. Otherwise URL defaults to slugified version of the title.", widget: "string", required: false}
       - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from. Can be multiple *(comma-separated)* redirects - eg. ***/guide-tastic, /another-fun-url***.", widget: "list", allow_add: true, required: false}
       - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true, required: false}
@@ -1876,3 +1876,17 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "heading-two", "heading-three", "heading-four", "heading-five", "quote", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
         required: false
+  # "External redirects collection"
+  - label: "External redirect"
+    name: "redirect"
+    description: "External redirects."
+    folder: "external-redirects"
+    permalink: "{{slug}}"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "{{permalink}}", hint: "Primary title of the page. This also generates the page *slug*.", widget: "hidden"} # The `title` field is hidden in the GUI and is populated by the `permalink` field
+      - {label: "Redirect to", name: "redirect_to", hint: "URL that you’d like to redirect to - eg. ***https://qwerty.com***. ", widget: "string"}
+      - {label: "Permalink", name: "permalink", hint: "The value automatically populates the 'title' field. Which then creates the file name that'll be saved into the 'external-redirects' directory.", widget: "string"}
+

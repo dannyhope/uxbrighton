@@ -1,23 +1,24 @@
 ---
-layout: generic
-title: Upcoming and past events
-subtitle: A list of future & past events that we've organised
+layout: event-list-page
+title: Events
+subtitle: Upcoming and past UX Brighton events
 description: A list of future & past events that we've organised.
 permalink: events
 redirect_from:
   - /archive
+  - /e
   - /media
+  - /slides
+  - /slidedecks
+  - /slide-decks
   - /vid
   - /vids
   - /video
   - /videos
-  - /slides
-  - /slidedecks
-  - /slide-decks
 seo: true
 ---
 
-## Upcoming:
+## Upcoming
 
 <ul class="event-archive no-list">
 {% for post in site.posts %}
@@ -32,26 +33,27 @@ seo: true
 {% endfor %}
 </ul>
 
-## Past:
+## Past
 
-<ul class="event-archive no-list">
-{% for post in site.posts %}
+<ul class="event-archive list no-list">
+<!-- {% for post in site.posts %}
 {% if post.noinfo == null %}
-{% if post.stub == null %}
+{% if post.stub == null %} -->
   {% if post.upcoming == null or post.upcoming == false %}
   <li>
     <article>
       <h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
       <p>{{ post.date | date: "%d %B, %Y" }}</p>
+      <div class="post-excerpt">{{ post.content | strip_html }}</div>
     </article>
   </li>
   {% endif %}
-{% endif %}
-{% endif %}
+<!-- {% endif %}
+{% endif %} -->
 {% endfor %}
 </ul>
 
-## Past events without much info
+<!-- ## Past events without much info
 
 We don't have much information about the following past events. You can help us contribute content by getting in touch on Twitter or GitHub.
 
@@ -66,7 +68,7 @@ We don't have much information about the following past events. You can help us 
   </li>
   {% endif %}
 {% endfor %}
-</ul>
+</ul> -->
 
 <!-- ## Future events
 
