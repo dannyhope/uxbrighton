@@ -23,20 +23,6 @@
 	"postedDate": "2023-05-19T00:00:00.000Z",
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
-	"jobLocation": {
-		"original": "1 Oliver's Yard, London",
-		"textDescription": "London",
-		"locations": [
-			{
-				"textDescription": "London",
-				"locality": "London",
-				"countryName": "United Kingdom",
-				"countryCode": "GB",
-				"latitude": 51.521,
-				"longitude": -0.087
-			}
-		]
-	},
 	"hiringOrganization": {
 		"name": "Sage Publications",
 		"logo": "//uxbri.org/jobs/logos/sagepublications-logo.png",
@@ -45,19 +31,8 @@
 		"shortId": "1ArJC2zh",
 		"uuid": "bf5dfbc0-8a31-4640-983d-817501474029"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Contract",
-				"code": "CONTRACTOR",
-				"type": "contract"
-			}
-		],
-		"original": "Contract 12 Months",
-		"textDescription": "Contract"
-	},
 	"salary": {
-		"original": "£24930- £30430",
+		"original": "£24,930 - £30,430",
 		"textDescription": "£24 - £30",
 		"currencyCode": "GBP",
 		"currencySymbol": "£",
