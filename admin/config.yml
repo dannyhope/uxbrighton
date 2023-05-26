@@ -1877,9 +1877,9 @@ collections:
         buttons: ["bold", "italic", "code", "link", "heading-two", "heading-three", "heading-four", "heading-five", "quote", "bulleted-list", "numbered-list"] # List of this markdown editor's component button options
         required: false
   # "External redirects collection"
-  - label: "External redirect"
+  - label: "Redirect"
     name: "redirect"
-    description: "External redirects."
+    description: "External redirects"
     folder: "external-redirects"
     permalink: "{{slug}}"
     create: true
@@ -1887,6 +1887,6 @@ collections:
       preview: true
     fields:
       - {label: "Title", name: "{{permalink}}", hint: "Primary title of the page. This also generates the page *slug*.", widget: "hidden"} # The `title` field is hidden in the GUI and is populated by the `permalink` field
-      - {label: "Redirect to", name: "redirect_to", hint: "URL that you’d like to redirect to - eg. ***https://qwerty.com***. ", widget: "string"}
       - {label: "Permalink", name: "permalink", hint: "The value automatically populates the 'title' field. Which then creates the file name that'll be saved into the 'external-redirects' directory.", widget: "string"}
+      - {label: "Redirect to", name: "redirect_to", hint: "URL that you’d like to redirect to - eg. ***https://qwerty.com***. ", widget: "string"}
 
