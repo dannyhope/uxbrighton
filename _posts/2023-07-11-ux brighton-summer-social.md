@@ -18,6 +18,7 @@ conference: false
 upcoming: true
 published: true
 seo: true
+hero-image: https://uxbri.org/images/brighton-music-hall.jpeg
 ---
 Let's hang out and meet fellow uxers in the sun at the UX Brighton Summer Social. If the weather doesn't cooperate, we'll have a table inside where we can still enjoy drinks and catch up with one another. Come ready to meet new people, share ideas and enjoy a relaxing evening in good company. 🌞
 
