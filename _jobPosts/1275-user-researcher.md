@@ -23,6 +23,21 @@
 	"postedDate": "2023-05-21T00:00:00.000Z",
 	"closedDate": "2023-06-21T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		],
+		"workplace": "PART_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "accuRx",
 		"logo": "//uxbri.org/jobs/logos/accurx-logoV3.png",
@@ -30,14 +45,6 @@
 		"id": 406,
 		"shortId": "xS0Kxatg",
 		"uuid": "98384609-e22d-425b-ab44-09ad822782de"
-	},
-	"salary": {
-		"original": "£45,000 - £73,000",
-		"textDescription": "£45,000 - £73,000",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 45000,
-		"maxValue": 73000
 	},
 	"meta": {
 		"patternName": "ld+json, greenhouse",
