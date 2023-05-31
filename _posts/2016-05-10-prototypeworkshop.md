@@ -1,16 +1,19 @@
 ---
-layout: event-page  
-title: High-Fidelity Prototyping Workshop
-date: 2016-05-10 09:30:00
-venue: 68 Middle Street
+event-date: 2023-05-09
 start: 9.30am
 price: Tickets from £250 + VAT
+layout: event-page
+published: false
+date: 2016-05-10 09:30:00
+title: High-Fidelity Prototyping Workshop
+venue: 68 Middle Street
+art-direction: "@media (max-width: 64rem) {#cennydd {width: 100%;}} @media
+  (min-width: 65rem) {#cennydd {width: 50%;}} #cennydd {margin: 0; padding: 0;
+  border: 0}"
 ticket-link: https://www.eventbrite.co.uk/e/ux-prototyping-workshop-tickets-24342542199
 conference: false
 upcoming: false
-published: true
-seo: true
-art-direction: "@media (max-width: 64rem) {#cennydd {width: 100%;}} @media (min-width: 65rem) {#cennydd {width: 50%;}} #cennydd {margin: 0; padding: 0; border: 0}"
+seo: false
 ---
 <img id="cennydd" src="../portraits/cennydd-bowles.jpg">
 
