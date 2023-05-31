@@ -24,12 +24,38 @@
 	"postedDate": "2023-05-12T23:00:00.000Z",
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		],
+		"workplace": "PART_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "Learnosity",
 		"logo": "//uxbri.org/jobs/logos/LearnosityLogo.svg",
 		"id": 710,
 		"shortId": "5kt1IL08",
 		"uuid": "ad6fdb15-a01e-4964-baec-95d429710e0b"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://apply.workable.com/learnosity/j/675E2E75BE/apply/",
 	"applicationType": "link",

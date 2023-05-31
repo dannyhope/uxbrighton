@@ -22,12 +22,28 @@
 	"postedDate": "2023-05-04T00:00:00.000Z",
 	"closedDate": "2023-06-03T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "Remote",
+		"textDescription": "Remote",
+		"workplace": "FULLY_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "VEED.IO",
 		"logo": "//uxbri.org/jobs/logos/veed-logos-idoBnQU5Fm.svg",
 		"id": 700,
 		"shortId": "XXlnd74i",
 		"uuid": "6b456c30-806a-4ae4-b384-3a7fbf152054"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://veed.teamtailor.com/jobs/2788573-senior-product-designer-engagement",
 	"applicationType": "link",

@@ -25,15 +25,18 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "UK Remote",
-		"textDescription": "Remote",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
+				"textDescription": "London",
+				"locality": "London",
 				"countryName": "United Kingdom",
-				"countryCode": "GB"
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
-		],
-		"workplace": "FULLY_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Via",
