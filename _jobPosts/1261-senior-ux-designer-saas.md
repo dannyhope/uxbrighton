@@ -67,7 +67,7 @@
 	"applicationType": "link",
 	"shortDescription": "Company Description Publicis Sapient is a digital transformation partner helping established organisations get to their future, digitally-enabled- state, both in the way they work and the way they",
 	"status": "LIVE",
-	"permalink": "/jobs2/1261/senior-ux-designer-saas",
+	"permalink": "/jobs/1261/senior-ux-designer-saas",
 	"layout": "jobs/individual"
 }
 ---

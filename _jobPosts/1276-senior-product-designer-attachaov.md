@@ -57,7 +57,7 @@
 	"applicationType": "link",
 	"shortDescription": "Our Ways of Working We believe that we do our best work when we are together, but also appreciate that everyone works in different ways. That’s’ why we operate with three working models which look to",
 	"status": "LIVE",
-	"permalink": "/jobs2/1276/senior-product-designer-attachaov",
+	"permalink": "/jobs/1276/senior-product-designer-attachaov",
 	"layout": "jobs/individual"
 }
 ---

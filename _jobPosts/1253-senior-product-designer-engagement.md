@@ -49,7 +49,7 @@
 	"applicationType": "link",
 	"shortDescription": "What is VEED.IO. ? At VEED , our mission is to make video creation accessible to anyone. No hard-to-use-- equipment, painful learning curve, or keeping track of multiple subscriptions to take",
 	"status": "LIVE",
-	"permalink": "/jobs2/1253/senior-product-designer-engagement",
+	"permalink": "/jobs/1253/senior-product-designer-engagement",
 	"layout": "jobs/individual"
 }
 ---

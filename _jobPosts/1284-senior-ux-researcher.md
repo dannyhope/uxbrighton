@@ -68,7 +68,7 @@
 	"applicationType": "link",
 	"shortDescription": "Holland Barrett International is striving to be the world's' leading health and wellness business.  Currently the largest in Europe and growing in other markets, the health and wellness of our",
 	"status": "LIVE",
-	"permalink": "/jobs2/1284/senior-ux-researcher",
+	"permalink": "/jobs/1284/senior-ux-researcher",
 	"layout": "jobs/individual"
 }
 ---

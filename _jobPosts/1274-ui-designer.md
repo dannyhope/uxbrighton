@@ -49,7 +49,7 @@
 	"applicationType": "link",
 	"shortDescription": "Overview To be responsible for supporting the Lead UI Designer and Senior UI Designer in extrapolating UI designs for responsive screens using pre-defined- styleguides across all of SAGE’s’ user",
 	"status": "LIVE",
-	"permalink": "/jobs2/1274/ui-designer",
+	"permalink": "/jobs/1274/ui-designer",
 	"layout": "jobs/individual"
 }
 ---

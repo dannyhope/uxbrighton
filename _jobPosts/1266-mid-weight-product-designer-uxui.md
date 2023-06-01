@@ -61,7 +61,7 @@
 	"applicationType": "link",
 	"shortDescription": "Description At Learnosity we believe education and learning opportunities should be equitable, inclusive and accessible to all. Our mission is to advance education and learning worldwide with",
 	"status": "LIVE",
-	"permalink": "/jobs2/1266/mid-weight-product-designer-uxui",
+	"permalink": "/jobs/1266/mid-weight-product-designer-uxui",
 	"layout": "jobs/individual"
 }
 ---

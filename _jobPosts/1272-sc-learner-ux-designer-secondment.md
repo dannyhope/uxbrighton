@@ -48,7 +48,7 @@
 	"applicationType": "link",
 	"shortDescription": "As a Barclays Scale Capability Learner UX Designer, you will join the HR Development Design team, being accountable for the User Experience and Content design. This is an exciting opportunity for",
 	"status": "LIVE",
-	"permalink": "/jobs2/1272/sc-learner-ux-designer-secondment",
+	"permalink": "/jobs/1272/sc-learner-ux-designer-secondment",
 	"layout": "jobs/individual"
 }
 ---

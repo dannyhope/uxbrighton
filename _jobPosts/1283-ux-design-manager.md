@@ -66,7 +66,7 @@
 	"applicationType": "link",
 	"shortDescription": "Why PlayStation? PlayStation isn’t’ just the Best Place to Play — it’s’ also the Best Place to Work. Today, we’re’ recognized as a global leader in entertainment producing The PlayStation family of",
 	"status": "LIVE",
-	"permalink": "/jobs2/1283/ux-design-manager",
+	"permalink": "/jobs/1283/ux-design-manager",
 	"layout": "jobs/individual"
 }
 ---

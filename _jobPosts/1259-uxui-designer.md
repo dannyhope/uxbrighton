@@ -55,7 +55,7 @@
 	"applicationType": "link",
 	"shortDescription": "Who We Are Hangar 13 is the internal 2K development studio behind the award-winning- Mafia III. The studio is comprised of industry veterans drawn from a diverse range of studios, who have",
 	"status": "LIVE",
-	"permalink": "/jobs2/1259/uxui-designer",
+	"permalink": "/jobs/1259/uxui-designer",
 	"layout": "jobs/individual"
 }
 ---

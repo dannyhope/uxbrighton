@@ -49,7 +49,7 @@
 	"applicationType": "link",
 	"shortDescription": "At Accurx, we're' on a mission to make patients healthier and healthcare staff happier. Who are Accurx? We’re’ a fast-growing- health technology company which makes it easier for patients and",
 	"status": "LIVE",
-	"permalink": "/jobs2/1275/user-researcher",
+	"permalink": "/jobs/1275/user-researcher",
 	"layout": "jobs/individual"
 }
 ---

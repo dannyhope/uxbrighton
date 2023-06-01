@@ -48,7 +48,7 @@
 	"applicationType": "link",
 	"shortDescription": "Making an impact Be nice, it’s’ one of our values which underpins the culture of Cognism, we are a fast-moving- company where we drive things forward together. Our mission is simple, it’s’ to drive",
 	"status": "LIVE",
-	"permalink": "/jobs2/1257/product-designer-ux",
+	"permalink": "/jobs/1257/product-designer-ux",
 	"layout": "jobs/individual"
 }
 ---

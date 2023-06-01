@@ -58,7 +58,7 @@
 	"applicationType": "link",
 	"shortDescription": "We’re’ seeking an accomplished UI Designer to join the team that's' shaping the strategic development of the company's' digital landscape. To succeed in this role, you will need a combination of",
 	"status": "LIVE",
-	"permalink": "/jobs2/1254/ui-designer",
+	"permalink": "/jobs/1254/ui-designer",
 	"layout": "jobs/individual"
 }
 ---

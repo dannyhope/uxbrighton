@@ -67,7 +67,7 @@
 	"applicationType": "link",
 	"shortDescription": "About QuestDB We are building an open source time-series- database focused on performance and simplicity. QuestDB is used to store, process and analyze time-series- data in real-time- across a wide",
 	"status": "LIVE",
-	"permalink": "/jobs2/1286/ux-designer",
+	"permalink": "/jobs/1286/ux-designer",
 	"layout": "jobs/individual"
 }
 ---
