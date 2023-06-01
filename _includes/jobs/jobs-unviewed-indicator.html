@@ -16,14 +16,14 @@
 {%- comment %} Jobs un-viewed indicator using stored cookie data to determine amount {% endcomment %}
 <script>
   (function() {
-    let jobs_2_current = [
+    let jobs_current = [
       {% for job in site.jobPosts %}
         {% if job.status == 'LIVE' %}'{{ job.shortId }}',{% endif %}
       {% endfor %}
     ];
     let jobs_stored = getCookie('jobs_stored');
     jobs_stored = JSON.parse(jobs_stored);
-    let jobs_2_diff  = $(jobs_2_current).not(jobs_stored).get().length;
+    let jobs_2_diff  = $(jobs_current).not(jobs_stored).get().length;
     let unviewed_number = "unviewed--single";
     if (jobs_2_diff > 0) {
       if (jobs_2_diff > 9) {
