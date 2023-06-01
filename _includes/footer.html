@@ -161,21 +161,6 @@
     </div><!-- container -->
   </footer>
 
-  <script>
-    // if browser has serviceWorkers remove service worker caches and registrations
-    if ('serviceWorker' in navigator) {
-      caches.keys().then(function(cacheNames) {
-        cacheNames.forEach(function(cacheName) {
-          caches.delete(cacheName);
-        });
-      });
-      navigator.serviceWorker.getRegistrations().then(function(registrations) {
-       for(let registration of registrations) {
-        registration.unregister()
-      } });
-    }
-  </script>
-
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
@@ -189,39 +174,5 @@
   {%- comment %} Jobs unviewed indicator logic {% endcomment %}
   {% include jobs/jobs-unviewed-indicator.html %}
 
-  {%- comment %} Upcoming events logic {% endcomment %}
-  <script>
-    (function() {
-      var upcoming_current = [];
-      {% assign has_upcoming = false %}
-      {% for post in site.posts %}
-        {% if post.upcoming == true && if post.published == true %}
-          {% assign has_upcoming = true %}
-        {% endif %}
-      {% endfor %}
-      {% if has_upcoming %}
-      upcoming_current  = [ {% for post in site.posts %}{% if post.upcoming == true && if post.published == true %}'{% if post.conference-url %}{{ post.conference-url }}{% else %}{{ post.url }}{% endif %}',{% endif %}{% endfor %} ];
-      {% endif %}
-
-      var upcoming_stored = getCookie('upcoming_stored');
-      upcoming_stored = JSON.parse(upcoming_stored);
-      if (upcoming_stored == null) {
-        upcoming_stored = [];
-      }
-      // If the current pathname is in the upcoming current, but not the upcoming stored, add the pathname to upcoming stored and re set cookie with update
-      var this_path = window.location.pathname
-      if ((upcoming_current.indexOf(this_path) > -1)){
-        if ((upcoming_stored.indexOf(this_path) == -1)){
-          upcoming_stored.push(this_path);
-        }
-      }
-      var json_str = JSON.stringify(upcoming_stored);
-      setCookie('upcoming_stored', json_str);
-      var upcoming_diff    = $(upcoming_current).not(upcoming_stored).get().length;
-      var unviewed_number = "unviewed--single";
-      if (upcoming_diff > 0) {
-        if (upcoming_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
-        $('.masthead__link--events').addClass(unviewed_number).append('<span class="unviewed">'+upcoming_diff+'</span>');
-      };
-    })();
-  </script>
+  {%- comment %} Upcoming events unviewed indicator logic {% endcomment %}
+  {% include events/events-unviewed-indicator.html %}

@@ -1,0 +1,36 @@
+{%- comment %} Jobs cookie set to store data {% endcomment %}
+<script>
+  (function() {
+    let upcoming_current = [];
+    {% assign has_upcoming = false %}
+    {% for post in site.posts %}
+      {% if post.upcoming == true && if post.published == true %}
+        {% assign has_upcoming = true %}
+      {% endif %}
+    {% endfor %}
+    {% if has_upcoming %}
+    upcoming_current  = [ {% for post in site.posts %}{% if post.upcoming == true && if post.published == true %}'{% if post.conference-url %}{{ post.conference-url }}{% else %}{{ post.url }}{% endif %}',{% endif %}{% endfor %} ];
+    {% endif %}
+
+    let upcoming_stored = getCookie('upcoming_stored');
+    upcoming_stored = JSON.parse(upcoming_stored);
+    if (upcoming_stored == null) {
+      upcoming_stored = [];
+    }
+    // If the current pathname is in the upcoming current, but not the upcoming stored, add the pathname to upcoming stored and re set cookie with update
+    let this_path = window.location.pathname
+    if ((upcoming_current.indexOf(this_path) > -1)){
+      if ((upcoming_stored.indexOf(this_path) == -1)){
+        upcoming_stored.push(this_path);
+      }
+    }
+    let json_str = JSON.stringify(upcoming_stored);
+    setCookie('upcoming_stored', json_str);
+    let upcoming_diff    = $(upcoming_current).not(upcoming_stored).get().length;
+    let unviewed_number = "unviewed--single";
+    if (upcoming_diff > 0) {
+      if (upcoming_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
+      $('.masthead__link--events').addClass(unviewed_number).append('<span class="unviewed">'+upcoming_diff+'</span>');
+    };
+  })();
+</script>
