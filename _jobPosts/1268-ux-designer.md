@@ -59,7 +59,7 @@
 	"applicationType": "link",
 	"shortDescription": "Reporting to the Head of Product, the UX Designer role will be focused on making our products and services usable, enjoyable and accessible. Using data insight to create intuitive, user-friendly- and",
 	"status": "LIVE",
-	"permalink": "/jobs2/1268/ux-designer",
+	"permalink": "/jobs/1268/ux-designer",
 	"layout": "jobs/individual"
 }
 ---

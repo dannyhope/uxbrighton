@@ -49,7 +49,7 @@
 	"applicationType": "link",
 	"shortDescription": "At Citymapper by Via we’re’ on a mission to help make complex cities easy to use. Our app helps millions of people in hundreds of cities around the world by giving them the most up-to-date-- and",
 	"status": "LIVE",
-	"permalink": "/jobs2/1270/senior-product-designer",
+	"permalink": "/jobs/1270/senior-product-designer",
 	"layout": "jobs/individual"
 }
 ---

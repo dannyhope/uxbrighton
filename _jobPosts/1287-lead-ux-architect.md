@@ -68,7 +68,7 @@
 	"applicationType": "link",
 	"shortDescription": "The Role We are looking for a talented Lead UX Architect to join our User Experience Design team. You are an expert in user centered design, motivated and enjoy learning new concepts in complex",
 	"status": "LIVE",
-	"permalink": "/jobs2/1287/lead-ux-architect",
+	"permalink": "/jobs/1287/lead-ux-architect",
 	"layout": "jobs/individual"
 }
 ---

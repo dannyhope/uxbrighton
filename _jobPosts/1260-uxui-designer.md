@@ -67,7 +67,7 @@
 	"applicationType": "link",
 	"shortDescription": "About CUR8 The science is clear: even if we do everything else right on reducing emissions, the world needs to remove 200 Gigatonnes of carbon from the atmosphere by 2050. We have decades of",
 	"status": "LIVE",
-	"permalink": "/jobs2/1260/uxui-designer",
+	"permalink": "/jobs/1260/uxui-designer",
 	"layout": "jobs/individual"
 }
 ---

@@ -59,7 +59,7 @@
 	"applicationType": "link",
 	"shortDescription": "AnyVan makes moving anything, anywhere easier, more affordable and greener for everyone. With Over 8 million customers across the UK and Europe since our launch over a decade ago, we’re’ proud to be",
 	"status": "LIVE",
-	"permalink": "/jobs2/1256/uxui-designer",
+	"permalink": "/jobs/1256/uxui-designer",
 	"layout": "jobs/individual"
 }
 ---

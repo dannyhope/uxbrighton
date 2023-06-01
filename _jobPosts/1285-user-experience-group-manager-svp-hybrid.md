@@ -56,7 +56,7 @@
 	"applicationType": "link",
 	"shortDescription": "As a bank with a brain and a soul, Citi creates economic value that is systemically responsible and in our clients’ best interests. As a financial institution that touches every region of the world",
 	"status": "LIVE",
-	"permalink": "/jobs2/1285/user-experience-group-manager-svp-hybrid",
+	"permalink": "/jobs/1285/user-experience-group-manager-svp-hybrid",
 	"layout": "jobs/individual"
 }
 ---

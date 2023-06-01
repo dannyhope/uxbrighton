@@ -60,7 +60,7 @@
 	"applicationType": "link",
 	"shortDescription": "We’re’ a leading online reviews platform, free and open to all. Our mission is to be a universal symbol of trust. We are well on our way — but there’s’ still an exciting journey ahead of us. Do you",
 	"status": "LIVE",
-	"permalink": "/jobs2/1267/senior-ux-researcher",
+	"permalink": "/jobs/1267/senior-ux-researcher",
 	"layout": "jobs/individual"
 }
 ---

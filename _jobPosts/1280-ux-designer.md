@@ -55,7 +55,7 @@
 	"applicationType": "link",
 	"shortDescription": "Package Description The standard benefits when you join Saga include:  Remote working available where possible 25 days annual leave plus bank holidays with the choice to buy a further 5 days annual",
 	"status": "LIVE",
-	"permalink": "/jobs2/1280/ux-designer",
+	"permalink": "/jobs/1280/ux-designer",
 	"layout": "jobs/individual"
 }
 ---

@@ -69,7 +69,7 @@
 	"applicationType": "link",
 	"shortDescription": "Description Biglight’s’ UX Designers take complex tasks and make them intuitive and easy-to-use-- for our client’s’ customers. Throughout the design process - from creating user flows and wireframes",
 	"status": "LIVE",
-	"permalink": "/jobs2/1273/senior-ux-designer",
+	"permalink": "/jobs/1273/senior-ux-designer",
 	"layout": "jobs/individual"
 }
 ---

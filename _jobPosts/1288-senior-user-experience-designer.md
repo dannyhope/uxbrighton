@@ -42,7 +42,7 @@
 	"applicationType": "link",
 	"shortDescription": "Job Description   farmer connect delivers end-to-end-- traceability across complex food and agriculture supply chains. We aim to help supply chains evolve into a collaborative data-driven- model,",
 	"status": "LIVE",
-	"permalink": "/jobs2/1288/senior-user-experience-designer",
+	"permalink": "/jobs/1288/senior-user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---

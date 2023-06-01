@@ -60,7 +60,7 @@
 	"applicationType": "link",
 	"shortDescription": "Powster is a Creative Studio based in London and Los Angeles and we are looking for a proactive Mid-weight- UX/UI/ DIGITAL DESIGNER to join our friendly team based in Hackney Wick (Zone 2). We",
 	"status": "LIVE",
-	"permalink": "/jobs2/1269/mid-weight-uxui-digital-designer",
+	"permalink": "/jobs/1269/mid-weight-uxui-digital-designer",
 	"layout": "jobs/individual"
 }
 ---
