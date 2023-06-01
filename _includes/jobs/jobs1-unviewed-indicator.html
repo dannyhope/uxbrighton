@@ -1,5 +1,5 @@
 {%- comment %} ORIGINAL jobs cookie set to store data {% endcomment %}
-{% if page.url contains "/jobs1/" %}
+{% if page.url contains "/jobs/" %}
   <link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/tooltipster.bundle.min.css" />
   <link rel="stylesheet" type="text/css" href="/js/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" />
   <script type="text/javascript" src="/js/tooltipster-master/dist/js/tooltipster.bundle.min.js"></script>
@@ -12,10 +12,10 @@
       });
     });
 
-    var jobs_1_stored  = [{% for job in site.data.jobs %}{% if job.publish == 'TRUE' %}'{{ job.job-id }}',{% endif %}{% endfor %}
+    var jobs_stored  = [{% for job in site.data.jobs %}{% if job.publish == 'TRUE' %}'{{ job.job-id }}',{% endif %}{% endfor %}
     ];
-    var json_1_str = JSON.stringify(jobs_1_stored);
-    setCookie('jobs_1_stored', json_1_str);
+    var json_str = JSON.stringify(jobs_stored);
+    setCookie('jobs_stored', json_str);
   </script>
 {% endif %}
 
@@ -25,9 +25,9 @@
     var jobs_current = [
       {% for job in site.data.jobs %}{% if job.publish == 'TRUE' %}'{{ job.job-id }}',{% endif %}{% endfor %}
     ];
-    var jobs_1_stored = getCookie('jobs_1_stored');
-    jobs_1_stored = JSON.parse(jobs_1_stored);
-    var jobs_diff  = $(jobs_current).not(jobs_1_stored).get().length;
+    var jobs_stored = getCookie('jobs_stored');
+    jobs_stored = JSON.parse(jobs_stored);
+    var jobs_diff  = $(jobs_current).not(jobs_stored).get().length;
     var unviewed_number = "unviewed--single";
     if (jobs_diff > 0) {
       if (jobs_diff > 9) { jobs_diff = "9+";unviewed_number = "unviewed--double"; }
