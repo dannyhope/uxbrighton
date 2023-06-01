@@ -1,5 +1,5 @@
 {%- comment %} Jobs cookie set to store data {% endcomment %}
-{% comment %} {% if page.url contains "/jobs/" %}
+{% if page.url contains "/jobs/" %}
 <script>
   (function() {
     let jobs_stored  = [
@@ -11,21 +11,11 @@
     setCookie('jobs_stored', json_str);
   })();
 </script>
-{% endif %} {% endcomment %}
+{% endif %}
 
 {%- comment %} Jobs un-viewed indicator using stored cookie data to determine amount {% endcomment %}
 <script>
   (function() {
-    {% if page.url contains "/jobs/" %}
-      let jobs_stored  = [
-        {% for job in site.jobPosts %}
-          {% if job.status == 'LIVE' %}'{{ job.shortId }}',{% endif %}
-        {% endfor %}
-      ];
-      let json_str = JSON.stringify(jobs_stored);
-      setCookie('jobs_stored', json_str);
-    {% endif %}
-
     let jobs_current = [
       {% for job in site.jobPosts %}
         {% if job.status == 'LIVE' %}'{{ job.shortId }}',{% endif %}
