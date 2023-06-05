@@ -24,6 +24,20 @@
 	"postedDate": "2023-06-05T00:00:00.000Z",
 	"closedDate": "2023-06-15T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "Holborn, London",
+		"textDescription": "London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.517,
+				"longitude": -0.118
+			}
+		]
+	},
 	"hiringOrganization": {
 		"name": "Sainsbury’s",
 		"logo": "//uxbri.org/jobs/logos/Sainsburys-logo.svg",
