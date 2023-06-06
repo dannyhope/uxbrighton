@@ -1,0 +1,21 @@
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "{{ page.title }}",
+  {%- if page.description %}
+  "description": "{{ page.description }}",
+  {%- endif %}
+  "startDate": "{{ page.event-date }}",
+  "location": {
+    "@type": "Place",
+    "name": "{{ page.venue }}"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "UX Brighton",
+    "url": "https://uxbri.org"
+  }
+}
+</script>
