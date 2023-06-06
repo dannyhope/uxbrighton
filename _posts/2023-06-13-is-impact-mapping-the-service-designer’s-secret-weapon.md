@@ -9,7 +9,7 @@ social-image: /images/45189389495_512009f058_o.jpg
 permalink: impact-mapping-cxpartners
 event-date: 2023-06-13
 start: 7pm
-venue: Platf9rm-Brighton
+venue: PLATF9RM
 ticket:
   state: Sold out
   link: https://www.tickettailor.com/checkout/view-event/id/2109732/chk/2e73/?modal_widget=true&widget=true

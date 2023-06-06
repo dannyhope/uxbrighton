@@ -6,7 +6,7 @@
 {%- assign metaSocialImage = page.social-image -%}
 
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Event" class="no-js" lang="en">
+<html class="no-js" lang="en">
 <head>
   <title>{{ metaTitle }} | UX Brighton</title>
   <meta charset="utf-8">
@@ -137,7 +137,7 @@
       <div class="overlay__inner overflow-hidden bg-trans">
 
         <div class="container color-white">
-          <h1 itemprop="name" class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
+          <h1 class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
           <h2 class="mt0 fs-l regular track-normal mb1">
           	{% if page.upcoming == null or page.upcoming == false %}
 							{% capture previous_event %}{% endcapture %}This event was held on {{page.date | date: "%d %b %Y"}}.
@@ -219,7 +219,15 @@
 						</aside>
         	</div>
         	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top: 16px;">
+
+            {% comment %} This is the main content {% endcomment %}
         		{{ content }}
+
+            {% comment %} This is the events structured schema data include. Check this isn't a past event first before rendering it. {% endcomment %}
+            {% if page.upcoming == true %}
+              {% include schema/schema_events.html %}
+            {% endif %}
+
         	</div>
 				</div><!-- row -->
 
