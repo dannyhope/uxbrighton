@@ -23,6 +23,17 @@
 	"postedDate": "2023-06-06T00:00:00.000Z",
 	"closedDate": "2023-07-06T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "UK Remote",
+		"textDescription": "Remote",
+		"locations": [
+			{
+				"countryName": "United Kingdom",
+				"countryCode": "GB"
+			}
+		],
+		"workplace": "FULLY_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "Flipdish",
 		"logo": "//uxbri.org/jobs/logos/Flipdish-Logo.svg",

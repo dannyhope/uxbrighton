@@ -24,12 +24,38 @@
 	"postedDate": "2023-06-06T00:00:00.000Z",
 	"closedDate": "2023-07-06T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London",
+		"textDescription": "London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		]
+	},
 	"hiringOrganization": {
 		"name": "Manyone",
 		"logo": "//uxbri.org/jobs/logos/manyone-logo.png",
+		"twitter": "Manyone_design",
 		"id": 468,
 		"shortId": "z02L5yi2",
 		"uuid": "af60bec0-741e-47f7-b590-027922432823"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, breezyhr",
