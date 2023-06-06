@@ -225,7 +225,8 @@
 
             {% comment %} This is the events structured schema data include. Check this isn't a past event first before rendering it. {% endcomment %}
             {% if page.upcoming == true %}
-              {% include schema/schema_events.html %}
+              <!-- This is this event's structured schema data -->
+              {% include schemas/schema_events.html %}
             {% endif %}
 
         	</div>
