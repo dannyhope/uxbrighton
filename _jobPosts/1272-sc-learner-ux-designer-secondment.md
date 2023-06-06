@@ -24,8 +24,8 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London",
-		"textDescription": "London",
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -35,7 +35,8 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Barclays",
@@ -43,6 +44,17 @@
 		"id": 240,
 		"shortId": "tzAR9FW1",
 		"uuid": "3b64433d-4d78-4ec6-b906-361c98d98785"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Contract",
+				"code": "CONTRACTOR",
+				"type": "contract"
+			}
+		],
+		"original": "Contract",
+		"textDescription": "Contract"
 	},
 	"applicationUri": "https://search.jobs.barclays/job/-/-/22545/48974304416",
 	"applicationType": "link",

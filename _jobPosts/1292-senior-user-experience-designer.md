@@ -57,14 +57,6 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"salary": {
-		"original": "£38,474 - £41,931",
-		"textDescription": "£38,474 - £41,931",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 38474,
-		"maxValue": 41931
-	},
 	"meta": {
 		"patternName": "ld+json",
 		"patternType": "default",

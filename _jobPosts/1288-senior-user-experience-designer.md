@@ -24,6 +24,11 @@
 	"postedDate": "2023-06-01T00:00:00.000Z",
 	"closedDate": "2023-07-01T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "Remote",
+		"textDescription": "Remote",
+		"workplace": "FULLY_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "farmer connect",
 		"logo": "//uxbri.org/jobs/logos/farmer-connect-logo.png",
@@ -31,6 +36,17 @@
 		"id": 724,
 		"shortId": "408TD7v4",
 		"uuid": "52830ccf-1d3f-4501-97f7-3486cc6fd965"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json",

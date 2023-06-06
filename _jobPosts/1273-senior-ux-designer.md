@@ -25,8 +25,8 @@
 	"closedDate": "2023-06-16T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -36,8 +36,7 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Biglight",
@@ -50,13 +49,13 @@
 	"employmentType": {
 		"typeInfo": [
 			{
-				"text": "Permanent",
-				"code": "PERMANENT",
+				"text": "Contract",
+				"code": "CONTRACTOR",
 				"type": "contract"
 			}
 		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
+		"original": "Contract",
+		"textDescription": "Contract"
 	},
 	"sourceSiteJobId": "7BD34A305C",
 	"meta": {

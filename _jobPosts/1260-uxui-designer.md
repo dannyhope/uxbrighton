@@ -24,8 +24,8 @@
 	"closedDate": "2023-06-07T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London",
-		"textDescription": "London",
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -35,7 +35,8 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "CUR8",
@@ -48,13 +49,13 @@
 	"employmentType": {
 		"typeInfo": [
 			{
-				"text": "Full-time",
-				"code": "FULL_TIME",
-				"type": "hours"
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
 			}
 		],
-		"original": "full-time",
-		"textDescription": "Full-time"
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"sourceSiteJobId": "8494777981",
 	"meta": {

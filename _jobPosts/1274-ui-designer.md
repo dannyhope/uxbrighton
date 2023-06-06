@@ -23,6 +23,20 @@
 	"postedDate": "2023-05-19T00:00:00.000Z",
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London",
+		"textDescription": "London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		]
+	},
 	"hiringOrganization": {
 		"name": "Sage Publications",
 		"logo": "//uxbri.org/jobs/logos/sagepublications-logo.png",
@@ -31,13 +45,24 @@
 		"shortId": "1ArJC2zh",
 		"uuid": "bf5dfbc0-8a31-4640-983d-817501474029"
 	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Contract",
+				"code": "CONTRACTOR",
+				"type": "contract"
+			}
+		],
+		"original": "Contract",
+		"textDescription": "Contract"
+	},
 	"salary": {
-		"original": "£24,930 - £30,430",
-		"textDescription": "£24 - £30",
+		"original": "£24230 - £30430",
+		"textDescription": "£24,230 - £30,430",
 		"currencyCode": "GBP",
 		"currencySymbol": "£",
-		"minValue": 24,
-		"maxValue": 30
+		"minValue": 24230,
+		"maxValue": 30430
 	},
 	"meta": {
 		"patternName": "ld+json",

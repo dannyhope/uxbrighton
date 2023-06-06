@@ -25,8 +25,8 @@
 	"closedDate": "2023-07-01T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -36,8 +36,7 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "HeliosX",

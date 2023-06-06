@@ -25,8 +25,8 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London",
-		"textDescription": "London",
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -36,7 +36,8 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Trustpilot",

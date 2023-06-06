@@ -25,16 +25,16 @@
 	"closedDate": "2023-06-15T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Holborn, London",
-		"textDescription": "London",
+		"original": "Portsmouth",
+		"textDescription": "Portsmouth",
 		"locations": [
 			{
-				"textDescription": "London",
-				"locality": "London",
+				"textDescription": "Portsmouth",
+				"locality": "Portsmouth",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.517,
-				"longitude": -0.118
+				"latitude": 50.7984,
+				"longitude": -1.0931
 			}
 		]
 	},
@@ -44,6 +44,17 @@
 		"id": 123,
 		"shortId": "hB739ZX1",
 		"uuid": "c3af09da-f144-46af-bf65-fd968ea7ab03"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json",

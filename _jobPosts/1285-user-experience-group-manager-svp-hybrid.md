@@ -25,8 +25,8 @@
 	"closedDate": "2023-06-26T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -36,15 +36,26 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Citi",
 		"logo": "//uxbri.org/jobs/logos/Citi-logo.svg",
+		"twitter": "Citi",
 		"id": 604,
 		"shortId": "G3pcR36D",
 		"uuid": "3c8ffadc-1eae-4004-bae3-968066c898f8"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json",

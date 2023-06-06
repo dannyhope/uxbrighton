@@ -24,18 +24,8 @@
 	"closedDate": "2023-06-28T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Remote, London",
-		"textDescription": "Remote, London",
-		"locations": [
-			{
-				"textDescription": "London",
-				"locality": "London",
-				"countryName": "United Kingdom",
-				"countryCode": "GB",
-				"latitude": 51.509865,
-				"longitude": -0.118092
-			}
-		],
+		"original": "Remote",
+		"textDescription": "Remote",
 		"workplace": "FULLY_REMOTE"
 	},
 	"hiringOrganization": {
