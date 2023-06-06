@@ -48,7 +48,8 @@ collections:
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
           - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
-          - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
+          - {label: "Upcoming event?", name: "upcoming", hint: "Is this conference an upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
+          - {label: "Other Event Promotions - (upcoming) - ", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
           - label: "Hero" # Hero section
             name: "hero"
             summary: "Hero section content - (eg. banner title, subtitle, date and primary ticket button)."
@@ -634,7 +635,8 @@ collections:
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
           - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
-          - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
+          - {label: "Upcoming event?", name: "upcoming", hint: "Is this conference an upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
+          - {label: "Other Event Promotions - (upcoming) - ", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
           - label: "Hero" # Hero section
             name: "hero"
             summary: "Hero section content - (eg. banner title, subtitle, date and primary ticket button)."
@@ -1220,7 +1222,8 @@ collections:
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
           - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
-          - {label: "Event Promotion (upcoming)", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
+          - {label: "Upcoming event?", name: "upcoming", hint: "Is this conference an upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
+          - {label: "Other Event Promotions - (upcoming) - ", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
           - label: "Hero" # Hero section
             name: "hero"
             summary: "Hero section content - (eg. banner title, subtitle, date and primary ticket button)."
@@ -1841,7 +1844,7 @@ collections:
           - {label: "Button label", name: "button-label", hint: "Text in the button.", widget: "string", required: false}
           - {label: "Background image", name: "bg-image", hint: "Background image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
       - {label: "Conference page?", name: "conference", hint: "Is this a conference event page? Defaults to **false**.", widget: "boolean", default: false, required: false}
-      - {label: "Upcoming", name: "upcoming", hint: "Upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
+      - {label: "Upcoming event?", name: "upcoming", hint: "Is this an upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
       - {label: "Publish", name: "published", hint: "Want to publish this event? Defaults to **true**.", widget: "boolean", default: true, required: false}
       - {label: "Index on search engines?", name: "seo", hint: "Choose whether search engines index this page or not. Defaults to **yes**.", widget: "boolean", default: true, required: false}
       - {label: "Art direction", name: "art-direction", hint: "If you'd like to add page-specific inline CSS.", widget: "code", allow_language_selection: false, output_code_only: true, default_language: "css", required: false}
