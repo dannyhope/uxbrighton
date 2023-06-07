@@ -8,6 +8,9 @@
   "description": "{{ page.description }}",
   {%- endif %}
   "startDate": "{{ page.event-date }}",
+  "endDate": "{{ page.event-date }}",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
     "@type": "Place",
     "name": "{{ page.venue }}"

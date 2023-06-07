@@ -220,14 +220,12 @@
         	</div>
         	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top: 16px;">
 
-            {% comment %} This is the main content {% endcomment %}
+            {%- comment %} This is the main content {% endcomment %}
         		{{ content }}
 
-            {% comment %} This is the events structured schema data include. Check this isn't a past event first before rendering it. {% endcomment %}
-            {% if page.upcoming == true %}
-              <!-- This is this event's structured schema data -->
-              {% include schemas/schema_events.html %}
-            {% endif %}
+            {%- comment %} This is the events structured schema data include. {% endcomment %}
+            <!-- This is this event's structured schema data -->
+            {%- include schemas/schema_events.html %}
 
         	</div>
 				</div><!-- row -->

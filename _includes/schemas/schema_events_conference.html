@@ -1,4 +1,7 @@
 
+{%- assign datetime = homepage.hero.global.date-time -%}
+{%- assign date_only = datetime | date: "%Y-%m-%d" %}
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -7,7 +10,10 @@
   {%- if homepage.description %}
   "description": "{{ homepage.description }}",
   {%- endif %}
-  "startDate": "{{ homepage.hero.global.date-time }}",
+  "startDate": "{{ date_only }}",
+  "endDate": "{{ date_only }}",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
     "@type": "Place",
     "name": "{{ homepage.hero.global.venue }}"
