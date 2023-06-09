@@ -25,8 +25,8 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -36,8 +36,7 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Via",
@@ -45,17 +44,6 @@
 		"id": 713,
 		"shortId": "F1RIp5XB",
 		"uuid": "89c05e6b-6120-4add-b281-4902d706c10e"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://boards.greenhouse.io/via/jobs/6717133002",
 	"applicationType": "link",

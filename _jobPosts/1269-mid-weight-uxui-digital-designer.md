@@ -25,8 +25,8 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -36,8 +36,7 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Powster",
@@ -45,17 +44,6 @@
 		"id": 712,
 		"shortId": "qtt5u0SR",
 		"uuid": "d867860b-baf2-494f-aa34-d367082f01e1"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"applicationUri": "http://hiring.powster.com/apply/TCMo5cevzc/MidWeight-UXUI-Digital-Designer?source=INDE",
 	"applicationType": "link",

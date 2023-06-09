@@ -24,8 +24,8 @@
 	"closedDate": "2023-06-21T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London",
-		"textDescription": "London",
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -35,7 +35,8 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "accuRx",
@@ -44,17 +45,6 @@
 		"id": 406,
 		"shortId": "xS0Kxatg",
 		"uuid": "98384609-e22d-425b-ab44-09ad822782de"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, greenhouse",

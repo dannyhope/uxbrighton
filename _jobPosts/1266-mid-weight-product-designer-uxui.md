@@ -25,8 +25,8 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -36,8 +36,7 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Learnosity",
@@ -45,17 +44,6 @@
 		"id": 710,
 		"shortId": "5kt1IL08",
 		"uuid": "ad6fdb15-a01e-4964-baec-95d429710e0b"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://apply.workable.com/learnosity/j/675E2E75BE/apply/",
 	"applicationType": "link",

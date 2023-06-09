@@ -25,9 +25,19 @@
 	"closedDate": "2023-06-30T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Remote",
-		"textDescription": "Remote",
-		"workplace": "FULLY_REMOTE"
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "ION Group",
@@ -36,17 +46,6 @@
 		"id": 723,
 		"shortId": "J8z6qHEl",
 		"uuid": "6a083033-ade9-4232-927e-23ac1b36318a"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, lever",

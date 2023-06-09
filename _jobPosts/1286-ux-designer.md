@@ -24,8 +24,18 @@
 	"closedDate": "2023-06-28T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Remote",
-		"textDescription": "Remote",
+		"original": "Remote, London",
+		"textDescription": "Remote, London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.509865,
+				"longitude": -0.118092
+			}
+		],
 		"workplace": "FULLY_REMOTE"
 	},
 	"hiringOrganization": {
@@ -35,17 +45,6 @@
 		"id": 722,
 		"shortId": "u45ke14E",
 		"uuid": "668e16d7-4a29-4f7b-ac24-7d46869e1fff"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json",

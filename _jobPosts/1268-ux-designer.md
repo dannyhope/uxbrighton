@@ -24,8 +24,8 @@
 	"closedDate": "2023-06-18T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -35,8 +35,7 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Everyday Health Group",
@@ -44,17 +43,6 @@
 		"id": 711,
 		"shortId": "F3QQ2bR5",
 		"uuid": "4791efdd-6eb4-41fb-9619-6487211cb2d2"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://jobs.jobvite.com/everyday-health-pregnancy-and-parenting/job/oaSdnfwm/apply",
 	"applicationType": "link",
