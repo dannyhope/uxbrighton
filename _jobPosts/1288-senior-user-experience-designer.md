@@ -26,7 +26,14 @@
 	"directApply": false,
 	"jobLocation": {
 		"original": "Remote",
-		"textDescription": "Remote",
+		"textDescription": "Remote, United Kingdom",
+		"locations": [
+			{
+				"textDescription": "United Kingdom",
+				"countryName": "United Kingdom",
+				"countryCode": "GB"
+			}
+		],
 		"workplace": "FULLY_REMOTE"
 	},
 	"hiringOrganization": {
@@ -36,17 +43,6 @@
 		"id": 724,
 		"shortId": "408TD7v4",
 		"uuid": "52830ccf-1d3f-4501-97f7-3486cc6fd965"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json",
