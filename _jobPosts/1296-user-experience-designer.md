@@ -4,26 +4,39 @@
 	"shortId": "HMdm9ecV",
 	"uuid": "7967664d-cb18-45da-a71f-9ed863dc1238",
 	"title": {
-		"original": "Principal UX Researcher: – SVP: Securities Services (Hybrid)",
-		"textDescription": "Principal User Experience Researcher",
-		"urlSlug": "principal-ux-researcher-svp-securities-services-hybrid",
+		"original": "User Experience Designer",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "user-experience-designer",
 		"inferred": {
-			"canonicalTitle": "Principal UX Researcher",
-			"expandedTitle": "Principal User Experience Researcher",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"User Experience Researcher",
-				"Senior User Experience Researcher",
-				"Lead User Experience Researcher",
-				"Principal User Interface Researcher",
-				"Senior User Interface Researcher"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Usability Engineer"
 			],
-			"seniorty": "Principal",
-			"seniortyLevel": 4
+			"seniortyLevel": 3
 		}
 	},
 	"postedDate": "2023-05-26T00:00:00.000Z",
 	"closedDate": "2023-06-26T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London",
+		"textDescription": "London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		]
+	},
 	"hiringOrganization": {
 		"name": "Citi",
 		"logo": "//uxbri.org/jobs/logos/Citi-logo.svg",
@@ -31,6 +44,17 @@
 		"id": 604,
 		"shortId": "G3pcR36D",
 		"uuid": "3c8ffadc-1eae-4004-bae3-968066c898f8"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json",
@@ -42,7 +66,7 @@
 	"applicationType": "link",
 	"shortDescription": "Overview Citi’s’ technology team is growing at lightning speed, and we’re’ looking for talented technologists to help build the future of global banking. Our teams are creating innovations used",
 	"status": "LIVE",
-	"permalink": "/jobs/1296/principal-ux-researcher-svp-securities-services-hybrid",
+	"permalink": "/jobs/1296/user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---
