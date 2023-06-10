@@ -4,18 +4,18 @@
 	"shortId": "V9erEvpX",
 	"uuid": "09ef726b-51fa-4185-a4eb-f8af13bbdcdb",
 	"title": {
-		"original": "User Researcher",
-		"textDescription": "User Researcher",
-		"urlSlug": "user-researcher",
+		"original": "User Experience Designer",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "user-experience-designer",
 		"inferred": {
-			"canonicalTitle": "User Researcher",
-			"expandedTitle": "User Researcher",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"User Experience Researcher",
-				"Usability Researcher",
-				"User Interface Researcher",
-				"User Research Analyst",
-				"User Research Manager"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Usability Engineer"
 			],
 			"seniortyLevel": 3
 		}
@@ -24,8 +24,8 @@
 	"closedDate": "2023-07-10T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybrid",
-		"textDescription": "Hybrid, London",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -35,8 +35,7 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		],
-		"workplace": "PART_REMOTE"
+		]
 	},
 	"hiringOrganization": {
 		"name": "Rightmove",
@@ -49,13 +48,13 @@
 	"employmentType": {
 		"typeInfo": [
 			{
-				"text": "Full-time",
-				"code": "FULL_TIME",
-				"type": "hours"
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
 			}
 		],
-		"original": "Full time",
-		"textDescription": "Full-time"
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, bamboohr",
@@ -63,11 +62,11 @@
 		"date": "2023-06-10T06:28:33.113Z",
 		"source": "https://rightmove.bamboohr.com/careers/673?source=indeed&src=indeed&postedDate=2023-06-09"
 	},
-	"applicationUri": "https://rightmove.bamboohr.com/careers/673&postedDate=2023-06-09",
+	"applicationUri": "https://rightmove.bamboohr.com/careers/673",
 	"applicationType": "link",
 	"shortDescription": "Location: Hybrid – Wednesday Thursday at our London office Reporting to: Service Design Manager    The role  Be part of a new era for Rightmove, as our Experience Design (XD) team expands to meet",
 	"status": "LIVE",
-	"permalink": "/jobs/1297/user-researcher",
+	"permalink": "/jobs/1297/user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---
