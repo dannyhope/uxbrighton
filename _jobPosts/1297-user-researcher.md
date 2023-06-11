@@ -4,18 +4,18 @@
 	"shortId": "V9erEvpX",
 	"uuid": "09ef726b-51fa-4185-a4eb-f8af13bbdcdb",
 	"title": {
-		"original": "User Experience Designer",
-		"textDescription": "User Experience Designer",
-		"urlSlug": "user-experience-designer",
+		"original": "User Researcher",
+		"textDescription": "User Researcher",
+		"urlSlug": "user-researcher",
 		"inferred": {
-			"canonicalTitle": "UX Designer",
-			"expandedTitle": "User Experience Designer",
+			"canonicalTitle": "User Researcher",
+			"expandedTitle": "User Researcher",
 			"similiarTitles": [
-				"User Interface Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Information Architect",
-				"Usability Engineer"
+				"User Experience Researcher",
+				"Usability Researcher",
+				"User Interface Researcher",
+				"User Research Analyst",
+				"User Research Manager"
 			],
 			"seniortyLevel": 3
 		}
@@ -66,7 +66,7 @@
 	"applicationType": "link",
 	"shortDescription": "Location: Hybrid – Wednesday Thursday at our London office Reporting to: Service Design Manager    The role  Be part of a new era for Rightmove, as our Experience Design (XD) team expands to meet",
 	"status": "LIVE",
-	"permalink": "/jobs/1297/user-experience-designer",
+	"permalink": "/jobs/1297/user-researcher",
 	"layout": "jobs/individual"
 }
 ---
