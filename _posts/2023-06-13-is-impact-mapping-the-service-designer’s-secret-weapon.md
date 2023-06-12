@@ -11,7 +11,7 @@ event-date: 2023-06-13
 start: 7pm
 venue: PLATF9RM
 ticket:
-  state: Sold out
+  state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/2109732/chk/2e73/?modal_widget=true&widget=true
   price: Free
 upcoming-teaser:
