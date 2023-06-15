@@ -3,6 +3,7 @@ layout: event-page
 title: Mentorship Speed Matching
 description: "UX Mentorship Speed Matching event for ambitious UXer's in
   Brighton, London and the South East. "
+social-image: /images/img_3034.jpg
 event-date: 2023-08-08
 start: 7pm
 venue: Barclays Eagle Lab Brighton
@@ -10,6 +11,8 @@ ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/2683058/chk/6bd3/?modal_widget=true&widget=true
   price: £12.50
+upcoming-teaser:
+  bg-image: /images/img_3034.jpg
 conference: false
 upcoming: true
 published: true
