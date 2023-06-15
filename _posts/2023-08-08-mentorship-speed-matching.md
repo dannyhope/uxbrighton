@@ -15,7 +15,7 @@ upcoming: true
 published: true
 seo: true
 ---
-Join us for an evening of Mentorship Speed Matching. Whether you’re a UXer of many years standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the community. You can choose to be a mentor or mentee or you can sign up to be both! 
+Want to be part of UX Brighton's next [Mentorship Programme](https://uxbri.org/mentorship)? Join us for an evening of Mentorship Speed Matching. Whether you’re a UXer of many years standing, new to UX or UX is only part of what you do, so much the better. A mix of skills and backgrounds enriches the community. You can choose to be a mentor or mentee or you can sign up to be both! 
 
 ## **How does mentorship speed matching work?**
 
@@ -26,7 +26,7 @@ Join us for an evening of Mentorship Speed Matching. Whether you’re a UXer of
 * After the event, our matching team will study your scorecards and endeavour to pair everyone up.*
 * We’ll be in touch with what we hope will be your perfect mentorship match.
 
-## **What happends after I've been paired up?** 
+## **What happends after I've been paired up?**
 
 * Commit to meeting with your mentor and/or mentee for at least one hour per month (virtually or face-to-face) until April 2024. You could use this time to work towards your goal. 
 
