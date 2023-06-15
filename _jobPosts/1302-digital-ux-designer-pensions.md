@@ -23,33 +23,13 @@
 	"postedDate": "2023-06-13T00:00:00.000Z",
 	"closedDate": "2023-07-13T00:00:00.000Z",
 	"directApply": false,
-	"jobLocation": {
-		"original": "Home-Based",
-		"locations": [
-			{
-				"textDescription": "United Kingdom",
-				"countryName": "United Kingdom",
-				"countryCode": "GB"
-			}
-		]
-	},
 	"hiringOrganization": {
 		"name": "Capita",
 		"logo": "//uxbri.org/jobs/logos/Capita-logo.png",
+		"twitter": "CapitaPlc",
 		"id": 197,
 		"shortId": "1uw29zVw",
 		"uuid": "36ffa6aa-e225-4924-aeb0-50c7a057dbc0"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, workday",
