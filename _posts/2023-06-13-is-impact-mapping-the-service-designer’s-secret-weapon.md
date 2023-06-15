@@ -27,6 +27,8 @@ In the session itself, participants will be developing their own personal impact
 
 D﻿rinks and snacks provided. ☕🍕
 
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/cxpartners-impact-mapping-the-service-designers-secret-weapon" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
 ## **Workshop Leaders**
 
 ### [Nicola Pritchard](https://www.linkedin.com/in/nicolapritchard/), Principal Service Designer at cxpartners
