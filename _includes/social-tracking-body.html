@@ -41,17 +41,11 @@
 
     })();
 
-    /*
-    * This instance is looking for any `conference-2023` ticket buttons on a page
-    */
+    // This instance is looking for any `conference-2023` ticket buttons on a page that have been clicked
     let buttonBuyTicket2023 = new linkedInTracker('[data-buy-ticket="conference-2023"]', 10371226)
 
-    /*
-    * This instance is looking for any email subscribe buttons on a page
-    * Timeout needed to ensure dynamically added DOM elements are loaded first...
-    */
-    setTimeout(() => {
-      let buttonEmailSubscribe = new linkedInTracker('.emailoctopus-form .btn-primary', 11356706)
-    }, 2000)
+    // This instance is looking for any email subscribe buttons on the 'jobs' page that have been clicked
+    let buttonEmailSubscribeJobsPage = new linkedInTracker('[data-email-subscribe="jobs-page"]', 11356706)
+
   })();
 </script>
