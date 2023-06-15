@@ -28,6 +28,10 @@
       return;
     }
 
+    // Selecting the current page URL and setting the value of the hidden "submitted_from" input to the current page URL
+    let currentUrl = window.location.href;
+    document.getElementById('submitted_from').value = currentUrl;
+
     // Attach event listener for form submission
     form.addEventListener('submit', async event => {
       event.preventDefault();
