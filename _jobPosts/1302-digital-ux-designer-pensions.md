@@ -23,6 +23,18 @@
 	"postedDate": "2023-06-13T00:00:00.000Z",
 	"closedDate": "2023-07-13T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "Remote, UK",
+		"textDescription": "Remote, United Kingdom",
+		"locations": [
+			{
+				"textDescription": "United Kingdom",
+				"countryName": "United Kingdom",
+				"countryCode": "GB"
+			}
+		],
+		"workplace": "FULLY_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "Capita",
 		"logo": "//uxbri.org/jobs/logos/Capita-logo.png",
