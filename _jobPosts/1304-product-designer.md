@@ -23,6 +23,21 @@
 	"postedDate": "2023-06-15T00:00:00.000Z",
 	"closedDate": "2023-07-15T00:00:00.000Z",
 	"directApply": false,
+	"jobLocation": {
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
+		"locations": [
+			{
+				"textDescription": "London",
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
+			}
+		],
+		"workplace": "PART_REMOTE"
+	},
 	"hiringOrganization": {
 		"name": "Which?",
 		"logo": "//uxbri.org/jobs/logos/which-logo.png",
@@ -41,6 +56,14 @@
 		],
 		"original": "Permanent",
 		"textDescription": "Permanent"
+	},
+	"salary": {
+		"original": "£48,000 – £56,000",
+		"textDescription": "£48,000 - £56,000",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 48000,
+		"maxValue": 56000
 	},
 	"meta": {
 		"patternName": "ld+json",
