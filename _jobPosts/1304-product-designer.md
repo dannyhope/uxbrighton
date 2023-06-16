@@ -23,46 +23,13 @@
 	"postedDate": "2023-06-15T00:00:00.000Z",
 	"closedDate": "2023-07-15T00:00:00.000Z",
 	"directApply": false,
-	"jobLocation": {
-		"original": "Hybrid, London",
-		"textDescription": "Hybrid, London",
-		"locations": [
-			{
-				"textDescription": "London",
-				"locality": "London",
-				"countryName": "United Kingdom",
-				"countryCode": "GB",
-				"latitude": 51.5074,
-				"longitude": -0.1278
-			}
-		],
-		"workplace": "PART_REMOTE"
-	},
 	"hiringOrganization": {
 		"name": "Which?",
 		"logo": "//uxbri.org/jobs/logos/which-logo.png",
+		"twitter": "WhichUK",
 		"id": 33,
 		"shortId": "l6CK5hMK",
 		"uuid": "83fa7753-003b-4ddd-a71a-6d7bd4955b61"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
-	"salary": {
-		"original": "£48,000 – £56,000",
-		"textDescription": "£48,000 - £56,000",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 48000,
-		"maxValue": 56000
 	},
 	"meta": {
 		"patternName": "ld+json",
