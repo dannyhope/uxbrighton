@@ -31,6 +31,17 @@
 		"shortId": "l6CK5hMK",
 		"uuid": "83fa7753-003b-4ddd-a71a-6d7bd4955b61"
 	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
+	},
 	"meta": {
 		"patternName": "ld+json",
 		"patternType": "default",

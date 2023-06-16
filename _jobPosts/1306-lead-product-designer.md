@@ -25,8 +25,8 @@
 	"closedDate": "2023-07-13T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Kings Langley Hertfordshire",
-		"textDescription": "Kings Langley",
+		"original": "Remote, Kings Langley Hertfordshire",
+		"textDescription": "Remote, Kings Langley",
 		"locations": [
 			{
 				"textDescription": "Kings Langley",
@@ -37,7 +37,8 @@
 				"latitude": 51.735,
 				"longitude": -0.48
 			}
-		]
+		],
+		"workplace": "FULLY_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Renewable Energy Systems Ltd",
