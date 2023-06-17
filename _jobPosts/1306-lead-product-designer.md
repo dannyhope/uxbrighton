@@ -21,25 +21,9 @@
 			"seniortyLevel": 5
 		}
 	},
-	"postedDate": "2023-06-14T00:00:00.000Z",
-	"closedDate": "2023-07-13T00:00:00.000Z",
+	"postedDate": "2023-06-16T00:00:00.000Z",
+	"closedDate": "2023-07-16T00:00:00.000Z",
 	"directApply": false,
-	"jobLocation": {
-		"original": "Remote, Kings Langley Hertfordshire",
-		"textDescription": "Remote, Kings Langley",
-		"locations": [
-			{
-				"textDescription": "Kings Langley",
-				"locality": "Kings Langley",
-				"region": "Hertfordshire",
-				"countryName": "United Kingdom",
-				"countryCode": "GB",
-				"latitude": 51.735,
-				"longitude": -0.48
-			}
-		],
-		"workplace": "FULLY_REMOTE"
-	},
 	"hiringOrganization": {
 		"name": "Renewable Energy Systems Ltd",
 		"logo": "//uxbri.org/jobs/logos/renewable-energy-systems-ltd-res-logo.svg",
@@ -47,17 +31,6 @@
 		"id": 730,
 		"shortId": "0XM9vQew",
 		"uuid": "24819e17-9e80-4076-a41d-ae841ef2aab9"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, jobvite",
