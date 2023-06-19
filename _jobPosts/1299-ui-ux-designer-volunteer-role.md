@@ -40,20 +40,10 @@
 	"hiringOrganization": {
 		"name": "Pride in London",
 		"logo": "//uxbri.org/jobs/logos/PIL-logo.png",
+		"twitter": "PrideInLondon",
 		"id": 296,
 		"shortId": "TBJmI0CV",
 		"uuid": "31cfd1d0-a544-4b7d-8aba-6f093062abf3"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Part-time",
-				"code": "PART_TIME",
-				"type": "hours"
-			}
-		],
-		"original": "Part time",
-		"textDescription": "Part-time"
 	},
 	"meta": {
 		"patternName": "ld+json",

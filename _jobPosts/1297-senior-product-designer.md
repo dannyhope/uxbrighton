@@ -4,28 +4,29 @@
 	"shortId": "V9erEvpX",
 	"uuid": "09ef726b-51fa-4185-a4eb-f8af13bbdcdb",
 	"title": {
-		"original": "User Researcher",
-		"textDescription": "User Researcher",
-		"urlSlug": "user-researcher",
+		"original": "Senior Product Designer",
+		"textDescription": "Senior Product Designer",
+		"urlSlug": "senior-product-designer",
 		"inferred": {
-			"canonicalTitle": "User Researcher",
-			"expandedTitle": "User Researcher",
+			"canonicalTitle": "Senior Product Designer",
+			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"User Experience Researcher",
-				"Usability Researcher",
-				"User Interface Researcher",
-				"User Research Analyst",
-				"User Research Manager"
+				"Senior Product Developer",
+				"Senior Product Architect",
+				"Senior Product Manager",
+				"Senior UX Designer",
+				"Senior UI Designer"
 			],
-			"seniortyLevel": 3
+			"seniorty": "Senior",
+			"seniortyLevel": 4
 		}
 	},
 	"postedDate": "2023-06-10T00:00:00.000Z",
 	"closedDate": "2023-07-10T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London",
-		"textDescription": "London",
+		"original": "Location: Hybrid – Wednesday & Thursday at our London office",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
 				"textDescription": "London",
@@ -35,7 +36,8 @@
 				"latitude": 51.5074,
 				"longitude": -0.1278
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Rightmove",
@@ -44,17 +46,6 @@
 		"id": 727,
 		"shortId": "LnfF7aH3",
 		"uuid": "1213a58c-0607-47f0-b6a2-79e2ec78d2d3"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, bamboohr",
@@ -66,7 +57,7 @@
 	"applicationType": "link",
 	"shortDescription": "Location: Hybrid – Wednesday Thursday at our London office Reporting to: Service Design Manager    The role  Be part of a new era for Rightmove, as our Experience Design (XD) team expands to meet",
 	"status": "LIVE",
-	"permalink": "/jobs/1297/user-researcher",
+	"permalink": "/jobs/1297/senior-product-designer",
 	"layout": "jobs/individual"
 }
 ---

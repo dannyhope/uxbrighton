@@ -4,18 +4,18 @@
 	"shortId": "kbglAm8X",
 	"uuid": "7cb89a66-ad14-4140-ab59-f6f72e05237e",
 	"title": {
-		"original": "User Experience Designer",
-		"textDescription": "User Experience Designer",
-		"urlSlug": "user-experience-designer",
+		"original": "User Researcher",
+		"textDescription": "User Researcher",
+		"urlSlug": "user-researcher",
 		"inferred": {
-			"canonicalTitle": "UX Designer",
-			"expandedTitle": "User Experience Designer",
+			"canonicalTitle": "User Researcher",
+			"expandedTitle": "User Researcher",
 			"similiarTitles": [
-				"User Interface Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Information Architect",
-				"Usability Engineer"
+				"User Experience Researcher",
+				"Usability Researcher",
+				"User Interface Researcher",
+				"User Research Analyst",
+				"User Research Manager"
 			],
 			"seniortyLevel": 3
 		}
@@ -41,20 +41,10 @@
 	"hiringOrganization": {
 		"name": "Cancer Research UK",
 		"logo": "//uxbri.org/jobs/logos/cancer-research-uk-seeklogo.com.svg",
+		"twitter": "CR_UK",
 		"id": 350,
 		"shortId": "64SL1VDJ",
 		"uuid": "78912091-cbd6-48be-a13f-496e7d7efb9c"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Contract",
-				"code": "CONTRACTOR",
-				"type": "contract"
-			}
-		],
-		"original": "Contract",
-		"textDescription": "Contract"
 	},
 	"salary": {
 		"original": "£35,000-£45,000",
@@ -74,7 +64,7 @@
 	"applicationType": "link",
 	"shortDescription": "4,000 professionals, 0 days wasted, 1 incredible purpose. Together we will beat cancer.  Contract: 18 month fixed-term- contract Hours: Full time 35 hours per week We're' open to a variety of ways",
 	"status": "LIVE",
-	"permalink": "/jobs/1300/user-experience-designer",
+	"permalink": "/jobs/1300/user-researcher",
 	"layout": "jobs/individual"
 }
 ---

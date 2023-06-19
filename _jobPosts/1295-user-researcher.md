@@ -4,18 +4,18 @@
 	"shortId": "ERWxlzRx",
 	"uuid": "e351111f-12d4-49c6-808c-90009ac083ad",
 	"title": {
-		"original": "User Experience Designer",
-		"textDescription": "User Experience Designer",
-		"urlSlug": "user-experience-designer",
+		"original": "User Researcher",
+		"textDescription": "User Researcher",
+		"urlSlug": "user-researcher",
 		"inferred": {
-			"canonicalTitle": "UX Designer",
-			"expandedTitle": "User Experience Designer",
+			"canonicalTitle": "User Researcher",
+			"expandedTitle": "User Researcher",
 			"similiarTitles": [
-				"User Interface Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Information Architect",
-				"Usability Engineer"
+				"User Experience Researcher",
+				"Usability Researcher",
+				"User Interface Researcher",
+				"User Research Analyst",
+				"User Research Manager"
 			],
 			"seniortyLevel": 3
 		}
@@ -45,17 +45,6 @@
 		"shortId": "1ArJC2zh",
 		"uuid": "bf5dfbc0-8a31-4640-983d-817501474029"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
 	"salary": {
 		"original": "£52,000-£60,000",
 		"textDescription": "£52,000 - £60,000",
@@ -74,7 +63,7 @@
 	"applicationType": "link",
 	"shortDescription": "About our team You will report into the User Experience Team. We’re’ a small, collaborative group of researchers, designers and analysts focused on the end-to-end-- experience of our products: from",
 	"status": "LIVE",
-	"permalink": "/jobs/1295/user-experience-designer",
+	"permalink": "/jobs/1295/user-researcher",
 	"layout": "jobs/individual"
 }
 ---

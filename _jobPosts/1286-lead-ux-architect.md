@@ -4,20 +4,21 @@
 	"shortId": "3Lu4A7q1",
 	"uuid": "ed80989b-258d-467c-a179-67dfe576df66",
 	"title": {
-		"original": "UX Designer",
-		"textDescription": "User Experience Designer",
-		"urlSlug": "ux-designer",
+		"original": "Lead UX Architect",
+		"textDescription": "Lead User Experience Architect",
+		"urlSlug": "lead-ux-architect",
 		"inferred": {
-			"canonicalTitle": "UX Designer",
-			"expandedTitle": "User Experience Designer",
+			"canonicalTitle": "Lead UX Architect",
+			"expandedTitle": "Lead User Experience Architect",
 			"similiarTitles": [
-				"User Interface Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Information Architect",
-				"Usability Engineer"
+				"Lead User Interface Architect",
+				"Lead User Interface Designer",
+				"Lead User Experience Designer",
+				"Lead User Interface Engineer",
+				"Lead User Experience Engineer"
 			],
-			"seniortyLevel": 3
+			"seniorty": "Lead",
+			"seniortyLevel": 5
 		}
 	},
 	"postedDate": "2023-05-30T00:00:00.000Z",
@@ -56,7 +57,7 @@
 	"applicationType": "link",
 	"shortDescription": "About QuestDB We are building an open source time-series- database focused on performance and simplicity. QuestDB is used to store, process and analyze time-series- data in real-time- across a wide",
 	"status": "LIVE",
-	"permalink": "/jobs/1286/ux-designer",
+	"permalink": "/jobs/1286/lead-ux-architect",
 	"layout": "jobs/individual"
 }
 ---

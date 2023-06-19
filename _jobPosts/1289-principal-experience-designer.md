@@ -4,20 +4,20 @@
 	"shortId": "9Z8C33AB",
 	"uuid": "cfb8ff55-29f8-4c1b-bf9e-97d4b1bbefb3",
 	"title": {
-		"original": "Senior Product Designer",
-		"textDescription": "Senior Product Designer",
-		"urlSlug": "senior-product-designer",
+		"original": "Principal Experience Designer",
+		"textDescription": "Principal Experience Designer",
+		"urlSlug": "principal-experience-designer",
 		"inferred": {
-			"canonicalTitle": "Senior Product Designer",
-			"expandedTitle": "Senior Product Designer",
+			"canonicalTitle": "Principal Experience Designer",
+			"expandedTitle": "Principal Experience Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
-				"Senior UX Designer",
-				"Senior UI Designer"
+				"Lead Experience Designer",
+				"Senior Experience Designer",
+				"Principal User Experience Designer",
+				"Principal Interaction Designer",
+				"Principal UX Designer"
 			],
-			"seniorty": "Senior",
+			"seniorty": "Principal",
 			"seniortyLevel": 4
 		}
 	},
@@ -45,17 +45,6 @@
 		"shortId": "163r3gFn",
 		"uuid": "dc5ef6ea-1055-429f-b246-3ca94cbf8f1f"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Contract",
-				"code": "CONTRACTOR",
-				"type": "contract"
-			}
-		],
-		"original": "Contract",
-		"textDescription": "Contract"
-	},
 	"meta": {
 		"patternName": "ld+json",
 		"patternType": "default",
@@ -66,7 +55,7 @@
 	"applicationType": "link",
 	"shortDescription": "The Opportunity We are looking for an experienced, user-focused- Senior Product Designer to take the lead on product design, working in cross-functional- squads focused on HeliosX's' Dermatica brand.",
 	"status": "LIVE",
-	"permalink": "/jobs/1289/senior-product-designer",
+	"permalink": "/jobs/1289/principal-experience-designer",
 	"layout": "jobs/individual"
 }
 ---

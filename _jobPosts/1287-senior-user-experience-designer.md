@@ -4,21 +4,21 @@
 	"shortId": "ydM76RJ0",
 	"uuid": "895b42f2-8b26-4726-9203-87adfb494e43",
 	"title": {
-		"original": "Lead UX Architect",
-		"textDescription": "Lead User Experience Architect",
-		"urlSlug": "lead-ux-architect",
+		"original": "Senior User Experience Designer",
+		"textDescription": "Senior User Experience Designer",
+		"urlSlug": "senior-user-experience-designer",
 		"inferred": {
-			"canonicalTitle": "Lead UX Architect",
-			"expandedTitle": "Lead User Experience Architect",
+			"canonicalTitle": "Senior User Experience Designer",
+			"expandedTitle": "Senior User Experience Designer",
 			"similiarTitles": [
-				"Lead User Interface Architect",
-				"Lead User Interface Designer",
-				"Lead User Experience Designer",
-				"Lead User Interface Engineer",
-				"Lead User Experience Engineer"
+				"Senior User Interface Designer",
+				"Senior Interaction Designer",
+				"Senior Visual Designer",
+				"Senior Product Designer",
+				"Senior UX Researcher"
 			],
-			"seniorty": "Lead",
-			"seniortyLevel": 5
+			"seniorty": "Senior",
+			"seniortyLevel": 4
 		}
 	},
 	"postedDate": "2023-05-30T00:00:00.000Z",
@@ -57,7 +57,7 @@
 	"applicationType": "link",
 	"shortDescription": "The Role We are looking for a talented Lead UX Architect to join our User Experience Design team. You are an expert in user centered design, motivated and enjoy learning new concepts in complex",
 	"status": "LIVE",
-	"permalink": "/jobs/1287/lead-ux-architect",
+	"permalink": "/jobs/1287/senior-user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---

@@ -4,18 +4,18 @@
 	"shortId": "165rZNz4",
 	"uuid": "77dec941-b5e9-47e1-a35e-25b2750cce51",
 	"title": {
-		"original": "User Researcher",
-		"textDescription": "User Researcher",
-		"urlSlug": "user-researcher",
+		"original": "UX Designer",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "ux-designer",
 		"inferred": {
-			"canonicalTitle": "User Researcher",
-			"expandedTitle": "User Researcher",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"User Experience Researcher",
-				"Usability Researcher",
-				"User Interface Researcher",
-				"User Research Analyst",
-				"User Research Manager"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Usability Engineer"
 			],
 			"seniortyLevel": 3
 		}
@@ -24,18 +24,19 @@
 	"closedDate": "2023-07-13T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Kingston, Sutton",
-		"textDescription": "Kingston",
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
-				"textDescription": "Kingston",
-				"locality": "Kingston",
+				"textDescription": "London",
+				"locality": "London",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.4025,
-				"longitude": -0.2768
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Kingston Council",
@@ -44,17 +45,6 @@
 		"id": 729,
 		"shortId": "pazBQ3Ah",
 		"uuid": "0eba8ffe-7313-4d66-bd2c-0eeb873e6cbb"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
 	},
 	"salary": {
 		"original": "£41,793 - £52,929",
@@ -74,7 +64,7 @@
 	"applicationType": "link",
 	"shortDescription": "About the Borough   Joining us, you get to work for not just one high performing London Borough, but two. Sutton and Kingston councils have a number of shared services serving both authorities, with",
 	"status": "LIVE",
-	"permalink": "/jobs/1301/user-researcher",
+	"permalink": "/jobs/1301/ux-designer",
 	"layout": "jobs/individual"
 }
 ---

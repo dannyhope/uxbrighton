@@ -47,25 +47,6 @@
 		"shortId": "l6CK5hMK",
 		"uuid": "83fa7753-003b-4ddd-a71a-6d7bd4955b61"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
-	"salary": {
-		"original": "£32,000 – £40,000",
-		"textDescription": "£32,000 - £40,000",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 32000,
-		"maxValue": 40000
-	},
 	"meta": {
 		"patternName": "ld+json",
 		"patternType": "default",

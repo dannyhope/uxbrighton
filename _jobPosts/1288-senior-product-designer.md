@@ -4,18 +4,18 @@
 	"shortId": "4kDnSZE6",
 	"uuid": "50189154-debc-4212-b2f0-51001da37ebc",
 	"title": {
-		"original": "Senior User Experience Designer",
-		"textDescription": "Senior User Experience Designer",
-		"urlSlug": "senior-user-experience-designer",
+		"original": "Senior Product Designer",
+		"textDescription": "Senior Product Designer",
+		"urlSlug": "senior-product-designer",
 		"inferred": {
-			"canonicalTitle": "Senior User Experience Designer",
-			"expandedTitle": "Senior User Experience Designer",
+			"canonicalTitle": "Senior Product Designer",
+			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior User Interface Designer",
-				"Senior Interaction Designer",
-				"Senior Visual Designer",
-				"Senior Product Designer",
-				"Senior UX Researcher"
+				"Senior Product Developer",
+				"Senior Product Architect",
+				"Senior Product Manager",
+				"Senior UX Designer",
+				"Senior UI Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -25,7 +25,7 @@
 	"closedDate": "2023-07-01T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Remote",
+		"original": "Remote, UK",
 		"textDescription": "Remote, United Kingdom",
 		"locations": [
 			{
@@ -54,7 +54,7 @@
 	"applicationType": "link",
 	"shortDescription": "Job Description   farmer connect delivers end-to-end-- traceability across complex food and agriculture supply chains. We aim to help supply chains evolve into a collaborative data-driven- model,",
 	"status": "LIVE",
-	"permalink": "/jobs/1288/senior-user-experience-designer",
+	"permalink": "/jobs/1288/senior-product-designer",
 	"layout": "jobs/individual"
 }
 ---

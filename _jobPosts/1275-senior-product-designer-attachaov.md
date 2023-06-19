@@ -4,20 +4,21 @@
 	"shortId": "7V0t4170",
 	"uuid": "237a0e06-4c1e-43a5-a763-9f1680644ce8",
 	"title": {
-		"original": "User Researcher",
-		"textDescription": "User Researcher",
-		"urlSlug": "user-researcher",
+		"original": "Senior Product Designer - Attach/AoV",
+		"textDescription": "Senior Product Designer",
+		"urlSlug": "senior-product-designer-attachaov",
 		"inferred": {
-			"canonicalTitle": "User Researcher",
-			"expandedTitle": "User Researcher",
+			"canonicalTitle": "Senior Product Designer",
+			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"User Experience Researcher",
-				"Usability Researcher",
-				"User Interface Researcher",
-				"User Research Analyst",
-				"User Research Manager"
+				"Senior Product Developer",
+				"Senior Product Manager",
+				"Senior UX Designer",
+				"Senior UI Designer",
+				"Senior Product Architect"
 			],
-			"seniortyLevel": 3
+			"seniorty": "Senior",
+			"seniortyLevel": 4
 		}
 	},
 	"postedDate": "2023-05-21T00:00:00.000Z",
@@ -55,7 +56,7 @@
 	"applicationType": "link",
 	"shortDescription": "At Accurx, we're' on a mission to make patients healthier and healthcare staff happier. Who are Accurx? We’re’ a fast-growing- health technology company which makes it easier for patients and",
 	"status": "LIVE",
-	"permalink": "/jobs/1275/user-researcher",
+	"permalink": "/jobs/1275/senior-product-designer-attachaov",
 	"layout": "jobs/individual"
 }
 ---

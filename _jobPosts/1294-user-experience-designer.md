@@ -4,18 +4,18 @@
 	"shortId": "lxN3nxAx",
 	"uuid": "155c8eab-2e52-4f63-a0ad-52dce4e32526",
 	"title": {
-		"original": "Product Designer",
-		"textDescription": "Product Designer",
-		"urlSlug": "product-designer",
+		"original": "User Experience Designer",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "user-experience-designer",
 		"inferred": {
-			"canonicalTitle": "Product Designer",
-			"expandedTitle": "Product Designer",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"Product Developer",
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Software Designer"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Usability Engineer"
 			],
 			"seniortyLevel": 3
 		}
@@ -25,9 +25,10 @@
 	"directApply": false,
 	"jobLocation": {
 		"original": "UK Remote",
-		"textDescription": "Remote",
+		"textDescription": "Remote, United Kingdom",
 		"locations": [
 			{
+				"textDescription": "United Kingdom",
 				"countryName": "United Kingdom",
 				"countryCode": "GB"
 			}
@@ -42,17 +43,6 @@
 		"shortId": "biggSttk",
 		"uuid": "8f077e3d-067c-4f59-8d25-d0fcf18f9744"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
 	"meta": {
 		"patternName": "ld+json",
 		"patternType": "default",
@@ -63,7 +53,7 @@
 	"applicationType": "link",
 	"shortDescription": "At Flipdish, we’re’ turning the tables in favour of independent restaurant and takeaway owners by providing them with the tools they need to make their lives easier. We provide our customers with a",
 	"status": "LIVE",
-	"permalink": "/jobs/1294/product-designer",
+	"permalink": "/jobs/1294/user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---

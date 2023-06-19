@@ -4,21 +4,20 @@
 	"shortId": "q4Q9dINJ",
 	"uuid": "da4a4d65-ad19-442e-bc7b-1d937584c5be",
 	"title": {
-		"original": "Senior UX / Product Designer",
-		"textDescription": "Senior User Experience / Product Designer",
-		"urlSlug": "senior-ux-product-designer",
+		"original": "User Experience Designer",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "user-experience-designer",
 		"inferred": {
-			"canonicalTitle": "Senior UX / Product Designer",
-			"expandedTitle": "Senior User Experience / Product Designer",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"Senior User Interface Designer",
-				"Senior Interaction Designer",
-				"Senior Visual Designer",
-				"Senior Product Manager",
-				"Senior Product Strategist"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Usability Engineer"
 			],
-			"seniorty": "Senior",
-			"seniortyLevel": 4
+			"seniortyLevel": 3
 		}
 	},
 	"postedDate": "2023-06-06T00:00:00.000Z",
@@ -46,17 +45,6 @@
 		"shortId": "z02L5yi2",
 		"uuid": "af60bec0-741e-47f7-b590-027922432823"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
 	"meta": {
 		"patternName": "ld+json, breezyhr",
 		"patternType": "default, system",
@@ -67,7 +55,7 @@
 	"applicationType": "link",
 	"shortDescription": "Hi! We are Manyone A new breed that combines the best in creative thinking, strategy, and technology. We’re’ built to help businesses drive strategic change led by world-class- execution at speed. A",
 	"status": "LIVE",
-	"permalink": "/jobs/1293/senior-ux-product-designer",
+	"permalink": "/jobs/1293/user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---

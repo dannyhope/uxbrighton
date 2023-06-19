@@ -4,21 +4,20 @@
 	"shortId": "gkkiG8V0",
 	"uuid": "22d0f73c-2f16-4143-aa1e-b3167a042a6f",
 	"title": {
-		"original": "Senior Product Designer - Attach/AoV",
-		"textDescription": "Senior Product Designer",
-		"urlSlug": "senior-product-designer-attachaov",
+		"original": "UX Designer",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "ux-designer",
 		"inferred": {
-			"canonicalTitle": "Senior Product Designer",
-			"expandedTitle": "Senior Product Designer",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Manager",
-				"Senior UX Designer",
-				"Senior UI Designer",
-				"Senior Product Architect"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Usability Engineer"
 			],
-			"seniorty": "Senior",
-			"seniortyLevel": 4
+			"seniortyLevel": 3
 		}
 	},
 	"postedDate": "2023-05-22T00:00:00.000Z",
@@ -57,7 +56,7 @@
 	"applicationType": "link",
 	"shortDescription": "Our Ways of Working We believe that we do our best work when we are together, but also appreciate that everyone works in different ways. That’s’ why we operate with three working models which look to",
 	"status": "LIVE",
-	"permalink": "/jobs/1276/senior-product-designer-attachaov",
+	"permalink": "/jobs/1276/ux-designer",
 	"layout": "jobs/individual"
 }
 ---

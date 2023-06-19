@@ -4,21 +4,20 @@
 	"shortId": "83oKLO8e",
 	"uuid": "17669d52-ed3f-4ac0-a7a0-1762300c3eb3",
 	"title": {
-		"original": "Senior UX Designer (Remote)",
-		"textDescription": "Senior User Experience Designer",
-		"urlSlug": "senior-ux-designer-remote",
+		"original": "Digital UX Designer - Pensions",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "digital-ux-designer-pensions",
 		"inferred": {
-			"canonicalTitle": "Senior UX Designer",
-			"expandedTitle": "Senior User Experience Designer",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"Senior User Interface Designer",
-				"Senior Interaction Designer",
-				"Senior Visual Designer",
-				"Senior Product Designer",
-				"Senior UX Researcher"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Product Designer"
 			],
-			"seniorty": "Senior",
-			"seniortyLevel": 4
+			"seniortyLevel": 3
 		}
 	},
 	"postedDate": "2023-06-17T00:00:00.000Z",
@@ -47,17 +46,6 @@
 		"shortId": "fYebObQC",
 		"uuid": "1d8ce9a1-967e-4665-9ad9-311c4c398999"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
 	"meta": {
 		"patternName": "ld+json",
 		"patternType": "default",
@@ -68,7 +56,7 @@
 	"applicationType": "link",
 	"shortDescription": "Overview HTC built a vision of the future by combining humanity with technology to unleash our collective imagination. HTC Vive is the world’s’ leading virtual reality platform launched with the aim",
 	"status": "LIVE",
-	"permalink": "/jobs/1307/senior-ux-designer-remote",
+	"permalink": "/jobs/1307/digital-ux-designer-pensions",
 	"layout": "jobs/individual"
 }
 ---

@@ -4,18 +4,18 @@
 	"shortId": "H95oKRL4",
 	"uuid": "382105f2-59c2-42a3-825b-69dec7a2ffae",
 	"title": {
-		"original": "Senior User Experience Designer",
-		"textDescription": "Senior User Experience Designer",
-		"urlSlug": "senior-user-experience-designer",
+		"original": "Senior UX / Product Designer",
+		"textDescription": "Senior User Experience / Product Designer",
+		"urlSlug": "senior-ux-product-designer",
 		"inferred": {
-			"canonicalTitle": "Senior User Experience Designer",
-			"expandedTitle": "Senior User Experience Designer",
+			"canonicalTitle": "Senior UX / Product Designer",
+			"expandedTitle": "Senior User Experience / Product Designer",
 			"similiarTitles": [
 				"Senior User Interface Designer",
 				"Senior Interaction Designer",
 				"Senior Visual Designer",
-				"Senior Product Designer",
-				"Senior UX Researcher"
+				"Senior Product Manager",
+				"Senior Product Strategist"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -46,17 +46,6 @@
 		"shortId": "OWyGf376",
 		"uuid": "ad947354-45ba-4433-8663-167037aa6d3a"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
 	"meta": {
 		"patternName": "ld+json",
 		"patternType": "default",
@@ -67,7 +56,7 @@
 	"applicationType": "link",
 	"shortDescription": "Interview date: 12 July 2023  The University of Portsmouth is an ambitious institution with a track record of success. One of only four universities in the south east of England to achieve a Gold",
 	"status": "LIVE",
-	"permalink": "/jobs/1292/senior-user-experience-designer",
+	"permalink": "/jobs/1292/senior-ux-product-designer",
 	"layout": "jobs/individual"
 }
 ---

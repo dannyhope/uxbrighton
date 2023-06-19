@@ -4,21 +4,20 @@
 	"shortId": "ZZVLej4t",
 	"uuid": "de759115-690c-47ca-9390-47ef176740a9",
 	"title": {
-		"original": "Senior Product Designer",
-		"textDescription": "Senior Product Designer",
-		"urlSlug": "senior-product-designer",
+		"original": "UI / UX Designer (Volunteer Role)",
+		"textDescription": "User Interface / User Experience Designer",
+		"urlSlug": "ui-ux-designer-volunteer-role",
 		"inferred": {
-			"canonicalTitle": "Senior Product Designer",
-			"expandedTitle": "Senior Product Designer",
+			"canonicalTitle": "UI / UX Designer",
+			"expandedTitle": "User Interface / User Experience Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
-				"Senior UX Designer",
-				"Senior UI Designer"
+				"User Interface Designer",
+				"User Experience Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Web Designer"
 			],
-			"seniorty": "Senior",
-			"seniortyLevel": 4
+			"seniortyLevel": 3
 		}
 	},
 	"postedDate": "2023-06-11T00:00:00.000Z",
@@ -47,17 +46,6 @@
 		"shortId": "8CUF9SLs",
 		"uuid": "ce50845b-683b-465a-84e3-cb80c9c50434"
 	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Full-time",
-				"code": "FULL_TIME",
-				"type": "hours"
-			}
-		],
-		"original": "full-time",
-		"textDescription": "Full-time"
-	},
 	"salary": {
 		"original": "£75,000-£90,000",
 		"textDescription": "£75,000 - £90,000",
@@ -76,7 +64,7 @@
 	"applicationType": "link",
 	"shortDescription": "We're' looking for senior designer excited to design and build a world-class- DesignOps product We are a \"remote-first-\" company and there's' no requirement for anyone to come into the zeroheight",
 	"status": "LIVE",
-	"permalink": "/jobs/1298/senior-product-designer",
+	"permalink": "/jobs/1298/ui-ux-designer-volunteer-role",
 	"layout": "jobs/individual"
 }
 ---

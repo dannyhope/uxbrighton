@@ -4,20 +4,21 @@
 	"shortId": "Mx1z5CUm",
 	"uuid": "75ca96ea-b849-452b-8f3a-d7f4bf80fbe4",
 	"title": {
-		"original": "UX Designer",
-		"textDescription": "User Experience Designer",
-		"urlSlug": "ux-designer",
+		"original": "Senior UX Designer (Remote)",
+		"textDescription": "Senior User Experience Designer",
+		"urlSlug": "senior-ux-designer-remote",
 		"inferred": {
-			"canonicalTitle": "UX Designer",
-			"expandedTitle": "User Experience Designer",
+			"canonicalTitle": "Senior UX Designer",
+			"expandedTitle": "Senior User Experience Designer",
 			"similiarTitles": [
-				"User Interface Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Information Architect",
-				"Usability Engineer"
+				"Senior User Interface Designer",
+				"Senior Interaction Designer",
+				"Senior Visual Designer",
+				"Senior Product Designer",
+				"Senior UX Researcher"
 			],
-			"seniortyLevel": 3
+			"seniorty": "Senior",
+			"seniortyLevel": 4
 		}
 	},
 	"postedDate": "2023-06-14T00:00:00.000Z",
@@ -41,28 +42,10 @@
 	"hiringOrganization": {
 		"name": "British Heart Foundation",
 		"logo": "//uxbri.org/jobs/logos/bhf-logo.svg",
+		"twitter": "TheBHF",
 		"id": 201,
 		"shortId": "GV86I91I",
 		"uuid": "e34a2acc-1483-4fda-bd89-e8f33fa8982e"
-	},
-	"employmentType": {
-		"typeInfo": [
-			{
-				"text": "Permanent",
-				"code": "PERMANENT",
-				"type": "contract"
-			}
-		],
-		"original": "Permanent",
-		"textDescription": "Permanent"
-	},
-	"salary": {
-		"original": "£45,000 - £47,500",
-		"textDescription": "£45,000 - £47,500",
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"minValue": 45000,
-		"maxValue": 47500
 	},
 	"meta": {
 		"patternName": "ld+json",
@@ -74,7 +57,7 @@
 	"applicationType": "link",
 	"shortDescription": "The opportunity Are you an experienced UX Designer? Do you have a strong technical skill set, able to create exceptional digital customer experiences that deliver value and impact quickly? We're'",
 	"status": "LIVE",
-	"permalink": "/jobs/1303/ux-designer",
+	"permalink": "/jobs/1303/senior-ux-designer-remote",
 	"layout": "jobs/individual"
 }
 ---
