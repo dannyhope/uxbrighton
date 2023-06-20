@@ -20,19 +20,30 @@
 
 <script>
   (function() {
-    // LinkedIn Insight Tracker events...
-    let linkedInTracker = (function () {
+    // Social media channel tracker events...
+    let socialMediaTracker = (function () {
 
-      function Constructor (elem, id) {
+      function Constructor (channel, elem, id) {
         const buttons = Array.from(document.querySelectorAll(elem))
-        // console.log('🚀 ~ Constructor ~ buttons', buttons)
+        console.log('🚀 ~ Constructor ~ buttons', buttons)
 
         buttons.forEach(button => {
           button.addEventListener('click', event => {
-            // console.log('🚀 ~ Constructor ~ event:', event)
+            console.log('🚀 ~ Constructor ~ event:', event)
 
-            window.lintrk('track', { conversion_id: id })
-            // console.log('🚀 ~ Constructor ~ id:', id)
+            // Check if channel is twitter or linkedin and fire appropriate event code snippet (or both)
+            switch (channel) {
+              case 'twitter':
+                twq('event', id, {});
+                console.log('🚀 ~ Constructor ~ twitter ~ id:', id);
+                break;
+              case 'linkedin':
+                window.lintrk('track', { conversion_id: id });
+                console.log('🚀 ~ Constructor ~ linkedin ~ id:', id);
+                break;
+              default:
+                break;
+            }
           })
         })
       }
@@ -41,11 +52,13 @@
 
     })();
 
-    // This instance is looking for any `conference-2023` ticket buttons on a page that have been clicked.
-    let buttonBuyTicket2023 = new linkedInTracker('[data-buy-ticket="conference-2023"]', 10371226)
+    // This instance is looking for any `conference-2023` ticket buttons on a page that have been clicked. (LinkedIn)
+    let buttonBuyTicket2023_linkedIn = new socialMediaTracker('linkedin', '[data-buy-ticket="conference-2023"]', 10371226)
+    // This instance is looking for any email subscribe buttons on the 'jobs' page that have been clicked. (LinkedIn)
+    let buttonEmailSubscribeJobsPage_linkedIn = new socialMediaTracker('linkedin', '[data-email-subscribe="jobs-page"]', 11356706)
 
-    // This instance is looking for any email subscribe buttons on the 'jobs' page that have been clicked.
-    let buttonEmailSubscribeJobsPage = new linkedInTracker('[data-email-subscribe="jobs-page"]', 11356706)
+    // This instance is looking for any email subscribe buttons on the 'jobs' page that have been clicked. (Twitter)
+    let buttonEmailSubscribeJobsPage_twitter = new socialMediaTracker('twitter', '[data-email-subscribe="jobs-page"]', 'tw-of98s-ofawp')
 
   })();
 </script>
