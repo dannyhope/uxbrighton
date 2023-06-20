@@ -4,20 +4,21 @@
 	"shortId": "ZZVLej4t",
 	"uuid": "de759115-690c-47ca-9390-47ef176740a9",
 	"title": {
-		"original": "UI / UX Designer (Volunteer Role)",
-		"textDescription": "User Interface / User Experience Designer",
-		"urlSlug": "ui-ux-designer-volunteer-role",
+		"original": "Senior Product Designer",
+		"textDescription": "Senior Product Designer",
+		"urlSlug": "senior-product-designer",
 		"inferred": {
-			"canonicalTitle": "UI / UX Designer",
-			"expandedTitle": "User Interface / User Experience Designer",
+			"canonicalTitle": "Senior Product Designer",
+			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"User Interface Designer",
-				"User Experience Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Web Designer"
+				"Senior Product Developer",
+				"Senior Product Architect",
+				"Senior Product Manager",
+				"Senior UX Designer",
+				"Senior UI Designer"
 			],
-			"seniortyLevel": 3
+			"seniorty": "Senior",
+			"seniortyLevel": 4
 		}
 	},
 	"postedDate": "2023-06-11T00:00:00.000Z",
@@ -46,8 +47,19 @@
 		"shortId": "8CUF9SLs",
 		"uuid": "ce50845b-683b-465a-84e3-cb80c9c50434"
 	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
+	},
 	"salary": {
-		"original": "£75,000-£90,000",
+		"original": "£75,000 - £90,000",
 		"textDescription": "£75,000 - £90,000",
 		"currencyCode": "GBP",
 		"currencySymbol": "£",
@@ -64,7 +76,7 @@
 	"applicationType": "link",
 	"shortDescription": "We're' looking for senior designer excited to design and build a world-class- DesignOps product We are a \"remote-first-\" company and there's' no requirement for anyone to come into the zeroheight",
 	"status": "LIVE",
-	"permalink": "/jobs/1298/ui-ux-designer-volunteer-role",
+	"permalink": "/jobs/1298/senior-product-designer",
 	"layout": "jobs/individual"
 }
 ---
