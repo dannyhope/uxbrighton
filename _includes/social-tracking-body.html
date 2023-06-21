@@ -20,32 +20,42 @@
 
 <script>
   (function() {
-    // LinkedIn Insight Tracker events...
-    let linkedInTracker = (function () {
+    // Creating a socialMediaTracker module
+    let socialMediaTracker = (function() {
 
-      function Constructor (elem, id) {
-        const buttons = Array.from(document.querySelectorAll(elem))
-        // console.log('🚀 ~ Constructor ~ buttons', buttons)
+      // Constructor function for creating instances of socialMediaTracker
+      function Constructor(channel, elem, id) {
+        // Selecting all buttons based on the provided element selector
+        const buttons = Array.from(document.querySelectorAll(elem));
 
+        // Attaching click event listeners to each button
         buttons.forEach(button => {
           button.addEventListener('click', event => {
-            // console.log('🚀 ~ Constructor ~ event:', event)
 
-            window.lintrk('track', { conversion_id: id })
-            // console.log('🚀 ~ Constructor ~ id:', id)
-          })
-        })
+            // Handling different social media channels
+            switch (channel) {
+              case 'twitter':
+                // Tracking event using the Twitter pixel
+                twq('event', id, {});
+                break;
+              case 'linkedin':
+                // Tracking event using the LinkedIn pixel
+                window.lintrk('track', { conversion_id: id });
+                break;
+              default:
+                // No action for other channels
+                break;
+            }
+          });
+        });
       }
 
       return Constructor;
-
     })();
 
-    // This instance is looking for any `conference-2023` ticket buttons on a page that have been clicked.
-    let buttonBuyTicket2023 = new linkedInTracker('[data-buy-ticket="conference-2023"]', 10371226)
-
-    // This instance is looking for any email subscribe buttons on the 'jobs' page that have been clicked.
-    let buttonEmailSubscribeJobsPage = new linkedInTracker('[data-email-subscribe="jobs-page"]', 11356706)
-
+    // Creating instances of socialMediaTracker for different buttons and channels
+    let buttonBuyTicket2023_linkedIn = new socialMediaTracker('linkedin', '[data-buy-ticket="conference-2023"]', 10371226);
+    let buttonEmailSubscribeJobsPage_linkedIn = new socialMediaTracker('linkedin', '[data-email-subscribe="jobs-page"]', 11356706);
+    let buttonEmailSubscribeJobsPage_twitter = new socialMediaTracker('twitter', '[data-email-subscribe="jobs-page"]', 'tw-of98s-ofawp');
   })();
 </script>
