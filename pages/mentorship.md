@@ -52,7 +52,7 @@ In the mean time you can join our [\#Mentorship](https://uxbri.slack.com/channel
 
 **11 July 2023**: Applications o﻿pen. Add [reminder](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&tmsrc=anniemarie%40uxbri.org) to my calendar. <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&amp;tmsrc=anniemarie%40uxbri.org"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>  
 
-**8 August 2023:** M﻿entorship Speed Matching event
+**8 August 2023:** [M﻿entorship Speed Matching event](https://uxbri.org/mentorship-speed-matching/)
 
 **September 2023**: S﻿uccessful applicants contacted
 
