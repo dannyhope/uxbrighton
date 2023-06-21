@@ -1,6 +1,6 @@
 (function() {
   // Google Apps Script URL. This is the URL of the Google Apps Script that is deployed as a web app.
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxz5e41CnJ105MyEm6KM98Jae9Gphr5qQHnsQr6Dmi-kGWJUcOtoE6E0xoFXA06FRmM/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwrJuhu3XR2qRSErUFpWHwNcyRzcAWvKavJeUeEjM9PXlVGggLkW8VY5LNd2iQDPCJ7/exec';
 
   // Function to add an event listener to the document for email list input
   function addEmailListListener() {
