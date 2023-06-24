@@ -4,41 +4,39 @@
 	"shortId": "56k8yvdS",
 	"uuid": "0b54a05e-bfe3-4d9c-92f2-20da7b08b564",
 	"title": {
-		"original": "Lead Product designer",
-		"textDescription": "Lead Product Designer",
-		"urlSlug": "lead-product-designer",
+		"original": "User Researcher",
+		"textDescription": "User Researcher",
+		"urlSlug": "user-researcher",
 		"inferred": {
-			"canonicalTitle": "Lead Product Designer",
-			"expandedTitle": "Lead Product Designer",
+			"canonicalTitle": "User Researcher",
+			"expandedTitle": "User Researcher",
 			"similiarTitles": [
-				"Lead Product Developer",
-				"Lead Product Architect",
-				"Lead Product Manager",
-				"Lead Product Strategist",
-				"Lead Product Analyst"
+				"User Experience Researcher",
+				"Usability Researcher",
+				"User Interface Researcher",
+				"User Research Analyst",
+				"User Research Manager"
 			],
-			"seniorty": "Lead",
-			"seniortyLevel": 5
+			"seniortyLevel": 3
 		}
 	},
 	"postedDate": "2023-06-16T00:00:00.000Z",
 	"closedDate": "2023-07-16T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Remote, Kings Langley, Hertfordshire",
-		"textDescription": "Remote, Kings Langley",
+		"original": "Location: Hybrid – Wednesday & Thursday at our London office",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
-				"textDescription": "Kings Langley",
-				"locality": "Kings Langley",
-				"region": "Hertfordshire",
+				"textDescription": "London",
+				"locality": "London",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.717,
-				"longitude": -0.521
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
 		],
-		"workplace": "FULLY_REMOTE"
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Renewable Energy Systems Ltd",
@@ -47,6 +45,17 @@
 		"id": 730,
 		"shortId": "0XM9vQew",
 		"uuid": "24819e17-9e80-4076-a41d-ae841ef2aab9"
+	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"meta": {
 		"patternName": "ld+json, jobvite",
@@ -58,7 +67,7 @@
 	"applicationType": "link",
 	"shortDescription": "Do you want to work to make Power for Good? We're' the world's' largest independent renewable energy company. We're' guided by a simple yet powerful vision: to create a future where everyone has",
 	"status": "LIVE",
-	"permalink": "/jobs/1306/lead-product-designer",
+	"permalink": "/jobs/1306/user-researcher",
 	"layout": "jobs/individual"
 }
 ---
