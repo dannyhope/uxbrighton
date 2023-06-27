@@ -4,21 +4,20 @@
 	"shortId": "3Lu4A7q1",
 	"uuid": "ed80989b-258d-467c-a179-67dfe576df66",
 	"title": {
-		"original": "Lead UX Architect",
-		"textDescription": "Lead User Experience Architect",
-		"urlSlug": "lead-ux-architect",
+		"original": "UX Designer",
+		"textDescription": "User Experience Designer",
+		"urlSlug": "ux-designer",
 		"inferred": {
-			"canonicalTitle": "Lead UX Architect",
-			"expandedTitle": "Lead User Experience Architect",
+			"canonicalTitle": "UX Designer",
+			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
-				"Lead User Interface Architect",
-				"Lead User Interface Designer",
-				"Lead User Experience Designer",
-				"Lead User Interface Engineer",
-				"Lead User Experience Engineer"
+				"User Interface Designer",
+				"Interaction Designer",
+				"Visual Designer",
+				"Information Architect",
+				"Content Strategist"
 			],
-			"seniorty": "Lead",
-			"seniortyLevel": 5
+			"seniortyLevel": 3
 		}
 	},
 	"postedDate": "2023-05-30T00:00:00.000Z",
@@ -47,17 +46,27 @@
 		"shortId": "u45ke14E",
 		"uuid": "668e16d7-4a29-4f7b-ac24-7d46869e1fff"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-05-30T05:01:55.632Z",
-		"source": "https://questdb.io/careers/ux-designer/"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			},
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent, Full-time",
+		"textDescription": "Full-time, Permanent"
 	},
 	"applicationUri": "https://questdb.bamboohr.com/careers/33",
 	"applicationType": "link",
 	"shortDescription": "About QuestDB We are building an open source time-series- database focused on performance and simplicity. QuestDB is used to store, process and analyze time-series- data in real-time- across a wide",
 	"status": "LIVE",
-	"permalink": "/jobs/1286/lead-ux-architect",
+	"permalink": "/jobs/1286/ux-designer",
 	"layout": "jobs/individual"
 }
 ---

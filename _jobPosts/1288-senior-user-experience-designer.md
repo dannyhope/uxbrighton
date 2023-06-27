@@ -4,18 +4,18 @@
 	"shortId": "4kDnSZE6",
 	"uuid": "50189154-debc-4212-b2f0-51001da37ebc",
 	"title": {
-		"original": "Senior Product Designer",
-		"textDescription": "Senior Product Designer",
-		"urlSlug": "senior-product-designer",
+		"original": "Senior User Experience Designer",
+		"textDescription": "Senior User Experience Designer",
+		"urlSlug": "senior-user-experience-designer",
 		"inferred": {
-			"canonicalTitle": "Senior Product Designer",
-			"expandedTitle": "Senior Product Designer",
+			"canonicalTitle": "Senior User Experience Designer",
+			"expandedTitle": "Senior User Experience Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
-				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior User Interface Designer",
+				"Senior Interaction Designer",
+				"Senior Visual Designer",
+				"Senior UX Researcher",
+				"Senior UX Strategist"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -44,17 +44,22 @@
 		"shortId": "408TD7v4",
 		"uuid": "52830ccf-1d3f-4501-97f7-3486cc6fd965"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-06-01T07:12:20.420Z",
-		"source": "https://www.farmerconnect.com/jobs"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://www.farmerconnect.com/jobs",
 	"applicationType": "link",
 	"shortDescription": "Job Description   farmer connect delivers end-to-end-- traceability across complex food and agriculture supply chains. We aim to help supply chains evolve into a collaborative data-driven- model,",
 	"status": "LIVE",
-	"permalink": "/jobs/1288/senior-product-designer",
+	"permalink": "/jobs/1288/senior-user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---

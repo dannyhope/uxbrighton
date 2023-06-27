@@ -4,21 +4,21 @@
 	"shortId": "ydM76RJ0",
 	"uuid": "895b42f2-8b26-4726-9203-87adfb494e43",
 	"title": {
-		"original": "Senior User Experience Designer",
-		"textDescription": "Senior User Experience Designer",
-		"urlSlug": "senior-user-experience-designer",
+		"original": "Lead UX Architect",
+		"textDescription": "Lead User Experience Architect",
+		"urlSlug": "lead-ux-architect",
 		"inferred": {
-			"canonicalTitle": "Senior User Experience Designer",
-			"expandedTitle": "Senior User Experience Designer",
+			"canonicalTitle": "Lead UX Architect",
+			"expandedTitle": "Lead User Experience Architect",
 			"similiarTitles": [
-				"Senior User Interface Designer",
-				"Senior Interaction Designer",
-				"Senior Visual Designer",
-				"Senior Product Designer",
-				"Senior UX Researcher"
+				"Lead User Interface Architect",
+				"Lead User Experience Designer",
+				"Lead User Interface Designer",
+				"Lead User Experience Researcher",
+				"Lead User Interface Researcher"
 			],
-			"seniorty": "Senior",
-			"seniortyLevel": 4
+			"seniorty": "Lead",
+			"seniortyLevel": 5
 		}
 	},
 	"postedDate": "2023-05-30T00:00:00.000Z",
@@ -47,17 +47,22 @@
 		"shortId": "J8z6qHEl",
 		"uuid": "6a083033-ade9-4232-927e-23ac1b36318a"
 	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2023-05-30T05:41:07.480Z",
-		"source": "https://jobs.lever.co/ion/8893f878-0c14-4dea-ac0c-0b027abc37b4?lever-origin=applied&lever-source%5B%5D=Indeed"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			}
+		],
+		"original": "Full-time",
+		"textDescription": "Full-time"
 	},
 	"applicationUri": "https://jobs.lever.co/ion/8893f878-0c14-4dea-ac0c-0b027abc37b4/apply",
 	"applicationType": "link",
 	"shortDescription": "The Role We are looking for a talented Lead UX Architect to join our User Experience Design team. You are an expert in user centered design, motivated and enjoy learning new concepts in complex",
 	"status": "LIVE",
-	"permalink": "/jobs/1287/senior-user-experience-designer",
+	"permalink": "/jobs/1287/lead-ux-architect",
 	"layout": "jobs/individual"
 }
 ---

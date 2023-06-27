@@ -15,7 +15,7 @@
 				"Usability Researcher",
 				"User Interface Researcher",
 				"User Research Analyst",
-				"User Research Manager"
+				"User Research Consultant"
 			],
 			"seniortyLevel": 3
 		}
@@ -24,19 +24,19 @@
 	"closedDate": "2023-07-10T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Remote, London",
-		"textDescription": "Remote, London",
+		"original": "Hybrid, London",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
 				"textDescription": "London",
 				"locality": "London",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.509865,
-				"longitude": -0.118092
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
 		],
-		"workplace": "FULLY_REMOTE"
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Rightmove",
@@ -56,12 +56,6 @@
 		],
 		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json, bamboohr",
-		"patternType": "default, system",
-		"date": "2023-06-10T06:28:33.113Z",
-		"source": "https://rightmove.bamboohr.com/careers/673?source=indeed&src=indeed&postedDate=2023-06-09"
 	},
 	"applicationUri": "https://rightmove.bamboohr.com/careers/673",
 	"applicationType": "link",

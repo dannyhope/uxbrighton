@@ -4,18 +4,18 @@
 	"shortId": "H95oKRL4",
 	"uuid": "382105f2-59c2-42a3-825b-69dec7a2ffae",
 	"title": {
-		"original": "Senior UX / Product Designer",
-		"textDescription": "Senior User Experience / Product Designer",
-		"urlSlug": "senior-ux-product-designer",
+		"original": "Senior User Experience Designer",
+		"textDescription": "Senior User Experience Designer",
+		"urlSlug": "senior-user-experience-designer",
 		"inferred": {
-			"canonicalTitle": "Senior UX / Product Designer",
-			"expandedTitle": "Senior User Experience / Product Designer",
+			"canonicalTitle": "Senior User Experience Designer",
+			"expandedTitle": "Senior User Experience Designer",
 			"similiarTitles": [
 				"Senior User Interface Designer",
 				"Senior Interaction Designer",
 				"Senior Visual Designer",
-				"Senior Product Manager",
-				"Senior Product Strategist"
+				"Senior UX Researcher",
+				"Senior UX Strategist"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -46,17 +46,35 @@
 		"shortId": "OWyGf376",
 		"uuid": "ad947354-45ba-4433-8663-167037aa6d3a"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-06-05T13:34:14.415Z",
-		"source": "https://port.engageats.co.uk/ViewVacancyV2.aspx?enc=IDP2UMgN4EfjHLASuriI8dVT6GMuoZYHNMqADwQwX0hxzvQxuSslWVTD5T+c89jaOB3jS/jtIE18PPS57HOH18Ax6Zjeh1wT1qG0irc/LOObMynV7IJwdsigI0ITH0Yu"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			},
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent, Full-time",
+		"textDescription": "Full-time, Permanent"
+	},
+	"salary": {
+		"original": "£38,474 - £41,931",
+		"textDescription": "£38,474 - £41,931",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 38474,
+		"maxValue": 41931
 	},
 	"applicationUri": "https://port.engageats.co.uk/RegistrationFormV2.aspx?enc=mEgrBL4XQK0+ld8aNkwYmJKj/QjH5x1vRSDnkNb5gSA4xnjL7EHOUHK+hr4/flIMSN0iEZIGX4KVOdNrJyW4B1zO0VVe1bqWCWuyvbem1C+7iU1eNo04FeUqCh+Nft1QVflKCSu6xD37APymYcH7Aw==",
 	"applicationType": "link",
 	"shortDescription": "Interview date: 12 July 2023  The University of Portsmouth is an ambitious institution with a track record of success. One of only four universities in the south east of England to achieve a Gold",
 	"status": "LIVE",
-	"permalink": "/jobs/1292/senior-ux-product-designer",
+	"permalink": "/jobs/1292/senior-user-experience-designer",
 	"layout": "jobs/individual"
 }
 ---
