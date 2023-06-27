@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Product Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
 				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -25,7 +25,7 @@
 	"closedDate": "2023-07-27T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, England, United Kingdom",
+		"original": "London",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -33,8 +33,8 @@
 				"locality": "London",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.509865,
-				"longitude": -0.118092
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
 		]
 	},
@@ -54,14 +54,8 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2023-06-27T10:34:06.996Z",
-		"source": "https://apply.workable.com/matchesfashion/j/341B637A08/"
 	},
 	"applicationUri": "https://apply.workable.com/matchesfashion/j/341B637A08/apply/",
 	"applicationType": "link",
