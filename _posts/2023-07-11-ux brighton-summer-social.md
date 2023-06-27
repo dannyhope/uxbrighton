@@ -29,6 +29,6 @@ If the weather doesn't cooperate, we'll have a table inside where we can still e
 
 Ben Sauer is a product and design leader, formerly of Babylon Health and Clearleft. He's worked with organisations like the BBC, Pearson, Tesco, and TCS to raise their product game.
 
-He’s been speaking and training people all around the world, with a focus on voice UI for several years; particularly in how to rapidly design conversational experiences. Teams at Amazon and the BBC use his methods, and through O'Reilly, he's trained folks at NASA. He’s also spent many hours at home removing the ridiculous things that his kids have added to Alexa’s shopping list.
-
 <img src="/images/ben-sauer-headshot.jpg" alt="Ben Sauer" class="image-align-right"/>
+
+He’s been speaking and training people all around the world, with a focus on voice UI for several years; particularly in how to rapidly design conversational experiences. Teams at Amazon and the BBC use his methods, and through O'Reilly, he's trained folks at NASA. He’s also spent many hours at home removing the ridiculous things that his kids have added to Alexa’s shopping list.
