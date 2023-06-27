@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: "Summer Social and author Meet & Greet "
+title: "Summer social author meet-and-greet "
 description: The UX Brighton summer social is an evening event, bringing
   together UX professionals and students.
 social-image: /images/brighton-music-hall.png
