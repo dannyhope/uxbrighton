@@ -11,7 +11,7 @@ venue: Brighton Music Hall
 ticket:
   state: Ticketed
   price: Free
-  link: https://www.tickettailor.com/events/uxbrighton/921305
+  link: https://www.tickettailor.com/checkout/view-event/id/2389489/chk/a08f/?modal_widget=true&widget=true
 upcoming-teaser:
   bg-image: /images/brighton-music-hall.png
 conference: false
