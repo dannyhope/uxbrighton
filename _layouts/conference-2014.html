@@ -9,12 +9,15 @@
 	{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
-	<script src="{{ relative }}2014/legacy-assets/js/modernizr.js"></script> 
-	<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> 
+  <!-- Canonical -->
+  <link rel="canonical" href="https://uxbri.org/2014">
+
+	<script src="{{ relative }}2014/legacy-assets/js/modernizr.js"></script>
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script>!window.jQuery && document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')</script>
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>	
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="canonical" href="/2014/" />
 	<link rel="stylesheet" media="all"			href="{{ relative }}2014/legacy-assets/styles/global.css">
 	<link rel="stylesheet" media="all"			href="{{ relative }}2014/style/common.css">
@@ -228,7 +231,7 @@
 			<h3><a href="#ben">Ben Sauer</a></h3>
 			<span>
 				<h4>Design is a Statement of Value: From Hume to Home</h4>
-				<p><strong>Like many things we take for granted, the concepts of evidence and science emerged before our time. But where do these ideas come from? What came before? What does it mean to be empirical, and what can designers learn from one of its founding fathers, David Hume?</strong></p> 
+				<p><strong>Like many things we take for granted, the concepts of evidence and science emerged before our time. But where do these ideas come from? What came before? What does it mean to be empirical, and what can designers learn from one of its founding fathers, David Hume?</strong></p>
 			</span>
 			<p>After graduating with an English degree, Ben busied himself in the world of web development. It turns out that the collision of humanities and engineering is a great foundation for a career in UX design.</p>
 			<p>He works at <a href="http://clearleft.com">Clearleft</a>, helping organisations such as the <strong>BBC</strong>, <strong>UNICEF</strong>, and the <strong>Wellcome Trust</strong>.</p>
@@ -270,7 +273,7 @@
 			</span>
 			<p><strong>Why the blurry portrait?</strong> The sensitive nature of Martin’s work means we aren’t allowed to show his face! Intrigued? Read on&hellip;</p>
 			<p>Martin is a psychologist and engineer who specialises in the investigation and prevention of human error.</p>
-			<p>He founded the human factors group at the University of Sussex, which successfully transferred into the science park, 10 years ago, to become User Perspective Ltd. Now the UK’s leading human factors group for transport and security.</p>			
+			<p>He founded the human factors group at the University of Sussex, which successfully transferred into the science park, 10 years ago, to become User Perspective Ltd. Now the UK’s leading human factors group for transport and security.</p>
 			<p>User Perspective has completed almost 500 projects and investigations to date. Notable work has included: time in Paris for Lord Steven’s Operation Paget, where the team investigated driver error and eye witness reliability; the creation (for HM Government) of guides, training and assessment tools for security control rooms; for international organisations and friendly governments, the enhancement of security screening methods at airports.</p>
 			<p>The group works across many government departments and FTSE100 companies. Work encompasses rail, marine, road, and aviation markets</p>
 			<p>Martin maintains his knowledge by acting as a government auditor for research funding bodies, lecturing at several universities – including The Royal College of Art, and is ethics and technical advisor / reviewer to many organisations and scientific journals.</p>
@@ -307,7 +310,7 @@
 				<h4>When Science Can’t Help</h4>
 				<p>Andrew Clarke is a designer at <a href="http://stuffandnonsense.co.uk">Stuff and Nonsense</a>, author and speaker who’s known for his design work, books, conference presentations, and contributions to the internet community. Jeffrey Zeldman (the Godfather of web standards) once called him a “triple talented bastard.” If you know of Jeffrey, you’ll know how happy that made him. Over the last sixteen years, he has made designs for amazing clients and written two books, <a href="http://stuffandnonsense.co.uk/buy/transcendingcss">Transcending CSS</a> and <a href="http://stuffandnonsense.co.uk/buy/hardboiledwebdesign">Hardboiled Web Design</a>. Andrew has given over 50 conference presentations and hosted workshops and training events for other web professionals all over the world.</p>
 			<p><a href="https://twitter.com/Malarkey">@Malarkey</a></p>
-			</span>	
+			</span>
 		</li>
 		<li class="admin">
 			<div class="identifiers">
@@ -322,7 +325,7 @@
 				<p class="speakerphoto"><img src="{{ relative }}2014/legacy-assets/latestbar.jpg" alt="Latest Music Bar"></p>
 			</div>
 			<h3><a href="#party">Party</a></h3>
-			
+
 			<p>The after party will be at the Latest Music Bar<br />
 			14-17 Manchester Street<br />
 			Brighton<br />
@@ -353,7 +356,7 @@
 	<!-- <div class="alpha">
 		<h3>Alpha sponsors</h3>
 		<div class="sponsor-logo">
-			
+
 		</div>
 	</div> -->
 	<div class="alpha">
@@ -381,7 +384,7 @@
 	<div class="gamma">
 		<h3>Gamma Sponsors</h3>
 		<div class="sponsor-logo">
-			
+
 			<a href="http://balsamiq.com/"><img alt="Balsamiq logo" src="{{ relative }}2014/logos/balsamiq-logo-color.svg" class="sponsor-balsamiq" /></a>
 		</div>
 	</div>
@@ -495,31 +498,31 @@
 	          curtain.remove();
 	        }
 	      }
-	    }    
+	    }
 	  }
 	}
 
 	// the map
-	var map = new L.Map('map', {scrollWheelZoom:false, 
+	var map = new L.Map('map', {scrollWheelZoom:false,
 														  layers: MQ.mapLayer(),
 															center: [ 50.823871, -0.138574 ],
             									zoom: 16});
-															
+
   // use the Mapquest Free & Open tile server (no API needed)
-  var layer = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', 
-													{attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>', 
-														subdomains: '1234'}).addTo(map);															
-	
+  var layer = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg',
+													{attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+														subdomains: '1234'}).addTo(map);
+
 	var marker = new L.Marker(new L.LatLng(50.823871, -0.138574));
 	map.addLayer(marker);
-	
+
 	marker.bindPopup('<a href="http://goo.gl/maps/cCk2x" style="text-decoration: none;">Corn Exchange<br />Church Street<br />Brighton<br />BN1 1UE</a>').openPopup();
 
 	</script>
 
 	<!-- Google Analytics -->
 	<script>var _gaq=[['_setAccount','UA-7759112-2'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
-</i>						
+</i>
 
 </body>
 </html>
