@@ -40,7 +40,8 @@
 	},
 	"hiringOrganization": {
 		"name": "Amazon Data Services UK Ltd",
-		"logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+		"logo": "//uxbri.org/jobs/logos/Amazon-logo-2023.svg",
+		"twitter": "AmazonUK",
 		"id": 448,
 		"shortId": "41EwrK5e",
 		"uuid": "7891c910-ecd2-4f0c-81a8-143ecac360bf"
