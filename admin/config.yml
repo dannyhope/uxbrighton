@@ -46,7 +46,7 @@ collections:
         fields:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
-          - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
+          - {label: "Canonical URL", name: "fullurl", hint: "This is the meta *canonical* link. Used by search engines & social channels.", widget: "string", default: "https://uxbri.org/2022"}
           - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
           - {label: "Upcoming event?", name: "upcoming", hint: "Is this conference an upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
           - {label: "Other Event Promotions - (upcoming) - ", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
@@ -633,7 +633,7 @@ collections:
         fields:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
-          - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
+          - {label: "Canonical URL", name: "fullurl", hint: "This is the meta *canonical* link. Used by search engines & social channels.", widget: "string", default: "https://uxbri.org/2023"}
           - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
           - {label: "Upcoming event?", name: "upcoming", hint: "Is this conference an upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
           - {label: "Other Event Promotions - (upcoming) - ", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
@@ -1220,7 +1220,7 @@ collections:
         fields:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
-          - {label: "Page URL", name: "fullurl", hint: "This is *meta* content. Social channels & SEO.", widget: "string", default: "https://uxbri.org"}
+          - {label: "Canonical URL", name: "fullurl", hint: "This is the meta *canonical* link. Used by search engines & social channels.", widget: "string", default: "https://uxbri.org/2024"}
           - {label: "Social media card image", name: "social-image", hint: "This image (card) is used on social media channels when sharing this page. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
           - {label: "Upcoming event?", name: "upcoming", hint: "Is this conference an upcoming event? Defaults to **true**.", widget: "boolean", default: true, required: false}
           - {label: "Other Event Promotions - (upcoming) - ", name: "event-promo-top-of-page", hint: "This event promotion overlays the hero. Choose whether to show or hide. Defaults to **false**.", widget: "boolean", default: false, required: false}
