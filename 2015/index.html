@@ -2,17 +2,20 @@
 <html class="holding">
 <head>
 	<title>UX Brighton 2015</title>
-	
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-<!-- Stylesheets -->	
+  <!-- Canonical -->
+  <link rel="canonical" href="https://uxbri.org/2015">
+
+<!-- Stylesheets -->
 	<link rel="stylesheet" media="all"		href="./style/logo.css">
 	<link rel="stylesheet" media="all"		href="./style/global.css">
 	<link rel="stylesheet" media="all"		href="./style/common.css">
 	<link rel="stylesheet" media="all"		href="./style/holding-page.css">
-	
+
 <!-- Icons -->
 	<link rel="apple-touch-icon"			href="images/icon.png">
 	<link rel="icon" 						href="images/favicon.png">
@@ -20,7 +23,7 @@
 	<!-- or, set /favicon.ico for IE10 win -->
 	<!-- <meta name="msapplication-TileColor"	content="#000">-->
 	<meta name="msapplication-TileImage"	content="images/icon.png">
-	
+
 	<script src="./js/modernizr.js"></script>
 	<script type="text/javascript" src="http://use.typekit.com/ioj2ggz.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -78,7 +81,7 @@
 	</section> -->
 
 	<a href="https://plus.google.com/103231332974856165497" rel="publisher" style="display: none;">Google+</a>
-	
+
 	<iframe src="docs.google.com.html" hidden  width="0" height="0" tabindex="-1" title="empty"></iframe>
 
 <script>
@@ -102,21 +105,21 @@ heading.onmousedown = function (e) {
 container.onmouseup = function (e) {
   if (e.target.nodeName === 'A') {
     window.location = e.target.href;
-  } 
+  }
   return false;
 };
 
 document.documentElement.onmouseup = function (e) {
   if (e.target !== heading) {
     removeHover();
-    container.className = '';     
+    container.className = '';
   }
 };
 
 container.onmousemove = function (e) {
   removeHover();
   if (e.target.nodeName == 'A') {
-    e.target.className = 'hover'; 
+    e.target.className = 'hover';
   }
 };
 </script>
