@@ -1,23 +1,23 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-<title>UX Brighton 2011</title> 
-<meta charset="utf-8" /> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UX Brighton 2011</title>
+<meta charset="utf-8" />
 <link rel="canonical" href="/2011/" />
 	<link rel="icon" 							href="favicon.ico">
-<link rel="apple-touch-icon" href="apple-touch-icon.png"/> 
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 {% include tracking-head.html %}
- 
+
 <!--<link rel="stylesheet" href="http://f.fontdeck.com/s/css/le6LYy5voEXsjcQv1DVPef7oSfw/2010.uxbrighton.org.uk/967.css" type="text/css" /> -->
 <link rel="stylesheet" href="http://f.fontdeck.com/s/css/le6LYy5voEXsjcQv1DVPef7oSfw/aegir.co/7680.css" type="text/css" />
-<link rel="stylesheet" media="all" href="styles/global.css"> 
+<link rel="stylesheet" media="all" href="/2011/styles/global.css">
 
-<!--[if (gt IE 6)&!(IEMobile)]> 
-<link rel="stylesheet" media="all" href="styles/ie.css"> 
+<!--[if (gt IE 6)&!(IEMobile)]>
+<link rel="stylesheet" media="all" href="styles/ie.css">
 <![endif]-->
 
-<!--[if IEMobile]> 
-<link rel="stylesheet" media="all" href="styles/wp7.css"> 
+<!--[if IEMobile]>
+<link rel="stylesheet" media="all" href="styles/wp7.css">
 <![endif]-->
 
 
@@ -26,50 +26,50 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script>
 	$(function() {
-	
+
 		function filterPath(string) {
 			return string
 			.replace(/^\//,'')
 			.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
 			.replace(/\/$/,'');
 		}
-	
+
 		var locationPath = filterPath(location.pathname);
 		var scrollElem = scrollableElement('html', 'body');
-	
+
 		// Any links with hash tags in them (can't do ^= because of fully qualified URL potential)
 		$('a[href*=#]').each(function() {
-	
+
 			// Ensure it's a same-page link
 			var thisPath = filterPath(this.pathname) || locationPath;
 			if (  locationPath == thisPath
 				&& (location.hostname == this.hostname || !this.hostname)
 				&& this.hash.replace(/#/,'') ) {
-	
+
 					// Ensure target exists
 					var $target = $(this.hash), target = this.hash;
 					if (target) {
-	
+
 						// Find location of target
 						var targetOffset = $target.offset().top;
 						$(this).click(function(event) {
-	
+
 							// Prevent jump-down
 							event.preventDefault();
-	
+
 							// Animate to target
 							$(scrollElem).animate({scrollTop: targetOffset}, 200, function() {
-	
+
 								// Set hash in URL after animation successful
 								location.hash = target;
-	
+
 							});
 						});
 					}
 			}
-	
+
 		});
-	
+
 		// Use the first element that is "scrollable"  (cross-browser fix?)
 		function scrollableElement(els) {
 			for (var i = 0, argLength = arguments.length; i <argLength; i++) {
@@ -90,7 +90,7 @@
 		}
 	});
 	</script>
- 
+
 
   <!-- Pre dom-ready scripts -->
     <script>
@@ -98,14 +98,14 @@
       window.q=[]; window.$=function(f){q.push(f);};// Make a queue for $
     </script>
 
-</head> 
+</head>
 <body>
 {% include tracking-body.html %}
-{% include header-mini.html %}	
+{% include header-mini.html %}
 <div id="wrapper">
 <div id="regularWrapper"></div>
 <div id="pageTop">
-<p class="logo"><img src="images/uxbrighton-logo.png" alt="UX Brighton 2011"></p>
+<p class="logo"><img src="/2011/images/uxbrighton-logo.png" alt="UX Brighton 2011"></p>
 <p class="when">Friday 4<sup>th</sup> November &#x2013; 10am-6pm, <a href="#adr">Corn Exchange, Brighton, UK</a></p>
 
 <!--<a href="http://uxbrighton2011.eventbrite.com" class="buytickets">
@@ -124,76 +124,76 @@
 	<div id="speakers">
 	<h2><span>Speakers</span></h2>
 		<ul>
-			<li><a href="#robin-dunbar" class="speaker s1"><img src="images/Robin-by-Aleks-Krotowski.jpg" alt="Photograph of Robin Dunbar" style=""><b><span>Robin Dunbar</span></b></a></li>
-			<li><a href="#andrea-resmini" class="speaker s2"><img src="images/Andrea-by-Robert-Drozd.jpg" alt="Photograph of Andrea Resmini"><b><span>Andrea Resmini</span></b></a></li>
-			<li><a href="#john-mildinhall" class="speaker s3"><img src="images/John-Mildinhall.jpeg" alt="Photograph of John Mildinhall"><b><span>John Mildinhall</span></b></a></li>
-			<li><a href="#simon-johnson" class="speaker s4"><img src="images/simon-crop.jpeg" alt="Photograph of Simon Johnson"><b><span>Simon Johnson</span></b></a></li>
-			<li><a href="#giles-colbourne" class="speaker s5"><img src="images/giles.jpg" alt="Photograph of Giles Colborne"><b><span>Giles Colborne</span></b></a></li>
-			<li><a href="#maria-ana-neves" class="speaker s6"><img src="images/Maria_Ana_Neves_2011.jpg" alt="Photograph of Maria Ana Neves"><b><span>Maria Ana Neves</span></b></a></li>
-			<li><a href="#cennydd-bowles" class="speaker s7"><img src="images/Cennydd-Bowles.jpg" alt="Photograph of Cennydd Bowles"><b><span>Cennydd Bowles</span></b></a></li>
-			<li><a href="#mike-atherton" class="speaker s8"><img src="images/Mike-Atherton.jpg" alt="Photograph of Mike Atherton"><b><span><abbr title="To be announced">Mike Atherton</abbr></span></b></a></li>
+			<li><a href="#robin-dunbar" class="speaker s1"><img src="/2011/images/Robin-by-Aleks-Krotowski.jpg" alt="Photograph of Robin Dunbar" style=""><b><span>Robin Dunbar</span></b></a></li>
+			<li><a href="#andrea-resmini" class="speaker s2"><img src="/2011/images/Andrea-by-Robert-Drozd.jpg" alt="Photograph of Andrea Resmini"><b><span>Andrea Resmini</span></b></a></li>
+			<li><a href="#john-mildinhall" class="speaker s3"><img src="/2011/images/John-Mildinhall.jpeg" alt="Photograph of John Mildinhall"><b><span>John Mildinhall</span></b></a></li>
+			<li><a href="#simon-johnson" class="speaker s4"><img src="/2011/images/simon-crop.jpeg" alt="Photograph of Simon Johnson"><b><span>Simon Johnson</span></b></a></li>
+			<li><a href="#giles-colbourne" class="speaker s5"><img src="/2011/images/giles.jpg" alt="Photograph of Giles Colborne"><b><span>Giles Colborne</span></b></a></li>
+			<li><a href="#maria-ana-neves" class="speaker s6"><img src="/2011/images/Maria_Ana_Neves_2011.jpg" alt="Photograph of Maria Ana Neves"><b><span>Maria Ana Neves</span></b></a></li>
+			<li><a href="#cennydd-bowles" class="speaker s7"><img src="/2011/images/Cennydd-Bowles.jpg" alt="Photograph of Cennydd Bowles"><b><span>Cennydd Bowles</span></b></a></li>
+			<li><a href="#mike-atherton" class="speaker s8"><img src="/2011/images/Mike-Atherton.jpg" alt="Photograph of Mike Atherton"><b><span><abbr title="To be announced">Mike Atherton</abbr></span></b></a></li>
 		</ul>
 	</div> <!-- speakers -->
 </div>
 <div id="pageMiddleWrapper">
 	<div id="pageMiddle">
 		<div id="about">
-			
+
 			<div id="intro">
 				<p class="first">The <span class="org">UX Brighton</span> team are proud to be presenting a User Experience Conference at Brighton Dome’s Corn Exchange.</p>
 				<p>Whether you’re new to the field or you’re a design industry professional, UX Brighton 2011 is a great opportunity to debate, cogitate and learn about User Experience through the lense of various disciplines stretching from anthropology to cross-channel design. </p>
 				<p>Blending provocative thinkers and seasoned professionals from the UK and Europe with speakers from Brighton’s renowned <abbr title="User Experience">UX</abbr> community, we’re here to look at how User Experience design is changing with the times.</p>
 				<p>This is our second event, after last year’s success at UX Brighton 2010.</p>
 			</div>
-			
+
 			<div id="testimonials">
 				<h2>Reviews of 2010</h2>
 				<blockquote>
 				<p>The very first UX Brighton last September was an incredible event that brought together a lot of talented people. The audience was engaged, informed, and entertaining. Rarely have I had so much fun talking to conference participants and I learned a lot, too. Brighton is a helluva cool town! This could well become one of the top three events in the UK - so get your ticket NOW!</p>
 				<h3><span class='reviewer'>Eric Reiss</span>, Speaker at UX Brighton 2010, CEO, <span class="org">The FatDUX Group</span></h3>
 				</blockquote>
-				
+
 				<blockquote>
 				<p>UX Brighton has been a great experience. It's an intimate conference with a great audience and atmosphere. I loved speaking there and felt honored to be amongst a superb selection of speakers.</p>
 				<h3><span class='reviewer'>Jeroen van Geel</span>, Speaker at UX Brighton 2010, Founder &amp; CEO, <span class="org">Johnny Holland</span></h3>
 				</blockquote>
-				
+
 <!--				<blockquote>
 				<p>I found the conference an interesting mix of research and <abbr title="User Experience">UX</abbr> driven inspiration. Outside of the interesting subject matter presentations, my key take-out (as an MD of a design and innovation consultancy) was the energy that is currently powering Interaction Design forward and the positive approach to both the discipline and the market place. I will be there again this year. Looking forward to it.</p>
 				<h3><span class='reviewer'>Matt Pattison</span>, Director and co-founder of <span class="org">7bn, Insight &amp; Strategy</span></h3>
 				</blockquote>-->
-				
+
 				<blockquote>
 				<p>Really enjoyed the day and the wide range of topics covered. Since then I've snuck in plenty of facts from the talks into client meetings and it's helped to improve my <abbr title="User Experience">UX</abbr> skills. Ace.</p>
 				<h3><span class='reviewer'>Ali Pettit</span>, Senior Account Manager, <span class="org">Public Life</span></h3>
 				</blockquote>
-				
+
 				<blockquote>
 				<p>The UX Brighton conference has managed, in its first year, to put together a group of speakers worthy of a much higher ticket price. The atmosphere created was entertaining and exciting to be in. I look forward to the next one.</p>
 				<h3><span class='reviewer'>Martin Gordon</span>, Marketing Designer, <span class="org">dotDigital Group plc</span></h3>
 				</blockquote>
-				
+
 				<blockquote>
 				<p>I found UXBrighton 2010 to be both thought provoking and useful - the speakers were insightful and I had a great time chatting with like-minded UXers. Looking forward to 2011!</p>
 				<h3><span class='reviewer'>Al Power</span>, Web Development Lead, <span class="org">Nominet UK</span></h3>
 				</blockquote>
-				
+
 				<blockquote>
 				<p>This was my first <abbr title="User Experience">UX</abbr> event and will definitely not be my last. I took away plenty of tips that I can apply to web writing, as well as an improved understanding of how my audience thinks and interacts with web pages.</p>
 				<h3><span class='reviewer'>Helen Keevy</span>, Core Copywriting</h3>
 				</blockquote>
-				
+
 				<blockquote>
 				<p>The first UX Brighton was insightful with some great speakers who raised interesting arguments. I look forward to seeing what the next conference has to offer.</p>
 				<h3><span class='reviewer'>Elly Boulboul</span>, Graphic Designer, <span class="org">Strawberry Soup</span></h3>
 				</blockquote>
-				
+
 				<blockquote>
 				<p>I found UX Brighton 2010 to be entertaining and informative - a good combination in my book. UX Brighton is important in championing the needs of users, something often overlooked, yet central to the success of products we make.</p>
-				<h3><span class='reviewer'>Phil Blume</span>, Project Manager, <span class="org">Adaptive Technologies Ltd.</span></h3>										
+				<h3><span class='reviewer'>Phil Blume</span>, Project Manager, <span class="org">Adaptive Technologies Ltd.</span></h3>
 				</blockquote>
 			</div>
-			
+
 			<div id="organisers">
 			<h2>About the organisers</h2>
 			<h3>UX Brighton</h3>
@@ -254,16 +254,16 @@
 	<h3><abbr title="2011-11-04T12:05:00">12.05</abbr> Mike Atherton</h3>
 	<h4>Beyond the Polar Bear</h4>
 <p><strong>Domain-driven design</strong> breaks down complex subjects into the things people usually think about. By intersecting across subjects, links themselves become facts, allowing humans and machines to learn through undirected user journeys. This paradigm shift from labeling boxes to taming rich data is a vital skill for the modern Information Architect.
-</p>	
-<p>	Using case studies from the BBC’s Food and Natural History products, you’ll learn to unlock the potential of your content, create scalable navigation patterns, and achieve simply fabulous SEO. The next web is here. Stop worrying about the perfect taxonomy, and start worrying about making your content findable, pointable, searchable and sharable. 
-</p>	
+</p>
+<p>	Using case studies from the BBC’s Food and Natural History products, you’ll learn to unlock the potential of your content, create scalable navigation patterns, and achieve simply fabulous SEO. The next web is here. Stop worrying about the perfect taxonomy, and start worrying about making your content findable, pointable, searchable and sharable.
+</p>
 <h4>What’s he known for?</h4>
 <p>An enthusiast of evidence-based design and content strategy, <a href="http://reduxd.com/">Mike</a> evangelises to management types on the need to think beyond business drivers and make stuff people actually care about. He has spoken on topics as diverse as Domain Modelling and Disneyland at conferences in the UK and the US.</p>
 
 <h4>The credentials</h4>
 <p>Over 15 years in the business, man and boy, Mike is an independent UX consultant who is passionate about sensible data structures, and fights to ensure user experience extends outside the boundaries of any one website. Lately he's been busy figuring out how the BBC’s archive of factual programming can be used to build popular products.
 </p>
-</div> 
+</div>
 
 <div>
 <h3><abbr title="2011-11-04T12:40:00">12.40</abbr> Break for lunch</h3>
@@ -282,7 +282,7 @@
 </p>
 <p>He’s also involved with the UK Usability scene having spoken at UPA in London and Brighton on several occasions.</p>
 <h4>The credentials</h4>
-<p>Running ethnography projects for Vodafone and Sky. As a usability consultant with Flow Interactive, mainly doing lab-based interviews for clients including <abbr title="Transport for London">TfL</abbr>, The Guardian, Reuters, Law society, Yell, Play.com, SonyBMG, etc. 
+<p>Running ethnography projects for Vodafone and Sky. As a usability consultant with Flow Interactive, mainly doing lab-based interviews for clients including <abbr title="Transport for London">TfL</abbr>, The Guardian, Reuters, Law society, Yell, Play.com, SonyBMG, etc.
 </p>
 
 
@@ -298,7 +298,7 @@
 
 </div>
 
-<div id="john-mildinhall"> 
+<div id="john-mildinhall">
 <h3><abbr title="2011-11-04T14:40:00">14.40</abbr> John Mildinhall</h3>
 <h4>The <abbr title="Return On Investment">ROI</abbr> of design</h4>
 
@@ -384,13 +384,13 @@ addick in 2004 focusing on creating outstanding user experiences and measurable 
 
 <h3 class="xplatinum">Platinum Sponsors</h3>
 <a href="http://www.webnographer.com/">
-<img src="images/Webnographer-logo-395x48.png" alt="Webnographer" /></a>
+<img src="/2011/images/Webnographer-logo-395x48.png" alt="Webnographer" /></a>
 
 <h3 class="">Gold Sponsors</h3>
-<a href="http://www.antetype.com/"><img src="images/antetype-logoA-bright.png" alt="Antetype logo" /></a>
+<a href="http://www.antetype.com/"><img src="/2011/images/antetype-logoA-bright.png" alt="Antetype logo" /></a>
 
 <h3 class="xsilver">Silver Sponsors</h3>
-<a href="http://cubeworks.co.uk/" class="cubeworks"><img src="images/Cubeworks-logo-246x246.png" alt="Cubeworks" /></a>
+<a href="http://cubeworks.co.uk/" class="cubeworks"><img src="/2011/images/Cubeworks-logo-246x246.png" alt="Cubeworks" /></a>
 <!-- <ul class="sponsorlist">
 	<li><a href="platinum1"><img src="http://lorempixum.com/g/150/50/abstract/10" alt="Sponsor"></a></li>
 	<li><a href='mailto:emmeline@uxbrighton.org.uk'>Contact Emmeline regarding Platinum sponsorship</a></li>
@@ -398,12 +398,12 @@ addick in 2004 focusing on creating outstanding user experiences and measurable 
 <h3 class="gold">Gold Sponsors</h3>
 <ul class="sponsorlist">
 	<li><a href="platinum1"><img src="http://lorempixum.com/g/150/50/abstract/10" alt="Sponsor"></a></li>
-	<li><a href='mailto:danny.hope@gmail.com'>Contact Danny regarding Gold sponsorship</a></li>	
+	<li><a href='mailto:danny.hope@gmail.com'>Contact Danny regarding Gold sponsorship</a></li>
 </ul>
 <h3 class="silver">Silver Sponsors</h3>
 <ul class="sponsorlist">
 	<li><a href="platinum1"><img src="http://lorempixum.com/g/150/50/abstract/10" alt="Sponsor"></a></li>
-	<li><a href='mailto:emmeline@uxbrighton.org.uk'>Contact Emmeline regarding Silver sponsorship</a></li>		
+	<li><a href='mailto:emmeline@uxbrighton.org.uk'>Contact Emmeline regarding Silver sponsorship</a></li>
 </ul> -->
 
 
@@ -417,7 +417,7 @@ addick in 2004 focusing on creating outstanding user experiences and measurable 
 		<th class="firstCol">Platinum</th>
 		<th>Gold</th>
 		<th>Silver</th>
-		
+
 	</tr>
 	<tr>
 		<td class="firstCol">£4000</td>
@@ -451,20 +451,20 @@ addick in 2004 focusing on creating outstanding user experiences and measurable 
 
 <div id="supporters">
 <h3>Supporters</h3>
-<a href="http://axure.com"><img src="images/axure-logo-110x55.png" alt="Axure" /></a>
-<a href="http://mozilla.org"><img src="images/mozilla.png" alt="Mozilla" /></a>
-<a href="http://silverbackapp.com/"><img src="images/Silverback-logo-286x316.png" alt="Silverback" /></a>
-<a href="http://optimalworkshop.com"><img src="images/Optimal-Workshop-logo.png" alt="Optimal Workshop" /></a>
-<a href="http://ergosign.de/en/"><img src="images/Ergosign-logo-240x160.jpeg" alt="Ergosign" /></a>
-<a href="http://aegir.me"><img src="http://aegir.me/images/structure/wordmark-home.png" alt="Aegir" /></a>
-<a href="http://www.facemediagroup.co.uk/" title="facemediagroup.co.uk – the full colour print specialists"><img src="images/face-media-group-logo-200x50.png" alt="Face Media Group" /></a>
-<!--<a href="http://techhub.com"><img src="images/Techhub-logo.png" alt="Techhub" /></a>-->
+<a href="http://axure.com"><img src="/2011/images/axure-logo-110x55.png" alt="Axure" /></a>
+<a href="http://mozilla.org"><img src="/2011/images/mozilla.png" alt="Mozilla" /></a>
+<a href="http://silverbackapp.com/"><img src="/2011/images/Silverback-logo-286x316.png" alt="Silverback" /></a>
+<a href="http://optimalworkshop.com"><img src="/2011/images/Optimal-Workshop-logo.png" alt="Optimal Workshop" /></a>
+<a href="http://ergosign.de/en/"><img src="/2011/images/Ergosign-logo-240x160.jpeg" alt="Ergosign" /></a>
+<a href="http://aegir.me"><img src="http://aegir.me//2011/images/structure/wordmark-home.png" alt="Aegir" /></a>
+<a href="http://www.facemediagroup.co.uk/" title="facemediagroup.co.uk – the full colour print specialists"><img src="/2011/images/face-media-group-logo-200x50.png" alt="Face Media Group" /></a>
+<!--<a href="http://techhub.com"><img src="/2011/images/Techhub-logo.png" alt="Techhub" /></a>-->
 </div>
 
 <p><a href="http://twitter.com/uxbri" class="twitter">Follow UXBri on Twitter</a></p>
 
 <div id="adr">
-<p class='map'><h3>The Corn Exchange, Brighton,&nbsp;UK</h3><a href="http://maps.google.com/maps/place?q=The+Corn+Exchange,+Brighton&amp;hl=en&amp;cid=822979347952124883"><img alt="Brighton Dome google maps location" src='images/staticmap.gif'/></a></p>
+<p class='map'><h3>The Corn Exchange, Brighton,&nbsp;UK</h3><a href="http://maps.google.com/maps/place?q=The+Corn+Exchange,+Brighton&amp;hl=en&amp;cid=822979347952124883"><img alt="Brighton Dome google maps location" src='/2011/images/staticmap.gif'/></a></p>
 </div>
 
 
@@ -472,8 +472,8 @@ addick in 2004 focusing on creating outstanding user experiences and measurable 
 <h3>After party</h3>
 <p>After a day spent absorbing new ideas, we’ll head over to the <a href="http://thelatest.co.uk/musicbar/"><span class="org">Latest Music Bar</span></a> (<a href="http://g.co/maps/62f8y">5 minutes from the <span class="org">Corn Exchange</span></a>) to relax and chat about the day’s topics and hopefully make a few new friends in the process.</p>
 
-<img src="images/LMB-downstairs.jpg" alt="" style="margin-bottom: 4rem;"/>
-<!--<img src="images/LMB.jpg" alt="" style="width: 55%; float: right; margin-left: 1rem;"/>-->
+<img src="/2011/images/LMB-downstairs.jpg" alt="" style="margin-bottom: 4rem;"/>
+<!--<img src="/2011/images/LMB.jpg" alt="" style="width: 55%; float: right; margin-left: 1rem;"/>-->
 </div>
 
 
