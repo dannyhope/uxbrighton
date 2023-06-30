@@ -62,9 +62,6 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"tags": [
-		"promoted"
-	],
 	"applicationUri": "https://account.amazon.jobs/en-US/login?job=2377668&relay=%2Fen-US%2Fjobs%2F2377668%2Fapply",
 	"applicationType": "link",
 	"shortDescription": "Futures Design is the advanced concept design and incubation team within Amazon’s’ Devices and Services Design Group (DDG). We are responsible for exploring and defining think (very) big",
