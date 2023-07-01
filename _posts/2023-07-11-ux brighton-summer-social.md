@@ -33,9 +33,9 @@ Ben Sauer is a product and design leader, formerly of Babylon Health and Clearle
 
 He’s been speaking and training people all around the world, with a focus on voice UI for several years; particularly in how to rapidly design conversational experiences. Teams at Amazon and the BBC use his methods, and through O'Reilly, he's trained folks at NASA. He’s also spent many hours at home removing the ridiculous things that his kids have added to Alexa’s shopping list. 
 
-Presenting your design work? Stop boring stakeholders with screen after screen after screen... tell them a story instead! 
-
 <img src="/images/ben-sauer.png" alt="Death by Screens book cover " class="image-align-left"/>
+
+Presenting your design work? Stop boring stakeholders with screen after screen after screen... tell them a story instead! 
 
 The hardest thing to explain about a design, is the elusive ‘why?’ Why is it like that? It’s tough to communicate your design decisions, especially when everyone has an opinion about design.
 
@@ -49,8 +49,16 @@ If you’re in a hurry to present, you can use the suggested presentation struct
 
 <img src="/images/david-harley.webp" alt="Headshot of Dave Harley" class="image-align-right"/>
 
-Dave Harley is an enthusiastic scholar specialising in Human Computer Interaction (HCI) and Cyberpsychology, keenly dissecting the complexities of digital life within the context of aging. His research spans across various digital platforms - online communities, social media, video games, and mobile phones, mainly focusing on the technological adoption by older adults. He's currently exploring their vulnerability to online scams. Intriguingly he investigates our psychological relationship with technology, evaluating how daily digital interactions shape our worldview. Currently, he's researching smartphone dependency and the concept of 'digital mindfulness'. With a rich background in HCI and user experience, he emphasizes the role of personal subjectivity and social context in technology usage. He's a proud PhD holder from the University of Sussex, nurturing interests in supervising projects encompassing digital technology's impact on everyday life, older people's interaction with technology, intergenerational digital contact, digital wellbeing, and digital mindfulness.
+Dave Harley is an enthusiastic scholar specialising in Human Computer Interaction (HCI) and Cyberpsychology, keenly dissecting the complexities of digital life within the context of aging. His research spans across various digital platforms - online communities, social media, video games, and mobile phones, mainly focusing on the technological adoption by older adults. He's currently exploring their vulnerability to online scams. 
+
+Intriguingly he investigates our psychological relationship with technology, evaluating how daily digital interactions shape our worldview. Currently, he's researching smartphone dependency and the concept of 'digital mindfulness'. With a rich background in HCI and user experience, he emphasizes the role of personal subjectivity and social context in technology usage. 
+
+He's a proud PhD holder from the University of Sussex, nurturing interests in supervising projects encompassing digital technology's impact on everyday life, older people's interaction with technology, intergenerational digital contact, digital wellbeing, and digital mindfulness.
 
 <img src="/images/mindfulness-in-a-digital-world.jpg" alt="Mindfulness in a Digital World book cover " class="image-align-left"/>
 
-"Digital Dependencies: A Mindful Perspective" delves into how digital dependencies can disrupt attention and deteriorate attentional control, resulting in stressful and mindless engagements with digital technology. Through qualitative interviews with mindfulness program teachers and students, the book dissects the challenges and opportunities in harmonizing digital interactions with mindful practice. A phenomenological analysis of participants’ digital experiences reveals three different imperatives—digital capabilities, hyper-reality, and algorithms—that can spur unconscious forms of interaction and promote a deviation of attentional control away from the present moment. It concludes by dissecting the implications of these extra-conscious imperatives for understanding digital addiction. Additionally, the book offers guidelines for a digital approach to mindfulness practice that can foster beneficial relationships with digital technology in the future.
+"Digital Dependencies: A Mindful Perspective" delves into how digital dependencies can disrupt attention and deteriorate attentional control, resulting in stressful and mindless engagements with digital technology. 
+
+Through qualitative interviews with mindfulness program teachers and students, the book dissects the challenges and opportunities in harmonizing digital interactions with mindful practice. A phenomenological analysis of participants’ digital experiences reveals three different imperatives—digital capabilities, hyper-reality, and algorithms—that can spur unconscious forms of interaction and promote a deviation of attentional control away from the present moment. 
+
+It concludes by dissecting the implications of these extra-conscious imperatives for understanding digital addiction. Additionally, the book offers guidelines for a digital approach to mindfulness practice that can foster beneficial relationships with digital technology in the future.
