@@ -19,7 +19,7 @@ upcoming: true
 published: true
 seo: true
 ---
-Join us at our Summer Social with Ben Sauer, author of Death by Screens: how to present high-stakes digital design work and live to tell the tale and Dave Harley, author of Mindfulness in a Digital World. Take the opportunity to meet Ben and Dave and learn more about there new books. If you're lucky, you may even win a signed copy. 
+Join us at our Summer Social with Ben Sauer, author of Death by Screens and Dave Harley, author of Mindfulness in a Digital World. Take the opportunity to meet Ben and Dave and learn more about there new books. If you're lucky, you may even win a signed copy. 
 
 During the meet and greet, you'll have the opportunity to learn more about their process, ask questions and gain invaluable insights that can help take your own UX skills to the next level.
 
