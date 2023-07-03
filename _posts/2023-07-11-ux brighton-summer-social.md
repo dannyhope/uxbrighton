@@ -43,8 +43,6 @@ The remedy to this problem isn't what you say about the design, it's the story y
 
 You already know how to design a great looking presentation - Death by Screens covers the not-so-obvious topics: what to say, what to show, in what order, and how to talk about it with confidence.
 
-If you’re in a hurry to present, you can use the suggested presentation structure right away, with a handy checklist at the back of the book for quick reference.
-
 ## [Dave Harley](https://www.linkedin.com/in/dave-harley-9a468a1/) – [Mindfulness in a Digital World](https://link.springer.com/book/10.1007/978-3-031-19407-8#:~:text=About%20this%20book,mindless%20involvement%20with%20digital%20technology)
 
 <img src="/images/david-harley.webp" alt="Headshot of Dave Harley" class="image-align-right"/>
