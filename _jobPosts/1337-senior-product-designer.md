@@ -4,18 +4,18 @@
 	"shortId": "07i6k418",
 	"uuid": "d148df00-3f5a-4b2b-a2bd-5eabe89721b8",
 	"title": {
-		"original": "Senior product designer",
-		"textDescription": "Senior product designer",
+		"original": "Senior Product Designer",
+		"textDescription": "Senior Product Designer",
 		"urlSlug": "senior-product-designer",
 		"inferred": {
-			"canonicalTitle": "Senior product designer",
-			"expandedTitle": "Senior product designer",
+			"canonicalTitle": "Senior Product Designer",
+			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior product engineer",
-				"Senior product architect",
-				"Senior product manager",
-				"Senior product analyst",
-				"Senior product developer"
+				"Senior UX Designer",
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -42,6 +42,7 @@
 	"hiringOrganization": {
 		"name": "bp",
 		"logo": "//uxbri.org/jobs/logos/logo-bp-1.svg",
+		"twitter": "bp_plc",
 		"id": 512,
 		"shortId": "wFpZPUOk",
 		"uuid": "29b72ee5-8d6e-4f1b-a5c0-8bb6c550e5ea"
@@ -54,14 +55,8 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2023-07-03T06:01:34.591Z",
-		"source": "https://bpinternational.wd3.myworkdayjobs.com/bpCareers/job/United-Kingdom---London/Senior-product-designer_RQ037140-1?source=Appcast_Indeed"
 	},
 	"applicationUri": "https://bpinternational.wd3.myworkdayjobs.com/bpCareers/job/United-Kingdom---London/Senior-product-designer_RQ037140-1/apply",
 	"applicationType": "link",
