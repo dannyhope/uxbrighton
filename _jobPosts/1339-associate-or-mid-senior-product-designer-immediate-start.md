@@ -5,17 +5,17 @@
 	"uuid": "88906bfc-1353-435f-a16b-a23ac6abba43",
 	"title": {
 		"original": "Associate or Mid-Senior Product Designer -Immediate Start",
-		"textDescription": "Product Designer",
+		"textDescription": "Associate or Mid-Senior Product Designer",
 		"urlSlug": "associate-or-mid-senior-product-designer-immediate-start",
 		"inferred": {
 			"canonicalTitle": "Product Designer",
-			"expandedTitle": "Product Designer",
+			"expandedTitle": "Associate or Mid-Senior Product Designer",
 			"similiarTitles": [
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Product Analyst",
-				"Product Strategist"
+				"Associate Product Designer",
+				"Mid-Senior Product Designer",
+				"Web Product Designer",
+				"UX Product Designer",
+				"UI Product Designer"
 			],
 			"seniorty": "Associate",
 			"seniortyLevel": 3
@@ -57,13 +57,7 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, successfactors",
-		"patternType": "default, system",
-		"date": "2023-07-04T09:06:43.105Z",
-		"source": "https://job.pccw.com/hkt/job/London-Product-Designer-Associate-or-Mid-Sen-%28London%29-Immediate-Start-LND/939534110/"
-	},
-	"applicationUri": "https://job.pccw.com/talentcommunity/apply/939534110/?locale=en_US",
+	"applicationUri": "https://career10.successfactors.com/careers?company=hktservice",
 	"applicationType": "link",
 	"shortDescription": "We are PCCW Global, one of the world's' leading and award-winning- telecommunications groups, serving millions of people in more than 3,000 cities and 150 countries. Our global experience and",
 	"status": "LIVE",
