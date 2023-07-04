@@ -57,7 +57,7 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"applicationUri": "https://career10.successfactors.com/careers?company=hktservice",
+	"applicationUri": "https://job.pccw.com/hkt/job/London-Product-Designer-Associate-or-Mid-Sen-%28London%29-Immediate-Start-LND/939534110/",
 	"applicationType": "link",
 	"shortDescription": "We are PCCW Global, one of the world's' leading and award-winning- telecommunications groups, serving millions of people in more than 3,000 cities and 150 countries. Our global experience and",
 	"status": "LIVE",
