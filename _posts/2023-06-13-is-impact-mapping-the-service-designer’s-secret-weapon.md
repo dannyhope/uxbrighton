@@ -29,6 +29,8 @@ D﻿rinks and snacks provided. ☕🍕
 
 <div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/3r1O0FGB3rTJ19" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
+[Photos for Impact mapping: the Service Designer’s secret weapon (Flickr)](https://www.flickr.com/photos/uxbrighton/albums/72177720309535337) by Christian Dela Cruz 
+
 ## **Workshop Leaders**
 
 ### [Nicola Pritchard](https://www.linkedin.com/in/nicolapritchard/), Principal Service Designer at cxpartners
