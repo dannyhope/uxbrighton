@@ -19,7 +19,7 @@ upcoming: true
 published: true
 seo: true
 ---
-Join us at our Summer Social with Ben Sauer, author of Death by Screens and Dave Harley, author of Mindfulness in a Digital World. Take the opportunity to meet Ben and Dave and learn more about their new books. If you're lucky, you may even win a signed copy. 
+Join us at our Summer Social with Ben Sauer, author of Death by Screens, Dave Harley, author of Mindfulness in a Digital World and Marianna Orbist, author of Multisensory Experiences. Take the opportunity to meet Ben, Dave and Marianna and learn more about their new books. If you're lucky, you may even win a signed copy. 
 
 During the meet and greet, you'll have the opportunity to learn more about their process, ask questions and gain invaluable insights that can help take your own UX skills to the next level.
 
@@ -60,3 +60,21 @@ He's a proud PhD holder from the University of Sussex, nurturing interests in su
 Through qualitative interviews with mindfulness program teachers and students, the book dissects the challenges and opportunities in harmonizing digital interactions with mindful practice. A phenomenological analysis of participants’ digital experiences reveals three different imperatives—digital capabilities, hyper-reality, and algorithms—that can spur unconscious forms of interaction and promote a deviation of attentional control away from the present moment. 
 
 It concludes by dissecting the implications of these extra-conscious imperatives for understanding digital addiction. Additionally, the book offers guidelines for a digital approach to mindfulness practice that can foster beneficial relationships with digital technology in the future.
+
+## [Marianna Orbist](https://www.linkedin.com/in/marianna-obrist-13481b2/) – [Multisensory Experiences: Where the senses meet technology](https://academic.oup.com/book/31941)
+
+<img src="/images/mobrist.jpg" alt="Headshot of Marianna Orbist" class="image-align-right"/>
+
+Marianna Obrist is Professor of Multisensory Interfaces at UCL (University College London), Department of Computer Science and Deputy Director (Digital Health) for the UCL Institute of Healthcare Engineering. Her research ambition is to establish touch, taste, and smell as interaction modalities in human-computer interaction (HCI), spanning a range of application scenarios, from immersive VR experiences to automotive, and health/wellbeing uses. 
+
+Before joining UCL, Marianna was Professor of Multisensory Experiences at the School of Engineering and Informatics at the University of Sussex, and Marie Curie Fellow at Newcastle University. Marianna is co-founder of [OWidgets LTD](http://ow-smelldigital.com/), a University spin-out that is developing novel digital smell technology. The company’s smell delivery device has been exhibited twice at the World Economic Forum (WEF) in Davos, 2019 and 2020. 
+
+She is a Visiting Professor at the Material Science Research Centre at the Royal College of Art (RCA) in London and was a Visiting Professor at the HCI Engineering Group at MIT CSAIL in summer 2019. Her ongoing research projects include an ERC PoC on [digital smell training](https://cordis.europa.eu/project/id/966774), EU FET on [touchless interfaces for social interaction](https://www.touchlessai.eu/), and a UKRI centre on [textiles circularity](https://www.rca.ac.uk/research-innovation/research-centres/materials-science-research-centre/textiles-circularity-centre/). 
+
+She published over 100 articles, including high impact journals like Nature Scientific Report, and leading HCI journals like ToCHI, IJHCS, and the premier HCI conferences ACM CHI, UIST. An overview of her work was recently published in the popular science book ‘[Multisensory Experiences: where the senses meet technology’](https://global.oup.com/academic/product/multisensory-experiences-9780198849629?cc=gb&lang=en&) by Oxford University Press.
+
+<img src="/images/image-14-.png" alt="Multisensory Experiences book cover" class="image-align-left"/>
+
+Most of our everyday life experiences are multisensory in nature, i.e. they consist of what we see, hear, feel, taste, smell, and much more. Almost any experience, such as eating a meal or going to the cinema, involves a magnificent sensory world. In recent years, many of these experiences have been increasingly transformed through technological advancements such as multisensory devices and intelligent systems. 
+
+This book takes the reader on a journey that begins with the fundamentals of multisensory experiences, moves through the relationship between the senses and technology, and finishes by considering what the future of those experiences may look like, and our responsibility in it. The book seeks to empower the reader to shape his or her own and other people’s experiences by considering the multisensory worlds in which we live. This book is a powerful and personal story about the authors’ passion for, and viewpoint on, multisensory experiences.
