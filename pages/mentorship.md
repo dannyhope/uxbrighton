@@ -20,21 +20,19 @@ U﻿X Brighton’s mentorship programme supports UXers at each stage of their ca
 
 T﻿he mentorship programme is a 9 month scheme designed to support your career growth within the UX community. Whether you're a mentor, mentee or peer mentor it's an opportunity to eradicate impostor syndrome, develop your professional relationships, improve your skills, increase confidence and achieve your career goals. 
 
-U﻿X design consultancy, [cxpartners](https://www.cxpartners.co.uk/) are this year's programme sponsor. 
+U﻿X design consultancy, [cxpartners](https://www.cxpartners.co.uk/) are our 2022 programme sponsor. 
 
 <img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-right"/>
 
-Want to become a mentor? Please email [anniemarie@uxbri.org](anniemarie@uxbri.org). 
-
 ## C﻿ommitment
 
-We ask that you commit to meeting with your mentee or mentor at least 1-hour a month until the end of the programme in April 2023. You can meet virtually or face-to-face. We recommend that mentees set a goal to work towards within the programme, mentors can support mentees to achieve this goal by helping them make a plan, be accountable and asking guiding questions. When considering mentoring it's useful to know the [C's of Great UX Mentorship](https://youtu.be/0tZomurxE0w).
+We ask that you commit to meeting with your mentee or mentor at least 1-hour a month until the end of the 9-month programme. You can meet virtually or face-to-face. We recommend that mentees set a goal to work towards within the programme, mentors can support mentees to achieve this goal by helping them make a plan, be accountable and asking guiding questions. When considering mentoring it's useful to know the [C's of Great UX Mentorship](https://youtu.be/0tZomurxE0w).
 
 ## Get involved
 
-Applications for the 2022 mentorship programme are now closed. Visit this page on 11 July 2023 for more information on applying to take part in UX Brighton’s 2023 mentorship programme.
+[2023 Mentorship Programme applications](https://forms.gle/NWLMMwq4BH2XvWvg9) are now open. To apply to take part in the programme complete the short application form by Sunday 27 August 2023. 
 
-In the mean time you can join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship) channel on Slack. 
+You can also join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship) channel on Slack. 
 
 ## 2022 programme
 
@@ -50,7 +48,7 @@ In the mean time you can join our [\#Mentorship](https://uxbri.slack.com/channel
 
 ## 2023 programme
 
-**11 July 2023**: Applications o﻿pen. Add [reminder](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&tmsrc=anniemarie%40uxbri.org) to my calendar. <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWgzNmo5aWtrdXI3ZDdvMW83Ymw5ajY0MWMgYW5uaWVtYXJpZUB1eGJyaS5vcmc&amp;tmsrc=anniemarie%40uxbri.org"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>  
+**11 July 2023**: [Mentorship applications](https://forms.gle/NWLMMwq4BH2XvWvg9) o﻿pen. 
 
 **8 August 2023:** [M﻿entorship Speed Matching event](https://uxbri.org/mentorship-speed-matching/)
 
