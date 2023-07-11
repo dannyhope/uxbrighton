@@ -15,7 +15,7 @@
 				"Interaction Designer",
 				"Visual Designer",
 				"Information Architect",
-				"Usability Analyst"
+				"Content Strategist"
 			],
 			"seniorty": "VP",
 			"seniortyLevel": 7
@@ -46,13 +46,18 @@
 		"shortId": "c0ZrQG9b",
 		"uuid": "7a03a1cd-3d80-44ef-85e2-8e6a536f3351"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-07-11T09:15:31.573Z",
-		"source": "https://careers.blackrock.com/job/17828541/ux-designer-vp-london-gb/?source=Indeed"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
-	"applicationUri": "https://careers.blackrock.com/job/17828541/ux-designer-vp-london-gb",
+	"applicationUri": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/London-Greater-London/Lending-Tech---VP-Lead-UX-Designer_R230445/apply",
 	"applicationType": "link",
 	"shortDescription": "About this role Our Team Securities Lending manages more than 350 billion in loans and related collateral. Our investment professionals benefit from the resources of a world-class- technology firm",
 	"status": "LIVE",
