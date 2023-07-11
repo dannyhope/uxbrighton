@@ -30,7 +30,7 @@ We ask that you commit to meeting with your mentee or mentor at least 1-hour a m
 
 ## Get involved
 
-[2023 Mentorship Programme applications](https://forms.gle/NWLMMwq4BH2XvWvg9) are now open. To apply to take part in the programme complete the short application form by Sunday 27 August 2023. 
+[2023 Mentorship Programme applications](https://forms.gle/NWLMMwq4BH2XvWvg9) are now open. To apply to take part in the programme complete the [application form](https://forms.gle/NWLMMwq4BH2XvWvg9) by Sunday 27 August 2023. 
 
 You can also join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship) channel on Slack. 
 
