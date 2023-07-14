@@ -15,7 +15,7 @@ ticket:
 upcoming-teaser:
   bg-image: /images/brighton-music-hall.png
 conference: false
-upcoming: true
+upcoming: false
 published: true
 seo: true
 ---
