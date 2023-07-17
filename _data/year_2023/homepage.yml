@@ -276,6 +276,43 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/richardtrickybassett/
           bio-title: About Tricky
+      - talk-info:
+          talk-time: ""
+          talk-title: Unleash your inner innovator
+          talk-summary: >-
+            Design is about creating change. As designers, we offer the most
+            value when we’re shaping problems to tackle and not just shipping
+            features. However, in many organisations, it is easy for designers
+            to get boxed into a pure delivery role merely adding polish at the
+            end of the process. 
+
+
+            Innovation is a mindset and a set of skills that with a little effort can be developed. So stop waiting to be struck by that eureka moment. Stop waiting to be asked to head up an innovation project. Instead, take the initiative and introduce design-led innovation techniques to your workplace and your work practice.
+
+
+            In this talk, Chris will share some practical strategies for designers to develop their inner innovator. With a focus on looking at what’s in your gift to change, starting small but thinking big, and embracing constraints. He’ll help you to kickstart a move in your organisation to use design to identify, investigate and incubate innovative ideas.
+        name: Chris How
+        thumbnail: /images/chris-how.jpeg
+        anchor: Chris-How
+        speaker-bio:
+          bio-title: About Chris
+          bio-summary: >-
+            Chris is the Head of Experience Design at Clearleft, an
+            award-winning design transformation agency based in Brighton. He
+            helps clients create meaningful audience-centred digital products
+            and services through design leadership, strategic thinking, and
+            robust research.
+
+
+            Chris is passionate about using design to improve people’s lives and transform organisations for the better. You can read his thoughts on creating standout digital products and services on the [Clearleft website](http://clearleft.com/thinking).
+
+
+            Chris relishes the chance to learn from and share with the digital design community. He has spoken at conferences across Europe and the USA and is one of the co-organisers of the popular annual un-conference UX Camp Brighton.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/chrishow/
+            - profile-type: website
+              profile-url: https://chrishow101.medium.com/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
