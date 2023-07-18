@@ -12,7 +12,7 @@ ticket:
   link: https://www.tickettailor.com/checkout/view-event/id/2683058/chk/6bd3/?modal_widget=true&widget=true
   price: £12.50
 upcoming-teaser:
-  bg-image: /images/img_3034.jpg
+  bg-image: /images/53022321231_1d59ae67c2_o.jpg
 conference: false
 upcoming: true
 published: true
