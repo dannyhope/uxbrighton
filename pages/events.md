@@ -19,7 +19,7 @@ seo: true
 ---
 
 <!-- Sample links with search parameters -->
-[Mentorship](#mentorship) · [Design](#design) · [Conference](#conference) · [Psychology](#psycho)
+<!-- [Mentorship](#mentorship) · [Design](#design) · [Conference](#conference) · [Psychology](#psycho) -->
 
 ## Upcoming
 
