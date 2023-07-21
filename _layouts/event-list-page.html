@@ -66,7 +66,7 @@
     <style>
       .post-excerpt {
       display:none; }
-    
+
       .archive-nav__search-wrapper {
         padding: 10px 0 0;
         margin: 0 auto;
@@ -84,7 +84,7 @@
         width: 100%;
         padding-left: 36px;
       }
-    
+
     </style>
   <!-- Pre dom-ready scripts -->
     <script>
@@ -122,24 +122,80 @@
       </div>
     </div>
     <div class="overlay__after container bg-white pt5">
-
       {{ content }}
     </div>
   </main>
 
   {% include footer.html %}
 
-  
-
   <!-- Social media analytics -->
   {% include social-tracking-body.html %}
+
+  <!-- Search for events based on filter parameter -->
   <script>
-  var options = {valueNames: [ 'post-excerpt']};
-  var eventList = new List('event-list-filter', options);
-  document.querySelector("#search_events_page").addEventListener("focus", (searchInput) => {
-    var top = searchInput.target.getBoundingClientRect().top + window.scrollY - 100;
-    window.scroll({ top , behavior: "smooth"});
-  })
+  (function() {
+    const options = {valueNames: [ 'post-title', 'post-excerpt']};
+    const eventList = new List('event-list-filter', options);
+
+    // Function to filter the results based on the search parameter
+    function filterResultsBySearchParam(searchParam) {
+      // Loop through all list items and show/hide based on the search parameter
+      eventList.filter((item) => {
+        const title = item.values()['post-title'];
+        const excerpt = item.values()['post-excerpt'];
+
+        return (
+          title.toLowerCase().includes(searchParam) ||
+          excerpt.toLowerCase().includes(searchParam)
+        );
+      });
+    }
+
+    document.querySelector("#search_events_page").addEventListener("focus", (searchInput) => {
+      const top = searchInput.target.getBoundingClientRect().top + window.scrollY - 100;
+      window.scroll({ top , behavior: "smooth"});
+    });
+
+    // Get the search parameter from the URL and apply the filter on page load
+    document.addEventListener("DOMContentLoaded", () => {
+      const urlParams = new URLSearchParams(window.location.hash.slice(1)); // Remove the "#" from the hash
+      const searchParam = urlParams.get("search");
+
+      if (searchParam) {
+        document.querySelector("#search_events_page").value = searchParam;
+        filterResultsBySearchParam(searchParam.toLowerCase());
+      }
+    });
+
+    // Listen for changes in the search input and apply the filter accordingly
+    document.querySelector("#search_events_page").addEventListener("input", (event) => {
+      const searchParam = event.target.value.trim().toLowerCase();
+      filterResultsBySearchParam(searchParam);
+      updateURL(searchParam);
+    });
+
+    // Function to update the URL with the search parameter
+    function updateURL(searchParam) {
+      const url = new URL(window.location.href);
+      url.hash = `search=${searchParam}`;
+      history.replaceState(null, "", url);
+    }
+
+    // Add event listeners to all links on the page
+    const links = document.querySelectorAll("a");
+    links.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const href = link.getAttribute("href");
+        if (href.startsWith("#search=")) {
+          const searchParam = href.replace("#search=", "");
+          updateURL(searchParam);
+          document.querySelector("#search_events_page").value = searchParam;
+          filterResultsBySearchParam(searchParam.toLowerCase());
+          event.preventDefault();
+        }
+      });
+    });
+  })();
   </script>
 </body>
 </html>
