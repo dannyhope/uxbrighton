@@ -18,6 +18,9 @@ redirect_from:
 seo: true
 ---
 
+<!-- Sample links with search parameters -->
+<!-- [Mentorship](#search=mentorship) · [Design](#search=design) · [Conference](#search=conference) · [Psychological](#search=psychological) -->
+
 ## Upcoming
 
 <ul class="event-archive no-list">
@@ -42,7 +45,7 @@ seo: true
   {% if post.upcoming == null or post.upcoming == false %}
   <li>
     <article>
-      <h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
+      <h3 class="post-title"><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
       <p>{{ post.date | date: "%d %B, %Y" }}</p>
       <div class="post-excerpt">{{ post.content | strip_html }}</div>
     </article>
