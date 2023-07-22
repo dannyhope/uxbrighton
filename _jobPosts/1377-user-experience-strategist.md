@@ -8,14 +8,14 @@
 		"textDescription": "User Experience Strategist",
 		"urlSlug": "user-experience-strategist",
 		"inferred": {
-			"canonicalTitle": "UX Strategist",
+			"canonicalTitle": "User Experience Strategist",
 			"expandedTitle": "User Experience Strategist",
 			"similiarTitles": [
 				"User Experience Designer",
 				"User Experience Researcher",
-				"User Interface Designer",
-				"User Interface Developer",
-				"User Interface Researcher"
+				"User Experience Architect",
+				"User Experience Analyst",
+				"User Experience Consultant"
 			],
 			"seniortyLevel": 3
 		}
@@ -24,7 +24,7 @@
 	"closedDate": "2023-08-22T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, England, United Kingdom",
+		"original": "London",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -32,8 +32,8 @@
 				"locality": "London",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.509865,
-				"longitude": -0.118092
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
 		]
 	},
@@ -45,11 +45,16 @@
 		"shortId": "tG0ev0AU",
 		"uuid": "6172d86d-ed97-42f4-9658-9c157be25784"
 	},
-	"meta": {
-		"patternName": "ld+json, greenhouse",
-		"patternType": "default, system",
-		"date": "2023-07-22T10:17:43.701Z",
-		"source": "https://boards.greenhouse.io/ogilvyuk/jobs/4287009005"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			}
+		],
+		"original": "Full-time",
+		"textDescription": "Full-time"
 	},
 	"applicationUri": "https://boards.greenhouse.io/ogilvyuk/jobs/4287009005#app",
 	"applicationType": "link",
