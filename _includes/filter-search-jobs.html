@@ -1,13 +1,13 @@
 <script>
   (function() {
-    // Variables to store the search results
+    // Variables to store the filter search results
     const options = {valueNames: ['job-title', 'job-excerpt']};
-    const eventList = new List('event-list-filter', options);
+    const jobList = new List('job-list-filter', options);
 
     // Function to filter the results based on the search parameter
     function filterResultsBySearchParam(searchParam) {
       // Loop through all list items and show/hide based on the search parameter
-      eventList.filter((item) => {
+      jobList.filter((item) => {
         const title = item.values()['job-title']; // Get the title of the list item
         const excerpt = item.values()['job-excerpt']; // Get the excerpt of the list item
 
@@ -64,7 +64,7 @@
         if (href.startsWith("#")) {
           const searchParam = href.slice(1); // Remove the "#" from the link
           updateURL(searchParam); // Update the URL with the search parameter
-          document.querySelector("#search_events_page").value = searchParam; // Update the search input with the search parameter
+          // document.querySelector("#search_events_page").value = searchParam; // Update the search input with the search parameter
           filterResultsBySearchParam(searchParam.toLowerCase()); // Filter the results based on the search parameter
           event.preventDefault(); // Prevent the default behaviour of the link
         }
