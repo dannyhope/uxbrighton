@@ -1,0 +1,74 @@
+<script>
+  (function() {
+    // Variables to store the search results
+    const options = {valueNames: ['job-title', 'job-excerpt']};
+    const eventList = new List('event-list-filter', options);
+
+    // Function to filter the results based on the search parameter
+    function filterResultsBySearchParam(searchParam) {
+      // Loop through all list items and show/hide based on the search parameter
+      eventList.filter((item) => {
+        const title = item.values()['job-title']; // Get the title of the list item
+        const excerpt = item.values()['job-excerpt']; // Get the excerpt of the list item
+
+        return (
+          title.toLowerCase().includes(searchParam) ||
+          excerpt.toLowerCase().includes(searchParam)
+        );
+      });
+    }
+
+    // Listen for focus on the search input and scroll to the top of the page
+    // document.querySelector("#search_events_page").addEventListener("focus", (searchInput) => {
+    //   const top = searchInput.target.getBoundingClientRect().top + window.scrollY - 100;
+    //   window.scroll({ top , behavior: "smooth"});
+    // });
+
+    // Function to get the search parameter from the URL hash
+    function getSearchParamFromURL() {
+      const hash = window.location.hash; // Get the hash from the URL
+      if (hash.startsWith("#")) {
+        return hash.slice(1); // Remove the "#" from the hash
+      }
+      return ""; // Return an empty string if there is no hash
+    }
+
+    // Apply the filter on page load based on the search parameter in the URL
+    const searchParam = getSearchParamFromURL();
+    // Only apply the filter if there is a search parameter
+    if (searchParam) {
+      // document.querySelector("#search_events_page").value = searchParam;
+      filterResultsBySearchParam(searchParam.toLowerCase());
+    }
+
+    // Listen for changes in the search input and apply the filter accordingly
+    // document.querySelector("#search_events_page").addEventListener("input", (event) => {
+    //   const searchParam = event.target.value.trim().toLowerCase();
+    //   filterResultsBySearchParam(searchParam);
+    //   updateURL(searchParam);
+    // });
+
+    // Function to update the URL with the search parameter
+    function updateURL(searchParam) {
+      const url = new URL(window.location.href); // Get the current URL
+      url.hash = searchParam; // Only set the search term as the URL parameter
+      history.replaceState(null, "", url); // Replace the current URL with the new one
+    }
+
+    // Add event listeners to all links on the page
+    const links = document.querySelectorAll("a");
+    links.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const href = link.getAttribute("href");
+        // Only update the URL if the link is a hash link
+        if (href.startsWith("#")) {
+          const searchParam = href.slice(1); // Remove the "#" from the link
+          updateURL(searchParam); // Update the URL with the search parameter
+          document.querySelector("#search_events_page").value = searchParam; // Update the search input with the search parameter
+          filterResultsBySearchParam(searchParam.toLowerCase()); // Filter the results based on the search parameter
+          event.preventDefault(); // Prevent the default behaviour of the link
+        }
+      });
+    });
+  })();
+</script>
