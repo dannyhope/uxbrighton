@@ -1,8 +1,8 @@
 <script>
   (function() {
     // Variables to store the search results
-    const options = {valueNames: ['post-title', 'post-excerpt']};
-    const eventList = new List('event-list-filter', options);
+    const options = {valueNames: ['post-title', 'post-excerpt']}; // The classes to search for
+    const eventList = new List('event-list-filter', options); // Uses the List.js library to filter the results
 
     // Function to filter the results based on the search parameter
     function filterResultsBySearchParam(searchParam) {

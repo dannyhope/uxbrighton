@@ -1,8 +1,8 @@
 <script>
   (function() {
     // Variables to store the filter search results
-    const options = {valueNames: ['job-title', 'job-excerpt']};
-    const jobList = new List('job-list-filter', options);
+    const options = {valueNames: ['job-title', 'job-excerpt']}; // The classes to search for
+    const jobList = new List('job-list-filter', options); // Uses the List.js library to filter the results
 
     // Function to filter the results based on the search parameter
     function filterResultsBySearchParam(searchParam) {
