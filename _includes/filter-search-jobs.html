@@ -1,0 +1,66 @@
+<script>
+  (function() {
+    // Variables to store the filter search results
+    const options = {valueNames: ['job-text']}; // The classes to search for
+    const jobList = new List('job-list-filter', options); // Uses the List.js library to filter the results
+
+    // Function to filter the results based on the search parameter
+    function filterResultsBySearchParam(searchParam) {
+      // Loop through all list items and show/hide based on the search parameter
+      jobList.filter((item) => {
+        const summaryText = item.values()['job-text']; // Get the summaryText of the list item
+
+        // Return true if the search parameter is found in the summaryText
+        return (
+          summaryText.toLowerCase().includes(searchParam)
+        );
+      });
+    }
+
+    // Function to get the search parameter from the URL hash
+    function getSearchParamFromURL() {
+      const urlParams = new URLSearchParams(window.location.search); // Get the search parameters from the URL
+      return urlParams.get('filter') || ''; // Return the search parameter or an empty string if there is none
+    }
+
+    // Apply the filter on page load based on the search parameter in the URL
+    const searchParam = getSearchParamFromURL();
+    // Only apply the filter if there is a search parameter
+    if (searchParam) {
+      filterResultsBySearchParam(searchParam.toLowerCase());
+    }
+
+    // Function to update the URL with the search parameter
+    function updateURL(searchParam) {
+      const url = new URL(window.location.href);
+      if (searchParam) {
+        url.searchParams.set('filter', searchParam); // Set the search term as the URL parameter
+      } else {
+        url.searchParams.delete('filter'); // Remove the 'filter' parameter from the URL
+      }
+      history.replaceState(null, '', url); // Update the URL without reloading the page
+    }
+
+    // Add event listeners to all links on the page
+    const links = document.querySelectorAll('a');
+    links.forEach((link) => {
+      link.addEventListener('click', (event) => {
+        const href = link.getAttribute('href');
+        const urlParams = new URLSearchParams(href.slice(href.indexOf('?')));
+        const searchParam = urlParams.get('filter');
+        // If the link has a search parameter, update the URL and filter the results
+        if (searchParam) {
+          updateURL(searchParam); // Update the URL with the search parameter
+          filterResultsBySearchParam(searchParam.toLowerCase()); // Filter the results based on the search parameter
+          event.preventDefault(); // Prevent the default behaviour of the link
+        }
+      });
+    });
+
+    // Clear filter button click event listener
+    document.querySelector('#clearFilterBtn').addEventListener('click', () => {
+      filterResultsBySearchParam(''); // Clear the filter
+      updateURL(''); // Update the URL to remove the filter parameter
+    });
+  })();
+</script>
