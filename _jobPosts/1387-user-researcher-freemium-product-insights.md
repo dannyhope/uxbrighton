@@ -15,7 +15,7 @@
 				"User Interface Researcher",
 				"Usability Researcher",
 				"User Research Analyst",
-				"User Research Lead"
+				"User Research Specialist"
 			],
 			"seniortyLevel": 3
 		}
@@ -40,9 +40,11 @@
 	},
 	"hiringOrganization": {
 		"name": "Spotify",
-		"id": 47,
-		"shortId": "uL3EwS3Y",
-		"uuid": "6326c860-d3dd-4dda-9436-64a7b96710e9"
+		"logo": "//uxbri.org/jobs/logos/Spotify-logo.svg",
+		"twitter": "Spotify",
+		"id": 765,
+		"shortId": "mF8dbCJx",
+		"uuid": "d4ee90a0-8509-4308-b009-12e52a3dfe79"
 	},
 	"employmentType": {
 		"typeInfo": [
