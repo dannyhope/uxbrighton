@@ -24,19 +24,16 @@
 	"closedDate": "2023-09-10T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Surbiton, Kingston upon Thames, Greater London, United Kingdom Greater London KT6 4QD United Kingdom",
-		"textDescription": "Surbiton",
+		"original": "London",
+		"textDescription": "London",
 		"locations": [
 			{
-				"textDescription": "Surbiton",
-				"district": "Surbiton",
-				"locality": "Surbiton",
-				"region": "Greater London",
-				"postalCode": "KT6 4QD",
+				"textDescription": "London",
+				"locality": "London",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.39092,
-				"longitude": -0.303592
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
 		]
 	},
