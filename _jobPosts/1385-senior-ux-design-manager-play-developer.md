@@ -58,7 +58,8 @@
 		"textDescription": "Permanent"
 	},
 	"tags": [
-		"top-job"
+		"top-job",
+		"promoted"
 	],
 	"applicationUri": "https://www.google.com/about/careers/applications/apply/6e3bcfe7-ee52-4a73-a0d2-72608cf20fea/form",
 	"applicationType": "link",
