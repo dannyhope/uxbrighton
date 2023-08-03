@@ -19,7 +19,7 @@ seo: true
 ---
 
 <!-- Sample links with search parameters -->
-<!-- [Mentorship](#mentorship) · [Design](#design) · [Conference](#conference) · [Psychology](#psycho) -->
+<!-- [Mentorship](?filter=mentorship) · [Design](?filter=design) · [Conference](?filter=conference) · [Psychology](?filter=psycho) · [UX Brighton Socials](?filter=ux+brighton+social) -->
 
 ## Upcoming
 
@@ -46,7 +46,7 @@ seo: true
   <li>
     <article>
       <h3 class="post-title"><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date: "%d %B, %Y" }}</p>
+      <p class="post-date">{{ post.date | date: "%d %B, %Y" }}</p>
       <div class="post-excerpt">{{ post.content | strip_html }}</div>
     </article>
   </li>
