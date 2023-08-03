@@ -41,6 +41,7 @@
 	"hiringOrganization": {
 		"name": "Google",
 		"logo": "//uxbri.org/jobs/logos/Google-logo.svg",
+		"twitter": "Google",
 		"id": 57,
 		"shortId": "bp4U55EM",
 		"uuid": "029336c6-4fbf-4800-a7cd-a7b820c52d80"
@@ -56,6 +57,9 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"tags": [
+		"top-job"
+	],
 	"applicationUri": "https://www.google.com/about/careers/applications/apply/6e3bcfe7-ee52-4a73-a0d2-72608cf20fea/form",
 	"applicationType": "link",
 	"shortDescription": "Minimum qualifications Bachelor's' degree in Design, Human-Computer- Interaction, Computer Science, a related field, or equivalent practical experience. Candidates will typically have 10 years of",
