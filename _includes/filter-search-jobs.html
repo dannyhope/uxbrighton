@@ -1,7 +1,7 @@
 <script>
   (function() {
     // Variables to store the filter search results
-    const options = {valueNames: ['job-text', 'job-excerpt']}; // The classes to search for
+    const options = {valueNames: ['job-text']}; // The classes to search for
     const jobList = new List('job-list-filter', options); // Uses the List.js library to filter the results
 
     // Function to filter the results based on the search parameter
@@ -9,11 +9,9 @@
       // Loop through all list items and show/hide based on the search parameter
       jobList.filter((item) => {
         const summaryText = item.values()['job-text']; // Get the summaryText of the list item
-        const excerptFull = item.values()['job-excerpt']; // Get the excerptFull of the list item
 
         return (
-          summaryText.toLowerCase().includes(searchParam) ||
-          excerptFull.toLowerCase().includes(searchParam)
+          summaryText.toLowerCase().includes(searchParam)
         );
       });
     }
