@@ -63,8 +63,12 @@
     // }
     function updateURL(searchParam) {
       const url = new URL(window.location.href);
-      url.searchParams.set('filter', searchParam); // Set the search term as the URL parameter
-      history.replaceState(null, '', url); // Replace the current URL with the new one
+      if (searchParam) {
+        url.searchParams.set('filter', searchParam); // Set the search term as the URL parameter
+      } else {
+        url.searchParams.delete('filter'); // Remove the 'filter' parameter from the URL
+      }
+      history.replaceState(null, '', url);
     }
 
     // Add event listeners to all links on the page
