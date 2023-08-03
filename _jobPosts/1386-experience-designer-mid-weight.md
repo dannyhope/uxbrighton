@@ -63,9 +63,6 @@
 		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
-	"tags": [
-		"top-job"
-	],
 	"applicationUri": "https://dtd.sainsburys.jobs/vacancies/2942/apply/",
 	"applicationType": "link",
 	"shortDescription": "In Sainsbury’s’ Tech, we power the UK’s’ number 1 multi-channel-, multi-brand- retailer. Our Product and Experience Design teams are made up of inspired and multidiscipline individuals who are",

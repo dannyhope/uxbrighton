@@ -57,9 +57,6 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"tags": [
-		"top-job"
-	],
 	"applicationUri": "https://www.google.com/about/careers/applications/apply/6e3bcfe7-ee52-4a73-a0d2-72608cf20fea/form",
 	"applicationType": "link",
 	"shortDescription": "Minimum qualifications Bachelor's' degree in Design, Human-Computer- Interaction, Computer Science, a related field, or equivalent practical experience. Candidates will typically have 10 years of",
