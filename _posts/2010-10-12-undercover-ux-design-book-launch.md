@@ -15,7 +15,8 @@ seo: true
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/YRiK-0x3vEQ" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 * [Book: Forget all the rules you ever learned about graphic design, including the ones in this boo (archive.org)](https://archive.org/details/forgetallrulesyo0000gill)
-* [Book: elling the invisible : a field guide to modern marketing (archive.org)](https://archive.org/details/sellinginvisible00beck/page/n5/mode/2up)
+* [Book: Selling the invisible : a field guide to modern marketing (archive.org)](https://archive.org/details/sellinginvisible00beck/page/n5/mode/2up)
+* [Book: The laws of simplicity (archive.org)](https://archive.org/details/lawsofsimplicity0000maed)
 
 ## Organisers
 
