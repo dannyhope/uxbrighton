@@ -12,6 +12,12 @@ seo: true
 
 Cennydd and James will discuss the experience of writing a UX book, from the proposal and the money to the workflow and personal sacrifice involved. They'll talk about what publishers are looking for from potential authors, how to make a strong business case for your title, and how to come to terms with the alien practices of print publishing.
 
+### About Cennydd
+
+Cennydd Bowles leapt into the world of user experience eight years ago and hasn't shut up about it since. He now works for Clearleft in Brighton and moonlights as a UX blogger, mentor and community evangelist.\
+\
+Cennydd is a regular public speaker (SXSW, IA Summit), a widely published writer (A List Apart, Johnny Holland, .net magazine) and co-conspirator of the UX London conference. His first book "Undercover User Experience", written with fellow Clearleftie James Box, has just been published by New Riders.
+
 <img src="/images/uuxd-cover.jpg" alt="Cover of the book Undercover User Experience Design" class="image-align-right"/>
 
 ## S﻿imple & Usable – Giles Colbourne
