@@ -20,15 +20,13 @@ Cennydd is a regular public speaker (SXSW, IA Summit), a widely published write
 
 ### About James
 
-
-
-
-
 <img src="/images/uuxd-cover.jpg" alt="Cover of the book Undercover User Experience Design" class="image-align-right"/>
 
 ## S﻿imple & Usable – Giles Colbourne
 
 Giles will talk about his views on simplicity, how he came to write the book, the books that inspired him and the design and writing choices that he made and how they influenced the final form of the book.
+
+[Giles’ book Simple and usable : Web, mobile, and interaction design (archive.org)](https://archive.org/details/simpleusablewebm0000colb)
 
 ### About Giles
 
