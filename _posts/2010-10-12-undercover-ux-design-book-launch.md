@@ -20,6 +20,8 @@ Cennydd is a regular public speaker (SXSW, IA Summit), a widely published write
 
 ### About James
 
+James is a total mystery.
+
 <img src="/images/uuxd-cover.jpg" alt="Cover of the book Undercover User Experience Design" class="image-align-inline-25w"/>
 
 ## S﻿imple & Usable – Giles Colbourne
