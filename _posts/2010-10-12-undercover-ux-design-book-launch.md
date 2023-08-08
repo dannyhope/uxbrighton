@@ -8,7 +8,7 @@ upcoming: false
 published: true
 seo: true
 ---
-## Writing a UX book – C﻿ennydd Bowles, James Box
+## Writing a UX book – Cennydd Bowles, James Box
 
 Cennydd and James will discuss the experience of writing a UX book, from the proposal and the money to the workflow and personal sacrifice involved. They'll talk about what publishers are looking for from potential authors, how to make a strong business case for your title, and how to come to terms with the alien practices of print publishing.
 
@@ -18,9 +18,23 @@ Cennydd Bowles leapt into the world of user experience eight years ago and hasn
 \
 Cennydd is a regular public speaker (SXSW, IA Summit), a widely published writer (A List Apart, Johnny Holland, .net magazine) and co-conspirator of the UX London conference. His first book "Undercover User Experience", written with fellow Clearleftie James Box, has just been published by New Riders.
 
+### About James
+
+
+
+
+
 <img src="/images/uuxd-cover.jpg" alt="Cover of the book Undercover User Experience Design" class="image-align-right"/>
 
 ## S﻿imple & Usable – Giles Colbourne
+
+Giles will talk about his views on simplicity, how he came to write the book, the books that inspired him and the design and writing choices that he made and how they influenced the final form of the book.
+
+### About Giles
+
+Giles Colborne has been designing interactive user experiences since the early 1990s and it’s about time he did something useful like writing a book.
+
+When he’s not doing that he he’s busy with cxpartners, a design consultancy based in Bristol and London that specialises in web and mobile user interface design for companies such as Marriott, Nokia and eBay. Giles and Richard Caddick founded cxpartners in 2004.
 
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/YRiK-0x3vEQ" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
