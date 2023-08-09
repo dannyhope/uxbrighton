@@ -1,15 +1,14 @@
 ---
-layout: event-page
-title: UX Camp Redux
-venue: The Skiff
+event-date: 2017-05-09
 start: 7pm
 price: £4 +VAT etc
-homepage: false
+layout: event-page
 published: true
-event-date: 2017-05-09
+homepage: false
+title: UX Camp Redux
+venue: The Skiff
 seo: true
 ---
-
 Back in March 2017, our friends [UX Camp Brighton](https://www.uxcampbrighton.org/) held their most popular barcamp yet. In keeping with tradition, here at UX Brighton we’re extremely happy to host the follow-up Redux event featuring some of the most popular sessions from the day.
 
 UX Camp Brigton is an ‘unconference’ for anyone involved or interested in user experience design, user research, interaction design, information architecture, usability, accessibility and other associated fields.
@@ -18,25 +17,25 @@ Attendees either ran or participated in 20 minute sessions, such as talks, demos
 
 This redux brings together four diverse and informative sessions from the day to give a flavour of what made the day a huge success.
 
-## The London Underground. Your 100 year old guide to website navigation, Peter Winchester
+## The London Underground. Your 100 year old guide to website navigation – Peter Winchester
 
 The London Underground have been perfecting signage and wayfinding for the best part of 100 years. What could we learn from them to help users find their way through our new MoreThan website?
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/1Lq7JhTGuxgTKg" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-## Purposeful Page Architecture, Rebecca Hugo
+## Purposeful Page Architecture – Rebecca Hugo
 
 In a saturated market, it's becoming more important to ensure that pages have meaning and communicate something real. I introduce a framework to ensure that webpages and the architecture within them are purposeful and not superfluous.
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/zBar9aSDSVgMxD" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-## How to give your Workshop Intent, John Flitcroft
+## How to give your Workshop Intent – John Flitcroft
 
 The "Workshop" has become a throwaway tool, used to placate stakeholders as often as it is to create valuable insight and action. Here are ten tips to make sure your workshops stand out and have, above all, intent.
 
 <div class="responsive-height-limiter"><div class="embed-container vga"><iframe src="//www.slideshare.net/slideshow/embed_code/key/3NYyabTD8bl3V8" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-## The Researchers' Responsibilities? Kathy Neuss
+## The Researchers' Responsibilities? – Kathy Neuss
 
 As researchers, do we have a responsibility to the peripheral side effects and ramifications of the recommendations that we are making? I explore how when we introspect problems and pain points, we influence the direction of opportunities.
 
@@ -52,9 +51,9 @@ This is event is sponsored by <a href="https://www.optimalworkshop.com/">Optimal
 
 ## Organisers
 
-- <a href="https://uxbri.org/about/#luke">Luke</a>
-- <a href="https://uxbri.org/about/#tim">Tim</a>
-- <a href="https://uxbri.org/about/#patrick">Patrick</a>
-- <a href="https://uxbri.org/about/#tom">Tom</a>
-- Chris
-- <a href="https://uxbri.org/about/#danny">Danny</a>
+* <a href="https://uxbri.org/about/#luke">Luke</a>
+* <a href="https://uxbri.org/about/#tim">Tim</a>
+* <a href="https://uxbri.org/about/#patrick">Patrick</a>
+* <a href="https://uxbri.org/about/#tom">Tom</a>
+* Chris
+* <a href="https://uxbri.org/about/#danny">Danny</a>
