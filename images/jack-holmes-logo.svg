@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="730px" height="158px" viewBox="0 0 730 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Rectangle" fill="#333333" points="57.0270694 40.9509038 311.854798 42 296 117 41 117"></polygon>
+        <text id="JACK-HOLM.ES" font-family="Helvetica-BoldOblique, Helvetica" font-size="60" font-style="italic" font-weight="bold" letter-spacing="15">
+            <tspan x="67" y="101" fill="#FFFFFF">JACK</tspan>
+            <tspan x="290.359375" y="101" fill="#000000"> </tspan>
+            <tspan x="322.029297" y="101" fill="#333333">HOLM.ES</tspan>
+        </text>
+    </g>
+</svg>
