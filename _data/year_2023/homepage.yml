@@ -442,6 +442,14 @@ sponsors:
             profile-url: https://www.linkedin.com/company/zero-height/
           - link-type: instagram
             profile-url: https://www.instagram.com/zeroheighthq/
+      - name: Jack Holmes
+        logo: /images/jack-holmes-logo.svg
+        summary: Jack Holmes is a boutique UX design and research studio in Bristol. We
+          champion an evidence based approach to design and strategy through
+          carefully curated research. Our favourite projects include hard to
+          recruit users, complex systems and stakeholders with a resistance to
+          change.
+        url: http://jackholm.es/
     show-opportunity: true
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
