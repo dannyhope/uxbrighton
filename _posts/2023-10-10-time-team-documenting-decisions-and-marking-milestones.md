@@ -7,6 +7,8 @@ start: 7pm
 venue: TBA
 ticket:
   state: Ticketed
+  link: https://www.tickettailor.com/events/uxbrighton/982496
+  price: Free
 conference: false
 upcoming: true
 published: true
