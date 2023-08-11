@@ -7,8 +7,8 @@ start: 7pm
 venue: TBA
 ticket:
   state: Ticketed
-  link: https://www.tickettailor.com/events/uxbrighton/982496
-  price: Free
+  link: https://www.tickettailor.com/checkout/view-event/id/2900973/chk/7689/?modal_widget=true&widget=true
+  price: £15
 conference: false
 upcoming: true
 published: true
@@ -29,3 +29,5 @@ Paul is an interaction designer and web developer with 20 years of experience gl
 Today he works with public sector organisations, combining his dedication to detail with a pragmatic approach to delivery to help teams build brilliant digital services for citizens and civil servants.\
 \
 Away from all that, and when not whiling away his time on various side projects, Paul enjoys long train journeys to destinations with enough interesting architecture to blog about.
+
+Bring your own
