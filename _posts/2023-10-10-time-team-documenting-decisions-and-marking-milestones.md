@@ -9,6 +9,8 @@ ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/2900973/chk/7689/?modal_widget=true&widget=true
   price: £15
+upcoming-teaser:
+  bg-image: /images/53022490594_5b637d52bb_o.jpg
 conference: false
 upcoming: true
 published: true
