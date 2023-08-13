@@ -59,11 +59,11 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"salary": {
-		"original": "£40 – 44k",
+		"original": "£40,000 – £44,000",
 		"textDescription": "£40,000 - £44,000",
 		"currencyCode": "GBP",
 		"currencySymbol": "£",
