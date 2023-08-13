@@ -13,9 +13,9 @@
 			"similiarTitles": [
 				"Product User Experience Researcher",
 				"Product User Interface Researcher",
-				"Product User Interaction Researcher",
+				"Product User Journey Researcher",
 				"Product User Testing Researcher",
-				"Product User Behaviour Researcher"
+				"Product User Insight Researcher"
 			],
 			"seniortyLevel": 3
 		}
@@ -60,13 +60,7 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, successfactors, bt",
-		"patternType": "default, system, site",
-		"date": "2023-08-13T13:36:04.246Z",
-		"source": "https://jobs.bt.com/BTGroup/job/1-Braham-Street-Etc_-Product-User-Researcher-Lond/768465202/&src=JB-12000&src=JB-12000"
-	},
-	"applicationUri": "https://career2.successfactors.eu/careers?company=britisht01P1",
+	"applicationUri": "https://jobs.bt.com/BTGroup/job/1-Braham-Street-Etc_-Product-User-Researcher-Lond/768465202",
 	"applicationType": "link",
 	"shortDescription": "About the role This role will be based 3 days in our London One Braham Office, with 2 days remote.   Who are Etc.. Factory? Here in Etc.. Factory we’re’ all about searching for the next ‘big thing’",
 	"status": "LIVE",
