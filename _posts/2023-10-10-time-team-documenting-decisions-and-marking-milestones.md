@@ -8,7 +8,7 @@ venue: TBA
 ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/2900973/chk/7689/?modal_widget=true&widget=true
-  price: £15
+  price: £9 - £15
 upcoming-teaser:
   bg-image: /images/53022490594_5b637d52bb_o.jpg
 conference: false
@@ -33,3 +33,5 @@ Today he works with public sector organisations, combining his dedication to det
 Away from all that, and when not whiling away his time on various side projects, Paul enjoys long train journeys to destinations with enough interesting architecture to blog about.
 
 Drinks and pizza provided. 🍕🥤
+
+🎟️ Student discount tickets available.
