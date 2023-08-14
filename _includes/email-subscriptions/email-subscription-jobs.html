@@ -1,17 +1,18 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
+{% capture id %}-{{ "now" | date: "%s%S" }}{% endcapture %}
 <div class="email-subscription--jobs">
   <p class="visually-hidden">Be the first to know about jobs in <strong>UX design</strong>, <strong>research</strong>, <strong>writing</strong>, <strong>strategy</strong> and <strong>management</strong>. One email, once a week.</p>
-  <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
+  <form method="post" autocomplete="off" name="google-sheet" id="form{{ id }}" class="flow">
     <div class="form-control visually-hidden">
-      <input type="checkbox" id="field_0" name="Job alerts" class="form-control" checked>
-      <label for="field_0">Job alerts</label>
+      <input type="checkbox" id="field_0{{ id }}" name="Job alerts" class="form-control" checked>
+      <label for="field_0{{ id }}">Job alerts</label>
       {% comment %} So we can capture where the email submission happened {% endcomment %}
-      <input type="text" id="submitted_from" value="" name="Submitted from" class="form-control">
-      <label for="submitted_from">Submitted from</label>
+      <input type="text" id="submitted_from{{ id }}" value="" name="Submitted from" class="form-control">
+      <label for="submitted_from{{ id }}">Submitted from</label>
     </div>
     <div class="form-cta">
-      <label for="email" class="visually-hidden">Email Address</label>
-      <input type="email" id="email" name="Email address" class="form-control pa2" required>
+      <label for="email{{ id }}" class="visually-hidden">Email Address</label>
+      <input type="email" id="email{{ id }}" name="Email address" class="form-control pa2" required>
       <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0" data-email-subscribe="jobs-page">
     </div>
     {% comment %} This message may not be relevant for the 'jobs' page because the job alerts checkbox is automatically selected. Leaving in for now. {% endcomment %}
@@ -26,16 +27,16 @@
         <legend class="visually-hidden">Additional newsletters to subscribe to</legend>
         <ul class="no-list flow">
           <li class="form-control">
-            <input type="checkbox" id="field_2" name="Conference & workshop news" class="form-control">
-            <label for="field_2">Conference & workshop news</label>
+            <input type="checkbox" id="field_2{{ id }}" name="Conference & workshop news" class="form-control">
+            <label for="field_2{{ id }}">Conference & workshop news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_3" name="Evening event news" class="form-control">
-            <label for="field_3">Evening event news</label>
+            <input type="checkbox" id="field_3{{ id }}" name="Evening event news" class="form-control">
+            <label for="field_3{{ id }}">Evening event news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_4" name="Interesting links" class="form-control">
-            <label for="field_4">Interesting links picked by the UX Brighton team</label>
+            <input type="checkbox" id="field_4{{ id }}" name="Interesting links" class="form-control">
+            <label for="field_4{{ id }}">Interesting links picked by the UX Brighton team</label>
           </li>
         </ul>
       </fieldset>
