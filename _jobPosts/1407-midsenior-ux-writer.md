@@ -5,13 +5,17 @@
 	"uuid": "2c33be34-8508-44d9-9a61-6084fd5be34f",
 	"title": {
 		"original": "Mid/Senior UX Writer",
-		"textDescription": "Mid/Senior User Experience Writer",
+		"textDescription": "User Experience Writer",
 		"urlSlug": "midsenior-ux-writer",
 		"inferred": {
-			"canonicalTitle": "Mid/Senior UX Writer",
-			"expandedTitle": "Mid/Senior User Experience Writer",
+			"canonicalTitle": "UX Writer",
+			"expandedTitle": "User Experience Writer",
 			"similiarTitles": [
-				"1. Mid/Senior User Interface Writer  2. Mid/Senior User Experience Designer 3. Mid/Senior User Interface Designer 4. Mid/Senior Content Strategist 5. Mid/Senior Content Writer"
+				"User Experience Content Writer",
+				"User Interface Writer",
+				"User Interface Content Writer",
+				"Technical Writer",
+				"Content Strategist"
 			],
 			"seniorty": "Mid",
 			"seniortyLevel": 3
@@ -51,12 +55,6 @@
 		],
 		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-14T12:45:25.471Z",
-		"source": "https://amswh.avature.net/careers/JobDetail/Mid-Senior-UX-Writer/32063"
 	},
 	"applicationUri": "https://amswh.avature.net/careers/Login?jobId=32063&user=0",
 	"applicationType": "link",

@@ -11,11 +11,11 @@
 			"canonicalTitle": "Digital Designer",
 			"expandedTitle": "Digital Designer",
 			"similiarTitles": [
-				"Digital Product Designer",
-				"Digital Creative Designer",
-				"Digital User Experience Designer",
-				"Digital Graphic Designer",
-				"Digital Interface Designer"
+				"Web Designer",
+				"Graphic Designer",
+				"User Interface Designer",
+				"User Experience Designer",
+				"Web Developer"
 			],
 			"seniortyLevel": 3
 		}
@@ -24,17 +24,16 @@
 	"closedDate": "2023-09-14T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "2 Television Centre White City London W12 7RJ United Kingdom",
+		"original": "London",
 		"textDescription": "London",
 		"locations": [
 			{
 				"textDescription": "London",
 				"locality": "London",
-				"postalCode": "W12 7RJ",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.5063,
-				"longitude": -0.2253
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
 		]
 	},
@@ -61,12 +60,6 @@
 		],
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-14T13:04:42.469Z",
-		"source": "https://apply.thewhitecompany.com/jobs/vacancy/digital-designer-5533-london---head-office/5551/description/?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
 	},
 	"applicationUri": "https://apply.thewhitecompany.com/jobs/vacancy/5551/questions/1",
 	"applicationType": "link",
