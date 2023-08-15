@@ -15,7 +15,7 @@
 				"Usability Researcher",
 				"User Interface Researcher",
 				"User Research Analyst",
-				"User Research Manager"
+				"User Research Consultant"
 			],
 			"seniortyLevel": 3
 		}
@@ -61,12 +61,9 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-07-18T09:21:15.614Z",
-		"source": "https://jobs.natwestgroup.com/jobs/12753402-user-researcher?bid=370"
-	},
+	"tags": [
+		"research"
+	],
 	"applicationUri": "https://rbs.wd3.myworkdayjobs.com/RBS/login?redirect=%2FRBS%2Fjob%2FLondon%2FUser-Researcher_R-00209295%2Fapply%3Fbid%3D370%26tid%3Dx_e6310f4c-5459-4e54-be38-65720081b5a4",
 	"applicationType": "link",
 	"shortDescription": "Our people work differently depending on their jobs and needs. From hybrid working to flexible hours , we have plenty of options that help our people to thrive. This role is based in the United",

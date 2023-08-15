@@ -61,6 +61,9 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design"
+	],
 	"applicationUri": "https://apply.thewhitecompany.com/jobs/vacancy/5551/questions/1",
 	"applicationType": "link",
 	"shortDescription": "Our Role The Digital Designer is responsible for executing the design of seasonal campaigns, features, refining and developing the user journey. Working with the Digital Design Manager to ensure the",

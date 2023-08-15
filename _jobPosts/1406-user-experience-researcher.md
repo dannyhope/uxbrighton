@@ -8,14 +8,14 @@
 		"textDescription": "User Experience Researcher",
 		"urlSlug": "user-experience-researcher",
 		"inferred": {
-			"canonicalTitle": "UX Researcher",
+			"canonicalTitle": "User Experience Researcher",
 			"expandedTitle": "User Experience Researcher",
 			"similiarTitles": [
-				"User Interface Researcher",
-				"Usability Researcher",
-				"User Research Analyst",
-				"User Research Lead",
-				"User Research Manager"
+				"User Experience Designer",
+				"User Experience Analyst",
+				"User Experience Strategist",
+				"User Experience Architect",
+				"User Experience Tester"
 			],
 			"seniortyLevel": 3
 		}
@@ -58,7 +58,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Full-time contract",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"salary": {
@@ -69,12 +69,9 @@
 		"minValue": 37000,
 		"maxValue": 42000
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2023-08-14T12:33:03.846Z",
-		"source": "https://cancerresearchuk.wd3.myworkdayjobs.com/en-US/External_Careers/job/Stratford-2-Redman-Place/User-Experience-Designer_R024841-1"
-	},
+	"tags": [
+		"research"
+	],
 	"applicationUri": "https://cancerresearchuk.wd3.myworkdayjobs.com/en-US/External_Careers/job/Stratford-2-Redman-Place/User-Experience-Designer_R024841-1/apply",
 	"applicationType": "link",
 	"shortDescription": "4,000 professionals, 0 days wasted, 1 incredible purpose. Together we will beat cancer.  We're' open to a variety of ways of working, including full time, part time, job share and compressed hours.",

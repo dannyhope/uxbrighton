@@ -58,6 +58,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"management",
+		"design"
+	],
 	"applicationUri": "https://gumtree.teamtailor.com/jobs/2992859-head-of-ux-uidesign",
 	"applicationType": "link",
 	"shortDescription": "Our purpose is to make good finds happen, whether that’s’ finding the right buyer for your vintage collectibles or finding a local upholsterer to breathe new life into your sofa. As a company we are",
