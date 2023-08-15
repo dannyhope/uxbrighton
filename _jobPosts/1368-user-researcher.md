@@ -56,6 +56,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"research"
+	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/dentsu/publication/e6341665-5507-4ca0-aaac-007f65f288f9?dcr_ci=dentsu",
 	"applicationType": "link",
 	"shortDescription": "Company Description Merkle is a leading data-driven- customer experience management (CXM) company that specialises in the delivery of unique, personalised customer experiences across platforms and",

@@ -70,6 +70,9 @@
 		"minValue": 70000,
 		"maxValue": 85000
 	},
+	"tags": [
+		"research"
+	],
 	"applicationUri": "https://boards.greenhouse.io/accurx/jobs/5776682002#app",
 	"applicationType": "link",
 	"shortDescription": "At Accurx, we're' on a mission to make patients healthier and healthcare staff happier. Who are Accurx? We’re’ a fast-growing- health technology company which makes it easier for patients and",

@@ -8,14 +8,14 @@
 		"textDescription": "Vice President of Product Design",
 		"urlSlug": "vice-president-of-product-design",
 		"inferred": {
-			"canonicalTitle": "Vice President of Product Design",
+			"canonicalTitle": "VP Product Design",
 			"expandedTitle": "Vice President of Product Design",
 			"similiarTitles": [
-				"Vice President of Product Development",
-				"Vice President of Product Management",
-				"Vice President of Product Strategy",
-				"Vice President of Product Innovation",
-				"Vice President of Product Marketing"
+				"Chief Product Design Officer",
+				"Head of Product Design",
+				"Senior Product Design Manager",
+				"Product Design Strategist",
+				"Product Design Consultant"
 			],
 			"seniorty": "Vice President of",
 			"seniortyLevel": 3
@@ -59,15 +59,12 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, hollandandbarrett",
-		"patternType": "default, site",
-		"date": "2023-08-13T15:12:30.699Z",
-		"source": "https://apply.hollandandbarrettjobs.com/jobs/vacancy/vice-president-of-product-design-24050-london/24029/description/?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
+	"tags": [
+		"management"
+	],
 	"applicationUri": "https://apply.hollandandbarrettjobs.com/jobs/vacancy/vice-president-of-product-design-24050-london/24029/description/action/apply/?pagestamp=118ac796-8934-41f2-a1c9-babb6a5673a6",
 	"applicationType": "link",
 	"shortDescription": "About the role Holland Barrett (H&B) on a mission to make health and wellness a way of life for everyone – and technology is at the heart of our future to become a leading omnichannel retailer.",
