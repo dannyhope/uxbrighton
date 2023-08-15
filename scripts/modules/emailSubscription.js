@@ -28,9 +28,9 @@
       return;
     }
 
-    // Selecting the current page URL and setting the value of the hidden "submitted_from" input to the current page URL
+    // Selecting the current page URL and setting the value of the hidden input field - (beginning with the id value, "submitted_from") - to the current page URL
     let currentUrl = window.location.href;
-    document.getElementById('submitted_from').value = currentUrl;
+    form.querySelector('[id^="submitted_from"]').value = currentUrl;
 
     // Attach event listener for form submission
     form.addEventListener('submit', async event => {
@@ -77,8 +77,8 @@
         // Selecting subscribe page email subscription form
         const subscribePage = document.querySelector('.email-subscription--subscribe');
 
-        // If the subscribe page exists, select the form content element. Otherwise, select the form element
-        const formContent = subscribePage ? subscribePage.querySelector('.form-content') : document.querySelector('#form');
+        // If the subscribe page exists, select the form content element. Otherwise, select the element that contains an id that begins with "form"
+        const formContent = subscribePage ? subscribePage.querySelector('.form-content') : document.querySelector('[id^="form"]');
 
         // Hide both the form and the form content elements
         formContent.style.display = 'none';

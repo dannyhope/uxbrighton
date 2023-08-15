@@ -1,38 +1,39 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
+{% capture id %}-{{ "now" | date: "%s%S" }}{% endcapture %}
 <div class="email-subscription--subscribe">
   <div class="form-content flow">
     <h2>Email updates</h2>
-    <p>I’d like to receive&hellip;</p>
-    <form method="post" autocomplete="off" name="google-sheet" id="form" class="flow">
+    <p>I'd like to receive&hellip;</p>
+    <form method="post" autocomplete="off" name="google-sheet" id="form{{ id }}" class="flow">
       <fieldset>
         <legend class="visually-hidden">Email newsletter options</legend>
         <div class="form-control visually-hidden">
           {% comment %} So we can capture where the email submission happened {% endcomment %}
-          <input type="text" id="submitted_from" value="" name="Submitted from" class="form-control">
-          <label for="submitted_from">Submitted from</label>
+          <input type="text" id="submitted_from{{ id }}" value="" name="Submitted from" class="form-control">
+          <label for="submitted_from{{ id }}">Submitted from</label>
         </div>
         <ul class="no-list flow">
           <li class="form-control">
-            <input type="checkbox" id="field_1" name="Conference & workshop news" class="form-control" checked>
-            <label for="field_1">Conference & workshop news</label>
+            <input type="checkbox" id="field_1{{ id }}" name="Conference & workshop news" class="form-control" checked>
+            <label for="field_1{{ id }}">Conference & workshop news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_2" name="Evening event news" class="form-control" checked>
-            <label for="field_2">Evening event news</label>
+            <input type="checkbox" id="field_2{{ id }}" name="Evening event news" class="form-control" checked>
+            <label for="field_2{{ id }}">Evening event news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_3" name="Job alerts" class="form-control" checked>
-            <label for="field_3">Job alerts</label>
+            <input type="checkbox" id="field_3{{ id }}" name="Job alerts" class="form-control" checked>
+            <label for="field_3{{ id }}">Job alerts</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_4" name="Interesting links" class="form-control" checked>
-            <label for="field_4">Interesting links picked by the UX Brighton team</label>
+            <input type="checkbox" id="field_4{{ id }}" name="Interesting links" class="form-control" checked>
+            <label for="field_4{{ id }}">Interesting links picked by the UX Brighton team</label>
           </li>
         </ul>
       </fieldset>
       <div class="form-cta">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="Email address" class="form-control pa2" required>
+        <label for="email{{ id }}">Email Address</label>
+        <input type="email" id="email{{ id }}" name="Email address" class="form-control pa2" required>
         <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0">
       </div>
       {% comment %} Message prompt if no checkboxes have been selected {% endcomment %}
