@@ -62,12 +62,9 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-13T14:12:42.841Z",
-		"source": "https://boards.greenhouse.io/embed/job_app?token=5289997&gh_src=240b46771"
-	},
+	"tags": [
+		"research"
+	],
 	"applicationUri": "https://boards.greenhouse.io/embed/job_app?token=5289997",
 	"applicationType": "link",
 	"shortDescription": "This role can be located in Ireland or the United Kingdom At HubSpot, we’re’ passionate about building tools that help small and medium-sized- businesses market, sell, and serve their customers — and",
