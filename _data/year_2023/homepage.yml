@@ -314,6 +314,39 @@ speakers:
               profile-url: https://www.linkedin.com/in/chrishow/
             - profile-type: website
               profile-url: https://chrishow101.medium.com/
+      - talk-info:
+          talk-time: ""
+          talk-title: "You’re doing it wrong: a celebration of ‘worst’ practices"
+          talk-summary: >-
+            I’ve spent my career in data visualisation working in ways that are
+            considered ‘wrong’ or not in line with ‘best’ practices. But by
+            adhering to best practices, could we be missing out on the \*best\*
+            parts of our fields through these inherent limitations? What
+            creative approaches can you discover when you explicitly set out to
+            do the opposite of what you are ‘supposed’ to do?
+
+
+            Using examples from my creative practice, this talk is a celebration of what there is to gain when we are wilfully, perversely, and joyously ‘wrong’ in how we as designers work with our fields’ respective design processes.
+        name: Stefanie Posavec
+        thumbnail: /images/stefanie-posavec-600x600.png
+        anchor: Stefanie-Posavec
+        speaker-bio:
+          bio-summary: >-
+            [Stefanie Posavec](http://www.stefanieposavec.com/) is a designer,
+            artist, and author focused on creating playful, accessible,
+            human-scaled approaches to communicating with data.
+
+
+            Her work has been exhibited at major galleries including the V&A, the Design Museum (Designs of the Year 2016), Somerset House, the Wellcome Collection, Bletchley Park (all UK), the Centre Pompidou (Paris), and MoMA (New York), where her work is also in the permanent collection. Recently she undertook the book design and art direction of chart creation for the activist Greta Thunberg’s much-lauded The Climate Book.
+
+
+            \
+
+            Her latest illustrated book ([I am a book. I am a portal to the universe.](https://www.iamabook.online/), co-authored with Miriam Quick) has received multiple accolades, including winning the UK Royal Society’s Young People’s Book Prize 2021. She has also co-authored two books that emphasize a handmade, personal approach to data: Dear Data and the journal Observe, Collect, Draw!
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/stefanieposavec/
+          bio-title: About Stefanie
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
