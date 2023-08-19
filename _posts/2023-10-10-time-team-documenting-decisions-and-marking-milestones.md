@@ -4,7 +4,7 @@ title: "Time team: Documenting decisions and marking milestones"
 social-image: /images/53022490594_5b637d52bb_o.jpg
 event-date: 2023-10-10
 start: 7pm
-venue: TBA
+venue: The Globe Room
 ticket:
   state: Ticketed
   link: https://www.tickettailor.com/checkout/view-event/id/2900973/chk/7689/?modal_widget=true&widget=true

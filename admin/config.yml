@@ -1821,7 +1821,7 @@ collections:
         hint: "Select from available venues. Defaults to **TBA**."
         widget: "select"
         multiple: false
-        options: ["TBA", "PLATF9RM", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse", "Earth & Stars", "Barclays Eagle Lab Brighton", "Shelter Hall", "Brighton Music Hall"]
+        options: ["TBA", "PLATF9RM", "Fabrica", "Lighthouse", "Hotel Du Vin", "68 Middle Street", "Hatch", "The Skiff", "Spaces", "Lord Nelson Inn", "North Laine Brewhouse", "Earth & Stars", "Barclays Eagle Lab Brighton", "Shelter Hall", "Brighton Music Hall", "The Globe Room"]
         default: "TBA"
         required: false
       - label: "Ticket"
