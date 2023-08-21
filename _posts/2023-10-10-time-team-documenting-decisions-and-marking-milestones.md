@@ -38,6 +38,12 @@ Discoveries are crucial to a designer's toolkit, but why do they sometimes feel 
 
 Dive into the ins and outs of the discovery process, learn to navigate everyday challenges, and pick up practical strategies to guide your teams toward effective results.
 
+### About Jon
+
+<img src="/images/img_7858.jpg" alt="Head shot of Jon Roobottom" class="image-align-left"/>
+
+
+
 Drinks and pizza provided. 🍕🥤
 
 🎟️ Student discount tickets available.
