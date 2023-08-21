@@ -48,6 +48,10 @@ Before his life as a service designer in the public sector, Jon built and ran pr
 
 Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wife and two kids.
 
+\*\[GDS]: Government Digital Service \
+*\[GCHQ]: Government Communications Headquarters \
+*\[DLUHC]: Department for Levelling-Up, Housing and Communities
+
 Drinks and pizza provided. 🍕🥤
 
 🎟️ Student discount tickets available.
