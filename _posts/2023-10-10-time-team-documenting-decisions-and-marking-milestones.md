@@ -32,6 +32,26 @@ Today he works with public sector organisations, combining his dedication to det
 \
 Away from all that, and when not whiling away his time on various side projects, Paul enjoys long train journeys to destinations with enough interesting architecture to blog about.
 
+## Murder on the dancefloor: The death of disco – Jon Roobottom
+
+Discoveries are crucial to a designer's toolkit, but why do they sometimes feel like a slog? 
+
+Dive into the ins and outs of the discovery process, learn to navigate everyday challenges, and pick up practical strategies to guide your teams toward effective results.
+
+### About Jon
+
+<img src="/images/img_7858.jpg" alt="Head shot of Jon Roobottom" class="image-align-left"/>
+
+Jon is a Principal Designer at Made Tech, overseeing user-centred work for clients like GDS, GCHQ, Home Office and DLUHC. 
+
+Before his life as a service designer in the public sector, Jon built and ran product design teams for SaaS startups. 
+
+Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wife and two kids.
+
+\*\[GDS]: Government Digital Service \
+*\[GCHQ]: Government Communications Headquarters \
+*\[DLUHC]: Department for Levelling-Up, Housing and Communities
+
 Drinks and pizza provided. 🍕🥤
 
 🎟️ Student discount tickets available.
