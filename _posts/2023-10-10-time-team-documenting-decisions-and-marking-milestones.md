@@ -16,6 +16,13 @@ upcoming: true
 published: true
 seo: true
 ---
+Do you want to...
+
+1. record and recall your design decisions more efficiently? 
+2. improve your discovery process?
+
+Join us on Tuesday 10 October for an evening of insightful talks by industry experts. Learn about the significance of recording design choices and commemorating project milestones. Gain insights into effective methods and tools for decision recall. Delve into the realm of design discoveries and gain practical strategies for navigating challenges. And, leave with actionable insights to elevate your discovery process. 
+
 ## Time team: Documenting decisions and marking milestones – Paul Robert Lloyd  
 
 Exercise regularly; eat plenty of vegetables; floss your teeth. Tasks that feel like chores are often the most beneficial in the long run. The same is true of writing documentation.\
