@@ -34,6 +34,10 @@ Away from all that, and when not whiling away his time on various side projects,
 
 ## Murder on the dancefloor: The death of disco – Jon Roobottom
 
+Discoveries are crucial to a designer's toolkit, but why do they sometimes feel like a slog? 
+
+Dive into the ins and outs of the discovery process, learn to navigate everyday challenges, and pick up practical strategies to guide your teams toward effective results.
+
 Drinks and pizza provided. 🍕🥤
 
 🎟️ Student discount tickets available.
