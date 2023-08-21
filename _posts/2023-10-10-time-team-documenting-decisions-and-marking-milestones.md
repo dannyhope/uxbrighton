@@ -42,7 +42,11 @@ Dive into the ins and outs of the discovery process, learn to navigate everyday 
 
 <img src="/images/img_7858.jpg" alt="Head shot of Jon Roobottom" class="image-align-left"/>
 
+Jon is a Principal Designer at Made Tech, overseeing user-centred work for clients like GDS, GCHQ, Home Office and DLUHC. 
 
+Before his life as a service designer in the public sector, Jon built and ran product design teams for SaaS startups. 
+
+Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wife and two kids.
 
 Drinks and pizza provided. 🍕🥤
 
