@@ -14,8 +14,8 @@
 				"Lead User Experience Researcher",
 				"Lead User Interface Researcher",
 				"Lead Usability Researcher",
-				"Lead User Testing Researcher",
-				"Lead User Insights Researcher"
+				"Lead User Research Analyst",
+				"Lead User Research Consultant"
 			],
 			"seniorty": "Lead",
 			"seniortyLevel": 5
@@ -42,6 +42,7 @@
 	"hiringOrganization": {
 		"name": "PlayStation Global",
 		"logo": "//uxbri.org/jobs/logos/PlayStation-Logo.wine.svg",
+		"twitter": "PlayStation",
 		"id": 538,
 		"shortId": "9NXaxzxn",
 		"uuid": "b3dbe7ea-aebd-45d4-8953-bcbc094a82d9"

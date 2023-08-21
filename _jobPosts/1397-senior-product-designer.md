@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Product Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
 				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -65,12 +65,9 @@
 		"minValue": 75000,
 		"maxValue": 90000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-09T14:10:16.656Z",
-		"source": "https://boards.greenhouse.io/monzo/jobs/3369069?gh_src=8114893a1us&source=LinkedIn"
-	},
+	"tags": [
+		"senior"
+	],
 	"applicationUri": "https://boards.greenhouse.io/monzo/jobs/3369069",
 	"applicationType": "link",
 	"shortDescription": "About us We’re’ here to make money work for everyone and we're' doing things differently. For too long, banking has been obtuse, complex and opaque. We want to change that and build a bank with",

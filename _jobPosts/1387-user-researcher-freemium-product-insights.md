@@ -57,6 +57,9 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://jobs.lever.co/spotify/ac1b26ed-eaae-4e6f-b56d-975dbfeaaac2/apply",
 	"applicationType": "link",
 	"shortDescription": "Spotify is looking for a User Researcher to join the Freemium platform teams who enable the user journey from our free app to our paid products. You will work on a team of qualitative and",

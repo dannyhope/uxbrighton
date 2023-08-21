@@ -56,6 +56,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://amswh.avature.net/careers/Login?jobId=32063&user=0",
 	"applicationType": "link",
 	"shortDescription": "Here at 888 William Hill in Leeds or London, we're' looking for an experienced UX Writer to improve customer experience through simple, natural, human writing. You’ll’ be a thoughtful and",

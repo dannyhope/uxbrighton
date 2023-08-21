@@ -13,9 +13,9 @@
 			"similiarTitles": [
 				"Junior Digital Product Developer",
 				"Junior Digital Product Manager",
-				"Junior Digital Product Architect",
-				"Junior Digital Product Analyst",
-				"Junior Digital Product Strategist"
+				"Junior Digital User Experience Designer",
+				"Junior Digital User Interface Designer",
+				"Junior Digital User Interface Developer"
 			],
 			"seniorty": "Junior",
 			"seniortyLevel": 2
@@ -53,15 +53,13 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2023-08-16T06:16:42.447Z",
-		"source": "https://apply.workable.com/vira-health/j/47077F1F51/"
-	},
+	"tags": [
+		"junior",
+		"design"
+	],
 	"applicationUri": "https://apply.workable.com/vira-health/j/47077F1F51/apply/",
 	"applicationType": "link",
 	"shortDescription": "About Vira Health Vira Health is a London-based- digital health company focused on relief for the central pain points of menopause. Our ultimate goal is to decrease the long-term- disability suffered",

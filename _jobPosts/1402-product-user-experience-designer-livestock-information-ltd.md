@@ -11,11 +11,11 @@
 			"canonicalTitle": "UX Designer",
 			"expandedTitle": "Product User Experience Designer",
 			"similiarTitles": [
-				"Product User Interface Designer",
-				"Product Interaction Designer",
-				"Product Visual Designer",
-				"Product Usability Designer",
-				"Product User Research Designer"
+				"Web Designer",
+				"User Interface Designer",
+				"User Experience Researcher",
+				"Interaction Designer",
+				"Visual Designer"
 			],
 			"seniortyLevel": 3
 		}
@@ -37,7 +37,7 @@
 	},
 	"hiringOrganization": {
 		"name": "AHDB",
-		"logo": "//uxbri.org/jobs/logos/agriculture-and-horticulture-development-board-ahdb-logo-vector.svg",
+		"logo": "//uxbri.org/jobs/logos/agriculture-and-horticulture-development-board-ahdb-logo.svg",
 		"twitter": "TheAHDB",
 		"id": 771,
 		"shortId": "R4T8OM2o",
@@ -62,12 +62,10 @@
 		"minValue": 46000,
 		"maxValue": 48000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-13T13:52:14.111Z",
-		"source": "https://careers.ahdb.org.uk/vacancy/product-user-experience-designer---livestock-information-ltd-523616.html#hs_show_apply_popup=true"
-	},
+	"tags": [
+		"remote",
+		"design"
+	],
 	"applicationUri": "https://careers.ahdb.org.uk/vacancy/product-user-experience-designer---livestock-information-ltd-523616.html#hs_show_apply_popup=true",
 	"applicationType": "link",
 	"shortDescription": "We are currently recruiting for a Product User Experience Designer to work on remote basis. This role has responsibility to combine interfaces and workflows to enhance user experiences of",

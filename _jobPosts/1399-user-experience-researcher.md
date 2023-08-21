@@ -59,6 +59,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"research",
+		"remote"
+	],
 	"applicationUri": "https://www.collibra.com/us/en/company/careers/job-listing?gh_jid=5286005",
 	"applicationType": "link",
 	"shortDescription": "Joining Collibra’s’ User Experience Research team We are hiring a user experience researcher to join us in transforming the product experience at Collibra by deeply understanding users’ needs and",

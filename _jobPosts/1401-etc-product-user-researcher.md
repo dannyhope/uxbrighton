@@ -60,6 +60,9 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"research"
+	],
 	"applicationUri": "https://jobs.bt.com/BTGroup/job/1-Braham-Street-Etc_-Product-User-Researcher-Lond/768465202",
 	"applicationType": "link",
 	"shortDescription": "About the role This role will be based 3 days in our London One Braham Office, with 2 days remote.   Who are Etc.. Factory? Here in Etc.. Factory we’re’ all about searching for the next ‘big thing’",

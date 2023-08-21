@@ -57,6 +57,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"junior",
+		"remote",
+		"design"
+	],
 	"applicationUri": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/Greater-London/Junior-Product-Designer_R0046562-1/apply",
 	"applicationType": "link",
 	"shortDescription": "At British Gas, we’re’ evolving to become a truly purpose-led- organisation, helping millions of customers to live more sustainably, simply, and affordably. We have a huge role to play in helping the",

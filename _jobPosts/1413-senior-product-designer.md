@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Product Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
 				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -25,7 +25,7 @@
 	"closedDate": "2023-09-24T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, W1W 8HJ, UK",
+		"original": "London, W1W 8HJ",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -34,14 +34,15 @@
 				"postalCode": "W1W 8HJ",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.517045,
-				"longitude": -0.141674
+				"latitude": 51.5175,
+				"longitude": -0.1372
 			}
 		]
 	},
 	"hiringOrganization": {
 		"name": "New Look",
-		"logo": "//uxbri.org/jobs/logos/new-look-vector-logo-2022.svg",
+		"logo": "//uxbri.org/jobs/logos/new-look-vector-logo-2022-cropped.svg",
+		"twitter": "newlook",
 		"id": 634,
 		"shortId": "BU826ACM",
 		"uuid": "02ba8602-1fd2-4fe9-a0d9-a055f01180e6"
@@ -54,20 +55,13 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"salary": {
-		"currencyCode": "GBP",
-		"currencySymbol": "£"
-	},
-	"sourceSiteJobId": "42835",
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-17T15:21:02.149Z",
-		"source": "https://apply.newlook.jobs/vacancies/42835/.2023-08-15%2008:59:24IND?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
+	"tags": [
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://apply.newlook.jobs/en/vacancies/42835/apply/",
 	"applicationType": "link",
 	"shortDescription": "We’re’ New Look and we’ve’ been at the forefront of British high-street- fashion since 1969. Over the last 50 years, we’ve’ grown to be a global, multichannel brand offering on-trend-, value-driven-",

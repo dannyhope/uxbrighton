@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Product Strategist",
-				"Product Analyst"
+				"Product Design Manager",
+				"Product Design Lead",
+				"Product Design Strategist",
+				"Product Design Consultant",
+				"Product Design Analyst"
 			],
 			"seniortyLevel": 3
 		}
@@ -55,12 +55,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2023-08-17T15:15:02.847Z",
-		"source": "https://bumble.wd3.myworkdayjobs.com/en-US/Bumble_Careers/job/London/Product-Designer---Monetisation--Platform-Design_JR1631"
-	},
+	"tags": [
+		"design"
+	],
 	"applicationUri": "https://bumble.wd3.myworkdayjobs.com/en-US/Bumble_Careers/job/London/Product-Designer---Monetisation--Platform-Design_JR1631/apply",
 	"applicationType": "link",
 	"shortDescription": "We strongly encourage people of colour, lesbian, gay, bisexual, transgender, queer and non-binary- people, veterans, parents, and individuals with disabilities to apply. Bumble is an equal",
