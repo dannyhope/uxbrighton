@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: "Time team: Documenting decisions and marking milestones"
+title: Design decisions & discovery development
 social-image: /images/53022490594_5b637d52bb_o.jpg
 event-date: 2023-10-10
 start: 7pm
