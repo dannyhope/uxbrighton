@@ -32,6 +32,8 @@ Today he works with public sector organisations, combining his dedication to det
 \
 Away from all that, and when not whiling away his time on various side projects, Paul enjoys long train journeys to destinations with enough interesting architecture to blog about.
 
+## Murder on the dancefloor: The death of disco – Jon Roobottom
+
 Drinks and pizza provided. 🍕🥤
 
 🎟️ Student discount tickets available.
