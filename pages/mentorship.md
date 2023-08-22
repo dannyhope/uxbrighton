@@ -12,6 +12,7 @@ redirect_from:
   - /mentorship/2022/
   - /mentorship/23
   - /mentorship/2023
+  - /mentor
 seo: true
 ---
 U﻿X Brighton’s mentorship programme supports UXers at each stage of their career. From student to Head of Design and anything in between. Whether you're a Researcher or Designer we pair mentors and mentees to help you grow your UX career. 
