@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Product Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
 				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -58,12 +58,10 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2023-08-21T06:42:14.394Z",
-		"source": "https://jobs.lever.co/moonpig/daa8e487-8cac-48bc-b2f8-9245d5b02855?source=6"
-	},
+	"tags": [
+		"remote",
+		"senior"
+	],
 	"applicationUri": "https://jobs.lever.co/moonpig/daa8e487-8cac-48bc-b2f8-9245d5b02855/apply",
 	"applicationType": "link",
 	"shortDescription": "About us Buyagift and Red Letter Days are the UK’s’ leading gift experience provider. Our core focus is to deliver happiness to our customers, suppliers, team and retail partners, we aim to do this",

@@ -70,7 +70,8 @@
 	},
 	"tags": [
 		"remote",
-		"management"
+		"management",
+		"senior"
 	],
 	"applicationUri": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YnJhbmRfaWQ9MCZvd25lcj01MDcwMDAwJmFwcGx5X3VybD1odHRwczovL2NzaHIudGFsLm5ldC92eC9sYW5nLWVuLUdCL2FwcGNlbnRyZS0xMS9jYW5kaWRhdGUvcG9zdGluZ3MvMjYzNjQ4P2luc3RhbnQ9YXBwbHkmamNvZGU9MTg3MTYwNSZvd25lcnR5cGU9ZmFpciZwYWdlY2xhc3M9QXBwbHkmcG9zdGluZ19jb2RlPTAmYXBwbHlfbm93PTEmcmVxc2lnPTE2OTI1OTg4ODktZWExZmI0ZGYyM2UwOTA4MjExMjU5NGZkMDYzMTk2NTQwZTU1MjhkNA%3D%3D&login_button=Apply+now&reqsig=1692598890-ec27d2497d741ed327563a623005881ddf506338",
 	"applicationType": "link",
