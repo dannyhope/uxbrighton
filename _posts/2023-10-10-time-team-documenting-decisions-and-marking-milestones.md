@@ -23,11 +23,13 @@ Do you want to...
 
 Join us on Tuesday 10 October for an evening of insightful talks by industry experts. Learn about the significance of recording design choices and commemorating project milestones. Gain insights into effective methods and tools for decision recall. Delve into the realm of design discoveries and gain practical strategies for navigating challenges. And, leave with actionable insights to elevate your discovery process. 
 
-## Time team: Documenting decisions and marking milestones – Paul Robert Lloyd  
+## Time team: Documenting decisions and marking milestones – Paul Robert Lloyd
 
 Exercise regularly; eat plenty of vegetables; floss your teeth. Tasks that feel like chores are often the most beneficial in the long run. The same is true of writing documentation.\
 \
-In this talk, we’ll look at how to record and recall design decisions and some tools to help us do that. We’ll also learn how to celebrate achievements while considering the role designers can play in cultivating a fun yet inclusive culture within a team.
+Documenting decisions, recording design iterations and explaining commonly used terminology means everyone on a team can have a shared understanding of a product’s design and evolution. Making this information public can increase accountability and build trust. Deliberately building institutional memory can prevent mistakes being repeated and lessons needing to be learnt over and over again.\
+\
+In this talk, we’ll look at how to record and recall design decisions and consider the role designers play in cultivating a fun yet inclusive culture within a team, and the potential pitfalls to avoid when doing so.
 
 ### About Paul
 
