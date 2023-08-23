@@ -58,7 +58,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Full-time Permanent",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"salary": {
@@ -69,12 +69,9 @@
 		"minValue": 32600,
 		"maxValue": 48800
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-22T08:14:15.985Z",
-		"source": "https://careers.sse.com/jobs/digital-product-designer-london-london-england-united-kingdom-portsmouth-hampshire-hampshire-edinburgh-the-lothians-scotland-glasgow-renfrewshire-renfrewshire-perth-perthshire?source=indeed"
-	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://careers.sse.com/jobs/digital-product-designer-london-london-england-united-kingdom-portsmouth-hampshire-hampshire-edinburgh-the-lothians-scotland-glasgow-renfrewshire-renfrewshire-perth-perthshire",
 	"applicationType": "link",
 	"shortDescription": "SSE has big ambitions to be a leading energy company in a low carbon world. Following our commitment to invest 18 billion in low carbon projects to 2027, we have significant growth plans and are well",

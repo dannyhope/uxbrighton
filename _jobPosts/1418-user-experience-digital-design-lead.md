@@ -12,10 +12,10 @@
 			"expandedTitle": "User Experience and Digital Design Lead",
 			"similiarTitles": [
 				"User Experience Designer",
-				"Digital Product Designer",
+				"Digital Designer",
+				"Web Designer",
 				"User Interface Designer",
-				"Interaction Designer",
-				"Visual Designer"
+				"Interaction Designer"
 			],
 			"seniorty": "Lead",
 			"seniortyLevel": 5
@@ -59,15 +59,12 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-22T08:27:52.104Z",
-		"source": "https://vanquisbank.current-vacancies.com/Jobs/Advert/3188855?cid=1804&rsid=0&js=0&LinkType=1&FromSearch=False"
-	},
+	"tags": [
+		"management"
+	],
 	"applicationUri": "https://vanquisbank.current-vacancies.com/Jobs/Advert/3188855?cid=1804&rsid=0&js=0&LinkType=1&FromSearch=False",
 	"applicationType": "link",
 	"shortDescription": "Who we are Vanquis Banking Group has a rich history dating back to 1880. The company was founded in Bradford by Joshua Kelley Waddilove as The Provident Clothing and Supply Company to help people",

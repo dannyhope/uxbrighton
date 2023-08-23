@@ -57,12 +57,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2023-08-22T08:42:59.356Z",
-		"source": "https://wd1.myworkdaysite.com/recruiting/ssctech/SSCTechnologies/job/London-UK/Senior-UX-Researcher_R17982"
-	},
+	"tags": [
+		"senior"
+	],
 	"applicationUri": "https://wd1.myworkdaysite.com/recruiting/ssctech/SSCTechnologies/job/London-UK/Senior-UX-Researcher_R17982/apply",
 	"applicationType": "link",
 	"shortDescription": "SS&C is a global provider of investment and financial services and software for the financial services and healthcare industries. Named to Fortune 1000 list as top U.S... company based on revenue,",

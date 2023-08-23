@@ -13,9 +13,9 @@
 			"similiarTitles": [
 				"User Experience Designer",
 				"User Interface Designer",
-				"Interaction Designer",
-				"Product Designer",
-				"Visual Designer"
+				"Web Designer",
+				"Web Developer",
+				"Web Content Designer"
 			],
 			"seniortyLevel": 3
 		}
@@ -44,11 +44,16 @@
 		"shortId": "i7efq6o9",
 		"uuid": "bdbca262-0692-47b0-ba6e-5f7185124873"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-22T08:51:20.515Z",
-		"source": "https://www.lego.com/en-dk/careers/job/service-designer-338291d6e2fb1001f1f3167c06c90000?cmp=SOC-INUS13OctOtherGlobalrecruitment&locale=en-dk"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent",
+		"textDescription": "Permanent"
 	},
 	"applicationUri": "https://lego.wd3.myworkdayjobs.com/LEGO_External/login?redirect=%2FLEGO_External%2Fjob%2FLondon%2FService-Designer_0000008198%2Fapply",
 	"applicationType": "link",
