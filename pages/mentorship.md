@@ -35,6 +35,8 @@ You can also join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship
 
 ## 2022 programme
 
+<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-right"/>
+
 **12 July 2022:** [Mentorship Launch](https://uxbri.org/mentorship-launch-22/) 
 
 **9 August 2022:** [Mentorship Speed Matching](https://uxbri.org/speed-matching/)
@@ -44,8 +46,6 @@ You can also join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship
 **10 January 2023**: [Mentorship Check-In](https://uxbri.org/mentorship-check-in) 
 
 **11 April 2023**: End of 2022 Mentorship Programme, [Mentorship Closing Party](https://uxbri.org/mentorship-closing-party) 
-
-<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-right"/>
 
 ## 2023 programme
 
