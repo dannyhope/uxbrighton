@@ -15,7 +15,7 @@
 				"Usability Researcher",
 				"User Interface Researcher",
 				"User Research Analyst",
-				"User Research Manager"
+				"User Research Consultant"
 			],
 			"seniortyLevel": 3
 		}
@@ -58,16 +58,10 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, successfactors",
-		"patternType": "default, system",
-		"date": "2023-08-29T08:23:35.409Z",
-		"source": "https://jobs.atos.net/job/London-User-Researcher-GB-SW1A-2NS/974657101/?sponsored=ppc"
-	},
-	"applicationUri": "https://jobs.atos.net/talentcommunity/apply/974657101/?locale=en_US",
+	"applicationUri": "https://jobs.atos.net/job/London-User-Researcher-GB-SW1A-2NS/974657101/?feedId=365901&utm_source=CareerSite&utm_campaign=Atos_CorpSite",
 	"applicationType": "link",
 	"shortDescription": "Eviden is an Atos Group business with an annual revenue of circa 5 billion and a global leader in data-driven-, trusted and sustainable digital transformation. As a next generation digital business",
 	"status": "LIVE",
