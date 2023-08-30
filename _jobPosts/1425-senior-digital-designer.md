@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Digital Designer",
 			"expandedTitle": "Senior Digital Designer",
 			"similiarTitles": [
-				"Senior Digital Creative Designer",
-				"Senior Digital Art Director",
-				"Senior Digital User Experience Designer",
-				"Senior Digital Graphic Designer",
-				"Senior Digital Visual Designer"
+				"Senior Web Designer",
+				"Senior Graphic Designer",
+				"Senior UX Designer",
+				"Senior UI Designer",
+				"Senior Web Developer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -60,15 +60,12 @@
 				"type": "contract"
 			}
 		],
-		"original": "Full-time Permanent",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-29T06:57:55.145Z",
-		"source": "https://careers.riverisland.com/postings/0026209f-51b1-40d3-bac7-dc214bf07f41?utm_medium=job_board&utm_source=indeed"
-	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://careers.riverisland.com/postings/0026209f-51b1-40d3-bac7-dc214bf07f41/applications/new",
 	"applicationType": "link",
 	"shortDescription": "Description We’re’ a much-loved- brand with an exciting future. Our Islanders are a diverse bunch of bright, talented people who love working together – and are proud of the work they do.",
