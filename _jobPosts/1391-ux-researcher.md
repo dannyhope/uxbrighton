@@ -61,6 +61,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://globalcareers.travelopia.com/Forms/Application?formParameters=KizGpaAy2eWSChSK2ySS37xN3B2XpUwyAjFp7wKPPTDI3XdGKDIXaw%3D%3D&jobPostId=437879",
 	"applicationType": "link",
 	"shortDescription": "Are you passionate about crafting outstanding digital experiences? Do you thrive on understanding user needs and behaviours to build impactful web journeys? If so, we have an exciting opportunity for",

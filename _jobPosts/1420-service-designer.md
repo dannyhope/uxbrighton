@@ -55,6 +55,9 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"tags": [
+		"mid"
+	],
 	"applicationUri": "https://lego.wd3.myworkdayjobs.com/LEGO_External/login?redirect=%2FLEGO_External%2Fjob%2FLondon%2FService-Designer_0000008198%2Fapply",
 	"applicationType": "link",
 	"shortDescription": "Core Responsibilities Plan and facilitate research with users and stakeholders Facilitate mapping as-is- and to-be- user journeys and service blueprinting with participants from all seniority levels",

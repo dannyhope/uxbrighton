@@ -62,7 +62,9 @@
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
-		"design"
+		"design",
+		"mid",
+		"senior"
 	],
 	"applicationUri": "https://apply.thewhitecompany.com/jobs/vacancy/5551/questions/1",
 	"applicationType": "link",

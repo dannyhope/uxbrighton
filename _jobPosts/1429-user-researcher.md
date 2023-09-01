@@ -61,6 +61,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://jobs.atos.net/job/London-User-Researcher-GB-SW1A-2NS/974657101/?feedId=365901&utm_source=CareerSite&utm_campaign=Atos_CorpSite",
 	"applicationType": "link",
 	"shortDescription": "Eviden is an Atos Group business with an annual revenue of circa 5 billion and a global leader in data-driven-, trusted and sustainable digital transformation. As a next generation digital business",

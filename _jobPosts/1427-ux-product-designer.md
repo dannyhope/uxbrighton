@@ -57,6 +57,9 @@
 		"original": "Part-time",
 		"textDescription": "Part-time"
 	},
+	"tags": [
+		"mid"
+	],
 	"applicationUri": "https://apply.workable.com/borrowmydoggy/j/C07FE8F3B1/apply/",
 	"applicationType": "link",
 	"shortDescription": "An unmissable opportunity has arisen to join a growing entrepreneurial and digital business. Launched in 2012, BorrowMyDoggy is one of the UK’s’ fastest growing online dog communities, enabling dog",

@@ -57,6 +57,12 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"mid",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/AJBell1/publication/70a2807d-d547-4d7e-ab05-4a0b9946ca37?dcr_ci=AJBell1",
 	"applicationType": "link",
 	"shortDescription": "Job Description To further our expansion, we are now recruiting for a highly skilled and experienced UI/UX/ Designer to align to our direct-to-consumer-- development team. The successful candidate",

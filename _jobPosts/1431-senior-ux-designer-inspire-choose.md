@@ -59,7 +59,8 @@
 		"textDescription": "Permanent"
 	},
 	"tags": [
-		"remote"
+		"remote",
+		"senior"
 	],
 	"applicationUri": "https://apply.tesco-careers.com/members/?j=837427",
 	"applicationType": "link",

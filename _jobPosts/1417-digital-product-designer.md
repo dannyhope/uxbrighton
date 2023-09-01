@@ -70,7 +70,8 @@
 		"maxValue": 48800
 	},
 	"tags": [
-		"remote"
+		"remote",
+		"mid"
 	],
 	"applicationUri": "https://careers.sse.com/jobs/digital-product-designer-london-london-england-united-kingdom-portsmouth-hampshire-hampshire-edinburgh-the-lothians-scotland-glasgow-renfrewshire-renfrewshire-perth-perthshire",
 	"applicationType": "link",

@@ -64,7 +64,8 @@
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
-		"design"
+		"design",
+		"junior"
 	],
 	"applicationUri": "https://jobs.lever.co/moneyboxapp/a6e2abe6-c89e-4a09-a9bc-d88926728e51/apply",
 	"applicationType": "link",

@@ -15,7 +15,7 @@
 				"Usability Researcher",
 				"User Interface Researcher",
 				"User Research Analyst",
-				"User Research Manager"
+				"User Research Consultant"
 			],
 			"seniortyLevel": 3
 		}
@@ -64,12 +64,10 @@
 		"minValue": 41600,
 		"maxValue": 48792
 	},
-	"meta": {
-		"patternName": "ld+json, civilservicejobs",
-		"patternType": "default, site",
-		"date": "2023-08-30T06:28:55.022Z",
-		"source": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0JnNlYXJjaHNvcnQ9c2NvcmUmcGFnZWNsYXNzPUpvYnMmdXNlcnNlYXJjaGNvbnRleHQ9NDc0MTUwMzAmb3duZXI9NTA3MDAwMCZqb2JsaXN0X3ZpZXdfdmFjPTE4NzMzMDcmb3duZXJ0eXBlPWZhaXImc2VhcmNocGFnZT0xJnJlcXNpZz0xNjkyODY0NTM4LWUwZjg2ZTY1YmM2YWE1NjE1Y2ZjZWY0NjkzZGVkN2EwNjkyMmNhMzg="
-	},
+	"tags": [
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=amNvZGU9MTg3MzMwNyZvd25lcnR5cGU9ZmFpciZicmFuZF9pZD0wJmFwcGx5X3VybD1odHRwczovL2NzaHIudGFsLm5ldC92eC9sYW5nLWVuLUdCL2FwcGNlbnRyZS0xMS9jYW5kaWRhdGUvcG9zdGluZ3MvMjY1MzU3P2luc3RhbnQ9YXBwbHkmcG9zdGluZ19jb2RlPTAmb3duZXI9NTA3MDAwMCZwYWdlY2xhc3M9QXBwbHkmYXBwbHlfbm93PTEmcmVxc2lnPTE2OTMzNzY1MjYtMjk2ZjA3YmM5NjQ2YTgwZDFlZWUyODlhOTg5ZGU2OTYzMTIzNzUzMQ%3D%3D&login_button=Apply+now&reqsig=1693376527-bc62da5ab87368ab1b7625d8bb64d0fa2893f0ef",
 	"applicationType": "link",
 	"shortDescription": "About the job Job summary We’re’ looking for a User Researcher who wants to make a lasting impact on how the Home Office delivers user-centred- products and services. You’ll’ work in an agile,",

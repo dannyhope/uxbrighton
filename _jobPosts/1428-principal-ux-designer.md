@@ -53,7 +53,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"salary": {
@@ -66,7 +66,8 @@
 	},
 	"tags": [
 		"management",
-		"remote"
+		"remote",
+		"senior"
 	],
 	"applicationUri": "https://app.vacancy-filler.co.uk/salescrm/Careers/CareersPage.aspx?e=LMo8nnTwYNYXNwrqhykJyu4_5lmmlZQB0VkWIokVBFeiCS4sw-ndy-RXPxizj-QZ6MZRTUaKdENWfsvbV76ph7kQ7rpDTBBH",
 	"applicationType": "link",

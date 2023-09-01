@@ -63,7 +63,8 @@
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
-		"research"
+		"research",
+		"senior"
 	],
 	"applicationUri": "https://boards.greenhouse.io/embed/job_app?token=5289997",
 	"applicationType": "link",

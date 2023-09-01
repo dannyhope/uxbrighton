@@ -56,7 +56,8 @@
 		"textDescription": "Full-time"
 	},
 	"tags": [
-		"design"
+		"design",
+		"mid"
 	],
 	"applicationUri": "https://bumble.wd3.myworkdayjobs.com/en-US/Bumble_Careers/job/London/Product-Designer---Monetisation--Platform-Design_JR1631/apply",
 	"applicationType": "link",

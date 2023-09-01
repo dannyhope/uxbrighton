@@ -59,7 +59,8 @@
 	},
 	"tags": [
 		"mid",
-		"remote"
+		"remote",
+		"senior"
 	],
 	"applicationUri": "https://career.globant.com/job/London-User-Experience-Researcher-Lond/543051117/",
 	"applicationType": "link",

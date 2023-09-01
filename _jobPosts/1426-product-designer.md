@@ -58,7 +58,8 @@
 		"textDescription": "Full-time"
 	},
 	"tags": [
-		"remote"
+		"remote",
+		"mid"
 	],
 	"applicationUri": "https://rightmove.bamboohr.com/careers/713",
 	"applicationType": "link",

@@ -61,7 +61,8 @@
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
-		"research"
+		"research",
+		"mid"
 	],
 	"applicationUri": "https://jobs.bt.com/BTGroup/job/1-Braham-Street-Etc_-Product-User-Researcher-Lond/768465202",
 	"applicationType": "link",

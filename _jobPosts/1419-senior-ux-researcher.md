@@ -58,7 +58,8 @@
 		"textDescription": "Full-time"
 	},
 	"tags": [
-		"senior"
+		"senior",
+		"research"
 	],
 	"applicationUri": "https://wd1.myworkdaysite.com/recruiting/ssctech/SSCTechnologies/job/London-UK/Senior-UX-Researcher_R17982/apply",
 	"applicationType": "link",

@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Developer",
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Software Designer"
+				"Web Product Designer",
+				"UX Product Designer",
+				"UI Product Designer",
+				"Web Design Product Manager",
+				"Web Design Strategist"
 			],
 			"seniortyLevel": 3
 		}
@@ -53,7 +53,7 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
@@ -64,12 +64,10 @@
 		"minValue": 45000,
 		"maxValue": 50000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-08-31T05:49:50.940Z",
-		"source": "https://careers.problemshared.net/jobs/3102667-product-designer?ittk=1VUN54LXP6"
-	},
+	"tags": [
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://careers.problemshared.net/jobs/3102667-product-designer?ittk=1VUN54LXP6",
 	"applicationType": "link",
 	"shortDescription": "Overview ProblemShared is seeking an experienced Product Designer to join our growing Marketing Team. We are looking for a motivated individual who wants to work in a high-performance- team at a",

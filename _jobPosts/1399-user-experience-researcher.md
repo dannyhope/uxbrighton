@@ -61,7 +61,8 @@
 	},
 	"tags": [
 		"research",
-		"remote"
+		"remote",
+		"mid"
 	],
 	"applicationUri": "https://www.collibra.com/us/en/company/careers/job-listing?gh_jid=5286005",
 	"applicationType": "link",

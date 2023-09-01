@@ -56,7 +56,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, Full-time",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"salary": {
@@ -67,6 +67,12 @@
 		"minValue": 35000,
 		"maxValue": 40000
 	},
+	"tags": [
+		"remote",
+		"mid",
+		"senior",
+		"research"
+	],
 	"applicationUri": "https://rnid.org.uk/job-application-form/?applicationID=HQ3043-User-Researcher&referrerID=22730&step=1",
 	"applicationType": "link",
 	"shortDescription": "About RNID We are RNID: the national charity supporting the 12 million people in the UK who are deaf, have hearing loss or tinnitus. Together, we will end the discrimination faced by our communities,",
