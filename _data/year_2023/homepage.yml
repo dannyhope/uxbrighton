@@ -345,6 +345,43 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/stefanieposavec/
           bio-title: About Stefanie
+      - talk-info:
+          talk-time: ""
+          talk-title: What is Creativity?
+          talk-summary: >-
+            In the realm of design, creativity remains an elusive and often
+            misunderstood concept. How do we define creativity, and what makes
+            it so integral to the world of design and beyond? Drawing from her
+            background in philosophy, psychology, and the intersection of art
+            and AI, Alice Helliwell delves into the concept of creativity,
+            exploring its various facets and its essential role in human
+            thinking and making.
+
+
+            In this stimulating talk, Alice will unravel the philosophical underpinnings of creativity, exploring definitions that go beyond artistic endeavors. Through an analytical lens, she will navigate the audience through intriguing questions surrounding creativity, such as its value, its relationship with innovation and its potential to inspire change.
+
+
+            Alice's talk promises to be a thought-provoking exploration of what creativity truly means and how it can be harnessed to enhance our understanding and practice of design.
+        name: Alice Helliwell
+        thumbnail: /images/_alice-helliwell.png
+        anchor: Alice-Helliwell
+        speaker-bio:
+          bio-title: About Alice
+          bio-summary: >-
+            Alice Helliwell is Assistant Professor of Philosophy at Northeastern
+            University. Alice's research is focussed on computational creativity
+            and AI art. Her work examines questions such as 'can AI be
+            creative?', 'can AI make art, and if so, can it make *good* art?'
+            and 'are there any unique aesthetic qualities of AI images?'. Alice
+            is also currently involved in projects examining how ethics
+            education can be integrated into computer science curricula, and
+            exploring the relevance of Wittgesteinian philosophy for AI.
+
+
+            Alice completed her undergraduate degree at the University of Edinburgh in philosophy and psychology. After a stint working as a workplace design consultant, she went on to complete an MA and PhD at the University of Kent in History and Philosophy of Art. She began working at NU London in 2021.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/alicechelliwell/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
