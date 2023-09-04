@@ -173,6 +173,106 @@ speakers:
     speaker-list:
       - talk-info:
           talk-time: ""
+          talk-title: What is Creativity?
+          talk-summary: >-
+            In the realm of design, creativity remains an elusive and often
+            misunderstood concept. How do we define creativity, and what makes
+            it so integral to the world of design and beyond? Drawing from her
+            background in philosophy, psychology, and the intersection of art
+            and AI, Alice Helliwell delves into the concept of creativity,
+            exploring its various facets and its essential role in human
+            thinking and making.
+
+
+            In this stimulating talk, Alice will unravel the philosophical underpinnings of creativity, exploring definitions that go beyond artistic endeavors. Through an analytical lens, she will navigate the audience through intriguing questions surrounding creativity, such as its value, its relationship with innovation and its potential to inspire change.
+
+
+            Alice's talk promises to be a thought-provoking exploration of what creativity truly means and how it can be harnessed to enhance our understanding and practice of design.
+        name: Alice Helliwell
+        thumbnail: /images/alice-helliwell-1-.png
+        anchor: Alice-Helliwell
+        speaker-bio:
+          bio-title: About Alice
+          bio-summary: >-
+            Alice Helliwell is Assistant Professor of Philosophy at Northeastern
+            University. Alice's research is focussed on computational creativity
+            and AI art. Her work examines questions such as 'can AI be
+            creative?', 'can AI make art, and if so, can it make *good* art?'
+            and 'are there any unique aesthetic qualities of AI images?'. Alice
+            is also currently involved in projects examining how ethics
+            education can be integrated into computer science curricula, and
+            exploring the relevance of Wittgesteinian philosophy for AI.
+
+
+            Alice completed her undergraduate degree at the University of Edinburgh in philosophy and psychology. After a stint working as a workplace design consultant, she went on to complete an MA and PhD at the University of Kent in History and Philosophy of Art. She began working at NU London in 2021.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/alicechelliwell/
+      - talk-info:
+          talk-time: ""
+          talk-title: "You’re doing it wrong: a celebration of ‘worst’ practices"
+          talk-summary: >-
+            I’ve spent my career in data visualisation working in ways that are
+            considered ‘wrong’ or not in line with ‘best’ practices. But by
+            adhering to best practices, could we be missing out on the \*best\*
+            parts of our fields through these inherent limitations? What
+            creative approaches can you discover when you explicitly set out to
+            do the opposite of what you are ‘supposed’ to do?
+
+
+            Using examples from my creative practice, this talk is a celebration of what there is to gain when we are wilfully, perversely, and joyously ‘wrong’ in how we as designers work with our fields’ respective design processes.
+        name: Stefanie Posavec
+        thumbnail: /images/stefanie-posavec-600x600.png
+        anchor: Stefanie-Posavec
+        speaker-bio:
+          bio-summary: >-
+            [Stefanie Posavec](http://www.stefanieposavec.com/) is a designer,
+            artist, and author focused on creating playful, accessible,
+            human-scaled approaches to communicating with data.
+
+
+            Her work has been exhibited at major galleries including the V&A, the Design Museum (Designs of the Year 2016), Somerset House, the Wellcome Collection, Bletchley Park (all UK), the Centre Pompidou (Paris), and MoMA (New York), where her work is also in the permanent collection. Recently she undertook the book design and art direction of chart creation for the activist Greta Thunberg’s much-lauded The Climate Book.
+
+
+            Her latest illustrated book ([I am a book. I am a portal to the universe.](https://www.iamabook.online/), co-authored with Miriam Quick) has received multiple accolades, including winning the UK Royal Society’s Young People’s Book Prize 2021. She has also co-authored two books that emphasize a handmade, personal approach to data: Dear Data and the journal Observe, Collect, Draw!
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/stefanieposavec/
+          bio-title: About Stefanie
+      - talk-info:
+          talk-time: ""
+          talk-title: "Exploring Innovation: A Case Study from The Guardian's Product
+            Design Team"
+          talk-summary: For most of its 200-year history, the Guardian existed only in
+            print but today millions of people across the world choose the
+            digital experience of our journalism. As behaviours change and
+            technology advances, the role that Product Design plays is more
+            important than ever. Tricky will talk about his leadership of the
+            Product Design team and how it differs from his previous work,
+            leading teams within creative agencies. He will provide a rare,
+            behind-the-scenes look at his team’s approach and bring this to life
+            by sharing a new product that hasn't even been launched yet.
+        name: " Tricky Bassett"
+        thumbnail: /images/tricky.png
+        anchor: Tricky-Bassett
+        speaker-bio:
+          bio-summary: Tricky is the Director of Product Design at The Guardian. He has
+            been designing interactions since the 1990s. After freelancing with
+            design agencies in London and New York he founded his first design
+            studio, Tricky Business, and enjoyed life designing user-centred
+            experiences. More recently, Tricky worked as the Creative Director
+            at Magnetic, where he helped organisations all over the world over
+            use design thinking to innovate at pace. Some clients he is most
+            proud to have worked with include Microsoft, PepsiCo, Mars, HSBC,
+            Sky and the BBC. Tricky is a keen cyclist and photographer and a
+            passionate advocate for mental well-being both at home and in his
+            work.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/richardtrickybassett/
+          bio-title: About Tricky
+      - talk-info:
+          talk-time: ""
           talk-title: The critical importance of supporting designer and developer
             creativity
           talk-summary: When we think about UX as a discipline, what often first comes to
@@ -247,38 +347,6 @@ speakers:
             He is very passionate about working with schools, running digital days and acting as an Enterprise Careers adviser for the Mayor of London.
       - talk-info:
           talk-time: ""
-          talk-title: "Exploring Innovation: A Case Study from The Guardian's Product
-            Design Team"
-          talk-summary: For most of its 200-year history, the Guardian existed only in
-            print but today millions of people across the world choose the
-            digital experience of our journalism. As behaviours change and
-            technology advances, the role that Product Design plays is more
-            important than ever. Tricky will talk about his leadership of the
-            Product Design team and how it differs from his previous work,
-            leading teams within creative agencies. He will provide a rare,
-            behind-the-scenes look at his team’s approach and bring this to life
-            by sharing a new product that hasn't even been launched yet.
-        name: " Tricky Bassett"
-        thumbnail: /images/tricky.png
-        anchor: Tricky-Bassett
-        speaker-bio:
-          bio-summary: Tricky is the Director of Product Design at The Guardian. He has
-            been designing interactions since the 1990s. After freelancing with
-            design agencies in London and New York he founded his first design
-            studio, Tricky Business, and enjoyed life designing user-centred
-            experiences. More recently, Tricky worked as the Creative Director
-            at Magnetic, where he helped organisations all over the world over
-            use design thinking to innovate at pace. Some clients he is most
-            proud to have worked with include Microsoft, PepsiCo, Mars, HSBC,
-            Sky and the BBC. Tricky is a keen cyclist and photographer and a
-            passionate advocate for mental well-being both at home and in his
-            work.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/richardtrickybassett/
-          bio-title: About Tricky
-      - talk-info:
-          talk-time: ""
           talk-title: Unleash your inner innovator
           talk-summary: >-
             Design is about creating change. As designers, we offer the most
@@ -314,74 +382,6 @@ speakers:
               profile-url: https://www.linkedin.com/in/chrishow/
             - profile-type: website
               profile-url: https://chrishow101.medium.com/
-      - talk-info:
-          talk-time: ""
-          talk-title: "You’re doing it wrong: a celebration of ‘worst’ practices"
-          talk-summary: >-
-            I’ve spent my career in data visualisation working in ways that are
-            considered ‘wrong’ or not in line with ‘best’ practices. But by
-            adhering to best practices, could we be missing out on the \*best\*
-            parts of our fields through these inherent limitations? What
-            creative approaches can you discover when you explicitly set out to
-            do the opposite of what you are ‘supposed’ to do?
-
-
-            Using examples from my creative practice, this talk is a celebration of what there is to gain when we are wilfully, perversely, and joyously ‘wrong’ in how we as designers work with our fields’ respective design processes.
-        name: Stefanie Posavec
-        thumbnail: /images/stefanie-posavec-600x600.png
-        anchor: Stefanie-Posavec
-        speaker-bio:
-          bio-summary: >-
-            [Stefanie Posavec](http://www.stefanieposavec.com/) is a designer,
-            artist, and author focused on creating playful, accessible,
-            human-scaled approaches to communicating with data.
-
-
-            Her work has been exhibited at major galleries including the V&A, the Design Museum (Designs of the Year 2016), Somerset House, the Wellcome Collection, Bletchley Park (all UK), the Centre Pompidou (Paris), and MoMA (New York), where her work is also in the permanent collection. Recently she undertook the book design and art direction of chart creation for the activist Greta Thunberg’s much-lauded The Climate Book.
-
-
-            Her latest illustrated book ([I am a book. I am a portal to the universe.](https://www.iamabook.online/), co-authored with Miriam Quick) has received multiple accolades, including winning the UK Royal Society’s Young People’s Book Prize 2021. She has also co-authored two books that emphasize a handmade, personal approach to data: Dear Data and the journal Observe, Collect, Draw!
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/stefanieposavec/
-          bio-title: About Stefanie
-      - talk-info:
-          talk-time: ""
-          talk-title: What is Creativity?
-          talk-summary: >-
-            In the realm of design, creativity remains an elusive and often
-            misunderstood concept. How do we define creativity, and what makes
-            it so integral to the world of design and beyond? Drawing from her
-            background in philosophy, psychology, and the intersection of art
-            and AI, Alice Helliwell delves into the concept of creativity,
-            exploring its various facets and its essential role in human
-            thinking and making.
-
-
-            In this stimulating talk, Alice will unravel the philosophical underpinnings of creativity, exploring definitions that go beyond artistic endeavors. Through an analytical lens, she will navigate the audience through intriguing questions surrounding creativity, such as its value, its relationship with innovation and its potential to inspire change.
-
-
-            Alice's talk promises to be a thought-provoking exploration of what creativity truly means and how it can be harnessed to enhance our understanding and practice of design.
-        name: Alice Helliwell
-        thumbnail: /images/alice-helliwell-1-.png
-        anchor: Alice-Helliwell
-        speaker-bio:
-          bio-title: About Alice
-          bio-summary: >-
-            Alice Helliwell is Assistant Professor of Philosophy at Northeastern
-            University. Alice's research is focussed on computational creativity
-            and AI art. Her work examines questions such as 'can AI be
-            creative?', 'can AI make art, and if so, can it make *good* art?'
-            and 'are there any unique aesthetic qualities of AI images?'. Alice
-            is also currently involved in projects examining how ethics
-            education can be integrated into computer science curricula, and
-            exploring the relevance of Wittgesteinian philosophy for AI.
-
-
-            Alice completed her undergraduate degree at the University of Edinburgh in philosophy and psychology. After a stint working as a workplace design consultant, she went on to complete an MA and PhD at the University of Kent in History and Philosophy of Art. She began working at NU London in 2021.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/alicechelliwell/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
