@@ -60,3 +60,7 @@ Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wi
 Drinks and pizza provided. 🍕🥤
 
 🎟️ Student discount tickets available.
+
+## Support
+
+With thanks to [Projects](https://www.projectsclub.co.uk/) for sponsoring the venue.
