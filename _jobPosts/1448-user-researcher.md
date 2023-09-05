@@ -39,7 +39,7 @@
 	},
 	"hiringOrganization": {
 		"name": "Department for Education",
-		"logo": "//uxbri.org/jobs/logos/Department-for-Education.svg-for-education-vector-logo.svg",
+		"logo": "//uxbri.org/jobs/logos/Department-for-Education.svg",
 		"twitter": "educationgovuk",
 		"id": 790,
 		"shortId": "1Z92K0m8",
