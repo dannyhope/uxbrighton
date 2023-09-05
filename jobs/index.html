@@ -87,7 +87,7 @@ permalink: jobs
     <ul class="job_list list no-list">
       {% comment %} Loop through `jobPosts` collection --> (PROMOTED ads) {% endcomment %}
       {% for job in site.jobPosts reversed %}
-        {% if job.tags[0] == 'promoted' %}
+        {% if job.tags contains 'promoted' or job.tags contains 'top-job' %}
           <li class="job_item promoted">
             <a href="{{ job.url }}" class="drop rounded">
               <div class="job-info pa3">
@@ -129,7 +129,7 @@ permalink: jobs
 
       {% comment %} Loop through `jobPosts` collection --> (NOT PROMOTED ads) {% endcomment %}
       {% for job in site.jobPosts reversed %}
-        {% unless job.tags[0] == 'promoted' %}
+        {% unless job.tags contains 'promoted' or job.tags contains 'top-job' %}
           <li class="job_item">
             <a href="{{ job.url }}" class="drop rounded">
               <div class="job-info pa3">
