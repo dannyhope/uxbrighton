@@ -57,6 +57,28 @@ Before his life as a service designer in the public sector, Jon built and ran pr
 
 Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wife and two kids.
 
+## The Agile Comms Handbook: How to Improve Team Collaboration and Boost Clarity – Giles Turnbull
+
+"Agile comms handbook" author Giles Turnbull takes a look at how some teams remember, and what that means for them: better connections with leaders, stakeholders, and colleagues in other teams. Better clarity. More understanding. Less \*mis\*understanding. He'll look at real life teams, and a fictional one - and wonder out loud about what team memory could look like for the rest of us. Why is it good to amplify agile working with agile comms? How does it contribute to an atmosphere of safety and trust? And on a more practical note: What needs to change? Who needs to change it? Whose job is that going to be?
+
+### About Giles 
+
+<img src="/images/giles-turnbull-headshot-large.jpg" alt="Head shot of Giles " class="image-align-right"/>
+
+Giles helps organisations communicate more like humans do: clearly, briefly, creatively. He works with leaders, teams and individuals to plan better ways of communicating about work in progress.
+
+A former member of the [Government Digital Service](https://gilest.org/gds.blog.gov.uk)’s influential creative team, Giles also worked for lots of other UK government departments, including Defra, HM Land Registry and Homes England.
+
+He’s worked with a long list of local authorities, charities, non-profits and international governments (including Comic Relief, Citizens Advice, the United Nations, and government teams in Scotland, Wales, the Republic of Ireland, Switzerland, Estonia and California) plus many private sector clients.
+
+Giles was co-creator of the [It’s OK](https://gds.blog.gov.uk/2016/05/25/its-ok-to-say-whats-ok/) poster at GDS, which was subsequently [exhibited at the 2017 Vienna Biennale](http://2017.viennabiennale.org/en/exhibitions/detail/the-future-of-work/).
+
+Giles authored *[The agile comms handbook](https://agilecommshandbook.com/)*, and edited *[Content Design](https://contentdesign.london/store/the-content-design-book/)* by Sarah Winters, *[Content Transformation](https://contentdesign.london/shop/content-transformation-by-hinrich-von-haaren-paperback)* by Hinrich von Haaren, and *[The Team Onion](https://teamonion.works/buy-the-book/)* by Emily Webber.
+
+Earlier in his career, he worked as a freelance technology journalist, writing for the BBC, The Guardian, Time, MacUser, Mac DevCenter, The Unofficial Apple Weblog, and many others. He wrote a syndicated newspaper column about the internet for 14 years.
+
+Even earlier than that, his career started with reporting shifts at the Cambridge Evening News, a regional daily newspaper. It was while living in Cambridge through the early 1990s that he started experimenting with the internet, and learning things that would provide essential foundations for the career to come.
+
 Drinks and pizza provided. 🍕🥤
 
 🎟️ Student discount tickets available.
