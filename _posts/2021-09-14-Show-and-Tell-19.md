@@ -1,18 +1,17 @@
 ---
-layout: event-page
-title: Show & Tell 19 at The Skiff
-price: Free
-venue: The Skiff
-start: 7pm
-upcoming: false
-published: true
 event-date: 2021-09-14
+start: 7pm
+upcoming-bg-image: /images/events/show-and-tell.jpg
+price: Free
+layout: event-page
+title: Show & Tell 19
+venue: The Skiff
+published: true
+image: /images/cards/show-and-tell-8-twitter.png
+description: The UX Brighton Show & Tell is a low-key event. A supportive
+  environment for sharing, advice and discussion.
+upcoming: false
 seo: true
-
-description: "The UX Brighton Show & Tell is a low-key event. A supportive environment for sharing, advice and discussion."
-image: "/images/cards/show-and-tell-8-twitter.png"
-upcoming-bg-image: "/images/events/show-and-tell.jpg"
-
 ---
 
 Tuesday 14th September 2021, 7-9pm
