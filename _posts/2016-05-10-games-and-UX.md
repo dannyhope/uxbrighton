@@ -1,29 +1,33 @@
 ---
-layout: event-page  
-title: Designing for Games & VR
-venue: Hotel Du Vin
-date: 2016-05-10T19:00:00ZGMT
+event-date: 2016-05-10
 start: 7:00pm
+price: £5
+layout: event-page
 organisers:
   - name: Harvey Owen
     url: http://twitter.com/harvoldo
+published: true
+date: 2016-05-10T19:00:00ZGMT
+homepage: false
+title: Designing for Games & VR
+venue: Hotel Du Vin
 conference: false
 upcoming: false
-published: true
 seo: true
-homepage: false
-price: £5
-art-direction: "@media (max-width: 64rem) {.event-detail_desc .speaker-photo{width: 33.333%;}} @media (min-width: 65rem) {.event-detail_desc .speaker-photo {width: 20%;}} .speaker-photo {margin: 0; padding: 0; border: 0}"
+art-direction: "@media (max-width: 64rem) {.event-detail_desc
+  .speaker-photo{width: 33.333%;}} @media (min-width: 65rem) {.event-detail_desc
+  .speaker-photo {width: 20%;}} .speaker-photo {margin: 0; padding: 0; border:
+  0}"
 ---
 This evening event will investigate how UX and user research is implemented in the development of video games. Speakers will be covering a wide range of games UX and user research topics, discussing how the best games really focus on the player experience. 
 
 The current state of UX in the games industry will be discussed, as well as how it will change moving forward with new technologies like VR.
+
 <div class="row">
   <div class="u1of3-over-s center-under-s left-over-s"><a href="#differences-between-mainstream-ux-and-games-ux--deborah-amar"><img id="deborah-amar" src="../portraits/deborah-amar.jpg" alt="Photo of Deborah Amar" class="speaker-photo"></a></div>
   <div class="u1of3-over-s  center-under-s left-over-s"><a href="#running-user-tests-for-virtual-reality-games---steve-bromleyhttpstwittercomstevebromley"><img id="steve-bromley" src="../portraits/steve-bromley.jpg" alt="Photo of Steve Bromley" class="speaker-photo"></a></div>
   <div class="u1of3-over-s  center-under-s left-over-s"><a href="#applying-ux-lessons-to-game-design---henry-ryderhttptwittercomhenryryder"><img id="henry-ryder" src="../portraits/Henry-Ryder.jpg" alt="Photo of Henry Ryder" class="speaker-photo"></a></div>
 </div>
-
 
 ## Running user tests for Virtual Reality games - Steve Bromley
 
@@ -31,13 +35,13 @@ The current state of UX in the games industry will be discussed, as well as how 
 
 2016 is a big year for virtual reality, with the launch of new VR headsets from Sony PlayStation, Oculus Rift and Valve.
 For user researchers, virtual reality offers new challenges due to new technology, interaction methods and types of experiences.
- 
+
 In this talk, Steve will talk about lessons learned from designing and moderating user tests for virtual reality games, and give some best practises on how to get reliable and useful data from user research sessions.
- 
+
 Steve is a Games User Researcher currently working for Sony PlayStation on their hardware, games and system software.
- 
+
 Steve has run many user tests for PlayStation over the last 5 years, including for the PlayStation VR headset, their virtual reality launch line-up, and for popular PlayStation franchises such as LittleBigPlanet, SingStar and WonderBook.
- 
+
 He has extensive experience of designing, running and reporting usability and user experience tests, with adults and children, both in lab tests and at participants homes. 
 
 [@Steve_Bromley](https://twitter.com/Steve_Bromley)
@@ -89,3 +93,6 @@ Evolving the point-and-click genre for VR, we place visual exploration and envir
 **Also…Games!**
 There will be a couple of multiplayer games that people can enjoy after the talks. The games themselves are TBC, but they will be fun and multiplayer, so start challenging people now!
 
+## Organisers
+
+* Curated by Harvey Owen
