@@ -12,10 +12,10 @@
 			"expandedTitle": "User Experience Designer",
 			"similiarTitles": [
 				"User Interface Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Information Architect",
-				"Content Strategist"
+				"Web Designer",
+				"Web Developer",
+				"Front-End Developer",
+				"Interaction Designer"
 			],
 			"seniortyLevel": 3
 		}
@@ -55,12 +55,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, zohorecruit, soldo",
-		"patternType": "default, system, site",
-		"date": "2023-09-11T13:09:13.574Z",
-		"source": "https://soldo.zohorecruit.eu/recruit/PortalDetail.na?iframe=true&digest=J4OoWguvfrMbTfM0HQHXr8kiDpo5lBxYcWRZ9JSGIJw-&jobid=30848000005545205&widgetid=30848000000011497&embedsource=CareerSite"
-	},
+	"tags": [
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://soldo.zohorecruit.eu/recruit/PortalForm.na?digest=J4OoWguvfrMbTfM0HQHXr8kiDpo5lBxYcWRZ9JSGIJw-&iframe=true&jobid=30848000005545205&widgetid=30848000000011497&embedsource=CareerSite&fillmanually=true",
 	"applicationType": "link",
 	"shortDescription": "Soldo is here to change the way businesses spend - giving customers their time back. Our platform streamlines everything, from payments to reconciliation and our smart company cards and apps make",

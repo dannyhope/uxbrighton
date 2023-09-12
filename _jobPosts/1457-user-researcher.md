@@ -24,8 +24,8 @@
 	"closedDate": "2023-09-27T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Kingston, Sutton",
-		"textDescription": "Kingston",
+		"original": "Kingston, Sutton, Hybrid",
+		"textDescription": "Hybrid, Kingston",
 		"locations": [
 			{
 				"textDescription": "Kingston",
@@ -33,9 +33,10 @@
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
 				"latitude": 51.4025,
-				"longitude": -0.2768
+				"longitude": -0.3048
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "Kingston Council",
@@ -58,7 +59,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"salary": {
@@ -71,7 +72,8 @@
 	},
 	"tags": [
 		"research",
-		"mid"
+		"mid",
+		"remote"
 	],
 	"applicationUri": "https://kingston-sutton-jobs.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-80cb213376be/candidate/",
 	"applicationType": "link",

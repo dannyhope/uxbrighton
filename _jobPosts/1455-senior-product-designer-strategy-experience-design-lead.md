@@ -8,14 +8,14 @@
 		"textDescription": "Senior Product Designer",
 		"urlSlug": "senior-product-designer-strategy-experience-design-lead",
 		"inferred": {
-			"canonicalTitle": "Product Designer",
+			"canonicalTitle": "Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Design Strategist",
-				"Senior Product Design Experience Lead",
-				"Senior Product Design Consultant",
-				"Senior Product Design Manager",
-				"Senior Product Design Analyst"
+				"Senior UX Designer",
+				"Senior UI Designer",
+				"Senior Visual Designer",
+				"Senior Interaction Designer",
+				"Senior Product Design Lead"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -52,15 +52,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2023-09-11T11:55:24.188Z",
-		"source": "https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL/job/USA-REMOTE/Senior-Product-Designer--Strategy---Experience-Design-Lead-_862103-1?rx_campaign=indeed0&rx_ch=jobp4p&rx_group=120205&rx_job=862103-1_21d76-1&rx_r=none&rx_source=Indeed&rx_ts=20230911T080111Z&rx_vp=cpc&source=Indeed&utm_campaign=chicago&utm_medium=cpc&utm_source=Indeed_Sponsored&source=Indeed&rx_p=ET5ISVB2U3&rx_viewer=bf2136b8509811eeb5f957278800a8f8db902e862fe04a6fa930468a33689b92"
-	},
+	"tags": [
+		"remote",
+		"management",
+		"senior"
+	],
 	"applicationUri": "https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL/job/USA-REMOTE/Senior-Product-Designer--Strategy---Experience-Design-Lead-_862103-1/apply",
 	"applicationType": "link",
 	"shortDescription": "Job Description You’re’ not the person who will settle for just any role. Neither are we. Because we’re’ out to create Better Care for a Better World, and that takes a certain kind of person and",
