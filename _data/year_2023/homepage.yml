@@ -85,15 +85,15 @@ hero:
     message: 2023 conference tickets available on the door
     button:
       label: Book now for 2024
-      extra-text: Super early bird discounts available now!
-      url: https://www.tickettailor.com/checkout/view-event/id/1718882/chk/5f69/?modal_widget=true&widget=true
+      extra-text: Super Early Bird discounts available now!
+      url: https://www.tickettailor.com/checkout/view-event/id/3009859/chk/0220/?modal_widget=true&widget=true
   post:
     title: It’s a wrap
     message: Thanks for coming to UX Brighton 2023
     button:
       label: Book now for 2024
-      url: ""
-      extra-text: Super early bird discounts available now!
+      url: https://www.tickettailor.com/checkout/view-event/id/3009859/chk/0220/?modal_widget=true&widget=true
+      extra-text: Super Early Bird discounts available now!
 overview:
   visibility: true
   pre:
