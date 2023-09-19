@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Product Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
 				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -58,12 +58,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2023-09-15T05:59:51.619Z",
-		"source": "https://livanova.wd5.myworkdayjobs.com/en-US/Search/job/London-United-Kingdom/Senior-Product-Designer_JR-11310?source=Job_Board_Indeed"
-	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://livanova.wd5.myworkdayjobs.com/en-US/Search/job/London-United-Kingdom/Senior-Product-Designer_JR-11310/apply",
 	"applicationType": "link",
 	"shortDescription": "Join us today and make a difference in people's' lives!   Senior Product Designer – Epsy Health Epsy is a leading digital health platform, on a mission to accelerate the path to optimal treatment for",
