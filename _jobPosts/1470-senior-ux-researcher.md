@@ -4,9 +4,9 @@
 	"shortId": "pR6Ik8UZ",
 	"uuid": "534dc8c8-7390-4558-8a56-0e4794dbbb32",
 	"title": {
-		"original": "Senior UX Researcher (Remote)",
+		"original": "Senior UX Researcher",
 		"textDescription": "Senior User Experience Researcher",
-		"urlSlug": "senior-ux-researcher-remote",
+		"urlSlug": "senior-ux-researcher",
 		"inferred": {
 			"canonicalTitle": "Senior UX Researcher",
 			"expandedTitle": "Senior User Experience Researcher",
@@ -14,8 +14,8 @@
 				"Senior User Interface Researcher",
 				"Senior Usability Researcher",
 				"Senior User Research Analyst",
-				"Senior User Research Scientist",
-				"Senior User Research Specialist"
+				"Senior User Experience Analyst",
+				"Senior User Interface Analyst"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -55,20 +55,18 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2023-09-19T11:00:32.561Z",
-		"source": "https://apply.workable.com/treatwell/j/7A78023FBA/"
-	},
+	"tags": [
+		"senior",
+		"research"
+	],
 	"applicationUri": "https://apply.workable.com/treatwell/j/7A78023FBA/apply/",
 	"applicationType": "link",
 	"shortDescription": "At Treatwell we’re’ transforming how consumers interact with beauty salons and how salons manage grow their businesses. We are looking for a Senior UX Researcher who sits on our Design Team focusing",
 	"status": "LIVE",
-	"permalink": "/jobs/1470/senior-ux-researcher-remote",
+	"permalink": "/jobs/1470/senior-ux-researcher",
 	"layout": "jobs/individual"
 }
 ---

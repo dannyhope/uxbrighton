@@ -62,12 +62,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-09-19T12:11:11.131Z",
-		"source": "https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/4962147004"
-	},
+	"tags": [
+		"management",
+		"senior"
+	],
 	"applicationUri": "https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/4962147004#app",
 	"applicationType": "link",
 	"shortDescription": "Department overview The PlayStation Studios: Creative team is an award winning, global internal creative agency within PlayStation Studios. We endeavour to build a working environment where we can",
