@@ -1244,10 +1244,10 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Conference", name: "conference", widget: "string", default: "UX Brighton 2024", required: false}
-                  - {label: "Date", name: "date", widget: "string", default: "Friday 4 November", required: false}
-                  - {label: "Date & time (numerical)", name: "date-time", widget: "string", default: "2024-11-04T09:30", required: false}
-                  - {label: "Venue", name: "venue", widget: "string", default: "Brighton Dome", required: false}
+                  - {label: "Conference", name: "conference", hint: "Eg. **UX Brighton 2024**", widget: "string", default: "UX Brighton 2024", required: false}
+                  - {label: "Date", name: "date", hint: "Eg. **Friday 4 November**", widget: "string", default: "Friday 3 November", required: false}
+                  - {label: "Date & time (numerical)", name: "date-time", hint: "Eg. **2024-11-03T09:00**", widget: "string", default: "2024-11-03T09:00", required: false}
+                  - {label: "Venue", name: "venue", hint: "Eg. **Brighton Dome**", widget: "string", default: "Brighton Dome", required: false}
                   - {label: "Background Image", name: "image", hint: "**NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
               - label: "Pre-conference content"
                 name: "pre"
@@ -1255,7 +1255,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Title", name: "title", hint: "Theme / primary topic of the conference - eg. **UX and Product Management**", widget: "string", default: "UX and Product Management", required: false}
                   - label: "Button"
                     name: "button"
                     summary: "Ticket button."
@@ -1271,7 +1271,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Title", name: "title", hint: "Theme / primary topic of the conference - eg. **UX and Product Management**", widget: "string", default: "UX and Product Management", required: false}
                   - {label: "Message", name: "message", widget: "string", default: "Tickets available on the door", required: false}
                   - label: "Button"
                     name: "button"
@@ -1288,7 +1288,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Title", name: "title", widget: "string", default: "UX and Product Management", required: false}
+                  - {label: "Title", name: "title", hint: "Theme / primary topic of the conference - eg. **UX and Product Management**", widget: "string", default: "UX and Product Management", required: false}
                   - {label: "Message", name: "message", widget: "string", default: "Thanks For Coming To UX Brighton 2024: UX and Product Management", required: false}
                   - label: "Button"
                     name: "button"
@@ -1666,6 +1666,7 @@ collections:
                 collapsed: true
                 fields:
                   - {label: "Show headline sponsor?", name: "visibility", hint: "Headline sponsor info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Headline sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor details"
                     name: "sponsor-details"
                     summary: "Sponsor details"
@@ -1700,6 +1701,7 @@ collections:
                 fields:
                   - {label: "Show premium sponsors?", name: "visibility", hint: "Premium sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
+                  - {label: "Section title", name: "section-title", hint: "Premium sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
@@ -1734,6 +1736,7 @@ collections:
                 fields:
                   - {label: "Show standard sponsors?", name: "visibility", hint: "Standard sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
                   - {label: "Show sponsorship opportunity?", name: "show-opportunity", hint: "Sponsorship opportunity message slot. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
+                  - {label: "Section title", name: "section-title", hint: "Standard sponsor section title.", widget: "string", required: false}
                   - label: "Sponsor list"
                     name: "sponsor-list"
                     summary: ""
