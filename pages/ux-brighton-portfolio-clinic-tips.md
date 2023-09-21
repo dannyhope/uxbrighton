@@ -1,6 +1,9 @@
 ---
 layout: generic
 title: UX Brighton Portfolio Clinic Tips
+permalink: /UX-career-clinic/careers-clinic-2016-attendees-guide
+redirect_from:
+  - /careers-clinic-2016-attendees-guide
 seo: true
 ---
 Coming to our [Careers Clinic](/UX-career-clinic/) on September 13th? Read these tips to get the most from the evening…
