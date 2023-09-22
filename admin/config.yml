@@ -1894,5 +1894,6 @@ collections:
     fields:
       - {label: "Title", name: "{{permalink}}", hint: "Primary title of the page. This also generates the page *slug*.", widget: "hidden"} # The `title` field is hidden in the GUI and is populated by the `permalink` field
       - {label: "Permalink", name: "permalink", hint: "The value automatically populates the 'title' field. Which then creates the file name that'll be saved into the 'external-redirects' directory.", widget: "string"}
+      - {label: "Redirect from", name: "redirect_from", hint: "Other URLs that you'd like to redirect from - (relative to ***https://uxbri.org***). Accepts multiple *(comma-separated)* redirects - eg. ***/foo-url, /another-fun-url***.", widget: "list", allow_add: true, required: false}
       - {label: "Redirect to", name: "redirect_to", hint: "URL that you’d like to redirect to - eg. ***https://qwerty.com***. ", widget: "string"}
 
