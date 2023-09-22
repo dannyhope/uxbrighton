@@ -65,7 +65,8 @@
 	"tags": [
 		"design",
 		"junior",
-		"remote"
+		"remote",
+		"promoted"
 	],
 	"applicationUri": "https://jobs.workable.com/view/kuCp4hHiaNtTxRnpdzjK4w/junior-interaction-designer-in-london-at-farsight-consulting",
 	"applicationType": "link",
