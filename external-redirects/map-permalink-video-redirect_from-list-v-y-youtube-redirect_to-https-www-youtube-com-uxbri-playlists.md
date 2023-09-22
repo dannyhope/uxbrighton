@@ -1,5 +1,5 @@
 ---
-permalink: /video
+permalink: video
 redirect_from:
   - /v
   - /y
