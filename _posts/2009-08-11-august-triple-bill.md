@@ -1,6 +1,9 @@
 ---
 layout: event-page
 title: Designing for Persuasion, International Research, and Eye Tracking!
+redirect_from:
+  - /ux-brighton-august-triple-bill-designing-for-persuasion-international-research-and-eye-tracking
+event-date: 2009-08-11
 conference: false
 upcoming: false
 published: true
