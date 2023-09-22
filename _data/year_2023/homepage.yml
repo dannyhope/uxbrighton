@@ -382,6 +382,41 @@ speakers:
               profile-url: https://www.linkedin.com/in/chrishow/
             - profile-type: website
               profile-url: https://chrishow101.medium.com/
+      - talk-info:
+          talk-time: ""
+          talk-title: Sneaking agility back into Agile
+          talk-summary: >-
+            Agile. It's everywhere. And it's become the dominant orthodoxy under
+            which many designers are struggling.\
+
+            \
+
+            Why is that? Why do Agile and design often seem to mix like tuna and custard? And why does a methodology that's supposed to speed up innovation actually slow it down?\
+
+            \
+
+            Directly attacking Agile doesn't help. Tom will share some ways he's made this very mistake. But there is hope! He'll also share some tried and tested Trojan Horses that you can use right away to sneak agility back into Agile, opening the gates to innovation and creativity.
+        name: "  Tom Kerwin"
+        thumbnail: /images/tomkerwin.png
+        anchor: " Tom-Kerwin"
+        speaker-bio:
+          bio-title: About Tom
+          bio-summary: >-
+            Tom has 25 years of experience as a leader in design, research and
+            product. He's co-founded two successful startups and worked both
+            agency-side and in-house, coaching cross-functional teams to
+            innovate.\
+
+            \
+
+            Since running his first usability test in 1999, Tom has been obsessed with adaptive sense-making: how do we continuously make sense of the world so we can act more effectively in it?\
+
+            \
+
+            He is the author of Innovation Tactics, the deck of cards from Pip Decks that's packed with pragmatic methods for making things people want. He's also the creator of Pivot Triggers, a simple but powerful idea that's helped hundreds of teams become more adaptive by doing discovery and delivery at the same time.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/tomdkerwin/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
