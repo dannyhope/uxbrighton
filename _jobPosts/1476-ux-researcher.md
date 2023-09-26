@@ -67,7 +67,7 @@
 		"research",
 		"remote"
 	],
-	"applicationUri": "https://careers.rsgroup.com/talentcommunity/apply/985896701/?locale=en_GB",
+	"applicationUri": "https://careers.rsgroup.com/job/London-UX-Researcher-ENG-N1C-4AG/985896701/",
 	"applicationType": "link",
 	"shortDescription": "RS Group is currently seeking a UX Researcher who will be responsible for conducting discovery and evaluation research across our e-commerce- platform and digital assets.  What you’ll’ be doing",
 	"status": "LIVE",
