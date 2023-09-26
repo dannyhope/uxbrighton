@@ -113,6 +113,13 @@ There will be several 4-ways on the Mezzanine level which is upstairs, to the ri
 
 Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/) with over 1500 members? Chat, ask questions, post or [look for jobs](https://uxbri.slack.com/messages/C1626ASJY/), find events - we’re a friendly bunch!
 
+### After Party
+
+* Join us for after conference drinks and pizza in the Foyer Bar (at the venue) until 8pm.
+* Keep your name badge with you if you want to leave and come back again.
+* Collect your drinks voucher at registration.
+* Your voucher is valid for all non-alcoholic and a selection of alcoholic drinks.
+
 ### Reminder about tickets
 
 * We are unable to issue refunds or transfers.
