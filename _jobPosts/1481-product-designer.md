@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Developer",
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Software Designer"
+				"Web Product Designer",
+				"UX Product Designer",
+				"UI Product Designer",
+				"Web Design Product Manager",
+				"Web Design Strategist"
 			],
 			"seniortyLevel": 3
 		}
@@ -61,12 +61,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2023-09-26T13:04:37.343Z",
-		"source": "https://jobs.lever.co/itech/046d15b0-1369-4601-8c4c-f2b59cf52b4a"
-	},
+	"tags": [
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://jobs.lever.co/itech/046d15b0-1369-4601-8c4c-f2b59cf52b4a/apply",
 	"applicationType": "link",
 	"shortDescription": "iTech is a global digital marketing services company with a focus on digital media, online communities and comparison products. We create and develop flagship brands and optimise platforms to engage,",
