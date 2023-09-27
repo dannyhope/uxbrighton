@@ -418,7 +418,7 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/tomdkerwin/
             - profile-type: website
-              profile-url: www.tomkerwin.com
+              profile-url: https://tomkerwin.com/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
