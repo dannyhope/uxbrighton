@@ -59,7 +59,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"salary": {
@@ -76,8 +76,8 @@
 		"junior",
 		"remote"
 	],
-	"applicationUri": "recruitment@readingroom.com",
-	"applicationType": "email",
+	"applicationUri": "https://www.readingroom.com/work-for-us/uxui-designer",
+	"applicationType": "link",
 	"shortDescription": "Are you ready to dive into the world of cutting-edge- digital design projects? Do you live and breathe design that not only captivates but also caters to the needs of users? If you're' fuelled by",
 	"status": "LIVE",
 	"permalink": "/jobs/1482/uxui-designer",
