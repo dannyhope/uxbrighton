@@ -59,9 +59,11 @@ Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wi
 
 ## The Agile Comms Handbook: How to Improve Team Collaboration and Boost Clarity – Giles Turnbull
 
+### Heads up there's a chance that Giles won't be able to make it.
+
 "Agile comms handbook" author Giles Turnbull takes a look at how some teams remember, and what that means for them: better connections with leaders, stakeholders, and colleagues in other teams. Better clarity. More understanding. Less \*mis\*understanding. He'll look at real life teams, and a fictional one - and wonder out loud about what team memory could look like for the rest of us. Why is it good to amplify agile working with agile comms? How does it contribute to an atmosphere of safety and trust? And on a more practical note: What needs to change? Who needs to change it? Whose job is that going to be?
 
-### About Giles 
+### About Giles
 
 <img src="/images/giles-turnbull-headshot-large.jpg" alt="Head shot of Giles " class="image-align-right"/>
 
