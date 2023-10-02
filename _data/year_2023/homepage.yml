@@ -566,22 +566,22 @@ highlights:
   title: Highlights from previous years
   video:
     - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: ""
+      thumbnail: /images/researchops-kate-towsey-thumbnail.jpg
       alt: ResearchOps - Kate Towsey
       title: ResearchOps
       speaker: Kate Towsey
     - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: ""
+      thumbnail: /images/ux-and-forecasting-james-woudhuysen-thumbnail.jpg
       alt: UX and Forecasting - James Woudhuysen
       title: UX & Forecasting
       speaker: James Woudhuysen
     - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: ""
+      thumbnail: /images/top-tasks-gerry-mcgovern-thumbnail.jpg
       alt: Top Tasks - Gerry McGovern
       title: Top Tasks
       speaker: Gerry McGovern
     - alt: Atomic UX - Daniel Pidcock
-      thumbnail: ""
+      thumbnail: /images/atomic-ux-daniel-pidcock-thumbnail.jpg
       url: https://youtu.be/h9s3DrImGXA
       title: Atomic UX
       speaker: Daniel Pidcock
