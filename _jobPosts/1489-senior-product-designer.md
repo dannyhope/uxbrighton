@@ -62,6 +62,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.eu.lever.co/anyvan/140cc172-d954-4ea2-8028-20207bec2f4c/apply",
 	"applicationType": "link",
 	"shortDescription": "AnyVan makes moving anything, anywhere easier, more affordable and greener for everyone.  With Over 8 million customers across the UK and Europe since our launch over a decade ago, we’re’ proud to be",

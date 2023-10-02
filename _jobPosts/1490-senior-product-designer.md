@@ -55,6 +55,12 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"remote",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://jobs.workable.com/view/nsFLfTPHofyjbBTmA1ep5C/remote-senior-product-designer-in-united-kingdom-at-save-my-exams",
 	"applicationType": "link",
 	"shortDescription": "About Save My Exams Save My Exams is an online education platform dedicated to helping students achieve better grades in their exams. We support millions of students, tutors and teachers all over the",
