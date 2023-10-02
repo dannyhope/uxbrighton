@@ -1617,9 +1617,10 @@ collections:
                 widget: "list"
                 collapsed: true
                 fields:
-                  - {label: "Description", name: "alt", widget: "string", required: false}
-                  - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
-                  - {label: "URL", name: "url", widget: "string", required: false}
+                  - {label: "Video title", name: "title", widget: "string", required: false}
+                  - {label: "Video speaker", name: "speaker", widget: "string", required: false}
+                  - {label: "Video thumbnail", name: "thumbnail", widget: "image", required: false}
+                  - {label: "Video URL", name: "url", widget: "string", required: false}
               - label: "Testimonial"
                 name: "testimonial"
                 widget: "object"
