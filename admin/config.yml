@@ -436,7 +436,7 @@ collections:
             collapsed: true
             fields:
               - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
-              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Section title", name: "title", widget: "string", required: false}
               - label: "Videos"
                 name: "video"
                 widget: "list"
@@ -1611,7 +1611,7 @@ collections:
             collapsed: true
             fields:
               - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
-              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Section title", name: "title", widget: "string", required: false}
               - label: "Videos"
                 name: "video"
                 widget: "list"
