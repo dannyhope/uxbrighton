@@ -43,7 +43,7 @@ Dive into the ins and outs of the discovery process, learn to navigate everyday 
 
 ### About Jon
 
-<img src="/images/img_7858.jpg" alt="Head shot of Jon Roobottom" class="image-align-left"/>
+<img src="/images/img_7858.jpg" alt="Head shot of Jon Roobottom" class="image-align-right"/>
 
 Jon is a Principal Designer at Made Tech, overseeing user-centred work for clients like GDS, GCHQ, Home Office and DLUHC. 
 
