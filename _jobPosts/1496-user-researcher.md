@@ -15,7 +15,7 @@
 				"Usability Researcher",
 				"User Interface Researcher",
 				"User Research Analyst",
-				"User Research Manager"
+				"User Research Consultant"
 			],
 			"seniortyLevel": 3
 		}
@@ -64,12 +64,10 @@
 		"minValue": 39483,
 		"maxValue": 39483
 	},
-	"meta": {
-		"patternName": "ld+json, civilservicejobs",
-		"patternType": "default, site",
-		"date": "2023-10-06T05:44:37.722Z",
-		"source": "https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=1879740"
-	},
+	"tags": [
+		"mid",
+		"research"
+	],
 	"applicationUri": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWNsYXNzPUFwcGx5JmFwcGx5X3VybD1odHRwczovL2NzaHIudGFsLm5ldC92eC9sYW5nLWVuLUdCL2FwcGNlbnRyZS0xMS9jYW5kaWRhdGUvcG9zdGluZ3MvMjcyNzI2P2luc3RhbnQ9YXBwbHkmYnJhbmRfaWQ9MCZvd25lcnR5cGU9ZmFpciZwb3N0aW5nX2NvZGU9MCZqY29kZT0xODc5NzQwJmFwcGx5X25vdz0xJm93bmVyPTUwNzAwMDA%3D&login_button=Apply+now",
 	"applicationType": "link",
 	"shortDescription": "About the job Job summary We encourage applications from a diverse range of candidates   At DfE, we are proud of the commitment we make to diversity and inclusion and of the progress we have made.",

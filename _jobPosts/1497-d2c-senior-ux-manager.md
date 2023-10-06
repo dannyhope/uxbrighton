@@ -57,12 +57,11 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, jobvite",
-		"patternType": "default, system",
-		"date": "2023-10-06T05:59:56.071Z",
-		"source": "https://jobs.jobvite.com/careers/affinitypetcare/job/o3gqofwR?__jvst=Job%20Board&__jvsd=Indeed"
-	},
+	"tags": [
+		"senior",
+		"management",
+		"design"
+	],
 	"applicationUri": "https://jobs.jobvite.com/affinitypetcare/job/o3gqofwR/apply",
 	"applicationType": "link",
 	"shortDescription": "Natures Menu is a rapidly growing pet food company headquartered in London with backing from Affinity Petcare S.A., a Petfood leading multinational company operating in Spain, Portugal, France, Italy",
