@@ -31,7 +31,7 @@ We will look together at processes, challenges and the successes and failures th
 
 ### About Olena
 
-<img src="/images/1-img_2332-edit.jpg" alt="Head shot of Olena Bulygina" class="image-align-right"/>
+<img src="/images/olena-bulygina.png" alt="Head shot of Olena Bulygina" class="image-align-right"/>
 
 Olena Bulygina is a researcher, designer, and the сo-founder of Cosmic Velocity. She has a background in academic Human-Computer Interaction, consulting, visual arts, and electronic engineering. Olena is a serial founder having run her own tech startup and more recently by leading design for Zeilen Van Vrijheid, a non-profit that has shipped over 160 ambulances to her native country of Ukraine. Olena’s passion is unpicking complexity and she combines this with deep ethnographic research skills to help organisations solve systemic problems.
 
