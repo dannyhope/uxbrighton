@@ -23,6 +23,18 @@ Do you want to...
 
 Join us on Tuesday 10 October for an evening of insightful talks by industry experts. Learn about the significance of recording design choices and commemorating project milestones. Gain insights into effective methods and tools for decision recall. Delve into the realm of design discoveries and gain practical strategies for navigating challenges. And, leave with actionable insights to elevate your discovery process. 
 
+## Designing for Humanity: A UX Journey in Humanitarian Aid – Olena Bulygina
+
+This is a talk about applied design. We will venture to the land of humanitarian aid and follow a story of applying a design skill set to a set of challenges, such as lack of equipment, lack of medical supplies, in times of war.\
+\
+We will look together at processes, challenges and the successes and failures that one might experience when the only option is to apply all skills to a very complex subject matter. We will witness bottom up changes in the healthcare system that start with individual impact: the impact of ideas. It is also a story about systems, and how we implement change in them, omitting the notion of centralised control.
+
+### About Olena
+
+<img src="/images/1-img_2332-edit.jpg" alt="Head shot of Olena Bulygina" class="image-align-right"/>
+
+Olena Bulygina is a researcher, designer, and the сo-founder of Cosmic Velocity. She has a background in academic Human-Computer Interaction, consulting, visual arts, and electronic engineering. Olena is a serial founder having run her own tech startup and more recently by leading design for Zeilen Van Vrijheid, a non-profit that has shipped over 160 ambulances to her native country of Ukraine. Olena’s passion is unpicking complexity and she combines this with deep ethnographic research skills to help organisations solve systemic problems.
+
 ## Time team: Documenting decisions and marking milestones – Paul Robert Lloyd
 
 Exercise regularly; eat plenty of vegetables; floss your teeth. Tasks that feel like chores are often the most beneficial in the long run. The same is true of writing documentation.\
