@@ -35,6 +35,22 @@ We will look together at processes, challenges and the successes and failures th
 
 Olena Bulygina is a researcher, designer, and the сo-founder of Cosmic Velocity. She has a background in academic Human-Computer Interaction, consulting, visual arts, and electronic engineering. Olena is a serial founder having run her own tech startup and more recently by leading design for Zeilen Van Vrijheid, a non-profit that has shipped over 160 ambulances to her native country of Ukraine. Olena’s passion is unpicking complexity and she combines this with deep ethnographic research skills to help organisations solve systemic problems.
 
+## Murder on the dancefloor: The death of disco – Jon Roobottom
+
+Discoveries are crucial to a designer's toolkit, but why do they sometimes feel like a slog? 
+
+Dive into the ins and outs of the discovery process, learn to navigate everyday challenges, and pick up practical strategies to guide your teams toward effective results.
+
+### About Jon
+
+<img src="/images/img_7858.jpg" alt="Head shot of Jon Roobottom" class="image-align-left"/>
+
+Jon is a Principal Designer at Made Tech, overseeing user-centred work for clients like GDS, GCHQ, Home Office and DLUHC. 
+
+Before his life as a service designer in the public sector, Jon built and ran product design teams for SaaS startups. 
+
+Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wife and two kids.
+
 ## Time team: Documenting decisions and marking milestones – Paul Robert Lloyd
 
 Exercise regularly; eat plenty of vegetables; floss your teeth. Tasks that feel like chores are often the most beneficial in the long run. The same is true of writing documentation.\
@@ -52,22 +68,6 @@ Paul is an interaction designer and web developer with 20 years of experience gl
 Today he works with public sector organisations, combining his dedication to detail with a pragmatic approach to delivery to help teams build brilliant digital services for citizens and civil servants.\
 \
 Away from all that, and when not whiling away his time on various side projects, Paul enjoys long train journeys to destinations with enough interesting architecture to blog about.
-
-## Murder on the dancefloor: The death of disco – Jon Roobottom
-
-Discoveries are crucial to a designer's toolkit, but why do they sometimes feel like a slog? 
-
-Dive into the ins and outs of the discovery process, learn to navigate everyday challenges, and pick up practical strategies to guide your teams toward effective results.
-
-### About Jon
-
-<img src="/images/img_7858.jpg" alt="Head shot of Jon Roobottom" class="image-align-left"/>
-
-Jon is a Principal Designer at Made Tech, overseeing user-centred work for clients like GDS, GCHQ, Home Office and DLUHC. 
-
-Before his life as a service designer in the public sector, Jon built and ran product design teams for SaaS startups. 
-
-Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wife and two kids.
 
 Drinks and pizza provided. 🍕🥤
 
