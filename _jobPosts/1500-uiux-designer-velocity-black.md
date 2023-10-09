@@ -11,11 +11,11 @@
 			"canonicalTitle": "UI/UX Designer",
 			"expandedTitle": "User Interface/User Experience Designer",
 			"similiarTitles": [
-				"User Interface Designer",
-				"User Experience Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Web Designer"
+				"Web Designer",
+				"Web Developer",
+				"Front-End Developer",
+				"Graphic Designer",
+				"Interaction Designer"
 			],
 			"seniortyLevel": 3
 		}
@@ -61,12 +61,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-10-09T12:50:18.161Z",
-		"source": "https://jobs.capitalone.co.uk/job/-/-/1734/55400030704"
-	},
+	"tags": [
+		"remote",
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://capitalone.wd1.myworkdayjobs.com/Capital_One/login?redirect=%2FCapital_One%2Fjob%2FRemote---London%2FUI-UX-Designer---Velocity-Black_R175594%2Fapply",
 	"applicationType": "link",
 	"shortDescription": "About this role We’re’ excited to share that Capital One US has now acquired Velocity Black, a digital concierge company.  Take a look at the announcement here . Velocity Black by Capital One",

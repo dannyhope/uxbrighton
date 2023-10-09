@@ -11,11 +11,11 @@
 			"canonicalTitle": "Junior Product Designer",
 			"expandedTitle": "Junior Product Designer",
 			"similiarTitles": [
-				"Junior Product Developer",
-				"Junior Product Manager",
 				"Junior UX Designer",
 				"Junior UI Designer",
-				"Junior Software Designer"
+				"Junior Web Designer",
+				"Junior Graphic Designer",
+				"Junior Digital Designer"
 			],
 			"seniorty": "Junior",
 			"seniortyLevel": 2
@@ -58,12 +58,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-10-09T12:43:59.132Z",
-		"source": "https://careers.dotdigital.com/jobs/3236738-junior-product-designer?ittk=NBQRQT0MXY"
-	},
+	"tags": [
+		"junior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://careers.dotdigital.com/jobs/3236738-junior-product-designer?ittk=NBQRQT0MXY",
 	"applicationType": "link",
 	"shortDescription": "The Product Designer will work in the Product Design team, which is responsible for creating amazing in-app- user experiences for our users. In this role, you’ll’ be able to contribute to making",
