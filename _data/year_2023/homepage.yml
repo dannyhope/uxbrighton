@@ -566,17 +566,25 @@ highlights:
   title: Highlights from previous years
   video:
     - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /assets/video-thumbnails/researchops-kate-towsey-thumbnail@2x.png
+      thumbnail: /images/researchops-kate-towsey-thumbnail.jpg
       alt: ResearchOps - Kate Towsey
+      title: ResearchOps
+      speaker: Kate Towsey
     - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
+      thumbnail: /images/ux-and-forecasting-james-woudhuysen-thumbnail.jpg
       alt: UX and Forecasting - James Woudhuysen
+      title: UX & Forecasting
+      speaker: James Woudhuysen
     - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+      thumbnail: /images/top-tasks-gerry-mcgovern-thumbnail.jpg
       alt: Top Tasks - Gerry McGovern
+      title: Top Tasks
+      speaker: Gerry McGovern
     - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      thumbnail: /images/atomic-ux-daniel-pidcock-thumbnail.jpg
       url: https://youtu.be/h9s3DrImGXA
+      title: Atomic UX
+      speaker: Daniel Pidcock
   testimonial:
     quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
       you'll get access to some of the most cutting-edge presentations you can

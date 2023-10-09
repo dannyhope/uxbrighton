@@ -19,20 +19,28 @@
   @include over-m {
     // If image is inline, a width is set as well
     // Defaults to 100% width which is why a `image-align-inline-100w` class and rule isn't declared
+
+    .content-images {
+      border: 1px solid #C7D0D4;
+    }
     .image-align-inline-25w {
+      @extend .content-images;
       max-width: 25%;
     }
 
     .image-align-inline-50w {
+      @extend .content-images;
       max-width: 50%;
     }
 
     .image-align-inline-75w {
       max-width: 75%;
+      @extend .content-images;
     }
 
     // Image float left
     .image-align-left {
+      @extend .content-images;
       float: left;
       margin-right: 30px;
       max-width: 280px;
@@ -40,6 +48,7 @@
 
     // Image float right
     .image-align-right {
+      @extend .content-images;
       float: right;
       margin-left: 30px;
       max-width: 280px;

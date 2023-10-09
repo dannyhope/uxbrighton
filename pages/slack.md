@@ -1,7 +1,7 @@
 ---
 layout: generic
 title: Slack
-subtitle: A friendly and useful place for Brighton’s UX community to chat
+subtitle: A friendly and useful place for UXers to chat
 description: Join the UX Brighton Slack group
 permalink: slack
 redirect_from:
