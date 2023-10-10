@@ -62,6 +62,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"remote",
+		"mid"
+	],
 	"applicationUri": "https://jobs.lever.co/moo/a6d18bf7-b4a1-4f0b-af3d-ac0ac6687d3c/apply",
 	"applicationType": "link",
 	"shortDescription": "MOO set out to shake up the world of print back in 2006. And we’ve’ come a long way since. Today we’re’ a 400 strong team (we’re’ thinking of getting matching jackets) who create print and digital",

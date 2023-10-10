@@ -12,10 +12,10 @@
 			"expandedTitle": "User Experience Researcher",
 			"similiarTitles": [
 				"User Experience Designer",
-				"User Interface Researcher",
-				"Usability Researcher",
-				"Interaction Designer",
-				"User Interface Designer"
+				"User Experience Analyst",
+				"User Experience Strategist",
+				"User Experience Architect",
+				"User Experience Tester"
 			],
 			"seniortyLevel": 3
 		}
@@ -50,15 +50,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full-Time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2023-10-10T11:30:47.443Z",
-		"source": "https://jobs.lever.co/adaptavist/6ea825b7-1da0-4534-af00-9fbab8ec6d28"
-	},
+	"tags": [
+		"research",
+		"mid",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.lever.co/adaptavist/6ea825b7-1da0-4534-af00-9fbab8ec6d28/apply",
 	"applicationType": "link",
 	"shortDescription": "Working at Adaptavist The Adaptavist Group is a global family of companies with a common goal. We combine the best of teamwork, technology, and processes, helping all kinds of businesses be better",

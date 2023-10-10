@@ -11,11 +11,11 @@
 			"canonicalTitle": "Design Lead",
 			"expandedTitle": "Design Lead",
 			"similiarTitles": [
-				"Design Manager",
-				"Design Architect",
-				"Design Strategist",
-				"Design Consultant",
-				"Design Analyst"
+				"Web Design Lead",
+				"UX Design Lead",
+				"UI Design Lead",
+				"Front-end Design Lead",
+				"Product Design Lead"
 			],
 			"seniorty": "Lead",
 			"seniortyLevel": 5
@@ -65,12 +65,10 @@
 		"minValue": 70000,
 		"maxValue": 90000
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2023-10-10T12:19:05.206Z",
-		"source": "https://apply.workable.com/youlend-1/j/A50D7D6F83/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://apply.workable.com/youlend-1/j/A50D7D6F83/apply/",
 	"applicationType": "link",
 	"shortDescription": "YouLend is a rapidly growing FinTech that has hubs set up across the world working alongside SME’s’ to FTSE100 global businesses. Our product is an embedded software for the world’s’ largest",

@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Developer",
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Software Designer"
+				"Web Product Designer",
+				"UX Product Designer",
+				"UI Product Designer",
+				"Web Design Product Manager",
+				"Web Design Strategist"
 			],
 			"seniortyLevel": 3
 		}
@@ -57,12 +57,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-10-10T11:23:38.379Z",
-		"source": "https://uk.indeed.com/viewjob?jk=24d5026f5f68d4c5&tk=1hca4vcuvj9gu800&from=serp&vjs=3"
-	},
+	"tags": [
+		"mid",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://jobs.lever.co/moneyboxapp/8760d6db-1396-49eb-91d4-b275b6ab2396/apply",
 	"applicationType": "link",
 	"shortDescription": "As a Product Designer, you will lead the design for your product squad and support the Lead UX Designer for your mission area. Designers at Moneybox are accountable for every feature they design -",
