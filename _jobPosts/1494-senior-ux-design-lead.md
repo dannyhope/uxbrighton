@@ -67,7 +67,7 @@
 		"design",
 		"senior"
 	],
-	"applicationUri": "https://boards.greenhouse.io/fivesky/jobs/6881703002#app",
+	"applicationUri": "https://boards.greenhouse.io/fivesky/jobs/6964073002",
 	"applicationType": "link",
 	"shortDescription": "Are you an accomplished Senior/Lead User Experience Designer with a flair for creating exceptional digital experiences? Are you driven by the challenge of enhancing communication and collaboration",
 	"status": "LIVE",
