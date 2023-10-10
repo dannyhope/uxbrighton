@@ -419,6 +419,44 @@ speakers:
               profile-url: https://www.linkedin.com/in/tomdkerwin/
             - profile-type: website
               profile-url: https://tomkerwin.com/
+      - talk-info:
+          talk-time: ""
+          talk-summary: >-
+            In this talk Kate will discuss what it looks like when an
+            organisation puts great service delivery at the heart of how it
+            operates.
+
+
+            All of us now have experience of modern delivery teams creating digital products and services. But for many of us, the rest of the organisation still operates in the same old ways.
+
+
+            It’s not enough just to have high performing delivery teams in a few places. For everyone to be able to deliver better services consistently, you have to change how things work across the organisation.
+
+
+            We’ll dive into what being service led means for how work is scoped and shaped, how teams work together, governance and leadership activities. 
+
+
+            Using real life examples from organisations that put end to end service performance in the driving seat, we’ll focus on a few of the most challenging – and the most valuable – opportunities today.
+          talk-title: "Transforming Businesses with Service-Led Operations: A UX
+            Perspective"
+        name: Kate Tarling
+        thumbnail: /images/kate-tarling.png
+        anchor: Kate-Tarling
+        speaker-bio:
+          bio-title: About Kate
+          bio-summary: >-
+            Kate helps large organisation executives and leadership teams
+            develop the conditions and practices for everyone to deliver better
+            services by default.
+
+
+            She does this through consulting and training, and is an advisor to boards, executives and teams. She previously held senior service leadership roles in government as well as the private sector. 
+
+
+            Kate is the author of The Service Organization and has spoken on service organisations as guest lecturer at Harvard University, University College London and the University of Toronto on executive education, MBA and MPA programmes, and is a regular speaker at global institutions and national governments.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/kate-tarling-6b43b19/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
@@ -450,7 +488,7 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
-  full: false
+  full: true
 sponsors:
   visibility: true
   section-title: Sponsors
