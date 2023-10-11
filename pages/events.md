@@ -52,8 +52,8 @@ seo: true
   </li>
   {% endif %}
 <!-- {% endif %}
-{% endif %} -->
-{% endfor %}
+{% endif %}
+{% endfor %} -->
 </ul>
 
 <!-- ## Past events without much info
