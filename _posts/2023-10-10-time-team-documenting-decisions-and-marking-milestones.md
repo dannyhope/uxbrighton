@@ -25,7 +25,7 @@ Join us on Tuesday 10 October for an evening of insightful talks by industry exp
 
 ## Designing for Humanity: A UX Journey in Humanitarian Aid – Olena Bulygina
 
-<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/olena-bulygina-designing-for-humanity-a-ux-journey-in-humanitarian-aid" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/2nPQ9AKmFNARNm" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 This is a talk about applied design. We will venture to the land of humanitarian aid and follow a story of applying a design skill set to a set of challenges, such as lack of equipment, lack of medical supplies, in times of war.\
 \
@@ -39,7 +39,7 @@ Olena Bulygina is a researcher, designer, and the сo-founder of Cosmic Velocity
 
 ## Murder on the dancefloor: The death of disco – Jon Roobottom
 
-<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/jon-roobottom-murder-on-the-dancefloor-the-death-of-disco-5923" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/3JHKnyPou1qst3" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 Discoveries are crucial to a designer's toolkit, but why do they sometimes feel like a slog? 
 
@@ -57,7 +57,7 @@ Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wi
 
 ## Time team: Documenting decisions and marking milestones – Paul Robert Lloyd
 
-<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/paul-robert-lloyd-time-team-documenting-decisions-and-marking-milestones" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/bjeAnrQM0vtd4u" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 Exercise regularly; eat plenty of vegetables; floss your teeth. Tasks that feel like chores are often the most beneficial in the long run. The same is true of writing documentation.\
 \
