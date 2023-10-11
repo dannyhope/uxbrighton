@@ -25,7 +25,7 @@ Join us on Tuesday 10 October for an evening of insightful talks by industry exp
 
 ## Designing for Humanity: A UX Journey in Humanitarian Aid – Olena Bulygina
 
-<strong>Slides: </strong><a href="https://www.slideshare.net/uxbri/olena-bulygina-designing-for-humanity-a-ux-journey-in-humanitarian-aid"></a>
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/olena-bulygina-designing-for-humanity-a-ux-journey-in-humanitarian-aid" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 This is a talk about applied design. We will venture to the land of humanitarian aid and follow a story of applying a design skill set to a set of challenges, such as lack of equipment, lack of medical supplies, in times of war.\
 \
@@ -38,6 +38,8 @@ We will look together at processes, challenges and the successes and failures th
 Olena Bulygina is a researcher, designer, and the сo-founder of Cosmic Velocity. She has a background in academic Human-Computer Interaction, consulting, visual arts, and electronic engineering. Olena is a serial founder having run her own tech startup and more recently by leading design for Zeilen Van Vrijheid, a non-profit that has shipped over 160 ambulances to her native country of Ukraine. Olena’s passion is unpicking complexity and she combines this with deep ethnographic research skills to help organisations solve systemic problems.
 
 ## Murder on the dancefloor: The death of disco – Jon Roobottom
+
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/jon-roobottom-murder-on-the-dancefloor-the-death-of-disco-5923" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 Discoveries are crucial to a designer's toolkit, but why do they sometimes feel like a slog? 
 
@@ -54,6 +56,8 @@ Before his life as a service designer in the public sector, Jon built and ran pr
 Jon lives in Sunny Littlehampton—home to Britain's longest bench—with his wife and two kids.
 
 ## Time team: Documenting decisions and marking milestones – Paul Robert Lloyd
+
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/paul-robert-lloyd-time-team-documenting-decisions-and-marking-milestones" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 Exercise regularly; eat plenty of vegetables; floss your teeth. Tasks that feel like chores are often the most beneficial in the long run. The same is true of writing documentation.\
 \
