@@ -25,6 +25,8 @@ Join us on Tuesday 10 October for an evening of insightful talks by industry exp
 
 ## Designing for Humanity: A UX Journey in Humanitarian Aid – Olena Bulygina
 
+<strong>Slides: </strong><a href="https://www.slideshare.net/uxbri/olena-bulygina-designing-for-humanity-a-ux-journey-in-humanitarian-aid"></a>
+
 This is a talk about applied design. We will venture to the land of humanitarian aid and follow a story of applying a design skill set to a set of challenges, such as lack of equipment, lack of medical supplies, in times of war.\
 \
 We will look together at processes, challenges and the successes and failures that one might experience when the only option is to apply all skills to a very complex subject matter. We will witness bottom up changes in the healthcare system that start with individual impact: the impact of ideas. It is also a story about systems, and how we implement change in them, omitting the notion of centralised control.
