@@ -65,6 +65,10 @@
 		"minValue": 53400,
 		"maxValue": 64000
 	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=YXBwbHlfdXJsPWh0dHBzOi8vY3Noci50YWwubmV0L3Z4L2xhbmctZW4tR0IvYXBwY2VudHJlLTExL2NhbmRpZGF0ZS9wb3N0aW5ncy8yNzM2ODg%2FaW5zdGFudD1hcHBseSZwb3N0aW5nX2NvZGU9MCZicmFuZF9pZD0wJmFwcGx5X25vdz0xJm93bmVyPTUwNzAwMDAmb3duZXJ0eXBlPWZhaXImcGFnZWNsYXNzPUFwcGx5Jmpjb2RlPTE4ODA2MDM%3D&login_button=Apply+now",
 	"applicationType": "link",
 	"shortDescription": "About the job Length of employment 2 year loan for existing civil servants, 20 month fixed-term- appointment for external candidates Working pattern Flexible working, Full-time-, Job share, Part-time",
