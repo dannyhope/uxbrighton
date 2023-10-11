@@ -18,14 +18,23 @@ redirect_from:
 seo: true
 ---
 
+{% assign has_upcoming = false %}
+{% for post in site.posts %}
+  {% if post.upcoming == true and post.published == true %}
+    {% assign has_upcoming = true %}
+  {% endif %}
+{% endfor %}
+
 <!-- Sample links with search parameters -->
 <!-- [Mentorship](?filter=mentorship) · [Design](?filter=design) · [Conference](?filter=conference) · [Psychology](?filter=psycho) · [UX Brighton Socials](?filter=ux+brighton+social) -->
+
+{% if has_upcoming %}
 
 ## Upcoming
 
 <ul class="event-archive no-list">
 {% for post in site.posts %}
-  {% if post.upcoming == true %}
+  {% if post.upcoming == true and post.published == true %}
   <li>
     <article>
       <h3><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
@@ -36,13 +45,15 @@ seo: true
 {% endfor %}
 </ul>
 
+{% endif %}
+
 ## Past
 
 <ul class="event-archive list no-list">
 <!-- {% for post in site.posts %}
 {% if post.noinfo == null %}
 {% if post.stub == null %} -->
-  {% if post.upcoming == null or post.upcoming == false %}
+  {% if post.upcoming == null or post.upcoming == false and post.published == true %}
   <li>
     <article>
       <h3 class="post-title"><a href="{{ site.url }}{{post.url}}">{{ post.title }}</a></h3>
