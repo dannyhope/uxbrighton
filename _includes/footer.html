@@ -1,3 +1,12 @@
+{% assign has_upcoming = false %}
+{% assign postnum = 1 %}
+{% for post in site.posts %}
+  {% if post.upcoming == true and post.published == true and post.slug != page.slug %}
+    {% assign has_upcoming = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_upcoming %}
   <style>
     .flex-over-m .block-link,
     .flex-over-m .block-link:hover {
@@ -20,159 +29,151 @@
       flex: 1 0 auto;
       min-height: 13em;
     }
-    [type="checkbox"] {
-      margin: 5px 5px 0 0;
-    }
   </style>
 
+  {% if page.events.event-promo-footer == null or page.events.event-promo-footer != "hide" %}
+    <aside>
+      <section id="promotions">
+        <hr>
+        <div class="row text-center">
+          <h3 class="fs-h2 mt0 gutter-bottom" id="upcoming-events">
+            {%- if page.layout contains "conference-" or page.layout == "event-page" %}
+              Other upcoming events
+            {%- else -%}
+              Upcoming events
+            {% endif -%}
+          </h3>
 
-  {% assign has_upcoming = false %}
-  {% assign postnum = 1 %}
-  {% for post in site.posts %}
-    {% if post.upcoming == true and post.published == true %}
-      {% assign has_upcoming = true %}
-    {% endif %}
-  {% endfor %}
-
-  {% if has_upcoming  %}
-    {% if page.events.event-promo-footer == null or page.events.event-promo-footer != "hide" %}
-      <aside>
-        <section id="promotions">
-          <hr>
-          <div class="row text-center">
-            <h3 class="fs-h2 mt0 gutter-bottom" id="upcoming-events">
-              {% if page.url contains "/2022/" or page.layout == "event-page" %}Other {% endif %}Upcoming events
-            </h3>
-
-            <div class="flex-over-m upcoming-teaser__wrapper">
-              {% assign varnum = 1 %}
-              {% if has_upcoming %}
-                {% for post in site.posts reversed limit:4 %}
-                  {% if post.upcoming == true && if post.published == true %}
-                      {% if post.slug == page.slug %}
-                      {% else %}
-                        <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
-                          <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-teaser.bg-image}}') center center no-repeat #1a272c; background-size: cover;">
-                            <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
-                            <div class="upcoming-teaser__text">
-                              <h1 class="leading-solid mb2 color-white fs-xl relative">
-                                <span class="fs-m mb1 block color-white font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
-                                {% if post.upcoming-teaser.title %}
-                                  {{ post.upcoming-teaser.title }}
+          <div class="flex-over-m upcoming-teaser__wrapper">
+            {% assign varnum = 1 %}
+            {% if has_upcoming %}
+              {% for post in site.posts reversed limit:4 %}
+                {% if post.upcoming == true and post.published == true %}
+                    {% if post.slug == page.slug %}
+                    <!-- No other upcoming events..... -->
+                    {% else %}
+                      <div class="upcoming-teaser gutters flex-over-m gutter-bottom">
+                        <a href="{{ site.url }}{{post.url}}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{post.upcoming-teaser.bg-image}}') center center no-repeat #1a272c; background-size: cover;">
+                          <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+                          <div class="upcoming-teaser__text">
+                            <h1 class="leading-solid mb2 color-white fs-xl relative">
+                              <span class="fs-m mb1 block color-white font-museo track-normal" style="font-weight: 500;">{{post.date | date: "%-d %B %Y"}}{% if post.start %}<span class="event-time inline-block">, {{ post.start }}</span>{% endif %}</span>
+                              {% if post.upcoming-teaser.title %}
+                                {{ post.upcoming-teaser.title }}
+                              {% else %}
+                                {{ post.title }}
+                              {% endif %}
+                            </h1>
+                            <!-- <div class="mt0 regular track-normal mb3 relative">
+                              <div class="color-white">
+                                {% if post.upcoming-teaser.text %}
+                                  {{ post.upcoming-teaser.text }}
                                 {% else %}
-                                  {{ post.title }}
+                                  {{ post.description }}
                                 {% endif %}
-                              </h1>
-                              <!-- <div class="mt0 regular track-normal mb3 relative">
-                                <div class="color-white">
-                                  {% if post.upcoming-teaser.text %}
-                                    {{ post.upcoming-teaser.text }}
-                                  {% else %}
-                                    {{ post.description }}
-                                  {% endif %}
-                                </div>
-                              </div> -->
-                            </div>
-                            <div class="upcoming-teaser__button-wrapper">
-                              <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">
-                                {% if post.upcoming-teaser.label %}
-                                    {{ post.upcoming-teaser.label }}
-                                  {% else %}
-                                    Tickets and info
-                                  {% endif %}
                               </div>
+                            </div> -->
+                          </div>
+                          <div class="upcoming-teaser__button-wrapper">
+                            <div href="{{ site.url }}{{post.url}}" class="button button--green bold standfirst mb0">
+                              {% if post.upcoming-teaser.label %}
+                                  {{ post.upcoming-teaser.label }}
+                                {% else %}
+                                  Tickets and info
+                                {% endif %}
                             </div>
-                          </a>
-                        </div>
-                      {% assign varnum = varnum | plus: 1 %}
-                    {% endif %}
+                          </div>
+                        </a>
+                      </div>
+                    {% assign varnum = varnum | plus: 1 %}
                   {% endif %}
-                {% endfor %}
-              {% endif %}
-            </div><!-- gutters__container -->
-          </div><!-- .row -->
-        </section>
-      </aside>
-    {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div><!-- gutters__container -->
+        </div><!-- .row -->
+      </section>
+    </aside>
   {% endif %}
+{% endif %}
 
-  <div class="overlay-active-underlay full-screen-overlay hidden" onclick="$('body').attr('data-overlay-active','false'); $( '#js-newsletter-thanks' ).css('color', '');"></div>
-  <footer class="bg-grey-90 color-grey-10">
-    <div class="container pt1">
-      <div class="row" style="display: none;">
-        <!-- u1of2-over-s -->
-        <div class="u1of2-over-m left-over-m gutter-left pb3">
-          <div class="inline-block right-over-m center-under-m">
-            <nav class="social-icons icons-currentColor pt1 clearfix">
-              <a class="social-icons__link social-icons__link--linkedin" href="https://www.linkedin.com/company/ux-brighton">
-                <span class="screen-reader-text">linkedin</span>
-                <svg viewBox="0 0 409 409">
-                  <use xlink:href="/2018/images/icons/social-sprite.svg#linkedin"></use>
-                </svg>
-              </a>
-              <a class="social-icons__link social-icons__link--youtube" href="https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw">
-                <span class="screen-reader-text">youtube</span>
-                <svg viewBox="0 0 579 409">
-                  <use xlink:href="/2018/images/icons/social-sprite.svg#youtube"></use>
-                </svg>
-              </a>
-              <a class="social-icons__link social-icons__link--twitter" href="https://twitter.com/uxbri">
-                <span class="screen-reader-text">twitter</span>
-                <svg viewBox="0 0 493 409">
-                  <use xlink:href="/2018/images/icons/social-sprite.svg#twitter"></use>
-                </svg>
-              </a>
-              <a class="social-icons__link social-icons__link--facebook" href="https://www.facebook.com/uxbrighton/" style="width:30px;">
-                <span class="screen-reader-text">facebook</span>
-                <svg viewBox="0 0 409 409">
-                  <use xlink:href="/2018/images/icons/social-sprite.svg#icon-facebook2"></use>
-                </svg>
-              </a>
-            </nav>
-          </div>
-
-        </div><!-- u1of2-over-s -->
-      </div><!-- row -->
-
-      <div class="row text-center">
-       <a class="bold inline-block" href="/about">About UX Brighton</a>
-       <span class="hide-footer-middot">&emsp;&emsp;&emsp;</span>
-       <br class="break-footer-links" />
-       <a class="bold inline-block" href="/mentorship">Mentorship</a>
-       <span class="hide-footer-middot">&emsp;&emsp;&emsp;</span>
-       <br class="break-footer-links" />
-       <a class="bold inline-block" href="http://dannyhope.co.uk/">A Danny Hope Production</a>
-      </div>
-
-
-      <form id="slack-signup" class="hidden form-inline bg-white z4 triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post" target="slackFrame">
-        <div class="pa3">
-          <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Your Email Address</h2>
-          <input name="utf8" type="hidden" value="✓">
-          <input type="hidden" name="authenticity_token" value="PWn79CzsqJB996ucMtB+K9FMPe+7eYsWJx9s8RI82qpKZdztqM46BM3PH7EiTiWVYgzuSOodP5eud36luQeT9Q==">
-          <div class="input-group mt1 mb1">
-            <label class="screen-reader-text" for="email">Email</label>
-            <input type="email" name="email" id="email" value="" placeholder="Email Address" class="input-group__field border--none rounded-left">
-            <input type="submit" name="commit" value="Join" class="button input-group__button button--green rounded-right">
-          </div>
+<div class="overlay-active-underlay full-screen-overlay hidden" onclick="$('body').attr('data-overlay-active','false'); $( '#js-newsletter-thanks' ).css('color', '');"></div>
+<footer class="bg-grey-90 color-grey-10">
+  <div class="container pt1">
+    <div class="row" style="display: none;">
+      <!-- u1of2-over-s -->
+      <div class="u1of2-over-m left-over-m gutter-left pb3">
+        <div class="inline-block right-over-m center-under-m">
+          <nav class="social-icons icons-currentColor pt1 clearfix">
+            <a class="social-icons__link social-icons__link--linkedin" href="https://www.linkedin.com/company/ux-brighton">
+              <span class="screen-reader-text">linkedin</span>
+              <svg viewBox="0 0 409 409">
+                <use xlink:href="/2018/images/icons/social-sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a class="social-icons__link social-icons__link--youtube" href="https://www.youtube.com/channel/UC9hOYRFJn2NgV406gr9jajw">
+              <span class="screen-reader-text">youtube</span>
+              <svg viewBox="0 0 579 409">
+                <use xlink:href="/2018/images/icons/social-sprite.svg#youtube"></use>
+              </svg>
+            </a>
+            <a class="social-icons__link social-icons__link--twitter" href="https://twitter.com/uxbri">
+              <span class="screen-reader-text">twitter</span>
+              <svg viewBox="0 0 493 409">
+                <use xlink:href="/2018/images/icons/social-sprite.svg#twitter"></use>
+              </svg>
+            </a>
+            <a class="social-icons__link social-icons__link--facebook" href="https://www.facebook.com/uxbrighton/" style="width:30px;">
+              <span class="screen-reader-text">facebook</span>
+              <svg viewBox="0 0 409 409">
+                <use xlink:href="/2018/images/icons/social-sprite.svg#icon-facebook2"></use>
+              </svg>
+            </a>
+          </nav>
         </div>
-      </form>
 
-    </div><!-- container -->
-  </footer>
+      </div><!-- u1of2-over-s -->
+    </div><!-- row -->
 
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-  <script src="/scripts/scripts-min.js"></script>
-  <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
+    <div class="row text-center">
+      <a class="bold inline-block" href="/about">About UX Brighton</a>
+      <span class="hide-footer-middot">&emsp;&emsp;&emsp;</span>
+      <br class="break-footer-links" />
+      <a class="bold inline-block" href="/mentorship">Mentorship</a>
+      <span class="hide-footer-middot">&emsp;&emsp;&emsp;</span>
+      <br class="break-footer-links" />
+      <a class="bold inline-block" href="http://dannyhope.co.uk/">A Danny Hope Production</a>
+    </div>
 
-  {%- comment %} Email subscription {% endcomment %}
-  <script src="/scripts/modules/emailSubscription.js"></script>
 
-  {%- comment %} Jobs unviewed indicator logic {% endcomment %}
-  {% include jobs/jobs-unviewed-indicator.html %}
+    <form id="slack-signup" class="hidden form-inline bg-white z4 triangle-top-right mr2" action="https://slofile.com/slack/uxbri/invite" accept-charset="UTF-8" method="post" target="slackFrame">
+      <div class="pa3">
+        <h2 class="mb1" style="font-size: 21px; letter-spacing: -0.02em;">Your Email Address</h2>
+        <input name="utf8" type="hidden" value="✓">
+        <input type="hidden" name="authenticity_token" value="PWn79CzsqJB996ucMtB+K9FMPe+7eYsWJx9s8RI82qpKZdztqM46BM3PH7EiTiWVYgzuSOodP5eud36luQeT9Q==">
+        <div class="input-group mt1 mb1">
+          <label class="screen-reader-text" for="email">Email</label>
+          <input type="email" name="email" id="email" value="" placeholder="Email Address" class="input-group__field border--none rounded-left">
+          <input type="submit" name="commit" value="Join" class="button input-group__button button--green rounded-right">
+        </div>
+      </div>
+    </form>
 
-  {%- comment %} Upcoming events unviewed indicator logic {% endcomment %}
-  {% include events/events-unviewed-indicator.html %}
+  </div><!-- container -->
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="/scripts/scripts-min.js"></script>
+<script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
+
+{%- comment %} Email subscription {% endcomment %}
+<script src="/scripts/modules/emailSubscription.js"></script>
+
+{%- comment %} Jobs unviewed indicator logic {% endcomment %}
+{% include jobs/jobs-unviewed-indicator.html %}
+
+{%- comment %} Upcoming events unviewed indicator logic {% endcomment %}
+{% include events/events-unviewed-indicator.html %}
