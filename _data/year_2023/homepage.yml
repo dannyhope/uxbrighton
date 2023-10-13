@@ -593,7 +593,21 @@ sponsors:
           recruit users, complex systems and stakeholders with a resistance to
           change.
         url: http://jackholm.es/
-    show-opportunity: true
+      - summary: "ProdPad is the #1 product management tool, used by thousands of
+          product teams across the world, helping them to build better products.
+          ProdPad gives you a home for your product strategy - a single place to
+          map out your product vision and objectives, build and manage your
+          roadmap, organize your backlog and gather and analyze customer
+          feedback. "
+        logo: /images/blue-full-1-.svg
+        name: ProdPad
+        url: https://www.prodpad.com/
+        links:
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/prodpad/
+          - link-type: instagram
+            profile-url: https://www.instagram.com/prodpad/?hl=en
+    show-opportunity: false
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
 social-image: ""
