@@ -535,10 +535,10 @@ sponsors:
         links:
           - link-type: twitter
             profile-url: https://twitter.com/AskableApp
-          - link-type: linkedin
-            profile-url: https://www.linkedin.com/company/askable/
           - link-type: facebook
             profile-url: https://www.facebook.com/askableapp
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/askable/
           - link-type: instagram
             profile-url: https://www.instagram.com/askableau/
     show-opportunity: true
@@ -603,14 +603,14 @@ sponsors:
         name: ProdPad
         url: https://www.prodpad.com/
         links:
-          - link-type: linkedin
-            profile-url: https://www.linkedin.com/company/prodpad/
-          - link-type: instagram
-            profile-url: https://www.instagram.com/prodpad/?hl=en
           - link-type: twitter
             profile-url: https://twitter.com/ProdPad
           - link-type: facebook
             profile-url: https://www.facebook.com/ProdPad/
+          - link-type: linkedin
+            profile-url: https://www.linkedin.com/company/prodpad/
+          - link-type: instagram
+            profile-url: https://www.instagram.com/prodpad/?hl=en
     show-opportunity: false
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
