@@ -39,6 +39,8 @@ Olena Bulygina is a researcher, designer, and the сo-founder of Cosmic Velocity
 
 ## Murder on the dancefloor: The death of disco – Jon Roobottom
 
+<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/LcVChFG4aToxBi" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
 Discoveries are crucial to a designer's toolkit, but why do they sometimes feel like a slog? 
 
 Dive into the ins and outs of the discovery process, learn to navigate everyday challenges, and pick up practical strategies to guide your teams toward effective results.
