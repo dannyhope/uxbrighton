@@ -40,11 +40,11 @@
 	},
 	"hiringOrganization": {
 		"name": "RSA Group",
-		"logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/RSA_Insurance_Group_%28emblem%29.svg/1200px-RSA_Insurance_Group_%28emblem%29.svg.png",
+		"logo": "//uxbri.org/jobs/logos/RSA-Insurance-Group.svg",
 		"twitter": "rsagroup",
-		"id": 20,
-		"shortId": "u9X6zZTx",
-		"uuid": "8e703b9c-b440-4edb-8a06-e8ff397b1a5d"
+		"id": 831,
+		"shortId": "E2DT5h82",
+		"uuid": "82ebc875-370b-4447-b163-a1df4bdda647"
 	},
 	"employmentType": {
 		"typeInfo": [
