@@ -13,9 +13,9 @@
 			"similiarTitles": [
 				"Head of Product Development",
 				"Head of Product Management",
-				"Head of Product Strategy",
-				"Head of Product Innovation",
-				"Head of Product Architecture"
+				"Head of User Experience Design",
+				"Head of User Interface Design",
+				"Head of Web Design"
 			],
 			"seniorty": "Head of",
 			"seniortyLevel": 5
@@ -53,7 +53,7 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
@@ -64,12 +64,11 @@
 		"minValue": 85000,
 		"maxValue": 100000
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2023-10-15T07:30:22.818Z",
-		"source": "https://apply.workable.com/drdoctor/j/010D35D3E7/"
-	},
+	"tags": [
+		"senior",
+		"management",
+		"design"
+	],
 	"applicationUri": "https://apply.workable.com/drdoctor/j/010D35D3E7/apply/",
 	"applicationType": "link",
 	"shortDescription": "We are looking for someone to help us drive the next phase of growth at DrDoctor, leading a talented product design team through the execution of a recently refreshed strategy. As an experienced",

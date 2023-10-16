@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Product Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
 				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -55,15 +55,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-10-15T07:23:13.421Z",
-		"source": "https://jobs.eu.lever.co/flock/f496e96b-4b59-4c19-b56a-f95f1230f7d8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-	},
+	"tags": [
+		"senior",
+		"remote",
+		"design"
+	],
 	"applicationUri": "https://jobs.eu.lever.co/flock/f496e96b-4b59-4c19-b56a-f95f1230f7d8/apply",
 	"applicationType": "link",
 	"shortDescription": "A bit about Flock At Flock we do insurance very differently. Our real-time-, data-driven- approach means we’re’ able to price connected vehicle insurance on a per-second- basis, whilst giving fleet",

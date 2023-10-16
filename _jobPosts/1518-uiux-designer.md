@@ -11,11 +11,11 @@
 			"canonicalTitle": "UI/UX Designer",
 			"expandedTitle": "User Interface/User Experience Designer",
 			"similiarTitles": [
-				"User Interface Designer",
-				"User Experience Designer",
-				"Interaction Designer",
-				"Visual Designer",
-				"Web Designer"
+				"Web Designer",
+				"Web Developer",
+				"Front-End Developer",
+				"Graphic Designer",
+				"Interaction Designer"
 			],
 			"seniortyLevel": 3
 		}
@@ -55,12 +55,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2023-10-15T07:02:48.208Z",
-		"source": "https://apply.workable.com/hook-technology/j/A416BD229B/"
-	},
+	"tags": [
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://apply.workable.com/hook-technology/j/A416BD229B/apply/",
 	"applicationType": "link",
 	"shortDescription": "Hook's' mission is to reinvent how businesses engage with their customers by providing machine-learnt- insights to help companies radically improve customer loyalty and revenue forecasting using data",
