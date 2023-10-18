@@ -535,7 +535,18 @@ sponsors:
             profile-url: https://www.linkedin.com/company/askable/
           - link-type: instagram
             profile-url: https://www.instagram.com/askableau/
-    show-opportunity: true
+      - name: Pip Decks
+        logo: /images/pipdecks-logo.svg
+        summary: "Pip Decks are unique, confidence-boosting business toolkits: practical
+          step-by-step recipes, coaching videos and templates that instantly
+          upskill you and your team."
+        url: https://pipdecks.com/
+        links:
+          - link-type: twitter
+            profile-url: https://twitter.com/pipdecks
+          - link-type: instagram
+            profile-url: https://www.instagram.com/pipdeckshq/
+    show-opportunity: false
   sponsors-standard:
     visibility: true
     section-title: Standard Sponsors
