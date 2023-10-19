@@ -33,29 +33,41 @@ Join our [\#Mentorship](https://uxbri.slack.com/channels/mentorship) channel on 
 
 ## 2022 programme
 
-<img src="/images/cxpartners_logo_blue-black-1-.png" alt="cxpartners logo" class="image-align-right"/>
+<img src="/images/cxpartners-logo-blue-black.png" alt="cxpartners logo" class="image-align-right"/>
 
-**12 July 2022:** [Mentorship Launch](https://uxbri.org/mentorship-launch-22/) 
+**12 July 2022** [Mentorship Launch](https://uxbri.org/mentorship-launch-22/) 
 
-**9 August 2022:** [Mentorship Speed Matching](https://uxbri.org/speed-matching/)
+**9 August 2022** [Mentorship Speed Matching](https://uxbri.org/speed-matching/)
 
-**13 September 2022:** [Mentorship Meetup](https://uxbri.org/mentorship-meet-up/) 
+**13 September 2022** [Mentorship Meetup](https://uxbri.org/mentorship-meet-up/) 
 
-**10 January 2023**: [Mentorship Check-In](https://uxbri.org/mentorship-check-in) 
+**10 January 2023** [Mentorship Check-In](https://uxbri.org/mentorship-check-in) 
 
-**11 April 2023**: End of 2022 Mentorship Programme, [Mentorship Closing Party](https://uxbri.org/mentorship-closing-party) 
+**11 April 2023** End of 2022 Mentorship Programme, [Mentorship Closing Party](https://uxbri.org/mentorship-closing-party) 
 
 Thanks to U﻿X design consultancy, [cxpartners](https://www.cxpartners.co.uk/) for sponsoring the 2022 programme. 
 
 ## 2023 programme
 
-**11 July 2023**: [Mentorship applications](https://forms.gle/NWLMMwq4BH2XvWvg9) o﻿pen. 
+**11 July 2023** Mentorship applications o﻿pen
 
-**8 August 2023:** [M﻿entorship Speed Matching event](https://uxbri.org/mentorship-speed-matching/)
+**8 August 2023** [M﻿entorship Speed Matching event](https://uxbri.org/mentorship-speed-matching/)
 
-**September 2023**: S﻿uccessful applicants contacted
+**September 2023** S﻿uccessful applicants contacted
 
-**April 2024:** End of Mentorship Programme 
+**April 2024** End of Mentorship Programme 
+
+## 2024 programme
+
+**May 2024** Mentorship applications o﻿pen
+
+**June 2024** M﻿entorship Speed Matching event
+
+**July 2024** S﻿uccessful applicants contacted
+
+**February 2025** End of Mentorship Programme 
+
+
 
 ## S﻿ponsorship
 
