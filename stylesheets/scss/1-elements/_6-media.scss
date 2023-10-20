@@ -20,7 +20,8 @@
     // If image is inline, a width is set as well
     // Defaults to 100% width which is why a `image-align-inline-100w` class and rule isn't declared
 
-    .content-images {
+    .content-images[src$=".jpeg"],
+    .content-images[src$=".jpg"] {
       border: 1px solid #C7D0D4;
     }
     .image-align-inline-25w {
