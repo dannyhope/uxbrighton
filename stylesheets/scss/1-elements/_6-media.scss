@@ -2,6 +2,7 @@
     max-width: 100%;
     height: auto;
   }
+
   .icons-currentColor svg {
     fill: currentColor;
   }
@@ -13,6 +14,12 @@
     display: block;
     border-radius: 2px;
     margin: 0 0 30px 0;
+
+    // Only add border to `.jpg` or `.jpeg` image formats
+    &[src$=".jpg"],
+    &[src$=".jpeg"] {
+      border: 1px solid #C7D0D4;
+    }
   }
 
   // Only when the viewport gets wide enough for an image to float next to other content...
@@ -20,28 +27,20 @@
     // If image is inline, a width is set as well
     // Defaults to 100% width which is why a `image-align-inline-100w` class and rule isn't declared
 
-    .content-images[src$=".jpeg"],
-    .content-images[src$=".jpg"] {
-      border: 1px solid #C7D0D4;
-    }
     .image-align-inline-25w {
-      @extend .content-images;
       max-width: 25%;
     }
 
     .image-align-inline-50w {
-      @extend .content-images;
       max-width: 50%;
     }
 
     .image-align-inline-75w {
       max-width: 75%;
-      @extend .content-images;
     }
 
     // Image float left
     .image-align-left {
-      @extend .content-images;
       float: left;
       margin-right: 30px;
       max-width: 280px;
@@ -49,7 +48,6 @@
 
     // Image float right
     .image-align-right {
-      @extend .content-images;
       float: right;
       margin-left: 30px;
       max-width: 280px;
