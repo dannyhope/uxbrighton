@@ -45,6 +45,10 @@
 		"shortId": "OClwG0TW",
 		"uuid": "e0d6e561-8622-497e-bca3-e3abfc61a07f"
 	},
+	"tags": [
+		"mid",
+		"research"
+	],
 	"applicationUri": "https://apply.workable.com/benevolentai/j/7DF2BD1539/apply/",
 	"applicationType": "link",
 	"shortDescription": "We are looking for a UX Researcher to join our User Experience team and support product discovery and design. You will join a multi-disciplinary- team that designs and develops products for users",

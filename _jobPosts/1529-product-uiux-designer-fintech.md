@@ -53,15 +53,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2023-10-20T06:05:57.716Z",
-		"source": "https://apply.workable.com/mergemoney/j/997BB9CAC9/"
-	},
+	"tags": [
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://apply.workable.com/mergemoney/j/997BB9CAC9/apply/",
 	"applicationType": "link",
 	"shortDescription": "About the role Merge is seeking an experienced product designer to help build our client facing dashboard and related assets. This is an opportunity to join as an early-stage- member of our global",
