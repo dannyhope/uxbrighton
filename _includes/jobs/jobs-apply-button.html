@@ -3,24 +3,24 @@
   * If it's not an email address, the `page.applicationUri` property renders the value as a normal URI.
 {% endcomment -%}
 
-{% assign jobEmailRegex = '^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$' %}
-{% assign jobUriParts = page.applicationUri | split: '@' %}
+{%- assign jobEmailRegex = '^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$' -%}
+{%- assign jobUriParts = page.applicationUri | split: '@' -%}
 
-{% assign jobMessageText = "By the way, I found out about this job via" %}
-{% assign jobUrl = "https://uxbri.org/jobs" %}
+{%- assign jobMessageText = "By the way, I found out about this job via" -%}
+{%- assign jobUrl = "https://uxbri.org/jobs" -%}
 
-{% assign jobEncodedMessageText = jobMessageText | prepend: "%0A%0A" | replace: ' ', '%20' | replace: '!', '%21' | replace: '.', '%2E' %}
-{% assign jobEmailMessage = jobEncodedMessageText | append: "%20" | append: jobUrl %}
+{%- assign jobEncodedMessageText = jobMessageText | prepend: "%0A%0A" | replace: ' ', '%20' | replace: '!', '%21' | replace: '.', '%2E' -%}
+{%- assign jobEmailMessage = jobEncodedMessageText | append: "%20" | append: jobUrl -%}
 
 {% if jobUriParts.size == 2 and jobUriParts[1] | match: jobEmailRegex %}
   {% capture jobMailtoUri %}
-    {% if page.applicationUri contains 'mailto:' %}
+    {%- if page.applicationUri contains 'mailto:' -%}
       {{ page.applicationUri }}?body={{ jobEmailMessage }}
-    {% else %}
+    {%- else -%}
       mailto:{{ page.applicationUri }}?body={{ jobEmailMessage }}
-    {% endif %}
+    {%- endif -%}
   {% endcapture %}
   <a class="button button--green job-apply-btn mt2 pa2" href="{{ jobMailtoUri }}">Apply for this job</a>
 {% else %}
   <a class="button button--green job-apply-btn mt2 pa2" href="{{ page.applicationUri }}?source=uxbriJobBoard">Apply for this job</a>
-{% endif %}
+{%- endif -%}
