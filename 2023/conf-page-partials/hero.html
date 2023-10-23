@@ -34,7 +34,7 @@
 <div>
   {% if homepage.hero.hero-state == "pre" %}
     {% if homepage.hero.pre.button.url and homepage.hero.pre.button.url != '' %}
-      <a href="{{ homepage.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank" data-buy-ticket="conference-2022">{{ homepage.hero.pre.button.label }}</a>
+      <a href="{{ homepage.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank" data-buy-ticket="conference-2023">{{ homepage.hero.pre.button.label }}</a>
       {% if homepage.hero.pre.button.extra-text %}
         <p class="mb0 mt1 weight-400 fs-l u2of3-over-m">{{ homepage.hero.pre.button.extra-text }}</p>
       {% endif %}
@@ -43,12 +43,12 @@
 
   {% if homepage.hero.hero-state == "during" %}
     <div class="clearfix">
-      <div class="bg-red ph4 pv2 weight-900 fs-l inline-block u2of3-over-m">
+      <div class="bg-red ph4 pv2 weight-900 fs-l inline-block">
         {{ homepage.hero.during.message }}
       </div>
     </div>
     {% if homepage.hero.during.button.url and homepage.hero.during.button.url != '' %}
-      <a href="{{ homepage.hero.during.button.url }}" class="button button--large button--green weight-900 mt6 fs-l" target="_blank" data-buy-ticket="conference-2023">{{ homepage.hero.during.button.label }}</a>
+      <a href="{{ homepage.hero.during.button.url }}" class="button button--large button--green weight-900 mt6 fs-l" target="_blank" data-buy-ticket="conference-2024">{{ homepage.hero.during.button.label }}</a>
       {% if homepage.hero.during.button.extra-text %}
         <p class="mb0 mt1 weight-400 fs-l u2of3-over-m">{{ homepage.hero.during.button.extra-text }}</p>
       {% endif %}
@@ -57,7 +57,7 @@
 
   {% if homepage.hero.hero-state == "post" %}
     {% if homepage.hero.post.button.url and homepage.hero.post.button.url != '' %}
-      <a href="{{ homepage.hero.post.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank" data-buy-ticket="conference-2023">{{ homepage.hero.post.button.label }}</a>
+      <a href="{{ homepage.hero.post.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank" data-buy-ticket="conference-2024">{{ homepage.hero.post.button.label }}</a>
       {% if homepage.hero.post.button.extra-text %}
         <p class="mb0 mt1 weight-400 fs-l u2of3-over-m">{{ homepage.hero.post.button.extra-text }}</p>
       {% endif %}
