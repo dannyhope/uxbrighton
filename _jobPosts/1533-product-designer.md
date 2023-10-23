@@ -22,7 +22,7 @@
 	},
 	"postedDate": "2023-10-23T00:00:00.000Z",
 	"closedDate": "2023-11-23T00:00:00.000Z",
-	"directApply": false,
+	"directApply": true,
 	"jobLocation": {
 		"original": "Remote",
 		"textDescription": "Remote, United Kingdom",
@@ -56,7 +56,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
