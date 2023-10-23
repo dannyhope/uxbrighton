@@ -69,7 +69,7 @@
 		"design",
 		"senior"
 	],
-	"applicationUri": "https://apply.workable.com/youlend-1/j/A50D7D6F83/apply/",
+	"applicationUri": "https://apply.workable.com/youlend-1/j/a50d7d6f83/apply/",
 	"applicationType": "link",
 	"shortDescription": "YouLend is a rapidly growing FinTech that has hubs set up across the world working alongside SME’s’ to FTSE100 global businesses. Our product is an embedded software for the world’s’ largest",
 	"status": "LIVE",

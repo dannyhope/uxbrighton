@@ -63,7 +63,7 @@
 		"senior",
 		"remote"
 	],
-	"applicationUri": "https://www.rsainsurance.co.uk/careers/uk-job-description/?nPostingId=11781&nPostingTargetId=151659&id=Q0JFK026203F3VBQB7968F6Z6&LG=UK&languageSelect=UK&mask=rsaext",
+	"applicationUri": "https://www.rsainsurance.co.uk/careers/uk-job-description/?npostingid=11781&npostingtargetid=151659&id=q0jfk026203f3vbqb7968f6z6&lg=uk&languageselect=uk&mask=rsaext",
 	"applicationType": "link",
 	"shortDescription": "Company Overview At RSA our inspiring colleagues are at the heart of what we do best helping people, businesses and society prosper in good times and be resilient in bad times. We are a proud member",
 	"status": "LIVE",

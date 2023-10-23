@@ -61,7 +61,7 @@
 		"senior",
 		"design"
 	],
-	"applicationUri": "https://obsidiansecurity.applytojob.com/apply/vVlQLfunvM/Product-Designer",
+	"applicationUri": "https://obsidiansecurity.applytojob.com/apply/vvlqlfunvm/product-designer",
 	"applicationType": "link",
 	"shortDescription": "About Us Obsidian Security was founded in 2017 to solve the unaddressed blindspot of SaaS Security. SaaS applications provide the tools employees need to succeed and hold the business’ most critical",
 	"status": "LIVE",

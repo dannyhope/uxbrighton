@@ -66,7 +66,7 @@
 		"mid",
 		"design"
 	],
-	"applicationUri": "https://capitalone.wd1.myworkdayjobs.com/Capital_One/login?redirect=%2FCapital_One%2Fjob%2FRemote---London%2FUI-UX-Designer---Velocity-Black_R175594%2Fapply",
+	"applicationUri": "https://capitalone.wd1.myworkdayjobs.com/capital_one/login?redirect=%2fcapital_one%2fjob%2fremote---london%2fui-ux-designer---velocity-black_r175594%2fapply",
 	"applicationType": "link",
 	"shortDescription": "About this role We’re’ excited to share that Capital One US has now acquired Velocity Black, a digital concierge company.  Take a look at the announcement here . Velocity Black by Capital One",
 	"status": "LIVE",

@@ -70,7 +70,7 @@
 		"senior",
 		"design"
 	],
-	"applicationUri": "https://lbg.wd3.myworkdayjobs.com/en-US/LBG_Careers/login?redirect=%2Fen-US%2FLBG_Careers%2Fjob%2FLondon%2FInteraction-Designer_102390-2%2Fapply%2FapplyManually",
+	"applicationUri": "https://lbg.wd3.myworkdayjobs.com/en-us/lbg_careers/login?redirect=%2fen-us%2flbg_careers%2fjob%2flondon%2finteraction-designer_102390-2%2fapply%2fapplymanually",
 	"applicationType": "link",
 	"shortDescription": "We support agile working – click here for more information on agile working options. Job Description Summary Lloyds Banking Group is the UK’s’ leading bank with over 30m customers and its biggest",
 	"status": "LIVE",

@@ -64,7 +64,7 @@
 		"date": "2023-10-20T05:31:41.504Z",
 		"source": "https://careers.hitachi.com/jobs/13491970-senior-ux-slash-product-designer?tm_job=743999937754554HS&tm_event=view&tm_company=2531"
 	},
-	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/HitachiSolutions/publication/41836f59-ab2d-49b9-b5a2-9374d095ea0d?dcr_ci=HitachiSolutions",
+	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/hitachisolutions/publication/41836f59-ab2d-49b9-b5a2-9374d095ea0d?dcr_ci=hitachisolutions",
 	"applicationType": "link",
 	"shortDescription": "Company Description Hitachi Solutions Europe is a global Digital, Data and Technology consultancy, Microsoft Gold partner and Cloud Services partner, specialising in end-to-end-- transformation. As a",
 	"status": "LIVE",

@@ -66,7 +66,7 @@
 		"design",
 		"remote"
 	],
-	"applicationUri": "https://meandem.peoplehr.net/Pages/JobBoard/Opening.aspx?v=dda7ddd1-911c-4188-ae25-8a914f752c12",
+	"applicationUri": "https://meandem.peoplehr.net/pages/jobboard/opening.aspx?v=dda7ddd1-911c-4188-ae25-8a914f752c12",
 	"applicationType": "link",
 	"shortDescription": "About Us MEEM is one of the UK’s’ fastest-growing- modern luxury fashion brands. As a direct-to-consumer-- business we operate in a truly multi-channel- sense with seven London stores, as well as",
 	"status": "LIVE",

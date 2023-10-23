@@ -64,7 +64,7 @@
 		"mid",
 		"design"
 	],
-	"applicationUri": "https://www.networxrecruitment.com/Jobs/Feed?key=RU%2feacVqiPPMFp4Zmj3XNtZalVsQc91RMgzNo6o0%2fxs%3d",
+	"applicationUri": "https://www.networxrecruitment.com/jobs/feed?key=ru%2feacvqippmfp4zmj3xntzalvsqc91rmgzno6o0%2fxs%3d",
 	"applicationType": "link",
 	"shortDescription": "The Vacancy We’re’ looking for a Product Designer to look after the ideation, creation and delivery of product designs that will help us expand our network of retail partners and improve our B2B",
 	"status": "LIVE",

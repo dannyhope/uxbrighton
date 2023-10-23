@@ -49,7 +49,7 @@
 		"mid",
 		"research"
 	],
-	"applicationUri": "https://apply.workable.com/benevolentai/j/7DF2BD1539/apply/",
+	"applicationUri": "https://apply.workable.com/benevolentai/j/7df2bd1539/apply/",
 	"applicationType": "link",
 	"shortDescription": "We are looking for a UX Researcher to join our User Experience team and support product discovery and design. You will join a multi-disciplinary- team that designs and develops products for users",
 	"status": "LIVE",

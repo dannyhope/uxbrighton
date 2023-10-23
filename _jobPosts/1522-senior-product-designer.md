@@ -63,7 +63,7 @@
 		"design",
 		"remote"
 	],
-	"applicationUri": "https://reachdesk-1686761477.teamtailor.com/jobs/3262098-senior-product-designer?ittk=JUCHJ2OV1A",
+	"applicationUri": "https://reachdesk-1686761477.teamtailor.com/jobs/3262098-senior-product-designer?ittk=juchj2ov1a",
 	"applicationType": "link",
 	"shortDescription": "About us Reachdesk is a cutting edge B2B gifting platform that allows companies to deliver gifts and direct mail that build deeper connections with customers, prospects and employees at the click",
 	"status": "LIVE",

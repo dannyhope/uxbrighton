@@ -69,7 +69,7 @@
 		"management",
 		"design"
 	],
-	"applicationUri": "https://apply.workable.com/drdoctor/j/010D35D3E7/apply/",
+	"applicationUri": "https://apply.workable.com/drdoctor/j/010d35d3e7/apply/",
 	"applicationType": "link",
 	"shortDescription": "We are looking for someone to help us drive the next phase of growth at DrDoctor, leading a talented product design team through the execution of a recently refreshed strategy. As an experienced",
 	"status": "LIVE",

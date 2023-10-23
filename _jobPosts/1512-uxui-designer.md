@@ -61,7 +61,7 @@
 		"mid",
 		"senior"
 	],
-	"applicationUri": "https://apply.workable.com/twocircles/j/E9041BE924/apply/",
+	"applicationUri": "https://apply.workable.com/twocircles/j/e9041be924/apply/",
 	"applicationType": "link",
 	"shortDescription": "Two Circles is a global sports agency, connecting fans with sport properties using data. We work with some of the world’s’ biggest sports organisations – including the Premier League, Formula 1,",
 	"status": "LIVE",

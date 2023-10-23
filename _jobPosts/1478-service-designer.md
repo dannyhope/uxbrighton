@@ -62,7 +62,7 @@
 		"design",
 		"remote"
 	],
-	"applicationUri": "https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/product-planning-service-designer-coordinator_r00114268-1/apply",
+	"applicationUri": "https://alliance.wd3.myworkdayjobs.com/en-us/nissanjobs/job/product-planning-service-designer-coordinator_r00114268-1/apply",
 	"applicationType": "link",
 	"shortDescription": "Who we are Here at Nissan, our strategy is all about enriching people’s’ lives by building relationships that empower, inspire, and excite every Nissan customer in our AMIEO (Africa, Middle East,",
 	"status": "LIVE",

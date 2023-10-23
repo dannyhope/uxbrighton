@@ -66,7 +66,7 @@
 		"mid",
 		"senior"
 	],
-	"applicationUri": "https://bpp-career.talent-soft.com/my-account/log-in.aspx?ReturnUrl=%2fmy-account%2fmy-certificates-for-product-designer-mobile-_3086.aspx",
+	"applicationUri": "https://bpp-career.talent-soft.com/my-account/log-in.aspx?returnurl=%2fmy-account%2fmy-certificates-for-product-designer-mobile-_3086.aspx",
 	"applicationType": "link",
 	"shortDescription": "Applicants must provide evidence of their right to work in the UK as BPP is unable to provide visa sponsorship Job Purpose BPP Education is entering a new phase of its growth and evolution,",
 	"status": "LIVE",

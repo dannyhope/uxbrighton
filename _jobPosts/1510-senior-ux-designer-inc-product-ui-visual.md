@@ -65,7 +65,7 @@
 		"design",
 		"senior"
 	],
-	"applicationUri": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/London/Senior-UX-Designer--inc-Product--UI--Visual-_R1047963/apply",
+	"applicationUri": "https://dentsuaegis.wd3.myworkdayjobs.com/en-us/dan_global/job/london/senior-ux-designer--inc-product--ui--visual-_r1047963/apply",
 	"applicationType": "link",
 	"shortDescription": "The purpose of this role is to be creative task-based- problem solvers who are passionate about creating experiences that engage the imagination whilst empowering users to bring the brand to life.",
 	"status": "LIVE",

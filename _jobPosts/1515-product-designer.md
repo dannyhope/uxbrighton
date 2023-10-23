@@ -66,7 +66,7 @@
 		"mid",
 		"remote"
 	],
-	"applicationUri": "https://jobs.bt.com/BT/job/One-Braham-%284140%29-Product-Designer-%28Digital-BT-Business%29-Lond/780487702",
+	"applicationUri": "https://jobs.bt.com/bt/job/one-braham-%284140%29-product-designer-%28digital-bt-business%29-lond/780487702",
 	"applicationType": "link",
 	"shortDescription": "Full time, 3 days a week together in our Manchester, Bristol, London or Birmingham Hub (flexible 2 days remote wherever).  This role will sit within BT Business and will be part of the digital",
 	"status": "LIVE",

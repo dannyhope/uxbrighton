@@ -61,7 +61,7 @@
 		"senior",
 		"design"
 	],
-	"applicationUri": "https://apply.workable.com/mergemoney/j/997BB9CAC9/apply/",
+	"applicationUri": "https://apply.workable.com/mergemoney/j/997bb9cac9/apply/",
 	"applicationType": "link",
 	"shortDescription": "About the role Merge is seeking an experienced product designer to help build our client facing dashboard and related assets. This is an opportunity to join as an early-stage- member of our global",
 	"status": "LIVE",

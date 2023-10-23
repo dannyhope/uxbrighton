@@ -67,7 +67,7 @@
 		"management",
 		"senior"
 	],
-	"applicationUri": "https://hdhe.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/preview/189119/apply/email",
+	"applicationUri": "https://hdhe.fa.em3.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/requisitions/preview/189119/apply/email",
 	"applicationType": "link",
 	"shortDescription": "We’d’ all like amazing work to do, and real work-life- balance. That’s’ waiting for you at Sainsbury’s’. Think about the scale it takes for us to feed the nation. The level of data, transactions and",
 	"status": "LIVE",

@@ -60,7 +60,7 @@
 		"design",
 		"senior"
 	],
-	"applicationUri": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/13468/apply/email?utm_medium=jobboard",
+	"applicationUri": "https://hccz.fa.em3.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_2/job/13468/apply/email?utm_medium=jobboard",
 	"applicationType": "link",
 	"shortDescription": "We are looking for a Principal UX Designer with a portfolio demonstrating high expertise in both desktop and native mobile projects, complex platforms and processes which can be articulated through",
 	"status": "LIVE",
