@@ -1,3 +1,8 @@
+{%- comment %}
+  * This code checks to see if the `page.applicationUri` property validates as an email address - and then creates a `mailto:` URI with a pre-populated message body.
+  * If it's not an email address, the `page.applicationUri` property renders the value as a normal URI.
+{% endcomment -%}
+
 {% assign jobEmailRegex = '^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$' %}
 {% assign jobUriParts = page.applicationUri | split: '@' %}
 
@@ -7,7 +12,7 @@
 {% assign jobEncodedMessageText = jobMessageText | prepend: "%0A%0A" | replace: ' ', '%20' | replace: '!', '%21' | replace: '.', '%2E' %}
 {% assign jobEmailMessage = jobEncodedMessageText | append: "%20" | append: jobUrl %}
 
-{% if jobUriParts.size == 2 %}
+{% if jobUriParts.size == 2 and jobUriParts[1] | match: jobEmailRegex %}
   {% capture jobMailtoUri %}
     {% if page.applicationUri contains 'mailto:' %}
       {{ page.applicationUri }}?body={{ jobEmailMessage }}
