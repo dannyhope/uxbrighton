@@ -113,9 +113,7 @@
 	<main class="content-main-detail" role="main">
 
     <section id="hero" class="overlay__outer pa0 bg-grey-90">
-
       <div class="overlay__inner overflow-hidden bg-trans">
-
         <div class="container color-white">
           <h1 class="fs-xxxl leading-solid mb1">{{ jobTitle }}</h1>
           <h2 class="mt0 fs-l regular track-normal mb2">{{ jobEmployer }}</h2>
@@ -130,9 +128,7 @@
             <span class="font-museo track-normal" style="font-weight: 500;"> &#183; {{ salary }}</span>
           {% endif %}
         </div>
-
       </div>
-
     </section>
 
     <section id="overview" class="bg-white">
@@ -142,16 +138,20 @@
         	<div class="job-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l pt2">
 						<aside class="job-detail_meta">
               <div class="job-logo" style="background-image: url({{ page.hiringOrganization.logo }});"></div>
-              <!-- Apply button -->
-              <a class="button button--green job-apply-btn mt2 pa2" href="{{ page.applicationUri }}?source=uxbriJobBoard">Apply for this job</a>
+
+              {%- comment %} Include / partial for the `jobs-apply-button` logic {% endcomment -%}
+              {% include jobs/jobs-apply-button.html %}
+
 						</aside>
         	</div>
           {% comment %} Main content area {% endcomment %}
         	<div class="job-overview u2of3-over-l left-over-l gutter-right ph0-under-l pt5">
         		{{ content }}
             <div class="flex justify-center hidden-over-l">
-              <!-- Apply button -->
-              <a class="button button--green job-apply-btn mt2 mb2 pa2" href="{{ page.applicationUri }}?source=uxbriJobBoard">Apply for this job</a>
+
+              {%- comment %} Include / partial for the `jobs-apply-button` logic {% endcomment -%}
+              {% include jobs/jobs-apply-button.html %}
+
             </div>
         	</div>
 				</div><!-- row -->
