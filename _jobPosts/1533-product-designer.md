@@ -62,7 +62,9 @@
 	"tags": [
 		"design",
 		"senior",
-		"remote"
+		"remote",
+		"promoted",
+		"top-job"
 	],
 	"applicationUri": "mailto:careers@eql.ai",
 	"shortDescription": "We’re’ looking for an experienced (3-5yrs-) product designer to lead the UX/UI/ design of our mobile and web applications for patients and our web applications for clinical teams. You will be a key",
