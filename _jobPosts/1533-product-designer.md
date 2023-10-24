@@ -66,7 +66,8 @@
 		"promoted",
 		"top-job"
 	],
-	"applicationUri": "mailto:careers@eql.ai",
+	"applicationUri": "careers@eql.ai",
+	"applicationType": "email",
 	"shortDescription": "We’re’ looking for an experienced (3-5yrs-) product designer to lead the UX/UI/ design of our mobile and web applications for patients and our web applications for clinical teams. You will be a key",
 	"status": "LIVE",
 	"permalink": "/jobs/1533/product-designer",
