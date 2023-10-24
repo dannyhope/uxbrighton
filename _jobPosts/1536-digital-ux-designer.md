@@ -58,7 +58,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, Full-time",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"salary": {
@@ -71,10 +71,7 @@
 	},
 	"tags": [
 		"design",
-		"senior",
-		"remote",
-		"promoted",
-		"top-job"
+		"mid"
 	],
 	"applicationUri": "https://careers.achievingforchildren.org.uk/vacancy/digital-ux-designer-540494.html",
 	"applicationType": "link",
