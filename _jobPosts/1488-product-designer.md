@@ -63,7 +63,7 @@
 		"mid",
 		"senior"
 	],
-	"applicationUri": "https://songkick.applytojob.com/apply/atzscnud4e/product-designer",
+	"applicationUri": "https://songkick.applytojob.com/apply/AtZScnUd4E/Product-Designer",
 	"applicationType": "link",
 	"shortDescription": "About the role More than 150 million music fans across the globe use Songkick to discover concerts for their favorite artists and never ever miss out. With over 9 million event listings, as well as",
 	"status": "LIVE",

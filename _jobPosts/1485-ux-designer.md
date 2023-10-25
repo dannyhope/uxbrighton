@@ -66,7 +66,7 @@
 		"mid",
 		"design"
 	],
-	"applicationUri": "https://reliaquest.wd5.myworkdayjobs.com/en-us/reliaquest_careers/job/london-office/ux-ui-designer_r12530/apply",
+	"applicationUri": "https://reliaquest.wd5.myworkdayjobs.com/en-US/ReliaQuest_Careers/job/London-Office/UX-UI-Designer_R12530/apply",
 	"applicationType": "link",
 	"shortDescription": "ReliaQuest partners with organizations to tackle their cybersecurity challenges by reducing the noise and complexity of their security environment. We are looking for an experienced individual to",
 	"status": "LIVE",

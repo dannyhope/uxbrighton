@@ -66,7 +66,7 @@
 		"mid",
 		"senior"
 	],
-	"applicationUri": "https://jobs.atos.net/job/london-ux-designer-sw1a-2ns/995149001",
+	"applicationUri": "https://jobs.atos.net/job/London-UX-Designer-SW1A-2NS/995149001",
 	"applicationType": "link",
 	"shortDescription": "Eviden is an Atos Group business with an annual revenue of circa 5 billion and a global leader in data-driven-, trusted and sustainable digital transformation. As a next generation digital business",
 	"status": "LIVE",

@@ -73,7 +73,7 @@
 		"remote",
 		"design"
 	],
-	"applicationUri": "https://ardonaghadvisory.current-vacancies.com/jobs/advert/3267341?cid=1704&rsid=14681&js=0&linktype=1&fromsearch=false",
+	"applicationUri": "https://ardonaghadvisory.current-vacancies.com/Jobs/Advert/3267341?cid=1704&rsid=14681&js=0&LinkType=1&FromSearch=False",
 	"applicationType": "link",
 	"shortDescription": "Purpose of the Role This exciting remote based UX UI Designer opportunity has arisen to help strengthen our Digital team by providing user experience design prototyping capability to support and",
 	"status": "LIVE",

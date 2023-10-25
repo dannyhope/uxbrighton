@@ -61,7 +61,7 @@
 		"mid",
 		"senior"
 	],
-	"applicationUri": "https://jobs.workable.com/view/nsflftphofyjbbtma1ep5c/remote-senior-product-designer-in-united-kingdom-at-save-my-exams",
+	"applicationUri": "https://jobs.workable.com/view/nsFLfTPHofyjbBTmA1ep5C/remote-senior-product-designer-in-united-kingdom-at-save-my-exams",
 	"applicationType": "link",
 	"shortDescription": "About Save My Exams Save My Exams is an online education platform dedicated to helping students achieve better grades in their exams. We support millions of students, tutors and teachers all over the",
 	"status": "LIVE",

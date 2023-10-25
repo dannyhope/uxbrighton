@@ -60,7 +60,7 @@
 		"senior",
 		"design"
 	],
-	"applicationUri": "https://apply.workable.com/hook-technology/j/a416bd229b/apply/",
+	"applicationUri": "https://apply.workable.com/hook-technology/j/A416BD229B/apply/",
 	"applicationType": "link",
 	"shortDescription": "Hook's' mission is to reinvent how businesses engage with their customers by providing machine-learnt- insights to help companies radically improve customer loyalty and revenue forecasting using data",
 	"status": "LIVE",

@@ -68,7 +68,7 @@
 		"design",
 		"remote"
 	],
-	"applicationUri": "https://parkinsons.current-vacancies.com/jobs/advert/3281078?cid=1978&t=junior-ux-ui-designer",
+	"applicationUri": "https://parkinsons.current-vacancies.com/Jobs/Advert/3281078?cid=1978&t=Junior-UX-UI-Designer",
 	"applicationType": "link",
 	"shortDescription": "About the role  This role is offered on a six month fixed-term- contract.  This role offers a unique opportunity to make a meaningful impact in the lives of people affected by Parkinson's' while",
 	"status": "LIVE",
