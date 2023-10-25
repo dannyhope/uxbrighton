@@ -59,7 +59,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
@@ -67,7 +67,7 @@
 		"design",
 		"mid"
 	],
-	"applicationUri": "https://account.amazon.jobs/en-us/login?job=2475920&relay=%2fen-us%2fjobs%2f2475920%2fapply%3fcmpid%3djb_inop301245b",
+	"applicationUri": "https://www.amazon.jobs/en/jobs/2475920/sr-ux-designer-futures-design",
 	"applicationType": "link",
 	"shortDescription": "Description Futures Design is the advanced concept design and incubation team within Amazon’s’ Device and Services Design Group (DDG). We are responsible for exploring and defining think (very) big",
 	"status": "LIVE",

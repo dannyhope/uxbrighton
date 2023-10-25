@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Developer",
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Software Designer"
+				"Web Product Designer",
+				"UX Product Designer",
+				"UI Product Designer",
+				"Web Design Product Manager",
+				"Web Design Strategist"
 			],
 			"seniortyLevel": 3
 		}
@@ -59,16 +59,16 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, aa",
-		"patternType": "default, site",
-		"date": "2023-10-25T06:12:38.060Z",
-		"source": "https://www.theaacareers.co.uk/job-details/?id=500000182434&sType=Indeed&utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
-	"applicationUri": "https://www.theaacareers.co.uk/apply-online/?jobid=pmffk026203f3vbqbv768v49b-182434&langcode=en_gb",
+	"tags": [
+		"design",
+		"mid",
+		"senior",
+		"remote"
+	],
+	"applicationUri": "https://www.theaacareers.co.uk/job-details/?id=500000182434",
 	"applicationType": "link",
 	"shortDescription": "Company description Thought The AA only provide roadside assistance? Think again. The automotive market is ready for disruption and an exciting new ecosystem is emerging fast, based on connected car",
 	"status": "LIVE",
