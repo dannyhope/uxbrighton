@@ -241,77 +241,6 @@ speakers:
           bio-title: About Stefanie
       - talk-info:
           talk-time: ""
-          talk-title: "Exploring Innovation: A Case Study from The Guardian's Product
-            Design Team"
-          talk-summary: For most of its 200-year history, the Guardian existed only in
-            print but today millions of people across the world choose the
-            digital experience of our journalism. As behaviours change and
-            technology advances, the role that Product Design plays is more
-            important than ever. Tricky will talk about his leadership of the
-            Product Design team and how it differs from his previous work,
-            leading teams within creative agencies. He will provide a rare,
-            behind-the-scenes look at his team’s approach and bring this to life
-            by sharing a new product that hasn't even been launched yet.
-        name: " Tricky Bassett"
-        thumbnail: /images/tricky.png
-        anchor: Tricky-Bassett
-        speaker-bio:
-          bio-summary: Tricky is the Director of Product Design at The Guardian. He has
-            been designing interactions since the 1990s. After freelancing with
-            design agencies in London and New York he founded his first design
-            studio, Tricky Business, and enjoyed life designing user-centred
-            experiences. More recently, Tricky worked as the Creative Director
-            at Magnetic, where he helped organisations all over the world over
-            use design thinking to innovate at pace. Some clients he is most
-            proud to have worked with include Microsoft, PepsiCo, Mars, HSBC,
-            Sky and the BBC. Tricky is a keen cyclist and photographer and a
-            passionate advocate for mental well-being both at home and in his
-            work.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/richardtrickybassett/
-          bio-title: About Tricky
-      - talk-info:
-          talk-time: ""
-          talk-title: The critical importance of supporting designer and developer
-            creativity
-          talk-summary: When we think about UX as a discipline, what often first comes to
-            mind are everyday consumer experiences from websites to games, or
-            perhaps enterprise and productivity tools. In recent years however,
-            Elizabeth has focused instead on UX for *designers and
-            developers* and how to enhance and support their creativity. Based
-            in studies of designer and developer experiences, Elizabeth’s team
-            have been improving documentation, working on task accomplishment
-            and smoothing workflows, focusing on better communication and
-            collaboration, and addressing tech and design debt management and
-            team productivity.In this talk, Elizabeth will discuss case studies,
-            and share why supporting designer and developer creative tools leads
-            to better and more inclusive user experiences for everyone.
-        name: Elizabeth Churchill
-        thumbnail: /images/elizabeth-churchill-600x600.jpg
-        anchor: Elizabeth-Churchill
-        speaker-bio:
-          bio-title: About Elizabeth
-          bio-summary: >-
-            Dr Elizabeth Churchill is a Senior Director of UX at Google.
-            Elizabeth has built UX and Research teams at Google, eBay, Yahoo,
-            PARC, and FujiXerox. She Co-Chairs Google's UX Leadership Council
-            (UXLC), and was a co-founder of Google's UXR Steering Committee
-            which she co-chaired for 2 years before joining the UXLC.
-
-
-            Elizabeth holds a PhD from the University of Cambridge and honorary doctorates from the University of Sussex and the University of Stockholm. She is a member of the Association for Computer Machinery’s (ACM) CHI Academy, is an ACM Fellow, Distinguished Scientist, and an ACM Distinguished Speaker. She served as the ACM’s Executive Vice President for 2 years, from 2018-2020, and was ACM’s Secretary Treasurer from 2016-2018.  Elizabeth has published over 200 articles in peer reviewed journals, in conferences, and in magazines. She has also co-edited 5 books on various topics and has co-authored 2 books ([Foundations for Designing User Centered Systems](https://link.springer.com/book/10.1007/978-1-4471-5134-0), and [Designing with Data](https://www.oreilly.com/library/view/designing-with-data/9781449334925/)). She has over 50 patents already granted or pending. 
-
-
-            Elizabeth is a visiting professor at Imperial College's Dyson School of Design Engineering in London and is an advisory board member for the Pardee RAND Graduate School in Santa Monica, California and also for the Flickr Foundation ([flickr.org](http://flickr.org/)). She recently took up a position as Co-Editor in Chief of ACM's Interactions magazine. 
-
-
-            In 2016, she received a Citris-Banatao Institute Award Athena Award for Women in Technology for her Executive Leadership. She has been named one of the top women leaders in UX over the last several years. In 2023, she received ACM SIGCHI’s Lifetime Service Award.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/elizabethfchurchill/
-      - talk-info:
-          talk-time: ""
           talk-title: "Enabling Creativity: Specific ideas to help your team flourish"
           talk-summary: >-
             In the swiftly changing dynamics of today's world, creativity and
@@ -351,6 +280,38 @@ speakers:
             He is very passionate about working with schools, running digital days and acting as an Enterprise Careers adviser for the Mayor of London.
       - talk-info:
           talk-time: ""
+          talk-title: "Exploring Innovation: A Case Study from The Guardian's Product
+            Design Team"
+          talk-summary: For most of its 200-year history, the Guardian existed only in
+            print but today millions of people across the world choose the
+            digital experience of our journalism. As behaviours change and
+            technology advances, the role that Product Design plays is more
+            important than ever. Tricky will talk about his leadership of the
+            Product Design team and how it differs from his previous work,
+            leading teams within creative agencies. He will provide a rare,
+            behind-the-scenes look at his team’s approach and bring this to life
+            by sharing a new product that hasn't even been launched yet.
+        name: " Tricky Bassett"
+        thumbnail: /images/tricky.png
+        anchor: Tricky-Bassett
+        speaker-bio:
+          bio-summary: Tricky is the Director of Product Design at The Guardian. He has
+            been designing interactions since the 1990s. After freelancing with
+            design agencies in London and New York he founded his first design
+            studio, Tricky Business, and enjoyed life designing user-centred
+            experiences. More recently, Tricky worked as the Creative Director
+            at Magnetic, where he helped organisations all over the world over
+            use design thinking to innovate at pace. Some clients he is most
+            proud to have worked with include Microsoft, PepsiCo, Mars, HSBC,
+            Sky and the BBC. Tricky is a keen cyclist and photographer and a
+            passionate advocate for mental well-being both at home and in his
+            work.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/richardtrickybassett/
+          bio-title: About Tricky
+      - talk-info:
+          talk-time: ""
           talk-title: Unleash your inner innovator
           talk-summary: >-
             Design is about creating change. As designers, we offer the most
@@ -386,6 +347,38 @@ speakers:
               profile-url: https://www.linkedin.com/in/chrishow/
             - profile-type: website
               profile-url: https://chrishow101.medium.com/
+      - talk-info:
+          talk-time: ""
+          talk-summary: >-
+            Large organisations were never designed for successful service
+            delivery. Rooted in age-old structures built around internal
+            functions, embracing a service led approach often goes against every
+            fibre. 
+
+
+            This talk is about what we can do to help our organisations deliver services that really work. Forget about creating separate innovation hubs or creative teams, this needs a radical change to how everyone designs, delivers, collaborates and decides. 
+
+
+            And it starts by seeing things differently: our services, how they perform, and the value in improving them. This talk has practical examples and ideas that you can share and use in your organisations this week.
+          talk-title: "From silos to services: innovation lessons from service design"
+        name: Kate Tarling
+        thumbnail: /images/kate-tarling.png
+        anchor: Kate-Tarling
+        speaker-bio:
+          bio-title: About Kate
+          bio-summary: >-
+            Kate helps large organisation executives and leadership teams
+            develop the conditions and practices for everyone to deliver better
+            services by default.
+
+
+            She does this through consulting and training, and is an advisor to boards, executives and teams. She previously held senior service leadership roles in government as well as the private sector. 
+
+
+            Kate is the author of The Service Organization and has spoken on service organisations as guest lecturer at Harvard University, University College London and the University of Toronto on executive education, MBA and MPA programmes, and is a regular speaker at global institutions and national governments.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/kate-tarling-6b43b19/
       - talk-info:
           talk-time: ""
           talk-title: Sneaking agility back into Agile
@@ -425,36 +418,43 @@ speakers:
               profile-url: https://tomkerwin.com/
       - talk-info:
           talk-time: ""
-          talk-summary: >-
-            Large organisations were never designed for successful service
-            delivery. Rooted in age-old structures built around internal
-            functions, embracing a service led approach often goes against every
-            fibre. 
-
-
-            This talk is about what we can do to help our organisations deliver services that really work. Forget about creating separate innovation hubs or creative teams, this needs a radical change to how everyone designs, delivers, collaborates and decides. 
-
-
-            And it starts by seeing things differently: our services, how they perform, and the value in improving them. This talk has practical examples and ideas that you can share and use in your organisations this week.
-          talk-title: "From silos to services: innovation lessons from service design"
-        name: Kate Tarling
-        thumbnail: /images/kate-tarling.png
-        anchor: Kate-Tarling
+          talk-title: The critical importance of supporting designer and developer
+            creativity
+          talk-summary: When we think about UX as a discipline, what often first comes to
+            mind are everyday consumer experiences from websites to games, or
+            perhaps enterprise and productivity tools. In recent years however,
+            Elizabeth has focused instead on UX for *designers and
+            developers* and how to enhance and support their creativity. Based
+            in studies of designer and developer experiences, Elizabeth’s team
+            have been improving documentation, working on task accomplishment
+            and smoothing workflows, focusing on better communication and
+            collaboration, and addressing tech and design debt management and
+            team productivity.In this talk, Elizabeth will discuss case studies,
+            and share why supporting designer and developer creative tools leads
+            to better and more inclusive user experiences for everyone.
+        name: Elizabeth Churchill
+        thumbnail: /images/elizabeth-churchill-600x600.jpg
+        anchor: Elizabeth-Churchill
         speaker-bio:
-          bio-title: About Kate
+          bio-title: About Elizabeth
           bio-summary: >-
-            Kate helps large organisation executives and leadership teams
-            develop the conditions and practices for everyone to deliver better
-            services by default.
+            Dr Elizabeth Churchill is a Senior Director of UX at Google.
+            Elizabeth has built UX and Research teams at Google, eBay, Yahoo,
+            PARC, and FujiXerox. She Co-Chairs Google's UX Leadership Council
+            (UXLC), and was a co-founder of Google's UXR Steering Committee
+            which she co-chaired for 2 years before joining the UXLC.
 
 
-            She does this through consulting and training, and is an advisor to boards, executives and teams. She previously held senior service leadership roles in government as well as the private sector. 
+            Elizabeth holds a PhD from the University of Cambridge and honorary doctorates from the University of Sussex and the University of Stockholm. She is a member of the Association for Computer Machinery’s (ACM) CHI Academy, is an ACM Fellow, Distinguished Scientist, and an ACM Distinguished Speaker. She served as the ACM’s Executive Vice President for 2 years, from 2018-2020, and was ACM’s Secretary Treasurer from 2016-2018.  Elizabeth has published over 200 articles in peer reviewed journals, in conferences, and in magazines. She has also co-edited 5 books on various topics and has co-authored 2 books ([Foundations for Designing User Centered Systems](https://link.springer.com/book/10.1007/978-1-4471-5134-0), and [Designing with Data](https://www.oreilly.com/library/view/designing-with-data/9781449334925/)). She has over 50 patents already granted or pending. 
 
 
-            Kate is the author of The Service Organization and has spoken on service organisations as guest lecturer at Harvard University, University College London and the University of Toronto on executive education, MBA and MPA programmes, and is a regular speaker at global institutions and national governments.
+            Elizabeth is a visiting professor at Imperial College's Dyson School of Design Engineering in London and is an advisory board member for the Pardee RAND Graduate School in Santa Monica, California and also for the Flickr Foundation ([flickr.org](http://flickr.org/)). She recently took up a position as Co-Editor in Chief of ACM's Interactions magazine. 
+
+
+            In 2016, she received a Citris-Banatao Institute Award Athena Award for Women in Technology for her Executive Leadership. She has been named one of the top women leaders in UX over the last several years. In 2023, she received ACM SIGCHI’s Lifetime Service Award.
           social-profiles:
             - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/kate-tarling-6b43b19/
+              profile-url: https://www.linkedin.com/in/elizabethfchurchill/
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
