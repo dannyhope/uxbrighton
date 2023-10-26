@@ -172,7 +172,7 @@ speakers:
     show-slides: false
     speaker-list:
       - talk-info:
-          talk-time: ""
+          talk-time: 10:00 am
           talk-title: What is Creativity?
           talk-summary: >-
             In the realm of design, creativity remains an elusive and often
@@ -209,7 +209,7 @@ speakers:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/alicechelliwell/
       - talk-info:
-          talk-time: ""
+          talk-time: 10:35 am
           talk-title: "You’re doing it wrong: a celebration of ‘worst’ practices"
           talk-summary: >-
             I’ve spent my career in data visualisation working in ways that are
