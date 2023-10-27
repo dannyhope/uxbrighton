@@ -19,8 +19,6 @@ Email address |\_\_\_\_\_\_\_\_\_\_\_\_\_\_|
 
 \[ ] My company might be interested in exhibiting, advising or providing a speaker
 
-LinkedIn profile (optional) |\_\_\_\_\_\_\_\_\_\_\_\_\_\_|
-
 Also subscribe to:
 
 \[ ] Job alerts
@@ -33,4 +31,4 @@ Also subscribe to:
 
 \[ ] join UX Brighton’s Slack community
 
-\[Submit]
+\[Subscribe]
