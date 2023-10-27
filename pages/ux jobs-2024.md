@@ -15,7 +15,7 @@ seo: true
 
 Stay informed about developments regarding the UX Jobs 2024 event.
 
-Email address |\_\_\_\_\_\_\_\_\_\_\_\_\_\_|
+Email address |\_\_\_\_\_\_\_\_\_\_\_\_\_\_|  \[Subscribe]
 
 \[ ] My company might be interested in exhibiting, advising or providing a speaker
 
@@ -28,5 +28,3 @@ Also subscribe to:
 \[ ] Evening event news
 
 \[ ] Interesting links picked by the UX Brighton team
-
-\[Subscribe]
