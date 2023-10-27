@@ -47,10 +47,6 @@
 ////////////////////////////////////
 //
 //  Speaker / talk / break slot list
-
-  .talk {
-    border-top: 1px solid #eee;
-  }
   .talk * {
     transition: 0.1s  cubic-bezier(0.075, 0.82, 0.165, 1);
   }
