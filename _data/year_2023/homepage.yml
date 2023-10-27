@@ -1,71 +1,9 @@
-fullurl: https://uxbri.org/2023
-attendee-info:
-  travel-accom:
-    visibility: true
-    title: Information for Attendees
-    body: >-
-      The conference is being held in the beautiful and historic [Brighton Dome
-      Concert Hall](https://brightondome.org/your_visit/venues/concert_hall/):
-      just [10 minutes from Brighton
-      Station](https://www.google.co.uk/maps/dir/Brighton,+Queens+Rd,+Brighton+BN1+3XP/Brighton+Dome,+Church+St,+Brighton+BN1+1UE/@50.8262758,-0.144999,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x487585743a2f976d:0x59436d7ac9c32976!2m2!1d-0.1410151!2d50.8288519!1m5!1m1!1s0x4875850a94b987c3:0x204845bd08377bb3!2m2!1d-0.1380842!2d50.8236999!3e2?hl=en),
-      3 minutes from the Lanes, 5 minutes from the beach and a whole heap of
-      great restaurants and hotels. Registration starts from 9am with the first
-      speaker on at 10am, we’ll email you to let you know when the talk times
-      are finalised.
-
-
-      Before the conference why not [join the UX Brighton Slack](https://slofile.com/slack/uxbri) and get chatting with other UXers. We’ve also got a rather nice [\#jobs](https://uxbri.slack.com/messages/jobs).
-
-
-      See our **[Attendee information guide](/2023/info)** for everything you need to get the most out of your visit to UX Brighton, including:
-    info:
-      - item: Travel
-      - item: Accommodation
-      - item: Pre-conference meet-ups
-      - item: Accessibility
-      - item: Wifi and charging
-      - item: Cloakrooms
-      - item: Registration
-      - item: Refreshments
-      - item: After Party
-    show-info: true
-  pre-party:
-    visibility: true
-    event:
-      - body: >-
-          <h3>Pre-conf meetup – 2<sup>rd</sup> Nov</h3>
-
-
-          In town the night before? Come to [The Fountainhead](https://www.google.co.uk/maps/dir//the+fountain+head+pub+brighton/@32.3849821,-29.6384353,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4875859fe2eb77db:0x5bdeb264727a570a!2m2!1d-0.1372304!2d50.8254927?hl=en) from 7pm to 9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/) in a UX Brighton T-shirt.
-      - body: >-
-          <h3>Pre-event networking & coffee – 3<sup>th</sup> Nov</h3>
-
-
-          If you’re coming down early to the conference, [Meanwhile Cafe](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en)[](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
-workshop:
-  visibility: false
-  details:
-    workshop-date: 2019-10-31T00:00:00.000Z
-    workshop-time: 2022-06-30T09:30:00.000Z
-    title: Make Your First Voice Interface
-    url: /Voice-UI-workshop
-    lede: We’re all competent in person-to-person conversation, designing a good
-      conversation is a new challenge for most organisations.
-    button: Tickets and info
-    summary:
-      title: Are you ready for Voice UI?
-      body: >-
-        Voice UI is growing fast and provides an opportunity to create better
-        products in new contexts. Learn to use VUIs to make interaction simple,
-        pleasurable, accessible and reduce cognitive load.
-
-
-        In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.
-      cta: Learn more about the Voice UI Workshop
-    back-image: /images/voice-ui-workshop.jpeg
-  section-title: Workshop
-conference-year: "2023"
 title: " UX Brighton 2023: Creativity & Innovation"
+description: Join us for our annual one-day conference!
+fullurl: https://uxbri.org/2023
+social-image: ""
+upcoming: true
+event-promo-top-of-page: true
 hero:
   hero-state: pre
   global:
@@ -162,331 +100,49 @@ overview:
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
   overview-state: pre
-speakers:
-  visibility: true
-  section-title: Talks
-  section-banner: /images/header2.jpg
-  speaker-info:
-    show-times: true
-    show-videos: false
-    show-slides: false
-    speaker-list:
-      - talk-info:
-          talk-time: 10:00 am
-          talk-title: What is Creativity?
-          talk-summary: >-
-            In the realm of design, creativity remains an elusive and often
-            misunderstood concept. How do we define creativity, and what makes
-            it so integral to the world of design and beyond? Drawing from her
-            background in philosophy, psychology, and the intersection of art
-            and AI, Alice Helliwell delves into the concept of creativity,
-            exploring its various facets and its essential role in human
-            thinking and making.
-
-
-            In this stimulating talk, Alice will unravel the philosophical underpinnings of creativity, exploring definitions that go beyond artistic endeavors. Through an analytical lens, she will navigate the audience through intriguing questions surrounding creativity, such as its value, its relationship with innovation and its potential to inspire change.
-
-
-            Alice's talk promises to be a thought-provoking exploration of what creativity truly means and how it can be harnessed to enhance our understanding and practice of design.
-        name: Alice Helliwell
-        thumbnail: /images/alice-helliwell-1-.png
-        anchor: Alice-Helliwell
-        speaker-bio:
-          bio-title: About Alice
-          bio-summary: >-
-            Alice Helliwell is Assistant Professor of Philosophy at Northeastern
-            University. Alice's research is focussed on computational creativity
-            and AI art. Her work examines questions such as 'can AI be
-            creative?', 'can AI make art, and if so, can it make *good* art?'
-            and 'are there any unique aesthetic qualities of AI images?'. Alice
-            is also currently involved in projects examining how ethics
-            education can be integrated into computer science curricula, and
-            exploring the relevance of Wittgesteinian philosophy for AI.
-
-
-            Alice completed her undergraduate degree at the University of Edinburgh in philosophy and psychology. After a stint working as a workplace design consultant, she went on to complete an MA and PhD at the University of Kent in History and Philosophy of Art. She began working at NU London in 2021.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/alicechelliwell/
-      - talk-info:
-          talk-time: 10:35 am
-          talk-title: "You’re doing it wrong: a celebration of ‘worst’ practices"
-          talk-summary: >-
-            I’ve spent my career in data visualisation working in ways that are
-            considered ‘wrong’ or not in line with ‘best’ practices. But by
-            adhering to best practices, could we be missing out on the \*best\*
-            parts of our fields through these inherent limitations? What
-            creative approaches can you discover when you explicitly set out to
-            do the opposite of what you are ‘supposed’ to do?
-
-
-            Using examples from my creative practice, this talk is a celebration of what there is to gain when we are wilfully, perversely, and joyously ‘wrong’ in how we as designers work with our fields’ respective design processes.
-        name: Stefanie Posavec
-        thumbnail: /images/stefanie-posavec-600x600.png
-        anchor: Stefanie-Posavec
-        speaker-bio:
-          bio-summary: >-
-            [Stefanie Posavec](http://www.stefanieposavec.com/) is a designer,
-            artist, and author focused on creating playful, accessible,
-            human-scaled approaches to communicating with data.
-
-
-            Her work has been exhibited at major galleries including the V&A, the Design Museum (Designs of the Year 2016), Somerset House, the Wellcome Collection, Bletchley Park (all UK), the Centre Pompidou (Paris), and MoMA (New York), where her work is also in the permanent collection. Recently she undertook the book design and art direction of chart creation for the activist Greta Thunberg’s much-lauded The Climate Book.
-
-
-            Her latest illustrated book ([I am a book. I am a portal to the universe.](https://www.iamabook.online/), co-authored with Miriam Quick) has received multiple accolades, including winning the UK Royal Society’s Young People’s Book Prize 2021. She has also co-authored two books that emphasize a handmade, personal approach to data: Dear Data and the journal Observe, Collect, Draw!
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/stefanieposavec/
-          bio-title: About Stefanie
-      - talk-info:
-          talk-time: 11:40 am
-          talk-title: "Enabling Creativity: Specific ideas to help your team flourish"
-          talk-summary: >-
-            In the swiftly changing dynamics of today's world, creativity and
-            innovation can be mere jargon— but they serve as the pulsing heart
-            of advancement and expansion. So, what depth lies behind these
-            words, and how can companies adeptly channel their essence? \
-
-            \
-
-            Join Mark as he delves deep into the art of cultivating creativity and innovation in the workplace. Dive into actionable insights on weaving these elements into your organization's fabric. Through a deep understanding of proven strategies, the identification of common pitfalls, and the unveiling of routes to authentic creativity, Mark will harness lessons from past endeavours — both triumphs and setbacks — to present a holistic roadmap to fostering a truly innovative ecosystem.\
-
-            \
-
-            Such an environment doesn't just boost innovative potential but also unfolds unexpected, rewarding outcomes. It may pave the way to harnessing the unforeseen, allowing us to discover and develop revolutionary products and services that benefit society at large.
-        name: " Mark Edgington"
-        thumbnail: /images/mark-edgington.jpg
-        anchor: " Mark-Edgington"
-        speaker-bio:
-          bio-title: About Mark
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/markedgington/
-          bio-summary: >-
-            Mark has over 25 years of experience in UX and Development. He has
-            founded several startups and worked in large agencies where he has
-            architected solutions serving millions. 
-
-            Mark is a seasoned speaker, judge and the founder and principal consultant of Incendiary Blue, where he creates elegant solutions to the right problems.
-
-
-            His works span GSK, Wyeth, Vodafone, Orange, Deutsche bank, HSBC, DeBeers, Disney, Saint Gobain, Mazda, Mercedes, Airmiles, Philip Morris, Thomas Cook, Condor, O’Melveny, Orrick, Slaughter and May, Pfizer, Sky and EY and many others.
-
-
-            Mark holds a 1st class degree in Computer Science and Artificial Intelligence and an MSC in Human-Computer Interaction (UX). He has been published online, spoken at multiple conferences and judges UX awards yearly.
-
-
-            He is very passionate about working with schools, running digital days and acting as an Enterprise Careers adviser for the Mayor of London.
-      - talk-info:
-          talk-time: 12:15 pm
-          talk-title: "Exploring Innovation: A Case Study from The Guardian's Product
-            Design Team"
-          talk-summary: For most of its 200-year history, the Guardian existed only in
-            print but today millions of people across the world choose the
-            digital experience of our journalism. As behaviours change and
-            technology advances, the role that Product Design plays is more
-            important than ever. Tricky will talk about his leadership of the
-            Product Design team and how it differs from his previous work,
-            leading teams within creative agencies. He will provide a rare,
-            behind-the-scenes look at his team’s approach and bring this to life
-            by sharing a new product that hasn't even been launched yet.
-        name: " Tricky Bassett"
-        thumbnail: /images/tricky.png
-        anchor: Tricky-Bassett
-        speaker-bio:
-          bio-summary: Tricky is the Director of Product Design at The Guardian. He has
-            been designing interactions since the 1990s. After freelancing with
-            design agencies in London and New York he founded his first design
-            studio, Tricky Business, and enjoyed life designing user-centred
-            experiences. More recently, Tricky worked as the Creative Director
-            at Magnetic, where he helped organisations all over the world over
-            use design thinking to innovate at pace. Some clients he is most
-            proud to have worked with include Microsoft, PepsiCo, Mars, HSBC,
-            Sky and the BBC. Tricky is a keen cyclist and photographer and a
-            passionate advocate for mental well-being both at home and in his
-            work.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/richardtrickybassett/
-          bio-title: About Tricky
-      - talk-info:
-          talk-time: 14:20 pm
-          talk-title: Unleash your inner innovator
-          talk-summary: >-
-            Design is about creating change. As designers, we offer the most
-            value when we’re shaping problems to tackle and not just shipping
-            features. However, in many organisations, it is easy for designers
-            to get boxed into a pure delivery role merely adding polish at the
-            end of the process. 
-
-
-            Innovation is a mindset and a set of skills that with a little effort can be developed. So stop waiting to be struck by that eureka moment. Stop waiting to be asked to head up an innovation project. Instead, take the initiative and introduce design-led innovation techniques to your workplace and your work practice.
-
-
-            In this talk, Chris will share some practical strategies for designers to develop their inner innovator. With a focus on looking at what’s in your gift to change, starting small but thinking big, and embracing constraints. He’ll help you to kickstart a move in your organisation to use design to identify, investigate and incubate innovative ideas.
-        name: Chris How
-        thumbnail: /images/chris-how.jpeg
-        anchor: Chris-How
-        speaker-bio:
-          bio-title: About Chris
-          bio-summary: >-
-            Chris is the Head of Experience Design at Clearleft, an
-            award-winning design transformation agency based in Brighton. He
-            helps clients create meaningful audience-centred digital products
-            and services through design leadership, strategic thinking, and
-            robust research.
-
-
-            Chris is passionate about using design to improve people’s lives and transform organisations for the better. You can read his thoughts on creating standout digital products and services on the [Clearleft website](http://clearleft.com/thinking).
-
-
-            Chris relishes the chance to learn from and share with the digital design community. He has spoken at conferences across Europe and the USA and is one of the co-organisers of the popular annual un-conference UX Camp Brighton.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/chrishow/
-            - profile-type: website
-              profile-url: https://chrishow101.medium.com/
-      - talk-info:
-          talk-time: 14:55 pm
-          talk-summary: >-
-            Large organisations were never designed for successful service
-            delivery. Rooted in age-old structures built around internal
-            functions, embracing a service led approach often goes against every
-            fibre. 
-
-
-            This talk is about what we can do to help our organisations deliver services that really work. Forget about creating separate innovation hubs or creative teams, this needs a radical change to how everyone designs, delivers, collaborates and decides. 
-
-
-            And it starts by seeing things differently: our services, how they perform, and the value in improving them. This talk has practical examples and ideas that you can share and use in your organisations this week.
-          talk-title: "From silos to services: innovation lessons from service design"
-        name: Kate Tarling
-        thumbnail: /images/kate-tarling.png
-        anchor: Kate-Tarling
-        speaker-bio:
-          bio-title: About Kate
-          bio-summary: >-
-            Kate helps large organisation executives and leadership teams
-            develop the conditions and practices for everyone to deliver better
-            services by default.
-
-
-            She does this through consulting and training, and is an advisor to boards, executives and teams. She previously held senior service leadership roles in government as well as the private sector. 
-
-
-            Kate is the author of The Service Organization and has spoken on service organisations as guest lecturer at Harvard University, University College London and the University of Toronto on executive education, MBA and MPA programmes, and is a regular speaker at global institutions and national governments.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/kate-tarling-6b43b19/
-      - talk-info:
-          talk-time: 15:55 pm
-          talk-title: Sneaking agility back into Agile
-          talk-summary: >-
-            Agile. It's everywhere. And it's become the dominant orthodoxy under
-            which many designers are struggling.\
-
-            \
-
-            Why is that? Why do Agile and design often seem to mix like tuna and custard? And why does a methodology that's supposed to speed up innovation actually slow it down?\
-
-            \
-
-            Directly attacking Agile doesn't help. Tom will share some ways he's made this very mistake. But there is hope! He'll also share some tried and tested Trojan Horses that you can use right away to sneak agility back into Agile, opening the gates to innovation and creativity.
-        name: "  Tom Kerwin"
-        thumbnail: /images/tomkerwin.png
-        anchor: Tom-Kerwin
-        speaker-bio:
-          bio-title: About Tom
-          bio-summary: >-
-            Tom has 25 years of experience as a leader in design, research and
-            product. He's co-founded two successful startups and worked both
-            agency-side and in-house, coaching cross-functional teams to
-            innovate.\
-
-            \
-
-            Since running his first usability test in 1999, Tom has been obsessed with adaptive sense-making: how do we continuously make sense of the world so we can act more effectively in it?\
-
-            \
-
-            He is the author of Innovation Tactics, the deck of cards from Pip Decks that's packed with pragmatic methods for making things people want. He's also the creator of Pivot Triggers, a simple but powerful idea that's helped hundreds of teams become more adaptive by doing discovery and delivery at the same time.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/tomdkerwin/
-            - profile-type: website
-              profile-url: https://tomkerwin.com/
-      - talk-info:
-          talk-time: 16:30 pm
-          talk-title: The critical importance of supporting designer and developer
-            creativity
-          talk-summary: When we think about UX as a discipline, what often first comes to
-            mind are everyday consumer experiences from websites to games, or
-            perhaps enterprise and productivity tools. In recent years however,
-            Elizabeth has focused instead on UX for *designers and
-            developers* and how to enhance and support their creativity. Based
-            in studies of designer and developer experiences, Elizabeth’s team
-            have been improving documentation, working on task accomplishment
-            and smoothing workflows, focusing on better communication and
-            collaboration, and addressing tech and design debt management and
-            team productivity.In this talk, Elizabeth will discuss case studies,
-            and share why supporting designer and developer creative tools leads
-            to better and more inclusive user experiences for everyone.
-        name: Elizabeth Churchill
-        thumbnail: /images/elizabeth-churchill-600x600.jpg
-        anchor: Elizabeth-Churchill
-        speaker-bio:
-          bio-title: About Elizabeth
-          bio-summary: >-
-            Dr Elizabeth Churchill is a Senior Director of UX at Google.
-            Elizabeth has built UX and Research teams at Google, eBay, Yahoo,
-            PARC, and FujiXerox. She Co-Chairs Google's UX Leadership Council
-            (UXLC), and was a co-founder of Google's UXR Steering Committee
-            which she co-chaired for 2 years before joining the UXLC.
-
-
-            Elizabeth holds a PhD from the University of Cambridge and honorary doctorates from the University of Sussex and the University of Stockholm. She is a member of the Association for Computer Machinery’s (ACM) CHI Academy, is an ACM Fellow, Distinguished Scientist, and an ACM Distinguished Speaker. She served as the ACM’s Executive Vice President for 2 years, from 2018-2020, and was ACM’s Secretary Treasurer from 2016-2018.  Elizabeth has published over 200 articles in peer reviewed journals, in conferences, and in magazines. She has also co-edited 5 books on various topics and has co-authored 2 books ([Foundations for Designing User Centered Systems](https://link.springer.com/book/10.1007/978-1-4471-5134-0), and [Designing with Data](https://www.oreilly.com/library/view/designing-with-data/9781449334925/)). She has over 50 patents already granted or pending. 
-
-
-            Elizabeth is a visiting professor at Imperial College's Dyson School of Design Engineering in London and is an advisory board member for the Pardee RAND Graduate School in Santa Monica, California and also for the Flickr Foundation ([flickr.org](http://flickr.org/)). She recently took up a position as Co-Editor in Chief of ACM's Interactions magazine. 
-
-
-            In 2016, she received a Citris-Banatao Institute Award Athena Award for Women in Technology for her Executive Leadership. She has been named one of the top women leaders in UX over the last several years. In 2023, she received ACM SIGCHI’s Lifetime Service Award.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/elizabethfchurchill/
-  registration:
-    thumbnail: /images/registration.jpg
-    time: 09:00 am
-    summary: >-
-      Doors will open at 9am for registration. Name badges will be arranged
-      alphabetically by first name. Complimentary pastries and refreshments will
-      be available.
-
-
-      Use the [Dome entrance](https://www.google.com/maps/place/Brighton+Dome/@50.8236893,-0.1380335,169m/data=!3m1!1e3!4m5!3m4!1s0x4875850a94b987c3:0x204845bd08377bb3!8m2!3d50.8237117!4d-0.1379561) on Church Street. It’s approx [10 mins walk](https://goo.gl/maps/cquBSxHuJbbg54bt6) from the train station.
-
-
-      * Please note that The Dome may conduct bag searches.
-
-      * Please be seated by 9.50am so you don’t miss anything.
+attendee-info:
+  travel-accom:
     visibility: true
-    anchor: Registration
-    title: Registration
-  after-party:
+    title: Information for Attendees
+    body: >-
+      The conference is being held in the beautiful and historic [Brighton Dome
+      Concert Hall](https://brightondome.org/your_visit/venues/concert_hall/):
+      just [10 minutes from Brighton
+      Station](https://www.google.co.uk/maps/dir/Brighton,+Queens+Rd,+Brighton+BN1+3XP/Brighton+Dome,+Church+St,+Brighton+BN1+1UE/@50.8262758,-0.144999,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x487585743a2f976d:0x59436d7ac9c32976!2m2!1d-0.1410151!2d50.8288519!1m5!1m1!1s0x4875850a94b987c3:0x204845bd08377bb3!2m2!1d-0.1380842!2d50.8236999!3e2?hl=en),
+      3 minutes from the Lanes, 5 minutes from the beach and a whole heap of
+      great restaurants and hotels. Registration starts from 9am with the first
+      speaker on at 10am, we’ll email you to let you know when the talk times
+      are finalised.
+
+
+      Before the conference why not [join the UX Brighton Slack](https://slofile.com/slack/uxbri) and get chatting with other UXers. We’ve also got a rather nice [\#jobs](https://uxbri.slack.com/messages/jobs).
+
+
+      See our **[Attendee information guide](/2023/info)** for everything you need to get the most out of your visit to UX Brighton, including:
+    info:
+      - item: Travel
+      - item: Accommodation
+      - item: Pre-conference meet-ups
+      - item: Accessibility
+      - item: Wifi and charging
+      - item: Cloakrooms
+      - item: Registration
+      - item: Refreshments
+      - item: After Party
+    show-info: true
+  pre-party:
     visibility: true
-    time: 17:20 pm
-    thumbnail: /images/party1.jpg
-    title: After Party
-    anchor: After-Party
-    summary: >-
-      Join us for after conference drinks in the Foyer Bar (at the venue) until
-      8pm. You will receive a drinks voucher at registration. Your voucher is
-      valid for a selection of alcoholic and non-alcoholic drinks.
+    event:
+      - body: >-
+          <h3>Pre-conf meetup – 2<sup>rd</sup> Nov</h3>
 
 
-      Please keep your name badge with you if you want to leave and come back again.
-  full: true
+          In town the night before? Come to [The Fountainhead](https://www.google.co.uk/maps/dir//the+fountain+head+pub+brighton/@32.3849821,-29.6384353,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4875859fe2eb77db:0x5bdeb264727a570a!2m2!1d-0.1372304!2d50.8254927?hl=en) from 7pm to 9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/) in a UX Brighton T-shirt.
+      - body: >-
+          <h3>Pre-event networking & coffee – 3<sup>th</sup> Nov</h3>
+
+
+          If you’re coming down early to the conference, [Meanwhile Cafe](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en)[](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
 sponsors:
   visibility: true
   section-title: Sponsors
@@ -621,11 +277,389 @@ sponsors:
           - link-type: instagram
             profile-url: https://www.instagram.com/prodpad/?hl=en
     show-opportunity: false
+workshop:
+  visibility: false
+  details:
+    workshop-date: 2019-10-31T00:00:00.000Z
+    workshop-time: 2022-06-30T09:30:00.000Z
+    title: Make Your First Voice Interface
+    url: /Voice-UI-workshop
+    lede: We’re all competent in person-to-person conversation, designing a good
+      conversation is a new challenge for most organisations.
+    button: Tickets and info
+    summary:
+      title: Are you ready for Voice UI?
+      body: >-
+        Voice UI is growing fast and provides an opportunity to create better
+        products in new contexts. Learn to use VUIs to make interaction simple,
+        pleasurable, accessible and reduce cognitive load.
+
+
+        In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.
+      cta: Learn more about the Voice UI Workshop
+    back-image: /images/voice-ui-workshop.jpeg
+  section-title: Workshop
+conference-year: "2023"
+speakers:
+  visibility: true
+  section-title: Talks
+  section-banner: /images/header2.jpg
+  speaker-info:
+    show-times: true
+    show-videos: false
+    show-slides: false
+    speaker-list:
+      - talk-info:
+          talk-time: 10:00 am
+          talk-title: What is Creativity?
+          talk-summary: >-
+            In the realm of design, creativity remains an elusive and often
+            misunderstood concept. How do we define creativity, and what makes
+            it so integral to the world of design and beyond? Drawing from her
+            background in philosophy, psychology, and the intersection of art
+            and AI, Alice Helliwell delves into the concept of creativity,
+            exploring its various facets and its essential role in human
+            thinking and making.
+
+
+            In this stimulating talk, Alice will unravel the philosophical underpinnings of creativity, exploring definitions that go beyond artistic endeavors. Through an analytical lens, she will navigate the audience through intriguing questions surrounding creativity, such as its value, its relationship with innovation and its potential to inspire change.
+
+
+            Alice's talk promises to be a thought-provoking exploration of what creativity truly means and how it can be harnessed to enhance our understanding and practice of design.
+        name: Alice Helliwell
+        thumbnail: /images/alice-helliwell-1-.png
+        anchor: Alice-Helliwell
+        speaker-bio:
+          bio-title: About Alice
+          bio-summary: >-
+            Alice Helliwell is Assistant Professor of Philosophy at Northeastern
+            University. Alice's research is focussed on computational creativity
+            and AI art. Her work examines questions such as 'can AI be
+            creative?', 'can AI make art, and if so, can it make *good* art?'
+            and 'are there any unique aesthetic qualities of AI images?'. Alice
+            is also currently involved in projects examining how ethics
+            education can be integrated into computer science curricula, and
+            exploring the relevance of Wittgesteinian philosophy for AI.
+
+
+            Alice completed her undergraduate degree at the University of Edinburgh in philosophy and psychology. After a stint working as a workplace design consultant, she went on to complete an MA and PhD at the University of Kent in History and Philosophy of Art. She began working at NU London in 2021.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/alicechelliwell/
+        slot-type: speaker
+        slot-time: 10:00 am
+      - talk-info:
+          talk-time: 10:35 am
+          talk-title: "You’re doing it wrong: a celebration of ‘worst’ practices"
+          talk-summary: >-
+            I’ve spent my career in data visualisation working in ways that are
+            considered ‘wrong’ or not in line with ‘best’ practices. But by
+            adhering to best practices, could we be missing out on the \*best\*
+            parts of our fields through these inherent limitations? What
+            creative approaches can you discover when you explicitly set out to
+            do the opposite of what you are ‘supposed’ to do?
+
+
+            Using examples from my creative practice, this talk is a celebration of what there is to gain when we are wilfully, perversely, and joyously ‘wrong’ in how we as designers work with our fields’ respective design processes.
+        name: Stefanie Posavec
+        thumbnail: /images/stefanie-posavec-600x600.png
+        anchor: Stefanie-Posavec
+        speaker-bio:
+          bio-summary: >-
+            [Stefanie Posavec](http://www.stefanieposavec.com/) is a designer,
+            artist, and author focused on creating playful, accessible,
+            human-scaled approaches to communicating with data.
+
+
+            Her work has been exhibited at major galleries including the V&A, the Design Museum (Designs of the Year 2016), Somerset House, the Wellcome Collection, Bletchley Park (all UK), the Centre Pompidou (Paris), and MoMA (New York), where her work is also in the permanent collection. Recently she undertook the book design and art direction of chart creation for the activist Greta Thunberg’s much-lauded The Climate Book.
+
+
+            Her latest illustrated book ([I am a book. I am a portal to the universe.](https://www.iamabook.online/), co-authored with Miriam Quick) has received multiple accolades, including winning the UK Royal Society’s Young People’s Book Prize 2021. She has also co-authored two books that emphasize a handmade, personal approach to data: Dear Data and the journal Observe, Collect, Draw!
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/stefanieposavec/
+          bio-title: About Stefanie
+        slot-type: speaker
+        slot-time: 10:35 am
+      - slot-type: break
+        talk-info:
+          talk-time: 11:10 am
+        anchor: ""
+        name: Break
+        slot-time: 11:10 am
+      - talk-info:
+          talk-time: 11:40 am
+          talk-title: "Enabling Creativity: Specific ideas to help your team flourish"
+          talk-summary: >-
+            In the swiftly changing dynamics of today's world, creativity and
+            innovation can be mere jargon— but they serve as the pulsing heart
+            of advancement and expansion. So, what depth lies behind these
+            words, and how can companies adeptly channel their essence? \
+
+            \
+
+            Join Mark as he delves deep into the art of cultivating creativity and innovation in the workplace. Dive into actionable insights on weaving these elements into your organization's fabric. Through a deep understanding of proven strategies, the identification of common pitfalls, and the unveiling of routes to authentic creativity, Mark will harness lessons from past endeavours — both triumphs and setbacks — to present a holistic roadmap to fostering a truly innovative ecosystem.\
+
+            \
+
+            Such an environment doesn't just boost innovative potential but also unfolds unexpected, rewarding outcomes. It may pave the way to harnessing the unforeseen, allowing us to discover and develop revolutionary products and services that benefit society at large.
+        name: " Mark Edgington"
+        thumbnail: /images/mark-edgington.jpg
+        anchor: " Mark-Edgington"
+        speaker-bio:
+          bio-title: About Mark
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/markedgington/
+          bio-summary: >-
+            Mark has over 25 years of experience in UX and Development. He has
+            founded several startups and worked in large agencies where he has
+            architected solutions serving millions. 
+
+            Mark is a seasoned speaker, judge and the founder and principal consultant of Incendiary Blue, where he creates elegant solutions to the right problems.
+
+
+            His works span GSK, Wyeth, Vodafone, Orange, Deutsche bank, HSBC, DeBeers, Disney, Saint Gobain, Mazda, Mercedes, Airmiles, Philip Morris, Thomas Cook, Condor, O’Melveny, Orrick, Slaughter and May, Pfizer, Sky and EY and many others.
+
+
+            Mark holds a 1st class degree in Computer Science and Artificial Intelligence and an MSC in Human-Computer Interaction (UX). He has been published online, spoken at multiple conferences and judges UX awards yearly.
+
+
+            He is very passionate about working with schools, running digital days and acting as an Enterprise Careers adviser for the Mayor of London.
+        slot-type: speaker
+        slot-time: 11:40 am
+      - talk-info:
+          talk-time: 12:15 pm
+          talk-title: "Exploring Innovation: A Case Study from The Guardian's Product
+            Design Team"
+          talk-summary: For most of its 200-year history, the Guardian existed only in
+            print but today millions of people across the world choose the
+            digital experience of our journalism. As behaviours change and
+            technology advances, the role that Product Design plays is more
+            important than ever. Tricky will talk about his leadership of the
+            Product Design team and how it differs from his previous work,
+            leading teams within creative agencies. He will provide a rare,
+            behind-the-scenes look at his team’s approach and bring this to life
+            by sharing a new product that hasn't even been launched yet.
+        name: " Tricky Bassett"
+        thumbnail: /images/tricky.png
+        anchor: Tricky-Bassett
+        speaker-bio:
+          bio-summary: Tricky is the Director of Product Design at The Guardian. He has
+            been designing interactions since the 1990s. After freelancing with
+            design agencies in London and New York he founded his first design
+            studio, Tricky Business, and enjoyed life designing user-centred
+            experiences. More recently, Tricky worked as the Creative Director
+            at Magnetic, where he helped organisations all over the world over
+            use design thinking to innovate at pace. Some clients he is most
+            proud to have worked with include Microsoft, PepsiCo, Mars, HSBC,
+            Sky and the BBC. Tricky is a keen cyclist and photographer and a
+            passionate advocate for mental well-being both at home and in his
+            work.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/richardtrickybassett/
+          bio-title: About Tricky
+        slot-type: speaker
+        slot-time: 12:15 pm
+      - slot-type: break
+        talk-info:
+          talk-time: 12:50 pm
+        name: Lunch
+        anchor: ""
+        slot-time: 12:50 pm
+      - talk-info:
+          talk-time: 14:20 pm
+          talk-title: Unleash your inner innovator
+          talk-summary: >-
+            Design is about creating change. As designers, we offer the most
+            value when we’re shaping problems to tackle and not just shipping
+            features. However, in many organisations, it is easy for designers
+            to get boxed into a pure delivery role merely adding polish at the
+            end of the process. 
+
+
+            Innovation is a mindset and a set of skills that with a little effort can be developed. So stop waiting to be struck by that eureka moment. Stop waiting to be asked to head up an innovation project. Instead, take the initiative and introduce design-led innovation techniques to your workplace and your work practice.
+
+
+            In this talk, Chris will share some practical strategies for designers to develop their inner innovator. With a focus on looking at what’s in your gift to change, starting small but thinking big, and embracing constraints. He’ll help you to kickstart a move in your organisation to use design to identify, investigate and incubate innovative ideas.
+        name: Chris How
+        thumbnail: /images/chris-how.jpeg
+        anchor: Chris-How
+        speaker-bio:
+          bio-title: About Chris
+          bio-summary: >-
+            Chris is the Head of Experience Design at Clearleft, an
+            award-winning design transformation agency based in Brighton. He
+            helps clients create meaningful audience-centred digital products
+            and services through design leadership, strategic thinking, and
+            robust research.
+
+
+            Chris is passionate about using design to improve people’s lives and transform organisations for the better. You can read his thoughts on creating standout digital products and services on the [Clearleft website](http://clearleft.com/thinking).
+
+
+            Chris relishes the chance to learn from and share with the digital design community. He has spoken at conferences across Europe and the USA and is one of the co-organisers of the popular annual un-conference UX Camp Brighton.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/chrishow/
+            - profile-type: website
+              profile-url: https://chrishow101.medium.com/
+        slot-type: speaker
+        slot-time: 14:20 pm
+      - talk-info:
+          talk-time: 14:55 pm
+          talk-summary: >-
+            Large organisations were never designed for successful service
+            delivery. Rooted in age-old structures built around internal
+            functions, embracing a service led approach often goes against every
+            fibre. 
+
+
+            This talk is about what we can do to help our organisations deliver services that really work. Forget about creating separate innovation hubs or creative teams, this needs a radical change to how everyone designs, delivers, collaborates and decides. 
+
+
+            And it starts by seeing things differently: our services, how they perform, and the value in improving them. This talk has practical examples and ideas that you can share and use in your organisations this week.
+          talk-title: "From silos to services: innovation lessons from service design"
+        name: Kate Tarling
+        thumbnail: /images/kate-tarling.png
+        anchor: Kate-Tarling
+        speaker-bio:
+          bio-title: About Kate
+          bio-summary: >-
+            Kate helps large organisation executives and leadership teams
+            develop the conditions and practices for everyone to deliver better
+            services by default.
+
+
+            She does this through consulting and training, and is an advisor to boards, executives and teams. She previously held senior service leadership roles in government as well as the private sector. 
+
+
+            Kate is the author of The Service Organization and has spoken on service organisations as guest lecturer at Harvard University, University College London and the University of Toronto on executive education, MBA and MPA programmes, and is a regular speaker at global institutions and national governments.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/kate-tarling-6b43b19/
+        slot-type: speaker
+        slot-time: 14:55 pm
+      - slot-type: break
+        talk-info:
+          talk-time: 15:30 pm
+        name: Break
+        anchor: ""
+        slot-time: 15:30 pm
+      - talk-info:
+          talk-time: 15:55 pm
+          talk-title: Sneaking agility back into Agile
+          talk-summary: >-
+            Agile. It's everywhere. And it's become the dominant orthodoxy under
+            which many designers are struggling.\
+
+            \
+
+            Why is that? Why do Agile and design often seem to mix like tuna and custard? And why does a methodology that's supposed to speed up innovation actually slow it down?\
+
+            \
+
+            Directly attacking Agile doesn't help. Tom will share some ways he's made this very mistake. But there is hope! He'll also share some tried and tested Trojan Horses that you can use right away to sneak agility back into Agile, opening the gates to innovation and creativity.
+        name: "  Tom Kerwin"
+        thumbnail: /images/tomkerwin.png
+        anchor: Tom-Kerwin
+        speaker-bio:
+          bio-title: About Tom
+          bio-summary: >-
+            Tom has 25 years of experience as a leader in design, research and
+            product. He's co-founded two successful startups and worked both
+            agency-side and in-house, coaching cross-functional teams to
+            innovate.\
+
+            \
+
+            Since running his first usability test in 1999, Tom has been obsessed with adaptive sense-making: how do we continuously make sense of the world so we can act more effectively in it?\
+
+            \
+
+            He is the author of Innovation Tactics, the deck of cards from Pip Decks that's packed with pragmatic methods for making things people want. He's also the creator of Pivot Triggers, a simple but powerful idea that's helped hundreds of teams become more adaptive by doing discovery and delivery at the same time.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/tomdkerwin/
+            - profile-type: website
+              profile-url: https://tomkerwin.com/
+        slot-type: speaker
+        slot-time: 15:55 pm
+      - talk-info:
+          talk-time: 16:30 pm
+          talk-title: The critical importance of supporting designer and developer
+            creativity
+          talk-summary: When we think about UX as a discipline, what often first comes to
+            mind are everyday consumer experiences from websites to games, or
+            perhaps enterprise and productivity tools. In recent years however,
+            Elizabeth has focused instead on UX for *designers and
+            developers* and how to enhance and support their creativity. Based
+            in studies of designer and developer experiences, Elizabeth’s team
+            have been improving documentation, working on task accomplishment
+            and smoothing workflows, focusing on better communication and
+            collaboration, and addressing tech and design debt management and
+            team productivity.In this talk, Elizabeth will discuss case studies,
+            and share why supporting designer and developer creative tools leads
+            to better and more inclusive user experiences for everyone.
+        name: Elizabeth Churchill
+        thumbnail: /images/elizabeth-churchill-600x600.jpg
+        anchor: Elizabeth-Churchill
+        speaker-bio:
+          bio-title: About Elizabeth
+          bio-summary: >-
+            Dr Elizabeth Churchill is a Senior Director of UX at Google.
+            Elizabeth has built UX and Research teams at Google, eBay, Yahoo,
+            PARC, and FujiXerox. She Co-Chairs Google's UX Leadership Council
+            (UXLC), and was a co-founder of Google's UXR Steering Committee
+            which she co-chaired for 2 years before joining the UXLC.
+
+
+            Elizabeth holds a PhD from the University of Cambridge and honorary doctorates from the University of Sussex and the University of Stockholm. She is a member of the Association for Computer Machinery’s (ACM) CHI Academy, is an ACM Fellow, Distinguished Scientist, and an ACM Distinguished Speaker. She served as the ACM’s Executive Vice President for 2 years, from 2018-2020, and was ACM’s Secretary Treasurer from 2016-2018.  Elizabeth has published over 200 articles in peer reviewed journals, in conferences, and in magazines. She has also co-edited 5 books on various topics and has co-authored 2 books ([Foundations for Designing User Centered Systems](https://link.springer.com/book/10.1007/978-1-4471-5134-0), and [Designing with Data](https://www.oreilly.com/library/view/designing-with-data/9781449334925/)). She has over 50 patents already granted or pending. 
+
+
+            Elizabeth is a visiting professor at Imperial College's Dyson School of Design Engineering in London and is an advisory board member for the Pardee RAND Graduate School in Santa Monica, California and also for the Flickr Foundation ([flickr.org](http://flickr.org/)). She recently took up a position as Co-Editor in Chief of ACM's Interactions magazine. 
+
+
+            In 2016, she received a Citris-Banatao Institute Award Athena Award for Women in Technology for her Executive Leadership. She has been named one of the top women leaders in UX over the last several years. In 2023, she received ACM SIGCHI’s Lifetime Service Award.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/elizabethfchurchill/
+        slot-type: speaker
+        slot-time: 16:30 pm
+  registration:
+    thumbnail: /images/registration.jpg
+    time: 09:00 am
+    summary: >-
+      Doors will open at 9am for registration. Name badges will be arranged
+      alphabetically by first name. Complimentary pastries and refreshments will
+      be available.
+
+
+      Use the [Dome entrance](https://www.google.com/maps/place/Brighton+Dome/@50.8236893,-0.1380335,169m/data=!3m1!1e3!4m5!3m4!1s0x4875850a94b987c3:0x204845bd08377bb3!8m2!3d50.8237117!4d-0.1379561) on Church Street. It’s approx [10 mins walk](https://goo.gl/maps/cquBSxHuJbbg54bt6) from the train station.
+
+
+      * Please note that The Dome may conduct bag searches.
+
+      * Please be seated by 9.50am so you don’t miss anything.
+    visibility: true
+    anchor: Registration
+    title: Registration
+  after-party:
+    visibility: true
+    time: 17:20 pm
+    thumbnail: /images/party1.jpg
+    title: After Party
+    anchor: After-Party
+    summary: >-
+      Join us for after conference drinks in the Foyer Bar (at the venue) until
+      8pm. You will receive a drinks voucher at registration. Your voucher is
+      valid for a selection of alcoholic and non-alcoholic drinks.
+
+
+      Please keep your name badge with you if you want to leave and come back again.
+  full: true
 image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: Join us for our annual one-day conference!
-social-image: ""
-upcoming: true
-event-promo-top-of-page: true
 highlights:
   visibility: true
   title: Highlights from previous years

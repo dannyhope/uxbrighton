@@ -14,21 +14,27 @@
       <div class="clearfix gutter-top-under-m">
 
         <!-- Speaker grid section... -->
-        <div id="speaker-grid" class="clearfix gutters__container--xs pb1">
+        <div id="speaker-grid" class="gutters__container--xs pb1">
 
           <!-- Speaker-specific grid thumbnails... -->
-          {% for speaker in homepage.speakers.speaker-info.speaker-list %}
-            <figure class="u1of4 left gutters--xs mb1">
-              <a href="#{{ speaker.anchor }}" class="talk__image-link">
-                <img alt="{{ speaker.name }}." class="bg-grey-20" src="{{ speaker.thumbnail }}" width="310" height="310">
-                <figcaption class="talk__image-link__caption">
-                  <span class="talk__image-link__caption--1 block">
-                    {{ speaker.name }}
-                  </span>
-                </figcaption>
-              </a>
-            </figure>
-          {% endfor %}
+          <ul class="speaker-grid__list no-list clearfix">
+            {% for speaker in homepage.speakers.speaker-info.speaker-list %}
+              {% unless speaker.slot-type == 'break' %}
+                <li class="speaker-grid__list--item u1of4 left gutters--xs mb1">
+                  <figure>
+                    <a href="#{{ speaker.anchor }}" class="talk__image-link">
+                      <img alt="{{ speaker.name }}." class="bg-grey-20" src="{{ speaker.thumbnail }}" width="310" height="310">
+                      <figcaption class="talk__image-link__caption">
+                        <span class="talk__image-link__caption--1 block">
+                          {{ speaker.name }}
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </li>
+              {% endunless %}
+            {% endfor %}
+          </ul>
 
           {% if homepage.speakers.full == false %}
             <!-- Speaker placeholder avatar... -->
@@ -50,7 +56,7 @@
                   <img alt="{{ homepage.speakers.registration.title }}." class="talk__photo" src="{{ homepage.speakers.registration.thumbnail }}" width="310" height="310">
                 </div>
               </div>
-              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+              <div class="talk__text-wrapper u2of3-over-m right-over-m gutter-left">
                 <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
                     {% if homepage.speakers.speaker-info.show-times == true %}
@@ -63,14 +69,14 @@
                 <!-- Registration summary... -->
                 {{ homepage.speakers.registration.summary | markdownify }}
 
-                <div class="js-show-talk-details__show">Show talk and speaker details</div>
-                <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
               </div>
             </div>
           {% endif %}
 
-          <!-- Speaker-specific info (eg. talk times, subject, talk summary, bio etc.)... -->
+          <!-- Speaker-specific info (eg. talk times, subject, talk summary, bio - as well as break time slots)... -->
           {% for speaker in homepage.speakers.speaker-info.speaker-list %}
+            {% comment %} HTML to render if a `speaker` slot {% endcomment %}
+            {% if speaker.slot-type == 'speaker' %}
             <div class="talk row padding-top-row" id="{{ speaker.anchor }}">
               <div class="u1of3-over-m left-over-m gutter-right talk__photo-wrapper text-center-under-m">
                 <div class="circle overflow-hidden inline-block">
@@ -79,11 +85,11 @@
               </div>
 
               <!-- Speaker talk time, talk title, talk summary, name, video & slides and bio -->
-              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+              <div class="talk__text-wrapper u2of3-over-m right-over-m gutter-left">
                 <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
                     {% if homepage.speakers.speaker-info.show-times == true %}
-                      <span class="talk__time">{{ speaker.talk-info.talk-time | date: "%H:%M" }}</span>
+                      <span class="talk__time">{{ speaker.slot-time | date: "%H:%M" }}</span>
                     {% endif %}
                     <span>{{ speaker.talk-info.talk-title }} &ndash; {{ speaker.name }}</span>
                   </span>
@@ -143,6 +149,24 @@
                 <div class="js-show-talk-details__hide">Hide talk and speaker details</div>
               </div>
             </div>
+            {% comment %} HTML to render if a `break` slot {% endcomment %}
+            {% elsif speaker.slot-type == 'break' %}
+              {% unless homepage.speakers.speaker-info.show-times == false %}
+                <div class="talk talk--break row padding-top-row">
+                  <!-- Break time slot -->
+                  <div class="talk__text-wrapper u2of3-over-m right-over-m gutter-left">
+                    <h3 class="talk__heading text-center-under-m fs-h2">
+                      <span class="talk__speaker">
+                        {% if homepage.speakers.speaker-info.show-times == true %}
+                          <span class="talk__time">{{ speaker.slot-time | date: "%H:%M" }}</span>
+                        {% endif %}
+                        <span>{{ speaker.name }}</span>
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              {% endunless %}
+            {% endif %}
           {% endfor %}
 
           <!-- After party info.... -->
@@ -153,7 +177,7 @@
                   <img alt="{{ homepage.speakers.after-party.title }}." class="talk__photo" src="{{ homepage.speakers.after-party.thumbnail }}" width="310" height="310">
                 </div>
               </div>
-              <div class="talk__text-wrapper u2of3-over-m left-over-m gutter-left">
+              <div class="talk__text-wrapper u2of3-over-m right-over-m gutter-left">
                 <h3 class="talk__heading text-center-under-m fs-h2">
                   <span class="talk__speaker">
                     {% if homepage.speakers.speaker-info.show-times == true %}
@@ -166,8 +190,6 @@
                 <!-- After-party summary... -->
                 {{ homepage.speakers.after-party.summary | markdownify }}
 
-                <div class="js-show-talk-details__show">Show details</div>
-                <div class="js-show-talk-details__hide">Hide details</div>
               </div>
             </div>
           {% endif %}
