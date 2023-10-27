@@ -1,9 +1,14 @@
 ---
 layout: generic
 title: UX Jobs 2024
-permalink: /jobs/uxjobs2024
+permalink: /jobs/2024
 redirect_from:
   - uxjobs2024
+  - j24
+  - j2024
+  - jobs24
+  - jobs2024
+  - uxjobs
 seo: true
 ---
 <img src="/images/screenshot-2023-10-27-at-1.44.53-pm.png" alt="" class="image-align-right"/>
