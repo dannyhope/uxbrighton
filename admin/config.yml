@@ -903,7 +903,7 @@ collections:
                         required: false
           - label: "Speakers" # Speakers section
             name: "speakers"
-            summary: "Speakers section content - (eg. section title, speaker names, speaker talk times, talk slides & videos)."
+            summary: "Speakers section content - (eg. section title, speaker names, speaker & break times, talk slides & videos)."
             widget: "object"
             collapsed: true
             fields:
@@ -911,22 +911,32 @@ collections:
               - {label: "Speaker lineup is full?", name: "full", hint: "If speaker lineup is full. Choose whether true or false. Defaults to **false**.", widget: "boolean", default: false}
               - {label: "Section title", name: "section-title", hint: "Speakers section title.", widget: "string", required: false}
               - {label: "Section banner image", name: "section-banner", hint: "Speakers section banner image. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
-              - label: "Speaker & talk info."
+              - label: "Speakers, talks & break time info."
                 name: "speaker-info"
-                summary: "Each speaker's talk details and bio."
+                summary: "Speaker line-up info, talk titles & topics, talk & break times."
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Show talk times?", name: "show-times", hint: "Talk times. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
+                  - {label: "Show talk & break times?", name: "show-times", hint: "Talk times. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
                   - {label: "Show talk videos?", name: "show-videos", hint: "Talk videos. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
                   - {label: "Show talk slides?", name: "show-slides", hint: "Talk slides. Choose whether to show or hide. Defaults to **hide**.", widget: "boolean", default: false}
-                  - label: "List of speakers"
+                  - label: "Speaker & break slots"
                     name: "speaker-list"
                     summary: ""
                     widget: "list"
                     collapsed: true
                     fields:
-                      - {label: "Speaker name", name: "name", widget: "string", required: false}
+                      - label: "Speaker or break slot?"
+                        name: "slot-type"
+                        hint: "Choose whether this is a *Speaker* or *Break* session / slot. Defaults to **Speaker**."
+                        widget: "select"
+                        multiple: false
+                        default: "speaker"
+                        options:
+                          - {label: "Speaker", value: "speaker"}
+                          - {label: "Break", value: "break"}
+                      - {label: "Speaker or break name / label", name: "name", hint: "For example: **Winston Churchill**, **Break** or **Lunch**.", widget: "string", required: false}
+                      - {label: "Speaker or break time", name: "slot-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false, required: false}
                       - {label: "Speaker thumbnail", name: "thumbnail", hint: "Make sure the image you upload and use is **600x600** pixels. **NOTE:** Image file names not to begin with an underscore.", widget: "image", required: false}
                       - {label: "Speaker anchor tag", name: "anchor", hint: "This value sets the 'scroll-to' point to view this speaker's talk & bio information.", widget: "string", required: false}
                       - label: "Talk info."
@@ -935,7 +945,6 @@ collections:
                         widget: "object"
                         collapsed: true
                         fields:
-                          - {label: "Talk time", name: "talk-time", widget: "datetime", default: "", date_format: false, time_format: true, format: 'HH:mm a', picker_utc: false, required: false}
                           - {label: "Talk title", name: "talk-title", widget: "string", required: false}
                           - label: "Talk summary"
                             name: "talk-summary"
