@@ -16,16 +16,16 @@ Email address |\_\_\_\_\_\_\_\_\_\_\_\_\_\_|
 
 LinkedIn profile (optional) |\_\_\_\_\_\_\_\_\_\_\_\_\_\_|
 
-\---
-
 Also subscribe to:
 
-Additional newsletters to subscribe to
+\[ ] Job alerts
 
-* \[ ]Job alerts
-* \[ ]Conference & workshop news
-* \[ ]Evening event news
-* \[ ]Interesting links picked by the UX Brighton team
-* \[ ] Invite me to join UX Brighton’s Slack community
+\[ ] Conference & workshop news
+
+\[ ] Evening event news
+
+\[ ] Interesting links picked by the UX Brighton team
+
+\[ ] join UX Brighton’s Slack community
 
 \[Submit]
