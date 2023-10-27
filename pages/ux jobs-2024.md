@@ -29,6 +29,4 @@ Also subscribe to:
 
 \[ ] Interesting links picked by the UX Brighton team
 
-\[ ] join UX Brighton’s Slack community
-
 \[Subscribe]
