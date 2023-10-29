@@ -12,3 +12,8 @@ redirect_from:
   - uxjobs
 seo: true
 ---
+
+<!--
+  Content can be added here at some stage.
+  For now, this is a commented-out placeholder.
+-->
