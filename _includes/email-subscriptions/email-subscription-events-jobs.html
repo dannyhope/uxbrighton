@@ -11,9 +11,9 @@
     <div class="form-cta">
       <label for="email{{ id }}" class="visually-hidden">Email Address</label>
       <input type="email" id="email{{ id }}" name="Email address" class="form-control pa2" required>
-      <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0" data-email-subscribe="jobs-page">
+      <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0">
     </div>
-    {% comment %} This message may not be relevant for the 'jobs' page because the job alerts checkbox is automatically selected. Leaving in for now. {% endcomment %}
+    {% comment %} Message prompt if no checkboxes have been selected {% endcomment %}
     <div class="form-message--prompt" style="display: none;">
       <p>Please select at least one option to subscribe to.</p>
     </div>
