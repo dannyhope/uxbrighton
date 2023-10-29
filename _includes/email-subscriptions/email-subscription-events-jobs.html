@@ -1,7 +1,7 @@
 {% comment %} Custom form that posts responses to Google Sheets {% endcomment %}
 {% capture id %}-{{ "now" | date: "%s%S" }}{% endcapture %}
 <div class="email-subscription--events-jobs">
-  <p class="visually-hidden">Stay informed about developments regarding the UX Jobs 2024 event.</p>
+  <p class="visually-hidden">Stay informed about developments regarding the UX Jobs 2024 event.</p>
   <form method="post" autocomplete="off" name="google-sheet" id="form{{ id }}" class="flow">
     <div class="form-control visually-hidden">
       {% comment %} So we can capture where the email submission happened {% endcomment %}
@@ -21,7 +21,7 @@
     {% comment %} Additional lists to subscribe to {% endcomment %}
     <div class="form-list-add flow" style="display: none;">
       <fieldset>
-        <legend class="visually-hidden">Additional newsletters to subscribe to</legend>
+        <legend class="visually-hidden">Notifications and newsletters to subscribe to</legend>
         <div class="form-control mt3 mb3">
           <input type="checkbox" id="field_0{{ id }}" name="Company interested in exhibiting, advising etc." class="form-control">
           <label for="field_0{{ id }}">My company might be interested in exhibiting, advising or providing a speaker</label>
