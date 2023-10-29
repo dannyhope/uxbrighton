@@ -37,7 +37,7 @@
 </style>
 
 <div class="upcoming__container color-black bg-white rounded hidden-under-l">
-  <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Other upcoming Events</h2>
+  <h2 class="upcoming__container__heading fs-s track-loose uppercase regular">Other upcoming events</h2>
 
   {% for post in site.posts reversed limit:4 %}
     {% if post.upcoming == true and post.published == true %}
