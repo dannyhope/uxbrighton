@@ -1877,7 +1877,15 @@ collections:
     editor:
       preview: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "generic"} # The `layout` field is hidden in the GUI and needs to be changed here instead
+      - label: "Layout template"
+        name: "layout"
+        hint: "Defaults to **Generic page layout**. You can choose another available layout but make sure you know what you're doing and test it thoroughly."
+        widget: "select"
+        multiple: false
+        default: "generic"
+        options:
+          - {label: "Generic page layout", value: "generic"}
+          - {label: "Jobs 2024 Event layout", value: "events/event-page-jobs-2024"}
       - {label: "Title", name: "title", hint: "Primary title of the page. This also generates the page *slug*.", widget: "string"}
       - {label: "Pre-title", name: "pretitle", hint: "Text appearing just ***above*** the title.", widget: "string", required: false}
       - {label: "Sub-title", name: "subtitle", hint: "Text appearing just ***under*** the title.", widget: "string", required: false}

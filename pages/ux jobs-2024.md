@@ -1,7 +1,8 @@
 ---
-layout: generic
+layout: events/event-page-jobs-2024
 title: UX Jobs 2024
-permalink: /jobs/2024
+subtitle: Stay informed about developments regarding the UX Jobs 2024 event.
+permalink: jobs/2024
 redirect_from:
   - uxjobs2024
   - j24
@@ -11,20 +12,8 @@ redirect_from:
   - uxjobs
 seo: true
 ---
-<img src="/images/screenshot-2023-10-27-at-1.44.53-pm.png" alt="" class="image-align-right"/>
 
-Stay informed about developments regarding the UX Jobs 2024 event.
-
-Email address |\_\_\_\_\_\_\_\_\_\_\_\_\_\_|  \[Subscribe]
-
-\[ ] My company might be interested in exhibiting, advising or providing a speaker
-
-Also subscribe to:
-
-\[ ] Job alerts
-
-\[ ] Conference & workshop news
-
-\[ ] Evening event news
-
-\[ ] Interesting links picked by the UX Brighton team
+<!--
+  Content can be added here at some stage.
+  For now, this is a commented-out placeholder.
+-->
