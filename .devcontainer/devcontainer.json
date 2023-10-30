@@ -1,5 +1,5 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
+// README at: https://github.com/devcontainers/images/tree/main/src/ruby
 {
   "name": "UX Brighton - Devcontainer",
   "image": "mcr.microsoft.com/devcontainers/ruby",
