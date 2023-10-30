@@ -9,7 +9,6 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "Shopify.ruby-lsp",
         "sissel.shopify-liquid"
     	]
     }
