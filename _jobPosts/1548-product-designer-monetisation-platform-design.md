@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Product Strategist",
-				"Product Analyst"
+				"Product Design Manager",
+				"Product Design Lead",
+				"Product Design Strategist",
+				"Product Design Consultant",
+				"Product Design Analyst"
 			],
 			"seniortyLevel": 3
 		}
@@ -24,7 +24,7 @@
 	"closedDate": "2023-11-28T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "UK London /",
+		"original": "London",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -57,14 +57,8 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
-	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2023-10-31T12:29:01.582Z",
-		"source": "https://jobs.lever.co/bumbleinc/524ea77e-1ab1-4bc3-ac51-41b4e3d7c033?lever-source=Indeed"
 	},
 	"applicationUri": "https://jobs.lever.co/bumbleinc/524ea77e-1ab1-4bc3-ac51-41b4e3d7c033/apply",
 	"applicationType": "link",

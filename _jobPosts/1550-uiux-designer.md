@@ -24,7 +24,7 @@
 	"closedDate": "2023-11-28T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "Londonb",
+		"original": "London",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -58,7 +58,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, Full-time",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"applicationUri": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/login?redirect=%2Fen-US%2Fdisneycareer%2Fjob%2FLondon-United-Kingdom%2FUI-UX-Designer--12-Month-FTC-_10055531%2Fapply",
