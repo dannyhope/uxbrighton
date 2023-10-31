@@ -10,8 +10,8 @@ seo: true
 ---
 ## How to join the UX Brighton Slack group
 
-1. [Add your email address](<https://slofile.com/slack/uxbri>)
-2. Introduce yourself\
+1. **[Add your email address](https://slofile.com/slack/uxbri)**
+2. **Introduce yourself**\
    Please tell us a bit about yourself (in the #introduce channel).\
    We ask that you do this before posting to other channels.
 
