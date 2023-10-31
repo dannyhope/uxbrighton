@@ -12,9 +12,12 @@ seo: true
 
 Add your email address here <https://slofile.com/slack/uxbri>
 
-## Use Slack to
+## Introduce yourself
 
-* `#introduce` yourself to the community
+Please tell us a bit about yourself (in the `#introduce` channel). We ask that you **do this before posting to other channels**.
+
+## Things you can do once you’ve introduced yourself
+
 * discuss UX in `#general`
 * `#ask` questions and seek help on UX work issues
 * digest and get notified about `#events`
@@ -42,5 +45,5 @@ To get more and better responses, include
 
 ## Spam
 
-* Don’t pester individuals.
+* Don’t directly message people who don’t know you
 * Don’t advertise your company’s wares outside the `#ads` channel unless it’s related to a conversation someone else has started.
