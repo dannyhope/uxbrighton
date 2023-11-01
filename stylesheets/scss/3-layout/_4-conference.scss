@@ -73,6 +73,14 @@
       margin-bottom: 0;
     }
   }
+
+  // Add a top border to the `talk--break` element
+  // ... as well as it's subsequent `talk` sibling element
+  .talk--break,
+  .talk--break + .talk {
+    border-top: 1px solid #eee;
+  }
+
   .talk__time {
     color: #80878a;
     color: $color-green;
