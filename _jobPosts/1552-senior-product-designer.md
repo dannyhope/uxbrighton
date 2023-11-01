@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Product Designer",
 			"expandedTitle": "Senior Product Designer",
 			"similiarTitles": [
-				"Senior Product Developer",
-				"Senior Product Architect",
-				"Senior Product Manager",
 				"Senior UX Designer",
-				"Senior UI Designer"
+				"Senior UI Designer",
+				"Senior Web Designer",
+				"Senior Digital Designer",
+				"Senior Graphic Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -46,13 +46,7 @@
 		"shortId": "qXlaNF0N",
 		"uuid": "5bb66c79-1b74-48ae-983d-e38e2ff98903"
 	},
-	"meta": {
-		"patternName": "ld+json, successfactors",
-		"patternType": "default, system",
-		"date": "2023-11-01T11:10:02.418Z",
-		"source": "https://careers.optimizely.com/job/London-Senior-Product-Designer-SE1-9PG/959548255/"
-	},
-	"applicationUri": "https://careers.optimizely.com/talentcommunity/apply/959548255/?locale=en_US",
+	"applicationUri": "https://careers.optimizely.com/job/London-Senior-Product-Designer-SE1-9PG/959548255/",
 	"applicationType": "link",
 	"shortDescription": "Introduction The goal of our product designers is to deeply understand our customer’s’ problems and design solutions to those problems. They are part of the entire product development process, from",
 	"status": "LIVE",
