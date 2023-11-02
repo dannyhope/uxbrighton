@@ -11,7 +11,7 @@
 			"canonicalTitle": "Senior UI/UX Designer",
 			"expandedTitle": "Senior User Interface/User Experience Designer",
 			"similiarTitles": [
-				"1. Senior User Interface Designer; 2. Senior User Experience Designer; 3. Senior Interaction Designer; 4. Senior Visual Designer; 5. Senior Product Designer"
+				"1. Senior User Interface Designer; 2. Senior User Experience Designer; 3. Senior Visual Designer; 4. Senior Interaction Designer; 5. Senior Web Designer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -51,17 +51,8 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full-Time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"salary": {
-		"original": "Competitive"
-	},
-	"meta": {
-		"patternName": "ld+json, bamboohr",
-		"patternType": "default, system",
-		"date": "2023-11-02T14:25:50.295Z",
-		"source": "https://holisticai.bamboohr.com/careers/52"
 	},
 	"applicationUri": "https://holisticai.bamboohr.com/careers/52",
 	"applicationType": "link",
