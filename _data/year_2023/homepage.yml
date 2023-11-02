@@ -5,7 +5,7 @@ social-image: ""
 upcoming: true
 event-promo-top-of-page: true
 hero:
-  hero-state: pre
+  hero-state: during
   global:
     conference: UX Brighton 2023
     date: Friday 3 November
