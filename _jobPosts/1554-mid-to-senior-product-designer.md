@@ -5,17 +5,17 @@
 	"uuid": "bb1e86b5-fac9-4d5b-bba9-8f11d47456f8",
 	"title": {
 		"original": "Mid to Senior Product Designer",
-		"textDescription": "Mid to Senior Product Designer",
+		"textDescription": "Product Designer",
 		"urlSlug": "mid-to-senior-product-designer",
 		"inferred": {
 			"canonicalTitle": "Product Designer",
-			"expandedTitle": "Mid to Senior Product Designer",
+			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Development Designer",
-				"Product Design Engineer",
 				"User Experience Designer",
 				"User Interface Designer",
-				"Product Manager"
+				"Web Designer",
+				"Visual Designer",
+				"Interaction Designer"
 			],
 			"seniorty": "Mid",
 			"seniortyLevel": 3
@@ -54,7 +54,7 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
@@ -65,12 +65,12 @@
 		"minValue": 60000,
 		"maxValue": 85000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-11-02T06:08:27.473Z",
-		"source": "https://jobs.workable.com/view/iALMWLjSaBUjSbgs8dpAW5/hybrid-mid-to-senior-product-designer-(hybrid%2C-london)-in-london-at-novata"
-	},
+	"tags": [
+		"remote",
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://jobs.workable.com/view/iALMWLjSaBUjSbgs8dpAW5/hybrid-mid-to-senior-product-designer-(hybrid%2C-london)-in-london-at-novata",
 	"applicationType": "link",
 	"shortDescription": "Novata is a public benefit corporation created by a unique consortium of foundations and private sector companies bringing together the brightest minds in financial data, private equity expertise,",

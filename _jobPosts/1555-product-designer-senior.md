@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Developer",
-				"Software Designer",
-				"UX Designer",
-				"UI Designer",
-				"Product Architect"
+				"Product Architect",
+				"User Experience Designer",
+				"User Interface Designer",
+				"Web Designer",
+				"Web Developer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -58,12 +58,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-11-02T06:23:18.979Z",
-		"source": "https://uk.indeed.com/viewjob?jk=8b0b851efe813689&tk=1he7b5qd3k9aj800&from=serp&vjs=3"
-	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://rightmove.bamboohr.com/careers/765",
 	"applicationType": "link",
 	"shortDescription": "Location: London/Hybrid (2 days Weds and Thurs in the office) Reporting to: Lead Product Designer Experience Design at Rightmove Be part of a new era, as our Experience Design (XD) Team expands to",
