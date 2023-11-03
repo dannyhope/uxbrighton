@@ -5,7 +5,7 @@ social-image: ""
 upcoming: true
 event-promo-top-of-page: true
 hero:
-  hero-state: during
+  hero-state: post
   global:
     conference: UX Brighton 2023
     date: Friday 3 November
@@ -88,8 +88,8 @@ overview:
     title: It’s a wrap!
     lede:
       body: Thanks to everyone who attended, sponsored and spoke at UX Brighton 2023.
-        [Sign up to be notified](https://uxbri.org/2022/#newletter-signup) about
-        future UX Brighton talks and events. You may also wish to [join our
+        [Sign up to be notified](/subscribe) about future UX Brighton talks and
+        events. You may also wish to [join our
         Slack](http://slack.uxbrighton.org.uk/) community, which includes a
         rather nice [\#jobs](https://uxbri.slack.com/messages/jobs) channel.
     text:
@@ -99,7 +99,7 @@ overview:
       quote: Some of the smartest, most insightful and entertaining people I've met.
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
-  overview-state: pre
+  overview-state: post
 attendee-info:
   travel-accom:
     visibility: true
@@ -131,7 +131,7 @@ attendee-info:
       - item: After Party
     show-info: true
   pre-party:
-    visibility: true
+    visibility: false
     event:
       - body: >-
           <h3>Pre-conf meetup – 2<sup>nd</sup> Nov</h3>
