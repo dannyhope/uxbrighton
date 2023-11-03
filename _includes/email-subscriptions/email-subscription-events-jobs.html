@@ -4,6 +4,8 @@
   <p class="visually-hidden">Stay informed about developments regarding the UX Jobs 2024 event.</p>
   <form method="post" autocomplete="off" name="google-sheet" id="form{{ id }}" class="flow">
     <div class="form-control visually-hidden">
+      <input type="checkbox" id="field_0{{ id }}" name="UX Jobs 2024 event" class="form-control" checked>
+      <label for="field_0{{ id }}">UX Jobs 2024 event</label>
       {% comment %} So we can capture where the email submission happened {% endcomment %}
       <input type="text" id="submitted_from{{ id }}" value="" name="Submitted from" class="form-control">
       <label for="submitted_from{{ id }}">Submitted from</label>
@@ -13,7 +15,7 @@
       <input type="email" id="email{{ id }}" name="Email address" class="form-control pa2" required>
       <input type="submit" name="submit" value="Subscribe" class="button button--green bold pa2 mb0">
     </div>
-    {% comment %} Message prompt if no checkboxes have been selected {% endcomment %}
+    {% comment %} This message may not be relevant because the `UX Jobs 2024 event` checkbox is automatically selected. Leaving in for now. {% endcomment %}
     <div class="form-message--prompt" style="display: none;">
       <p>Please select at least one option to subscribe to.</p>
     </div>
@@ -23,26 +25,26 @@
       <fieldset>
         <legend class="visually-hidden">Notifications and newsletters to subscribe to</legend>
         <div class="form-control mt3 mb3">
-          <input type="checkbox" id="field_0{{ id }}" name="Company interested in exhibiting, advising etc." class="form-control">
-          <label for="field_0{{ id }}">My company might be interested in exhibiting, advising or providing a speaker</label>
+          <input type="checkbox" id="field_1{{ id }}" name="Company interested in exhibiting, advising etc." class="form-control">
+          <label for="field_1{{ id }}">My company might be interested in exhibiting, advising or providing a speaker</label>
         </div>
         <p>Also subscribe to:</p>
         <ul class="no-list flow">
           <li class="form-control">
-            <input type="checkbox" id="field_1{{ id }}" name="Job alerts" class="form-control">
-            <label for="field_1{{ id }}">Job alerts</label>
+            <input type="checkbox" id="field_2{{ id }}" name="Job alerts" class="form-control">
+            <label for="field_2{{ id }}">Job alerts</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_2{{ id }}" name="Conference & workshop news" class="form-control">
-            <label for="field_2{{ id }}">Conference & workshop news</label>
+            <input type="checkbox" id="field_3{{ id }}" name="Conference & workshop news" class="form-control">
+            <label for="field_3{{ id }}">Conference & workshop news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_3{{ id }}" name="Evening event news" class="form-control">
-            <label for="field_3{{ id }}">Evening event news</label>
+            <input type="checkbox" id="field_4{{ id }}" name="Evening event news" class="form-control">
+            <label for="field_4{{ id }}">Evening event news</label>
           </li>
           <li class="form-control">
-            <input type="checkbox" id="field_4{{ id }}" name="Interesting links" class="form-control">
-            <label for="field_4{{ id }}">Interesting links picked by the UX Brighton team</label>
+            <input type="checkbox" id="field_5{{ id }}" name="Interesting links" class="form-control">
+            <label for="field_5{{ id }}">Interesting links picked by the UX Brighton team</label>
           </li>
         </ul>
       </fieldset>
