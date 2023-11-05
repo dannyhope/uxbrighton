@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer III",
 			"expandedTitle": "Product Designer Level 3",
 			"similiarTitles": [
-				"Product Developer Level 3",
-				"Software Developer Level 3",
-				"Software Engineer Level 3",
-				"UX Designer Level 3",
-				"UI Designer Level 3"
+				"Product Designer",
+				"Web Designer",
+				"User Interface Designer",
+				"User Experience Designer",
+				"Web Developer"
 			],
 			"seniortyLevel": 3
 		}
@@ -45,12 +45,10 @@
 		"shortId": "DNJr71Fv",
 		"uuid": "4fb2b573-0ddc-4b52-b345-b12e228cdcb8"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-11-02T14:05:44.288Z",
-		"source": "https://boards.greenhouse.io/gocardless/jobs/5474375?gh_src=e8ec7c201us"
-	},
+	"tags": [
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://boards.greenhouse.io/gocardless/jobs/5474375?gh_src=e8ec7c201us#app",
 	"applicationType": "link",
 	"shortDescription": "The role We believe in making lives easier by building outstanding experiences. We're' looking for inspired and curious people to join the design function to help develop the culture, define",
