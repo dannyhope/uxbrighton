@@ -12,10 +12,10 @@
 			"expandedTitle": "Product Design Lead",
 			"similiarTitles": [
 				"Product Design Manager",
-				"Product Design Engineer",
-				"Product Design Architect",
+				"Product Design Specialist",
 				"Product Design Consultant",
-				"Product Design Analyst"
+				"Product Design Architect",
+				"Product Design Strategist"
 			],
 			"seniorty": "Lead",
 			"seniortyLevel": 5
@@ -47,6 +47,22 @@
 		"shortId": "46X882bM",
 		"uuid": "b646f016-7f27-48e6-9013-d9384cb25564"
 	},
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			},
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent, Full-time",
+		"textDescription": "Full-time, Permanent"
+	},
 	"salary": {
 		"original": "£70k-85k",
 		"textDescription": "£70,000 - £85,000",
@@ -55,12 +71,11 @@
 		"minValue": 70000,
 		"maxValue": 85000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-11-05T15:19:57.304Z",
-		"source": "https://jobs.workable.com/view/isBFEg8pyFfi9nzCrjV9tt/hybrid-product-design-lead-in-london-at-move.ai?utm_source=copy_link&utm_medium=social_share"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.workable.com/view/isBFEg8pyFfi9nzCrjV9tt/hybrid-product-design-lead-in-london-at-move.ai",
 	"applicationType": "link",
 	"shortDescription": "Lifelike human movement is a crucial part of making 3D animation feel real. However, digitising human movement is slow and expensive, requiring 10,000s--1,000,000s to hand-animate- each frame or",
