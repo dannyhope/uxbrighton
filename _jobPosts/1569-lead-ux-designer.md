@@ -59,7 +59,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
@@ -67,7 +67,7 @@
 		"senior",
 		"management"
 	],
-	"applicationUri": "https://career2.successfactors.eu/careers?company=KnightFrank",
+	"applicationUri": "https://jobs.knightfrank.com/job/London-Lead-UX-Designer-TW8-8JA/1003860601",
 	"applicationType": "link",
 	"shortDescription": "To lead the UX design across our client facing websites. About the Role We are a firm of exceptional advisors, working across the globe, in partnership with our customers and clients to deliver them",
 	"status": "LIVE",
