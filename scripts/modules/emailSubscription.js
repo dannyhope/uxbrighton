@@ -99,9 +99,46 @@
     });
   }
 
+  /**
+   * This function adds a click event listener to the document.
+   * When an anchor tag with href containing '#sign-up' is clicked,
+   * the page will smoothly scroll to the form element and focus on the email input field.
+   */
+  function addSignUpAnchorLinkListener() {
+    document.addEventListener('click', event => {
+      // Check if the clicked element's href attribute includes '#sign-up'
+      if (!event.target.getAttribute('href').includes('#sign-up')) {
+        return;
+      }
+
+      // Prevent the default action of the event
+      event.preventDefault();
+
+      // Find the email subscription element
+      const emailSubscriptionElement = document.querySelector('[class*="email-subscription"]');
+      if (!emailSubscriptionElement) {
+        return;
+      }
+
+      // Find the form element
+      const formElement = document.querySelector('form[id^="form-"]');
+      if (formElement) {
+        // Scroll to the form element
+        formElement.scrollIntoView({ behavior: 'smooth' });
+
+        // Focus on the email input field
+        const emailInput = formElement.querySelector('input[type="email"]');
+        if (emailInput) {
+          emailInput.focus();
+        }
+      }
+    });
+  }
+
   // Initialize the form when the page loads and attach email list listener
   document.addEventListener('DOMContentLoaded', () => {
     initializeForm();
     addEmailListListener();
+    addSignUpAnchorLinkListener();
   });
 })();
