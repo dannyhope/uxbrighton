@@ -129,7 +129,9 @@
         // Focus on the email input field
         const emailInput = formElement.querySelector('input[type="email"]');
         if (emailInput) {
-          emailInput.focus();
+          setTimeout(() => {
+            emailInput.focus();
+          }, 500); // Delay of 500ms
         }
       }
     });
