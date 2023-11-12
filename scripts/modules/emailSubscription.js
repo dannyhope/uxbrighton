@@ -131,7 +131,7 @@
         if (emailInput) {
           setTimeout(() => {
             emailInput.focus();
-          }, 500); // Delay of 500ms
+          }, 500); // Delay of 500ms to allow for the virtual keyboard to appear on mobile devices. Otherwise this space is not accounted for and the form isn't scrolled to the correct position.
         }
       }
     });
