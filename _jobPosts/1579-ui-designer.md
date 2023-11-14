@@ -65,7 +65,7 @@
 	"tags": [
 		"remote"
 	],
-	"applicationUri": "https://www.theaacareers.co.uk/apply-online/?jobId=PMFFK026203F3VBQBV768V49B-183974&langCode=en_GB",
+	"applicationUri": "https://www.theaacareers.co.uk/apply-online/?jobId=PMFFK026203F3VBQBV768V49B-183974&langCode=en_GB&sourceBoard=Indeed&sType=Indeed",
 	"applicationType": "link",
 	"shortDescription": "Company description Location: London (hybrid working 2 office days per week) Employment Type: Permanent, full time Additional Benefits: Annual Bonus, Car Allowance Private Medical Insurance Thought",
 	"status": "LIVE",
