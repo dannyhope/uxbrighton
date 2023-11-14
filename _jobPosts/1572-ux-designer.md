@@ -56,6 +56,11 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"tags": [
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://jobs.jobvite.com/worldfirst/job/o6Pspfww/apply",
 	"applicationType": "link",
 	"shortDescription": "Introduction We’re’ WorldFirst, an international payments business helping move money around the world. We became part of Ant Group in 2019, accelerating our mission to create the world’s’ best",

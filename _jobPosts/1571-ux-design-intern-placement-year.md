@@ -63,6 +63,11 @@
 		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
+	"tags": [
+		"remote",
+		"junior",
+		"design"
+	],
 	"applicationUri": "https://zebra.eightfold.ai/careers/job/343616295787?pid=343616295787&domain=zebra.com&sort_by=relevance&src=srm_indeed_org&show_multiple=false#apply",
 	"applicationType": "link",
 	"shortDescription": "Overview At Zebra, we extend the edge of possibility by shaping the future of work on the front line—reinventing how businesses run and moving society forward. We are a community of changemakers,",

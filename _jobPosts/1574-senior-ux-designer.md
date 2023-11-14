@@ -61,6 +61,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"management",
+		"design"
+	],
 	"applicationUri": "https://careers.fisglobal.com/us/en/apply?jobSeqNo=FIGLUSJR0260940EXTERNAL&step=1",
 	"applicationType": "link",
 	"shortDescription": "About the team We are a small but growing UX/UI/ Design team focused on envisioning and creating best-in-class-- experiences for our customers, partners and developers around the world. We value",

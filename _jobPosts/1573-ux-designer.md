@@ -44,6 +44,10 @@
 		"shortId": "7mNgi3cp",
 		"uuid": "26627fa5-a799-41c8-8d61-e365ab1d691b"
 	},
+	"tags": [
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://careers.fisglobal.com/us/en/apply?jobSeqNo=FIGLUSJR0260939EXTERNAL&step=1",
 	"applicationType": "link",
 	"shortDescription": "About the team We are a small but growing UX/UI/ Design team focused on envisioning and creating best-in-class-- experiences for our customers, partners and developers around the world. We value",

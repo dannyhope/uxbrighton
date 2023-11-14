@@ -68,6 +68,9 @@
 		"minValue": 50000,
 		"maxValue": 60000
 	},
+	"tags": [
+		"mid"
+	],
 	"applicationUri": "https://itv.taleo.net/careersection/2/jobapply.ftl?evtr=1773007&isSocialSrc=true&src=CWS-10060&csarray=101430233&lang=en&job=23000208",
 	"applicationType": "link",
 	"shortDescription": "Your work matters to millions. Shaping culture is in the DNA of ITV. So, it’s’ not surprising that you’ll’ find us in every home in the UK, our productions are famous all over the world and we’re’",
