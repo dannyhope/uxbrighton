@@ -1,6 +1,7 @@
 ---
 permalink: photos
 redirect_from:
+  - p
   - ph
   - fl
   - flickr
