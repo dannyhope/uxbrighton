@@ -5,7 +5,6 @@ subtitle: Take over a UX Brighton evening event
 description: Your company pays to curate a UX Brighton evening event.
 permalink: takeover
 redirect_from:
-  - t
   - take
 seo: true
 ---
