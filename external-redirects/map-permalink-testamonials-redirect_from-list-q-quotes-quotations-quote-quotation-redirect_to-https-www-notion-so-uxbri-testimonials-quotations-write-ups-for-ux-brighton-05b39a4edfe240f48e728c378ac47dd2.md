@@ -1,5 +1,5 @@
 ---
-permalink: testamonials
+permalink: testimonials
 redirect_from:
   - q
   - quotes
