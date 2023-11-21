@@ -15,7 +15,7 @@
 				"Interaction Designer",
 				"Visual Designer",
 				"Information Architect",
-				"Usability Analyst"
+				"Content Strategist"
 			],
 			"seniortyLevel": 3
 		}
@@ -53,15 +53,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2023-11-16T10:53:23.591Z",
-		"source": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Farringdon/UX-Designer-I_R67522"
-	},
+	"tags": [
+		"junior",
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Farringdon/UX-Designer-I_R67522/apply",
 	"applicationType": "link",
 	"shortDescription": "We are delighted to offer an exciting opportunity to join the UK UX team, we are a big part of our large and dynamic global UX team.  Never heard of LexisNexis? Do not worry! We help legal and tax",
