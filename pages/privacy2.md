@@ -2,6 +2,8 @@
 layout: generic
 title: Privacy
 permalink: privacy
+redirect_from:
+  - gdpr
 seo: false
 ---
 <h2>	Sendy	<abbr title="UK">🇬🇧</abbr>	</h2>	<p>	Name, email address	are collected (by	consent – article 6(1)(a)	), safeguarded by	multi-factor authentication	 and stored	until the user unsubscribes or after a few bounces.	</p><p>	Self-hosted (on Dreamhost) email newsletter application.</p>
