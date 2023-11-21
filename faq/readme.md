@@ -1,1 +1,0 @@
-This is only here because a link went out pointing to /faq instead of /2014/faq
