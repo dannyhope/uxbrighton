@@ -8,9 +8,7 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": [
-        "sissel.shopify-liquid"
-    	]
+      "extensions": ["sissel.shopify-liquid"]
     }
   },
 
@@ -18,7 +16,7 @@
   // "forwardPorts": [],
 
   // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "/bin/sh -i -c './.devcontainer/postCreateCommand.sh'"
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
 
   // Configure tool-specific properties.
   // "customizations": {},

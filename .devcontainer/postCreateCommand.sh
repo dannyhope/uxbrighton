@@ -1,3 +1,6 @@
+# Tell Git this dir is safe
+git config --global --add safe.directory /workspaces/*
+
 # Update NPM 
 npm install -g npm@latest
 
