@@ -1,0 +1,29 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/images/tree/main/src/ruby
+{
+  "name": "UX Brighton - Devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/ruby",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/node-asdf:0": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+		"sissel.shopify-liquid",
+		"Shopify.ruby-lsp"
+	]
+    }
+  },
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Uncomment the next line to run commands after the container is created.
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+
+  // Configure tool-specific properties.
+  // "customizations": {},
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
