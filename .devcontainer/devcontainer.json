@@ -8,7 +8,10 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["sissel.shopify-liquid"]
+      "extensions": [
+		"sissel.shopify-liquid",
+		"Shopify.ruby-lsp"
+	]
     }
   },
 
