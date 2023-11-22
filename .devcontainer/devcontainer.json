@@ -9,21 +9,13 @@
   "customizations": {
     "vscode": {
       "extensions": [
-		"sissel.shopify-liquid",
-		"Shopify.ruby-lsp"
-	]
+        "sissel.shopify-liquid",
+        "Shopify.ruby-lsp"
+      ]
     }
   },
-
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
-
-  // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
-
-  // Configure tool-specific properties.
-  // "customizations": {},
-
-  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  // "remoteUser": "root"
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+  // Auto approves the workspace dir as safe in Git
+  // https://github.com/microsoft/vscode-remote-release/issues/6810
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
 }
