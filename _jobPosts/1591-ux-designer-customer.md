@@ -59,13 +59,13 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
-		"management",
-		"senior",
-		"design"
+		"design",
+		"mid",
+		"remote"
 	],
 	"applicationUri": "https://apply.tesco-careers.com/members/?j=855941",
 	"applicationType": "link",
