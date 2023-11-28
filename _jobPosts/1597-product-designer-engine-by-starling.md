@@ -65,7 +65,7 @@
 	},
 	"applicationUri": "https://apply.workable.com/starling-bank/j/CCDC13FBCC/apply/",
 	"applicationType": "link",
-	"shortDescription": "At  Engine by Starling , we are on a mission to find and work with leading banks all around the world who have the ambition to build rapid growth businesses, on our technology. Engine is the",
+	"shortDescription": "At Engine by Starling , we are on a mission to find and work with leading banks all around the world who have the ambition to build rapid growth businesses, on our technology. Engine is the",
 	"status": "LIVE",
 	"permalink": "/jobs/1597/product-designer-engine-by-starling",
 	"layout": "jobs/individual"

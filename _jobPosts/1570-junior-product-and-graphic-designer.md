@@ -64,7 +64,7 @@
 	},
 	"applicationUri": "https://boards.greenhouse.io/harrys/jobs/5498209#app",
 	"applicationType": "link",
-	"shortDescription": "About Harry’s’  Harry’s’ Inc.. started in 2013 with a specific goal: disrupt the shaving industry by creating an innovative, everyday product at a fair price. Since then, Harry’s’ has expanded to",
+	"shortDescription": "About Harry’s’ Harry’s’ Inc.. started in 2013 with a specific goal: disrupt the shaving industry by creating an innovative, everyday product at a fair price. Since then, Harry’s’ has expanded to",
 	"status": "LIVE",
 	"permalink": "/jobs/1570/junior-product-and-graphic-designer",
 	"layout": "jobs/individual"

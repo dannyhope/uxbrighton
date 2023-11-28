@@ -63,7 +63,7 @@
 	],
 	"applicationUri": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Farringdon/UX-Designer-I_R67522/apply",
 	"applicationType": "link",
-	"shortDescription": "We are delighted to offer an exciting opportunity to join the UK UX team, we are a big part of our large and dynamic global UX team.  Never heard of LexisNexis? Do not worry! We help legal and tax",
+	"shortDescription": "We are delighted to offer an exciting opportunity to join the UK UX team, we are a big part of our large and dynamic global UX team. Never heard of LexisNexis? Do not worry! We help legal and tax",
 	"status": "LIVE",
 	"permalink": "/jobs/1586/ux-designer-i",
 	"layout": "jobs/individual"

@@ -66,7 +66,7 @@
 	},
 	"applicationUri": "https://apply.workable.com/treatwell/j/56F8F5BF13/apply/",
 	"applicationType": "link",
-	"shortDescription": "We are looking for a passionate Product Design Lead to join our B2B Design team.  The role would combine oversight of projects with line management of the team, partnership with stakeholders and",
+	"shortDescription": "We are looking for a passionate Product Design Lead to join our B2B Design team. The role would combine oversight of projects with line management of the team, partnership with stakeholders and",
 	"status": "LIVE",
 	"permalink": "/jobs/1588/product-design-lead-saas",
 	"layout": "jobs/individual"

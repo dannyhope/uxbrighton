@@ -60,7 +60,7 @@
 	},
 	"applicationUri": "https://rightmove.bamboohr.com/careers/765",
 	"applicationType": "link",
-	"shortDescription": "Experience Design at Rightmove  Be part of a new era, as our Experience Design (XD) Team expands to meet and exceed the expectations of our millions of users. As a Product Designer in the XD Team,",
+	"shortDescription": "Experience Design at Rightmove Be part of a new era, as our Experience Design (XD) Team expands to meet and exceed the expectations of our millions of users. As a Product Designer in the XD Team,",
 	"status": "LIVE",
 	"permalink": "/jobs/1596/product-designer-senior",
 	"layout": "jobs/individual"
