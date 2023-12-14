@@ -49,6 +49,12 @@ Include
 * location/remote
 * whether it’s full time, permanent or freelance
 
-## Admin team
+## Admin
 
-There are few people who do admin bits. If you’d like to join this little team, send a direct message to Danny Hope in Slack.
+If someone’s hassling you, drop a message in the #admin channel or, if you’d prefer, send a direct message to Danny Hope.
+
+There are few other people who help with admin tasks. If you’d like to join this little team, send a direct message to Danny Hope in Slack.
+
+### Admin tasks
+
+There’s a (currently private) list of [Slack admin tasks in Notion](https://www.notion.so/uxbri/Moderate-Slack-edfa058b908a4b3c95af4bff2ac32da3).
