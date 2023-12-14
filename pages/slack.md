@@ -39,7 +39,7 @@ Please don’t
 * You can post about any kind of role as long as it’s user-centred. For example a developer role would be allowed if it entails direct involvement in user research.
 * Don’t advertise jobs outside of the `#jobs` channel.
 
-## Tips to get more and better responses
+### Tips to get more and better responses
 
 Include
 
@@ -48,3 +48,7 @@ Include
 * the company name
 * location/remote
 * whether it’s full time, permanent or freelance
+
+## Admin team
+
+There are few people who do admin bits. If you’d like to join this little team, send a direct message to Danny Hope in Slack.
