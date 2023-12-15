@@ -57,18 +57,6 @@ Thanks to U﻿X design consultancy, [cxpartners](https://www.cxpartners.co.uk/) 
 
 **April 2024** End of Mentorship Programme 
 
-## 2024 programme
-
-**May 2024** Mentorship applications o﻿pen
-
-**June 2024** M﻿entorship Speed Matching event
-
-**July 2024** S﻿uccessful applicants contacted
-
-**February 2025** End of Mentorship Programme 
-
-
-
 ## S﻿ponsorship
 
 Insterested in sponsoring season 2? Contact [anniemarie@uxbri.org](anniemarie@uxbri.org).
