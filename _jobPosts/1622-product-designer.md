@@ -11,11 +11,11 @@
 			"canonicalTitle": "Product Designer",
 			"expandedTitle": "Product Designer",
 			"similiarTitles": [
-				"Product Developer",
-				"Product Manager",
-				"UX Designer",
-				"UI Designer",
-				"Software Designer"
+				"Web Product Designer",
+				"UX Product Designer",
+				"UI Product Designer",
+				"Web Design Product Manager",
+				"Web Design Strategist"
 			],
 			"seniortyLevel": 3
 		}
@@ -39,10 +39,11 @@
 	},
 	"hiringOrganization": {
 		"name": "Preqin",
-		"logo": "//uxbri.org/jobs/logos/preqin-logo-vector.svg",
-		"id": 424,
-		"shortId": "gWOkyhq7",
-		"uuid": "0d663707-1b31-4666-993e-f4f18016c3e8"
+		"logo": "//uxbri.org/jobs/logos/Preqin-logo.png",
+		"twitter": "Preqin",
+		"id": 878,
+		"shortId": "q0bg3un1",
+		"uuid": "79510879-9ce8-425a-8509-30f04d57ea58"
 	},
 	"employmentType": {
 		"typeInfo": [
@@ -54,12 +55,6 @@
 		],
 		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-12-13T13:39:39.655Z",
-		"source": "https://careers-preqin.icims.com/jobs/1926/product-designer/job?mobile=false&width=725&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=60"
 	},
 	"applicationUri": "https://careers-preqin.icims.com/jobs/1926/product-designer/login",
 	"applicationType": "link",
