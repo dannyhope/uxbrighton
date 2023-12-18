@@ -8,8 +8,6 @@ seo: false
 ---
 ## Your data
 
-
-
 ## Cookies
 
 To make this website work properly, and to provide the most relevant products and services to our site visitors, we place small data files called cookies on your device. This policy provides you with information about cookies and how to control them for this website.
@@ -40,6 +38,8 @@ Third party cookies are cookies set by someone other than the website owner for 
 | PREF, VISITOR_INFO_LIVE | YouTube                                                                                           | 243 days<br>180 days | Used by YouTube to manage the display of adverts within the YouTube service                                                                                                                                                                                                                   | Install the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout) or delete these cookies through your browser settings. |
 | IDE                     | [Google Marketing Platform (DoubleClick)](https://marketingplatform.google.com/about/enterprise/) | 390 days             | Used for serving targeted ads that are relevant to you across the web. These may be displayed to you based on your previous visits to this website or about a topic you have expressed an interest in while browsing our site. Also help measure the conversion rate of ads presented to you. | Install the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout) or delete these cookies through your browser settings. |
 | bcookie, bscookie       | LinkedIn                                                                                          | 1 year               | Browser ID cookies used by the LinkedIn share button and ad tagging to track visitors                                                                                                                                                                                                         | [Opt-out page (LinkedIn)](https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out?trk=microsites-frontend_legal_cookie-policy)           |
+
+
 
 We use Google Analytics cookies to collect information about how visitors use our website. These cookies collect information in the aggregate to give us insight into how our website is being used. We anonymize IP addresses in Google Analytics, and the anonymized data is transmitted to and stored by Google on servers in the United States. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. The following table has more information about these cookies.
 
