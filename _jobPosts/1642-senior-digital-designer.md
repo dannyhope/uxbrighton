@@ -11,11 +11,11 @@
 			"canonicalTitle": "Senior Digital Designer",
 			"expandedTitle": "Senior Digital Designer",
 			"similiarTitles": [
-				"Senior Digital Creative Designer",
-				"Senior Digital Art Director",
-				"Senior Digital User Experience Designer",
-				"Senior Digital Graphic Designer",
-				"Senior Digital Visual Designer"
+				"Senior Web Designer",
+				"Senior Graphic Designer",
+				"Senior UX Designer",
+				"Senior UI Designer",
+				"Senior Web Developer"
 			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
@@ -54,22 +54,16 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
-		"original": "50,000",
-		"textDescription": "$50,000",
-		"currencyCode": "USD",
-		"currencySymbol": "$",
+		"original": "£50,000",
+		"textDescription": "£50,000",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
 		"minValue": 50000,
 		"maxValue": 50000
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2023-12-23T12:24:14.819Z",
-		"source": "https://careers.cuckoo.co/jobs/3467130-senior-digital-designer?ittk=TKP8TBMNYG"
 	},
 	"applicationUri": "https://careers.cuckoo.co/jobs/3467130-senior-digital-designer?ittk=TKP8TBMNYG",
 	"applicationType": "link",
