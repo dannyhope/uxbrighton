@@ -9,14 +9,6 @@
 		"urlSlug": "product-designer-digital-consumeree",
 		"inferred": {
 			"canonicalTitle": "Product Designer",
-			"expandedTitle": "Product Designer",
-			"similiarTitles": [
-				"Web Designer",
-				"UX Designer",
-				"UI Designer",
-				"Web Developer",
-				"Front-End Developer"
-			],
 			"seniortyLevel": 3
 		}
 	},
@@ -56,6 +48,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://jobs.bt.com/BT/job/One-Braham-%284140%29-Product-Designer-%28Digital-ConsumerEE%29-Lond/784615902/",
 	"applicationType": "link",
 	"shortDescription": "Full time, 3 days a week together from either one of our London, Birmingham or Manchester hubs (flexible 2 days remote wherever). The immediate assignment As a BT Consumer Product Designer, you’ll’",

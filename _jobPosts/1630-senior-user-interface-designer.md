@@ -9,14 +9,6 @@
 		"urlSlug": "senior-user-interface-designer",
 		"inferred": {
 			"canonicalTitle": "Senior User Interface Designer",
-			"expandedTitle": "Senior User Interface Designer",
-			"similiarTitles": [
-				"Senior User Experience Designer",
-				"Senior Visual Designer",
-				"Senior Web Designer",
-				"Senior Graphic Designer",
-				"Senior Front-End Developer"
-			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
 		}
@@ -63,6 +55,9 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://boards.eu.greenhouse.io/aeguana/jobs/4261381101",
 	"applicationType": "link",
 	"shortDescription": "As a Senior User Interface Designer at Aeguana x Boostbar you will play a pivotal role in shaping the visual and interactive elements of our Point of Sale systems, our industry-leading- cloud",

@@ -9,14 +9,6 @@
 		"urlSlug": "digital-product-designer",
 		"inferred": {
 			"canonicalTitle": "Digital Product Designer",
-			"expandedTitle": "Digital Product Designer",
-			"similiarTitles": [
-				"Digital Product Manager",
-				"Digital Product Strategist",
-				"Digital Product Architect",
-				"Digital Product Analyst",
-				"Digital Product Developer"
-			],
 			"seniortyLevel": 3
 		}
 	},
@@ -62,6 +54,9 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://apply.workable.com/quantexa/j/FA47EA17DD/apply/",
 	"applicationType": "link",
 	"shortDescription": "Founded in 2016 with only a handful of individuals, Quantexa was built with a purpose that through a greater understanding of context, better decisions can be made. 7 years, and 700 employees later",

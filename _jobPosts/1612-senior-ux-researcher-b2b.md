@@ -5,18 +5,10 @@
 	"uuid": "3c706da5-e609-4cc9-ab5d-2b4e1d497460",
 	"title": {
 		"original": "Senior UX Researcher, B2B",
-		"textDescription": "Senior User Experience Researcher",
+		"textDescription": "Senior UX Researcher",
 		"urlSlug": "senior-ux-researcher-b2b",
 		"inferred": {
 			"canonicalTitle": "Senior UX Researcher",
-			"expandedTitle": "Senior User Experience Researcher",
-			"similiarTitles": [
-				"Senior User Interface Researcher",
-				"Senior Usability Researcher",
-				"Senior User Research Analyst",
-				"Senior User Experience Analyst",
-				"Senior User Interface Analyst"
-			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
 		}
@@ -56,6 +48,10 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
+	"tags": [
+		"research",
+		"senior"
+	],
 	"applicationUri": "https://business.trustpilot.com/jobs/5522437?gh_jid=5522437",
 	"applicationType": "link",
 	"shortDescription": "We’re’ a leading online reviews platform, free and open to all. Our mission is to be a universal symbol of trust. We are well on our way — but there’s’ still an exciting journey ahead of us. Do you",

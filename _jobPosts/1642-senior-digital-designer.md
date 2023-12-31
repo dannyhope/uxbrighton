@@ -9,14 +9,6 @@
 		"urlSlug": "senior-digital-designer",
 		"inferred": {
 			"canonicalTitle": "Senior Digital Designer",
-			"expandedTitle": "Senior Digital Designer",
-			"similiarTitles": [
-				"Senior Web Designer",
-				"Senior Graphic Designer",
-				"Senior UX Designer",
-				"Senior UI Designer",
-				"Senior Web Developer"
-			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
 		}
@@ -65,6 +57,9 @@
 		"minValue": 50000,
 		"maxValue": 50000
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://careers.cuckoo.co/jobs/3467130-senior-digital-designer?ittk=TKP8TBMNYG",
 	"applicationType": "link",
 	"shortDescription": "Cuckoo have been on quite a journey under Fern Trading Group, with our aim being simple – to be the best and most trusted ISP, working to disrupt the UK broadband market by prioritising service and",

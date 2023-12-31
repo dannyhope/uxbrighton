@@ -9,14 +9,6 @@
 		"urlSlug": "senior-product-designer",
 		"inferred": {
 			"canonicalTitle": "Senior Product Designer",
-			"expandedTitle": "Senior Product Designer",
-			"similiarTitles": [
-				"Senior UX Designer",
-				"Senior UI Designer",
-				"Senior Web Designer",
-				"Senior Digital Designer",
-				"Senior Graphic Designer"
-			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
 		}
@@ -58,6 +50,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://jobs.workable.com/view/rRdGvtKo9ZTaS54wq7VKkb/remote-senior-product-designer-in-london-at-treatwell",
 	"applicationType": "link",
 	"shortDescription": "“As a Product Designer, i would like to create great user-centric- products, solving user and business needs, evolving and pushing the status quo” if you see yourself in this sentence, you are what",

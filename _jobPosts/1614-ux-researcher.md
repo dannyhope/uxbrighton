@@ -5,18 +5,10 @@
 	"uuid": "1236d213-9ca7-45d4-8923-fb877efddfcc",
 	"title": {
 		"original": "UX Researcher",
-		"textDescription": "User Experience Researcher",
+		"textDescription": "UX Researcher",
 		"urlSlug": "ux-researcher",
 		"inferred": {
 			"canonicalTitle": "UX Researcher",
-			"expandedTitle": "User Experience Researcher",
-			"similiarTitles": [
-				"User Experience Designer",
-				"User Interface Researcher",
-				"Usability Researcher",
-				"Interaction Designer",
-				"User Interface Designer"
-			],
 			"seniortyLevel": 3
 		}
 	},
@@ -57,12 +49,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, teamtailor",
-		"patternType": "default, system",
-		"date": "2023-12-04T16:05:51.371Z",
-		"source": "https://tain.teamtailor.com/jobs/3409980-ux-researcher?ittk=M3YQVTSUUH"
-	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://tain.teamtailor.com/jobs/3409980-ux-researcher?ittk=M3YQVTSUUH",
 	"applicationType": "link",
 	"shortDescription": "Tain is a cutting-edge- iGaming organization that thrives on innovation and creativity. We are committed to providing unparalleled gaming experiences to our users, and we are on the lookout for a",

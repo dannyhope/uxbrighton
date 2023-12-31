@@ -9,14 +9,6 @@
 		"urlSlug": "interaction-designer",
 		"inferred": {
 			"canonicalTitle": "Interaction Designer",
-			"expandedTitle": "Interaction Designer",
-			"similiarTitles": [
-				"User Experience Designer",
-				"User Interface Designer",
-				"Visual Designer",
-				"Web Designer",
-				"Web Developer"
-			],
 			"seniortyLevel": 3
 		}
 	},
@@ -64,6 +56,9 @@
 		"minValue": 45054,
 		"maxValue": 50060
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://lbg.wd3.myworkdayjobs.com/en-US/LBG_Careers/login?redirect=%2Fen-US%2FLBG_Careers%2Fjob%2FLondon%2FInteraction-Designer_104574%2Fapply%2FapplyManually",
 	"applicationType": "link",
 	"shortDescription": "About this opportunity You’ll’ be part of a cross-functional- project team and responsible for all interaction design elements, from design thinking right the way through to deployment. Whether it’s’",

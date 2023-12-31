@@ -9,14 +9,6 @@
 		"urlSlug": "senior-user-researcher",
 		"inferred": {
 			"canonicalTitle": "Senior User Researcher",
-			"expandedTitle": "Senior User Researcher",
-			"similiarTitles": [
-				"Senior User Experience Researcher",
-				"Senior User Interface Researcher",
-				"Senior Usability Researcher",
-				"Senior User Experience Designer",
-				"Senior User Interface Designer"
-			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
 		}
@@ -58,6 +50,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://jobs.workable.com/view/38uWTB8BRsA6snW1QkSHM3/hybrid-senior-user-researcher-in-london-at-viable-data-ltd",
 	"applicationType": "link",
 	"shortDescription": "About us Viable Data is an innovative technology, data and UX consultancy, delivering excellence through our projects and providing our people with a supportive culture and opportunities for growth",

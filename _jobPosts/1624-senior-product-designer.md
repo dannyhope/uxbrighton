@@ -9,14 +9,6 @@
 		"urlSlug": "senior-product-designer",
 		"inferred": {
 			"canonicalTitle": "Senior Product Designer",
-			"expandedTitle": "Senior Product Designer",
-			"similiarTitles": [
-				"Senior UX Designer",
-				"Senior UI Designer",
-				"Senior Web Designer",
-				"Senior Digital Designer",
-				"Senior Graphic Designer"
-			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
 		}
@@ -67,6 +59,9 @@
 		"maxValue": 70000
 	},
 	"sourceSiteJobId": "3416105",
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://patchwork.teamtailor.com/jobs/3416105-senior-product-designer",
 	"applicationType": "link",
 	"shortDescription": "About Us Since 2016, Patchwork Health has been on a mission to make truly flexible and sustainable working a reality for all healthcare staff. Their fully integrated workforce management solution",

@@ -5,18 +5,10 @@
 	"uuid": "f37d07f7-5ca8-4128-98ee-4056c79752fa",
 	"title": {
 		"original": "Senior UX Designer",
-		"textDescription": "Senior User Experience Designer",
+		"textDescription": "Senior UX Designer",
 		"urlSlug": "senior-ux-designer",
 		"inferred": {
 			"canonicalTitle": "Senior UX Designer",
-			"expandedTitle": "Senior User Experience Designer",
-			"similiarTitles": [
-				"Senior User Interface Designer",
-				"Senior Interaction Designer",
-				"Senior Visual Designer",
-				"Senior Product Designer",
-				"Senior UX Researcher"
-			],
 			"seniorty": "Senior",
 			"seniortyLevel": 4
 		}
@@ -58,12 +50,9 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, teamtailor",
-		"patternType": "default, system",
-		"date": "2023-12-23T12:17:42.800Z",
-		"source": "https://unily.teamtailor.com/jobs/3468387-senior-ux-designer?_ga=2.101718917.52162662.1703331708-1941421403.1703331708"
-	},
+	"tags": [
+		"remote"
+	],
 	"applicationUri": "https://unily.teamtailor.com/jobs/3468387-senior-ux-designer?_ga=2.101718917.52162662.1703331708-1941421403.1703331708",
 	"applicationType": "link",
 	"shortDescription": "Unily is the leading employee experience platform used by enterprises to improve communication, collaboration, and productivity. Enterprises rely on Unily’s’ SaaS platform to transform employee",
