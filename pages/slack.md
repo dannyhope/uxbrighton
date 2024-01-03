@@ -47,8 +47,8 @@ Don’t
 
 If someone’s hassling you, drop a message in the #admin channel or, if you’d prefer, send a direct message to Danny Hope in Slack.
 
-## Admin
+## Admin team
 
 Besides Danny, there are few other people who help with admin tasks. If you’d like to join this little team, send a direct message to Danny Hope in Slack.
 
-There’s a (private) page of [Slack admin guidance in Notion](https://www.notion.so/uxbri/Moderate-Slack-edfa058b908a4b3c95af4bff2ac32da3).
+If you’re one of the admin team trying to get to find it, here’s the [Slack admin guidance in Notion](https://www.notion.so/uxbri/Moderate-Slack-edfa058b908a4b3c95af4bff2ac32da3).
