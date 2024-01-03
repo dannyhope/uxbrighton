@@ -8,7 +8,7 @@ redirect_from:
   - sl
 seo: true
 ---
-## How to join the UX Brighton Slack group
+## Join the UX Brighton Slack group
 
 1. **[Add your email address](https://slofile.com/slack/uxbri)**
 2. **Introduce yourself**\
@@ -20,7 +20,7 @@ seo: true
 * discuss UX in the #general channel
 * ask questions and seek help on UX work issues in the #ask channel
 * discuss and get notified about #events
-* find out about #jobs
+* discover #jobs
 * get advice about your #portfolio
 * offer, request or discuss #mentorship
 * post #ads about your UX tools and services
@@ -28,33 +28,27 @@ seo: true
 
 ## Things you can’t do (even if you have introduced yourself)
 
-Please don’t
+* Don’t directly message people who don’t know you
+* Don’t advertise your company’s wares outside the `#ads` channel unless it’s related to a conversation someone else has started
 
-* directly message people who don’t know you
-* advertise your company’s wares outside the `#ads` channel unless it’s related to a conversation someone else has started
+## Job ad dos and don’ts
 
-## Job ad rules
+Do
 
-* Don’t advertise jobs which Brightonians could not reasonably be expected to want or where living in Brighton would count against the applicant.
-* You can post about any kind of role as long as it’s user-centred. For example a developer role would be allowed if it entails direct involvement in user research.
-* Don’t advertise jobs outside of the `#jobs` channel.
+* post about any kind of role as long as it’s user-centered. For example a developer role would be allowed if it entails direct involvement in user research.
+* (for a better response rate) include a job description, salary/day rate, the company name, location/remote, whether it’s full time, permanent or freelance
 
-### Tips to get more and better responses
+Don’t
 
-Include
+* promote vacancies where living in Brighton would count against applicants
+* advertise jobs outside of the `#jobs` channel
 
-* a job description
-* salary/day rate
-* the company name
-* location/remote
-* whether it’s full time, permanent or freelance
+## Get help
+
+If someone’s hassling you, drop a message in the #admin channel or, if you’d prefer, send a direct message to Danny Hope in Slack.
 
 ## Admin
 
-If someone’s hassling you, drop a message in the #admin channel or, if you’d prefer, send a direct message to Danny Hope.
+Besides Danny, there are few other people who help with admin tasks. If you’d like to join this little team, send a direct message to Danny Hope in Slack.
 
-There are few other people who help with admin tasks. If you’d like to join this little team, send a direct message to Danny Hope in Slack.
-
-### Admin tasks
-
-There’s a (currently private) list of [Slack admin tasks in Notion](https://www.notion.so/uxbri/Moderate-Slack-edfa058b908a4b3c95af4bff2ac32da3).
+There’s a (private) page of [Slack admin guidance in Notion](https://www.notion.so/uxbri/Moderate-Slack-edfa058b908a4b3c95af4bff2ac32da3).
