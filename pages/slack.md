@@ -15,16 +15,16 @@ seo: true
    Please tell us a bit about yourself (in the #introduce channel).\
    We ask that you do this before posting to other channels.
 
-## Things you can do (once you’ve introduced yourself)
+## Channels
 
-* discuss UX in the #general channel
-* ask questions and seek help on UX work issues in the #ask channel
-* discuss and get notified about #events
-* discover #jobs
-* get advice about your #portfolio
-* offer, request or discuss #mentorship
-* post #ads about your UX tools and services
-* tell #admin if someone’s breaking the rules
+* discuss UX in the **\#general** channel
+* ask questions and seek help on UX work issues in the **\#ask** channel
+* discuss and get notified about **\#events**
+* discover **\#jobs**
+* get advice about your **\#portfolio**
+* offer, request or discuss **\#mentorship**
+* post **\#ads** about your UX tools and services
+* tell **\#admin** if someone’s breaking the rules
 
 ## Things you can’t do (even if you have introduced yourself)
 
