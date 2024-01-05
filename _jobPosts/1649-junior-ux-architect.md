@@ -51,15 +51,13 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, Fulltime",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-01-05T06:41:21.373Z",
-		"source": "https://curryscareers.co.uk/job/London-Junior-UX-Architect/1021506601/?feedId=335101&utm_source=Indeed&utm_campaign=DSG_Indeed&utm_source=indeed&utm_medium=organic_listing&utm_campaign=q2_paid_advertising_2018?jobPipeline=Indeed"
-	},
+	"tags": [
+		"remote",
+		"junior"
+	],
 	"applicationUri": "https://curryscareers.co.uk/job/London-Junior-UX-Architect/1021506601/?feedId=335101",
 	"applicationType": "link",
 	"shortDescription": "6 month Fixed Term Contract Full Time Grade 3 Our passion at Currys is helping everyone enjoy the latest tech. We’re’ proud of the service levels we provide for our customer – online, in-store- or",

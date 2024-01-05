@@ -47,15 +47,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-01-05T07:09:10.035Z",
-		"source": "https://jobs.workable.com/view/9UjY4b8NY1MdNdwzW7LBxk/hybrid-senior-ux%2F-ui-designer-in-london-at-parkopedia"
-	},
+	"tags": [
+		"remote",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://jobs.workable.com/view/9UjY4b8NY1MdNdwzW7LBxk/hybrid-senior-ux%2F-ui-designer-in-london-at-parkopedia",
 	"applicationType": "link",
 	"shortDescription": "Parkopedia is the world’s’ leading connected car services provider used by millions of drivers and organisations such as Apple, Here, TomTom and 20 automotive brands ranging from Audi to Volkswagen.",
