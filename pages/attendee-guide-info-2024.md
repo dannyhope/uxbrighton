@@ -49,9 +49,9 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 ### Accommodation
 
-Our friends at Visit Brighton have put together a comprehensive list of [accommodation](https://book.passkey.com/go/UXBTN23) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 1st November 2023*; we advise early booking in order to guarantee your preferred hotel.
+Our friends at Visit Brighton have put together a comprehensive list of [accommodation](Https://book.passkey.com/go/UXBTN2024) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 1st November 2023*; we advise early booking in order to guarantee your preferred hotel.
 
-[Discounted hotel rates](https://book.passkey.com/go/UXBTN23) for UX Brighton delegates.
+[Discounted hotel rates](Https://book.passkey.com/go/UXBTN2024) for UX Brighton delegates.
 
 ### Travel
 
