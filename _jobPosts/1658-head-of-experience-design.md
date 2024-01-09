@@ -55,13 +55,7 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, aa",
-		"patternType": "default, site",
-		"date": "2024-01-09T07:00:24.292Z",
-		"source": "https://www.theaacareers.co.uk/job-details/?id=500000187155&sType=Indeed&utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
-	"applicationUri": "https://emea3.recruitmentplatform.com/apply-app/pages/application-form?jobId=PMFFK026203F3VBQBV768V49B-187155&langCode=en_GB",
+	"applicationUri": "https://www.theaacareers.co.uk/job-details/?id=500000187155",
 	"applicationType": "link",
 	"shortDescription": "Company description Thought The AA only provide roadside assistance? Think AA-X-. Technology has made human life easier; from booking holidays and banking, through to meeting new people and work",
 	"status": "LIVE",
