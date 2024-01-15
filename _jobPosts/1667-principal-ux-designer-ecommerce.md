@@ -50,19 +50,18 @@
 		"textDescription": "Full-time"
 	},
 	"salary": {
-		"original": "$114,000 - $180,000",
+		"original": "$114,000 - $180,000 (US)",
 		"textDescription": "$114,000 - $180,000",
 		"currencyCode": "USD",
 		"currencySymbol": "$",
 		"minValue": 114000,
 		"maxValue": 180000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-01-15T14:32:17.357Z",
-		"source": "https://pearson.jobs/london-gbr/principal-ux-designer-ecommerce/2ECF8B91DED048958264663A191C9B91/job/?vs=1554&utm_source=Indeed-DE&utm_medium=Job%20Aggregator&utm_campaign=Indeed"
-	},
+	"tags": [
+		"management",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/14100/apply/email",
 	"applicationType": "link",
 	"shortDescription": "Pearson is a design-centric- product company whose mission is to have a direct relationship with millions of lifelong learners. As the world’s’ leading learning company with more than 22,000",
