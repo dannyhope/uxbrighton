@@ -45,16 +45,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full Time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-01-16T07:13:31.352Z",
-		"source": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=290682&codes=IINDD#jobDetails=290682_5012"
-	},
-	"applicationUri": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=6466#jobDetails=290682_5012",
+	"tags": [
+		"design",
+		"management",
+		"senior"
+	],
+	"applicationUri": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=290682&codes=IINDD#jobDetails=290682_5012",
 	"applicationType": "link",
 	"shortDescription": "Your role UBS are looking for a talented Product Design Director to lead the design of highly usable and intuitive digital products for our internal users in Finance. With a deep understanding of",
 	"status": "LIVE",
