@@ -3,7 +3,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 future: true
-exclude: [CNAME, 'node_modules']
+exclude: [CNAME, 'node_modules', '.venv']
 
 # Plugins
 plugins:

@@ -1,24 +1,25 @@
 ---
-layout: conference-2023/default
-slug: conference-2023
-image: https://uxbri.org/2023/images/cards/Early-bird.png
+layout: conference-2024/default
+slug: conference-2024
+image: https://uxbri.org/2024/images/cards/Early-bird.png
 masthead-color: dark
 ---
 
-{%- assign homepage = site.data.year_2023.homepage -%}
-{%- assign current_year = 2023 -%}
+{%- assign homepage = site.data.year_2024.homepage -%}
+{%- assign current_year = 2024 -%}
 
 <main class="">
 
   <!-- Overarching hero content grouping / section -->
-  <section id="hero" class="overlay__outer pa0" style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
+  <section id="hero" class="overlay__outer pa0"
+    style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
     <div class="overlay__inner overflow-hidden">
+      <!-- Event promo component -->
+      {% if homepage.event-promo-top-of-page == true %}
       <div class="upcoming-events-outer">
-        <!-- Event promo component -->
-        {% if homepage.event-promo-top-of-page == true %}
-          {% include_relative {{current_year}}/conf-page-partials/upcoming-mini.html %}
-        {% endif %}
+        {% include_relative {{current_year}}/conf-page-partials/upcoming-mini.html %}
       </div>
+      {% endif %}
       <div class="container color-white">
         <!-- Hero component -->
         {% include_relative {{current_year}}/conf-page-partials/hero.html %}
@@ -51,6 +52,9 @@ masthead-color: dark
 
     </div>
   </section>
+
+  <!-- Pricing component -->
+  {% include_relative {{current_year}}/conf-page-partials/pricing-table.html %}
 
   <!-- Speakers component -->
   {% include_relative {{current_year}}/conf-page-partials/speakers.html %}

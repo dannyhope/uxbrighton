@@ -4,9 +4,9 @@ slug: conference-2024
 image: https://uxbri.org/2024/images/cards/Early-bird.png
 masthead-color: dark
 redirect_from:
-  - /conference-2024
-  - /24
-published: false
+- /conference-2024
+- /24
+published: true
 ---
 
 {%- assign homepage = site.data.year_2024.homepage -%}
@@ -14,13 +14,14 @@ published: false
 <main class="">
 
   <!-- Overarching hero content grouping / section -->
-  <section id="hero" class="overlay__outer pa0" style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
+  <section id="hero" class="overlay__outer pa0"
+    style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
     <div class="overlay__inner overflow-hidden">
       <!-- Event promo component -->
       {% if homepage.event-promo-top-of-page == true %}
-        <div class="upcoming-events-outer">
-          {% include_relative conf-page-partials/upcoming-mini.html %}
-        </div>
+      <div class="upcoming-events-outer">
+        {% include_relative conf-page-partials/upcoming-mini.html %}
+      </div>
       {% endif %}
       <div class="container color-white">
         <!-- Hero component -->
@@ -54,6 +55,9 @@ published: false
 
     </div>
   </section>
+
+  <!-- Pricing component -->
+  {% include_relative conf-page-partials/pricing-table.html %}
 
   <!-- Speakers component -->
   {% include_relative conf-page-partials/speakers.html %}
