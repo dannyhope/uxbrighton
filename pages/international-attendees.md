@@ -10,4 +10,4 @@ If you’re interested in attending a UX Brighton event and need a visa to tra
 
 ## Tax
 
-Sorry, you have to pay VAT on tickets because reasons.
+Sorry, you have to pay VAT on tickets as the event is taking place in the UK.
