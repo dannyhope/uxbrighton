@@ -24,7 +24,9 @@
         "GitHub.copilot@prerelease",
         "GitHub.copilot-chat@prerelease",
         "Codium.codium",
-        "spmeesseman.vscode-taskexplorer"
+        "spmeesseman.vscode-taskexplorer",
+        "EditorConfig.EditorConfig",
+        "sissel.netlify-redirects"
       ]
     }
   },

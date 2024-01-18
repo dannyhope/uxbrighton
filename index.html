@@ -8,24 +8,27 @@ masthead-color: dark
 {%- assign homepage = site.data.year_2024.homepage -%}
 {%- assign current_year = 2024 -%}
 
-<main class="">
+  <main class="">
 
   <!-- Overarching hero content grouping / section -->
-  <section id="hero" class="overlay__outer pa0"
+  <section
+    id="hero"
+    class="overlay__outer pa0"
     style="background: url('{{ homepage.hero.global.image }}') center center no-repeat #000; background-size: cover;">
     <div class="overlay__inner overflow-hidden">
       <!-- Event promo component -->
       {% if homepage.event-promo-top-of-page == true %}
-      <div class="upcoming-events-outer">
-        {% include_relative {{current_year}}/conf-page-partials/upcoming-mini.html %}
-      </div>
+        <div class="upcoming-events-outer">
+          {% include_relative {{current_year}}/conf-page-partials/upcoming-mini.html %}
+        </div>
       {% endif %}
       <div class="container color-white">
         <!-- Hero component -->
         {% include_relative {{current_year}}/conf-page-partials/hero.html %}
       </div>
     </div>
-  </section>
+</section>
+
 
   <!-- In-page section navigation -->
   {% include_relative {{current_year}}/conf-page-partials/in-page-nav.html %}
@@ -36,37 +39,37 @@ masthead-color: dark
 
       <div class="row gutters__container mt0">
         <!-- Overview component -->
-        {% include_relative {{current_year}}/conf-page-partials/overview.html %}
+      {% include_relative {{current_year}}/conf-page-partials/overview.html %}
         <!-- Sticky 'aside' call-to-action component -->
         {% include_relative {{current_year}}/conf-page-partials/aside-cta.html %}
-      </div>
+    </div>
 
       <!-- Testimonial (overview section) component -->
-      {% include_relative {{current_year}}/conf-page-partials/testimonial-overview.html %}
+    {% include_relative {{current_year}}/conf-page-partials/testimonial-overview.html %}
 
       <!-- Travel and accommodation component -->
-      {% include_relative {{current_year}}/conf-page-partials/travel-and-accommodation.html %}
+    {% include_relative {{current_year}}/conf-page-partials/travel-and-accommodation.html %}
 
       <!-- Pre-party component -->
       {% include_relative {{current_year}}/conf-page-partials/pre-party.html %}
 
     </div>
-  </section>
+</section>
 
   <!-- Pricing component -->
-  {% include_relative {{current_year}}/conf-page-partials/pricing-table.html %}
+{% include_relative {{current_year}}/conf-page-partials/pricing-table.html %}
 
   <!-- Speakers component -->
-  {% include_relative {{current_year}}/conf-page-partials/speakers.html %}
+{% include_relative {{current_year}}/conf-page-partials/speakers.html %}
 
   <!-- Highlights (past) component -->
-  {% include_relative {{current_year}}/conf-page-partials/highlights.html %}
+{% include_relative {{current_year}}/conf-page-partials/highlights.html %}
 
   <!-- Sponsors component -->
-  {% include_relative {{current_year}}/conf-page-partials/sponsors.html %}
+{% include_relative {{current_year}}/conf-page-partials/sponsors.html %}
 
   <!-- Workshops component -->
-  {% include_relative {{current_year}}/conf-page-partials/workshop.html %}
+{% include_relative {{current_year}}/conf-page-partials/workshop.html %}
 
   <!-- This is this 'conference' event's structured schema data -->
   {% include schemas/schema_events_conference.html %}

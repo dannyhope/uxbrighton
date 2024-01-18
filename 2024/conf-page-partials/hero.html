@@ -19,9 +19,12 @@
   </h1>
 {% endif %}
 
-{% if (homepage.hero.hero-state == "pre") or (homepage.hero.hero-state == "during") %}
+{% if (homepage.hero.hero-state == "pre" ) or (homepage.hero.hero-state == "during" ) %}
   <h2 class="mt0 fs-l regular track-normal mb6 u1of2-over-m">
-      <span class="event-date" itemprop="startDate" content="{{ homepage.hero.global.date-time }}">{{ homepage.hero.global.date }}</span>, {{ homepage.hero.global.venue }}
+    <span
+      class="event-date"
+      itemprop="startDate"
+      content="{{ homepage.hero.global.date-time }}">{{ homepage.hero.global.date }}</span>, {{ homepage.hero.global.venue }}
   </h2>
 {% endif %}
 
@@ -34,7 +37,10 @@
 <div>
   {% if homepage.hero.hero-state == "pre" %}
     {% if homepage.hero.pre.button.url and homepage.hero.pre.button.url != '' %}
-      <a href="{{ homepage.hero.pre.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank" data-buy-ticket="conference-2024">{{ homepage.hero.pre.button.label }}</a>
+      <a
+        href="{{ homepage.hero.pre.button.url }}"
+        class="button button--large button--green weight-900 fs-l"
+        data-buy-ticket="conference-2024">{{ homepage.hero.pre.button.label }}</a>
       {% if homepage.hero.pre.button.extra-text %}
         <p class="mb0 mt1 weight-400 fs-l u2of3-over-m">{{ homepage.hero.pre.button.extra-text }}</p>
       {% endif %}
@@ -48,7 +54,11 @@
       </div>
     </div>
     {% if homepage.hero.during.button.url and homepage.hero.during.button.url != '' %}
-      <a href="{{ homepage.hero.during.button.url }}" class="button button--large button--green weight-900 mt6 fs-l" target="_blank" data-buy-ticket="conference-2025">{{ homepage.hero.during.button.label }}</a>
+      <a
+        href="{{ homepage.hero.during.button.url }}"
+        class="button button--large button--green weight-900 mt6 fs-l"
+        target="_blank"
+        data-buy-ticket="conference-2025">{{ homepage.hero.during.button.label }}</a>
       {% if homepage.hero.during.button.extra-text %}
         <p class="mb0 mt1 weight-400 fs-l u2of3-over-m">{{ homepage.hero.during.button.extra-text }}</p>
       {% endif %}
@@ -57,7 +67,11 @@
 
   {% if homepage.hero.hero-state == "post" %}
     {% if homepage.hero.post.button.url and homepage.hero.post.button.url != '' %}
-      <a href="{{ homepage.hero.post.button.url }}" class="button button--large button--green weight-900 fs-l" target="_blank" data-buy-ticket="conference-2025">{{ homepage.hero.post.button.label }}</a>
+      <a
+        href="{{ homepage.hero.post.button.url }}"
+        class="button button--large button--green weight-900 fs-l"
+        target="_blank"
+        data-buy-ticket="conference-2025">{{ homepage.hero.post.button.label }}</a>
       {% if homepage.hero.post.button.extra-text %}
         <p class="mb0 mt1 weight-400 fs-l u2of3-over-m">{{ homepage.hero.post.button.extra-text }}</p>
       {% endif %}
