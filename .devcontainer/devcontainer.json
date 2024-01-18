@@ -26,7 +26,8 @@
         "Codium.codium",
         "spmeesseman.vscode-taskexplorer",
         "EditorConfig.EditorConfig",
-        "sissel.netlify-redirects"
+        "sissel.netlify-redirects",
+        "shailen.netlify"
       ]
     }
   },
