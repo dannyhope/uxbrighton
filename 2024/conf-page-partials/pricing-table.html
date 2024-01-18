@@ -48,8 +48,8 @@
           <h3>Super Early Bird</h3>
           <p>Ends 24 Feb</p>
 
-          <!-- The 'button' class is applied to a clickable button element, which users can interact with to perform an action, such as purchasing tickets. The class likely styles the button with padding, background color, text color, border radius, and hover effects defined in the CSS. -->
-
+          {% comment %} The 'button' class is applied to a clickable button element, which users can interact with to perform an action, such as purchasing tickets. The class likely styles the button with padding, background color, text color, border radius, and hover effects defined in the CSS.{% endcomment %}
+          {% comment %} onclick="openPricingModal(event);" {% endcomment %}
           <a
             href="https://www.tickettailor.com/events/uxbrighton/1013571"
             target="_blank"
@@ -58,34 +58,39 @@
             <span class="price">&pound;175</span>
           </a>
 
-        <!-- <span class="sold">Sold</span> -->
+        {% comment %} <span class="sold">Sold</span> {% endcomment %}
         </div>
 
         <!-- Early Bird -->
         <div class="ticket-option u1of5 pr1 eh-item">
           <h3>Early Bird</h3>
-          <!-- <a href="https://www.tickettailor.com/events/uxbrighton/1013571" target="_blank"  class="button button--green weight-900 fs-l">  Buy tickets  <span class="price">&pound;227</span></a> -->
+          {% comment %}
+            <a
+            href="https://www.tickettailor.com/events/uxbrighton/1013571"
+            target="_blank"
+            class="button button--green weight-900 fs-l">
+            Buy tickets
+            <span class="price">&pound;227</span>
+            </a>
+          {% endcomment %}
           <span class="price">&pound;225</span>
         </div>
 
         <!-- Regular -->
         <div class="ticket-option u1of5 pr1 eh-item">
           <h3>Regular</h3>
-          <!-- <p>Ends 17 Oct</p> -->
           <span class="price">&pound;270</span>
         </div>
 
         <!-- Last Chance -->
         <div class="ticket-option u1of5 pr1 eh-item">
           <h3>Last Chance</h3>
-          <!-- <p>18-30 Oct</p> -->
           <span class="price">&pound;315</span>
         </div>
 
         <!-- On the Door -->
         <div class="ticket-option u1of5 pr1 eh-item">
           <h3>On the Door</h3>
-          <!-- <p>18-30 Oct</p> -->
           <span class="price">&pound;375</span>
         </div>
       </div>
