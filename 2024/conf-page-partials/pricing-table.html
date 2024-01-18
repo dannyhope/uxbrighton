@@ -25,7 +25,7 @@
     <div class="overlay__inner" style="background: transparent;">
       <div class="container color-white">
         <h2 class="fs-xxxl mb0">Buy your tickets</h2>
-        <!-- <h2 class="fs-xxxl mb0">{{ homepage.sponsors.section-title }}</h2> -->
+      <!-- <h2 class="fs-xxxl mb0">{{ homepage.sponsors.section-title }}</h2> -->
       </div>
     </div>
   </div>
@@ -34,15 +34,9 @@
     <!-- Section intro title & text... -->
     <!-- <h3 class="fs-h2 mt5">Pricing Table Subheading</h3> -->
 
-    <!-- <div class="standfirst pb2">
-      <p>Lorem ipsum dolor sit amet.</p>
-    </div> -->
+    <!-- <div class="standfirst pb2">  <p>Lorem ipsum dolor sit amet.</p></div> -->
     <!-- <h3 class="fs-h2 mt5">{{ homepage.sponsors.section-intro.title }}</h3> -->
-    <!-- <div class="standfirst pb2">
-      {{ homepage.sponsors.section-intro.lede | markdownify }}
-    </div> -->
-
-
+    <!-- <div class="standfirst pb2">  {{ homepage.sponsors.section-intro.lede | markdownify }}</div> -->
     <!-- The 'pricing-table' class is a container that groups all the pricing options together. It likely has associated CSS styles that define its appearance and layout. -->
     <div class="pricing-table">
       <div class="row mt0 eh-row">
@@ -56,23 +50,22 @@
 
           <!-- The 'button' class is applied to a clickable button element, which users can interact with to perform an action, such as purchasing tickets. The class likely styles the button with padding, background color, text color, border radius, and hover effects defined in the CSS. -->
 
-          <a href="https://www.tickettailor.com/events/uxbrighton/1013571" target="_blank"
+          <a
+            href="https://www.tickettailor.com/events/uxbrighton/1013571"
+            target="_blank"
+            onclick="openPricingModal(event);"
             class="button button--green weight-900 fs-l">
             Buy tickets
             <span class="price">&pound;175</span>
           </a>
 
-          <!-- <span class="sold">Sold</span> -->
+        <!-- <span class="sold">Sold</span> -->
         </div>
 
         <!-- Early Bird -->
         <div class="ticket-option u1of5 pr1 eh-item">
           <h3>Early Bird</h3>
-          <!-- <a href="https://www.tickettailor.com/events/uxbrighton/1013571" target="_blank"
-            class="button button--green weight-900 fs-l">
-            Buy tickets
-            <span class="price">&pound;227</span>
-          </a> -->
+          <!-- <a href="https://www.tickettailor.com/events/uxbrighton/1013571" target="_blank"  class="button button--green weight-900 fs-l">  Buy tickets  <span class="price">&pound;227</span></a> -->
           <span class="price">&pound;225</span>
         </div>
 
@@ -102,16 +95,13 @@
       <div class="discounts">
         <strong>Group discount</strong>
         <p>5+ tickets SAVE 25%</p>
-        <p>20+ tickets, contact <a href="mailto:events@uxbri.org" target="_blank">events@uxbri.org</a></p>
+        <p>20+ tickets, contact
+          <a href="mailto:events@uxbri.org" target="_blank">events@uxbri.org</a>
+        </p>
       </div>
 
       <!-- The 'special-tickets' class probably denotes a section for special ticket categories, such as student or group tickets. The associated CSS might style this section differently to draw attention to these special offers. -->
-      <!-- <div class="special-tickets">
-        <strong>Students and international attendees</strong>
-        <a href="#">Student/grad tickets</a>
-        <a href="/international">International attendees</a>
-      </div> -->
-
+      <!-- <div class="special-tickets">  <strong>Students and international attendees</strong>  <a href="#">Student/grad tickets</a>  <a href="/international">International attendees</a></div> -->
       <!-- The 'vat-info' class is likely used for displaying information about taxes (VAT) that are not included in the listed prices. The CSS for this class may style the text to be smaller or less prominent since it's often a disclaimer. -->
       <div class="vat-info">
         <p>Prices exclude VAT</p>

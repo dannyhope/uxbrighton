@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "*.html": "liquid"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "sissel.shopify-liquid",
+  "html.format.enable": false,
+  "[liquid]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.formatOnSave": true
+  },
+  "netlify.site_id": "uxbri.netlify.com",
+  "netlify.set_interval": 30000
+}
