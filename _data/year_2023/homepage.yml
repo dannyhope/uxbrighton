@@ -243,6 +243,8 @@ speakers:
           bio-title: About Stefanie
         slot-type: speaker
         slot-time: 10:35 am
+        talk-media:
+          talk-video: qejmncnEWmg
       - slot-type: break
         talk-info:
           talk-time: 11:10 am
