@@ -97,7 +97,7 @@ hero:
 overview:
   visibility: true
   pre:
-    title: Join us for our annual one-day conference!
+    title: What do UX designers, researchers and managers need to know about AI?
     lede:
       body: "The aim of this conference is to answer the question: What do UX
         practitioners need to know about AI?"
@@ -115,7 +115,7 @@ overview:
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
   during:
-    title: Join us for our annual one-day conference!
+    title: What do UX designers, researchers and managers need to know about AI?
     lede:
       body: Desirability, feasibility, and viability are the three components of a
         model for successful products — an integrated model that is often
