@@ -47,7 +47,7 @@ art-direction: |-
 
 Our speakers are individually selected from industry and academia; we make a particular effort to bring new, relevant speakers to our audiences and we have been responsible for bringing a number of now well-known speakers on to the conference circuit.
 
-- - -
+<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/Xsk7VhPgWzc" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
 <div class="row">
   <div class="u1of2-over-m left-over-m gutter-right">
