@@ -7,8 +7,9 @@
     min-height: 190px;
     color: #e6e7e8;
     text-decoration: none;
-    background: right center / contain no-repeat, #000 50%;
-    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    background: right center / contain no-repeat
+    , #000 50%;
+    padding: 1rem 1.5rem 0.5rem;
     border-radius: 1em;
   }
 
@@ -18,7 +19,7 @@
     left: 50%;
     margin: auto;
     transform: translate(-50%, -50%);
-    content: '\2023';
+    content: '\2024';
     font-size: 6em;
     line-height: 0;
   }
@@ -46,31 +47,31 @@
 </style>
 
 {% if homepage.highlights.visibility == true %}
-<section id="highlights" class="bg-grey-5">
-  <div class="container">
-    <h2 class="mb2 gutter-top">{{ homepage.highlights.title }}</h2>
-    <div class="row mt0">
-      <div class="u2of3-over-l left-over-l pr0-under-l">
-        <div class="clearfix">
-          {% for entry in homepage.highlights.video %}
-            <div class="video-box u1of2-over-m left-over-m">
-              <a href="{{ entry.url }}" style="background-image: url('{{ entry.thumbnail }}')">
-                <h3>{{ entry.title }}</h3>
-                <p>{{ entry.speaker }}</p>
-              </a>
+  <section id="highlights" class="bg-grey-5">
+    <div class="container">
+      <h2 class="mb2 gutter-top">{{ homepage.highlights.title }}</h2>
+      <div class="row mt0">
+        <div class="u2of3-over-l left-over-l pr0-under-l">
+          <div class="clearfix">
+            {% for entry in homepage.highlights.video %}
+              <div class="video-box u1of2-over-m left-over-m">
+                <a href="{{ entry.url }}" style="background-image: url('{{ entry.thumbnail }}')">
+                  <h3>{{ entry.title }}</h3>
+                  <p>{{ entry.speaker }}</p>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="u1of3-over-l right-over-l gutter-left pb3 pt3-under-s pt1">
+          <blockquote>
+            <div class="quote">
+              <p>{{ homepage.highlights.testimonial.quote }}</p>
             </div>
-          {% endfor %}
+            <div class="quotee">{{ homepage.highlights.testimonial.quotee }}</div>
+          </blockquote>
         </div>
       </div>
-      <div class="u1of3-over-l right-over-l gutter-left pb3 pt3-under-s pt1">
-        <blockquote>
-          <div class="quote">
-            <p>{{ homepage.highlights.testimonial.quote }}</p>
-          </div>
-          <div class="quotee">{{ homepage.highlights.testimonial.quotee }}</div>
-        </blockquote>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 {% endif %}

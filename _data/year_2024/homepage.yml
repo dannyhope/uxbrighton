@@ -71,7 +71,7 @@ hero:
   global:
     conference: UX Brighton 2024
     date: Friday 1 November
-    date-time: 2024-11-03T09:00
+    date-time: 2024-11-01T09:00
     venue: Brighton Dome
     image: /images/header.jpg
   pre:
@@ -97,11 +97,10 @@ hero:
 overview:
   visibility: true
   pre:
-    title: Join us for our annual one-day conference!
+    title: What do UX designers, researchers and managers need to know about AI?
     lede:
-      body: Desirability, feasibility, and viability are the three components of a
-        model for successful products — an integrated model that is often
-        carried out by segregated teams.
+      body: "The aim of this conference is to answer the question: What do UX
+        practitioners need to know about AI?"
     text:
       body: >-
         Join us for our annual conference where people from product management,
@@ -116,7 +115,7 @@ overview:
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
   during:
-    title: Join us for our annual one-day conference!
+    title: What do UX designers, researchers and managers need to know about AI?
     lede:
       body: Desirability, feasibility, and viability are the three components of a
         model for successful products — an integrated model that is often
