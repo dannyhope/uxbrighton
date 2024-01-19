@@ -1,7 +1,7 @@
 ---
 layout: generic
 title: Students
-permalink: student
+permalink: students
 seo: true
 ---
 ## Student ID
