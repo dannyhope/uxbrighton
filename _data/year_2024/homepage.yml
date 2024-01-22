@@ -438,7 +438,7 @@ speakers:
       Please keep your name badge with you if you want to leave and come back again.
   full: false
 sponsors:
-  visibility: false
+  visibility: true
   section-title: Sponsors
   section-banner: /images/sponsors-35.jpg
   section-intro:
@@ -452,7 +452,7 @@ sponsors:
       and a highly engaged audience. Well worth the trip.
     quotee: Alex Wright, Director of User Experience at the New York Times
   sponsors-headline:
-    visibility: true
+    visibility: false
     section-title: Headline Sponsor
     sponsor-details:
       name: Legal & General
@@ -468,7 +468,7 @@ sponsors:
         - link-type: facebook
           profile-url: https://www.facebook.com/legalandgeneral/
   sponsors-premium:
-    visibility: true
+    visibility: false
     section-title: Premium Sponsors
     sponsor-list:
       - name: Fresh Egg
@@ -495,7 +495,7 @@ sponsors:
             profile-url: https://www.facebook.com/jpmorgan
     show-opportunity: false
   sponsors-standard:
-    visibility: true
+    visibility: false
     section-title: Standard Sponsors
     sponsor-list:
       - name: Balsamiq
