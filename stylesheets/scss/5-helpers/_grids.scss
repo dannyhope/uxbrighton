@@ -1,3 +1,46 @@
+////////////////////////////////////
+//
+//   Flexbox Grid
+
+.flex-row {
+  display: inline-flex;
+  text-align: center;
+  align-self: stretch;
+  width: 100%;
+
+  gap: $space-m-1;
+  @include under-l {
+    gap: $space-m;
+  }
+  @include under-m {
+    gap: $space-s;
+  }
+  // @include under-s {
+  //   gap: $space-s;
+  // }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: $space-m-1;
+  @include under-l {
+    gap: $space-m;
+  }
+  @include under-m {
+    gap: $space-s;
+  }
+  // @include under-s {
+  //   gap: $space-s;
+  // }
+}
+
+////////////////////////////////////
+//
+//   Custom Grid
+
 // Not really grid, this is the centred container
 // width is set elsewhere
   .container {
@@ -22,7 +65,7 @@
   .u1of4 { width: (100% / 4);}
   .u3of4 { width: (100% / 4) * 3;}
   .u1of5 { width: (100% / 5);}
-  .u2of5 { width: (100% / 5) * 2;} 
+  .u2of5 { width: (100% / 5) * 2;}
   .u3of5 { width: (100% / 5) * 3;}
   .u4of5 { width: (100% / 5) * 4;}
   .u1of6 { width: (100% / 6);}
@@ -37,11 +80,11 @@
     $breakpoint-value: nth($breakpoint-values, $i);
     @media (min-width: $breakpoint-value + 1) {
       @for $unit_total from 1 through $grid-columns {
-        @for $unit from 1 through $unit_total - 1 { 
+        @for $unit from 1 through $unit_total - 1 {
           @if ($unit > 0) {
             .u#{$unit}of#{$unit_total}-over-#{$breakpoint} {
               width: ($unit / $unit_total) * 100%;
-            }            
+            }
           }
         }
       }
@@ -52,7 +95,7 @@
   [class*="u5of"],[class*="u6of"],[class*="u7of"],[class*="u8of"] {
     box-sizing:border-box;
   }
-  
+
   @include under-s {
     .u1of2-under-s { width: (100% / 2); }
     .u1of3-under-s { width: (100% / 3); }

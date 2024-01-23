@@ -2,114 +2,91 @@
 //
 //   Pricing Table
 
-/* Container styles */
 .pricing-table {
-  // color: var(--brand-cool-grey-80-ph, #343F44);
-  // font-family: Museo Sans;
-  // font-style: normal;
-  // font-weight: 700;
-  // line-height: 30px;
-  // letter-spacing: -0.36px;
 
   /* Ticket option styles */
   .ticket-option {
-    text-align: center;
-    // background: #fff;
-    // border: 1px solid #ddd;
-    // padding: 20px;
-    // border-radius: 5px;
-    // width: calc(20% - 20px); /* adjust the width of each option */
-    margin-top: 20px;
-    margin-bottom: 20px;
-    // box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    // transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+    width: 100%;
+    padding-top: $space-m-1;
+    padding-bottom: $space-m-1;
 
-  /* Highlight the Super Early Bird option */
-  .highlight {
-    background-color: #FFFDD8;
-  }
-
-  /* Button styles */
-  .button {
-    background-color: #00CB00;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    // display: block; /* Makes the button take the full width */
-
-    .price {
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 27px;
+    strong {
       display: block;
     }
+
+    /* By Now button styles */
+    .button {
+      .price {
+        font-weight: 600;
+        display: block;
+        white-space: nowrap;
+      }
+    }
+
+    .sold {
+      /* Figma Name: uxred +4 */
+      color: #ff7276;
+      display: inline-block;
+      border: 2px solid #ff7276;
+      border-radius: 3px;
+      padding: 5px 40px;
+      rotate: -6deg;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    /* If the viewport is under the "large" breakpoint, hide all except the highlighted ticket option */
+    @include under-l {
+      &:not(.highlight) {
+        display: none;
+      }
+    }
+
+    /* Highlight the currently available ticket option */
+    &.highlight {
+      background-color: #FFFDD8;
+      padding-left: $space-m-1;
+      padding-right: $space-m-1;
+
+      strong {
+        white-space: nowrap;
+      }
+    }
   }
+}
 
-  /* Hover effects */
-  // .ticket-option:hover, .button:hover {
-  //   transform: translateY(-5px);
-  //   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  // }
-
-  .button:hover {
-    background-color: #218838;
-  }
-
-  /* Text and other element styles */
-  h3 {
-    color: #343F44;
-    font-size: 24px;
-  }
-
-  p {
-    margin: 5px 0 15px;
-    color: #666;
-  }
-
-  /* Responsive layout */
-  // @media (max-width: 1200px) {
-  //   .ticket-option {
-  //     width: calc(33.3333% - 20px); /* 3 in a row */
-  //   }
-  // }
-
-  // @media (max-width: 768px) {
-  //   .ticket-option {
-  //     width: calc(50% - 20px); /* 2 in a row */
-  //   }
-  // }
-
-  // @media (max-width: 480px) {
-  //   .ticket-option {
-  //     width: 100%; /* Stack on small screens */
-  //   }
-  // }
-
+.pricing-details {
   /* Discounts etc. */
   .discounts, .special-tickets, .vat-info {
     text-align: center;
-    margin-top: 20px;
-    background: #fff;
-    padding: 10px;
-    // border-radius: 5px;
-    // box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: calc(100% - 40px);
-    // max-width: 1200px;
-    margin: 20px auto;
   }
 
-  /* Strong text for sections */
-  strong {
-    color: #333;
-    font-size: 18px;
-    display: block; /* Make strong behave like a block element */
-    margin-bottom: 10px;
+  .discounts ul,
+  .special-tickets ul {
+    list-style-type: none;
+    padding: 0;
+
+    li:first-child {
+      margin-left: 0;
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+
+    li {
+      display: inline-block;
+      margin-left: 15px;
+      margin-right: 15px;
+
+      @include under-l {
+        display: block;
+      }
+
+      span {
+        color: red;
+      }
+    }
   }
 }
 

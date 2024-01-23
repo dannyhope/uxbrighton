@@ -1,15 +1,4 @@
 <style>
-  .pricing-table span.sold {
-    /* Figma Name: uxred +4 */
-    color: #ff7276;
-    display: inline-block;
-    border: 2px solid #ff7276;
-    border-radius: 3px;
-    padding: 5px 40px;
-    rotate: -6deg;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
 
   /* Fix for "Buy Tikets" in nav having red underline */
   .nav--in-page li.nav-item--tickets a:hover:before {
@@ -31,84 +20,76 @@
   </div>
 
   <div class="overlay__after container bg-white">
-    <!-- Section intro title & text... -->
-    <!-- <h3 class="fs-h2 mt5">Pricing Table Subheading</h3> -->
-
-    <!-- <div class="standfirst pb2">  <p>Lorem ipsum dolor sit amet.</p></div> -->
-    <!-- <h3 class="fs-h2 mt5">{{ homepage.sponsors.section-intro.title }}</h3> -->
-    <!-- <div class="standfirst pb2">  {{ homepage.sponsors.section-intro.lede | markdownify }}</div> -->
-    <!-- The 'pricing-table' class is a container that groups all the pricing options together. It likely has associated CSS styles that define its appearance and layout. -->
-    <div class="pricing-table">
-      <div class="row mt0 eh-row">
-
+    <div class="pricing-table mt5">
+      <div class="flex-row pl0 pr0">
 
         <!-- Super Early Bird -->
-        <!-- This 'ticket-option' class represents an individual ticket option within the pricing table. The 'highlight' class suggests this option may be visually distinguished from others (e.g., a different background color). The classes 'u1of5-over-l', 'u1of4-under-m', 'u1of3-over-s', and 'u1of2' are likely part of a responsive grid system controlling the width of the element at various viewport sizes. The 'pr1' class probably adds padding to the right, and 'eh-item' could be a class related to equal height behavior or flexbox alignment. -->
-        <div class="ticket-option u1of5 pr1 eh-item highlight">
-          <h3>Super Early Bird</h3>
-          <p>Ends 24 Feb</p>
-
-          {% comment %} The 'button' class is applied to a clickable button element, which users can interact with to perform an action, such as purchasing tickets. The class likely styles the button with padding, background color, text color, border radius, and hover effects defined in the CSS.{% endcomment %}
+        <div class="ticket-option flex-column highlight">
+          <strong class="fs-h3 ma0 pa0">Super Early Bird</strong>
           {% comment %} onclick="openPricingModal(event);" {% endcomment %}
           <a
             href="https://www.tickettailor.com/events/uxbrighton/1013571"
             target="_blank"
-            class="button button--green weight-900 fs-l">
+            onclick="openPricingModal(event);"
+            class="button button--green weight-900 fs-l ph1 nowrap">
             Buy tickets
-            <span class="price">&pound;175</span>
+            <span class="price weight-600 fs-m">&pound;175</span>
           </a>
-
+          <p class="weight-600 ma0 pa0">Ends 24 Feb</p>
         {% comment %} <span class="sold">Sold</span> {% endcomment %}
         </div>
 
         <!-- Early Bird -->
-        <div class="ticket-option u1of5 pr1 eh-item">
-          <h3>Early Bird</h3>
-          {% comment %}
-            <a
-            href="https://www.tickettailor.com/events/uxbrighton/1013571"
-            target="_blank"
-            class="button button--green weight-900 fs-l">
-            Buy tickets
-            <span class="price">&pound;227</span>
-            </a>
-          {% endcomment %}
+        <div class="ticket-option flex-column">
+          <strong class="fs-h3 ma0 pa0">Early Bird</strong>
           <span class="price">&pound;225</span>
         </div>
 
         <!-- Regular -->
-        <div class="ticket-option u1of5 pr1 eh-item">
-          <h3>Regular</h3>
+        <div class="ticket-option flex-column">
+          <strong class="fs-h3 ma0 pa0">Regular</strong>
           <span class="price">&pound;270</span>
         </div>
 
         <!-- Last Chance -->
-        <div class="ticket-option u1of5 pr1 eh-item">
-          <h3>Last Chance</h3>
+        <div class="ticket-option flex-column">
+          <strong class="fs-h3 ma0 pa0">Last Chance</strong>
           <span class="price">&pound;315</span>
         </div>
 
         <!-- On the Door -->
-        <div class="ticket-option u1of5 pr1 eh-item">
-          <h3>On the Door</h3>
+        <div class="ticket-option flex-column">
+          <strong class="fs-h3 ma0 pa0">On the Door</strong>
           <span class="price">&pound;375</span>
         </div>
       </div>
+    </div>
 
-      <!-- The 'discounts' class is likely a section within the pricing table that provides information about available discounts. It may have styles that format the text and layout to make this information stand out to the user. -->
-      <div class="discounts">
+    <div class="pricing-details">
+      <div class="discounts mt5">
         <strong>Group discount</strong>
-        <p>5+ tickets SAVE 20%</p>
-        <p>10+ tickets SAVE 25%</p>
-        <p>20+ tickets, contact
-          <a href="mailto:events@uxbri.org" target="_blank">events@uxbri.org</a>
-        </p>
+        <ul>
+          <li>5+ tickets
+            <span>SAVE 20%</span>
+          </li>
+          <li>10+ tickets
+            <span>SAVE 25%</span>
+          </li>
+          <li>20+ tickets, contact
+            <a href="mailto:events@uxbri.org" target="_blank">events@uxbri.org</a>
+          </li>
+        </ul>
       </div>
 
-      <!-- The 'special-tickets' class probably denotes a section for special ticket categories, such as student or group tickets. The associated CSS might style this section differently to draw attention to these special offers. -->
-      <!-- <div class="special-tickets">  <strong>Students and international attendees</strong>  <a href="#">Student/grad tickets</a>  <a href="/international">International attendees</a></div> -->
-      <!-- The 'vat-info' class is likely used for displaying information about taxes (VAT) that are not included in the listed prices. The CSS for this class may style the text to be smaller or less prominent since it's often a disclaimer. -->
-      <div class="vat-info">
+      <div class="special-tickets mt5">
+        <strong>Students and international attendees</strong>
+        <ul>
+          <li><a href="/students">Student/grad tickets</a></li>
+          <li><a href="/international">International attendees</a></li>
+        </ul>
+      </div>
+
+      <div class="vat-info mt5 mb5">
         <p>Prices exclude VAT</p>
       </div>
 
