@@ -10,4 +10,4 @@ If you have purchased a student ticket please ensure you have a valid student ID
 
 ## Groups
 
-Your university can purchase 20+ student tickets for a discount. Contact [events@uxbri.org](mailto:events@uxbri.org) for more information.
+Does your university want to purchase 20+ student tickets? Contact [events@uxbri.org](mailto:events@uxbri.org)
