@@ -166,30 +166,12 @@
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="/scripts/vendors/TTWidget.js"></script>
 <script src="/scripts/scripts-min.js"></script>
 <script>try { $.each(q,function(i,f){$(f)});} catch(e) {}</script>
 
 {%- comment %} Email subscription {% endcomment %}
 <script src="/scripts/modules/emailSubscription.js"></script>
-
-
-
-<script src="https://cdn.tickettailor.com/js/TTWidget.js" crossorigin="anonymous"></script>
-{%- comment %} TODO: GE - Clean me up! {% endcomment %}
-<script>
-  function openPricingModal(event) {
-  if (
-    event.ctrlKey ||
-    event.shiftKey ||
-    event.metaKey || // apple
-    (event.button && event.button == 1) // middle click, >IE9 + everyone else
-    ){
-        return;
-    }
-    event.preventDefault();
-    TTWidget.loadEvent('UXBrighton',1013571);
-}
-</script>
 
 {%- comment %} Jobs unviewed indicator logic {% endcomment %}
 {% include jobs/jobs-unviewed-indicator.html %}
