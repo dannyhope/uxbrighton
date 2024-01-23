@@ -1086,13 +1086,8 @@ $(function () {
 
 
   $('[data-target="ticket-tailor-modal"]').on('click', function (e) {
-    console.log("TTLink Clicked", e);
-
     tt_name = this.getAttribute('data-tickettailor-name');
     tt_id = this.getAttribute('data-tickettailor-id');
-
-    console.log("tt_id", tt_name);
-    console.log("tt_id", tt_id);
 
     if (
       e.ctrlKey ||

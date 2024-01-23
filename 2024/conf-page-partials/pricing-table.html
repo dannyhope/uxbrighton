@@ -1,100 +1,99 @@
 <style>
 
-  /* Fix for "Buy Tikets" in nav having red underline */
-  .nav--in-page li.nav-item--tickets a:hover:before {
-    background: none;
-  }
-</style>
+/* Fix for "Buy Tikets" in nav having red underline */
 
 
-<section id="tickets">
+/*
+   .nav--in-page li.nav-item--tickets a:hover:before {
+   background: none;
+   }
+*/</style><section id="tickets">
 
-  <!-- Section image and title... -->
-  <div class="overlay__outer" style="background-image: url('{{ homepage.sponsors.section-banner }}');">
-    <div class="overlay__inner" style="background: transparent;">
-      <div class="container color-white">
-        <h2 class="fs-xxxl mb0">Buy your tickets</h2>
-      <!-- <h2 class="fs-xxxl mb0">{{ homepage.sponsors.section-title }}</h2> -->
+<!-- Section image and title... -->
+<div class="overlay__outer" style="background-image: url('{{ homepage.sponsors.section-banner }}');">
+  <div class="overlay__inner" style="background: transparent;">
+    <div class="container color-white">
+      <h2 class="fs-xxxl mb0">Buy your tickets</h2>
+    <!-- <h2 class="fs-xxxl mb0">{{ homepage.sponsors.section-title }}</h2> -->
+    </div>
+  </div>
+</div>
+
+<div class="overlay__after container bg-white">
+  <div class="pricing-table mt5">
+    <div class="flex-row pl0 pr0">
+
+      <!-- Super Early Bird -->
+      <div class="ticket-option flex-column highlight">
+        <strong class="fs-h3 ma0 pa0">Super Early Bird</strong>
+        {% comment %} onclick="openPricingModal(event);" {% endcomment %}
+        <a
+          href="https://www.tickettailor.com/events/uxbrighton/1013571"
+          target="_blank"
+          data-target="ticket-tailor-modal"
+          data-tickettailor-name="UXBrighton"
+          data-tickettailor-id="1013571"
+          class="button button--green weight-900 fs-l ph1 nowrap">
+          Buy tickets
+          <span class="price weight-600 fs-m">&pound;175</span>
+        </a>
+        <p class="weight-600 ma0 pa0">Ends 24 Feb</p>
+      {% comment %} <span class="sold">Sold</span> {% endcomment %}
+      </div>
+
+      <!-- Early Bird -->
+      <div class="ticket-option flex-column">
+        <strong class="fs-h3 ma0 pa0">Early Bird</strong>
+        <span class="price">&pound;225</span>
+      </div>
+
+      <!-- Regular -->
+      <div class="ticket-option flex-column">
+        <strong class="fs-h3 ma0 pa0">Regular</strong>
+        <span class="price">&pound;270</span>
+      </div>
+
+      <!-- Last Chance -->
+      <div class="ticket-option flex-column">
+        <strong class="fs-h3 ma0 pa0">Last Chance</strong>
+        <span class="price">&pound;315</span>
+      </div>
+
+      <!-- On the Door -->
+      <div class="ticket-option flex-column">
+        <strong class="fs-h3 ma0 pa0">On the Door</strong>
+        <span class="price">&pound;375</span>
       </div>
     </div>
   </div>
 
-  <div class="overlay__after container bg-white">
-    <div class="pricing-table mt5">
-      <div class="flex-row pl0 pr0">
-
-        <!-- Super Early Bird -->
-        <div class="ticket-option flex-column highlight">
-          <strong class="fs-h3 ma0 pa0">Super Early Bird</strong>
-          {% comment %} onclick="openPricingModal(event);" {% endcomment %}
-          <a
-            href="https://www.tickettailor.com/events/uxbrighton/1013571"
-            target="_blank"
-            data-target="ticket-tailor-modal"
-            data-tickettailor-name="UXBrighton"
-            data-tickettailor-id="1013571"
-            class="button button--green weight-900 fs-l ph1 nowrap">
-            Buy tickets
-            <span class="price weight-600 fs-m">&pound;175</span>
-          </a>
-          <p class="weight-600 ma0 pa0">Ends 24 Feb</p>
-        {% comment %} <span class="sold">Sold</span> {% endcomment %}
-        </div>
-
-        <!-- Early Bird -->
-        <div class="ticket-option flex-column">
-          <strong class="fs-h3 ma0 pa0">Early Bird</strong>
-          <span class="price">&pound;225</span>
-        </div>
-
-        <!-- Regular -->
-        <div class="ticket-option flex-column">
-          <strong class="fs-h3 ma0 pa0">Regular</strong>
-          <span class="price">&pound;270</span>
-        </div>
-
-        <!-- Last Chance -->
-        <div class="ticket-option flex-column">
-          <strong class="fs-h3 ma0 pa0">Last Chance</strong>
-          <span class="price">&pound;315</span>
-        </div>
-
-        <!-- On the Door -->
-        <div class="ticket-option flex-column">
-          <strong class="fs-h3 ma0 pa0">On the Door</strong>
-          <span class="price">&pound;375</span>
-        </div>
-      </div>
+  <div class="pricing-details">
+    <div class="discounts mt5">
+      <strong>Group discount</strong>
+      <ul>
+        <li>5+ tickets
+          <span>SAVE 20%</span>
+        </li>
+        <li>10+ tickets
+          <span>SAVE 25%</span>
+        </li>
+        <li>20+ tickets, contact
+          <a href="mailto:events@uxbri.org" target="_blank">events@uxbri.org</a>
+        </li>
+      </ul>
     </div>
 
-    <div class="pricing-details">
-      <div class="discounts mt5">
-        <strong>Group discount</strong>
-        <ul>
-          <li>5+ tickets
-            <span>SAVE 20%</span>
-          </li>
-          <li>10+ tickets
-            <span>SAVE 25%</span>
-          </li>
-          <li>20+ tickets, contact
-            <a href="mailto:events@uxbri.org" target="_blank">events@uxbri.org</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="special-tickets mt5">
-        <strong>Students and international attendees</strong>
-        <ul>
-          <li><a href="/students">Student/grad tickets</a></li>
-          <li><a href="/international">International attendees</a></li>
-        </ul>
-      </div>
-
-      <div class="vat-info mt5 mb5">
-        <p>Prices exclude VAT</p>
-      </div>
-
+    <div class="special-tickets mt5">
+      <strong>Students and international attendees</strong>
+      <ul>
+        <li><a href="/students">Student/grad tickets</a></li>
+        <li><a href="/international">International attendees</a></li>
+      </ul>
     </div>
+
+    <div class="vat-info mt5 mb5">
+      <p>Prices exclude VAT</p>
+    </div>
+
   </div>
-</section>
+</div></section>
