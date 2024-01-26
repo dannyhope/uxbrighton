@@ -2,9 +2,9 @@
 
 # Install OS packages
 sudo apt-get update
-sudo apt-get install -y python3.11-venv python3-pip
+sudo apt-get install --upgrade -y python3 python3-venv python3-pip
 
-# Update NPM 
+# Update NPM
 npm install -g npm@latest
 
 # Update Bundler

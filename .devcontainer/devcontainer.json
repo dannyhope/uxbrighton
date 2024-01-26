@@ -9,25 +9,19 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "ms-python.python",
+        "ms-python.black-formatter",
         "sissel.shopify-liquid",
         "Shopify.ruby-lsp",
-        "donjayamanne.python-environment-manager",
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "ms-python.black-formatter",
         "Gruntfuggly.todo-tree",
-        "figma.figma-vscode-extension",
         "dbaeumer.vscode-eslint",
         "wholroyd.jinja",
-        "ms-vscode-remote.remote-containers",
-        "ms-edgedevtools.vscode-edge-devtools",
         "GitHub.copilot@prerelease",
         "GitHub.copilot-chat@prerelease",
-        "Codium.codium",
-        "spmeesseman.vscode-taskexplorer",
         "EditorConfig.EditorConfig",
         "sissel.netlify-redirects",
-        "shailen.netlify"
+        "shailen.netlify",
+        "bierner.github-markdown-preview",
       ]
     }
   },
