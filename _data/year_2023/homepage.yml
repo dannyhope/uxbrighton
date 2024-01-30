@@ -210,6 +210,8 @@ speakers:
               profile-url: https://www.linkedin.com/in/alicechelliwell/
         slot-type: speaker
         slot-time: 10:00 am
+        talk-media:
+          talk-video: JuKEbtHJ3bc
       - talk-info:
           talk-time: 10:35 am
           talk-title: "You’re doing it wrong: a celebration of ‘worst’ practices"
