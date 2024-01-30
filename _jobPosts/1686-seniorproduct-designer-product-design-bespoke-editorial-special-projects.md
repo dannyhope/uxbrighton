@@ -38,11 +38,21 @@
 		"shortId": "yYVXZKu3",
 		"uuid": "7341a138-4797-4dd6-811a-87f35db508c0"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-01-29T14:03:55.410Z",
-		"source": "https://jobs.workable.com/view/1aiMDo37wdw2k9owvGmXDG/senior%2Fproduct-designer%2C-product-design-(bespoke-editorial-%26-special-projects)-in-victoria-at-the-telegraph"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			},
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent, Full-time",
+		"textDescription": "Full-time, Permanent"
 	},
 	"applicationUri": "https://jobs.workable.com/view/1aiMDo37wdw2k9owvGmXDG/senior%2Fproduct-designer%2C-product-design-(bespoke-editorial-%26-special-projects)-in-victoria-at-the-telegraph",
 	"applicationType": "link",
