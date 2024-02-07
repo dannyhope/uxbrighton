@@ -9,8 +9,8 @@ stub: true
 price: £149 + VAT
 conference: false
 upcoming: false
-published: true
-seo: true
+published: false
+seo: false
 ---
 
 - Tuesday 10th of March (1 day)
