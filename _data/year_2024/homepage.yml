@@ -564,14 +564,14 @@ highlights:
   visibility: true
   title: Highlights from previous years
   video:
+    - url: https://youtu.be/JuKEbtHJ3bc
+      thumbnail: /images/alice-helliwell-youtube-thumbnail-.png
+      alt: UX and Forecasting - James Woudhuysen
     - url: https://youtu.be/qejmncnEWmg
       thumbnail: /images/stefanie-posavec-youtube-thumbnail.png
       alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+    - url: https://youtu.be/n-CE2KPgCk4
+      thumbnail: /images/mark-edgington-youtube-thumbnail-.png
       alt: Top Tasks - Gerry McGovern
     - alt: Atomic UX - Daniel Pidcock
       thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
