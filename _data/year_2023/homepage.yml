@@ -671,22 +671,22 @@ highlights:
   title: Highlights from previous years
   video:
     - url: https://youtu.be/rhr4OIgYQs0
-      thumbnail: ""
+      thumbnail: /images/avoiding-the-agency-trap-janna-bastow-video-thumbnail.png
       alt: ResearchOps - Kate Towsey
       title: "Avoiding the Agency Trap "
       speaker: "Janna Bastow   "
     - url: https://youtu.be/uDQeQteiBIg
-      thumbnail: ""
+      thumbnail: /images/arrogance-confidence-in-design...redux-jonty-sharples-video-thumbnail.png
       alt: UX and Forecasting - James Woudhuysen
       title: "Arrogance & Confidence in Design...Redux "
       speaker: Jonty Sharples
     - url: https://youtu.be/zNfoSKIobK8
-      thumbnail: ""
+      thumbnail: /images/trade-offs-lucy-spence-video-thumbnail.png
       alt: Top Tasks - Gerry McGovern
       title: "Trade offs "
       speaker: Lucy Spence
     - alt: Atomic UX - Daniel Pidcock
-      thumbnail: ""
+      thumbnail: /images/you-don-t-get-anyone-to-do-anything-matt-lemay-video-thumbnail.png
       url: https://youtu.be/ue0WquKJtqo
       title: "YOU DON'T \"GET\" ANYONE TO DO ANYTHING "
       speaker: "Matt LeMay "
