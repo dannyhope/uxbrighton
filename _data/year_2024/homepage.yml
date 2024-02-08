@@ -499,7 +499,7 @@ sponsors:
     section-title: Standard Sponsors
     sponsor-list:
       - name: JS Bin
-        logo: /images/balsamiq-logo-noborder-screen.svg
+        logo: /images/jsbin-1-.svg
         url: https://jsbin.com/
         summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
           folk test snippets of code, within some context, and debug the code
