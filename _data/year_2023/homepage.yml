@@ -670,21 +670,21 @@ highlights:
   visibility: true
   title: Highlights from previous years
   video:
-    - url: https://youtu.be/rz7sy81Yg5E
+    - url: https://youtu.be/JuKEbtHJ3bc
       thumbnail: /images/researchops-kate-towsey-thumbnail.jpg
       alt: ResearchOps - Kate Towsey
-      title: ResearchOps
-      speaker: Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
+      title: "What is Creativity?  "
+      speaker: Alice Helliwell
+    - url: " https://youtu.be/rz7sy81Yg5E"
       thumbnail: /images/ux-and-forecasting-james-woudhuysen-thumbnail.jpg
       alt: UX and Forecasting - James Woudhuysen
-      title: UX & Forecasting
-      speaker: James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
+      title: "You’re doing it wrong: a celebration of ‘worst’ practices "
+      speaker: Stefanie Posavec
+    - url: https://youtu.be/n-CE2KPgCk4
       thumbnail: /images/top-tasks-gerry-mcgovern-thumbnail.jpg
       alt: Top Tasks - Gerry McGovern
-      title: Top Tasks
-      speaker: Gerry McGovern
+      title: " Enabling Creativity: Specific ideas to help your team flourish "
+      speaker: Mark Edgington
     - alt: Atomic UX - Daniel Pidcock
       thumbnail: /images/atomic-ux-daniel-pidcock-thumbnail.jpg
       url: https://youtu.be/h9s3DrImGXA
