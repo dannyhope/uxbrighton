@@ -498,15 +498,13 @@ sponsors:
     visibility: false
     section-title: Standard Sponsors
     sponsor-list:
-      - name: Balsamiq
+      - name: JS Bin
         logo: /images/balsamiq-logo-noborder-screen.svg
-        url: https://balsamiq.com/
-        summary: Balsamiq is the maker of the industry-leading rapid wireframing
-          software that combines the simplicity of paper sketching with the
-          power of a digital tool so that teams can focus on what's important.
-        links:
-          - link-type: twitter
-            profile-url: https://twitter.com/balsamiq
+        url: https://jsbin.com/
+        summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
+          folk test snippets of code, within some context, and debug the code
+          collaboratively.
+        links: []
       - name: Brightec
         logo: /images/rsz_brightec_logo_2019_1-1-.jpg
         url: https://www.brightec.co.uk/
