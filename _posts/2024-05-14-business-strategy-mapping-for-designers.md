@@ -1,8 +1,13 @@
 ---
 layout: event-page
 title: Business Strategy Mapping for Designers
+description: A workshop to bring clarity to the business strategy at your
+  organisation, empowering you to have more business impact and influence
+permalink: business-strategy-mapping-for-designers
+redirect_from:
+  - workshop
 event-date: 2024-05-14
-venue: TBA
+venue: PLATF9RM
 ticket:
   state: Ticketed
 conference: false
