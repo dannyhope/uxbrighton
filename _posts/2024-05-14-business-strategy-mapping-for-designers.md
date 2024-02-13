@@ -7,9 +7,12 @@ permalink: business-strategy-mapping-for-designers
 redirect_from:
   - workshop
 event-date: 2024-05-14
+start: 10am
 venue: PLATF9RM
 ticket:
   state: Ticketed
+  link: https://app.tickettailor.com/events/uxbrighton/1156887
+  price: 375-560
 conference: false
 upcoming: true
 published: false
@@ -57,3 +60,42 @@ By the end of the day you’ll have greater confidence in how business strategy 
 [Tom](https://www.linkedin.com/in/thomasprioruk/) is an independent [Digital Product Designer and Design Strategist](https://www.thomasprior.co.uk/). He's spent nearly 20 years working with organisations you've never heard of (like Cannes Lions and Kuoni), and a handful you probably have (like Virgin Holidays, Clearleft, and Save The Children).
 
 Tom passionately believes that a little business acumen can go a long way for designers. In 2020 he started Designers in Business (now [Designers With Impact](https://www.designerswithimpact.com/)), a newsletter and podcast aimed at helping fellow designers build more impact in business, as collaborators, and for people + planet. He’s also a graduate of the d.MBA business school for designers, and co-hosts the Business Design Teardown podcast.
+
+## What people have said about UX Brighton workshops
+
+“Great workshop – it exceeded all my expectations!”\
+—Caroline Owen
+
+“The trainer was lovely, inspiring and very professional. The way she both shared us her insights and got us working together served the purpose perfectly.”\
+—Heikki
+
+“Helped me understand and share experiences with other UXers.”\
+—Paul Swain
+
+“Sound, focussed and practical advice about preparing for, facilitating and then following-up on workshops. Alison was a fun, enthusiastic and knowledgeable tutor. Recommended :-)”\
+—Patrick Sansom
+
+“Really insightful workshop. It was useful to have practical examples rather than just an overview”\
+—Tracy Godding
+
+## Contact Information
+
+For inquiries and assistance, please contact [events@uxbri.org](mailto:events@uxbri.org).
+
+## Cancellation policy and refunds
+
+\[boilerplate?]
+
+## Schedule
+
+10:00 arrive
+
+10:30 kick-off
+
+12:30 lunch
+
+2:30 break
+
+5:00 done
+
+**Ticket price includes lunch, refreshments and all materials.**
