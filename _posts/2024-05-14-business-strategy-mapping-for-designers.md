@@ -57,6 +57,8 @@ By the end of the day you’ll have greater confidence in how business strategy 
 
 ## About Tom
 
+<img src="/images/unnamed-1.jpg" alt="Photo of Tom Prior" class="image-align-right"/>
+
 [Tom](https://www.linkedin.com/in/thomasprioruk/) is an independent [Digital Product Designer and Design Strategist](https://www.thomasprior.co.uk/). He's spent nearly 20 years working with organisations you've never heard of (like Cannes Lions and Kuoni), and a handful you probably have (like Virgin Holidays, Clearleft, and Save The Children).
 
 Tom passionately believes that a little business acumen can go a long way for designers. In 2020 he started Designers in Business (now [Designers With Impact](https://www.designerswithimpact.com/)), a newsletter and podcast aimed at helping fellow designers build more impact in business, as collaborators, and for people + planet. He’s also a graduate of the d.MBA business school for designers, and co-hosts the Business Design Teardown podcast.
