@@ -92,7 +92,7 @@ For inquiries and assistance, please contact [events@uxbri.org](mailto:events@ux
 
 10:30 kick-off
 
-12:30 lunch
+12:30 lunch (provided)
 
 2:30 break
 
