@@ -49,6 +49,12 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"remote",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://jobs.workable.com/view/4PEypYoWkr7gXsygvCC7MB/hybrid-product-designer-in-london-at-two",
 	"applicationType": "link",
 	"shortDescription": "About Two Two is bringing the very best of B2C e-commerce- to B2B. We’re’ passionate about building solutions that enable B2B Merchants to sell more, faster, and more efficiently. Growing 30",

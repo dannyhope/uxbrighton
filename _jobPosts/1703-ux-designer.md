@@ -50,12 +50,12 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-08T14:25:05.328Z",
-		"source": "https://careers.thomsonreuters.com/us/en/job/THTTRUUSJREQ176084EXTERNALENUS/UX-Designer?utm_source=indeed&utm_medium=phenom-feeds"
-	},
+	"tags": [
+		"design",
+		"mid",
+		"remote",
+		"junior"
+	],
 	"applicationUri": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/login?redirect=%2FExternal_Career_Site%2Fjob%2FGBR-London-5-Canada-Square%2FUX-Designer_JREQ176084-1%2Fapply%3Futm_source%3Dindeed%26utm_medium%3Dphenom-feeds%26utm_source%3Dindeed%26utm_medium%3Dphenom-feeds%26source%3DAPPLICANT_SOURCE-3-993",
 	"applicationType": "link",
 	"shortDescription": "We're' hiring a UX Designer for our team in London! As a User Experience Professional for Thomson Reuters Legal, you will be tasked with creating and communicating designs for our next generation of",

@@ -50,15 +50,13 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-08T14:16:10.240Z",
-		"source": "https://boards.eu.greenhouse.io/heliosx/jobs/4288916101?gh_jid=4288916101"
-	},
+	"tags": [
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://boards.eu.greenhouse.io/heliosx/jobs/4288916101?gh_jid=4288916101#app",
 	"applicationType": "link",
 	"shortDescription": "We are HeliosX. A group of health tech companies on an ambitious mission to change the way healthcare is delivered. We believe everyone should have access to high-quality-, affordable healthcare to",

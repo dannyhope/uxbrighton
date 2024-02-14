@@ -49,12 +49,10 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-02-08T15:57:43.159Z",
-		"source": "https://www.google.com/about/careers/applications/jobs/results/75567666191835846-staff-ux-designer/?src=Online/Job%20Board/indeed&utm_source=indeed&utm_medium=job-posting"
-	},
+	"tags": [
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://www.google.com/about/careers/applications/apply/4b887591-61c3-483b-b841-78212142f137/form",
 	"applicationType": "link",
 	"shortDescription": "About the job Design and user experience (UX) are at the forefront of everything we do. The job of an Interaction Designer is to envision how people experience our products and bring that vision to",

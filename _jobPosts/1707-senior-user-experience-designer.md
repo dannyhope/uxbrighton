@@ -53,6 +53,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://careers.avanade.com/jobs/ApplicationMethods?jobId=73616",
 	"applicationType": "link",
 	"shortDescription": "Introduction Are you a user experience designer who is passionate about creating digital products and services that make a measurable impact on people's' everyday lives? Do you feel frustrated that",

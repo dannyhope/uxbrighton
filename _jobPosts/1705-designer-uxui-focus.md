@@ -59,6 +59,12 @@
 		"minValue": 42000,
 		"maxValue": 42000
 	},
+	"tags": [
+		"remote",
+		"design",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://physitrack.teamtailor.com/jobs/3486385-designer-ux-ui-focus?ittk=ANNOKVZDUB",
 	"applicationType": "link",
 	"shortDescription": "About Physitrack At Physitrack our Mission is to elevate the world's' wellbeing. We’re’ a global digital healthcare provider with team members of 14 nationalities on four continents, customers in 17",

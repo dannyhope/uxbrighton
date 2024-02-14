@@ -54,6 +54,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://livenation.wd1.myworkdayjobs.com/en-US/LNExternalSite/login?redirect=%2Fen-US%2FLNExternalSite%2Fjob%2FLondon-United-Kingdom%2FLead-Product-Designer--Enterprise_JR-66340-1%2Fapply",
 	"applicationType": "link",
 	"shortDescription": "The product and team Ticketmaster’s’ enterprise platform that enables creating and managing worldwide events. Many great details go into each event: from planning to sales, managing entry during the",

@@ -45,15 +45,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-10T14:04:19.093Z",
-		"source": "https://careers.bark.com/jobs/3600643-senior-product-designer"
-	},
+	"tags": [
+		"senior",
+		"remote",
+		"design"
+	],
 	"applicationUri": "https://careers.bark.com/jobs/3600643-senior-product-designer",
 	"applicationType": "link",
 	"shortDescription": "About Bark Bark is revolutionising the way people find professionals in over 1,000 unique categories. As the UK's' largest and fastest-growing- services marketplace, we're' on a mission to make",

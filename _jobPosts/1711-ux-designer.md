@@ -47,6 +47,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"senior",
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://careers.ibm.com/apply/join/?job=19877988",
 	"applicationType": "link",
 	"shortDescription": "Introduction In this role, you'll' work in one of our IBM Consulting Client Innovation Centers (Delivery Centers), where we deliver deep technical and industry expertise to a wide range of public and",

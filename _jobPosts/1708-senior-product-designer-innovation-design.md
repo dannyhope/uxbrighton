@@ -51,9 +51,13 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://www.capco.com/Careers/Job%20Search/Office%20Detail?gh_jid=5683960&location=&department=&keywords",
 	"applicationType": "link",
 	"shortDescription": "Joining Capco means joining an organisation that is committed to an inclusive working environment where you’re’ encouraged to BeYourselfAtWork. We celebrate individuality and recognize that diversity",

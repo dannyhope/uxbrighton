@@ -49,6 +49,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://jobs.workable.com/view/i6Y4JAtCcaEw8m1SS2p6UJ/hybrid-senior-ux-%2F-ui-designer-in-london-at-ohme",
 	"applicationType": "link",
 	"shortDescription": "We’re’ on a mission to make the switch to sustainable transport and energy faster, easier and more affordable. We use our own technology stack, data smarts and industry knowledge to build a",

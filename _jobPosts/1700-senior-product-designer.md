@@ -55,6 +55,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"remote",
+		"senior"
+	],
 	"applicationUri": "https://element-ext-row.icims.com/jobs/13241/senior-product-designer/login",
 	"applicationType": "link",
 	"shortDescription": "Overview We’re’ in the process of building a digital product team to develop cutting-edge- solutions for our customers and prospects, with the mission to help innovators bring products that enhance",

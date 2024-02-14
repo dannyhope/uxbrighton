@@ -47,15 +47,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-10T14:49:38.629Z",
-		"source": "https://jobs.workable.com/view/b9Ep4fkzsNoBCWcSYQ1n4i/hybrid-ux-lead-in-london-at-vml-commerce-%26-technology"
-	},
+	"tags": [
+		"management",
+		"senior",
+		"remote",
+		"design"
+	],
 	"applicationUri": "https://jobs.workable.com/view/b9Ep4fkzsNoBCWcSYQ1n4i/hybrid-ux-lead-in-london-at-vml-commerce-%26-technology",
 	"applicationType": "link",
 	"shortDescription": "UX Lead needed to join our team on a permanent basis. We’re’ looking for an experienced Lead UXer, that is ready to take the next step in helping us to shape and scale our UX offering, working",

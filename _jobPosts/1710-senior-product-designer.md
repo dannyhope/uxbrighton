@@ -55,12 +55,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-13T07:10:15.979Z",
-		"source": "https://jobs.workable.com/view/aDMRfv2EDMWB5m7v8JVEAh/hybrid-senior-product-designer-in-london-at-delli"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.workable.com/view/aDMRfv2EDMWB5m7v8JVEAh/hybrid-senior-product-designer-in-london-at-delli",
 	"applicationType": "link",
 	"shortDescription": "Hi, if you’ve’ not met DELLI before, we’re’ a community of fun-loving-, real, curious, and cultured individuals that live for the discovery of new food and flavours and people. DELLI is the place to",
