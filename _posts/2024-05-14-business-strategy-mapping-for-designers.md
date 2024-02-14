@@ -80,13 +80,9 @@ Tom passionately believes that a little business acumen can go a long way for de
 “Really insightful workshop. It was useful to have practical examples rather than just an overview”\
 —Tracy Godding
 
-## Contact Information
+## Enquiries
 
-For inquiries and assistance, please contact [events@uxbri.org](mailto:events@uxbri.org).
-
-## Cancellation policy and refunds
-
-\[boilerplate?]
+For enquiries and assistance, please contact [events@uxbri.org](mailto:events@uxbri.org).
 
 ## Schedule
 
@@ -95,8 +91,6 @@ For inquiries and assistance, please contact [events@uxbri.org](mailto:events@ux
 10:30 kick-off
 
 12:30 lunch (provided)
-
-2:30 break
 
 5:00 done
 
