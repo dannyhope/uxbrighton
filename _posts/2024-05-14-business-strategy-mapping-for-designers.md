@@ -88,10 +88,8 @@ For enquiries and assistance, please contact [events@uxbri.org](mailto:events@ux
 
 10:00 arrive
 
-10:30 kick-off
-
 12:30 lunch (provided)
 
-5:00 done
+5:00 ends
 
 **Ticket price includes lunch, refreshments and all materials.**
