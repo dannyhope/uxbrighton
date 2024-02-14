@@ -11,7 +11,7 @@ start: 10am
 venue: PLATF9RM
 ticket:
   state: Ticketed
-  link: https://app.tickettailor.com/events/uxbrighton/1156887
+  link: https://app.tickettailor.com/checkout/view-event/id/3612223/chk/1f5a/?modal_widget=true&widget=true
   price: 375-560
 conference: false
 upcoming: true
@@ -80,24 +80,16 @@ Tom passionately believes that a little business acumen can go a long way for de
 “Really insightful workshop. It was useful to have practical examples rather than just an overview”\
 —Tracy Godding
 
-## Contact Information
+## Enquiries
 
-For inquiries and assistance, please contact [events@uxbri.org](mailto:events@uxbri.org).
-
-## Cancellation policy and refunds
-
-\[boilerplate?]
+For enquiries and assistance, please contact [events@uxbri.org](mailto:events@uxbri.org).
 
 ## Schedule
 
 10:00 arrive
 
-10:30 kick-off
-
 12:30 lunch (provided)
 
-2:30 break
-
-5:00 done
+5:00 ends
 
 **Ticket price includes lunch, refreshments and all materials.**
