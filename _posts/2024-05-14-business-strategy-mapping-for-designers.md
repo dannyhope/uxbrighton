@@ -54,7 +54,7 @@ This workshop focuses on finding the sweet-spot of strategic confidence for desi
 * Uncovering design opportunities that enhance business strategy
 * Building a business case for strategically-aligned design investment
 
-By the end of the day you’ll have greater confidence in how business strategy impacts your design work, and the tools to identify strategic strengths and opportunities at your organisation.
+By the end of the day you’ll have greater confidence in how business strategy impacts your design work, and the tools to identify strategic strengths and opportunities at your organisation. 
 
 ## About Tom
 
