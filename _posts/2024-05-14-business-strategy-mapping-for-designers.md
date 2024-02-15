@@ -19,7 +19,7 @@ published: true
 seo: false
 art-direction: ""
 ---
-<p style="font-size: 1.5rem">The most effective design teams understand how their work can impact business strategy as well as user needs.<p>
+The most effective design teams understand how their work can impact business strategy as well as user needs.
 
 But business strategy can be an intimidating terrain for designers to navigate.
 
