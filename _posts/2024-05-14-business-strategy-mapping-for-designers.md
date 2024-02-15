@@ -12,7 +12,7 @@ venue: PLATF9RM
 ticket:
   state: Ticketed
   link: https://app.tickettailor.com/checkout/view-event/id/3612223/chk/1f5a/?modal_widget=true&widget=true
-  price: 375-560
+  price: £375-560
 conference: false
 upcoming: true
 published: true
