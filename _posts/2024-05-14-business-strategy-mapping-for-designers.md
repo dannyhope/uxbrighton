@@ -12,14 +12,14 @@ venue: PLATF9RM
 ticket:
   state: Ticketed
   link: https://app.tickettailor.com/checkout/view-event/id/3612223/chk/1f5a/?modal_widget=true&widget=true
-  price: 375-560
+  price: £375-560
 conference: false
 upcoming: true
 published: true
 seo: false
 art-direction: ""
 ---
-<p style="font-size: 1.5rem">The most effective design teams understand how their work can impact business strategy as well as user needs.<p>
+The most effective design teams understand how their work can impact business strategy as well as user needs.
 
 But business strategy can be an intimidating terrain for designers to navigate.
 
