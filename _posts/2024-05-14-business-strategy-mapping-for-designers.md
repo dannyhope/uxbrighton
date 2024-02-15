@@ -72,13 +72,10 @@ Tom passionately believes that a little business acumen can go a long way for de
 “Great workshop – it exceeded all my expectations!”\
 —Caroline Owen
 
-“The trainer was lovely, inspiring and very professional. The way she both shared us her insights and got us working together served the purpose perfectly.”\
-—Heikki
-
 “Helped me understand and share experiences with other UXers.”\
 —Paul Swain
 
-“Sound, focussed and practical advice about preparing for, facilitating and then following-up on workshops. Alison was a fun, enthusiastic and knowledgeable tutor. Recommended :-)”\
+“Sound, focused and practical advice about preparing for, facilitating and then following-up on workshops. Alison was a fun, enthusiastic and knowledgeable tutor. Recommended :-)”\
 —Patrick Sansom
 
 “Really insightful workshop. It was useful to have practical examples rather than just an overview”\
@@ -95,5 +92,3 @@ For enquiries and assistance, please contact [events@uxbri.org](mailto:events@ux
 12:30 lunch (provided)
 
 5:00 ends
-
-**Ticket price includes lunch, refreshments and all materials.**
