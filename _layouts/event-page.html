@@ -7,73 +7,97 @@
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
-  <title>{{ metaTitle }} | UX Brighton</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
+  <head>
+    <title>{{ metaTitle }} | UX Brighton</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if metaDescription and metaDescription != '' %}<meta name="description" content="{{ metaDescription }}">{% endif %}
   <meta name="robots" content="{% if seoIndexing != true %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
-  <!-- Google Analytics -->
+    <!-- Google Analytics -->
   {% include tracking-head.html %}
 
-  <!-- Social media analytics -->
-  {% include social-tracking-head.html %}
+    <!-- Social media analytics -->
+    {% include social-tracking-head.html %}
 
-    {% if seoIndexing == true %}
-  <!-- facebook open graph tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
-    <meta property="og:title" content="{{ metaTitle }}">
-    {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
-    {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
+      {% if seoIndexing == true %}
+      <!-- facebook open graph tags -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
+      <meta property="og:title" content="{{ metaTitle }}">
+      {% if metaDescription and metaDescription != '' %}<meta property="og:description" content="{{ metaDescription }}">{% endif %}
+      {% if metaSocialImage and metaSocialImage != '' %}<meta property="og:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
 
-  <!-- twitter card tags additive with the og: tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
-    <meta name="twitter:domain" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
-    <meta name="twitter:title" value="{{ metaTitle }}">
-    {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
-    <meta name="twitter:url" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
+      <!-- twitter card tags additive with the og: tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      {% if metaSocialImage and metaSocialImage != '' %}<meta name="twitter:image" content="https://uxbri.org{{ metaSocialImage }}">{% endif %}
+      <meta name="twitter:domain" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
+      <meta name="twitter:title" value="{{ metaTitle }}">
+      {% if metaDescription and metaDescription != '' %}<meta name="twitter:description" value="{{ metaDescription }}">{% endif %}
+      <meta name="twitter:url" value="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
 
-  <!-- Canonical -->
-    <link rel="canonical" href="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
+        <!-- Canonical -->
+      <link rel="canonical" href="https://uxbri.org{% if metaFullUrlPerm and metaFullUrlPerm != '' %}/{{ metaFullUrlPerm }}{% else %}/{{ metaFullUrlSlug }}/{% endif %}">
     {% endif %}
 
-  <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <!-- Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#5bbad5">
     <link rel="shortcut icon" href="/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-  <!-- Stylesheets -->
+      <!-- Stylesheets -->
     <link rel="stylesheet" href="/stylesheets/fonts/museo/sans/font.css">
     <link rel="stylesheet" href="/stylesheets/css/styles.css">
 
     {% if page.art-direction and page.art-direction != '' %}
-    <!-- Page-specific "art direction" styles -->
+      <!-- Page-specific "art direction" styles -->
       <style>
         {{ page.art-direction }}
       </style>
-      {% endif %}
+    {% endif %}
 
     <style>
       .responsive-height-limiter + h2,
-      p + h2 { margin-top: 1.33em; }
-      p + h3 { margin-top: 1em; }
-      h3 + p { margin-top: 0.33em; }
+      p + h2 {
+        margin-top: 1.33em;
+      }
+      p + h3 {
+        margin-top: 1em;
+      }
+      h3 + p {
+        margin-top: 0.33em;
+      }
       h2 + .responsive-height-limiter,
       h3 + .responsive-height-limiter,
-      h2 + .embed-container  { margin-top: 1em; }
+      h2 + .embed-container {
+        margin-top: 1em;
+      }
 
       h2 + h3 + p,
       h2 + p,
-      h2 + ul { margin-top: 0.66em; }
+      h2 + ul {
+        margin-top: 0.66em;
+      }
 
 
       @media (min-width: 680px) {
@@ -96,11 +120,13 @@
           border-radius: 50%;
           left: 0;
         }
-        h2,h3 {
+        h2,
+        h3 {
           text-align: center;
         }
       }
-      h2,h3 {
+      h2,
+      h3 {
         margin: 1em 0 0.5em;
         line-height: 1.2;
       }
@@ -121,126 +147,146 @@
       var root = document.documentElement; root.className = 'js'; // for just-in-case no-js styles
       window.q=[]; window.$=function(f){q.push(f);}; // Make a queue for $
     </script>
-</head>
+  </head>
 
-<body id="top" class="relative template--event {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
+  <body id="top" class="relative template--event {% if page.slug %}page-{{ page.slug }}{% endif %}{% if page.body-classes %} {{ page.body-classes }} {% endif %}">
 
-  <!-- Google Analytics -->
-  {% include tracking-body.html %}
+    <!-- Google Analytics -->
+    {% include tracking-body.html %}
 
-  {% include header.html %}
+    {% include header.html %}
 
-	<main class="content-main-detail{% if page.upcoming == null or page.upcoming == false %} is-not-upcoming{% else %} is-upcoming{% endif %}" role="main">
+    <main class="content-main-detail{% if page.upcoming == null or page.upcoming == false %} is-not-upcoming{% else %} is-upcoming{% endif %}" role="main">
 
-    <section id="hero" class="overlay__outer pa0 bg-grey-90">
+      <section id="hero" class="overlay__outer pa0 bg-grey-90">
 
-      <div class="overlay__inner overflow-hidden bg-trans">
+        <div class="overlay__inner overflow-hidden bg-trans">
 
-        <div class="container color-white">
-          <h1 class="fs-xxxl leading-solid mb1">{{page.title}}</h1>
-          <h2 class="mt0 fs-l regular track-normal mb1">
-          	{% if page.upcoming == null or page.upcoming == false %}
-							{% capture previous_event %}{% endcapture %}This event was held on {{page.date | date: "%d %b %Y"}}.
-						{% else %}
-							{{page.date | date: "%d %b"}}{% if page.start %}, <span class="event-time">{{page.start}}</span>{% endif %}
-						{% endif %}
-          </h2>
-          {{page.sponsor}}
+          <div class="container color-white">
+            <h1 class="fs-xxxl leading-solid mb1">{{ page.title }}</h1>
+            <h2 class="mt0 fs-l regular track-normal mb1">
+              {% if page.upcoming == null or page.upcoming == false %}
+                {% capture previous_event %}{% endcapture %}
+his event was held on {{ page.date | date: "%d %b %Y" }}.
+              {% else %}
+                {{ page.date | date: "%d %b" }}{% if page.start %},
+                  <span class="event-time">{{ page.start }}</span>
+                {% endif %}
+              {% endif %}
+            </h2>
+            {{ page.sponsor }}
+          </div>
+
         </div>
 
-      </div>
+      </section>
 
-    </section>
+      <section id="overview" class="bg-white">
+        <div class="container" style="min-height: 50vh">
+          <div class="row pt pb" style="margin-top: 24px;">
+            <div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l" style="padding-top: 16px;">
 
-    <section id="overview" class="bg-white">
-      <div class="container" style="min-height: 50vh">
-        <div class="row pt pb" style="margin-top: 24px;">
-        	<div class="event-sticky-body-column u1of3-over-l right-over-l gutter-left ph0-under-l" style="padding-top: 16px;">
+              <aside class="event-detail_meta">
 
-						<aside class="event-detail_meta">
-
-              {% if page.upcoming == null or page.upcoming == false %}
-                <div class="pa3 rounded drop mb3">
-                  <h2 class="mt0 mb1">Get notified</h2>
-                  <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
-                  <!-- Email subscription form -->
-                  {% include email-subscriptions/email-subscription-events.html %}
-                </div>
-              {% else %}
-                {% if page.ticket %}
-                  {% if page.upcoming == true %}
-                    <section class="event-meta">
-                      {% if page.ticket.state == 'Ticketed' %}
-                        <a href="{{page.ticket.link}}" class="button button--green fill pa2 mt1" title="{{page.title}} tickets" target="_blank">
-                          {% capture price %}{{ page.ticket.price | downcase}}{% endcapture %}
-                          <span class="bold block mb1">{% if page.ticket.price == 'Free' %}Get your ticket{% else %}Buy your ticket{% endif %}</span> {% if page.ticket.price %}{{page.ticket.price}}{% endif %}
-                        </a>
-                      {% elsif page.ticket.state == 'Free' %}
-                        <span class="ticket-button standfirst bold">Free event.</span>
-                      {% elsif page.ticket.state == 'Sold out' %}
-                        <span class="ticket-button standfirst bold">Sorry, sold out.</span>
-                      {% elsif page.ticket.state == 'Unticketed' %}
-                        <span class="ticket-button standfirst bold">Unticketed event.</span>
-                      {% endif %}
-                      {% include venues.html %}
-                    </section>
-                  {% endif %}
+                {% if page.upcoming == null or page.upcoming == false %}
+                  <div class="pa3 rounded drop mb3">
+                    <h2 class="mt0 mb1">Get notified</h2>
+                    <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.
+                  </p>
+                    <!-- Email subscription form -->
+                    {% include email-subscriptions/email-subscription-events.html %}
+                  </div>
                 {% else %}
-                  {% if page.upcoming == true %}
-                    Details about this event will be posted soon.
+                  {% if page.ticket %}
+                    {% if page.upcoming == true %}
+                      <section class="event-meta">
+                        {% if page.ticket.state == 'Ticketed' %}
+                          <a
+                            href="{{page.ticket.link}}"
+                            class="button button--green fill pa2 mt1"
+                            title="{{page.title}} tickets"
+                            data-target="ticket-tailor-modal"
+                            data-tickettailor-name="UXBrighton"
+                            target="_blank">
+                            {% capture price %}{{ page.ticket.price | downcase}}{% endcapture %}
+                            <span class="bold block mb1">
+                              {% if page.ticket.price == 'Free' %}Get your ticket{% else %}Buy your ticket{% endif %}
+                            </span>
+                            {% if page.ticket.price %}
+                              {{ page.ticket.price }}{% endif %}
+                          </a>
+
+                        {% elsif page.ticket.state == 'Free' %}
+                          <span class="ticket-button standfirst bold">Free event.</span>
+                        {% elsif page.ticket.state == 'Sold out' %}
+                          <span class="ticket-button standfirst bold">Sorry, sold out.</span>
+                        {% elsif page.ticket.state == 'Unticketed' %}
+                          <span class="ticket-button standfirst bold">Unticketed event.</span>
+                        {% endif %}
+                        {% include venues.html %}
+                      </section>
+                    {% endif %}
                   {% else %}
-                    {% capture pageyear %}{{page.date | date: "%Y"}}{% endcapture %}
-                    {% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
-                    <span class="when-and-where">
-                      {% if pageyear >= currentyear %}
-                        <span id="this-year">{{ page.date | date: "%-d %B" }}</span>
-                      {% else %}
-                        <span id="previous-year">{{ page.date | date: "%-d %B %Y" }}</span>
-                      {% endif %}
+                    {% if page.upcoming == true %}
+                      Details about this event will be posted soon.
+                    {% else %}
+                      {% capture pageyear %}{{page.date | date: "%Y"}}{% endcapture %}
+                      {% capture currentyear %}{{site.time | date: "%Y"}}{% endcapture %}
+                      <span class="when-and-where">
+                        {% if pageyear >= currentyear %}
+                          <span id="this-year">{{ page.date | date: "%-d %B" }}</span>
+                        {% else %}
+                          <span id="previous-year">{{ page.date | date: "%-d %B %Y" }}</span>
+                        {% endif %}
 
-                      {% if page.venue%} at {{page.venue}} {% endif %}
-                    </span>
+                        {% if page.venue %}
+                          at {{ page.venue }}
+                        {% endif %}
+                      </span>
+                    {% endif %}
+
+                    {% unless page.ticket.link %}
+                      <div class="pa3 rounded drop mb3">
+                        <h2 class="mt0 mb1">Get notified</h2>
+                        <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.
+                      </p>
+                        <!-- Email subscription form -->
+                        {% include email-subscriptions/email-subscription-events.html %}
+                      </div>
+                    {% endunless %}
+
                   {% endif %}
-
-                  {% unless page.ticket.link %}
-                    <div class="pa3 rounded drop mb3">
-                      <h2 class="mt0 mb1">Get notified</h2>
-                      <p class="mt0">This event has passed. To find out about future talks and conferences subscribe below.</p>
-                      <!-- Email subscription form -->
-                      {% include email-subscriptions/email-subscription-events.html %}
-                    </div>
-                  {% endunless %}
 
                 {% endif %}
 
-              {% endif %}
+                {% include organisers.html %}
+              </aside>
+            </div>
+            <div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top: 16px;">
 
-							{% include organisers.html %}
-						</aside>
-        	</div>
-        	<div class="u2of3-over-l left-over-l gutter-right ph0-under-l event-overview" style="padding-top: 16px;">
+              {%- comment %} This is the main content {% endcomment %}
+            {{ content }}
 
-            {%- comment %} This is the main content {% endcomment %}
-        		{{ content }}
+              {%- comment %} This is the events structured schema data include. {% endcomment %}
+              <!-- This is this event's structured schema data -->
+              {%- include schemas/schema_events.html %}
 
-            {%- comment %} This is the events structured schema data include. {% endcomment %}
-            <!-- This is this event's structured schema data -->
-            {%- include schemas/schema_events.html %}
+            </div>
+          </div>
+        <!-- row -->
 
-        	</div>
-				</div><!-- row -->
+        </div>
+      <!-- container -->
+      </section>
+    <!-- overview -->
 
-      </div><!-- container -->
-    </section><!-- overview -->
-
-	</main>
+    </main>
 
   {% include footer.html %}
 
 
+    <!-- Social media analytics -->
+    {% include social-tracking-body.html %}
 
-  <!-- Social media analytics -->
-  {% include social-tracking-body.html %}
-
-</body>
+  </body>
 </html>

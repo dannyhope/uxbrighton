@@ -294,6 +294,8 @@ speakers:
             He is very passionate about working with schools, running digital days and acting as an Enterprise Careers adviser for the Mayor of London.
         slot-type: speaker
         slot-time: 11:40 am
+        talk-media:
+          talk-video: n-CE2KPgCk4
       - talk-info:
           talk-time: 12:15 pm
           talk-title: "Exploring Innovation: A Case Study from The Guardian's Product
@@ -668,26 +670,26 @@ highlights:
   visibility: true
   title: Highlights from previous years
   video:
-    - url: https://youtu.be/rz7sy81Yg5E
-      thumbnail: /images/researchops-kate-towsey-thumbnail.jpg
+    - url: https://youtu.be/rhr4OIgYQs0
+      thumbnail: /images/avoiding-the-agency-trap-janna-bastow-video-thumbnail.png
       alt: ResearchOps - Kate Towsey
-      title: ResearchOps
-      speaker: Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /images/ux-and-forecasting-james-woudhuysen-thumbnail.jpg
+      title: ""
+      speaker: ""
+    - url: https://youtu.be/uDQeQteiBIg
+      thumbnail: /images/arrogance-confidence-in-design...redux-jonty-sharples-video-thumbnail.png
       alt: UX and Forecasting - James Woudhuysen
-      title: UX & Forecasting
-      speaker: James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /images/top-tasks-gerry-mcgovern-thumbnail.jpg
+      title: ""
+      speaker: ""
+    - url: https://youtu.be/zNfoSKIobK8
+      thumbnail: /images/trade-offs-lucy-spence-video-thumbnail.png
       alt: Top Tasks - Gerry McGovern
-      title: Top Tasks
-      speaker: Gerry McGovern
+      title: ""
+      speaker: ""
     - alt: Atomic UX - Daniel Pidcock
-      thumbnail: /images/atomic-ux-daniel-pidcock-thumbnail.jpg
-      url: https://youtu.be/h9s3DrImGXA
-      title: Atomic UX
-      speaker: Daniel Pidcock
+      thumbnail: /images/you-don-t-get-anyone-to-do-anything-matt-lemay-video-thumbnail.png
+      url: https://youtu.be/ue0WquKJtqo
+      title: ""
+      speaker: ""
   testimonial:
     quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
       you'll get access to some of the most cutting-edge presentations you can

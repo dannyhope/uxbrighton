@@ -55,6 +55,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://element-ext-row.icims.com/jobs/13240/senior-ux-designer/login?mobile=false&width=676&height=2627&bga=true&needsRedirect=false&jan1offset=0&jun1offset=60",
 	"applicationType": "link",
 	"shortDescription": "Overview We’re’ in the process of building a digital product team to develop cutting-edge- solutions for our customers and prospects, with the mission to help innovators bring products that enhance",

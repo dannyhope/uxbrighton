@@ -99,13 +99,24 @@ overview:
   pre:
     title: What do UX designers, researchers and managers need to know about AI?
     lede:
-      body: "The aim of this conference is to answer the question: What do UX
-        practitioners need to know about AI?"
+      body: UX Brighton 2024 is tailored for UX professionals seeking clarity and
+        direction in the evolving landscape of AI. This one-day event is an
+        essential opportunity for designers, researchers, and managers at all
+        levels to gain a realistic understanding of AI’s role in UX.
     text:
       body: >-
-        Join us for our annual conference where people from product management,
-        ux, research and design will gather to discover what we have to learn
-        from one another.
+        The conference will feature experienced professionals and academics
+        discussing AI's practical applications in UX. They will provide insights
+        into AI frameworks, principles, and tools, focusing on their direct
+        relevance to everyday UX work. This pragmatic approach is designed to
+        alleviate concerns about AI, offering a clearer vision of how AI can
+        enhance UX practice.
+
+
+        Attendees will benefit from structured learning, networking with peers facing similar challenges, and engaging in discussions that foster a deeper understanding of AI in UX. The event aims to equip participants with knowledge that can be immediately applied to their work, enhancing their skills and employability.
+
+
+        Join us at UX Brighton 2024 to gain practical AI insights, connect with like-minded UX Designers, Researchers, Product Managers, (and Developers, hopefully) and enhance your UX career in a supportive fun environment.
 
 
         Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
@@ -495,66 +506,17 @@ sponsors:
             profile-url: https://www.facebook.com/jpmorgan
     show-opportunity: false
   sponsors-standard:
-    visibility: false
+    visibility: true
     section-title: Standard Sponsors
     sponsor-list:
-      - name: Balsamiq
-        logo: /images/balsamiq-logo-noborder-screen.svg
-        url: https://balsamiq.com/
-        summary: Balsamiq is the maker of the industry-leading rapid wireframing
-          software that combines the simplicity of paper sketching with the
-          power of a digital tool so that teams can focus on what's important.
-        links:
-          - link-type: twitter
-            profile-url: https://twitter.com/balsamiq
-      - name: Brightec
-        logo: /images/rsz_brightec_logo_2019_1-1-.jpg
-        url: https://www.brightec.co.uk/
-        summary: Brightec are a multi award-winning mobile app development agency based
-          in Brighton, UK.  Their mission is simple; to be a company that
-          customers love working with, and their employees love working for.
-        links:
-          - link-type: twitter
-            profile-url: https://twitter.com/brightec
-          - link-type: facebook
-            profile-url: https://www.facebook.com/BrightecApps/
-      - name: YouCanBook.me
-        logo: /images/youcanbook.me.png
-        url: https://youcanbook.me/
-        summary: Award-winning scheduling tool for teams. YouCanBook.me prevents the
-          usual back-and-forth when setting up meetings. Works with your Google
-          or Microsoft calendar to give you flexible, customizable, and powerful
-          automated scheduling.
-        links:
-          - link-type: twitter
-            profile-url: https://twitter.com/youcanbookme
-          - link-type: facebook
-            profile-url: https://www.facebook.com/youcanbookme/
-      - name: Madgex
-        logo: /images/madgex.svg
-        url: https://www.madgex.com/
-        summary: We are an awarding winning Brighton based employer-of-choice, powering
-          the most recognized media brands on the planet with our job board
-          technology.
-        links:
-          - link-type: twitter
-            profile-url: https://twitter.com/madgex
-          - link-type: facebook
-            profile-url: https://www.facebook.com/MadgexLtd/
-      - name: Lagom Finance
-        logo: /images/screenshot-2022-08-30-at-13.26.13.png
-        url: https://www.lagomfinance.com/
-        summary: Lagom Finance provides jargon-free accountancy services for creatives,
-          freelancers and agencies. We act as an outsourced finance team for our
-          clients, no matter how small they are so they can focus on running
-          their business whilst we take care of the bookkeeping, taxes and
-          everything in-between.
-        links:
-          - link-type: twitter
-            profile-url: https://twitter.com/lagomfinance1
-          - link-type: facebook
-            profile-url: https://www.facebook.com/Lagom-Finance-107444047667801
-    show-opportunity: false
+      - name: JS Bin
+        logo: /images/jsbin-1-.svg
+        url: https://jsbin.com/
+        summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
+          folk test snippets of code, within some context, and debug the code
+          collaboratively.
+        links: []
+    show-opportunity: true
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
 social-image: /images/uxbri-2024.png
@@ -564,14 +526,14 @@ highlights:
   visibility: true
   title: Highlights from previous years
   video:
+    - url: https://youtu.be/JuKEbtHJ3bc
+      thumbnail: /images/alice-helliwell-youtube-thumbnail-.png
+      alt: UX and Forecasting - James Woudhuysen
     - url: https://youtu.be/qejmncnEWmg
       thumbnail: /images/stefanie-posavec-youtube-thumbnail.png
       alt: ResearchOps - Kate Towsey
-    - url: https://youtu.be/8A3SEmvx7uY
-      thumbnail: /assets/video-thumbnails/ux-and-forecasting-james-woudhuysen-thumbnail@2x.png
-      alt: UX and Forecasting - James Woudhuysen
-    - url: https://youtu.be/DjRR1MpBr1g
-      thumbnail: /assets/video-thumbnails/top-tasks-gerry-mcgovern-thumbnail@2x.png
+    - url: https://youtu.be/n-CE2KPgCk4
+      thumbnail: /images/mark-edgington-youtube-thumbnail-.png
       alt: Top Tasks - Gerry McGovern
     - alt: Atomic UX - Daniel Pidcock
       thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png

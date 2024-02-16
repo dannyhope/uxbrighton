@@ -48,6 +48,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://jobs.workable.com/view/6QLMjkBh2VQbmmLaAW78XH/principal-product-designer-in-london-at-fleek",
 	"applicationType": "link",
 	"shortDescription": "About Fleek Fleek is a cutting-edge- B2B Marketplace specializing in wholesale second-hand- fashion. We bridge the gap between professional resellers, retail stores, and vintage clothing suppliers",

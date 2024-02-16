@@ -50,12 +50,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-02-02T10:22:50.585Z",
-		"source": "https://bpinternational.wd3.myworkdayjobs.com/bpCareers/job/United-Kingdom---London/Senior-Product-Designer_RQ074437-1?source=Appcast_Indeed"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"senior"
+	],
 	"applicationUri": "https://bpinternational.wd3.myworkdayjobs.com/bpCareers/job/United-Kingdom---London/Senior-Product-Designer_RQ074437-1/apply",
 	"applicationType": "link",
 	"shortDescription": "The Role We are looking for a Senior Product Designer to join our fast-growing- HXD team, to partner with Product Designers from your business unit to drive and connect all design activities across",

@@ -251,9 +251,10 @@ $(function () {
 
   $('[data-target="ticket-tailor-modal"]').on('click', function (e) {
     tt_name = this.getAttribute('data-tickettailor-name');
-    tt_id = this.getAttribute('data-tickettailor-id');
+    tt_url = this.getAttribute('href');
+    tt_id_from_url = tt_url.match(/\/(\d+)(?=[?#]|$)/);
 
-    if (
+    if (!tt_id_from_url ||
       e.ctrlKey ||
       e.shiftKey ||
       e.metaKey || // apple
@@ -261,10 +262,12 @@ $(function () {
     ) {
       return;
     }
+
+    tt_id = tt_id_from_url[1];
+
     e.preventDefault();
     TTWidget.loadEvent(tt_name, tt_id);
   });
-
 
 
 }); // dom ready stuff  -------------------------------------------------------------------------
