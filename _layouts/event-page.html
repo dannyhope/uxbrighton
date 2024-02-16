@@ -167,16 +167,17 @@
             <h2 class="mt0 fs-l regular track-normal mb1">
               {% if page.upcoming == null or page.upcoming == false %}
                 {% capture previous_event %}{% endcapture %}
-his event was held on {{ page.date | date: "%d %b %Y" }}.
+                This event was held on {{ page.date | date: "%d %b %Y" }}.
               {% else %}
-                {{ page.date | date: "%d %b" }}{% if page.start %},
+                {{ page.date | date: "%d %b" }}
+                {% if page.start %}
+                  ,
                   <span class="event-time">{{ page.start }}</span>
                 {% endif %}
               {% endif %}
             </h2>
             {{ page.sponsor }}
           </div>
-
         </div>
 
       </section>
