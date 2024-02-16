@@ -7,7 +7,7 @@ permalink: business-strategy-mapping-for-designers
 redirect_from:
   - workshop
 event-date: 2024-05-14
-start: 10am
+start: 10 am
 venue: PLATF9RM
 ticket:
   state: Ticketed
