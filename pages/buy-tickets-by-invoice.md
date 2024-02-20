@@ -6,21 +6,22 @@ seo: true
 ---
 You can buy tickets for most of our events by invoice.
 
-Please send the following details to [anniemarie@uxbri.org](mailto:anniemarie@uxbri.org):
+Please send the following details to [events@uxbri.org](mailto:events@uxbri.org).
 
-## Invoice details
+## Company details (so we can properly address the invoice)
 
-* Name & email address of the person to invoice 
-* Contact number
+* Name & email address of the person to invoice
+* Contact phone number
 * Company name
 * Company Address
-* VAT no.
+* VAT number
 
-## Event
+## Ticket details (so that we can calculate the total)
 
-The name of the event.
+* Number of tickets
+* The name of the event
 
-## Tickets holder details
+## Details for each attendee (so that we can issue their tickets)
 
 * First Name
 * Last Name
