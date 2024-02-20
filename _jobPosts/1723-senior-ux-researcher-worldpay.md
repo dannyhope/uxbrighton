@@ -38,13 +38,26 @@
 		"shortId": "7mNgi3cp",
 		"uuid": "26627fa5-a799-41c8-8d61-e365ab1d691b"
 	},
-	"sourceSiteJobId": "JR0264941",
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-20T10:16:54.923Z",
-		"source": "https://careers.fisglobal.com/us/en/job/JR0264941/Senior-UX-Researcher?p_sid=0tPvmgb&p_uid=c8tcMrKX8f&ss=paid&utm_campaign=uk2024&utm_content=pj_board&utm_medium=jobad&utm_source=indeed&dclid=CjgKEAiAlcyuBhDXrvqDl4yRxioSJABjA6xG9wBHMXXlXxiepHneSykz5elnLFK41XVSG2S7eSeg3vD_BwE"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			},
+			{
+				"text": "Permanent",
+				"code": "PERMANENT",
+				"type": "contract"
+			}
+		],
+		"original": "Permanent, Full-time",
+		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"research",
+		"senior"
+	],
 	"applicationUri": "https://careers.fisglobal.com/us/en/apply?jobSeqNo=FIGLUSJR0264941EXTERNAL&p_sid=0tPvmgb&p_uid=c8tcMrKX8f&ss=paid&utm_campaign=uk2024&utm_content=pj_board&utm_medium=jobad&utm_source=indeed&dclid=CjgKEAiAlcyuBhDXrvqDl4yRxioSJABjA6xG9wBHMXXlXxiepHneSykz5elnLFK41XVSG2S7eSeg3vD_BwE&step=1",
 	"applicationType": "link",
 	"shortDescription": "Are you ready to unleash your full potential?  We’re’ looking for people who are passionate about payments to chart Worldpay’s’ path to being the largest and most-loved- payments company in the world",
