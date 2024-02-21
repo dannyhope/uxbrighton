@@ -52,12 +52,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-20T10:04:08.669Z",
-		"source": "https://careers.avanade.com/jobs/JobDetail?jobId=74086&source=Indeed"
-	},
+	"tags": [
+		"design",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://careers.avanade.com/jobs/ApplicationMethods?jobId=74086",
 	"applicationType": "link",
 	"shortDescription": "Are you a user experience designer who is passionate about creating digital products and services that make a measurable impact on people's' everyday lives? Do you feel frustrated that your agency",

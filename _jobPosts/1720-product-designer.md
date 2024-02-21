@@ -53,6 +53,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"mid",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://livescoregroup.com/job-offer/?gh_jid=7249964002",
 	"applicationType": "link",
 	"shortDescription": "The Role LiveScore Group are looking for a highly talented and experienced Product Designer to help take our market-leading- sports apps and websites to the next level. Reporting to the Lead Product",

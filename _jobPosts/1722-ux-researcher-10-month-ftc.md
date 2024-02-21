@@ -54,12 +54,12 @@
 		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
-	"meta": {
-		"patternName": "ld+json, hollandandbarrett",
-		"patternType": "default, site",
-		"date": "2024-02-20T10:12:22.251Z",
-		"source": "https://apply.hollandandbarrettjobs.com/jobs/vacancy/ux-researcher---10-month-ftc-27724-london/27703/description/?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
+	"tags": [
+		"research",
+		"mid",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://apply.hollandandbarrettjobs.com/jobs/vacancy/ux-researcher---10-month-ftc-27724-london/27703/description/action/apply/?pagestamp=902b57a6-1094-4944-a269-54bce423dc23",
 	"applicationType": "link",
 	"shortDescription": "Please note, this role can be remote based in the UK Holland Barrett International is striving to be the world's' leading health and wellness business.  Currently the largest in Europe and growing",

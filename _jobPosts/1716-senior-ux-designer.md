@@ -54,6 +54,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://jobs.lever.co/capital/b2c9432d-0668-4571-99df-7e98143cbc81/apply",
 	"applicationType": "link",
 	"shortDescription": "We are a leading trading platform that is ambitiously expanding to the four corners of the globe. Our top-rated- products have won prestigious industry awards for their cutting-edge- technology and",

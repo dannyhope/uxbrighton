@@ -45,15 +45,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2024-02-20T07:28:23.797Z",
-		"source": "https://apply.workable.com/doctor-care-anywhere/j/5382F58C2D/"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"mid"
+	],
 	"applicationUri": "https://apply.workable.com/doctor-care-anywhere/j/5382F58C2D/apply/",
 	"applicationType": "link",
 	"shortDescription": "Thanks for stopping by! We’re’ Doctor Care Anywhere: a leading digital platform, with a clear vision to be the primary care provider of choice for digital healthcare – and that all starts with our",

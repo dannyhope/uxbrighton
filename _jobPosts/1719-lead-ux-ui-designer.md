@@ -53,12 +53,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-20T09:44:26.621Z",
-		"source": "https://boards.greenhouse.io/mediatonic/jobs/5085684004?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://boards.greenhouse.io/mediatonic/jobs/5085684004",
 	"applicationType": "link",
 	"shortDescription": "What We Do We design customer and user-focused- experiences that are fresh and innovative, while problem solving by anticipating user behavior and hurdles. We approach the most complex of problems",
