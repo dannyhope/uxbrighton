@@ -120,13 +120,8 @@ overview:
 
 
         Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
-
-
-        > Some of the smartest, most insightful and entertaining people I've met. And that was just the audience. The speakers were great, too.\
-
-        > —Mike Kuniavsky, Xerox PARC
     testimonial:
-      visibility: false
+      visibility: true
       quote: Some of the smartest, most insightful and entertaining people I've met.
         And that was just the audience. The speakers were great, too.
       quotee: Mike Kuniavsky, Xerox PARC
