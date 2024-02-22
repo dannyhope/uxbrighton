@@ -330,6 +330,8 @@ speakers:
           bio-title: About Tricky
         slot-type: speaker
         slot-time: 12:15 pm
+        talk-media:
+          talk-video: https://youtu.be/74YIqGEECoU
       - slot-type: break
         talk-info:
           talk-time: 12:50 pm
