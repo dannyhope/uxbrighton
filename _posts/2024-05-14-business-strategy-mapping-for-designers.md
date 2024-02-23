@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: "Business Strategy Mapping for Designers "
+title: Business Strategy Mapping for Designers
 description: A workshop to bring clarity to the business strategy at your
   organisation, empowering you to have more business impact and influence
 social-image: /images/bsm4d-workshop-speaker-twitter-.png
@@ -18,7 +18,7 @@ conference: false
 upcoming: true
 published: true
 seo: false
-art-direction: |-
+art-direction: |
   .event-overview p:first-of-type {
       font-size: 1.5rem;
   }
