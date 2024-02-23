@@ -18,7 +18,7 @@ conference: false
 upcoming: true
 published: true
 seo: false
-art-direction: |-
+art-direction: |
   .event-overview p:first-of-type {
       font-size: 1.5rem;
   }
