@@ -48,17 +48,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"salary": {
-		"currencyCode": "USD",
-		"currencySymbol": "$",
-		"period": "YEAR"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-02-26T09:40:56.837Z",
-		"source": "https://jobs.symphonyai.com/jobs/1535/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f"
-	},
+	"tags": [
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://globalcareers-symphonyai.icims.com/jobs/1535/login?_sp=22ace879-3588-40d7-a68a-ab7e045c21cb.1708940628404&_jsqid=undefined&utm_source=indeed_integration&iis=Job+Board&iisn=Indeed&_ga=2.245451396.1621167613.1708940387-90155749.1708670873&_gl=1*fmcl0w*_ga*OTAxNTU3NDkuMTcwODY3MDg3Mw..*_ga_5Y2BYGL910*MTcwODk0MDM4Ny4zLjEuMTcwODk0MDYyNi4wLjAuMA..",
 	"applicationType": "link",
 	"shortDescription": "Introduction SymphonyAI Financial Services is a leading provider of advanced analytics and artificial intelligence solutions, empowering organizations in the financial services industry to detect and",
