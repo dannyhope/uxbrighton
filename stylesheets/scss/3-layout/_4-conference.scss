@@ -42,6 +42,12 @@
       }
     }
 
+    &.inactive {
+      strong {
+        color: $color-cool-grey;
+      }
+    }
+
     /* Highlight the currently available ticket option */
     &.highlight {
       background-color: #FFFDD8;
@@ -429,8 +435,3 @@
     height: auto;
     display: block;
   }
-
-
-
-
-

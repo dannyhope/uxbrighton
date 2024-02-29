@@ -1,5 +1,3 @@
-
-
 // colours
 
   $color-black:                   #010F15;
@@ -27,7 +25,6 @@
   $color-black-80:                rgba( $color-black, 0.8);
   $color-black-90:                rgba( $color-black, 0.9);
 
-
   $color-blue:                    #108BC1;
 
 
@@ -39,7 +36,7 @@
 
   $color-green:                   #1bab1b;//#2CC62C;
 
-
+  $color-cool-grey:               #616E73;
 
 // text
   $color-heading:                 $color-grey-90;
@@ -50,7 +47,7 @@
   $color-info-darker:             $color-grey-60;
 
 // Link colors
-  
+
   $color-link:                    $color-black;
   $color-link-hover:              $color-red;
 
@@ -62,4 +59,6 @@
 
   $color-striped-background:      tint($color-blue,95%);
 
-  $form-inner-shadow-color:       transparentize($color-heading, 0.9); 
+  $form-inner-shadow-color:       transparentize($color-heading, 0.9);
+
+//

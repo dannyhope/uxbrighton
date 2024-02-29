@@ -1,6 +1,6 @@
 {% comment %}
   <style>
-  /* Fix for "Buy Tikets" in nav having red underline */
+  /* Fix for "Buy Tickets" in nav having red underline */
   .nav--in-page li.nav-item--tickets a:hover:before {
   background: none;
   }
@@ -23,7 +23,7 @@
       <div class="flex-row pl0 pr0">
 
         <!-- Super Early Bird -->
-        <div class="ticket-option flex-column">
+        <div class="ticket-option flex-column inactive">
           <strong class="fs-h3 ma0 pa0 nowrap pb2">Super Early Bird</strong>
           {% comment %} <p class="weight-600 ma0 pa0">Ends 29 Feb</p> {% endcomment %}
           <span class="sold">Sold</span>
@@ -41,6 +41,7 @@
             Buy tickets
             <span class="price weight-600 fs-m">&pound;225</span>
           </a>
+        {% comment %} <p class="weight-600 ma0 pa0">Ends 29 Feb</p> {% endcomment %}
         {% comment %} <span class="sold">Sold</span> {% endcomment %}
         </div>
 
@@ -48,20 +49,24 @@
         <div class="ticket-option flex-column">
           <strong class="fs-h3 ma0 pa0">Regular</strong>
           <span class="price pt3">&pound;270</span>
+        {% comment %} <span class="sold">Sold</span> {% endcomment %}
         </div>
 
         <!-- Last Chance -->
         <div class="ticket-option flex-column">
           <strong class="fs-h3 ma0 pa0">Last Chance</strong>
           <span class="price pt3">&pound;315</span>
+        {% comment %} <span class="sold">Sold</span> {% endcomment %}
         </div>
 
         <!-- On the Door -->
         <div class="ticket-option flex-column">
           <strong class="fs-h3 ma0 pa0">On the Door</strong>
           <span class="price pt3">&pound;375</span>
+        {% comment %} <span class="sold">Sold</span> {% endcomment %}
         </div>
       </div>
+
     </div>
 
     <div class="pricing-details">
