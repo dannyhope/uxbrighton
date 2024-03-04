@@ -79,7 +79,7 @@ hero:
     button:
       label: Book now for 2024
       url: "#tickets"
-      extra-text: Super early bird discounts available now!
+      extra-text: Early bird discounts available now!
   during:
     title: UX and Product Management
     message: 2024 conference tickets available on the door
