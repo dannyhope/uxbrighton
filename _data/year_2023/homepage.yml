@@ -377,6 +377,8 @@ speakers:
               profile-url: https://chrishow101.medium.com/
         slot-type: speaker
         slot-time: 14:20 pm
+        talk-media:
+          talk-video: ifcD_v4zpTY
       - talk-info:
           talk-time: 14:55 pm
           talk-summary: >-
