@@ -411,6 +411,8 @@ speakers:
               profile-url: https://www.linkedin.com/in/kate-tarling-6b43b19/
         slot-type: speaker
         slot-time: 14:55 pm
+        talk-media:
+          talk-video: bTR4hfVQ710
       - slot-type: break
         talk-info:
           talk-time: 15:30 pm
