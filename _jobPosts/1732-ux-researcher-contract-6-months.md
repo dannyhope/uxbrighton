@@ -4,7 +4,7 @@
 	"shortId": "w50Cb7b8",
 	"uuid": "405ef216-1cf6-4abd-a442-0e58da69a9b6",
 	"title": {
-		"original": "UX Researcher- Contract 6 Months",
+		"original": "UX Researcher - Contract 6 Months",
 		"textDescription": "UX Researcher",
 		"urlSlug": "ux-researcher-contract-6-months",
 		"inferred": {
@@ -48,12 +48,11 @@
 		"original": "Contract",
 		"textDescription": "Contract"
 	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2024-02-27T11:00:41.415Z",
-		"source": "https://jobs.lever.co/storiogroup/4ab6b554-f532-4f35-9de6-c36ed65bfcba"
-	},
+	"tags": [
+		"research",
+		"remote",
+		"mid"
+	],
 	"applicationUri": "https://jobs.lever.co/storiogroup/4ab6b554-f532-4f35-9de6-c36ed65bfcba/apply",
 	"applicationType": "link",
 	"shortDescription": "Join Storio Group as a UX Researcher and play a pivotal role in enhancing our product experiences. Your insights and strategic research will shape the future of our platforms, influence product",

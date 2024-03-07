@@ -53,12 +53,10 @@
 		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-02-26T09:51:11.588Z",
-		"source": "https://livenation.wd1.myworkdayjobs.com/en-US/LNExternalSite/job/London-United-Kingdom/Product-Design-Intern--12month-Fixed-Term-Contract-_JR-67257-1?referrer=104"
-	},
+	"tags": [
+		"junior",
+		"design"
+	],
 	"applicationUri": "https://livenation.wd1.myworkdayjobs.com/en-US/LNExternalSite/job/London-United-Kingdom/Product-Design-Intern--12month-Fixed-Term-Contract-_JR-67257-1/apply",
 	"applicationType": "link",
 	"shortDescription": "The Team As designers at Ticketmaster, we create. We create beautiful moments that remind millions of our fans why they love live entertainment so much. We create access so they can make their next,",

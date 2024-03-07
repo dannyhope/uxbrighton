@@ -37,12 +37,11 @@
 		"shortId": "95iSuO8s",
 		"uuid": "3d744f7a-7edd-4959-8b44-45c563014b46"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-01T14:08:19.887Z",
-		"source": "https://boards.greenhouse.io/sothebys/jobs/5091342004?gh_src=90f71b124us"
-	},
+	"tags": [
+		"research",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://boards.greenhouse.io/sothebys/jobs/5091342004?gh_src=90f71b124us",
 	"applicationType": "link",
 	"shortDescription": "About Sotheby's' Established in 1744, Sotheby’s’ is the world’s’ premier destination for art and luxury. Synonymous with innovation, Sotheby’s’ promotes access, connoisseurship and preservation of",

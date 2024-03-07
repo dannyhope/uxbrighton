@@ -54,6 +54,12 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"remote",
+		"design",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://careers.geely.com/Lotus/job/London-UXUI-Designer-LND/1039646501/",
 	"applicationType": "link",
 	"shortDescription": "About the role As Lotus Cars look to continue its transformation journey into a major premium brand and deliver against ambitious Global growth targets, our Global Commercial Organisation is seeking",

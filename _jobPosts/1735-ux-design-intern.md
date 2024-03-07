@@ -49,6 +49,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"junior"
+	],
 	"applicationUri": "https://travelhrportal.wd1.myworkdayjobs.com/en-US/Jobs/job/United-Kingdom---London/UX-Design-Intern_J-65916/apply",
 	"applicationType": "link",
 	"shortDescription": "Amex GBT is a place where colleagues find inspiration in travel as a force for good and – through their work – can make an impact on our industry. We’re’ here to help our colleagues achieve success",

@@ -50,6 +50,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://picsart.com/jobs/vacancies/5091222004/",
 	"applicationType": "link",
 	"shortDescription": "Description This is an exciting opportunity to join a fast-paced- and dynamic tech company. Picsart is the world's' 1 creative platform and social editing app with a huge 150 million monthly active",

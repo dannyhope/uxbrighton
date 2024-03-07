@@ -59,16 +59,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full-time, Hybrid",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"sourceSiteJobId": "Senior Product Designer",
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-02-27T11:34:47.410Z",
-		"source": "https://careers.agreena.com/career-description/f20a29a4-cef6-4409-b2cd-2d1f7f1be230"
-	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://jobs.lever.co/agreena/f20a29a4-cef6-4409-b2cd-2d1f7f1be230/apply",
 	"applicationType": "link",
 	"shortDescription": "About Agreena Agreena is an exciting, dynamic, and purpose-oriented- organisation united in a mission to mobilise farmers and corporations to unlock the value of nature and help restore the planet.",
