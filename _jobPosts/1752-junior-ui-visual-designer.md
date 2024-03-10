@@ -53,7 +53,7 @@
 		"junior",
 		"design"
 	],
-	"applicationUri": "https://career012.successfactors.eu/career?_s.crb=%252b9VVczuomnXLkGl4M6vcBfOMv6aT5iADGJl44BHGZ7o%253d",
+	"applicationUri": "https://career012.successfactors.eu/career?career%5fns=job%5flisting&company=postofficeP2&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&selected_lang=en_GB&career_job_req_id=16858",
 	"applicationType": "link",
 	"shortDescription": "What to expect Here at the Post Office, we’re’ steeped in tradition, but we’re’ going places. In this role you will be supporting the design team in setting the visual design standard for new digital",
 	"status": "LIVE",
