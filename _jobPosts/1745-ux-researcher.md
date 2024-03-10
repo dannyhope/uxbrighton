@@ -38,11 +38,16 @@
 		"shortId": "Sre8yhn2",
 		"uuid": "b071de44-1a4d-4811-854f-3407fe8159ee"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-07T06:40:15.598Z",
-		"source": "https://careers.thomsonreuters.com/us/en/job/THTTRUUSJREQ176883EXTERNALENUS/UX-Researcher?utm_source=indeed&utm_medium=phenom-feeds"
+	"employmentType": {
+		"typeInfo": [
+			{
+				"text": "Full-time",
+				"code": "FULL_TIME",
+				"type": "hours"
+			}
+		],
+		"original": "Full-time",
+		"textDescription": "Full-time"
 	},
 	"applicationUri": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/login?redirect=%2FExternal_Career_Site%2Fjob%2FGBR-London-5-Canada-Square%2FUX-Researcher_JREQ176883%2Fapply%3F",
 	"applicationType": "link",
