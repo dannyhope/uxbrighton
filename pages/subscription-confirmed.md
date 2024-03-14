@@ -1,5 +1,6 @@
 ---
 layout: generic
 title: Subscription confirmed
-seo: true
+permalink: subscription-confirmed
+seo: false
 ---
