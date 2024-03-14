@@ -460,6 +460,8 @@ speakers:
               profile-url: https://tomkerwin.com/
         slot-type: speaker
         slot-time: 15:55 pm
+        talk-media:
+          talk-video: reWkjVsHRm8
       - talk-info:
           talk-time: 16:30 pm
           talk-title: The critical importance of supporting designer and developer
