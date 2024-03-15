@@ -589,6 +589,23 @@ collections:
                               - {label: "Facebook", value: "facebook"}
                               - {label: "Instagram", value: "instagram"}
                           - {label: "Social link / URL", name: "profile-url", widget: "string", required: false}
+                              - label: "Section intro."
+              - label: "Partners intro."
+                name: "partners-intro"
+                summary: "Partners intro. (title and lede text)."
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Title", name: "title", hint: "Intro title.", widget: "string", required: false}
+                  - label: "Lede text"
+                    name: "lede"
+                    hint: "Larger 'lede' / intro text."
+                    widget: "markdown"
+                    buttons: ["bold", "italic", "quote", "link"] # List of this markdown editor's component button options
+                    editor_components: ["separator", "image"] # List of editor components (including custom ones) - eg. "image", "code" and "separator"
+                    modes: ["rich_text"] # Limiting to rich text editor to prevent toggling to 'markdown' view and adding unsupported HTML.
+                    required: false
+
           - label: "Workshop" # Workshop information
             name: "workshop"
             summary: "Workshop information."

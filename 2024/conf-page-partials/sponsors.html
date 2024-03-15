@@ -216,7 +216,7 @@
     <!-- "Standard" sponsors.... -->
     {% if homepage.sponsors.sponsors-standard.visibility == true %}
       <h3 class="pt2 fs-h2 visually-hidden">{{ homepage.sponsors.sponsors-standard.section-title }}</h3>
-      <div class="row mt0 eh-row" style="font-size: 15px;">
+      <div class="row mt0 eh-row" style="font-size: 15px">
 
         {% for sponsor in homepage.sponsors.sponsors-standard.sponsor-list %}
           <div class="u1of5-over-l u1of4-under-m u1of3-over-s u1of2 pr1 eh-item">
@@ -268,6 +268,11 @@
       </div>
     {% endif %}
 
+    <!-- Partners intro title & text... -->
+    <h3 class="fs-h2 mt5">{{ homepage.sponsors.partners-intro.title }}</h3>
+    <div class="standfirst pb2">
+      {{ homepage.sponsors.partners-intro.lede | markdownify }}
+    </div>
   </div>
 
 </section>

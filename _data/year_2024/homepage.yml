@@ -517,6 +517,10 @@ sponsors:
           collaboratively.
         links: []
     show-opportunity: true
+  partners-intro:
+    title: Partners
+    lede: UX Brighton is proud to be partnering with the following organisations
+
 image: https://uxbri.org/2022/images/cards/Early-bird.png
 description: Join us for our annual one-day conference!
 social-image: /images/uxbri-2024.png
