@@ -1,22 +1,23 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager | UX Brighton</title>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js"></script>
-  <script>
-    // Registering custom CSS call for the editor preview
-    // --------------------------------------------------------------------------------------
-    CMS.registerPreviewStyle("styles-cms.css");
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager | UX Brighton</title>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body>
+    <!-- Include the script that builds the page and powers Netlify CMS -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
-    // Enhancing the existing Markdown editor `image` component to handle adding a CSS class
-    // --------------------------------------------------------------------------------------
-    CMS.registerEditorComponent({
+    <script>
+          // Registering custom CSS call for the editor preview
+          // --------------------------------------------------------------------------------------
+          CMS.registerPreviewStyle("styles-cms.css");
+
+          // Enhancing the existing Markdown editor `image` component to handle adding a CSS class
+          // --------------------------------------------------------------------------------------
+          CMS.registerEditorComponent({
       // Visible label
       label: 'Image',
       // Internal id of the component
@@ -72,11 +73,11 @@
           default: ['image-align-right']
         }
       ]
-    })
+          })
 
-    // Adding a Slideshare link component to the Markdown editor
-    // --------------------------------------------------------------------------------------
-    CMS.registerEditorComponent({
+          // Adding a Slideshare link component to the Markdown editor
+          // --------------------------------------------------------------------------------------
+          CMS.registerEditorComponent({
       // Visible label
       label: 'Slideshare link',
       // Internal id of the component
@@ -120,11 +121,11 @@
       toPreview: ({url, label}, getAsset, fields) => {
         return `<strong>Slides: </strong><a href="https://www.slideshare.net/uxbri/${url}">${label}</a>`
       },
-    })
+          })
 
-    // Adding a Slideshare embedded 'iframe' component to the Markdown editor
-    // --------------------------------------------------------------------------------------
-    CMS.registerEditorComponent({
+          // Adding a Slideshare embedded 'iframe' component to the Markdown editor
+          // --------------------------------------------------------------------------------------
+          CMS.registerEditorComponent({
       // Visible label
       label: 'Slideshare (embedded)',
       // Internal id of the component
@@ -161,11 +162,11 @@
       toPreview: ({url}, getAsset, fields) => {
         return `<div class="embed-container slideshare hd"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
-    })
+          })
 
-    // Adding a YouTube embedded 'iframe' component to the Markdown editor
-    // --------------------------------------------------------------------------------------
-    CMS.registerEditorComponent({
+          // Adding a YouTube embedded 'iframe' component to the Markdown editor
+          // --------------------------------------------------------------------------------------
+          CMS.registerEditorComponent({
       // Visible label
       label: 'YouTube (embedded)',
       // Internal id of the component
@@ -202,11 +203,11 @@
       toPreview: ({url}, getAsset, fields) => {
         return `<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/${url}" frameborder="0" scrolling="no" allowfullscreen></iframe></div>`
       },
-    })
+          })
 
-    // Adding a horizontal-rule, aka `<hr>`, component to the Markdown editor
-    // --------------------------------------------------------------------------------------
-    CMS.registerEditorComponent({
+          // Adding a horizontal-rule, aka `<hr>`, component to the Markdown editor
+          // --------------------------------------------------------------------------------------
+          CMS.registerEditorComponent({
       label: 'Horizontal rule',
       id: 'separator',
       summary: 'This is a separator line.',
@@ -222,12 +223,12 @@
       toPreview(obj) {
         return '<hr>';
       }
-    })
+          })
 
-    // Other components could be added in...
-    // For example: "Video (Youtube)", "Slides (Slideshare)" etc.
-    /// .............
+          // Other components could be added in...
+          // For example: "Video (Youtube)", "Slides (Slideshare)" etc.
+          /// .............
 
-  </script>
-</body>
+    </script>
+  </body>
 </html>
