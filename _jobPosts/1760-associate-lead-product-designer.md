@@ -54,6 +54,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://jobs.knightfrank.com/job/London-Associate%2C-Lead-Product-Designer-%28DataDigital%29-W1U-8AN/1048435301",
 	"applicationType": "link",
 	"shortDescription": "About Knight Frank https://whyknightfrank.netlify.app../ About the role We are a firm of exceptional advisors, working across the globe, in partnership with our customers and clients to deliver them",

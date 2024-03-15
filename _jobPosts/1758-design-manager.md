@@ -46,16 +46,16 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-15T06:36:14.377Z",
-		"source": "https://aexp.eightfold.ai/careers/job/21080667?utm_source=test123&utm_medium=campaign123&domain=aexp.com&src=JB-10780&utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
-	"applicationUri": "https://axp.taleo.net/careersection/2/jobapply.ftl?job=24003804&lang=en",
+	"tags": [
+		"management",
+		"design",
+		"senior",
+		"remote"
+	],
+	"applicationUri": "https://aexp.eightfold.ai/careers/job/21080667?utm_source=test123&utm_medium=campaign123&domain=aexp.com",
 	"applicationType": "link",
 	"shortDescription": "You Lead the Way. We’ve’ Got Your Back. With the right backing, people and businesses have the power to progress in incredible ways. When you join Team Amex, you become part of a global and diverse",
 	"status": "LIVE",

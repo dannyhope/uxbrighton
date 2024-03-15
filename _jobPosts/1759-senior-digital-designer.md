@@ -46,7 +46,7 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
@@ -58,12 +58,11 @@
 		"maxValue": 50000
 	},
 	"sourceSiteJobId": "3707671",
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-15T06:51:51.672Z",
-		"source": "https://careers.cuckoo.co/jobs/3707671-senior-digital-designer?ittk=LXCL7WOT9O"
-	},
+	"tags": [
+		"senior",
+		"remote",
+		"design"
+	],
 	"applicationUri": "https://careers.cuckoo.co/jobs/3707671-senior-digital-designer?ittk=LXCL7WOT9O",
 	"applicationType": "link",
 	"shortDescription": "About Us At Cuckoo, we put our customers at the heart of everything we do, as we try to make their lives easier and their broadband faster. Because the truth is, we want them to actually feel good",
