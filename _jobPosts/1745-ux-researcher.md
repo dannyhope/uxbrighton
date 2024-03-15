@@ -49,6 +49,12 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"research",
+		"remote",
+		"junior",
+		"mid"
+	],
 	"applicationUri": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/login?redirect=%2FExternal_Career_Site%2Fjob%2FGBR-London-5-Canada-Square%2FUX-Researcher_JREQ176883%2Fapply%3F",
 	"applicationType": "link",
 	"shortDescription": "Reuters is looking for a User Experience Researcher to join our growing UX Research team that sits within the Reuters Product Design team. This is a new team, and we are looking for a researcher who",

@@ -46,7 +46,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent Position",
+		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
 	"salary": {
@@ -57,12 +57,11 @@
 		"minValue": 33,
 		"maxValue": 39
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-12T13:15:33.252Z",
-		"source": "https://jobs.guildford.gov.uk/vacancy/digital-content-designer-553212.html"
-	},
+	"tags": [
+		"design",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://jobs.guildford.gov.uk/vacancy/digital-content-designer-553212.html",
 	"applicationType": "link",
 	"shortDescription": "Are you a creative, forward-thinking- individual with a passion for delivering digital customer focused content? We’re’ looking for a hardworking and driven individual to join our fast paced and",

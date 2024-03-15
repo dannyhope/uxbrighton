@@ -53,12 +53,11 @@
 		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-05T16:15:54.117Z",
-		"source": "https://careers.fisglobal.com/us/en/job/JR0269662/UX-UI-Designer-Mobile-POS-App-Maternity-cover?p_sid=rwEBuWb&p_uid=KW8QhXZkSR&ss=paid&utm_campaign=uk2024&utm_content=pj_board&utm_medium=jobad&utm_source=indeed&dclid=CjkKEQiA_5WvBhDlw8H6i6bC57IBEiQAKc8TqRDxKerTD0EwuhCx0KxpfhWDdToi7WW6vXXqMN2vfHLw_wcB"
-	},
+	"tags": [
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://careers.fisglobal.com/us/en/apply?jobSeqNo=FIGLUSJR0269662EXTERNAL&p_sid=rwEBuWb&p_uid=KW8QhXZkSR&ss=paid&utm_campaign=uk2024&utm_content=pj_board&utm_medium=jobad&utm_source=indeed&dclid=CjkKEQiA_5WvBhDlw8H6i6bC57IBEiQAKc8TqRDxKerTD0EwuhCx0KxpfhWDdToi7WW6vXXqMN2vfHLw_wcB&step=1",
 	"applicationType": "link",
 	"shortDescription": "Are you ready to unleash your full potential?  We’re’ looking for people who are passionate about payments to chart Worldpay’s’ path to being the largest and most-loved- payments company in the world",

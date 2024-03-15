@@ -62,6 +62,12 @@
 		"minValue": 35000,
 		"maxValue": 50000
 	},
+	"tags": [
+		"design",
+		"junior",
+		"mid",
+		"remote"
+	],
 	"applicationUri": "https://www.simplyhired.co.uk/job/R-bM-BCg7D_gQ3vbZTkVoaQ-q9qg_jnFqpJTkXMNApSP_T3eF8Yrhg?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
 	"applicationType": "link",
 	"shortDescription": "We are looking for a talented UX/UI/ Designer to work on the apps for our Paramedic and pre-hospital- users. In this role, you will be working in a multi-disciplinary- team to create detailed and",

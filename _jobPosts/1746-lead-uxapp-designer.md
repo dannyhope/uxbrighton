@@ -50,6 +50,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/login?redirect=%2FExternal_Career_Site%2Fjob%2FGBR-London-5-Canada-Square%2FLead-UX-App-Designer_JREQ176838%2Fapply%3F",
 	"applicationType": "link",
 	"shortDescription": "Are you a curious, smart, self-driven- lead designer specialising in mobile application design who loves working collaboratively to deliver moments of delight for customers? Are you excited by the",

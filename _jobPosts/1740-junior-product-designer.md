@@ -48,6 +48,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"junior"
+	],
 	"applicationUri": "https://careers.fxdigital.uk/p/ea2f9e912fb901-junior-product-designer/apply",
 	"applicationType": "link",
 	"shortDescription": "Overview This is an exciting opportunity for a junior product designer to work alongside a passionate design team to support the delivery of globally recognised OTT streaming products here at FX",

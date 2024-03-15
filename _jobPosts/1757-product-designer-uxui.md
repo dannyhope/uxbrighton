@@ -45,16 +45,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"sourceSiteJobId": "3695689",
-	"meta": {
-		"patternName": "ld+json, teamtailor",
-		"patternType": "default, system",
-		"date": "2024-03-12T13:24:00.697Z",
-		"source": "https://finres-1708102114.teamtailor.com/jobs/3695689-product-designer-ux-ui?ittk=XODJXIGHSB"
-	},
+	"tags": [
+		"junior",
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://finres-1708102114.teamtailor.com/jobs/3695689-product-designer-ux-ui?ittk=XODJXIGHSB",
 	"applicationType": "link",
 	"shortDescription": "About the role We are looking for our first product designer (UX/UI/) who will play a key role in creating an innovative product that helps farmers and financial institutions identify, finance, and",

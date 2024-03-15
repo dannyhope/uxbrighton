@@ -46,15 +46,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2024-03-07T06:50:34.950Z",
-		"source": "https://apply.workable.com/youlend-1/j/6EE6941304/"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"junior",
+		"mid"
+	],
 	"applicationUri": "https://apply.workable.com/youlend-1/j/6EE6941304/apply/",
 	"applicationType": "link",
 	"shortDescription": "About Us YouLend is a rapidly growing FinTech Company that is the preferred embedded financing platform for many of the world’s’ leading e-commerce- sites, tech companies and payment services",

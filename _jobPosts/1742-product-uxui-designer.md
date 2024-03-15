@@ -48,9 +48,14 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://careers.fisglobal.com/us/en/apply?jobSeqNo=FIGLUSJR0266030EXTERNAL&step=1",
 	"applicationType": "link",
 	"shortDescription": "Are you ready to unleash your full potential?  We’re’ looking for people who are passionate about payments to chart Worldpay’s’ path to being the largest and most-loved- payments company in the world",

@@ -58,6 +58,11 @@
 		"minValue": 70011,
 		"maxValue": 70011
 	},
+	"tags": [
+		"senior",
+		"management",
+		"design"
+	],
 	"applicationUri": "https://mhra.referrals.selectminds.com/jobs/head-of-user-centred-design-%C2%A370011-p-a-benefits-2462?et=HqqfsLs5",
 	"applicationType": "link",
 	"shortDescription": "About the job Job summary We are currently looking for a Head of User Centred Design to join our Digital and Service Design Group (D&SDG) team within the Digital and Technology group. This is a",
