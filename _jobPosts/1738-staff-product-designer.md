@@ -52,15 +52,14 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-01T14:50:39.160Z",
-		"source": "https://boards.greenhouse.io/easyship/jobs/4340737006?gh_jid=4340737006"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://boards.greenhouse.io/easyship/jobs/4340737006?gh_jid=4340737006",
 	"applicationType": "link",
 	"shortDescription": "Easyship is revolutionizing logistics for eCommerce. With our all-in-one-- cloud based shipping software, businesses of all shapes and sizes have the tools needed to scale globally. At Easyship we",

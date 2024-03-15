@@ -4,9 +4,9 @@
 	"shortId": "4V9J3cCZ",
 	"uuid": "14c952d0-421d-4140-b3b2-f2b98c8f3135",
 	"title": {
-		"original": "Information Designer - Hybrid",
+		"original": "Information Designer",
 		"textDescription": "Information Designer",
-		"urlSlug": "information-designer-hybrid",
+		"urlSlug": "information-designer",
 		"inferred": {
 			"canonicalTitle": "Information Designer",
 			"seniortyLevel": 3
@@ -46,20 +46,20 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2024-03-10T10:05:40.251Z",
-		"source": "https://apply.workable.com/paxton-access/j/931E6C4557/"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"junior",
+		"mid"
+	],
 	"applicationUri": "https://apply.workable.com/paxton-access/j/931E6C4557/apply/",
 	"applicationType": "link",
 	"shortDescription": "At the heart of Paxton, we are innovators, we look for ways of harnessing new technology to provide better solutions for our customers. We're' a global brand with nearly 40 years of experience, our",
 	"status": "LIVE",
-	"permalink": "/jobs/1748/information-designer-hybrid",
+	"permalink": "/jobs/1748/information-designer",
 	"layout": "jobs/individual"
 }
 ---

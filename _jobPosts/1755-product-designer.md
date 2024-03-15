@@ -51,17 +51,12 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"salary": {
-		"currencyCode": "GBP",
-		"currencySymbol": "£",
-		"period": "YEAR"
-	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-03-12T10:25:58.952Z",
-		"source": "https://recruit.vitality.co.uk/vacancies/620/product-designer--pae.html?source=Indeed"
-	},
+	"tags": [
+		"mid",
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://recruit.vitality.co.uk/vacancies/620/product-designer--pae.html",
 	"applicationType": "link",
 	"shortDescription": "About The Role Team – Prospect, Advisor and Employer Working Pattern - Hybrid – 2 days per week in the Vitality London or Bournemouth Office. Full time, 35 hours per week. Top 3 skills needed for",

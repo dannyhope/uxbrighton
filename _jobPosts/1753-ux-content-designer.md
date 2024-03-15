@@ -54,6 +54,12 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"remote",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://careers.rsgroup.com/job/London-UX-Content-Designer-ENG-N1C-4AG/1046737801/",
 	"applicationType": "link",
 	"shortDescription": "RS Group is currently looking for a UX Content Designer to join our team permanently.  As our first Content Designer, you will help shape, develop, and deliver our UX content strategies and practices",

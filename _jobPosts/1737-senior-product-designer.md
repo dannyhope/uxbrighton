@@ -47,15 +47,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full-time /",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2024-03-01T14:35:31.529Z",
-		"source": "https://jobs.lever.co/ion/42435006-9b99-437a-a0ee-acee96d154fb?lever-origin=applied&lever-source%5B%5D=Indeed"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.lever.co/ion/42435006-9b99-437a-a0ee-acee96d154fb/apply",
 	"applicationType": "link",
 	"shortDescription": "LAB49 is hiring Senior UX/UI/ Product Designers for an exciting opportunity. Elevate your career with an unparalleled experience in one of the world's' most dynamic business hubs. Join us and be part",
