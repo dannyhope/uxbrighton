@@ -14,6 +14,8 @@ ticket:
   state: Ticketed
   link: https://www.tickettailor.com/events/uxbrighton/1156887
   price: £375-560
+upcoming-teaser:
+  bg-image: /images/53022320906_6b07fd4edb_o.jpg
 conference: false
 upcoming: true
 published: true
