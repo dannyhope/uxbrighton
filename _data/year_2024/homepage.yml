@@ -75,7 +75,7 @@ hero:
     venue: Brighton Dome
     image: /images/header.jpg
   pre:
-    title: AI UX
+    title: UX & AI
     button:
       label: Book now for 2024
       url: "#tickets"
