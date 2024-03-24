@@ -51,12 +51,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, smartrecruiters",
-		"patternType": "default, system",
-		"date": "2024-03-18T15:02:01.404Z",
-		"source": "https://jobs.smartrecruiters.com/PublicisGroupe/743999973850793-senior-ui-ux-designer-visual-focus-?trid=08adcbb5-0a30-40dd-9ac2-d5574300e389"
-	},
+	"tags": [
+		"remote",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/PublicisGroupe/publication/451fba8a-76e8-4978-af7d-ccfa61dfb620?dcr_ci=PublicisGroupe&sid=08adcbb5-0a30-40dd-9ac2-d5574300e389",
 	"applicationType": "link",
 	"shortDescription": "Company Description LI-Hybrid- Publicis Groupe is one of the largest advertising agency holding companies in the world and a global leader in the fields of marketing, communications, and digital",

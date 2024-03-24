@@ -46,12 +46,12 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-03-18T14:41:55.269Z",
-		"source": "https://www.envitia.com/2024/03/ux-ui-designer/?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
+	"tags": [
+		"junior",
+		"mid",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://envitia.bamboohr.com/careers/63?source=aWQ9MTQ%3D",
 	"applicationType": "link",
 	"shortDescription": "Role description We are looking for a UX / UI Designer who creates exceptional user interface designs and has the ability to translate and develop those into world class intuitive and modern",

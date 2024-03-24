@@ -55,12 +55,11 @@
 		"minValue": 68,
 		"maxValue": 75
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-03-18T14:56:07.466Z",
-		"source": "https://lbg.wd3.myworkdayjobs.com/en-US/LBG_Careers/job/London/Interaction-Designer---Everyday-Banking-Platform_109168-2?utm_source=indeed&utm_medium=referral&source=Indeed"
-	},
+	"tags": [
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://lbg.wd3.myworkdayjobs.com/en-US/LBG_Careers/job/London/Interaction-Designer---Everyday-Banking-Platform_109168-2/apply",
 	"applicationType": "link",
 	"shortDescription": "We support agile working – click here for more information on agile working options. Agile Working Options Hybrid Working, Job Share Working Pattern Our work style is hybrid, which involves spending",

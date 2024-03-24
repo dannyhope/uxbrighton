@@ -55,9 +55,14 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://apply.tesco-careers.com/members/?j=874087",
 	"applicationType": "link",
 	"shortDescription": "About the role We’re’ looking for a passionate, curious and driven Senior UX Designer to join our multidisciplinary team. As a UX designer at the UK’s’ largest supermarket, you’ll’ be shaping",

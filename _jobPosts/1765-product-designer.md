@@ -46,6 +46,12 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote",
+		"design",
+		"senior",
+		"mid"
+	],
 	"applicationUri": "https://apply.workable.com/dcthomson/j/46ED225282/apply/",
 	"applicationType": "link",
 	"shortDescription": "Job Description Find your magic with us. Connecting people to their family stories is special. We’re’ proud to deliver these magic moments. Through technology, data and insights, we bring people",
