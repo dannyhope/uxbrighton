@@ -49,13 +49,7 @@
 		"original": "Permanent",
 		"textDescription": "Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-03-24T10:11:15.611Z",
-		"source": "https://career012.successfactors.eu/career?career%5fns=job%5flisting&company=postofficeP2&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&selected_lang=en_GB&career_job_req_id=17300&jobPipeline=Indeed"
-	},
-	"applicationUri": "https://career012.successfactors.eu/career?career%5fns=job%5flisting&company=postofficeP2&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&selected_lang=en_GB&career_job_req_id=17300",
+	"applicationUri": "https://career012.successfactors.eu/career?career%5fns=job%5flisting&company=postofficeP2&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&career_job_req_id=17300&selected_lang=en_GB&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=Europe/London&_s.crb=nZAhMTz0oDqi3LsdgSotZezGPH48go0V3d%2fNwxkfCTE%3d",
 	"applicationType": "link",
 	"shortDescription": "What to expect We have a great new role in our Digital Experience team, as a Senior UX Designer. You will be responsible for defining and designing the customer experience of products and services",
 	"status": "LIVE",
