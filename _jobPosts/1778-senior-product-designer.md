@@ -4,13 +4,13 @@
 	"shortId": "pT9nN76b",
 	"uuid": "ee9fd0d6-2127-4feb-9730-300c043ae06e",
 	"title": {
-		"original": "Sr. Product Designer",
-		"textDescription": "Sr. Product Designer",
-		"urlSlug": "sr-product-designer",
+		"original": "Senior Product Designer",
+		"textDescription": "Senior Product Designer",
+		"urlSlug": "senior-product-designer",
 		"inferred": {
-			"canonicalTitle": "Sr. Product Designer",
-			"seniorty": "Sr.",
-			"seniortyLevel": 3
+			"canonicalTitle": "Senior Product Designer",
+			"seniorty": "Senior",
+			"seniortyLevel": 4
 		}
 	},
 	"postedDate": "2024-03-25T00:00:00.000Z",
@@ -46,20 +46,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-03-25T14:13:50.107Z",
-		"source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/ProofpointCareers/job/London-England/Sr-Product-Designer_R10408?source=indeed"
 	},
 	"applicationUri": "https://proofpoint.wd5.myworkdayjobs.com/en-US/ProofpointCareers/job/London-England/Sr-Product-Designer_R10408/apply",
 	"applicationType": "link",
 	"shortDescription": "It's' fun to work in a company where people truly BELIEVE in what they're' doing! We're' committed to bringing passion and customer focus to the business. Corporate Overview Proofpoint is a leading",
 	"status": "LIVE",
-	"permalink": "/jobs/1778/sr-product-designer",
+	"permalink": "/jobs/1778/senior-product-designer",
 	"layout": "jobs/individual"
 }
 ---
