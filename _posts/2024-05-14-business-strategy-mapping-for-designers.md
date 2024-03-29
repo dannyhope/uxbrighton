@@ -84,14 +84,48 @@ Tom passionately believes that a little business acumen can go a long way for de
 “Really insightful workshop. It was useful to have practical examples rather than just an overview”\
 —Tracy Godding
 
+## Schedule
+
+<table>
+    <tr>
+      <th scope="row" role="rowheader">10:00-10:45</th>
+      <td>Welcome, introduction to business strategy and why it matters</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">10:45-11:30</th>
+      <td>The Business Strategy Canvas: what it is and how to use it</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">11:30-13:00</th>
+      <td>Activity: plotting competitors on a Business Strategy Canvas</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">13:00-14:00</th>
+      <td>Lunch break</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">14:00-15:00</th>
+      <td>Activity: analysing user journeys through a business strategy lens</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">15:00-15:30</th>
+      <td>Demystifying business ‘levers’</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">15:30-15:45</th>
+      <td>Afternoon break</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">15:45-16:30</th>
+      <td>Activity: business impact mapping</td>
+    </tr>
+    <tr>
+      <th scope="row" role="rowheader">16:30-17:00</th>
+      <td>Reflections and bonus business tips</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Enquiries
 
 For enquiries and assistance, please contact [events@uxbri.org](mailto:events@uxbri.org).
-
-## Schedule
-
-10:00 arrive
-
-12:30 lunch (provided)
-
-5:00 ends
