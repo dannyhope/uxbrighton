@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: Business Strategy Mapping for Designers
+title: Business Strategy Mapping for Designers workshop
 description: "A workshop to bring clarity to the business strategy at your
   organisation, empowering you to have more business impact and influence "
 social-image: /images/53022320906_6b07fd4edb_o.jpg
