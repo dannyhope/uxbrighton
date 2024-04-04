@@ -2,7 +2,13 @@
 
 # Install OS packages
 sudo apt-get update
-sudo apt-get install --upgrade -y python3 python3-venv python3-pip
+
+## Upgrade pip
+# /usr/local/python/current/bin/python3 -m pip install --upgrade pip
+
+## Install the some dependencies that Jupyter requires
+sudo apt-get install -y --fix-missing python3-ipython python3-ipykernel
+python3 -m ipykernel install --user
 
 # Update NPM
 npm install -g npm@latest

@@ -4,29 +4,41 @@
   "name": "UX Brighton - Devcontainer",
   "image": "mcr.microsoft.com/devcontainers/ruby",
   "features": {
+    "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/devcontainers-contrib/features/node-asdf:0": {}
   },
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-python.python",
-        "ms-python.black-formatter",
+        "anysphere.pyright",
+        "ms-toolsai.jupyter",
         "sissel.shopify-liquid",
         "Shopify.ruby-lsp",
         "Gruntfuggly.todo-tree",
         "dbaeumer.vscode-eslint",
         "wholroyd.jinja",
-        "GitHub.copilot@prerelease",
-        "GitHub.copilot-chat@prerelease",
         "EditorConfig.EditorConfig",
         "sissel.netlify-redirects",
         "shailen.netlify",
         "bierner.github-markdown-preview",
-      ]
+        "EverlastEngineering.debug-in-titlebar",
+        "ms-python.black-formatter",
+      ],
+      "settings": {
+        // Set the preferential Python interpreter for the workspace
+        // tt time of writing, this is Python 3.12
+        "python.defaultInterpreterPath": "/usr/local/python/current/bin/python3",
+        "python.pythonPath": "/usr/local/python/current/bin/python3",
+        // Fixes a temporary issue with Jupyter
+        // Tells the Jupyter extension to ignore these installations of Python
+        // and use the one configured above...
+        // At time of writing, the python bundled with the OS is Python 3.9
+        // Visual preferences
+        "debug.toolBarLocation": "docked",
+        "workbench.activityBar.orientation": "vertical"
+      }
     }
   },
   "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
-  // Auto approves the workspace dir as safe in Git
-  // https://github.com/microsoft/vscode-remote-release/issues/6810
-  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+  "postStartCommand": "./.devcontainer/postStartCommand.sh"
 }

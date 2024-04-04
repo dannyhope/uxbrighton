@@ -13,5 +13,6 @@
   "netlify.set_interval": 10000,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  },
+  "workbench.activityBar.orientation": "vertical"
 }
