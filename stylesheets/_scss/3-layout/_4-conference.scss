@@ -1,5 +1,22 @@
-////////////////////////////////////
-//
+.partners-editor-content {
+  h3 {@extend .fs-h2;}
+  p {
+    @extend .standfirst;
+    @extend .pb2;
+  }
+  p:has(img) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    margin:     24px;
+    width:      100%;
+    max-width:  250px;
+    max-height: 250px;
+  }
+}
+
 //   Pricing Table
 
 .pricing-table {

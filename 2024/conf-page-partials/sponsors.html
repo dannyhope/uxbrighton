@@ -269,14 +269,10 @@
     {% endif %}
 
     <!-- Partners intro title & text... -->
-    <h3 class="fs-h2 mt5">{{ homepage.sponsors.partners-intro.title }}</h3>
-    <div class="standfirst pb2">
-      {{ homepage.sponsors.partners-intro.lede | markdownify }}
+    <div class="partners-editor-content">
+      {{ homepage.sponsors.partners.partners-editor | markdownify }}
     </div>
-    <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 2rem;">
-      <a href="https://www.interaction-design.org/?ep=ux-brighton-conference-2024">
-        <img src="//uxbri.org/2024/images/ixdf-logo.svg" alt="Interaction Design Foundation" style="width: 280px; padding: 1rem;">
-      </a>
+
     </div>
   </div>
 
