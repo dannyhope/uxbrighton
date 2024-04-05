@@ -2,10 +2,11 @@
 // README at: https://github.com/devcontainers/images/tree/main/src/ruby
 {
   "name": "UX Brighton - Devcontainer",
-  "image": "mcr.microsoft.com/devcontainers/ruby",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {},
-    "ghcr.io/devcontainers-contrib/features/node-asdf:0": {}
+    "ghcr.io/devcontainers-contrib/features/node-asdf:0": {},
+    "ghcr.io/devcontainers/features/ruby:1": {}
   },
   "customizations": {
     "vscode": {

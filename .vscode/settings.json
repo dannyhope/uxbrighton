@@ -14,5 +14,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.activityBar.orientation": "vertical"
+  "workbench.activityBar.orientation": "vertical",
+  "npm.autoDetect": "on",
+  "npm.exclude": "**/_site"
 }
