@@ -7,3 +7,6 @@
 2015
 2016
 2017
+.venv
+node_modules
+stylesheets/css

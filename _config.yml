@@ -3,7 +3,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 future: true
-exclude: [CNAME, 'node_modules', '.venv']
+exclude: [CNAME, 'node_modules', '.venv', '.sass-cache', '.ruby-lsp']
 
 # Plugins
 plugins:
@@ -12,7 +12,8 @@ plugins:
 # Where to look when Jekyll building styles
 sass:
   style: compressed
-  sass_dir: ./stylesheets/scss
+  sass_dir: stylesheets/_scss
+  verbose: true
 
 # Collections
 collections:
