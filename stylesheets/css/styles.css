@@ -410,7 +410,7 @@ h1, .fs-h1 {
   letter-spacing: -0.035em;
   line-height: 1.2; }
 
-h2, .fs-h2 {
+h2, .fs-h2, .partners-editor-content h3 {
   font-size: 30px;
   letter-spacing: -0.025em;
   line-height: 1.333;
@@ -1317,6 +1317,16 @@ th, td {
 #newletter-signup:target {
   padding-bottom: calc(100vh - 340px); }
 
+.partners-editor-content p:has(img) {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.partners-editor-content img {
+  margin: 32px;
+  width: 100%;
+  max-width: 250px;
+  max-height: 250px; }
+
 .pricing-table {
   /* Ticket option styles */ }
   .pricing-table .ticket-option {
@@ -1741,7 +1751,7 @@ body.job-open {
   align-items: center; }
 
 .fs-xs, .fs-s, .fs-l, .fs-xl, .fs-xxl, .fs-xxxl,
-h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
+h1, .fs-h1, h2, .fs-h2, .partners-editor-content h3, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
   transition: font-size 0.7s;
   text-wrap: balance; }
 
@@ -1840,11 +1850,11 @@ h1, .fs-h1, h2, .fs-h2, h3, .fs-h3, h4, .fs-h4, h5, .fs-h5, h6, .fs-h6 {
   line-height: 0.3333em;
   letter-spacing: 0.01em; }
 
-.standfirst {
+.standfirst, .partners-editor-content p {
   font-size: 24px;
   margin-bottom: 0.5em; }
   @media only screen and (max-width: 450px) {
-    .standfirst {
+    .standfirst, .partners-editor-content p {
       font-size: 20px; } }
 
 .font-sans {
@@ -2942,7 +2952,7 @@ a.drop:hover {
 .pl2, .pa2, .ph2 {
   padding-left: 16px; }
 
-.pb2, .pa2, .pv2 {
+.pb2, .partners-editor-content p, .pa2, .pv2 {
   padding-bottom: 16px; }
 
 .pr2, .pa2, .ph2 {
