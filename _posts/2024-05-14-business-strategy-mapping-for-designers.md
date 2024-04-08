@@ -123,7 +123,6 @@ Tom passionately believes that a little business acumen can go a long way for de
       <th scope="row" role="rowheader">16:30-17:00</th>
       <td>Reflections and bonus business tips</td>
     </tr>
-  </tbody>
 </table>
 
 ## Enquiries
