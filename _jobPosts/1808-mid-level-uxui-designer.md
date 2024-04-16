@@ -31,7 +31,7 @@
 	},
 	"hiringOrganization": {
 		"name": "Wiser",
-		"logo": "//uxbri.org/jobs/logos/wearewiser.com",
+		"logo": "//uxbri.org/jobs/logos/wiser-logo.webp",
 		"twitter": "wearewiser_",
 		"id": 958,
 		"shortId": "6qusMiBz",
