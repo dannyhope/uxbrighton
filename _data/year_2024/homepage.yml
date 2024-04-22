@@ -171,7 +171,7 @@ speakers:
     speaker-list:
       - talk-info:
           talk-time: 10:00 am
-          talk-title: Human conversations with a grids of numbers
+          talk-title: Human conversations with grids of numbers
           talk-summary: >-
             The rise of large language models signals a new era in machine
             learning. Yet, these grids of numbers, while impressive, offer a
@@ -180,10 +180,10 @@ speakers:
             tool that resists easy replication.
 
 
-            However, there is a seed in generative AI of something to come: tools that can generate individualised and ethereal interactions. Emerging reasoning capabilities that can interact with the user experiences we have built for humans, acting as agents on our behalf. These systems hold the promise of eventually working in collaboration with us, through our greatest tool – spoken and written language.
+            However, there is a seed in generative AI of something to come: tools that can generate individualised and ethereal interactions. Emerging reasoning capabilities that can interact with the experiences we have built for humans, which act as agents on our behalf. These systems hold the promise of eventually working in collaboration with us, through our greatest tool – spoken and written language.
 
 
-            In this talk Glenn will explore the possible AI driven user experiences. What will be the place for graphical interfaces in a world of conversational AI. Will chat UI design pattern prove to be just a passing adolescent phase, something we'll all soon look back on with a wry smile.
+            In this talk Glenn will explore possible AI driven user experiences. What will be the place for graphical interfaces in a world of conversational AI? Will chat UI design patterns prove to be just a passing adolescent phase – something we'll all soon look back on with a wry smile.
         name: Glenn Jones
         thumbnail: /images/glenn-jones-square.jpg
         anchor: Glenn-Jones
@@ -197,7 +197,7 @@ speakers:
             Washington Post.
 
 
-            Unconventionally, he has in-depth expertise across many different fields of the digital industry. His mind moves from data, coding, to considering UX, all while strategizing product commercialization. You might find him doing all of these things at once. After being involved in two successful tech exits, Glenn spends his time researching AI and doing advisory roles for high-growth teams.
+            Unconventionally, he has in-depth expertise across many different fields of the digital industry. His mind moves from data, coding, to considering UX, all while strategizing product commercialization. You might find him doing all of these things at once. After being involved in two successful tech exits, Glenn spends his time researching AI and advising high-growth teams.
           social-profiles:
             - profile-type: linkedin
               profile-url: https://www.linkedin.com/in/glennjones/
@@ -223,11 +223,11 @@ speakers:
       * Please note that The Dome may conduct bag searches.
 
       * Please be seated by 9.50am so you don’t miss anything.
-    visibility: true
+    visibility: false
     anchor: Registration
     title: Registration
   after-party:
-    visibility: true
+    visibility: false
     time: 17:20 pm
     thumbnail: /images/party1.jpg
     title: After Party
