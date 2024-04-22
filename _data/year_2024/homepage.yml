@@ -161,7 +161,7 @@ overview:
       quotee: Mike Kuniavsky, Xerox PARC
   overview-state: pre
 speakers:
-  visibility: false
+  visibility: true
   section-title: Talks
   section-banner: /images/header2.jpg
   speaker-info:
