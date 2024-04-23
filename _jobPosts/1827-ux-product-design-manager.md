@@ -44,7 +44,7 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full-time /",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
@@ -54,12 +54,6 @@
 		"currencySymbol": "£",
 		"minValue": 66,
 		"maxValue": 78
-	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2024-04-23T10:39:54.606Z",
-		"source": "https://jobs.lever.co/prometheanworld/910e3d87-925f-48ec-aca9-bd4c0eddbe06?lever-source=Indeed"
 	},
 	"applicationUri": "https://jobs.lever.co/prometheanworld/910e3d87-925f-48ec-aca9-bd4c0eddbe06/apply",
 	"applicationType": "link",
