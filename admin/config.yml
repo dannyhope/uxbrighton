@@ -129,7 +129,7 @@ collections:
             name: "overview"
             summary: "Overview section content - (eg. intro section & testimonial under the hero section)."
             widget: "object"
-            collapsed: true
+            collapsed: true 
             fields:
               - {label: "Show overview section?", name: "visibility", hint: "Overview info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - label: "Overview content states"
@@ -1249,7 +1249,7 @@ collections:
             name: "hero"
             summary: "Hero section content - (eg. banner title, subtitle, date and primary ticket button)."
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - label: "Hero content states"
                 name: "hero-state"
@@ -1324,7 +1324,7 @@ collections:
             name: "overview"
             summary: "Overview section content - (eg. intro section & testimonial under the hero section)."
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - {label: "Show overview section?", name: "visibility", hint: "Overview info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - label: "Overview content states"
@@ -1466,7 +1466,7 @@ collections:
             name: "attendee-info"
             summary: "Attendee information content - (eg. travel & accommodation, pre-party)."
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - label: "Travel & Accommodation"
                 name: "travel-accom"
