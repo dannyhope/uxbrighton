@@ -1628,7 +1628,7 @@ collections:
             name: "highlights"
             summary: "Highlights section - (only shows if 'Speakers' section not visible)."
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - {label: "Show highlights?", name: "visibility", hint: "Highlights (past) info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - {label: "Section title", name: "title", widget: "string", required: false}
@@ -1652,7 +1652,7 @@ collections:
             name: "sponsors"
             summary: "Sponsors section - (eg. section title, intro, testimonial, headline, premium & standard sponsors)."
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - {label: "Show sponsors?", name: "visibility", hint: "Sponsors info. Choose whether to show or hide. Defaults to **show**.", widget: "boolean", default: true}
               - {label: "Section title", name: "section-title", hint: "Sponsors section title.", widget: "string", required: false}
