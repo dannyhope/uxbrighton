@@ -56,12 +56,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-05T06:24:58.804Z",
-		"source": "https://careers.foolproof.co.uk/jobs/3791000-senior-product-designer"
-	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://careers.foolproof.co.uk/jobs/3791000-senior-product-designer",
 	"applicationType": "link",
 	"shortDescription": "We are looking for a Senior Product Designer who has a passion for creating digital products and services that create value for our clients. You are as passionate about creativity as you are about",

@@ -49,6 +49,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"management",
+		"senior"
+	],
 	"applicationUri": "https://jobs.lever.co/ion/3f8667f9-3173-4c26-ab73-fc7b27a8d41b/apply",
 	"applicationType": "link",
 	"shortDescription": "The Role We are looking for an experienced UX leader to head ION’s’ User Experience Architecture practice across the group’s’ verticals and their suite of professional financial products and services",

@@ -54,12 +54,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-23T08:37:59.121Z",
-		"source": "https://careers.societegenerale.com/en/job-offers/trainee-product-designer-24000BHR-en?src=JB-10600"
-	},
+	"tags": [
+		"junior",
+		"design"
+	],
 	"applicationUri": "https://socgen.taleo.net/careersection/iam/accessmanagement/login.jsf?lang=en-GB&redirectionURI=https%3A%2F%2Fsocgen.taleo.net%2Fcareersection%2Fsgcareers%2Fjobapply.ftl%3Fjob%3D24000BHR%26src%3DJB-10600%26lang%3Den-gb%26pcid%3Dlvbysxv3a2phwvt2&TARGET=https%3A%2F%2Fsocgen.taleo.net%2Fcareersection%2Fsgcareers%2Fjobapply.ftl%3Fjob%3D24000BHR%26src%3DJB-10600%26lang%3Den-gb%26pcid%3Dlvbysxv3a2phwvt2",
 	"applicationType": "link",
 	"shortDescription": "Responsibilities Description of the Business Line or Department SG Markets is Societe Generale’s’ suite of B2B digital products and applications for start-ups-, corporate and financial institutions.",

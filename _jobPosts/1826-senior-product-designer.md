@@ -55,12 +55,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-23T09:25:08.338Z",
-		"source": "https://boards.greenhouse.io/griffin/jobs/5324513003"
-	},
+	"tags": [
+		"remote",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://boards.greenhouse.io/griffin/jobs/5324513003#app",
 	"applicationType": "link",
 	"shortDescription": "About Griffin Hi, we’re’ Griffin! We’re’ the bank for companies who want to build and launch financial products. Our context We're' rapidly heading towards a future where most of us access financial",

@@ -49,6 +49,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://www.google.com/about/careers/applications/apply/450fb162-f212-4733-af50-963dd8916feb/form",
 	"applicationType": "link",
 	"shortDescription": "About the job At Google, we follow a simple but vital premise: \"Focus on the user and all else will follow.\" Google’s’ Interaction Designers take complex tasks and make them intuitive and easy-to-use",

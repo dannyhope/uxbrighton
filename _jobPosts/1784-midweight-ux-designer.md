@@ -48,15 +48,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-03-29T09:13:12.259Z",
-		"source": "https://careers.foolproof.co.uk/jobs/3755727-midweight-ux-designer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-	},
+	"tags": [
+		"design",
+		"mid",
+		"remote"
+	],
 	"applicationUri": "https://careers.foolproof.co.uk/jobs/3755727-midweight-ux-designer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
 	"applicationType": "link",
 	"shortDescription": "We are searching for a UX Designer who has a passion for creating digital products and services that create value for our clients and their customers. You are as passionate about creativity as you",

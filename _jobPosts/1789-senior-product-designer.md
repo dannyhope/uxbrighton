@@ -54,6 +54,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://apply.workable.com/apron/j/B5B0369199/apply/",
 	"applicationType": "link",
 	"shortDescription": "Description Apron was started by a group of people who’d’ spent years building products for a number of global fintech companies. But there was one problem that no-one- was solving. Business payments",

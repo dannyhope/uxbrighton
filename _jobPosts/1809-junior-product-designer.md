@@ -50,6 +50,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"junior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://eonnext.wd3.myworkdayjobs.com/en-US/EON_Next_Careers/job/London-UK/Junior-Product-Designer_JR101579/apply",
 	"applicationType": "link",
 	"shortDescription": "Bringing that feel-good- energy. We're' the newest face amongst the E.ON. group of companies. E.ON. Next is all about creating a sustainable future, now. We're' moving our energy in the right",

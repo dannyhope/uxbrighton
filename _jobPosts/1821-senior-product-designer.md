@@ -50,6 +50,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://jobs.workable.com/view/5VS3JKeYNkeivkhLqgbPmE/hybrid-senior-product-designer-in-london-at-signal",
 	"applicationType": "link",
 	"shortDescription": "About Signal Ocean Signal Ocean is the technology arm of the Signal Group. Our primary product, The Signal Ocean Platform, enables shipping professionals to securely handle, integrate, and assess",

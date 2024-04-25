@@ -46,15 +46,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2024-04-16T10:52:55.525Z",
-		"source": "https://apply.workable.com/winnow/j/4A050551EC/"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"mid"
+	],
 	"applicationUri": "https://apply.workable.com/winnow/j/4A050551EC/apply/",
 	"applicationType": "link",
 	"shortDescription": "Description About us Food waste is a 1 trillion problem – costing the world over 1 of global GDP. We’re’ dead set on solving the problem and looking for people to help us achieve our mission. We, at",

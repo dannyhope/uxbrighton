@@ -56,12 +56,10 @@
 		"minValue": 45,
 		"maxValue": 62
 	},
-	"meta": {
-		"patternName": "ld+json, civilservicejobs",
-		"patternType": "default, site",
-		"date": "2024-04-16T11:49:54.839Z",
-		"source": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=b3duZXJ0eXBlPWZhaXImcGFnZWNsYXNzPUpvYnMmb3duZXI9NTA3MDAwMCZzZWFyY2hzb3J0PWNsb3NpbmcmdXNlcnNlYXJjaGNvbnRleHQ9NzY5Nzg3NjQmc2VhcmNocGFnZT00MiZqb2JsaXN0X3ZpZXdfdmFjPTE5MDYxNTgmcGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0JnJlcXNpZz0xNzEzMjI1NzU3LTUwMDBjMjQ3YjFiZDlkYzAzODdjZTA1N2RhNDllYWQwODUwMDg5Nzg=&utm_source=indeed.com&utm_medium=free"
-	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=b3duZXJ0eXBlPWZhaXImb3duZXI9NTA3MDAwMCZqY29kZT0xOTA2MTU4JnBhZ2VjbGFzcz1BcHBseSZhcHBseV9ub3c9MSZhcHBseV91cmw9aHR0cHM6Ly9jc2hyLnRhbC5uZXQvdngvbGFuZy1lbi1HQi9hcHBjZW50cmUtMTEvY2FuZGlkYXRlL3Bvc3RpbmdzLzMwMjAxNz9pbnN0YW50PWFwcGx5&login_button=Apply+now",
 	"applicationType": "link",
 	"shortDescription": "About the job Job summary Join Ofgem to ensure safe, affordable, sustainable energy for UK consumers and contribute to the Net Zero transition. Our expanding team offers new roles in Service, User,",

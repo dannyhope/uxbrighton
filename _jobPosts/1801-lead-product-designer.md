@@ -47,15 +47,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-09T06:27:00.936Z",
-		"source": "https://jobs.workable.com/view/1xyV8ZW7JCC2QorEYDDVzt/hybrid-lead-product-designer-in-london-at-thought%26function"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"senior"
+	],
 	"applicationUri": "https://jobs.workable.com/view/1xyV8ZW7JCC2QorEYDDVzt/hybrid-lead-product-designer-in-london-at-thought%26function",
 	"applicationType": "link",
 	"shortDescription": "As the Lead Product Designer at Thought&Function, you will be at the forefront of our product development process, shaping the future of innovative products that meet and exceed market needs. This",

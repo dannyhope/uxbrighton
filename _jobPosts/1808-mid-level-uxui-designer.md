@@ -17,7 +17,7 @@
 	"closedDate": "2024-05-14T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London EC1R GB",
+		"original": "London EC1R",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -48,6 +48,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://wiser.teamtailor.com/jobs/3844960-mid-level-ux-ui-designer?ittk=IEFQD5XYKY",
 	"applicationType": "link",
 	"shortDescription": "We are Wiser, an award-winning- Employer Branding  Early Talent agency. We build employer brands to guide the best in the biz into their dream career with our clients. We’re’ a home for people who",

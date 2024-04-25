@@ -46,15 +46,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-01T15:50:27.578Z",
-		"source": "https://careers.instapro.group/o/senior-ux-designer-2-7"
-	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://careers.instapro.group/o/senior-ux-designer-2-7/c/new",
 	"applicationType": "link",
 	"shortDescription": "Hi from the Instapro Group We're' the technology company behind a home services revolution. Our mission is to help tradespeople get the work they want and homeowners hire the tradespeople they need.",

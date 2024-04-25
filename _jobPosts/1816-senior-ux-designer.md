@@ -50,6 +50,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://digitalcareers.infosys.com/infosys/global-careers/apply-senior-ux-designer/336120",
 	"applicationType": "link",
 	"shortDescription": "About Us We’re’ the team behind your favourite digital products, and the platforms that power them. We make every moment magical, everywhere. Our team is made up of self-motivated-, big thinkers who",

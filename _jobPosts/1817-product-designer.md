@@ -50,15 +50,13 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-04-21T16:13:28.765Z",
-		"source": "https://www.metacareers.com/jobs/1024151491879834/?rx_campaign=indeed0&rx_ch=vp&rx_group=187943&rx_job=a1K2K000007p9QtUAI&rx_medium=cpc&rx_r=none&rx_source=indeed&rx_ts=20240421T121201Z&rx_vp=cpc&utm_campaign=Job%2Bboard&utm_medium=jobs&utm_source=indeedorganic&ref=a8lA00000004CJ6IAM&rx_p=9UBTLN1SVP&rx_viewer=d06fa46ecb4a11eeb9b13b2483235d7c1873b0f86ec6436fbe56a30299ce10f5"
-	},
+	"tags": [
+		"design",
+		"mid"
+	],
 	"applicationUri": "https://www.metacareers.com/resume/?req=a1K2K000007p9QtUAI&ref=a8lA00000004CJ6IAM",
 	"applicationType": "link",
 	"shortDescription": "Responsibilities Work independently to complete projects at the level of whole features within a well scoped domain Design flows and experiences that are incredibly simple and elegant for our",

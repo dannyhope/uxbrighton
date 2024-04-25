@@ -49,6 +49,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://apply.workable.com/hook-technology/j/E0BA12F798/apply/",
 	"applicationType": "link",
 	"shortDescription": "About Hook Hook's' mission is to reinvent how businesses engage with their customers by providing machine-learnt- insights to help companies radically improve customer loyalty and revenue forecasting",

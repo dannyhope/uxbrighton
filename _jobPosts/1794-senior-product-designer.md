@@ -50,15 +50,13 @@
 				"type": "contract"
 			}
 		],
-		"original": "Full-time Permanent",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-04-05T06:10:01.655Z",
-		"source": "https://labrys-technologies-ltd.jobs.personio.com/job/1487774?language=en&display=en"
-	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://labrys-technologies-ltd.jobs.personio.com/job/1487774?language=en&display=en#apply",
 	"applicationType": "link",
 	"shortDescription": "Your New Role We're' looking for a talented Senior Product Designer to join our team in London. You'll' be our first product designer and will help transform the way organisations manage globally",

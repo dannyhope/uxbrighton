@@ -55,12 +55,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-11T06:29:07.770Z",
-		"source": "https://jobs.workable.com/view/p6iBRzgjbaTS8qpqQ6cW8T/hybrid-product-design-lead-in-london-at-second-nature"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.workable.com/view/p6iBRzgjbaTS8qpqQ6cW8T/hybrid-product-design-lead-in-london-at-second-nature",
 	"applicationType": "link",
 	"shortDescription": "The Challenge Obesity has become a global epidemic; in the UK, we spend 9 billion a year alone on diseases like type 2 diabetes (that’s’ 10 of the NHS budget). What’s’ shocking is most of this is",

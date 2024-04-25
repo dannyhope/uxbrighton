@@ -51,6 +51,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
+	"tags": [
+		"remote",
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://careers.carandclassic.com/jobs/3774517-senior-ux-ui-designer-remote",
 	"applicationType": "link",
 	"shortDescription": "About you You’re’ passionate about human-centred- design. You’ve’ utilised research, feedback and testing to create designs across high-traffic- websites and mobile applications. You like to",

@@ -47,15 +47,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-09T06:47:56.445Z",
-		"source": "https://jobs.eu.lever.co/lendable/0d09ef01-34f3-4800-8d43-737555f178ee"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.eu.lever.co/lendable/0d09ef01-34f3-4800-8d43-737555f178ee/apply",
 	"applicationType": "link",
 	"shortDescription": "About Lendable Lendable is on a mission to make consumer finance amazing: faster, cheaper and friendlier. We're' building one of the world’s’ leading fintech companies and are off to a strong start:",

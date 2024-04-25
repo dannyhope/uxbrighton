@@ -54,6 +54,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"remote",
+		"design"
+	],
 	"applicationUri": "https://apply.workable.com/houseful/j/365190EF21/apply/",
 	"applicationType": "link",
 	"shortDescription": "Description Hybrid - Minimum 2 days on site in London, Tower Bridge HQ Hometrack is redefining the mortgage journey for lenders, brokers and consumers by delivering the market leading valuation and",

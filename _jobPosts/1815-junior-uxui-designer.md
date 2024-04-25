@@ -51,9 +51,13 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"junior",
+		"design"
+	],
 	"applicationUri": "https://www.charlestyrwhitt.careers/job/junior-ux-slash-ui-designer/apply?",
 	"applicationType": "link",
 	"shortDescription": "The Role At Charles Tyrwhitt our purpose is to “Make it easy for men to dress well” and we can’t’ do that without our specialist teams. This time, we’re’ on the lookout for a Junior UX Designer who",

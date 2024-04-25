@@ -49,7 +49,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, full time",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"salary": {
@@ -60,12 +60,10 @@
 		"minValue": 65000,
 		"maxValue": 65000
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-04-23T09:11:51.598Z",
-		"source": "https://aviva.wd1.myworkdayjobs.com/en-US/External/job/London-UK/Product-Designer--UX-UI---_R-139373-2?referrer=102"
-	},
+	"tags": [
+		"design",
+		"mid"
+	],
 	"applicationUri": "https://aviva.wd1.myworkdayjobs.com/en-US/External/job/London-UK/Product-Designer--UX-UI---_R-139373-2/apply?referrer=102",
 	"applicationType": "link",
 	"shortDescription": "We are currently recruiting for an experienced Product Designer to join the User Centred Design team for a 4-6-month-- fixed term contract . If you enjoy using data and insights to get closer to",

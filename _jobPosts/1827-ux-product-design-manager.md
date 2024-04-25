@@ -55,6 +55,11 @@
 		"minValue": 66,
 		"maxValue": 78
 	},
+	"tags": [
+		"remote",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://jobs.lever.co/prometheanworld/910e3d87-925f-48ec-aca9-bd4c0eddbe06/apply",
 	"applicationType": "link",
 	"shortDescription": "At Promethean... We're' on a mission to transform the way people learn and collaborate around the world. For over 25 years, we've' been empowering educators, innovators, and business leaders with our",

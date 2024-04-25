@@ -45,7 +45,7 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
@@ -56,12 +56,12 @@
 		"minValue": 40000,
 		"maxValue": 55000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-11T07:20:40.089Z",
-		"source": "https://jobs.workable.com/view/4qc1UFJuRSoQs6c9KebCV6/user-researcher-in-london-at-methods-business-and-digital-technology"
-	},
+	"tags": [
+		"research",
+		"junior",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://jobs.workable.com/view/4qc1UFJuRSoQs6c9KebCV6/user-researcher-in-london-at-methods-business-and-digital-technology",
 	"applicationType": "link",
 	"shortDescription": "Methods is a 100M IT Services Consultancy who has partnered with a range of central government departments and agencies to transform the way the public sector operates in the UK. Established over 30",

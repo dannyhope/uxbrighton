@@ -45,15 +45,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-03-29T09:18:06.727Z",
-		"source": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/London/VP--User-Experience--Research-and-Design_R75319-2"
-	},
+	"tags": [
+		"design",
+		"management",
+		"senior"
+	],
 	"applicationUri": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/London/VP--User-Experience--Research-and-Design_R75319-2/apply",
 	"applicationType": "link",
 	"shortDescription": "Are you a natural leader? Are you ready for the next step in your UX career? About our Team Our Academic Government team helps our communities accelerate knowledge for a better world by helping to",

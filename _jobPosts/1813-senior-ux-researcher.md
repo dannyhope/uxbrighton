@@ -48,12 +48,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-04-16T11:05:33.767Z",
-		"source": "https://newscorp.com/careers/news-uk/senior-ux-researcher/?source=APPLICANT_SOURCE-Indeed"
-	},
+	"tags": [
+		"research",
+		"senior"
+	],
 	"applicationUri": "https://www.newscareers.co.uk/registration.aspx",
 	"applicationType": "link",
 	"shortDescription": "Job Description We are looking for a Senior UX Researcher to join the Times and Sunday Times product design team. You will join a team that defines the digital product experiences for thetimes.co.uk.",

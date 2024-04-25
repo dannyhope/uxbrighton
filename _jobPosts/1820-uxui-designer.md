@@ -53,12 +53,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-04-22T13:22:14.421Z",
-		"source": "https://boards.greenhouse.io/brunswickgroup/jobs/7276173002?gh_src=d85a51892us"
-	},
+	"tags": [
+		"junior",
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://boards.greenhouse.io/brunswickgroup/jobs/7276173002?gh_src=d85a51892us",
 	"applicationType": "link",
 	"shortDescription": "The Opportunity Brunswick is a special kind of advisory firm. We advise the world’s’ leading companies on how to navigate the critical issues they face and engage with their most important",

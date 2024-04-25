@@ -43,15 +43,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-04-22T13:09:41.179Z",
-		"source": "https://www.trailmixgames.com/jobs/product-designer"
-	},
+	"tags": [
+		"remote",
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://trailmix.breezy.hr/p/1e0f35b8be8901-product-designer/apply",
 	"applicationType": "link",
 	"shortDescription": "We are the makers of casual mobile hit Love Pies, which globally launched in September 2021 and has now found its way into the hands of millions of players around the world. We’re’ backed by",

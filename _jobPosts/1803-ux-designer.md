@@ -51,12 +51,12 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2024-04-09T07:00:53.315Z",
-		"source": "https://apply.workable.com/tmw/j/49796E353C/"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://apply.workable.com/tmw/j/49796E353C/apply/",
 	"applicationType": "link",
 	"shortDescription": "We are currently seeking a UX Designer to join our team. As a UX Designer at TMWUnlimited, you will play a key role in shaping the user experience for our clients' digital products and services. You",
