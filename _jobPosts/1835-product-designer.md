@@ -46,20 +46,16 @@
 				"type": "hours"
 			}
 		],
-		"original": "full-time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"salary": {
-		"original": "30,000-40,000",
-		"textDescription": " - ",
-		"minValue": 30,
-		"maxValue": 40
-	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2024-04-30T11:42:21.234Z",
-		"source": "https://apply.workable.com/kody/j/1DA15A1FAE/"
+		"original": "£30,000-£40,000",
+		"textDescription": "£30,000 - £40,000",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 30000,
+		"maxValue": 40000
 	},
 	"applicationUri": "https://apply.workable.com/kody/j/1DA15A1FAE/apply/",
 	"applicationType": "link",
