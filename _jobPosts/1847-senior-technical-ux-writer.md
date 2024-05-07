@@ -50,7 +50,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [

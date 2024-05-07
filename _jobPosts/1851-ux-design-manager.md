@@ -51,12 +51,14 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
 		"remote",
-		"design"
+		"design",
+		"management",
+		"senior"
 	],
 	"applicationUri": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29301/apply/email?",
 	"applicationType": "link",

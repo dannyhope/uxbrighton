@@ -51,12 +51,14 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
 		"remote",
-		"design"
+		"design",
+		"mid",
+		"senior"
 	],
 	"applicationUri": "https://gravityglobal.teamtailor.com/jobs/4387790-ux-designer?ittk=6OVGH4LTYN",
 	"applicationType": "link",

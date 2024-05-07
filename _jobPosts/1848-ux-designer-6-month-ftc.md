@@ -49,11 +49,12 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, Full-time",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"tags": [
-		"senior"
+		"design",
+		"mid"
 	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/Trainline/publication/45d3c3bd-1956-4254-861e-d65da7b45da2?dcr_ci=Trainline",
 	"applicationType": "link",
