@@ -53,12 +53,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-05-14T05:23:57.749Z",
-		"source": "https://www.google.com/about/careers/applications/jobs/results/131560967535239878-ux-writer-and-content-designer/?src=Online/Job%20Board/indeed&utm_source=indeed&utm_medium=job-posting"
-	},
+	"tags": [
+		"design",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://www.google.com/about/careers/applications/apply/3c6f8cb6-3592-47a9-951a-bc902be4cfeb/form",
 	"applicationType": "link",
 	"shortDescription": "About the job As a UX writer, you are an advocate for Google design, shaping product experiences by creating useful, meaningful text that helps users complete tasks. You help set the vision for",

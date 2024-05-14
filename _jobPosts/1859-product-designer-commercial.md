@@ -60,6 +60,10 @@
 		"minValue": 60000,
 		"maxValue": 72000
 	},
+	"tags": [
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://boards.greenhouse.io/flohealth/jobs/5955055003?gh_jid=5955055003",
 	"applicationType": "link",
 	"shortDescription": "The Design team excels in enhancing user experience on our app through data-driven- research, innovative content, and expert design execution. We're' establishing a world-class- function in a",

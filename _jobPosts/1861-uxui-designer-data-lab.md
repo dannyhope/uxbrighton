@@ -62,6 +62,12 @@
 		"minValue": 38000,
 		"maxValue": 45000
 	},
+	"tags": [
+		"remote",
+		"design",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://jobs.jobvite.com/wri/job/oX35sfwh/apply",
 	"applicationType": "link",
 	"shortDescription": "This is a hybrid position with an average of 8 days per month in the office. You can be based in our WRI Europe office in London or The Hague. This is a 12-month- fixed-term- role with the potential",

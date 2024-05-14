@@ -53,12 +53,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-05-14T09:00:11.996Z",
-		"source": "https://opportunities.vodafone.com/job/London-UX-Copywriter/1035718501/?feedId=301801&utm_source=Indeed&utm_campaign=Vodafone_Indeed&src=JB-13160"
-	},
+	"tags": [
+		"mid",
+		"remote"
+	],
 	"applicationUri": "https://opportunities.vodafone.com/job/London-UX-Copywriter/1035718501/?feedId=301801",
 	"applicationType": "link",
 	"shortDescription": "Role Purpose The Group Brand Media team’s’ remit covers brand strategy, creative, media, identity and orchestration across all Vodafone global markets. For context, Vodafone is one of the largest",

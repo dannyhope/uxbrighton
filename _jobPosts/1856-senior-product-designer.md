@@ -47,16 +47,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
 	"sourceSiteJobId": "4446515",
-	"meta": {
-		"patternName": "ld+json, teamtailor",
-		"patternType": "default, system",
-		"date": "2024-05-10T05:45:19.094Z",
-		"source": "https://sweatcoin.teamtailor.com/jobs/4446515-senior-product-designer?ittk=SPKVEPGRWR"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://sweatcoin.teamtailor.com/jobs/4446515-senior-product-designer?ittk=SPKVEPGRWR",
 	"applicationType": "link",
 	"shortDescription": "Since 2015 Sweatcoin and now Sweat Economy have been working on making the world more physically active. With more than 140 million registered users, thousands of partners and a proven ability to",

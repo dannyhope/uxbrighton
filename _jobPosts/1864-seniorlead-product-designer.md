@@ -55,12 +55,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-05-14T05:17:24.220Z",
-		"source": "https://boards.greenhouse.io/blockchain/jobs/5960148"
-	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://boards.greenhouse.io/blockchain/jobs/5960148",
 	"applicationType": "link",
 	"shortDescription": "Blockchain is the world's' leading software platform for digital assets. Offering the largest production blockchain platform in the world, we share the passion to code, create, and ultimately build",

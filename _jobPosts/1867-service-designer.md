@@ -61,12 +61,11 @@
 		"minValue": 46000,
 		"maxValue": 64000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-05-14T09:10:51.350Z",
-		"source": "https://jobs.workable.com/view/7VkHsAhqSWBZhmRxfHLyup/service-designer-in-london-at-methods-business-and-digital-technology"
-	},
+	"tags": [
+		"mid",
+		"senior",
+		"design"
+	],
 	"applicationUri": "https://jobs.workable.com/view/7VkHsAhqSWBZhmRxfHLyup/service-designer-in-london-at-methods-business-and-digital-technology",
 	"applicationType": "link",
 	"shortDescription": "Methods is a 100M IT Services Consultancy who has partnered with a range of central government departments and agencies to transform the way the public sector operates in the UK. Established over 30",

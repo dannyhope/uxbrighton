@@ -62,12 +62,12 @@
 		"minValue": 55000,
 		"maxValue": 65000
 	},
-	"meta": {
-		"patternName": "ld+json, workable",
-		"patternType": "default, system",
-		"date": "2024-05-13T15:12:12.109Z",
-		"source": "https://apply.workable.com/our-future-health/j/7F9D8D2713/"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://apply.workable.com/our-future-health/j/7F9D8D2713/apply/",
 	"applicationType": "link",
 	"shortDescription": "We have a new opportunity as a Service Designer to join our product team! We need a Service Designer to work on the design, delivery, and improvement of new and existing services at Our Future Health",

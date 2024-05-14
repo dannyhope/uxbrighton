@@ -46,12 +46,11 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-05-14T04:57:59.229Z",
-		"source": "https://jobs.ashbyhq.com/Deel/a247c103-a6a9-4978-8580-66ea954fa47f?departmentId=80b16527-0639-4f0a-8ce6-f474df6bb2f5"
-	},
+	"tags": [
+		"design",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.ashbyhq.com/Deel/a247c103-a6a9-4978-8580-66ea954fa47f/application?departmentId=80b16527-0639-4f0a-8ce6-f474df6bb2f5",
 	"applicationType": "link",
 	"shortDescription": "Who we are is what we do. Deel and our family of growing companies are made up of global teams dedicated to helping businesses hire anyone, anywhere, easily. The team comprises over three thousand",

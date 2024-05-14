@@ -53,6 +53,11 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://jobs.bt.com/BT/job/One-Braham-%284140%29-Product-Design-Practitioner-AI-%28Digital-ConsumerEE%29-Lond/794287802/",
 	"applicationType": "link",
 	"shortDescription": "The immediate assignment We are seeking a Product Designer interested in AI to lead and support the Aimee early life squad working with the coolest Generative AI tech. You will work on delivering",

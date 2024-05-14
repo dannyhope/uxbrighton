@@ -49,12 +49,10 @@
 		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-05-10T06:00:39.210Z",
-		"source": "https://sainsburys.jobs/search-apply/experience-designer-nectar-midweight--234122/?utm_medium=third+party&utm_source=indeed_free"
-	},
+	"tags": [
+		"mid",
+		"design"
+	],
 	"applicationUri": "https://hdhe.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/preview/234122/apply/email?mode=location&utm_medium=third+party&utm_source=indeed_free",
 	"applicationType": "link",
 	"shortDescription": "At Sainsbury’s’ we believe that the customer should be at the heart of everything we do. Our vision is to create the easiest, most enjoyable experiences that better serve our customers’ ever-changing",

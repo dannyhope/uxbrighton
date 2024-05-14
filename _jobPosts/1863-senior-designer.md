@@ -45,15 +45,13 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-05-14T05:06:30.132Z",
-		"source": "https://jobs.shell.com/job/london/senior-designer/25244/64988373200"
-	},
+	"tags": [
+		"design",
+		"senior"
+	],
 	"applicationUri": "https://shell.wd3.myworkdayjobs.com/ShellCareers/login?redirect=%2FShellCareers%2Fjob%2FLondon---Shell-Centre%2FSenior-Designer_R143789-1%2Fapply",
 	"applicationType": "link",
 	"shortDescription": "Where you fit in Shell has a passionate commitment to doing things differently, taking a unique, innovative approach in balancing human-centred- and design with an agile technology capability –",
