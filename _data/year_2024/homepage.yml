@@ -295,7 +295,7 @@ speakers:
       - talk-info:
           talk-time: ""
           talk-title: Talk title to be announced
-          talk-summary: Talk description to be announced
+          talk-summary: ""
         name: Manú Bartlett & Ewa Koc
         thumbnail: /images/manú-and-ewa.jpg
         anchor: Manu-and-Ewa
@@ -329,6 +329,7 @@ speakers:
             Ewa is particularly interested in accessibility and data-driven design, enabling her to make a meaningful impact in the digital world.
       - talk-info:
           talk-time: ""
+          talk-title: Talk title to be announced
         name: Pablo Stanley
         thumbnail: /images/headshot_pablo-stanley.jpeg
         anchor: Pablo-Stanley
