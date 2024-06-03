@@ -4,9 +4,9 @@
 	"shortId": "w832H3NM",
 	"uuid": "8af0e6ac-748f-4fbf-9b96-b9389a18c0f2",
 	"title": {
-		"original": "UX Design Manager (12 Months Contract)",
+		"original": "UX Design Manager (12 Month Contract)",
 		"textDescription": "UX Design Manager",
-		"urlSlug": "ux-design-manager-12-months-contract",
+		"urlSlug": "ux-design-manager-12-month-contract",
 		"inferred": {
 			"canonicalTitle": "UX Design Manager",
 			"seniorty": "Manager",
@@ -54,17 +54,11 @@
 		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-06-03T09:58:55.296Z",
-		"source": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/London/UX-Design-Manager_R1063604?source=Indeed.com"
-	},
 	"applicationUri": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/London/UX-Design-Manager_R1063604/apply?source=Indeed.com",
 	"applicationType": "link",
 	"shortDescription": "Introduction Dentsu is the network designed for what’s’ next, helping clients predict and plan for disruptive future opportunities and create new paths to growth in the sustainable economy. Taking a",
 	"status": "LIVE",
-	"permalink": "/jobs/1898/ux-design-manager-12-months-contract",
+	"permalink": "/jobs/1898/ux-design-manager-12-month-contract",
 	"layout": "jobs/individual"
 }
 ---
