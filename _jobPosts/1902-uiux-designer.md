@@ -4,11 +4,11 @@
 	"shortId": "WUBU1eX1",
 	"uuid": "16e0ba15-2f94-4a6b-9fea-b45e9277ab29",
 	"title": {
-		"original": "UI/UX designer",
-		"textDescription": "UI/UX designer",
+		"original": "UI/UX Designer",
+		"textDescription": "UI/UX Designer",
 		"urlSlug": "uiux-designer",
 		"inferred": {
-			"canonicalTitle": "UI/UX designer",
+			"canonicalTitle": "UI/UX Designer",
 			"seniortyLevel": 3
 		}
 	},
