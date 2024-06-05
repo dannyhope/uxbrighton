@@ -29,7 +29,7 @@
 	},
 	"hiringOrganization": {
 		"name": "Puffer Finance",
-		"logo": "//uxbri.org/jobs/logos/Puffer-Finance-logo.png",
+		"logo": "//uxbri.org/jobs/logos/puffer-finance-logo.svg",
 		"twitter": "puffer_finance",
 		"id": 997,
 		"shortId": "65QK26oU",
