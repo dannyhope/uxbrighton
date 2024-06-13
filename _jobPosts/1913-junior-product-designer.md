@@ -54,11 +54,13 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-11T05:48:48.762Z",
-		"source": "https://boards.greenhouse.io/koodoo/jobs/6018891"
+	"salary": {
+		"original": "£30,000 - £40,000",
+		"textDescription": "£30,000 - £40,000",
+		"currencyCode": "GBP",
+		"currencySymbol": "£",
+		"minValue": 30000,
+		"maxValue": 40000
 	},
 	"applicationUri": "https://boards.greenhouse.io/koodoo/jobs/6018891#app",
 	"applicationType": "link",

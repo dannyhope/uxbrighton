@@ -4,7 +4,7 @@
 	"shortId": "v39hQ789",
 	"uuid": "208151f4-166e-4f41-98b6-718b74860916",
 	"title": {
-		"original": "UX Designer (Retail Focus) 6 month ftc",
+		"original": "UX Designer (Retail Focus) 6 month FTC",
 		"textDescription": "UX Designer",
 		"urlSlug": "ux-designer-retail-focus-6-month-ftc",
 		"inferred": {
