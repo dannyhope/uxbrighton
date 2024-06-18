@@ -32,7 +32,7 @@
 	},
 	"hiringOrganization": {
 		"name": "King’s College London",
-		"logo": "//uxbri.org/jobs/logos/King's-College-London-logo.svg",
+		"logo": "//uxbri.org/jobs/logos/Kings-College-London-logo.svg",
 		"twitter": "KingsCollegeLon",
 		"id": 1003,
 		"shortId": "JB1MHVPx",
@@ -61,12 +61,6 @@
 		"currencySymbol": "£",
 		"minValue": 40386,
 		"maxValue": 47414
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-13T09:14:22.714Z",
-		"source": "https://www.kcl.ac.uk/jobs/090908-product-designer"
 	},
 	"applicationUri": "https://my.corehr.com/pls/kclrecruit/erq_jobspec_version_4.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=090908#",
 	"applicationType": "link",
