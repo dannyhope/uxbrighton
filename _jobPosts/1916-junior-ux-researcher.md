@@ -14,7 +14,7 @@
 		}
 	},
 	"postedDate": "2024-06-13T00:00:00.000Z",
-	"closedDate": "2024-07-11T00:00:00.000Z",
+	"closedDate": "2024-07-15T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
 		"original": "London EC4M 7RF",
@@ -49,12 +49,6 @@
 		],
 		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-13T08:59:25.912Z",
-		"source": "https://careers.justeattakeaway.com/global/en/job/TAKEGLOBALR038509ENGLOBAL/Junior-UX-Researcher?utm_campaign=&utm_content=&utm_source=indeed&utm_medium=earned_jobposting&utm_term="
 	},
 	"applicationUri": "https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR038509ENGLOBAL&step=1",
 	"applicationType": "link",
