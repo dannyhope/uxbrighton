@@ -61,7 +61,7 @@
 		"minValue": 43,
 		"maxValue": 50
 	},
-	"applicationUri": "https://my.corehr.com/pls/kclrecruit/erq_jobspec_version_4.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=091949",
+	"applicationUri": "https://www.kcl.ac.uk/jobs/091949-research-software-uiux-designer",
 	"applicationType": "link",
 	"shortDescription": "About Us King’s’ Digital Lab (KDL) is a Research Software Engineering (RSE) team within King’s’ College London Faculty of Arts and Humanities. Our focus is on designing and implementing systems,",
 	"status": "LIVE",
