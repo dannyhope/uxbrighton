@@ -4,9 +4,9 @@
 	"shortId": "krhdLFMY",
 	"uuid": "5c408b5a-f1a4-414c-84da-4b9a638338f9",
 	"title": {
-		"original": "Senior Product Designer (29948)",
+		"original": "Senior Product Designer",
 		"textDescription": "Senior Product Designer",
-		"urlSlug": "senior-product-designer-29948",
+		"urlSlug": "senior-product-designer",
 		"inferred": {
 			"canonicalTitle": "Senior Product Designer",
 			"seniorty": "Senior",
@@ -38,17 +38,11 @@
 		"shortId": "cnN4yeFJ",
 		"uuid": "0646947f-0160-4e57-a5ff-ad6429490c2c"
 	},
-	"meta": {
-		"patternName": "ld+json, hollandandbarrett",
-		"patternType": "default, site",
-		"date": "2024-07-08T15:30:23.815Z",
-		"source": "https://apply.hollandandbarrettjobs.com/jobs/vacancy/senior-product-designer-29948-london/29927/description/?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
 	"applicationUri": "https://apply.hollandandbarrettjobs.com/jobs/vacancy/senior-product-designer-29948-london/29927/description/action/apply/?pagestamp=0ea17e05-c918-46ba-ad0b-d090bcbb7a7a&utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed",
 	"applicationType": "link",
 	"shortDescription": "This is a hybrid role with an expectation to be in either our London or Nuneaton office once a week. Holland Barrett is the UK's' leading wellness retailer and the largest in Europe. Our purpose is",
 	"status": "LIVE",
-	"permalink": "/jobs/1955/senior-product-designer-29948",
+	"permalink": "/jobs/1955/senior-product-designer",
 	"layout": "jobs/individual"
 }
 ---
