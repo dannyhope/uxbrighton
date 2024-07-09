@@ -269,8 +269,8 @@ $(function () {
 
     tt_id = tt_id_from_url[1];
 
-    // e.preventDefault();
     TTWidget.loadEvent(tt_name, tt_id, 'widget');
+    e.preventDefault();
   });
 
 
