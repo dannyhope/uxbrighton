@@ -17,7 +17,7 @@
 	"closedDate": "2024-08-01T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London UK",
+		"original": "London",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -25,8 +25,8 @@
 				"locality": "London",
 				"countryName": "United Kingdom",
 				"countryCode": "GB",
-				"latitude": 51.509865,
-				"longitude": -0.118092
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
 		]
 	},
@@ -47,12 +47,6 @@
 		],
 		"original": "Permanent",
 		"textDescription": "Permanent"
-	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-07-04T13:25:32.415Z",
-		"source": "https://www.transfergo.com/career/job-offer/5221760004"
 	},
 	"applicationUri": "https://boards.greenhouse.io/transfergo/jobs/5221760004",
 	"applicationType": "link",
