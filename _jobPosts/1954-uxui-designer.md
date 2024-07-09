@@ -32,7 +32,7 @@
 	},
 	"hiringOrganization": {
 		"name": "CUBE",
-		"logo": "//uxbri.org/jobs/logos/CUBEGlobal",
+		"logo": "//uxbri.org/jobs/logos/CUBE-logo.svg",
 		"twitter": "CUBEGlobal",
 		"id": 1016,
 		"shortId": "oIQ31s1L",
@@ -48,12 +48,6 @@
 		],
 		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-07-08T15:22:21.231Z",
-		"source": "https://careers.cube.global/jobs/4702426-ux-ui-designer?ittk=JRB2LWSGDE"
 	},
 	"applicationUri": "https://careers.cube.global/jobs/4702426-ux-ui-designer?ittk=JRB2LWSGDE",
 	"applicationType": "link",
