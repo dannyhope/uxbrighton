@@ -13,7 +13,7 @@
 		}
 	},
 	"postedDate": "2024-07-12T00:00:00.000Z",
-	"closedDate": "2024-08-09T00:00:00.000Z",
+	"closedDate": "2024-07-22T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
 		"original": "London, Hybrid",
@@ -55,12 +55,6 @@
 		"currencySymbol": "£",
 		"minValue": 36,
 		"maxValue": 41
-	},
-	"meta": {
-		"patternName": "ld+json, civilservicejobs",
-		"patternType": "default, site",
-		"date": "2024-07-12T16:16:00.619Z",
-		"source": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=c2VhcmNoc29ydD1jbG9zaW5nJm93bmVydHlwZT1mYWlyJnBhZ2VhY3Rpb249dmlld3ZhY2J5am9ibGlzdCZzZWFyY2hwYWdlPTI0Jm93bmVyPTUwNzAwMDAmam9ibGlzdF92aWV3X3ZhYz0xOTE1NDk0JnBhZ2VjbGFzcz1Kb2JzJnVzZXJzZWFyY2hjb250ZXh0PTg3NzEwMzUzJnJlcXNpZz0xNzIwNzYzOTg1LWE4OTQ1NzBhZDAwY2M2ZWVjN2Y1ZjEzNGQ0NzAwYzJlM2VmNWM0ODk=&utm_source=indeed.com&utm_medium=free"
 	},
 	"applicationUri": "https://cafcass.current-vacancies.com/Jobs/Advert/3549717?cid=1663&jobtitle=User.Experience.Designer&location=Flexible&rsid=13860&ad=-1000496877&t=User-Experience-Designer&l=Flexible",
 	"applicationType": "link",
