@@ -47,15 +47,15 @@
 				"type": "hours"
 			}
 		],
-		"original": "Full time",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-28T05:43:13.309Z",
-		"source": "https://www.directlinegroupcareers.com/job/-/-/38736/66849339728"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"mid",
+		"senior"
+	],
 	"applicationUri": "https://dlg.wd3.myworkdayjobs.com/DLGCAREERS/login?redirect=%2FDLGCAREERS%2Fjob%2FLondon---Riverbank-House%2FUX-Designer_R-17415%2Fapply",
 	"applicationType": "link",
 	"shortDescription": "At Direct Line Group, insurance is just the start. Combining decades of industry experience with talented people in every field, we’re’ a customer-obsessed- market powerhouse. And we all work",

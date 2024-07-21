@@ -52,12 +52,12 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-28T05:50:47.424Z",
-		"source": "https://www.superdrug.jobs/job/75641944?utm_source=IndeedOrganic&in_platform_id=18&source=Indeedorganic"
-	},
+	"tags": [
+		"design",
+		"mid",
+		"junior",
+		"remote"
+	],
 	"applicationUri": "https://www.superdrug.jobs/job/75641944?utm_source=IndeedOrganic&in_platform_id=18&source=Indeedorganic",
 	"applicationType": "link",
 	"shortDescription": "Why Superdrug? Passionate about Beauty and Health? Want to be part of an innovative, trend setting retailer? Our vibrant Head Office, based by East Croydon station is a fantastic environment filled",

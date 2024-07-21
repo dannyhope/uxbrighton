@@ -50,15 +50,15 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent - Full Time /",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json, lever",
-		"patternType": "default, system",
-		"date": "2024-07-02T12:04:40.986Z",
-		"source": "https://jobs.lever.co/oaknorth.ai/c1314c10-7347-4ddb-b50b-65884864a679"
-	},
+	"tags": [
+		"design",
+		"mid",
+		"senior",
+		"remote"
+	],
 	"applicationUri": "https://jobs.lever.co/oaknorth.ai/c1314c10-7347-4ddb-b50b-65884864a679/apply",
 	"applicationType": "link",
 	"shortDescription": "We’re’ looking for a talented Product Designer to join our Product and Design team and help shape the future of banking. You’ll’ collaborate closely with cross-functional- teams to translate business",

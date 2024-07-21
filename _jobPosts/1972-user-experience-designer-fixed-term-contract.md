@@ -46,15 +46,14 @@
 				"type": "contract"
 			}
 		],
-		"original": "TEMPORARY",
+		"original": "Temporary",
 		"textDescription": "Temporary"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-07-16T10:06:51.775Z",
-		"source": "https://careers-rssb.icims.com/jobs/1634/job?utm_source=indeed_integration&iis=Job+Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f&mobile=false&width=1084&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=60"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"mid"
+	],
 	"applicationUri": "https://careers-rssb.icims.com/jobs/1634/user-experience-designer-%28fixed-term-contract%29/login?mobile=false&width=980&height=2558&bga=true&needsRedirect=false&jan1offset=0&jun1offset=60",
 	"applicationType": "link",
 	"shortDescription": "Overview 12-Month- Fixed Term Contract Internally called User Experience Lead As a User Experience (UX) Lead, you will be responsible for designing and assuring the user experience of RSSBs digital",

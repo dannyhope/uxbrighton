@@ -54,12 +54,12 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-30T15:48:29.377Z",
-		"source": "https://jobs.workable.com/view/raPb9FaqWKAQbXx2aUD2VX/hybrid-product-designer-in-london-at-justpark"
-	},
+	"tags": [
+		"design",
+		"remote",
+		"senior",
+		"mid"
+	],
 	"applicationUri": "https://jobs.workable.com/view/raPb9FaqWKAQbXx2aUD2VX/hybrid-product-designer-in-london-at-justpark",
 	"applicationType": "link",
 	"shortDescription": "About us JustPark is one of the fastest growing and most loved technology companies serving the parking and mobility sector, now globally! Having merged with ParkHub, a leading US parking software",

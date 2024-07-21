@@ -48,15 +48,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-25T05:38:04.439Z",
-		"source": "https://careers.ember.co/jobs/4642940-senior-product-designer?ittk=SV0DRQY5DF"
-	},
+	"tags": [
+		"senior",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://careers.ember.co/jobs/4642940-senior-product-designer?ittk=SV0DRQY5DF",
 	"applicationType": "link",
 	"shortDescription": "We’re’ Ember - an App for business owners that removes the burden of accounting and tax by taking care of it for them. Since our founding in 2019, we’ve’ been working hard to bring this",

@@ -53,6 +53,10 @@
 		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
+	"tags": [
+		"design",
+		"mid"
+	],
 	"applicationUri": "https://jobs.smartrecruiters.com/oneclick-ui/company/AngloAmericanDeBeersGroup/publication/fb576324-3a27-43d2-b8cd-291d0f1e2982?dcr_ci=AngloAmericanDeBeersGroup",
 	"applicationType": "link",
 	"shortDescription": "Company Description As part of De Beers Group, we are The Home of Diamonds since 1888, bringing our pioneering diamond perfection to our clients through over 30 stores and a worldwide digital",

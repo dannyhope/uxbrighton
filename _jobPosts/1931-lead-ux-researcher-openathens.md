@@ -62,12 +62,11 @@
 		"minValue": 40000,
 		"maxValue": 40000
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-06-23T14:49:06.766Z",
-		"source": "https://jobs.jisc.ac.uk/Jisc/JobDescription/DAnzgwzMDIY"
-	},
+	"tags": [
+		"remote",
+		"research",
+		"senior"
+	],
 	"applicationUri": "https://jobs.jisc.ac.uk/Jisc/Login?returnUrl=ApplyNow%3Fid%3DDAnzgwzMDIY&vId=DAnzgwzMDIY",
 	"applicationType": "link",
 	"shortDescription": "Jisc is the UK digital, data and technology agency focused on tertiary education, research, and innovation. We are a not-for-profit-- organisation with a big ambition to improve lives through",

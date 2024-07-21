@@ -51,6 +51,12 @@
 		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
+	"tags": [
+		"senior",
+		"mid",
+		"design",
+		"remote"
+	],
 	"applicationUri": "https://legl-1684858710.teamtailor.com/jobs/4673583-ux-design-contract?ittk=G9XQOHEMVD",
 	"applicationType": "link",
 	"shortDescription": "Legl is a fast-growing-, vertical B2B SaaS platform with a mission to bring the legal industry into the 21st century. We closed our Series B (May 2022), and we are scaling quickly on our next phase",

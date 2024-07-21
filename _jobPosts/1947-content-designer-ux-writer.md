@@ -45,15 +45,14 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
 	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-07-02T11:51:58.148Z",
-		"source": "https://careers.mpb.com/jobs/4690113-content-designer-ux-writer"
-	},
+	"tags": [
+		"remote",
+		"design",
+		"mid"
+	],
 	"applicationUri": "https://careers.mpb.com/jobs/4690113-content-designer-ux-writer",
 	"applicationType": "link",
 	"shortDescription": "About MPB We are MPB, the largest global platform for used photography and videography equipment. Our platform transforms the way that people buy, sell and trade in photo and video kit. MPB has",
