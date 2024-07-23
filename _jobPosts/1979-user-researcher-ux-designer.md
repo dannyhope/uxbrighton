@@ -31,7 +31,8 @@
 	},
 	"hiringOrganization": {
 		"name": "Nationwide Building Society",
-		"logo": "//uxbri.org/jobs/logos/nationwide-building-society-logo-vector.svg",
+		"logo": "//uxbri.org/jobs/logos/Nationwide-Logo.png",
+		"twitter": "AskNationwide",
 		"id": 167,
 		"shortId": "Iw5f9w2r",
 		"uuid": "c8fe6388-4e29-46a8-9cfc-1ca7609bbc18"
@@ -55,13 +56,7 @@
 		"minValue": 45000,
 		"maxValue": 45000
 	},
-	"meta": {
-		"patternName": "ld+json, llm",
-		"patternType": "default",
-		"date": "2024-07-23T08:56:57.409Z",
-		"source": "https://www.nationwide-jobs.co.uk/jobs/491783/user-researcher-ux-designer/?sType=Indeed&utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-	},
-	"applicationUri": "https://nationwide.recruitmentplatform.com/apply/apply.html?jobId=QEVFK026203F3VBQBV78NQW0L-491783&langCode=en_GB",
+	"applicationUri": "https://www.nationwide-jobs.co.uk/jobs/491783/user-researcher-ux-designer/",
 	"applicationType": "link",
 	"shortDescription": "Description We are looking for a User researcher to join our Digital Innovation team, dedicated to exploring, shaping and delivering new concepts that will delight our customers. As a User Researcher",
 	"status": "LIVE",
