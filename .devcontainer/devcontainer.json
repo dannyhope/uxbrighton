@@ -34,7 +34,8 @@
         // Tells the Jupyter extension to ignore these installations of Python
         // and use the one configured above...
         // At time of writing, the python bundled with the OS is Python 3.9
-        // Visual preferences
+        // Visual preferences.
+        // This is due to the Jupyter Kernel.
         "debug.toolBarLocation": "docked",
         "workbench.activityBar.orientation": "vertical"
       }

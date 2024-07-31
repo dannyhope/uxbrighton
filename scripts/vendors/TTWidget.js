@@ -8,10 +8,29 @@ var TTWidget = {
       document.body.appendChild(widgetHtml);
     }
   },
-  loadEvent: function (boxOffice, eventSeriesId, ref = 'widget', domain = 'www.tickettailor.com') {
+  getParamsFromOriginalUrl: function (url) {
+    // Accepts a standard web URL as a string, extracts known params for Google tracking...
+    // We are only looking for _gl and _ga params...
+    var parsedUrl = new URL(url);
+    var params = new URLSearchParams(parsedUrl.search);
+    var gl = params.get('_gl');
+    var ga = params.get('_ga');
+    var queryString = '';
+    if (gl) queryString += '_gl=' + gl;
+    if (ga) queryString += (queryString ? '&' : '') + '_ga=' + ga;
+    return queryString;
+  },
+  loadEvent: function (boxOffice, eventSeriesId, ref = 'widget', domain = 'www.tickettailor.com', originalUrl = '') {
     this.init();
+    var paramString = '';
+    if (originalUrl) {
+      paramString = this.getParamsFromOriginalUrl(originalUrl);
+    }
     domain = domain.replace(/^https?:\/\//, '');
     var url = 'https://' + domain + '/events/' + boxOffice + '/' + eventSeriesId + '/book?ref=' + ref + "&modal_widget=true&widget=true";
+    if (paramString) {
+      url += '&' + paramString;
+    }
     document.getElementById('tt_widget_overlay_wrapper').style.display = "block";
     document.getElementsByTagName("body")[0].style.overflow = 'hidden';
     this.loadUrl(url);

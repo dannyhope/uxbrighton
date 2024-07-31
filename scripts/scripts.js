@@ -254,14 +254,14 @@ $(function () {
     tt_url = this.getAttribute('href');
     tt_id_from_url = tt_url.match(/\/(\d+)(?=[?#]|$)/);
 
-    // if (!tt_id_from_url ||
-    //   e.ctrlKey ||
-    //   e.shiftKey ||
-    //   e.metaKey || // apple
-    //   (e.button && e.button == 1) // middle click, >IE9 + everyone else
-    // ) {
-    //   return;
-    // }
+    if (!tt_id_from_url ||
+      e.ctrlKey ||
+      e.shiftKey ||
+      e.metaKey || // apple
+      (e.button && e.button == 1) // middle click, >IE9 + everyone else
+    ) {
+      return;
+    }
 
     if (!tt_id_from_url) {
       return;
@@ -269,7 +269,7 @@ $(function () {
 
     tt_id = tt_id_from_url[1];
 
-    TTWidget.loadEvent(tt_name, tt_id, 'widget');
+    TTWidget.loadEvent(tt_name, tt_id, 'widget', 'www.tickettailor.com', tt_url);
     e.preventDefault();
   });
 
