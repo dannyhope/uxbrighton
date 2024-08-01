@@ -10,6 +10,8 @@ seo: true
 ---
 <div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/DEwo-_pQCz8" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 
+<iframe src="https://archive.org/embed/social-life-of-small-urban-spaces" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
 ## Organisers
 
 * <a href="https://uxbri.org/about/#harry">Harry</a> 
