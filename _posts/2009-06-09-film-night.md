@@ -8,9 +8,11 @@ upcoming: false
 published: true
 seo: true
 ---
-<div class="embed-container youtube hd"><iframe src="https://youtube.com/embed/DEwo-_pQCz8" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+## The video
 
 <iframe src="https://archive.org/embed/social-life-of-small-urban-spaces" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+From [The Social Life Of Small Urban Spaces on the Internet Archive](https://archive.org/details/social-life-of-small-urban-spaces)
 
 ## Organisers
 
