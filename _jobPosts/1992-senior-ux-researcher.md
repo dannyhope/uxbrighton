@@ -17,15 +17,17 @@
 	"closedDate": "2024-09-10T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "The Adelphi, London, GB",
-		"textDescription": "London",
+		"original": "The Adelphi, London",
+		"textDescription": "Adelphi",
 		"locations": [
 			{
-				"textDescription": "London",
+				"textDescription": "Adelphi",
+				"district": "Adelphi",
 				"locality": "London",
-				"postalCode": "51.5155",
-				"countryName": "GB",
-				"latitude": -0.1155
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.509865,
+				"longitude": -0.118092
 			}
 		]
 	},
