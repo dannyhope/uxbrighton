@@ -1,7 +1,7 @@
 fullurl: https://uxbri.org/2024
 attendee-info:
   travel-accom:
-    visibility: true
+    visibility: false
     title: Information for Attendees
     body: >-
       The conference is being held in the beautiful and historic [Brighton Dome
@@ -28,7 +28,7 @@ attendee-info:
       - item: Registration
       - item: Refreshments
       - item: After Party
-    show-info: true
+    show-info: false
   pre-party:
     visibility: false
     event:
