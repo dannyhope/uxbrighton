@@ -88,7 +88,7 @@ Our friends at Visit Brighton have put together a comprehensive list of [accomm
 
 ### Wifi
 
-There will be wifi at the venue so feel free to tweet, insta, blog, and make notes during the day.
+There will be wifi at the venue so feel free to Tweet, Insta, blog, and make notes during the day.
 
 ### Charging stations
 
