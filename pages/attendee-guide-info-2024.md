@@ -2,7 +2,7 @@
 layout: generic
 title: Attendee Guide
 pretitle: UX Brighton 2024
-subtitle: Friday 3 November, Brighton Dome
+subtitle: Friday 1 November, Brighton Dome
 description: Hopefully everything you need to know about coming to UX Brighton 2024.
 image: /images/attendees.jpg
 permalink: 2024/info
@@ -49,7 +49,7 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 ### Accommodation
 
-Our friends at Visit Brighton have put together a comprehensive list of [accommodation](Https://book.passkey.com/go/UXBTN2024) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 1st November 2023*; we advise early booking in order to guarantee your preferred hotel.
+Our friends at Visit Brighton have put together a comprehensive list of [accommodation](Https://book.passkey.com/go/UXBTN2024) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 24th October 2024*; we advise early booking in to guarantee your preferred hotel.
 
 [Discounted hotel rates](Https://book.passkey.com/go/UXBTN2024) for UX Brighton delegates.
 
