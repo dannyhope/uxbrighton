@@ -2,7 +2,7 @@
 layout: generic
 title: Attendee Guide
 pretitle: UX Brighton 2024
-subtitle: Friday 3 November, Brighton Dome
+subtitle: Friday 1 November, Brighton Dome
 description: Hopefully everything you need to know about coming to UX Brighton 2024.
 image: /images/attendees.jpg
 permalink: 2024/info
@@ -29,11 +29,11 @@ or DM <a href="https://twitter.com/direct_messages/create/uxbri" class=" bold">@
   </div>
 </section>
 
-<h3>Pre-conf meetup – 2<sup>nd</sup> Nov</h3>
+<h3>Pre-conf meetup – 31<sup>st</sup> Oct</h3>
 
 In town the night before? Come to [The Fountainhead](https://www.google.co.uk/maps/dir//the+fountain+head+pub+brighton/@32.3849821,-29.6384353,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4875859fe2eb77db:0x5bdeb264727a570a!2m2!1d-0.1372304!2d50.8254927?hl=en), from 7pm to 9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/), in a UX Brighton T-shirt.
 
-<h3>Pre-event breakfast networking & coffee – 3<sup>rd</sup> Nov</h3>
+<h3>Pre-event breakfast networking & coffee – 1<sup>st</sup> Nov</h1>
 
 If you’re coming down early to the conference, [Meanwhile Cafe](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees. [](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en)
 
@@ -49,7 +49,7 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 ### Accommodation
 
-Our friends at Visit Brighton have put together a comprehensive list of [accommodation](Https://book.passkey.com/go/UXBTN2024) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 1st November 2023*; we advise early booking in order to guarantee your preferred hotel.
+Our friends at Visit Brighton have put together a comprehensive list of [accommodation](Https://book.passkey.com/go/UXBTN2024) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 24th October 2024*; we advise early booking in to guarantee your preferred hotel.
 
 [Discounted hotel rates](Https://book.passkey.com/go/UXBTN2024) for UX Brighton delegates.
 
@@ -88,7 +88,7 @@ Our friends at Visit Brighton have put together a comprehensive list of [accomm
 
 ### Wifi
 
-There will be wifi at the venue so feel free to tweet, insta, blog, and make notes during the day.
+There will be wifi at the venue so feel free to Tweet, Insta, blog, and make notes during the day.
 
 ### Charging stations
 
@@ -117,8 +117,8 @@ Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/
 * We are unable to issue refunds or transfers.
 * Of course, you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list.
 * Ticket sales end 1pm Thursday 2nd November.
-* Payment on the day is **cash only**, £300 (includes vat).
+* Payment on the day is **cash only**, £375 + VAT (£450).
 
-Thanks for reading, we look forward to seeing you on the 3rd!
+Thanks for reading, we look forward to seeing you on the 1st!
 
 Danny & Annie-Marie [UX Brighton](https://twitter.com/uxbri) (DMs are open)
