@@ -1,4 +1,34 @@
+description: What UX designers, researchers and managers need to know about AI
 fullurl: https://uxbri.org/2024
+upcoming: true
+hero:
+  hero-state: pre
+  global:
+    conference: UX Brighton 2024
+    date: Friday 1 November
+    date-time: 2024-11-01T09:00
+    venue: Brighton Dome
+    image: /images/header.jpg
+  pre:
+    title: UX & AI
+    button:
+      label: Book now for 2024
+      url: "#tickets"
+      extra-text: Early bird discounts available now!
+  during:
+    title: UX and Product Management
+    message: 2024 conference tickets available on the door
+    button:
+      label: Book now for 2024
+      extra-text: Super early bird discounts available now!
+      url: "#tickets"
+  post:
+    title: It’s a wrap
+    message: Thanks for coming to UX Brighton 2024
+    button:
+      label: Book now for 2024
+      url: "#tickets"
+      extra-text: Super early bird discounts available now!
 attendee-info:
   travel-accom:
     visibility: false
@@ -66,34 +96,6 @@ workshop:
   section-title: Workshop
 conference-year: "2024"
 title: "UX Brighton 2024: UX & AI"
-hero:
-  hero-state: pre
-  global:
-    conference: UX Brighton 2024
-    date: Friday 1 November
-    date-time: 2024-11-01T09:00
-    venue: Brighton Dome
-    image: /images/header.jpg
-  pre:
-    title: UX & AI
-    button:
-      label: Book now for 2024
-      url: "#tickets"
-      extra-text: Early bird discounts available now!
-  during:
-    title: UX and Product Management
-    message: 2024 conference tickets available on the door
-    button:
-      label: Book now for 2024
-      extra-text: Super early bird discounts available now!
-      url: "#tickets"
-  post:
-    title: It’s a wrap
-    message: Thanks for coming to UX Brighton 2024
-    button:
-      label: Book now for 2024
-      url: "#tickets"
-      extra-text: Super early bird discounts available now!
 overview:
   visibility: true
   pre:
@@ -269,6 +271,23 @@ speakers:
 
 
             In his latest endeavor, Pablo aims to share his wealth of experience and passion by creating design courses for emerging designers.
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title to be announced
+        name: Kwame Ferriera
+        thumbnail: /images/kwame.png
+        anchor: Kwame-Ferriera
+        speaker-bio:
+          bio-title: About Kwame
+          bio-summary: >-
+            Kwame Ferreira is a designer and serial entrepreneur based in Lisbon
+            and San Francisco.
+
+
+            He is the founder of [Syntheticusers.com](https://syntheticusers.com), a global user and market research platform that accelerates and democratizes research within organizations by **synthesizing human behavior using frontier models**.
+
+
+            Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
@@ -382,9 +401,7 @@ sponsors:
       and a highly engaged audience. Well worth the trip.
     quotee: Alex Wright, Director of User Experience at the New York Times
 image: https://uxbri.org/2022/images/cards/Early-bird.png
-description: What UX designers, researchers and managers need to know about AI
 social-image: /images/uxbri-2024.png
-upcoming: true
 event-promo-top-of-page: true
 highlights:
   visibility: true
