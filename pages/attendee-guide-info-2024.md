@@ -10,6 +10,8 @@ redirect_from: []
 seo: true
 art-direction: ""
 ---
+Hey Annie-Marie 👋 please can you make sure it says somewhere that the last talk ends at 6pm.
+
 We want you to get the most out of your visit to UX Brighton.
 
 Use this section to [book discounted hotels](#accommodation), find out [more about the day](#registration) and where to [eat](#refreshments) and visit.
