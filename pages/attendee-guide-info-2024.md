@@ -16,8 +16,8 @@ Use this section to [book discounted hotels](#accommodation), find out [more abo
 
 If you have any questions, email [anniemarie@uxbri.org](mailto:anniemarie@uxbri.org) or [DM @uxbri](https://twitter.com/direct_messages/create/uxbri) (DMs are open).
 
-\| Hands-down the most helpful and practical UX conference I attended.\
-—Agnieszka Rzesniowiecka
+> \| Hands-down the most helpful and practical UX conference I attended.\
+> —Agnieszka Rzesniowiecka
 
 ## Pre-conf meetup – 31 Oct
 
