@@ -10,7 +10,9 @@ redirect_from: []
 seo: true
 art-direction: ""
 ---
-Hey Annie-Marie 👋 please can you make sure it says somewhere that the last talk ends at 6pm.
+Hey Annie-Marie 👋 please can you make sure it says somewhere that the last talk ends at 6pm. Also, we mentioned last week, the idea of sending a ‘PLanning your UX Brightontrip message out on social.
+
+
 
 We want you to get the most out of your visit to UX Brighton.
 
