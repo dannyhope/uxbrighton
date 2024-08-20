@@ -274,9 +274,9 @@ speakers:
       - talk-info:
           talk-time: ""
           talk-title: Talk title to be announced
-        name: Kwame Ferriera
+        name: Kwame Ferreira
         thumbnail: /images/kwame.png
-        anchor: Kwame-Ferriera
+        anchor: Kwame-Ferreira
         speaker-bio:
           bio-title: About Kwame
           bio-summary: >-
