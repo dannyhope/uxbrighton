@@ -10,6 +10,8 @@ redirect_from: []
 seo: true
 art-direction: ""
 ---
+## TALKS END AT 6❗️
+
 ## We want you to get the most out of your visit to UX Brighton
 
 <p class="standfirst">Use this section to <a href='#accommodation'>book discounted hotels</a>, find out <a href="#registration">more about the day</a> and where to <a href='#refreshments'>eat</a> and visit.</p>
