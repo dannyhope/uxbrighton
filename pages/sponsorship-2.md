@@ -8,6 +8,8 @@ image: /images/sponsorship.jpg
 permalink: 2024/sponsorship
 redirect_from:
   - /sponsorship
+  - /2023/sponsorship
+  - /2023/sponsor
 seo: true
 art-direction: |-
   h2 {
