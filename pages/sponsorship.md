@@ -5,7 +5,7 @@ pretitle: UX Brighton 2023
 description: Unlike most other conferences, we gather together a mix of academic
   and industry experts and curate our talks around a single theme.
 image: /images/sponsorship.jpg
-permalink: 2023/sponsorship
+permalink: 2023/sponsorship-old
 redirect_from: []
 seo: true
 art-direction: |-
