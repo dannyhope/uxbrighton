@@ -172,6 +172,97 @@ speakers:
     show-slides: true
     speaker-list:
       - talk-info:
+          talk-time: ""
+          talk-title: Talk title to be announced
+        name: Maggie Appleton
+        thumbnail: /images/maggie-square.png
+        anchor: Maggie-Appleton
+        speaker-bio:
+          bio-title: About Maggie
+          bio-summary: Maggie is a designer-developer-anthropologist hybrid interested in
+            tools for thought, end-user programming, and novel interfaces for
+            language models / other "AI" capabilities. She's currently a lead
+            design engineer at Normally – a design and prototyping research
+            studio based in London.
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title to be announced
+        name: Kwame Ferreira
+        thumbnail: /images/kwame.png
+        anchor: Kwame-Ferreira
+        speaker-bio:
+          bio-title: About Kwame
+          bio-summary: >-
+            Kwame Ferreira is a designer and serial entrepreneur based in Lisbon
+            and San Francisco.
+
+
+            He is the founder of [Syntheticusers.com](https://syntheticusers.com), a global user and market research platform that accelerates and democratizes research within organizations by **synthesizing human behavior using frontier models**.
+
+
+            Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title to be announced
+        name: Pablo Stanley
+        thumbnail: /images/headshot_pablo-stanley.jpeg
+        anchor: Pablo-Stanley
+        speaker-bio:
+          bio-title: About Pablo
+          bio-summary: >-
+            Pablo Stanley is a Latin designer based in Mexico. He is the
+            co-founder and CEO at Musho & Lummi — AI design tools aimed at
+            unlocking people's creativity. Previously, he co-founded Carbon
+            Health and Blush, and held roles as a staff designer at Lyft and
+            lead designer at InVision.
+
+
+            Pablo gives talks and workshops around the world on product design, animation, illustration systems, storytelling, accessibility, behavioral economics, challenges of being a designer, doodling, and the art of comics.
+
+
+            He has a YouTube channel called Sketch Together, where he shares design tutorials, livestreams, critiques, and other fun stuff. Pablo also hosts various podcasts, including 'Diseño Cha Cha Cha', which features interviews with Latinxs in the tech industry. He's the doodler behind Open Peeps, Avataaars, Humaaans, Open Doodles, Bottts, and Buttsss.
+
+
+            Moreover, Pablo is a talented writer and illustrator, known for his comic series 'The Design Team', portraying the lives of startup designers. 
+
+
+            In his latest endeavor, Pablo aims to share his wealth of experience and passion by creating design courses for emerging designers.
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title to be announced
+          talk-summary: ""
+        name: Manú Bartlett & Ewa Koc
+        thumbnail: /images/manu-and-ewa.jpg
+        anchor: Manu-and-Ewa
+        speaker-bio:
+          bio-title: Manú & Ewa
+          bio-summary: >-
+            **Manú Bartlett, UX Researcher**
+
+
+            Manú has worked as as a UX Researcher for over 6 years, starting off with  microfinance users for a fintech inclusion organisation in Mexico in 2017, then working as an in-house researcher for the British Government, followed by Opencast UK Tech  Consultancy and last year she joined the global leader in data products: Clarivate  Analytics.  
+
+
+            She is an Anthropologist who won the prestigious Fulbright scholarship to study a masters degree in Design & Anthropology at Parsons Design School, the New School in NYC.
+
+
+            She also holds a BA in Economic Geography from the London School of Economics (LSE).
+
+
+            Her work unites the iterative process of design thinking with in-depth ethnographic & quantitative research to understand the needs and desires of users in complex contexts.
+
+
+            **Ewa Koc**
+
+
+            Ewa is a senior UX designer with a background in linguistics. Formerly at Roche Diagnostics, a global healthcare leader, she now works at Clarivate, focusing on IP Intelligence Solutions.
+
+
+            She completed her master's degree in UX/UI at Ramon Llull University of Barcelona and has previous experience in marketing and technical writing.
+
+
+            Ewa is particularly interested in accessibility and data-driven design, enabling her to make a meaningful impact in the digital world.
+      - talk-info:
           talk-time: 10:00 am
           talk-title: Human conversations with grids of numbers
           talk-summary: >-
@@ -210,97 +301,6 @@ speakers:
         talk-media:
           talk-video: ""
           talk-slides: ""
-      - talk-info:
-          talk-time: ""
-          talk-title: Talk title to be announced
-          talk-summary: ""
-        name: Manú Bartlett & Ewa Koc
-        thumbnail: /images/manu-and-ewa.jpg
-        anchor: Manu-and-Ewa
-        speaker-bio:
-          bio-title: Manú & Ewa
-          bio-summary: >-
-            **Manú Bartlett, UX Researcher**
-
-
-            Manú has worked as as a UX Researcher for over 6 years, starting off with  microfinance users for a fintech inclusion organisation in Mexico in 2017, then working as an in-house researcher for the British Government, followed by Opencast UK Tech  Consultancy and last year she joined the global leader in data products: Clarivate  Analytics.  
-
-
-            She is an Anthropologist who won the prestigious Fulbright scholarship to study a masters degree in Design & Anthropology at Parsons Design School, the New School in NYC.
-
-
-            She also holds a BA in Economic Geography from the London School of Economics (LSE).
-
-
-            Her work unites the iterative process of design thinking with in-depth ethnographic & quantitative research to understand the needs and desires of users in complex contexts.
-
-
-            **Ewa Koc**
-
-
-            Ewa is a senior UX designer with a background in linguistics. Formerly at Roche Diagnostics, a global healthcare leader, she now works at Clarivate, focusing on IP Intelligence Solutions.
-
-
-            She completed her master's degree in UX/UI at Ramon Llull University of Barcelona and has previous experience in marketing and technical writing.
-
-
-            Ewa is particularly interested in accessibility and data-driven design, enabling her to make a meaningful impact in the digital world.
-      - talk-info:
-          talk-time: ""
-          talk-title: Talk title to be announced
-        name: Pablo Stanley
-        thumbnail: /images/headshot_pablo-stanley.jpeg
-        anchor: Pablo-Stanley
-        speaker-bio:
-          bio-title: About Pablo
-          bio-summary: >-
-            Pablo Stanley is a Latin designer based in Mexico. He is the
-            co-founder and CEO at Musho & Lummi — AI design tools aimed at
-            unlocking people's creativity. Previously, he co-founded Carbon
-            Health and Blush, and held roles as a staff designer at Lyft and
-            lead designer at InVision.
-
-
-            Pablo gives talks and workshops around the world on product design, animation, illustration systems, storytelling, accessibility, behavioral economics, challenges of being a designer, doodling, and the art of comics.
-
-
-            He has a YouTube channel called Sketch Together, where he shares design tutorials, livestreams, critiques, and other fun stuff. Pablo also hosts various podcasts, including 'Diseño Cha Cha Cha', which features interviews with Latinxs in the tech industry. He's the doodler behind Open Peeps, Avataaars, Humaaans, Open Doodles, Bottts, and Buttsss.
-
-
-            Moreover, Pablo is a talented writer and illustrator, known for his comic series 'The Design Team', portraying the lives of startup designers. 
-
-
-            In his latest endeavor, Pablo aims to share his wealth of experience and passion by creating design courses for emerging designers.
-      - talk-info:
-          talk-time: ""
-          talk-title: Talk title to be announced
-        name: Kwame Ferreira
-        thumbnail: /images/kwame.png
-        anchor: Kwame-Ferreira
-        speaker-bio:
-          bio-title: About Kwame
-          bio-summary: >-
-            Kwame Ferreira is a designer and serial entrepreneur based in Lisbon
-            and San Francisco.
-
-
-            He is the founder of [Syntheticusers.com](https://syntheticusers.com), a global user and market research platform that accelerates and democratizes research within organizations by **synthesizing human behavior using frontier models**.
-
-
-            Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
-      - talk-info:
-          talk-time: ""
-          talk-title: Talk title to be announced
-        name: Maggie Appleton
-        thumbnail: /images/maggie-square.png
-        anchor: Maggie-Appleton
-        speaker-bio:
-          bio-title: About Maggie
-          bio-summary: Maggie is a designer-developer-anthropologist hybrid interested in
-            tools for thought, end-user programming, and novel interfaces for
-            language models / other "AI" capabilities. She's currently a lead
-            design engineer at Normally – a design and prototyping research
-            studio based in London.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
