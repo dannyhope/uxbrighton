@@ -288,6 +288,19 @@ speakers:
 
 
             Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title to be announced
+        name: Maggie Appleton
+        thumbnail: /images/maggie-square.png
+        anchor: Maggie-Appleton
+        speaker-bio:
+          bio-title: About Maggie
+          bio-summary: Maggie is a designer-developer-anthropologist hybrid interested in
+            tools for thought, end-user programming, and novel interfaces for
+            language models / other "AI" capabilities. She's currently a lead
+            design engineer at Normally – a design and prototyping research
+            studio based in London.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
