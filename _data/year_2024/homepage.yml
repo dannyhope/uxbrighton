@@ -174,6 +174,27 @@ speakers:
       - talk-info:
           talk-time: ""
           talk-title: Talk title to be announced
+        name: Dr Philip Bonhard
+        thumbnail: /images/dr-philip-bonhard-square.jpeg
+        anchor: Dr-Philip-Bonhard
+        speaker-bio:
+          bio-title: About Philip
+          bio-summary: >-
+            Dr Phil Bonhard is the Head of Experience Design for Homes/Mortgages
+            at Lloyds Banking Group, the UK’s biggest home purchase lender. In a
+            nutshell, his teams are responsible for considering human needs
+            before jumping to solutions and then helps to get the right
+            designers on board, like UX, Service, Visual Designers and
+            researchers.
+
+
+            Before that, he headed up Experience Design for the Economic Crime Prevention Platform, which included all matters fincrime, Fraud and Authentication. Prior to joining Lloyds, Phil worked in academia, big consulting firms and ran his own design agency. He holds a PhD in Human-Computer Interaction from University College London.
+
+
+            Most importantly he’s passionate about designing products and services that make people’s lives better. He also likes to build stuff for his three little children and tinker with his raspberry pie/arduino board with the occasional Lego thrown in. He strongly believes that building/prototyping stuff and experimenting is more important than describing it.
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title to be announced
         name: Maggie Appleton
         thumbnail: /images/maggie-square.png
         anchor: Maggie-Appleton
@@ -336,27 +357,6 @@ speakers:
         talk-media:
           talk-video: ""
           talk-slides: ""
-      - talk-info:
-          talk-time: ""
-          talk-title: Talk title to be announced
-        name: Dr Philip Bonhard
-        thumbnail: /images/dr-philip-bonhard-square.jpeg
-        anchor: Dr-Philip-Bonhard
-        speaker-bio:
-          bio-title: About Philip
-          bio-summary: >-
-            Dr Phil Bonhard is the Head of Experience Design for Homes/Mortgages
-            at Lloyds Banking Group, the UK’s biggest home purchase lender. In a
-            nutshell his teams are responsible for considering human needs
-            before jumping to solutions and then helps getting the right
-            designers onboard, like UX, Service, Visual Designers and
-            researchers.
-
-
-            Before that he headed up Experience Design for the Economic Crime Prevention Platform, which included all matter fincrime, Fraud and Authentication. Prior to joining Lloyds, Phil worked in academia, big consulting firms and ran his own design agency. He holds a PhD in Human Computer Interaction from University College London.
-
-
-            Most importantly he’s passionate about designing products and services that make people’s lives better. Other than that he likes to build stuff for his three little children and tinker with his raspberry pie/arduino board with the occasional Lego thrown in. He strongly believes that building/prototyping stuff and experimenting is more important than describing it.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
