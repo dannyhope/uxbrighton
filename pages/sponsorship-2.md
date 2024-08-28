@@ -10,6 +10,7 @@ redirect_from:
   - /sponsorship
   - /2023/sponsorship
   - /2023/sponsor
+  - sponsor
 seo: true
 art-direction: |-
   h2 {
