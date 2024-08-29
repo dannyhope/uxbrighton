@@ -175,7 +175,7 @@ speakers:
           talk-time: ""
           talk-title: Talk title to be announced
         name: Dr Philip Bonhard
-        thumbnail: /images/dr-philip-bonhard-square.jpeg
+        thumbnail: /images/dr-philip-bonhard-square-630.jpg
         anchor: Dr-Philip-Bonhard
         speaker-bio:
           bio-title: About Philip
@@ -209,7 +209,7 @@ speakers:
           talk-time: ""
           talk-title: Talk title to be announced
         name: Kwame Ferreira
-        thumbnail: /images/kwame.png
+        thumbnail: /images/kwame-ferreira-square-630.jpg
         anchor: Kwame-Ferreira
         speaker-bio:
           bio-title: About Kwame
@@ -226,7 +226,7 @@ speakers:
           talk-time: ""
           talk-title: Talk title to be announced
         name: Pablo Stanley
-        thumbnail: /images/headshot_pablo-stanley.jpeg
+        thumbnail: /images/pablo-stanley-630.jpg
         anchor: Pablo-Stanley
         speaker-bio:
           bio-title: About Pablo
@@ -334,7 +334,7 @@ speakers:
 
             In this talk Glenn will explore possible AI driven user experiences. What will be the place for graphical interfaces in a world of conversational AI? Will chat UI design patterns prove to be just a passing adolescent phase – something we'll all soon look back on with a wry smile.
         name: Glenn Jones
-        thumbnail: /images/glenn-jones-square.jpg
+        thumbnail: /images/glenn-jones-square-630.jpg
         anchor: Glenn-Jones
         speaker-bio:
           bio-title: About Glenn
