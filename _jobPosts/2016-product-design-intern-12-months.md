@@ -52,11 +52,11 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, Full-time",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"salary": {
-		"original": "£25,000.00-£28,000.00",
+		"original": "£25,000 -£28,000",
 		"textDescription": "£25,000 - £28,000",
 		"currencyCode": "GBP",
 		"currencySymbol": "£",
