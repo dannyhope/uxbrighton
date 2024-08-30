@@ -16,7 +16,7 @@
 	"closedDate": "2024-09-27T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, United Kingdom",
+		"original": "London",
 		"textDescription": "London",
 		"locations": [
 			{
@@ -45,14 +45,8 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json, workday",
-		"patternType": "default, system",
-		"date": "2024-08-30T09:31:16.257Z",
-		"source": "https://travelhrportal.wd1.myworkdayjobs.com/Jobs/job/London-United-Kingdom/UX-Designer_J-68517?rx_a=0&rx_c=&rx_ch=jobp4p&rx_group=360548&rx_job=J-68517&rx_medium=cpc&rx_r=none&rx_source=indeed&rx_ts=20240830T060602Z&rx_vp=cpc&source=Recruitics_Indeed_Organic&rx_p=7ZYIVCOYNY&rx_viewer=e1c2c20c5a0811efac8f079f9ec1613912b46b03667b4028a563f3b05623c82d"
 	},
 	"applicationUri": "https://travelhrportal.wd1.myworkdayjobs.com/Jobs/job/London-United-Kingdom/UX-Designer_J-68517/apply?rx_a=0&rx_c=&rx_ch=jobp4p&rx_group=360548&rx_job=J-68517&rx_medium=cpc&rx_r=none&rx_source=indeed&rx_ts=20240830T060602Z&rx_vp=cpc&source=Recruitics_Indeed_Organic&rx_p=7ZYIVCOYNY&rx_viewer=e1c2c20c5a0811efac8f079f9ec1613912b46b03667b4028a563f3b05623c82d",
 	"applicationType": "link",

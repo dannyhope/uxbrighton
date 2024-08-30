@@ -47,14 +47,8 @@
 				"type": "hours"
 			}
 		],
-		"original": "FULL_TIME",
+		"original": "Full-time",
 		"textDescription": "Full-time"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-08-30T09:18:44.808Z",
-		"source": "https://jobs.workable.com/view/gJcEvybscfueQdTX8Ykb4T/hybrid-junior-digital-designer-in-london-at-rat-%26-boa"
 	},
 	"applicationUri": "https://jobs.workable.com/view/gJcEvybscfueQdTX8Ykb4T/hybrid-junior-digital-designer-in-london-at-rat-%26-boa",
 	"applicationType": "link",
