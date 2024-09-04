@@ -301,7 +301,23 @@ speakers:
             studio based in London.
       - talk-info:
           talk-time: ""
-          talk-title: Talk title to be announced
+          talk-title: Synthetic Users in an Organic World
+          talk-summary: >-
+            'I am large, I contain multitudes' said Walt Whitman. Multimodal
+            models contain all of humanity's digitised organic reality. From
+            deep web forums to all social, YouTube, product reviews, websites,
+            and scientific publications… all make up a primordial soup we use to
+            recreate ourselves so we can best simulate and predict organic
+            behaviour.
+
+
+            We are creating a digital reflection of humanity, capturing the nuances of our thoughts, emotions, and behaviours.
+
+
+            We can delve into the complexities of human psychology, and understand motivations, biases, and preferences. We are not only using this knowledge to predict future behaviour, and personalise experiences, but also to develop new products and services. 
+
+
+            In this talk, Kwame will take us on a three-part journey on how to think about Synthetic Users —  where we are and what future is being desired and created. All through the lens of having built Synthetic Users and a few other companies.
         name: Kwame Ferreira
         thumbnail: /images/kwame-ferreira-square-630.jpg
         anchor: Kwame-Ferreira
