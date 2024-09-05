@@ -52,7 +52,7 @@ Our friends at Visit Brighton have put together a comprehensive list of [accomm
 * Parking is expensive, so if you can avoid driving, please consider travelling by train or bus.
 * Travelling from overseas? Gatwick is the nearest airport. Trains take approx 30 mins to Brighton.
 * We recommend using [traintimes.org.uk](https://traintimes.org.uk/) for up-to-date train timetables.
-* You can find taxis at the front of Brighton station, or it’s a [9-minute walk](https://goo.gl/maps/YigaTebcGPU2).
+* You can find taxis at the back of Brighton station, or it’s a [9-minute walk](https://goo.gl/maps/YigaTebcGPU2).
 * There is no parking available at the venue. The nearest NCP is on Church Street, [details are here](http://www.ncp.co.uk/find-a-car-park/car-parks/brighton-theatre/) including a pre-booking option. The next nearest is on [Trafalgar Street](http://www.brighton-hove.gov.uk/content/parking-and-travel/parking/trafalgar-street-car-park).
 * Disabled drivers can [download the Dome’s “How to get here and Blue Badge parking information](https://brightondome.org/files/86bed4d68bdd6ba30dd8768f7c79e8e5.pdf) (PDF).
 
