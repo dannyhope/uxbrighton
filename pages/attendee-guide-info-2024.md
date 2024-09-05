@@ -10,10 +10,6 @@ redirect_from: []
 seo: true
 art-direction: ""
 ---
-Hey Annie-Marie 👋 please can you make sure it says somewhere that the last talk ends at 6pm. Also, we mentioned last week, the idea of sending a ‘PLanning your UX Brightontrip message out on social.
-
-
-
 We want you to get the most out of your visit to UX Brighton.
 
 Use this section to [book discounted hotels](#accommodation), find out [more about the day](#registration) and where to [eat](#refreshments) and visit.
@@ -29,7 +25,7 @@ If you have any questions, email [anniemarie@uxbri.org](mailto:anniemarie@uxbri.
 
 ## Pre-conf meetup – 31 Oct
 
-In town the night before? Come to , from 7-9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for , in a UX Brighton T-shirt.
+In town the night before? Come to [The Fountain Head](https://www.google.co.uk/maps/place/Fountainhead/@50.8255075,-0.1373232,15z/data=!4m2!3m1!1s0x0:0x5bdeb264727a570a?sa=X&ved=1t:2428&hl=en&ictx=111) from 7-9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/), in a UX Brighton T-shirt.
 
 ## Pre-event breakfast networking & coffee – 1 Nov
 
