@@ -118,8 +118,8 @@ Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/
 
 * We are unable to issue refunds or transfers.
 * Of course, you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list.
-* Ticket sales end 1pm Thursday 2nd November 
-* Payment on the day is **cash only**, £450 inc vat.  
+* Ticket sales end 1pm Thursday 31st October. 
+* Payment on the day is **cash only**, £450 inc vat. 
 
 Thanks for reading, we look forward to seeing you on the 1st!
 
