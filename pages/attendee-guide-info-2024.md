@@ -29,7 +29,7 @@ In town the night before? Come to [The Fountain Head](https://www.google.co.uk/m
 
 ## Pre-event breakfast networking & coffee – 1 Nov
 
-If you’re coming down early to the conference,  is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
+If you’re coming down early to the conference, [Meanwhile Cafe](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees. [](https://www.google.co.uk/maps/dir//17+Jubilee+St,+Brighton,+Brighton+and+Hove,+Brighton+BN1+1GE,+United+Kingdom/@50.8244199,-0.2088211,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487585317bb0360b:0x8f87b4f6837e2421!2m2!1d-0.1387815!2d50.8244409?hl=en)
 
 ## Accessibility
 
@@ -43,7 +43,9 @@ We reserve the right to refuse admission.
 
 ## Accommodation
 
-Our friends at Visit Brighton have put together a comprehensive list of  at specially negotiated rates for UX Brighton delegates. This website is open for bookings 
+Our friends at Visit Brighton have put together a comprehensive list of [accommodation](https://book.passkey.com/go/UXBTN24) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 1st November 2023*; we advise early booking in order to guarantee your preferred hotel.
+
+[Discounted hotel rates](https://book.passkey.com/go/UXBTN24) for UX Brighton delegates.
 
 ## Travel
 
