@@ -121,6 +121,6 @@ Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/
 * Ticket sales end 1pm Thursday 2nd November 
 * Payment on the day is **cash only**, £450 inc vat.  
 
-Thanks for reading, we look forward to seeing you on the 3rd!
+Thanks for reading, we look forward to seeing you on the 1st!
 
 Danny & Annie-Marie [UX Brighton](https://twitter.com/uxbri) (DMs are open)
