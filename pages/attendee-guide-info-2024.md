@@ -109,7 +109,7 @@ Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/
 
 ### After Party
 
-* Join us for after conference drinks and pizza in the Foyer Bar (at the venue) until 8pm.
+* Join us for after conference drinks in the Foyer Bar (at the venue) until 8pm.
 * Keep your name badge with you if you want to leave and come back again.
 * Collect your drinks voucher at registration.
 * Your voucher is valid for all non-alcoholic and a selection of alcoholic drinks.
@@ -118,8 +118,8 @@ Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/
 
 * We are unable to issue refunds or transfers.
 * Of course, you’re welcome to sell or give away your ticket - just tell the person to give the original name on the ticket, as that will be on the name badge and delegate list.
-* Ticket sales end 1pm Thursday 2nd November 
-* Payment on the day is **cash only**, £450 inc vat.  
+* Ticket sales end 1pm Thursday 31st October. 
+* Payment on the day is **cash only**, £450 inc vat. 
 
 Thanks for reading, we look forward to seeing you on the 1st!
 
