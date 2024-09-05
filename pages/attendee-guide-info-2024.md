@@ -14,7 +14,7 @@ We want you to get the most out of your visit to UX Brighton.
 
 Use this section to [book discounted hotels](#accommodation), find out [more about the day](#registration) and where to [eat](#refreshments) and visit.
 
-If you have any questions, email [jessie@uxbri.org](jessie@uxbri.org) or [DM @uxbri](https://twitter.com/direct_messages/create/uxbri) (DMs are open).
+If you have any questions, email [jessie@uxbri.org](mailto:jessie@uxbri.org) or [DM @uxbri](https://twitter.com/direct_messages/create/uxbri) (DMs are open).
 
 - - -
 
