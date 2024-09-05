@@ -16,13 +16,6 @@ Use this section to [book discounted hotels](#accommodation), find out [more abo
 
 If you have any questions, email [jessie@uxbri.org](mailto:jessie@uxbri.org) or [DM @uxbri](https://twitter.com/direct_messages/create/uxbri) (DMs are open).
 
-- - -
-
-> \| Hands-down the most helpful and practical UX conference I attended.\
-> —Agnieszka Rzesniowiecka
-
-- - -
-
 ## Pre-conf meetup – 31 Oct
 
 In town the night before? Come to [The Fountain Head Pub](https://www.google.co.uk/maps/place/Fountainhead/@50.8255075,-0.1373232,15z/data=!4m2!3m1!1s0x0:0x5bdeb264727a570a?sa=X&ved=1t:2428&hl=en&ictx=111) from 7-9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/), in a UX Brighton T-shirt.
