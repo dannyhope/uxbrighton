@@ -25,7 +25,7 @@ If you have any questions, email [jessie@uxbri.org](mailto:jessie@uxbri.org) or 
 
 ## Pre-conf meetup – 31 Oct
 
-In town the night before? Come to [The Fountain Head](https://www.google.co.uk/maps/place/Fountainhead/@50.8255075,-0.1373232,15z/data=!4m2!3m1!1s0x0:0x5bdeb264727a570a?sa=X&ved=1t:2428&hl=en&ictx=111) from 7-9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/), in a UX Brighton T-shirt.
+In town the night before? Come to [The Fountain Head Pub](https://www.google.co.uk/maps/place/Fountainhead/@50.8255075,-0.1373232,15z/data=!4m2!3m1!1s0x0:0x5bdeb264727a570a?sa=X&ved=1t:2428&hl=en&ictx=111) from 7-9pm and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/), in a UX Brighton T-shirt.
 
 ## Pre-event breakfast networking & coffee – 1 Nov
 
@@ -43,9 +43,9 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 ## Accommodation
 
-Our friends at Visit Brighton have put together a comprehensive list of [accommodation](https://book.passkey.com/go/UXBTN24) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 24th October 2024*; we advise early booking in order to guarantee your preferred hotel.
+Our friends at Visit Brighton have put together a comprehensive list of [accommodation](https://book.passkey.com/go/uxbtn2024) at specially negotiated rates for UX Brighton delegates. This website is open for bookings *until 24th October 2024*; we advise early booking in order to guarantee your preferred hotel.
 
-[Discounted hotel rates](https://book.passkey.com/go/UXBTN24) for UX Brighton delegates.
+[Discounted hotel rates](https://book.passkey.com/go/uxbtn2024) for UX Brighton delegates.
 
 ## Travel
 
