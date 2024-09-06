@@ -17,14 +17,19 @@
 	"closedDate": "2024-10-04T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London, Hybriod",
-		"textDescription": "London",
+		"original": "London, Hybrid",
+		"textDescription": "Hybrid, London",
 		"locations": [
 			{
 				"textDescription": "London",
-				"locality": "London"
+				"locality": "London",
+				"countryName": "United Kingdom",
+				"countryCode": "GB",
+				"latitude": 51.5074,
+				"longitude": -0.1278
 			}
-		]
+		],
+		"workplace": "PART_REMOTE"
 	},
 	"hiringOrganization": {
 		"name": "American Express",
@@ -46,7 +51,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
 	},
 	"tags": [
