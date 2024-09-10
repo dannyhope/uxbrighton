@@ -50,13 +50,12 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Contract",
+		"original": "Contract, Permanent",
 		"textDescription": "Contract, Permanent"
 	},
 	"tags": [
-		"design",
 		"senior",
-		"remote"
+		"research"
 	],
 	"applicationUri": "https://jobs.ashbyhq.com/DeepL/902991b4-db60-404c-885d-95acde1851f7/application",
 	"applicationType": "link",

@@ -54,9 +54,8 @@
 		"textDescription": "Full-time, Contract"
 	},
 	"tags": [
-		"design",
 		"senior",
-		"remote"
+		"research"
 	],
 	"applicationUri": "https://careers.king.com/us/en/apply?jobSeqNo=ACMKDSUSR023874EXTERNALENUS&pjid=87b5bdde-c903-4f6d-a3ef-df1dc88df085&uid=191c68195811a3a-157188-3648-191c6819582209a&p_in_ref=https%3A%2F%2Fuk.indeed.com%2F&p_lang=en_us&refNum=ACMKDSUS&step=1",
 	"applicationType": "link",
