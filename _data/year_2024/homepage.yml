@@ -252,7 +252,18 @@ speakers:
             Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
       - talk-info:
           talk-time: ""
-          talk-title: Talk title to be announced
+          talk-title: Emerging UX patterns beyond the chatbot
+          talk-summary: >-
+            Pablo will share his experience designing AI-powered tools.
+
+
+            We’ll look at key UI/UX patterns that help users interact with AI in a natural way – going beyond just using a chatbot.
+
+
+            We’ll learn about simple and effective flows that make AI features easy to use.
+
+
+            This talk is for teams who want to make AI tools more user-friendly and bridge the gap between humans and the little robots powering our apps.
         name: Pablo Stanley
         thumbnail: /images/pablo-stanley-630.jpg
         anchor: Pablo-Stanley
