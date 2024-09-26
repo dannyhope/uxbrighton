@@ -100,7 +100,7 @@ Did you know there's a [UX Brighton Slack group](http://slack.uxbrighton.org.uk/
 
 ## After Party
 
-* Join us for after conference drinks in the Foyer Bar (at the venue) until 8pm.
+* Talks will finish at 5.30pm. Join us for after conference drinks in the Foyer Bar (at the venue) until 8pm.
 * Keep your name badge with you if you want to leave and come back again.
 * Collect your drinks voucher at registration.
 * Your voucher is valid for all non-alcoholic and a selection of alcoholic drinks.
