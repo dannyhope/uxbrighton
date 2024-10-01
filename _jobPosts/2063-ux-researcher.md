@@ -4,9 +4,9 @@
 	"shortId": "a1MX1n1Z",
 	"uuid": "617a98af-dd55-4926-9d77-f9ad37b7d46a",
 	"title": {
-		"original": "HYD UX Researcher",
+		"original": "UX Researcher",
 		"textDescription": "UX Researcher",
-		"urlSlug": "hyd-ux-researcher",
+		"urlSlug": "ux-researcher",
 		"inferred": {
 			"canonicalTitle": "UX Researcher",
 			"seniortyLevel": 3
@@ -50,20 +50,14 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-10-01T09:51:03.700Z",
-		"source": "https://boards.greenhouse.io/interbrand/jobs/6286225"
 	},
 	"applicationUri": "https://boards.greenhouse.io/interbrand/jobs/6286225",
 	"applicationType": "link",
 	"shortDescription": "About Interbrand Interbrand understands what it takes today to build the world’s’ most iconic brands. To support our clients in an ever more complex and fascinating world, we have renewed our",
 	"status": "LIVE",
-	"permalink": "/jobs/2063/hyd-ux-researcher",
+	"permalink": "/jobs/2063/ux-researcher",
 	"layout": "jobs/individual"
 }
 ---
