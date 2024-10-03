@@ -206,7 +206,20 @@ speakers:
             Most importantly he’s passionate about designing products and services that make people’s lives better. He also likes to build stuff for his three little children and tinker with his raspberry pie/arduino board with the occasional Lego thrown in. He strongly believes that building/prototyping stuff and experimenting is more important than describing it.
       - talk-info:
           talk-time: ""
-          talk-title: Talk title to be announced
+          talk-title: The Expanding Dark Forest and Generative AI
+          talk-summary: The web is becoming an eerily lifeless place. Its public spaces
+            are filled with a mix of bad faith actors and automated predators
+            like bots, advertisers, clickbait attention-grabbers, and angry
+            twitter mobs. Like a dark forest, all the living creatures are
+            quietly hiding out of sight. Generative AI systems are about to make
+            this situation worse. We now have tools that can churn out tens of
+            thousands of words, images, and videos in seconds. The volume of
+            mundane, low-quality, and uninspired content published to the web is
+            about to explode. How will we find original insights under this pile
+            of cruft? How will we figure out which authors are flesh-and-blood
+            humans we can form emotional and intellectual relationships with?
+            And does it even matter if something was made by an AI instead of a
+            human?
         name: Maggie Appleton
         thumbnail: /images/maggie-square.png
         anchor: Maggie-Appleton
