@@ -173,6 +173,7 @@ speakers:
     speaker-list:
       - talk-info:
           talk-time: ""
+          talk-title: Talk title TBA
         name: Will Taylor
         thumbnail: /images/will-taylor-square-1024.jpg
         anchor: Will-Taylor
