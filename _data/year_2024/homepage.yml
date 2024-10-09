@@ -409,6 +409,22 @@ speakers:
         talk-media:
           talk-video: ""
           talk-slides: ""
+      - talk-info:
+          talk-time: ""
+        name: Will Taylor
+        thumbnail: /images/will-taylor-square-1024.jpg
+        anchor: Will-Taylor
+        speaker-bio:
+          bio-title: About Will
+          bio-summary: >-
+            Will Taylor is a seasoned designer and engineer, designing and
+            building startups for the last 12 years.
+
+
+            Founder of Workflow.design, an AI company for the creative industry. Workflow was voted top 1% of European Startups by Focal ‘24, and nominated for multiple design and product awards from Awwwards.
+
+
+            Previously founder and principle designer at startup Rota, acquired in 2022. Will has a masters in Theoretical Physics from University of Oxford and, between startups, is a qualified mental health coach.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
