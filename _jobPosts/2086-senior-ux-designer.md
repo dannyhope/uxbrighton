@@ -17,15 +17,19 @@
 	"closedDate": "2024-11-12T00:00:00.000Z",
 	"directApply": false,
 	"jobLocation": {
-		"original": "London E14 5AQ United Kingdom",
-		"textDescription": "London",
+		"original": "London E14 5AQ",
+		"textDescription": "Canary Wharf",
 		"locations": [
 			{
-				"textDescription": "London",
+				"textDescription": "Canary Wharf",
+				"district": "Canary Wharf",
 				"locality": "London",
+				"region": "Greater London",
 				"postalCode": "E14 5AQ",
 				"countryName": "United Kingdom",
-				"countryCode": "GB"
+				"countryCode": "GB",
+				"latitude": 51.5031,
+				"longitude": -0.0235
 			}
 		]
 	},
@@ -49,14 +53,8 @@
 				"type": "contract"
 			}
 		],
-		"original": "Permanent, Full-time",
+		"original": "Full-time, Permanent",
 		"textDescription": "Full-time, Permanent"
-	},
-	"meta": {
-		"patternName": "ld+json",
-		"patternType": "default",
-		"date": "2024-10-15T09:43:50.513Z",
-		"source": "https://careers.thomsonreuters.com/us/en/job/THTTRUUSJREQ182961EXTERNALENUS/Senior-UX-Designer?utm_source=indeed&utm_medium=phenom-feeds"
 	},
 	"applicationUri": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/GBR-London-5-Canada-Square/Senior-UX-Designer_JREQ182961/apply?utm_source=indeed&utm_medium=phenom-feeds&utm_source=indeed&utm_medium=phenom-feeds&source=APPLICANT_SOURCE-3-993",
 	"applicationType": "link",
