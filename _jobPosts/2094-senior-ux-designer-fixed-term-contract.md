@@ -4,9 +4,9 @@
 	"shortId": "aCn2NdfV",
 	"uuid": "4fb738f9-544f-413f-b4a2-496c64fedf8e",
 	"title": {
-		"original": "Senior UX Designer",
+		"original": "Senior UX Designer- Fixed Term Contract",
 		"textDescription": "Senior UX Designer",
-		"urlSlug": "senior-ux-designer",
+		"urlSlug": "senior-ux-designer-fixed-term-contract",
 		"inferred": {
 			"canonicalTitle": "Senior UX Designer",
 			"seniorty": "Senior",
@@ -51,7 +51,7 @@
 				"type": "contract"
 			}
 		],
-		"original": "Contract, Full-time",
+		"original": "Full-time, Contract",
 		"textDescription": "Full-time, Contract"
 	},
 	"tags": [
@@ -62,7 +62,7 @@
 	"applicationType": "link",
 	"shortDescription": "At Compare the Market our purpose is to make great financial decision making a breeze for everyone, and that purpose drives us every day. It’s’ why we’re’ on a mission to create an automated quoting",
 	"status": "LIVE",
-	"permalink": "/jobs/2094/senior-ux-designer",
+	"permalink": "/jobs/2094/senior-ux-designer-fixed-term-contract",
 	"layout": "jobs/individual"
 }
 ---
