@@ -180,12 +180,16 @@ speakers:
         anchor: Hannah-Beresford
         speaker-bio:
           bio-title: About Hannah
-          bio-summary: Hannah is a Design Research Manager at Deloitte Digital, where she
-            helps shape AI agents used by thousands. Her focus is on making AI
-            work for people, ensuring the technology supports real human needs.
-            With the rise of Generative AI and its shift to conversational
-            experiences, Hannah’s approach is all about understanding how we
-            interact with AI and making it simpler, smarter, and more intuitive.
+          bio-summary: >-
+            Hannah Beresford is a Design Research Manager at Deloitte Digital,
+            where she plays a key role in shaping AI-powered solutions used by
+            thousands of people.
+
+
+            Her mission is to ensure that artificial intelligence enhances human experiences by addressing genuine user needs.As AI evolves, especially with the rise of Generative AI and its transition to more conversational interfaces, Hannah is dedicated to making these systems simpler, smarter, and more intuitive.
+
+
+            Her work centres on understanding how humans interact with AI and ensuring that these interactions feel natural and seamless.
       - talk-info:
           talk-time: ""
           talk-title: Talk title TBA
