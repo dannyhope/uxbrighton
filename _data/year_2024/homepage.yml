@@ -474,7 +474,7 @@ speakers:
     anchor: Registration
     title: Registration
   after-party:
-    visibility: false
+    visibility: true
     time: 17:20 pm
     thumbnail: /images/party1.jpg
     title: After Party
