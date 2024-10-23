@@ -486,7 +486,7 @@ speakers:
 
 
       Please keep your name badge with you if you want to leave and come back again.
-  full: false
+  full: true
 sponsors:
   sponsors-premium:
     visibility: false
