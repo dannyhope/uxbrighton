@@ -174,6 +174,22 @@ speakers:
       - talk-info:
           talk-time: ""
           talk-title: Talk title TBA
+          talk-summary: ""
+        name: Hannah Beresford
+        thumbnail: /images/hannah-beresford.jpg
+        anchor: Hannah-Beresford
+        speaker-bio:
+          bio-title: About Hannah
+          bio-summary: Hannah Beresford is a Design Research Manager at Deloitte Digital,
+            where she helps shape AI agents used by thousands. Her focus is on
+            making AI work for people, ensuring the technology supports real
+            human needs. With the rise of Generative AI and its shift to
+            conversational experiences, Hannah’s approach is all about
+            understanding how we interact with AI and making it simpler,
+            smarter, and more intuitive.
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title TBA
         name: Will Taylor
         thumbnail: /images/will-taylor-square-1024.jpg
         anchor: Will-Taylor
