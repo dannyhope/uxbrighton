@@ -192,7 +192,17 @@ speakers:
             Her work centres on understanding how humans interact with AI and ensuring that these interactions feel natural and seamless.
       - talk-info:
           talk-time: ""
-          talk-title: Talk title TBA
+          talk-title: All the things AI can do
+          talk-summary: >-
+            There’s an old quote: “There are decades where nothing happens; and
+            there are weeks where decades happen.” And with AI, it can feel like
+            every week brings a “decade’s worth” of new technologies and ideas.
+
+
+            As a UX researcher or designer, it’s hard to keep track of the AI technologies that we can add to our products. So this talk is a primer. It’s a visual, guided-tour of what’s available - what’s “on the menu” - to help you design amazing new experiences for users.
+
+
+            This talk aims to inspire you, help you discover new technologies, and steer your design and research with a clear understanding of what is practical and buildable. To future-proof yourself, you’ll also learn a practical system for staying on top of emerging AI technologies in your field and matching these technologies to your users’ needs.
         name: Will Taylor
         thumbnail: /images/will-taylor-square-1024.jpg
         anchor: Will-Taylor
