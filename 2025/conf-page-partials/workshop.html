@@ -1,0 +1,45 @@
+{% if homepage.workshop.visibility == true %}
+<section id="workshop">
+  <div class="container">
+    <hr>
+    <div class="row">
+      <h3 class="fs-h2 mt0">{{ homepage.workshop.section-title }}</h3>
+      <div class="drop clearfix flex-over-m">
+        <div class="u1of2-over-m left-over-m flex-over-m">
+
+            <a href="{{ homepage.workshop.details.url }}" class="block-link fill tile pa3 rounded drop relative" style="background: url('{{ homepage.workshop.details.back-image }}') center center no-repeat #1a272c; background-size: cover;">
+              <div class="overlay-absolute" style="background: rgba(0, 0, 0, 0.5);"></div>
+              <div class="upcoming-teaser__text">
+                <h1 class="leading-solid mb2 color-white fs-xl relative">
+                  <span class="fs-m mb1 block color-orange font-museo track-normal" style="font-weight: 500;">{{ homepage.workshop.details.workshop-date | date: "%d %B %Y" }}<span class="event-time inline-block">, {{ homepage.workshop.details.workshop-time | date: "%I:%M%P" }}</span></span>
+                  Workshop: {{ homepage.workshop.details.title }}
+                </h1>
+                <div class="mt0 regular track-normal mb3 relative">
+                  <div class="color-white">
+                    {{ homepage.workshop.details.lede }}
+                  </div>
+                </div>
+              </div>
+              <div class="upcoming-teaser__button-wrapper">
+                <div class="button button--green bold standfirst mb0">{{ homepage.workshop.details.button }}</div>
+              </div>
+            </a>
+
+        </div>
+
+        <div class="u1of2-over-m left-over-m flex-over-m">
+          <a href="{{ homepage.workshop.details.url }}" class="block-link tile bg-grey-5 fill pa3">
+            <h3 class="mt0">
+              {{ homepage.workshop.details.summary.title }}
+            </h3>
+            <div class="block-link__summary">
+              {{ homepage.workshop.details.summary.body | markdownify }}
+              <p class="block-link__highlight"><strong>{{ homepage.workshop.details.summary.cta }}</strong></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,16 @@
+UX Brighton Website Overview
+Purpose: Codebase for the UX Brighton website, a community group focused on user experience and psychology. Features include conference/event management and job postings.
+Technologies:
+Static Site Generator: Jekyll (Ruby-based)
+Hosting & Deployment: Netlify, with Netlify CMS (Decap CMS) for content management
+Frontend: HTML, CSS (SASS), JavaScript
+Package Management: npm
+Key Features:
+Custom Netlify plugin for job posts with structured data
+Newsletter signup and social media integration
+Security headers and HTTPS enforcement
+Development Workflow:
+1. Local development with Jekyll serve
+2. Content managed via Netlify CMS
+3. Automatic build and deployment through Netlify
+This setup leverages JAMstack principles for security, performance, and ease of content management.

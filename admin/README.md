@@ -62,7 +62,7 @@ The Git Gateway provides a convenient way to authenticate and interact with a Gi
 
 To facilitate local development, the `local_backend` section is provided. This is useful when you want to work with a local version of the site and a custom proxy server.
 
-- `url: http://localhost:8082/api/v1`: Specifies the URL for the custom proxy server to use during [local development](#developing-locally-with-netlify-cms).
+- `url: http://localhost:8081/api/v1`: Specifies the URL for the custom proxy server to use during [local development](#developing-locally-with-netlify-cms).
 - `allowed_hosts: ['192.168.0.1']`: Specifies the hosts allowed to access the local site. By default, only 'localhost' and '127.0.0.1' are allowed.
 
 ### Content workflow & media
@@ -189,7 +189,7 @@ In general, the `styles-cms.css` file allows you to customize the visual present
 1. Make sure you have a `.env` file in the root directory of your local Git repository. This file needs the following in it:
     ```env
     # Using this port for local Netlify CMS usage
-    PORT=8082
+    PORT=8081
     ```
 2. Make sure the terminal is `cd`’d to the root directory of this local Git repository
 3. Start the Netlify CMS server:

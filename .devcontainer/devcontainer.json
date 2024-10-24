@@ -12,7 +12,6 @@
     "vscode": {
       "extensions": [
         "anysphere.pyright",
-        "ms-toolsai.jupyter",
         "sissel.shopify-liquid",
         "Shopify.ruby-lsp",
         "Gruntfuggly.todo-tree",
@@ -24,12 +23,13 @@
         "bierner.github-markdown-preview",
         "EverlastEngineering.debug-in-titlebar",
         "ms-python.black-formatter",
+        "redhat.vscode-yaml"
       ],
       "settings": {
         // Set the preferential Python interpreter for the workspace
         // tt time of writing, this is Python 3.12
-        "python.defaultInterpreterPath": "/usr/local/python/current/bin/python3",
-        "python.pythonPath": "/usr/local/python/current/bin/python3",
+        // "python.defaultInterpreterPath": "/usr/local/python/current/bin/python3",
+        // "python.pythonPath": "/usr/local/python/current/bin/python3",
         // Fixes a temporary issue with Jupyter
         // Tells the Jupyter extension to ignore these installations of Python
         // and use the one configured above...
