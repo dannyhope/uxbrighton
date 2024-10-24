@@ -255,25 +255,6 @@ speakers:
     speaker-list:
       - talk-info:
           talk-time: ""
-          talk-title: Talk title TBA
-          talk-summary: ""
-        name: Hannah Beresford
-        thumbnail: /images/hannah-beresford.jpg
-        anchor: Hannah-Beresford
-        speaker-bio:
-          bio-title: About Hannah
-          bio-summary: >-
-            Hannah Beresford is a Design Research Manager at Deloitte Digital,
-            where she plays a key role in shaping AI-powered solutions used by
-            thousands of people.
-
-
-            Her mission is to ensure that artificial intelligence enhances human experiences by addressing genuine user needs.As AI evolves, especially with the rise of Generative AI and its transition to more conversational interfaces, Hannah is dedicated to making these systems simpler, smarter, and more intuitive.
-
-
-            Her work centres on understanding how humans interact with AI and ensuring that these interactions feel natural and seamless.
-      - talk-info:
-          talk-time: ""
           talk-title: All the things AI can do
           talk-summary: >-
             There’s an old quote: “There are decades where nothing happens; and
@@ -300,134 +281,63 @@ speakers:
 
             Previously, he was the founder and principal designer at the startup Rota, which was acquired in 2022. Will holds a master’s degree in Theoretical Physics from the University of Oxford and, between startups, is a qualified mental health coach.
       - talk-info:
-          talk-time: ""
-          talk-title: "Designing Your Future: Mastering AI and Prompt Engineering to
-            Amplify Creativity and Career – Dr Philip Bonhard"
+          talk-time: 10:00 am
+          talk-title: Human conversations with grids of numbers
           talk-summary: >-
-            AI is all the rage, isn’t it? You can’t read the news without
-            someone proclaiming it to be the best thing since sliced bread or
-            the bringer of doom. But what does it really do and how will it
-            affect your job? If ChatGPT can generate a business proposal for a
-            start-up in the tone of voice of Coca-Cola ads and generate a
-            website to go with it — will we need copywriters and designers in
-            the future?
+            The rise of large language models signals a new era in machine
+            learning. Yet, these grids of numbers, while impressive, offer a
+            faltering facade of true human communication. Past research reminds
+            us that conversation is a beautiful, chaotic, and profoundly human
+            tool that resists easy replication.
 
 
-            In this talk, Phill will explore what designers need to know about AI beyond the hype, how they can stand out from the crowd, and what they should do right now to stay relevant and 10x their productivity. AI will be many things, but it should be an opportunity for growth!
-        name: Dr Philip Bonhard
-        thumbnail: /images/dr-philip-bonhard-square-630.jpg
-        anchor: Dr-Philip-Bonhard
+            However, there is a seed in generative AI of something to come: tools that can generate individualised and ethereal interactions. Emerging reasoning capabilities that can interact with the experiences we have built for humans, which act as agents on our behalf. These systems hold the promise of eventually working in collaboration with us, through our greatest tool – spoken and written language.
+
+
+            In this talk Glenn will explore possible AI driven user experiences. What will be the place for graphical interfaces in a world of conversational AI? Will chat UI design patterns prove to be just a passing adolescent phase – something we'll all soon look back on with a wry smile.
+        name: Glenn Jones
+        thumbnail: /images/glenn-jones-square-630.jpg
+        anchor: Glenn-Jones
         speaker-bio:
-          bio-title: About Philip
+          bio-title: About Glenn
           bio-summary: >-
-            Dr Phil Bonhard is the Head of Experience Design for Homes/Mortgages
-            at Lloyds Banking Group, the UK’s biggest home purchase lender. In a
-            nutshell, his teams are responsible for considering human needs
-            before jumping to solutions and then helps to get the right
-            designers on board, like UX, Service, Visual Designers and
-            researchers.
+            Glenn Jones is a tech founder and advisor with a passion for
+            seamlessly blending UX design, product leadership, and strategic
+            thinking. He led the design and product function in the start-up he
+            co-founded, working for clients such as The Guardian, FT and
+            Washington Post.
 
 
-            Before that, he headed up Experience Design for the Economic Crime Prevention Platform, which included all matters fincrime, Fraud and Authentication. Prior to joining Lloyds, Phil worked in academia, big consulting firms and ran his own design agency. He holds a PhD in Human-Computer Interaction from University College London.
-
-
-            Most importantly he’s passionate about designing products and services that make people’s lives better. He also likes to build stuff for his three little children and tinker with his raspberry pie/arduino board with the occasional Lego thrown in. He strongly believes that building/prototyping stuff and experimenting is more important than describing it.
+            Unconventionally, he has in-depth expertise across many different fields of the digital industry. His mind moves from data, coding, to considering UX, all while strategizing product commercialization. You might find him doing all of these things at once. After being involved in two successful tech exits, Glenn spends his time researching AI and advising high-growth teams.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/glennjones/
+              profile-label: LinkedIn/jannabastow
+            - profile-type: twitter
+              profile-url: https://twitter.com/glennjones
+              profile-label: "@simplybastow"
+        talk-media:
+          talk-video: ""
+          talk-slides: ""
       - talk-info:
           talk-time: ""
-          talk-title: The Expanding Dark Forest and Generative AI
-          talk-summary: The web is becoming an eerily lifeless place. Its public spaces
-            are filled with a mix of bad faith actors and automated predators
-            like bots, advertisers, clickbait attention-grabbers, and angry
-            twitter mobs. Like a dark forest, all the living creatures are
-            quietly hiding out of sight. Generative AI systems are about to make
-            this situation worse. We now have tools that can churn out tens of
-            thousands of words, images, and videos in seconds. The volume of
-            mundane, low-quality, and uninspired content published to the web is
-            about to explode. How will we find original insights under this pile
-            of cruft? How will we figure out which authors are flesh-and-blood
-            humans we can form emotional and intellectual relationships with?
-            And does it even matter if something was made by an AI instead of a
-            human?
-        name: Maggie Appleton
-        thumbnail: /images/maggie-square.png
-        anchor: Maggie-Appleton
+          talk-title: Talk title TBA
+          talk-summary: ""
+        name: Hannah Beresford
+        thumbnail: /images/hannah-beresford.jpg
+        anchor: Hannah-Beresford
         speaker-bio:
-          bio-title: About Maggie
-          bio-summary: Maggie is a designer-developer-anthropologist hybrid interested in
-            tools for thought, end-user programming, and novel interfaces for
-            language models / other "AI" capabilities. She's currently a lead
-            design engineer at Normally – a design and prototyping research
-            studio based in London.
-      - talk-info:
-          talk-time: ""
-          talk-title: Synthetic Users in an Organic World
-          talk-summary: >-
-            'I am large, I contain multitudes' said Walt Whitman. Multimodal
-            models contain all of humanity's digitised organic reality. From
-            deep web forums to all social, YouTube, product reviews, websites,
-            and scientific publications… all make up a primordial soup we use to
-            recreate ourselves so we can best simulate and predict organic
-            behaviour.
-
-
-            We are creating a digital reflection of humanity, capturing the nuances of our thoughts, emotions, and behaviours.
-
-
-            We can delve into the complexities of human psychology, and understand motivations, biases, and preferences. We are not only using this knowledge to predict future behaviour, and personalise experiences, but also to develop new products and services. 
-
-
-            In this talk, Kwame will take us on a three-part journey on how to think about Synthetic Users —  where we are and what future is being desired and created. All through the lens of having built Synthetic Users and a few other companies.
-        name: Kwame Ferreira
-        thumbnail: /images/kwame-ferreira-square-630.jpg
-        anchor: Kwame-Ferreira
-        speaker-bio:
-          bio-title: About Kwame
+          bio-title: About Hannah
           bio-summary: >-
-            Kwame Ferreira is a designer and serial entrepreneur based in Lisbon
-            and San Francisco.
+            Hannah Beresford is a Design Research Manager at Deloitte Digital,
+            where she plays a key role in shaping AI-powered solutions used by
+            thousands of people.
 
 
-            He is the founder of [Syntheticusers.com](https://syntheticusers.com), a global user and market research platform that accelerates and democratizes research within organizations by **synthesizing human behavior using frontier models**.
+            Her mission is to ensure that artificial intelligence enhances human experiences by addressing genuine user needs.As AI evolves, especially with the rise of Generative AI and its transition to more conversational interfaces, Hannah is dedicated to making these systems simpler, smarter, and more intuitive.
 
 
-            Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
-      - talk-info:
-          talk-time: ""
-          talk-title: Emerging UX patterns beyond the chatbot
-          talk-summary: >-
-            Pablo will share his experience designing AI-powered tools.
-
-
-            We’ll look at key UI/UX patterns that help users interact with AI in a natural way – going beyond just using a chatbot.
-
-
-            We’ll learn about simple and effective flows that make AI features easy to use.
-
-
-            This talk is for teams who want to make AI tools more user-friendly and bridge the gap between humans and the little robots powering our apps.
-        name: Pablo Stanley
-        thumbnail: /images/pablo-stanley-630.jpg
-        anchor: Pablo-Stanley
-        speaker-bio:
-          bio-title: About Pablo
-          bio-summary: >-
-            Pablo Stanley is a Latin designer based in Mexico. He is the
-            co-founder and CEO at Musho & Lummi — AI design tools aimed at
-            unlocking people's creativity. Previously, he co-founded Carbon
-            Health and Blush, and held roles as a staff designer at Lyft and
-            lead designer at InVision.
-
-
-            Pablo gives talks and workshops around the world on product design, animation, illustration systems, storytelling, accessibility, behavioral economics, challenges of being a designer, doodling, and the art of comics.
-
-
-            He has a YouTube channel called Sketch Together, where he shares design tutorials, livestreams, critiques, and other fun stuff. Pablo also hosts various podcasts, including 'Diseño Cha Cha Cha', which features interviews with Latinxs in the tech industry. He's the doodler behind Open Peeps, Avataaars, Humaaans, Open Doodles, Bottts, and Buttsss.
-
-
-            Moreover, Pablo is a talented writer and illustrator, known for his comic series 'The Design Team', portraying the lives of startup designers. 
-
-
-            In his latest endeavor, Pablo aims to share his wealth of experience and passion by creating design courses for emerging designers.
+            Her work centres on understanding how humans interact with AI and ensuring that these interactions feel natural and seamless.
       - talk-info:
           talk-time: ""
           talk-title: Calibrating user trust in AI products
@@ -499,44 +409,134 @@ speakers:
 
             Ewa is particularly interested in accessibility and data-driven design, enabling her to make a meaningful impact in the digital world.
       - talk-info:
-          talk-time: 10:00 am
-          talk-title: Human conversations with grids of numbers
+          talk-time: ""
+          talk-title: Emerging UX patterns beyond the chatbot
           talk-summary: >-
-            The rise of large language models signals a new era in machine
-            learning. Yet, these grids of numbers, while impressive, offer a
-            faltering facade of true human communication. Past research reminds
-            us that conversation is a beautiful, chaotic, and profoundly human
-            tool that resists easy replication.
+            Pablo will share his experience designing AI-powered tools.
 
 
-            However, there is a seed in generative AI of something to come: tools that can generate individualised and ethereal interactions. Emerging reasoning capabilities that can interact with the experiences we have built for humans, which act as agents on our behalf. These systems hold the promise of eventually working in collaboration with us, through our greatest tool – spoken and written language.
+            We’ll look at key UI/UX patterns that help users interact with AI in a natural way – going beyond just using a chatbot.
 
 
-            In this talk Glenn will explore possible AI driven user experiences. What will be the place for graphical interfaces in a world of conversational AI? Will chat UI design patterns prove to be just a passing adolescent phase – something we'll all soon look back on with a wry smile.
-        name: Glenn Jones
-        thumbnail: /images/glenn-jones-square-630.jpg
-        anchor: Glenn-Jones
+            We’ll learn about simple and effective flows that make AI features easy to use.
+
+
+            This talk is for teams who want to make AI tools more user-friendly and bridge the gap between humans and the little robots powering our apps.
+        name: Pablo Stanley
+        thumbnail: /images/pablo-stanley-630.jpg
+        anchor: Pablo-Stanley
         speaker-bio:
-          bio-title: About Glenn
+          bio-title: About Pablo
           bio-summary: >-
-            Glenn Jones is a tech founder and advisor with a passion for
-            seamlessly blending UX design, product leadership, and strategic
-            thinking. He led the design and product function in the start-up he
-            co-founded, working for clients such as The Guardian, FT and
-            Washington Post.
+            Pablo Stanley is a Latin designer based in Mexico. He is the
+            co-founder and CEO at Musho & Lummi — AI design tools aimed at
+            unlocking people's creativity. Previously, he co-founded Carbon
+            Health and Blush, and held roles as a staff designer at Lyft and
+            lead designer at InVision.
 
 
-            Unconventionally, he has in-depth expertise across many different fields of the digital industry. His mind moves from data, coding, to considering UX, all while strategizing product commercialization. You might find him doing all of these things at once. After being involved in two successful tech exits, Glenn spends his time researching AI and advising high-growth teams.
-          social-profiles:
-            - profile-type: linkedin
-              profile-url: https://www.linkedin.com/in/glennjones/
-              profile-label: LinkedIn/jannabastow
-            - profile-type: twitter
-              profile-url: https://twitter.com/glennjones
-              profile-label: "@simplybastow"
-        talk-media:
-          talk-video: ""
-          talk-slides: ""
+            Pablo gives talks and workshops around the world on product design, animation, illustration systems, storytelling, accessibility, behavioral economics, challenges of being a designer, doodling, and the art of comics.
+
+
+            He has a YouTube channel called Sketch Together, where he shares design tutorials, livestreams, critiques, and other fun stuff. Pablo also hosts various podcasts, including 'Diseño Cha Cha Cha', which features interviews with Latinxs in the tech industry. He's the doodler behind Open Peeps, Avataaars, Humaaans, Open Doodles, Bottts, and Buttsss.
+
+
+            Moreover, Pablo is a talented writer and illustrator, known for his comic series 'The Design Team', portraying the lives of startup designers. 
+
+
+            In his latest endeavor, Pablo aims to share his wealth of experience and passion by creating design courses for emerging designers.
+      - talk-info:
+          talk-time: ""
+          talk-title: "Designing Your Future: Mastering AI and Prompt Engineering to
+            Amplify Creativity and Career – Dr Philip Bonhard"
+          talk-summary: >-
+            AI is all the rage, isn’t it? You can’t read the news without
+            someone proclaiming it to be the best thing since sliced bread or
+            the bringer of doom. But what does it really do and how will it
+            affect your job? If ChatGPT can generate a business proposal for a
+            start-up in the tone of voice of Coca-Cola ads and generate a
+            website to go with it — will we need copywriters and designers in
+            the future?
+
+
+            In this talk, Phill will explore what designers need to know about AI beyond the hype, how they can stand out from the crowd, and what they should do right now to stay relevant and 10x their productivity. AI will be many things, but it should be an opportunity for growth!
+        name: Dr Philip Bonhard
+        thumbnail: /images/dr-philip-bonhard-square-630.jpg
+        anchor: Dr-Philip-Bonhard
+        speaker-bio:
+          bio-title: About Philip
+          bio-summary: >-
+            Dr Phil Bonhard is the Head of Experience Design for Homes/Mortgages
+            at Lloyds Banking Group, the UK’s biggest home purchase lender. In a
+            nutshell, his teams are responsible for considering human needs
+            before jumping to solutions and then helps to get the right
+            designers on board, like UX, Service, Visual Designers and
+            researchers.
+
+
+            Before that, he headed up Experience Design for the Economic Crime Prevention Platform, which included all matters fincrime, Fraud and Authentication. Prior to joining Lloyds, Phil worked in academia, big consulting firms and ran his own design agency. He holds a PhD in Human-Computer Interaction from University College London.
+
+
+            Most importantly he’s passionate about designing products and services that make people’s lives better. He also likes to build stuff for his three little children and tinker with his raspberry pie/arduino board with the occasional Lego thrown in. He strongly believes that building/prototyping stuff and experimenting is more important than describing it.
+      - talk-info:
+          talk-time: ""
+          talk-title: Synthetic Users in an Organic World
+          talk-summary: >-
+            'I am large, I contain multitudes' said Walt Whitman. Multimodal
+            models contain all of humanity's digitised organic reality. From
+            deep web forums to all social, YouTube, product reviews, websites,
+            and scientific publications… all make up a primordial soup we use to
+            recreate ourselves so we can best simulate and predict organic
+            behaviour.
+
+
+            We are creating a digital reflection of humanity, capturing the nuances of our thoughts, emotions, and behaviours.
+
+
+            We can delve into the complexities of human psychology, and understand motivations, biases, and preferences. We are not only using this knowledge to predict future behaviour, and personalise experiences, but also to develop new products and services. 
+
+
+            In this talk, Kwame will take us on a three-part journey on how to think about Synthetic Users —  where we are and what future is being desired and created. All through the lens of having built Synthetic Users and a few other companies.
+        name: Kwame Ferreira
+        thumbnail: /images/kwame-ferreira-square-630.jpg
+        anchor: Kwame-Ferreira
+        speaker-bio:
+          bio-title: About Kwame
+          bio-summary: >-
+            Kwame Ferreira is a designer and serial entrepreneur based in Lisbon
+            and San Francisco.
+
+
+            He is the founder of [Syntheticusers.com](https://syntheticusers.com), a global user and market research platform that accelerates and democratizes research within organizations by **synthesizing human behavior using frontier models**.
+
+
+            Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
+      - talk-info:
+          talk-time: ""
+          talk-title: The Expanding Dark Forest and Generative AI
+          talk-summary: The web is becoming an eerily lifeless place. Its public spaces
+            are filled with a mix of bad faith actors and automated predators
+            like bots, advertisers, clickbait attention-grabbers, and angry
+            twitter mobs. Like a dark forest, all the living creatures are
+            quietly hiding out of sight. Generative AI systems are about to make
+            this situation worse. We now have tools that can churn out tens of
+            thousands of words, images, and videos in seconds. The volume of
+            mundane, low-quality, and uninspired content published to the web is
+            about to explode. How will we find original insights under this pile
+            of cruft? How will we figure out which authors are flesh-and-blood
+            humans we can form emotional and intellectual relationships with?
+            And does it even matter if something was made by an AI instead of a
+            human?
+        name: Maggie Appleton
+        thumbnail: /images/maggie-square.png
+        anchor: Maggie-Appleton
+        speaker-bio:
+          bio-title: About Maggie
+          bio-summary: Maggie is a designer-developer-anthropologist hybrid interested in
+            tools for thought, end-user programming, and novel interfaces for
+            language models / other "AI" capabilities. She's currently a lead
+            design engineer at Normally – a design and prototyping research
+            studio based in London.
   registration:
     thumbnail: /images/registration.jpg
     time: 09:00 am
