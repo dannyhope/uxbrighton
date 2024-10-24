@@ -3,7 +3,7 @@
 
 backend:
   name: git-gateway # Use GitHub API for authentication
-  branch: feat/2025-initial # Branch that Netlify CMS will be available on
+  branch: gh-pages # Branch that Netlify CMS will be available on
 
 ########################################################################################
 # NOTE: Older / Original backend config using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
