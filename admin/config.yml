@@ -3,7 +3,7 @@
 
 backend:
   name: git-gateway # Use GitHub API for authentication
-  branch: gh-pages # Branch that Netlify CMS will be available on
+  branch: feat/2025-initial # Branch that Netlify CMS will be available on
 
 ########################################################################################
 # NOTE: Older / Original backend config using a placeholder Netlify site and custom Netlify domain to enable the backend OAuth configuration
@@ -19,7 +19,7 @@ backend:
 
 local_backend:
   # when using a custom proxy server port
-  url: http://localhost:8082/api/v1
+  url: http://localhost:8081/api/v1
   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
   allowed_hosts: ['192.168.0.1']
 
