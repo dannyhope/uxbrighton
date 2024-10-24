@@ -1,0 +1,594 @@
+description: What UX designers, researchers and managers need to know about AI
+fullurl: https://uxbri.org/2025
+upcoming: true
+hero:
+  hero-state: pre
+  global:
+    conference: UX Brighton 2025
+    date: Friday 1 November
+    date-time: 2025-11-01T09:00
+    venue: Brighton Dome
+    image: /images/header.jpg
+  pre:
+    title: UX & AI
+    button:
+      label: Book now for 2025
+      url: "#tickets"
+      extra-text: ""
+  during:
+    title: UX and Product Management
+    message: 2025 conference tickets available on the door
+    button:
+      label: Book now for 2025
+      extra-text: Super early bird discounts available now!
+      url: "#tickets"
+  post:
+    title: It’s a wrap
+    message: Thanks for coming to UX Brighton 2025
+    button:
+      label: Book now for 2025
+      url: "#tickets"
+      extra-text: Super early bird discounts available now!
+attendee-info:
+  travel-accom:
+    visibility: true
+    title: Information for Attendees
+    body: >-
+      The conference is being held in the beautiful and historic [Brighton Dome
+      Concert Hall](https://brightondome.org/your_visit/venues/concert_hall/):
+      just [10 minutes from Brighton
+      Station](https://www.google.co.uk/maps/dir/Brighton,+Queens+Rd,+Brighton+BN1+3XP/Brighton+Dome,+Church+St,+Brighton+BN1+1UE/@50.8262758,-0.144999,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x487585743a2f976d:0x59436d7ac9c32976!2m2!1d-0.1410151!2d50.8288519!1m5!1m1!1s0x4875850a94b987c3:0x204845bd08377bb3!2m2!1d-0.1380842!2d50.8236999!3e2?hl=en),
+      3 minutes from the Lanes, 5 minutes from the beach and a whole heap of
+      great restaurants and hotels. Registration starts from 9am with the first
+      speaker on at 10am, we’ll email you to let you know when the talk times
+      are finalised.
+
+
+      Before the conference why not [join the UX Brighton Slack](https://slofile.com/slack/uxbri) and get chatting with other UXers. We’ve also got a rather nice [\#jobs](https://uxbri.slack.com/messages/jobs) channel.
+
+
+      See our [Attendee information guide](/2025/info) for everything you need to get the most out of your visit to UX Brighton, including:
+    info:
+      - item: Travel
+      - item: Accommodation
+      - item: Pre-conference meet-ups
+      - item: Accessibility
+      - item: Wifi and charging
+      - item: Cloakrooms
+      - item: Registration
+      - item: Refreshments
+      - item: After Party
+    show-info: true
+  pre-party:
+    visibility: false
+    event:
+      - body: >-
+          <h3>Pre-conf meetup – 3<sup>rd</sup> Nov</h3>
+
+
+          In town the night before? Come along from 7pm to [The Fountainhead](https://www.fountainheadbrighton.pub/) and meet fellow delegates. It’s a relaxed pub and serves food until 9pm. They do a good coffee too! Look out for [Faisal](https://www.linkedin.com/in/faisal-ahmed-1a8494122/) in a bright orange UX Brighton T-shirt.
+      - body: >-
+          <h3>Pre-event networking & coffee – 4<sup>th</sup> Nov</h3>
+
+
+          If you’re coming down early to the conference, [Small Batch](https://goo.gl/maps/ffyRaa99HGv) is practically next to The Dome, open from 7am and is a great place to grab a coffee and meet fellow attendees.
+workshop:
+  visibility: false
+  details:
+    workshop-date: 2019-10-31T00:00:00.000Z
+    workshop-time: 2022-06-30T09:30:00.000Z
+    title: Make Your First Voice Interface
+    url: /Voice-UI-workshop
+    lede: We’re all competent in person-to-person conversation, designing a good
+      conversation is a new challenge for most organisations.
+    button: Tickets and info
+    summary:
+      title: Are you ready for Voice UI?
+      body: >-
+        Voice UI is growing fast and provides an opportunity to create better
+        products in new contexts. Learn to use VUIs to make interaction simple,
+        pleasurable, accessible and reduce cognitive load.
+
+
+        In this hands-on workshop, Ben Sauer will teach you about the challenges in designing for voice, how it differs from screen, how to make it great. You will then put your learnings into practice, exploring the potential of voice by creating your own prototype.
+      cta: Learn more about the Voice UI Workshop
+    back-image: /images/voice-ui-workshop.jpeg
+  section-title: Workshop
+conference-year: "2025"
+title: "UX Brighton 2025: UX & AI"
+overview:
+  visibility: true
+  pre:
+    title: What do UX designers, researchers and managers need to know about AI?
+    lede:
+      body: UX Brighton 2025 is tailored for UX professionals seeking clarity and
+        direction in the evolving landscape of AI. This one-day event is an
+        essential opportunity for designers, researchers, and managers at all
+        levels to gain a realistic understanding of AI’s role in UX.
+    text:
+      body: >-
+        The conference will feature experienced professionals and academics
+        discussing AI's practical applications in UX. They will provide insights
+        into AI frameworks, principles, and tools, focusing on their direct
+        relevance to everyday UX work. This pragmatic approach is designed to
+        alleviate concerns about AI, offering a clearer vision of how AI can
+        enhance UX practice.
+
+
+        Attendees will benefit from structured learning, networking with peers facing similar challenges, and engaging in discussions that foster a deeper understanding of AI in UX. The event aims to equip participants with knowledge that can be immediately applied to their work, enhancing their skills and employability.
+
+
+        Join us at UX Brighton 2025 to gain practical AI insights, connect with like-minded UX Designers, Researchers, Product Managers, (and Developers, hopefully) and enhance your UX career in a supportive fun environment.
+
+
+        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+    testimonial:
+      visibility: true
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  during:
+    title: What do UX designers, researchers and managers need to know about AI?
+    lede:
+      body: Desirability, feasibility, and viability are the three components of a
+        model for successful products — an integrated model that is often
+        carried out by segregated teams.
+    text:
+      body: >-
+        Join us for our annual conference where people from product management,
+        ux, research and design will gather to discover what we have to learn
+        from one another.
+
+
+        Learn new approaches and glean fresh insights that will bring solid benefits for you, your colleagues and your clients.
+    testimonial:
+      visibility: true
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  post:
+    title: It’s a wrap!
+    lede:
+      body: Thanks to everyone who attended, sponsored and spoke at UX Brighton 2025.
+        [Sign up to be notified](https://uxbri.org/2022/#newletter-signup) about
+        future UX Brighton talks and events. You may also wish to [join our
+        Slack](http://slack.uxbrighton.org.uk/) community, which includes a
+        rather nice [\#jobs](https://uxbri.slack.com/messages/jobs) channel.
+    text:
+      body: ""
+    testimonial:
+      visibility: true
+      quote: Some of the smartest, most insightful and entertaining people I've met.
+        And that was just the audience. The speakers were great, too.
+      quotee: Mike Kuniavsky, Xerox PARC
+  overview-state: pre
+speakers:
+  visibility: true
+  section-title: Talks
+  section-banner: /images/header2.jpg
+  speaker-info:
+    show-times: false
+    show-videos: false
+    show-slides: true
+    speaker-list:
+      - talk-info:
+          talk-time: ""
+          talk-title: Talk title TBA
+          talk-summary: ""
+        name: Hannah Beresford
+        thumbnail: /images/hannah-beresford.jpg
+        anchor: Hannah-Beresford
+        speaker-bio:
+          bio-title: About Hannah
+          bio-summary: >-
+            Hannah Beresford is a Design Research Manager at Deloitte Digital,
+            where she plays a key role in shaping AI-powered solutions used by
+            thousands of people.
+
+
+            Her mission is to ensure that artificial intelligence enhances human experiences by addressing genuine user needs.As AI evolves, especially with the rise of Generative AI and its transition to more conversational interfaces, Hannah is dedicated to making these systems simpler, smarter, and more intuitive.
+
+
+            Her work centres on understanding how humans interact with AI and ensuring that these interactions feel natural and seamless.
+      - talk-info:
+          talk-time: ""
+          talk-title: All the things AI can do
+          talk-summary: >-
+            There’s an old quote: “There are decades where nothing happens; and
+            there are weeks where decades happen.” And with AI, it can feel like
+            every week brings a “decade’s worth” of new technologies and ideas.
+
+
+            As a UX researcher or designer, it’s hard to keep track of the AI technologies that we can add to our products. So this talk is a primer. It’s a visual, guided-tour of what’s available - what’s “on the menu” - to help you design amazing new experiences for users.
+
+
+            This talk aims to inspire you, help you discover new technologies, and steer your design and research with a clear understanding of what is practical and buildable. To future-proof yourself, you’ll also learn a practical system for staying on top of emerging AI technologies in your field and matching these technologies to your users’ needs.
+        name: Will Taylor
+        thumbnail: /images/will-taylor-square-1024.jpg
+        anchor: Will-Taylor
+        speaker-bio:
+          bio-title: About Will
+          bio-summary: >-
+            Will Taylor is a seasoned designer and engineer who has been
+            designing and building startups for the last 12 years.
+
+
+            He is the founder of Workflow.design, an AI company for the creative industry. Workflow was voted among the top 1% of European startups by Focal ’24 and has been nominated for multiple design and product awards from Awwwards.
+
+
+            Previously, he was the founder and principal designer at the startup Rota, which was acquired in 2022. Will holds a master’s degree in Theoretical Physics from the University of Oxford and, between startups, is a qualified mental health coach.
+      - talk-info:
+          talk-time: ""
+          talk-title: "Designing Your Future: Mastering AI and Prompt Engineering to
+            Amplify Creativity and Career – Dr Philip Bonhard"
+          talk-summary: >-
+            AI is all the rage, isn’t it? You can’t read the news without
+            someone proclaiming it to be the best thing since sliced bread or
+            the bringer of doom. But what does it really do and how will it
+            affect your job? If ChatGPT can generate a business proposal for a
+            start-up in the tone of voice of Coca-Cola ads and generate a
+            website to go with it — will we need copywriters and designers in
+            the future?
+
+
+            In this talk, Phill will explore what designers need to know about AI beyond the hype, how they can stand out from the crowd, and what they should do right now to stay relevant and 10x their productivity. AI will be many things, but it should be an opportunity for growth!
+        name: Dr Philip Bonhard
+        thumbnail: /images/dr-philip-bonhard-square-630.jpg
+        anchor: Dr-Philip-Bonhard
+        speaker-bio:
+          bio-title: About Philip
+          bio-summary: >-
+            Dr Phil Bonhard is the Head of Experience Design for Homes/Mortgages
+            at Lloyds Banking Group, the UK’s biggest home purchase lender. In a
+            nutshell, his teams are responsible for considering human needs
+            before jumping to solutions and then helps to get the right
+            designers on board, like UX, Service, Visual Designers and
+            researchers.
+
+
+            Before that, he headed up Experience Design for the Economic Crime Prevention Platform, which included all matters fincrime, Fraud and Authentication. Prior to joining Lloyds, Phil worked in academia, big consulting firms and ran his own design agency. He holds a PhD in Human-Computer Interaction from University College London.
+
+
+            Most importantly he’s passionate about designing products and services that make people’s lives better. He also likes to build stuff for his three little children and tinker with his raspberry pie/arduino board with the occasional Lego thrown in. He strongly believes that building/prototyping stuff and experimenting is more important than describing it.
+      - talk-info:
+          talk-time: ""
+          talk-title: The Expanding Dark Forest and Generative AI
+          talk-summary: The web is becoming an eerily lifeless place. Its public spaces
+            are filled with a mix of bad faith actors and automated predators
+            like bots, advertisers, clickbait attention-grabbers, and angry
+            twitter mobs. Like a dark forest, all the living creatures are
+            quietly hiding out of sight. Generative AI systems are about to make
+            this situation worse. We now have tools that can churn out tens of
+            thousands of words, images, and videos in seconds. The volume of
+            mundane, low-quality, and uninspired content published to the web is
+            about to explode. How will we find original insights under this pile
+            of cruft? How will we figure out which authors are flesh-and-blood
+            humans we can form emotional and intellectual relationships with?
+            And does it even matter if something was made by an AI instead of a
+            human?
+        name: Maggie Appleton
+        thumbnail: /images/maggie-square.png
+        anchor: Maggie-Appleton
+        speaker-bio:
+          bio-title: About Maggie
+          bio-summary: Maggie is a designer-developer-anthropologist hybrid interested in
+            tools for thought, end-user programming, and novel interfaces for
+            language models / other "AI" capabilities. She's currently a lead
+            design engineer at Normally – a design and prototyping research
+            studio based in London.
+      - talk-info:
+          talk-time: ""
+          talk-title: Synthetic Users in an Organic World
+          talk-summary: >-
+            'I am large, I contain multitudes' said Walt Whitman. Multimodal
+            models contain all of humanity's digitised organic reality. From
+            deep web forums to all social, YouTube, product reviews, websites,
+            and scientific publications… all make up a primordial soup we use to
+            recreate ourselves so we can best simulate and predict organic
+            behaviour.
+
+
+            We are creating a digital reflection of humanity, capturing the nuances of our thoughts, emotions, and behaviours.
+
+
+            We can delve into the complexities of human psychology, and understand motivations, biases, and preferences. We are not only using this knowledge to predict future behaviour, and personalise experiences, but also to develop new products and services.
+
+
+            In this talk, Kwame will take us on a three-part journey on how to think about Synthetic Users —  where we are and what future is being desired and created. All through the lens of having built Synthetic Users and a few other companies.
+        name: Kwame Ferreira
+        thumbnail: /images/kwame-ferreira-square-630.jpg
+        anchor: Kwame-Ferreira
+        speaker-bio:
+          bio-title: About Kwame
+          bio-summary: >-
+            Kwame Ferreira is a designer and serial entrepreneur based in Lisbon
+            and San Francisco.
+
+
+            He is the founder of [Syntheticusers.com](https://syntheticusers.com), a global user and market research platform that accelerates and democratizes research within organizations by **synthesizing human behavior using frontier models**.
+
+
+            Kwame is also the founder of the award-winning Bond-touch.com, a pioneer in emotional wearables that use touch as a language. He created Planet Centric Design methodology at Impossible.com and helped kickstart ventures like Fairphone.com, TheVinylFactory.com (to take a break from digital), Enchufada.com, and many others.
+      - talk-info:
+          talk-time: ""
+          talk-title: Emerging UX patterns beyond the chatbot
+          talk-summary: >-
+            Pablo will share his experience designing AI-powered tools.
+
+
+            We’ll look at key UI/UX patterns that help users interact with AI in a natural way – going beyond just using a chatbot.
+
+
+            We’ll learn about simple and effective flows that make AI features easy to use.
+
+
+            This talk is for teams who want to make AI tools more user-friendly and bridge the gap between humans and the little robots powering our apps.
+        name: Pablo Stanley
+        thumbnail: /images/pablo-stanley-630.jpg
+        anchor: Pablo-Stanley
+        speaker-bio:
+          bio-title: About Pablo
+          bio-summary: >-
+            Pablo Stanley is a Latin designer based in Mexico. He is the
+            co-founder and CEO at Musho & Lummi — AI design tools aimed at
+            unlocking people's creativity. Previously, he co-founded Carbon
+            Health and Blush, and held roles as a staff designer at Lyft and
+            lead designer at InVision.
+
+
+            Pablo gives talks and workshops around the world on product design, animation, illustration systems, storytelling, accessibility, behavioral economics, challenges of being a designer, doodling, and the art of comics.
+
+
+            He has a YouTube channel called Sketch Together, where he shares design tutorials, livestreams, critiques, and other fun stuff. Pablo also hosts various podcasts, including 'Diseño Cha Cha Cha', which features interviews with Latinxs in the tech industry. He's the doodler behind Open Peeps, Avataaars, Humaaans, Open Doodles, Bottts, and Buttsss.
+
+
+            Moreover, Pablo is a talented writer and illustrator, known for his comic series 'The Design Team', portraying the lives of startup designers.
+
+
+            In his latest endeavor, Pablo aims to share his wealth of experience and passion by creating design courses for emerging designers.
+      - talk-info:
+          talk-time: ""
+          talk-title: "Humanising AI: Design solutions for building calibrated user trust"
+          talk-summary: >-
+            In this session Ewa (UX Designer) & Manú (UX Researcher) will talk
+            us through a variety of case studies from AI powered products which
+            have successfully built calibrated trust in their users.
+
+
+            Taking their own experience building an AI search tool for seasoned experts in patent intelligence as the starting point.
+
+
+            Exploring three key elements for building user trust:
+
+
+            **How to explain how your product works**
+
+
+            * It’s not about how an AI makes a decision, it’s why
+
+            * Case study: Derwent Innovation’s AI search
+
+
+            **How to ‘humanise’ your AI product to build trust**
+
+
+            * Case study: ChatGPT
+
+            * How to harness good bias to personalise your AI: Feedback, training on the fly & data sources
+
+
+            **How to teach users to use the Al product correctly**
+
+
+            * Responding to actions
+
+            * Error messages
+
+            * Interactive onboarding
+        name: Manú Bartlett & Ewa Koc
+        thumbnail: /images/manu-and-ewa.jpg
+        anchor: Manu-and-Ewa
+        speaker-bio:
+          bio-title: About Manú & Ewa
+          bio-summary: >-
+            **Manú Bartlett**
+
+
+            Manú has worked as a UX Researcher for over 6 years, starting off with  microfinance users for a fintech inclusion organisation in Mexico in 2017, then working as an in-house researcher for the British Government, followed by Opencast UK Tech  Consultancy and last year she joined the global leader in data products: Clarivate  Analytics.
+
+
+            She is an Anthropologist who won the prestigious Fulbright scholarship to study for a masters degree in Design & Anthropology at Parsons Design School, the New School in NYC.
+
+
+            She also holds a BA in Economic Geography from the London School of Economics (LSE).
+
+
+            Her work unites the iterative process of design thinking with in-depth ethnographic & quantitative research to understand the needs and desires of users in complex contexts.
+
+
+            **Ewa Koc**
+
+
+            Ewa is a senior UX designer with a background in linguistics. Formerly at Roche Diagnostics, a global healthcare leader, she now works at Clarivate, focusing on IP Intelligence Solutions.
+
+
+            She completed her master's degree in UX/UI at Ramon Llull University of Barcelona and has previous experience in marketing and technical writing.
+
+
+            Ewa is particularly interested in accessibility and data-driven design, enabling her to make a meaningful impact in the digital world.
+      - talk-info:
+          talk-time: 10:00 am
+          talk-title: Human conversations with grids of numbers
+          talk-summary: >-
+            The rise of large language models signals a new era in machine
+            learning. Yet, these grids of numbers, while impressive, offer a
+            faltering facade of true human communication. Past research reminds
+            us that conversation is a beautiful, chaotic, and profoundly human
+            tool that resists easy replication.
+
+
+            However, there is a seed in generative AI of something to come: tools that can generate individualised and ethereal interactions. Emerging reasoning capabilities that can interact with the experiences we have built for humans, which act as agents on our behalf. These systems hold the promise of eventually working in collaboration with us, through our greatest tool – spoken and written language.
+
+
+            In this talk Glenn will explore possible AI driven user experiences. What will be the place for graphical interfaces in a world of conversational AI? Will chat UI design patterns prove to be just a passing adolescent phase – something we'll all soon look back on with a wry smile.
+        name: Glenn Jones
+        thumbnail: /images/glenn-jones-square-630.jpg
+        anchor: Glenn-Jones
+        speaker-bio:
+          bio-title: About Glenn
+          bio-summary: >-
+            Glenn Jones is a tech founder and advisor with a passion for
+            seamlessly blending UX design, product leadership, and strategic
+            thinking. He led the design and product function in the start-up he
+            co-founded, working for clients such as The Guardian, FT and
+            Washington Post.
+
+
+            Unconventionally, he has in-depth expertise across many different fields of the digital industry. His mind moves from data, coding, to considering UX, all while strategizing product commercialization. You might find him doing all of these things at once. After being involved in two successful tech exits, Glenn spends his time researching AI and advising high-growth teams.
+          social-profiles:
+            - profile-type: linkedin
+              profile-url: https://www.linkedin.com/in/glennjones/
+              profile-label: LinkedIn/jannabastow
+            - profile-type: twitter
+              profile-url: https://twitter.com/glennjones
+              profile-label: "@simplybastow"
+        talk-media:
+          talk-video: ""
+          talk-slides: ""
+  registration:
+    thumbnail: /images/registration.jpg
+    time: 09:00 am
+    summary: >-
+      Doors will open at 9am for registration. Name badges will be arranged
+      alphabetically by first name. Complimentary pastries and refreshments will
+      be available.
+
+
+      Use the [Dome entrance](https://www.google.com/maps/place/Brighton+Dome/@50.8236893,-0.1380335,169m/data=!3m1!1e3!4m5!3m4!1s0x4875850a94b987c3:0x204845bd08377bb3!8m2!3d50.8237117!4d-0.1379561) on Church Street. It’s approx [10 mins walk](https://goo.gl/maps/cquBSxHuJbbg54bt6) from the train station.
+
+
+      * Please note that The Dome may conduct bag searches.
+
+      * Please be seated by 9.50am so you don’t miss anything.
+    visibility: false
+    anchor: Registration
+    title: Registration
+  after-party:
+    visibility: true
+    time: 17:20 pm
+    thumbnail: /images/party1.jpg
+    title: After Party
+    anchor: After-Party
+    summary: >-
+      Join us for after conference drinks in the Foyer Bar (at the venue) until
+      8pm. You will receive a drinks voucher at registration. Your voucher is
+      valid for a selection of alcoholic and non-alcoholic drinks.
+
+
+      Please keep your name badge with you if you want to leave and come back again.
+  full: true
+sponsors:
+  sponsors-premium:
+    visibility: false
+    section-title: Premium Sponsors
+    sponsor-list:
+      - name: Fresh Egg
+        logo: /images/fresh-egg-logo.svg
+        url: https://www.freshegg.co.uk/
+        summary: Fresh Egg provide digital marketing that’s driven by customer
+          experience. Everything they do starts with understanding audience
+          needs while improving user journeys to improve digital success.
+        links:
+          - link-type: twitter
+            profile-url: https://twitter.com/freshegg
+          - link-type: facebook
+            profile-url: https://www.facebook.com/FreshEggUK/
+      - name: J.P. Morgan
+        logo: /images/jpm.svg
+        url: https://www.jpmorgan.com/GB/en/about-us
+        summary: J.P. Morgan is a leader in financial services, offering solutions to
+          clients in more than 100 countries with one of the most comprehensive
+          global product platforms available.
+        links:
+          - link-type: twitter
+            profile-url: https://twitter.com/jpmorgan
+          - link-type: facebook
+            profile-url: https://www.facebook.com/jpmorgan
+    show-opportunity: false
+  section-intro:
+    title: Sponsor UX Brighton
+    lede: UX Brighton attracts an engaged crowd of designers, decision makers and
+      influencers. If you’re interested in supporting UX Brighton have a look at
+      the [sponsorship information page](/sponsorship) for more details.
+  sponsors-headline:
+    visibility: false
+    section-title: Headline Sponsor
+    sponsor-details:
+      name: Legal & General
+      logo: /images/l-g-logo-rgb-4c-black.svg
+      url: https://www.legalandgeneral.com/
+      summary: Legal & General is a FTSE 30 multinational financial services company.
+        Its products and services include investment management, lifetime
+        mortgages (a form of equity release), pensions, annuities and life
+        assurance.
+      links:
+        - link-type: twitter
+          profile-url: https://twitter.com/landg_uk
+        - link-type: facebook
+          profile-url: https://www.facebook.com/legalandgeneral/
+  partners:
+    partners-editor: >-
+      ### Partners
+
+
+      UX Brighton is proud to be partnering with the following organisations
+
+
+      <a href="https://www.interaction-design.org/?ep=ux-brighton-conference-2025" target="_blank">
+        <img src="/2025/images/ixdf-logo.svg" alt="Interaction Design Foundation" />
+      </a>
+  section-title: Sponsors
+  sponsors-standard:
+    visibility: true
+    section-title: Standard Sponsors
+    sponsor-list:
+      - name: JS Bin
+        logo: /images/jsbin-1-.svg
+        url: https://jsbin.com/
+        summary: JS Bin is a webapp specifically designed to help JavaScript and CSS
+          folk test snippets of code, within some context, and debug the code
+          collaboratively.
+        links: []
+    show-opportunity: true
+  visibility: true
+  section-banner: /images/sponsors-35.jpg
+  testimonial:
+    visibility: true
+    quote: Fantastic conference - a fresh mix of new ideas, provocative speakers,
+      and a highly engaged audience. Well worth the trip.
+    quotee: Alex Wright, Director of User Experience at the New York Times
+image: https://uxbri.org/2022/images/cards/Early-bird.png
+social-image: /images/uxbri-2025.png
+event-promo-top-of-page: true
+highlights:
+  visibility: true
+  title: Highlights from previous years
+  video:
+    - url: https://youtu.be/JuKEbtHJ3bc
+      thumbnail: /images/alice-helliwell-youtube-thumbnail-.png
+      alt: UX and Forecasting - James Woudhuysen
+    - url: https://youtu.be/qejmncnEWmg
+      thumbnail: /images/stefanie-posavec-youtube-thumbnail.png
+      alt: ResearchOps - Kate Towsey
+    - url: https://youtu.be/n-CE2KPgCk4
+      thumbnail: /images/mark-edgington-youtube-thumbnail-.png
+      alt: Top Tasks - Gerry McGovern
+    - alt: Atomic UX - Daniel Pidcock
+      thumbnail: /assets/video-thumbnails/atomic-ux-daniel-pidcock-thumbnail@2x.png
+      url: https://youtu.be/h9s3DrImGXA
+  testimonial:
+    quote: "UX Brighton is one of the premier UX events in Europe. In just one day,
+      you'll get access to some of the most cutting-edge presentations you can
+      imagine. Well organized, fabulous location, packed with valuable content —
+      go if you can: it's worth the investment."
+    quotee: Jim Kalbach, Past Speaker

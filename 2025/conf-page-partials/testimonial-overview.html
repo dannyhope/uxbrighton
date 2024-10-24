@@ -1,0 +1,47 @@
+<!-- Pre-conference content -->
+{% if homepage.overview.overview-state == "pre" %}
+  {% if homepage.overview.pre.testimonial.visibility == true %}
+    <div class="testimonial clearfix">
+      <div class="row padding-top-row border-top mt0">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>{{ homepage.overview.pre.testimonial.quote }}</p>
+          </div>
+          <div class="quotee">{{ homepage.overview.pre.testimonial.quotee }}</div>
+        </blockquote>
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+
+<!-- During conference content -->
+{% if homepage.overview.overview-state == "during" %}
+  {% if homepage.overview.during.testimonial.visibility == true %}
+    <div class="testimonial clearfix">
+      <div class="row padding-top-row border-top mt0">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>{{ homepage.overview.during.testimonial.quote }}</p>
+          </div>
+          <div class="quotee">{{ homepage.overview.during.testimonial.quotee }}</div>
+        </blockquote>
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+
+<!-- Post-conference content -->
+{% if homepage.overview.overview-state == "post" %}
+  {% if homepage.overview.post.testimonial.visibility == true %}
+    <div class="testimonial clearfix">
+      <div class="row padding-top-row border-top mt0">
+        <blockquote class="standfirst">
+          <div class="quote">
+            <p>{{ homepage.overview.post.testimonial.quote }}</p>
+          </div>
+          <div class="quotee">{{ homepage.overview.post.testimonial.quotee }}</div>
+        </blockquote>
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
